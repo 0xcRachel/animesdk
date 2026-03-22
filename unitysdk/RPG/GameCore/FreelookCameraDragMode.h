@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FreelookCameraDragMode_TypeDefinitionIndex = 18632;
+
+	enum class FreelookCameraDragMode : ::System::Int32
+	{
+		Translation = 0,
+		Orbit = 1,
+	};
+}

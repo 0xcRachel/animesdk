@@ -1,0 +1,379 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenGameConfig.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenMiniGameBase.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/HipplenCountingChimeraMiniGame_HipplenGuessAnswerType.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/HipplenCountingChimeraMiniGame_InnerState.h"
+#include "unitysdk/RPG/GameCore/HipplenGameGradeType.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_CFF7FC5CD9C1D292;
+namespace RPG::Client::ActivityHipplen { class HipplenCountingChimeraMiniGame_PlayingTrackAsset; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class HipplenCountingChimeraMiniGameConfig; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Collections::Generic { template <typename T> class Queue_1; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::Playables { class PlayableDirector; }
+namespace UnityEngine::Timeline { class TimelineAsset; }
+
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_CANRESTART_OFFSET UNITYSDK_OFFSET(0x8B3E3B0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_DOREPORT_OFFSET UNITYSDK_OFFSET(0x8B3E320)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GETQUIZCHIMERATRANSFORM_OFFSET UNITYSDK_OFFSET(0x8B3DD60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_HIPPLENGUESSANSWERINDEX_OFFSET UNITYSDK_OFFSET(0x8B41B90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_ISSHOWHINT_OFFSET UNITYSDK_OFFSET(0x8B41BB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x8B41B50)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_PERFORMANCETOTALTIME_OFFSET UNITYSDK_OFFSET(0x8B41B70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_ROOTANCHORNAME_OFFSET UNITYSDK_OFFSET(0x8B41BC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERCHIMERAGOTOWORKCALLBACK_OFFSET UNITYSDK_OFFSET(0x8B3DD10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0x8B3DCC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERPERFORMANCETIMECHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x8B3DC70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERSHOWOPTIONSCALLBACK_OFFSET UNITYSDK_OFFSET(0x8B3DC20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_RESTART_OFFSET UNITYSDK_OFFSET(0x8B3DDD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SELECTANSWER_OFFSET UNITYSDK_OFFSET(0x8B3D9B0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SET_HIPPLENGUESSANSWERINDEX_OFFSET UNITYSDK_OFFSET(0x8B41BA0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x8B41B60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SET_PERFORMANCETOTALTIME_OFFSET UNITYSDK_OFFSET(0x8B41B80)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CHECKISCHIMERAGOTOWORK_OFFSET UNITYSDK_OFFSET(0x8B3FCC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CREATECHIMERAENTITY_OFFSET UNITYSDK_OFFSET(0x8B414F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CREATEOPTIONS_OFFSET UNITYSDK_OFFSET(0x8B40F70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CREATEQUIZCHIMERA_OFFSET UNITYSDK_OFFSET(0x8B3EC10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x8B32850)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__GETANSWERINDEX_OFFSET UNITYSDK_OFFSET(0x8B41AD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__GETCHIMERAENTITY_OFFSET UNITYSDK_OFFSET(0x8B3F190)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__GETGRADETYPE_OFFSET UNITYSDK_OFFSET(0x8B414A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__INITTRACKS_OFFSET UNITYSDK_OFFSET(0x8B40660)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONCHIMERAPERFORMANCEFINISHED_OFFSET UNITYSDK_OFFSET(0x8B40C70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x8B40540)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONFAIL_OFFSET UNITYSDK_OFFSET(0x8B3DB40)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONINIT_OFFSET UNITYSDK_OFFSET(0x8B3E4E0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONSTART_OFFSET UNITYSDK_OFFSET(0x8B3E1C0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONSUCC_OFFSET UNITYSDK_OFFSET(0x8B3DA60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONTICK_OFFSET UNITYSDK_OFFSET(0x8B3F8F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__RECYCLECHIMERA_OFFSET UNITYSDK_OFFSET(0x8B3DF90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__REFRESHHIPPLENGUESSANSWER_OFFSET UNITYSDK_OFFSET(0x8B416A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__SELECTCHIMERAID_OFFSET UNITYSDK_OFFSET(0x8B40BC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__SETLOOKATCHIMERA_OFFSET UNITYSDK_OFFSET(0x8B3ED90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__SHOWOPTIONS_OFFSET UNITYSDK_OFFSET(0x8B40D60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__STARTCHIMERAPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x8B3E400)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__TICKCHIMERAENITY_OFFSET UNITYSDK_OFFSET(0x8B3EE60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__TRYSHOWNEXTCHIMERAPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x8B3FEE0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__UNLOADCHARACTERS_OFFSET UNITYSDK_OFFSET(0x8B412E0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY_CANRESTART_OFFSET UNITYSDK_OFFSET(0x8B41DC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY_DOREPORT_OFFSET UNITYSDK_OFFSET(0x8B41D50)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY_RESTART_OFFSET UNITYSDK_OFFSET(0x8B41D40)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__GETGRADETYPE_OFFSET UNITYSDK_OFFSET(0x8B41FC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x8B41F60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONINIT_OFFSET UNITYSDK_OFFSET(0x8B41E90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONSTART_OFFSET UNITYSDK_OFFSET(0x8B41E30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONTICK_OFFSET UNITYSDK_OFFSET(0x8B41EF0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___ONFAIL_B__25_0_OFFSET UNITYSDK_OFFSET(0x8B41CD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___ONINIT_B__14_0_OFFSET UNITYSDK_OFFSET(0x8B41C00)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___ONSUCC_B__24_0_OFFSET UNITYSDK_OFFSET(0x8B41C60)
+
+namespace RPG::Client::ActivityHipplen
+{
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_TypeDefinitionIndex = 59977;
+
+	class HipplenCountingChimeraMiniGame : public ::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase
+	{
+	public:
+		::UnityEngine::Playables::PlayableDirector* _Director; // 0x70
+		::System::Action* _OnShowOptions; // 0x78
+		::UnityEngine::Timeline::TimelineAsset* _TimelineAsset; // 0x80
+		::RPG::GameCore::GameEntity* _QuizChimera; // 0x88
+		::System::Collections::Generic::Queue_1<::RPG::GameCore::GameEntity*>* _ChimeraPool; // 0x90
+		::System::Action_1<::System::Int32>* _OnFinish; // 0x98
+		::Il2CppArray<::System::Int32>* _Options_k__BackingField; // 0xA0
+		::System::Action* _OnChimeraGotoWork; // 0xA8
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* _CharacterList; // 0xB0
+		::System::Action* _FinishAction; // 0xB8
+		::RPG::GameCore::HipplenCountingChimeraMiniGameConfig* _ConfigRef; // 0xC0
+		::RPG::GameCore::GameEntity* _LookAtChimera; // 0xC8
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::HipplenCountingChimeraMiniGame_PlayingTrackAsset*>* _PlayingTrackAssets; // 0xD0
+		::System::Action_1<::System::Single>* _OnPerformanceTimeChanged; // 0xD8
+		::System::Int32 _CorrectAnswerIndex; // 0xE0
+		::RPG::Client::ActivityHipplen::HipplenCountingChimeraMiniGame_InnerState _State; // 0xE4
+		::System::Int32 _HipplenGuessAnswerIndex_k__BackingField; // 0xE8
+		::RPG::GameCore::HipplenGameGradeType _GradeType; // 0xEC
+		::System::Boolean _IsCharacterLoaded; // 0xF0
+		::System::Single _PlayTime; // 0xF4
+		::System::Int32 _CorrectAnswer; // 0xF8
+		::System::Int32 _WorstAnswer; // 0xFC
+		::System::Single _PerformanceTotalTime_k__BackingField; // 0x100
+		::System::Int32 _CurWaveIndex; // 0x104
+		::RPG::Client::ActivityHipplen::HipplenCountingChimeraMiniGame_HipplenGuessAnswerType _GuessAnswerType; // 0x108
+		::System::Single _PerformanceRemainTime; // 0x10C
+		::System::Single _CountDown; // 0x110
+		::System::Int32 _ApproximatelyAnswer; // 0x114
+
+		::System::Void _ctor(::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig row)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CTOR_OFFSET))(this, row);
+		}
+
+		::System::Void SelectAnswer(::System::UInt32 selectionIndex)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SELECTANSWER_OFFSET))(this, selectionIndex);
+		}
+
+		::System::Void RegisterShowOptionsCallback(::System::Action* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERSHOWOPTIONSCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::Void RegisterPerformanceTimeChangedCallback(::System::Action_1<::System::Single>* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERPERFORMANCETIMECHANGEDCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::Void RegisterFinishCallback(::System::Action_1<::System::Int32>* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERFINISHCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::Void RegisterChimeraGotoWorkCallback(::System::Action* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_REGISTERCHIMERAGOTOWORKCALLBACK_OFFSET))(this, callback);
+		}
+
+		::UnityEngine::Transform* GetQuizChimeraTransform()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GETQUIZCHIMERATRANSFORM_OFFSET))(this);
+		}
+
+		::System::Void Restart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_RESTART_OFFSET))(this);
+		}
+
+		::System::Void DoReport(::Class_1_CFF7FC5CD9C1D292* reporter, ::System::Boolean isFinished)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_CFF7FC5CD9C1D292*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_DOREPORT_OFFSET))(this, reporter, isFinished);
+		}
+
+		::System::Boolean CanRestart()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_CANRESTART_OFFSET))(this);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _OnInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONINIT_OFFSET))(this);
+		}
+
+		::System::Void _TickChimeraEnity()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__TICKCHIMERAENITY_OFFSET))(this);
+		}
+
+		::System::Void _OnTick(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONTICK_OFFSET))(this, deltaTime);
+		}
+
+		::System::Void _OnDispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONDISPOSE_OFFSET))(this);
+		}
+
+		::System::Void _InitTracks()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__INITTRACKS_OFFSET))(this);
+		}
+
+		::System::Void _StartChimeraPerformance()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__STARTCHIMERAPERFORMANCE_OFFSET))(this);
+		}
+
+		::System::Void _TryShowNextChimeraPerformance()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__TRYSHOWNEXTCHIMERAPERFORMANCE_OFFSET))(this);
+		}
+
+		::System::Void _OnChimeraPerformanceFinished()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONCHIMERAPERFORMANCEFINISHED_OFFSET))(this);
+		}
+
+		::System::Void _CreateQuizChimera()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CREATEQUIZCHIMERA_OFFSET))(this);
+		}
+
+		::System::Void _ShowOptions()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__SHOWOPTIONS_OFFSET))(this);
+		}
+
+		::System::Void _OnSucc()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONSUCC_OFFSET))(this);
+		}
+
+		::System::Void _OnFail(::RPG::GameCore::HipplenGameGradeType gradeType)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenGameGradeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__ONFAIL_OFFSET))(this, gradeType);
+		}
+
+		::RPG::GameCore::HipplenGameGradeType _GetGradeType()
+		{
+			return ((::RPG::GameCore::HipplenGameGradeType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__GETGRADETYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 _SelectChimeraID(::Il2CppArray<::System::UInt32>* chimeraIDs)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__SELECTCHIMERAID_OFFSET))(this, chimeraIDs);
+		}
+
+		::RPG::GameCore::GameEntity* _CreateChimeraEntity(::System::String* id)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CREATECHIMERAENTITY_OFFSET))(this, id);
+		}
+
+		::RPG::GameCore::GameEntity* _GetChimeraEntity(::System::UInt32 chimeraID, ::System::String* uniqueName, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::System::Boolean isQuizChimera)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__GETCHIMERAENTITY_OFFSET))(this, chimeraID, uniqueName, position, rotation, isQuizChimera);
+		}
+
+		::System::Void _RecycleChimera(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__RECYCLECHIMERA_OFFSET))(this, entity);
+		}
+
+		::System::Void _SetLookAtChimera(::RPG::GameCore::GameEntity* chimera)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__SETLOOKATCHIMERA_OFFSET))(this, chimera);
+		}
+
+		::Il2CppArray<::System::Int32>* _CreateOptions()
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CREATEOPTIONS_OFFSET))(this);
+		}
+
+		::System::Void _RefreshHipplenGuessAnswer(::Il2CppArray<::System::Int32>* options)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__REFRESHHIPPLENGUESSANSWER_OFFSET))(this, options);
+		}
+
+		::System::Int32 _GetAnswerIndex(::System::Int32 answer, ::Il2CppArray<::System::Int32>* options)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__GETANSWERINDEX_OFFSET))(this, answer, options);
+		}
+
+		::System::Boolean _CheckIsChimeraGotoWork(::RPG::GameCore::GameEntity* entity)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__CHECKISCHIMERAGOTOWORK_OFFSET))(this, entity);
+		}
+
+		::System::Void _UnloadCharacters()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME__UNLOADCHARACTERS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Int32>* get_Options()
+		{
+			return ((::Il2CppArray<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_OPTIONS_OFFSET))(this);
+		}
+
+		::System::Void set_Options(::Il2CppArray<::System::Int32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SET_OPTIONS_OFFSET))(this, value);
+		}
+
+		::System::Single get_PerformanceTotalTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_PERFORMANCETOTALTIME_OFFSET))(this);
+		}
+
+		::System::Void set_PerformanceTotalTime(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SET_PERFORMANCETOTALTIME_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_HipplenGuessAnswerIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_HIPPLENGUESSANSWERINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_HipplenGuessAnswerIndex(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_SET_HIPPLENGUESSANSWERINDEX_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsShowHint()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_ISSHOWHINT_OFFSET))(this);
+		}
+
+		::System::String* get_RootAnchorName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_GET_ROOTANCHORNAME_OFFSET))(this);
+		}
+
+		::System::Void __OnInit_b__14_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___ONINIT_B__14_0_OFFSET))(this);
+		}
+
+		::System::Void __OnSucc_b__24_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___ONSUCC_B__24_0_OFFSET))(this);
+		}
+
+		::System::Void __OnFail_b__25_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___ONFAIL_B__25_0_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Restart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY_RESTART_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_DoReport(::Class_1_CFF7FC5CD9C1D292* P0, ::System::Boolean P1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_CFF7FC5CD9C1D292*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY_DOREPORT_OFFSET))(this, P0, P1);
+		}
+
+		::System::Boolean __iFixBaseProxy_CanRestart()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY_CANRESTART_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONINIT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnTick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONTICK_OFFSET))(this, P0);
+		}
+
+		::System::Void __iFixBaseProxy__OnDispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__ONDISPOSE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::HipplenGameGradeType __iFixBaseProxy__GetGradeType()
+		{
+			return ((::RPG::GameCore::HipplenGameGradeType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME___IFIXBASEPROXY__GETGRADETYPE_OFFSET))(this);
+		}
+	};
+}

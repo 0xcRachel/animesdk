@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9479DB0)
+#define RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0x9479D70)
+#define RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9479D60)
+#define RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA__ISCUSTOMREDDOTSHOW_OFFSET UNITYSDK_OFFSET(0x9479E30)
+#define RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x947A170)
+#define RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA___IFIXBASEPROXY_UPDATEFULLCOMPLETESTATUS_OFFSET UNITYSDK_OFFSET(0x947A110)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GuessTheSilhouetteActivityData_TypeDefinitionIndex = 48861;
+
+	class GuessTheSilhouetteActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Void UpdateFullCompleteStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA_UPDATEFULLCOMPLETESTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCustomRedDotShow()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA__ISCUSTOMREDDOTSHOW_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_UpdateFullCompleteStatus()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA___IFIXBASEPROXY_UPDATEFULLCOMPLETESTATUS_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GUESSTHESILHOUETTEACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+	};
+}

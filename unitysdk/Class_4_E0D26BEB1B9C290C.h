@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PredicateConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class DynamicFloat; }
+
+#define CLASS_4_E0D26BEB1B9C290C_METHOD_4_5C65AE94D5D93795_OFFSET UNITYSDK_OFFSET(0x16723600)
+#define CLASS_4_E0D26BEB1B9C290C_METHOD_4_CFBE19BA3CA584C8_OFFSET UNITYSDK_OFFSET(0x16723780)
+#define CLASS_4_E0D26BEB1B9C290C__CTOR_OFFSET UNITYSDK_OFFSET(0x167236D0)
+
+inline static constexpr unsigned int Class_4_E0D26BEB1B9C290C_TypeDefinitionIndex = 20656;
+
+class Class_4_E0D26BEB1B9C290C : public ::RPG::GameCore::PredicateConfig
+{
+public:
+	::RPG::GameCore::DynamicFloat* Field_4_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E0D26BEB1B9C290C__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_4_5C65AE94D5D93795(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_E0D26BEB1B9C290C*& a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_E0D26BEB1B9C290C*&))((::PBYTE)hIl2Cpp + CLASS_4_E0D26BEB1B9C290C_METHOD_4_5C65AE94D5D93795_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_CFBE19BA3CA584C8(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_E0D26BEB1B9C290C* a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_E0D26BEB1B9C290C*))((::PBYTE)hIl2Cpp + CLASS_4_E0D26BEB1B9C290C_METHOD_4_CFBE19BA3CA584C8_OFFSET))(a1, a2);
+	}
+};

@@ -1,0 +1,219 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_24.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class RogueNousSubStoryRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_ADDNEXTSUBSTORY_OFFSET UNITYSDK_OFFSET(0x9E3E020)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GETAREAREQUIREMENTTEXT_OFFSET UNITYSDK_OFFSET(0x9E3EDE0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GETTRIGGERCONDITIONTEXT_OFFSET UNITYSDK_OFFSET(0x9E3E890)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISFIRSTLAYER_OFFSET UNITYSDK_OFFSET(0x9E3E0B0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISLASTLAYER_OFFSET UNITYSDK_OFFSET(0x9E3F420)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x9E3F4A0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISUNLOCKEDWITHALLNEXT_OFFSET UNITYSDK_OFFSET(0x9E3F400)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E3F200)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_LAYER_OFFSET UNITYSDK_OFFSET(0x9E3F0A0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_LEVELGRAPHPATH_OFFSET UNITYSDK_OFFSET(0x9E3E790)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_MAXNOUSVALUE_OFFSET UNITYSDK_OFFSET(0x9E3ED90)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_MINDIFFICULTYREQUIREMENT_OFFSET UNITYSDK_OFFSET(0x9E3F4C0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_MINNOUSVALUE_OFFSET UNITYSDK_OFFSET(0x9E3ED40)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9E3F0F0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_NEXTLAYERIDARRAY_OFFSET UNITYSDK_OFFSET(0x9E3DF30)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_NEXTSUBSTORIES_OFFSET UNITYSDK_OFFSET(0x9E3F490)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_PRELAYERID_OFFSET UNITYSDK_OFFSET(0x9E3F050)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_PREVSUBSTORY_OFFSET UNITYSDK_OFFSET(0x9E3F480)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x9E3F1B0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_QUESTSTATUS_OFFSET UNITYSDK_OFFSET(0x9E3F220)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_REWARDID_OFFSET UNITYSDK_OFFSET(0x9E3F330)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_SUBSTORYID_OFFSET UNITYSDK_OFFSET(0x9E3F040)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_REFRESHUNLOCKWITHALLNEXTTOCHILD_OFFSET UNITYSDK_OFFSET(0x9E3E0C0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_REPLAY_OFFSET UNITYSDK_OFFSET(0x9E3E610)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SETPREVSUBSTORY_OFFSET UNITYSDK_OFFSET(0x9E3DFD0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SET_ISNEW_OFFSET UNITYSDK_OFFSET(0x9E3F4B0)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SET_ISUNLOCKEDWITHALLNEXT_OFFSET UNITYSDK_OFFSET(0x9E3F410)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E3F210)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x9E3D830)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_UPDATEREDDOTSTATE_OFFSET UNITYSDK_OFFSET(0x9E3EF60)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E3DF90)
+#define RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM__REFRESHUNLOCKWITHALLNEXTTOROOT_OFFSET UNITYSDK_OFFSET(0x9E3E7F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueNousSubMissionDataItem_TypeDefinitionIndex = 53637;
+
+	class RogueNousSubMissionDataItem : public ::System::Object
+	{
+	public:
+		::RPG::Client::RogueNousSubMissionDataItem* _PrevSubStory; // 0x10
+		::RPG::GameCore::RogueNousSubStoryRow* _Row; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::RogueNousSubMissionDataItem*>* _NextSubStories; // 0x20
+		::System::Boolean _IsUnlocked_k__BackingField; // 0x28
+		::System::Boolean _IsNew_k__BackingField; // 0x29
+		::System::Boolean _IsUnlockedWithAllNext_k__BackingField; // 0x2A
+		::System::UInt32 _SubStoryID_k__BackingField; // 0x2C
+
+		::System::Void _ctor(::System::UInt32 subStoryID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM__CTOR_OFFSET))(this, subStoryID);
+		}
+
+		::System::Void Replay()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_REPLAY_OFFSET))(this);
+		}
+
+		::System::Void Sync(::System::Boolean isUnlocked, ::System::Boolean refreshImmediately)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SYNC_OFFSET))(this, isUnlocked, refreshImmediately);
+		}
+
+		::System::Void RefreshUnlockWithAllNextToChild()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_REFRESHUNLOCKWITHALLNEXTTOCHILD_OFFSET))(this);
+		}
+
+		::System::Void SetPrevSubStory(::RPG::Client::RogueNousSubMissionDataItem* prevSubStory)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueNousSubMissionDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SETPREVSUBSTORY_OFFSET))(this, prevSubStory);
+		}
+
+		::System::Void AddNextSubStory(::RPG::Client::RogueNousSubMissionDataItem* nextSubStory)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueNousSubMissionDataItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_ADDNEXTSUBSTORY_OFFSET))(this, nextSubStory);
+		}
+
+		::System::String* GetTriggerConditionText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GETTRIGGERCONDITIONTEXT_OFFSET))(this);
+		}
+
+		::System::String* GetAreaRequirementText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GETAREAREQUIREMENTTEXT_OFFSET))(this);
+		}
+
+		::System::Void UpdateRedDotState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_UPDATEREDDOTSTATE_OFFSET))(this);
+		}
+
+		::System::Void _RefreshUnlockWithAllNextToRoot()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM__REFRESHUNLOCKWITHALLNEXTTOROOT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SubStoryID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_SUBSTORYID_OFFSET))(this);
+		}
+
+		::System::Int32 get_MinNousValue()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_MINNOUSVALUE_OFFSET))(this);
+		}
+
+		::System::Int32 get_MaxNousValue()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_MAXNOUSVALUE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_NextLayerIDArray()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_NEXTLAYERIDARRAY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PreLayerID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_PRELAYERID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Layer()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_LAYER_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::System::UInt32 get_QuestID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_QUESTID_OFFSET))(this);
+		}
+
+		::System::String* get_LevelGraphPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_LEVELGRAPHPATH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SET_ISUNLOCKED_OFFSET))(this, value);
+		}
+
+		::Enum_3_4608E37A1B3D374A_24 get_QuestStatus()
+		{
+			return ((::Enum_3_4608E37A1B3D374A_24(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_QUESTSTATUS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RewardID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_REWARDID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlockedWithAllNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISUNLOCKEDWITHALLNEXT_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlockedWithAllNext(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SET_ISUNLOCKEDWITHALLNEXT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsFirstLayer()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISFIRSTLAYER_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLastLayer()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISLASTLAYER_OFFSET))(this);
+		}
+
+		::RPG::Client::RogueNousSubMissionDataItem* get_PrevSubStory()
+		{
+			return ((::RPG::Client::RogueNousSubMissionDataItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_PREVSUBSTORY_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::RogueNousSubMissionDataItem*>* get_NextSubStories()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::RogueNousSubMissionDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_NEXTSUBSTORIES_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNew()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_ISNEW_OFFSET))(this);
+		}
+
+		::System::Void set_IsNew(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_SET_ISNEW_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MinDifficultyRequirement()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSSUBMISSIONDATAITEM_GET_MINDIFFICULTYREQUIREMENT_OFFSET))(this);
+		}
+	};
+}

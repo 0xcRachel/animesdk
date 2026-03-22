@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA4AC960)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA4AC910)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GET_ACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xA4AC9B0)
+#define RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA4AC900)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LevelTurnActionPhaseBegin_TypeDefinitionIndex = 44544;
+
+	class LevelTurnActionPhaseBegin : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::GameEntity* _ActiveEntity; // 0x10
+
+		::System::Void _ctor(::RPG::GameCore::GameEntity* activeEntity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN__CTOR_OFFSET))(this, activeEntity);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* get_ActiveEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNACTIONPHASEBEGIN_GET_ACTIVEENTITY_OFFSET))(this);
+		}
+	};
+}

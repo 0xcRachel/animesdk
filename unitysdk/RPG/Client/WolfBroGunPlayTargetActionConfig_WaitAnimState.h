@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionConfig.h"
+
+class Class_1_482F3423DE650EAD;
+namespace System { class String; }
+
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_METHOD_2_9B39F7D7C1FF70D6_OFFSET UNITYSDK_OFFSET(0xA266A10)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_METHOD_2_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xA266A80)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA266A70)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_WaitAnimState_TypeDefinitionIndex = 54545;
+
+	class WolfBroGunPlayTargetActionConfig_WaitAnimState : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
+	{
+	public:
+		::System::String* stateName; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_482F3423DE650EAD* Method_2_9B39F7D7C1FF70D6()
+		{
+			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_METHOD_2_9B39F7D7C1FF70D6_OFFSET))(this);
+		}
+
+		::Class_1_482F3423DE650EAD* Method_2_F8B73ECE7F883AC1()
+		{
+			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_WAITANIMSTATE_METHOD_2_F8B73ECE7F883AC1_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,122 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FouRotateVoxelSimpleCameraCurveBase.h"
+#include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_8385F95FFA7FAA1C;
+class Class_1_867B6CE75953535A_1;
+class Class_3_44EDAE37250FA2DB;
+namespace Cinemachine { class CinemachineVirtualCamera; }
+namespace RPG::Client { class MonoEffect; }
+namespace RPG::Client { class TriggerEffectParams; }
+namespace System { class Action; }
+namespace UnityEngine { class AnimationCurve; }
+
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_GET_CURRCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x95551E0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_0414B7E68ABA5085_OFFSET UNITYSDK_OFFSET(0x9555300)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_104F651E1412A8CC_OFFSET UNITYSDK_OFFSET(0x9554A20)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_2DC57A98C12C3B08_OFFSET UNITYSDK_OFFSET(0x9555120)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_7FBAA229ED524F8E_OFFSET UNITYSDK_OFFSET(0x95546D0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_92193DE475EFDCC9_OFFSET UNITYSDK_OFFSET(0x9554B40)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0x9554A70)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_D3129FE8DF635B48_OFFSET UNITYSDK_OFFSET(0x95552E0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0x95552F0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_STARTCURVE_OFFSET UNITYSDK_OFFSET(0x9554410)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9555280)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE___IFIXBASEPROXY_GET_CURRCAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x9555360)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE___UPDATECAMERATRANSFORM_B__12_0_OFFSET UNITYSDK_OFFSET(0x95552D0)
+
+namespace RPG::Client::LittleGame::FourRotateVoxel
+{
+	inline static constexpr unsigned int FourRotateVoxelGameFinishCurve_TypeDefinitionIndex = 60558;
+
+	class FourRotateVoxelGameFinishCurve : public ::RPG::Client::LittleGame::FourRotateVoxel::FouRotateVoxelSimpleCameraCurveBase
+	{
+	public:
+		::System::Single DelayStartTime; // 0x50
+		::System::Single TargetOrthographicSize; // 0x54
+		::System::Single ZoomOutDuration; // 0x58
+		::UnityEngine::AnimationCurve* ZoomOutCurve; // 0x60
+		::System::Single FocusAnimalDuration; // 0x68
+		::System::Single DelayFadeEffectTime; // 0x6C
+		::System::Single DelayChangeAnimalColorTime; // 0x70
+		::System::Single ZoomInDuration; // 0x74
+		::UnityEngine::AnimationCurve* ZoomInCurve; // 0x78
+		::System::Int32 Field_6_9; // 0x80
+		::System::Single Field_6_10; // 0x84
+		::UnityEngine::Vector3 Field_6_11; // 0x88
+		::UnityEngine::Vector3 Field_6_12; // 0x94
+		::RPG::Client::TriggerEffectParams* Field_6_13; // 0xA0
+		::RPG::Client::MonoEffect* Field_6_14; // 0xA8
+		::Cinemachine::CinemachineVirtualCamera* Field_6_15; // 0xB0
+		::System::Action* Field_6_16; // 0xB8
+		::System::Boolean Field_6_17; // 0xC0
+		::UnityEngine::Vector3 Field_6_18; // 0xC4
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void StartCurve(::Class_1_867B6CE75953535A_1* a1, ::Class_3_44EDAE37250FA2DB* a2, ::Class_1_8385F95FFA7FAA1C* a3, ::System::Action* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_44EDAE37250FA2DB*, ::Class_1_8385F95FFA7FAA1C*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_STARTCURVE_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_6_104F651E1412A8CC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_104F651E1412A8CC_OFFSET))(this);
+		}
+
+		::System::Void Method_6_BBA49FAB086F388D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_BBA49FAB086F388D_OFFSET))(this);
+		}
+
+		::System::Void Method_6_92193DE475EFDCC9(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_92193DE475EFDCC9_OFFSET))(this, a1);
+		}
+
+		::UnityEngine::Vector3 get_CurrCameraPosition()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_GET_CURRCAMERAPOSITION_OFFSET))(this);
+		}
+
+		::System::Void Method_6_2DC57A98C12C3B08(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_2DC57A98C12C3B08_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_6_7FBAA229ED524F8E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_7FBAA229ED524F8E_OFFSET))(this);
+		}
+
+		::System::Void __UpdateCameraTransform_b__12_0(::RPG::Client::MonoEffect* effect, ::RPG::Client::TriggerEffectCallbackParams callbackParams)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE___UPDATECAMERATRANSFORM_B__12_0_OFFSET))(this, effect, callbackParams);
+		}
+
+		::System::Void Method_6_D3129FE8DF635B48()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_D3129FE8DF635B48_OFFSET))(this);
+		}
+
+		::System::Void Method_6_F7300E87EC49A206()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_F7300E87EC49A206_OFFSET))(this);
+		}
+
+		::System::Void Method_6_0414B7E68ABA5085(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE_METHOD_6_0414B7E68ABA5085_OFFSET))(this, P0);
+		}
+
+		::UnityEngine::Vector3 __iFixBaseProxy_get_CurrCameraPosition()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMEFINISHCURVE___IFIXBASEPROXY_GET_CURRCAMERAPOSITION_OFFSET))(this);
+		}
+	};
+}

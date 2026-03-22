@@ -1,0 +1,149 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_DEDEB7A9CFC0863E_ChangeSource.h"
+#include "unitysdk/RPG/GameCore/EraStateType.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+#include "unitysdk/System/Nullable_1.h"
+
+namespace RPG::Client { class AchievementData; }
+namespace RPG::Client { class EraFlipperCommonConfig; }
+namespace RPG::Client { class EraFlipperManager; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define CLASS_2_DEDEB7A9CFC0863E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10E13E50)
+#define CLASS_2_DEDEB7A9CFC0863E_GET__COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0x10E144B0)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_086AF5E1F81FD4BC_OFFSET UNITYSDK_OFFSET(0x10E137F0)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_179B688B1C50B6B2_OFFSET UNITYSDK_OFFSET(0x10E13990)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0x10E12CE0)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_66B58BEE3C528647_OFFSET UNITYSDK_OFFSET(0x10E12FD0)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_6FCE3C1CA67834FE_OFFSET UNITYSDK_OFFSET(0x10E14370)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x10E13530)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_7BB7B8DF81B8A021_OFFSET UNITYSDK_OFFSET(0x10E13720)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_812B27EF664F59CD_OFFSET UNITYSDK_OFFSET(0x10E14410)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_99053D1AE5A59190_OFFSET UNITYSDK_OFFSET(0x10E13AE0)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_A4A798E0E81B27AE_OFFSET UNITYSDK_OFFSET(0x10E12B00)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0x10E12D40)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_D1D4A36D34D84F96_OFFSET UNITYSDK_OFFSET(0x10E13FB0)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0x10E13380)
+#define CLASS_2_DEDEB7A9CFC0863E_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x10E144A0)
+#define CLASS_2_DEDEB7A9CFC0863E_SET__COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0x10E144C0)
+#define CLASS_2_DEDEB7A9CFC0863E_TICK_OFFSET UNITYSDK_OFFSET(0x10E13F30)
+#define CLASS_2_DEDEB7A9CFC0863E__CTOR_OFFSET UNITYSDK_OFFSET(0x10E12A70)
+#define CLASS_2_DEDEB7A9CFC0863E___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x10E144D0)
+
+inline static constexpr unsigned int Class_2_DEDEB7A9CFC0863E_TypeDefinitionIndex = 58423;
+
+class Class_2_DEDEB7A9CFC0863E : public ::RPG::GameCore::GameComponentBase
+{
+public:
+	// static const ::System::UInt32 Field_2_8 = 0x3DB4E2; // 0x0
+	::RPG::Client::EraFlipperCommonConfig* __CommonConfig_k__BackingField; // 0x18
+	::RPG::Client::EraFlipperManager* Field_2_7; // 0x20
+	::RPG::Client::AchievementData* Field_2_5; // 0x28
+	::System::Nullable_1<::RPG::GameCore::EraStateType> Field_2_4; // 0x30
+	::System::Boolean Field_2_6; // 0x38
+	::System::Boolean Field_2_0; // 0x39
+	::System::Boolean Field_2_1; // 0x3A
+	::System::Boolean Field_2_2; // 0x3B
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A4A798E0E81B27AE(::Class_2_DEDEB7A9CFC0863E* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_DEDEB7A9CFC0863E*))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_A4A798E0E81B27AE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A6544B958241856F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_A6544B958241856F_OFFSET))(this);
+	}
+
+	::System::Void Method_2_EDFD49C942C75D6C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_EDFD49C942C75D6C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_086AF5E1F81FD4BC(::System::Int32 a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_086AF5E1F81FD4BC_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_99053D1AE5A59190()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_99053D1AE5A59190_OFFSET))(this);
+	}
+
+	::System::Void Method_2_739DB9F245C7FAD0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_739DB9F245C7FAD0_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7BB7B8DF81B8A021(::System::Int32 a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_7BB7B8DF81B8A021_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_66B58BEE3C528647(::System::Boolean a1, ::Class_2_DEDEB7A9CFC0863E_ChangeSource a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_2_DEDEB7A9CFC0863E_ChangeSource))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_66B58BEE3C528647_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_6FCE3C1CA67834FE(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_6FCE3C1CA67834FE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_D1D4A36D34D84F96(::System::Boolean a1, ::Class_2_DEDEB7A9CFC0863E_ChangeSource a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_2_DEDEB7A9CFC0863E_ChangeSource))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_D1D4A36D34D84F96_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 Method_2_179B688B1C50B6B2(::System::String* a1, ::System::String* a2)
+	{
+		return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_179B688B1C50B6B2_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_812B27EF664F59CD(::System::UInt32& a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_812B27EF664F59CD_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1B9CC121BDC8766D(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_METHOD_2_1B9CC121BDC8766D_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::EraFlipperCommonConfig* get__CommonConfig()
+	{
+		return ((::RPG::Client::EraFlipperCommonConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_GET__COMMONCONFIG_OFFSET))(this);
+	}
+
+	::System::Void set__CommonConfig(::RPG::Client::EraFlipperCommonConfig* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::EraFlipperCommonConfig*))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E_SET__COMMONCONFIG_OFFSET))(this, value);
+	}
+
+	::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_DEDEB7A9CFC0863E___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+	}
+};

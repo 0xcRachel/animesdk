@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/UI/TouchFilter_FilterState.h"
+
+namespace UnityEngine::EventSystems { class PointerEventData; }
+
+#define UNITYENGINE_UI_TOUCHFILTER_FILTERTOUCH_OFFSET UNITYSDK_OFFSET(0x183565F0)
+#define UNITYENGINE_UI_TOUCHFILTER_GET_STATE_OFFSET UNITYSDK_OFFSET(0x18364F80)
+#define UNITYENGINE_UI_TOUCHFILTER_SET_STATE_OFFSET UNITYSDK_OFFSET(0x18364F90)
+#define UNITYENGINE_UI_TOUCHFILTER_TOUCHBEGIN_OFFSET UNITYSDK_OFFSET(0x18356DA0)
+#define UNITYENGINE_UI_TOUCHFILTER_TOUCHEND_OFFSET UNITYSDK_OFFSET(0x18364FA0)
+#define UNITYENGINE_UI_TOUCHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18355A20)
+
+namespace UnityEngine::UI
+{
+	inline static constexpr unsigned int TouchFilter_TypeDefinitionIndex = 5638;
+
+	class TouchFilter : public ::System::Object
+	{
+	public:
+		::UnityEngine::UI::TouchFilter_FilterState _state_k__BackingField; // 0x10
+		::System::Int32 TouchID; // 0x14
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::TouchFilter_FilterState get_state()
+		{
+			return ((::UnityEngine::UI::TouchFilter_FilterState(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_GET_STATE_OFFSET))(this);
+		}
+
+		::System::Void set_state(::UnityEngine::UI::TouchFilter_FilterState value)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::TouchFilter_FilterState))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_SET_STATE_OFFSET))(this, value);
+		}
+
+		::System::Void TouchBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_TOUCHBEGIN_OFFSET))(this);
+		}
+
+		::System::Boolean FilterTouch(::System::Boolean shareDrag, ::System::Boolean ignoreCheck, ::System::Boolean vertical, ::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Boolean responseMultiTouch, ::System::Boolean enableHanldeCountLimit)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::UnityEngine::EventSystems::PointerEventData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_FILTERTOUCH_OFFSET))(this, shareDrag, ignoreCheck, vertical, eventData, responseMultiTouch, enableHanldeCountLimit);
+		}
+
+		::System::Boolean TouchEnd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_TOUCHFILTER_TOUCHEND_OFFSET))(this);
+		}
+	};
+}

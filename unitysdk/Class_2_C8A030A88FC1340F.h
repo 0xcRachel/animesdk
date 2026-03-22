@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+namespace RPG::GameCore { class QuestProgressChangeListener; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
+
+#define CLASS_2_C8A030A88FC1340F_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD89BD00)
+#define CLASS_2_C8A030A88FC1340F_METHOD_2_1AE24536EC302522_OFFSET UNITYSDK_OFFSET(0xD89BF50)
+#define CLASS_2_C8A030A88FC1340F_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD89BC80)
+#define CLASS_2_C8A030A88FC1340F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD89BA50)
+#define CLASS_2_C8A030A88FC1340F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD89BBD0)
+#define CLASS_2_C8A030A88FC1340F_TICK_OFFSET UNITYSDK_OFFSET(0xD89BDE0)
+#define CLASS_2_C8A030A88FC1340F__CTOR_OFFSET UNITYSDK_OFFSET(0xD89BA30)
+
+inline static constexpr unsigned int Class_2_C8A030A88FC1340F_TypeDefinitionIndex = 46039;
+
+class Class_2_C8A030A88FC1340F : public ::Class_1_5F51D4049EA87B7B
+{
+public:
+	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::QuestProgressChangeListener* Field_2_0; // 0x28
+	::System::Boolean Field_2_2; // 0x30
+	::System::UInt32 Field_2_3; // 0x34
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::QuestProgressChangeListener* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::QuestProgressChangeListener*))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_ONTASKRESET_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1AE24536EC302522(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A030A88FC1340F_METHOD_2_1AE24536EC302522_OFFSET))(this, a1);
+	}
+};

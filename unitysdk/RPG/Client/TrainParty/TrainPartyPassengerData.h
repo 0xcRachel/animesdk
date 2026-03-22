@@ -1,0 +1,222 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_4DF3292AA5AADAD0_23;
+class Class_1_61AB926B0DCFDD4A_5;
+namespace RPG::Client::TrainParty { class TrainPartyPassengerDiaryInfo; }
+namespace RPG::Client::TrainParty { class TrainPartyPassengerStatusInfo; }
+namespace RPG::GameCore { class TrainPartyPassengerConfigRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_CLEARGAMEPLAYDATA_OFFSET UNITYSDK_OFFSET(0xA0EDD20)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA0ED8E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_AVATARNAMETEXT_OFFSET UNITYSDK_OFFSET(0xA0E4C60)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_CANBELEADER_OFFSET UNITYSDK_OFFSET(0xA0EDEF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_CARDPREFABPATH_OFFSET UNITYSDK_OFFSET(0xA0EE900)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_CHALLENGETIMES_OFFSET UNITYSDK_OFFSET(0xA0EE970)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISLEADER_OFFSET UNITYSDK_OFFSET(0xA0ED080)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0xA0EDF10)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISONTRAIN_OFFSET UNITYSDK_OFFSET(0xA0EE150)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xA0EDED0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ITEMICONPATH_OFFSET UNITYSDK_OFFSET(0xA0EE470)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_MEETINGCARDPREFABPATH_OFFSET UNITYSDK_OFFSET(0xA0EE890)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_MINIICONPATH_OFFSET UNITYSDK_OFFSET(0xA0EE680)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA0EE170)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_PASSENGERID_OFFSET UNITYSDK_OFFSET(0xA0EDE40)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_REMAINSTEPNUM_OFFSET UNITYSDK_OFFSET(0xA0EDE60)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ROUNDICONBGPATH_OFFSET UNITYSDK_OFFSET(0xA0EE400)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xA0EE1F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA0EDE70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_STATRATIO_OFFSET UNITYSDK_OFFSET(0xA0EE990)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SETISUNLOCK_OFFSET UNITYSDK_OFFSET(0xA0EDDF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_CANBELEADER_OFFSET UNITYSDK_OFFSET(0xA0EDF00)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_CHALLENGETIMES_OFFSET UNITYSDK_OFFSET(0xA0EE980)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_ISNEW_OFFSET UNITYSDK_OFFSET(0xA0EE030)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_ISONTRAIN_OFFSET UNITYSDK_OFFSET(0xA0EE160)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xA0EDEE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_PASSENGERID_OFFSET UNITYSDK_OFFSET(0xA0EDE50)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_STATRATIO_OFFSET UNITYSDK_OFFSET(0xA0EE9A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SYNCPERSISTENTINFO_OFFSET UNITYSDK_OFFSET(0xA0EDAB0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xA0ED9B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA0ED880)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0ED7E0)
+
+namespace RPG::Client::TrainParty
+{
+	inline static constexpr unsigned int TrainPartyPassengerData_TypeDefinitionIndex = 59372;
+
+	class TrainPartyPassengerData : public ::System::Object
+	{
+	public:
+		::RPG::Client::TrainParty::TrainPartyPassengerDiaryInfo* DiaryInfo; // 0x10
+		::RPG::Client::TrainParty::TrainPartyPassengerStatusInfo* StatusInfo; // 0x18
+		::System::UInt32 _PassengerID_k__BackingField; // 0x20
+		::System::UInt32 _StatRatio_k__BackingField; // 0x24
+		::System::Boolean _CanBeLeader_k__BackingField; // 0x28
+		::System::Boolean _IsUnlock_k__BackingField; // 0x29
+		::System::Boolean _IsOnTrain_k__BackingField; // 0x2A
+		::System::UInt32 _ChallengeTimes_k__BackingField; // 0x2C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::System::UInt32 passengerID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA__CTOR_1_OFFSET))(this, passengerID);
+		}
+
+		static ::RPG::Client::TrainParty::TrainPartyPassengerData* Create(::Class_1_4DF3292AA5AADAD0_23* serverInfo)
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyPassengerData*(*)(::Class_1_4DF3292AA5AADAD0_23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_CREATE_OFFSET))(serverInfo);
+		}
+
+		::System::Void Sync(::Class_1_4DF3292AA5AADAD0_23* serverInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4DF3292AA5AADAD0_23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SYNC_OFFSET))(this, serverInfo);
+		}
+
+		::System::Void SyncPersistentInfo(::Class_1_61AB926B0DCFDD4A_5* serverInfo, ::System::Boolean markNew)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_61AB926B0DCFDD4A_5*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SYNCPERSISTENTINFO_OFFSET))(this, serverInfo, markNew);
+		}
+
+		::System::Void ClearGameplayData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_CLEARGAMEPLAYDATA_OFFSET))(this);
+		}
+
+		::System::Void SetIsUnlock(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SETISUNLOCK_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_PassengerID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_PASSENGERID_OFFSET))(this);
+		}
+
+		::System::Void set_PassengerID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_PASSENGERID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_RemainStepNum()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_REMAINSTEPNUM_OFFSET))(this);
+		}
+
+		::RPG::GameCore::TrainPartyPassengerConfigRow* get_Row()
+		{
+			return ((::RPG::GameCore::TrainPartyPassengerConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ROW_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISUNLOCK_OFFSET))(this);
+		}
+
+		::System::Void set_IsUnlock(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_ISUNLOCK_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CanBeLeader()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_CANBELEADER_OFFSET))(this);
+		}
+
+		::System::Void set_CanBeLeader(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_CANBELEADER_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsNew()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISNEW_OFFSET))(this);
+		}
+
+		::System::Void set_IsNew(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_ISNEW_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsOnTrain()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISONTRAIN_OFFSET))(this);
+		}
+
+		::System::Void set_IsOnTrain(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_ISONTRAIN_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsLeader()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ISLEADER_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_RoundIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ROUNDICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_RoundIconBgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ROUNDICONBGPATH_OFFSET))(this);
+		}
+
+		::System::String* get_ItemIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_ITEMICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_MiniIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_MINIICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_MeetingCardPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_MEETINGCARDPREFABPATH_OFFSET))(this);
+		}
+
+		::System::String* get_CardPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_CARDPREFABPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ChallengeTimes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_CHALLENGETIMES_OFFSET))(this);
+		}
+
+		::System::Void set_ChallengeTimes(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_CHALLENGETIMES_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_StatRatio()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_STATRATIO_OFFSET))(this);
+		}
+
+		::System::Void set_StatRatio(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_SET_STATRATIO_OFFSET))(this, value);
+		}
+
+		::System::String* get_AvatarNameText()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERDATA_GET_AVATARNAMETEXT_OFFSET))(this);
+		}
+	};
+}

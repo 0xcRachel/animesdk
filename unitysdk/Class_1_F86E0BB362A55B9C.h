@@ -1,0 +1,90 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_324;
+class Class_0_16E4307DCC419505_328;
+class Class_0_16E4307DCC419505_329;
+class Class_0_16E4307DCC419505_330;
+class Class_0_16E4307DCC419505_331;
+namespace RPG::AvatarSystem { class AvatarServant; }
+
+#define CLASS_1_F86E0BB362A55B9C_GET_PROPERTYPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B9060)
+#define CLASS_1_F86E0BB362A55B9C_GET_SERVANTROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B9080)
+#define CLASS_1_F86E0BB362A55B9C_GET_SERVANTSKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B90A0)
+#define CLASS_1_F86E0BB362A55B9C_GET_SERVANT_OFFSET UNITYSDK_OFFSET(0x89B9030)
+#define CLASS_1_F86E0BB362A55B9C_GET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B9040)
+#define CLASS_1_F86E0BB362A55B9C_METHOD_1_4EC2E1ECDEE1B9F2_OFFSET UNITYSDK_OFFSET(0x89B9150)
+#define CLASS_1_F86E0BB362A55B9C_SET_PROPERTYPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B9070)
+#define CLASS_1_F86E0BB362A55B9C_SET_SERVANTROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B9090)
+#define CLASS_1_F86E0BB362A55B9C_SET_SERVANTSKILLROWDATAPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B90B0)
+#define CLASS_1_F86E0BB362A55B9C_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0x89B9050)
+#define CLASS_1_F86E0BB362A55B9C__CTOR_OFFSET UNITYSDK_OFFSET(0x89B90C0)
+
+inline static constexpr unsigned int Class_1_F86E0BB362A55B9C_TypeDefinitionIndex = 40920;
+
+class Class_1_F86E0BB362A55B9C : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_324* _PropertyProvider_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_328* _ServantSkillRowDataProvider_k__BackingField; // 0x18
+	::Class_0_16E4307DCC419505_329* _SkillLevelProvider_k__BackingField; // 0x20
+	::RPG::AvatarSystem::AvatarServant* _Servant_k__BackingField; // 0x28
+	::Class_0_16E4307DCC419505_330* Field_1_0; // 0x30
+	::Class_0_16E4307DCC419505_331* _ServantRowDataProvider_k__BackingField; // 0x38
+
+	::System::Void _ctor(::RPG::AvatarSystem::AvatarServant* a1, ::Class_0_16E4307DCC419505_330* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::AvatarServant*, ::Class_0_16E4307DCC419505_330*))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::AvatarSystem::AvatarServant* get_Servant()
+	{
+		return ((::RPG::AvatarSystem::AvatarServant*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_GET_SERVANT_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_329* get_SkillLevelProvider()
+	{
+		return ((::Class_0_16E4307DCC419505_329*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_GET_SKILLLEVELPROVIDER_OFFSET))(this);
+	}
+
+	::System::Void set_SkillLevelProvider(::Class_0_16E4307DCC419505_329* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_329*))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_SET_SKILLLEVELPROVIDER_OFFSET))(this, value);
+	}
+
+	::Class_0_16E4307DCC419505_324* get_PropertyProvider()
+	{
+		return ((::Class_0_16E4307DCC419505_324*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_GET_PROPERTYPROVIDER_OFFSET))(this);
+	}
+
+	::System::Void set_PropertyProvider(::Class_0_16E4307DCC419505_324* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_324*))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_SET_PROPERTYPROVIDER_OFFSET))(this, value);
+	}
+
+	::Class_0_16E4307DCC419505_331* get_ServantRowDataProvider()
+	{
+		return ((::Class_0_16E4307DCC419505_331*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_GET_SERVANTROWDATAPROVIDER_OFFSET))(this);
+	}
+
+	::System::Void set_ServantRowDataProvider(::Class_0_16E4307DCC419505_331* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_331*))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_SET_SERVANTROWDATAPROVIDER_OFFSET))(this, value);
+	}
+
+	::Class_0_16E4307DCC419505_328* get_ServantSkillRowDataProvider()
+	{
+		return ((::Class_0_16E4307DCC419505_328*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_GET_SERVANTSKILLROWDATAPROVIDER_OFFSET))(this);
+	}
+
+	::System::Void set_ServantSkillRowDataProvider(::Class_0_16E4307DCC419505_328* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_328*))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_SET_SERVANTSKILLROWDATAPROVIDER_OFFSET))(this, value);
+	}
+
+	::System::Boolean Method_1_4EC2E1ECDEE1B9F2(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F86E0BB362A55B9C_METHOD_1_4EC2E1ECDEE1B9F2_OFFSET))(this, a1);
+	}
+};

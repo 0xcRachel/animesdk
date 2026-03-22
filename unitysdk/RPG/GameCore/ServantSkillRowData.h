@@ -1,0 +1,304 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/SkillEffect.h"
+#include "unitysdk/Struct_2_5CDBC06B233F2791.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5D31C4140DCE7D34;
+class Class_1_E8C259E730C95D15;
+namespace RPG::GameCore { class AvatarServantSkillRow; }
+namespace RPG::GameCore { class SkillConfig; }
+namespace System { class String; }
+
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA4F2CA0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ATTACKDAMAGETYPEOVERRIDE_OFFSET UNITYSDK_OFFSET(0xA4F3410)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xA4F3450)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_BPADD_OFFSET UNITYSDK_OFFSET(0xA4F31A0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_BPNEED_OFFSET UNITYSDK_OFFSET(0xA4F3110)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA4F2D90)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_COOLDOWN_OFFSET UNITYSDK_OFFSET(0xA4F2EB0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_DELAYRATIO_OFFSET UNITYSDK_OFFSET(0xA4F3230)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_EXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xA4F3AD0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_HIDEINUI_OFFSET UNITYSDK_OFFSET(0xA4F3A00)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_INITCOOLDOWN_OFFSET UNITYSDK_OFFSET(0xA4F2E50)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA4F34E0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0xA4F3510)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xA4F32C0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_PREADDMODIFIERLIST_OFFSET UNITYSDK_OFFSET(0xA4F3540)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_PRECALEQUALSPLITTARGET_OFFSET UNITYSDK_OFFSET(0xA4F3550)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_RATEDRANKID_OFFSET UNITYSDK_OFFSET(0xA4F3B30)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_RATEDSKILLTREEID_OFFSET UNITYSDK_OFFSET(0xA4F3B10)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA4F2CE0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SHOWDAMAGELIST_OFFSET UNITYSDK_OFFSET(0xA4F3CE0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SHOWHEALLIST_OFFSET UNITYSDK_OFFSET(0xA4F3CF0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SHOWSTANCELIST_OFFSET UNITYSDK_OFFSET(0xA4F3CC0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SIMPLEEXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xA4F3AF0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SIMPLEPARAMLIST_OFFSET UNITYSDK_OFFSET(0xA4F3330)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SIMPLESKILLDESC_OFFSET UNITYSDK_OFFSET(0xA4F3950)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET UNITYSDK_OFFSET(0xA4F34B0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLDESC_OFFSET UNITYSDK_OFFSET(0xA4F38A0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLEFFECT_OFFSET UNITYSDK_OFFSET(0xA4F3480)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLICON_OFFSET UNITYSDK_OFFSET(0xA4F37C0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0xA4F2DA0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLNAME_OFFSET UNITYSDK_OFFSET(0xA4F35B0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLNEED_OFFSET UNITYSDK_OFFSET(0xA4F3A70)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLTAG_OFFSET UNITYSDK_OFFSET(0xA4F3660)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xA4F2DD0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLTYPEDESC_OFFSET UNITYSDK_OFFSET(0xA4F3710)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPADD_OFFSET UNITYSDK_OFFSET(0xA4F2F10)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPBASE_OFFSET UNITYSDK_OFFSET(0xA4F2FA0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPMULTIPLERATIO_OFFSET UNITYSDK_OFFSET(0xA4F30A0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xA4F3010)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_STANCEDAMAGEDISPLAY_OFFSET UNITYSDK_OFFSET(0xA4F3AA0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_STANCEDAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xA4F33A0)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ULTRASKILLICON_OFFSET UNITYSDK_OFFSET(0xA4F3830)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_OVERRIDEDATA_OFFSET UNITYSDK_OFFSET(0xA4F3B50)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xA4F2D40)
+#define RPG_GAMECORE_SERVANTSKILLROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4F2BC0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int ServantSkillRowData_TypeDefinitionIndex = 45424;
+
+	class ServantSkillRowData : public ::System::Object
+	{
+	public:
+		static ::RPG::GameCore::AvatarServantSkillRow** StaticGet__EmptyRow()
+		{
+			return (::RPG::GameCore::AvatarServantSkillRow**)Il2CppClass::FromTypeDefinitionIndex(ServantSkillRowData_TypeDefinitionIndex)->GetStaticField(0x447A0);
+		}
+		::Struct_2_5CDBC06B233F2791 _OverrideData; // 0x10
+		::Struct_2_5CDBC06B233F2791 _DefaultOverrideData; // 0x108
+		::RPG::GameCore::AvatarServantSkillRow* _Row; // 0x200
+		::RPG::GameCore::SkillConfig* _Config; // 0x208
+
+		::System::Void _ctor(::RPG::GameCore::AvatarServantSkillRow* row, ::RPG::GameCore::SkillConfig* config)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarServantSkillRow*, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA__CTOR_OFFSET))(this, row, config);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Object* get_Row()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ROW_OFFSET))(this);
+		}
+
+		::System::Void set_Row(::System::Object* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_SET_ROW_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::SkillConfig* get_Config()
+		{
+			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_CONFIG_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SkillID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLID_OFFSET))(this);
+		}
+
+		::System::String* get_SkillTriggerKey()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLTRIGGERKEY_OFFSET))(this);
+		}
+
+		::System::Int32 get_InitCoolDown()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_INITCOOLDOWN_OFFSET))(this);
+		}
+
+		::System::Int32 get_CoolDown()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_COOLDOWN_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPAdd()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPADD_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPBase()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPBASE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPNeed()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPNEED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPMultipleRatio()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SPMULTIPLERATIO_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_BPNeed()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_BPNEED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_BPAdd()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_BPADD_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_DelayRatio()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_DELAYRATIO_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_ParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_PARAMLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_SimpleParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SIMPLEPARAMLIST_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackDamageType get_StanceDamageType()
+		{
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_STANCEDAMAGETYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackDamageType get_AttackDamageTypeOverride()
+		{
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ATTACKDAMAGETYPEOVERRIDE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackType get_AttackType()
+		{
+			return ((::RPG::GameCore::AttackType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ATTACKTYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::SkillEffect get_SkillEffect()
+		{
+			return ((::RPG::GameCore::SkillEffect(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLEFFECT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SkillComboValueDelta()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MaxLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_MAXLEVEL_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::String*>* get_PreAddModifierList()
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_PREADDMODIFIERLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_PreCalEqualSplitTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_PRECALEQUALSPLITTARGET_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillTag()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLTAG_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillTypeDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLTYPEDESC_OFFSET))(this);
+		}
+
+		::System::String* get_SkillIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLICON_OFFSET))(this);
+		}
+
+		::System::String* get_UltraSkillIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_ULTRASKILLICON_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SimpleSkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SIMPLESKILLDESC_OFFSET))(this);
+		}
+
+		::System::Boolean get_HideInUI()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_HIDEINUI_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillNeed()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SKILLNEED_OFFSET))(this);
+		}
+
+		::System::Int32 get_StanceDamageDisplay()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_STANCEDAMAGEDISPLAY_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ExtraEffectIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_EXTRAEFFECTIDLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_SimpleExtraEffectIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SIMPLEEXTRAEFFECTIDLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_RatedSkillTreeID()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_RATEDSKILLTREEID_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_RatedRankID()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_RATEDRANKID_OFFSET))(this);
+		}
+
+		::System::Void OverrideData(::Struct_2_5CDBC06B233F2791 overrideData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_5CDBC06B233F2791))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_OVERRIDEDATA_OFFSET))(this, overrideData);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_ShowStanceList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SHOWSTANCELIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_5D31C4140DCE7D34*>* get_ShowDamageList()
+		{
+			return ((::Il2CppArray<::Class_1_5D31C4140DCE7D34*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SHOWDAMAGELIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_E8C259E730C95D15*>* get_ShowHealList()
+		{
+			return ((::Il2CppArray<::Class_1_E8C259E730C95D15*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVANTSKILLROWDATA_GET_SHOWHEALLIST_OFFSET))(this);
+		}
+	};
+}

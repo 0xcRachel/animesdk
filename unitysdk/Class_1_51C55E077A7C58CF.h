@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class Class_1_867B6CE75953535A;
+class Class_3_1A9D32B2B1D681B8;
+
+#define CLASS_1_51C55E077A7C58CF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16137C70)
+#define CLASS_1_51C55E077A7C58CF_METHOD_1_07BB45288DFF8852_OFFSET UNITYSDK_OFFSET(0x16137E40)
+#define CLASS_1_51C55E077A7C58CF_METHOD_1_741A41CE0A023F45_OFFSET UNITYSDK_OFFSET(0x161386A0)
+#define CLASS_1_51C55E077A7C58CF__CTOR_OFFSET UNITYSDK_OFFSET(0x16137BA0)
+
+inline static constexpr unsigned int Class_1_51C55E077A7C58CF_TypeDefinitionIndex = 31868;
+
+class Class_1_51C55E077A7C58CF : public ::System::Object
+{
+public:
+	::Class_3_1A9D32B2B1D681B8* Field_1_1; // 0x10
+	::Class_1_867B6CE75953535A* Field_1_0; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+
+	::System::Void _ctor(::Class_1_867B6CE75953535A* a1, ::Class_3_1A9D32B2B1D681B8* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*, ::Class_3_1A9D32B2B1D681B8*))((::PBYTE)hIl2Cpp + CLASS_1_51C55E077A7C58CF__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Execute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_51C55E077A7C58CF_EXECUTE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_07BB45288DFF8852()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_51C55E077A7C58CF_METHOD_1_07BB45288DFF8852_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_741A41CE0A023F45(::System::ValueTuple_2<::System::UInt32, ::System::UInt32> a1, ::System::UInt32 a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_51C55E077A7C58CF_METHOD_1_741A41CE0A023F45_OFFSET))(this, a1, a2);
+	}
+};

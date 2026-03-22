@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class FateActivityPanelData; }
+
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GETGAMEPLAYACTIVITYPANELDATA_OFFSET UNITYSDK_OFFSET(0x923B300)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_COLLECTIONACTIVITYID_OFFSET UNITYSDK_OFFSET(0x923AF60)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_GAMEPLAYACTIVITYID_OFFSET UNITYSDK_OFFSET(0x923AF50)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_MISSIONCHRONICLEMAINPATHID_OFFSET UNITYSDK_OFFSET(0x923B130)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_MISSIONCONTENTID_OFFSET UNITYSDK_OFFSET(0x923AF70)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET__GACHAREWARDQUESTID_OFFSET UNITYSDK_OFFSET(0x923B020)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_HASGACHAREWARD_OFFSET UNITYSDK_OFFSET(0x923B600)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_ISMAINMISSIONFINISHED_OFFSET UNITYSDK_OFFSET(0x923B510)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0x923B210)
+#define RPG_CLIENT_FATESUPPORTCOLLECTIONPART__CTOR_OFFSET UNITYSDK_OFFSET(0x923B7E0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateSupportCollectionPart_TypeDefinitionIndex = 50941;
+
+	class FateSupportCollectionPart : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART__CTOR_OFFSET))(this);
+		}
+
+		static ::System::UInt32 get_GameplayActivityID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_GAMEPLAYACTIVITYID_OFFSET))();
+		}
+
+		static ::System::UInt32 get_CollectionActivityID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_COLLECTIONACTIVITYID_OFFSET))();
+		}
+
+		static ::System::UInt32 get_MissionContentID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_MISSIONCONTENTID_OFFSET))();
+		}
+
+		static ::System::Nullable_1<::System::UInt32> get__GachaRewardQuestID()
+		{
+			return ((::System::Nullable_1<::System::UInt32>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET__GACHAREWARDQUESTID_OFFSET))();
+		}
+
+		static ::System::UInt32 get_MissionChronicleMainPathID()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GET_MISSIONCHRONICLEMAINPATHID_OFFSET))();
+		}
+
+		::System::Void OnLoginFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_ONLOGINFINISH_OFFSET))(this);
+		}
+
+		::RPG::Client::FateActivityPanelData* GetGameplayActivityPanelData()
+		{
+			return ((::RPG::Client::FateActivityPanelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_GETGAMEPLAYACTIVITYPANELDATA_OFFSET))(this);
+		}
+
+		::System::Boolean IsMainMissionFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_ISMAINMISSIONFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean HasGachaReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESUPPORTCOLLECTIONPART_HASGACHAREWARD_OFFSET))(this);
+		}
+	};
+}

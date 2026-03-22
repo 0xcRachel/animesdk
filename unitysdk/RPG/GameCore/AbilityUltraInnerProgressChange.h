@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_9988289E7F8AA214.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA2E2F40)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA2E2EF0)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xA2E2FB0)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GET_TARGETRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA2E2F90)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xA2E2E90)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xA2E2FC0)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_SET_TARGETRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA2E2FA0)
+#define RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E2FD0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int AbilityUltraInnerProgressChange_TypeDefinitionIndex = 44402;
+
+	class AbilityUltraInnerProgressChange : public ::Class_1_9988289E7F8AA214
+	{
+	public:
+		::System::UInt32 _TargetRuntimeID_k__BackingField; // 0x18
+		::RPG::GameCore::FixPoint _FillAmount_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE__CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AbilityUltraInnerProgressChange* Init(::System::UInt32 entityRuntimeId, ::RPG::GameCore::FixPoint fillAmount)
+		{
+			return ((::RPG::GameCore::AbilityUltraInnerProgressChange*(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_INIT_OFFSET))(this, entityRuntimeId, fillAmount);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GETEVENTTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TargetRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GET_TARGETRUNTIMEID_OFFSET))(this);
+		}
+
+		::System::Void set_TargetRuntimeID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_SET_TARGETRUNTIMEID_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::FixPoint get_FillAmount()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_GET_FILLAMOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_FillAmount(::RPG::GameCore::FixPoint value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYULTRAINNERPROGRESSCHANGE_SET_FILLAMOUNT_OFFSET))(this, value);
+		}
+	};
+}

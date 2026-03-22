@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class AdventureByIsInRotation; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_A9869C3C51614F83_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFD80DC0)
+#define CLASS_3_A9869C3C51614F83__CTOR_OFFSET UNITYSDK_OFFSET(0xFD80D90)
+
+inline static constexpr unsigned int Class_3_A9869C3C51614F83_TypeDefinitionIndex = 42496;
+
+class Class_3_A9869C3C51614F83 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureByIsInRotation*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureByIsInRotation* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdventureByIsInRotation*))((::PBYTE)hIl2Cpp + CLASS_3_A9869C3C51614F83__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_A9869C3C51614F83_ONTASKBEGIN_OFFSET))(this);
+	}
+};

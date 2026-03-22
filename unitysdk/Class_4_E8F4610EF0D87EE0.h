@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceBaseNtfMessage_1.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
+
+class Class_1_0E9EED74A778662A_2;
+class Class_1_735612C94F558EAE_24;
+
+#define CLASS_4_E8F4610EF0D87EE0_METHOD_4_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x8A8D220)
+#define CLASS_4_E8F4610EF0D87EE0_METHOD_4_416B12CFEB291691_OFFSET UNITYSDK_OFFSET(0x8A8D240)
+#define CLASS_4_E8F4610EF0D87EE0_METHOD_4_CE81D059476B1F49_OFFSET UNITYSDK_OFFSET(0x8A8D230)
+#define CLASS_4_E8F4610EF0D87EE0_METHOD_4_D2EDCCCF37B5B6E5_OFFSET UNITYSDK_OFFSET(0x8A8D210)
+#define CLASS_4_E8F4610EF0D87EE0__CTOR_OFFSET UNITYSDK_OFFSET(0x8A8D2F0)
+
+inline static constexpr unsigned int Class_4_E8F4610EF0D87EE0_TypeDefinitionIndex = 61342;
+
+class Class_4_E8F4610EF0D87EE0 : public ::RPG::Client::LittleGame::CakeRace::CakeRaceBaseNtfMessage_1<::Class_1_735612C94F558EAE_24*>
+{
+public:
+	::System::Void _ctor(::Class_1_0E9EED74A778662A_2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_0E9EED74A778662A_2*))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId Method_4_D2EDCCCF37B5B6E5()
+	{
+		return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_METHOD_4_D2EDCCCF37B5B6E5_OFFSET))(this);
+	}
+
+	::Class_1_735612C94F558EAE_24* Method_4_24748FC20F375725()
+	{
+		return ((::Class_1_735612C94F558EAE_24*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_METHOD_4_24748FC20F375725_OFFSET))(this);
+	}
+
+	::System::UInt64 Method_4_CE81D059476B1F49()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_METHOD_4_CE81D059476B1F49_OFFSET))(this);
+	}
+
+	static ::Class_4_E8F4610EF0D87EE0* Method_4_416B12CFEB291691(::Class_1_0E9EED74A778662A_2* a1)
+	{
+		return ((::Class_4_E8F4610EF0D87EE0*(*)(::Class_1_0E9EED74A778662A_2*))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_METHOD_4_416B12CFEB291691_OFFSET))(a1);
+	}
+};

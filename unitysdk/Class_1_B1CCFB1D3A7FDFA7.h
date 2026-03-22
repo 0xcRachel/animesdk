@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/NavMap/NavSpaceType.h"
+#include "unitysdk/RPG/Client/NavMap/NavVertexType.h"
+#include "unitysdk/Struct_2_4F1F52F64A80D6D2.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class Class_1_A9BFC150668414F7;
+
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x8586E90)
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_ID_OFFSET UNITYSDK_OFFSET(0x8586E20)
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x8586EA0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_ISHIDEWAYPOINT_OFFSET UNITYSDK_OFFSET(0x8586ED0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x8586EB0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x8586E60)
+#define CLASS_1_B1CCFB1D3A7FDFA7_GET_VERTEXINDEX_OFFSET UNITYSDK_OFFSET(0x8586E40)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_37A06FA845920D33_OFFSET UNITYSDK_OFFSET(0x8586E30)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_3B2051C60621D523_OFFSET UNITYSDK_OFFSET(0x85870A0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x85872F0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_4B1BE3FE00B6A945_OFFSET UNITYSDK_OFFSET(0x8586EC0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_5C5C75A8E153E6F3_OFFSET UNITYSDK_OFFSET(0x8586EF0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_7778ABE51AFDB516_OFFSET UNITYSDK_OFFSET(0x85870F0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x85872B0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_SET_ISHIDEWAYPOINT_OFFSET UNITYSDK_OFFSET(0x8586EE0)
+#define CLASS_1_B1CCFB1D3A7FDFA7_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x8586E80)
+#define CLASS_1_B1CCFB1D3A7FDFA7__CTOR_OFFSET UNITYSDK_OFFSET(0x8587020)
+
+inline static constexpr unsigned int Class_1_B1CCFB1D3A7FDFA7_TypeDefinitionIndex = 59526;
+
+class Class_1_B1CCFB1D3A7FDFA7 : public ::System::Object
+{
+public:
+	::Class_1_A9BFC150668414F7* Field_1_0; // 0x10
+	::System::Boolean _IsHideWaypoint_k__BackingField; // 0x18
+	::Struct_2_4F1F52F64A80D6D2 _VertexIndex_k__BackingField; // 0x1C
+	::UnityEngine::Vector3 _Position_k__BackingField; // 0x28
+	::System::UInt32 _ID_k__BackingField; // 0x34
+
+	::System::Void _ctor(::Class_1_A9BFC150668414F7* a1, ::Struct_2_4F1F52F64A80D6D2 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A9BFC150668414F7*, ::Struct_2_4F1F52F64A80D6D2))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 get_ID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_ID_OFFSET))(this);
+	}
+
+	::RPG::Client::NavMap::NavVertexType Method_1_37A06FA845920D33()
+	{
+		return ((::RPG::Client::NavMap::NavVertexType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_37A06FA845920D33_OFFSET))(this);
+	}
+
+	::Struct_2_4F1F52F64A80D6D2 get_VertexIndex()
+	{
+		return ((::Struct_2_4F1F52F64A80D6D2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_VERTEXINDEX_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 get_Position()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_POSITION_OFFSET))(this);
+	}
+
+	::System::Void set_Position(::UnityEngine::Vector3 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_SET_POSITION_OFFSET))(this, value);
+	}
+
+	::System::UInt32 get_GroupID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_GROUPID_OFFSET))(this);
+	}
+
+	::System::UInt32 get_InstanceID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_INSTANCEID_OFFSET))(this);
+	}
+
+	::System::UInt32 get_LittleGameEntityID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_LITTLEGAMEENTITYID_OFFSET))(this);
+	}
+
+	::RPG::Client::NavMap::NavSpaceType Method_1_4B1BE3FE00B6A945()
+	{
+		return ((::RPG::Client::NavMap::NavSpaceType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_4B1BE3FE00B6A945_OFFSET))(this);
+	}
+
+	::System::Boolean get_IsHideWaypoint()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_GET_ISHIDEWAYPOINT_OFFSET))(this);
+	}
+
+	::System::Void set_IsHideWaypoint(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_SET_ISHIDEWAYPOINT_OFFSET))(this, value);
+	}
+
+	static ::Class_1_B1CCFB1D3A7FDFA7* Method_1_5C5C75A8E153E6F3(::Class_1_A9BFC150668414F7* a1, ::Struct_2_4F1F52F64A80D6D2 a2)
+	{
+		return ((::Class_1_B1CCFB1D3A7FDFA7*(*)(::Class_1_A9BFC150668414F7*, ::Struct_2_4F1F52F64A80D6D2))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_5C5C75A8E153E6F3_OFFSET))(a1, a2);
+	}
+
+	::System::Void Method_1_3B2051C60621D523()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_3B2051C60621D523_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7778ABE51AFDB516()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_7778ABE51AFDB516_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_3E7178C5ECF017DB(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B1CCFB1D3A7FDFA7_METHOD_1_3E7178C5ECF017DB_OFFSET))(this, a1);
+	}
+};

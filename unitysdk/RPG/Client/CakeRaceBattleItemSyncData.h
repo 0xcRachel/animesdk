@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_735612C94F558EAE_24;
+class Class_1_BB4B99DE4C2501EC_4;
+class Class_4_E8F4610EF0D87EE0;
+namespace RPG::Client { class CakeRaceBattleItemDataItem; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_CREATEBYNTFSYNCMESSAGE_OFFSET UNITYSDK_OFFSET(0x8E31090)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_CREATEBYSNAPSHOTDATA_OFFSET UNITYSDK_OFFSET(0x8E31170)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GETBATTLEITEMS_OFFSET UNITYSDK_OFFSET(0x8E31220)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GET_BATTLEITEMIDS_OFFSET UNITYSDK_OFFSET(0x8E31870)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GET_CDENDTIMESTAMPMS_OFFSET UNITYSDK_OFFSET(0x8E31850)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GET_ISCDREMAINING_OFFSET UNITYSDK_OFFSET(0x8E315E0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_SET_BATTLEITEMIDS_OFFSET UNITYSDK_OFFSET(0x8E31880)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_SET_CDENDTIMESTAMPMS_OFFSET UNITYSDK_OFFSET(0x8E31860)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_SET_ISCDREMAINING_OFFSET UNITYSDK_OFFSET(0x8E31840)
+#define RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8E31140)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CakeRaceBattleItemSyncData_TypeDefinitionIndex = 49981;
+
+	class CakeRaceBattleItemSyncData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _BattleItemIDs_k__BackingField; // 0x10
+		::System::Boolean _IsCdRemaining_k__BackingField; // 0x18
+		::System::UInt64 _CdEndTimeStampMs_k__BackingField; // 0x20
+
+		::System::Void _ctor(::System::UInt64 beginTimeStamp, ::Class_1_735612C94F558EAE_24* battleItemData)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64, ::Class_1_735612C94F558EAE_24*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA__CTOR_OFFSET))(this, beginTimeStamp, battleItemData);
+		}
+
+		static ::RPG::Client::CakeRaceBattleItemSyncData* CreateByNtfSyncMessage(::Class_4_E8F4610EF0D87EE0* skillItemMessage)
+		{
+			return ((::RPG::Client::CakeRaceBattleItemSyncData*(*)(::Class_4_E8F4610EF0D87EE0*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_CREATEBYNTFSYNCMESSAGE_OFFSET))(skillItemMessage);
+		}
+
+		static ::RPG::Client::CakeRaceBattleItemSyncData* CreateBySnapShotData(::System::UInt64 beginTimeStamp, ::Class_1_BB4B99DE4C2501EC_4* snapShotData)
+		{
+			return ((::RPG::Client::CakeRaceBattleItemSyncData*(*)(::System::UInt64, ::Class_1_BB4B99DE4C2501EC_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_CREATEBYSNAPSHOTDATA_OFFSET))(beginTimeStamp, snapShotData);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceBattleItemDataItem*>* GetBattleItems()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::CakeRaceBattleItemDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GETBATTLEITEMS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsCdRemaining()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GET_ISCDREMAINING_OFFSET))(this);
+		}
+
+		::System::Void set_IsCdRemaining(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_SET_ISCDREMAINING_OFFSET))(this, value);
+		}
+
+		::System::UInt64 get_CdEndTimeStampMs()
+		{
+			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GET_CDENDTIMESTAMPMS_OFFSET))(this);
+		}
+
+		::System::Void set_CdEndTimeStampMs(::System::UInt64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_SET_CDENDTIMESTAMPMS_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* get_BattleItemIDs()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_GET_BATTLEITEMIDS_OFFSET))(this);
+		}
+
+		::System::Void set_BattleItemIDs(::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMSYNCDATA_SET_BATTLEITEMIDS_OFFSET))(this, value);
+		}
+	};
+}

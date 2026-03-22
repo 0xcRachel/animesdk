@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UIController.h"
+
+class Class_1_824086E13BCFFEC7;
+class Class_2_0A1C62BA070C4C31;
+namespace RPG::Client { class SimpleText; }
+namespace System { class String; }
+
+#define CLASS_2_004723B9BC1F9225_METHOD_2_870AF3CD1D0A67B1_OFFSET UNITYSDK_OFFSET(0x10485D90)
+#define CLASS_2_004723B9BC1F9225_ONINCONTROLEXIT_OFFSET UNITYSDK_OFFSET(0x10485E20)
+#define CLASS_2_004723B9BC1F9225_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0x10485B80)
+#define CLASS_2_004723B9BC1F9225__CTOR_OFFSET UNITYSDK_OFFSET(0x10485C90)
+#define CLASS_2_004723B9BC1F9225__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x10485BD0)
+#define CLASS_2_004723B9BC1F9225__ONEXITPRESTEP_OFFSET UNITYSDK_OFFSET(0x10485E60)
+#define CLASS_2_004723B9BC1F9225__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x10485CE0)
+#define CLASS_2_004723B9BC1F9225___IFIXBASEPROXY_ONINCONTROLEXIT_OFFSET UNITYSDK_OFFSET(0x10486070)
+#define CLASS_2_004723B9BC1F9225___IFIXBASEPROXY_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0x10485F20)
+#define CLASS_2_004723B9BC1F9225___IFIXBASEPROXY__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x10485FB0)
+#define CLASS_2_004723B9BC1F9225___IFIXBASEPROXY__ONEXITPRESTEP_OFFSET UNITYSDK_OFFSET(0x104860E0)
+#define CLASS_2_004723B9BC1F9225___IFIXBASEPROXY__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x10486010)
+
+inline static constexpr unsigned int Class_2_004723B9BC1F9225_TypeDefinitionIndex = 57521;
+
+class Class_2_004723B9BC1F9225 : public ::RPG::Client::UIController
+{
+public:
+	::Class_2_0A1C62BA070C4C31* Field_2_1; // 0x180
+	::Class_1_824086E13BCFFEC7* Field_2_2; // 0x188
+	::RPG::Client::SimpleText* Field_2_0; // 0x190
+
+	::System::Void _ctor(::Class_1_824086E13BCFFEC7* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_824086E13BCFFEC7*))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::String* ViewPrefabPath()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225_VIEWPREFABPATH_OFFSET))(this);
+	}
+
+	::System::Void _CustomBindView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225__CUSTOMBINDVIEW_OFFSET))(this);
+	}
+
+	::System::Void _SetupView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225__SETUPVIEW_OFFSET))(this);
+	}
+
+	::System::Void OnInControlExit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225_ONINCONTROLEXIT_OFFSET))(this);
+	}
+
+	::System::Void _OnExitPreStep()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225__ONEXITPRESTEP_OFFSET))(this);
+	}
+
+	::System::Void Method_2_870AF3CD1D0A67B1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225_METHOD_2_870AF3CD1D0A67B1_OFFSET))(this);
+	}
+
+	::System::String* __iFixBaseProxy_ViewPrefabPath()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225___IFIXBASEPROXY_VIEWPREFABPATH_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__CustomBindView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225___IFIXBASEPROXY__CUSTOMBINDVIEW_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__SetupView()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225___IFIXBASEPROXY__SETUPVIEW_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnInControlExit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225___IFIXBASEPROXY_ONINCONTROLEXIT_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__OnExitPreStep()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_004723B9BC1F9225___IFIXBASEPROXY__ONEXITPRESTEP_OFFSET))(this);
+	}
+};

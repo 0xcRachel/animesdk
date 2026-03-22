@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_4D5D53619B020DDD;
+namespace RPG::Client { class ItemData; }
+namespace RPG::Client { class RogueFormulaData; }
+
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GETPREVIEWFORMULADATA_OFFSET UNITYSDK_OFFSET(0x9DEE900)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_ALREADYHAVE_OFFSET UNITYSDK_OFFSET(0x9DEE9D0)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x9DEE9B0)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_CURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x9DEE970)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_FORMULAID_OFFSET UNITYSDK_OFFSET(0x9DEE950)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_ORIGINCURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x9DEE990)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_ALREADYHAVE_OFFSET UNITYSDK_OFFSET(0x9DEE9E0)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0x9DEE9C0)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_CURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x9DEE980)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_FORMULAID_OFFSET UNITYSDK_OFFSET(0x9DEE960)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_ORIGINCURRENCYITEM_OFFSET UNITYSDK_OFFSET(0x9DEE9A0)
+#define RPG_CLIENT_ROGUEFORMULASHOPITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DED8C0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueFormulaShopItemData_TypeDefinitionIndex = 53504;
+
+	class RogueFormulaShopItemData : public ::System::Object
+	{
+	public:
+		::RPG::Client::ItemData* _OriginCurrencyItem_k__BackingField; // 0x10
+		::RPG::Client::ItemData* _CurrencyItem_k__BackingField; // 0x18
+		::System::Boolean _Available_k__BackingField; // 0x20
+		::System::Boolean _AlreadyHave_k__BackingField; // 0x21
+		::System::UInt32 _FormulaID_k__BackingField; // 0x24
+
+		::System::Void _ctor(::System::UInt32 formulaID, ::Class_1_4D5D53619B020DDD* price, ::Class_1_4D5D53619B020DDD* originPrice, ::System::Boolean isAvailable, ::System::Boolean alreadyHave)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_4D5D53619B020DDD*, ::Class_1_4D5D53619B020DDD*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA__CTOR_OFFSET))(this, formulaID, price, originPrice, isAvailable, alreadyHave);
+		}
+
+		::RPG::Client::RogueFormulaData* GetPreviewFormulaData()
+		{
+			return ((::RPG::Client::RogueFormulaData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GETPREVIEWFORMULADATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FormulaID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_FORMULAID_OFFSET))(this);
+		}
+
+		::System::Void set_FormulaID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_FORMULAID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ItemData* get_CurrencyItem()
+		{
+			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_CURRENCYITEM_OFFSET))(this);
+		}
+
+		::System::Void set_CurrencyItem(::RPG::Client::ItemData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_CURRENCYITEM_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ItemData* get_OriginCurrencyItem()
+		{
+			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_ORIGINCURRENCYITEM_OFFSET))(this);
+		}
+
+		::System::Void set_OriginCurrencyItem(::RPG::Client::ItemData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_ORIGINCURRENCYITEM_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_Available()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_AVAILABLE_OFFSET))(this);
+		}
+
+		::System::Void set_Available(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_AVAILABLE_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_AlreadyHave()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_GET_ALREADYHAVE_OFFSET))(this);
+		}
+
+		::System::Void set_AlreadyHave(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFORMULASHOPITEMDATA_SET_ALREADYHAVE_OFFSET))(this, value);
+		}
+	};
+}

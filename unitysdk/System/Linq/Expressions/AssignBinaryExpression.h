@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Linq/Expressions/BinaryExpression.h"
+#include "unitysdk/System/Linq/Expressions/ExpressionType.h"
+
+namespace System { class Type; }
+namespace System::Linq::Expressions { class Expression; }
+
+#define SYSTEM_LINQ_EXPRESSIONS_ASSIGNBINARYEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x17C88800)
+#define SYSTEM_LINQ_EXPRESSIONS_ASSIGNBINARYEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17C887C0)
+#define SYSTEM_LINQ_EXPRESSIONS_ASSIGNBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17C886E0)
+
+namespace System::Linq::Expressions
+{
+	inline static constexpr unsigned int AssignBinaryExpression_TypeDefinitionIndex = 3161;
+
+	class AssignBinaryExpression : public ::System::Linq::Expressions::BinaryExpression
+	{
+	public:
+		::System::Void _ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_ASSIGNBINARYEXPRESSION__CTOR_OFFSET))(this, left, right);
+		}
+
+		::System::Type* get_Type()
+		{
+			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_ASSIGNBINARYEXPRESSION_GET_TYPE_OFFSET))(this);
+		}
+
+		::System::Linq::Expressions::ExpressionType get_NodeType()
+		{
+			return ((::System::Linq::Expressions::ExpressionType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_ASSIGNBINARYEXPRESSION_GET_NODETYPE_OFFSET))(this);
+		}
+	};
+}

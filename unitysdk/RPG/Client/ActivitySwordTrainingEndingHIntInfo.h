@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_735612C94F558EAE_87;
+namespace RPG::GameCore { class SwordTrainingStoryLineRow; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x8BC7190)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_GET_EXAMDAYLIST_OFFSET UNITYSDK_OFFSET(0x8BC7410)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x8BC73F0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_GET__ROW_OFFSET UNITYSDK_OFFSET(0x8BC7430)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_SET_EXAMDAYLIST_OFFSET UNITYSDK_OFFSET(0x8BC7420)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x8BC7400)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC7230)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO__INITEXAMDAYS_OFFSET UNITYSDK_OFFSET(0x8BC7240)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivitySwordTrainingEndingHIntInfo_TypeDefinitionIndex = 49140;
+
+	class ActivitySwordTrainingEndingHIntInfo : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::System::UInt32>* _ExamDayList_k__BackingField; // 0x10
+		::System::UInt32 _StoryLineID_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ActivitySwordTrainingEndingHIntInfo* Create(::Class_1_735612C94F558EAE_87* endingHintInfo)
+		{
+			return ((::RPG::Client::ActivitySwordTrainingEndingHIntInfo*(*)(::Class_1_735612C94F558EAE_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_CREATE_OFFSET))(endingHintInfo);
+		}
+
+		::System::UInt32 get_StoryLineID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_GET_STORYLINEID_OFFSET))(this);
+		}
+
+		::System::Void set_StoryLineID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_SET_STORYLINEID_OFFSET))(this, value);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_ExamDayList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_GET_EXAMDAYLIST_OFFSET))(this);
+		}
+
+		::System::Void set_ExamDayList(::System::Collections::Generic::List_1<::System::UInt32>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_SET_EXAMDAYLIST_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::SwordTrainingStoryLineRow* get__Row()
+		{
+			return ((::RPG::GameCore::SwordTrainingStoryLineRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO_GET__ROW_OFFSET))(this);
+		}
+
+		::System::Void _InitExamDays()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSWORDTRAININGENDINGHINTINFO__INITEXAMDAYS_OFFSET))(this);
+		}
+	};
+}

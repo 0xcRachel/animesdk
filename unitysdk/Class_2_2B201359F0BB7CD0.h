@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+
+namespace System { class Object; }
+
+#define CLASS_2_2B201359F0BB7CD0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFE60970)
+#define CLASS_2_2B201359F0BB7CD0_METHOD_2_7D21D8548943D577_OFFSET UNITYSDK_OFFSET(0xFE60780)
+#define CLASS_2_2B201359F0BB7CD0_METHOD_2_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xFE609E0)
+#define CLASS_2_2B201359F0BB7CD0_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xFE60B40)
+#define CLASS_2_2B201359F0BB7CD0_METHOD_2_CD762BD492FAC131_OFFSET UNITYSDK_OFFSET(0xFE60870)
+#define CLASS_2_2B201359F0BB7CD0_ONMODELROOTLOADED_OFFSET UNITYSDK_OFFSET(0xFE60820)
+#define CLASS_2_2B201359F0BB7CD0_ONMODELROOTUNLOADED_OFFSET UNITYSDK_OFFSET(0xFE60930)
+#define CLASS_2_2B201359F0BB7CD0__CTOR_OFFSET UNITYSDK_OFFSET(0xFE60C80)
+
+inline static constexpr unsigned int Class_2_2B201359F0BB7CD0_TypeDefinitionIndex = 58436;
+
+class Class_2_2B201359F0BB7CD0 : public ::RPG::GameCore::GameComponentBase
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7D21D8548943D577()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_METHOD_2_7D21D8548943D577_OFFSET))(this);
+	}
+
+	::System::Void OnModelRootLoaded()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_ONMODELROOTLOADED_OFFSET))(this);
+	}
+
+	::System::Void OnModelRootUnloaded()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_ONMODELROOTUNLOADED_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CD762BD492FAC131(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_METHOD_2_CD762BD492FAC131_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B201359F0BB7CD0_METHOD_2_9681042564541CD6_1_OFFSET))(this);
+	}
+};

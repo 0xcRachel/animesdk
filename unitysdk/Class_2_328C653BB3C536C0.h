@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+
+class Class_2_9C972AC88E9A3A3E;
+class Class_2_AF90B1085045344F;
+
+#define CLASS_2_328C653BB3C536C0_GET_CLAWBUTTON_OFFSET UNITYSDK_OFFSET(0xFD83750)
+#define CLASS_2_328C653BB3C536C0_GET_FIREBUTTON_OFFSET UNITYSDK_OFFSET(0xFD83730)
+#define CLASS_2_328C653BB3C536C0_SET_CLAWBUTTON_OFFSET UNITYSDK_OFFSET(0xFD83760)
+#define CLASS_2_328C653BB3C536C0_SET_FIREBUTTON_OFFSET UNITYSDK_OFFSET(0xFD83740)
+#define CLASS_2_328C653BB3C536C0__CTOR_OFFSET UNITYSDK_OFFSET(0xFD83770)
+#define CLASS_2_328C653BB3C536C0__ONBIND_OFFSET UNITYSDK_OFFSET(0xFD833D0)
+#define CLASS_2_328C653BB3C536C0___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xFD837A0)
+
+inline static constexpr unsigned int Class_2_328C653BB3C536C0_TypeDefinitionIndex = 57296;
+
+class Class_2_328C653BB3C536C0 : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	::Class_2_AF90B1085045344F* _ClawButton_k__BackingField; // 0x60
+	::Class_2_9C972AC88E9A3A3E* _FireButton_k__BackingField; // 0x68
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0__ONBIND_OFFSET))(this);
+	}
+
+	::Class_2_9C972AC88E9A3A3E* get_FireButton()
+	{
+		return ((::Class_2_9C972AC88E9A3A3E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_GET_FIREBUTTON_OFFSET))(this);
+	}
+
+	::System::Void set_FireButton(::Class_2_9C972AC88E9A3A3E* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_9C972AC88E9A3A3E*))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_SET_FIREBUTTON_OFFSET))(this, value);
+	}
+
+	::Class_2_AF90B1085045344F* get_ClawButton()
+	{
+		return ((::Class_2_AF90B1085045344F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_GET_CLAWBUTTON_OFFSET))(this);
+	}
+
+	::System::Void set_ClawButton(::Class_2_AF90B1085045344F* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_AF90B1085045344F*))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0_SET_CLAWBUTTON_OFFSET))(this, value);
+	}
+
+	::System::Void __iFixBaseProxy__OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_328C653BB3C536C0___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+	}
+};

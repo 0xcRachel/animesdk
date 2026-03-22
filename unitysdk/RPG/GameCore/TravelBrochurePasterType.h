@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int TravelBrochurePasterType_TypeDefinitionIndex = 13992;
+
+	enum class TravelBrochurePasterType : ::System::Int32
+	{
+		None = 0,
+		Image = 1,
+		Text = 2,
+	};
+}

@@ -1,0 +1,75 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/DateTimePro.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_640;
+namespace System { class String; }
+
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x9B07970)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GETRARITY_OFFSET UNITYSDK_OFFSET(0x9B07A10)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_DATETIME_OFFSET UNITYSDK_OFFSET(0x9B07D40)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_ID_OFFSET UNITYSDK_OFFSET(0x9B07B20)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_ITEMNAME_OFFSET UNITYSDK_OFFSET(0x9B07E40)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_TIME_OFFSET UNITYSDK_OFFSET(0x9B07C40)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_USERNAME_OFFSET UNITYSDK_OFFSET(0x9B07B40)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_SET_ID_OFFSET UNITYSDK_OFFSET(0x9B07B30)
+#define RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9B07A00)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PlanetFesTradingCardExchangeHistoryItem_TypeDefinitionIndex = 53035;
+
+	class PlanetFesTradingCardExchangeHistoryItem : public ::System::Object
+	{
+	public:
+		::Class_0_16E4307DCC419505_640* _Data; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::PlanetFesTradingCardExchangeHistoryItem* Create(::Class_0_16E4307DCC419505_640* data, ::System::UInt32 ID)
+		{
+			return ((::RPG::Client::PlanetFesTradingCardExchangeHistoryItem*(*)(::Class_0_16E4307DCC419505_640*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_CREATE_OFFSET))(data, ID);
+		}
+
+		::System::UInt32 GetRarity()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GETRARITY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_ID_OFFSET))(this);
+		}
+
+		::System::Void set_ID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_SET_ID_OFFSET))(this, value);
+		}
+
+		::System::String* get_UserName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_USERNAME_OFFSET))(this);
+		}
+
+		::System::String* get_Time()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_TIME_OFFSET))(this);
+		}
+
+		::RPG::Client::DateTimePro get_DateTime()
+		{
+			return ((::RPG::Client::DateTimePro(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_DATETIME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_ItemName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESTRADINGCARDEXCHANGEHISTORYITEM_GET_ITEMNAME_OFFSET))(this);
+		}
+	};
+}

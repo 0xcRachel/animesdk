@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+#include "unitysdk/RPG/GameCore/StringHash.h"
+
+namespace RPG::GameCore { class SetDynamicValueByChangeValue; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_8DB7460C9B312A72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x103153C0)
+#define CLASS_3_8DB7460C9B312A72__CTOR_OFFSET UNITYSDK_OFFSET(0x103152E0)
+
+inline static constexpr unsigned int Class_3_8DB7460C9B312A72_TypeDefinitionIndex = 43322;
+
+class Class_3_8DB7460C9B312A72 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByChangeValue*>
+{
+public:
+	::RPG::GameCore::StringHash Field_3_0; // 0x28
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByChangeValue* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDynamicValueByChangeValue*))((::PBYTE)hIl2Cpp + CLASS_3_8DB7460C9B312A72__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8DB7460C9B312A72_ONTASKBEGIN_OFFSET))(this);
+	}
+};

@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_1AF243935D06EF67;
+
+#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FD4000)
+#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__GETSTORYLINEFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0x9FD4420)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int StoryLineData___c__DisplayClass36_0_TypeDefinitionIndex = 53932;
+
+	class StoryLineData___c__DisplayClass36_0 : public ::System::Object
+	{
+	public:
+		::System::UInt32 floorID; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _GetStoryLineFloor_b__0(::Class_1_1AF243935D06EF67* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_1AF243935D06EF67*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__GETSTORYLINEFLOOR_B__0_OFFSET))(this, x);
+		}
+	};
+}

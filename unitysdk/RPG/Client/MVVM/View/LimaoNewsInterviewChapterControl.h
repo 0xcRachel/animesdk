@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Sofa/BaseSofaControl.h"
+
+namespace UnityEngine::UI { class Text; }
+
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x95C45E0)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x95C4490)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x95C43F0)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x95C4650)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x95C45F0)
+
+namespace RPG::Client::MVVM::View
+{
+	inline static constexpr unsigned int LimaoNewsInterviewChapterControl_TypeDefinitionIndex = 59238;
+
+	class LimaoNewsInterviewChapterControl : public ::Sofa::BaseSofaControl
+	{
+	public:
+		::UnityEngine::UI::Text* Field_6_0; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void _OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnInitializeComponent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnBindViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSINTERVIEWCHAPTERCONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET))(this);
+		}
+	};
+}

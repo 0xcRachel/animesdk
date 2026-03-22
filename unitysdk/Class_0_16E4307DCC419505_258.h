@@ -1,0 +1,11 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine { class Transform; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_258_TypeDefinitionIndex = 37182;
+
+class Class_0_16E4307DCC419505_258
+{
+public:
+};

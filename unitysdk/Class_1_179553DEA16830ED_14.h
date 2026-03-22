@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_1_179553DEA16830ED_14_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x86B2170)
+#define CLASS_1_179553DEA16830ED_14_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x86B2120)
+#define CLASS_1_179553DEA16830ED_14__CTOR_OFFSET UNITYSDK_OFFSET(0x86B2110)
+
+inline static constexpr unsigned int Class_1_179553DEA16830ED_14_TypeDefinitionIndex = 44507;
+
+class Class_1_179553DEA16830ED_14 : public ::System::Object
+{
+public:
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+
+	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_179553DEA16830ED_14__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 GetSourceRuntimeID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_179553DEA16830ED_14_GETSOURCERUNTIMEID_OFFSET))(this);
+	}
+
+	::RPG::GameCore::EventType GetEventType()
+	{
+		return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_179553DEA16830ED_14_GETEVENTTYPE_OFFSET))(this);
+	}
+};

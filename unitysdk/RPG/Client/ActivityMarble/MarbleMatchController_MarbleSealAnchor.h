@@ -1,0 +1,114 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AnimTriggerType.h"
+#include "unitysdk/System/Object.h"
+
+class MarbleSubSealRotator;
+namespace RPG::Client::ActivityMarble { class MarbleMatchController_MarbleSubSealAnchor; }
+namespace RPG::GameCore { class AnchorInfo; }
+namespace RPG::GameCore { class CharacterModelComponent; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8B68480)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_GETMARBLESEALROOT_OFFSET UNITYSDK_OFFSET(0x8B68D10)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_GET_MARBLESUBSEALID_OFFSET UNITYSDK_OFFSET(0x8B692D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_LOADMARBLESEAL_OFFSET UNITYSDK_OFFSET(0x8B691B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_LOADMARBLESUBSEAL_OFFSET UNITYSDK_OFFSET(0x8B693E0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_RELEASEMARBLESEAL_OFFSET UNITYSDK_OFFSET(0x8B69080)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_RELEASEMARBLESUBSEAL_OFFSET UNITYSDK_OFFSET(0x8B692F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_SETSCALE_OFFSET UNITYSDK_OFFSET(0x8B68EF0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__BINDSUBSEALROTATOR_OFFSET UNITYSDK_OFFSET(0x8B69B60)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8B68EA0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__GETMARBLESEALENTITY_OFFSET UNITYSDK_OFFSET(0x8B694B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0x8B69570)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__ONSWIMRINGLOADED_OFFSET UNITYSDK_OFFSET(0x8B69D30)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__TRIGGERANIM_OFFSET UNITYSDK_OFFSET(0x8B69A50)
+
+namespace RPG::Client::ActivityMarble
+{
+	inline static constexpr unsigned int MarbleMatchController_MarbleSealAnchor_TypeDefinitionIndex = 59665;
+
+	class MarbleMatchController_MarbleSealAnchor : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::GameEntity* _MarbleSealEntity; // 0x10
+		::RPG::Client::ActivityMarble::MarbleMatchController_MarbleSubSealAnchor* _MarbleSubSealAnchor; // 0x18
+		::RPG::GameCore::AnchorInfo* AnchorInfo; // 0x20
+		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x28
+		::MarbleSubSealRotator* _MarbleSubSealRotator; // 0x30
+		::System::Single _Scale; // 0x38
+		::System::UInt32 MarbleSealID; // 0x3C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void LoadMarbleSeal(::System::UInt32 id, ::System::String* prefabPath, ::System::Boolean isEnemy)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_LOADMARBLESEAL_OFFSET))(this, id, prefabPath, isEnemy);
+		}
+
+		::System::Void ReleaseMarbleSeal(::System::Boolean isEnemy)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_RELEASEMARBLESEAL_OFFSET))(this, isEnemy);
+		}
+
+		::System::Void LoadMarbleSubSeal(::System::UInt32 id, ::System::String* prefabPath)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_LOADMARBLESUBSEAL_OFFSET))(this, id, prefabPath);
+		}
+
+		::System::Void ReleaseMarbleSubSeal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_RELEASEMARBLESUBSEAL_OFFSET))(this);
+		}
+
+		::System::Void SetScale(::System::Single scale)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_SETSCALE_OFFSET))(this, scale);
+		}
+
+		::UnityEngine::Transform* GetMarbleSealRoot()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_GETMARBLESEALROOT_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_DISPOSE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* _GetMarbleSealEntity()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__GETMARBLESEALENTITY_OFFSET))(this);
+		}
+
+		::System::Void _OnModelLoaded(::System::Boolean isEnemy)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__ONMODELLOADED_OFFSET))(this, isEnemy);
+		}
+
+		::System::Void _BindSubSealRotator()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__BINDSUBSEALROTATOR_OFFSET))(this);
+		}
+
+		::System::Void _OnSwimRingLoaded()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__ONSWIMRINGLOADED_OFFSET))(this);
+		}
+
+		::System::Void _TriggerAnim(::AnimTriggerType type)
+		{
+			return ((::System::Void(*)(::PVOID, ::AnimTriggerType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR__TRIGGERANIM_OFFSET))(this, type);
+		}
+
+		::System::UInt32 get_MarbleSubSealID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEMATCHCONTROLLER_MARBLESEALANCHOR_GET_MARBLESUBSEALID_OFFSET))(this);
+		}
+	};
+}

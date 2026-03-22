@@ -1,0 +1,317 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TimeRewindCheckSetStateResult.h"
+#include "unitysdk/RPG/Client/TimeRewindTargetType.h"
+#include "unitysdk/RPG/GameCore/TimeRewindState.h"
+#include "unitysdk/RPG/GameCore/TimeRewindView.h"
+#include "unitysdk/Struct_2_9BF8902D61AE1796.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_43BD383C98B4C0C5_109;
+
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_CANINTERACTWHENPAUSE_OFFSET UNITYSDK_OFFSET(0xA0A1320)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_CANTRIGGERPAUSE_OFFSET UNITYSDK_OFFSET(0xA0A1360)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_CHECKCANINTERACT_OFFSET UNITYSDK_OFFSET(0xA0A0BC0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_CHECKCOLLIDERHITTARGETVALID_OFFSET UNITYSDK_OFFSET(0xA0A1110)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_CHECKCOLLIDERNEEDHITDETECT_OFFSET UNITYSDK_OFFSET(0xA0A10C0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA0A1C90)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_ENTERCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xA0A0460)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_EXITCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xA09FC00)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTARGETDURATION_OFFSET UNITYSDK_OFFSET(0xA0A0E80)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTARGETRATIO_OFFSET UNITYSDK_OFFSET(0xA0A0F00)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTIMEREWINDSTATE_OFFSET UNITYSDK_OFFSET(0xA0A0C30)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTIMEREWINDVIEWOVERRIDE_OFFSET UNITYSDK_OFFSET(0xA0A0D30)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTRACKNODECOUNT_OFFSET UNITYSDK_OFFSET(0xA0A0F80)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTRACKNODEPERCENTAGE_OFFSET UNITYSDK_OFFSET(0xA0A1010)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_AUTOTRIGGERFINISHEVENT_OFFSET UNITYSDK_OFFSET(0xA0A1DA0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_BINDTYPE_OFFSET UNITYSDK_OFFSET(0xA0A1DC0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISINCONTROL_OFFSET UNITYSDK_OFFSET(0xA0A1D40)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISINMOTION_OFFSET UNITYSDK_OFFSET(0xA0A0940)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISPAUSE_OFFSET UNITYSDK_OFFSET(0xA0A1CE0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISTARGETVALID_OFFSET UNITYSDK_OFFSET(0xA0A1DE0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_LOCKRAYCASTCHECKIGNOREINNERTARGET_OFFSET UNITYSDK_OFFSET(0xA0A1DB0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_PAUSEBYCONDITION_OFFSET UNITYSDK_OFFSET(0xA0A1DD0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_TIMEREWINDSTATE_OFFSET UNITYSDK_OFFSET(0xA0A0CD0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET__ISINCONTROL_OFFSET UNITYSDK_OFFSET(0xA0A06D0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_GET__ISINMOTION_OFFSET UNITYSDK_OFFSET(0xA0A0B60)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_INIT_OFFSET UNITYSDK_OFFSET(0xA09F490)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_ISACTIVETARGET_OFFSET UNITYSDK_OFFSET(0xA0A0E30)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_MANUALSNAPLOOPREWINDRATIO_OFFSET UNITYSDK_OFFSET(0xA0A0730)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_ONFINISHREBUILD_OFFSET UNITYSDK_OFFSET(0xA0A0A20)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_PAUSE_OFFSET UNITYSDK_OFFSET(0xA0A1160)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_PRELOADEFFECT_OFFSET UNITYSDK_OFFSET(0xA09F6B0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_RELEASEPRELOADEFFECT_OFFSET UNITYSDK_OFFSET(0xA09F710)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_RESUMEPAUSE_OFFSET UNITYSDK_OFFSET(0xA0A1250)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_REVERTTRANSITIONIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0xA0A0A70)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_SETSPECULARMATFADETIME_OFFSET UNITYSDK_OFFSET(0xA0A0D90)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_SETSTATEBYSTATEHASH_OFFSET UNITYSDK_OFFSET(0xA09F880)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_STARTREBUILD_OFFSET UNITYSDK_OFFSET(0xA0A09A0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_TICK_OFFSET UNITYSDK_OFFSET(0xA09F4E0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_TRIGGERMOTIONPAUSEACTION_OFFSET UNITYSDK_OFFSET(0xA09F7C0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_TRIGGERRESUMEMOTIONPAUSEACTION_OFFSET UNITYSDK_OFFSET(0xA09F820)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET_TRYREWINDONCE_OFFSET UNITYSDK_OFFSET(0xA0A03D0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A1E00)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__SETTIMEREWINDSTATE_OFFSET UNITYSDK_OFFSET(0xA0A0330)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__TICKMOTIONSTATE_OFFSET UNITYSDK_OFFSET(0xA0A18D0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__TICKNOMOTIONSTATE_OFFSET UNITYSDK_OFFSET(0xA0A1540)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__TICKTARGETRATIO_OFFSET UNITYSDK_OFFSET(0xA09F550)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__TRYEXITMOTIONWITHSTABLESTATE_OFFSET UNITYSDK_OFFSET(0xA09FFF0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__TRYEXITMOTION_OFFSET UNITYSDK_OFFSET(0xA0A13B0)
+#define RPG_CLIENT_TIMEREWINDSINGLETARGET__TRYSTARTMOTION_OFFSET UNITYSDK_OFFSET(0xA09FFA0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int TimeRewindSingleTarget_TypeDefinitionIndex = 48192;
+
+	class TimeRewindSingleTarget : public ::System::Object
+	{
+	public:
+		::Class_1_43BD383C98B4C0C5_109* _ControlProxy; // 0x10
+		::System::Single _CurrentTargetRatio; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init(::Class_1_43BD383C98B4C0C5_109* controlProxy)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_INIT_OFFSET))(this, controlProxy);
+		}
+
+		::System::Void Tick(::System::Single deltaTime, ::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_TICK_OFFSET))(this, deltaTime, operateProxy);
+		}
+
+		::System::Boolean PreloadEffect()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_PRELOADEFFECT_OFFSET))(this);
+		}
+
+		::System::Void ReleasePreloadEffect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_RELEASEPRELOADEFFECT_OFFSET))(this);
+		}
+
+		::System::Void TriggerMotionPauseAction()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_TRIGGERMOTIONPAUSEACTION_OFFSET))(this);
+		}
+
+		::System::Void TriggerResumeMotionPauseAction()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_TRIGGERRESUMEMOTIONPAUSEACTION_OFFSET))(this);
+		}
+
+		::RPG::Client::TimeRewindCheckSetStateResult SetStateByStateHash(::System::Int32 stateHash, ::System::Boolean needTransition, ::System::Boolean saveToServerOnEnd, ::Class_1_43BD383C98B4C0C5_109* operateProxy, ::System::Boolean skipStateCheck)
+		{
+			return ((::RPG::Client::TimeRewindCheckSetStateResult(*)(::PVOID, ::System::Int32, ::System::Boolean, ::System::Boolean, ::Class_1_43BD383C98B4C0C5_109*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_SETSTATEBYSTATEHASH_OFFSET))(this, stateHash, needTransition, saveToServerOnEnd, operateProxy, skipStateCheck);
+		}
+
+		::System::Void TryRewindOnce()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_TRYREWINDONCE_OFFSET))(this);
+		}
+
+		::System::Void EnterControlMode(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_ENTERCONTROLMODE_OFFSET))(this, operateProxy);
+		}
+
+		::System::Void ManualSnapLoopRewindRatio(::System::Single ratio, ::Struct_2_9BF8902D61AE1796 actionClosure)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::Struct_2_9BF8902D61AE1796))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_MANUALSNAPLOOPREWINDRATIO_OFFSET))(this, ratio, actionClosure);
+		}
+
+		::System::Void ExitControlMode(::Class_1_43BD383C98B4C0C5_109* operateProxy, ::System::Boolean isFinish)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_EXITCONTROLMODE_OFFSET))(this, operateProxy, isFinish);
+		}
+
+		::System::Void StartRebuild(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_STARTREBUILD_OFFSET))(this, operateProxy);
+		}
+
+		::System::Void OnFinishRebuild(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_ONFINISHREBUILD_OFFSET))(this, operateProxy);
+		}
+
+		::System::Void RevertTransitionImmediately(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_REVERTTRANSITIONIMMEDIATELY_OFFSET))(this, operateProxy);
+		}
+
+		::System::Boolean CheckCanInteract(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_CHECKCANINTERACT_OFFSET))(this, operateProxy);
+		}
+
+		::RPG::GameCore::TimeRewindState GetTimeRewindState(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::RPG::GameCore::TimeRewindState(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTIMEREWINDSTATE_OFFSET))(this, operateProxy);
+		}
+
+		::System::Boolean GetTimeRewindViewOverride(::Class_1_43BD383C98B4C0C5_109* operateProxy, ::RPG::GameCore::TimeRewindView& view)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*, ::RPG::GameCore::TimeRewindView&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTIMEREWINDVIEWOVERRIDE_OFFSET))(this, operateProxy, view);
+		}
+
+		::System::Void SetSpecularMatFadeTime(::System::Single blendIn, ::System::Single blendOut)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_SETSPECULARMATFADETIME_OFFSET))(this, blendIn, blendOut);
+		}
+
+		::System::Boolean IsActiveTarget(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_ISACTIVETARGET_OFFSET))(this, operateProxy);
+		}
+
+		::System::Single GetTargetDuration()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTARGETDURATION_OFFSET))(this);
+		}
+
+		::System::Single GetTargetRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTARGETRATIO_OFFSET))(this);
+		}
+
+		::System::Int32 GetTrackNodeCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTRACKNODECOUNT_OFFSET))(this);
+		}
+
+		::System::Single GetTrackNodePercentage(::System::Int32 nodeIndex)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GETTRACKNODEPERCENTAGE_OFFSET))(this, nodeIndex);
+		}
+
+		::System::Boolean CheckColliderNeedHitDetect(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_CHECKCOLLIDERNEEDHITDETECT_OFFSET))(this, operateProxy);
+		}
+
+		::System::Boolean CheckColliderHitTargetValid(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_CHECKCOLLIDERHITTARGETVALID_OFFSET))(this, operateProxy);
+		}
+
+		::System::Void Pause()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_PAUSE_OFFSET))(this);
+		}
+
+		::System::Void ResumePause()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_RESUMEPAUSE_OFFSET))(this);
+		}
+
+		::System::Boolean CanInteractWhenPause()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_CANINTERACTWHENPAUSE_OFFSET))(this);
+		}
+
+		::System::Boolean CanTriggerPause(::Class_1_43BD383C98B4C0C5_109* operateProxy)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_109*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_CANTRIGGERPAUSE_OFFSET))(this, operateProxy);
+		}
+
+		::System::Void _TryStartMotion()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__TRYSTARTMOTION_OFFSET))(this);
+		}
+
+		::System::Void _TryExitMotion(::System::Boolean isTransitionFinish)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__TRYEXITMOTION_OFFSET))(this, isTransitionFinish);
+		}
+
+		::System::Void _TryExitMotionWithStableState(::System::Boolean isTransitionFinish)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__TRYEXITMOTIONWITHSTABLESTATE_OFFSET))(this, isTransitionFinish);
+		}
+
+		::System::Void _SetTimeRewindState(::RPG::GameCore::TimeRewindState newState)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TimeRewindState))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__SETTIMEREWINDSTATE_OFFSET))(this, newState);
+		}
+
+		::System::Void _TickTargetRatio()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__TICKTARGETRATIO_OFFSET))(this);
+		}
+
+		::System::Void _TickNoMotionState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__TICKNOMOTIONSTATE_OFFSET))(this);
+		}
+
+		::System::Void _TickMotionState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET__TICKMOTIONSTATE_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPause()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISPAUSE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInControl()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISINCONTROL_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInMotion()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISINMOTION_OFFSET))(this);
+		}
+
+		::System::Boolean get_AutoTriggerFinishEvent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_AUTOTRIGGERFINISHEVENT_OFFSET))(this);
+		}
+
+		::System::Boolean get_LockRaycastCheckIgnoreInnerTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_LOCKRAYCASTCHECKIGNOREINNERTARGET_OFFSET))(this);
+		}
+
+		::RPG::Client::TimeRewindTargetType get_BindType()
+		{
+			return ((::RPG::Client::TimeRewindTargetType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_BINDTYPE_OFFSET))(this);
+		}
+
+		::System::Boolean get_PauseByCondition()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_PAUSEBYCONDITION_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsTargetValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_ISTARGETVALID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::TimeRewindState get_TimeRewindState()
+		{
+			return ((::RPG::GameCore::TimeRewindState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET_TIMEREWINDSTATE_OFFSET))(this);
+		}
+
+		::System::Boolean get__IsInMotion()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET__ISINMOTION_OFFSET))(this);
+		}
+
+		::System::Boolean get__IsInControl()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDSINGLETARGET_GET__ISINCONTROL_OFFSET))(this);
+		}
+	};
+}

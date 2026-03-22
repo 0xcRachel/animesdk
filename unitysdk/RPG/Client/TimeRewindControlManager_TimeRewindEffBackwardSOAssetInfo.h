@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TimeRewindControlManager_TimeRewindEntityPreloadState.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_ADDREF_OFFSET UNITYSDK_OFFSET(0xA08A300)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xA08D600)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_GET_REFCOUNT_OFFSET UNITYSDK_OFFSET(0xA094820)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA08A340)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_REMOVEREF_OFFSET UNITYSDK_OFFSET(0xA08A630)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_SET_REFCOUNT_OFFSET UNITYSDK_OFFSET(0xA094830)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA094840)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEffBackwardSOAssetInfo_TypeDefinitionIndex = 48198;
+
+	class TimeRewindControlManager_TimeRewindEffBackwardSOAssetInfo : public ::System::Object
+	{
+	public:
+		::System::Action* LoadCallback; // 0x10
+		::System::String* Path; // 0x18
+		::RPG::Client::TimeRewindControlManager_TimeRewindEntityPreloadState LoadState; // 0x20
+		::System::Int32 _RefCount_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_RefCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_GET_REFCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_RefCount(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_SET_REFCOUNT_OFFSET))(this, value);
+		}
+
+		::System::Void Init(::System::String* path)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_INIT_OFFSET))(this, path);
+		}
+
+		::System::Void AddRef()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_ADDREF_OFFSET))(this);
+		}
+
+		::System::Void RemoveRef()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_REMOVEREF_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDEFFBACKWARDSOASSETINFO_CLEAR_OFFSET))(this);
+		}
+	};
+}

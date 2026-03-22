@@ -1,0 +1,259 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class ElfRestaurantRecipeUpData; }
+namespace RPG::GameCore { class RestaurantRecipeRow; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_CANLEVELUP_OFFSET UNITYSDK_OFFSET(0x914BAF0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x914B020)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GETCOOKABLENUM_OFFSET UNITYSDK_OFFSET(0x914C200)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GETNEXTLEVELDATA_OFFSET UNITYSDK_OFFSET(0x914BCF0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GETRECIPEPRICE_OFFSET UNITYSDK_OFFSET(0x914B350)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_CANDEVELOPED_OFFSET UNITYSDK_OFFSET(0x914E420)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_CURRENTLEVELDATA_OFFSET UNITYSDK_OFFSET(0x914B630)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0x914E320)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x914DB50)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_IMGPATH_OFFSET UNITYSDK_OFFSET(0x914DA60)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISDEFAULTRECIPE_OFFSET UNITYSDK_OFFSET(0x914E200)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISDEVELOPED_OFFSET UNITYSDK_OFFSET(0x914E340)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISMAXLEVEL_OFFSET UNITYSDK_OFFSET(0x914BE10)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISPROGRESSUNLOCKED_OFFSET UNITYSDK_OFFSET(0x914DCB0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x913D0A0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x914AA10)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0x914E350)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_MODELPATH_OFFSET UNITYSDK_OFFSET(0x914D9F0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x914DAD0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_RECIPEID_OFFSET UNITYSDK_OFFSET(0x914D9D0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_TAGLIST_OFFSET UNITYSDK_OFFSET(0x914DBD0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x914BEC0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_UNLOCKIDLIST_OFFSET UNITYSDK_OFFSET(0x914DC40)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_UNLOCKPROGRESS_OFFSET UNITYSDK_OFFSET(0x914E020)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x914D1E0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISAFFECTEDBYCURRENTFESTIVAL_OFFSET UNITYSDK_OFFSET(0x914B790)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0x914C790)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISCOOKMATERIALENOUGH_OFFSET UNITYSDK_OFFSET(0x914CC40)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISCURRENTPROGRESSTARGET_OFFSET UNITYSDK_OFFSET(0x914C070)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISLEVELUPMATERIALENOUGH_OFFSET UNITYSDK_OFFSET(0x914CA30)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISORDERITEMENOUGH_OFFSET UNITYSDK_OFFSET(0x914C4F0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISRECIPEPRICEUP_OFFSET UNITYSDK_OFFSET(0x914C4A0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISUNLOCKBYPROGRESS_OFFSET UNITYSDK_OFFSET(0x914CE10)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISUNLOCKEDBYPROGRESSMISSION_OFFSET UNITYSDK_OFFSET(0x914D240)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_SET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0x914E330)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_SET_RECIPEID_OFFSET UNITYSDK_OFFSET(0x914D9E0)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA_SYNCRECIPECURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0x914B300)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x914B090)
+#define RPG_CLIENT_ELFRESTAURANTRECIPEDATA__INITRECIPELEVELINFO_OFFSET UNITYSDK_OFFSET(0x914B0A0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ElfRestaurantRecipeData_TypeDefinitionIndex = 50664;
+
+	class ElfRestaurantRecipeData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _Tags; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeUpData*>* _RecipeUpDataDict; // 0x18
+		::System::UInt32 _CurrentLevel_k__BackingField; // 0x20
+		::System::UInt32 _RecipeID_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ElfRestaurantRecipeData* Create(::System::UInt32 recipeID)
+		{
+			return ((::RPG::Client::ElfRestaurantRecipeData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_CREATE_OFFSET))(recipeID);
+		}
+
+		::System::Void SyncRecipeCurrentLevel(::System::UInt32 level)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_SYNCRECIPECURRENTLEVEL_OFFSET))(this, level);
+		}
+
+		::System::UInt32 GetRecipePrice()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GETRECIPEPRICE_OFFSET))(this);
+		}
+
+		::System::Boolean CanLevelUp()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_CANLEVELUP_OFFSET))(this);
+		}
+
+		::RPG::Client::ElfRestaurantRecipeUpData* GetNextLevelData()
+		{
+			return ((::RPG::Client::ElfRestaurantRecipeUpData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GETNEXTLEVELDATA_OFFSET))(this);
+		}
+
+		::System::Boolean IsAffectedByCurrentFestival()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISAFFECTEDBYCURRENTFESTIVAL_OFFSET))(this);
+		}
+
+		::System::Boolean IsCurrentProgressTarget()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISCURRENTPROGRESSTARGET_OFFSET))(this);
+		}
+
+		::System::Int32 GetCookableNum()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GETCOOKABLENUM_OFFSET))(this);
+		}
+
+		::System::Boolean IsRecipePriceUp()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISRECIPEPRICEUP_OFFSET))(this);
+		}
+
+		::System::Boolean IsOrderItemEnough()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISORDERITEMENOUGH_OFFSET))(this);
+		}
+
+		::System::Boolean IsCookItemEnough()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISCOOKITEMENOUGH_OFFSET))(this);
+		}
+
+		::System::Boolean IsLevelUpMaterialEnough()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISLEVELUPMATERIALENOUGH_OFFSET))(this);
+		}
+
+		::System::Boolean IsCookMaterialEnough()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISCOOKMATERIALENOUGH_OFFSET))(this);
+		}
+
+		::System::Boolean IsUnlockByProgress(::System::UInt32 progressID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISUNLOCKBYPROGRESS_OFFSET))(this, progressID);
+		}
+
+		::System::Boolean IsUnlockedByProgressMission(::System::UInt32 progressID)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_ISUNLOCKEDBYPROGRESSMISSION_OFFSET))(this, progressID);
+		}
+
+		::System::Void _InitRecipeLevelInfo()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA__INITRECIPELEVELINFO_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RecipeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_RECIPEID_OFFSET))(this);
+		}
+
+		::System::Void set_RecipeID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_SET_RECIPEID_OFFSET))(this, value);
+		}
+
+		::System::String* get_ModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_MODELPATH_OFFSET))(this);
+		}
+
+		::System::String* get_ImgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_IMGPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Detail()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_DETAIL_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* get_Materials()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_MATERIALS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_TagList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_TAGLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_UnlockIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_UNLOCKIDLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* get_Tags()
+		{
+			return ((::System::Collections::Generic::HashSet_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_TAGS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsProgressUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISPROGRESSUNLOCKED_OFFSET))(this);
+		}
+
+		::System::UInt32 get_UnlockProgress()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_UNLOCKPROGRESS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDefaultRecipe()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISDEFAULTRECIPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CurrentLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_CURRENTLEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentLevel(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_SET_CURRENTLEVEL_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ElfRestaurantRecipeUpData* get_CurrentLevelData()
+		{
+			return ((::RPG::Client::ElfRestaurantRecipeUpData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_CURRENTLEVELDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDeveloped()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISDEVELOPED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsMaxLevel()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_ISMAXLEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_MaxLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_MAXLEVEL_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanDeveloped()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET_CANDEVELOPED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RestaurantRecipeRow* get__Row()
+		{
+			return ((::RPG::GameCore::RestaurantRecipeRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTRECIPEDATA_GET__ROW_OFFSET))(this);
+		}
+	};
+}

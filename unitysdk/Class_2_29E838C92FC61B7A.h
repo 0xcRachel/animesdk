@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_722EA82C1161F2A1_2.h"
+
+class Class_0_16E4307DCC419505_826;
+namespace RPG::Client::Promises { class Promise; }
+
+#define CLASS_2_29E838C92FC61B7A_METHOD_2_C0E1A11BAA953771_1_OFFSET UNITYSDK_OFFSET(0x898DBA0)
+#define CLASS_2_29E838C92FC61B7A_METHOD_2_C0E1A11BAA953771_OFFSET UNITYSDK_OFFSET(0x898DAC0)
+#define CLASS_2_29E838C92FC61B7A_METHOD_2_C50B93169B85DAEA_1_OFFSET UNITYSDK_OFFSET(0x898DA70)
+#define CLASS_2_29E838C92FC61B7A_METHOD_2_C50B93169B85DAEA_OFFSET UNITYSDK_OFFSET(0x898DA20)
+#define CLASS_2_29E838C92FC61B7A__CTOR_OFFSET UNITYSDK_OFFSET(0x898DC80)
+
+inline static constexpr unsigned int Class_2_29E838C92FC61B7A_TypeDefinitionIndex = 58267;
+
+class Class_2_29E838C92FC61B7A : public ::Class_1_722EA82C1161F2A1_2
+{
+public:
+	::Class_0_16E4307DCC419505_826* Field_2_1; // 0x18
+	::Class_0_16E4307DCC419505_826* Field_2_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_29E838C92FC61B7A__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C50B93169B85DAEA(::Class_0_16E4307DCC419505_826* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_826*))((::PBYTE)hIl2Cpp + CLASS_2_29E838C92FC61B7A_METHOD_2_C50B93169B85DAEA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C50B93169B85DAEA_1(::Class_0_16E4307DCC419505_826* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_826*))((::PBYTE)hIl2Cpp + CLASS_2_29E838C92FC61B7A_METHOD_2_C50B93169B85DAEA_1_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::Promise* Method_2_C0E1A11BAA953771()
+	{
+		return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_29E838C92FC61B7A_METHOD_2_C0E1A11BAA953771_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::Promise* Method_2_C0E1A11BAA953771_1()
+	{
+		return ((::RPG::Client::Promises::Promise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_29E838C92FC61B7A_METHOD_2_C0E1A11BAA953771_1_OFFSET))(this);
+	}
+};

@@ -1,0 +1,83 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+class Class_3_BCCE950C2E8DF1F0;
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class WaitEntityMusicCue; }
+namespace System { class Object; }
+
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA5C4240)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0xA5C4350)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONMUSICCUE_OFFSET UNITYSDK_OFFSET(0xA5C4620)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONSKIP_OFFSET UNITYSDK_OFFSET(0xA5C45D0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA5C4360)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA5C4450)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK_TICK_OFFSET UNITYSDK_OFFSET(0xA5C44E0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C41B0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK__REGIST_OFFSET UNITYSDK_OFFSET(0xA5C43B0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUETASK__UNREGIST_OFFSET UNITYSDK_OFFSET(0xA5C42B0)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int WaitEntityMusicCueTask_TypeDefinitionIndex = 46479;
+
+	class WaitEntityMusicCueTask : public ::Class_1_5F51D4049EA87B7B
+	{
+	public:
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::WaitEntityMusicCue* _ConfigRef; // 0x20
+		::Class_3_BCCE950C2E8DF1F0* _OnCueHitSeq; // 0x28
+		::System::Boolean _IsRegisted; // 0x30
+
+		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::WaitEntityMusicCue* Config)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitEntityMusicCue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK__CTOR_OFFSET))(this, Context, Config);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean get_ForceSkip()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_GET_FORCESKIP_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single fElapsedTimeInSec)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_TICK_OFFSET))(this, fElapsedTimeInSec);
+		}
+
+		::System::Void OnSkip()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONSKIP_OFFSET))(this);
+		}
+
+		::System::Void _Regist()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK__REGIST_OFFSET))(this);
+		}
+
+		::System::Void _UnRegist()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK__UNREGIST_OFFSET))(this);
+		}
+
+		::System::Void OnMusicCue(::System::Object* arg)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUETASK_ONMUSICCUE_OFFSET))(this, arg);
+		}
+	};
+}

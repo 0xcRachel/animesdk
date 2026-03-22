@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/PackedConsistencyCheckData.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_0A1329B6B19F70B0_4;
+class Class_1_3AD2528CD53B1639_6;
+class Class_1_99BD961747420BEB_21;
+
+#define CLASS_1_766364A11460DE78_1_METHOD_1_30D28DB045DA28F0_OFFSET UNITYSDK_OFFSET(0xAC7A700)
+#define CLASS_1_766364A11460DE78_1_METHOD_1_31BCE1AFC0F0A3F8_OFFSET UNITYSDK_OFFSET(0xAC7A960)
+#define CLASS_1_766364A11460DE78_1_METHOD_1_E9A575D18A0748D9_1_OFFSET UNITYSDK_OFFSET(0xAC7ACA0)
+#define CLASS_1_766364A11460DE78_1_METHOD_1_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0xAC7AC50)
+#define CLASS_1_766364A11460DE78_1__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAC7A6E0)
+#define CLASS_1_766364A11460DE78_1__CTOR_2_OFFSET UNITYSDK_OFFSET(0xAC7A6F0)
+#define CLASS_1_766364A11460DE78_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAC7A6D0)
+
+inline static constexpr unsigned int Class_1_766364A11460DE78_1_TypeDefinitionIndex = 60344;
+
+class Class_1_766364A11460DE78_1 : public ::System::Object
+{
+public:
+	::Class_1_0A1329B6B19F70B0_4* Field_1_3; // 0x10
+	::Class_1_3AD2528CD53B1639_6* Field_1_0; // 0x18
+	::Class_1_99BD961747420BEB_21* Field_1_2; // 0x20
+	::Class_1_99BD961747420BEB_21* Field_1_1; // 0x28
+	::Class_1_0A1329B6B19F70B0_4* Field_1_4; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _ctor_1(::Class_1_3AD2528CD53B1639_6* a1, ::Class_1_99BD961747420BEB_21* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_6*, ::Class_1_99BD961747420BEB_21*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1__CTOR_1_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void _ctor_2(::Class_1_3AD2528CD53B1639_6* a1, ::Class_1_0A1329B6B19F70B0_4* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3AD2528CD53B1639_6*, ::Class_1_0A1329B6B19F70B0_4*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1__CTOR_2_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::Client::LittleGame::PackedConsistencyCheckData Method_1_30D28DB045DA28F0()
+	{
+		return ((::RPG::Client::LittleGame::PackedConsistencyCheckData(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1_METHOD_1_30D28DB045DA28F0_OFFSET))(this);
+	}
+
+	static ::Class_1_766364A11460DE78_1* Method_1_31BCE1AFC0F0A3F8(::RPG::Client::LittleGame::PackedConsistencyCheckData& a1)
+	{
+		return ((::Class_1_766364A11460DE78_1*(*)(::RPG::Client::LittleGame::PackedConsistencyCheckData&))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1_METHOD_1_31BCE1AFC0F0A3F8_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9(::Class_1_0A1329B6B19F70B0_4* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_0A1329B6B19F70B0_4*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1_METHOD_1_E9A575D18A0748D9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_E9A575D18A0748D9_1(::Class_1_99BD961747420BEB_21* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_21*))((::PBYTE)hIl2Cpp + CLASS_1_766364A11460DE78_1_METHOD_1_E9A575D18A0748D9_1_OFFSET))(this, a1);
+	}
+};

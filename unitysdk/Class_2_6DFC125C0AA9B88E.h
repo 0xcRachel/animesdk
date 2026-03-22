@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class WaitAllProjectileFinish; }
+
+#define CLASS_2_6DFC125C0AA9B88E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1115A160)
+#define CLASS_2_6DFC125C0AA9B88E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1115A1A0)
+#define CLASS_2_6DFC125C0AA9B88E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1115A1F0)
+#define CLASS_2_6DFC125C0AA9B88E_TICK_OFFSET UNITYSDK_OFFSET(0x1115A240)
+#define CLASS_2_6DFC125C0AA9B88E__CTOR_OFFSET UNITYSDK_OFFSET(0x1115A150)
+
+inline static constexpr unsigned int Class_2_6DFC125C0AA9B88E_TypeDefinitionIndex = 43654;
+
+class Class_2_6DFC125C0AA9B88E : public ::Class_1_5F51D4049EA87B7B
+{
+public:
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::WaitAllProjectileFinish* Field_2_0; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitAllProjectileFinish* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitAllProjectileFinish*))((::PBYTE)hIl2Cpp + CLASS_2_6DFC125C0AA9B88E__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6DFC125C0AA9B88E_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6DFC125C0AA9B88E_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6DFC125C0AA9B88E_ONTASKRESET_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_6DFC125C0AA9B88E_TICK_OFFSET))(this, a1);
+	}
+};

@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET_DESC_OFFSET UNITYSDK_OFFSET(0x9222D00)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x9222820)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET__DMGMAXLIMIT_OFFSET UNITYSDK_OFFSET(0x9222BA0)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET__DMGPERLEFTMONSTER_OFFSET UNITYSDK_OFFSET(0x9222A40)
+#define RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9222810)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateGameRoundSettleDmgSourceLeftBossMonsterItem_TypeDefinitionIndex = 50835;
+
+	class FateGameRoundSettleDmgSourceLeftBossMonsterItem : public ::System::Object
+	{
+	public:
+		::System::UInt32 _LeftMonsterCount; // 0x10
+
+		::System::Void _ctor(::System::UInt32 leftMonsterCount)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM__CTOR_OFFSET))(this, leftMonsterCount);
+		}
+
+		::System::String* get_Value()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET_DESC_OFFSET))(this);
+		}
+
+		::System::UInt32 get__DmgPerLeftMonster()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET__DMGPERLEFTMONSTER_OFFSET))(this);
+		}
+
+		::System::UInt32 get__DmgMaxLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEROUNDSETTLEDMGSOURCELEFTBOSSMONSTERITEM_GET__DMGMAXLIMIT_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,1012 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace XLua { class LuaEnv; }
+namespace XLua { class ObjectTranslator; }
+
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___INIT_OFFSET UNITYSDK_OFFSET(0xF761720)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT0_OFFSET UNITYSDK_OFFSET(0xF606520)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT100_OFFSET UNITYSDK_OFFSET(0xF6DB510)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT101_OFFSET UNITYSDK_OFFSET(0xF6DD720)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT102_OFFSET UNITYSDK_OFFSET(0xF6DF930)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT103_OFFSET UNITYSDK_OFFSET(0xF6E1B40)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT104_OFFSET UNITYSDK_OFFSET(0xF6E3D50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT105_OFFSET UNITYSDK_OFFSET(0xF6E5F60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT106_OFFSET UNITYSDK_OFFSET(0xF6E8170)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT107_OFFSET UNITYSDK_OFFSET(0xF6EA3B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT108_OFFSET UNITYSDK_OFFSET(0xF6EC520)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT109_OFFSET UNITYSDK_OFFSET(0xF6EE730)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT10_OFFSET UNITYSDK_OFFSET(0xF61BA50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT110_OFFSET UNITYSDK_OFFSET(0xF6F0940)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT111_OFFSET UNITYSDK_OFFSET(0xF6F2B50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT112_OFFSET UNITYSDK_OFFSET(0xF6F4D60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT113_OFFSET UNITYSDK_OFFSET(0xF6F6F70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT114_OFFSET UNITYSDK_OFFSET(0xF6F9180)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT115_OFFSET UNITYSDK_OFFSET(0xF6FB390)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT116_OFFSET UNITYSDK_OFFSET(0xF6FD5A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT117_OFFSET UNITYSDK_OFFSET(0xF6FF7B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT118_OFFSET UNITYSDK_OFFSET(0xF7019C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT119_OFFSET UNITYSDK_OFFSET(0xF703BD0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT11_OFFSET UNITYSDK_OFFSET(0xF61DC60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT120_OFFSET UNITYSDK_OFFSET(0xF705DE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT121_OFFSET UNITYSDK_OFFSET(0xF707FF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT122_OFFSET UNITYSDK_OFFSET(0xF70A200)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT123_OFFSET UNITYSDK_OFFSET(0xF70C410)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT124_OFFSET UNITYSDK_OFFSET(0xF70E620)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT125_OFFSET UNITYSDK_OFFSET(0xF710830)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT126_OFFSET UNITYSDK_OFFSET(0xF712A40)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT127_OFFSET UNITYSDK_OFFSET(0xF714C50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT128_OFFSET UNITYSDK_OFFSET(0xF716E60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT129_OFFSET UNITYSDK_OFFSET(0xF719070)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT12_OFFSET UNITYSDK_OFFSET(0xF61FE70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT130_OFFSET UNITYSDK_OFFSET(0xF71B280)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT131_OFFSET UNITYSDK_OFFSET(0xF71D490)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT132_OFFSET UNITYSDK_OFFSET(0xF71F6A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT133_OFFSET UNITYSDK_OFFSET(0xF7218B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT134_OFFSET UNITYSDK_OFFSET(0xF723AC0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT135_OFFSET UNITYSDK_OFFSET(0xF725CD0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT136_OFFSET UNITYSDK_OFFSET(0xF727EE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT137_OFFSET UNITYSDK_OFFSET(0xF72A0F0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT138_OFFSET UNITYSDK_OFFSET(0xF72C300)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT139_OFFSET UNITYSDK_OFFSET(0xF72E510)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT13_OFFSET UNITYSDK_OFFSET(0xF622080)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT140_OFFSET UNITYSDK_OFFSET(0xF730720)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT141_OFFSET UNITYSDK_OFFSET(0xF732930)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT142_OFFSET UNITYSDK_OFFSET(0xF734B70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT143_OFFSET UNITYSDK_OFFSET(0xF736D80)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT144_OFFSET UNITYSDK_OFFSET(0xF738F90)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT145_OFFSET UNITYSDK_OFFSET(0xF73B1A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT146_OFFSET UNITYSDK_OFFSET(0xF73D3B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT147_OFFSET UNITYSDK_OFFSET(0xF73F5C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT148_OFFSET UNITYSDK_OFFSET(0xF7417D0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT149_OFFSET UNITYSDK_OFFSET(0xF7439E0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT14_OFFSET UNITYSDK_OFFSET(0xF6242C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT150_OFFSET UNITYSDK_OFFSET(0xF745BF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT151_OFFSET UNITYSDK_OFFSET(0xF747E00)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT152_OFFSET UNITYSDK_OFFSET(0xF74A010)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT153_OFFSET UNITYSDK_OFFSET(0xF74C220)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT154_OFFSET UNITYSDK_OFFSET(0xF74E430)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT155_OFFSET UNITYSDK_OFFSET(0xF750640)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT156_OFFSET UNITYSDK_OFFSET(0xF752850)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT157_OFFSET UNITYSDK_OFFSET(0xF754A60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT158_OFFSET UNITYSDK_OFFSET(0xF756C70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT159_OFFSET UNITYSDK_OFFSET(0xF758E80)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT15_OFFSET UNITYSDK_OFFSET(0xF6264D0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT160_OFFSET UNITYSDK_OFFSET(0xF75B090)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT161_OFFSET UNITYSDK_OFFSET(0xF75D2D0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT162_OFFSET UNITYSDK_OFFSET(0xF75F510)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT16_OFFSET UNITYSDK_OFFSET(0xF628710)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT17_OFFSET UNITYSDK_OFFSET(0xF62A920)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT18_OFFSET UNITYSDK_OFFSET(0xF62CB30)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT19_OFFSET UNITYSDK_OFFSET(0xF62ED70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT1_OFFSET UNITYSDK_OFFSET(0xF608760)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT20_OFFSET UNITYSDK_OFFSET(0xF630F80)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT21_OFFSET UNITYSDK_OFFSET(0xF633190)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT22_OFFSET UNITYSDK_OFFSET(0xF6353D0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT23_OFFSET UNITYSDK_OFFSET(0xF6375E0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT24_OFFSET UNITYSDK_OFFSET(0xF6397F0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT25_OFFSET UNITYSDK_OFFSET(0xF63BA00)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT26_OFFSET UNITYSDK_OFFSET(0xF63DC10)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT27_OFFSET UNITYSDK_OFFSET(0xF63FE50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT28_OFFSET UNITYSDK_OFFSET(0xF642060)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT29_OFFSET UNITYSDK_OFFSET(0xF644270)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT2_OFFSET UNITYSDK_OFFSET(0xF60A9A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT30_OFFSET UNITYSDK_OFFSET(0xF646480)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT31_OFFSET UNITYSDK_OFFSET(0xF6486C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT32_OFFSET UNITYSDK_OFFSET(0xF64A8D0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT33_OFFSET UNITYSDK_OFFSET(0xF64CAE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT34_OFFSET UNITYSDK_OFFSET(0xF64ECF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT35_OFFSET UNITYSDK_OFFSET(0xF650F00)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT36_OFFSET UNITYSDK_OFFSET(0xF653110)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT37_OFFSET UNITYSDK_OFFSET(0xF655320)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT38_OFFSET UNITYSDK_OFFSET(0xF657530)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT39_OFFSET UNITYSDK_OFFSET(0xF659740)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT3_OFFSET UNITYSDK_OFFSET(0xF60CBE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT40_OFFSET UNITYSDK_OFFSET(0xF65B950)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT41_OFFSET UNITYSDK_OFFSET(0xF65DB60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT42_OFFSET UNITYSDK_OFFSET(0xF65FD70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT43_OFFSET UNITYSDK_OFFSET(0xF661F80)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT44_OFFSET UNITYSDK_OFFSET(0xF664190)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT45_OFFSET UNITYSDK_OFFSET(0xF6663A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT46_OFFSET UNITYSDK_OFFSET(0xF6685B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT47_OFFSET UNITYSDK_OFFSET(0xF66A7C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT48_OFFSET UNITYSDK_OFFSET(0xF66C9D0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT49_OFFSET UNITYSDK_OFFSET(0xF66EBE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT4_OFFSET UNITYSDK_OFFSET(0xF60EDF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT50_OFFSET UNITYSDK_OFFSET(0xF670DF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT51_OFFSET UNITYSDK_OFFSET(0xF673000)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT52_OFFSET UNITYSDK_OFFSET(0xF675210)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT53_OFFSET UNITYSDK_OFFSET(0xF677420)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT54_OFFSET UNITYSDK_OFFSET(0xF679630)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT55_OFFSET UNITYSDK_OFFSET(0xF67B840)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT56_OFFSET UNITYSDK_OFFSET(0xF67DA50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT57_OFFSET UNITYSDK_OFFSET(0xF67FC60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT58_OFFSET UNITYSDK_OFFSET(0xF681E70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT59_OFFSET UNITYSDK_OFFSET(0xF684080)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT5_OFFSET UNITYSDK_OFFSET(0xF611000)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT60_OFFSET UNITYSDK_OFFSET(0xF686290)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT61_OFFSET UNITYSDK_OFFSET(0xF6884A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT62_OFFSET UNITYSDK_OFFSET(0xF68A6B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT63_OFFSET UNITYSDK_OFFSET(0xF68C8C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT64_OFFSET UNITYSDK_OFFSET(0xF68EAD0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT65_OFFSET UNITYSDK_OFFSET(0xF690CE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT66_OFFSET UNITYSDK_OFFSET(0xF692EF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT67_OFFSET UNITYSDK_OFFSET(0xF695100)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT68_OFFSET UNITYSDK_OFFSET(0xF697310)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT69_OFFSET UNITYSDK_OFFSET(0xF699520)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT6_OFFSET UNITYSDK_OFFSET(0xF613210)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT70_OFFSET UNITYSDK_OFFSET(0xF69B730)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT71_OFFSET UNITYSDK_OFFSET(0xF69D940)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT72_OFFSET UNITYSDK_OFFSET(0xF69FB50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT73_OFFSET UNITYSDK_OFFSET(0xF6A1D60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT74_OFFSET UNITYSDK_OFFSET(0xF6A3F70)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT75_OFFSET UNITYSDK_OFFSET(0xF6A6180)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT76_OFFSET UNITYSDK_OFFSET(0xF6A8390)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT77_OFFSET UNITYSDK_OFFSET(0xF6AA5A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT78_OFFSET UNITYSDK_OFFSET(0xF6AC7B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT79_OFFSET UNITYSDK_OFFSET(0xF6AE9C0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT7_OFFSET UNITYSDK_OFFSET(0xF615420)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT80_OFFSET UNITYSDK_OFFSET(0xF6B0BD0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT81_OFFSET UNITYSDK_OFFSET(0xF6B2DE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT82_OFFSET UNITYSDK_OFFSET(0xF6B4FF0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT83_OFFSET UNITYSDK_OFFSET(0xF6B7200)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT84_OFFSET UNITYSDK_OFFSET(0xF6B9410)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT85_OFFSET UNITYSDK_OFFSET(0xF6BB620)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT86_OFFSET UNITYSDK_OFFSET(0xF6BD830)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT87_OFFSET UNITYSDK_OFFSET(0xF6BFA40)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT88_OFFSET UNITYSDK_OFFSET(0xF6C1C50)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT89_OFFSET UNITYSDK_OFFSET(0xF6C3E60)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT8_OFFSET UNITYSDK_OFFSET(0xF617630)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT90_OFFSET UNITYSDK_OFFSET(0xF6C6070)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT91_OFFSET UNITYSDK_OFFSET(0xF6C8280)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT92_OFFSET UNITYSDK_OFFSET(0xF6CA490)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT93_OFFSET UNITYSDK_OFFSET(0xF6CC6A0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT94_OFFSET UNITYSDK_OFFSET(0xF6CE8B0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT95_OFFSET UNITYSDK_OFFSET(0xF6D0AC0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT96_OFFSET UNITYSDK_OFFSET(0xF6D2CD0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT97_OFFSET UNITYSDK_OFFSET(0xF6D4EE0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT98_OFFSET UNITYSDK_OFFSET(0xF6D70F0)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT99_OFFSET UNITYSDK_OFFSET(0xF6D9300)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT9_OFFSET UNITYSDK_OFFSET(0xF619840)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER____CCTOR_OFFSET UNITYSDK_OFFSET(0xF762210)
+#define XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER____CTOR_OFFSET UNITYSDK_OFFSET(0xF762270)
+
+namespace XLua::CSObjectWrap
+{
+	inline static constexpr unsigned int XLua_Gen_Initer_Register___TypeDefinitionIndex = 40752;
+
+	class XLua_Gen_Initer_Register__ : public ::System::Object
+	{
+	public:
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER____CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER____CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void wrapInit0(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT0_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit1(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT1_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit2(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT2_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit3(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT3_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit4(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT4_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit5(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT5_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit6(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT6_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit7(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT7_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit8(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT8_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit9(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT9_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit10(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT10_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit11(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT11_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit12(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT12_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit13(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT13_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit14(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT14_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit15(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT15_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit16(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT16_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit17(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT17_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit18(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT18_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit19(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT19_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit20(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT20_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit21(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT21_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit22(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT22_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit23(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT23_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit24(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT24_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit25(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT25_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit26(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT26_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit27(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT27_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit28(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT28_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit29(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT29_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit30(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT30_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit31(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT31_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit32(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT32_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit33(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT33_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit34(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT34_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit35(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT35_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit36(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT36_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit37(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT37_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit38(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT38_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit39(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT39_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit40(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT40_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit41(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT41_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit42(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT42_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit43(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT43_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit44(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT44_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit45(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT45_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit46(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT46_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit47(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT47_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit48(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT48_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit49(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT49_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit50(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT50_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit51(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT51_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit52(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT52_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit53(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT53_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit54(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT54_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit55(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT55_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit56(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT56_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit57(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT57_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit58(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT58_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit59(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT59_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit60(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT60_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit61(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT61_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit62(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT62_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit63(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT63_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit64(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT64_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit65(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT65_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit66(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT66_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit67(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT67_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit68(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT68_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit69(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT69_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit70(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT70_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit71(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT71_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit72(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT72_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit73(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT73_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit74(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT74_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit75(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT75_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit76(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT76_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit77(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT77_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit78(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT78_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit79(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT79_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit80(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT80_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit81(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT81_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit82(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT82_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit83(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT83_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit84(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT84_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit85(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT85_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit86(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT86_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit87(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT87_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit88(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT88_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit89(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT89_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit90(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT90_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit91(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT91_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit92(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT92_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit93(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT93_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit94(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT94_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit95(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT95_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit96(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT96_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit97(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT97_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit98(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT98_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit99(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT99_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit100(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT100_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit101(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT101_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit102(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT102_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit103(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT103_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit104(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT104_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit105(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT105_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit106(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT106_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit107(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT107_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit108(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT108_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit109(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT109_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit110(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT110_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit111(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT111_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit112(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT112_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit113(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT113_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit114(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT114_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit115(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT115_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit116(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT116_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit117(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT117_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit118(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT118_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit119(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT119_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit120(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT120_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit121(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT121_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit122(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT122_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit123(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT123_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit124(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT124_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit125(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT125_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit126(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT126_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit127(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT127_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit128(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT128_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit129(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT129_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit130(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT130_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit131(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT131_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit132(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT132_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit133(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT133_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit134(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT134_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit135(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT135_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit136(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT136_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit137(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT137_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit138(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT138_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit139(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT139_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit140(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT140_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit141(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT141_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit142(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT142_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit143(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT143_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit144(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT144_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit145(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT145_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit146(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT146_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit147(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT147_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit148(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT148_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit149(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT149_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit150(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT150_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit151(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT151_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit152(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT152_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit153(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT153_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit154(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT154_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit155(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT155_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit156(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT156_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit157(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT157_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit158(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT158_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit159(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT159_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit160(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT160_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit161(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT161_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void wrapInit162(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___WRAPINIT162_OFFSET))(luaenv, translator);
+		}
+
+		static ::System::Void Init(::XLua::LuaEnv* luaenv, ::XLua::ObjectTranslator* translator)
+		{
+			return ((::System::Void(*)(::XLua::LuaEnv*, ::XLua::ObjectTranslator*))((::PBYTE)hIl2Cpp + XLUA_CSOBJECTWRAP_XLUA_GEN_INITER_REGISTER___INIT_OFFSET))(luaenv, translator);
+		}
+	};
+}

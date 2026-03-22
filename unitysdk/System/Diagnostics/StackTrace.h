@@ -1,0 +1,123 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Diagnostics/StackTrace_TraceFormat.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class Exception; }
+namespace System { class String; }
+namespace System::Diagnostics { class StackFrame; }
+namespace System::Reflection { class MethodBase; }
+namespace System::Text { class StringBuilder; }
+
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_ADDFRAMES_OFFSET UNITYSDK_OFFSET(0x15BFF5D0)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_GETAOTID_OFFSET UNITYSDK_OFFSET(0x15BFF5A0)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_GETFRAMES_OFFSET UNITYSDK_OFFSET(0x15BFF590)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_GETFRAME_OFFSET UNITYSDK_OFFSET(0x15BFF530)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_GETFULLNAMEFORSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x15BFFC40)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x15BFF520)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_GET_TRACE_OFFSET UNITYSDK_OFFSET(0x15BFF410)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_INIT_FRAMES_OFFSET UNITYSDK_OFFSET(0x15BFF250)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x15C00390)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C00190)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15BFF3F0)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15BFF400)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x15BFF420)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_4_OFFSET UNITYSDK_OFFSET(0x15BFF480)
+#define SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BFF240)
+
+namespace System::Diagnostics
+{
+	inline static constexpr unsigned int StackTrace_TypeDefinitionIndex = 1569;
+
+	class StackTrace : public ::System::Object
+	{
+	public:
+		static ::System::String** StaticGet_aotid()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(StackTrace_TypeDefinitionIndex)->GetStaticField(0x8330);
+		}
+		static ::System::Boolean* StaticGet_isAotidSet()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StackTrace_TypeDefinitionIndex)->GetStaticField(0x2A30);
+		}
+		// static const ::System::Int32 METHODS_TO_SKIP = 0x0; // 0x0
+		::Il2CppArray<::System::Diagnostics::StackTrace*>* captured_traces; // 0x10
+		::Il2CppArray<::System::Diagnostics::StackFrame*>* frames; // 0x18
+		::System::Boolean debug_info; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::System::Boolean fNeedFileInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_1_OFFSET))(this, fNeedFileInfo);
+		}
+
+		::System::Void _ctor_2(::System::Int32 skipFrames, ::System::Boolean fNeedFileInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_2_OFFSET))(this, skipFrames, fNeedFileInfo);
+		}
+
+		::System::Void _ctor_3(::System::Exception* e, ::System::Boolean fNeedFileInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_3_OFFSET))(this, e, fNeedFileInfo);
+		}
+
+		::System::Void _ctor_4(::System::Exception* e, ::System::Int32 skipFrames, ::System::Boolean fNeedFileInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE__CTOR_4_OFFSET))(this, e, skipFrames, fNeedFileInfo);
+		}
+
+		::System::Void init_frames(::System::Int32 skipFrames, ::System::Boolean fNeedFileInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_INIT_FRAMES_OFFSET))(this, skipFrames, fNeedFileInfo);
+		}
+
+		static ::Il2CppArray<::System::Diagnostics::StackFrame*>* get_trace(::System::Exception* e, ::System::Int32 skipFrames, ::System::Boolean fNeedFileInfo)
+		{
+			return ((::Il2CppArray<::System::Diagnostics::StackFrame*>*(*)(::System::Exception*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_GET_TRACE_OFFSET))(e, skipFrames, fNeedFileInfo);
+		}
+
+		::System::Int32 get_FrameCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_GET_FRAMECOUNT_OFFSET))(this);
+		}
+
+		::System::Diagnostics::StackFrame* GetFrame(::System::Int32 index)
+		{
+			return ((::System::Diagnostics::StackFrame*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_GETFRAME_OFFSET))(this, index);
+		}
+
+		::Il2CppArray<::System::Diagnostics::StackFrame*>* GetFrames()
+		{
+			return ((::Il2CppArray<::System::Diagnostics::StackFrame*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_GETFRAMES_OFFSET))(this);
+		}
+
+		static ::System::String* GetAotId()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_GETAOTID_OFFSET))();
+		}
+
+		::System::Boolean AddFrames(::System::Text::StringBuilder* sb)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_ADDFRAMES_OFFSET))(this, sb);
+		}
+
+		::System::Void GetFullNameForStackTrace(::System::Text::StringBuilder* sb, ::System::Reflection::MethodBase* mi)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_GETFULLNAMEFORSTACKTRACE_OFFSET))(this, sb, mi);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_TOSTRING_OFFSET))(this);
+		}
+
+		::System::String* ToString_1(::System::Diagnostics::StackTrace_TraceFormat traceFormat)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Diagnostics::StackTrace_TraceFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_STACKTRACE_TOSTRING_1_OFFSET))(this, traceFormat);
+		}
+	};
+}

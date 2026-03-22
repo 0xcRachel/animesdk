@@ -1,0 +1,90 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_450;
+class Class_1_51C874EE455D4F2F;
+class Class_1_51C874EE455D4F2F_1;
+namespace System { class String; }
+
+#define CLASS_1_68CF822132788D19_1_CLEARSERVERCACHE_OFFSET UNITYSDK_OFFSET(0x8531840)
+#define CLASS_1_68CF822132788D19_1_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x8531740)
+#define CLASS_1_68CF822132788D19_1_GET_BASEABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x8531830)
+#define CLASS_1_68CF822132788D19_1_GET_DEFAULTABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x8531790)
+#define CLASS_1_68CF822132788D19_1_GET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x85317F0)
+#define CLASS_1_68CF822132788D19_1_GET_ISNEEDDOWNLOAD_OFFSET UNITYSDK_OFFSET(0x8531810)
+#define CLASS_1_68CF822132788D19_1_GET_RELATIVEPATH_OFFSET UNITYSDK_OFFSET(0x85317C0)
+#define CLASS_1_68CF822132788D19_1_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x8531820)
+#define CLASS_1_68CF822132788D19_1_METHOD_1_353164737D779916_OFFSET UNITYSDK_OFFSET(0x8531A20)
+#define CLASS_1_68CF822132788D19_1_ONALLSUCCEED_OFFSET UNITYSDK_OFFSET(0x8531880)
+#define CLASS_1_68CF822132788D19_1_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0x8531800)
+#define CLASS_1_68CF822132788D19_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8531A80)
+
+inline static constexpr unsigned int Class_1_68CF822132788D19_1_TypeDefinitionIndex = 47041;
+
+class Class_1_68CF822132788D19_1 : public ::System::Object
+{
+public:
+	// static const ::System::String* Field_1_0; // 0x0
+	::System::Boolean _IsEnable_k__BackingField; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1__CTOR_OFFSET))(this);
+	}
+
+	::System::String* GetTypeName()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_GETTYPENAME_OFFSET))(this);
+	}
+
+	::Class_1_51C874EE455D4F2F* get_DefaultAbsolutePath()
+	{
+		return ((::Class_1_51C874EE455D4F2F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_GET_DEFAULTABSOLUTEPATH_OFFSET))(this);
+	}
+
+	::Class_1_51C874EE455D4F2F_1* get_RelativePath()
+	{
+		return ((::Class_1_51C874EE455D4F2F_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_GET_RELATIVEPATH_OFFSET))(this);
+	}
+
+	::System::Boolean get_IsEnable()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_GET_ISENABLE_OFFSET))(this);
+	}
+
+	::System::Void set_IsEnable(::System::Boolean value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_SET_ISENABLE_OFFSET))(this, value);
+	}
+
+	::System::Boolean get_IsNeedDownload()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_GET_ISNEEDDOWNLOAD_OFFSET))(this);
+	}
+
+	::System::String* Method_1_126AB3935214AA22()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_METHOD_1_126AB3935214AA22_OFFSET))(this);
+	}
+
+	::Class_1_51C874EE455D4F2F* get_BaseAbsolutePath()
+	{
+		return ((::Class_1_51C874EE455D4F2F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_GET_BASEABSOLUTEPATH_OFFSET))(this);
+	}
+
+	::System::Void ClearServerCache()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_CLEARSERVERCACHE_OFFSET))(this);
+	}
+
+	::System::Void OnAllSucceed()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_ONALLSUCCEED_OFFSET))(this);
+	}
+
+	::System::Void Method_1_353164737D779916(::Class_0_16E4307DCC419505_450* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_450*))((::PBYTE)hIl2Cpp + CLASS_1_68CF822132788D19_1_METHOD_1_353164737D779916_OFFSET))(this, a1);
+	}
+};

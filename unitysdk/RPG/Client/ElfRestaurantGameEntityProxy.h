@@ -1,0 +1,185 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/ElfBehaviorStateType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
+namespace RPG::GameCore { class ElfSpecialEventSelect; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x912C0A0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x912C0F0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GETDIALOGATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x912C400)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GETENTITYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x912C170)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GETTIPSATTACHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x912C1F0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_BORNNUMBER_OFFSET UNITYSDK_OFFSET(0x912D070)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_CURRENTWAVE_OFFSET UNITYSDK_OFFSET(0x912D830)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_CUSTOMERID_OFFSET UNITYSDK_OFFSET(0x912D4E0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_CUSTOMERWAITTIME_OFFSET UNITYSDK_OFFSET(0x912C930)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_EMOJIPATH_OFFSET UNITYSDK_OFFSET(0x912CBB0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_EMOJITYPE_OFFSET UNITYSDK_OFFSET(0x912CC40)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_EMPLOYEEID_OFFSET UNITYSDK_OFFSET(0x912D5B0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x912D910)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x912CF90)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_ORDERRECIPEIDLIST_OFFSET UNITYSDK_OFFSET(0x912CA10)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_PAYPRICE_OFFSET UNITYSDK_OFFSET(0x912C770)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_PREORDERRECIPEIDLIST_OFFSET UNITYSDK_OFFSET(0x912CAE0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_SELECTEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x912D2D0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_SPECIALBUBBLETEXT_OFFSET UNITYSDK_OFFSET(0x912CE80)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_SPECIALCUSTOMERID_OFFSET UNITYSDK_OFFSET(0x912D400)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_TALKTEXT_OFFSET UNITYSDK_OFFSET(0x912CD20)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_THUMBCOUNT_OFFSET UNITYSDK_OFFSET(0x912C850)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_WAVEORDERCNT_OFFSET UNITYSDK_OFFSET(0x912D690)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_WAVEWAITTIME_OFFSET UNITYSDK_OFFSET(0x912D150)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_ISCHEFBUSY_OFFSET UNITYSDK_OFFSET(0x912C6A0)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_ISWAITERBUSY_OFFSET UNITYSDK_OFFSET(0x912C610)
+#define RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x912C090)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ElfRestaurantGameEntityProxy_TypeDefinitionIndex = 50659;
+
+	class ElfRestaurantGameEntityProxy : public ::System::Object
+	{
+	public:
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* _Entity; // 0x10
+
+		::System::Void _ctor(::RPG::Client::LittleGame::ElfRestaurantGameEntity* entity)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ElfRestaurantGameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY__CTOR_OFFSET))(this, entity);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::RPG::Client::ElfRestaurantGameEntityProxy* other)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ElfRestaurantGameEntityProxy*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_EQUALS_OFFSET))(this, other);
+		}
+
+		::System::Int32 GetEntityRuntimeID()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GETENTITYRUNTIMEID_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* GetTipsAttachTransform()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GETTIPSATTACHTRANSFORM_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* GetDialogAttachPoint()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GETDIALOGATTACHPOINT_OFFSET))(this);
+		}
+
+		::System::Boolean IsWaiterBusy()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_ISWAITERBUSY_OFFSET))(this);
+		}
+
+		::System::Boolean IsChefBusy()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_ISCHEFBUSY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PayPrice()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_PAYPRICE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ThumbCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_THUMBCOUNT_OFFSET))(this);
+		}
+
+		::System::Single get_CustomerWaitTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_CUSTOMERWAITTIME_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_OrderRecipeIDList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_ORDERRECIPEIDLIST_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_PreOrderRecipeIDList()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_PREORDERRECIPEIDLIST_OFFSET))(this);
+		}
+
+		::System::String* get_EmojiPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_EMOJIPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_TalkText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_TALKTEXT_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SpecialBubbleText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_SPECIALBUBBLETEXT_OFFSET))(this);
+		}
+
+		::System::Single get_LifeTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_LIFETIME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ElfBehaviorStateType get_EmojiType()
+		{
+			return ((::RPG::GameCore::ElfBehaviorStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_EMOJITYPE_OFFSET))(this);
+		}
+
+		::System::Int32 get_BornNumber()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_BORNNUMBER_OFFSET))(this);
+		}
+
+		::System::Single get_WaveWaitTime()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_WAVEWAITTIME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ElfSpecialEventSelect* get_SelectEventConfig()
+		{
+			return ((::RPG::GameCore::ElfSpecialEventSelect*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_SELECTEVENTCONFIG_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SpecialCustomerID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_SPECIALCUSTOMERID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CustomerID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_CUSTOMERID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EmployeeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_EMPLOYEEID_OFFSET))(this);
+		}
+
+		::System::Int32 get_WaveOrderCnt()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_WAVEORDERCNT_OFFSET))(this);
+		}
+
+		::System::Int32 get_CurrentWave()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_CURRENTWAVE_OFFSET))(this);
+		}
+
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* get_Entity()
+		{
+			return ((::RPG::Client::LittleGame::ElfRestaurantGameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTGAMEENTITYPROXY_GET_ENTITY_OFFSET))(this);
+		}
+	};
+}

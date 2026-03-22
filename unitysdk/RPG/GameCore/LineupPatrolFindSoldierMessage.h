@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_2ECF3E74BC6E7972;
+namespace RPG::GameCore { class GameEntity; }
+
+#define RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE_EMPTY_OFFSET UNITYSDK_OFFSET(0xA4B7DE0)
+#define RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B7E20)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int LineupPatrolFindSoldierMessage_TypeDefinitionIndex = 41399;
+
+	class LineupPatrolFindSoldierMessage : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::GameEntity* Soldier; // 0x10
+		::Class_2_2ECF3E74BC6E7972* OfficerTask; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Empty()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPPATROLFINDSOLDIERMESSAGE_EMPTY_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,132 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_62.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/RogueTitanType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_A21ACB7E0A72D3E4_6;
+namespace RPG::GameCore { class ItemConfig; }
+namespace RPG::GameCore { class RogueTournTitanTalentRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GETTITANICONPATH_OFFSET UNITYSDK_OFFSET(0x9F1FF60)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GETTITANTITLE_OFFSET UNITYSDK_OFFSET(0x9F1FEC0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_CANACTIVE_OFFSET UNITYSDK_OFFSET(0x9F205E0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_COSTITEM_OFFSET UNITYSDK_OFFSET(0x9F20440)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_DESC_OFFSET UNITYSDK_OFFSET(0x9F201F0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9F20360)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x9F1FE50)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_PREID_OFFSET UNITYSDK_OFFSET(0x9F1FA80)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x9F205C0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_STORYJSONPATH_OFFSET UNITYSDK_OFFSET(0x9F203D0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_STORYTITLE_OFFSET UNITYSDK_OFFSET(0x9F20120)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_TALENTID_OFFSET UNITYSDK_OFFSET(0x9F1FFE0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_TITANTYPE_OFFSET UNITYSDK_OFFSET(0x9F1ED30)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x9F20050)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9F1FFF0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x9F205D0)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9F1F750)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F1ED10)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournTitanTalentNodeData_TypeDefinitionIndex = 53822;
+
+	class RogueTournTitanTalentNodeData : public ::System::Object
+	{
+	public:
+		::Enum_3_0A3761FE34514D6C_62 _Status_k__BackingField; // 0x10
+		::System::UInt32 _TalentID_k__BackingField; // 0x14
+
+		::System::Void _ctor(::RPG::GameCore::RogueTournTitanTalentRow* row)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournTitanTalentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA__CTOR_OFFSET))(this, row);
+		}
+
+		::System::Void Sync(::Class_1_A21ACB7E0A72D3E4_6* proto)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_A21ACB7E0A72D3E4_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_SYNC_OFFSET))(this, proto);
+		}
+
+		static ::RPG::Client::TextID GetTitanTitle(::RPG::GameCore::RogueTitanType type)
+		{
+			return ((::RPG::Client::TextID(*)(::RPG::GameCore::RogueTitanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GETTITANTITLE_OFFSET))(type);
+		}
+
+		static ::System::String* GetTitanIconPath(::RPG::GameCore::RogueTitanType type)
+		{
+			return ((::System::String*(*)(::RPG::GameCore::RogueTitanType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GETTITANICONPATH_OFFSET))(type);
+		}
+
+		::System::UInt32 get_TalentID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_TALENTID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PreID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_PREID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTitanType get_TitanType()
+		{
+			return ((::RPG::GameCore::RogueTitanType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_TITANTYPE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Title()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_TITLE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_StoryTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_STORYTITLE_OFFSET))(this);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_DESC_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_StoryJSONPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_STORYJSONPATH_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ItemConfig* get_CostItem()
+		{
+			return ((::RPG::GameCore::ItemConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_COSTITEM_OFFSET))(this);
+		}
+
+		::Enum_3_0A3761FE34514D6C_62 get_Status()
+		{
+			return ((::Enum_3_0A3761FE34514D6C_62(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_STATUS_OFFSET))(this);
+		}
+
+		::System::Void set_Status(::Enum_3_0A3761FE34514D6C_62 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_62))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_SET_STATUS_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CanActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET_CANACTIVE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::RogueTournTitanTalentRow* get__Row()
+		{
+			return ((::RPG::GameCore::RogueTournTitanTalentRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNTITANTALENTNODEDATA_GET__ROW_OFFSET))(this);
+		}
+	};
+}

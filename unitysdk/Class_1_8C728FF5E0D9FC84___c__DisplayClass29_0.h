@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_282;
+namespace System { class Action; }
+
+#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10E52E40)
+#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__DEBUGACTIVELAYER_B__0_OFFSET UNITYSDK_OFFSET(0x10E55100)
+
+inline static constexpr unsigned int Class_1_8C728FF5E0D9FC84___c__DisplayClass29_0_TypeDefinitionIndex = 39153;
+
+class Class_1_8C728FF5E0D9FC84___c__DisplayClass29_0 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_282* du; // 0x10
+	::System::Action* __9__0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _DebugActiveLayer_b__0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS29_0__DEBUGACTIVELAYER_B__0_OFFSET))(this);
+	}
+};

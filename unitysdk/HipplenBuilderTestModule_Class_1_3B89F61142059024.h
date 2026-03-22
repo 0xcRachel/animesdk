@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HipplenBuilderTestModule_Class_1_3B89F61142059024_TestStatus.h"
+#include "unitysdk/System/Object.h"
+
+class HipplenBuilderTestAsset_TestConfig;
+namespace System { class String; }
+
+#define HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_128774387667156B_1_OFFSET UNITYSDK_OFFSET(0x1054C600)
+#define HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x1054C5D0)
+#define HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_F5599B7DA8E7E53C_1_OFFSET UNITYSDK_OFFSET(0x1054BAC0)
+#define HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0x1054BAA0)
+#define HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024__CTOR_OFFSET UNITYSDK_OFFSET(0x1054C5C0)
+
+inline static constexpr unsigned int HipplenBuilderTestModule_Class_1_3B89F61142059024_TypeDefinitionIndex = 37158;
+
+class HipplenBuilderTestModule_Class_1_3B89F61142059024 : public ::System::Object
+{
+public:
+	::HipplenBuilderTestAsset_TestConfig* Field_1_1; // 0x10
+	::HipplenBuilderTestModule_Class_1_3B89F61142059024_TestStatus Field_1_0; // 0x18
+
+	::System::Void _ctor(::HipplenBuilderTestAsset_TestConfig* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::HipplenBuilderTestAsset_TestConfig*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_1_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_128774387667156B_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_F5599B7DA8E7E53C()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_F5599B7DA8E7E53C_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_F5599B7DA8E7E53C_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_F5599B7DA8E7E53C_1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_128774387667156B_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_CLASS_1_3B89F61142059024_METHOD_1_128774387667156B_1_OFFSET))(this);
+	}
+};

@@ -1,0 +1,313 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector4.h"
+
+namespace RPG::Client { class CoastinfoWaveMonoPlugin; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Camera; }
+namespace UnityEngine { class ComputeBuffer; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class MaterialPropertyBlock; }
+namespace UnityEngine { class Mesh; }
+namespace UnityEngine { class MeshRenderer; }
+namespace UnityEngine { class Object; }
+
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x8FB21A0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_0591D209F721C9B9_OFFSET UNITYSDK_OFFSET(0x8FB2650)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_1DA5C35D6019ACFB_OFFSET UNITYSDK_OFFSET(0x8FB01E0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_25DD7463C131509A_OFFSET UNITYSDK_OFFSET(0x8FB18C0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_292851C8CABF98E9_OFFSET UNITYSDK_OFFSET(0x8FB02C0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x8FB2B20)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x8FB39A0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x8FB3810)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x8FB3880)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x8FB38E0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET UNITYSDK_OFFSET(0x8FB3940)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_5_OFFSET UNITYSDK_OFFSET(0x8FB39E0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x8FB37B0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_459C79521BFE514E_OFFSET UNITYSDK_OFFSET(0x8FB3AA0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_50777E1B00315547_OFFSET UNITYSDK_OFFSET(0x8FB2C70)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x8FB3D50)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x8FB3DB0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x8FB3E10)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x8FB3E70)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x8FB3ED0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x8FB3FA0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8FB3CF0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_7807D95AEFFB3EED_OFFSET UNITYSDK_OFFSET(0x8FB3240)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_7DA3FDF704693A06_OFFSET UNITYSDK_OFFSET(0x8FB0D70)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_8CA9B687AA7C466A_OFFSET UNITYSDK_OFFSET(0x8FAFA50)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x8FB3720)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_9999F3E4D60BFCCC_OFFSET UNITYSDK_OFFSET(0x8FB2830)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_9B2E710EB9D49BA6_OFFSET UNITYSDK_OFFSET(0x8FB2210)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_BE5A0083341D8F96_OFFSET UNITYSDK_OFFSET(0x8FB3530)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0x8FB0B40)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_ED34DCC6F6541B09_OFFSET UNITYSDK_OFFSET(0x8FB25B0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x8FB3F30)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_F675341C48ED6437_OFFSET UNITYSDK_OFFSET(0x8FB0BC0)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x8FB3A40)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x8FB3C20)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR__COMPUTENEARFARFROMBOUNDS_G__EXTENTALONGDIR_2_0_OFFSET UNITYSDK_OFFSET(0x8FB0B00)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8FB3C10)
+#define RPG_CLIENT_COASTINFOWAVEBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x8FB4000)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CoastinfoWaveBehavior_TypeDefinitionIndex = 56513;
+
+	class CoastinfoWaveBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		static ::System::Int32* StaticGet_ID_RefAxisT_WS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF780);
+		}
+		static ::System::Int32* StaticGet_ID_RefUV01_11()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF784);
+		}
+		static ::System::Int32* StaticGet_ID_RefUV00_10()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF788);
+		}
+		static ::System::Int32* StaticGet_ID_TM_WrapMode()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF78C);
+		}
+		static ::System::Int32* StaticGet_ID_RefOriginWS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF790);
+		}
+		static ::System::Int32* StaticGet_ID_RefAxisN_WS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF794);
+		}
+		static ::System::Int32* StaticGet_ID_RefSizeWS()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF798);
+		}
+		static ::System::Int32* StaticGet_ID_TM_Switch()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CoastinfoWaveBehavior_TypeDefinitionIndex)->GetStaticField(0xF79C);
+		}
+		// static const ::System::Int32 kMaxInstancesPerBatch = 0x3FF; // 0x0
+		::System::Boolean _tmActive; // 0x38
+		::UnityEngine::Mesh* _tmSharedMesh; // 0x40
+		::UnityEngine::Material* _tmMat; // 0x48
+		::UnityEngine::MaterialPropertyBlock* _tmMPB; // 0x50
+		::System::Int32 _tmSourceMatId; // 0x58
+		::Il2CppArray<::UnityEngine::Matrix4x4>* _tmMatrices; // 0x60
+		::Il2CppArray<::UnityEngine::Matrix4x4>* _tmBatch1023; // 0x68
+		::System::Int32 _tmInstanceCount; // 0x70
+		::System::Boolean _tmDirtyMatrices; // 0x74
+		::System::Int32 _tmFrameCounter; // 0x78
+		::UnityEngine::Vector3 _tmLastSnapOriginWS; // 0x7C
+		::System::Int32 _tmLastRes; // 0x88
+		::System::Single _tmLastTileSize; // 0x8C
+		::System::Int32 _tmLastCx; // 0x90
+		::System::Int32 _tmLastCz; // 0x94
+		::UnityEngine::Vector3 _refOriginWS; // 0x98
+		::UnityEngine::Vector3 _refAxisT_WS; // 0xA4
+		::UnityEngine::Vector3 _refAxisN_WS; // 0xB0
+		::UnityEngine::Vector3 _refNormalWS; // 0xBC
+		::UnityEngine::Quaternion _refRotWS; // 0xC8
+		::System::Single _refWidthWorld; // 0xD8
+		::System::Single _refDepthWorld; // 0xDC
+		::UnityEngine::Vector4 _refCornerUV00_10; // 0xE0
+		::UnityEngine::Vector4 _refCornerUV01_11; // 0xF0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR__CCTOR_OFFSET))();
+		}
+
+		static ::System::Void Method_3_8CA9B687AA7C466A(::UnityEngine::Mesh* a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		{
+			return ((::System::Void(*)(::UnityEngine::Mesh*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_8CA9B687AA7C466A_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void Method_3_1DA5C35D6019ACFB(::Il2CppArray<::UnityEngine::ComputeBuffer*>* a1)
+		{
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::ComputeBuffer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_1DA5C35D6019ACFB_OFFSET))(a1);
+		}
+
+		static ::System::Boolean Method_3_292851C8CABF98E9(::UnityEngine::Camera* a1, ::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>* a2, ::System::Single& a3, ::System::Single& a4, ::System::Single a5)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::Camera*, ::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>*, ::System::Single&, ::System::Single&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_292851C8CABF98E9_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void Method_3_E55199F4E71DB1AE(::UnityEngine::Object* a1)
+		{
+			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_E55199F4E71DB1AE_OFFSET))(a1);
+		}
+
+		::System::Void Method_3_F675341C48ED6437()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_F675341C48ED6437_OFFSET))(this);
+		}
+
+		static ::UnityEngine::Mesh* Method_3_7DA3FDF704693A06(::System::Int32 a1, ::System::Single a2)
+		{
+			return ((::UnityEngine::Mesh*(*)(::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_7DA3FDF704693A06_OFFSET))(a1, a2);
+		}
+
+		::System::Boolean Method_3_25DD7463C131509A(::UnityEngine::MeshRenderer* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::MeshRenderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_25DD7463C131509A_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_9B2E710EB9D49BA6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_9B2E710EB9D49BA6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_ED34DCC6F6541B09(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_ED34DCC6F6541B09_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_0591D209F721C9B9(::UnityEngine::Material* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_0591D209F721C9B9_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_9999F3E4D60BFCCC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_9999F3E4D60BFCCC_OFFSET))(this);
+		}
+
+		::System::Void Method_3_30D1209326FA87FC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_30D1209326FA87FC_OFFSET))(this);
+		}
+
+		::System::Void Method_3_50777E1B00315547(::UnityEngine::Camera* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_50777E1B00315547_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_3_7807D95AEFFB3EED(::UnityEngine::Camera* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_7807D95AEFFB3EED_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_BE5A0083341D8F96(::UnityEngine::Camera* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_BE5A0083341D8F96_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_9681042564541CD6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_4343F372F34C05BF_5_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_TICK_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::CoastinfoWaveMonoPlugin* get__OwnerMonoPlugin()
+		{
+			return ((::RPG::Client::CoastinfoWaveMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void Method_3_459C79521BFE514E(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_459C79521BFE514E_OFFSET))(this, a1);
+		}
+
+		static ::System::Single _ComputeNearFarFromBounds_g__ExtentAlongDir_2_0(::UnityEngine::Vector3 fwd, ::UnityEngine::Vector3 ext)
+		{
+			return ((::System::Single(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR__COMPUTENEARFARFROMBOUNDS_G__EXTENTALONGDIR_2_0_OFFSET))(fwd, ext);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_F0E307B84478A272()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_COASTINFOWAVEBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		}
+	};
+}

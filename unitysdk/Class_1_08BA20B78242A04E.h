@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_867B6CE75953535A;
+class Class_2_43D1AA62A6D00FFF;
+class Class_3_F4528A5C0F861AF2;
+namespace RPG::GameCore { class ElfFeverSkillLevelConfig; }
+
+#define CLASS_1_08BA20B78242A04E_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFD58DE0)
+#define CLASS_1_08BA20B78242A04E_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xFD58890)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_151E18011F9CA130_OFFSET UNITYSDK_OFFSET(0xFD596E0)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_367B9590522079D1_OFFSET UNITYSDK_OFFSET(0xFD59460)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_458DAEAB6170C584_OFFSET UNITYSDK_OFFSET(0xFD58A30)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_734CC582838F149E_OFFSET UNITYSDK_OFFSET(0xFD58FA0)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xFD59670)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_B00A1D822E6F5C31_OFFSET UNITYSDK_OFFSET(0xFD59B50)
+#define CLASS_1_08BA20B78242A04E_METHOD_1_E8C21772149A906D_OFFSET UNITYSDK_OFFSET(0xFD59010)
+#define CLASS_1_08BA20B78242A04E__CTOR_OFFSET UNITYSDK_OFFSET(0xFD58860)
+#define CLASS_1_08BA20B78242A04E___TICKGAME_B__6_0_OFFSET UNITYSDK_OFFSET(0xFD59BB0)
+
+inline static constexpr unsigned int Class_1_08BA20B78242A04E_TypeDefinitionIndex = 60934;
+
+class Class_1_08BA20B78242A04E : public ::System::Object
+{
+public:
+	::Class_2_43D1AA62A6D00FFF* Field_1_5; // 0x10
+	::Class_3_F4528A5C0F861AF2* Field_1_6; // 0x18
+	::RPG::GameCore::ElfFeverSkillLevelConfig* Field_1_4; // 0x20
+	::System::Int32 Field_1_3; // 0x28
+	::System::Single Field_1_1; // 0x2C
+	::System::Boolean Field_1_0; // 0x30
+	::System::Single Field_1_2; // 0x34
+
+	::System::Void _ctor(::Class_1_867B6CE75953535A* a1, ::Class_3_F4528A5C0F861AF2* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A*, ::Class_3_F4528A5C0F861AF2*))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Initialize()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_INITIALIZE_OFFSET))(this);
+	}
+
+	::System::Void Execute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_EXECUTE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_458DAEAB6170C584()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_458DAEAB6170C584_OFFSET))(this);
+	}
+
+	::System::Void Method_1_734CC582838F149E(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_734CC582838F149E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_367B9590522079D1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_367B9590522079D1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_E8C21772149A906D(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_E8C21772149A906D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_151E18011F9CA130(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_151E18011F9CA130_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_B00A1D822E6F5C31()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E_METHOD_1_B00A1D822E6F5C31_OFFSET))(this);
+	}
+
+	::System::Void __TickGame_b__6_0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_08BA20B78242A04E___TICKGAME_B__6_0_OFFSET))(this);
+	}
+};

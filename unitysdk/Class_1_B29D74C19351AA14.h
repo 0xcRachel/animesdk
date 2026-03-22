@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_877;
+class Class_1_A9BFC150668414F7;
+
+#define CLASS_1_B29D74C19351AA14_GET_EDGEID_OFFSET UNITYSDK_OFFSET(0x84E6E80)
+#define CLASS_1_B29D74C19351AA14_GET_FROMID_OFFSET UNITYSDK_OFFSET(0x84E6E90)
+#define CLASS_1_B29D74C19351AA14_GET_GRAPH_OFFSET UNITYSDK_OFFSET(0x84E6E70)
+#define CLASS_1_B29D74C19351AA14_GET_TOID_OFFSET UNITYSDK_OFFSET(0x84E6EA0)
+#define CLASS_1_B29D74C19351AA14_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0x84E6EB0)
+#define CLASS_1_B29D74C19351AA14_METHOD_1_7033EFB970A18315_OFFSET UNITYSDK_OFFSET(0x84E7220)
+#define CLASS_1_B29D74C19351AA14_METHOD_1_758C9C0B4EBF7CCF_OFFSET UNITYSDK_OFFSET(0x84E6F90)
+#define CLASS_1_B29D74C19351AA14_METHOD_1_ABFE6A357B89C69A_OFFSET UNITYSDK_OFFSET(0x84E6EC0)
+#define CLASS_1_B29D74C19351AA14_METHOD_1_C50B93169B85DAEA_OFFSET UNITYSDK_OFFSET(0x84E7130)
+#define CLASS_1_B29D74C19351AA14_METHOD_1_FF441DAA24EC96DE_OFFSET UNITYSDK_OFFSET(0x84E7060)
+#define CLASS_1_B29D74C19351AA14__CTOR_OFFSET UNITYSDK_OFFSET(0x84E7180)
+
+inline static constexpr unsigned int Class_1_B29D74C19351AA14_TypeDefinitionIndex = 59590;
+
+class Class_1_B29D74C19351AA14 : public ::System::Object
+{
+public:
+	::Class_1_A9BFC150668414F7* _Graph_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_877* Field_1_5; // 0x18
+	::System::Single _Weight_k__BackingField; // 0x20
+	::System::UInt32 _ToID_k__BackingField; // 0x24
+	::System::UInt32 _FromID_k__BackingField; // 0x28
+	::System::UInt32 _EdgeID_k__BackingField; // 0x2C
+
+	::System::Void _ctor(::Class_1_A9BFC150668414F7* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Single a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A9BFC150668414F7*, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14__CTOR_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::Class_1_A9BFC150668414F7* get_Graph()
+	{
+		return ((::Class_1_A9BFC150668414F7*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_GET_GRAPH_OFFSET))(this);
+	}
+
+	::System::UInt32 get_EdgeID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_GET_EDGEID_OFFSET))(this);
+	}
+
+	::System::UInt32 get_FromID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_GET_FROMID_OFFSET))(this);
+	}
+
+	::System::UInt32 get_ToID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_GET_TOID_OFFSET))(this);
+	}
+
+	::System::Single get_Weight()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_GET_WEIGHT_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_ABFE6A357B89C69A()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_METHOD_1_ABFE6A357B89C69A_OFFSET))(this);
+	}
+
+	static ::Class_1_B29D74C19351AA14* Method_1_758C9C0B4EBF7CCF(::Class_1_A9BFC150668414F7* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Single a4, ::Class_0_16E4307DCC419505_877* a5)
+	{
+		return ((::Class_1_B29D74C19351AA14*(*)(::Class_1_A9BFC150668414F7*, ::System::UInt32, ::System::UInt32, ::System::Single, ::Class_0_16E4307DCC419505_877*))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_METHOD_1_758C9C0B4EBF7CCF_OFFSET))(a1, a2, a3, a4, a5);
+	}
+
+	static ::Class_1_B29D74C19351AA14* Method_1_FF441DAA24EC96DE(::Class_1_A9BFC150668414F7* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Single a4)
+	{
+		return ((::Class_1_B29D74C19351AA14*(*)(::Class_1_A9BFC150668414F7*, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_METHOD_1_FF441DAA24EC96DE_OFFSET))(a1, a2, a3, a4);
+	}
+
+	::System::Void Method_1_C50B93169B85DAEA(::Class_0_16E4307DCC419505_877* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_877*))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_METHOD_1_C50B93169B85DAEA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7033EFB970A18315()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B29D74C19351AA14_METHOD_1_7033EFB970A18315_OFFSET))(this);
+	}
+};

@@ -1,0 +1,126 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
+
+namespace RPG::Client { class SmoothMaskDrawer; }
+namespace UnityEngine { class MaterialAnimationBinding; }
+namespace UnityEngine { class RenderTexture; }
+namespace UnityEngine::UI { class SmoothMask; }
+
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x9F8CB40)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x9F8C6F0)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9F8CA90)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x9F8CFD0)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x9F8D030)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x9F8D090)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x9F8CF70)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_87318FF00D6BC7EB_OFFSET UNITYSDK_OFFSET(0x9F8CD50)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x9F8C630)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x9F8CA10)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_B235E757922104A8_OFFSET UNITYSDK_OFFSET(0x9F8C730)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_C7BF9C1E6A78DCAB_OFFSET UNITYSDK_OFFSET(0x9F8C780)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9F8CAF0)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_F2C8A9D880BBBF6E_OFFSET UNITYSDK_OFFSET(0x9F8CC50)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9F8CF30)
+#define RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR___IFIXBASEPROXY_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x9F8D0F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int SmoothMaskDrawerBehavior_TypeDefinitionIndex = 56608;
+
+	class SmoothMaskDrawerBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		static ::RPG::Client::SmoothMaskDrawer** StaticGet_OnlySmoothMaskDrawer()
+		{
+			return (::RPG::Client::SmoothMaskDrawer**)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskDrawerBehavior_TypeDefinitionIndex)->GetStaticField(0x17310);
+		}
+		::UnityEngine::Vector2Int _Resolution; // 0x38
+		::UnityEngine::MaterialAnimationBinding* _MaterialAnimationBinding; // 0x40
+		::UnityEngine::UI::SmoothMask* _SmoothMask; // 0x48
+		::UnityEngine::RenderTexture* _SmoothMaskTexture; // 0x50
+		::System::Int32 _SrcBlendShaderProperty; // 0x58
+		::System::Int32 _DstBlendShaderProperty; // 0x5C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Method_3_89D1F247B9D324EE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_89D1F247B9D324EE_OFFSET))(this);
+		}
+
+		::System::Void Method_3_B235E757922104A8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_B235E757922104A8_OFFSET))(this);
+		}
+
+		::System::Void Method_3_9681042564541CD6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void EndOfLateTick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_ENDOFLATETICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_C7BF9C1E6A78DCAB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_C7BF9C1E6A78DCAB_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_F2C8A9D880BBBF6E()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_F2C8A9D880BBBF6E_OFFSET))(this);
+		}
+
+		::System::Void Method_3_87318FF00D6BC7EB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_87318FF00D6BC7EB_OFFSET))(this);
+		}
+
+		::RPG::Client::SmoothMaskDrawer* get__Owner()
+		{
+			return ((::RPG::Client::SmoothMaskDrawer*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_GET__OWNER_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_EndOfLateTick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SMOOTHMASKDRAWERBEHAVIOR___IFIXBASEPROXY_ENDOFLATETICK_OFFSET))(this, P0);
+		}
+	};
+}

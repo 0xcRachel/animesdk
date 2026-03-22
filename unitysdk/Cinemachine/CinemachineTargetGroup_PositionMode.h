@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace Cinemachine
+{
+	inline static constexpr unsigned int CinemachineTargetGroup_PositionMode_TypeDefinitionIndex = 29928;
+
+	enum class CinemachineTargetGroup_PositionMode : ::System::Int32
+	{
+		GroupCenter = 0,
+		GroupAverage = 1,
+	};
+}

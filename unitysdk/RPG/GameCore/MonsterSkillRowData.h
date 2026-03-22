@@ -1,0 +1,292 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/SkillEffect.h"
+#include "unitysdk/Struct_2_5CDBC06B233F2791.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5D31C4140DCE7D34;
+class Class_1_E8C259E730C95D15;
+namespace RPG::GameCore { class MonsterSkillRow; }
+namespace RPG::GameCore { class SkillConfig; }
+namespace System { class String; }
+
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA4C2AD0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ATTACKDAMAGETYPEOVERRIDE_OFFSET UNITYSDK_OFFSET(0xA4C3130)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xA4C31A0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_BPADD_OFFSET UNITYSDK_OFFSET(0xA4C2F70)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_BPNEED_OFFSET UNITYSDK_OFFSET(0xA4C2F00)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xA4C2BB0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_COOLDOWN_OFFSET UNITYSDK_OFFSET(0xA4C2CF0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_DELAYRATIO_OFFSET UNITYSDK_OFFSET(0xA4C2FE0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_EXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xA4C3710)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_INITCOOLDOWN_OFFSET UNITYSDK_OFFSET(0xA4C2C90)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ISTHREAT_OFFSET UNITYSDK_OFFSET(0xA4C3760)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xA4C31F0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xA4C2900)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_PHASELIST_OFFSET UNITYSDK_OFFSET(0xA4C3740)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_PREADDMODIFIERLIST_OFFSET UNITYSDK_OFFSET(0xA4C3200)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA4C2B10)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SHOWDAMAGELIST_OFFSET UNITYSDK_OFFSET(0xA4C2C70)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SHOWHEALLIST_OFFSET UNITYSDK_OFFSET(0xA4C2C80)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SHOWSTANCELIST_OFFSET UNITYSDK_OFFSET(0xA4C2C60)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SIMPLEEXTRAEFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xA4C3730)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SIMPLEPARAMLIST_OFFSET UNITYSDK_OFFSET(0xA4C3070)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SIMPLESKILLDESC_OFFSET UNITYSDK_OFFSET(0xA4C35C0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET UNITYSDK_OFFSET(0xA4C31D0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLDESC_OFFSET UNITYSDK_OFFSET(0xA4C3520)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLEFFECT_OFFSET UNITYSDK_OFFSET(0xA4C31C0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLICON_OFFSET UNITYSDK_OFFSET(0xA4C3480)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0xA4C2BC0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLNAME_OFFSET UNITYSDK_OFFSET(0xA4C3220)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLNEED_OFFSET UNITYSDK_OFFSET(0xA4C3650)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLTAG_OFFSET UNITYSDK_OFFSET(0xA4C32C0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0xA4C2BE0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLTYPEDESC_OFFSET UNITYSDK_OFFSET(0xA4C33D0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SORTORDER_OFFSET UNITYSDK_OFFSET(0xA4C3370)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPADD_OFFSET UNITYSDK_OFFSET(0xA4C2D50)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPBASE_OFFSET UNITYSDK_OFFSET(0xA4C2DC0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPMULTIPLERATIO_OFFSET UNITYSDK_OFFSET(0xA4C2EA0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xA4C2E30)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_STANCEDAMAGEDISPLAY_OFFSET UNITYSDK_OFFSET(0xA4C3700)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_STANCEDAMAGETYPE_OFFSET UNITYSDK_OFFSET(0xA4C30C0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ULTRASKILLICON_OFFSET UNITYSDK_OFFSET(0xA4C34D0)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_OVERRIDEDATA_OFFSET UNITYSDK_OFFSET(0xA4C2960)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0xA4C2B70)
+#define RPG_GAMECORE_MONSTERSKILLROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C2880)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int MonsterSkillRowData_TypeDefinitionIndex = 45422;
+
+	class MonsterSkillRowData : public ::System::Object
+	{
+	public:
+		static ::RPG::GameCore::MonsterSkillRow** StaticGet__EmptyRow()
+		{
+			return (::RPG::GameCore::MonsterSkillRow**)Il2CppClass::FromTypeDefinitionIndex(MonsterSkillRowData_TypeDefinitionIndex)->GetStaticField(0x43F70);
+		}
+		::RPG::GameCore::MonsterSkillRow* _Row; // 0x10
+		::Struct_2_5CDBC06B233F2791 _OverrideData; // 0x18
+		::Struct_2_5CDBC06B233F2791 _DefaultOverrideData; // 0x110
+		::RPG::GameCore::SkillConfig* _Config; // 0x208
+
+		::System::Void _ctor(::RPG::GameCore::MonsterSkillRow* row, ::RPG::GameCore::SkillConfig* config)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonsterSkillRow*, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA__CTOR_OFFSET))(this, row, config);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Object* get_Row()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ROW_OFFSET))(this);
+		}
+
+		::System::Void set_Row(::System::Object* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_SET_ROW_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::SkillConfig* get_Config()
+		{
+			return ((::RPG::GameCore::SkillConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_CONFIG_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SkillID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLID_OFFSET))(this);
+		}
+
+		::System::String* get_SkillTriggerKey()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLTRIGGERKEY_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_ShowStanceList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SHOWSTANCELIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_5D31C4140DCE7D34*>* get_ShowDamageList()
+		{
+			return ((::Il2CppArray<::Class_1_5D31C4140DCE7D34*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SHOWDAMAGELIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::Class_1_E8C259E730C95D15*>* get_ShowHealList()
+		{
+			return ((::Il2CppArray<::Class_1_E8C259E730C95D15*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SHOWHEALLIST_OFFSET))(this);
+		}
+
+		::System::Int32 get_InitCoolDown()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_INITCOOLDOWN_OFFSET))(this);
+		}
+
+		::System::Int32 get_CoolDown()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_COOLDOWN_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPAdd()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPADD_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPBase()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPBASE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPNeed()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPNEED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SPMultipleRatio()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SPMULTIPLERATIO_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_BPNeed()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_BPNEED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_BPAdd()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_BPADD_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_DelayRatio()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_DELAYRATIO_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_ParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_PARAMLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_SimpleParamList()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SIMPLEPARAMLIST_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackDamageType get_StanceDamageType()
+		{
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_STANCEDAMAGETYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackDamageType get_AttackDamageTypeOverride()
+		{
+			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ATTACKDAMAGETYPEOVERRIDE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AttackType get_AttackType()
+		{
+			return ((::RPG::GameCore::AttackType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ATTACKTYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::SkillEffect get_SkillEffect()
+		{
+			return ((::RPG::GameCore::SkillEffect(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLEFFECT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint get_SkillComboValueDelta()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::String*>* get_PreAddModifierList()
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_PREADDMODIFIERLIST_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillTag()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLTAG_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SortOrder()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SORTORDER_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillTypeDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLTYPEDESC_OFFSET))(this);
+		}
+
+		::System::String* get_SkillIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLICON_OFFSET))(this);
+		}
+
+		::System::String* get_UltraSkillIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ULTRASKILLICON_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SimpleSkillDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SIMPLESKILLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkillNeed()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SKILLNEED_OFFSET))(this);
+		}
+
+		::System::Int32 get_StanceDamageDisplay()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_STANCEDAMAGEDISPLAY_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ExtraEffectIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_EXTRAEFFECTIDLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_SimpleExtraEffectIDList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_SIMPLEEXTRAEFFECTIDLIST_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_PhaseList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_PHASELIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsThreat()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_GET_ISTHREAT_OFFSET))(this);
+		}
+
+		::System::Void OverrideData(::Struct_2_5CDBC06B233F2791 overrideData)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_5CDBC06B233F2791))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERSKILLROWDATA_OVERRIDEDATA_OFFSET))(this, overrideData);
+		}
+	};
+}

@@ -1,0 +1,367 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PlanetFesEventType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_01FA9B67F39C1E6F;
+class Class_1_4CF8088A158DCE25_60;
+class Class_1_5959E346C8AF7EDC;
+namespace RPG::Client { class PlanetFesBusinessDayData; }
+
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_CANREFRESHAPPEAR_OFFSET UNITYSDK_OFFSET(0x9AC9840)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_CANREFRESHDISAPPEAR_OFFSET UNITYSDK_OFFSET(0x9AC9BB0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_CLEAR_OFFSET UNITYSDK_OFFSET(0x9AC4230)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9AC96A0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_APPEARCD_OFFSET UNITYSDK_OFFSET(0x9AC5860)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_CUREVENTTYPE_OFFSET UNITYSDK_OFFSET(0x9ACA160)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_DISAPPEARAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9AC58F0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_FAILREAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA2E0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_FINISHEDCOUNT_OFFSET UNITYSDK_OFFSET(0x9ACA180)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_FIRSTUNLOCKAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA280)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_HISTORYDATA_OFFSET UNITYSDK_OFFSET(0x9ACA340)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_INITAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA2A0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISDATAVALID_OFFSET UNITYSDK_OFFSET(0x9ACA140)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISEVENTFIRSTTIME_OFFSET UNITYSDK_OFFSET(0x9ACA240)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISEXIST_OFFSET UNITYSDK_OFFSET(0x9ACA1C0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISFINISHEDALLCOUNT_OFFSET UNITYSDK_OFFSET(0x9AC56E0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISJUSTENTERACTIVITY_OFFSET UNITYSDK_OFFSET(0x9ACA200)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISRECENTAPPEARFINISHEVENT_OFFSET UNITYSDK_OFFSET(0x9ACA1E0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_LASTSTATUSCHANGETIME_OFFSET UNITYSDK_OFFSET(0x9ACA220)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_MISSCOUNT_OFFSET UNITYSDK_OFFSET(0x9ACA260)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_REENTERAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA300)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_STAYINTERVAL_OFFSET UNITYSDK_OFFSET(0x9ACA320)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_SUCCESSREAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA2C0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x9ACA1A0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_GET__CURBUSINESSDAYDATA_OFFSET UNITYSDK_OFFSET(0x9AC9B20)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_ISBONUSEVENT_OFFSET UNITYSDK_OFFSET(0x9AC7670)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0x9ABC130)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9AC5620)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_LOADCDCONFIG_OFFSET UNITYSDK_OFFSET(0x9AC56F0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_REFRESHISFIRSTTIME_OFFSET UNITYSDK_OFFSET(0x9AC9E90)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SETTOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x9AC4840)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_CUREVENTTYPE_OFFSET UNITYSDK_OFFSET(0x9ACA170)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_FAILREAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA2F0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_FINISHEDCOUNT_OFFSET UNITYSDK_OFFSET(0x9ACA190)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_FIRSTUNLOCKAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA290)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_INITAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA2B0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISDATAVALID_OFFSET UNITYSDK_OFFSET(0x9ACA150)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISEVENTFIRSTTIME_OFFSET UNITYSDK_OFFSET(0x9ACA250)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISEXIST_OFFSET UNITYSDK_OFFSET(0x9ACA1D0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISJUSTENTERACTIVITY_OFFSET UNITYSDK_OFFSET(0x9ACA210)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISRECENTAPPEARFINISHEVENT_OFFSET UNITYSDK_OFFSET(0x9ACA1F0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_LASTSTATUSCHANGETIME_OFFSET UNITYSDK_OFFSET(0x9ACA230)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_MISSCOUNT_OFFSET UNITYSDK_OFFSET(0x9ACA270)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_REENTERAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA310)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_STAYINTERVAL_OFFSET UNITYSDK_OFFSET(0x9ACA330)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_SUCCESSREAPPEARCD_OFFSET UNITYSDK_OFFSET(0x9ACA2D0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SET_TOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x9ACA1B0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SYNCHISTORY_OFFSET UNITYSDK_OFFSET(0x9AC3BC0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE_SYNC_OFFSET UNITYSDK_OFFSET(0x9AC4CF0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE__CLEARDETAIL_OFFSET UNITYSDK_OFFSET(0x9ABC2D0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x9ABAAA0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE__DISPOSEDETAIL_OFFSET UNITYSDK_OFFSET(0x9ABC250)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE__ISMISSEVENT_OFFSET UNITYSDK_OFFSET(0x9AC95D0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE__ONEVENTFINISHCOUNTUPDATE_OFFSET UNITYSDK_OFFSET(0x9AC97F0)
+#define RPG_CLIENT_PLANETFESEVENTDATABASE__SYNCDETAIL_OFFSET UNITYSDK_OFFSET(0x9ABC1C0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PlanetFesEventDataBase_TypeDefinitionIndex = 53012;
+
+	class PlanetFesEventDataBase : public ::System::Object
+	{
+	public:
+		::Class_1_5959E346C8AF7EDC* _HistoryData_k__BackingField; // 0x10
+		::System::Int32 _MissCount_k__BackingField; // 0x18
+		::System::Boolean _IsRecentAppearFinishEvent_k__BackingField; // 0x1C
+		::System::Boolean _IsDataValid_k__BackingField; // 0x1D
+		::System::Boolean _IsExist_k__BackingField; // 0x1E
+		::RPG::GameCore::PlanetFesEventType _CurEventType_k__BackingField; // 0x20
+		::System::Boolean _IsEventFirstTime_k__BackingField; // 0x24
+		::System::Boolean _IsJustEnterActivity_k__BackingField; // 0x25
+		::System::Int64 _StayInterval_k__BackingField; // 0x28
+		::System::Int64 _SuccessReAppearCD_k__BackingField; // 0x30
+		::System::Int64 _FailReAppearCD_k__BackingField; // 0x38
+		::System::Int64 _InitAppearCD_k__BackingField; // 0x40
+		::System::Int64 _LastStatusChangeTime_k__BackingField; // 0x48
+		::System::Int64 _FirstUnlockAppearCD_k__BackingField; // 0x50
+		::System::Int64 _ReenterAppearCD_k__BackingField; // 0x58
+		::System::UInt32 _FinishedCount_k__BackingField; // 0x60
+		::System::UInt32 _TotalCount_k__BackingField; // 0x64
+
+		::System::Void _ctor(::RPG::GameCore::PlanetFesEventType eventType)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesEventType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE__CTOR_OFFSET))(this, eventType);
+		}
+
+		::System::Boolean IsBonusEvent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_ISBONUSEVENT_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_01FA9B67F39C1E6F* eventInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_01FA9B67F39C1E6F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SYNC_OFFSET))(this, eventInfo);
+		}
+
+		::System::Void SyncHistory(::Class_1_4CF8088A158DCE25_60* history)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4CF8088A158DCE25_60*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SYNCHISTORY_OFFSET))(this, history);
+		}
+
+		::System::Void SetTotalCount(::System::UInt32 count)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SETTOTALCOUNT_OFFSET))(this, count);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void LoadCDConfig()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_LOADCDCONFIG_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_CLEAR_OFFSET))(this);
+		}
+
+		::System::Boolean IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Void _SyncDetail(::Class_1_01FA9B67F39C1E6F* eventInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_01FA9B67F39C1E6F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE__SYNCDETAIL_OFFSET))(this, eventInfo);
+		}
+
+		::System::Void _ClearDetail()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE__CLEARDETAIL_OFFSET))(this);
+		}
+
+		::System::Void _DisposeDetail()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE__DISPOSEDETAIL_OFFSET))(this);
+		}
+
+		::System::Void _OnEventFinishCountUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE__ONEVENTFINISHCOUNTUPDATE_OFFSET))(this);
+		}
+
+		::System::Boolean IsInProgress()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_ISINPROGRESS_OFFSET))(this);
+		}
+
+		::System::Boolean CanRefreshAppear()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_CANREFRESHAPPEAR_OFFSET))(this);
+		}
+
+		::System::Boolean CanRefreshDisAppear()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_CANREFRESHDISAPPEAR_OFFSET))(this);
+		}
+
+		::RPG::Client::PlanetFesBusinessDayData* get__CurBusinessDayData()
+		{
+			return ((::RPG::Client::PlanetFesBusinessDayData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET__CURBUSINESSDAYDATA_OFFSET))(this);
+		}
+
+		::System::Void RefreshIsFirstTime()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_REFRESHISFIRSTTIME_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDataValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISDATAVALID_OFFSET))(this);
+		}
+
+		::System::Void set_IsDataValid(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISDATAVALID_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::PlanetFesEventType get_CurEventType()
+		{
+			return ((::RPG::GameCore::PlanetFesEventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_CUREVENTTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_CurEventType(::RPG::GameCore::PlanetFesEventType value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlanetFesEventType))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_CUREVENTTYPE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_FinishedCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_FINISHEDCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_FinishedCount(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_FINISHEDCOUNT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_TotalCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_TOTALCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_TotalCount(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_TOTALCOUNT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsFinishedAllCount()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISFINISHEDALLCOUNT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsExist()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISEXIST_OFFSET))(this);
+		}
+
+		::System::Void set_IsExist(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISEXIST_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsRecentAppearFinishEvent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISRECENTAPPEARFINISHEVENT_OFFSET))(this);
+		}
+
+		::System::Void set_IsRecentAppearFinishEvent(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISRECENTAPPEARFINISHEVENT_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsJustEnterActivity()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISJUSTENTERACTIVITY_OFFSET))(this);
+		}
+
+		::System::Void set_IsJustEnterActivity(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISJUSTENTERACTIVITY_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_LastStatusChangeTime()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_LASTSTATUSCHANGETIME_OFFSET))(this);
+		}
+
+		::System::Void set_LastStatusChangeTime(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_LASTSTATUSCHANGETIME_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_IsEventFirstTime()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_ISEVENTFIRSTTIME_OFFSET))(this);
+		}
+
+		::System::Void set_IsEventFirstTime(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_ISEVENTFIRSTTIME_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_MissCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_MISSCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_MissCount(::System::Int32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_MISSCOUNT_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_AppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_APPEARCD_OFFSET))(this);
+		}
+
+		::System::Int64 get_DisappearAppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_DISAPPEARAPPEARCD_OFFSET))(this);
+		}
+
+		::System::Int64 get_FirstUnlockAppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_FIRSTUNLOCKAPPEARCD_OFFSET))(this);
+		}
+
+		::System::Void set_FirstUnlockAppearCD(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_FIRSTUNLOCKAPPEARCD_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_InitAppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_INITAPPEARCD_OFFSET))(this);
+		}
+
+		::System::Void set_InitAppearCD(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_INITAPPEARCD_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_SuccessReAppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_SUCCESSREAPPEARCD_OFFSET))(this);
+		}
+
+		::System::Void set_SuccessReAppearCD(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_SUCCESSREAPPEARCD_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_FailReAppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_FAILREAPPEARCD_OFFSET))(this);
+		}
+
+		::System::Void set_FailReAppearCD(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_FAILREAPPEARCD_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_ReenterAppearCD()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_REENTERAPPEARCD_OFFSET))(this);
+		}
+
+		::System::Void set_ReenterAppearCD(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_REENTERAPPEARCD_OFFSET))(this, value);
+		}
+
+		::System::Int64 get_StayInterval()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_STAYINTERVAL_OFFSET))(this);
+		}
+
+		::System::Void set_StayInterval(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_SET_STAYINTERVAL_OFFSET))(this, value);
+		}
+
+		::Class_1_5959E346C8AF7EDC* get_HistoryData()
+		{
+			return ((::Class_1_5959E346C8AF7EDC*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE_GET_HISTORYDATA_OFFSET))(this);
+		}
+
+		::System::Boolean _IsMissEvent()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTDATABASE__ISMISSEVENT_OFFSET))(this);
+		}
+	};
+}

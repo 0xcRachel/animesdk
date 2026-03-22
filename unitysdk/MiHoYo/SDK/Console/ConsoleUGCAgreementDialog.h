@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine::UI { class ScrollRect; }
+
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15760F80)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x157620A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x15760D70)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15762610)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15762100)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x15760F20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x15760B00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x15762110)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x15762180)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15762650)
+
+namespace MiHoYo::SDK::Console
+{
+	inline static constexpr unsigned int ConsoleUGCAgreementDialog_TypeDefinitionIndex = 7452;
+
+	class ConsoleUGCAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
+	{
+	public:
+		static ::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x143F0);
+		}
+		// static const ::System::String* PrefabNameCN; // 0x0
+		// static const ::System::String* PrefabNameOS; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* ContentTextScrollRectPath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* ViewUserAgreementTextPath; // 0x0
+		// static const ::System::String* ViewPrivacyPolicyTextPath; // 0x0
+		// static const ::System::String* ScrollBtnPath; // 0x0
+		// static const ::System::String* ScrollBtnTextPath; // 0x0
+		// static const ::System::String* ScrollBarPath; // 0x0
+		::System::Action* OnUserAgreementClicked; // 0xB0
+		::System::Action* OnPrivacyPolicyClicked; // 0xB8
+		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xC0
+		::System::Boolean isScrollbarVisible; // 0xC8
+		::System::Boolean Interactable; // 0xC9
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Show()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SHOW_OFFSET))();
+		}
+
+		static ::System::Void Hide()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_HIDE_OFFSET))();
+		}
+
+		static ::System::Void SetInteractable(::System::Boolean interactable)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SETINTERACTABLE_OFFSET))(interactable);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_AWAKE_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* CheckScrollBarVisibility()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_START_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONDESTROY_OFFSET))(this);
+		}
+	};
+}

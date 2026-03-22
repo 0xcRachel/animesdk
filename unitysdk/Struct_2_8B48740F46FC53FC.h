@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_0_16E4307DCC419505_16;
+namespace RPG::GameCore { class MeshBound; }
+namespace System { class Object; }
+
+#define STRUCT_2_8B48740F46FC53FC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x20196E0)
+#define STRUCT_2_8B48740F46FC53FC_EQUALS_OFFSET UNITYSDK_OFFSET(0x201A240)
+#define STRUCT_2_8B48740F46FC53FC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x14A52B0)
+#define STRUCT_2_8B48740F46FC53FC_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x14A50F0)
+#define STRUCT_2_8B48740F46FC53FC_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0xD240)
+#define STRUCT_2_8B48740F46FC53FC_INIT_OFFSET UNITYSDK_OFFSET(0x735E0)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_0E13CD637E9D118C_OFFSET UNITYSDK_OFFSET(0x201A330)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_53FADCED337E5C9E_OFFSET UNITYSDK_OFFSET(0x14A5290)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_66CC470B422C3999_1_OFFSET UNITYSDK_OFFSET(0x164C3D70)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_66CC470B422C3999_OFFSET UNITYSDK_OFFSET(0x164C3A90)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_89BA2062B82AD26D_1_OFFSET UNITYSDK_OFFSET(0x164C3C70)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_89BA2062B82AD26D_OFFSET UNITYSDK_OFFSET(0x164C3B90)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_EBA1E5BC2BF5A26A_OFFSET UNITYSDK_OFFSET(0x201A350)
+#define STRUCT_2_8B48740F46FC53FC_METHOD_2_FAD0C69D76A78659_OFFSET UNITYSDK_OFFSET(0x201A320)
+
+inline static constexpr unsigned int Struct_2_8B48740F46FC53FC_TypeDefinitionIndex = 21939;
+
+struct alignas(8) Struct_2_8B48740F46FC53FC
+{
+	::Class_0_16E4307DCC419505_16* Field_2_0; // 0x10
+	::System::UInt32 Field_2_1; // 0x18
+
+	::System::Void Init(::Class_0_16E4307DCC419505_16* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_16*, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_INIT_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean get_IsValid()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_GET_ISVALID_OFFSET))(this);
+	}
+
+	::System::UInt32 get_Offset()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_GET_OFFSET_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_DISPOSE_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_2_66CC470B422C3999(::Struct_2_8B48740F46FC53FC a1, ::System::Object* a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_8B48740F46FC53FC, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_66CC470B422C3999_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_2_89BA2062B82AD26D(::System::Object* a1, ::Struct_2_8B48740F46FC53FC a2)
+	{
+		return ((::System::Boolean(*)(::System::Object*, ::Struct_2_8B48740F46FC53FC))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_89BA2062B82AD26D_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_2_89BA2062B82AD26D_1(::System::Object* a1, ::Struct_2_8B48740F46FC53FC a2)
+	{
+		return ((::System::Boolean(*)(::System::Object*, ::Struct_2_8B48740F46FC53FC))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_89BA2062B82AD26D_1_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_2_66CC470B422C3999_1(::Struct_2_8B48740F46FC53FC a1, ::System::Object* a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_8B48740F46FC53FC, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_66CC470B422C3999_1_OFFSET))(a1, a2);
+	}
+
+	::System::Boolean Method_2_53FADCED337E5C9E(::Struct_2_8B48740F46FC53FC a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_8B48740F46FC53FC))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_53FADCED337E5C9E_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Int32 Method_2_FAD0C69D76A78659()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_FAD0C69D76A78659_OFFSET))(this);
+	}
+
+	/*
+	::RPG::GameCore::ConfigDataPoolListPoolMember_1<::Struct_2_0B4DDB75CE25594A_9> Method_2_0E13CD637E9D118C()
+	{
+		return ((::RPG::GameCore::ConfigDataPoolListPoolMember_1<::Struct_2_0B4DDB75CE25594A_9>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_0E13CD637E9D118C_OFFSET))(this);
+	}
+	*/
+
+	::RPG::GameCore::MeshBound* Method_2_EBA1E5BC2BF5A26A()
+	{
+		return ((::RPG::GameCore::MeshBound*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_8B48740F46FC53FC_METHOD_2_EBA1E5BC2BF5A26A_OFFSET))(this);
+	}
+};

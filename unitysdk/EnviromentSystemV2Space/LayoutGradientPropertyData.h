@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EnviromentSystemV2Space/LayoutPropertyData_1.h"
+
+class Class_1_EAF7984A8FAD6BE4;
+namespace UnityEngine { class Gradient; }
+
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA_METHOD_4_528BD4865C714C5C_OFFSET UNITYSDK_OFFSET(0xE50FAA0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA_METHOD_4_B76C4FAF725FE9BF_OFFSET UNITYSDK_OFFSET(0xE50F910)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA_METHOD_4_E4886687508BA48F_OFFSET UNITYSDK_OFFSET(0xE50F9C0)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE50FA80)
+
+namespace EnviromentSystemV2Space
+{
+	inline static constexpr unsigned int LayoutGradientPropertyData_TypeDefinitionIndex = 39085;
+
+	class LayoutGradientPropertyData : public ::EnviromentSystemV2Space::LayoutPropertyData_1<::UnityEngine::Gradient*>
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Gradient* Method_4_B76C4FAF725FE9BF(::UnityEngine::Gradient* a1)
+		{
+			return ((::UnityEngine::Gradient*(*)(::PVOID, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA_METHOD_4_B76C4FAF725FE9BF_OFFSET))(this, a1);
+		}
+
+		::Class_1_EAF7984A8FAD6BE4* Method_4_E4886687508BA48F()
+		{
+			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA_METHOD_4_E4886687508BA48F_OFFSET))(this);
+		}
+
+		::Class_1_EAF7984A8FAD6BE4* Method_4_528BD4865C714C5C()
+		{
+			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LAYOUTGRADIENTPROPERTYDATA_METHOD_4_528BD4865C714C5C_OFFSET))(this);
+		}
+	};
+}

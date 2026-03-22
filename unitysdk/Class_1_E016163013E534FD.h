@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_867B6CE75953535A_1;
+class Class_2_0C58AD91B0F4D809;
+class Class_3_44EDAE37250FA2DB;
+namespace Entitas { template <typename T> class IGroup_1; }
+
+#define CLASS_1_E016163013E534FD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10C58520)
+#define CLASS_1_E016163013E534FD_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x10C58190)
+#define CLASS_1_E016163013E534FD_METHOD_1_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0x10C580E0)
+#define CLASS_1_E016163013E534FD_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x10C581D0)
+#define CLASS_1_E016163013E534FD__CTOR_OFFSET UNITYSDK_OFFSET(0x10C57F10)
+
+inline static constexpr unsigned int Class_1_E016163013E534FD_TypeDefinitionIndex = 60548;
+
+class Class_1_E016163013E534FD : public ::System::Object
+{
+public:
+	::Class_1_867B6CE75953535A_1* Field_1_0; // 0x10
+	::Entitas::IGroup_1<::Class_2_0C58AD91B0F4D809*>* Field_1_3; // 0x18
+	::Class_3_44EDAE37250FA2DB* Field_1_1; // 0x20
+	::Entitas::IGroup_1<::Class_2_0C58AD91B0F4D809*>* Field_1_2; // 0x28
+
+	::System::Void _ctor(::Class_1_867B6CE75953535A_1* a1, ::Class_3_44EDAE37250FA2DB* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_44EDAE37250FA2DB*))((::PBYTE)hIl2Cpp + CLASS_1_E016163013E534FD__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_0B1EB5C9B94BAB66()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E016163013E534FD_METHOD_1_0B1EB5C9B94BAB66_OFFSET))(this);
+	}
+
+	::System::Void Initialize()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E016163013E534FD_INITIALIZE_OFFSET))(this);
+	}
+
+	::System::Void TearDown()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E016163013E534FD_TEARDOWN_OFFSET))(this);
+	}
+
+	::System::Void Execute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E016163013E534FD_EXECUTE_OFFSET))(this);
+	}
+};

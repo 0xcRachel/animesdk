@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B;
+class Class_1_7AB88D713F5121B3_45;
+
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93800F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__0_OFFSET UNITYSDK_OFFSET(0x9383750)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__1_OFFSET UNITYSDK_OFFSET(0x9383780)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__2_OFFSET UNITYSDK_OFFSET(0x93837C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__3_OFFSET UNITYSDK_OFFSET(0x9383800)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__4_OFFSET UNITYSDK_OFFSET(0x9383820)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass173_0_TypeDefinitionIndex = 51418;
+
+	class GridFightGameRefData___c__DisplayClass173_0 : public ::System::Object
+	{
+	public:
+		::Class_1_7AB88D713F5121B3_45* rule; // 0x10
+		::System::UInt32 roleID; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean __HasRole_b__0(::Class_1_7AB88D713F5121B3_45* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_7AB88D713F5121B3_45*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__0_OFFSET))(this, x);
+		}
+
+		::System::Boolean __HasRole_b__1(::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__1_OFFSET))(this, x);
+		}
+
+		::System::Boolean __HasRole_b__2(::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__2_OFFSET))(this, x);
+		}
+
+		::System::Boolean __HasRole_b__3(::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__3_OFFSET))(this, x);
+		}
+
+		::System::Boolean __HasRole_b__4(::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B* x)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS173_0___HASROLE_B__4_OFFSET))(this, x);
+		}
+	};
+}

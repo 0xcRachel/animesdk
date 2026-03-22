@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/StageHarmonyBaseLinkSlot.h"
+
+namespace RPG::CustomRP { class CustomAdditionalLightData; }
+namespace UnityEngine { class Light; }
+
+#define STAGEHARMONYLIGHTLINKSLOT_METHOD_2_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0xA6A2E80)
+#define STAGEHARMONYLIGHTLINKSLOT_METHOD_2_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0xA6A2F40)
+#define STAGEHARMONYLIGHTLINKSLOT_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xA6A3070)
+#define STAGEHARMONYLIGHTLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA6A3030)
+#define STAGEHARMONYLIGHTLINKSLOT_METHOD_2_F5909B5FD6F94F42_OFFSET UNITYSDK_OFFSET(0xA6A30B0)
+#define STAGEHARMONYLIGHTLINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6A3490)
+
+inline static constexpr unsigned int StageHarmonyLightLinkSlot_TypeDefinitionIndex = 37443;
+
+class StageHarmonyLightLinkSlot : public ::StageHarmonyBaseLinkSlot
+{
+public:
+	::UnityEngine::Light* TargetLight; // 0x28
+	::RPG::CustomRP::CustomAdditionalLightData* lightData; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTLINKSLOT__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7DB49B5407C8FD68()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTLINKSLOT_METHOD_2_7DB49B5407C8FD68_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B09E78EE7EE4F8FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTLINKSLOT_METHOD_2_B09E78EE7EE4F8FA_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTLINKSLOT_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F5909B5FD6F94F42(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTLINKSLOT_METHOD_2_F5909B5FD6F94F42_OFFSET))(this, a1);
+	}
+};

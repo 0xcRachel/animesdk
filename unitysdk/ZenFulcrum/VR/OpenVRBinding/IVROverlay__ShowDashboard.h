@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System { class AsyncCallback; }
+namespace System { class IAsyncResult; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x184D49A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x184D49D0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD_INVOKE_OFFSET UNITYSDK_OFFSET(0x184D4260)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x184D4240)
+
+namespace ZenFulcrum::VR::OpenVRBinding
+{
+	inline static constexpr unsigned int IVROverlay__ShowDashboard_TypeDefinitionIndex = 29295;
+
+	class IVROverlay__ShowDashboard : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* object, ::System::IntPtr method)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD__CTOR_OFFSET))(this, object, method);
+		}
+
+		::System::Void Invoke(::System::String* pchOverlayToShow)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD_INVOKE_OFFSET))(this, pchOverlayToShow);
+		}
+
+		::System::IAsyncResult* BeginInvoke(::System::String* pchOverlayToShow, ::System::AsyncCallback* callback, ::System::Object* object)
+		{
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::String*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD_BEGININVOKE_OFFSET))(this, pchOverlayToShow, callback, object);
+		}
+
+		::System::Void EndInvoke(::System::IAsyncResult* result)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWDASHBOARD_ENDINVOKE_OFFSET))(this, result);
+		}
+	};
+}

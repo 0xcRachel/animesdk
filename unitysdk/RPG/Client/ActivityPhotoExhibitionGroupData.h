@@ -1,0 +1,170 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class ActivityPhotoExhibitionCommentData; }
+namespace RPG::Client { class ActivityPhotoExhibitionDetailData; }
+namespace RPG::Client { class ScheduleData; }
+namespace RPG::GameCore { class ActivityPhotoExhibitionRow; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x8B9F1F0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GETCURINPROGRESSDETAILDATA_OFFSET UNITYSDK_OFFSET(0x8B9F500)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0x8B9FCC0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_COMMENTLIST_OFFSET UNITYSDK_OFFSET(0x8B9F4E0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_DAILY_OFFSET UNITYSDK_OFFSET(0x8BA00F0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x8B9FA80)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_GROUPINDEX_OFFSET UNITYSDK_OFFSET(0x8B9FAA0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_HASREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x8BA0020)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISANYDETAILFINISHED_OFFSET UNITYSDK_OFFSET(0x8B9FEF0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0x8B9EEF0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x8B9F6A0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISINSCHEDULE_OFFSET UNITYSDK_OFFSET(0x8B9FCE0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISLASTDAYFINISHED_OFFSET UNITYSDK_OFFSET(0x8B9FEE0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISLASTDAY_OFFSET UNITYSDK_OFFSET(0x8B9EB10)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISPREGROUPFINISH_OFFSET UNITYSDK_OFFSET(0x8B9FD90)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISSEENUNLOCK_OFFSET UNITYSDK_OFFSET(0x8B9F970)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x8B9FEC0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_PHOTOID_OFFSET UNITYSDK_OFFSET(0x8B9EC50)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_QUESTID_OFFSET UNITYSDK_OFFSET(0x8BA00D0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x8B9FBE0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_TAB_OFFSET UNITYSDK_OFFSET(0x8BA0120)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_RECORDSEENUNLOCK_OFFSET UNITYSDK_OFFSET(0x8B9F7E0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x8B9FA90)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8B9F440)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityPhotoExhibitionGroupData_TypeDefinitionIndex = 48950;
+
+	class ActivityPhotoExhibitionGroupData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityPhotoExhibitionDetailData*>* DetailDatas; // 0x10
+		::RPG::GameCore::ActivityPhotoExhibitionRow* _Row; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityPhotoExhibitionCommentData*>* CommentDatas; // 0x20
+		::System::UInt32 _GroupID_k__BackingField; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ActivityPhotoExhibitionGroupData* Create(::System::UInt32 id)
+		{
+			return ((::RPG::Client::ActivityPhotoExhibitionGroupData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_CREATE_OFFSET))(id);
+		}
+
+		::RPG::Client::ActivityPhotoExhibitionDetailData* GetCurInProgressDetailData()
+		{
+			return ((::RPG::Client::ActivityPhotoExhibitionDetailData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GETCURINPROGRESSDETAILDATA_OFFSET))(this);
+		}
+
+		::System::Void RecordSeenUnlock()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_RECORDSEENUNLOCK_OFFSET))(this);
+		}
+
+		::System::UInt32 get_GroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_GROUPID_OFFSET))(this);
+		}
+
+		::System::Void set_GroupID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_SET_GROUPID_OFFSET))(this, value);
+		}
+
+		::System::Int32 get_GroupIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_GROUPINDEX_OFFSET))(this);
+		}
+
+		::RPG::Client::ScheduleData* get_ScheduleData()
+		{
+			return ((::RPG::Client::ScheduleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_SCHEDULEDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInSchedule()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISINSCHEDULE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPreGroupFinish()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISPREGROUPFINISH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsVisible()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISVISIBLE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAvailable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISAVAILABLE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAnyDetailFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISANYDETAILFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLastDay()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISLASTDAY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLastDayFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISLASTDAYFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSeenUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ISSEENUNLOCK_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasRewardCanTake()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_HASREWARDCANTAKE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ActivityModuleID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_ACTIVITYMODULEID_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_PhotoID()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_PHOTOID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_QuestID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_QUESTID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Daily()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_DAILY_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Tab()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_TAB_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_CommentList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONGROUPDATA_GET_COMMENTLIST_OFFSET))(this);
+		}
+	};
+}

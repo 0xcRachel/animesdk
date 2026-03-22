@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
+
+#define CLASS_1_785D65CF0BA6162C_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xD88E590)
+#define CLASS_1_785D65CF0BA6162C_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xD88E540)
+#define CLASS_1_785D65CF0BA6162C__CTOR_OFFSET UNITYSDK_OFFSET(0xD88E530)
+
+inline static constexpr unsigned int Class_1_785D65CF0BA6162C_TypeDefinitionIndex = 44516;
+
+class Class_1_785D65CF0BA6162C : public ::System::Object
+{
+public:
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+
+	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_785D65CF0BA6162C__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::UInt32 GetSourceRuntimeID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_785D65CF0BA6162C_GETSOURCERUNTIMEID_OFFSET))(this);
+	}
+
+	::RPG::GameCore::EventType GetEventType()
+	{
+		return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_785D65CF0BA6162C_GETEVENTTYPE_OFFSET))(this);
+	}
+};

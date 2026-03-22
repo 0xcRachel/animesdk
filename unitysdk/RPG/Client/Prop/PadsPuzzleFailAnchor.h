@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Prop/PadsPuzzlePadBase.h"
+
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_INITSTATE_OFFSET UNITYSDK_OFFSET(0x9C89FD0)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_PUZZLEENTER_OFFSET UNITYSDK_OFFSET(0x9C8A060)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0x9C8A0E0)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0x9C8A0A0)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9C8A120)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_INITSTATE_OFFSET UNITYSDK_OFFSET(0x9C8A140)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_PUZZLEENTER_OFFSET UNITYSDK_OFFSET(0x9C8A210)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_PUZZLERESET_OFFSET UNITYSDK_OFFSET(0x9C8A310)
+#define RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_PUZZLESUCCEED_OFFSET UNITYSDK_OFFSET(0x9C8A220)
+
+namespace RPG::Client::Prop
+{
+	inline static constexpr unsigned int PadsPuzzleFailAnchor_TypeDefinitionIndex = 62005;
+
+	class PadsPuzzleFailAnchor : public ::RPG::Client::Prop::PadsPuzzlePadBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR__CTOR_OFFSET))(this);
+		}
+
+		::System::Void InitState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_INITSTATE_OFFSET))(this);
+		}
+
+		::System::Void PuzzleEnter()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_PUZZLEENTER_OFFSET))(this);
+		}
+
+		::System::Void PuzzleSucceed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_PUZZLESUCCEED_OFFSET))(this);
+		}
+
+		::System::Void PuzzleReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR_PUZZLERESET_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_InitState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_INITSTATE_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_PuzzleEnter()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_PUZZLEENTER_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_PuzzleSucceed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_PUZZLESUCCEED_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_PuzzleReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PADSPUZZLEFAILANCHOR___IFIXBASEPROXY_PUZZLERESET_OFFSET))(this);
+		}
+	};
+}

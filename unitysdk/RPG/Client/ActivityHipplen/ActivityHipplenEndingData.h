@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class ActivityHipplenEndingRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_DESCTEXTID_OFFSET UNITYSDK_OFFSET(0x8B23A60)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x8B239F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x8B23AC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_ISREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x8B23A20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_NAMETEXTID_OFFSET UNITYSDK_OFFSET(0x8B23A30)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_REWARDID_OFFSET UNITYSDK_OFFSET(0x8B23AE0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_UNLOCKDESCTEXTID_OFFSET UNITYSDK_OFFSET(0x8B23A90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_UNLOCKED_OFFSET UNITYSDK_OFFSET(0x8B23A10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_MARKSEEN_OFFSET UNITYSDK_OFFSET(0x8B23880)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8B1EDC0)
+
+namespace RPG::Client::ActivityHipplen
+{
+	inline static constexpr unsigned int ActivityHipplenEndingData_TypeDefinitionIndex = 59893;
+
+	class ActivityHipplenEndingData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::ActivityHipplenEndingRow* _Row; // 0x10
+		::System::Boolean _Unlocked; // 0x18
+		::System::Boolean _IsRewardTaken; // 0x19
+
+		::System::Void _ctor(::RPG::GameCore::ActivityHipplenEndingRow* row, ::System::Boolean unlocked, ::System::Boolean isRewardTaken)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ActivityHipplenEndingRow*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA__CTOR_OFFSET))(this, row, unlocked, isRewardTaken);
+		}
+
+		::System::Void MarkSeen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_MARKSEEN_OFFSET))(this);
+		}
+
+		::System::Boolean get_Unlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_UNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsRewardTaken()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_ISREWARDTAKEN_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_ID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_NameTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_NAMETEXTID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_DescTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_DESCTEXTID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_UnlockDescTextID()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_UNLOCKDESCTEXTID_OFFSET))(this);
+		}
+
+		::System::String* get_ImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_IMAGEPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RewardID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENENDINGDATA_GET_REWARDID_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,223 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class Class_1_9CBC71DC5240DC00;
+namespace RPG::Client { class MonoEffect; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Object; }
+namespace UnityEngine { class ParticleSystem; }
+namespace UnityEngine { class Renderer; }
+
+#define RPGTOOLS_MONOTIMELINEEFFECT_ALLPARTICALSYSTEMSPLAY_OFFSET UNITYSDK_OFFSET(0xA5DFCC0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ALLPARTICALSYSTEMSSTOPANDCLEAR_OFFSET UNITYSDK_OFFSET(0xA5DFC20)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ALLPARTICALSYSTEMSSTOPEMITTING_OFFSET UNITYSDK_OFFSET(0xA5DFB80)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETBOOL_OFFSET UNITYSDK_OFFSET(0xA5DF5C0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETFLOAT_OFFSET UNITYSDK_OFFSET(0xA5DF500)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETINTEGER_OFFSET UNITYSDK_OFFSET(0xA5DF440)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETTRIGGER_OFFSET UNITYSDK_OFFSET(0xA5DF680)
+#define RPGTOOLS_MONOTIMELINEEFFECT_GETINACCURATEDURATION_OFFSET UNITYSDK_OFFSET(0xA5E01F0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_GET_GORENDERERCACHE_OFFSET UNITYSDK_OFFSET(0xA5DE6E0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0xA5DE5D0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_INIT_OFFSET UNITYSDK_OFFSET(0xA5DF730)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ISPARTICALSYSTEMSALIVE_OFFSET UNITYSDK_OFFSET(0xA5DFAE0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA5DF100)
+#define RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_5B6CC23D54F693F4_OFFSET UNITYSDK_OFFSET(0xA5DFF80)
+#define RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_8B4B3FEAD1B0C4A6_OFFSET UNITYSDK_OFFSET(0xA5DEAA0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_8C704EC832EDEFC8_OFFSET UNITYSDK_OFFSET(0xA5DEDA0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_D155D4917B3D2C6A_OFFSET UNITYSDK_OFFSET(0xA5DF150)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA5DF080)
+#define RPGTOOLS_MONOTIMELINEEFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA5DEA50)
+#define RPGTOOLS_MONOTIMELINEEFFECT_REPLAYPARTICLESYSTEMS_OFFSET UNITYSDK_OFFSET(0xA5DFD60)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SELFDESTROY_OFFSET UNITYSDK_OFFSET(0xA5DE8B0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SETEFFECTSCALE_OFFSET UNITYSDK_OFFSET(0xA5DFDB0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SETMONOEFFECT_OFFSET UNITYSDK_OFFSET(0xA5DE5F0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SETPREFABASSET_OFFSET UNITYSDK_OFFSET(0xA5DE7D0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SETRANDOMSEED_OFFSET UNITYSDK_OFFSET(0xA5DFEB0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SETSPEED_OFFSET UNITYSDK_OFFSET(0xA5E03F0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0xA5DE5E0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_SIMULATEPARTICLE_OFFSET UNITYSDK_OFFSET(0xA5DF9E0)
+#define RPGTOOLS_MONOTIMELINEEFFECT_TICKMONO_OFFSET UNITYSDK_OFFSET(0xA5DE820)
+#define RPGTOOLS_MONOTIMELINEEFFECT_UPDATEANIMATOR_OFFSET UNITYSDK_OFFSET(0xA5DF2A0)
+#define RPGTOOLS_MONOTIMELINEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E0450)
+
+namespace RPGTools
+{
+	inline static constexpr unsigned int MonoTimelineEffect_TypeDefinitionIndex = 37695;
+
+	class MonoTimelineEffect : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Boolean EnablePOSM; // 0x18
+		::Il2CppArray<::UnityEngine::Renderer*>* Field_5_1; // 0x20
+		::Il2CppArray<::UnityEngine::ParticleSystem*>* Field_5_2; // 0x28
+		::Il2CppArray<::UnityEngine::Animation*>* Field_5_3; // 0x30
+		::Il2CppArray<::UnityEngine::Animator*>* Field_5_4; // 0x38
+		::System::Boolean Field_5_5; // 0x40
+		::System::Single Field_5_6; // 0x44
+		::System::Int32 Field_5_7; // 0x48
+		::Il2CppArray<::System::Single>* Field_5_8; // 0x50
+		::Il2CppArray<::System::Single>* Field_5_9; // 0x58
+		::System::String* Field_5_10; // 0x60
+		::UnityEngine::Object* Field_5_11; // 0x68
+		::RPG::Client::MonoEffect* Field_5_12; // 0x70
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_UniqueName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_GET_UNIQUENAME_OFFSET))(this);
+		}
+
+		::System::Void set_UniqueName(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SET_UNIQUENAME_OFFSET))(this, a1);
+		}
+
+		::System::Void SetMonoEffect(::RPG::Client::MonoEffect* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SETMONOEFFECT_OFFSET))(this, a1);
+		}
+
+		::Class_1_9CBC71DC5240DC00* get_GoRendererCache()
+		{
+			return ((::Class_1_9CBC71DC5240DC00*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_GET_GORENDERERCACHE_OFFSET))(this);
+		}
+
+		::System::Void SetPrefabAsset(::UnityEngine::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SETPREFABASSET_OFFSET))(this, a1);
+		}
+
+		::System::Void TickMono(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_TICKMONO_OFFSET))(this, a1);
+		}
+
+		::System::Void SelfDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SELFDESTROY_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void UpdateAnimator(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_UPDATEANIMATOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void AnimatorSetInteger(::System::Int32 a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETINTEGER_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void AnimatorSetFloat(::System::Int32 a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETFLOAT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void AnimatorSetBool(::System::Int32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETBOOL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void AnimatorSetTrigger(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ANIMATORSETTRIGGER_OFFSET))(this, a1);
+		}
+
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_INIT_OFFSET))(this);
+		}
+
+		::System::Void SimulateParticle(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SIMULATEPARTICLE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsParticalSystemsAlive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ISPARTICALSYSTEMSALIVE_OFFSET))(this);
+		}
+
+		::System::Void AllParticalSystemsStopEmitting()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ALLPARTICALSYSTEMSSTOPEMITTING_OFFSET))(this);
+		}
+
+		::System::Void AllParticalSystemsStopAndClear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ALLPARTICALSYSTEMSSTOPANDCLEAR_OFFSET))(this);
+		}
+
+		::System::Void AllParticalSystemsPlay()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_ALLPARTICALSYSTEMSPLAY_OFFSET))(this);
+		}
+
+		::System::Void ReplayParticleSystems()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_REPLAYPARTICLESYSTEMS_OFFSET))(this);
+		}
+
+		::System::Void SetEffectScale(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SETEFFECTSCALE_OFFSET))(this, a1);
+		}
+
+		::System::Void SetRandomSeed(::System::Boolean a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::UInt32))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SETRANDOMSEED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_5_5B6CC23D54F693F4(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_5B6CC23D54F693F4_OFFSET))(this, a1);
+		}
+
+		static ::System::Single GetInaccurateDuration(::UnityEngine::GameObject* a1)
+		{
+			return ((::System::Single(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_GETINACCURATEDURATION_OFFSET))(a1);
+		}
+
+		::System::Void SetSpeed(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_SETSPEED_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_5_8B4B3FEAD1B0C4A6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_8B4B3FEAD1B0C4A6_OFFSET))(this);
+		}
+
+		::System::Void Method_5_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_5_8C704EC832EDEFC8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_8C704EC832EDEFC8_OFFSET))(this);
+		}
+
+		::System::Void Method_5_D155D4917B3D2C6A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_MONOTIMELINEEFFECT_METHOD_5_D155D4917B3D2C6A_OFFSET))(this);
+		}
+	};
+}

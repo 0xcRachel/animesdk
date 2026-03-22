@@ -1,0 +1,234 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MessagePack/MessagePackCompression.h"
+#include "unitysdk/MessagePack/MessagePackReader.h"
+#include "unitysdk/MessagePack/MessagePackWriter.h"
+#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ReadOnlyMemory_1.h"
+#include "unitysdk/System/Span_1.h"
+#include "unitysdk/System/Threading/CancellationToken.h"
+#include "unitysdk/System/Threading/Tasks/ValueTask_1.h"
+
+namespace MessagePack { class MessagePackSerializerOptions; }
+namespace MessagePack { class MessagePackSerializer_CompiledMethods; }
+namespace MessagePack { class MessagePackSerializer_LZ4Transform; }
+namespace MessagePack { class TinyJsonReader; }
+namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
+namespace System { class String; }
+namespace System { class Type; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace System::Buffers { template <typename T> class IBufferWriter_1; }
+namespace System::IO { class Stream; }
+namespace System::IO { class TextReader; }
+namespace System::IO { class TextWriter; }
+namespace System::Threading::Tasks { class Task; }
+
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTFROMJSON_1_OFFSET UNITYSDK_OFFSET(0x1568B970)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTFROMJSON_2_OFFSET UNITYSDK_OFFSET(0x1568B110)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTFROMJSON_OFFSET UNITYSDK_OFFSET(0x1568AFB0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTTOJSON_1_OFFSET UNITYSDK_OFFSET(0x15689320)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTTOJSON_2_OFFSET UNITYSDK_OFFSET(0x15689430)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTTOJSON_OFFSET UNITYSDK_OFFSET(0x156892A0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x1568EEB0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1568ED10)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1568F070)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_3_OFFSET UNITYSDK_OFFSET(0x1568F220)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1568E6D0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_FROMJSONCORE_OFFSET UNITYSDK_OFFSET(0x1568C1C0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GETORADD_OFFSET UNITYSDK_OFFSET(0x1568DA10)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET UNITYSDK_OFFSET(0x15688F70)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x15686730)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET UNITYSDK_OFFSET(0x156890B0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET UNITYSDK_OFFSET(0x15686830)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0x1568E520)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1568E020)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1568E1D0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_3_OFFSET UNITYSDK_OFFSET(0x1568E370)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1568D870)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x156867F0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TOJSONCORE_OFFSET UNITYSDK_OFFSET(0x15689DA0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET UNITYSDK_OFFSET(0x15687FB0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET UNITYSDK_OFFSET(0x15687350)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET UNITYSDK_OFFSET(0x15688FB0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEJSONSTRING_OFFSET UNITYSDK_OFFSET(0x1568D550)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1568D740)
+
+namespace MessagePack
+{
+	inline static constexpr unsigned int MessagePackSerializer_TypeDefinitionIndex = 9453;
+
+	class MessagePackSerializer : public ::System::Object
+	{
+	public:
+		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::MessagePackSerializer_CompiledMethods*>** StaticGet_Serializes()
+		{
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::MessagePack::MessagePackSerializer_CompiledMethods*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x3240);
+		}
+		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecEncode()
+		{
+			return (::MessagePack::MessagePackSerializer_LZ4Transform**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x3248);
+		}
+		static ::MessagePack::MessagePackSerializerOptions** StaticGet_defaultOptions()
+		{
+			return (::MessagePack::MessagePackSerializerOptions**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x3250);
+		}
+		static ::System::Func_2<::System::Type*, ::MessagePack::MessagePackSerializer_CompiledMethods*>** StaticGet_CreateCompiledMethods()
+		{
+			return (::System::Func_2<::System::Type*, ::MessagePack::MessagePackSerializer_CompiledMethods*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x3258);
+		}
+		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecDecode()
+		{
+			return (::MessagePack::MessagePackSerializer_LZ4Transform**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x3260);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_scratchArray()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER__CCTOR_OFFSET))();
+		}
+
+		static ::MessagePack::MessagePackSerializerOptions* get_DefaultOptions()
+		{
+			return ((::MessagePack::MessagePackSerializerOptions*(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_GET_DEFAULTOPTIONS_OFFSET))();
+		}
+
+		static ::System::Void set_DefaultOptions(::MessagePack::MessagePackSerializerOptions* value)
+		{
+			return ((::System::Void(*)(::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET))(value);
+		}
+
+		static ::System::Int32 LZ4Operation(::System::Buffers::ReadOnlySequence_1<::System::Byte>& input, ::System::Span_1<::System::Byte> output, ::MessagePack::MessagePackSerializer_LZ4Transform* lz4Operation)
+		{
+			return ((::System::Int32(*)(::System::Buffers::ReadOnlySequence_1<::System::Byte>&, ::System::Span_1<::System::Byte>, ::MessagePack::MessagePackSerializer_LZ4Transform*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET))(input, output, lz4Operation);
+		}
+
+		static ::System::Boolean TryDecompress(::MessagePack::MessagePackReader& reader, ::System::Buffers::IBufferWriter_1<::System::Byte>* writer)
+		{
+			return ((::System::Boolean(*)(::MessagePack::MessagePackReader&, ::System::Buffers::IBufferWriter_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET))(reader, writer);
+		}
+
+		static ::System::Void ToLZ4BinaryCore(::System::Buffers::ReadOnlySequence_1<::System::Byte>& msgpackUncompressedData, ::MessagePack::MessagePackWriter& writer, ::MessagePack::MessagePackCompression compression, ::System::Int32 minCompressionSize)
+		{
+			return ((::System::Void(*)(::System::Buffers::ReadOnlySequence_1<::System::Byte>&, ::MessagePack::MessagePackWriter&, ::MessagePack::MessagePackCompression, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET))(msgpackUncompressedData, writer, compression, minCompressionSize);
+		}
+
+		static ::System::Int32 GetUInt32WriteSize(::System::UInt32 value)
+		{
+			return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET))(value);
+		}
+
+		static ::System::Void WriteBin32Header(::System::UInt32 value, ::System::Span_1<::System::Byte> span)
+		{
+			return ((::System::Void(*)(::System::UInt32, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET))(value, span);
+		}
+
+		static ::System::Boolean IsMessagePackFixedSizePrimitiveTypeHelper(::System::Type* type)
+		{
+			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET))(type);
+		}
+
+		static ::System::String* ConvertToJson(::System::ReadOnlyMemory_1<::System::Byte> bytes, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::String*(*)(::System::ReadOnlyMemory_1<::System::Byte>, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTTOJSON_OFFSET))(bytes, options, cancellationToken);
+		}
+
+		static ::System::String* ConvertToJson_1(::System::Buffers::ReadOnlySequence_1<::System::Byte>& bytes, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::String*(*)(::System::Buffers::ReadOnlySequence_1<::System::Byte>&, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTTOJSON_1_OFFSET))(bytes, options, cancellationToken);
+		}
+
+		static ::System::Void ConvertToJson_2(::MessagePack::MessagePackReader& reader, ::System::IO::TextWriter* jsonWriter, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Void(*)(::MessagePack::MessagePackReader&, ::System::IO::TextWriter*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTTOJSON_2_OFFSET))(reader, jsonWriter, options);
+		}
+
+		static ::System::Void ConvertFromJson(::System::String* str, ::MessagePack::MessagePackWriter& writer, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Void(*)(::System::String*, ::MessagePack::MessagePackWriter&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTFROMJSON_OFFSET))(str, writer, options);
+		}
+
+		static ::Il2CppArray<::System::Byte>* ConvertFromJson_1(::System::String* str, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTFROMJSON_1_OFFSET))(str, options, cancellationToken);
+		}
+
+		static ::System::Void ConvertFromJson_2(::System::IO::TextReader* reader, ::MessagePack::MessagePackWriter& writer, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Void(*)(::System::IO::TextReader*, ::MessagePack::MessagePackWriter&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_CONVERTFROMJSON_2_OFFSET))(reader, writer, options);
+		}
+
+		static ::System::UInt32 FromJsonCore(::MessagePack::TinyJsonReader* jr, ::MessagePack::MessagePackWriter& writer, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::UInt32(*)(::MessagePack::TinyJsonReader*, ::MessagePack::MessagePackWriter&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_FROMJSONCORE_OFFSET))(jr, writer, options);
+		}
+
+		static ::System::Void ToJsonCore(::MessagePack::MessagePackReader& reader, ::System::IO::TextWriter* writer, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Void(*)(::MessagePack::MessagePackReader&, ::System::IO::TextWriter*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_TOJSONCORE_OFFSET))(reader, writer, options);
+		}
+
+		static ::System::Void WriteJsonString(::System::String* value, ::System::IO::TextWriter* builder)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::IO::TextWriter*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEJSONSTRING_OFFSET))(value, builder);
+		}
+
+		static ::System::Void Serialize(::System::Type* type, ::MessagePack::MessagePackWriter& writer, ::System::Object* obj, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Void(*)(::System::Type*, ::MessagePack::MessagePackWriter&, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_OFFSET))(type, writer, obj, options);
+		}
+
+		static ::System::Void Serialize_1(::System::Type* type, ::System::Buffers::IBufferWriter_1<::System::Byte>* writer, ::System::Object* obj, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Void(*)(::System::Type*, ::System::Buffers::IBufferWriter_1<::System::Byte>*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_1_OFFSET))(type, writer, obj, options, cancellationToken);
+		}
+
+		static ::Il2CppArray<::System::Byte>* Serialize_2(::System::Type* type, ::System::Object* obj, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Type*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_2_OFFSET))(type, obj, options, cancellationToken);
+		}
+
+		static ::System::Void Serialize_3(::System::Type* type, ::System::IO::Stream* stream, ::System::Object* obj, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Void(*)(::System::Type*, ::System::IO::Stream*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZE_3_OFFSET))(type, stream, obj, options, cancellationToken);
+		}
+
+		static ::System::Threading::Tasks::Task* SerializeAsync(::System::Type* type, ::System::IO::Stream* stream, ::System::Object* obj, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Threading::Tasks::Task*(*)(::System::Type*, ::System::IO::Stream*, ::System::Object*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_SERIALIZEASYNC_OFFSET))(type, stream, obj, options, cancellationToken);
+		}
+
+		static ::System::Object* Deserialize(::System::Type* type, ::MessagePack::MessagePackReader& reader, ::MessagePack::MessagePackSerializerOptions* options)
+		{
+			return ((::System::Object*(*)(::System::Type*, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_OFFSET))(type, reader, options);
+		}
+
+		static ::System::Object* Deserialize_1(::System::Type* type, ::System::IO::Stream* stream, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Object*(*)(::System::Type*, ::System::IO::Stream*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_1_OFFSET))(type, stream, options, cancellationToken);
+		}
+
+		static ::System::Threading::Tasks::ValueTask_1<::System::Object*> DeserializeAsync(::System::Type* type, ::System::IO::Stream* stream, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Threading::Tasks::ValueTask_1<::System::Object*>(*)(::System::Type*, ::System::IO::Stream*, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZEASYNC_OFFSET))(type, stream, options, cancellationToken);
+		}
+
+		static ::System::Object* Deserialize_2(::System::Type* type, ::System::ReadOnlyMemory_1<::System::Byte> bytes, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Object*(*)(::System::Type*, ::System::ReadOnlyMemory_1<::System::Byte>, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_2_OFFSET))(type, bytes, options, cancellationToken);
+		}
+
+		static ::System::Object* Deserialize_3(::System::Type* type, ::System::Buffers::ReadOnlySequence_1<::System::Byte> bytes, ::MessagePack::MessagePackSerializerOptions* options, ::System::Threading::CancellationToken cancellationToken)
+		{
+			return ((::System::Object*(*)(::System::Type*, ::System::Buffers::ReadOnlySequence_1<::System::Byte>, ::MessagePack::MessagePackSerializerOptions*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_DESERIALIZE_3_OFFSET))(type, bytes, options, cancellationToken);
+		}
+
+		static ::MessagePack::MessagePackSerializer_CompiledMethods* GetOrAdd(::System::Type* type)
+		{
+			return ((::MessagePack::MessagePackSerializer_CompiledMethods*(*)(::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSERIALIZER_GETORADD_OFFSET))(type);
+		}
+	};
+}

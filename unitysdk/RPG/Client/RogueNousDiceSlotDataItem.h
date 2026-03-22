@@ -1,0 +1,165 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_FA4F4A67B1C04320_176;
+namespace RPG::Client { class RogueNousDiceSurfaceDataItem; }
+namespace RPG::GameCore { class RogueNousDiceSlotRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9E38770)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_CUREQUIPPEDSURFACE_OFFSET UNITYSDK_OFFSET(0x9E389C0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_DEFAULTBUILDSURFACEID_OFFSET UNITYSDK_OFFSET(0x9E38EC0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_EXTRARARITYUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E39250)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_ISAUTOUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E391B0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0x9E389A0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_MAXRARITY_OFFSET UNITYSDK_OFFSET(0x9E38890)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9E39010)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0x9E38870)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_SUGGESTIVEBUILDSURFACEID_OFFSET UNITYSDK_OFFSET(0x9E38ED0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_SURFACEICONPATH_OFFSET UNITYSDK_OFFSET(0x9E38DC0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_UNLOCKMETHODDESC_OFFSET UNITYSDK_OFFSET(0x9E38EF0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_UPGRADEDNAME_OFFSET UNITYSDK_OFFSET(0x9E390E0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET__ROW_OFFSET UNITYSDK_OFFSET(0x9E38810)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SETCUSTOMBUILDSURFACEID_OFFSET UNITYSDK_OFFSET(0x9E387C0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SETDEFAULTBUILDSURFACEID_OFFSET UNITYSDK_OFFSET(0x9E35500)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SETSUGGESTIVEBUILDSURFACEID_OFFSET UNITYSDK_OFFSET(0x9E35550)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0x9E389B0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SET_SLOTID_OFFSET UNITYSDK_OFFSET(0x9E38880)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SET_SUGGESTIVEBUILDSURFACEID_OFFSET UNITYSDK_OFFSET(0x9E38EE0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x9E34DF0)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_UNLOCKEXTRARARITY_OFFSET UNITYSDK_OFFSET(0x9E34E50)
+#define RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E35490)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueNousDiceSlotDataItem_TypeDefinitionIndex = 53332;
+
+	class RogueNousDiceSlotDataItem : public ::System::Object
+	{
+	public:
+		::System::UInt32 _EquippedSurfaceRowID; // 0x10
+		::System::UInt32 _CustomBuildSurfaceID; // 0x14
+		::System::UInt32 _DefaultBuildSurfaceID; // 0x18
+		::System::UInt32 _SlotID_k__BackingField; // 0x1C
+		::System::UInt32 _SuggestiveBuildSurfaceID_k__BackingField; // 0x20
+		::System::Boolean _IsLocked_k__BackingField; // 0x24
+		::System::Boolean _ExtraRarityUnlocked; // 0x25
+
+		::System::Void _ctor(::System::UInt32 slotID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM__CTOR_OFFSET))(this, slotID);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_FA4F4A67B1C04320_176* info)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_176*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SYNC_OFFSET))(this, info);
+		}
+
+		::System::Void UnlockExtraRarity()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_UNLOCKEXTRARARITY_OFFSET))(this);
+		}
+
+		::System::Void SetDefaultBuildSurfaceID(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SETDEFAULTBUILDSURFACEID_OFFSET))(this, ID);
+		}
+
+		::System::Void SetSuggestiveBuildSurfaceID(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SETSUGGESTIVEBUILDSURFACEID_OFFSET))(this, ID);
+		}
+
+		::System::Void SetCustomBuildSurfaceID(::System::UInt32 id)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SETCUSTOMBUILDSURFACEID_OFFSET))(this, id);
+		}
+
+		::RPG::GameCore::RogueNousDiceSlotRow* get__Row()
+		{
+			return ((::RPG::GameCore::RogueNousDiceSlotRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET__ROW_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SlotID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_SLOTID_OFFSET))(this);
+		}
+
+		::System::Void set_SlotID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SET_SLOTID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MaxRarity()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_MAXRARITY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_ISLOCKED_OFFSET))(this);
+		}
+
+		::System::Void set_IsLocked(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SET_ISLOCKED_OFFSET))(this, value);
+		}
+
+		::RPG::Client::RogueNousDiceSurfaceDataItem* get_CurEquippedSurface()
+		{
+			return ((::RPG::Client::RogueNousDiceSurfaceDataItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_CUREQUIPPEDSURFACE_OFFSET))(this);
+		}
+
+		::System::String* get_SurfaceIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_SURFACEICONPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DefaultBuildSurfaceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_DEFAULTBUILDSURFACEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SuggestiveBuildSurfaceID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_SUGGESTIVEBUILDSURFACEID_OFFSET))(this);
+		}
+
+		::System::Void set_SuggestiveBuildSurfaceID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_SET_SUGGESTIVEBUILDSURFACEID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_UnlockMethodDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_UNLOCKMETHODDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_UpgradedName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_UPGRADEDNAME_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAutoUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_ISAUTOUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean get_ExtraRarityUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUENOUSDICESLOTDATAITEM_GET_EXTRARARITYUNLOCKED_OFFSET))(this);
+		}
+	};
+}

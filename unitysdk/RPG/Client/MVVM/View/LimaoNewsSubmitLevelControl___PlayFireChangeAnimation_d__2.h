@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::MVVM::View { class LimaoNewsSubmitLevelControl; }
+
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x95D4660)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x95D4D30)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x95D4D90)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x95D4D40)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x95D4650)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2__CTOR_OFFSET UNITYSDK_OFFSET(0x95D3A70)
+
+namespace RPG::Client::MVVM::View
+{
+	inline static constexpr unsigned int LimaoNewsSubmitLevelControl___PlayFireChangeAnimation_d__2_TypeDefinitionIndex = 59268;
+
+	class LimaoNewsSubmitLevelControl___PlayFireChangeAnimation_d__2 : public ::System::Object
+	{
+	public:
+		::System::Object* __2__current; // 0x10
+		::RPG::Client::MVVM::View::LimaoNewsSubmitLevelControl* __4__this; // 0x18
+		::System::Int32 __1__state; // 0x20
+		::System::Int32 _currentTotal_5__2; // 0x24
+		::System::Int32 _needShowIndex_5__3; // 0x28
+		::System::Int32 _index_5__4; // 0x2C
+
+		::System::Void _ctor(::System::Int32 __1__state)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2__CTOR_OFFSET))(this, __1__state);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_MOVENEXT_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MVVM_VIEW_LIMAONEWSSUBMITLEVELCONTROL___PLAYFIRECHANGEANIMATION_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+	};
+}

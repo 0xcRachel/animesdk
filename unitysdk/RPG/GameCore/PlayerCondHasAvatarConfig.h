@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PlayerCondConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_36BE07D8ADAFB755_OFFSET UNITYSDK_OFFSET(0x16D68080)
+#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_C72063CDDF0E06E6_OFFSET UNITYSDK_OFFSET(0x16D669F0)
+#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D66950)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int PlayerCondHasAvatarConfig_TypeDefinitionIndex = 17516;
+
+	class PlayerCondHasAvatarConfig : public ::RPG::GameCore::PlayerCondConfigBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_4_36BE07D8ADAFB755(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerCondHasAvatarConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerCondHasAvatarConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_36BE07D8ADAFB755_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_4_C72063CDDF0E06E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerCondHasAvatarConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerCondHasAvatarConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_C72063CDDF0E06E6_OFFSET))(a1, a2);
+		}
+	};
+}

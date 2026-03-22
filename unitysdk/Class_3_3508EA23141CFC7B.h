@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_98A798C0C96648F9.h"
+
+class Class_1_30467842FAA5266B;
+namespace RPG::GameCore { class DiceCombatPredicateConfig_HasDiceSequence; }
+
+#define CLASS_3_3508EA23141CFC7B_METHOD_3_3D57569EEAF613B6_OFFSET UNITYSDK_OFFSET(0x15FC6770)
+#define CLASS_3_3508EA23141CFC7B__CTOR_OFFSET UNITYSDK_OFFSET(0x15FC6750)
+
+inline static constexpr unsigned int Class_3_3508EA23141CFC7B_TypeDefinitionIndex = 27705;
+
+class Class_3_3508EA23141CFC7B : public ::Class_2_98A798C0C96648F9
+{
+public:
+	::RPG::GameCore::DiceCombatPredicateConfig_HasDiceSequence* Field_3_0; // 0x30
+
+	::System::Void _ctor(::RPG::GameCore::DiceCombatPredicateConfig_HasDiceSequence* a1, ::Class_1_30467842FAA5266B* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatPredicateConfig_HasDiceSequence*, ::Class_1_30467842FAA5266B*))((::PBYTE)hIl2Cpp + CLASS_3_3508EA23141CFC7B__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_3_3D57569EEAF613B6()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3508EA23141CFC7B_METHOD_3_3D57569EEAF613B6_OFFSET))(this);
+	}
+};

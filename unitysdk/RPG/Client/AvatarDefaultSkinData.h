@@ -1,0 +1,269 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AvatarSkinType.h"
+#include "unitysdk/RPG/GameCore/EAvatarCommonRowWrap.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class IAdventurePlayerCommonRowWrap; }
+namespace RPG::GameCore { class IAvatarCommonRowWrap; }
+namespace System { class String; }
+
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_CREATEBYADVPLAYERID_OFFSET UNITYSDK_OFFSET(0x8CD00C0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x8CD0060)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x8CCFFB0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ACTIONAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD09F0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ADVDEFAULTAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD13F0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ADVENTUREPLAYERROW_OFFSET UNITYSDK_OFFSET(0x8CD0430)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ADVPLAYERPREFABPATH_OFFSET UNITYSDK_OFFSET(0x8CD1380)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AUDIOEVENTTAG_OFFSET UNITYSDK_OFFSET(0x8CD18D0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTINBGIMGPATH_OFFSET UNITYSDK_OFFSET(0x8CD0F90)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTINFRONTIMGPATH_OFFSET UNITYSDK_OFFSET(0x8CD1080)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTINIMGPATH_OFFSET UNITYSDK_OFFSET(0x8CD0EA0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTININTROTEXT_OFFSET UNITYSDK_OFFSET(0x8CD1260)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARDROPOFFSET_OFFSET UNITYSDK_OFFSET(0x8CD1170)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x8CD0260)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARMINIICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD0900)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARNAME_OFFSET UNITYSDK_OFFSET(0x8CD17B0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARROWWRAP_OFFSET UNITYSDK_OFFSET(0x8CD0220)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARSELFSHOWOFFSET_OFFSET UNITYSDK_OFFSET(0x8CD1680)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARSIDEICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD0810)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARSKINNAME_OFFSET UNITYSDK_OFFSET(0x8CD0530)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_CHARACTERSKINOVERRIDECONFIGPATH_OFFSET UNITYSDK_OFFSET(0x8CD18C0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DEFAULTAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD0720)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DEFAULTAVATARMODELPATH_OFFSET UNITYSDK_OFFSET(0x8CD0630)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DRESSEDSKINID_OFFSET UNITYSDK_OFFSET(0x8CD1550)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DRESSICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD18E0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ENHANCEDID_OFFSET UNITYSDK_OFFSET(0x8CD0340)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_FREESTYLECHARACTERID_OFFSET UNITYSDK_OFFSET(0x8CD1370)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_MANIKINJSONPATH_OFFSET UNITYSDK_OFFSET(0x8CD1460)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_OVERRIDEADVPLAYERID_OFFSET UNITYSDK_OFFSET(0x8CD0240)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_PLAYERCARDID_OFFSET UNITYSDK_OFFSET(0x8CD1360)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SIDEAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD0CC0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SKINDESC_OFFSET UNITYSDK_OFFSET(0x8CD1770)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SKINITEMAVATARICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD1560)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SKINTYPE_OFFSET UNITYSDK_OFFSET(0x8CD18B0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_UIAVATARMODELPATH_OFFSET UNITYSDK_OFFSET(0x8CD0BD0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ULTRASKILLCUTINPREFABPATH_OFFSET UNITYSDK_OFFSET(0x8CD0AE0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_WAITINGAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0x8CD0DB0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_MAPTOSKINRES_OFFSET UNITYSDK_OFFSET(0x8CD18F0)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_SET_AVATARROWWRAP_OFFSET UNITYSDK_OFFSET(0x8CD0230)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA_SET_OVERRIDEADVPLAYERID_OFFSET UNITYSDK_OFFSET(0x8CD0250)
+#define RPG_CLIENT_AVATARDEFAULTSKINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CD0050)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int AvatarDefaultSkinData_TypeDefinitionIndex = 49642;
+
+	class AvatarDefaultSkinData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::IAvatarCommonRowWrap* _AvatarRowWrap_k__BackingField; // 0x10
+		::System::UInt32 _OverrideAdvPlayerId_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::AvatarDefaultSkinData* Create(::System::UInt32 avatarRowId, ::System::UInt32 enhancedID, ::RPG::GameCore::EAvatarCommonRowWrap eMask)
+		{
+			return ((::RPG::Client::AvatarDefaultSkinData*(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::EAvatarCommonRowWrap))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_CREATE_OFFSET))(avatarRowId, enhancedID, eMask);
+		}
+
+		static ::RPG::Client::AvatarDefaultSkinData* Create_1(::RPG::GameCore::IAvatarCommonRowWrap* avatarRowWrap)
+		{
+			return ((::RPG::Client::AvatarDefaultSkinData*(*)(::RPG::GameCore::IAvatarCommonRowWrap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_CREATE_1_OFFSET))(avatarRowWrap);
+		}
+
+		static ::RPG::Client::AvatarDefaultSkinData* CreateByAdvPlayerID(::System::UInt32 advPlayerID)
+		{
+			return ((::RPG::Client::AvatarDefaultSkinData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_CREATEBYADVPLAYERID_OFFSET))(advPlayerID);
+		}
+
+		::RPG::GameCore::IAvatarCommonRowWrap* get_AvatarRowWrap()
+		{
+			return ((::RPG::GameCore::IAvatarCommonRowWrap*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARROWWRAP_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarRowWrap(::RPG::GameCore::IAvatarCommonRowWrap* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IAvatarCommonRowWrap*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_SET_AVATARROWWRAP_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_OverrideAdvPlayerId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_OVERRIDEADVPLAYERID_OFFSET))(this);
+		}
+
+		::System::Void set_OverrideAdvPlayerId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_SET_OVERRIDEADVPLAYERID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AvatarId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EnhancedID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ENHANCEDID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::IAdventurePlayerCommonRowWrap* get_AdventurePlayerRow()
+		{
+			return ((::RPG::GameCore::IAdventurePlayerCommonRowWrap*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ADVENTUREPLAYERROW_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_AvatarSkinName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARSKINNAME_OFFSET))(this);
+		}
+
+		::System::String* get_DefaultAvatarModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DEFAULTAVATARMODELPATH_OFFSET))(this);
+		}
+
+		::System::String* get_DefaultAvatarHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DEFAULTAVATARHEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AvatarSideIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARSIDEICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AvatarMiniIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARMINIICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_ActionAvatarHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ACTIONAVATARHEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_UltraSkillCutInPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ULTRASKILLCUTINPREFABPATH_OFFSET))(this);
+		}
+
+		::System::String* get_UIAvatarModelPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_UIAVATARMODELPATH_OFFSET))(this);
+		}
+
+		::System::String* get_SideAvatarHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SIDEAVATARHEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_WaitingAvatarHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_WAITINGAVATARHEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AvatarCutinImgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTINIMGPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AvatarCutinBgImgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTINBGIMGPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AvatarCutinFrontImgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTINFRONTIMGPATH_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Single>* get_AvatarDropOffset()
+		{
+			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARDROPOFFSET_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_AvatarCutinIntroText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARCUTININTROTEXT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PlayerCardID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_PLAYERCARDID_OFFSET))(this);
+		}
+
+		::System::String* get_FreeStyleCharacterID()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_FREESTYLECHARACTERID_OFFSET))(this);
+		}
+
+		::System::String* get_AdvPlayerPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ADVPLAYERPREFABPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AdvDefaultAvatarHeadIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_ADVDEFAULTAVATARHEADICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_ManikinJsonPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_MANIKINJSONPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DressedSkinID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DRESSEDSKINID_OFFSET))(this);
+		}
+
+		::System::String* get_SkinItemAvatarIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SKINITEMAVATARICONPATH_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Single>* get_AvatarSelfShowOffset()
+		{
+			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARSELFSHOWOFFSET_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_SkinDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SKINDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_AvatarName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AVATARNAME_OFFSET))(this);
+		}
+
+		::RPG::GameCore::AvatarSkinType get_SkinType()
+		{
+			return ((::RPG::GameCore::AvatarSkinType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_SKINTYPE_OFFSET))(this);
+		}
+
+		::System::String* get_CharacterSkinOverrideConfigPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_CHARACTERSKINOVERRIDECONFIGPATH_OFFSET))(this);
+		}
+
+		::System::String* get_AudioEventTag()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_AUDIOEVENTTAG_OFFSET))(this);
+		}
+
+		::System::String* get_DressIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_GET_DRESSICONPATH_OFFSET))(this);
+		}
+
+		::System::String* MapToSkinRes(::System::String* originPath)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARDEFAULTSKINDATA_MAPTOSKINRES_OFFSET))(this, originPath);
+		}
+	};
+}

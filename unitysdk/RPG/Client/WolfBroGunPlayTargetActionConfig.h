@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_482F3423DE650EAD;
+
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_METHOD_1_7E9AC3FFDA4606D5_OFFSET UNITYSDK_OFFSET(0xA266110)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xA266180)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA2661C0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TypeDefinitionIndex = 54543;
+
+	class WolfBroGunPlayTargetActionConfig : public ::System::Object
+	{
+	public:
+		::System::Single delay; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG__CTOR_OFFSET))(this);
+		}
+
+		::Class_1_482F3423DE650EAD* Method_1_7E9AC3FFDA4606D5()
+		{
+			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_METHOD_1_7E9AC3FFDA4606D5_OFFSET))(this);
+		}
+
+		::Class_1_482F3423DE650EAD* Method_1_F8B73ECE7F883AC1()
+		{
+			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
+		}
+	};
+}

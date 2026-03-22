@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_8A6989C352B0F0F0.h"
+#include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
+
+class Class_2_DD25755736E2A226;
+namespace RPG::Client { class MonoEffect; }
+namespace RPG::Client { class TriggerEffectParams; }
+namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace System { class String; }
+
+#define CLASS_2_97DFC6902AA61904_CLEAR_OFFSET UNITYSDK_OFFSET(0xFEB42C0)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_006350C868D05176_OFFSET UNITYSDK_OFFSET(0xFEB4A30)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_0886E1C102024E0A_OFFSET UNITYSDK_OFFSET(0xFEB46A0)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_128774387667156B_OFFSET UNITYSDK_OFFSET(0xFEB4CB0)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_136784AAB372F525_OFFSET UNITYSDK_OFFSET(0xFEB4480)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0xFEB4420)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_3AD3A036F948F3DA_OFFSET UNITYSDK_OFFSET(0xFEB4640)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0xFEB4D40)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_4736301A4B27657B_OFFSET UNITYSDK_OFFSET(0xFEB4970)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_5ED2C86F390A7736_OFFSET UNITYSDK_OFFSET(0xFEB4D20)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_7C9583C124B8FFB6_OFFSET UNITYSDK_OFFSET(0xFEB4D30)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xFEB48C0)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_BA407276014DDC5F_OFFSET UNITYSDK_OFFSET(0xFEB43C0)
+#define CLASS_2_97DFC6902AA61904_METHOD_2_C470F05247FE0DE7_OFFSET UNITYSDK_OFFSET(0xFEB4CA0)
+#define CLASS_2_97DFC6902AA61904__CTOR_OFFSET UNITYSDK_OFFSET(0xFEB42B0)
+
+inline static constexpr unsigned int Class_2_97DFC6902AA61904_TypeDefinitionIndex = 58762;
+
+class Class_2_97DFC6902AA61904 : public ::Class_1_8A6989C352B0F0F0
+{
+public:
+	::RPG::Client::MonoEffect* Field_2_0; // 0x80
+	::System::UInt32 Field_2_1; // 0x88
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_CLEAR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BA407276014DDC5F(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_BA407276014DDC5F_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_2_35EA095E1AFDD9C8()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_35EA095E1AFDD9C8_OFFSET))(this);
+	}
+
+	static ::RPG::Client::TriggerEffectParams* Method_2_136784AAB372F525(::RPG::Client::OpenWorld::StreamingItemData* a1)
+	{
+		return ((::RPG::Client::TriggerEffectParams*(*)(::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_136784AAB372F525_OFFSET))(a1);
+	}
+
+	::RPG::Client::TriggerEffectParams* Method_2_3AD3A036F948F3DA()
+	{
+		return ((::RPG::Client::TriggerEffectParams*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_3AD3A036F948F3DA_OFFSET))(this);
+	}
+
+	::System::Void Method_2_0886E1C102024E0A(::Class_2_DD25755736E2A226* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_DD25755736E2A226*))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_0886E1C102024E0A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_006350C868D05176(::Class_2_DD25755736E2A226* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_DD25755736E2A226*))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_006350C868D05176_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4736301A4B27657B(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_4736301A4B27657B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_C470F05247FE0DE7(::System::Boolean P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_C470F05247FE0DE7_OFFSET))(this, P0);
+	}
+
+	::System::String* Method_2_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_128774387667156B_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5ED2C86F390A7736(::Class_2_DD25755736E2A226* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_DD25755736E2A226*))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_5ED2C86F390A7736_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_2_7C9583C124B8FFB6(::Class_2_DD25755736E2A226* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_DD25755736E2A226*))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_7C9583C124B8FFB6_OFFSET))(this, P0);
+	}
+
+	::System::Void Method_2_460F8AE6EF9687FD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_97DFC6902AA61904_METHOD_2_460F8AE6EF9687FD_OFFSET))(this);
+	}
+};

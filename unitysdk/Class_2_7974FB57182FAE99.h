@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_B55037134F9E6688.h"
+
+class Class_1_30467842FAA5266B;
+namespace RPG::GameCore { class DiceCombatTaskConfig_MarkWeatherInEffect; }
+
+#define CLASS_2_7974FB57182FAE99_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x15F065A0)
+#define CLASS_2_7974FB57182FAE99__CTOR_OFFSET UNITYSDK_OFFSET(0x15F06590)
+
+inline static constexpr unsigned int Class_2_7974FB57182FAE99_TypeDefinitionIndex = 27667;
+
+class Class_2_7974FB57182FAE99 : public ::Class_1_B55037134F9E6688
+{
+public:
+	::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* Field_2_0; // 0x18
+	::Class_1_30467842FAA5266B* Field_2_1; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* a1, ::Class_1_30467842FAA5266B* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect*, ::Class_1_30467842FAA5266B*))((::PBYTE)hIl2Cpp + CLASS_2_7974FB57182FAE99__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7974FB57182FAE99_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+};

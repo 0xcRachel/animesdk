@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace UnityEngine { class Sprite; }
+
+#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1575C820)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1575CA00)
+
+namespace MiHoYo::SDK::Console
+{
+	inline static constexpr unsigned int ConsoleButtonImage_TypeDefinitionIndex = 7494;
+
+	class ConsoleButtonImage : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::UnityEngine::Sprite* PS4Sprite; // 0x18
+		::UnityEngine::Sprite* PS5Sprite; // 0x20
+		::UnityEngine::Sprite* CXSprite; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET))(this);
+		}
+	};
+}

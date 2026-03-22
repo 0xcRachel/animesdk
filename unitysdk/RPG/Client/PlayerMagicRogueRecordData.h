@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BattleRecordDisplayType.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_9E78928359AD9962;
+
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x9B1E230)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_AREAINDEX_OFFSET UNITYSDK_OFFSET(0x9B1E250)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_DISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0x9B1E160)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_FINISHSTORYCOUNT_OFFSET UNITYSDK_OFFSET(0x9B1E2F0)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_HASRECORD_OFFSET UNITYSDK_OFFSET(0x9B1E170)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9B1E180)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_QUESTFINISHEDCOUNT_OFFSET UNITYSDK_OFFSET(0x9B1E310)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_QUESTTOTALCOUNT_OFFSET UNITYSDK_OFFSET(0x9B1E330)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_RECORDMAXDIFFCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0x9B1E2D0)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_AREAID_OFFSET UNITYSDK_OFFSET(0x9B1E240)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_FINISHSTORYCOUNT_OFFSET UNITYSDK_OFFSET(0x9B1E300)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_QUESTFINISHEDCOUNT_OFFSET UNITYSDK_OFFSET(0x9B1E320)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_RECORDMAXDIFFCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0x9B1E2E0)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9B1E0D0)
+#define RPG_CLIENT_PLAYERMAGICROGUERECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B1E3F0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PlayerMagicRogueRecordData_TypeDefinitionIndex = 51067;
+
+	class PlayerMagicRogueRecordData : public ::System::Object
+	{
+	public:
+		::System::UInt32 _QuestFinishedCount_k__BackingField; // 0x10
+		::System::UInt32 _AreaID_k__BackingField; // 0x14
+		::System::UInt32 _FinishStoryCount_k__BackingField; // 0x18
+		::System::UInt32 _RecordMaxDiffCompLevel_k__BackingField; // 0x1C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Sync(::Class_1_9E78928359AD9962* info)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_9E78928359AD9962*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SYNC_OFFSET))(this, info);
+		}
+
+		::RPG::Client::BattleRecordDisplayType get_DisplayType()
+		{
+			return ((::RPG::Client::BattleRecordDisplayType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_DISPLAYTYPE_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasRecord()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_HASRECORD_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::UInt32 get_AreaID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_AREAID_OFFSET))(this);
+		}
+
+		::System::Void set_AreaID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_AREAID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AreaIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_AREAINDEX_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RecordMaxDiffCompLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_RECORDMAXDIFFCOMPLEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_RecordMaxDiffCompLevel(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_RECORDMAXDIFFCOMPLEVEL_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_FinishStoryCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_FINISHSTORYCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_FinishStoryCount(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_FINISHSTORYCOUNT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_QuestFinishedCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_QUESTFINISHEDCOUNT_OFFSET))(this);
+		}
+
+		::System::Void set_QuestFinishedCount(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_SET_QUESTFINISHEDCOUNT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_QuestTotalCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMAGICROGUERECORDDATA_GET_QUESTTOTALCOUNT_OFFSET))(this);
+		}
+	};
+}

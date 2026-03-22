@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA_GET_TYPEPARAM_OFFSET UNITYSDK_OFFSET(0x9F33AA0)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA_HASANYREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x9F339A0)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA_ISALLREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x9F33C70)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA_ISFINISHCONDITIONSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x9F33EE0)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9F33E80)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA_ONENTERACTIVITYTAB_OFFSET UNITYSDK_OFFSET(0x9F33E30)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F33990)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA__ONACTIVITYOPENEDCUSTOM_OFFSET UNITYSDK_OFFSET(0x9F33F40)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA___IFIXBASEPROXY_ISFINISHCONDITIONSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x9F34000)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9F33F90)
+#define RPG_CLIENT_ROLETRIALACTIVITYDATA___IFIXBASEPROXY__ONACTIVITYOPENEDCUSTOM_OFFSET UNITYSDK_OFFSET(0x9F34010)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RoleTrialActivityData_TypeDefinitionIndex = 48887;
+
+	class RoleTrialActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::UInt32 DefaultSelectedAvatarID; // 0xA0
+
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Boolean HasAnyRewardCanTake()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA_HASANYREWARDCANTAKE_OFFSET))(this);
+		}
+
+		::System::Boolean IsAllRewardTaken()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA_ISALLREWARDTAKEN_OFFSET))(this);
+		}
+
+		::System::Void OnEnterActivityTab()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA_ONENTERACTIVITYTAB_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsFinishConditionsCompleted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA_ISFINISHCONDITIONSCOMPLETED_OFFSET))(this);
+		}
+
+		::System::Void _OnActivityOpenedCustom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA__ONACTIVITYOPENEDCUSTOM_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_TypeParam()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA_GET_TYPEPARAM_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsFinishConditionsCompleted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA___IFIXBASEPROXY_ISFINISHCONDITIONSCOMPLETED_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy__OnActivityOpenedCustom()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROLETRIALACTIVITYDATA___IFIXBASEPROXY__ONACTIVITYOPENEDCUSTOM_OFFSET))(this);
+		}
+	};
+}

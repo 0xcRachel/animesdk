@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_5F2CC178AD0CBB77;
+
+#define CLASS_1_03EB5D6C771FDB13_GET_ID_OFFSET UNITYSDK_OFFSET(0xFF0D280)
+#define CLASS_1_03EB5D6C771FDB13_METHOD_1_3F2742B0A4846020_OFFSET UNITYSDK_OFFSET(0xFF0D290)
+#define CLASS_1_03EB5D6C771FDB13_METHOD_1_5135E99239DDCA8C_OFFSET UNITYSDK_OFFSET(0xFF0D2F0)
+#define CLASS_1_03EB5D6C771FDB13_METHOD_1_7F9F56340549AEC6_OFFSET UNITYSDK_OFFSET(0xFF0D450)
+#define CLASS_1_03EB5D6C771FDB13_METHOD_1_A40738130934C79F_OFFSET UNITYSDK_OFFSET(0xFF0D360)
+#define CLASS_1_03EB5D6C771FDB13_METHOD_1_BAABD3CC39D5300F_OFFSET UNITYSDK_OFFSET(0xFF0D3E0)
+#define CLASS_1_03EB5D6C771FDB13__CTOR_OFFSET UNITYSDK_OFFSET(0xFF0D510)
+
+inline static constexpr unsigned int Class_1_03EB5D6C771FDB13_TypeDefinitionIndex = 48711;
+
+class Class_1_03EB5D6C771FDB13 : public ::System::Object
+{
+public:
+	::System::UInt32 _ID_k__BackingField; // 0x10
+
+	::System::Void _ctor(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_ID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13_GET_ID_OFFSET))(this);
+	}
+
+	::Class_1_5F2CC178AD0CBB77* Method_1_3F2742B0A4846020()
+	{
+		return ((::Class_1_5F2CC178AD0CBB77*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13_METHOD_1_3F2742B0A4846020_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::UInt32>* Method_1_5135E99239DDCA8C()
+	{
+		return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13_METHOD_1_5135E99239DDCA8C_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_A40738130934C79F()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13_METHOD_1_A40738130934C79F_OFFSET))(this);
+	}
+
+	::Il2CppArray<::RPG::Client::TextID>* Method_1_BAABD3CC39D5300F()
+	{
+		return ((::Il2CppArray<::RPG::Client::TextID>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13_METHOD_1_BAABD3CC39D5300F_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_1_7F9F56340549AEC6(::System::UInt32 a1, ::Class_1_03EB5D6C771FDB13*& a2)
+	{
+		return ((::System::Boolean(*)(::System::UInt32, ::Class_1_03EB5D6C771FDB13*&))((::PBYTE)hIl2Cpp + CLASS_1_03EB5D6C771FDB13_METHOD_1_7F9F56340549AEC6_OFFSET))(a1, a2);
+	}
+};

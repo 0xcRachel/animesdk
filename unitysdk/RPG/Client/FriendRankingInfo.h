@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_F381659723E3F143_1_Enum_3_060898AA908AAA4E_11.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_F381659723E3F143_1;
+class Class_1_FA4F4A67B1C04320_570;
+class Class_1_FA4F4A67B1C04320_572;
+class Class_1_FA4F4A67B1C04320_573;
+namespace System { class String; }
+
+#define RPG_CLIENT_FRIENDRANKINGINFO_GETPVPSCORE_OFFSET UNITYSDK_OFFSET(0x92B3A80)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GETRANKICON_OFFSET UNITYSDK_OFFSET(0x92B3B00)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GET_SYNCTIME_OFFSET UNITYSDK_OFFSET(0x92B3910)
+#define RPG_CLIENT_FRIENDRANKINGINFO_GET_UID_OFFSET UNITYSDK_OFFSET(0x92B38F0)
+#define RPG_CLIENT_FRIENDRANKINGINFO_SET_SYNCTIME_OFFSET UNITYSDK_OFFSET(0x92B3920)
+#define RPG_CLIENT_FRIENDRANKINGINFO_SET_UID_OFFSET UNITYSDK_OFFSET(0x92B3900)
+#define RPG_CLIENT_FRIENDRANKINGINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x92B3930)
+#define RPG_CLIENT_FRIENDRANKINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x92B3F80)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FriendRankingInfo_TypeDefinitionIndex = 52793;
+
+	class FriendRankingInfo : public ::System::Object
+	{
+	public:
+		::Class_1_FA4F4A67B1C04320_573* DiceCombatCommonInfo; // 0x10
+		::Class_1_FA4F4A67B1C04320_570* MatchThreeCommonInfo; // 0x18
+		::Class_1_FA4F4A67B1C04320_572* MarbleCommonInfo; // 0x20
+		::System::String* _CachedRankIcon; // 0x28
+		::System::UInt32 _SyncTime_k__BackingField; // 0x30
+		::System::UInt32 _Uid_k__BackingField; // 0x34
+		::Class_1_F381659723E3F143_1_Enum_3_060898AA908AAA4E_11 InfoCase; // 0x38
+		::System::UInt32 Rank; // 0x3C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Uid()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_GET_UID_OFFSET))(this);
+		}
+
+		::System::Void set_Uid(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_SET_UID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_SyncTime()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_GET_SYNCTIME_OFFSET))(this);
+		}
+
+		::System::Void set_SyncTime(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_SET_SYNCTIME_OFFSET))(this, value);
+		}
+
+		::System::Void Sync(::Class_1_F381659723E3F143_1* protoInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F381659723E3F143_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_SYNC_OFFSET))(this, protoInfo);
+		}
+
+		::System::UInt32 GetPvpScore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_GETPVPSCORE_OFFSET))(this);
+		}
+
+		::System::String* GetRankIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRIENDRANKINGINFO_GETRANKICON_OFFSET))(this);
+		}
+	};
+}

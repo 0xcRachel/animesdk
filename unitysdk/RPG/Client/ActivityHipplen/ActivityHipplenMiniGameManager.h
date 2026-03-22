@@ -1,0 +1,216 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenGameConfig.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenMiniGameManager_InnerState.h"
+#include "unitysdk/RPG/GameCore/HipplenGameGradeType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_CFF7FC5CD9C1D292;
+class Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53;
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenMiniGameBase; }
+namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ADD__ONEVENT_OFFSET UNITYSDK_OFFSET(0x8B32F40)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x8B32150)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8B32B20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_FIREEVENT_OFFSET UNITYSDK_OFFSET(0x8B32E00)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GETGAME_OFFSET UNITYSDK_OFFSET(0x8B32BD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_CANRESTARTGAME_OFFSET UNITYSDK_OFFSET(0x8B33330)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_CANSTARTGAME_OFFSET UNITYSDK_OFFSET(0x8B33510)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_ISINTRIAL_OFFSET UNITYSDK_OFFSET(0x8B33520)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_MAINCTRL_OFFSET UNITYSDK_OFFSET(0x8B334F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_OFFSET UNITYSDK_OFFSET(0x8B32030)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x8B321E0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_LOADCHARACTER_OFFSET UNITYSDK_OFFSET(0x8B33410)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_MARKCANSTART_OFFSET UNITYSDK_OFFSET(0x8B330F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_NOTIFYGAMEGRADECHANGED_OFFSET UNITYSDK_OFFSET(0x8B33090)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ONGAMEFINISHED_OFFSET UNITYSDK_OFFSET(0x8B32D90)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ONUISCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x8B33490)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_PAUSE_OFFSET UNITYSDK_OFFSET(0x8B33140)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x8B32EB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEFINISHEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x8B32CB0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEGRADECHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x8B32D20)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REMOVE__ONEVENT_OFFSET UNITYSDK_OFFSET(0x8B33030)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REPORT_OFFSET UNITYSDK_OFFSET(0x8B333A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_RESTART_OFFSET UNITYSDK_OFFSET(0x8B33200)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_RESUME_OFFSET UNITYSDK_OFFSET(0x8B331A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_SET_ISINTRIAL_OFFSET UNITYSDK_OFFSET(0x8B33530)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_SET_MAINCTRL_OFFSET UNITYSDK_OFFSET(0x8B33500)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_STARTGAME_OFFSET UNITYSDK_OFFSET(0x8B32C10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x8B320C0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_UNREGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0x8B32FA0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x8B320B0)
+
+namespace RPG::Client::ActivityHipplen
+{
+	inline static constexpr unsigned int ActivityHipplenMiniGameManager_TypeDefinitionIndex = 59975;
+
+	class ActivityHipplenMiniGameManager : public ::System::Object
+	{
+	public:
+		::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>* _OnEvent; // 0x10
+		::Class_1_CFF7FC5CD9C1D292* _GameReporter; // 0x18
+		::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* _OnGameGradeChanged; // 0x20
+		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase* _CurrentGame; // 0x28
+		::RPG::Client::ActivityHipplen::ActivityHipplenMainController* _MainCtrl_k__BackingField; // 0x30
+		::UnityEngine::Transform* _Root; // 0x38
+		::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* _OnGameFinished; // 0x40
+		::System::Boolean _IsInTrial_k__BackingField; // 0x48
+		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager_InnerState _State; // 0x4C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* Get(::UnityEngine::Transform* root)
+		{
+			return ((::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_OFFSET))(root);
+		}
+
+		::System::Void Tick(::System::Single deltaTime)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_TICK_OFFSET))(this, deltaTime);
+		}
+
+		::System::Void Destroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_DESTROY_OFFSET))(this);
+		}
+
+		::System::Void Init(::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig config)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenGameConfig))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_INIT_OFFSET))(this, config);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_DISPOSE_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase* GetGame()
+		{
+			return ((::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GETGAME_OFFSET))(this);
+		}
+
+		::System::Void StartGame()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_STARTGAME_OFFSET))(this);
+		}
+
+		::System::Void RegisterGameFinishedCallback(::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::HipplenGameGradeType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEFINISHEDCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::Void RegisterGameGradeChangedCallback(::System::Action_1<::RPG::GameCore::HipplenGameGradeType>* callback)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::GameCore::HipplenGameGradeType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTERGAMEGRADECHANGEDCALLBACK_OFFSET))(this, callback);
+		}
+
+		::System::Void OnGameFinished(::RPG::GameCore::HipplenGameGradeType gradeType)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenGameGradeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ONGAMEFINISHED_OFFSET))(this, gradeType);
+		}
+
+		::System::Void FireEvent(::System::String* eventName, ::System::Action* onFinish)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_FIREEVENT_OFFSET))(this, eventName, onFinish);
+		}
+
+		::System::Void RegisterEventListener(::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>* onEvent)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REGISTEREVENTLISTENER_OFFSET))(this, onEvent);
+		}
+
+		::System::Void UnregisterEventListener(::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>* onEvent)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_UNREGISTEREVENTLISTENER_OFFSET))(this, onEvent);
+		}
+
+		::System::Void NotifyGameGradeChanged(::RPG::GameCore::HipplenGameGradeType gradeType)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenGameGradeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_NOTIFYGAMEGRADECHANGED_OFFSET))(this, gradeType);
+		}
+
+		::System::Void MarkCanStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_MARKCANSTART_OFFSET))(this);
+		}
+
+		::System::Void Pause()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_PAUSE_OFFSET))(this);
+		}
+
+		::System::Void Resume()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_RESUME_OFFSET))(this);
+		}
+
+		::System::Void Restart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_RESTART_OFFSET))(this);
+		}
+
+		::System::Void Report()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REPORT_OFFSET))(this);
+		}
+
+		::System::Void LoadCharacter(::RPG::GameCore::HipplenMiniGameLoadCharacter* character)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenMiniGameLoadCharacter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_LOADCHARACTER_OFFSET))(this, character);
+		}
+
+		::System::Void OnUIScreenSizeChanged()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ONUISCREENSIZECHANGED_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityHipplen::ActivityHipplenMainController* get_MainCtrl()
+		{
+			return ((::RPG::Client::ActivityHipplen::ActivityHipplenMainController*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_MAINCTRL_OFFSET))(this);
+		}
+
+		::System::Void set_MainCtrl(::RPG::Client::ActivityHipplen::ActivityHipplenMainController* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenMainController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_SET_MAINCTRL_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CanRestartGame()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_CANRESTARTGAME_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanStartGame()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_CANSTARTGAME_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInTrial()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_GET_ISINTRIAL_OFFSET))(this);
+		}
+
+		::System::Void set_IsInTrial(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_SET_ISINTRIAL_OFFSET))(this, value);
+		}
+
+		::System::Void add__OnEvent(::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_ADD__ONEVENT_OFFSET))(this, value);
+		}
+
+		::System::Void remove__OnEvent(::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEMANAGER_REMOVE__ONEVENT_OFFSET))(this, value);
+		}
+	};
+}

@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Entitas/Context_1.h"
+
+class Class_2_15E317187C4E8254;
+
+#define CLASS_2_C8461ACA8308A704_2_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0x16144790)
+#define CLASS_2_C8461ACA8308A704_2_METHOD_2_58EA5F4E77C0F4AE_OFFSET UNITYSDK_OFFSET(0x16144650)
+#define CLASS_2_C8461ACA8308A704_2_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x16144770)
+#define CLASS_2_C8461ACA8308A704_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16144420)
+
+inline static constexpr unsigned int Class_2_C8461ACA8308A704_2_TypeDefinitionIndex = 31486;
+
+class Class_2_C8461ACA8308A704_2 : public ::Entitas::Context_1<::Class_2_15E317187C4E8254*>
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8461ACA8308A704_2__CTOR_OFFSET))(this);
+	}
+
+	::Class_2_15E317187C4E8254* Method_2_58EA5F4E77C0F4AE()
+	{
+		return ((::Class_2_15E317187C4E8254*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8461ACA8308A704_2_METHOD_2_58EA5F4E77C0F4AE_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8461ACA8308A704_2_METHOD_2_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1B9CC121BDC8766D(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_C8461ACA8308A704_2_METHOD_2_1B9CC121BDC8766D_OFFSET))(this, a1);
+	}
+};

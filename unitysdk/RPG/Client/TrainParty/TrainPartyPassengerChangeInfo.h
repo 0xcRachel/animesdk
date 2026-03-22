@@ -1,0 +1,119 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_4DF3292AA5AADAD0_23;
+namespace RPG::Client::TrainParty { class TrainPartyGameInstance; }
+namespace RPG::Client::TrainParty { class TrainPartyPassengerData; }
+namespace RPG::Client::TrainParty { class TrainPartyPassengerStatusInfo; }
+
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_ADDSTATUS_OFFSET UNITYSDK_OFFSET(0xA0ED130)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETCHANGESTATUSTYPEINT_OFFSET UNITYSDK_OFFSET(0xA0ED340)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETCURSTATUSVAL_OFFSET UNITYSDK_OFFSET(0xA0ED630)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETOLDSTATUSINFO_OFFSET UNITYSDK_OFFSET(0xA0ED760)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETOLDSTATUSVAL_OFFSET UNITYSDK_OFFSET(0xA0ED580)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GET_ISLEADER_OFFSET UNITYSDK_OFFSET(0xA0ED7C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GET_PASSENGERID_OFFSET UNITYSDK_OFFSET(0xA0ED7A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GET_RELATEDPASSENGERDATA_OFFSET UNITYSDK_OFFSET(0xA0ED4B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_HASCHANGE_OFFSET UNITYSDK_OFFSET(0xA0ED2F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_INIT_OFFSET UNITYSDK_OFFSET(0xA0ECD60)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SET_ISLEADER_OFFSET UNITYSDK_OFFSET(0xA0ED7D0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SET_PASSENGERID_OFFSET UNITYSDK_OFFSET(0xA0ED7B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SUBSTATUS_OFFSET UNITYSDK_OFFSET(0xA0ED200)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SYNCPASSENGERDATA_OFFSET UNITYSDK_OFFSET(0xA0ECEF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xA0ECDB0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA0ECD30)
+
+namespace RPG::Client::TrainParty
+{
+	inline static constexpr unsigned int TrainPartyPassengerChangeInfo_TypeDefinitionIndex = 59371;
+
+	class TrainPartyPassengerChangeInfo : public ::System::Object
+	{
+	public:
+		::RPG::Client::TrainParty::TrainPartyPassengerStatusInfo* _OldStatusInfo; // 0x10
+		::RPG::Client::TrainParty::TrainPartyGameInstance* _Owner; // 0x18
+		::System::Boolean _IsLeader_k__BackingField; // 0x20
+		::System::UInt32 _PassengerID_k__BackingField; // 0x24
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Init(::RPG::Client::TrainParty::TrainPartyGameInstance* owner)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_INIT_OFFSET))(this, owner);
+		}
+
+		::System::Void Sync(::Class_1_4DF3292AA5AADAD0_23* serverInfo)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_4DF3292AA5AADAD0_23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SYNC_OFFSET))(this, serverInfo);
+		}
+
+		::System::Void SyncPassengerData(::RPG::Client::TrainParty::TrainPartyPassengerData* passengerData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyPassengerData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SYNCPASSENGERDATA_OFFSET))(this, passengerData);
+		}
+
+		::System::Void AddStatus(::System::UInt32 val)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_ADDSTATUS_OFFSET))(this, val);
+		}
+
+		::System::Void SubStatus(::System::UInt32 val)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SUBSTATUS_OFFSET))(this, val);
+		}
+
+		::System::Boolean HasChange()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_HASCHANGE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetChangeStatusTypeInt()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETCHANGESTATUSTYPEINT_OFFSET))(this);
+		}
+
+		::System::UInt32 GetOldStatusVal()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETOLDSTATUSVAL_OFFSET))(this);
+		}
+
+		::System::UInt32 GetCurStatusVal()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETCURSTATUSVAL_OFFSET))(this);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyPassengerStatusInfo* GetOldStatusInfo()
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyPassengerStatusInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GETOLDSTATUSINFO_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PassengerID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GET_PASSENGERID_OFFSET))(this);
+		}
+
+		::System::Void set_PassengerID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SET_PASSENGERID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TrainParty::TrainPartyPassengerData* get_RelatedPassengerData()
+		{
+			return ((::RPG::Client::TrainParty::TrainPartyPassengerData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GET_RELATEDPASSENGERDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsLeader()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_GET_ISLEADER_OFFSET))(this);
+		}
+
+		::System::Void set_IsLeader(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERCHANGEINFO_SET_ISLEADER_OFFSET))(this, value);
+		}
+	};
+}

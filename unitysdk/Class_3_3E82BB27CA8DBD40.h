@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+class Class_3_BCCE950C2E8DF1F0;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class StackRedirectSkillTarget; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10D64C80)
+#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0x10D65080)
+#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10D64CF0)
+#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0x10D64BE0)
+#define CLASS_3_3E82BB27CA8DBD40___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10D652E0)
+
+inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 43517;
+
+class Class_3_3E82BB27CA8DBD40 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackRedirectSkillTarget*>
+{
+public:
+	::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* Field_3_0; // 0x28
+	::Class_3_BCCE950C2E8DF1F0* Field_3_1; // 0x30
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackRedirectSkillTarget* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackRedirectSkillTarget*))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void Method_3_FD964A2C03CF6EC9(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+};

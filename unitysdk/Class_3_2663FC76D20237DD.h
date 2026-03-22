@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
+
+namespace RPG::GameCore { class ByTargetTeam; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_2663FC76D20237DD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10A2D640)
+#define CLASS_3_2663FC76D20237DD__CTOR_OFFSET UNITYSDK_OFFSET(0x10A2D610)
+
+inline static constexpr unsigned int Class_3_2663FC76D20237DD_TypeDefinitionIndex = 42745;
+
+class Class_3_2663FC76D20237DD : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetTeam*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByTargetTeam* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByTargetTeam*))((::PBYTE)hIl2Cpp + CLASS_3_2663FC76D20237DD__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Evaluate()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2663FC76D20237DD_EVALUATE_OFFSET))(this);
+	}
+};

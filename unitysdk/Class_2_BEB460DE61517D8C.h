@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_B55037134F9E6688.h"
+
+class Class_2_053DD8E4EC1165EB;
+namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_CutinAnimation; }
+
+#define CLASS_2_BEB460DE61517D8C_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1601B9C0)
+#define CLASS_2_BEB460DE61517D8C__CTOR_OFFSET UNITYSDK_OFFSET(0x1600F1A0)
+
+inline static constexpr unsigned int Class_2_BEB460DE61517D8C_TypeDefinitionIndex = 27677;
+
+class Class_2_BEB460DE61517D8C : public ::Class_1_B55037134F9E6688
+{
+public:
+	::Class_2_053DD8E4EC1165EB* Field_2_1; // 0x18
+	::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation* Field_2_0; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation* a1, ::Class_2_053DD8E4EC1165EB* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_AttackEffect_CutinAnimation*, ::Class_2_053DD8E4EC1165EB*))((::PBYTE)hIl2Cpp + CLASS_2_BEB460DE61517D8C__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BEB460DE61517D8C_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+};

@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
+
+namespace RPG::Client { class ChallengeGroupData; }
+namespace RPG::Client { class MainMissionData; }
+namespace RPG::GameCore { class ShowGroupChallengeSelectPage; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_BDDD1938B68BBED8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2F34E0)
+#define CLASS_2_BDDD1938B68BBED8_METHOD_2_C7C402E704FC0E28_OFFSET UNITYSDK_OFFSET(0xB2F38B0)
+#define CLASS_2_BDDD1938B68BBED8_METHOD_2_C7C512AC553191BF_OFFSET UNITYSDK_OFFSET(0xB2F3A20)
+#define CLASS_2_BDDD1938B68BBED8_METHOD_2_FBCDDF7B6BFEFA65_OFFSET UNITYSDK_OFFSET(0xB2F3B00)
+#define CLASS_2_BDDD1938B68BBED8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2F3520)
+#define CLASS_2_BDDD1938B68BBED8_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2F3800)
+#define CLASS_2_BDDD1938B68BBED8_TICK_OFFSET UNITYSDK_OFFSET(0xB2F3850)
+#define CLASS_2_BDDD1938B68BBED8__CTOR_OFFSET UNITYSDK_OFFSET(0xB2F34D0)
+#define CLASS_2_BDDD1938B68BBED8__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB2F3D20)
+#define CLASS_2_BDDD1938B68BBED8__ONTASKBEGIN_B__2_1_OFFSET UNITYSDK_OFFSET(0xB2F3F00)
+
+inline static constexpr unsigned int Class_2_BDDD1938B68BBED8_TypeDefinitionIndex = 42083;
+
+class Class_2_BDDD1938B68BBED8 : public ::Class_1_5F51D4049EA87B7B
+{
+public:
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::ShowGroupChallengeSelectPage* Field_2_0; // 0x20
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowGroupChallengeSelectPage* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowGroupChallengeSelectPage*))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_ONTASKRESET_OFFSET))(this);
+	}
+
+	::System::Void Tick(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_TICK_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::ChallengeGroupData* Method_2_C7C402E704FC0E28()
+	{
+		return ((::RPG::Client::ChallengeGroupData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_METHOD_2_C7C402E704FC0E28_OFFSET))(this);
+	}
+
+	::RPG::Client::ChallengeGroupData* Method_2_C7C512AC553191BF()
+	{
+		return ((::RPG::Client::ChallengeGroupData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_METHOD_2_C7C512AC553191BF_OFFSET))(this);
+	}
+
+	::RPG::Client::ChallengeGroupData* Method_2_FBCDDF7B6BFEFA65()
+	{
+		return ((::RPG::Client::ChallengeGroupData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8_METHOD_2_FBCDDF7B6BFEFA65_OFFSET))(this);
+	}
+
+	::System::Void _OnTaskBegin_b__2_0(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* data)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8__ONTASKBEGIN_B__2_0_OFFSET))(this, data);
+	}
+
+	::System::Void _OnTaskBegin_b__2_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BDDD1938B68BBED8__ONTASKBEGIN_B__2_1_OFFSET))(this);
+	}
+};

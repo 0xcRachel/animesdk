@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_DISABLE_OFFSET UNITYSDK_OFFSET(0x92E1140)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x92E1910)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x92E19E0)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_1808E1CF7A125519_1_OFFSET UNITYSDK_OFFSET(0x92E18A0)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x92E1400)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x92E12F0)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_62B963209E16F919_OFFSET UNITYSDK_OFFSET(0x92E1480)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x92E0D90)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x92E0E90)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x92E0E10)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x92E1250)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_START_OFFSET UNITYSDK_OFFSET(0x92E1370)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_UPDATESOLVEREXTERNAL_OFFSET UNITYSDK_OFFSET(0x92E1AB0)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x92E17D0)
+#define RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x92E0D40)
+
+namespace RPG::Client::FullBody
+{
+	inline static constexpr unsigned int NewSolverManager_TypeDefinitionIndex = 59180;
+
+	class NewSolverManager : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Boolean manualUpdate; // 0x18
+		::System::Boolean fixTransforms; // 0x19
+		::UnityEngine::Animator* Field_5_2; // 0x20
+		::UnityEngine::Animation* Field_5_3; // 0x28
+		::System::Boolean Field_5_4; // 0x30
+		::System::Boolean Field_5_5; // 0x31
+		::System::Boolean Field_5_6; // 0x32
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Disable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_DISABLE_OFFSET))(this);
+		}
+
+		::System::Void Method_5_CA373AA1C7054598()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+		}
+
+		::System::Void Method_5_CA373AA1C7054598_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_CA373AA1C7054598_1_OFFSET))(this);
+		}
+
+		::System::Void Method_5_CA373AA1C7054598_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_CA373AA1C7054598_2_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_START_OFFSET))(this);
+		}
+
+		::System::Boolean Method_5_1808E1CF7A125519()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_1808E1CF7A125519_OFFSET))(this);
+		}
+
+		::System::Void Method_5_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_UPDATE_OFFSET))(this);
+		}
+
+		::System::Void Method_5_62B963209E16F919(::UnityEngine::Transform* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_62B963209E16F919_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Method_5_1808E1CF7A125519_1()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_METHOD_5_1808E1CF7A125519_1_OFFSET))(this);
+		}
+
+		::System::Void FixedUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_FIXEDUPDATE_OFFSET))(this);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void UpdateSolverExternal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_NEWSOLVERMANAGER_UPDATESOLVEREXTERNAL_OFFSET))(this);
+		}
+	};
+}

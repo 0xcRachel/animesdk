@@ -1,0 +1,121 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_1792A4214A514F27.h"
+
+class Class_0_16E4307DCC419505_905;
+class Class_1_6584CC3BAC0F53F4;
+class Class_1_721A4579857AF31E;
+class Class_1_867B6CE75953535A_1;
+class Class_1_8E042314AFF884FB_8;
+class Class_1_A831F5EC39C10B45;
+class Class_1_CA9A7ECA43FC8636;
+class Class_3_44EDAE37250FA2DB;
+namespace Entitas { class ISystem; }
+namespace Entitas { class Systems; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_3_6F62955BDB52DF72_ADD_OFFSET UNITYSDK_OFFSET(0x8D262C0)
+#define CLASS_3_6F62955BDB52DF72_GET_CAMERACURVESYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26650)
+#define CLASS_3_6F62955BDB52DF72_GET_CAMERASYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26630)
+#define CLASS_3_6F62955BDB52DF72_GET_LEVELMANAGERSYSTEM_OFFSET UNITYSDK_OFFSET(0x8D265D0)
+#define CLASS_3_6F62955BDB52DF72_GET_SCENESYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26610)
+#define CLASS_3_6F62955BDB52DF72_GET_UIINPUTSYSTEM_OFFSET UNITYSDK_OFFSET(0x8D265F0)
+#define CLASS_3_6F62955BDB52DF72_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x8D26500)
+#define CLASS_3_6F62955BDB52DF72_METHOD_3_3B258437A86233AC_OFFSET UNITYSDK_OFFSET(0x8D263A0)
+#define CLASS_3_6F62955BDB52DF72_SET_CAMERACURVESYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26660)
+#define CLASS_3_6F62955BDB52DF72_SET_CAMERASYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26640)
+#define CLASS_3_6F62955BDB52DF72_SET_LEVELMANAGERSYSTEM_OFFSET UNITYSDK_OFFSET(0x8D265E0)
+#define CLASS_3_6F62955BDB52DF72_SET_SCENESYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26620)
+#define CLASS_3_6F62955BDB52DF72_SET_UIINPUTSYSTEM_OFFSET UNITYSDK_OFFSET(0x8D26600)
+#define CLASS_3_6F62955BDB52DF72__CTOR_OFFSET UNITYSDK_OFFSET(0x8D25E30)
+#define CLASS_3_6F62955BDB52DF72___IFIXBASEPROXY_ADD_OFFSET UNITYSDK_OFFSET(0x8D26670)
+
+inline static constexpr unsigned int Class_3_6F62955BDB52DF72_TypeDefinitionIndex = 60470;
+
+class Class_3_6F62955BDB52DF72 : public ::Class_2_1792A4214A514F27
+{
+public:
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_905*>* Field_3_5; // 0x30
+	::Class_1_6584CC3BAC0F53F4* _CameraSystem_k__BackingField; // 0x38
+	::Class_1_721A4579857AF31E* _UIInputSystem_k__BackingField; // 0x40
+	::Class_1_8E042314AFF884FB_8* _CameraCurveSystem_k__BackingField; // 0x48
+	::Class_1_A831F5EC39C10B45* _LevelManagerSystem_k__BackingField; // 0x50
+	::Class_1_CA9A7ECA43FC8636* _SceneSystem_k__BackingField; // 0x58
+	::System::Collections::Generic::List_1<::System::String*>* Field_3_6; // 0x60
+
+	::System::Void _ctor(::Class_1_867B6CE75953535A_1* a1, ::Class_3_44EDAE37250FA2DB* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_44EDAE37250FA2DB*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_3B258437A86233AC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_METHOD_3_3B258437A86233AC_OFFSET))(this);
+	}
+
+	::Entitas::Systems* Add(::Entitas::ISystem* a1)
+	{
+		return ((::Entitas::Systems*(*)(::PVOID, ::Entitas::ISystem*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_ADD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_151E25A63D14DDB0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_METHOD_3_151E25A63D14DDB0_OFFSET))(this);
+	}
+
+	::Class_1_A831F5EC39C10B45* get_LevelManagerSystem()
+	{
+		return ((::Class_1_A831F5EC39C10B45*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_GET_LEVELMANAGERSYSTEM_OFFSET))(this);
+	}
+
+	::System::Void set_LevelManagerSystem(::Class_1_A831F5EC39C10B45* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_A831F5EC39C10B45*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_SET_LEVELMANAGERSYSTEM_OFFSET))(this, value);
+	}
+
+	::Class_1_721A4579857AF31E* get_UIInputSystem()
+	{
+		return ((::Class_1_721A4579857AF31E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_GET_UIINPUTSYSTEM_OFFSET))(this);
+	}
+
+	::System::Void set_UIInputSystem(::Class_1_721A4579857AF31E* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_721A4579857AF31E*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_SET_UIINPUTSYSTEM_OFFSET))(this, value);
+	}
+
+	::Class_1_CA9A7ECA43FC8636* get_SceneSystem()
+	{
+		return ((::Class_1_CA9A7ECA43FC8636*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_GET_SCENESYSTEM_OFFSET))(this);
+	}
+
+	::System::Void set_SceneSystem(::Class_1_CA9A7ECA43FC8636* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_CA9A7ECA43FC8636*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_SET_SCENESYSTEM_OFFSET))(this, value);
+	}
+
+	::Class_1_6584CC3BAC0F53F4* get_CameraSystem()
+	{
+		return ((::Class_1_6584CC3BAC0F53F4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_GET_CAMERASYSTEM_OFFSET))(this);
+	}
+
+	::System::Void set_CameraSystem(::Class_1_6584CC3BAC0F53F4* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_6584CC3BAC0F53F4*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_SET_CAMERASYSTEM_OFFSET))(this, value);
+	}
+
+	::Class_1_8E042314AFF884FB_8* get_CameraCurveSystem()
+	{
+		return ((::Class_1_8E042314AFF884FB_8*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_GET_CAMERACURVESYSTEM_OFFSET))(this);
+	}
+
+	::System::Void set_CameraCurveSystem(::Class_1_8E042314AFF884FB_8* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8E042314AFF884FB_8*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72_SET_CAMERACURVESYSTEM_OFFSET))(this, value);
+	}
+
+	::Entitas::Systems* __iFixBaseProxy_Add(::Entitas::ISystem* P0)
+	{
+		return ((::Entitas::Systems*(*)(::PVOID, ::Entitas::ISystem*))((::PBYTE)hIl2Cpp + CLASS_3_6F62955BDB52DF72___IFIXBASEPROXY_ADD_OFFSET))(this, P0);
+	}
+};

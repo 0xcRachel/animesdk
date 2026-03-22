@@ -1,0 +1,13 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace RPGTools::Timeline
+{
+	inline static constexpr unsigned int CRPCameraSmallWindowControlBehaviour_EControlType_TypeDefinitionIndex = 37789;
+
+	enum class CRPCameraSmallWindowControlBehaviour_EControlType : ::System::Int32
+	{
+		CenterAndSize = 0,
+		SyncUIRect = 1,
+	};
+}

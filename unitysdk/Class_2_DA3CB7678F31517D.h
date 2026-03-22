@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_2231FD56C070349F.h"
+
+class Class_1_0E117AC86D8E5BCA;
+class Class_3_E5B65FD9338F9400;
+
+#define CLASS_2_DA3CB7678F31517D_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x84721B0)
+#define CLASS_2_DA3CB7678F31517D_METHOD_2_C7BF9C1E6A78DCAB_OFFSET UNITYSDK_OFFSET(0x8471EA0)
+#define CLASS_2_DA3CB7678F31517D_METHOD_2_DF3C54A5ADEABAF1_1_OFFSET UNITYSDK_OFFSET(0x8472160)
+#define CLASS_2_DA3CB7678F31517D_METHOD_2_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0x8471E50)
+#define CLASS_2_DA3CB7678F31517D__CTOR_OFFSET UNITYSDK_OFFSET(0x8471E30)
+
+inline static constexpr unsigned int Class_2_DA3CB7678F31517D_TypeDefinitionIndex = 47804;
+
+class Class_2_DA3CB7678F31517D : public ::Class_1_2231FD56C070349F
+{
+public:
+	::Class_1_0E117AC86D8E5BCA* Field_2_3; // 0x18
+	::System::UInt32 Field_2_1; // 0x20
+	::System::Boolean Field_2_0; // 0x24
+	::System::Boolean Field_2_2; // 0x25
+
+	::System::Void _ctor(::Class_3_E5B65FD9338F9400* a1, ::System::UInt32 a2, ::System::Boolean a3, ::Class_1_0E117AC86D8E5BCA* a4)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_3_E5B65FD9338F9400*, ::System::UInt32, ::System::Boolean, ::Class_1_0E117AC86D8E5BCA*))((::PBYTE)hIl2Cpp + CLASS_2_DA3CB7678F31517D__CTOR_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::System::Void Method_2_DF3C54A5ADEABAF1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DA3CB7678F31517D_METHOD_2_DF3C54A5ADEABAF1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C7BF9C1E6A78DCAB()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DA3CB7678F31517D_METHOD_2_C7BF9C1E6A78DCAB_OFFSET))(this);
+	}
+
+	::System::Void Method_2_DF3C54A5ADEABAF1_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DA3CB7678F31517D_METHOD_2_DF3C54A5ADEABAF1_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_5790A55946AA509D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DA3CB7678F31517D_METHOD_2_5790A55946AA509D_OFFSET))(this);
+	}
+};

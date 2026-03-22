@@ -1,0 +1,124 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ByteHash16.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_46;
+class Class_1_7179D0DED6D3E44A;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_AD0B53B56535FBAD_GETCONTENTHASH_OFFSET UNITYSDK_OFFSET(0x15E0BF20)
+#define CLASS_1_AD0B53B56535FBAD_GETDOWNLOADRELATIVEBUNDLELOADPATH_OFFSET UNITYSDK_OFFSET(0x15E0BE20)
+#define CLASS_1_AD0B53B56535FBAD_GETFILESIZE_OFFSET UNITYSDK_OFFSET(0x15E0BEE0)
+#define CLASS_1_AD0B53B56535FBAD_GETLOADRELATIVEBUNDLELOADPATH_OFFSET UNITYSDK_OFFSET(0x15E0BDA0)
+#define CLASS_1_AD0B53B56535FBAD_GET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x15E0BAC0)
+#define CLASS_1_AD0B53B56535FBAD_ISNEEDWRITECONTENTHASHFILE_OFFSET UNITYSDK_OFFSET(0x15E0C1D0)
+#define CLASS_1_AD0B53B56535FBAD_ISPATCH_OFFSET UNITYSDK_OFFSET(0x15E0C190)
+#define CLASS_1_AD0B53B56535FBAD_ISTMPFILENAMEADDFILEHASH_OFFSET UNITYSDK_OFFSET(0x15E0C150)
+#define CLASS_1_AD0B53B56535FBAD_METHOD_1_0E7F4677FAA263BB_OFFSET UNITYSDK_OFFSET(0x15E0BF80)
+#define CLASS_1_AD0B53B56535FBAD_METHOD_1_2BD2A2E8F5E35FEE_OFFSET UNITYSDK_OFFSET(0x15E0BBC0)
+#define CLASS_1_AD0B53B56535FBAD_METHOD_1_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0x15E0BCD0)
+#define CLASS_1_AD0B53B56535FBAD_METHOD_1_7B13B6DC23C63F9C_OFFSET UNITYSDK_OFFSET(0x15E0BB30)
+#define CLASS_1_AD0B53B56535FBAD_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x15E0BAE0)
+#define CLASS_1_AD0B53B56535FBAD_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0x15E0BAD0)
+#define CLASS_1_AD0B53B56535FBAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15E0C210)
+#define CLASS_1_AD0B53B56535FBAD__CTOR_OFFSET UNITYSDK_OFFSET(0x15E075E0)
+#define CLASS_1_AD0B53B56535FBAD___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15E0C2C0)
+
+inline static constexpr unsigned int Class_1_AD0B53B56535FBAD_TypeDefinitionIndex = 31223;
+
+class Class_1_AD0B53B56535FBAD : public ::System::Object
+{
+public:
+	// static const ::System::String* Field_1_2; // 0x0
+	::System::Collections::Generic::List_1<::Class_1_7179D0DED6D3E44A*>* Field_1_4; // 0x10
+	::System::Int64 Field_1_0; // 0x18
+	::RPG::Client::ByteHash16 Field_1_1; // 0x20
+	::System::Int32 _SubPackId_k__BackingField; // 0x30
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 get_SubPackId()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_GET_SUBPACKID_OFFSET))(this);
+	}
+
+	::System::Void set_SubPackId(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_SET_SUBPACKID_OFFSET))(this, value);
+	}
+
+	::System::Int32 Method_1_95780ED94B90ED36()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_METHOD_1_95780ED94B90ED36_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_46* Method_1_7B13B6DC23C63F9C(::System::Int32 a1)
+	{
+		return ((::Class_0_16E4307DCC419505_46*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_METHOD_1_7B13B6DC23C63F9C_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_2BD2A2E8F5E35FEE(::Class_0_16E4307DCC419505_46* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_46*))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_METHOD_1_2BD2A2E8F5E35FEE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_70437D85C11C5222(::Class_1_7179D0DED6D3E44A* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_7179D0DED6D3E44A*))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_METHOD_1_70437D85C11C5222_OFFSET))(this, a1);
+	}
+
+	::System::String* GetLoadRelativeBundleLoadPath()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_GETLOADRELATIVEBUNDLELOADPATH_OFFSET))(this);
+	}
+
+	::System::String* GetDownloadRelativeBundleLoadPath()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_GETDOWNLOADRELATIVEBUNDLELOADPATH_OFFSET))(this);
+	}
+
+	::System::Int64 GetFileSize()
+	{
+		return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_GETFILESIZE_OFFSET))(this);
+	}
+
+	::RPG::Client::ByteHash16 GetContentHash()
+	{
+		return ((::RPG::Client::ByteHash16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_GETCONTENTHASH_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0E7F4677FAA263BB(::RPG::Client::ByteHash16 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::ByteHash16))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_METHOD_1_0E7F4677FAA263BB_OFFSET))(this, a1);
+	}
+
+	::System::Boolean IsTmpFileNameAddFileHash()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_ISTMPFILENAMEADDFILEHASH_OFFSET))(this);
+	}
+
+	::System::Boolean IsPatch()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_ISPATCH_OFFSET))(this);
+	}
+
+	::System::Boolean IsNeedWriteContentHashFile()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_ISNEEDWRITECONTENTHASHFILE_OFFSET))(this);
+	}
+
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD_TOSTRING_OFFSET))(this);
+	}
+
+	::System::String* __iFixBaseProxy_ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AD0B53B56535FBAD___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
+	}
+};

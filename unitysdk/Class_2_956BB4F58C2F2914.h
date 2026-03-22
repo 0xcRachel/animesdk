@@ -1,0 +1,134 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BaseModule.h"
+
+class Class_1_120319518E6F6581_57;
+class Class_1_3C58D309C7A040F5_27;
+class Class_1_99BD961747420BEB_35;
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+
+#define CLASS_2_956BB4F58C2F2914_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEE11F0)
+#define CLASS_2_956BB4F58C2F2914_INIT_OFFSET UNITYSDK_OFFSET(0xFEE1170)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_27F8C9D8FC7DA7FE_OFFSET UNITYSDK_OFFSET(0xFEE19A0)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_80D27F85A9E9A618_OFFSET UNITYSDK_OFFSET(0xFEE1570)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_875E6880E292B7B5_OFFSET UNITYSDK_OFFSET(0xFEE1730)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_96BDC4B57CCFE000_OFFSET UNITYSDK_OFFSET(0xFEE1660)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_A5809AB80389F7DE_OFFSET UNITYSDK_OFFSET(0xFEE1780)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_A7E8B52E9ABB8DB9_OFFSET UNITYSDK_OFFSET(0xFEE14F0)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xFEE12C0)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_B708ACD2B6DA490E_OFFSET UNITYSDK_OFFSET(0xFEE1BF0)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_C757C8B28B42247F_OFFSET UNITYSDK_OFFSET(0xFEE1B00)
+#define CLASS_2_956BB4F58C2F2914_METHOD_2_DB5D297A176C2473_OFFSET UNITYSDK_OFFSET(0xFEE1CE0)
+#define CLASS_2_956BB4F58C2F2914__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xFEE13D0)
+#define CLASS_2_956BB4F58C2F2914__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xFEE1360)
+#define CLASS_2_956BB4F58C2F2914__CTOR_OFFSET UNITYSDK_OFFSET(0xFEE1D40)
+#define CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEE1DF0)
+#define CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xFEE1D60)
+#define CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xFEE1E60)
+#define CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xFEE1E00)
+
+inline static constexpr unsigned int Class_2_956BB4F58C2F2914_TypeDefinitionIndex = 50453;
+
+class Class_2_956BB4F58C2F2914 : public ::RPG::Client::BaseModule
+{
+public:
+	::Class_1_3C58D309C7A040F5_27* Field_2_1; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_2_2; // 0x18
+	::System::UInt32 Field_2_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Init()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_INIT_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void _AddPacketHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914__ADDPACKETHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void _AddNotifyHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914__ADDNOTIFYHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A7E8B52E9ABB8DB9(::System::UInt16 a1, ::System::Object* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_A7E8B52E9ABB8DB9_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_96BDC4B57CCFE000(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_96BDC4B57CCFE000_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_875E6880E292B7B5(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_875E6880E292B7B5_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_27F8C9D8FC7DA7FE(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_27F8C9D8FC7DA7FE_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Method_2_80D27F85A9E9A618(::Class_1_99BD961747420BEB_35* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_35*))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_80D27F85A9E9A618_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_2_A5809AB80389F7DE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_A5809AB80389F7DE_OFFSET))(this);
+	}
+
+	::Class_1_120319518E6F6581_57* Method_2_C757C8B28B42247F(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::Class_1_120319518E6F6581_57*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_C757C8B28B42247F_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_B708ACD2B6DA490E(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_B708ACD2B6DA490E_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_2_DB5D297A176C2473(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914_METHOD_2_DB5D297A176C2473_OFFSET))(this, a1);
+	}
+
+	::System::Void __iFixBaseProxy_Init()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY_INIT_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__AddPacketHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY__ADDPACKETHANDLERS_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy__AddNotifyHandlers()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_956BB4F58C2F2914___IFIXBASEPROXY__ADDNOTIFYHANDLERS_OFFSET))(this);
+	}
+};

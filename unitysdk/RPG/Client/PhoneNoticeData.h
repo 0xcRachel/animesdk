@@ -1,0 +1,101 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class MessageContactData; }
+namespace RPG::Client { class MessageGroupData; }
+namespace RPG::Client { class MessageSectionData; }
+namespace System { class String; }
+
+#define RPG_CLIENT_PHONENOTICEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9A71C00)
+#define RPG_CLIENT_PHONENOTICEDATA_GETMISSIONPRIORITY_OFFSET UNITYSDK_OFFSET(0x9A71FC0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x9A71E30)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_HASBATTLE_OFFSET UNITYSDK_OFFSET(0x9A71EF0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_HASLINKMISSION_OFFSET UNITYSDK_OFFSET(0x9A71F90)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ICON_OFFSET UNITYSDK_OFFSET(0x9A71E50)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x9A71DA0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ISEND_OFFSET UNITYSDK_OFFSET(0x9A71F30)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_ISWAITINGCHOOSE_OFFSET UNITYSDK_OFFSET(0x9A71EB0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_LASTTIME_OFFSET UNITYSDK_OFFSET(0x9A71ED0)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_LINKMISSIONID_OFFSET UNITYSDK_OFFSET(0x9A71F10)
+#define RPG_CLIENT_PHONENOTICEDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x9A71DC0)
+#define RPG_CLIENT_PHONENOTICEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A71D90)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int PhoneNoticeData_TypeDefinitionIndex = 52563;
+
+	class PhoneNoticeData : public ::System::Object
+	{
+	public:
+		::RPG::Client::MessageGroupData* _GroupData; // 0x10
+		::RPG::Client::MessageSectionData* _SectionData; // 0x18
+		::RPG::Client::MessageContactData* _ContactData; // 0x20
+
+		::System::Void _ctor(::RPG::Client::MessageContactData* contactData, ::RPG::Client::MessageGroupData* groupData, ::RPG::Client::MessageSectionData* sectionData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContactData*, ::RPG::Client::MessageGroupData*, ::RPG::Client::MessageSectionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA__CTOR_OFFSET))(this, contactData, groupData, sectionData);
+		}
+
+		static ::RPG::Client::PhoneNoticeData* Create(::RPG::Client::MessageContactData* contactData, ::System::UInt32 groupID)
+		{
+			return ((::RPG::Client::PhoneNoticeData*(*)(::RPG::Client::MessageContactData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_CREATE_OFFSET))(contactData, groupID);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_ID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_Content()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_CONTENT_OFFSET))(this);
+		}
+
+		::System::String* get_Icon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_ICON_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsWaitingChoose()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_ISWAITINGCHOOSE_OFFSET))(this);
+		}
+
+		::System::Int64 get_LastTime()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_LASTTIME_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasBattle()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_HASBATTLE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_LinkMissionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_LINKMISSIONID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEnd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_ISEND_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasLinkMission()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GET_HASLINKMISSION_OFFSET))(this);
+		}
+
+		::System::UInt32 GetMissionPriority()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHONENOTICEDATA_GETMISSIONPRIORITY_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEMAGICUNITSELECTCOPYCONFIG_METHOD_5_7A0BA12AFEC34763_OFFSET UNITYSDK_OFFSET(0x16E04710)
+#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEMAGICUNITSELECTCOPYCONFIG_METHOD_5_E9364E20CA3FB13F_OFFSET UNITYSDK_OFFSET(0x16E04550)
+#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEMAGICUNITSELECTCOPYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E04650)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int RogueActTriggerRogueMagicUnitSelectCopyConfig_TypeDefinitionIndex = 17632;
+
+	class RogueActTriggerRogueMagicUnitSelectCopyConfig : public ::RPG::GameCore::RogueActionConfigBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEMAGICUNITSELECTCOPYCONFIG__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void Method_5_E9364E20CA3FB13F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRogueMagicUnitSelectCopyConfig*& a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRogueMagicUnitSelectCopyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEMAGICUNITSELECTCOPYCONFIG_METHOD_5_E9364E20CA3FB13F_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void Method_5_7A0BA12AFEC34763(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRogueMagicUnitSelectCopyConfig* a2)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRogueMagicUnitSelectCopyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEMAGICUNITSELECTCOPYCONFIG_METHOD_5_7A0BA12AFEC34763_OFFSET))(a1, a2);
+		}
+	};
+}

@@ -1,0 +1,122 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_2BF31F3092BDFD9E.h"
+
+class Class_1_2BF31F3092BDFD9E_Class_1_6972853A514F066F;
+namespace RPG::Client { class WolfBroGunPlayPuzzleBoard; }
+namespace RPG::Client { class WolfBroGunPlayRogue; }
+namespace RPG::Client { class WolfBroGunPlayTarget; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_2_00556FF1F183E0F4_GET_REPLACECOUNT_OFFSET UNITYSDK_OFFSET(0x9464700)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_038349821F206DD5_OFFSET UNITYSDK_OFFSET(0x9464720)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_1D1F86A03D88378D_OFFSET UNITYSDK_OFFSET(0x94647A0)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_3150507749BCEAEC_OFFSET UNITYSDK_OFFSET(0x9464960)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_3A846539492F7AEE_OFFSET UNITYSDK_OFFSET(0x94638B0)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_3ECFE64E3B490A1C_OFFSET UNITYSDK_OFFSET(0x9463910)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_514DC3A7455E09AE_OFFSET UNITYSDK_OFFSET(0x94643C0)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x9464500)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_706082FDB2232652_OFFSET UNITYSDK_OFFSET(0x9464290)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_762D0FA8F8BE7A25_OFFSET UNITYSDK_OFFSET(0x9464840)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x9464640)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_B078C58C2CD24B5E_OFFSET UNITYSDK_OFFSET(0x94648B0)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_E1CE0A1C7957700D_OFFSET UNITYSDK_OFFSET(0x9464420)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x94646E0)
+#define CLASS_2_00556FF1F183E0F4_METHOD_2_FB9E8289BA3946B0_OFFSET UNITYSDK_OFFSET(0x9464730)
+#define CLASS_2_00556FF1F183E0F4_SET_REPLACECOUNT_OFFSET UNITYSDK_OFFSET(0x9464710)
+#define CLASS_2_00556FF1F183E0F4__CTOR_OFFSET UNITYSDK_OFFSET(0x9463830)
+
+inline static constexpr unsigned int Class_2_00556FF1F183E0F4_TypeDefinitionIndex = 54597;
+
+class Class_2_00556FF1F183E0F4 : public ::Class_1_2BF31F3092BDFD9E
+{
+public:
+	::System::Collections::Generic::List_1<::System::Int32>* Field_2_2; // 0x80
+	::RPG::Client::WolfBroGunPlayRogue* Field_2_1; // 0x88
+	::System::Int32 _ReplaceCount_k__BackingField; // 0x90
+
+	::System::Void _ctor(::RPG::Client::WolfBroGunPlayPuzzleBoard* a1, ::RPG::Client::WolfBroGunPlayRogue* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayPuzzleBoard*, ::RPG::Client::WolfBroGunPlayRogue*))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_3A846539492F7AEE(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_3A846539492F7AEE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_3ECFE64E3B490A1C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_3ECFE64E3B490A1C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_706082FDB2232652(::RPG::Client::WolfBroGunPlayTarget* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_706082FDB2232652_OFFSET))(this, a1);
+	}
+
+	::Class_1_2BF31F3092BDFD9E_Class_1_6972853A514F066F* Method_2_514DC3A7455E09AE()
+	{
+		return ((::Class_1_2BF31F3092BDFD9E_Class_1_6972853A514F066F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_514DC3A7455E09AE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E1CE0A1C7957700D(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_E1CE0A1C7957700D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_2_70589F89E4D22649()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_70589F89E4D22649_OFFSET))(this);
+	}
+
+	::System::Single Method_2_861970C5F2C21AB2()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_861970C5F2C21AB2_OFFSET))(this);
+	}
+
+	::System::Boolean Method_2_F0E307B84478A272()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_F0E307B84478A272_OFFSET))(this);
+	}
+
+	::System::Int32 get_ReplaceCount()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_GET_REPLACECOUNT_OFFSET))(this);
+	}
+
+	::System::Void set_ReplaceCount(::System::Int32 value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_SET_REPLACECOUNT_OFFSET))(this, value);
+	}
+
+	::System::Collections::Generic::List_1<::System::Int32>* Method_2_038349821F206DD5()
+	{
+		return ((::System::Collections::Generic::List_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_038349821F206DD5_OFFSET))(this);
+	}
+
+	::System::Void Method_2_FB9E8289BA3946B0(::RPG::Client::WolfBroGunPlayTarget* P0)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_FB9E8289BA3946B0_OFFSET))(this, P0);
+	}
+
+	::Class_1_2BF31F3092BDFD9E_Class_1_6972853A514F066F* Method_2_1D1F86A03D88378D()
+	{
+		return ((::Class_1_2BF31F3092BDFD9E_Class_1_6972853A514F066F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_1D1F86A03D88378D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_762D0FA8F8BE7A25(::System::Single P0, ::System::Single P1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_762D0FA8F8BE7A25_OFFSET))(this, P0, P1);
+	}
+
+	::System::Boolean Method_2_B078C58C2CD24B5E()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_B078C58C2CD24B5E_OFFSET))(this);
+	}
+
+	::System::Single Method_2_3150507749BCEAEC()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_00556FF1F183E0F4_METHOD_2_3150507749BCEAEC_OFFSET))(this);
+	}
+};

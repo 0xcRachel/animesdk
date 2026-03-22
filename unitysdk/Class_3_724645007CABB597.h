@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
+
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class HideWaypoint; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_724645007CABB597_METHOD_3_D4DB945671242CE5_OFFSET UNITYSDK_OFFSET(0x110B4740)
+#define CLASS_3_724645007CABB597_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110B4640)
+#define CLASS_3_724645007CABB597__CTOR_OFFSET UNITYSDK_OFFSET(0x110B4610)
+
+inline static constexpr unsigned int Class_3_724645007CABB597_TypeDefinitionIndex = 45859;
+
+class Class_3_724645007CABB597 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HideWaypoint*>
+{
+public:
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HideWaypoint* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HideWaypoint*))((::PBYTE)hIl2Cpp + CLASS_3_724645007CABB597__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_724645007CABB597_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	static ::System::Void Method_3_D4DB945671242CE5(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_724645007CABB597_METHOD_3_D4DB945671242CE5_OFFSET))(a1);
+	}
+};

@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA_ISSHOWGOTOEVERYDAYREDDOT_OFFSET UNITYSDK_OFFSET(0x987A070)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x9879C60)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9879C50)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISALLREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x987A3A0)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKECONTRIBUTIONREWARD_OFFSET UNITYSDK_OFFSET(0x987A2E0)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEMBTIREPORTREWARD_OFFSET UNITYSDK_OFFSET(0x987A160)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEPROGRESSREWARD_OFFSET UNITYSDK_OFFSET(0x987A280)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEQUESTREWARD_OFFSET UNITYSDK_OFFSET(0x987A1C0)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEREWARD_OFFSET UNITYSDK_OFFSET(0x9879DC0)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA__ISSHOWDAILYREWARDHINTREDDOT_OFFSET UNITYSDK_OFFSET(0x987A0E0)
+#define RPG_CLIENT_MONOPOLYACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x987A490)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MonopolyActivityData_TypeDefinitionIndex = 48869;
+
+	class MonopolyActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 ID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__CTOR_OFFSET))(this, ID);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCanTakeReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEREWARD_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCanTakeProgressReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEPROGRESSREWARD_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCanTakeQuestReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEQUESTREWARD_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCanTakeMBTIReportReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKEMBTIREPORTREWARD_OFFSET))(this);
+		}
+
+		::System::Boolean _IsCanTakeContributionReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISCANTAKECONTRIBUTIONREWARD_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowGoToEveryDayRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA_ISSHOWGOTOEVERYDAYREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsShowDailyRewardHintRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISSHOWDAILYREWARDHINTREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _IsAllRewardTaken()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA__ISALLREWARDTAKEN_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,257 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/EventSystems/PointerInputModule.h"
+#include "unitysdk/UnityEngine/EventSystems/StandaloneInputModule_InputMode.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::EventSystems { class PointerEventData; }
+namespace UnityEngine::EventSystems { class PointerInputModule_MouseButtonEventData; }
+
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_ACTIVATEMODULE_OFFSET UNITYSDK_OFFSET(0x182E2EA0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_DEACTIVATEMODULE_OFFSET UNITYSDK_OFFSET(0x182E2F80)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_FORCEAUTOSELECT_OFFSET UNITYSDK_OFFSET(0x182E49E0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GETCURRENTFOCUSEDGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x182E4E80)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GETRAWMOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x182E4400)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_ALLOWACTIVATIONONMOBILEDEVICE_OFFSET UNITYSDK_OFFSET(0x182E2660)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_CANCELBUTTON_OFFSET UNITYSDK_OFFSET(0x182E2740)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_FORCEMODULEACTIVE_OFFSET UNITYSDK_OFFSET(0x182E2680)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_HORIZONTALAXIS_OFFSET UNITYSDK_OFFSET(0x182E26E0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_INPUTACTIONSPERSECOND_OFFSET UNITYSDK_OFFSET(0x182E26A0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_INPUTMODE_OFFSET UNITYSDK_OFFSET(0x182E2650)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_REPEATDELAY_OFFSET UNITYSDK_OFFSET(0x182E26C0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_SUBMITBUTTON_OFFSET UNITYSDK_OFFSET(0x182E2720)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_VERTICALAXIS_OFFSET UNITYSDK_OFFSET(0x182E2700)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_ISMODULESUPPORTED_OFFSET UNITYSDK_OFFSET(0x182E2BB0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSMOUSEEVENT_1_OFFSET UNITYSDK_OFFSET(0x182E4530)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSMOUSEEVENT_OFFSET UNITYSDK_OFFSET(0x182E3300)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSMOUSEPRESS_OFFSET UNITYSDK_OFFSET(0x182E49F0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSTOUCHEVENTS_OFFSET UNITYSDK_OFFSET(0x182E3130)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSTOUCHPRESS_OFFSET UNITYSDK_OFFSET(0x182E3780)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESS_OFFSET UNITYSDK_OFFSET(0x182E2F90)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_RELEASEMOUSE_OFFSET UNITYSDK_OFFSET(0x182E2830)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SENDMOVEEVENTTOSELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x182E3310)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SENDSUBMITEVENTTOSELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x182E35E0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SENDUPDATEEVENTTOSELECTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x182E3040)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_ALLOWACTIVATIONONMOBILEDEVICE_OFFSET UNITYSDK_OFFSET(0x182E2670)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_CANCELBUTTON_OFFSET UNITYSDK_OFFSET(0x182E2750)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_FORCEMODULEACTIVE_OFFSET UNITYSDK_OFFSET(0x182E2690)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_HORIZONTALAXIS_OFFSET UNITYSDK_OFFSET(0x182E26F0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_INPUTACTIONSPERSECOND_OFFSET UNITYSDK_OFFSET(0x182E26B0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_REPEATDELAY_OFFSET UNITYSDK_OFFSET(0x182E26D0)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_SUBMITBUTTON_OFFSET UNITYSDK_OFFSET(0x182E2730)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_VERTICALAXIS_OFFSET UNITYSDK_OFFSET(0x182E2710)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SHOULDACTIVATEMODULE_OFFSET UNITYSDK_OFFSET(0x182E2C20)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SHOULDIGNOREEVENTSONNOFOCUS_OFFSET UNITYSDK_OFFSET(0x182E2760)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_UPDATEMODULE_OFFSET UNITYSDK_OFFSET(0x182E2780)
+#define UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x182E24E0)
+
+namespace UnityEngine::EventSystems
+{
+	inline static constexpr unsigned int StandaloneInputModule_TypeDefinitionIndex = 5711;
+
+	class StandaloneInputModule : public ::UnityEngine::EventSystems::PointerInputModule
+	{
+	public:
+		::System::Single m_PrevActionTime; // 0x58
+		::UnityEngine::Vector2 m_LastMoveVector; // 0x5C
+		::System::Int32 m_ConsecutiveMoveCount; // 0x64
+		::UnityEngine::Vector2 m_LastMousePosition; // 0x68
+		::UnityEngine::Vector2 m_MousePosition; // 0x70
+		::UnityEngine::GameObject* m_CurrentFocusedGameObject; // 0x78
+		::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent; // 0x80
+		::System::String* m_HorizontalAxis; // 0x88
+		::System::String* m_VerticalAxis; // 0x90
+		::System::String* m_SubmitButton; // 0x98
+		::System::String* m_CancelButton; // 0xA0
+		::System::Single m_InputActionsPerSecond; // 0xA8
+		::System::Single m_RepeatDelay; // 0xAC
+		::System::Boolean m_ForceModuleActive; // 0xB0
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::EventSystems::StandaloneInputModule_InputMode get_inputMode()
+		{
+			return ((::UnityEngine::EventSystems::StandaloneInputModule_InputMode(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_INPUTMODE_OFFSET))(this);
+		}
+
+		::System::Boolean get_allowActivationOnMobileDevice()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_ALLOWACTIVATIONONMOBILEDEVICE_OFFSET))(this);
+		}
+
+		::System::Void set_allowActivationOnMobileDevice(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_ALLOWACTIVATIONONMOBILEDEVICE_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_forceModuleActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_FORCEMODULEACTIVE_OFFSET))(this);
+		}
+
+		::System::Void set_forceModuleActive(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_FORCEMODULEACTIVE_OFFSET))(this, value);
+		}
+
+		::System::Single get_inputActionsPerSecond()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_INPUTACTIONSPERSECOND_OFFSET))(this);
+		}
+
+		::System::Void set_inputActionsPerSecond(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_INPUTACTIONSPERSECOND_OFFSET))(this, value);
+		}
+
+		::System::Single get_repeatDelay()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_REPEATDELAY_OFFSET))(this);
+		}
+
+		::System::Void set_repeatDelay(::System::Single value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_REPEATDELAY_OFFSET))(this, value);
+		}
+
+		::System::String* get_horizontalAxis()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_HORIZONTALAXIS_OFFSET))(this);
+		}
+
+		::System::Void set_horizontalAxis(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_HORIZONTALAXIS_OFFSET))(this, value);
+		}
+
+		::System::String* get_verticalAxis()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_VERTICALAXIS_OFFSET))(this);
+		}
+
+		::System::Void set_verticalAxis(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_VERTICALAXIS_OFFSET))(this, value);
+		}
+
+		::System::String* get_submitButton()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_SUBMITBUTTON_OFFSET))(this);
+		}
+
+		::System::Void set_submitButton(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_SUBMITBUTTON_OFFSET))(this, value);
+		}
+
+		::System::String* get_cancelButton()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GET_CANCELBUTTON_OFFSET))(this);
+		}
+
+		::System::Void set_cancelButton(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SET_CANCELBUTTON_OFFSET))(this, value);
+		}
+
+		::System::Boolean ShouldIgnoreEventsOnNoFocus()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SHOULDIGNOREEVENTSONNOFOCUS_OFFSET))(this);
+		}
+
+		::System::Void UpdateModule()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_UPDATEMODULE_OFFSET))(this);
+		}
+
+		::System::Void ReleaseMouse(::UnityEngine::EventSystems::PointerEventData* pointerEvent, ::UnityEngine::GameObject* currentOverGo)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_RELEASEMOUSE_OFFSET))(this, pointerEvent, currentOverGo);
+		}
+
+		::System::Boolean IsModuleSupported()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_ISMODULESUPPORTED_OFFSET))(this);
+		}
+
+		::System::Boolean ShouldActivateModule()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SHOULDACTIVATEMODULE_OFFSET))(this);
+		}
+
+		::System::Void ActivateModule()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_ACTIVATEMODULE_OFFSET))(this);
+		}
+
+		::System::Void DeactivateModule()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_DEACTIVATEMODULE_OFFSET))(this);
+		}
+
+		::System::Void Process()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESS_OFFSET))(this);
+		}
+
+		::System::Boolean ProcessTouchEvents()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSTOUCHEVENTS_OFFSET))(this);
+		}
+
+		::System::Void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData* pointerEvent, ::System::Boolean pressed, ::System::Boolean released)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSTOUCHPRESS_OFFSET))(this, pointerEvent, pressed, released);
+		}
+
+		::System::Boolean SendSubmitEventToSelectedObject()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SENDSUBMITEVENTTOSELECTEDOBJECT_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 GetRawMoveVector()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GETRAWMOVEVECTOR_OFFSET))(this);
+		}
+
+		::System::Boolean SendMoveEventToSelectedObject()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SENDMOVEEVENTTOSELECTEDOBJECT_OFFSET))(this);
+		}
+
+		::System::Void ProcessMouseEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSMOUSEEVENT_OFFSET))(this);
+		}
+
+		::System::Boolean ForceAutoSelect()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_FORCEAUTOSELECT_OFFSET))(this);
+		}
+
+		::System::Void ProcessMouseEvent_1(::System::Int32 id)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSMOUSEEVENT_1_OFFSET))(this, id);
+		}
+
+		::System::Boolean SendUpdateEventToSelectedObject()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_SENDUPDATEEVENTTOSELECTEDOBJECT_OFFSET))(this);
+		}
+
+		::System::Void ProcessMousePress(::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData* data)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_PROCESSMOUSEPRESS_OFFSET))(this, data);
+		}
+
+		::UnityEngine::GameObject* GetCurrentFocusedGameObject()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_STANDALONEINPUTMODULE_GETCURRENTFOCUSEDGAMEOBJECT_OFFSET))(this);
+		}
+	};
+}

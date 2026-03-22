@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace RPG::Client { class MonoEffect; }
+namespace RPG::Client { class TriggerEffectParams; }
+namespace System { class String; }
+
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_METHOD_5_4529D5FBB820A524_OFFSET UNITYSDK_OFFSET(0x9CB5D50)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x9CB5960)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_METHOD_5_FE8240516C4F3371_OFFSET UNITYSDK_OFFSET(0x9CB5B80)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9CB5AE0)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9CB5A90)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_START_OFFSET UNITYSDK_OFFSET(0x9CB5910)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x9CB6010)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER___ACTIVEEFFECT_B__3_0_OFFSET UNITYSDK_OFFSET(0x9CB6040)
+#define RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER___GETEFFECTPARAM_B__4_0_OFFSET UNITYSDK_OFFSET(0x9CB60A0)
+
+namespace RPG::Client::Prop
+{
+	inline static constexpr unsigned int RoguePrefabEffectLoader_TypeDefinitionIndex = 62220;
+
+	class RoguePrefabEffectLoader : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::String* EffectPrefabPath; // 0x18
+		::UnityEngine::Vector3 Offset; // 0x20
+		::UnityEngine::Vector3 Rotation; // 0x2C
+		::System::Boolean Field_5_3; // 0x38
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_START_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void Method_5_89D1F247B9D324EE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_METHOD_5_89D1F247B9D324EE_OFFSET))(this);
+		}
+
+		::RPG::Client::TriggerEffectParams* Method_5_FE8240516C4F3371()
+		{
+			return ((::RPG::Client::TriggerEffectParams*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_METHOD_5_FE8240516C4F3371_OFFSET))(this);
+		}
+
+		::System::Void Method_5_4529D5FBB820A524(::RPG::Client::MonoEffect* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER_METHOD_5_4529D5FBB820A524_OFFSET))(this, a1);
+		}
+
+		::System::Void __ActiveEffect_b__3_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER___ACTIVEEFFECT_B__3_0_OFFSET))(this);
+		}
+
+		::System::Void __GetEffectParam_b__4_0(::RPG::Client::MonoEffect* effectObject, ::RPG::Client::TriggerEffectCallbackParams extraParams)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUEPREFABEFFECTLOADER___GETEFFECTPARAM_B__4_0_OFFSET))(this, effectObject, extraParams);
+		}
+	};
+}

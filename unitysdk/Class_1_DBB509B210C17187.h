@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG { template <typename T> class PoolList_1; }
+namespace RPG::GameCore { class LittleGameLevelVariable; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_1_DBB509B210C17187_CLEAR_OFFSET UNITYSDK_OFFSET(0x16308C40)
+#define CLASS_1_DBB509B210C17187_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x16308E70)
+#define CLASS_1_DBB509B210C17187_METHOD_1_A199A68F8FE373AF_OFFSET UNITYSDK_OFFSET(0x16308D30)
+#define CLASS_1_DBB509B210C17187_METHOD_1_BDC3640814A3B7B3_OFFSET UNITYSDK_OFFSET(0x16308E00)
+#define CLASS_1_DBB509B210C17187_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x16308DC0)
+#define CLASS_1_DBB509B210C17187_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16308D80)
+#define CLASS_1_DBB509B210C17187_METHOD_1_CE1FB3C3C4E44EF4_OFFSET UNITYSDK_OFFSET(0x16308CB0)
+#define CLASS_1_DBB509B210C17187__CTOR_OFFSET UNITYSDK_OFFSET(0x16308E90)
+
+inline static constexpr unsigned int Class_1_DBB509B210C17187_TypeDefinitionIndex = 31425;
+
+class Class_1_DBB509B210C17187 : public ::System::Object
+{
+public:
+	::RPG::GameCore::LittleGameLevelVariable* Field_1_2; // 0x10
+	::System::Action_1<::System::String*>* Field_1_1; // 0x18
+	::RPG::PoolList_1<::System::Action*>* Field_1_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_CLEAR_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_CE1FB3C3C4E44EF4()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_METHOD_1_CE1FB3C3C4E44EF4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A199A68F8FE373AF(::RPG::GameCore::LittleGameLevelVariable* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LittleGameLevelVariable*))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_METHOD_1_A199A68F8FE373AF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BDC3640814A3B7B3(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_METHOD_1_BDC3640814A3B7B3_OFFSET))(this, a1);
+	}
+
+	::System::String* Method_1_128774387667156B()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DBB509B210C17187_METHOD_1_128774387667156B_OFFSET))(this);
+	}
+};

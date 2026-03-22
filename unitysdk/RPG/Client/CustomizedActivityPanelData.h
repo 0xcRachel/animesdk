@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+namespace RPG::Client { class ActivityData; }
+namespace RPG::Client { class ScheduleData; }
+
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x8FF34E0)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_ISEARLYACCESSCANUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FF34F0)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_ISINRESIDENT_OFFSET UNITYSDK_OFFSET(0x8FF34B0)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_ISINTIMELIMIT_OFFSET UNITYSDK_OFFSET(0x8FF3450)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_RELATEDACTIVITYID_OFFSET UNITYSDK_OFFSET(0x8FF34D0)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_RELATEDACTIVITY_OFFSET UNITYSDK_OFFSET(0x8FF34C0)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_SCHEDULEDATA_OFFSET UNITYSDK_OFFSET(0x8FF3440)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8FF3430)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA___IFIXBASEPROXY_GET_ISEARLYACCESSCANUNLOCK_OFFSET UNITYSDK_OFFSET(0x8FF35C0)
+#define RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA___IFIXBASEPROXY_GET_ISINTIMELIMIT_OFFSET UNITYSDK_OFFSET(0x8FF3530)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CustomizedActivityPanelData_TypeDefinitionIndex = 48932;
+
+	class CustomizedActivityPanelData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::RPG::Client::ScheduleData* _CustomizedScheduleData; // 0xA0
+
+		::System::Void _ctor(::System::UInt32 panelID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA__CTOR_OFFSET))(this, panelID);
+		}
+
+		::RPG::Client::ScheduleData* get_ScheduleData()
+		{
+			return ((::RPG::Client::ScheduleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_SCHEDULEDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInTimeLimit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_ISINTIMELIMIT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsInResident()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_ISINRESIDENT_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityData* get_RelatedActivity()
+		{
+			return ((::RPG::Client::ActivityData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_RELATEDACTIVITY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_RelatedActivityID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_RELATEDACTIVITYID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ContentID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_CONTENTID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEarlyAccessCanUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA_GET_ISEARLYACCESSCANUNLOCK_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_get_IsInTimeLimit()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA___IFIXBASEPROXY_GET_ISINTIMELIMIT_OFFSET))(this);
+		}
+
+		::System::Boolean __iFixBaseProxy_get_IsEarlyAccessCanUnlock()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMIZEDACTIVITYPANELDATA___IFIXBASEPROXY_GET_ISEARLYACCESSCANUNLOCK_OFFSET))(this);
+		}
+	};
+}
