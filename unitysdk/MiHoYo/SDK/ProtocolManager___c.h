@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15901A70)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15901AB0)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__REQUESTOPERATEAGREEMENT_B__34_0_OFFSET UNITYSDK_OFFSET(0x15901AC0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15FE0FA0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15FE0FE0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__REQUESTOPERATEAGREEMENT_B__34_0_OFFSET UNITYSDK_OFFSET(0x15FE0FF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c_TypeDefinitionIndex = 6921;
+	inline static constexpr unsigned int ProtocolManager___c_TypeDefinitionIndex = 7043;
 
 	class ProtocolManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::ProtocolManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::ProtocolManager___c**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager___c_TypeDefinitionIndex)->GetStaticField(0x17330);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__34_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager___c_TypeDefinitionIndex)->GetStaticField(0x17338);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager___c_TypeDefinitionIndex)->GetStaticField(0x14F30);
+		}
+		static ::MiHoYo::SDK::ProtocolManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::ProtocolManager___c**)Il2CppClass::FromTypeDefinitionIndex(ProtocolManager___c_TypeDefinitionIndex)->GetStaticField(0x14F38);
 		}
 
 		static ::System::Void _cctor()

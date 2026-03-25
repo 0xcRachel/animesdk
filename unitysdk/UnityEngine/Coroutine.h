@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/YieldInstruction.h"
 
-#define UNITYENGINE_COROUTINE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x181E4AD0)
-#define UNITYENGINE_COROUTINE_RELEASECOROUTINE_OFFSET UNITYSDK_OFFSET(0x181E4B40)
-#define UNITYENGINE_COROUTINE__CTOR_OFFSET UNITYSDK_OFFSET(0x181E4AC0)
+#define UNITYENGINE_COROUTINE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x18A0D7A0)
+#define UNITYENGINE_COROUTINE_RELEASECOROUTINE_OFFSET UNITYSDK_OFFSET(0x18A0D810)
+#define UNITYENGINE_COROUTINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A0D790)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Coroutine_TypeDefinitionIndex = 4105;
+	inline static constexpr unsigned int Coroutine_TypeDefinitionIndex = 4127;
 
 	class Coroutine : public ::UnityEngine::YieldInstruction
 	{

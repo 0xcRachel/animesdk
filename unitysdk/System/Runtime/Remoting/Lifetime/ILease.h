@@ -5,7 +5,7 @@
 
 namespace System::Runtime::Remoting::Lifetime
 {
-	inline static constexpr unsigned int ILease_TypeDefinitionIndex = 1223;
+	inline static constexpr unsigned int ILease_TypeDefinitionIndex = 1228;
 
 	class ILease
 	{

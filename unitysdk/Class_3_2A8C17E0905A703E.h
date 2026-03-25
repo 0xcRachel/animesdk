@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyCharacterFaceMaterial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2A8C17E0905A703E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1056B680)
-#define CLASS_3_2A8C17E0905A703E__CTOR_OFFSET UNITYSDK_OFFSET(0x1056B650)
+#define CLASS_3_2A8C17E0905A703E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1106F3F0)
+#define CLASS_3_2A8C17E0905A703E__CTOR_OFFSET UNITYSDK_OFFSET(0x1106F3C0)
 
-inline static constexpr unsigned int Class_3_2A8C17E0905A703E_TypeDefinitionIndex = 41864;
+inline static constexpr unsigned int Class_3_2A8C17E0905A703E_TypeDefinitionIndex = 42913;
 
 class Class_3_2A8C17E0905A703E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyCharacterFaceMaterial*>
 {

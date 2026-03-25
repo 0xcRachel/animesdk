@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Leaderboards { class GetLeaderboardRecordCountOp
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDRECORDCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDRECORDCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x43D70)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDRECORDCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x43F00)
 #define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDRECORDCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Leaderboards
 {
-	inline static constexpr unsigned int GetLeaderboardRecordCountOptionsInternal_TypeDefinitionIndex = 35261;
+	inline static constexpr unsigned int GetLeaderboardRecordCountOptionsInternal_TypeDefinitionIndex = 36195;
 
 	struct alignas(4) GetLeaderboardRecordCountOptionsInternal
 	{

@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPACEZOOSLOTTAGSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F76CA0)
-#define RPG_GAMECORE_SPACEZOOSLOTTAGSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F772C0)
+#define RPG_GAMECORE_SPACEZOOSLOTTAGSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1776AF30)
+#define RPG_GAMECORE_SPACEZOOSLOTTAGSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1776B550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooSlotTagsRow_TypeDefinitionIndex = 11235;
+	inline static constexpr unsigned int SpaceZooSlotTagsRow_TypeDefinitionIndex = 11303;
 
 	class SpaceZooSlotTagsRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 FeatureID; // 0x18
-		::RPG::GameCore::SpaceZooChannelType Channel; // 0x1C
+		::RPG::GameCore::SpaceZooChannelType Channel; // 0x18
+		::System::UInt32 FeatureID; // 0x1C
 
 		::System::Void _ctor()
 		{

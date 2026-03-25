@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAvatarInfoProvider_TypeDefinitionIndex = 49723;
+	inline static constexpr unsigned int IAvatarInfoProvider_TypeDefinitionIndex = 50838;
 
 	class IAvatarInfoProvider
 	{

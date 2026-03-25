@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class RelicItemData; }
 
-#define RPG_CLIENT_RELICSUITDATA___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DA83F0)
-#define RPG_CLIENT_RELICSUITDATA___C__DISPLAYCLASS10_0__GETVIRTUALDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9DA8B30)
+#define RPG_CLIENT_RELICSUITDATA___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C9120)
+#define RPG_CLIENT_RELICSUITDATA___C__DISPLAYCLASS10_0__GETVIRTUALDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA2C98D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicSuitData___c__DisplayClass10_0_TypeDefinitionIndex = 49721;
+	inline static constexpr unsigned int RelicSuitData___c__DisplayClass10_0_TypeDefinitionIndex = 50836;
 
 	class RelicSuitData___c__DisplayClass10_0 : public ::System::Object
 	{

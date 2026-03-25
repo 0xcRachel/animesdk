@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class CakeRaceModule; }
 
-#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8E4C000)
-#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0___TRYACCEPTINVITED_B__0_OFFSET UNITYSDK_OFFSET(0x8E4DDB0)
+#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9255DF0)
+#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0___TRYACCEPTINVITED_B__0_OFFSET UNITYSDK_OFFSET(0x9257BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass86_0_TypeDefinitionIndex = 49991;
+	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass86_0_TypeDefinitionIndex = 51123;
 
 	class CakeRaceModule___c__DisplayClass86_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_B6B8E3B8688F8129___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFDE1D20)
-#define CLASS_1_B6B8E3B8688F8129___C__DISPLAYCLASS13_0__SORTACCESSORYLIST_B__0_OFFSET UNITYSDK_OFFSET(0xFDE1F60)
+#define CLASS_1_B6B8E3B8688F8129___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10538C40)
+#define CLASS_1_B6B8E3B8688F8129___C__DISPLAYCLASS13_0__SORTACCESSORYLIST_B__0_OFFSET UNITYSDK_OFFSET(0x10538EC0)
 
-inline static constexpr unsigned int Class_1_B6B8E3B8688F8129___c__DisplayClass13_0_TypeDefinitionIndex = 42316;
+inline static constexpr unsigned int Class_1_B6B8E3B8688F8129___c__DisplayClass13_0_TypeDefinitionIndex = 43365;
 
 class Class_1_B6B8E3B8688F8129___c__DisplayClass13_0 : public ::System::Object
 {

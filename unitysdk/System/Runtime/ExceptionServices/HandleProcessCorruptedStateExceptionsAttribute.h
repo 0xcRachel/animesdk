@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_EXCEPTIONSERVICES_HANDLEPROCESSCORRUPTEDSTATEEXCEPTIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDF170)
+#define SYSTEM_RUNTIME_EXCEPTIONSERVICES_HANDLEPROCESSCORRUPTEDSTATEEXCEPTIONSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A7540)
 
 namespace System::Runtime::ExceptionServices
 {
-	inline static constexpr unsigned int HandleProcessCorruptedStateExceptionsAttribute_TypeDefinitionIndex = 1323;
+	inline static constexpr unsigned int HandleProcessCorruptedStateExceptionsAttribute_TypeDefinitionIndex = 1328;
 
 	class HandleProcessCorruptedStateExceptionsAttribute : public ::System::Attribute
 	{

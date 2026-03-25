@@ -7,12 +7,12 @@ namespace RPG::Client::Prop { class ChimeraBubbleTalkParam; }
 namespace RPG::Client::Prop { class ChimeraMainEnvTalkInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEANCHORCONFIG_TRYGETCHIMERATALKINFO_OFFSET UNITYSDK_OFFSET(0x9B96A10)
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEANCHORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9B96AF0)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEANCHORCONFIG_TRYGETCHIMERATALKINFO_OFFSET UNITYSDK_OFFSET(0xA0683D0)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEANCHORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA0684B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEntranceAnchorConfig_TypeDefinitionIndex = 61745;
+	inline static constexpr unsigned int ChimeraEntranceAnchorConfig_TypeDefinitionIndex = 63932;
 
 	class ChimeraEntranceAnchorConfig : public ::UnityEngine::MonoBehaviour
 	{

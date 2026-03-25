@@ -3,69 +3,69 @@
 #include "unitysdk/RPG/Client/AvatarUpgradePart.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_307;
-class Class_0_16E4307DCC419505_560;
-class Class_0_16E4307DCC419505_561;
+class Class_0_16E4307DCC419505_341;
+class Class_0_16E4307DCC419505_591;
+class Class_0_16E4307DCC419505_592;
 class Class_1_06CDCC6A0A66BA0A;
 class Class_1_090AB0EAA610410E;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_5CD78AEA77707C4B_GET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0x89CDAD0)
-#define CLASS_1_5CD78AEA77707C4B_GET_RULEPROVIDER_OFFSET UNITYSDK_OFFSET(0x89CDAF0)
-#define CLASS_1_5CD78AEA77707C4B_GET_UPGRADEMAPPERS_OFFSET UNITYSDK_OFFSET(0x89CDAB0)
-#define CLASS_1_5CD78AEA77707C4B_METHOD_1_8149469AB45C4061_OFFSET UNITYSDK_OFFSET(0x89CE140)
-#define CLASS_1_5CD78AEA77707C4B_METHOD_1_A670639DE9EBEFCC_OFFSET UNITYSDK_OFFSET(0x89CE1E0)
-#define CLASS_1_5CD78AEA77707C4B_METHOD_1_A6D2364160463E2D_OFFSET UNITYSDK_OFFSET(0x89CDC10)
-#define CLASS_1_5CD78AEA77707C4B_METHOD_1_E681B6D41E5607D0_OFFSET UNITYSDK_OFFSET(0x89CDB10)
-#define CLASS_1_5CD78AEA77707C4B_SET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0x89CDAE0)
-#define CLASS_1_5CD78AEA77707C4B_SET_RULEPROVIDER_OFFSET UNITYSDK_OFFSET(0x89CDB00)
-#define CLASS_1_5CD78AEA77707C4B_SET_UPGRADEMAPPERS_OFFSET UNITYSDK_OFFSET(0x89CDAC0)
-#define CLASS_1_5CD78AEA77707C4B__CTOR_OFFSET UNITYSDK_OFFSET(0x89CE780)
+#define CLASS_1_5CD78AEA77707C4B_GET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0xA9F6850)
+#define CLASS_1_5CD78AEA77707C4B_GET_RULEPROVIDER_OFFSET UNITYSDK_OFFSET(0xA9F6870)
+#define CLASS_1_5CD78AEA77707C4B_GET_UPGRADEMAPPERS_OFFSET UNITYSDK_OFFSET(0xA9F6830)
+#define CLASS_1_5CD78AEA77707C4B_METHOD_1_8149469AB45C4061_OFFSET UNITYSDK_OFFSET(0xA9F6EC0)
+#define CLASS_1_5CD78AEA77707C4B_METHOD_1_A670639DE9EBEFCC_OFFSET UNITYSDK_OFFSET(0xA9F6F60)
+#define CLASS_1_5CD78AEA77707C4B_METHOD_1_A6D2364160463E2D_OFFSET UNITYSDK_OFFSET(0xA9F6990)
+#define CLASS_1_5CD78AEA77707C4B_METHOD_1_E681B6D41E5607D0_OFFSET UNITYSDK_OFFSET(0xA9F6890)
+#define CLASS_1_5CD78AEA77707C4B_SET_PROFILEBUILDER_OFFSET UNITYSDK_OFFSET(0xA9F6860)
+#define CLASS_1_5CD78AEA77707C4B_SET_RULEPROVIDER_OFFSET UNITYSDK_OFFSET(0xA9F6880)
+#define CLASS_1_5CD78AEA77707C4B_SET_UPGRADEMAPPERS_OFFSET UNITYSDK_OFFSET(0xA9F6840)
+#define CLASS_1_5CD78AEA77707C4B__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F7500)
 
-inline static constexpr unsigned int Class_1_5CD78AEA77707C4B_TypeDefinitionIndex = 49869;
+inline static constexpr unsigned int Class_1_5CD78AEA77707C4B_TypeDefinitionIndex = 51001;
 
 class Class_1_5CD78AEA77707C4B : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_560* _RuleProvider_k__BackingField; // 0x10
-	::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_561*>* _UpgradeMappers_k__BackingField; // 0x18
-	::Class_0_16E4307DCC419505_307* _ProfileBuilder_k__BackingField; // 0x20
+	::Class_0_16E4307DCC419505_341* _ProfileBuilder_k__BackingField; // 0x10
+	::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_591*>* _UpgradeMappers_k__BackingField; // 0x18
+	::Class_0_16E4307DCC419505_592* _RuleProvider_k__BackingField; // 0x20
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B__CTOR_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_561*>* get_UpgradeMappers()
+	::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_591*>* get_UpgradeMappers()
 	{
-		return ((::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_561*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_GET_UPGRADEMAPPERS_OFFSET))(this);
+		return ((::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_591*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_GET_UPGRADEMAPPERS_OFFSET))(this);
 	}
 
-	::System::Void set_UpgradeMappers(::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_561*>* value)
+	::System::Void set_UpgradeMappers(::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_591*>* value)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_561*>*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_SET_UPGRADEMAPPERS_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::SortedDictionary_2<::RPG::Client::AvatarUpgradePart, ::Class_0_16E4307DCC419505_591*>*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_SET_UPGRADEMAPPERS_OFFSET))(this, value);
 	}
 
-	::Class_0_16E4307DCC419505_307* get_ProfileBuilder()
+	::Class_0_16E4307DCC419505_341* get_ProfileBuilder()
 	{
-		return ((::Class_0_16E4307DCC419505_307*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_GET_PROFILEBUILDER_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_341*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_GET_PROFILEBUILDER_OFFSET))(this);
 	}
 
-	::System::Void set_ProfileBuilder(::Class_0_16E4307DCC419505_307* value)
+	::System::Void set_ProfileBuilder(::Class_0_16E4307DCC419505_341* value)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_307*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_SET_PROFILEBUILDER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_341*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_SET_PROFILEBUILDER_OFFSET))(this, value);
 	}
 
-	::Class_0_16E4307DCC419505_560* get_RuleProvider()
+	::Class_0_16E4307DCC419505_592* get_RuleProvider()
 	{
-		return ((::Class_0_16E4307DCC419505_560*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_GET_RULEPROVIDER_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_592*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_GET_RULEPROVIDER_OFFSET))(this);
 	}
 
-	::System::Void set_RuleProvider(::Class_0_16E4307DCC419505_560* value)
+	::System::Void set_RuleProvider(::Class_0_16E4307DCC419505_592* value)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_560*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_SET_RULEPROVIDER_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_592*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_SET_RULEPROVIDER_OFFSET))(this, value);
 	}
 
 	::Class_1_06CDCC6A0A66BA0A* Method_1_E681B6D41E5607D0()
@@ -83,8 +83,8 @@ public:
 		return ((::Class_1_090AB0EAA610410E*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_METHOD_1_A670639DE9EBEFCC_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_561*>* Method_1_8149469AB45C4061(::RPG::Client::AvatarUpgradePart a1)
+	::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_591*>* Method_1_8149469AB45C4061(::RPG::Client::AvatarUpgradePart a1)
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_561*>*(*)(::PVOID, ::RPG::Client::AvatarUpgradePart))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_METHOD_1_8149469AB45C4061_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_591*>*(*)(::PVOID, ::RPG::Client::AvatarUpgradePart))((::PBYTE)hIl2Cpp + CLASS_1_5CD78AEA77707C4B_METHOD_1_8149469AB45C4061_OFFSET))(this, a1);
 	}
 };

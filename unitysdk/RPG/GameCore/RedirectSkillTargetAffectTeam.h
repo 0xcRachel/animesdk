@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedirectSkillTargetAffectTeam_TypeDefinitionIndex = 21308;
+	inline static constexpr unsigned int RedirectSkillTargetAffectTeam_TypeDefinitionIndex = 21868;
 
 	enum class RedirectSkillTargetAffectTeam : ::System::Int32
 	{

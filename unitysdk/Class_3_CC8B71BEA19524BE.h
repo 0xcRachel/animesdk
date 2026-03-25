@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UsePassiveSkill; }
 
-#define CLASS_3_CC8B71BEA19524BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x899CDB0)
-#define CLASS_3_CC8B71BEA19524BE__CTOR_OFFSET UNITYSDK_OFFSET(0x899CD80)
+#define CLASS_3_CC8B71BEA19524BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4DA260)
+#define CLASS_3_CC8B71BEA19524BE__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DA230)
 
-inline static constexpr unsigned int Class_3_CC8B71BEA19524BE_TypeDefinitionIndex = 46438;
+inline static constexpr unsigned int Class_3_CC8B71BEA19524BE_TypeDefinitionIndex = 47516;
 
 class Class_3_CC8B71BEA19524BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::UsePassiveSkill*>
 {

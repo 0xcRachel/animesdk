@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BuildInAnimParam_TypeDefinitionIndex = 46613;
+	inline static constexpr unsigned int BuildInAnimParam_TypeDefinitionIndex = 47692;
 
 	enum class BuildInAnimParam : ::System::Int16
 	{

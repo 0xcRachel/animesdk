@@ -6,10 +6,10 @@ class Class_1_A831F5EC39C10B45;
 class Class_2_0C58AD91B0F4D809;
 namespace RPG::GameCore { class FourRotateVoxelPortalConfig; }
 
-#define CLASS_1_A831F5EC39C10B45___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1051C500)
-#define CLASS_1_A831F5EC39C10B45___C__DISPLAYCLASS9_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x1051C510)
+#define CLASS_1_A831F5EC39C10B45___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC1860)
+#define CLASS_1_A831F5EC39C10B45___C__DISPLAYCLASS9_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x8BC35A0)
 
-inline static constexpr unsigned int Class_1_A831F5EC39C10B45___c__DisplayClass9_0_TypeDefinitionIndex = 60509;
+inline static constexpr unsigned int Class_1_A831F5EC39C10B45___c__DisplayClass9_0_TypeDefinitionIndex = 62487;
 
 class Class_1_A831F5EC39C10B45___c__DisplayClass9_0 : public ::System::Object
 {

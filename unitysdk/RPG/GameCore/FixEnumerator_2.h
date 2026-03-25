@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FixEnumerator_2_TypeDefinitionIndex = 8738;
+	inline static constexpr unsigned int FixEnumerator_2_TypeDefinitionIndex = 8867;
 
 	template <typename TIndexKey, typename TRow>
 	struct FixEnumerator_2

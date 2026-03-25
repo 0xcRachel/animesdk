@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SyncPropertyType_TypeDefinitionIndex = 55814;
+	inline static constexpr unsigned int SyncPropertyType_TypeDefinitionIndex = 57379;
 
 	enum class SyncPropertyType : ::System::Int32
 	{

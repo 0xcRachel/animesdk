@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_357;
+class Class_0_16E4307DCC419505_385;
 class Class_1_8C1634BC9533433B_Class_3_02B2979C95E11EA6;
 namespace RPG::GameCore { class AIDecisionUnitConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_8C1634BC9533433B_METHOD_1_0B914259ABB61A6C_OFFSET UNITYSDK_OFFSET(0x89C74A0)
-#define CLASS_1_8C1634BC9533433B_METHOD_1_7912C6EE653FCCA0_OFFSET UNITYSDK_OFFSET(0x89C7560)
-#define CLASS_1_8C1634BC9533433B_METHOD_1_9606818A9CA2149C_OFFSET UNITYSDK_OFFSET(0x89C73A0)
-#define CLASS_1_8C1634BC9533433B_METHOD_1_AAC21C139466BE40_OFFSET UNITYSDK_OFFSET(0x89C6AB0)
-#define CLASS_1_8C1634BC9533433B__CCTOR_OFFSET UNITYSDK_OFFSET(0x89C7600)
+#define CLASS_1_8C1634BC9533433B_METHOD_1_0B914259ABB61A6C_OFFSET UNITYSDK_OFFSET(0xB8D0100)
+#define CLASS_1_8C1634BC9533433B_METHOD_1_7912C6EE653FCCA0_OFFSET UNITYSDK_OFFSET(0xB8D01C0)
+#define CLASS_1_8C1634BC9533433B_METHOD_1_9606818A9CA2149C_OFFSET UNITYSDK_OFFSET(0xB8D0000)
+#define CLASS_1_8C1634BC9533433B_METHOD_1_AAC21C139466BE40_OFFSET UNITYSDK_OFFSET(0xB8CF970)
+#define CLASS_1_8C1634BC9533433B__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8D0260)
 
-inline static constexpr unsigned int Class_1_8C1634BC9533433B_TypeDefinitionIndex = 42363;
+inline static constexpr unsigned int Class_1_8C1634BC9533433B_TypeDefinitionIndex = 43412;
 
 class Class_1_8C1634BC9533433B : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_8C1634BC9533433B_Class_3_02B2979C95E11EA6*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_8C1634BC9533433B_Class_3_02B2979C95E11EA6*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8C1634BC9533433B_TypeDefinitionIndex)->GetStaticField(0x4190);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_8C1634BC9533433B_Class_3_02B2979C95E11EA6*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8C1634BC9533433B_TypeDefinitionIndex)->GetStaticField(0x3DBE0);
 	}
 
 	static ::System::Void _cctor()
@@ -30,23 +30,23 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B__CCTOR_OFFSET))();
 	}
 
-	static ::Class_0_16E4307DCC419505_357* Method_1_AAC21C139466BE40(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
+	static ::Class_0_16E4307DCC419505_385* Method_1_AAC21C139466BE40(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{
-		return ((::Class_0_16E4307DCC419505_357*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_AAC21C139466BE40_OFFSET))(a1, a2);
+		return ((::Class_0_16E4307DCC419505_385*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_AAC21C139466BE40_OFFSET))(a1, a2);
 	}
 
-	static ::Class_0_16E4307DCC419505_357* Method_1_9606818A9CA2149C(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
+	static ::Class_0_16E4307DCC419505_385* Method_1_9606818A9CA2149C(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{
-		return ((::Class_0_16E4307DCC419505_357*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_9606818A9CA2149C_OFFSET))(a1, a2);
+		return ((::Class_0_16E4307DCC419505_385*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_9606818A9CA2149C_OFFSET))(a1, a2);
 	}
 
-	static ::Class_0_16E4307DCC419505_357* Method_1_0B914259ABB61A6C(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
+	static ::Class_0_16E4307DCC419505_385* Method_1_0B914259ABB61A6C(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{
-		return ((::Class_0_16E4307DCC419505_357*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_0B914259ABB61A6C_OFFSET))(a1, a2);
+		return ((::Class_0_16E4307DCC419505_385*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_0B914259ABB61A6C_OFFSET))(a1, a2);
 	}
 
-	static ::Class_0_16E4307DCC419505_357* Method_1_7912C6EE653FCCA0(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
+	static ::Class_0_16E4307DCC419505_385* Method_1_7912C6EE653FCCA0(::RPG::GameCore::AIDecisionUnitConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{
-		return ((::Class_0_16E4307DCC419505_357*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_7912C6EE653FCCA0_OFFSET))(a1, a2);
+		return ((::Class_0_16E4307DCC419505_385*(*)(::RPG::GameCore::AIDecisionUnitConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_8C1634BC9533433B_METHOD_1_7912C6EE653FCCA0_OFFSET))(a1, a2);
 	}
 };

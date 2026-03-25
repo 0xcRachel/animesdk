@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ST_Chess_ByCanMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7ADFDA64CC440C0A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x103B1990)
-#define CLASS_3_7ADFDA64CC440C0A__CTOR_OFFSET UNITYSDK_OFFSET(0x103B1960)
+#define CLASS_3_7ADFDA64CC440C0A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8B6EF10)
+#define CLASS_3_7ADFDA64CC440C0A__CTOR_OFFSET UNITYSDK_OFFSET(0x8B6EEE0)
 
-inline static constexpr unsigned int Class_3_7ADFDA64CC440C0A_TypeDefinitionIndex = 44114;
+inline static constexpr unsigned int Class_3_7ADFDA64CC440C0A_TypeDefinitionIndex = 45174;
 
 class Class_3_7ADFDA64CC440C0A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_Chess_ByCanMove*>
 {

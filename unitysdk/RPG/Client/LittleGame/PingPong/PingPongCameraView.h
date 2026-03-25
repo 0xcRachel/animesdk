@@ -4,11 +4,11 @@
 
 namespace Cinemachine { class CinemachineVirtualCamera; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGCAMERAVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x956B6C0)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGCAMERAVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A46340)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongCameraView_TypeDefinitionIndex = 60455;
+	inline static constexpr unsigned int PingPongCameraView_TypeDefinitionIndex = 62433;
 
 	class PingPongCameraView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{

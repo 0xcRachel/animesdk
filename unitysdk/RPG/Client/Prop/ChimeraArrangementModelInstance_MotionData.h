@@ -6,21 +6,21 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELINSTANCE_MOTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B6B020)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELINSTANCE_MOTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA03CD10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementModelInstance_MotionData_TypeDefinitionIndex = 61726;
+	inline static constexpr unsigned int ChimeraArrangementModelInstance_MotionData_TypeDefinitionIndex = 63913;
 
 	class ChimeraArrangementModelInstance_MotionData : public ::System::Object
 	{
 	public:
 		::System::Action* OnFinish; // 0x10
-		::System::Single Time; // 0x18
-		::UnityEngine::Quaternion SourceQuaternion; // 0x1C
-		::UnityEngine::Vector3 SourcePosition; // 0x2C
-		::System::Boolean IsActive; // 0x38
-		::UnityEngine::Quaternion TargetQuaternion; // 0x3C
+		::UnityEngine::Vector3 SourcePosition; // 0x18
+		::System::Boolean IsActive; // 0x24
+		::UnityEngine::Quaternion SourceQuaternion; // 0x28
+		::UnityEngine::Quaternion TargetQuaternion; // 0x38
+		::System::Single Time; // 0x48
 		::UnityEngine::Vector3 TargetPosition; // 0x4C
 
 		::System::Void _ctor()

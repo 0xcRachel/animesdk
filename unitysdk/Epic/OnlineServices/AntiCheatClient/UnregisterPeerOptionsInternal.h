@@ -12,7 +12,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int UnregisterPeerOptionsInternal_TypeDefinitionIndex = 35796;
+	inline static constexpr unsigned int UnregisterPeerOptionsInternal_TypeDefinitionIndex = 36730;
 
 	struct alignas(8) UnregisterPeerOptionsInternal
 	{

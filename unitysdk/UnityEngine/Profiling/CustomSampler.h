@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROFILING_CUSTOMSAMPLER_CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18217880)
-#define UNITYENGINE_PROFILING_CUSTOMSAMPLER_CREATE_OFFSET UNITYSDK_OFFSET(0x182177D0)
-#define UNITYENGINE_PROFILING_CUSTOMSAMPLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18217890)
-#define UNITYENGINE_PROFILING_CUSTOMSAMPLER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x182177A0)
-#define UNITYENGINE_PROFILING_CUSTOMSAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18217770)
+#define UNITYENGINE_PROFILING_CUSTOMSAMPLER_CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x18A404D0)
+#define UNITYENGINE_PROFILING_CUSTOMSAMPLER_CREATE_OFFSET UNITYSDK_OFFSET(0x18A40420)
+#define UNITYENGINE_PROFILING_CUSTOMSAMPLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A404E0)
+#define UNITYENGINE_PROFILING_CUSTOMSAMPLER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18A403F0)
+#define UNITYENGINE_PROFILING_CUSTOMSAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18A403C0)
 
 namespace UnityEngine::Profiling
 {
-	inline static constexpr unsigned int CustomSampler_TypeDefinitionIndex = 4302;
+	inline static constexpr unsigned int CustomSampler_TypeDefinitionIndex = 4324;
 
 	class CustomSampler : public ::UnityEngine::Profiling::Sampler
 	{
 	public:
 		static ::UnityEngine::Profiling::CustomSampler** StaticGet_s_InvalidCustomSampler()
 		{
-			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(CustomSampler_TypeDefinitionIndex)->GetStaticField(0x19770);
+			return (::UnityEngine::Profiling::CustomSampler**)Il2CppClass::FromTypeDefinitionIndex(CustomSampler_TypeDefinitionIndex)->GetStaticField(0x1A030);
 		}
 
 		::System::Void _ctor()

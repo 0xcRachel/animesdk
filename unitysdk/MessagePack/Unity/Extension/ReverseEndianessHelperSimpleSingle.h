@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MESSAGEPACK_UNITY_EXTENSION_REVERSEENDIANESSHELPERSIMPLESINGLE_REVERSEENDIANESS_OFFSET UNITYSDK_OFFSET(0x1FF7EB0)
+#define MESSAGEPACK_UNITY_EXTENSION_REVERSEENDIANESSHELPERSIMPLESINGLE_REVERSEENDIANESS_OFFSET UNITYSDK_OFFSET(0x20CE1A0)
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int ReverseEndianessHelperSimpleSingle_TypeDefinitionIndex = 33955;
+	inline static constexpr unsigned int ReverseEndianessHelperSimpleSingle_TypeDefinitionIndex = 9886;
 
 	struct alignas(1) ReverseEndianessHelperSimpleSingle
 	{

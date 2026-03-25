@@ -8,27 +8,27 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x15A4DA00)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x15A4E070)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x15A4E010)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15A4E0E0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x15A4DED0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x15A4E120)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1611C340)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1611C9D0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1611C970)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1611CA40)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1611C810)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1611CA80)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAlertWithTitle_TypeDefinitionIndex = 7790;
+	inline static constexpr unsigned int OverseaAlertWithTitle_TypeDefinitionIndex = 7915;
 
 	class OverseaAlertWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(OverseaAlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x1BEF0);
-		}
 		static ::MiHoYo::SDK::Win::OverseaAlertWithTitle** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::OverseaAlertWithTitle**)Il2CppClass::FromTypeDefinitionIndex(OverseaAlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x1BEF8);
+			return (::MiHoYo::SDK::Win::OverseaAlertWithTitle**)Il2CppClass::FromTypeDefinitionIndex(OverseaAlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x27C70);
+		}
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(OverseaAlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x27C78);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* titlePath; // 0x0

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RequestMissionCustomValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5D1B24EDA62FA3CA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBC2E40)
-#define CLASS_3_5D1B24EDA62FA3CA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBC2E10)
+#define CLASS_3_5D1B24EDA62FA3CA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104B32C0)
+#define CLASS_3_5D1B24EDA62FA3CA__CTOR_OFFSET UNITYSDK_OFFSET(0x104B3290)
 
-inline static constexpr unsigned int Class_3_5D1B24EDA62FA3CA_TypeDefinitionIndex = 42021;
+inline static constexpr unsigned int Class_3_5D1B24EDA62FA3CA_TypeDefinitionIndex = 43070;
 
 class Class_3_5D1B24EDA62FA3CA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RequestMissionCustomValue*>
 {

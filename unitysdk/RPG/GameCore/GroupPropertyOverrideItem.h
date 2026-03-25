@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM_METHOD_2_DDF1CCCD4360C2B1_OFFSET UNITYSDK_OFFSET(0x16B52D70)
-#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16B52F00)
+#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM_METHOD_2_DDF1CCCD4360C2B1_OFFSET UNITYSDK_OFFSET(0x172A1470)
+#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x172A1600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupPropertyOverrideItem_TypeDefinitionIndex = 17052;
+	inline static constexpr unsigned int GroupPropertyOverrideItem_TypeDefinitionIndex = 17457;
 
 	class GroupPropertyOverrideItem : public ::RPG::GameCore::JsonConfig
 	{

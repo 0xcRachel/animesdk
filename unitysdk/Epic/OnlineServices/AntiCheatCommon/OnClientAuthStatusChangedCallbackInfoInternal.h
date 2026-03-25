@@ -12,7 +12,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int OnClientAuthStatusChangedCallbackInfoInternal_TypeDefinitionIndex = 35739;
+	inline static constexpr unsigned int OnClientAuthStatusChangedCallbackInfoInternal_TypeDefinitionIndex = 36673;
 
 	struct alignas(8) OnClientAuthStatusChangedCallbackInfoInternal
 	{

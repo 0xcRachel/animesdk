@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/RogueWorkbenchFuncType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E7C4009BCC22497A_77;
+class Class_1_E7C4009BCC22497A_76;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class RogueWorkBenchMagicUnitShopItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_GETFUNCID_OFFSET UNITYSDK_OFFSET(0x9F32270)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0x9F32220)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_GET_SHOPITEMLIST_OFFSET UNITYSDK_OFFSET(0x9F31FE0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0x9F322B0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_REFRESH_OFFSET UNITYSDK_OFFSET(0x9F31EC0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__CTOR_OFFSET UNITYSDK_OFFSET(0x9F31CE0)
-#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__GENERATESHOPDATA_OFFSET UNITYSDK_OFFSET(0x9F31CF0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_GETFUNCID_OFFSET UNITYSDK_OFFSET(0xA3FD8A0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_GETFUNCTYPE_OFFSET UNITYSDK_OFFSET(0xA3FD850)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_GET_SHOPITEMLIST_OFFSET UNITYSDK_OFFSET(0xA3FD610)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_OPENFUNCUIPAGE_OFFSET UNITYSDK_OFFSET(0xA3FD8E0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_REFRESH_OFFSET UNITYSDK_OFFSET(0xA3FD4F0)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FD340)
+#define RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__GENERATESHOPDATA_OFFSET UNITYSDK_OFFSET(0xA3FD350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchMagicUnitShop_TypeDefinitionIndex = 53515;
+	inline static constexpr unsigned int RogueWorkBenchMagicUnitShop_TypeDefinitionIndex = 54861;
 
 	class RogueWorkBenchMagicUnitShop : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::RogueWorkBenchMagicUnitShopItem*>* _ShopItemList; // 0x10
 		::System::UInt32 _FuncID; // 0x18
 
-		::System::Void _ctor(::System::UInt32 funcID, ::Class_1_E7C4009BCC22497A_77* proto)
+		::System::Void _ctor(::System::UInt32 funcID, ::Class_1_E7C4009BCC22497A_76* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_E7C4009BCC22497A_77*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__CTOR_OFFSET))(this, funcID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_E7C4009BCC22497A_76*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__CTOR_OFFSET))(this, funcID, proto);
 		}
 
 		::System::Void Refresh(::RPG::Client::RogueWorkBenchMagicUnitShop* shop)
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueWorkBenchMagicUnitShop*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP_REFRESH_OFFSET))(this, shop);
 		}
 
-		::System::Void _GenerateShopData(::Class_1_E7C4009BCC22497A_77* proto)
+		::System::Void _GenerateShopData(::Class_1_E7C4009BCC22497A_76* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E7C4009BCC22497A_77*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__GENERATESHOPDATA_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E7C4009BCC22497A_76*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEWORKBENCHMAGICUNITSHOP__GENERATESHOPDATA_OFFSET))(this, proto);
 		}
 
 		::RPG::GameCore::RogueWorkbenchFuncType GetFuncType()

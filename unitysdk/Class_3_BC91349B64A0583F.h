@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvMarkAsTauntProxy; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BC91349B64A0583F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10D2D9B0)
-#define CLASS_3_BC91349B64A0583F__CTOR_OFFSET UNITYSDK_OFFSET(0x10D2D980)
+#define CLASS_3_BC91349B64A0583F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8807810)
+#define CLASS_3_BC91349B64A0583F__CTOR_OFFSET UNITYSDK_OFFSET(0x88077E0)
 
-inline static constexpr unsigned int Class_3_BC91349B64A0583F_TypeDefinitionIndex = 41369;
+inline static constexpr unsigned int Class_3_BC91349B64A0583F_TypeDefinitionIndex = 42412;
 
 class Class_3_BC91349B64A0583F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvMarkAsTauntProxy*>
 {

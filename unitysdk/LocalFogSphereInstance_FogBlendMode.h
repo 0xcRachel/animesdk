@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LocalFogSphereInstance_FogBlendMode_TypeDefinitionIndex = 37371;
+inline static constexpr unsigned int LocalFogSphereInstance_FogBlendMode_TypeDefinitionIndex = 38335;
 
 enum class LocalFogSphereInstance_FogBlendMode : ::System::Int32
 {

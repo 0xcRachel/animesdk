@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformEventType_TypeDefinitionIndex = 55791;
+	inline static constexpr unsigned int PerformEventType_TypeDefinitionIndex = 57356;
 
 	enum class PerformEventType : ::System::Int32
 	{

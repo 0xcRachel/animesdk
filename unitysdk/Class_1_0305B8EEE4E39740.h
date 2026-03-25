@@ -5,9 +5,9 @@
 namespace RPG::Client { class MonoEffect; }
 namespace UnityEngine { class ParticleSystemForceField; }
 
-#define CLASS_1_0305B8EEE4E39740_METHOD_1_14FFEF4F28AE9CEA_OFFSET UNITYSDK_OFFSET(0x104AE640)
+#define CLASS_1_0305B8EEE4E39740_METHOD_1_14FFEF4F28AE9CEA_OFFSET UNITYSDK_OFFSET(0x87429F0)
 
-inline static constexpr unsigned int Class_1_0305B8EEE4E39740_TypeDefinitionIndex = 55840;
+inline static constexpr unsigned int Class_1_0305B8EEE4E39740_TypeDefinitionIndex = 57405;
 
 class Class_1_0305B8EEE4E39740 : public ::System::Object
 {

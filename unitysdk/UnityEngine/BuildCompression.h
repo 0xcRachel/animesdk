@@ -5,36 +5,36 @@
 #include "unitysdk/UnityEngine/CompressionType.h"
 
 #define UNITYENGINE_BUILDCOMPRESSION_SET_BLOCKSIZE_OFFSET UNITYSDK_OFFSET(0xD250)
-#define UNITYENGINE_BUILDCOMPRESSION_SET_COMPRESSION_OFFSET UNITYSDK_OFFSET(0x29250)
+#define UNITYENGINE_BUILDCOMPRESSION_SET_COMPRESSION_OFFSET UNITYSDK_OFFSET(0x29130)
 #define UNITYENGINE_BUILDCOMPRESSION_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define UNITYENGINE_BUILDCOMPRESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x181C8140)
-#define UNITYENGINE_BUILDCOMPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EC0)
+#define UNITYENGINE_BUILDCOMPRESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x189F1D30)
+#define UNITYENGINE_BUILDCOMPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x7B080)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BuildCompression_TypeDefinitionIndex = 5310;
+	inline static constexpr unsigned int BuildCompression_TypeDefinitionIndex = 5410;
 
 	struct alignas(4) BuildCompression
 	{
 		static ::UnityEngine::BuildCompression* StaticGet_Uncompressed()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x2E0);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x320);
 		}
 		static ::UnityEngine::BuildCompression* StaticGet_LZ4()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x2EC);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x32C);
 		}
 		static ::UnityEngine::BuildCompression* StaticGet_LZMA()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x2F8);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x338);
 		}
 		static ::UnityEngine::BuildCompression* StaticGet_LZ4Runtime()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x304);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x344);
 		}
 		static ::UnityEngine::BuildCompression* StaticGet_UncompressedRuntime()
 		{
-			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x310);
+			return (::UnityEngine::BuildCompression*)Il2CppClass::FromTypeDefinitionIndex(BuildCompression_TypeDefinitionIndex)->GetStaticField(0x350);
 		}
 		::UnityEngine::CompressionType _compression; // 0x10
 		::UnityEngine::CompressionLevel _level; // 0x14

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPDebugAsset__EngineProflieType_e__FixedBuffer_TypeDefinitionIndex = 4600;
+	inline static constexpr unsigned int CRPDebugAsset__EngineProflieType_e__FixedBuffer_TypeDefinitionIndex = 4628;
 
 	struct alignas(4) CRPDebugAsset__EngineProflieType_e__FixedBuffer
 	{

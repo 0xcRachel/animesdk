@@ -7,9 +7,9 @@
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_854A2C7905ADF31B__CTOR_OFFSET UNITYSDK_OFFSET(0x863DC00)
+#define CLASS_1_854A2C7905ADF31B__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F6820)
 
-inline static constexpr unsigned int Class_1_854A2C7905ADF31B_TypeDefinitionIndex = 55394;
+inline static constexpr unsigned int Class_1_854A2C7905ADF31B_TypeDefinitionIndex = 56959;
 
 class Class_1_854A2C7905ADF31B : public ::System::Object
 {

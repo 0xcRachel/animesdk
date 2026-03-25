@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x80CD2F0)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x8425FF0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_DetailProperties_TypeDefinitionIndex = 36931;
+	inline static constexpr unsigned int HEU_DetailProperties_TypeDefinitionIndex = 37868;
 
 	class HEU_DetailProperties : public ::System::Object
 	{

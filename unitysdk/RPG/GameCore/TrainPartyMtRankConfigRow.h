@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17105FD0)
-#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17106210)
+#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C1FB0)
+#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C21F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyMtRankConfigRow_TypeDefinitionIndex = 13973;
+	inline static constexpr unsigned int TrainPartyMtRankConfigRow_TypeDefinitionIndex = 14089;
 
 	class TrainPartyMtRankConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* RankPrefabPath; // 0x10
-		::System::UInt32 RankNum; // 0x18
-		::RPG::Client::TextID RankName; // 0x20
-		::System::UInt32 RankScore; // 0x30
-		::System::UInt32 Rank; // 0x34
+		::RPG::Client::TextID RankName; // 0x18
+		::System::UInt32 RankScore; // 0x28
+		::System::UInt32 RankNum; // 0x2C
+		::System::UInt32 Rank; // 0x30
 
 		::System::Void _ctor()
 		{

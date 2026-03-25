@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlInputModule_IInputProcessor_TypeDefinitionIndex = 30561;
+	inline static constexpr unsigned int InControlInputModule_IInputProcessor_TypeDefinitionIndex = 31436;
 
 	class InControlInputModule_IInputProcessor
 	{

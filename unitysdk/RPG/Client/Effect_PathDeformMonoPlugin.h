@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_PATHDEFORMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x90D4E60)
+#define RPG_CLIENT_EFFECT_PATHDEFORMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9581D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PathDeformMonoPlugin_TypeDefinitionIndex = 56185;
+	inline static constexpr unsigned int Effect_PathDeformMonoPlugin_TypeDefinitionIndex = 57756;
 
 	class Effect_PathDeformMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_PathDeformBehavior*>
 	{

@@ -5,22 +5,22 @@
 namespace UnityEngine::UI { class IClipper; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
-#define UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET UNITYSDK_OFFSET(0x182ED260)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x182ED1F0)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x182EE170)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x182EE200)
-#define UNITYENGINE_UI_CLIPPERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x182EE130)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET UNITYSDK_OFFSET(0x18B13540)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18B134D0)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x18B14450)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x18B144E0)
+#define UNITYENGINE_UI_CLIPPERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18B14410)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ClipperRegistry_TypeDefinitionIndex = 5465;
+	inline static constexpr unsigned int ClipperRegistry_TypeDefinitionIndex = 5565;
 
 	class ClipperRegistry : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::ClipperRegistry** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::UI::ClipperRegistry**)Il2CppClass::FromTypeDefinitionIndex(ClipperRegistry_TypeDefinitionIndex)->GetStaticField(0x71B0);
+			return (::UnityEngine::UI::ClipperRegistry**)Il2CppClass::FromTypeDefinitionIndex(ClipperRegistry_TypeDefinitionIndex)->GetStaticField(0x48E0);
 		}
 		::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* m_Clippers; // 0x10
 

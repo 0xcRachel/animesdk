@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK::HoYoPass { class AgeGateManager___c__DisplayClass22_0; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS22_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15811840)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS22_1__SHOWAGEGATEBIRTHDAYDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x15811970)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS22_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF7F50)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS22_1__SHOWAGEGATEBIRTHDAYDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x15EF8080)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass22_1_TypeDefinitionIndex = 7135;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass22_1_TypeDefinitionIndex = 7260;
 
 	class AgeGateManager___c__DisplayClass22_1 : public ::System::Object
 	{

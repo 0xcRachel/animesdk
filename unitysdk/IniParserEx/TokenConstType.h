@@ -3,7 +3,7 @@
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int TokenConstType_TypeDefinitionIndex = 3725;
+	inline static constexpr unsigned int TokenConstType_TypeDefinitionIndex = 3734;
 
 	enum class TokenConstType : ::System::Int32
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define HIDEINNORMALINSPECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x80B56B0)
+#define HIDEINNORMALINSPECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x840F2D0)
 
-inline static constexpr unsigned int HideInNormalInspectorAttribute_TypeDefinitionIndex = 34148;
+inline static constexpr unsigned int HideInNormalInspectorAttribute_TypeDefinitionIndex = 35085;
 
 class HideInNormalInspectorAttribute : public ::UnityEngine::PropertyAttribute
 {

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ClusterLightingSettings_TypeDefinitionIndex = 4627;
+	inline static constexpr unsigned int ClusterLightingSettings_TypeDefinitionIndex = 4655;
 
 	struct alignas(4) ClusterLightingSettings
 	{

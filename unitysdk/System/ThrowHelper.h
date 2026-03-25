@@ -3,19 +3,47 @@
 #include "unitysdk/System/ExceptionArgument.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class ArgumentNullException; }
-namespace System { class ArgumentOutOfRangeException; }
-namespace System { class String; }
+namespace System { class Exception; }
+namespace System { class Type; }
+namespace System::Buffers { template <typename T> class ReadOnlySequenceSegment_1; }
 
-#define SYSTEM_THROWHELPER_GETARGUMENTNAME_OFFSET UNITYSDK_OFFSET(0x17D38110)
-#define SYSTEM_THROWHELPER_GETARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17D37F70)
-#define SYSTEM_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17D38030)
-#define SYSTEM_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17D37C30)
-#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17D37B40)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTEXCEPTION_DESTINATIONTOOSHORT_OFFSET UNITYSDK_OFFSET(0x18532D10)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTEXCEPTION_INVALIDTYPEWITHPOINTERSNOTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x18532B80)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532910)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18533050)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532F90)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_OFFSETOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x18533830)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_POSITIONOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x18533710)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_PRECISIONTOOLARGE_OFFSET UNITYSDK_OFFSET(0x18533190)
+#define SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_SYMBOLDOESNOTFIT_OFFSET UNITYSDK_OFFSET(0x18533300)
+#define SYSTEM_THROWHELPER_CREATEARRAYTYPEMISMATCHEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532A90)
+#define SYSTEM_THROWHELPER_CREATEFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x18533A50)
+#define SYSTEM_THROWHELPER_CREATEINDEXOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532E90)
+#define SYSTEM_THROWHELPER_CREATEINVALIDOPERATIONEXCEPTION_ENDPOSITIONNOTREACHED_OFFSET UNITYSDK_OFFSET(0x18533590)
+#define SYSTEM_THROWHELPER_CREATEINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18533490)
+#define SYSTEM_THROWHELPER_CREATEOBJECTDISPOSEDEXCEPTION_ARRAYMEMORYPOOLBUFFER_OFFSET UNITYSDK_OFFSET(0x18533950)
+#define SYSTEM_THROWHELPER_CREATESTARTORENDARGUMENTVALIDATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18533BC0)
+#define SYSTEM_THROWHELPER_THROWARGUMENTEXCEPTION_DESTINATIONTOOSHORT_OFFSET UNITYSDK_OFFSET(0x18532CC0)
+#define SYSTEM_THROWHELPER_THROWARGUMENTEXCEPTION_INVALIDTYPEWITHPOINTERSNOTSUPPORTED_OFFSET UNITYSDK_OFFSET(0x18532B40)
+#define SYSTEM_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x185328D0)
+#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET UNITYSDK_OFFSET(0x18530490)
+#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532F40)
+#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSETOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x185337E0)
+#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_POSITIONOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x185336C0)
+#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_PRECISIONTOOLARGE_OFFSET UNITYSDK_OFFSET(0x1852BC10)
+#define SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_SYMBOLDOESNOTFIT_OFFSET UNITYSDK_OFFSET(0x1852BC60)
+#define SYSTEM_THROWHELPER_THROWARRAYTYPEMISMATCHEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532A40)
+#define SYSTEM_THROWHELPER_THROWFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x18533A00)
+#define SYSTEM_THROWHELPER_THROWINDEXOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18532E40)
+#define SYSTEM_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_ENDPOSITIONNOTREACHED_OFFSET UNITYSDK_OFFSET(0x18533540)
+#define SYSTEM_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18533440)
+#define SYSTEM_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_ARRAYMEMORYPOOLBUFFER_OFFSET UNITYSDK_OFFSET(0x18533900)
+#define SYSTEM_THROWHELPER_THROWSTARTORENDARGUMENTVALIDATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x18533B80)
+#define SYSTEM_THROWHELPER_TRYFORMATTHROWFORMATEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1852E2D0)
 
 namespace System
 {
-	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 8756;
+	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 4979;
 
 	class ThrowHelper : public ::System::Object
 	{
@@ -25,24 +53,164 @@ namespace System
 			return ((::System::Void(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTNULLEXCEPTION_OFFSET))(argument);
 		}
 
-		static ::System::Void ThrowArgumentOutOfRangeException(::System::ExceptionArgument argument)
+		static ::System::Exception* CreateArgumentNullException(::System::ExceptionArgument argument)
 		{
-			return ((::System::Void(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSET))(argument);
+			return ((::System::Exception*(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTNULLEXCEPTION_OFFSET))(argument);
 		}
 
-		static ::System::ArgumentNullException* GetArgumentNullException(::System::ExceptionArgument argument)
+		static ::System::Void ThrowArrayTypeMismatchException()
 		{
-			return ((::System::ArgumentNullException*(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_GETARGUMENTNULLEXCEPTION_OFFSET))(argument);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARRAYTYPEMISMATCHEXCEPTION_OFFSET))();
 		}
 
-		static ::System::ArgumentOutOfRangeException* GetArgumentOutOfRangeException(::System::ExceptionArgument argument)
+		static ::System::Exception* CreateArrayTypeMismatchException()
 		{
-			return ((::System::ArgumentOutOfRangeException*(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_GETARGUMENTOUTOFRANGEEXCEPTION_OFFSET))(argument);
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARRAYTYPEMISMATCHEXCEPTION_OFFSET))();
 		}
 
-		static ::System::String* GetArgumentName(::System::ExceptionArgument argument)
+		static ::System::Void ThrowArgumentException_InvalidTypeWithPointersNotSupported(::System::Type* type)
 		{
-			return ((::System::String*(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_GETARGUMENTNAME_OFFSET))(argument);
+			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTEXCEPTION_INVALIDTYPEWITHPOINTERSNOTSUPPORTED_OFFSET))(type);
+		}
+
+		static ::System::Exception* CreateArgumentException_InvalidTypeWithPointersNotSupported(::System::Type* type)
+		{
+			return ((::System::Exception*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTEXCEPTION_INVALIDTYPEWITHPOINTERSNOTSUPPORTED_OFFSET))(type);
+		}
+
+		static ::System::Void ThrowArgumentException_DestinationTooShort()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTEXCEPTION_DESTINATIONTOOSHORT_OFFSET))();
+		}
+
+		static ::System::Exception* CreateArgumentException_DestinationTooShort()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTEXCEPTION_DESTINATIONTOOSHORT_OFFSET))();
+		}
+
+		static ::System::Void ThrowIndexOutOfRangeException()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWINDEXOUTOFRANGEEXCEPTION_OFFSET))();
+		}
+
+		static ::System::Exception* CreateIndexOutOfRangeException()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEINDEXOUTOFRANGEEXCEPTION_OFFSET))();
+		}
+
+		static ::System::Void ThrowArgumentOutOfRangeException()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSET))();
+		}
+
+		static ::System::Exception* CreateArgumentOutOfRangeException()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_OFFSET))();
+		}
+
+		static ::System::Void ThrowArgumentOutOfRangeException_1(::System::ExceptionArgument argument)
+		{
+			return ((::System::Void(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET))(argument);
+		}
+
+		static ::System::Exception* CreateArgumentOutOfRangeException_1(::System::ExceptionArgument argument)
+		{
+			return ((::System::Exception*(*)(::System::ExceptionArgument))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_1_OFFSET))(argument);
+		}
+
+		static ::System::Void ThrowArgumentOutOfRangeException_PrecisionTooLarge()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_PRECISIONTOOLARGE_OFFSET))();
+		}
+
+		static ::System::Exception* CreateArgumentOutOfRangeException_PrecisionTooLarge()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_PRECISIONTOOLARGE_OFFSET))();
+		}
+
+		static ::System::Void ThrowArgumentOutOfRangeException_SymbolDoesNotFit()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_SYMBOLDOESNOTFIT_OFFSET))();
+		}
+
+		static ::System::Exception* CreateArgumentOutOfRangeException_SymbolDoesNotFit()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_SYMBOLDOESNOTFIT_OFFSET))();
+		}
+
+		static ::System::Void ThrowInvalidOperationException()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_OFFSET))();
+		}
+
+		static ::System::Exception* CreateInvalidOperationException()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEINVALIDOPERATIONEXCEPTION_OFFSET))();
+		}
+
+		static ::System::Void ThrowInvalidOperationException_EndPositionNotReached()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWINVALIDOPERATIONEXCEPTION_ENDPOSITIONNOTREACHED_OFFSET))();
+		}
+
+		static ::System::Exception* CreateInvalidOperationException_EndPositionNotReached()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEINVALIDOPERATIONEXCEPTION_ENDPOSITIONNOTREACHED_OFFSET))();
+		}
+
+		static ::System::Void ThrowArgumentOutOfRangeException_PositionOutOfRange()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_POSITIONOUTOFRANGE_OFFSET))();
+		}
+
+		static ::System::Exception* CreateArgumentOutOfRangeException_PositionOutOfRange()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_POSITIONOUTOFRANGE_OFFSET))();
+		}
+
+		static ::System::Void ThrowArgumentOutOfRangeException_OffsetOutOfRange()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWARGUMENTOUTOFRANGEEXCEPTION_OFFSETOUTOFRANGE_OFFSET))();
+		}
+
+		static ::System::Exception* CreateArgumentOutOfRangeException_OffsetOutOfRange()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEARGUMENTOUTOFRANGEEXCEPTION_OFFSETOUTOFRANGE_OFFSET))();
+		}
+
+		static ::System::Void ThrowObjectDisposedException_ArrayMemoryPoolBuffer()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWOBJECTDISPOSEDEXCEPTION_ARRAYMEMORYPOOLBUFFER_OFFSET))();
+		}
+
+		static ::System::Exception* CreateObjectDisposedException_ArrayMemoryPoolBuffer()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEOBJECTDISPOSEDEXCEPTION_ARRAYMEMORYPOOLBUFFER_OFFSET))();
+		}
+
+		static ::System::Void ThrowFormatException_BadFormatSpecifier()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET))();
+		}
+
+		static ::System::Exception* CreateFormatException_BadFormatSpecifier()
+		{
+			return ((::System::Exception*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATEFORMATEXCEPTION_BADFORMATSPECIFIER_OFFSET))();
+		}
+
+		static ::System::Boolean TryFormatThrowFormatException(::System::Int32& bytesWritten)
+		{
+			return ((::System::Boolean(*)(::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_TRYFORMATTHROWFORMATEXCEPTION_OFFSET))(bytesWritten);
+		}
+
+		static ::System::Void ThrowStartOrEndArgumentValidationException(::System::Int64 start)
+		{
+			return ((::System::Void(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_THROWSTARTORENDARGUMENTVALIDATIONEXCEPTION_OFFSET))(start);
+		}
+
+		static ::System::Exception* CreateStartOrEndArgumentValidationException(::System::Int64 start)
+		{
+			return ((::System::Exception*(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_THROWHELPER_CREATESTARTORENDARGUMENTVALIDATIONEXCEPTION_OFFSET))(start);
 		}
 	};
 }

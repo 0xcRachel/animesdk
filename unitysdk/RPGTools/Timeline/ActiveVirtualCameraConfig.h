@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ActiveVirtualCamera; }
 namespace RPGTools::Timeline { class CameraBlendConfig; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG_METHOD_1_01D7A2526CAC6B2C_OFFSET UNITYSDK_OFFSET(0xA5E4CD0)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E4E30)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG_METHOD_1_01D7A2526CAC6B2C_OFFSET UNITYSDK_OFFSET(0xAB28730)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB28890)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActiveVirtualCameraConfig_TypeDefinitionIndex = 37723;
+	inline static constexpr unsigned int ActiveVirtualCameraConfig_TypeDefinitionIndex = 38685;
 
 	class ActiveVirtualCameraConfig : public ::System::Object
 	{

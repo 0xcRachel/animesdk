@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemData_ProductPlatformType_TypeDefinitionIndex = 52236;
+	inline static constexpr unsigned int ItemData_ProductPlatformType_TypeDefinitionIndex = 53372;
 
 	enum class ItemData_ProductPlatformType : ::System::Int32
 	{

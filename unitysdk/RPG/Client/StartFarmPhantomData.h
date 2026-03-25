@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_STARTFARMPHANTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FC0120)
+#define RPG_CLIENT_STARTFARMPHANTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E2FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StartFarmPhantomData_TypeDefinitionIndex = 48052;
+	inline static constexpr unsigned int StartFarmPhantomData_TypeDefinitionIndex = 49140;
 
 	class StartFarmPhantomData : public ::System::Object
 	{
 	public:
-		::System::UInt32 FarmElementId; // 0x10
-		::System::UInt32 SelectWorldLevel; // 0x14
+		::System::UInt32 SelectWorldLevel; // 0x10
+		::System::UInt32 FarmElementId; // 0x14
 
 		::System::Void _ctor()
 		{

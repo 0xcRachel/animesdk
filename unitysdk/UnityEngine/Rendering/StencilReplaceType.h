@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int StencilReplaceType_TypeDefinitionIndex = 28264;
+	inline static constexpr unsigned int StencilReplaceType_TypeDefinitionIndex = 29139;
 
 	enum class StencilReplaceType : ::System::Int32
 	{

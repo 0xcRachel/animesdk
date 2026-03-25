@@ -5,9 +5,9 @@
 class Class_2_812B507E8D0401C4;
 namespace RPG::GameCore { class GameWorld; }
 
-#define CLASS_2_FE27D0FC265DDD96__CTOR_OFFSET UNITYSDK_OFFSET(0x8D3C9B0)
+#define CLASS_2_FE27D0FC265DDD96__CTOR_OFFSET UNITYSDK_OFFSET(0x1177CD50)
 
-inline static constexpr unsigned int Class_2_FE27D0FC265DDD96_TypeDefinitionIndex = 44170;
+inline static constexpr unsigned int Class_2_FE27D0FC265DDD96_TypeDefinitionIndex = 45230;
 
 class Class_2_FE27D0FC265DDD96 : public ::Class_1_47EE63CB5C4DC8FC_18
 {

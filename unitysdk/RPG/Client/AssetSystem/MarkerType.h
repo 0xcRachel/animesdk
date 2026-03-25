@@ -3,7 +3,7 @@
 
 namespace RPG::Client::AssetSystem
 {
-	inline static constexpr unsigned int MarkerType_TypeDefinitionIndex = 31280;
+	inline static constexpr unsigned int MarkerType_TypeDefinitionIndex = 32155;
 
 	enum class MarkerType : ::System::Int32
 	{

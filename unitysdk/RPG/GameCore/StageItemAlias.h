@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEITEMALIAS_METHOD_2_5166834B372C63DE_OFFSET UNITYSDK_OFFSET(0x16F87B50)
-#define RPG_GAMECORE_STAGEITEMALIAS__CTOR_OFFSET UNITYSDK_OFFSET(0x16F87C60)
+#define RPG_GAMECORE_STAGEITEMALIAS_METHOD_2_5166834B372C63DE_OFFSET UNITYSDK_OFFSET(0x1777CDF0)
+#define RPG_GAMECORE_STAGEITEMALIAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1777CF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageItemAlias_TypeDefinitionIndex = 19906;
+	inline static constexpr unsigned int StageItemAlias_TypeDefinitionIndex = 20445;
 
 	class StageItemAlias : public ::RPG::GameCore::JsonConfig
 	{

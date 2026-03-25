@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ITextPreprocessor_TypeDefinitionIndex = 33283;
+	inline static constexpr unsigned int ITextPreprocessor_TypeDefinitionIndex = 34272;
 
 	class ITextPreprocessor
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_SIMPRTXPROXYCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9F7DA70)
+#define RPG_CLIENT_SIMPRTXPROXYCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA492E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXProxyComponent_TypeDefinitionIndex = 55889;
+	inline static constexpr unsigned int SimpRTXProxyComponent_TypeDefinitionIndex = 57451;
 
 	class SimpRTXProxyComponent : public ::UnityEngine::MonoBehaviour
 	{

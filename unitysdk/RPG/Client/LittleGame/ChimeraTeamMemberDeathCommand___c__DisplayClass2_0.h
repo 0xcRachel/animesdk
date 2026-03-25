@@ -6,22 +6,22 @@ namespace RPG::Client::LittleGame { class ChimeraTeamMemberDeathCommand; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x951ED90)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x951EED0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0x951F050)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__EXECUTE_B__2_OFFSET UNITYSDK_OFFSET(0x951F0D0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99AF560)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x99AF6A0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0x99AF820)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATEAMMEMBERDEATHCOMMAND___C__DISPLAYCLASS2_0__EXECUTE_B__2_OFFSET UNITYSDK_OFFSET(0x99AF8A0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand___c__DisplayClass2_0_TypeDefinitionIndex = 60424;
+	inline static constexpr unsigned int ChimeraTeamMemberDeathCommand___c__DisplayClass2_0_TypeDefinitionIndex = 62402;
 
 	class ChimeraTeamMemberDeathCommand___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LittleGame::ChimeraTeamMemberDeathCommand* __4__this; // 0x10
-		::System::Action* __9__2; // 0x18
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle; // 0x20
-		::System::Action* finishCallback; // 0x28
+		::System::Action* __9__2; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* puzzle; // 0x18
+		::System::Action* finishCallback; // 0x20
+		::RPG::Client::LittleGame::ChimeraTeamMemberDeathCommand* __4__this; // 0x28
 		::System::UInt32 blockID; // 0x30
 
 		::System::Void _ctor()

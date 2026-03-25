@@ -10,7 +10,7 @@ namespace System::Collections::Immutable { template <typename T> class IOrderedC
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableExtensions_TypeDefinitionIndex = 9159;
+	inline static constexpr unsigned int ImmutableExtensions_TypeDefinitionIndex = 8946;
 
 	class ImmutableExtensions : public ::System::Object
 	{

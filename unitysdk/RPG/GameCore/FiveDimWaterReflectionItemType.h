@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimWaterReflectionItemType_TypeDefinitionIndex = 16691;
+	inline static constexpr unsigned int FiveDimWaterReflectionItemType_TypeDefinitionIndex = 17070;
 
 	enum class FiveDimWaterReflectionItemType : ::System::Int32
 	{

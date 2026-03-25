@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x156274E0)
-#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15627330)
-#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15627580)
-#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15627320)
+#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D40A50)
+#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D408A0)
+#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D40AF0)
+#define MESSAGEPACK_FORMATTERS_BYTEREADONLYSEQUENCEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D40890)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ByteReadOnlySequenceFormatter_TypeDefinitionIndex = 9669;
+	inline static constexpr unsigned int ByteReadOnlySequenceFormatter_TypeDefinitionIndex = 9229;
 
 	class ByteReadOnlySequenceFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::ByteReadOnlySequenceFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::ByteReadOnlySequenceFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteReadOnlySequenceFormatter_TypeDefinitionIndex)->GetStaticField(0x23970);
+			return (::MessagePack::Formatters::ByteReadOnlySequenceFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteReadOnlySequenceFormatter_TypeDefinitionIndex)->GetStaticField(0x194C0);
 		}
 
 		::System::Void _ctor()

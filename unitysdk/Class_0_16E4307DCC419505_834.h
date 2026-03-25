@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace UnityEngine { class Transform; }
+class Class_1_CA217ABF4E3B4F3F;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_834_TypeDefinitionIndex = 58342;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_834_TypeDefinitionIndex = 59849;
 
 class Class_0_16E4307DCC419505_834
 {

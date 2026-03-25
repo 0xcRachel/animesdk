@@ -8,10 +8,10 @@ namespace RPG::GameCore { class TargetFilter; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_942CEE1E64A6EE38_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x104AF0C0)
-#define CLASS_2_942CEE1E64A6EE38__CTOR_OFFSET UNITYSDK_OFFSET(0x104AF0A0)
+#define CLASS_2_942CEE1E64A6EE38_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x8C0E270)
+#define CLASS_2_942CEE1E64A6EE38__CTOR_OFFSET UNITYSDK_OFFSET(0x8C0E250)
 
-inline static constexpr unsigned int Class_2_942CEE1E64A6EE38_TypeDefinitionIndex = 46777;
+inline static constexpr unsigned int Class_2_942CEE1E64A6EE38_TypeDefinitionIndex = 47856;
 
 class Class_2_942CEE1E64A6EE38 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetFilter*>
 {

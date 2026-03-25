@@ -7,20 +7,20 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterTimeOverPerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_02E47D45AFAF8696_METHOD_3_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xD89E5F0)
-#define CLASS_3_02E47D45AFAF8696_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD89E320)
-#define CLASS_3_02E47D45AFAF8696_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD89EAD0)
-#define CLASS_3_02E47D45AFAF8696_TICK_OFFSET UNITYSDK_OFFSET(0xD89E560)
-#define CLASS_3_02E47D45AFAF8696__CTOR_OFFSET UNITYSDK_OFFSET(0xD89E2F0)
-#define CLASS_3_02E47D45AFAF8696___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xD89EB20)
+#define CLASS_3_02E47D45AFAF8696_METHOD_3_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0xA705290)
+#define CLASS_3_02E47D45AFAF8696_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA704FC0)
+#define CLASS_3_02E47D45AFAF8696_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA705760)
+#define CLASS_3_02E47D45AFAF8696_TICK_OFFSET UNITYSDK_OFFSET(0xA705200)
+#define CLASS_3_02E47D45AFAF8696__CTOR_OFFSET UNITYSDK_OFFSET(0xA704F90)
+#define CLASS_3_02E47D45AFAF8696___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xA7057B0)
 
-inline static constexpr unsigned int Class_3_02E47D45AFAF8696_TypeDefinitionIndex = 41149;
+inline static constexpr unsigned int Class_3_02E47D45AFAF8696_TypeDefinitionIndex = 42192;
 
 class Class_3_02E47D45AFAF8696 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterTimeOverPerform*>
 {
 public:
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_2; // 0x28
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x28
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_2; // 0x30
 	::System::Single Field_3_0; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterTimeOverPerform* a2)

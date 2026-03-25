@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGameModeType_TypeDefinitionIndex = 50365;
+	inline static constexpr unsigned int ChimeraGameModeType_TypeDefinitionIndex = 51500;
 
 	enum class ChimeraGameModeType : ::System::Int32
 	{

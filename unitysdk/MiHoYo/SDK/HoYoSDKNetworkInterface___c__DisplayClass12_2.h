@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class HoYoSDKNetworkInterface___c__DisplayClass12_1; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2__CTOR_OFFSET UNITYSDK_OFFSET(0x819CDA0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__3_OFFSET UNITYSDK_OFFSET(0x819CDB0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2__CTOR_OFFSET UNITYSDK_OFFSET(0x84F0630)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_2__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__3_OFFSET UNITYSDK_OFFSET(0x84F0640)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_2_TypeDefinitionIndex = 35956;
+	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_2_TypeDefinitionIndex = 36891;
 
 	class HoYoSDKNetworkInterface___c__DisplayClass12_2 : public ::System::Object
 	{
 	public:
-		::System::String* strIpAddr; // 0x10
-		::MiHoYo::SDK::HoYoSDKNetworkInterface___c__DisplayClass12_1* CS___8__locals2; // 0x18
+		::MiHoYo::SDK::HoYoSDKNetworkInterface___c__DisplayClass12_1* CS___8__locals2; // 0x10
+		::System::String* strIpAddr; // 0x18
 
 		::System::Void _ctor()
 		{

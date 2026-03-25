@@ -5,9 +5,9 @@
 namespace Microsoft::Win32 { class Win32Native_WIN32_FIND_DATA; }
 namespace System { class String; }
 
-#define SYSTEM_IO_SEARCHRESULT_GET_FINDDATA_OFFSET UNITYSDK_OFFSET(0x15C8C390)
-#define SYSTEM_IO_SEARCHRESULT_GET_USERPATH_OFFSET UNITYSDK_OFFSET(0x15C8C380)
-#define SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C8C370)
+#define SYSTEM_IO_SEARCHRESULT_GET_FINDDATA_OFFSET UNITYSDK_OFFSET(0x163545A0)
+#define SYSTEM_IO_SEARCHRESULT_GET_USERPATH_OFFSET UNITYSDK_OFFSET(0x16354590)
+#define SYSTEM_IO_SEARCHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x16354580)
 
 namespace System::IO
 {
@@ -16,9 +16,9 @@ namespace System::IO
 	class SearchResult : public ::System::Object
 	{
 	public:
-		::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* findData; // 0x10
+		::System::String* userPath; // 0x10
 		::System::String* fullPath; // 0x18
-		::System::String* userPath; // 0x20
+		::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* findData; // 0x20
 
 		::System::Void _ctor(::System::String* fullPath, ::System::String* userPath, ::Microsoft::Win32::Win32Native_WIN32_FIND_DATA* findData)
 		{

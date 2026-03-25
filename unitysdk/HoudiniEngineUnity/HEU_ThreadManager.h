@@ -5,30 +5,30 @@
 namespace HoudiniEngineUnity { class HEU_ThreadedTask; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x81520F0)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x8151C00)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x8151C10)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x8151BC0)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x8151C30)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x8152190)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x8151C20)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x8151C40)
-#define HOUDINIENGINEUNITY_HEU_THREADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x8152230)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x84A7950)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x84A7460)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x84A7470)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x84A7420)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x84A7490)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x84A79F0)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x84A7480)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x84A74A0)
+#define HOUDINIENGINEUNITY_HEU_THREADMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x84A7A90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadManager_TypeDefinitionIndex = 36852;
+	inline static constexpr unsigned int HEU_ThreadManager_TypeDefinitionIndex = 37789;
 
 	class HEU_ThreadManager : public ::System::Object
 	{
 	public:
 		static ::HoudiniEngineUnity::HEU_ThreadManager** StaticGet__instance()
 		{
-			return (::HoudiniEngineUnity::HEU_ThreadManager**)Il2CppClass::FromTypeDefinitionIndex(HEU_ThreadManager_TypeDefinitionIndex)->GetStaticField(0x396F0);
+			return (::HoudiniEngineUnity::HEU_ThreadManager**)Il2CppClass::FromTypeDefinitionIndex(HEU_ThreadManager_TypeDefinitionIndex)->GetStaticField(0x67B0);
 		}
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingAdd; // 0x10
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingRemove; // 0x18
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks; // 0x20
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks; // 0x10
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingAdd; // 0x18
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingRemove; // 0x20
 
 		::System::Void _ctor()
 		{

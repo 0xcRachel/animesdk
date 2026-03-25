@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOPGOODSMAP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F51320)
-#define RPG_GAMECORE_SHOPGOODSMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x16F51410)
+#define RPG_GAMECORE_SHOPGOODSMAP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177067A0)
+#define RPG_GAMECORE_SHOPGOODSMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x17706890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGoodsMap_TypeDefinitionIndex = 11422;
+	inline static constexpr unsigned int ShopGoodsMap_TypeDefinitionIndex = 11490;
 
 	class ShopGoodsMap : public ::System::Object
 	{

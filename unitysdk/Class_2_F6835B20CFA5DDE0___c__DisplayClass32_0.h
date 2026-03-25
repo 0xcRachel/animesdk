@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_797;
-class Class_2_F46AB93045F37135;
+class Class_0_16E4307DCC419505_865;
+class Class_2_437D0607F1261FD0;
 
-#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC80870)
-#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0___TRYGETELATIONACTIONPANEL_B__0_OFFSET UNITYSDK_OFFSET(0xAC80A20)
+#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10CC4BC0)
+#define CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0___TRYGETELATIONACTIONPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x10CC4D70)
 
-inline static constexpr unsigned int Class_2_F6835B20CFA5DDE0___c__DisplayClass32_0_TypeDefinitionIndex = 57502;
+inline static constexpr unsigned int Class_2_F6835B20CFA5DDE0___c__DisplayClass32_0_TypeDefinitionIndex = 59102;
 
 class Class_2_F6835B20CFA5DDE0___c__DisplayClass32_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_797* data; // 0x10
+	::Class_0_16E4307DCC419505_865* data; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __TryGetElationActionPanel_b__0(::Class_2_F46AB93045F37135* x)
+	::System::Boolean __TryGetElationActionPanel_b__0(::Class_2_437D0607F1261FD0* x)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_F46AB93045F37135*))((::PBYTE)hIl2Cpp + CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0___TRYGETELATIONACTIONPANEL_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_437D0607F1261FD0*))((::PBYTE)hIl2Cpp + CLASS_2_F6835B20CFA5DDE0___C__DISPLAYCLASS32_0___TRYGETELATIONACTIONPANEL_B__0_OFFSET))(this, x);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_LOGLEVEL_TypeDefinitionIndex = 39408;
+	inline static constexpr unsigned int ObjectTranslator_LOGLEVEL_TypeDefinitionIndex = 40394;
 
 	enum class ObjectTranslator_LOGLEVEL : ::System::Int32
 	{

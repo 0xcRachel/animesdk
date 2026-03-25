@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D42A60)
-#define RPG_GAMECORE_PLANETFESAVATARRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D431C0)
+#define RPG_GAMECORE_PLANETFESAVATARRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CA8B0)
+#define RPG_GAMECORE_PLANETFESAVATARRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CB010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarRarityRow_TypeDefinitionIndex = 11051;
+	inline static constexpr unsigned int PlanetFesAvatarRarityRow_TypeDefinitionIndex = 11119;
 
 	class PlanetFesAvatarRarityRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 LevelSkipStarUpDetail; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 PieceTransferNum; // 0x30
-		::System::UInt32 Rarity; // 0x34
-		::System::UInt32 CostParam; // 0x38
-		::System::UInt32 IncomeParam; // 0x3C
+		::System::UInt32 Rarity; // 0x18
+		::System::UInt32 IncomeParam; // 0x1C
+		::System::UInt32 CostParam; // 0x20
+		::System::UInt32 PieceTransferNum; // 0x24
+		::System::UInt32 LevelSkipStarUpDetail; // 0x28
+		::RPG::Client::TextID Name; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLPlayStation4NativeProfile_ProductId_TypeDefinitionIndex = 30996;
+	inline static constexpr unsigned int SDLPlayStation4NativeProfile_ProductId_TypeDefinitionIndex = 31871;
 
 	enum class SDLPlayStation4NativeProfile_ProductId : ::System::UInt16
 	{

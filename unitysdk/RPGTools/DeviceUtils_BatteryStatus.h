@@ -3,7 +3,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_BatteryStatus_TypeDefinitionIndex = 34210;
+	inline static constexpr unsigned int DeviceUtils_BatteryStatus_TypeDefinitionIndex = 35147;
 
 	enum class DeviceUtils_BatteryStatus : ::System::Int32
 	{

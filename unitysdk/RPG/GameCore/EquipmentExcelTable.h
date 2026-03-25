@@ -12,56 +12,56 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16A759F0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16A75870)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16A75540)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GET_PROMOTIONLUT_OFFSET UNITYSDK_OFFSET(0x16A767C0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16A75810)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16A75B70)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16A755C0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16A76D50)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16A75BB0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A75D90)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16A764B0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A76DF0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16A75CF0)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16A75C50)
-#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x16A76800)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171B87C0)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171B8640)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171B8310)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_GET_PROMOTIONLUT_OFFSET UNITYSDK_OFFSET(0x171B9590)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171B85E0)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171B8940)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x171B8390)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x171B9B20)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171B8980)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171B8B60)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171B9280)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171B9BC0)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x171B8AC0)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171B8A20)
+#define RPG_GAMECORE_EQUIPMENTEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x171B95D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentExcelTable_TypeDefinitionIndex = 12012;
+	inline static constexpr unsigned int EquipmentExcelTable_TypeDefinitionIndex = 12082;
 
 	class EquipmentExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EquipmentRow*>** StaticGet_dataDict_()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet__PromotionLUT()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EquipmentRow*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x281E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x391A0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x281E8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x391A8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EquipmentRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EquipmentRow*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x391B0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x281F0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet__PromotionLUT()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x281F8);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x8970);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x391B8);
 		}
 		static ::System::Boolean* StaticGet__IsInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x8971);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4A0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0x8972);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4A1);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EquipmentExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4A2);
 		}
 
 		static ::System::Void _cctor()

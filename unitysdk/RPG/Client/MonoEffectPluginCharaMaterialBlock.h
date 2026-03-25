@@ -11,13 +11,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_1_OFFSET UNITYSDK_OFFSET(0x97CDEC0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_OFFSET UNITYSDK_OFFSET(0x97CDD60)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x97CF830)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_1_OFFSET UNITYSDK_OFFSET(0x9CAF8C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK_APPLY_OFFSET UNITYSDK_OFFSET(0x9CAF760)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9CB1260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaMaterialBlock_TypeDefinitionIndex = 55658;
+	inline static constexpr unsigned int MonoEffectPluginCharaMaterialBlock_TypeDefinitionIndex = 57222;
 
 	class MonoEffectPluginCharaMaterialBlock : public ::UnityEngine::MonoBehaviour
 	{

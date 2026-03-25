@@ -7,29 +7,29 @@ namespace MiHoYo::SDK::Win { class PayPlatInfoModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x159BDE10)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x159BDE50)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__ONCREATEORDER_B__54_2_OFFSET UNITYSDK_OFFSET(0x159BDE60)
-#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__REQUESTLISTPAYPLATV2_B__64_1_OFFSET UNITYSDK_OFFSET(0x159BDEC0)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1608C560)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1608C5A0)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__ONCREATEORDER_B__54_2_OFFSET UNITYSDK_OFFSET(0x1608C5B0)
+#define MIHOYO_SDK_WIN_CNPAYPLATMANAGER___C__REQUESTLISTPAYPLATV2_B__64_1_OFFSET UNITYSDK_OFFSET(0x1608C610)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int CNPayPlatManager___c_TypeDefinitionIndex = 7762;
+	inline static constexpr unsigned int CNPayPlatManager___c_TypeDefinitionIndex = 7887;
 
 	class CNPayPlatManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__54_2()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatManager___c_TypeDefinitionIndex)->GetStaticField(0x19840);
-		}
-		static ::MiHoYo::SDK::Win::CNPayPlatManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Win::CNPayPlatManager___c**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatManager___c_TypeDefinitionIndex)->GetStaticField(0x19848);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatManager___c_TypeDefinitionIndex)->GetStaticField(0x1DDF0);
 		}
 		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>** StaticGet___9__64_1()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatManager___c_TypeDefinitionIndex)->GetStaticField(0x19850);
+			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::PayPlatInfoModel*>**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatManager___c_TypeDefinitionIndex)->GetStaticField(0x1DDF8);
+		}
+		static ::MiHoYo::SDK::Win::CNPayPlatManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Win::CNPayPlatManager___c**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatManager___c_TypeDefinitionIndex)->GetStaticField(0x1DE00);
 		}
 
 		static ::System::Void _cctor()

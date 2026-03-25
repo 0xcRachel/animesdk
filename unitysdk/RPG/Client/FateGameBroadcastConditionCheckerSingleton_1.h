@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameBroadcastConditionCheckerSingleton_1_TypeDefinitionIndex = 50776;
+	inline static constexpr unsigned int FateGameBroadcastConditionCheckerSingleton_1_TypeDefinitionIndex = 51911;
 
 	template <typename T>
 	class FateGameBroadcastConditionCheckerSingleton_1 : public ::System::Object

@@ -17,7 +17,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSettings__Sync; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSettings_TypeDefinitionIndex = 29329;
+	inline static constexpr unsigned int IVRSettings_TypeDefinitionIndex = 30204;
 
 	struct alignas(8) IVRSettings
 	{

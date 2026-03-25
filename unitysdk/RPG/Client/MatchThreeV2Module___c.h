@@ -7,34 +7,34 @@ namespace RPG::Client { class MatchThreeGameProp; }
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2MODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9688D70)
-#define RPG_CLIENT_MATCHTHREEV2MODULE___C__CREATESOLOPVPGAME_B__94_0_OFFSET UNITYSDK_OFFSET(0x9688E90)
-#define RPG_CLIENT_MATCHTHREEV2MODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9688DB0)
-#define RPG_CLIENT_MATCHTHREEV2MODULE___C__RESTARTPVEONEONONEGAME_B__93_0_OFFSET UNITYSDK_OFFSET(0x9688E70)
-#define RPG_CLIENT_MATCHTHREEV2MODULE___C__SENDLEVELRESULTTOSERVER_B__5_0_OFFSET UNITYSDK_OFFSET(0x9688DC0)
+#define RPG_CLIENT_MATCHTHREEV2MODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B6E9B0)
+#define RPG_CLIENT_MATCHTHREEV2MODULE___C__CREATESOLOPVPGAME_B__94_0_OFFSET UNITYSDK_OFFSET(0x9B6EAD0)
+#define RPG_CLIENT_MATCHTHREEV2MODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9B6E9F0)
+#define RPG_CLIENT_MATCHTHREEV2MODULE___C__RESTARTPVEONEONONEGAME_B__93_0_OFFSET UNITYSDK_OFFSET(0x9B6EAB0)
+#define RPG_CLIENT_MATCHTHREEV2MODULE___C__SENDLEVELRESULTTOSERVER_B__5_0_OFFSET UNITYSDK_OFFSET(0x9B6EA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2Module___c_TypeDefinitionIndex = 52520;
+	inline static constexpr unsigned int MatchThreeV2Module___c_TypeDefinitionIndex = 53656;
 
 	class MatchThreeV2Module___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__94_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x2E670);
-		}
 		static ::System::Func_2<::RPG::Client::MatchThreeGameProp*, ::RPG::Client::IMatchThreePropData*>** StaticGet___9__93_0()
 		{
-			return (::System::Func_2<::RPG::Client::MatchThreeGameProp*, ::RPG::Client::IMatchThreePropData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x2E678);
+			return (::System::Func_2<::RPG::Client::MatchThreeGameProp*, ::RPG::Client::IMatchThreePropData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x44EE0);
 		}
 		static ::System::Func_2<::RPG::Client::IMatchThreePropData*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::IMatchThreePropData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x2E680);
+			return (::System::Func_2<::RPG::Client::IMatchThreePropData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x44EE8);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__94_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x44EF0);
 		}
 		static ::RPG::Client::MatchThreeV2Module___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeV2Module___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x2E688);
+			return (::RPG::Client::MatchThreeV2Module___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2Module___c_TypeDefinitionIndex)->GetStaticField(0x44EF8);
 		}
 
 		static ::System::Void _cctor()

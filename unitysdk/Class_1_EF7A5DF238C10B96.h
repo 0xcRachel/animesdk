@@ -5,20 +5,20 @@
 #include "unitysdk/Struct_2_3C72212260A8C076.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_EF7A5DF238C10B96_METHOD_1_B5EA5DD8B4C0957C_OFFSET UNITYSDK_OFFSET(0x8D10AA0)
-#define CLASS_1_EF7A5DF238C10B96__CTOR_OFFSET UNITYSDK_OFFSET(0x8D10B20)
+#define CLASS_1_EF7A5DF238C10B96_METHOD_1_B5EA5DD8B4C0957C_OFFSET UNITYSDK_OFFSET(0x10AADB60)
+#define CLASS_1_EF7A5DF238C10B96__CTOR_OFFSET UNITYSDK_OFFSET(0x10AADBE0)
 
-inline static constexpr unsigned int Class_1_EF7A5DF238C10B96_TypeDefinitionIndex = 44766;
+inline static constexpr unsigned int Class_1_EF7A5DF238C10B96_TypeDefinitionIndex = 45827;
 
 class Class_1_EF7A5DF238C10B96 : public ::System::Object
 {
 public:
-	::RPG::GameCore::MoveToPositionUpdateMode Field_1_0; // 0x10
-	::RPG::MVector3 Field_1_1; // 0x14
-	::System::Single Field_1_4; // 0x20
-	::Struct_2_3C72212260A8C076 Field_1_5; // 0x24
+	::Struct_2_3C72212260A8C076 Field_1_5; // 0x10
+	::RPG::GameCore::MoveToPositionUpdateMode Field_1_0; // 0x30
+	::RPG::MVector3 Field_1_1; // 0x34
+	::System::Single Field_1_2; // 0x40
 	::System::Single Field_1_3; // 0x44
-	::System::Single Field_1_2; // 0x48
+	::System::Single Field_1_4; // 0x48
 
 	::System::Void _ctor()
 	{

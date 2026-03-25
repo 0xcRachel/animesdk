@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DEVUIDEBUGREPORTDATAPARTICLEPREWARM__CTOR_OFFSET UNITYSDK_OFFSET(0x8FFCD20)
+#define RPG_CLIENT_DEVUIDEBUGREPORTDATAPARTICLEPREWARM__CTOR_OFFSET UNITYSDK_OFFSET(0x94585E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DevUIDebugReportDataParticlePrewarm_TypeDefinitionIndex = 54226;
+	inline static constexpr unsigned int DevUIDebugReportDataParticlePrewarm_TypeDefinitionIndex = 55784;
 
 	class DevUIDebugReportDataParticlePrewarm : public ::System::Object
 	{

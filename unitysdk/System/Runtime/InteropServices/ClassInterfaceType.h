@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ClassInterfaceType_TypeDefinitionIndex = 1391;
+	inline static constexpr unsigned int ClassInterfaceType_TypeDefinitionIndex = 1396;
 
 	enum class ClassInterfaceType : ::System::Int32
 	{

@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class LittleGameAttachPointConfig; }
 
-#define CLASS_1_6AC66C82472E816E__CTOR_OFFSET UNITYSDK_OFFSET(0x16087A60)
+#define CLASS_1_6AC66C82472E816E__CTOR_OFFSET UNITYSDK_OFFSET(0x16A2FF10)
 
-inline static constexpr unsigned int Class_1_6AC66C82472E816E_TypeDefinitionIndex = 31391;
+inline static constexpr unsigned int Class_1_6AC66C82472E816E_TypeDefinitionIndex = 32295;
 
 class Class_1_6AC66C82472E816E : public ::System::Object
 {

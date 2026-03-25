@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xD96A0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x8B080)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int VignetteParameter_TypeDefinitionIndex = 38452;
+	inline static constexpr unsigned int VignetteParameter_TypeDefinitionIndex = 39432;
 
 	struct alignas(4) VignetteParameter
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkInformation/CommonUnixIPGlobalProperties.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXIPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE5440)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXIPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1870EA80)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int UnixIPGlobalProperties_TypeDefinitionIndex = 2918;
+	inline static constexpr unsigned int UnixIPGlobalProperties_TypeDefinitionIndex = 2927;
 
 	class UnixIPGlobalProperties : public ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties
 	{

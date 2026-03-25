@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SwitchSurfaceType_TypeDefinitionIndex = 32536;
+	inline static constexpr unsigned int SwitchSurfaceType_TypeDefinitionIndex = 33458;
 
 	enum class SwitchSurfaceType : ::System::Int32
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define RPG_CLIENT_MONOEMOBLENDSHAPEBLINK_CLASS_1_C4D7FDF22DDB24EA__CTOR_OFFSET UNITYSDK_OFFSET(0x9813790)
+#define RPG_CLIENT_MONOEMOBLENDSHAPEBLINK_CLASS_1_C4D7FDF22DDB24EA__CTOR_OFFSET UNITYSDK_OFFSET(0x9CF5E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEmoBlendShapeBlink_Class_1_C4D7FDF22DDB24EA_TypeDefinitionIndex = 56695;
+	inline static constexpr unsigned int MonoEmoBlendShapeBlink_Class_1_C4D7FDF22DDB24EA_TypeDefinitionIndex = 58284;
 
 	class MonoEmoBlendShapeBlink_Class_1_C4D7FDF22DDB24EA : public ::System::Object
 	{
 	public:
-		::System::Int32 Field_1_0; // 0x10
-		::System::Boolean Field_1_1; // 0x14
-		::UnityEngine::Quaternion Field_1_2; // 0x18
+		::System::Boolean Field_1_1; // 0x10
+		::UnityEngine::Quaternion Field_1_2; // 0x14
+		::System::Int32 Field_1_0; // 0x24
 
 		::System::Void _ctor()
 		{

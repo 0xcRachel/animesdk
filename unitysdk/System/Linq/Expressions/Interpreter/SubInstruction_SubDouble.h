@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBINSTRUCTION_SUBDOUBLE_RUN_OFFSET UNITYSDK_OFFSET(0x17CFB630)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBINSTRUCTION_SUBDOUBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17CFB620)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBINSTRUCTION_SUBDOUBLE_RUN_OFFSET UNITYSDK_OFFSET(0x18512B50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SUBINSTRUCTION_SUBDOUBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18512B40)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int SubInstruction_SubDouble_TypeDefinitionIndex = 3607;
+	inline static constexpr unsigned int SubInstruction_SubDouble_TypeDefinitionIndex = 3616;
 
 	class SubInstruction_SubDouble : public ::System::Linq::Expressions::Interpreter::SubInstruction
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLogicType_TypeDefinitionIndex = 31102;
+	inline static constexpr unsigned int CachedAssetLogicType_TypeDefinitionIndex = 31977;
 
 	enum class CachedAssetLogicType : ::System::Int32
 	{
@@ -21,8 +21,5 @@ namespace RPG::Client
 		Text = 11,
 		ScriptableObject = 12,
 		NavMesh = 13,
-		Environment = 14,
-		GPUParticlesAsset = 15,
-		MaxValue = 16,
 	};
 }

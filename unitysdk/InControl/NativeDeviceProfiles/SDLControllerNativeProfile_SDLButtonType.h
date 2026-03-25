@@ -3,7 +3,7 @@
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLControllerNativeProfile_SDLButtonType_TypeDefinitionIndex = 30988;
+	inline static constexpr unsigned int SDLControllerNativeProfile_SDLButtonType_TypeDefinitionIndex = 31863;
 
 	enum class SDLControllerNativeProfile_SDLButtonType : ::System::Int32
 	{

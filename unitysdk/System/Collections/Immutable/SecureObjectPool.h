@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_IMMUTABLE_SECUREOBJECTPOOL_NEWID_OFFSET UNITYSDK_OFFSET(0x17C790E0)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_SECUREOBJECTPOOL_NEWID_OFFSET UNITYSDK_OFFSET(0x1848ED50)
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int SecureObjectPool_TypeDefinitionIndex = 9189;
+	inline static constexpr unsigned int SecureObjectPool_TypeDefinitionIndex = 8976;
 
 	class SecureObjectPool : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_s_poolUserIdCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SecureObjectPool_TypeDefinitionIndex)->GetStaticField(0x4A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SecureObjectPool_TypeDefinitionIndex)->GetStaticField(0x4E0);
 		}
 
 		static ::System::Int32 NewId()

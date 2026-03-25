@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/GridFightEquipEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPGETCOINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x934F900)
+#define RPG_CLIENT_GRIDFIGHTEQUIPGETCOINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x980D820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipGetCoinEvent_TypeDefinitionIndex = 51701;
+	inline static constexpr unsigned int GridFightEquipGetCoinEvent_TypeDefinitionIndex = 52835;
 
 	class GridFightEquipGetCoinEvent : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEquipEffectType EffectType; // 0x10
-		::System::UInt32 EquipUID; // 0x14
-		::System::Int32 AddCoin; // 0x18
+		::System::UInt32 EquipUID; // 0x10
+		::System::Int32 AddCoin; // 0x14
+		::RPG::Client::GridFightEquipEffectType EffectType; // 0x18
 
 		::System::Void _ctor()
 		{

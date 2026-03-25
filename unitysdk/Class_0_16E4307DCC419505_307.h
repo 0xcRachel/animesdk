@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RelicType.h"
-#include "unitysdk/Struct_2_BAC064D277DD99F1.h"
+#include "unitysdk/ScenenLightManager/LightInstanceID.h"
 
-class Class_0_16E4307DCC419505_308;
-class Class_0_16E4307DCC419505_309;
-class Class_1_090AB0EAA610410E;
+class Class_1_585FC61876C1A1D5_Class_3_AE31F159F362893C;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_307_TypeDefinitionIndex = 40973;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_307_TypeDefinitionIndex = 39867;
 
 class Class_0_16E4307DCC419505_307
 {

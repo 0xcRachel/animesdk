@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4A0B0)
-#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4A310)
+#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172987B0)
+#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17298A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSkillDescModConfigRow_TypeDefinitionIndex = 12321;
+	inline static constexpr unsigned int GridFightSkillDescModConfigRow_TypeDefinitionIndex = 12391;
 
 	class GridFightSkillDescModConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID ModifySkillSimpleDesc; // 0x10
-		::System::UInt32 ModifySkillID; // 0x20
-		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x24
-		::RPG::Client::TextID ModifySkillDesc; // 0x28
+		::System::UInt32 ModifySkillID; // 0x10
+		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x14
+		::RPG::Client::TextID ModifySkillDesc; // 0x18
+		::RPG::Client::TextID ModifySkillSimpleDesc; // 0x28
 
 		::System::Void _ctor()
 		{

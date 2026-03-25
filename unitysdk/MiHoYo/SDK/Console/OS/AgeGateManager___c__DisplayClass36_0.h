@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Console::OS { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1577BCB0)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS36_0__ONPARENTALCONSENTINPUTEMAILBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x1577D1F0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6A1C0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS36_0__ONPARENTALCONSENTINPUTEMAILBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x15E6B700)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass36_0_TypeDefinitionIndex = 7546;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass36_0_TypeDefinitionIndex = 7671;
 
 	class AgeGateManager___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::AgeGateManager* __4__this; // 0x10
-		::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* dialog; // 0x18
+		::MiHoYo::SDK::UI::OS::IAgeGateParentalConsentDialog* dialog; // 0x10
+		::MiHoYo::SDK::Console::OS::AgeGateManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

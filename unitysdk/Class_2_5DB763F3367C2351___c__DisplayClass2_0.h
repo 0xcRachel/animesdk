@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class MatchThreeGameProp; }
 
-#define CLASS_2_5DB763F3367C2351___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8A335C0)
-#define CLASS_2_5DB763F3367C2351___C__DISPLAYCLASS2_0__ONEXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x8A336D0)
+#define CLASS_2_5DB763F3367C2351___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA76B0)
+#define CLASS_2_5DB763F3367C2351___C__DISPLAYCLASS2_0__ONEXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x8BA77C0)
 
-inline static constexpr unsigned int Class_2_5DB763F3367C2351___c__DisplayClass2_0_TypeDefinitionIndex = 52366;
+inline static constexpr unsigned int Class_2_5DB763F3367C2351___c__DisplayClass2_0_TypeDefinitionIndex = 53502;
 
 class Class_2_5DB763F3367C2351___c__DisplayClass2_0 : public ::System::Object
 {

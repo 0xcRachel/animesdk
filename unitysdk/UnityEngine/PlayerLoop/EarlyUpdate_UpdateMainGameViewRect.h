@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateMainGameViewRect_TypeDefinitionIndex = 4352;
+	inline static constexpr unsigned int EarlyUpdate_UpdateMainGameViewRect_TypeDefinitionIndex = 4374;
 
 	struct alignas(1) EarlyUpdate_UpdateMainGameViewRect
 	{

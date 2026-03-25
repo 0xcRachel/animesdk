@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_735612C94F558EAE_23;
+class Class_1_735612C94F558EAE_27;
 namespace RPG::Client { class CakeRaceEffectDataItem; }
 namespace RPG::Client { class CakeRaceGameVoteEffectData; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x8E43300)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GETSELFSELECTEDEFFECTINDEX_OFFSET UNITYSDK_OFFSET(0x8E43680)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GETVOTEENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x8E43530)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GET_EFFECTLIST_OFFSET UNITYSDK_OFFSET(0x8E432E0)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GET_VOTEEFFECTDATALIST_OFFSET UNITYSDK_OFFSET(0x8E432F0)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8E433E0)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA__INITEFFECTLIST_OFFSET UNITYSDK_OFFSET(0x8E43AC0)
-#define RPG_CLIENT_CAKERACEGAMEVOTEDATA__INIT_OFFSET UNITYSDK_OFFSET(0x8E434E0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x924D0E0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GETSELFSELECTEDEFFECTINDEX_OFFSET UNITYSDK_OFFSET(0x924D460)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GETVOTEENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x924D310)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GET_EFFECTLIST_OFFSET UNITYSDK_OFFSET(0x924D0C0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA_GET_VOTEEFFECTDATALIST_OFFSET UNITYSDK_OFFSET(0x924D0D0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x924D1C0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA__INITEFFECTLIST_OFFSET UNITYSDK_OFFSET(0x924D8A0)
+#define RPG_CLIENT_CAKERACEGAMEVOTEDATA__INIT_OFFSET UNITYSDK_OFFSET(0x924D2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameVoteData_TypeDefinitionIndex = 50047;
+	inline static constexpr unsigned int CakeRaceGameVoteData_TypeDefinitionIndex = 51179;
 
 	class CakeRaceGameVoteData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceEffectDataItem*>* _EffectList; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_735612C94F558EAE_23*>* _VoteItemInfos; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceGameVoteEffectData*>* _VoteEffectDataList; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceGameVoteEffectData*>* _VoteEffectDataList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceEffectDataItem*>* _EffectList; // 0x18
+		::System::Collections::Generic::List_1<::Class_1_735612C94F558EAE_27*>* _VoteItemInfos; // 0x20
 		::System::UInt64 _VoteStartTimeStamp; // 0x28
 
-		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_23*>* voteItemInfos, ::System::UInt64 voteStartTimeStamp)
+		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_27*>* voteItemInfos, ::System::UInt64 voteStartTimeStamp)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_23*>*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEVOTEDATA__CTOR_OFFSET))(this, voteItemInfos, voteStartTimeStamp);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_27*>*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEVOTEDATA__CTOR_OFFSET))(this, voteItemInfos, voteStartTimeStamp);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::CakeRaceEffectDataItem*>* get_EffectList()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::CakeRaceGameVoteEffectData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEVOTEDATA_GET_VOTEEFFECTDATALIST_OFFSET))(this);
 		}
 
-		static ::RPG::Client::CakeRaceGameVoteData* Create(::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_23*>* voteEffectInfos, ::System::UInt64 voteStartTimeStamp)
+		static ::RPG::Client::CakeRaceGameVoteData* Create(::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_27*>* voteEffectInfos, ::System::UInt64 voteStartTimeStamp)
 		{
-			return ((::RPG::Client::CakeRaceGameVoteData*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_23*>*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEVOTEDATA_CREATE_OFFSET))(voteEffectInfos, voteStartTimeStamp);
+			return ((::RPG::Client::CakeRaceGameVoteData*(*)(::System::Collections::Generic::IEnumerable_1<::Class_1_735612C94F558EAE_27*>*, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEVOTEDATA_CREATE_OFFSET))(voteEffectInfos, voteStartTimeStamp);
 		}
 
 		::System::UInt64 GetVoteEndTimeStamp()

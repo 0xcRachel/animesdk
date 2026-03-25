@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWarePS5_AttributeId_TypeDefinitionIndex = 30077;
+	inline static constexpr unsigned int CriWarePS5_AttributeId_TypeDefinitionIndex = 30952;
 
 	enum class CriWarePS5_AttributeId : ::System::Int32
 	{

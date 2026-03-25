@@ -3,10 +3,14 @@
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2250AFBBC876BF24_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x10A1C910)
-#define CLASS_1_2250AFBBC876BF24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10A1C900)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_2250AFBBC876BF24_1_TypeDefinitionIndex = 53356;
+#define CLASS_1_2250AFBBC876BF24_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1054DE30)
+#define CLASS_1_2250AFBBC876BF24_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1054DEF0)
+#define CLASS_1_2250AFBBC876BF24_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1054DE20)
+#define CLASS_1_2250AFBBC876BF24_1___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1054DF40)
+
+inline static constexpr unsigned int Class_1_2250AFBBC876BF24_1_TypeDefinitionIndex = 54585;
 
 class Class_1_2250AFBBC876BF24_1 : public ::System::Object
 {
@@ -19,8 +23,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::NotifyType, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_2250AFBBC876BF24_1__CTOR_OFFSET))(this, a1, a2);
 	}
 
+	::System::String* ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2250AFBBC876BF24_1_TOSTRING_OFFSET))(this);
+	}
+
 	::System::Void TriggerAction()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2250AFBBC876BF24_1_TRIGGERACTION_OFFSET))(this);
+	}
+
+	::System::String* __iFixBaseProxy_ToString()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2250AFBBC876BF24_1___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

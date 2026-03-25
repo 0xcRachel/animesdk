@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NodeGraphDisplayType_TypeDefinitionIndex = 22126;
+	inline static constexpr unsigned int NodeGraphDisplayType_TypeDefinitionIndex = 22691;
 
 	enum class NodeGraphDisplayType : ::System::Int32
 	{

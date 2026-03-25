@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int WindingOrder_TypeDefinitionIndex = 33142;
+	inline static constexpr unsigned int WindingOrder_TypeDefinitionIndex = 34131;
 
 	enum class WindingOrder : ::System::Int32
 	{

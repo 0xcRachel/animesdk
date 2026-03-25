@@ -5,9 +5,9 @@
 namespace RPG::Client::Data { template <typename T> class DataProperty_1; }
 namespace System { class String; }
 
-#define CLASS_2_58BA8379924FCF27__CTOR_OFFSET UNITYSDK_OFFSET(0x10B21280)
+#define CLASS_2_58BA8379924FCF27__CTOR_OFFSET UNITYSDK_OFFSET(0x10BE6590)
 
-inline static constexpr unsigned int Class_2_58BA8379924FCF27_TypeDefinitionIndex = 58477;
+inline static constexpr unsigned int Class_2_58BA8379924FCF27_TypeDefinitionIndex = 60197;
 
 class Class_2_58BA8379924FCF27 : public ::Class_1_F19AB08624168191
 {

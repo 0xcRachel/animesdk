@@ -1,10 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
+#include "unitysdk/Struct_2_468F1D800AD1758C.h"
 
-class Class_1_EF20F44E47239AF3;
-namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::IO { class Stream; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_253_TypeDefinitionIndex = 33054;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_253_TypeDefinitionIndex = 33821;
 
 class Class_0_16E4307DCC419505_253
 {

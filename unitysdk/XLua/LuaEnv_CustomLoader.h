@@ -7,14 +7,14 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define XLUA_LUAENV_CUSTOMLOADER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF845CA0)
-#define XLUA_LUAENV_CUSTOMLOADER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF845CD0)
-#define XLUA_LUAENV_CUSTOMLOADER_INVOKE_OFFSET UNITYSDK_OFFSET(0xF845800)
-#define XLUA_LUAENV_CUSTOMLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xF827040)
+#define XLUA_LUAENV_CUSTOMLOADER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF79E60)
+#define XLUA_LUAENV_CUSTOMLOADER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF79E90)
+#define XLUA_LUAENV_CUSTOMLOADER_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF79B20)
+#define XLUA_LUAENV_CUSTOMLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xFF79B00)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaEnv_CustomLoader_TypeDefinitionIndex = 39470;
+	inline static constexpr unsigned int LuaEnv_CustomLoader_TypeDefinitionIndex = 40486;
 
 	class LuaEnv_CustomLoader : public ::System::MulticastDelegate
 	{

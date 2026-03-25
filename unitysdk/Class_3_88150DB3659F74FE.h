@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPermanentEmotion; }
 
-#define CLASS_3_88150DB3659F74FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C4A3D0)
-#define CLASS_3_88150DB3659F74FE__CTOR_OFFSET UNITYSDK_OFFSET(0x10C4A3A0)
+#define CLASS_3_88150DB3659F74FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1138D520)
+#define CLASS_3_88150DB3659F74FE__CTOR_OFFSET UNITYSDK_OFFSET(0x1138D4F0)
 
-inline static constexpr unsigned int Class_3_88150DB3659F74FE_TypeDefinitionIndex = 43754;
+inline static constexpr unsigned int Class_3_88150DB3659F74FE_TypeDefinitionIndex = 44811;
 
 class Class_3_88150DB3659F74FE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerPermanentEmotion*>
 {

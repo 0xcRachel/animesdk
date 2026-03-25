@@ -2,48 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_8CF94E0F14A91ED3_3_GET_FROMPROPID_OFFSET UNITYSDK_OFFSET(0x8943C10)
-#define CLASS_1_8CF94E0F14A91ED3_3_GET_TOPROPID_OFFSET UNITYSDK_OFFSET(0x8943C30)
-#define CLASS_1_8CF94E0F14A91ED3_3_METHOD_1_0BC6186268B04AB3_OFFSET UNITYSDK_OFFSET(0x8943BA0)
-#define CLASS_1_8CF94E0F14A91ED3_3_SET_FROMPROPID_OFFSET UNITYSDK_OFFSET(0x8943C20)
-#define CLASS_1_8CF94E0F14A91ED3_3_SET_TOPROPID_OFFSET UNITYSDK_OFFSET(0x8943C40)
-#define CLASS_1_8CF94E0F14A91ED3_3__CTOR_OFFSET UNITYSDK_OFFSET(0x8943B80)
+#define CLASS_1_8CF94E0F14A91ED3_3_GET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0x8824BD0)
+#define CLASS_1_8CF94E0F14A91ED3_3_GET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x8824BF0)
+#define CLASS_1_8CF94E0F14A91ED3_3_SET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0x8824BE0)
+#define CLASS_1_8CF94E0F14A91ED3_3_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0x8824C00)
+#define CLASS_1_8CF94E0F14A91ED3_3__CTOR_OFFSET UNITYSDK_OFFSET(0x8824BC0)
 
-inline static constexpr unsigned int Class_1_8CF94E0F14A91ED3_3_TypeDefinitionIndex = 61788;
+inline static constexpr unsigned int Class_1_8CF94E0F14A91ED3_3_TypeDefinitionIndex = 51563;
 
 class Class_1_8CF94E0F14A91ED3_3 : public ::System::Object
 {
 public:
-	::System::UInt32 _ToPropID_k__BackingField; // 0x10
-	::System::UInt32 _FromPropID_k__BackingField; // 0x14
+	::System::UInt32 _Progress_k__BackingField; // 0x10
+	::System::UInt32 _EvaluationID_k__BackingField; // 0x14
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Int32 Method_1_0BC6186268B04AB3(::Class_1_8CF94E0F14A91ED3_3* a1)
+	::System::UInt32 get_EvaluationID()
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_8CF94E0F14A91ED3_3*))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_METHOD_1_0BC6186268B04AB3_OFFSET))(this, a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_GET_EVALUATIONID_OFFSET))(this);
 	}
 
-	::System::UInt32 get_FromPropID()
+	::System::Void set_EvaluationID(::System::UInt32 value)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_GET_FROMPROPID_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_EVALUATIONID_OFFSET))(this, value);
 	}
 
-	::System::Void set_FromPropID(::System::UInt32 value)
+	::System::UInt32 get_Progress()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_FROMPROPID_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_GET_PROGRESS_OFFSET))(this);
 	}
 
-	::System::UInt32 get_ToPropID()
+	::System::Void set_Progress(::System::UInt32 value)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_GET_TOPROPID_OFFSET))(this);
-	}
-
-	::System::Void set_ToPropID(::System::UInt32 value)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_TOPROPID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_8CF94E0F14A91ED3_3_SET_PROGRESS_OFFSET))(this, value);
 	}
 };

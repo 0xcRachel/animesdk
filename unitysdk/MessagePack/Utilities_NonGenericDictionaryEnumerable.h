@@ -4,12 +4,12 @@
 
 namespace System::Collections { class IDictionary; }
 
-#define MESSAGEPACK_UTILITIES_NONGENERICDICTIONARYENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1FFA290)
+#define MESSAGEPACK_UTILITIES_NONGENERICDICTIONARYENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x20D02E0)
 #define MESSAGEPACK_UTILITIES_NONGENERICDICTIONARYENUMERABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Utilities_NonGenericDictionaryEnumerable_TypeDefinitionIndex = 9503;
+	inline static constexpr unsigned int Utilities_NonGenericDictionaryEnumerable_TypeDefinitionIndex = 9102;
 
 	struct alignas(8) Utilities_NonGenericDictionaryEnumerable
 	{

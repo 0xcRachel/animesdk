@@ -5,9 +5,9 @@
 
 namespace RPG::Client { class ShotAnimMovementData; }
 
-#define CLASS_1_F064940CC10176D1__CTOR_OFFSET UNITYSDK_OFFSET(0x10A1F790)
+#define CLASS_1_F064940CC10176D1__CTOR_OFFSET UNITYSDK_OFFSET(0x10C9ED50)
 
-inline static constexpr unsigned int Class_1_F064940CC10176D1_TypeDefinitionIndex = 55378;
+inline static constexpr unsigned int Class_1_F064940CC10176D1_TypeDefinitionIndex = 56943;
 
 class Class_1_F064940CC10176D1 : public ::System::Object
 {

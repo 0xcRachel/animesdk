@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceLoadingDisplayState_TypeDefinitionIndex = 60232;
+	inline static constexpr unsigned int CakeRaceLoadingDisplayState_TypeDefinitionIndex = 62202;
 
 	enum class CakeRaceLoadingDisplayState : ::System::Int32
 	{

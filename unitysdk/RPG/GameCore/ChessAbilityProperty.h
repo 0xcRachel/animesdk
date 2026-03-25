@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessAbilityProperty_TypeDefinitionIndex = 15908;
+	inline static constexpr unsigned int ChessAbilityProperty_TypeDefinitionIndex = 16185;
 
 	enum class ChessAbilityProperty : ::System::Int32
 	{

@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ISafeSerializationData_TypeDefinitionIndex = 1103;
+	inline static constexpr unsigned int ISafeSerializationData_TypeDefinitionIndex = 1108;
 
 	class ISafeSerializationData
 	{

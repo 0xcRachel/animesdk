@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class CakeRaceTitleRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_0F2A3888FE30E133___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EF4E00)
-#define CLASS_2_0F2A3888FE30E133___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF4E40)
-#define CLASS_2_0F2A3888FE30E133___C__LOADTITLECONFIG_B__14_0_OFFSET UNITYSDK_OFFSET(0x15EF4E50)
+#define CLASS_2_0F2A3888FE30E133___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166B37C0)
+#define CLASS_2_0F2A3888FE30E133___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166B3800)
+#define CLASS_2_0F2A3888FE30E133___C__LOADTITLECONFIG_B__14_0_OFFSET UNITYSDK_OFFSET(0x166B3810)
 
-inline static constexpr unsigned int Class_2_0F2A3888FE30E133___c_TypeDefinitionIndex = 28010;
+inline static constexpr unsigned int Class_2_0F2A3888FE30E133___c_TypeDefinitionIndex = 28882;
 
 class Class_2_0F2A3888FE30E133___c : public ::System::Object
 {
 public:
-	static ::Class_2_0F2A3888FE30E133___c** StaticGet___9()
-	{
-		return (::Class_2_0F2A3888FE30E133___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0F2A3888FE30E133___c_TypeDefinitionIndex)->GetStaticField(0x2BD40);
-	}
 	static ::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>** StaticGet___9__14_0()
 	{
-		return (::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0F2A3888FE30E133___c_TypeDefinitionIndex)->GetStaticField(0x2BD48);
+		return (::System::Comparison_1<::RPG::GameCore::CakeRaceTitleRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0F2A3888FE30E133___c_TypeDefinitionIndex)->GetStaticField(0x41100);
+	}
+	static ::Class_2_0F2A3888FE30E133___c** StaticGet___9()
+	{
+		return (::Class_2_0F2A3888FE30E133___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_0F2A3888FE30E133___c_TypeDefinitionIndex)->GetStaticField(0x41108);
 	}
 
 	static ::System::Void _cctor()

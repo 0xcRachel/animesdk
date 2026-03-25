@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicUnitCategory_TypeDefinitionIndex = 10184;
+	inline static constexpr unsigned int RogueMagicUnitCategory_TypeDefinitionIndex = 10186;
 
 	enum class RogueMagicUnitCategory : ::System::Int32
 	{

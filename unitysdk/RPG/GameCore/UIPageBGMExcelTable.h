@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171396B0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17139500)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171391D0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171394A0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171398A0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17139250)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171398E0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17139AC0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17139C40)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17139FA0)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17139A20)
-#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17139980)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x178F58B0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x178F5700)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x178F53D0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x178F56A0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x178F5AA0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x178F5450)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x178F5AE0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x178F5CC0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x178F5E40)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178F61A0)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x178F5C20)
+#define RPG_GAMECORE_UIPAGEBGMEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x178F5B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIPageBGMExcelTable_TypeDefinitionIndex = 14026;
+	inline static constexpr unsigned int UIPageBGMExcelTable_TypeDefinitionIndex = 14142;
 
 	class UIPageBGMExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x27970);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x1DDC0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::UIPageBGMRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::UIPageBGMRow*>**)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x27978);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::UIPageBGMRow*>**)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x1DDC8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x27980);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x8620);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x1DDD0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0x8621);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0xA110);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIPageBGMExcelTable_TypeDefinitionIndex)->GetStaticField(0xA111);
 		}
 
 		static ::System::Void _cctor()

@@ -5,13 +5,13 @@
 namespace Spine { class AtlasPage; }
 namespace System { class String; }
 
-#define SPINE_UNITY_NOOPTEXTURELOADER_LOAD_OFFSET UNITYSDK_OFFSET(0x17C04E10)
-#define SPINE_UNITY_NOOPTEXTURELOADER_UNLOAD_OFFSET UNITYSDK_OFFSET(0x17C04E20)
-#define SPINE_UNITY_NOOPTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x17C04E30)
+#define SPINE_UNITY_NOOPTEXTURELOADER_LOAD_OFFSET UNITYSDK_OFFSET(0x1841DB40)
+#define SPINE_UNITY_NOOPTEXTURELOADER_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1841DB50)
+#define SPINE_UNITY_NOOPTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1841DB60)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int NoOpTextureLoader_TypeDefinitionIndex = 33756;
+	inline static constexpr unsigned int NoOpTextureLoader_TypeDefinitionIndex = 34745;
 
 	class NoOpTextureLoader : public ::System::Object
 	{

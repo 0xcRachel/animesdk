@@ -3,7 +3,7 @@
 
 namespace ZXing::PDF417::Internal
 {
-	inline static constexpr unsigned int Compaction_TypeDefinitionIndex = 5952;
+	inline static constexpr unsigned int Compaction_TypeDefinitionIndex = 6052;
 
 	enum class Compaction : ::System::Int32
 	{

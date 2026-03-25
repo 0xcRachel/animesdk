@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class FateReijuDataItem; }
 
-#define RPG_CLIENT_FATEREIJUSELECTSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9234970)
+#define RPG_CLIENT_FATEREIJUSELECTSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x96A8030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateReijuSelectSlotData_TypeDefinitionIndex = 50903;
+	inline static constexpr unsigned int FateReijuSelectSlotData_TypeDefinitionIndex = 52038;
 
 	class FateReijuSelectSlotData : public ::System::Object
 	{

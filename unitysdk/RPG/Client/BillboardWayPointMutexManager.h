@@ -1,55 +1,55 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Billboard/BillboardIdentifier.h"
 #include "unitysdk/RPG/Client/BillboardShowType.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class BillboardWayPointMutexManager_EntityMutexStatus; }
 namespace RPG::Client { class BillboardWayPointMutexManager_MutexConfig; }
 namespace RPG::Client { class UIBillboard; }
+namespace RPG::Client::Billboard { class BillboardIdentifier; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8DF5A00)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_GET_BOARDSHOWTYPE_OFFSET UNITYSDK_OFFSET(0x8DF67D0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_GET_GLOBALSHOW_OFFSET UNITYSDK_OFFSET(0x8DF67E0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x8DF6800)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_SETGLOBALBOARDSHOWTYPE_OFFSET UNITYSDK_OFFSET(0x8DF5B90)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_SET_GLOBALSHOW_OFFSET UNITYSDK_OFFSET(0x8DF67F0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x8DF6810)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x8DF5AB0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__ADJUSTBILLBOARDINDEX_OFFSET UNITYSDK_OFFSET(0x8DF64F0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CANBILLBOARDSHOW_OFFSET UNITYSDK_OFFSET(0x8DF5C10)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CANWAYPOINTSHOW_OFFSET UNITYSDK_OFFSET(0x8DF5CC0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__COMPAREBILLBOARDSBYCAMERADISTANCE_OFFSET UNITYSDK_OFFSET(0x8DF6700)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CREATEMUTEXCONFIG_OFFSET UNITYSDK_OFFSET(0x8DF6460)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF5850)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x8DF6300)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYMUTEXSTATUS_OFFSET UNITYSDK_OFFSET(0x8DF5D80)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__NOTIFYMUTEXSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0x8DF60C0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__ONBILLBOARDVISIBLECHANGE_OFFSET UNITYSDK_OFFSET(0x8DF62A0)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__ONMUTEXSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0x8DF5F90)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__SORTBILLBOARDS_OFFSET UNITYSDK_OFFSET(0x8DF6630)
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__TICKBILLBOARD_OFFSET UNITYSDK_OFFSET(0x8DF5B30)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x91FFB70)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_GET_BOARDSHOWTYPE_OFFSET UNITYSDK_OFFSET(0x92007D0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_GET_GLOBALSHOW_OFFSET UNITYSDK_OFFSET(0x92007E0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x9200800)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_SETGLOBALBOARDSHOWTYPE_OFFSET UNITYSDK_OFFSET(0x91FFD00)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_SET_GLOBALSHOW_OFFSET UNITYSDK_OFFSET(0x92007F0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x9200810)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x91FFC20)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__ADJUSTBILLBOARDINDEX_OFFSET UNITYSDK_OFFSET(0x92004F0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CANBILLBOARDSHOW_OFFSET UNITYSDK_OFFSET(0x91FFD80)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CANWAYPOINTSHOW_OFFSET UNITYSDK_OFFSET(0x91FFE30)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__COMPAREBILLBOARDSBYCAMERADISTANCE_OFFSET UNITYSDK_OFFSET(0x9200700)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CREATEMUTEXCONFIG_OFFSET UNITYSDK_OFFSET(0x9200480)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x91FF9C0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x9200320)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYMUTEXSTATUS_OFFSET UNITYSDK_OFFSET(0x91FFEF0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__NOTIFYMUTEXSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0x9200190)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__ONBILLBOARDVISIBLECHANGE_OFFSET UNITYSDK_OFFSET(0x92002C0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__ONMUTEXSTATUSCHANGE_OFFSET UNITYSDK_OFFSET(0x9200080)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__SORTBILLBOARDS_OFFSET UNITYSDK_OFFSET(0x9200630)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__TICKBILLBOARD_OFFSET UNITYSDK_OFFSET(0x91FFCA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardWayPointMutexManager_TypeDefinitionIndex = 47907;
+	inline static constexpr unsigned int BillboardWayPointMutexManager_TypeDefinitionIndex = 48989;
 
 	class BillboardWayPointMutexManager : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 _MUTEX_STATUS_NUM = 0x2; // 0x0
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::Billboard::BillboardIdentifier, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*>* _MutexStatus; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::Billboard::BillboardIdentifier*, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*>* _MutexStatus; // 0x10
 		::RPG::Client::BillboardWayPointMutexManager_MutexConfig* _MutexConfig; // 0x18
-		::System::Comparison_1<::RPG::Client::UIBillboard*>* _SortBillboardsByCameraDistance; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::UIBillboard*>* ActiveBillboards; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::UIBillboard*>* _SortedBillboards; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::UIBillboard*>* ActiveBillboards; // 0x30
-		::System::Boolean _GlobalShow_k__BackingField; // 0x38
-		::System::Boolean _Visible_k__BackingField; // 0x39
-		::RPG::Client::BillboardShowType _BoardShowType; // 0x3C
+		::System::Comparison_1<::RPG::Client::UIBillboard*>* _SortBillboardsByCameraDistance; // 0x30
+		::RPG::Client::BillboardShowType _BoardShowType; // 0x38
+		::System::Boolean _GlobalShow_k__BackingField; // 0x3C
+		::System::Boolean _Visible_k__BackingField; // 0x3D
 
 		::System::Void _ctor()
 		{
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CANWAYPOINTSHOW_OFFSET))(this, mutexStatus);
 		}
 
-		::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus* _GetEntityMutexStatus(::RPG::Client::Billboard::BillboardIdentifier billboardIdentifier)
+		::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus* _GetEntityMutexStatus(::RPG::Client::Billboard::BillboardIdentifier* billboardIdentifier)
 		{
-			return ((::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYMUTEXSTATUS_OFFSET))(this, billboardIdentifier);
+			return ((::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYMUTEXSTATUS_OFFSET))(this, billboardIdentifier);
 		}
 
 		::System::Void _OnMutexStatusChange(::System::Object* arg)
@@ -101,14 +101,14 @@ namespace RPG::Client
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__GETENTITYBYRUNTIMEID_OFFSET))(this, runtimeID);
 		}
 
-		::System::Void _NotifyMutexStatusChange(::RPG::Client::Billboard::BillboardIdentifier billboardIdentifier, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus* mutexStatus)
+		::System::Void _NotifyMutexStatusChange(::RPG::Client::Billboard::BillboardIdentifier* billboardIdentifier, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus* mutexStatus)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__NOTIFYMUTEXSTATUSCHANGE_OFFSET))(this, billboardIdentifier, mutexStatus);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier*, ::RPG::Client::BillboardWayPointMutexManager_EntityMutexStatus*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__NOTIFYMUTEXSTATUSCHANGE_OFFSET))(this, billboardIdentifier, mutexStatus);
 		}
 
-		::RPG::Client::BillboardWayPointMutexManager_MutexConfig* _CreateMutexConfig(::RPG::Client::Billboard::BillboardIdentifier identifier, ::System::Boolean status)
+		::RPG::Client::BillboardWayPointMutexManager_MutexConfig* _CreateMutexConfig(::RPG::Client::Billboard::BillboardIdentifier* identifier, ::System::Boolean status)
 		{
-			return ((::RPG::Client::BillboardWayPointMutexManager_MutexConfig*(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CREATEMUTEXCONFIG_OFFSET))(this, identifier, status);
+			return ((::RPG::Client::BillboardWayPointMutexManager_MutexConfig*(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDWAYPOINTMUTEXMANAGER__CREATEMUTEXCONFIG_OFFSET))(this, identifier, status);
 		}
 
 		::System::Void _TickBillboard()

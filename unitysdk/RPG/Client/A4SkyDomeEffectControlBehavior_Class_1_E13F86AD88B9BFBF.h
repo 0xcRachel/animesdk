@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_CLASS_1_E13F86AD88B9BFBF__CTOR_OFFSET UNITYSDK_OFFSET(0x8ACD5A0)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_CLASS_1_E13F86AD88B9BFBF__CTOR_OFFSET UNITYSDK_OFFSET(0x8ECE4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_Class_1_E13F86AD88B9BFBF_TypeDefinitionIndex = 56477;
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_Class_1_E13F86AD88B9BFBF_TypeDefinitionIndex = 58049;
 
 	class A4SkyDomeEffectControlBehavior_Class_1_E13F86AD88B9BFBF : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialOrderFinishTypeEnum_TypeDefinitionIndex = 11451;
+	inline static constexpr unsigned int SpecialOrderFinishTypeEnum_TypeDefinitionIndex = 11519;
 
 	enum class SpecialOrderFinishTypeEnum : ::System::Int32
 	{

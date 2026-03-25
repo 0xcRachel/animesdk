@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IFIX_CORE_IDTAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1543D430)
+#define IFIX_CORE_IDTAGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B57150)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int IDTagAttribute_TypeDefinitionIndex = 9311;
+	inline static constexpr unsigned int IDTagAttribute_TypeDefinitionIndex = 9778;
 
 	class IDTagAttribute : public ::System::Attribute
 	{

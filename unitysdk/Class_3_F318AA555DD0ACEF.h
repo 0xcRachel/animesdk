@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareSoundEventInCD; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F318AA555DD0ACEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x865B6A0)
-#define CLASS_3_F318AA555DD0ACEF__CTOR_OFFSET UNITYSDK_OFFSET(0x865B670)
+#define CLASS_3_F318AA555DD0ACEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB293600)
+#define CLASS_3_F318AA555DD0ACEF__CTOR_OFFSET UNITYSDK_OFFSET(0xB2935D0)
 
-inline static constexpr unsigned int Class_3_F318AA555DD0ACEF_TypeDefinitionIndex = 41551;
+inline static constexpr unsigned int Class_3_F318AA555DD0ACEF_TypeDefinitionIndex = 42596;
 
 class Class_3_F318AA555DD0ACEF : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareSoundEventInCD*>
 {

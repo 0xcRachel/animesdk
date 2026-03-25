@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_910212C026901FF5.h"
+#include "unitysdk/Class_1_7ACCB923E979A908.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/OpponentRole.h"
 
 class Class_1_6CA018824F1536E0;
@@ -8,24 +8,24 @@ class Class_1_9ADD1D872350330F;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_5DB763F3367C2351_CLEAR_OFFSET UNITYSDK_OFFSET(0x8A33070)
-#define CLASS_2_5DB763F3367C2351_METHOD_2_07374B8FCDCB7B70_OFFSET UNITYSDK_OFFSET(0x8A33000)
-#define CLASS_2_5DB763F3367C2351_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x8A33110)
-#define CLASS_2_5DB763F3367C2351__CTOR_OFFSET UNITYSDK_OFFSET(0x8A335D0)
-#define CLASS_2_5DB763F3367C2351___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x8A335E0)
-#define CLASS_2_5DB763F3367C2351___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x8A33670)
+#define CLASS_2_5DB763F3367C2351_CLEAR_OFFSET UNITYSDK_OFFSET(0x8BA7160)
+#define CLASS_2_5DB763F3367C2351_METHOD_2_07374B8FCDCB7B70_OFFSET UNITYSDK_OFFSET(0x8BA70F0)
+#define CLASS_2_5DB763F3367C2351_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x8BA7200)
+#define CLASS_2_5DB763F3367C2351__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA76C0)
+#define CLASS_2_5DB763F3367C2351___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x8BA76D0)
+#define CLASS_2_5DB763F3367C2351___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x8BA7760)
 
-inline static constexpr unsigned int Class_2_5DB763F3367C2351_TypeDefinitionIndex = 52365;
+inline static constexpr unsigned int Class_2_5DB763F3367C2351_TypeDefinitionIndex = 53501;
 
-class Class_2_5DB763F3367C2351 : public ::Class_1_910212C026901FF5
+class Class_2_5DB763F3367C2351 : public ::Class_1_7ACCB923E979A908
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_9ADD1D872350330F*>* Field_2_1; // 0x20
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_2; // 0x28
-	::Class_1_6CA018824F1536E0* Field_2_5; // 0x30
-	::RPG::Client::LittleGame::Match3::OpponentRole Field_2_0; // 0x38
+	::Class_1_6CA018824F1536E0* Field_2_5; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_9ADD1D872350330F*>* Field_2_1; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_2; // 0x30
+	::System::Boolean Field_2_3; // 0x38
 	::System::UInt32 Field_2_4; // 0x3C
-	::System::Boolean Field_2_3; // 0x40
+	::RPG::Client::LittleGame::Match3::OpponentRole Field_2_0; // 0x40
 
 	::System::Void _ctor()
 	{

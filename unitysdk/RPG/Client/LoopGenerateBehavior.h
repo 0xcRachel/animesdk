@@ -1,0 +1,272 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LoopGenerateBehavior_GenerateConfig.h"
+#include "unitysdk/RPG/Client/LoopGenerateBehavior_SliderTemplate.h"
+#include "unitysdk/RPG/Client/LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300.h"
+#include "unitysdk/RPG/Client/TABehaviorBase.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace RPG::Client { class LoopGenerateBehavior_RuntimeSlider; }
+namespace RPG::Client { class LoopGenerateMonoPlugin; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET_CURRENTCONFIGINDEX_OFFSET UNITYSDK_OFFSET(0x9A77B20)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET_PREVIEWMODE_OFFSET UNITYSDK_OFFSET(0x9A77900)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__CURRENTCONFIG_OFFSET UNITYSDK_OFFSET(0x9A77920)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__CURRENTSPEED_OFFSET UNITYSDK_OFFSET(0x9A77AA0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__ISFORWARD_OFFSET UNITYSDK_OFFSET(0x9A77B30)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x9A77A30)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x9A77BA0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x9A785B0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x9A7A050)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_37DA96F7AB3B342A_OFFSET UNITYSDK_OFFSET(0x9A79370)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x9A78840)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x9A77F90)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x9A78780)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x9A787E0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x9A78880)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET UNITYSDK_OFFSET(0x9A788E0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9A78130)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x9A7A1F0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x9A7A250)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x9A7A2B0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x9A7A310)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x9A7A380)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x9A7A460)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_7_OFFSET UNITYSDK_OFFSET(0x9A7A4C0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x9A7A190)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5B0AAAC7D524B1DD_OFFSET UNITYSDK_OFFSET(0x9A79CC0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5B6FAF8A1B26BA88_OFFSET UNITYSDK_OFFSET(0x9A79100)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_7014E71C60BDE051_OFFSET UNITYSDK_OFFSET(0x9A79910)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_82E992240300FB30_OFFSET UNITYSDK_OFFSET(0x9A77F20)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_8A2AC7CD7EA66CAC_OFFSET UNITYSDK_OFFSET(0x9A79830)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_AFFCD2D4D1CC156F_OFFSET UNITYSDK_OFFSET(0x9A789F0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_C72B925A491E9859_OFFSET UNITYSDK_OFFSET(0x9A781A0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_EEC0FA4B3E9E6E95_OFFSET UNITYSDK_OFFSET(0x9A79A60)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x9A7A3F0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_SET_PREVIEWMODE_OFFSET UNITYSDK_OFFSET(0x9A77910)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x9A78940)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A7A150)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9A7A0B0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x9A7A520)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int LoopGenerateBehavior_TypeDefinitionIndex = 58077;
+
+	class LoopGenerateBehavior : public ::RPG::Client::TABehaviorBase
+	{
+	public:
+		static ::System::Int32* StaticGet__MaxLoopCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LoopGenerateBehavior_TypeDefinitionIndex)->GetStaticField(0xCDD0);
+		}
+		::System::Boolean _PreviewMode_k__BackingField; // 0x38
+		::System::Boolean _IsTransitionState; // 0x39
+		::System::Single _TransitionSpeed; // 0x3C
+		::System::Boolean _IfUseTempSpeed; // 0x40
+		::System::Single _TempSpeed; // 0x44
+		::System::Collections::Generic::List_1<::RPG::Client::LoopGenerateBehavior_RuntimeSlider*>* _CurrentUnusedSliderPool; // 0x48
+		::System::Collections::Generic::List_1<::RPG::Client::LoopGenerateBehavior_RuntimeSlider*>* _CurrentUsedSliderPool; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::LoopGenerateBehavior_RuntimeSlider*>* _LastUsedSliderPool; // 0x58
+		::UnityEngine::Vector2 _FilledRange; // 0x60
+		::System::Int32 _CurrentConfigIndex; // 0x68
+		::System::Int32 _CurrentGroupWeightPairIndex; // 0x6C
+		::System::Int32 _CurrentElementIndex; // 0x70
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR__CCTOR_OFFSET))();
+		}
+
+		::System::Boolean get_PreviewMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET_PREVIEWMODE_OFFSET))(this);
+		}
+
+		::System::Void set_PreviewMode(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_SET_PREVIEWMODE_OFFSET))(this, value);
+		}
+
+		::RPG::Client::LoopGenerateBehavior_GenerateConfig get__CurrentConfig()
+		{
+			return ((::RPG::Client::LoopGenerateBehavior_GenerateConfig(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__CURRENTCONFIG_OFFSET))(this);
+		}
+
+		::System::Single get__CurrentSpeed()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__CURRENTSPEED_OFFSET))(this);
+		}
+
+		::System::Int32 get_CurrentConfigIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET_CURRENTCONFIGINDEX_OFFSET))(this);
+		}
+
+		::System::Boolean get__IsForward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__ISFORWARD_OFFSET))(this);
+		}
+
+		::System::Void Method_3_1290EA767C459179()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_1290EA767C459179_OFFSET))(this);
+		}
+
+		::System::Void Method_3_82E992240300FB30()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_82E992240300FB30_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+		}
+
+		::System::Void Method_3_2450CFC043E97F54()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_2450CFC043E97F54_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_391A84BCD9F51317()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_4343F372F34C05BF_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_4343F372F34C05BF_4_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_AFFCD2D4D1CC156F(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_AFFCD2D4D1CC156F_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_5B6FAF8A1B26BA88(::RPG::Client::LoopGenerateBehavior_RuntimeSlider* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LoopGenerateBehavior_RuntimeSlider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5B6FAF8A1B26BA88_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Method_3_8A2AC7CD7EA66CAC()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_8A2AC7CD7EA66CAC_OFFSET))(this);
+		}
+
+		::RPG::Client::LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300 Method_3_7014E71C60BDE051(::System::Single a1)
+		{
+			return ((::RPG::Client::LoopGenerateBehavior_Struct_2_2AD9EAB8D0AC0300(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_7014E71C60BDE051_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LoopGenerateBehavior_RuntimeSlider* Method_3_EEC0FA4B3E9E6E95(::RPG::Client::LoopGenerateBehavior_SliderTemplate a1)
+		{
+			return ((::RPG::Client::LoopGenerateBehavior_RuntimeSlider*(*)(::PVOID, ::RPG::Client::LoopGenerateBehavior_SliderTemplate))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_EEC0FA4B3E9E6E95_OFFSET))(this, a1);
+		}
+
+		::System::Void Method_3_C72B925A491E9859()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_C72B925A491E9859_OFFSET))(this);
+		}
+
+		::RPG::Client::LoopGenerateBehavior_RuntimeSlider* Method_3_37DA96F7AB3B342A()
+		{
+			return ((::RPG::Client::LoopGenerateBehavior_RuntimeSlider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_37DA96F7AB3B342A_OFFSET))(this);
+		}
+
+		::System::Void Method_3_41A074549EF25F63()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_41A074549EF25F63_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5B0AAAC7D524B1DD(::System::Int32 a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5B0AAAC7D524B1DD_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Method_3_2685B6183E614529(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_2685B6183E614529_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LoopGenerateMonoPlugin* get__OwnerMonoPlugin()
+		{
+			return ((::RPG::Client::LoopGenerateMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
+		}
+
+		::System::Boolean Method_3_F0E307B84478A272()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET))(this);
+		}
+
+		::System::Void Method_3_5790A55946AA509D_7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR_METHOD_3_5790A55946AA509D_7_OFFSET))(this);
+		}
+
+		::System::Void __iFixBaseProxy_Tick(::System::Single P0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATEBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET))(this, P0);
+		}
+	};
+}

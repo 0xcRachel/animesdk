@@ -8,7 +8,7 @@
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_3271D18CDCC3AB1D_TypeDefinitionIndex = 45479;
+inline static constexpr unsigned int Struct_2_3271D18CDCC3AB1D_TypeDefinitionIndex = 46542;
 
 struct alignas(8) Struct_2_3271D18CDCC3AB1D
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/ParkourGame/EffectConfig.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9A36410)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED7DD0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourEffect_TypeDefinitionIndex = 59044;
+	inline static constexpr unsigned int MonoParkourEffect_TypeDefinitionIndex = 60796;
 
 	class MonoParkourEffect : public ::UnityEngine::MonoBehaviour
 	{

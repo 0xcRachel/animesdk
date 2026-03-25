@@ -17,22 +17,22 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x90E4420)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0x90E43A0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x90E4640)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x90E4470)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x90E46D0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9591500)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0x9591480)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x9591720)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9591550)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x95917B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 56214;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 57785;
 
 	class Effect_SphereVolumetricLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_SphereVolumetricLightBehavior*>
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_Field_7_12()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x459C0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x481D0);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Blockers; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Holes; // 0x38

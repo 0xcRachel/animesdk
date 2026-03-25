@@ -9,26 +9,26 @@ namespace System { class IFormatProvider; }
 namespace System { class String; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x15C62B90)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATSTANDARD_OFFSET UNITYSDK_OFFSET(0x15C62580)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x15C62350)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x15C62320)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C63BE0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x1632B110)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATSTANDARD_OFFSET UNITYSDK_OFFSET(0x1632AB00)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x1632A8D0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1632A8A0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1632C160)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanFormat_TypeDefinitionIndex = 762;
+	inline static constexpr unsigned int TimeSpanFormat_TypeDefinitionIndex = 763;
 
 	class TimeSpanFormat : public ::System::Object
 	{
 	public:
-		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_PositiveInvariantFormatLiterals()
-		{
-			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0x8870);
-		}
 		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_NegativeInvariantFormatLiterals()
 		{
-			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0x8898);
+			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0x6030);
+		}
+		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_PositiveInvariantFormatLiterals()
+		{
+			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanFormat_TypeDefinitionIndex)->GetStaticField(0x6058);
 		}
 
 		static ::System::Void _cctor()

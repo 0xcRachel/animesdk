@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x924DB70)
-#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x924DBD0)
+#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x96C13E0)
+#define RPG_CLIENT_FIGHTFESTLINEUPSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x96C1440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestLineupSnapShot_TypeDefinitionIndex = 50975;
+	inline static constexpr unsigned int FightFestLineupSnapShot_TypeDefinitionIndex = 52110;
 
 	class FightFestLineupSnapShot : public ::System::Object
 	{

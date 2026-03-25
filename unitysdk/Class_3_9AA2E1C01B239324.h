@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsIndirectDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9AA2E1C01B239324_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10B29DF0)
-#define CLASS_3_9AA2E1C01B239324__CTOR_OFFSET UNITYSDK_OFFSET(0x10B29DC0)
+#define CLASS_3_9AA2E1C01B239324_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE476FA0)
+#define CLASS_3_9AA2E1C01B239324__CTOR_OFFSET UNITYSDK_OFFSET(0xE476F70)
 
-inline static constexpr unsigned int Class_3_9AA2E1C01B239324_TypeDefinitionIndex = 42694;
+inline static constexpr unsigned int Class_3_9AA2E1C01B239324_TypeDefinitionIndex = 43744;
 
 class Class_3_9AA2E1C01B239324 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsIndirectDamage*>
 {

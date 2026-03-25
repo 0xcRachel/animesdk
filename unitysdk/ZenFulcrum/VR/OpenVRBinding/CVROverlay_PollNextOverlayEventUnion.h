@@ -7,7 +7,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVROverlay__PollNextOverlayEvent
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVROverlay_PollNextOverlayEventUnion_TypeDefinitionIndex = 29371;
+	inline static constexpr unsigned int CVROverlay_PollNextOverlayEventUnion_TypeDefinitionIndex = 30246;
 
 	struct alignas(8) CVROverlay_PollNextOverlayEventUnion
 	{

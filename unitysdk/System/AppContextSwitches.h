@@ -9,17 +9,17 @@ namespace System
 	class AppContextSwitches : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
+		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2AF0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3620);
 		}
 		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2AF1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3621);
 		}
-		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
+		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2AF2);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3622);
 		}
 	};
 }

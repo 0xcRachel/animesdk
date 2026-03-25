@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATFORCEREFRESHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x901D170)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATFORCEREFRESHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x94798A0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatForceRefreshEvent_TypeDefinitionIndex = 60107;
+	inline static constexpr unsigned int DiceCombatForceRefreshEvent_TypeDefinitionIndex = 61888;
 
 	class DiceCombatForceRefreshEvent : public ::System::Object
 	{

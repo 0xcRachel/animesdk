@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGACTIONDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x180C3020)
+#define UNITYENGINE_RENDERING_DEBUGACTIONDESC__CTOR_OFFSET UNITYSDK_OFFSET(0x188EB960)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugActionDesc_TypeDefinitionIndex = 27069;
+	inline static constexpr unsigned int DebugActionDesc_TypeDefinitionIndex = 27805;
 
 	class DebugActionDesc : public ::System::Object
 	{

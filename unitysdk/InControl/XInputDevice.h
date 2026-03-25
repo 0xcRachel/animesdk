@@ -5,17 +5,17 @@
 
 namespace InControl { class XInputDeviceManager; }
 
-#define INCONTROL_XINPUTDEVICE_GETSTATE_OFFSET UNITYSDK_OFFSET(0x15616060)
-#define INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x15615160)
-#define INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x156162F0)
-#define INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x15615170)
-#define INCONTROL_XINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x156155B0)
-#define INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET UNITYSDK_OFFSET(0x15616120)
-#define INCONTROL_XINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x15615180)
+#define INCONTROL_XINPUTDEVICE_GETSTATE_OFFSET UNITYSDK_OFFSET(0x15D2FDE0)
+#define INCONTROL_XINPUTDEVICE_GET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x15D2EEB0)
+#define INCONTROL_XINPUTDEVICE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x15D30070)
+#define INCONTROL_XINPUTDEVICE_SET_DEVICEINDEX_OFFSET UNITYSDK_OFFSET(0x15D2EEC0)
+#define INCONTROL_XINPUTDEVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x15D2F300)
+#define INCONTROL_XINPUTDEVICE_VIBRATE_OFFSET UNITYSDK_OFFSET(0x15D2FEA0)
+#define INCONTROL_XINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x15D2EED0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 30628;
+	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 31503;
 
 	class XInputDevice : public ::InControl::InputDevice
 	{
@@ -23,8 +23,8 @@ namespace InControl
 		// static const ::System::Single LowerDeadZone; // 0x0
 		// static const ::System::Single UpperDeadZone; // 0x0
 		::InControl::XInputDeviceManager* owner; // 0x198
-		::XInputDotNetPure::GamePadState state; // 0x1A0
-		::System::Int32 _DeviceIndex_k__BackingField; // 0x1F8
+		::System::Int32 _DeviceIndex_k__BackingField; // 0x1A0
+		::XInputDotNetPure::GamePadState state; // 0x1A4
 
 		::System::Void _ctor(::System::Int32 deviceIndex, ::InControl::XInputDeviceManager* owner)
 		{

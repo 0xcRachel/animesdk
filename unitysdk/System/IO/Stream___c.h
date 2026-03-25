@@ -15,16 +15,16 @@ namespace System::IO { class Stream; }
 namespace System::Threading { class SemaphoreSlim; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_0_OFFSET UNITYSDK_OFFSET(0x15C8DEF0)
-#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_1_OFFSET UNITYSDK_OFFSET(0x15C8DF40)
-#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_0_OFFSET UNITYSDK_OFFSET(0x15C8E170)
-#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET UNITYSDK_OFFSET(0x15C8E1C0)
-#define SYSTEM_IO_STREAM___C__BEGINREADINTERNAL_B__39_0_OFFSET UNITYSDK_OFFSET(0x15C8DDC0)
-#define SYSTEM_IO_STREAM___C__BEGINWRITEINTERNAL_B__46_0_OFFSET UNITYSDK_OFFSET(0x15C8DF70)
-#define SYSTEM_IO_STREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C8DD40)
-#define SYSTEM_IO_STREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C8DD70)
-#define SYSTEM_IO_STREAM___C__ENSUREASYNCACTIVESEMAPHOREINITIALIZED_B__4_0_OFFSET UNITYSDK_OFFSET(0x15C8DD80)
-#define SYSTEM_IO_STREAM___C__RUNREADWRITETASKWHENREADY_B__47_0_OFFSET UNITYSDK_OFFSET(0x15C8E090)
+#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_0_OFFSET UNITYSDK_OFFSET(0x16356340)
+#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_1_OFFSET UNITYSDK_OFFSET(0x16356390)
+#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_0_OFFSET UNITYSDK_OFFSET(0x163565C0)
+#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET UNITYSDK_OFFSET(0x16356610)
+#define SYSTEM_IO_STREAM___C__BEGINREADINTERNAL_B__39_0_OFFSET UNITYSDK_OFFSET(0x16356200)
+#define SYSTEM_IO_STREAM___C__BEGINWRITEINTERNAL_B__46_0_OFFSET UNITYSDK_OFFSET(0x163563C0)
+#define SYSTEM_IO_STREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16356180)
+#define SYSTEM_IO_STREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163561B0)
+#define SYSTEM_IO_STREAM___C__ENSUREASYNCACTIVESEMAPHOREINITIALIZED_B__4_0_OFFSET UNITYSDK_OFFSET(0x163561C0)
+#define SYSTEM_IO_STREAM___C__RUNREADWRITETASKWHENREADY_B__47_0_OFFSET UNITYSDK_OFFSET(0x163564E0)
 
 namespace System::IO
 {
@@ -33,41 +33,41 @@ namespace System::IO
 	class Stream___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Threading::SemaphoreSlim*>** StaticGet___9__4_0()
-		{
-			return (::System::Func_1<::System::Threading::SemaphoreSlim*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F10);
-		}
 		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>** StaticGet___9__43_1()
 		{
-			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F18);
+			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F60);
+		}
+		static ::System::Func_1<::System::Threading::SemaphoreSlim*>** StaticGet___9__4_0()
+		{
+			return (::System::Func_1<::System::Threading::SemaphoreSlim*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F68);
 		}
 		static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__43_0()
 		{
-			return (::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F20);
-		}
-		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__47_0()
-		{
-			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F28);
-		}
-		static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__53_0()
-		{
-			return (::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F30);
-		}
-		static ::System::IO::Stream___c** StaticGet___9()
-		{
-			return (::System::IO::Stream___c**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F38);
+			return (::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F70);
 		}
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F40);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F78);
 		}
-		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>** StaticGet___9__53_1()
+		static ::System::IO::Stream___c** StaticGet___9()
 		{
-			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F48);
+			return (::System::IO::Stream___c**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F80);
 		}
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x8F50);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F88);
+		}
+		static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__53_0()
+		{
+			return (::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F90);
+		}
+		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__47_0()
+		{
+			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6F98);
+		}
+		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>** StaticGet___9__53_1()
+		{
+			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0x6FA0);
 		}
 
 		static ::System::Void _cctor()

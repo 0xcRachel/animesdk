@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderPropertySetType_TypeDefinitionIndex = 21562;
+	inline static constexpr unsigned int ShaderPropertySetType_TypeDefinitionIndex = 22122;
 
 	enum class ShaderPropertySetType : ::System::Int32
 	{

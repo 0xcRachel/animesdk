@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xD8DA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x8A780)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ColorGradingParameter_TypeDefinitionIndex = 38380;
+	inline static constexpr unsigned int ColorGradingParameter_TypeDefinitionIndex = 39360;
 
 	struct alignas(4) ColorGradingParameter
 	{

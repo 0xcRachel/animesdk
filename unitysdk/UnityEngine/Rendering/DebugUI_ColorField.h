@@ -3,21 +3,21 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x180CA740)
-#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x180CA780)
+#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x188F2EF0)
+#define UNITYENGINE_RENDERING_DEBUGUI_COLORFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x188F2F30)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_ColorField_TypeDefinitionIndex = 27090;
+	inline static constexpr unsigned int DebugUI_ColorField_TypeDefinitionIndex = 27826;
 
 	class DebugUI_ColorField : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Color>
 	{
 	public:
 		::System::Single incStepMult; // 0x50
-		::System::Boolean showPicker; // 0x54
-		::System::Boolean hdr; // 0x55
-		::System::Boolean showAlpha; // 0x56
-		::System::Int32 decimals; // 0x58
+		::System::Int32 decimals; // 0x54
+		::System::Boolean hdr; // 0x58
+		::System::Boolean showPicker; // 0x59
+		::System::Boolean showAlpha; // 0x5A
 		::System::Single incStep; // 0x5C
 
 		::System::Void _ctor()

@@ -7,32 +7,32 @@ namespace RPG::Client { class GridFightGridMember; }
 namespace RPG::Client { class GridFightTrait; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10365EE0)
-#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10365F20)
-#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__GETFRONTTRAITS_B__1_1_OFFSET UNITYSDK_OFFSET(0x10365FC0)
-#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__GETFRONTTRAITS_B__1_2_OFFSET UNITYSDK_OFFSET(0x10366000)
-#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__GETFRONTTRAITS_B__1_3_OFFSET UNITYSDK_OFFSET(0x10365F30)
+#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A605D0)
+#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10A60610)
+#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__GETFRONTTRAITS_B__1_1_OFFSET UNITYSDK_OFFSET(0x10A606B0)
+#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__GETFRONTTRAITS_B__1_2_OFFSET UNITYSDK_OFFSET(0x10A606F0)
+#define GRIDFIGHTTRAITGAINFRONTTRAITEFFECT___C__GETFRONTTRAITS_B__1_3_OFFSET UNITYSDK_OFFSET(0x10A60620)
 
-inline static constexpr unsigned int GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex = 37137;
+inline static constexpr unsigned int GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex = 38101;
 
 class GridFightTraitGainFrontTraitEffect___c : public ::System::Object
 {
 public:
+	static ::GridFightTraitGainFrontTraitEffect___c** StaticGet___9()
+	{
+		return (::GridFightTraitGainFrontTraitEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E5E0);
+	}
 	static ::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>** StaticGet___9__1_3()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3DA50);
+		return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E5E8);
 	}
 	static ::System::Func_2<::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTrailLayerQuality>** StaticGet___9__1_1()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTrailLayerQuality>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3DA58);
-	}
-	static ::GridFightTraitGainFrontTraitEffect___c** StaticGet___9()
-	{
-		return (::GridFightTraitGainFrontTraitEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3DA60);
+		return (::System::Func_2<::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTrailLayerQuality>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E5F0);
 	}
 	static ::System::Func_2<::RPG::Client::GridFightTrait*, ::System::UInt32>** StaticGet___9__1_2()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightTrait*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3DA68);
+		return (::System::Func_2<::RPG::Client::GridFightTrait*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitGainFrontTraitEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E5F8);
 	}
 
 	static ::System::Void _cctor()

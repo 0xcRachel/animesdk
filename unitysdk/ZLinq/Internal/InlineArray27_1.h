@@ -4,7 +4,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int InlineArray27_1_TypeDefinitionIndex = 6426;
+	inline static constexpr unsigned int InlineArray27_1_TypeDefinitionIndex = 6531;
 
 	template <typename T>
 	struct InlineArray27_1

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
-	inline static constexpr unsigned int ChenLingGameBoyRankingInfo_TypeDefinitionIndex = 59757;
+	inline static constexpr unsigned int ChenLingGameBoyRankingInfo_TypeDefinitionIndex = 61513;
 
 	class ChenLingGameBoyRankingInfo
 	{

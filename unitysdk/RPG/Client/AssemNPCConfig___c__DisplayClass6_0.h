@@ -6,13 +6,13 @@ namespace RPG::Client { class FeatureData; }
 namespace RPG::Client { class IdentityData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8C96450)
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS6_0__INSERTNPCTODATA_B__0_OFFSET UNITYSDK_OFFSET(0x8C96AB0)
-#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS6_0__INSERTNPCTODATA_B__1_OFFSET UNITYSDK_OFFSET(0x8C96B00)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x90E7A50)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS6_0__INSERTNPCTODATA_B__0_OFFSET UNITYSDK_OFFSET(0x90E80B0)
+#define RPG_CLIENT_ASSEMNPCCONFIG___C__DISPLAYCLASS6_0__INSERTNPCTODATA_B__1_OFFSET UNITYSDK_OFFSET(0x90E8100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCConfig___c__DisplayClass6_0_TypeDefinitionIndex = 47541;
+	inline static constexpr unsigned int AssemNPCConfig___c__DisplayClass6_0_TypeDefinitionIndex = 48622;
 
 	class AssemNPCConfig___c__DisplayClass6_0 : public ::System::Object
 	{

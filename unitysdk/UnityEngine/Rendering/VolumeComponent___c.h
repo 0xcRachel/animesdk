@@ -5,29 +5,29 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x180E81A0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x180E81D0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x180E81E0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x180E8250)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189101F0)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18910220)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x18910230)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x189102A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeComponent___c_TypeDefinitionIndex = 27169;
+	inline static constexpr unsigned int VolumeComponent___c_TypeDefinitionIndex = 27905;
 
 	class VolumeComponent___c : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::Rendering::VolumeComponent___c** StaticGet___9()
+		{
+			return (::UnityEngine::Rendering::VolumeComponent___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponent___c_TypeDefinitionIndex)->GetStaticField(0x25350);
+		}
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Int32>** StaticGet___9__10_1()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponent___c_TypeDefinitionIndex)->GetStaticField(0x276C0);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponent___c_TypeDefinitionIndex)->GetStaticField(0x25358);
 		}
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponent___c_TypeDefinitionIndex)->GetStaticField(0x276C8);
-		}
-		static ::UnityEngine::Rendering::VolumeComponent___c** StaticGet___9()
-		{
-			return (::UnityEngine::Rendering::VolumeComponent___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponent___c_TypeDefinitionIndex)->GetStaticField(0x276D0);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(VolumeComponent___c_TypeDefinitionIndex)->GetStaticField(0x25360);
 		}
 
 		static ::System::Void _cctor()

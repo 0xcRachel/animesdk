@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_CriManaUnityPlayer_RenderEventAction_TypeDefinitionIndex = 30365;
+	inline static constexpr unsigned int Player_CriManaUnityPlayer_RenderEventAction_TypeDefinitionIndex = 31240;
 
 	enum class Player_CriManaUnityPlayer_RenderEventAction : ::System::Int32
 	{

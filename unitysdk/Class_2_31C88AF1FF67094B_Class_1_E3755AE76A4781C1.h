@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/EntityRelationType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_2_31C88AF1FF67094B_CLASS_1_E3755AE76A4781C1__CTOR_OFFSET UNITYSDK_OFFSET(0xF56A220)
+#define CLASS_2_31C88AF1FF67094B_CLASS_1_E3755AE76A4781C1__CTOR_OFFSET UNITYSDK_OFFSET(0x11917AA0)
 
-inline static constexpr unsigned int Class_2_31C88AF1FF67094B_Class_1_E3755AE76A4781C1_TypeDefinitionIndex = 57197;
+inline static constexpr unsigned int Class_2_31C88AF1FF67094B_Class_1_E3755AE76A4781C1_TypeDefinitionIndex = 58800;
 
 class Class_2_31C88AF1FF67094B_Class_1_E3755AE76A4781C1 : public ::System::Object
 {

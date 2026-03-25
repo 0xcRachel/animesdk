@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatisticEventType_TypeDefinitionIndex = 20911;
+	inline static constexpr unsigned int StatisticEventType_TypeDefinitionIndex = 21465;
 
 	enum class StatisticEventType : ::System::Int32
 	{

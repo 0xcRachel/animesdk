@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTradingCardError_TypeDefinitionIndex = 53048;
+	inline static constexpr unsigned int PlanetFesTradingCardError_TypeDefinitionIndex = 54186;
 
 	enum class PlanetFesTradingCardError : ::System::Int32
 	{

@@ -6,12 +6,12 @@
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERABLENDCONFIG_METHOD_1_33F136CE7E515FA3_OFFSET UNITYSDK_OFFSET(0xA5EE770)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA5EE860)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERABLENDCONFIG_METHOD_1_33F136CE7E515FA3_OFFSET UNITYSDK_OFFSET(0xAB32210)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB32300)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCameraBlendConfig_TypeDefinitionIndex = 38586;
+	inline static constexpr unsigned int BPCameraBlendConfig_TypeDefinitionIndex = 39566;
 
 	class BPCameraBlendConfig : public ::System::Object
 	{

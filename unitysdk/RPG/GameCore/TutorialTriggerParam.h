@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17137AF0)
-#define RPG_GAMECORE_TUTORIALTRIGGERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x17137C00)
+#define RPG_GAMECORE_TUTORIALTRIGGERPARAM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178F3CC0)
+#define RPG_GAMECORE_TUTORIALTRIGGERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x178F3DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 14004;
+	inline static constexpr unsigned int TutorialTriggerParam_TypeDefinitionIndex = 14120;
 
 	class TutorialTriggerParam : public ::System::Object
 	{

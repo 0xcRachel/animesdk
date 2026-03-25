@@ -7,23 +7,23 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Reflection { class Assembly; }
 
-#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x156A4C40)
-#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x156A4C30)
+#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D9D540)
+#define MESSAGEPACK_RESOLVERS_SOURCEGENERATEDFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D9D530)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int SourceGeneratedFormatterResolver_TypeDefinitionIndex = 9548;
+	inline static constexpr unsigned int SourceGeneratedFormatterResolver_TypeDefinitionIndex = 9126;
 
 	class SourceGeneratedFormatterResolver : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>** StaticGet_AssemblyResolverCache()
-		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(SourceGeneratedFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x260D0);
-		}
 		static ::MessagePack::Resolvers::SourceGeneratedFormatterResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::SourceGeneratedFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(SourceGeneratedFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x260D8);
+			return (::MessagePack::Resolvers::SourceGeneratedFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(SourceGeneratedFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x19C50);
+		}
+		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>** StaticGet_AssemblyResolverCache()
+		{
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::Assembly*, ::MessagePack::IFormatterResolver*>**)Il2CppClass::FromTypeDefinitionIndex(SourceGeneratedFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x19C58);
 		}
 
 		::System::Void _ctor()

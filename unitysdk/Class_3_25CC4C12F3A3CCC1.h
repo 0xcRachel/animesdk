@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeTargetModifierEffectState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_25CC4C12F3A3CCC1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x84969A0)
-#define CLASS_3_25CC4C12F3A3CCC1__CTOR_OFFSET UNITYSDK_OFFSET(0x8496970)
+#define CLASS_3_25CC4C12F3A3CCC1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x106408C0)
+#define CLASS_3_25CC4C12F3A3CCC1__CTOR_OFFSET UNITYSDK_OFFSET(0x10640890)
 
-inline static constexpr unsigned int Class_3_25CC4C12F3A3CCC1_TypeDefinitionIndex = 42916;
+inline static constexpr unsigned int Class_3_25CC4C12F3A3CCC1_TypeDefinitionIndex = 43967;
 
 class Class_3_25CC4C12F3A3CCC1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeTargetModifierEffectState*>
 {

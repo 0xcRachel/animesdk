@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimChildPresetItemConfig; }
 
-#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG_METHOD_2_C25A99E45C6868C1_OFFSET UNITYSDK_OFFSET(0x16AB64C0)
-#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB6590)
+#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG_METHOD_2_C25A99E45C6868C1_OFFSET UNITYSDK_OFFSET(0x172003D0)
+#define RPG_GAMECORE_FIVEDIMCHILDPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172004A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimChildPresetConfig_TypeDefinitionIndex = 15063;
+	inline static constexpr unsigned int FiveDimChildPresetConfig_TypeDefinitionIndex = 15319;
 
 	class FiveDimChildPresetConfig : public ::RPG::GameCore::JsonConfig
 	{

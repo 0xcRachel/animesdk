@@ -15,6 +15,7 @@ namespace RPG::GameCore
 		BPNeed = 5,
 		BPAdd = 6,
 		DelayRatio = 7,
-		Count = 8,
+		SkillIndex = 8,
+		Count = 9,
 	};
 }

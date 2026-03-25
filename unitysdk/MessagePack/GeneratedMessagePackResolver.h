@@ -5,20 +5,20 @@
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x160208D0)
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16020920)
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x160208C0)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x16705260)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x167052B0)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x16705250)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_TypeDefinitionIndex = 27529;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_TypeDefinitionIndex = 28267;
 
 	class GeneratedMessagePackResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::IFormatterResolver** StaticGet_Field_1_0()
 		{
-			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(GeneratedMessagePackResolver_TypeDefinitionIndex)->GetStaticField(0x35900);
+			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(GeneratedMessagePackResolver_TypeDefinitionIndex)->GetStaticField(0x45280);
 		}
 
 		::System::Void _ctor()

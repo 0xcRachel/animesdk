@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int AttributeCollection_AttributeEntry_TypeDefinitionIndex = 2546;
+	inline static constexpr unsigned int AttributeCollection_AttributeEntry_TypeDefinitionIndex = 2551;
 
 	struct alignas(8) AttributeCollection_AttributeEntry
 	{

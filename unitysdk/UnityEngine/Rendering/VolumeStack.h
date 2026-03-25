@@ -9,25 +9,25 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine::Rendering { class VolumeComponent; }
 namespace UnityEngine::Rendering { class VolumeStack_RuntimeTypeHandleComparer; }
 
-#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKORUPDATEVERSION_OFFSET UNITYSDK_OFFSET(0x180EC670)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKVERSION_OFFSET UNITYSDK_OFFSET(0x180EC690)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x180E9750)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_GETCOMPONENT_OFFSET UNITYSDK_OFFSET(0x180EA140)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_ISVALID_OFFSET UNITYSDK_OFFSET(0x180EC650)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_RELOAD_OFFSET UNITYSDK_OFFSET(0x180E8B40)
-#define UNITYENGINE_RENDERING_VOLUMESTACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x180EC6A0)
-#define UNITYENGINE_RENDERING_VOLUMESTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x180E8580)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKORUPDATEVERSION_OFFSET UNITYSDK_OFFSET(0x189146D0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKVERSION_OFFSET UNITYSDK_OFFSET(0x189146F0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x189117B0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_GETCOMPONENT_OFFSET UNITYSDK_OFFSET(0x189121A0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_ISVALID_OFFSET UNITYSDK_OFFSET(0x189146B0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_RELOAD_OFFSET UNITYSDK_OFFSET(0x18910BA0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x18914700)
+#define UNITYENGINE_RENDERING_VOLUMESTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x189105E0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeStack_TypeDefinitionIndex = 27218;
+	inline static constexpr unsigned int VolumeStack_TypeDefinitionIndex = 27954;
 
 	class VolumeStack : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer** StaticGet__typeHandleComparer()
 		{
-			return (::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer**)Il2CppClass::FromTypeDefinitionIndex(VolumeStack_TypeDefinitionIndex)->GetStaticField(0x27920);
+			return (::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer**)Il2CppClass::FromTypeDefinitionIndex(VolumeStack_TypeDefinitionIndex)->GetStaticField(0x253C0);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::UnityEngine::Rendering::VolumeComponent*>* components; // 0x10
 		::System::Int32 _version; // 0x18

@@ -6,20 +6,20 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELMOVESTRUCTGAMEVIEW_METHOD_8_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x955CF80)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELMOVESTRUCTGAMEVIEW_METHOD_8_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x955CE40)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELMOVESTRUCTGAMEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x955CE90)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELMOVESTRUCTGAMEVIEW_METHOD_8_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x9A37A90)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELMOVESTRUCTGAMEVIEW_METHOD_8_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9A37A30)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELMOVESTRUCTGAMEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A37A80)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelMoveStructGameView_TypeDefinitionIndex = 60578;
+	inline static constexpr unsigned int FourRotateVoxelMoveStructGameView_TypeDefinitionIndex = 62556;
 
 	class FourRotateVoxelMoveStructGameView : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* TargetPositions; // 0x98
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PrivateTargetPositions; // 0xA0
-		::System::Collections::Generic::List_1<::System::Single>* MoveDurations; // 0xA8
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* TargetPositions; // 0xD8
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PrivateTargetPositions; // 0xE0
+		::System::Collections::Generic::List_1<::System::Single>* MoveDurations; // 0xE8
 
 		::System::Void _ctor()
 		{

@@ -4,33 +4,33 @@
 #include "unitysdk/System/NumberBuffer.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NUMBER_DECIMALTONUMBER_OFFSET UNITYSDK_OFFSET(0x17D15110)
-#define SYSTEM_NUMBER_NUMBERBUFFERTODECIMAL_OFFSET UNITYSDK_OFFSET(0x17D17CF0)
-#define SYSTEM_NUMBER_ROUNDNUMBER_OFFSET UNITYSDK_OFFSET(0x17D15DF0)
-#define SYSTEM_NUMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D19360)
+#define SYSTEM_NUMBER_DECIMALTONUMBER_OFFSET UNITYSDK_OFFSET(0x1852C4F0)
+#define SYSTEM_NUMBER_NUMBERBUFFERTODECIMAL_OFFSET UNITYSDK_OFFSET(0x1852F0D0)
+#define SYSTEM_NUMBER_ROUNDNUMBER_OFFSET UNITYSDK_OFFSET(0x1852D1D0)
+#define SYSTEM_NUMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18530740)
 
 namespace System
 {
-	inline static constexpr unsigned int Number_TypeDefinitionIndex = 4867;
+	inline static constexpr unsigned int Number_TypeDefinitionIndex = 4966;
 
 	class Number : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::UInt64>** StaticGet_s_rgval64Power10()
 		{
-			return (::Il2CppArray<::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x270);
+			return (::Il2CppArray<::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x220);
 		}
 		static ::Il2CppArray<::System::Int16>** StaticGet_s_rgexp64Power10By16()
 		{
-			return (::Il2CppArray<::System::Int16>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x278);
+			return (::Il2CppArray<::System::Int16>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x228);
 		}
 		static ::Il2CppArray<::System::UInt64>** StaticGet_s_rgval64Power10By16()
 		{
-			return (::Il2CppArray<::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x280);
+			return (::Il2CppArray<::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x230);
 		}
 		static ::Il2CppArray<::System::SByte>** StaticGet_s_rgexp64Power10()
 		{
-			return (::Il2CppArray<::System::SByte>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x288);
+			return (::Il2CppArray<::System::SByte>**)Il2CppClass::FromTypeDefinitionIndex(Number_TypeDefinitionIndex)->GetStaticField(0x238);
 		}
 
 		static ::System::Void _cctor()

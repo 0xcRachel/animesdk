@@ -7,32 +7,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16865FE0)
-#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16866530)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F73980)
+#define RPG_GAMECORE_AETHERDIVIDECHALLENGELISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F73ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideChallengeListRow_TypeDefinitionIndex = 10240;
+	inline static constexpr unsigned int AetherDivideChallengeListRow_TypeDefinitionIndex = 10244;
 
 	class AetherDivideChallengeListRow : public ::System::Object
 	{
 	public:
 		::System::String* OpponentImagePath; // 0x10
-		::System::String* VersusImagePath; // 0x18
+		::System::String* OpponentImageIconPath; // 0x18
 		::System::String* OpponentPrefabPath; // 0x20
-		::System::String* OpponentImageIconPath; // 0x28
-		::RPG::GameCore::AetherDivideChallengeType ChallengeType; // 0x30
-		::System::UInt32 Rank; // 0x34
-		::RPG::Client::TextID OpponentName; // 0x38
-		::System::UInt32 RewardID; // 0x48
-		::System::UInt32 MissionID; // 0x4C
-		::System::UInt32 EventID; // 0x50
+		::System::String* VersusImagePath; // 0x28
+		::RPG::Client::TextID Signature; // 0x30
+		::RPG::Client::TextID OpponentName; // 0x40
+		::System::UInt32 MissionID; // 0x50
 		::System::UInt32 BattleAreaID; // 0x54
-		::System::UInt32 MazeBuffID; // 0x58
-		::System::UInt32 GroupID; // 0x5C
-		::System::UInt32 ID; // 0x60
-		::System::UInt32 OpponentStrength; // 0x64
-		::RPG::Client::TextID Signature; // 0x68
+		::System::UInt32 RewardID; // 0x58
+		::System::UInt32 EventID; // 0x5C
+		::System::UInt32 GroupID; // 0x60
+		::System::UInt32 Rank; // 0x64
+		::System::UInt32 ID; // 0x68
+		::System::UInt32 MazeBuffID; // 0x6C
+		::System::UInt32 OpponentStrength; // 0x70
+		::RPG::GameCore::AetherDivideChallengeType ChallengeType; // 0x74
 
 		::System::Void _ctor()
 		{

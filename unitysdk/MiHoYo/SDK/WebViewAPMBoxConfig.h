@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBVIEWAPMBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15988CF0)
+#define MIHOYO_SDK_WEBVIEWAPMBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16057D20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebViewAPMBoxConfig_TypeDefinitionIndex = 6807;
+	inline static constexpr unsigned int WebViewAPMBoxConfig_TypeDefinitionIndex = 6919;
 
 	class WebViewAPMBoxConfig : public ::System::Object
 	{

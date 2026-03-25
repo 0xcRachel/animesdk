@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class MiniEmoEffectNodeVisible; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOEFFECTNODE_METHOD_1_57970938A8CBBC79_OFFSET UNITYSDK_OFFSET(0xA67A890)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xA67A900)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOEFFECTNODE_METHOD_1_57970938A8CBBC79_OFFSET UNITYSDK_OFFSET(0xABC1B80)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONCLIP_MINIEMOEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0xABC1BF0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int MiniEmotionClip_MiniEmoEffectNode_TypeDefinitionIndex = 38483;
+	inline static constexpr unsigned int MiniEmotionClip_MiniEmoEffectNode_TypeDefinitionIndex = 39463;
 
 	class MiniEmotionClip_MiniEmoEffectNode : public ::System::Object
 	{

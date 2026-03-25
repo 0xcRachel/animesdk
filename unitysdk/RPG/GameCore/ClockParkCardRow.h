@@ -8,29 +8,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x169A8210)
-#define RPG_GAMECORE_CLOCKPARKCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x169A86F0)
+#define RPG_GAMECORE_CLOCKPARKCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170CA390)
+#define RPG_GAMECORE_CLOCKPARKCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170CA870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCardRow_TypeDefinitionIndex = 10380;
+	inline static constexpr unsigned int ClockParkCardRow_TypeDefinitionIndex = 10450;
 
 	class ClockParkCardRow : public ::System::Object
 	{
 	public:
-		::System::String* ImgPath; // 0x10
-		::System::String* ForeImgPath; // 0x18
-		::Il2CppArray<::System::UInt32>* CardActionList; // 0x20
-		::Il2CppArray<::System::UInt32>* CardConflictTagList; // 0x28
-		::System::UInt32 CardTipsParam; // 0x30
+		::Il2CppArray<::System::UInt32>* CardActionList; // 0x10
+		::System::String* ImgPath; // 0x18
+		::Il2CppArray<::System::UInt32>* CardConflictTagList; // 0x20
+		::System::String* ForeImgPath; // 0x28
+		::RPG::GameCore::ClockParkCardType CardType; // 0x30
+		::System::UInt32 CardTipsParam; // 0x34
 		::RPG::Client::TextID CardDesc; // 0x38
-		::System::UInt32 Priority; // 0x48
-		::System::UInt32 CardDiceNum; // 0x4C
-		::System::UInt32 CardID; // 0x50
-		::RPG::GameCore::ClockParkCardTipsTypeEnum CardTips; // 0x54
-		::RPG::GameCore::ClockParkCardType CardType; // 0x58
-		::System::UInt32 CardOriginalParam; // 0x5C
-		::RPG::Client::TextID CardTag; // 0x60
+		::System::UInt32 CardOriginalParam; // 0x48
+		::RPG::GameCore::ClockParkCardTipsTypeEnum CardTips; // 0x4C
+		::RPG::Client::TextID CardTag; // 0x50
+		::System::UInt32 CardDiceNum; // 0x60
+		::System::UInt32 Priority; // 0x64
+		::System::UInt32 CardID; // 0x68
 
 		::System::Void _ctor()
 		{

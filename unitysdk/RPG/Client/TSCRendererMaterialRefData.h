@@ -8,14 +8,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_12BCC32788A72B8E_OFFSET UNITYSDK_OFFSET(0xA024760)
-#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_30FA428D12D403DC_OFFSET UNITYSDK_OFFSET(0xA0249C0)
-#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_F5B4708E7805566C_OFFSET UNITYSDK_OFFSET(0xA024960)
-#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0246A0)
+#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_30FA428D12D403DC_OFFSET UNITYSDK_OFFSET(0xA5464D0)
+#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_BBA149001B495317_OFFSET UNITYSDK_OFFSET(0xA546390)
+#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_F5B4708E7805566C_OFFSET UNITYSDK_OFFSET(0xA5465D0)
+#define RPG_CLIENT_TSCRENDERERMATERIALREFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA546380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TSCRendererMaterialRefData_TypeDefinitionIndex = 55903;
+	inline static constexpr unsigned int TSCRendererMaterialRefData_TypeDefinitionIndex = 57465;
 
 	class TSCRendererMaterialRefData : public ::System::Object
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::MeshRenderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TSCRENDERERMATERIALREFDATA__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_12BCC32788A72B8E(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*& a2)
+		::System::Void Method_1_BBA149001B495317(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*& a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_12BCC32788A72B8E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Material*>*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TSCRENDERERMATERIALREFDATA_METHOD_1_BBA149001B495317_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_1_30FA428D12D403DC(::UnityEngine::Material* a1)

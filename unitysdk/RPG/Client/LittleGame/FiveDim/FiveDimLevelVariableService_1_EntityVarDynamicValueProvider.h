@@ -9,7 +9,7 @@ class Class_1_BFC94D6B3CE54520;
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimLevelVariableService_1_EntityVarDynamicValueProvider_TypeDefinitionIndex = 60607;
+	inline static constexpr unsigned int FiveDimLevelVariableService_1_EntityVarDynamicValueProvider_TypeDefinitionIndex = 62585;
 
 	template <typename TEntity>
 	class FiveDimLevelVariableService_1_EntityVarDynamicValueProvider : public ::System::Object

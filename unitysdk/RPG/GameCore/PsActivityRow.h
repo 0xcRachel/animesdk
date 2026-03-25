@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PSACTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DBB9F0)
-#define RPG_GAMECORE_PSACTIVITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DBBCF0)
+#define RPG_GAMECORE_PSACTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17587A10)
+#define RPG_GAMECORE_PSACTIVITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17587D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PsActivityRow_TypeDefinitionIndex = 11856;
+	inline static constexpr unsigned int PsActivityRow_TypeDefinitionIndex = 11926;
 
 	class PsActivityRow : public ::System::Object
 	{

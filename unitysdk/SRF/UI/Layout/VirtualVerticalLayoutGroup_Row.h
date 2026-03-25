@@ -6,11 +6,11 @@ namespace SRF::UI { class StyleRoot; }
 namespace SRF::UI::Layout { class IVirtualView; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRF_UI_LAYOUT_VIRTUALVERTICALLAYOUTGROUP_ROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17C72090)
+#define SRF_UI_LAYOUT_VIRTUALVERTICALLAYOUTGROUP_ROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18487D00)
 
 namespace SRF::UI::Layout
 {
-	inline static constexpr unsigned int VirtualVerticalLayoutGroup_Row_TypeDefinitionIndex = 26957;
+	inline static constexpr unsigned int VirtualVerticalLayoutGroup_Row_TypeDefinitionIndex = 27693;
 
 	class VirtualVerticalLayoutGroup_Row : public ::System::Object
 	{

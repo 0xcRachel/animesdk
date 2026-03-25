@@ -4,20 +4,20 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTUPGRADEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x946AFB0)
+#define RPG_CLIENT_GRIDFIGHTUPGRADEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x98EE860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUpgradeEvent_TypeDefinitionIndex = 51790;
+	inline static constexpr unsigned int GridFightUpgradeEvent_TypeDefinitionIndex = 52924;
 
 	class GridFightUpgradeEvent : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightRole* SecondRemovedRole; // 0x10
-		::RPG::Client::GridFightRole* FirstRemovedRole; // 0x18
+		::RPG::Client::GridFightRole* FirstRemovedRole; // 0x10
+		::RPG::Client::GridFightRole* SecondRemovedRole; // 0x18
 		::RPG::Client::GridFightRole* UpgradedRole; // 0x20
-		::System::Int32 SecondBuyIndex; // 0x28
-		::System::Int32 FirstBuyIndex; // 0x2C
+		::System::Int32 FirstBuyIndex; // 0x28
+		::System::Int32 SecondBuyIndex; // 0x2C
 
 		::System::Void _ctor(::RPG::Client::GridFightRole* upgradedRole, ::RPG::Client::GridFightRole* firstRemovedRole, ::RPG::Client::GridFightRole* secondRemovedRole)
 		{

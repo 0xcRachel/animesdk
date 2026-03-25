@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChessByIsContainModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6584281C1B0AD157_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10BC8BA0)
-#define CLASS_3_6584281C1B0AD157__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC8B70)
+#define CLASS_3_6584281C1B0AD157_EVALUATE_OFFSET UNITYSDK_OFFSET(0x886C5F0)
+#define CLASS_3_6584281C1B0AD157__CTOR_OFFSET UNITYSDK_OFFSET(0x886C5C0)
 
-inline static constexpr unsigned int Class_3_6584281C1B0AD157_TypeDefinitionIndex = 44135;
+inline static constexpr unsigned int Class_3_6584281C1B0AD157_TypeDefinitionIndex = 45195;
 
 class Class_3_6584281C1B0AD157 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ChessByIsContainModifier*>
 {

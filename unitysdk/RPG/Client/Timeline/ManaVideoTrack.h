@@ -8,23 +8,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA0BEA80)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_METHOD_5_1F9AE82B89E72DD5_OFFSET UNITYSDK_OFFSET(0xA0BF400)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA0BF770)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0BF8E0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA0BF7F0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA0BF9A0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA5E4A90)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_METHOD_5_1F9AE82B89E72DD5_OFFSET UNITYSDK_OFFSET(0xA5E5410)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA5E5780)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5E58F0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E5800)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xA5E5990)
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 58464;
+	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 60120;
 
 	class ManaVideoTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>** StaticGet_bindDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(ManaVideoTrack_TypeDefinitionIndex)->GetStaticField(0x2B5F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(ManaVideoTrack_TypeDefinitionIndex)->GetStaticField(0x439A0);
 		}
 		::System::Guid guid; // 0xC8
 

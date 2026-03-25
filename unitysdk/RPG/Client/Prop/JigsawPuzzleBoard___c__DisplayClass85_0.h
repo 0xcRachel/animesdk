@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C3ACF0)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS85_0___PLAYDISSOLVECURVEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x9C3C0F0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS85_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C79E0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEBOARD___C__DISPLAYCLASS85_0___PLAYDISSOLVECURVEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xA0C8DE0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass85_0_TypeDefinitionIndex = 61917;
+	inline static constexpr unsigned int JigsawPuzzleBoard___c__DisplayClass85_0_TypeDefinitionIndex = 64104;
 
 	class JigsawPuzzleBoard___c__DisplayClass85_0 : public ::System::Object
 	{

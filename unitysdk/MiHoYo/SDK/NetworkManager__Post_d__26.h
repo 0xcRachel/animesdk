@@ -10,31 +10,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15875B80)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15876030)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15876090)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15876040)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15875B70)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26__CTOR_OFFSET UNITYSDK_OFFSET(0x1586ED80)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15F5BCC0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15F5C180)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15F5C1E0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15F5C190)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F5BCB0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__26__CTOR_OFFSET UNITYSDK_OFFSET(0x15F55090)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Post_d__26_TypeDefinitionIndex = 7023;
+	inline static constexpr unsigned int NetworkManager__Post_d__26_TypeDefinitionIndex = 7148;
 
 	class NetworkManager__Post_d__26 : public ::System::Object
 	{
 	public:
 		::System::String* bodyString; // 0x10
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
-		::System::String* requestUrl; // 0x20
-		::System::Object* __2__current; // 0x28
-		::MiHoYo::SDK::JSONNode_KeyEnumerator __s__3; // 0x30
-		::System::String* _key_5__4; // 0x78
-		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x80
-		::System::String* extHeaders; // 0x88
+		::MiHoYo::SDK::JSONNode_KeyEnumerator __s__3; // 0x20
+		::System::String* requestUrl; // 0x68
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x78
+		::System::String* extHeaders; // 0x80
+		::System::Action* timeoutCallback; // 0x88
 		::MiHoYo::SDK::JSONNode* _extHeaderNode_5__2; // 0x90
-		::System::Action* timeoutCallback; // 0x98
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0xA0
+		::System::String* _key_5__4; // 0x98
+		::System::Object* __2__current; // 0xA0
 		::System::Int32 retryTime; // 0xA8
 		::System::Int32 __1__state; // 0xAC
 		::System::Single timeoutSecond; // 0xB0

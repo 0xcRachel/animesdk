@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipReturnPackEvent_EquipReturnPackSource_TypeDefinitionIndex = 51578;
+	inline static constexpr unsigned int GridFightEquipReturnPackEvent_EquipReturnPackSource_TypeDefinitionIndex = 52712;
 
 	enum class GridFightEquipReturnPackEvent_EquipReturnPackSource : ::System::Int32
 	{

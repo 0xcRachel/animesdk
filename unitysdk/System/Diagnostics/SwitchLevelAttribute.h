@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_DIAGNOSTICS_SWITCHLEVELATTRIBUTE_SET_SWITCHLEVELTYPE_OFFSET UNITYSDK_OFFSET(0x17E90D30)
-#define SYSTEM_DIAGNOSTICS_SWITCHLEVELATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E90CC0)
+#define SYSTEM_DIAGNOSTICS_SWITCHLEVELATTRIBUTE_SET_SWITCHLEVELTYPE_OFFSET UNITYSDK_OFFSET(0x186BABE0)
+#define SYSTEM_DIAGNOSTICS_SWITCHLEVELATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x186BAB70)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int SwitchLevelAttribute_TypeDefinitionIndex = 2518;
+	inline static constexpr unsigned int SwitchLevelAttribute_TypeDefinitionIndex = 2523;
 
 	class SwitchLevelAttribute : public ::System::Attribute
 	{

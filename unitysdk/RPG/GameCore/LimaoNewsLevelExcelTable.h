@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16BBF050)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16BBEEA0)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16BBEB70)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16BBEE40)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16BBF220)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16BBEBF0)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16BBF260)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BBF440)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16BBF760)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BBFAC0)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16BBF3A0)
-#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16BBF300)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x173625D0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17362420)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x173620F0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x173623C0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x173627A0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17362170)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x173627E0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x173629C0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17362CE0)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17363040)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17362920)
+#define RPG_GAMECORE_LIMAONEWSLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17362880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsLevelExcelTable_TypeDefinitionIndex = 12689;
+	inline static constexpr unsigned int LimaoNewsLevelExcelTable_TypeDefinitionIndex = 12760;
 
 	class LimaoNewsLevelExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x341E0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x15A90);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LimaoNewsLevelRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LimaoNewsLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x341E8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LimaoNewsLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x15A98);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x341F0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xC830);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x15AA0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xC831);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x8D10);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x8D11);
 		}
 
 		static ::System::Void _cctor()

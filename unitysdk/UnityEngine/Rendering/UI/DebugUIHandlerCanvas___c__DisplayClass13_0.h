@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180DC0C0)
-#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__DISPLAYCLASS13_0__GETWIDGETFROMPATH_B__0_OFFSET UNITYSDK_OFFSET(0x180DC740)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18904120)
+#define UNITYENGINE_RENDERING_UI_DEBUGUIHANDLERCANVAS___C__DISPLAYCLASS13_0__GETWIDGETFROMPATH_B__0_OFFSET UNITYSDK_OFFSET(0x189047A0)
 
 namespace UnityEngine::Rendering::UI
 {
-	inline static constexpr unsigned int DebugUIHandlerCanvas___c__DisplayClass13_0_TypeDefinitionIndex = 27228;
+	inline static constexpr unsigned int DebugUIHandlerCanvas___c__DisplayClass13_0_TypeDefinitionIndex = 27964;
 
 	class DebugUIHandlerCanvas___c__DisplayClass13_0 : public ::System::Object
 	{

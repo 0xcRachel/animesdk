@@ -6,20 +6,20 @@ namespace RPG::GameCore { class ShowRogueShopInfoDialog; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_7D952C9ECDC3F33C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10E41FE0)
-#define CLASS_2_7D952C9ECDC3F33C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E42080)
-#define CLASS_2_7D952C9ECDC3F33C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10E42100)
-#define CLASS_2_7D952C9ECDC3F33C_TICK_OFFSET UNITYSDK_OFFSET(0x10E42020)
-#define CLASS_2_7D952C9ECDC3F33C__CTOR_OFFSET UNITYSDK_OFFSET(0x10E41FD0)
+#define CLASS_2_7D952C9ECDC3F33C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD1BBBA0)
+#define CLASS_2_7D952C9ECDC3F33C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD1BBC40)
+#define CLASS_2_7D952C9ECDC3F33C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD1BBCC0)
+#define CLASS_2_7D952C9ECDC3F33C_TICK_OFFSET UNITYSDK_OFFSET(0xD1BBBE0)
+#define CLASS_2_7D952C9ECDC3F33C__CTOR_OFFSET UNITYSDK_OFFSET(0xD1BBB90)
 
-inline static constexpr unsigned int Class_2_7D952C9ECDC3F33C_TypeDefinitionIndex = 46292;
+inline static constexpr unsigned int Class_2_7D952C9ECDC3F33C_TypeDefinitionIndex = 47368;
 
 class Class_2_7D952C9ECDC3F33C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_2; // 0x0
-	::RPG::GameCore::ShowRogueShopInfoDialog* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::ShowRogueShopInfoDialog* Field_2_0; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowRogueShopInfoDialog* a2)
 	{

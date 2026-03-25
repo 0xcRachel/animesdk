@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GravitySwitchLineJumpEnergyMode.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-#include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_3866B1D6F3B09F29_OFFSET UNITYSDK_OFFSET(0x16AC0BB0)
-#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_3933E5E98E632A17_OFFSET UNITYSDK_OFFSET(0x16AC0C20)
-#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC0C00)
+#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_3866B1D6F3B09F29_OFFSET UNITYSDK_OFFSET(0x172097A0)
+#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG_METHOD_3_3933E5E98E632A17_OFFSET UNITYSDK_OFFSET(0x17209810)
+#define RPG_GAMECORE_FIVEDIMGRAVITYSWITCHLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172097F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGravitySwitchLineConfig_TypeDefinitionIndex = 16686;
+	inline static constexpr unsigned int FiveDimGravitySwitchLineConfig_TypeDefinitionIndex = 17061;
 
 	class FiveDimGravitySwitchLineConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -27,7 +26,8 @@ namespace RPG::GameCore
 		::System::Single Length; // 0x30
 		::RPG::GameCore::GravitySwitchLineJumpEnergyMode ModifyJumpEnergy; // 0x34
 		::System::String* LineTraceEffectPath; // 0x38
-		::RPG::MVector3 LineTraceOffset; // 0x40
+		::System::String* PassGravityLineEffectPath; // 0x40
+		::System::Single EffectLengthScaleFactor; // 0x48
 		::System::Boolean SendEventOnInit; // 0x4C
 		::RPG::GameCore::LittleGameEvent* InactiveEvent; // 0x50
 		::RPG::GameCore::LittleGameEvent* ActiveEvent; // 0x58

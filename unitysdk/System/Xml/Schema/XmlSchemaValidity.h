@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaValidity_TypeDefinitionIndex = 2201;
+	inline static constexpr unsigned int XmlSchemaValidity_TypeDefinitionIndex = 2206;
 
 	enum class XmlSchemaValidity : ::System::Int32
 	{

@@ -7,20 +7,20 @@ namespace RPG::CustomRP { class CaptureScene; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x16383450)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x16383610)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__2_OFFSET UNITYSDK_OFFSET(0x16383720)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163828E0)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x16A92520)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x16A926E0)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__2_OFFSET UNITYSDK_OFFSET(0x16A927F0)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A91990)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene___c__DisplayClass10_0_TypeDefinitionIndex = 28345;
+	inline static constexpr unsigned int CaptureScene___c__DisplayClass10_0_TypeDefinitionIndex = 29220;
 
 	class CaptureScene___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* cameraTran; // 0x10
-		::RPG::CustomRP::CaptureScene* __4__this; // 0x18
+		::RPG::CustomRP::CaptureScene* __4__this; // 0x10
+		::UnityEngine::Transform* cameraTran; // 0x18
 		::UnityEngine::Camera* camera; // 0x20
 
 		::System::Void _ctor()

@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_COLORGRADINGPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD5F70)
-#define RPG_CUSTOMRP_PPFILTERSTACK_COLORGRADINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xD5F60)
+#define RPG_CUSTOMRP_PPFILTERSTACK_COLORGRADINGPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x873A0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_COLORGRADINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x87390)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_ColorGradingParameter_TypeDefinitionIndex = 40839;
+	inline static constexpr unsigned int PPFilterStack_ColorGradingParameter_TypeDefinitionIndex = 41887;
 
 	struct alignas(4) PPFilterStack_ColorGradingParameter
 	{

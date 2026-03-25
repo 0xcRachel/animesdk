@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_848_TypeDefinitionIndex = 58887;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_848_TypeDefinitionIndex = 58775;
 
 class Class_0_16E4307DCC419505_848
 {

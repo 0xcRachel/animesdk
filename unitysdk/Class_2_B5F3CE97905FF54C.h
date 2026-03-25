@@ -7,10 +7,10 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CLASS_2_B5F3CE97905FF54C_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xACA3A00)
-#define CLASS_2_B5F3CE97905FF54C__CTOR_OFFSET UNITYSDK_OFFSET(0xACA3980)
+#define CLASS_2_B5F3CE97905FF54C_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x1054E000)
+#define CLASS_2_B5F3CE97905FF54C__CTOR_OFFSET UNITYSDK_OFFSET(0x1054DF80)
 
-inline static constexpr unsigned int Class_2_B5F3CE97905FF54C_TypeDefinitionIndex = 58304;
+inline static constexpr unsigned int Class_2_B5F3CE97905FF54C_TypeDefinitionIndex = 59954;
 
 class Class_2_B5F3CE97905FF54C : public ::Class_1_E8C81730380D9B3A
 {

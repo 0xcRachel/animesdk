@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubmissionLogicType_TypeDefinitionIndex = 17024;
+	inline static constexpr unsigned int SubmissionLogicType_TypeDefinitionIndex = 17429;
 
 	enum class SubmissionLogicType : ::System::Int32
 	{

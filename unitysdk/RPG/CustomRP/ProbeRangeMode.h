@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ProbeRangeMode_TypeDefinitionIndex = 28429;
+	inline static constexpr unsigned int ProbeRangeMode_TypeDefinitionIndex = 29304;
 
 	enum class ProbeRangeMode : ::System::Int32
 	{

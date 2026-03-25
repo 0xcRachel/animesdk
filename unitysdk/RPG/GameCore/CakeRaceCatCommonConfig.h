@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACECATCOMMONCONFIG_METHOD_2_1F8EC0736D520DEE_OFFSET UNITYSDK_OFFSET(0x1694B870)
-#define RPG_GAMECORE_CAKERACECATCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1694BF80)
+#define RPG_GAMECORE_CAKERACECATCOMMONCONFIG_METHOD_2_1F8EC0736D520DEE_OFFSET UNITYSDK_OFFSET(0x1705D8D0)
+#define RPG_GAMECORE_CAKERACECATCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1705DFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceCatCommonConfig_TypeDefinitionIndex = 16525;
+	inline static constexpr unsigned int CakeRaceCatCommonConfig_TypeDefinitionIndex = 16899;
 
 	class CakeRaceCatCommonConfig : public ::RPG::GameCore::JsonConfig
 	{

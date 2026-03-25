@@ -5,49 +5,49 @@
 namespace RPG::Client { class QuestData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x941D7C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x941D800)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_ANYFINISHED_B__14_0_OFFSET UNITYSDK_OFFSET(0x941D810)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_ISCOMPLETED_B__16_0_OFFSET UNITYSDK_OFFSET(0x941D830)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__22_0_OFFSET UNITYSDK_OFFSET(0x941D850)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__22_1_OFFSET UNITYSDK_OFFSET(0x941D8C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__24_0_OFFSET UNITYSDK_OFFSET(0x941D8D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__24_1_OFFSET UNITYSDK_OFFSET(0x941D940)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98DA0E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98DA120)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_ANYFINISHED_B__14_0_OFFSET UNITYSDK_OFFSET(0x98DA130)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_ISCOMPLETED_B__16_0_OFFSET UNITYSDK_OFFSET(0x98DA150)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__22_0_OFFSET UNITYSDK_OFFSET(0x98DA170)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_QUESTS_B__22_1_OFFSET UNITYSDK_OFFSET(0x98DA1E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__24_0_OFFSET UNITYSDK_OFFSET(0x98DA1F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHALLENGE___C__GET_STANDARDQUESTS_B__24_1_OFFSET UNITYSDK_OFFSET(0x98DA260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitChallenge___c_TypeDefinitionIndex = 51982;
+	inline static constexpr unsigned int GridFightTraitChallenge___c_TypeDefinitionIndex = 53116;
 
 	class GridFightTraitChallenge___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__24_0()
+		static ::RPG::Client::GridFightTraitChallenge___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9AE0);
-		}
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__22_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9AE8);
-		}
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__16_0()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9AF0);
-		}
-		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__24_1()
-		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9AF8);
+			return (::RPG::Client::GridFightTraitChallenge___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACB0);
 		}
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9B00);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACB8);
+		}
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__24_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACC0);
+		}
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>** StaticGet___9__22_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::QuestData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACC8);
 		}
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__22_1()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9B08);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACD0);
 		}
-		static ::RPG::Client::GridFightTraitChallenge___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::RPG::Client::GridFightTraitChallenge___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x9B10);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACD8);
+		}
+		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__24_1()
+		{
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitChallenge___c_TypeDefinitionIndex)->GetStaticField(0x1ACE0);
 		}
 
 		static ::System::Void _cctor()

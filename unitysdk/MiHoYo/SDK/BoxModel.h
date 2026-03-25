@@ -10,20 +10,22 @@ namespace MiHoYo::SDK { class KibanaNetBoxConfig; }
 namespace MiHoYo::SDK { class KibanaPCBoxConfig; }
 namespace MiHoYo::SDK { class LoginFlowNotificationBoxConfig; }
 namespace MiHoYo::SDK { class LoginRecordBoxConfig; }
+namespace MiHoYo::SDK { class NoticeNativeTaskConfig; }
 namespace MiHoYo::SDK { class PS4BindMobileConfig; }
 namespace MiHoYo::SDK { class PaymentCNBoxConfig; }
+namespace MiHoYo::SDK { class ProtocolNativeTaskConfig; }
 namespace MiHoYo::SDK { class TelemetryBoxConfig; }
 namespace MiHoYo::SDK { class WebViewAPMBoxConfig; }
 namespace MiHoYo::SDK { class WebViewRenderMethodBoxConfig; }
 namespace MiHoYo::SDK { class WebViewReportBoxConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x15712B30)
-#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1570EBF0)
+#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x15E02CA0)
+#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15DFEF40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 6813;
+	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 6928;
 
 	class BoxModel : public ::System::Object
 	{
@@ -69,6 +71,8 @@ namespace MiHoYo::SDK
 		::System::Boolean webview_enable_delegate_esc; // 0xE6
 		::MiHoYo::SDK::PS4BindMobileConfig* ps4_bind_mobile_config; // 0xE8
 		::System::Boolean domain_region_enable; // 0xF0
+		::MiHoYo::SDK::NoticeNativeTaskConfig* notice_native_task_config; // 0xF8
+		::MiHoYo::SDK::ProtocolNativeTaskConfig* protocol_native_task_config; // 0x100
 
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* json)
 		{

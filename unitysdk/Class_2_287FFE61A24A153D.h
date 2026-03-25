@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_287FFE61A24A153D_METHOD_2_DA37DFE3A5BDA9F4_OFFSET UNITYSDK_OFFSET(0xFF43030)
-#define CLASS_2_287FFE61A24A153D__CTOR_OFFSET UNITYSDK_OFFSET(0xFF42C70)
+#define CLASS_2_287FFE61A24A153D_METHOD_2_2A0F641337364AF8_OFFSET UNITYSDK_OFFSET(0xA43C1E0)
+#define CLASS_2_287FFE61A24A153D__CTOR_OFFSET UNITYSDK_OFFSET(0xA43BE20)
 
-inline static constexpr unsigned int Class_2_287FFE61A24A153D_TypeDefinitionIndex = 62422;
+inline static constexpr unsigned int Class_2_287FFE61A24A153D_TypeDefinitionIndex = 64610;
 
 class Class_2_287FFE61A24A153D : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::Type* Field_2_1; // 0x20
-	::System::String* Field_2_4; // 0x28
-	::System::String* Field_2_0; // 0x30
+	::System::String* Field_2_0; // 0x20
+	::System::Type* Field_2_1; // 0x28
+	::System::String* Field_2_4; // 0x30
 	::System::Boolean Field_2_3; // 0x38
 	::RPG::Client::CachedAssetLogicType Field_2_2; // 0x3C
 
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_2_287FFE61A24A153D__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_2_DA37DFE3A5BDA9F4()
+	::System::Void Method_2_2A0F641337364AF8()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_287FFE61A24A153D_METHOD_2_DA37DFE3A5BDA9F4_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_287FFE61A24A153D_METHOD_2_2A0F641337364AF8_OFFSET))(this);
 	}
 };

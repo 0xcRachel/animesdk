@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B55090)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS30_0__SMOOTHEXITGAME_B__0_OFFSET UNITYSDK_OFFSET(0x8B552F0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F55BD0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__DISPLAYCLASS30_0__SMOOTHEXITGAME_B__0_OFFSET UNITYSDK_OFFSET(0x8F55E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenUtils___c__DisplayClass30_0_TypeDefinitionIndex = 48789;
+	inline static constexpr unsigned int ActivityHipplenUtils___c__DisplayClass30_0_TypeDefinitionIndex = 49923;
 
 	class ActivityHipplenUtils___c__DisplayClass30_0 : public ::System::Object
 	{

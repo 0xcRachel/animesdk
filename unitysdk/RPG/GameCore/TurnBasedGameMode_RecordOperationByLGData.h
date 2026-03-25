@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedGameMode_RecordOperationByLGData_TypeDefinitionIndex = 42338;
+	inline static constexpr unsigned int TurnBasedGameMode_RecordOperationByLGData_TypeDefinitionIndex = 43387;
 
 	struct alignas(4) TurnBasedGameMode_RecordOperationByLGData
 	{

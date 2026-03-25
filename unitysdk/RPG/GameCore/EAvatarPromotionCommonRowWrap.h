@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAvatarPromotionCommonRowWrap_TypeDefinitionIndex = 22086;
+	inline static constexpr unsigned int EAvatarPromotionCommonRowWrap_TypeDefinitionIndex = 22651;
 
 	enum class EAvatarPromotionCommonRowWrap : ::System::Byte
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTCLIP_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA60D270)
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA60D280)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTCLIP_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB52380)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB52390)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CustomEventClip_TypeDefinitionIndex = 38233;
+	inline static constexpr unsigned int CustomEventClip_TypeDefinitionIndex = 39213;
 
 	class CustomEventClip : public ::UnityEngine::Playables::PlayableAsset
 	{

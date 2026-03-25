@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDEHINTADAPTCONFIG_METHOD_2_137099894272D18B_OFFSET UNITYSDK_OFFSET(0x17133D80)
-#define RPG_GAMECORE_TUTORIALGUIDEHINTADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17133F00)
+#define RPG_GAMECORE_TUTORIALGUIDEHINTADAPTCONFIG_METHOD_2_137099894272D18B_OFFSET UNITYSDK_OFFSET(0x178EFE40)
+#define RPG_GAMECORE_TUTORIALGUIDEHINTADAPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178EFFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideHintAdaptConfig_TypeDefinitionIndex = 21875;
+	inline static constexpr unsigned int TutorialGuideHintAdaptConfig_TypeDefinitionIndex = 22440;
 
 	class TutorialGuideHintAdaptConfig : public ::RPG::GameCore::JsonConfig
 	{

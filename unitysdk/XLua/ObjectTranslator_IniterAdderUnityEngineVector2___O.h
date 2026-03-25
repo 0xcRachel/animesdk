@@ -1,34 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCallbackType.h"
-#include "unitysdk/Class_2_0E6D6DF95E505CA6_LuaDataInvokeType.h"
+#include "unitysdk/Class_2_28AE27DB9AA4E9DD_LuaDataInvokeType.h"
 #include "unitysdk/Conflict_GroupUnitType.h"
 #include "unitysdk/Enum_3_01618AD0437C8486_1.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_10.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_2.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_4.h"
-#include "unitysdk/Enum_3_01618AD0437C8486_6.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_3.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_5.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_8.h"
 #include "unitysdk/Enum_3_01618AD0437C8486_9.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_10.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_25.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_28.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_33.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_35.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_36.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_41.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_42.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_26.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_29.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_34.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_37.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_38.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_43.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_54.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_62.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_44.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_45.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_56.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_64.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_7.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_76.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_77.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_79.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_8.h"
 #include "unitysdk/Enum_3_0A3761FE34514D6C_80.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_83.h"
 #include "unitysdk/Enum_3_0F1B992870941C13.h"
-#include "unitysdk/Enum_3_0F1B992870941C13_2.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_1.h"
 #include "unitysdk/Enum_3_0F1B992870941C13_3.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_4.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_5.h"
 #include "unitysdk/Enum_3_237A657B7EBA40A4_1.h"
 #include "unitysdk/Enum_3_237A657B7EBA40A4_2.h"
 #include "unitysdk/Enum_3_237A657B7EBA40A4_3.h"
@@ -47,21 +48,21 @@
 #include "unitysdk/Enum_3_4608E37A1B3D374A_28.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_29.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_30.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_34.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_35.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_36.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_37.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_8.h"
 #include "unitysdk/Enum_3_4608E37A1B3D374A_9.h"
 #include "unitysdk/Enum_3_4A453BC3F773E0DF.h"
+#include "unitysdk/Enum_3_4A483BC3F77616F6.h"
 #include "unitysdk/Enum_3_4A5FFBC3F78A3BD7.h"
+#include "unitysdk/Enum_3_519A64C3FB3A5470.h"
 #include "unitysdk/Enum_3_51AB64C3FB48C743.h"
-#include "unitysdk/Enum_3_51AF64C3FB4CB07A.h"
 #include "unitysdk/Enum_3_51CA64C3FB637832.h"
-#include "unitysdk/Enum_3_5AA68DC4007644C0.h"
+#include "unitysdk/Enum_3_5AA38DC400740F29.h"
 #include "unitysdk/Enum_3_5ABE4DC4008A6A21.h"
 #include "unitysdk/Enum_3_5ACC4DC40096A745.h"
 #include "unitysdk/Enum_3_63BCB6C405BA8A1D.h"
-#include "unitysdk/Enum_3_63BCB6C405BA8A1D_1.h"
 #include "unitysdk/Enum_3_63C076C405BE0674.h"
 #include "unitysdk/Enum_3_63C076C405BE0674_1.h"
 #include "unitysdk/Enum_3_63C076C405BE0674_2.h"
@@ -69,6 +70,7 @@
 #include "unitysdk/Enum_3_63C076C405BE0674_4.h"
 #include "unitysdk/Enum_3_63C076C405BE0674_5.h"
 #include "unitysdk/Enum_3_63C076C405BE0674_6.h"
+#include "unitysdk/Enum_3_63C076C405BE0674_7.h"
 #include "unitysdk/Enum_3_63CAB6C405C6C7B1_1.h"
 #include "unitysdk/Enum_3_63CAB6C405C6C7B1_2.h"
 #include "unitysdk/Enum_3_63CDB6C405C8FD68.h"
@@ -77,7 +79,7 @@
 #include "unitysdk/Enum_3_63D176C405CC7947_1.h"
 #include "unitysdk/Enum_3_63D176C405CC7947_2.h"
 #include "unitysdk/Enum_3_63D176C405CC7947_3.h"
-#include "unitysdk/Enum_3_63D176C405CC7947_5.h"
+#include "unitysdk/Enum_3_63D176C405CC7947_4.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_1.h"
 #include "unitysdk/Enum_3_63D476C405CEAF7E_2.h"
@@ -92,6 +94,7 @@
 #include "unitysdk/Enum_3_71AA90D596A09AC8_12.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_13.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_14.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_15.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_16.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_17.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_18.h"
@@ -100,7 +103,7 @@
 #include "unitysdk/Enum_3_71AA90D596A09AC8_5.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_6.h"
 #include "unitysdk/Enum_3_71AA90D596A09AC8_7.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_9.h"
+#include "unitysdk/Enum_3_71AA90D596A09AC8_8.h"
 #include "unitysdk/Enum_3_759808C40FFEBD5F.h"
 #include "unitysdk/Enum_3_759808C40FFEBD5F_1.h"
 #include "unitysdk/Enum_3_759B08C41000F376.h"
@@ -125,7 +128,7 @@
 #include "unitysdk/Enum_3_7CF7F1C413CECBBD_3.h"
 #include "unitysdk/Enum_3_7CFB31C413D16E14.h"
 #include "unitysdk/Enum_3_7CFE31C413D3A3C3.h"
-#include "unitysdk/Enum_3_7CFE31C413D3A3C3_1.h"
+#include "unitysdk/Enum_3_7CFE31C413D3A3C3_2.h"
 #include "unitysdk/Enum_3_7D0231C413D78CFA_1.h"
 #include "unitysdk/Enum_3_7D15F1C413E7C92C.h"
 #include "unitysdk/Enum_3_7D15F1C413E7C92C_1.h"
@@ -140,11 +143,11 @@
 #include "unitysdk/Enum_3_96F6662CA3713095_21.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_22.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_23.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_25.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_26.h"
-#include "unitysdk/Enum_3_96F6662CA3713095_28.h"
+#include "unitysdk/Enum_3_96F6662CA3713095_27.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_29.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_3.h"
+#include "unitysdk/Enum_3_96F6662CA3713095_30.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_5.h"
 #include "unitysdk/Enum_3_96F6662CA3713095_6.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76.h"
@@ -153,32 +156,31 @@
 #include "unitysdk/Enum_3_A35B38E5F9115A76_5.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76_6.h"
 #include "unitysdk/Enum_3_A35B38E5F9115A76_7.h"
-#include "unitysdk/Enum_3_A35B38E5F9115A76_8.h"
+#include "unitysdk/Enum_3_A35B38E5F9115A76_9.h"
+#include "unitysdk/Enum_3_A84DFEC42C5C4A94.h"
 #include "unitysdk/Enum_3_A854FEC42C62697A.h"
 #include "unitysdk/Enum_3_B14C27C4318BFDC0.h"
 #include "unitysdk/Enum_3_B152E7C43191AFD6.h"
-#include "unitysdk/Enum_3_B17827C431B138EB.h"
-#include "unitysdk/Enum_3_B5A08EAC9C145CCC.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_13.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_15.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_17.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_18.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_19.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_2.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_22.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_24.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_23.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_25.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_26.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_27.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_28.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_34.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_37.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_39.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_41.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_43.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_29.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_35.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_38.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_40.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_42.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_44.h"
 #include "unitysdk/Enum_3_DB663931210BBC27_45.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_48.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_54.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_46.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_49.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_55.h"
 #include "unitysdk/Enum_3_DFCB42601400F441.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_1.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_2.h"
@@ -186,22 +188,23 @@
 #include "unitysdk/Enum_3_DFCB42601400F441_4.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_6.h"
 #include "unitysdk/Enum_3_DFCB42601400F441_7.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_12.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_13.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_22.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_23.h"
+#include "unitysdk/Enum_3_E5895DA3995ACDBD.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_14.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_15.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_25.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_26.h"
 #include "unitysdk/Enum_3_ED790DAC948A65A9_4.h"
 #include "unitysdk/Enum_3_ED790DAC948A65A9_6.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_9.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_1.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_10.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_11.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_12.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_13.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_14.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_15.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_2.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_4.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_5.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_7.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_8.h"
 #include "unitysdk/Enum_3_F80BFD5B986D5503_9.h"
 #include "unitysdk/HedgehogTeam/EasyTouch/EasyTouch_DoubleTapDetection.h"
@@ -249,7 +252,6 @@
 #include "unitysdk/RPG/Client/AudioListenerMode.h"
 #include "unitysdk/RPG/Client/AudioManager_AudioDownloadState.h"
 #include "unitysdk/RPG/Client/AudioSettings_SpeakerModeType.h"
-#include "unitysdk/RPG/Client/AvatarDataLevelRaritySortType.h"
 #include "unitysdk/RPG/Client/AvatarRankControl_ShowAvatarType.h"
 #include "unitysdk/RPG/Client/AvatarUI3DDisableIdleShowReason.h"
 #include "unitysdk/RPG/Client/BPQuestType.h"
@@ -291,8 +293,12 @@
 #include "unitysdk/RPG/Client/ChallengePeakRank.h"
 #include "unitysdk/RPG/Client/ChallengePeakRewardState.h"
 #include "unitysdk/RPG/Client/ChallengeTargetState.h"
+#include "unitysdk/RPG/Client/ChenLingBattle/ChenLingBattleMessage.h"
+#include "unitysdk/RPG/Client/ChenLingBattle/ChenLingBattleProgressNodeState.h"
+#include "unitysdk/RPG/Client/ChenLingBattle/SoldierPropertyChangeType.h"
 #include "unitysdk/RPG/Client/ChenLingGameBoy/ChenLingGameBoyChallengeState.h"
 #include "unitysdk/RPG/Client/ChenLingGameBoy/ChenLingGameBoyPlayerRankingType.h"
+#include "unitysdk/RPG/Client/ChenLingTableSceneType.h"
 #include "unitysdk/RPG/Client/ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType.h"
 #include "unitysdk/RPG/Client/ChimeraDuelGameModeType.h"
 #include "unitysdk/RPG/Client/ChimeraDuelGameSessionState.h"
@@ -385,6 +391,8 @@
 #include "unitysdk/RPG/Client/LittleGame/BossPhase.h"
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceGameplayBubbleType.h"
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceHUDDisplayState.h"
+#include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingHPChangeFormatType.h"
+#include "unitysdk/RPG/Client/LittleGame/ChenLing/CirticalTrackType.h"
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuel/ChimeraDuelAccelerateMode.h"
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuel/ChimeraDuelCommandGuideMode.h"
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuelSettleReason.h"
@@ -418,6 +426,7 @@
 #include "unitysdk/RPG/Client/MaterialSubmitterState.h"
 #include "unitysdk/RPG/Client/MessageBoxDialogContext_MessageBoxMode.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
+#include "unitysdk/RPG/Client/MessageShowInUIType.h"
 #include "unitysdk/RPG/Client/MessageSituationType.h"
 #include "unitysdk/RPG/Client/MissingVideoProcessType.h"
 #include "unitysdk/RPG/Client/MissionModule_ClientFinishMissionType.h"
@@ -508,6 +517,16 @@
 #include "unitysdk/RPG/Client/RogueTournBuildRefShareCodeS11nErrorType.h"
 #include "unitysdk/RPG/Client/RogueTournBuildRefUnionIndex_UnionKind.h"
 #include "unitysdk/RPG/Client/RogueTournCollectionExhibitionInteractingPropType.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaHexEquipmentMessage.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaHexEquipmentSlotItemInfoState.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaLegendMessage.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaLegendRowType.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaMapTabMessage.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaMapTabProgressItemType.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaMapTabRoomStatus.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaRoomCardPile.h"
+#include "unitysdk/RPG/Client/RogueTournPersonaRoomCardPileMessage.h"
+#include "unitysdk/RPG/Client/RogueTournUnderlineParamType.h"
 #include "unitysdk/RPG/Client/RuntimeGroupManager_ConflictModelSortType.h"
 #include "unitysdk/RPG/Client/RuntimeGroupManager_GroupLoadStatus.h"
 #include "unitysdk/RPG/Client/RuntimeGroupManager_GroupRefreshReason.h"
@@ -520,6 +539,7 @@
 #include "unitysdk/RPG/Client/SilverWolfState.h"
 #include "unitysdk/RPG/Client/SpaceZooCatType.h"
 #include "unitysdk/RPG/Client/SpaceZooEXPChangeType.h"
+#include "unitysdk/RPG/Client/StageState.h"
 #include "unitysdk/RPG/Client/StoryLineSwitchReason.h"
 #include "unitysdk/RPG/Client/SuitRecommendDataType.h"
 #include "unitysdk/RPG/Client/SwordTrainProcessActionStatus.h"
@@ -560,6 +580,7 @@
 #include "unitysdk/RPG/Client/UserPrefs_EyeProtectionMode.h"
 #include "unitysdk/RPG/Client/ViewCacheType.h"
 #include "unitysdk/RPG/Client/VirtualCursorStatus.h"
+#include "unitysdk/RPG/Client/WaypointIdentifierType.h"
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureFeature.h"
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureType.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
@@ -571,6 +592,7 @@
 #include "unitysdk/RPG/GameCore/AbilityPropertyRatio.h"
 #include "unitysdk/RPG/GameCore/AbilityTargetType.h"
 #include "unitysdk/RPG/GameCore/ActivityCountRefreshType.h"
+#include "unitysdk/RPG/GameCore/ActivityExpeditionRank.h"
 #include "unitysdk/RPG/GameCore/ActivityFarmMultipleDropType.h"
 #include "unitysdk/RPG/GameCore/ActivityLocalLegendDifficulty.h"
 #include "unitysdk/RPG/GameCore/ActivityPanelFinishType.h"
@@ -630,6 +652,11 @@
 #include "unitysdk/RPG/GameCore/CharacterOutfitComponent_ESlot.h"
 #include "unitysdk/RPG/GameCore/CharacterVisibleComponent_ShadowVisibleSource.h"
 #include "unitysdk/RPG/GameCore/CharacterVisibleReason.h"
+#include "unitysdk/RPG/GameCore/ChenLingCardType.h"
+#include "unitysdk/RPG/GameCore/ChenLingEffectType.h"
+#include "unitysdk/RPG/GameCore/ChenLingIconType.h"
+#include "unitysdk/RPG/GameCore/ChenLingStageType.h"
+#include "unitysdk/RPG/GameCore/ChenLingStageWaveType.h"
 #include "unitysdk/RPG/GameCore/ChessRogueBoardAnimationType.h"
 #include "unitysdk/RPG/GameCore/ChessRogueCabinetType.h"
 #include "unitysdk/RPG/GameCore/ChessRogueDifficultyComponentType.h"
@@ -709,6 +736,7 @@
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
 #include "unitysdk/RPG/GameCore/EvolveGearType.h"
 #include "unitysdk/RPG/GameCore/EvolvePeriodType.h"
+#include "unitysdk/RPG/GameCore/ExpeditionStatus.h"
 #include "unitysdk/RPG/GameCore/FarmTypeConfig.h"
 #include "unitysdk/RPG/GameCore/FateAffixRarityType.h"
 #include "unitysdk/RPG/GameCore/FateAreaType.h"
@@ -853,6 +881,7 @@
 #include "unitysdk/RPG/GameCore/MazeBuffType.h"
 #include "unitysdk/RPG/GameCore/MazePuzzleMovieGameMode.h"
 #include "unitysdk/RPG/GameCore/MessageItemType.h"
+#include "unitysdk/RPG/GameCore/MessageSpecialChangeType.h"
 #include "unitysdk/RPG/GameCore/MessageStateType.h"
 #include "unitysdk/RPG/GameCore/MiniMapIconOrientationType.h"
 #include "unitysdk/RPG/GameCore/MinimapAreaType.h"
@@ -959,6 +988,7 @@
 #include "unitysdk/RPG/GameCore/RogueMode.h"
 #include "unitysdk/RPG/GameCore/RogueNousDifficultyType.h"
 #include "unitysdk/RPG/GameCore/RogueNousSurfaceTag.h"
+#include "unitysdk/RPG/GameCore/RogueRoomAttributeCategory.h"
 #include "unitysdk/RPG/GameCore/RogueSubMode.h"
 #include "unitysdk/RPG/GameCore/RogueTalkColorType.h"
 #include "unitysdk/RPG/GameCore/RogueTitanCategory.h"
@@ -968,6 +998,7 @@
 #include "unitysdk/RPG/GameCore/RogueTournCurseChestType.h"
 #include "unitysdk/RPG/GameCore/RogueTournDifficultyType.h"
 #include "unitysdk/RPG/GameCore/RogueTournMode.h"
+#include "unitysdk/RPG/GameCore/RogueTournPersonaRoomBgColorType.h"
 #include "unitysdk/RPG/GameCore/RogueTournRoomType.h"
 #include "unitysdk/RPG/GameCore/RogueTournTitanFloorType.h"
 #include "unitysdk/RPG/GameCore/RogueTurntableRewardLevel.h"
@@ -1138,4538 +1169,4662 @@ namespace XLua { template <typename T> class CastToInt_1_CastToIntFunc; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex = 39407;
+	inline static constexpr unsigned int ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex = 40393;
 
 	class ObjectTranslator_IniterAdderUnityEngineVector2___O : public ::System::Object
 	{
 	public:
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType>** StaticGet__421___RPGClientPropPinballPageProxyPinballPageFloatBtnType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridBuffType>** StaticGet__289___RPGGameCoreTreasureDungeonGridBuffType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4800);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridBuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B160);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelBubbleEventType>** StaticGet__799___RPGGameCoreChimeraDuelBubbleEventType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_37>** StaticGet__790___ProtoGridFightEquipTrackSource_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelBubbleEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4808);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_37>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B168);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_9>** StaticGet__178___ProtoBpRewardType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodUseTag>** StaticGet__234___RPGGameCoreItemFoodUseTag_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4810);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodUseTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B170);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674>** StaticGet__503___ProtoDevelopmentType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD>** StaticGet__1036___ProtoCmdChallengePeakType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4818);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B178);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LoadingDescGroup>** StaticGet__465___RPGGameCoreLoadingDescGroup_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_16>** StaticGet__549___ProtoFightFestType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LoadingDescGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4820);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_16>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B180);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueCommonDisplayType>** StaticGet__360___RPGClientRogueCommonDisplayType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCLodType>** StaticGet__995___RPGGameCoreLevelNPCLodType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueCommonDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4828);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCLodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B188);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeV2StarTargetFinishType>** StaticGet__728___RPGGameCoreMatchThreeV2StarTargetFinishType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraOut>** StaticGet__198___RPGClientMonoExUICameraE_ExUICameraOut_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeV2StarTargetFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4830);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraOut>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B190);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleFunc>** StaticGet__147___RPGGameCorePuzzleFunc_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingIconType>** StaticGet__930___RPGGameCoreChenLingIconType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleFunc>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4838);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingIconType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B198);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TarotBookConditionType>** StaticGet__614___RPGGameCoreTarotBookConditionType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_4>** StaticGet__1057___ProtoCmdFightType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TarotBookConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4840);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShopGoodTag>** StaticGet__775___RPGGameCoreShopGoodTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShopGoodTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4848);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournDifficultyType>** StaticGet__534___RPGGameCoreRogueTournDifficultyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4850);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AdventureWaypointType>** StaticGet__161___RPGClientAdventureWaypointType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AdventureWaypointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4858);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ManaVideoPlayerPauseReason>** StaticGet__613___RPGClientManaVideoPlayerPauseReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ManaVideoPlayerPauseReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4860);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A854FEC42C62697A>** StaticGet__1037___ProtoCmdGridFightType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A854FEC42C62697A>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4868);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FormulaType>** StaticGet__177___RPGGameCoreFormulaType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FormulaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4870);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnRecommendType>** StaticGet__525___RPGGameCorePlayerReturnRecommendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnRecommendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4878);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAreaType>** StaticGet__698___RPGGameCoreFateAreaType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAreaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4880);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameStateType>** StaticGet__517___RPGClientSwordTrainingSwordTrainingGameStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4888);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::WrapMode>** StaticGet__302___UnityEngineWrapMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::WrapMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4890);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_Mode>** StaticGet__686___RPGClientHPBarMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_Mode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4898);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_6>** StaticGet__1003___ProtoCmdBenefitV2ActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookItemStatus>** StaticGet__769___RPGClientGridFightHandBookItemStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookItemStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerBanModEntranceType>** StaticGet__445___RPGGameCoreDrinkMakerBanModEntranceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerBanModEntranceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::TutorialNode_NodePlatform>** StaticGet__678___TutorialNodeNodePlatform_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::TutorialNode_NodePlatform>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfSelectEventType>** StaticGet__670___RPGGameCoreElfSelectEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfSelectEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridType>** StaticGet__910___SuperScrollViewGridType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFrontSpecialSPDisplayType>** StaticGet__808___RPGGameCoreGridFightFrontSpecialSPDisplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFrontSpecialSPDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffType>** StaticGet__213___RPGGameCoreMazeBuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarCommonRowWrap>** StaticGet__399___RPGGameCoreEAvatarCommonRowWrap_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarCommonRowWrap>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonsterAvatarSkillSlotStatus>** StaticGet__283___RPGClientMonsterAvatarSkillSlotStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonsterAvatarSkillSlotStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_HideFieldEffectReason>** StaticGet__425___RPGClientMonoEffectManagerHideFieldEffectReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_HideFieldEffectReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_WalkSwitchMode>** StaticGet__156___RPGClientSettingManagerWalkSwitchMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_WalkSwitchMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x48F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleNodeType>** StaticGet__418___RPGGameCoreChronicleNodeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4900);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenBubbleType>** StaticGet__756___RPGClientActivityHipplenActivityHipplenBubbleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenBubbleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4908);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIManager_ClearReason>** StaticGet__217___RPGClientUIManagerClearReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIManager_ClearReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4910);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759EC8C410046F6D>** StaticGet__1011___ProtoCmdChimeraDuelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759EC8C410046F6D>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4918);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ComposeItemFailedType>** StaticGet__136___RPGClientComposeItemFailedType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ComposeItemFailedType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4920);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainProcessActionStatus>** StaticGet__511___RPGClientSwordTrainProcessActionStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainProcessActionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4928);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyContentType>** StaticGet__464___RPGClientMonopolyContentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4930);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_2>** StaticGet__1038___ProtoCmdHeartdialType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4938);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestCoachType>** StaticGet__536___RPGGameCoreFightFestCoachType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestCoachType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4940);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectionType>** StaticGet__713___RPGGameCoreRestaurantSelectionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4948);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::Key>** StaticGet__133___InControlKey_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::Key>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4950);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_TransfomrRefType>** StaticGet__1128___UnityEngineUICaculateNodeDataTransfomrRefType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_TransfomrRefType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4958);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamLimitType>** StaticGet__576___RPGGameCoreTeamLimitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamLimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4960);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantShowCaseType>** StaticGet__716___RPGGameCoreAssistantShowCaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantShowCaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4968);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FuncUnlockPromptType>** StaticGet__416___RPGGameCoreFuncUnlockPromptType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FuncUnlockPromptType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4970);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TalkBgCGBlendType>** StaticGet__659___RPGGameCoreTalkBgCGBlendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TalkBgCGBlendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4978);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureCharacterVOType>** StaticGet__367___RPGGameCoreAdventureCharacterVOType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureCharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4980);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTeamType>** StaticGet__812___RPGGameCoreChimeraDuelTeamType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTeamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4988);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RedDotType>** StaticGet__688___RPGGameCoreRedDotType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RedDotType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4990);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataComponent_PerMonster_State>** StaticGet__749___RPGGameCoreLevelDataComponentPerMonsterState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataComponent_PerMonster_State>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4998);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Edge>** StaticGet__3___UnityEngineRectTransformEdge_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Edge>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventHandle>** StaticGet__1125___UnityEngineEventSystemsEventHandle_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventHandle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConditionType>** StaticGet__154___RPGGameCoreConditionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyIneritType>** StaticGet__962___RPGGameCoreAbilityPropertyIneritType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyIneritType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackDamageType>** StaticGet__34___RPGGameCoreAttackDamageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFunctionNodeType>** StaticGet__791___RPGGameCoreGridFightFunctionNodeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFunctionNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B152E7C43191AFD6>** StaticGet__1059___ProtoCmdMonopolyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B152E7C43191AFD6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlaneType>** StaticGet__170___RPGGameCorePlaneType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlaneType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleConnectionPointType>** StaticGet__420___RPGGameCoreChronicleConnectionPointType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleConnectionPointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCheckPointType>** StaticGet__484___RPGGameCoreClockParkCheckPointType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCheckPointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeRarityType>** StaticGet__518___RPGGameCoreMatchThreeRarityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_InputType>** StaticGet__15___UnityEngineUIInputFieldInputType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_InputType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x49F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::TMPro::TextAlignmentOptions>** StaticGet__1120___TMProTextAlignmentOptions_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::TMPro::TextAlignmentOptions>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityMarble::MarblePVPMode>** StaticGet__623___RPGClientActivityMarbleMarblePVPMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityMarble::MarblePVPMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialVisionType>** StaticGet__313___RPGGameCoreSpecialVisionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialVisionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51AB64C3FB48C743>** StaticGet__1072___ProtoCmdPlayerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51AB64C3FB48C743>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::RectMask2D_SoftType>** StaticGet__361___UnityEngineUIRectMask2DSoftType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::RectMask2D_SoftType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTraitRemarkLineColorType>** StaticGet__811___RPGClientGridFightTraitRemarkLineColorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTraitRemarkLineColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaItemType>** StaticGet__673___RPGGameCoreGachaItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSellType>** StaticGet__324___RPGGameCoreItemSellType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSellType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginVertical>** StaticGet__58___UnityEngineUISmoothMaskFillOriginVertical_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginVertical>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkType>** StaticGet__267___RPGGameCoreMuseumTalkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_25>** StaticGet__383___ProtoChessRogueNousDicePhase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesUnitType>** StaticGet__631___RPGGameCorePlanetFesUnitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesUnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_7>** StaticGet__1114___ProtoCmdTreasureDungeonType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StageType>** StaticGet__85___RPGGameCoreStageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamTypeMask>** StaticGet__202___RPGGameCoreTeamTypeMask_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamTypeMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MPChangeStatus>** StaticGet__145___RPGClientMPChangeStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MPChangeStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoardShowType>** StaticGet__253___RPGGameCoreBoardShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoardShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_GateFitMode>** StaticGet__41___UnityEngineCameraGateFitMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_GateFitMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochureType>** StaticGet__387___RPGGameCoreTravelBrochureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamBulletCommentsMode>** StaticGet__878___RPGToolsTimelinePerformanceLiveStreamBulletCommentsMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamBulletCommentsMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4A98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParkourTalkType>** StaticGet__685___RPGGameCoreParkourTalkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParkourTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanType>** StaticGet__618___RPGGameCoreRogueTitanType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengePeakRewardType>** StaticGet__759___RPGGameCoreChallengePeakRewardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengePeakRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BubbleTalkType>** StaticGet__314___RPGGameCoreBubbleTalkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BubbleTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueCabinetType>** StaticGet__317___RPGGameCoreChessRogueCabinetType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueCabinetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Conflict_GroupUnitType>** StaticGet__595___ConflictGroupUnitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Conflict_GroupUnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ETravelShipState>** StaticGet__741___RPGClientETravelShipState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ETravelShipState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavmapAreaConnectType>** StaticGet__976___RPGGameCoreLevelNavmapAreaConnectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavmapAreaConnectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightForgeAwardType>** StaticGet__754___RPGClientGridFightForgeAwardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightForgeAwardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind>** StaticGet__940___RPGClientRogueTournBuildRefUnionIndexUnionKind_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_OperateType>** StaticGet__1129___UnityEngineUICaculateNodeDataOperateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_OperateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_2>** StaticGet__1010___ProtoCmdChimeraType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4AF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyLineDirectionEnum>** StaticGet__918___RPGClientAlleyLineDirectionEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyLineDirectionEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ForceKillShowType>** StaticGet__710___RPGGameCoreForceKillShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ForceKillShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_3>** StaticGet__1084___ProtoCmdRelicSmartWearType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_28>** StaticGet__498___ProtoBattleRecordType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_28>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial>** StaticGet__59___UnityEngineUISmoothMaskFillOriginRadial_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_29>** StaticGet__298___ProtoRogueRoomStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PamChatQuickFunctionType>** StaticGet__903___RPGClientPamChatQuickFunctionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PamChatQuickFunctionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_22>** StaticGet__658___ProtoPlanetFesCustomKey_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_22>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageSituationType>** StaticGet__192___RPGClientMessageSituationType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageSituationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_HoekeySettingType>** StaticGet__189___RPGClientSettingManagerHoekeySettingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_HoekeySettingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_13>** StaticGet__569___ProtoDifficultyAdjustmentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoIdentifyState>** StaticGet__540___RPGClientTrackPhotoIdentifyState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoIdentifyState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleEventType>** StaticGet__837___RPGClientPenaconyEndmostChronicleEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueBoardAnimationType>** StaticGet__410___RPGGameCoreChessRogueBoardAnimationType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueBoardAnimationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelRegionConnectivityType>** StaticGet__979___RPGGameCoreLevelRegionConnectivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelRegionConnectivityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureType>** StaticGet__36___RPGCustomRPFrameCaptureCaptureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftRewardStatus>** StaticGet__653___RPGClientRechargeGiftRewardStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftRewardStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueEventType>** StaticGet__263___RPGGameCoreDialogueEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingDisplayOptionType>** StaticGet__222___RPGGameCorePhotoGraphSettingDisplayOptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingDisplayOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_11>** StaticGet__1013___ProtoCmdContentPackageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4B98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_TwoFingerPickMethod>** StaticGet__49___HedgehogTeamEasyTouchEasyTouchTwoFingerPickMethod_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_TwoFingerPickMethod>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPRewardStatus>** StaticGet__173___RPGClientBPRewardStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPRewardStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectDisplayEnum>** StaticGet__442___RPGClientMonopolyEffectDisplayEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectDisplayEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WeaknessState>** StaticGet__142___RPGGameCoreWeaknessState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WeaknessState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfProfileQuestGroupData_ElfProfileQuestGroupStatus>** StaticGet__715___RPGClientElfProfileQuestGroupDataElfProfileQuestGroupStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfProfileQuestGroupData_ElfProfileQuestGroupStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAccelerateMode>** StaticGet__846___RPGClientLittleGameChimeraDuelChimeraDuelAccelerateMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAccelerateMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffCategory>** StaticGet__513___RPGGameCoreRogueBuffCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PersonalizeShowType>** StaticGet__345___RPGGameCorePersonalizeShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PersonalizeShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_MovementType>** StaticGet__67___UnityEngineUIScrollRectMovementType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_MovementType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionOptionalTrackMode>** StaticGet__570___RPGGameCoreSubmissionOptionalTrackMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionOptionalTrackMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_77>** StaticGet__743___ProtoTutorialFinishType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_77>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionBeginType>** StaticGet__216___RPGGameCoreMissionBeginType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionBeginType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4BF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemUseMethod>** StaticGet__366___RPGGameCoreItemUseMethod_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemUseMethod>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ControlSkillType>** StaticGet__376___RPGGameCoreControlSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ControlSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ElfRestaurant::SIMFoodState>** StaticGet__648___RPGClientLittleGameElfRestaurantSIMFoodState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ElfRestaurant::SIMFoodState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_TriggerType>** StaticGet__125___RPGClientQTEUIDataTriggerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_TriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLandType>** StaticGet__620___RPGGameCorePlanetFesLandType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLandType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Slider_Direction>** StaticGet__13___UnityEngineUISliderDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Slider_Direction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextAnchor>** StaticGet__400___UnityEngineTextAnchor_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextAnchor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeBossDisplayPattern>** StaticGet__523___RPGGameCoreChallengeBossDisplayPattern_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeBossDisplayPattern>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_1>** StaticGet__492___ProtoLobbyModifyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_23>** StaticGet__877___ProtoTutorialGuideType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_23>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_33>** StaticGet__1032___ProtoFightMarbleHpChangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_33>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FrameCaptureManager_CaptureUsage>** StaticGet__209___RPGClientFrameCaptureManagerCaptureUsage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FrameCaptureManager_CaptureUsage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureAnimStateType>** StaticGet__987___RPGGameCoreAdventureAnimStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureAnimStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionUtils_SubMissionSortType>** StaticGet__760___RPGClientMissionUtilsSubMissionSortType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionUtils_SubMissionSortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraWorkRoundOptionType>** StaticGet__599___RPGGameCoreChimeraWorkRoundOptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraWorkRoundOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_41>** StaticGet__277___ProtoMuseumRandomEventState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_41>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_13>** StaticGet__1064___ProtoCmdOfferingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleHudType>** StaticGet__397___RPGGameCorePuzzleHudType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleHudType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarSkillCommonRowWrap>** StaticGet__359___RPGGameCoreEAvatarSkillCommonRowWrap_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarSkillCommonRowWrap>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClientPunkLordShareType>** StaticGet__753___RPGClientClientPunkLordShareType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClientPunkLordShareType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4C98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Constraint>** StaticGet__71___UnityEngineUIGridLayoutGroupConstraint_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Constraint>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultiPlayerGameMode>** StaticGet__945___RPGGameCoreMultiPlayerGameMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultiPlayerGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MarbleBattleSpecialKillType>** StaticGet__923___RPGClientMarbleBattleSpecialKillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MarbleBattleSpecialKillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_25>** StaticGet__295___ProtoMissionStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33>** StaticGet__1018___ProtoCmdElfRestaurantType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelHoyoTagOverrideMode>** StaticGet__975___RPGGameCoreLevelHoyoTagOverrideMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelHoyoTagOverrideMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_Button>** StaticGet__119___InControlInControlInputModuleButton_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_Button>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Platform>** StaticGet__193___RPGClientPlatform_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Platform>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_4>** StaticGet__829___ProtoGridFightUpdateGlobalHpReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_ContentType>** StaticGet__14___UnityEngineUIInputFieldContentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_ContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_2>** StaticGet__1019___ProtoCmdEraFlipperType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CumulativeConsumptionType>** StaticGet__668___RPGGameCoreCumulativeConsumptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CumulativeConsumptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4CF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MaterialSubmissionType>** StaticGet__561___RPGGameCoreMaterialSubmissionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MaterialSubmissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_12>** StaticGet__347___ProtoMailType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_12>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageHintState>** StaticGet__428___RPGClientPropPinballPageProxyPinballPageHintState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageHintState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarPropertyType>** StaticGet__61___RPGGameCoreAvatarPropertyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphState>** StaticGet__913___RPGGameCoreLevelGraphState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::TouchFilter_FilterState>** StaticGet__1126___UnityEngineUITouchFilterFilterState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::TouchFilter_FilterState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGAnimationEvent_InvokeType>** StaticGet__363___RPGClientRPGAnimationEventInvokeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGAnimationEvent_InvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TreasureChallengeTargetStatus>** StaticGet__223___RPGClientTreasureChallengeTargetStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TreasureChallengeTargetStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkGameStateEnum>** StaticGet__462___RPGClientClockParkGameStateEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkGameStateEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityStateEnum>** StaticGet__352___RPGClientActivityStateEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityStateEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4135D2C3F2354D90>** StaticGet__1070___ProtoCmdPlanetFesType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4135D2C3F2354D90>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_34>** StaticGet__832___ProtoGridFightEquipCraftSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_34>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF3F1C413CAE286>** StaticGet__1044___ProtoCmdLimaoNewsType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF3F1C413CAE286>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindEntityControlType>** StaticGet__580___RPGGameCoreTimeRewindEntityControlType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindEntityControlType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::DateTimeStyles>** StaticGet__29___SystemGlobalizationDateTimeStyles_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::DateTimeStyles>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseTargetType>** StaticGet__606___RPGGameCoreChimeraPhaseTargetType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerBartendProcedure>** StaticGet__430___RPGClientDrinkMakerBartendProcedure_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerBartendProcedure>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraSettleCommandType>** StaticGet__647___RPGClientChimeraSettleCommandType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraSettleCommandType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateCoinIncomeType>** StaticGet__703___RPGGameCoreFateCoinIncomeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateCoinIncomeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenTrialGameState_TrialStep>** StaticGet__724___RPGClientActivityHipplenActivityHipplenTrialGameStateTrialStep_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenTrialGameState_TrialStep>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4D98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ToastType>** StaticGet__107___RPGGameCoreToastType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ToastType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateHouguSelectBgType>** StaticGet__718___RPGClientFateHouguSelectBgType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateHouguSelectBgType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerRequestMode>** StaticGet__417___RPGGameCoreDrinkMakerRequestMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerRequestMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::QueryTriggerInteraction>** StaticGet__719___UnityEngineQueryTriggerInteraction_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::QueryTriggerInteraction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageContentBlock_BlockType>** StaticGet__886___RPGClientMessageContentBlockBlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageContentBlock_BlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceParticipantData_CakeRaceParticipantType>** StaticGet__786___RPGClientCakeRaceParticipantDataCakeRaceParticipantType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceParticipantData_CakeRaceParticipantType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindTargetType>** StaticGet__650___RPGClientTimeRewindTargetType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PauseDialogTabEnum>** StaticGet__559___RPGClientPauseDialogTabEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PauseDialogTabEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightDifficulty>** StaticGet__521___RPGGameCoreStarFightDifficulty_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyPackGoodsTypeEnum>** StaticGet__304___RPGGameCoreAlleyPackGoodsTypeEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyPackGoodsTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::AlignmentType>** StaticGet__819___RPGClientSequentialPanelContainerAlignmentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::AlignmentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_3>** StaticGet__1016___ProtoCmdDrinkMakerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4DF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportFromUIType>** StaticGet__634___RPGClientRogueTournBuildRefReportFromUIType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportFromUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_6>** StaticGet__1071___ProtoCmdPlanetFesExtType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_80>** StaticGet__1118___ProtoCmdWorldUnlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_80>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnJourneyItemType>** StaticGet__426___RPGGameCorePlayerReturnJourneyItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnJourneyItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionWayPointType>** StaticGet__51___RPGGameCoreMissionWayPointType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionWayPointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectTriggerType>** StaticGet__478___RPGClientMonopolyEffectTriggerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFB31C413D16E14>** StaticGet__1117___ProtoCmdWolfBroType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFB31C413D16E14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUI3DTouch_MouseWheelType>** StaticGet__219___RPGClientMonoUI3DTouchMouseWheelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUI3DTouch_MouseWheelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarBaseType>** StaticGet__32___RPGGameCoreAvatarBaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueLogTag>** StaticGet__592___RPGClientRogueLogTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueLogTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_10>** StaticGet__1017___ProtoCmdElationActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesItemUseType>** StaticGet__635___RPGGameCorePlanetFesItemUseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesItemUseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ColorMode>** StaticGet__1123___UnityEngineUIColorMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ColorMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGameRefData_RoleExpiredStatus>** StaticGet__902___RPGClientGridFightGameRefDataRoleExpiredStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGameRefData_RoleExpiredStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopGoodType>** StaticGet__840___RPGClientGridFightShopGoodType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopGoodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattlePostureType>** StaticGet__84___RPGGameCoreBattlePostureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattlePostureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityType>** StaticGet__89___RPGGameCoreEntityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShortCutWheelGotoType>** StaticGet__200___RPGGameCoreShortCutWheelGotoType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShortCutWheelGotoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::Match3GameState>** StaticGet__490___RPGClientLittleGameMatch3Match3GameState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::Match3GameState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoxingClubActivityType>** StaticGet__371___RPGGameCoreBoxingClubActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoxingClubActivityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4E98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePlayLockTarget>** StaticGet__354___RPGClientGamePlayLockTarget_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePlayLockTarget>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::RankType>** StaticGet__610___RPGClientRelicSmartSuitRankType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::RankType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleTutorialType>** StaticGet__943___RPGGameCorePuzzleTutorialType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleTutorialType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::TimeScaleReason>** StaticGet__826___RPGClientLittleGameFiveDimTimeScaleReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::TimeScaleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolderOption>** StaticGet__79___SystemEnvironmentSpecialFolderOption_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolderOption>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueExhibitionType>** StaticGet__529___RPGGameCoreRogueExhibitionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueExhibitionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityPanelFinishType>** StaticGet__731___RPGGameCoreActivityPanelFinishType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityPanelFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4ED0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingOptionType>** StaticGet__986___RPGGameCorePhotoGraphSettingOptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4ED8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamDataRefreshMask>** StaticGet__159___RPGClientTeamDataRefreshMask_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamDataRefreshMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InwardBubbleTalkType>** StaticGet__315___RPGGameCoreInwardBubbleTalkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InwardBubbleTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameSessionState>** StaticGet__831___RPGClientChimeraDuelGameSessionState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameSessionState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestPhaseType>** StaticGet__531___RPGGameCoreFightFestPhaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestPhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4EF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoanPrepareType>** StaticGet__932___RPGClientCakeRaceCakeRaceLoanPrepareType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoanPrepareType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F>** StaticGet__1058___ProtoCmdMissionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleScoringDisplayType>** StaticGet__155___RPGGameCoreBattleScoringDisplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleScoringDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlSendType>** StaticGet__864___RPGClientCloudUtilsGameControlSendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlSendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMode>** StaticGet__558___RPGGameCoreRogueMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumMissionType>** StaticGet__273___RPGGameCoreMuseumMissionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumMissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFacilityType>** StaticGet__679___RPGGameCoreRestaurantFacilityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFacilityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftStatus>** StaticGet__652___RPGClientRechargeGiftStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LittleWheelType>** StaticGet__447___RPGGameCoreLittleWheelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LittleWheelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageItemType>** StaticGet__180___RPGGameCoreMessageItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Promises::PromiseState>** StaticGet__220___RPGClientPromisesPromiseState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Promises::PromiseState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueFormulaCategory>** StaticGet__475___RPGGameCoreRogueFormulaCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueFormulaCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointType>** StaticGet__815___RPGGameCoreAvatarSkillTreePointType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_35>** StaticGet__788___ProtoGridFightEquipTrackSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_35>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMiracleCategory>** StaticGet__476___RPGGameCoreRogueMiracleCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMiracleCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousSurfaceTag>** StaticGet__959___RPGGameCoreRogueNousSurfaceTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousSurfaceTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPQuestType>** StaticGet__176___RPGClientBPQuestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPQuestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTemplateType>** StaticGet__350___RPGGameCoreHeliobusTemplateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTemplateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_11>** StaticGet__1061___ProtoCmdMultipleDropType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsIssueHintPopupShowType>** StaticGet__891___RPGGameCoreLimaoNewsIssueHintPopupShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsIssueHintPopupShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4F98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimitType>** StaticGet__26___RPGGameCoreLimitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantRuleType>** StaticGet__723___RPGGameCoreAssistantRuleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantRuleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanCategory>** StaticGet__604___RPGGameCoreRogueTitanCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapPregressShowType>** StaticGet__194___RPGGameCoreMapPregressShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapPregressShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TarotBookVersion>** StaticGet__833___RPGClientTarotBookVersion_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TarotBookVersion>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_3>** StaticGet__1030___ProtoCmdFightFestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesDisplayType>** StaticGet__495___RPGGameCoreRollingSubtitlesDisplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_17>** StaticGet__1096___ProtoCmdServerPrefsType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_17>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourGameFlowMessage>** StaticGet__674___RPGClientParkourGameFlowMessage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_4>** StaticGet__1040___ProtoCmdHipplenType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkinType>** StaticGet__817___RPGGameCoreAvatarSkinType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkinType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_415112C3F24C8228>** StaticGet__1035___ProtoCmdFriendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_415112C3F24C8228>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x4FF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_26>** StaticGet__1085___ProtoCmdReplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5000);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengeTargetState>** StaticGet__102___RPGClientChallengeTargetState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5008);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StartMusicRhythmTask_Phase>** StaticGet__934___RPGGameCoreStartMusicRhythmTaskPhase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StartMusicRhythmTask_Phase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5010);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamType>** StaticGet__38___RPGGameCoreTeamType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5018);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LogicStateType>** StaticGet__924___RPGClientLogicStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LogicStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5020);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkModule_OptionType>** StaticGet__405___RPGClientTalkModuleOptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkModule_OptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5028);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityCharacterVOType>** StaticGet__982___RPGGameCoreAbilityCharacterVOType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityCharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5030);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitType>** StaticGet__752___RPGGameCoreGridFightTraitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5038);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenMiniGameType>** StaticGet__726___RPGGameCoreHipplenMiniGameType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenMiniGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5040);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::OtherSettings_FastRunSwitchMode>** StaticGet__151___RPGClientOtherSettingsFastRunSwitchMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::OtherSettings_FastRunSwitchMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5048);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesToastItem_Status>** StaticGet__939___RPGClientPlanetFesToastItemStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesToastItem_Status>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5050);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_15>** StaticGet__1097___ProtoCmdShopType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_15>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5058);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StrongChallengeBattleType>** StaticGet__389___RPGGameCoreStrongChallengeBattleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StrongChallengeBattleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5060);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_4>** StaticGet__520___ProtoFightGameMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5068);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleGroupLevelType>** StaticGet__960___RPGGameCoreRogueGambleGroupLevelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleGroupLevelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5070);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Texture2D_EXRFlags>** StaticGet__179___UnityEngineTexture2DEXRFlags_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Texture2D_EXRFlags>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5078);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_48>** StaticGet__215___ProtoRogueAreaStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_48>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5080);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmLevelResultType>** StaticGet__552___RPGClientMusicRhythmLevelResultType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmLevelResultType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5088);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelVOType>** StaticGet__984___RPGGameCoreLevelVOType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5090);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleCollegeData_BattleCollegeStatus>** StaticGet__337___RPGClientBattleCollegeDataBattleCollegeStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleCollegeData_BattleCollegeStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5098);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_6>** StaticGet__1112___ProtoCmdTrainVisitorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_3>** StaticGet__1113___ProtoCmdTravelBrochureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DynamicValue_DynamicValueType>** StaticGet__657___RPGGameCoreDynamicValueDynamicValueType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DynamicValue_DynamicValueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Proto::ItemCost_ItemOneofCase>** StaticGet__62___ProtoItemCostItemOneofCase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Proto::ItemCost_ItemOneofCase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGambleMode>** StaticGet__564___RPGClientRogueGambleMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGambleMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_2>** StaticGet__1106___ProtoCmdTalkEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemVendor>** StaticGet__828___RPGGameCoreChimeraDuelItemVendor_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemVendor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRecommendType>** StaticGet__782___RPGClientLightConeRecommendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRecommendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarDemoType>** StaticGet__735___RPGGameCoreAvatarDemoType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarDemoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageStateType>** StaticGet__210___RPGGameCoreMessageStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3_1>** StaticGet__1020___ProtoCmdEvolveBuildType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightFlyType>** StaticGet__843___RPGClientGridFightFlyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightFlyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x50F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletMessage>** StaticGet__607___RPGClientBookletMessage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5100);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_12>** StaticGet__1053___ProtoCmdMatchType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_12>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5108);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkHistoryType>** StaticGet__346___RPGClientTalkHistoryType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkHistoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5110);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_45>** StaticGet__625___ProtoPlanetFesQuestState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_45>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5118);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffStats>** StaticGet__251___RPGGameCoreStuffStats_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffStats>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5120);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FindChestTriggerType>** StaticGet__609___RPGGameCoreFindChestTriggerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FindChestTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5128);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeGroupType>** StaticGet__396___RPGGameCoreChallengeGroupType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5130);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraMemberType>** StaticGet__598___RPGGameCoreChimeraMemberType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraMemberType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5138);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503>** StaticGet__340___ProtoMsgType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5140);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityInstanceState>** StaticGet__911___RPGGameCoreAbilityInstanceState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityInstanceState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5148);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildCardType>** StaticGet__467___RPGGameCoreEvolveBuildCardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildCardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5150);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaccoonStateType>** StaticGet__481___RPGGameCoreRaccoonStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaccoonStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5158);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterExprListCompareType>** StaticGet__974___RPGGameCoreLevelDimensionFilterExprListCompareType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterExprListCompareType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5160);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeFuncType>** StaticGet__654___RPGGameCoreItemComposeFuncType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeFuncType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5168);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEffect>** StaticGet__308___RPGGameCoreMapEffect_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5170);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GunPlayModeType>** StaticGet__489___RPGGameCoreGunPlayModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GunPlayModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5178);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeType>** StaticGet__676___RPGGameCoreRestaurantEmployeeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5180);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioListenerMode>** StaticGet__249___RPGClientAudioListenerMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioListenerMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5188);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::FontStyle>** StaticGet__244___UnityEngineFontStyle_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::FontStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5190);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Axis>** StaticGet__4___UnityEngineRectTransformAxis_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Axis>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5198);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioManager_AudioDownloadState>** StaticGet__271___RPGClientAudioManagerAudioDownloadState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioManager_AudioDownloadState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueEventType>** StaticGet__412___RPGGameCoreRogueDialogueEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimPanelSkillType>** StaticGet__838___RPGGameCoreFiveDimPanelSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimPanelSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiscreteBar_DisplayMode>** StaticGet__108___RPGClientDiscreteBarDisplayMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiscreteBar_DisplayMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_3>** StaticGet__1063___ProtoCmdMusicRhythmType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BuffType>** StaticGet__320___RPGGameCoreBuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildPropertyType>** StaticGet__471___RPGGameCoreEvolveBuildPropertyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDecalRaycast_DecalResultState>** StaticGet__936___RPGClientCameraDecalRaycastDecalResultState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDecalRaycast_DecalResultState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferReason>** StaticGet__285___RPGGameCoreScreenTransferReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376>** StaticGet__991___ProtoCmdActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode>** StaticGet__683___RPGClientMatchThreeV2PlayerPvpCareerGameMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FarmTypeConfig>** StaticGet__152___RPGGameCoreFarmTypeConfig_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FarmTypeConfig>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x51F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesPageType>** StaticGet__494___RPGGameCoreRollingSubtitlesPageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesPageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5200);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParamType>** StaticGet__330___RPGGameCoreParamType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5208);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookSeries_CollectStateEnum>** StaticGet__69___RPGClientBookSeriesCollectStateEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookSeries_CollectStateEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5210);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NewsTicker_MoveDirectionType>** StaticGet__675___RPGClientNewsTickerMoveDirectionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NewsTicker_MoveDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5218);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_22>** StaticGet__1105___ProtoCmdPlayerSyncType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_22>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5220);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceTalkingSide>** StaticGet__619___RPGClientTalkConvinceTalkingSide_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceTalkingSide>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5228);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_4>** StaticGet__871___ProtoLobbyInteractType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5230);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_62>** StaticGet__581___ProtoRogueTalentStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_62>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5238);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B14C27C4318BFDC0>** StaticGet__1095___ProtoCmdSceneType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B14C27C4318BFDC0>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5240);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HudType>** StaticGet__300___RPGGameCoreHudType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HudType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5248);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ButtonShowPriority>** StaticGet__612___RPGGameCoreButtonShowPriority_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ButtonShowPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5250);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DailyLoginRewardActivityData_RewardStatus>** StaticGet__440___RPGClientDailyLoginRewardActivityDataRewardStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DailyLoginRewardActivityData_RewardStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5258);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TutorialGuideConfigType>** StaticGet__370___RPGClientTutorialGuideConfigType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TutorialGuideConfigType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5260);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoNativeEditBox_ReturnKeyType>** StaticGet__293___RPGClientMonoNativeEditBoxReturnKeyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoNativeEditBox_ReturnKeyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5268);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::Anniversary2NDPanelEnum>** StaticGet__662___RPGGameCoreAnniversary2NDPanelEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::Anniversary2NDPanelEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5270);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookEquipItemType>** StaticGet__772___RPGClientGridFightHandBookEquipItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookEquipItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5278);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelCommandGuideMode>** StaticGet__691___RPGClientLittleGameChimeraDuelChimeraDuelCommandGuideMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelCommandGuideMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5280);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateHouguType>** StaticGet__708___RPGGameCoreFateHouguType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateHouguType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5288);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawItemState>** StaticGet__365___RPGClientPropJigsawItemState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawItemState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5290);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueGroupType>** StaticGet__150___RPGGameCoreDialogueGroupType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5298);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType>** StaticGet__849___RPGClientLittleGameFiveDimMiniGameNotifyScoreType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginNodeType>** StaticGet__270___RPGClientLoginNodeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ERelicRecommendDataType>** StaticGet__925___RPGClientERelicRecommendDataType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ERelicRecommendDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_16>** StaticGet__547___ProtoFightFestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_16>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_28>** StaticGet__1101___ProtoCmdStrongChallengeActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_28>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimTransitionStatus>** StaticGet__884___RPGClientFiveDimTransitionStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimTransitionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScreenMatchMode>** StaticGet__458___UnityEngineUICanvasScalerScreenMatchMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScreenMatchMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_22>** StaticGet__646___ProtoChimeraRoundWorkEndReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_22>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantNormalEventType>** StaticGet__660___RPGGameCoreRestaurantNormalEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantNormalEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialEmoType>** StaticGet__374___RPGGameCoreHeartDialEmoType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialEmoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventorySortType>** StaticGet__24___RPGGameCoreInventorySortType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventorySortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::CommandRobotPuzzleDirection>** StaticGet__362___RPGClientPropCommandRobotPuzzleDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::CommandRobotPuzzleDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x52F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_LockFovReason>** StaticGet__574___RPGClientCameraDataAndFlagsLockFovReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_LockFovReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5300);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_10>** StaticGet__1116___ProtoCmdWaypointType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5308);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffSlotType>** StaticGet__701___RPGGameCoreFateBuffSlotType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffSlotType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5310);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::Direction>** StaticGet__818___RPGClientSequentialPanelContainerDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::Direction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5318);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterBodySize>** StaticGet__942___RPGGameCoreMonsterBodySize_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterBodySize>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5320);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageBoxDialogContext_MessageBoxMode>** StaticGet__25___RPGClientMessageBoxDialogContextMessageBoxMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageBoxDialogContext_MessageBoxMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5328);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DialogueMode>** StaticGet__342___RPGClientDialogueMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DialogueMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5330);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournTitanFloorType>** StaticGet__627___RPGGameCoreRogueTournTitanFloorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournTitanFloorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5338);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ComefromOpenType>** StaticGet__684___RPGGameCoreComefromOpenType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ComefromOpenType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5340);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimFluteEffectType>** StaticGet__887___RPGGameCoreFiveDimFluteEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimFluteEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5348);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideType>** StaticGet__224___RPGGameCoreGuideType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5350);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityQuestUITYPE>** StaticGet__423___RPGGameCoreActivityQuestUITYPE_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityQuestUITYPE>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5358);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0>** StaticGet__199___ProtoProductGiftType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5360);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityRank>** StaticGet__292___RPGGameCoreActivityRank_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5368);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_9>** StaticGet__296___ProtoFriendApplySource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5370);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerFormulaUnlockType>** StaticGet__435___RPGGameCoreDrinkMakerFormulaUnlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerFormulaUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5378);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DateTimePro_LiteralDate_Kind>** StaticGet__751___RPGClientDateTimeProLiteralDateKind_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DateTimePro_LiteralDate_Kind>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5380);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreFinishType>** StaticGet__729___RPGGameCoreMatchThreeScoreFinishType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5388);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimGameplayMode>** StaticGet__873___RPGGameCoreFiveDimGameplayMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimGameplayMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5390);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenPickingGoodsDisplayType>** StaticGet__755___RPGGameCoreHipplenPickingGoodsDisplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenPickingGoodsDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5398);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillType>** StaticGet__87___RPGGameCoreAdventureSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueType>** StaticGet__264___RPGGameCoreRogueDialogueType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_36>** StaticGet__380___ProtoTrainVisitorStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_36>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_12>** StaticGet__269___ProtoGetStuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_12>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_21>** StaticGet__1052___ProtoCmdMarkChestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_21>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTrailLayerQuality>** StaticGet__725___RPGGameCoreGridFightTrailLayerQuality_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTrailLayerQuality>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UISymbolFilterSource>** StaticGet__841___RPGClientUISymbolFilterSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UISymbolFilterSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefShareCodeS11nErrorType>** StaticGet__681___RPGClientRogueTournBuildRefShareCodeS11nErrorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefShareCodeS11nErrorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_CharacterValidation>** StaticGet__16___UnityEngineUIInputFieldCharacterValidation_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_CharacterValidation>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventType>** StaticGet__912___RPGGameCoreEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3>** StaticGet__1005___ProtoCmdCakeRaceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F_1>** StaticGet__1062___ProtoCmdMuseumType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x53F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarRowWrapperDeriveType>** StaticGet__629___RPGGameCoreAvatarRowWrapperDeriveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarRowWrapperDeriveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5400);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfBehaviorStateType>** StaticGet__664___RPGGameCoreElfBehaviorStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfBehaviorStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5408);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawCurorState>** StaticGet__368___RPGClientPropJigsawCurorState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawCurorState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5410);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkPopDirection>** StaticGet__630___RPGGameCoreChimeraTalkPopDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkPopDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5418);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraState>** StaticGet__196___RPGClientMonoExUICameraE_ExUICameraState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5420);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatSkillPreviewInvokeType>** StaticGet__860___RPGGameCoreDiceCombatSkillPreviewInvokeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatSkillPreviewInvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5428);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::LogTag>** StaticGet__20___RPGLogTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::LogTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5430);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UITransitionAnimType>** StaticGet__373___RPGClientUITransitionAnimType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UITransitionAnimType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5438);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferMode>** StaticGet__95___RPGGameCoreScreenTransferMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5440);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkRoundType>** StaticGet__482___RPGGameCoreClockParkRoundType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkRoundType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5448);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartySettleSourceType>** StaticGet__545___RPGClientTrainPartyTrainPartySettleSourceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartySettleSourceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5450);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_23>** StaticGet__1079___ProtoCmdRaidCollectionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_23>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5458);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropType>** StaticGet__100___RPGGameCorePropType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5460);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5AA68DC4007644C0>** StaticGet__294___ProtoVirtualItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5AA68DC4007644C0>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5468);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::PlanType>** StaticGet__611___RPGClientRelicSmartSuitPlanType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::PlanType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5470);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScaleMode>** StaticGet__457___UnityEngineUICanvasScalerScaleMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScaleMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5478);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_3>** StaticGet__990___ProtoCmdActiveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5480);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource>** StaticGet__742___RPGClientGridFightEquipReturnPackEventEquipReturnPackSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5488);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionProgressType>** StaticGet__591___RPGGameCoreMissionProgressType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionProgressType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5490);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUIAnchoredMoveAnimation_CurveType>** StaticGet__378___RPGClientMonoUIAnchoredMoveAnimationCurveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUIAnchoredMoveAnimation_CurveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5498);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_1>** StaticGet__993___ProtoCmdAdventureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournCollectionExhibitionInteractingPropType>** StaticGet__803___RPGClientRogueTournCollectionExhibitionInteractingPropType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournCollectionExhibitionInteractingPropType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhoneMessagePlayMode>** StaticGet__988___RPGGameCorePhoneMessagePlayMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhoneMessagePlayMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceChatEventType>** StaticGet__830___RPGClientCakeRaceChatEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceChatEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodSubType>** StaticGet__75___RPGGameCoreItemFoodSubType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardWayPointMutexStatus>** StaticGet__114___RPGClientBillboardWayPointMutexStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardWayPointMutexStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Class_2_0E6D6DF95E505CA6_LuaDataInvokeType>** StaticGet__938___RPGClientLuaDataModuleLuaDataInvokeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Class_2_0E6D6DF95E505CA6_LuaDataInvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetState>** StaticGet__90___RPGGameCoreEMazeLockTargetState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimBtnType>** StaticGet__905___RPGGameCoreFiveDimBtnType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimBtnType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridEffectType>** StaticGet__338___RPGGameCoreTreasureDungeonGridEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetConfigType>** StaticGet__406___RPGGameCoreBattleTargetConfigType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetConfigType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSubEffect>** StaticGet__307___RPGGameCoreMapSubEffect_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSubEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x54F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSummaryNominateType>** StaticGet__951___RPGGameCorePlanetFesSummaryNominateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSummaryNominateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5500);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingItemType>** StaticGet__172___RPGGameCorePhotoGraphSettingItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5508);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyGridType>** StaticGet__539___RPGGameCoreTrainPartyGridType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyGridType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5510);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68>** StaticGet__999___ProtoCmdBattleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5518);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Type>** StaticGet__6___UnityEngineUIImageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Type>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5520);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_SwipeDirectionType>** StaticGet__126___RPGClientQTEUIDataSwipeDirectionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_SwipeDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5528);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeStoryType>** StaticGet__586___RPGGameCoreChallengeStoryType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeStoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5530);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_414012C3F23E0EDD>** StaticGet__1087___ProtoCmdRogueType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_414012C3F23E0EDD>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5538);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MRMusicCompositionMode>** StaticGet__915___RPGClientMRMusicCompositionMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MRMusicCompositionMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5540);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoadingDisplayState>** StaticGet__844___RPGClientCakeRaceCakeRaceLoadingDisplayState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoadingDisplayState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5548);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventoryType>** StaticGet__128___RPGGameCoreInventoryType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5550);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventTriggerType>** StaticGet__40___UnityEngineEventSystemsEventTriggerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5558);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_13>** StaticGet__1082___ProtoCmdRedDotType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5560);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindUIControlMode>** StaticGet__504___RPGClientTimeRewindUIControlMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindUIControlMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5568);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_5>** StaticGet__1074___ProtoCmdPlayerReturnType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5570);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDLCBlockType>** StaticGet__349___RPGGameCoreRogueDLCBlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDLCBlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5578);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeInnerConditionType>** StaticGet__963___RPGGameCoreLevelNavNodeInnerConditionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeInnerConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5580);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointTriggerKey>** StaticGet__866___RPGGameCoreAvatarSkillTreePointTriggerKey_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointTriggerKey>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5588);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::Reflection::BindingFlags>** StaticGet__98___SystemReflectionBindingFlags_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::Reflection::BindingFlags>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5590);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffType>** StaticGet__257___RPGGameCoreStuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5598);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreeAnchorType>** StaticGet__783___RPGGameCoreAvatarSkillTreeAnchorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreeAnchorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffRarityType>** StaticGet__702___RPGGameCoreFateBuffRarityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateGameMasterTalkUIType>** StaticGet__699___RPGClientFateGameMasterTalkUIType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateGameMasterTalkUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PerformanceLiveStreamAtmosphereType>** StaticGet__879___RPGGameCorePerformanceLiveStreamAtmosphereType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PerformanceLiveStreamAtmosphereType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_1>** StaticGet__1008___ProtoCmdChatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_39>** StaticGet__429___ProtoTrackMainMissionUpdateReasonId_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_39>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightHandBookType>** StaticGet__768___RPGGameCoreGridFightHandBookType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightHandBookType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyOptionType>** StaticGet__439___RPGGameCoreMonopolyOptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyType>** StaticGet__1___RPGClientNotifyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingType>** StaticGet__889___RPGClientChenLingGameBoyChenLingGameBoyPlayerRankingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowRightCutInTraitImgType>** StaticGet__807___RPGGameCoreGridFightShowRightCutInTraitImgType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowRightCutInTraitImgType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightForgeFuncType>** StaticGet__821___RPGGameCoreGridFightForgeFuncType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightForgeFuncType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x55F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherShowType>** StaticGet__856___RPGGameCoreDiceCombatWeatherShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5600);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerTagType>** StaticGet__954___RPGGameCoreDrinkMakerTagType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerTagType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5608);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_2>** StaticGet__184___ProtoPunkLordAttackerStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5610);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_17>** StaticGet__322___ProtoChessRogueDiceStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_17>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5618);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLevelUnlockType>** StaticGet__645___RPGGameCorePlanetFesLevelUnlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLevelUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5620);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesQuestType>** StaticGet__626___RPGGameCorePlanetFesQuestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesQuestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5628);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_29>** StaticGet__1102___ProtoCmdSummonActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5630);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ErrorType>** StaticGet__1124___UnityEngineUIErrorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ErrorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5638);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_7>** StaticGet__1022___ProtoCmdFantasticStoryActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5640);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelSettleBattleResult>** StaticGet__801___RPGClientChimeraDuelSettleBattleResult_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelSettleBattleResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5648);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LightCone3DColorType>** StaticGet__211___RPGGameCoreLightCone3DColorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LightCone3DColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5650);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicEffectType>** StaticGet__948___RPGGameCoreRogueMagicEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5658);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin180>** StaticGet__11___UnityEngineUIImageOrigin180_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin180>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5660);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EraStateType>** StaticGet__575___RPGGameCoreEraStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EraStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5668);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Axis>** StaticGet__73___UnityEngineUIGridLayoutGroupAxis_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Axis>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5670);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeAbility>** StaticGet__730___RPGGameCoreRestaurantEmployeeAbility_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeAbility>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5678);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ShareSource>** StaticGet__427___RPGClientShareSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ShareSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5680);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetSelectState>** StaticGet__92___RPGGameCoreEMazeLockTargetSelectState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetSelectState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5688);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenWorkType>** StaticGet__767___RPGGameCoreHipplenWorkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenWorkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5690);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMaskMaterial_Params_DirtyFlagBit>** StaticGet__1130___UnityEngineUISmoothMaskMaterialParamsDirtyFlagBit_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMaskMaterial_Params_DirtyFlagBit>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5698);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MaterialSubmitterState>** StaticGet__563___RPGClientMaterialSubmitterState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MaterialSubmitterState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType>** StaticGet__895___RPGClientDiceCombatDiceCombatCollectionPageParamTabType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ListItemArrangeType>** StaticGet__908___SuperScrollViewListItemArrangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ListItemArrangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAffixRarityType>** StaticGet__700___RPGGameCoreFateAffixRarityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAffixRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::DayOfWeek>** StaticGet__28___SystemDayOfWeek_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::DayOfWeek>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINavigationDirection>** StaticGet__381___RPGClientUINavigationDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINavigationDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_2>** StaticGet__99___ProtoExtraLineupType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_2>** StaticGet__1047___ProtoCmdLobbyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UserPrefs_EyeProtectionMode>** StaticGet__334___RPGClientUserPrefsEyeProtectionMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UserPrefs_EyeProtectionMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingMoodState>** StaticGet__557___RPGGameCoreSwordTrainingMoodState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingMoodState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerAvatarRarityType>** StaticGet__120___RPGGameCoreCombatPowerAvatarRarityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerAvatarRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::E_PakType>** StaticGet__326___RPGGameCoreE_PakType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::E_PakType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x56F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeType>** StaticGet__130___RPGGameCoreGameModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5700);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_FieldEffectBudgetStrategy>** StaticGet__836___RPGClientMonoEffectManagerFieldEffectBudgetStrategy_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_FieldEffectBudgetStrategy>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5708);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenOutfitType>** StaticGet__757___RPGGameCoreHipplenOutfitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenOutfitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5710);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RuntimePlatform>** StaticGet__1131___UnityEngineRuntimePlatform_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RuntimePlatform>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5718);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTargetRewardType>** StaticGet__274___RPGGameCoreMuseumTargetRewardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTargetRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5720);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RelicType>** StaticGet__118___RPGGameCoreRelicType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RelicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5728);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidEnterType>** StaticGet__474___RPGGameCoreRaidEnterType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidEnterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5730);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UseSkillErrorCode>** StaticGet__789___RPGGameCoreUseSkillErrorCode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UseSkillErrorCode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5738);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial90>** StaticGet__60___UnityEngineUISmoothMaskFillOriginRadial90_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial90>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5740);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakGameFlowMessage>** StaticGet__746___RPGClientChallengePeakGameFlowMessage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5748);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityPanelDataSource>** StaticGet__916___RPGClientResidentActivityPanelDataSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityPanelDataSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5750);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E>** StaticGet__1004___ProtoCmdBoxingClubType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5758);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialAvatarType>** StaticGet__123___RPGGameCoreSpecialAvatarType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialAvatarType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5760);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504_1>** StaticGet__1104___ProtoCmdSwordTrainingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5768);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultipleDropTypeConfig>** StaticGet__299___RPGGameCoreMultipleDropTypeConfig_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultipleDropTypeConfig>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5770);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit>** StaticGet__740___RPGClientMonoRemainTimerPositionStyleFirstDisplayedTimeUnit_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5778);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_InputButton>** StaticGet__636___UnityEngineEventSystemsPointerEventDataInputButton_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_InputButton>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5780);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_30>** StaticGet__364___ProtoRogueCommonBuffSelectSourceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_30>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5788);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::MoveDirection>** StaticGet__134___UnityEngineEventSystemsMoveDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::MoveDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5790);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINPCWarningTipsContainer_WaypointStatus>** StaticGet__205___RPGClientUINPCWarningTipsContainerWaypointStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINPCWarningTipsContainer_WaypointStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5798);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_NavigationControlType>** StaticGet__265___InControlInControlInputModuleNavigationControlType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_NavigationControlType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_StereoscopicEye>** StaticGet__43___UnityEngineCameraStereoscopicEye_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_StereoscopicEye>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillType>** StaticGet__56___UnityEngineUISmoothMaskFillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_StartCorner>** StaticGet__881___RPGUINavigationUINavigationAreaStartCorner_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_StartCorner>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimEnterType>** StaticGet__897___RPGClientLittleGameFiveDimFiveDimEnterType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimEnterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimMiniGameEnterType>** StaticGet__893___RPGClientLittleGameFiveDimFiveDimMiniGameEnterType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimMiniGameEnterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Corner>** StaticGet__72___UnityEngineUIGridLayoutGroupCorner_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Corner>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SilverWolfState>** StaticGet__246___RPGClientSilverWolfState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SilverWolfState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_4>** StaticGet__1083___ProtoCmdRelicBoxType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_3>** StaticGet__1069___ProtoCmdPhoneType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimGameInstance_VisibleReason>** StaticGet__935___RPGClientFiveDimGameInstanceVisibleReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimGameInstance_VisibleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherPassiveSkillType>** StaticGet__312___RPGGameCoreAetherPassiveSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherPassiveSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x57F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffPoolType>** StaticGet__957___RPGGameCoreMazeBuffPoolType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffPoolType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5800);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphOperationType>** StaticGet__944___RPGGameCoreLevelGraphOperationType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphOperationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5808);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TextMotionTyperType>** StaticGet__824___RPGGameCoreTextMotionTyperType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TextMotionTyperType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5810);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_42>** StaticGet__666___ProtoRelicDiscardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_42>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5818);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_MazeBattleShotDataType>** StaticGet__169___RPGClientCameraDataAndFlagsMazeBattleShotDataType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_MazeBattleShotDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5820);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissingVideoProcessType>** StaticGet__930___RPGClientMissingVideoProcessType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissingVideoProcessType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5828);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityModule_ActivityType>** StaticGet__149___RPGClientActivityModuleActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityModule_ActivityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5830);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightSeason>** StaticGet__952___RPGGameCoreStarFightSeason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightSeason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5838);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherRuleTag>** StaticGet__857___RPGGameCoreDiceCombatWeatherRuleTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherRuleTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5840);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterType>** StaticGet__972___RPGGameCoreLevelDimensionFilterType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5848);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkAttributeType>** StaticGet__463___RPGClientClockParkAttributeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkAttributeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5850);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyChallengeState>** StaticGet__888___RPGClientChenLingGameBoyChenLingGameBoyChallengeState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyChallengeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5858);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPriority>** StaticGet__434___RPGClientUIPriority_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5860);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyComponentType>** StaticGet__379___RPGGameCoreChessRogueDifficultyComponentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyComponentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5868);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleOpenType>** StaticGet__861___RPGClientPenaconyEndmostChronicleOpenType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleOpenType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5870);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazePuzzleMovieGameMode>** StaticGet__446___RPGGameCoreMazePuzzleMovieGameMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazePuzzleMovieGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5878);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_AlignDirection>** StaticGet__351___UnityEngineUIScrollRectAlignDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_AlignDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5880);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_8>** StaticGet__1110___ProtoCmdTrackPhotoActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5888);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGApplication_UpdateStep>** StaticGet__279___RPGClientRPGApplicationUpdateStep_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGApplication_UpdateStep>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5890);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_VerifyLoadingType>** StaticGet__590___RPGClientLoadingManagerVerifyLoadingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_VerifyLoadingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5898);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_19>** StaticGet__1109___ProtoCmdTextJoinType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_19>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeLightInitData_TabType>** StaticGet__869___RPGClientBattleViewModeLightInitDataTabType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeLightInitData_TabType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropState>** StaticGet__83___RPGGameCorePropState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_8>** StaticGet__997___ProtoCmdArchiveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenGameGradeType>** StaticGet__727___RPGGameCoreHipplenGameGradeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenGameGradeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason>** StaticGet__764___RPGClientCameraDataAndFlagsKeepOrthographicOnResetReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_4>** StaticGet__1015___ProtoCmdDiceCombatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportRouteState>** StaticGet__318___RPGClientAlleyTransportRouteState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportRouteState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelFeatureType>** StaticGet__970___RPGGameCoreLevelFeatureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelFeatureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_5>** StaticGet__1002___ProtoCmdBenefitActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Timeline::TimelineAsset_DurationMode>** StaticGet__1121___UnityEngineTimelineTimelineAssetDurationMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Timeline::TimelineAsset_DurationMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ESwitchHandGestureType>** StaticGet__572___RPGGameCoreESwitchHandGestureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ESwitchHandGestureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x58F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraPreparationState>** StaticGet__596___RPGClientPropChimeraPreparationState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraPreparationState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5900);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatAvatarInfoType>** StaticGet__931___RPGClientDiceCombatDiceCombatAvatarInfoType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatAvatarInfoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5908);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAeonType>** StaticGet__355___RPGGameCoreRogueAeonType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAeonType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5910);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumStaffData_StaffStatus>** StaticGet__258___RPGClientMuseumStaffDataStaffStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumStaffData_StaffStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5918);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ProductPlatformType>** StaticGet__898___RPGClientItemDataProductPlatformType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ProductPlatformType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5920);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSpecialUltraType>** StaticGet__461___RPGGameCoreAvatarSpecialUltraType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSpecialUltraType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5928);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_2>** StaticGet__1056___ProtoCmdMessageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5930);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractType>** StaticGet__721___RPGGameCoreHipplenInteractType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5938);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_FieldOfViewAxis>** StaticGet__42___UnityEngineCameraFieldOfViewAxis_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_FieldOfViewAxis>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5940);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SuitRecommendDataType>** StaticGet__926___RPGClientSuitRecommendDataType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SuitRecommendDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5948);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockFunctionType>** StaticGet__797___RPGGameCoreGridFightUnlockFunctionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockFunctionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5950);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodUseTag>** StaticGet__233___RPGGameCoreItemFoodUseTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodUseTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5958);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreType>** StaticGet__509___RPGGameCoreMatchThreeScoreType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5960);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityFarmMultipleDropType>** StaticGet__284___RPGGameCoreActivityFarmMultipleDropType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityFarmMultipleDropType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5968);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_1>** StaticGet__1033___ProtoCmdFightMatch3Type_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5970);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_25>** StaticGet__1081___ProtoCmdRecommendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5978);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStepResultType>** StaticGet__549___RPGGameCoreTrainPartyStepResultType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStepResultType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5980);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUIZoomRange>** StaticGet__198___RPGClientMonoExUICameraE_ExUIZoomRange_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUIZoomRange>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5988);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_11>** StaticGet__1027___ProtoCmdFightActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5990);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIAdaptiveDeviceType>** StaticGet__473___RPGGameCoreUIAdaptiveDeviceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIAdaptiveDeviceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5998);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EWolfBroGunPlayTargetScoreMode>** StaticGet__497___RPGClientEWolfBroGunPlayTargetScoreMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EWolfBroGunPlayTargetScoreMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleCustomUnlockCondition>** StaticGet__422___RPGGameCoreChronicleCustomUnlockCondition_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleCustomUnlockCondition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_1>** StaticGet__1050___ProtoCmdMapRotationType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightManager_GridFightCustomValue_ValueClassify>** StaticGet__763___RPGGameCoreGridFightManagerGridFightCustomValueValueClassify_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightManager_GridFightCustomValue_ValueClassify>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatPreviewValueType>** StaticGet__852___RPGGameCoreDiceCombatPreviewValueType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatPreviewValueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGQualitySettingsBoolWrapper>** StaticGet__535___RPGClientRPGQualitySettingsBoolWrapper_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGQualitySettingsBoolWrapper>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePhaseType>** StaticGet__19___RPGClientGamePhaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_6>** StaticGet__1080___ProtoCmdRechargeGiftType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterCampType>** StaticGet__382___RPGGameCoreCharacterCampType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterCampType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDifficultyType>** StaticGet__946___RPGGameCoreRogueDifficultyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphType>** StaticGet__985___RPGGameCoreLevelGraphType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GrowthMaterialGroup>** StaticGet__922___RPGClientGrowthMaterialGroup_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GrowthMaterialGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x59F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441>** StaticGet__544___ProtoMultiPathAvatarType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlReceiveType>** StaticGet__865___RPGClientCloudUtilsGameControlReceiveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlReceiveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_26>** StaticGet__158___ProtoMessageSectionStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_10>** StaticGet__1021___ProtoCmdExpeditionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_28>** StaticGet__250___ProtoRogueStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_28>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRank>** StaticGet__750___RPGClientChallengePeakRank_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookContentData_BookContentType>** StaticGet__66___RPGClientBookContentDataBookContentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookContentData_BookContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRewardGotoStatus>** StaticGet__714___RPGClientLightConeRewardGotoStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRewardGotoStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationReportActionType>** StaticGet__770___RPGClientLineupRecommendationReportActionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationReportActionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStoryCategory>** StaticGet__585___RPGGameCoreRogueMagicStoryCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStoryCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelJumpTextType>** StaticGet__795___RPGClientPropChimeraDuelJumpTextType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelJumpTextType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCLodType>** StaticGet__966___RPGGameCoreLevelNPCLodType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCLodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::StoryLineSwitchReason>** StaticGet__441___RPGClientStoryLineSwitchReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::StoryLineSwitchReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13>** StaticGet__499___ProtoPlayingState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialGuideShowType>** StaticGet__143___RPGGameCoreTutorialGuideShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialGuideShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::BossPhase>** StaticGet__477___RPGClientLittleGameBossPhase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::BossPhase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigation_Rule>** StaticGet__933___RPGUINavigationUINavigationRule_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigation_Rule>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SenderType>** StaticGet__157___RPGGameCoreSenderType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SenderType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionCategory>** StaticGet__973___RPGGameCoreLevelDimensionCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamTransitionType>** StaticGet__901___RPGToolsTimelinePerformanceLiveStreamTransitionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamTransitionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5A98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyGroup>** StaticGet__0___RPGClientNotifyGroup_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AnimZoneType>** StaticGet__112___RPGGameCoreAnimZoneType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AnimZoneType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_1>** StaticGet__508___ProtoMatchThreeStatisticsType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridItemArrangeType>** StaticGet__240___SuperScrollViewGridItemArrangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridItemArrangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::VirtualCursorStatus>** StaticGet__431___RPGClientVirtualCursorStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::VirtualCursorStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Spine::Unity::SkeletonGraphic_LayoutMode>** StaticGet__331___SpineUnitySkeletonGraphicLayoutMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Spine::Unity::SkeletonGraphic_LayoutMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_FramePressState>** StaticGet__637___UnityEngineEventSystemsPointerEventDataFramePressState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_FramePressState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCOverrideBehaviorType>** StaticGet__969___RPGGameCoreLevelNPCOverrideBehaviorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCOverrideBehaviorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIMeta_UIBlurMode>** StaticGet__135___RPGClientUIMetaUIBlurMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIMeta_UIBlurMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NetworkManager_ConnectState>** StaticGet__22___RPGClientNetworkManagerConnectState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NetworkManager_ConnectState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_15>** StaticGet__174___ProtoBpTierType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_15>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPreset>** StaticGet__694___RPGGameCoreGridFightPreset_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPreset>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5AF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicUnitCategory>** StaticGet__553___RPGGameCoreRogueMagicUnitCategory_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicUnitCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaGroupType>** StaticGet__717___RPGGameCoreGachaGroupType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51CA64C3FB637832>** StaticGet__1009___ProtoCmdChessRogueType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51CA64C3FB637832>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_1>** StaticGet__1060___ProtoCmdMultiplayerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityGuessTheSilhouetteDataStatus>** StaticGet__286___RPGClientActivityGuessTheSilhouetteDataStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityGuessTheSilhouetteDataStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_4>** StaticGet__1049___ProtoCmdMailType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightNodeType>** StaticGet__707___RPGGameCoreGridFightNodeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_43>** StaticGet__252___ProtoStatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_43>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooSpicalEventState>** StaticGet__398___RPGGameCoreSpaceZooSpicalEventState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooSpicalEventState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoShotTargetResult>** StaticGet__542___RPGClientTrackPhotoShotTargetResult_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoShotTargetResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_MonoOrStereoscopicEye>** StaticGet__44___UnityEngineCameraMonoOrStereoscopicEye_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_MonoOrStereoscopicEye>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PunkLordMonsterRare>** StaticGet__183___RPGGameCorePunkLordMonsterRare_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PunkLordMonsterRare>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_20>** StaticGet__1048___ProtoCmdLocalLegendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_20>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C>** StaticGet__1023___ProtoCmdFateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_18>** StaticGet__1108___ProtoCmdTelevisionActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_18>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidCollectionType>** StaticGet__550___RPGGameCoreRaidCollectionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidCollectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HandbookMissionChronicleState>** StaticGet__842___RPGClientHandbookMissionChronicleState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HandbookMissionChronicleState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoCurveRateSlider_ContentMoveDirection>** StaticGet__348___RPGClientMonoCurveRateSliderContentMoveDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoCurveRateSlider_ContentMoveDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelGameModeType>** StaticGet__868___RPGGameCoreFourRotateVoxelGameModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCUseAnimationType>** StaticGet__968___RPGGameCoreLevelNPCUseAnimationType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCUseAnimationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5B98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_2>** StaticGet__766___ProtoGridFightDropType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_2>** StaticGet__289___ProtoTreasureDungeonRecordType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_SoftRangeType>** StaticGet__55___UnityEngineUISmoothMaskSoftRangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_SoftRangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_54>** StaticGet__1075___ProtoCmdPlotType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_54>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_DoubleTapDetection>** StaticGet__46___HedgehogTeamEasyTouchEasyTouchDoubleTapDetection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_DoubleTapDetection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceRare>** StaticGet__854___RPGGameCoreDiceCombatDiceRare_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceRare>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemCostState>** StaticGet__644___RPGClientItemCostState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemCostState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::MatchThreeGameMode>** StaticGet__501___RPGClientLittleGameMatch3MatchThreeGameMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::MatchThreeGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkCardRarity>** StaticGet__500___RPGClientClockParkCardRarity_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkCardRarity>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::DontHidePanelType>** StaticGet__139___RPGToolsTimelineDontHidePanelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::DontHidePanelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMemberType>** StaticGet__781___RPGClientGridFightGridMemberType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMemberType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightSettleRankType>** StaticGet__804___RPGGameCoreGridFightSettleRankType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightSettleRankType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5BF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaType>** StaticGet__138___RPGGameCoreGachaType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51AF64C3FB4CB07A>** StaticGet__1093___ProtoCmdRogueTournType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51AF64C3FB4CB07A>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialOrderFinishTypeEnum>** StaticGet__316___RPGGameCoreSpecialOrderFinishTypeEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialOrderFinishTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ItemFlag>** StaticGet__239___RPGClientItemDataItemFlag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ItemFlag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousDifficultyType>** StaticGet__404___RPGGameCoreRogueNousDifficultyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceType>** StaticGet__883___RPGGameCoreDiceCombatDiceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_14>** StaticGet__1068___ProtoCmdPetType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_1>** StaticGet__131___ProtoBattleModuleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierStateFilter>** StaticGet__507___RPGGameCoreModifierStateFilter_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierStateFilter>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateTraitType>** StaticGet__705___RPGGameCoreFateTraitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateTraitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriority>** StaticGet__450___RPGGameCorePPEffectFilterPriority_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_6>** StaticGet__1067___ProtoCmdParkourType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidTeamType>** StaticGet__230___RPGGameCoreRaidTeamType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidTeamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridType>** StaticGet__287___RPGGameCoreTreasureDungeonGridType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamModule_TeleportState>** StaticGet__127___RPGClientTeamModuleTeleportState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamModule_TeleportState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::ProfileUtility_LoadReason>** StaticGet__261___RPGProfileUtilityLoadReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::ProfileUtility_LoadReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatShopGoodType>** StaticGet__855___RPGClientDiceCombatDiceCombatShopGoodType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatShopGoodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_4>** StaticGet__1031___ProtoCmdFightMarbleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AUiProgressBar_Enum_3_BEB443A01708ECF3>** StaticGet__227___UnityEngineUIAUiProgressBarTextType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AUiProgressBar_Enum_3_BEB443A01708ECF3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimer_TimeMode>** StaticGet__70___RPGClientMonoRemainTimerTimeMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimer_TimeMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5C98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochurePasterType>** StaticGet__385___RPGGameCoreTravelBrochurePasterType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochurePasterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodTargetType>** StaticGet__76___RPGGameCoreItemFoodTargetType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasUpdate>** StaticGet__1122___UnityEngineUICanvasUpdate_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasUpdate>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonItemType>** StaticGet__335___RPGGameCoreTreasureDungeonItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GestureType>** StaticGet__47___HedgehogTeamEasyTouchEasyTouchGestureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GestureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterMotionFlag>** StaticGet__39___RPGGameCoreCharacterMotionFlag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterMotionFlag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Selectable_Transition>** StaticGet__232___UnityEngineUISelectableTransition_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Selectable_Transition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolvePeriodType>** StaticGet__949___RPGGameCoreEvolvePeriodType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolvePeriodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTendencyType>** StaticGet__955___RPGGameCoreHeliobusTendencyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTendencyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSpaceType>** StaticGet__402___RPGGameCoreMapSpaceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSpaceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameFlowType>** StaticGet__745___RPGGameCoreGameFlowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameFlowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusType>** StaticGet__243___RPGGameCoreEnumStatusType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5CF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin90>** StaticGet__10___UnityEngineUIImageOrigin90_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin90>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionUIGotoType>** StaticGet__437___RPGGameCoreMissionUIGotoType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionUIGotoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherSpiritType>** StaticGet__309___RPGGameCoreAetherSpiritType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherSpiritType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_ColorMode>** StaticGet__687___RPGClientHPBarColorMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_ColorMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGameType>** StaticGet__633___RPGGameCorePlanetFesGameType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::DiceCombatSkillPreviewLogicInvokeType>** StaticGet__876___RPGLittleGameShareDiceCombatCoreDiceCombatSkillPreviewLogicInvokeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::DiceCombatSkillPreviewLogicInvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionTalkStyleType>** StaticGet__692___RPGGameCoreMissionTalkStyleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionTalkStyleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRecycleShowType>** StaticGet__226___RPGGameCoreItemRecycleShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRecycleShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetUIState>** StaticGet__91___RPGGameCoreEMazeLockTargetUIState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetUIState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphFovLevel>** StaticGet__537___RPGGameCorePhotoGraphFovLevel_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphFovLevel>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemType>** StaticGet__847___RPGGameCoreChimeraDuelItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeType>** StaticGet__103___RPGGameCoreChallengeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Recommend::GoodRelicRecommendType>** StaticGet__651___RPGClientRecommendGoodRelicRecommendType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Recommend::GoodRelicRecommendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefRoleExpiredType>** StaticGet__875___RPGClientGameRefRoleExpiredType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefRoleExpiredType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphIdentifyState>** StaticGet__171___RPGClientPhotoGraphIdentifyState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphIdentifyState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDirectDamageStyle>** StaticGet__872___RPGGameCoreDiceCombatDirectDamageStyle_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDirectDamageStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A453BC3F773E0DF>** StaticGet__1091___ProtoCmdRogueMagicType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A453BC3F773E0DF>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionLogicType>** StaticGet__528___RPGGameCoreSubmissionLogicType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionLogicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkDebateBtn>** StaticGet__332___RPGClientTalkDebateBtn_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkDebateBtn>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTalkType>** StaticGet__835___RPGGameCoreChimeraDuelTalkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5D98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionReplayModule_DownloadState>** StaticGet__787___RPGClientMissionReplayModuleDownloadState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionReplayModule_DownloadState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildSeason>** StaticGet__639___RPGGameCoreEvolveBuildSeason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildSeason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierState>** StaticGet__52___RPGGameCoreModifierState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCardTipsTypeEnum>** StaticGet__480___RPGGameCoreClockParkCardTipsTypeEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCardTipsTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingEffectType>** StaticGet__555___RPGGameCoreSwordTrainingEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightBattleShowDetailType>** StaticGet__711___RPGClientGridFightBattleShowDetailType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightBattleShowDetailType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DisPlaySelectServerStatus>** StaticGet__188___RPGClientDisPlaySelectServerStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DisPlaySelectServerStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelGameType>** StaticGet__850___RPGGameCoreChimeraDuelGameType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GenderType>** StaticGet__129___RPGGameCoreGenderType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GenderType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_DialogBtnMode>** StaticGet__115___RPGClientConfirmDialogContextDialogBtnMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_DialogBtnMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidLimitType>** StaticGet__262___RPGGameCoreRaidLimitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidLimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ELevelPerformanceType>** StaticGet__165___RPGGameCoreELevelPerformanceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ELevelPerformanceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5DF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingStoryType>** StaticGet__505___RPGGameCoreSwordTrainingStoryType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingStoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIButtonSoundType>** StaticGet__113___RPGClientUIButtonSoundType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIButtonSoundType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatGradeType>** StaticGet__736___RPGGameCoreHipplenStatGradeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatGradeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_1>** StaticGet__1036___ProtoCmdGachaType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_3>** StaticGet__992___ProtoCmdActivityRewardStatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsOfficeSurveyType>** StaticGet__956___RPGGameCoreLimaoNewsOfficeSurveyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsOfficeSurveyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyShipType>** StaticGet__305___RPGGameCoreAlleyShipType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyShipType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopRefreshType>** StaticGet__777___RPGClientGridFightShopRefreshType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopRefreshType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NoteInputResult>** StaticGet__519___RPGClientNoteInputResult_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NoteInputResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUIMode>** StaticGet__268___RPGClientPhotoGraphUIMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUIMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFarmType>** StaticGet__682___RPGGameCoreRestaurantFarmType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFarmType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerQuantifyTagType>** StaticGet__438___RPGGameCoreDrinkMakerQuantifyTagType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerQuantifyTagType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E58);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1A0);
 		}
 		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerLightconeRarityType>** StaticGet__121___RPGGameCoreCombatPowerLightconeRarityType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerLightconeRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E60);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerLightconeRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1A8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActionBarUpdateTiming>** StaticGet__928___RPGClientActionBarUpdateTiming_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ContactRole>** StaticGet__946___RPGClientContactRole_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActionBarUpdateTiming>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E68);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ContactRole>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1B0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournMode>** StaticGet__616___RPGGameCoreRogueTournMode_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CE9F1C413C28E19>** StaticGet__1086___ProtoCmdMazePuzzleType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E70);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CE9F1C413C28E19>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1B8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffInBattleBindingType>** StaticGet__479___RPGGameCoreMazeBuffInBattleBindingType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkTriggerType>** StaticGet__267___RPGGameCoreMuseumTalkTriggerType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffInBattleBindingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E78);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1C0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIValueChangeMode>** StaticGet__301___RPGClientUIValueChangeMode_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33>** StaticGet__1049___ProtoCmdElfRestaurantType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIValueChangeMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E80);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1C8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCurseChestType>** StaticGet__695___RPGGameCoreRogueTournCurseChestType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::NextMainMissionStatus>** StaticGet__202___RPGGameCoreNextMainMissionStatus_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCurseChestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E88);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::NextMainMissionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1D0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackCameraTrackType>** StaticGet__793___RPGClientCameraDataAndFlagsTrackCameraTrackType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_14>** StaticGet__1113___ProtoCmdRedDotType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackCameraTrackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E90);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1D8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseFreelookCinemachineUpdateReason>** StaticGet__567___RPGClientCameraDataAndFlagsPauseFreelookCinemachineUpdateReason_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemMainType>** StaticGet__239___RPGGameCoreItemMainType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseFreelookCinemachineUpdateReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5E98);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemMainType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1E0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::OpponentRole>** StaticGet__665___RPGClientLittleGameMatch3OpponentRole_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BubbleTalkType>** StaticGet__316___RPGGameCoreBubbleTalkType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::OpponentRole>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EA0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BubbleTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1E8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventBubbleType>** StaticGet__778___RPGGameCoreRestaurantSelectEventBubbleType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionLogicType>** StaticGet__530___RPGGameCoreSubmissionLogicType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventBubbleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EA8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionLogicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1F0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_5>** StaticGet__1043___ProtoCmdJukeboxType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageSpecialChangeType>** StaticGet__932___RPGGameCoreMessageSpecialChangeType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EB0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageSpecialChangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B1F8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialTriggerType>** StaticGet__31___RPGGameCoreTutorialTriggerType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillType>** StaticGet__56___UnityEngineUISmoothMaskFillType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EB8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B200);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityTargetType>** StaticGet__961___RPGGameCoreAbilityTargetType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicEffectType>** StaticGet__977___RPGGameCoreRogueMagicEffectType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EC0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B208);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubMissionState>** StaticGet__101___RPGGameCoreSubMissionState_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTeamType>** StaticGet__814___RPGGameCoreChimeraDuelTeamType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubMissionState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EC8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTeamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B210);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OfferingRewardType>** StaticGet__571___RPGGameCoreOfferingRewardType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardExchangeType>** StaticGet__643___RPGClientPlanetFesTradingCardExchangeType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OfferingRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5ED0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardExchangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B218);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameRecordType>** StaticGet__514___RPGClientSwordTrainingSwordTrainingGameRecordType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefShareCodeS11nErrorType>** StaticGet__683___RPGClientRogueTournBuildRefShareCodeS11nErrorType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameRecordType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5ED8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefShareCodeS11nErrorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B220);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_35>** StaticGet__583___ProtoTrainPartyMtSkillBriefType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_30>** StaticGet__366___ProtoRogueCommonBuffSelectSourceType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_35>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MappingInfoShowType>** StaticGet__231___RPGClientMappingInfoShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MappingInfoShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HPBarType>** StaticGet__443___RPGGameCoreHPBarType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HPBarType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_7>** StaticGet__1115___ProtoCmdTutorialType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5EF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMoveValidateResultType>** StaticGet__839___RPGClientGridFightGridMoveValidateResultType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMoveValidateResultType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackType>** StaticGet__64___RPGGameCoreAttackType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatType>** StaticGet__722___RPGGameCoreHipplenStatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherDivideChallengeType>** StaticGet__310___RPGGameCoreAetherDivideChallengeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherDivideChallengeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelAnimalType>** StaticGet__863___RPGGameCoreFourRotateVoxelAnimalType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelAnimalType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_9>** StaticGet__1014___ProtoCmdDailyActiveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F28);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_76>** StaticGet__30___ProtoTutorialStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_76>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F30);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_CaculateNodeType>** StaticGet__1127___UnityEngineUICaculateNodeDataCaculateNodeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_CaculateNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F38);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkStyleType>** StaticGet__690___RPGGameCoreSimpleTalkStyleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkStyleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F40);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmGroupState>** StaticGet__551___RPGClientMusicRhythmGroupState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmGroupState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F48);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIController_TransitionStyle>** StaticGet__164___RPGClientUIControllerTransitionStyle_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIController_TransitionStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F50);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75B6C8C41019010E>** StaticGet__1057___ProtoCmdMiscModuleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75B6C8C41019010E>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F58);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_1>** StaticGet__1039___ProtoCmdHeliobusType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F60);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LockSource>** StaticGet__353___RPGClientLockSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LockSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F68);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_SkillAllowUseCheckResult>** StaticGet__86___RPGGameCoreAdventureSkillCharacterComponentSkillAllowUseCheckResult_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_SkillAllowUseCheckResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F70);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeLimitType>** StaticGet__235___RPGGameCoreItemComposeLimitType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeLimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F78);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferType>** StaticGet__96___RPGGameCoreScreenTransferType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F80);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportEditMode>** StaticGet__280___RPGClientAlleyTransportEditMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportEditMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F88);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraOut>** StaticGet__197___RPGClientMonoExUICameraE_ExUICameraOut_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraOut>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F90);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>** StaticGet__784___RPGClientPropChimeraDuelMainPuzzleStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5F98);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideChallengeType>** StaticGet__395___RPGGameCoreGuideChallengeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideChallengeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FA0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ABE4DC4008A6A21>** StaticGet__228___ProtoCmdItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ABE4DC4008A6A21>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FA8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUtils_StorageFormatType>** StaticGet__167___RPGClientPhotoGraphUtilsStorageFormatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUtils_StorageFormatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FB0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::NextMainMissionStatus>** StaticGet__201___RPGGameCoreNextMainMissionStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::NextMainMissionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FB8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitEffectType>** StaticGet__732___RPGGameCoreGridFightTraitEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FC0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AccountLoginMode>** StaticGet__21___RPGClientAccountLoginMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AccountLoginMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FC8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIProfiler_SampleType>** StaticGet__248___RPGClientUIProfilerSampleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIProfiler_SampleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FD0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AssetLoadPriority>** StaticGet__2___RPGClientAssetLoadPriority_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AssetLoadPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FD8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextFormattingTag>** StaticGet__578___UnityEngineTextFormattingTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextFormattingTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FE0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_Unit>** StaticGet__459___UnityEngineUICanvasScalerUnit_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_Unit>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FE8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolder>** StaticGet__78___SystemEnvironmentSpecialFolder_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolder>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FF0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarUI3DDisableIdleShowReason>** StaticGet__761___RPGClientAvatarUI3DDisableIdleShowReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarUI3DDisableIdleShowReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x5FF8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MatchThreeTimelineBattleField_MatchThreeTimelineType>** StaticGet__522___RPGClientLittleGameMatchThreeTimelineBattleFieldMatchThreeTimelineType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MatchThreeTimelineBattleField_MatchThreeTimelineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6000);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A5FFBC3F78A3BD7>** StaticGet__998___ProtoCmdAvatarType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A5FFBC3F78A3BD7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6008);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterRank>** StaticGet__93___RPGGameCoreMonsterRank_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6010);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StanceMode>** StaticGet__577___RPGGameCoreStanceMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StanceMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6018);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_1>** StaticGet__1103___ProtoCmdSwitchHandType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6020);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedType>** StaticGet__594___RPGClientCachedType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6028);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerUnlockType>** StaticGet__432___RPGGameCoreDrinkMakerUnlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6030);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AcheronPowerNodeState>** StaticGet__456___RPGClientAcheronPowerNodeState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AcheronPowerNodeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6038);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_44>** StaticGet__1065___ProtoCmdPamMissionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_44>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6040);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRangeType>** StaticGet__947___RPGGameCoreRogueMagicRangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6048);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooEXPChangeType>** StaticGet__414___RPGClientSpaceZooEXPChangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooEXPChangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6050);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeDarkInitData_TabType>** StaticGet__870___RPGClientBattleViewModeDarkInitDataTabType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeDarkInitData_TabType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6058);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginHorizontal>** StaticGet__57___UnityEngineUISmoothMaskFillOriginHorizontal_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginHorizontal>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6060);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamAudienceControlData_AudienceControlMode>** StaticGet__874___RPGToolsTimelinePerformanceLiveStreamAudienceControlDataAudienceControlMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamAudienceControlData_AudienceControlMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6068);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemMainType>** StaticGet__238___RPGGameCoreItemMainType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemMainType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6070);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QteCatchGhostRewindInstance_RewindPhase>** StaticGet__602___RPGClientQteCatchGhostRewindInstanceRewindPhase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QteCatchGhostRewindInstance_RewindPhase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6078);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillSlotState>** StaticGet__530___RPGGameCoreAdventureSkillSlotState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillSlotState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6080);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginVertical>** StaticGet__9___UnityEngineUIImageOriginVertical_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginVertical>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6088);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillEffect>** StaticGet__941___RPGGameCoreSkillEffect_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6090);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63BCB6C405BA8A1D_1>** StaticGet__1034___ProtoCmdFiveDimType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63BCB6C405BA8A1D_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6098);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDifficulty>** StaticGet__208___RPGGameCoreLevelDifficulty_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupUnitSideType>** StaticGet__452___RPGClientRuntimeGroupManagerGroupUnitSideType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupUnitSideType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MovieGameMode>** StaticGet__388___RPGClientLittleGameMovieGameMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MovieGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCollectionExhibitionPropFloor>** StaticGet__805___RPGGameCoreRogueTournCollectionExhibitionPropFloor_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCollectionExhibitionPropFloor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleAssetPreload_RecorderState>** StaticGet__765___RPGClientBattleAssetPreloadRecorderState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleAssetPreload_RecorderState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_24>** StaticGet__82___ProtoQuestStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_24>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindState>** StaticGet__579___RPGGameCoreTimeRewindState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D0231C413D78CFA_1>** StaticGet__1006___ProtoCmdChallengeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D0231C413D78CFA_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupLoadStatus>** StaticGet__453___RPGClientRuntimeGroupManagerGroupLoadStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupLoadStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardExchangeType>** StaticGet__641___RPGClientPlanetFesTradingCardExchangeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardExchangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefSortType>** StaticGet__820___RPGClientGameRefSortType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefSortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameModeType>** StaticGet__800___RPGClientChimeraDuelGameModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x60F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetIconType>** StaticGet__448___RPGGameCoreBattleTargetIconType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetIconType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6100);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ContentSizeFitter_FitMode>** StaticGet__526___UnityEngineUIContentSizeFitterFitMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ContentSizeFitter_FitMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6108);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::CollectDataType>** StaticGet__748___RPGClientActivityHipplenCollectDataType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::CollectDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6110);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractLikeType>** StaticGet__780___RPGGameCoreHipplenInteractLikeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractLikeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6118);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_FillMethod>** StaticGet__7___UnityEngineUIImageFillMethod_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_FillMethod>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6120);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376_1>** StaticGet__1111___ProtoCmdTrainPartyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6128);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightModifierEffectType>** StaticGet__834___RPGClientGridFightModifierEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightModifierEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6130);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyEventFadeInType>** StaticGet__605___RPGGameCoreTrainPartyEventFadeInType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyEventFadeInType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6138);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MiniMapIconOrientationType>** StaticGet__325___RPGGameCoreMiniMapIconOrientationType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MiniMapIconOrientationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6140);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyOrderStatus>** StaticGet__278___RPGClientAlleyOrderStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyOrderStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6148);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_13>** StaticGet__275___ProtoAlleyEventState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6150);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MinimapAreaType>** StaticGet__415___RPGGameCoreMinimapAreaType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MinimapAreaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6158);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightCommonDetailType>** StaticGet__825___RPGClientGridFightCommonDetailType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightCommonDetailType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6160);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveGearType>** StaticGet__460___RPGGameCoreEvolveGearType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveGearType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6168);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_6>** StaticGet__339___ProtoChessRogueCellSpecialType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6170);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleLineType>** StaticGet__433___RPGGameCoreChronicleLineType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleLineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6178);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AliveStateMask>** StaticGet__204___RPGGameCoreAliveStateMask_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AliveStateMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6180);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_CustomForbidTag>** StaticGet__409___RPGGameCoreAdventureSkillCharacterComponentCustomForbidTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_CustomForbidTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6188);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphCheckCanIdleShowResult>** StaticGet__411___RPGClientPhotoGraphCheckCanIdleShowResult_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphCheckCanIdleShowResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6190);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipTrackCancelReason>** StaticGet__794___RPGClientGridFightEquipTrackCancelReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipTrackCancelReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6198);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HeliobusSNSPostPhase>** StaticGet__344___RPGClientHeliobusSNSPostPhase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HeliobusSNSPostPhase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNpcLookAtTargetType>** StaticGet__978___RPGGameCoreLevelNpcLookAtTargetType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNpcLookAtTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRoomType>** StaticGet__573___RPGGameCoreRogueMagicRoomType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRoomType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin360>** StaticGet__12___UnityEngineUIImageOrigin360_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin360>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33_1>** StaticGet__806___ProtoGridFightUpdateSrcType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_Layout>** StaticGet__880___RPGUINavigationUINavigationAreaLayout_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_Layout>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FeverTimePeriodType>** StaticGet__469___RPGGameCoreFeverTimePeriodType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FeverTimePeriodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginPanelFunction>** StaticGet__319___RPGClientLoginPanelFunction_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginPanelFunction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionSubType>** StaticGet__615___RPGGameCoreMainMissionSubType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartyPreviewTipsType>** StaticGet__582___RPGClientTrainPartyTrainPartyPreviewTipsType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartyPreviewTipsType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipEffectType>** StaticGet__900___RPGClientGridFightEquipEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseMainCameraUpdateReason>** StaticGet__589___RPGClientCameraDataAndFlagsPauseMainCameraUpdateReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseMainCameraUpdateReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x61F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSubType>** StaticGet__241___RPGGameCoreItemSubType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6200);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapShortCutType>** StaticGet__229___RPGGameCoreMapShortCutType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapShortCutType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6208);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BodySize>** StaticGet__140___RPGGameCoreBodySize_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BodySize>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6210);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MarblePhaseType>** StaticGet__617___RPGGameCoreMarblePhaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MarblePhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6218);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRarity>** StaticGet__27___RPGGameCoreItemRarity_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRarity>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6220);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialRestoreType>** StaticGet__162___RPGGameCoreTutorialRestoreType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialRestoreType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6228);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_10>** StaticGet__642___ProtoPlanetFesCardPieceApplyPermissionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6230);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_SwipeDirection>** StaticGet__48___HedgehogTeamEasyTouchEasyTouchSwipeDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_SwipeDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6238);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillType>** StaticGet__65___RPGGameCoreSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6240);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GraphicRaycaster_BlockingObjects>** StaticGet__859___UnityEngineUIGraphicRaycasterBlockingObjects_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GraphicRaycaster_BlockingObjects>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6248);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LobbyState>** StaticGet__491___RPGClientLobbyState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LobbyState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6250);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyMapCellType>** StaticGet__455___RPGGameCoreMonopolyMapCellType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyMapCellType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6258);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooMaskType>** StaticGet__393___RPGGameCoreSpaceZooMaskType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooMaskType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6260);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScoreRaceType>** StaticGet__565___RPGGameCoreScoreRaceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScoreRaceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6268);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_6>** StaticGet__386___ProtoChessRogueDiceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6270);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_2>** StaticGet__1078___ProtoCmdRaidType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6278);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnergyBarState>** StaticGet__989___RPGGameCoreEnergyBarState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnergyBarState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6280);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_16>** StaticGet__1094___ProtoCmdRollShopType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_16>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6288);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_41>** StaticGet__1041___ProtoCmdInteractiveTriggerMazeBuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_41>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6290);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AspectRatioFitter_AspectMode>** StaticGet__141___UnityEngineUIAspectRatioFitterAspectMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AspectRatioFitter_AspectMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6298);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_LoadingType>** StaticGet__256___RPGClientLoadingManagerLoadingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_LoadingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_1>** StaticGet__323___ProtoRogueModifierSourceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraGameModeType>** StaticGet__486___RPGClientChimeraGameModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesAvatarEventResultRank>** StaticGet__677___RPGClientPlanetFesAvatarEventResultRank_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesAvatarEventResultRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::AnimatorCullingMode>** StaticGet__214___UnityEngineAnimatorCullingMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::AnimatorCullingMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceHUDDisplayState>** StaticGet__851___RPGClientLittleGameCakeRaceCakeRaceHUDDisplayState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceHUDDisplayState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhainonPowerNodeState>** StaticGet__739___RPGClientPhainonPowerNodeState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhainonPowerNodeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerRequestSourceType>** StaticGet__444___RPGClientDrinkMakerRequestSourceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerRequestSourceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridEffectType>** StaticGet__823___RPGClientGridFightGridEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEffectLockType>** StaticGet__809___RPGClientGridFightEffectLockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEffectLockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStyleType>** StaticGet__587___RPGGameCoreRogueMagicStyleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStyleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGachaType>** StaticGet__621___RPGGameCorePlanetFesGachaType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGachaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x62F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_LineType>** StaticGet__17___UnityEngineUIInputFieldLineType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_LineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6300);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatGameFlowMessage>** StaticGet__822___RPGClientDiceCombatDiceCombatGameFlowMessage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6308);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WheelItemType>** StaticGet__175___RPGGameCoreWheelItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WheelItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6310);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CumulativeConsumptionTierState>** StaticGet__656___RPGClientCumulativeConsumptionTierState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CumulativeConsumptionTierState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6318);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffAeonType>** StaticGet__290___RPGGameCoreRogueBuffAeonType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffAeonType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6320);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LevelDirector_CaptureUsage>** StaticGet__281___RPGClientLevelDirectorCaptureUsage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LevelDirector_CaptureUsage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6328);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PersonalizeCardUseType>** StaticGet__661___RPGClientPersonalizeCardUseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PersonalizeCardUseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6330);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyGameType>** StaticGet__436___RPGGameCoreMonopolyGameType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6338);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ContactRole>** StaticGet__920___RPGClientContactRole_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ContactRole>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6340);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504>** StaticGet__996___ProtoCmdAlleyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6348);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooCatType>** StaticGet__394___RPGClientSpaceZooCatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooCatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6350);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QingQueEnergyBarIconType>** StaticGet__272___RPGClientQingQueEnergyBarIconType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QingQueEnergyBarIconType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6358);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B5A08EAC9C145CCC>** StaticGet__212___RPGClientPacketCmdID_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B5A08EAC9C145CCC>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6360);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Proto::SceneEntityInfo_EntityOneofCase>** StaticGet__1119___ProtoSceneEntityInfoEntityOneofCase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Proto::SceneEntityInfo_EntityOneofCase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6368);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildGearResonanceEffectType>** StaticGet__663___RPGClientEvolveBuildGearResonanceEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildGearResonanceEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6370);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CE9F1C413C28E19>** StaticGet__1055___ProtoCmdMazePuzzleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CE9F1C413C28E19>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6378);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_20>** StaticGet__1045___ProtoLimaoNewsOfficeSurveyState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_20>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6380);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooQuestType>** StaticGet__401___RPGGameCoreSpaceZooQuestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooQuestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6388);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivitySwordTrainingAvatarVOType>** StaticGet__546___RPGClientActivitySwordTrainingAvatarVOType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivitySwordTrainingAvatarVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6390);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityBenefitV2RoundListViewModel_Round_StateType>** StaticGet__904___RPGClientActivityBenefitV2RoundListViewModelRoundStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityBenefitV2RoundListViewModel_Round_StateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6398);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_8>** StaticGet__181___ProtoPunkLordShareType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MapEntityType>** StaticGet__601___RPGClientMapEntityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MapEntityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportMarkType>** StaticGet__914___RPGClientRogueTournBuildRefReportMarkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportMarkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusPostType>** StaticGet__343___RPGGameCoreHeliobusPostType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusPostType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_ConflictModelSortType>** StaticGet__454___RPGClientRuntimeGroupManagerConflictModelSortType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_ConflictModelSortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIEventType>** StaticGet__247___RPGGameCoreUIEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkBlackMaskColor>** StaticGet__689___RPGGameCoreSimpleTalkBlackMaskColor_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkBlackMaskColor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrackPhotoCanType>** StaticGet__533___RPGGameCoreTrackPhotoCanType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrackPhotoCanType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PuzzleType>** StaticGet__218___RPGClientPropPuzzleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PuzzleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ArchiveType>** StaticGet__221___RPGClientArchiveType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ArchiveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason>** StaticGet__747___RPGClientCameraDataAndFlagsDisableFreelook3rdCameraInputAxisReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusTag>** StaticGet__560___RPGGameCoreEnumStatusTag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x63F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityState>** StaticGet__814___RPGClientResidentActivityState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6400);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraPageState>** StaticGet__608___RPGClientChimeraPageState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraPageState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6408);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Proto::RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase>** StaticGet__568___ProtoRogueAdventureRoomGameplayWolfGunTargetTargetImplOneofCase_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Proto::RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6410);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherRarityType>** StaticGet__311___RPGGameCoreAetherRarityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6418);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialOPType>** StaticGet__792___RPGGameCoreGridFightPrepTutorialOPType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialOPType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6420);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MappingInfoType>** StaticGet__225___RPGGameCoreMappingInfoType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MappingInfoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6428);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyType>** StaticGet__958___RPGGameCoreChessRogueDifficultyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6430);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleComponent_ShadowVisibleSource>** StaticGet__672___RPGGameCoreCharacterVisibleComponentShadowVisibleSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleComponent_ShadowVisibleSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6438);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventTypeEnum>** StaticGet__303___RPGGameCoreEventTypeEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6440);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ViewCacheType>** StaticGet__206___RPGClientViewCacheType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ViewCacheType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6448);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourRankType>** StaticGet__697___RPGClientParkourRankType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourRankType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6450);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::NumberStyles>** StaticGet__23___SystemGlobalizationNumberStyles_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::NumberStyles>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6458);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PullRefreshControl_DragLoadState>** StaticGet__80___RPGClientPullRefreshControlDragLoadState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PullRefreshControl_DragLoadState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6460);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitSourceMask>** StaticGet__862___RPGGameCoreGridFightTraitSourceMask_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitSourceMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6468);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BeginHintType>** StaticGet__105___RPGGameCoreBeginHintType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BeginHintType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6470);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ServantBodySize>** StaticGet__597___RPGGameCoreServantBodySize_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ServantBodySize>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6478);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode>** StaticGet__548___RPGClientCameraDataAndFlagsTrackRoamingCameraRotationMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6480);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkConditionType>** StaticGet__603___RPGGameCoreChimeraTalkConditionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6488);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63BCB6C405BA8A1D>** StaticGet__995___ProtoCmdAiPamType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63BCB6C405BA8A1D>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6490);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildStageStatus>** StaticGet__472___RPGClientEvolveBuildStageStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildStageStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6498);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceGameFlowMessage>** StaticGet__779___RPGClientCakeRaceGameFlowMessage_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerCheersTagUIState>** StaticGet__733___RPGClientDrinkMakerCheersTagUIState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerCheersTagUIState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildRewardBoxGearUpgradeEffect>** StaticGet__643___RPGGameCoreEvolveBuildRewardBoxGearUpgradeEffect_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildRewardBoxGearUpgradeEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_2>** StaticGet__1077___ProtoCmdQuestType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CompetitiveGamePlaySystemPriority>** StaticGet__584___RPGClientCompetitiveGamePlaySystemPriority_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CompetitiveGamePlaySystemPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterOutfitComponent_ESlot>** StaticGet__885___RPGGameCoreCharacterOutfitComponentESlot_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterOutfitComponent_ESlot>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAetherDivideDataStatus>** StaticGet__291___RPGClientActivityAetherDivideDataStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAetherDivideDataStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShowType>** StaticGet__148___RPGGameCoreShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::System::StringComparison>** StaticGet__166___SystemStringComparison_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::System::StringComparison>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSourceSystemType>** StaticGet__624___RPGGameCorePlanetFesSourceSystemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSourceSystemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_3>** StaticGet__1076___ProtoCmdPunkLordType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateReijuType>** StaticGet__950___RPGGameCoreFateReijuType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateReijuType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x64F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ItemCornerEnum>** StaticGet__907___SuperScrollViewItemCornerEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ItemCornerEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6500);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableCameraProtectReason>** StaticGet__562___RPGClientCameraDataAndFlagsDisableCameraProtectReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableCameraProtectReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6508);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_ShapeType>** StaticGet__186___RPGClientUIPartialBlurShapeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_ShapeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6510);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Toggle_ToggleTransition>** StaticGet__18___UnityEngineUIToggleToggleTransition_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Toggle_ToggleTransition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6518);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MainCameraDisableReason>** StaticGet__566___RPGClientMainCameraDisableReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MainCameraDisableReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6520);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_11>** StaticGet__1025___ProtoCmdFeverTimeActivityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6528);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RecordType>** StaticGet__236___RPGGameCoreRecordType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RecordType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6530);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridBuffType>** StaticGet__288___RPGGameCoreTreasureDungeonGridBuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridBuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6538);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BackGroundMusicGroupType>** StaticGet__882___RPGGameCoreBackGroundMusicGroupType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BackGroundMusicGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6540);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InputControlType>** StaticGet__132___InControlInputControlType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InputControlType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6548);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandbookRoleFilter>** StaticGet__894___RPGClientGridFightHandbookRoleFilter_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandbookRoleFilter>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6550);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityCountRefreshType>** StaticGet__327___RPGGameCoreActivityCountRefreshType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityCountRefreshType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6558);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_3>** StaticGet__1051___ProtoCmdMarbleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6560);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceUIType>** StaticGet__802___RPGClientCakeRaceCakeRaceUIType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6568);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_EvtType>** StaticGet__50___HedgehogTeamEasyTouchEasyTouchEvtType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_EvtType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6570);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelMinimapSectionType>** StaticGet__104___RPGGameCoreLevelMinimapSectionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelMinimapSectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6578);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGableRarity>** StaticGet__927___RPGClientRogueGableRarity_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGableRarity>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6580);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockShowType>** StaticGet__798___RPGGameCoreGridFightUnlockShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6588);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRewardState>** StaticGet__758___RPGClientChallengePeakRewardState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRewardState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6590);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTalkColorType>** StaticGet__260___RPGGameCoreRogueTalkColorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTalkColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6598);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ToastPauseSource>** StaticGet__709___RPGClientToastPauseSource_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ToastPauseSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelAnimatingObjectState>** StaticGet__967___RPGGameCoreLevelAnimatingObjectState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelAnimatingObjectState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityLocalLegendDifficulty>** StaticGet__810___RPGGameCoreActivityLocalLegendDifficulty_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityLocalLegendDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType>** StaticGet__720___RPGClientActivityHipplenActivityHipplenGameStateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_5>** StaticGet__1000___ProtoCmdBattleCollegeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkBuffType>** StaticGet__502___RPGGameCoreClockParkBuffType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkBuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightOrbType>** StaticGet__734___RPGGameCoreGridFightOrbType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightOrbType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ACC4DC40096A745>** StaticGet__1089___ProtoCmdRogueCommon_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ACC4DC40096A745>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_2>** StaticGet__1028___ProtoCmdFightCakeRaceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierEffectType>** StaticGet__341___RPGGameCoreModifierEffectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPVPMode>** StaticGet__827___RPGClientDiceCombatDiceCombatPVPMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPVPMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfFarmCellData_ElfCellUpdateReason>** StaticGet__937___RPGClientElfFarmCellDataElfCellUpdateReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfFarmCellData_ElfCellUpdateReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x65F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UILayer>** StaticGet__5___RPGClientUILayer_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UILayer>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6600);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesEventSpineItemType>** StaticGet__671___RPGClientPlanetFesEventSpineItemType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesEventSpineItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6608);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_Type>** StaticGet__54___UnityEngineUISmoothMaskType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_Type>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6610);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::SnapStatus>** StaticGet__906___SuperScrollViewSnapStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::SnapStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6618);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideRogueType>** StaticGet__532___RPGGameCoreGuideRogueType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideRogueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6620);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicMountType>** StaticGet__554___RPGGameCoreRogueMagicMountType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicMountType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6628);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonDifficulty>** StaticGet__538___RPGGameCoreActivitySummonDifficulty_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6630);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceStyle>** StaticGet__234___InControlInputDeviceStyle_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6638);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourCrossroadType>** StaticGet__917___RPGClientParkourCrossroadType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourCrossroadType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6640);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialStepType>** StaticGet__375___RPGGameCoreHeartDialStepType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialStepType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6648);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::Quality>** StaticGet__97___RPGCustomRPQuality_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::Quality>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6650);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::AkCallbackType>** StaticGet__237___AkCallbackType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::AkCallbackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6658);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicAreaGroupID>** StaticGet__593___RPGGameCoreRogueMagicAreaGroupID_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicAreaGroupID>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6660);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimSurfaceConnectDirection>** StaticGet__858___RPGGameCoreFiveDimSurfaceConnectDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimSurfaceConnectDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6668);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_54>** StaticGet__493___ProtoRogueTournLevelStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_54>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6670);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_TalkSourceType>** StaticGet__111___RPGGameCoreDialogueUtilTalkSourceType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_TalkSourceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6678);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffDisplayType>** StaticGet__773___RPGGameCoreMazeBuffDisplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6680);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAdventureGameplayType>** StaticGet__328___RPGGameCoreRogueAdventureGameplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAdventureGameplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6688);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_ScrollbarVisibility>** StaticGet__68___UnityEngineUIScrollRectScrollbarVisibility_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_ScrollbarVisibility>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6690);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_5>** StaticGet__506___ProtoLobbyCharacterStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6698);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightAugmentQuality>** StaticGet__738___RPGGameCoreGridFightAugmentQuality_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightAugmentQuality>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_22>** StaticGet__1066___ProtoCmdPamSkinType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_22>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityBehavior>** StaticGet__980___RPGGameCoreAbilityBehavior_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityBehavior>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76>** StaticGet__53___ProtoAvatarType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BoxingClubResonanceUIStageEnum>** StaticGet__372___RPGClientBoxingClubResonanceUIStageEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BoxingClubResonanceUIStageEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B17827C431B138EB>** StaticGet__160___ProtoFeatureSwitchType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B17827C431B138EB>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonSkillType>** StaticGet__541___RPGGameCoreActivitySummonSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialPopupPanelType>** StaticGet__813___RPGGameCoreGridFightPrepTutorialPopupPanelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialPopupPanelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyRatio>** StaticGet__981___RPGGameCoreAbilityPropertyRatio_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyRatio>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityTypeMask>** StaticGet__203___RPGGameCoreEntityTypeMask_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityTypeMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceGameplayBubbleType>** StaticGet__853___RPGClientLittleGameCakeRaceCakeRaceGameplayBubbleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceGameplayBubbleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardError>** StaticGet__680___RPGClientPlanetFesTradingCardError_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardError>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x66F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF131C413C919AF_1>** StaticGet__1046___ProtoCmdLineupType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF131C413C919AF_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6700);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLittleGameLoadType>** StaticGet__977___RPGGameCoreLevelLittleGameLoadType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLittleGameLoadType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6708);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingActionType>** StaticGet__510___RPGGameCoreSwordTrainingActionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingActionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6710);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeConditionLogicType>** StaticGet__964___RPGGameCoreLevelNavNodeConditionLogicType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeConditionLogicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6718);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PreCharacterStatus>** StaticGet__640___RPGClientPreCharacterStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PreCharacterStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6720);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityProperty>** StaticGet__63___RPGGameCoreAbilityProperty_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6728);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkTriggerType>** StaticGet__266___RPGGameCoreMuseumTalkTriggerType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6730);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueImageType>** StaticGet__357___RPGGameCoreRogueImageType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueImageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6738);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::CombatPerformanceEventType>** StaticGet__816___RPGLittleGameShareDiceCombatCoreCombatPerformanceEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::CombatPerformanceEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6740);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_5>** StaticGet__1098___ProtoCmdSpaceZooType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6748);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriorityGroup>** StaticGet__449___RPGGameCorePPEffectFilterPriorityGroup_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriorityGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6750);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesEventType>** StaticGet__622___RPGGameCorePlanetFesEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6758);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::VideoCaptionPosition>** StaticGet__413___RPGGameCoreVideoCaptionPosition_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::VideoCaptionPosition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6760);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlayerPropertyType>** StaticGet__776___RPGClientGridFightPlayerPropertyType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlayerPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6768);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_7>** StaticGet__1088___ProtoCmdRogueArcadeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6770);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkChapterType>** StaticGet__485___RPGGameCoreClockParkChapterType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkChapterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6778);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD>** StaticGet__1007___ProtoCmdChallengePeakType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6780);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoScrollView_Dir>** StaticGet__33___RPGClientMonoScrollViewDir_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoScrollView_Dir>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6788);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportVirtualCameraType>** StaticGet__321___RPGClientAlleyTransportVirtualCameraType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportVirtualCameraType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6790);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingStyle>** StaticGet__77___RPGClientLoadingStyle_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6798);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterViewPhaseType>** StaticGet__762___RPGGameCoreMonsterViewPhaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterViewPhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueSubMode>** StaticGet__384___RPGGameCoreRogueSubMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueSubMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridFixedType>** StaticGet__909___SuperScrollViewGridFixedType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridFixedType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Scrollbar_Direction>** StaticGet__74___UnityEngineUIScrollbarDirection_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Scrollbar_Direction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueMainStoryToastType>** StaticGet__358___RPGGameCoreChessRogueMainStoryToastType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueMainStoryToastType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelPerformanceHideType>** StaticGet__971___RPGGameCoreLevelPerformanceHideType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelPerformanceHideType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioSettings_SpeakerModeType>** StaticGet__390___RPGClientAudioSettingsSpeakerModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioSettings_SpeakerModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedAssetLogicType>** StaticGet__899___RPGClientCachedAssetLogicType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedAssetLogicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::QuestFinishType>** StaticGet__424___RPGGameCoreQuestFinishType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::QuestFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_5>** StaticGet__1054___ProtoCmdMatchThreeModuleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStatType>** StaticGet__556___RPGGameCoreTrainPartyStatType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateRoundType>** StaticGet__704___RPGGameCoreFateRoundType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateRoundType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x67F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_OnClickType>** StaticGet__254___RPGClientConfirmDialogContextOnClickType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_OnClickType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6800);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventSenderType>** StaticGet__712___RPGGameCoreRestaurantSelectEventSenderType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventSenderType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6808);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_14>** StaticGet__1092___ProtoCmdRogueModifierType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6810);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightStageMonsterSelectType>** StaticGet__737___RPGClientGridFightStageMonsterSelectType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightStageMonsterSelectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6818);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeState>** StaticGet__35___RPGGameCoreGameModeState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6820);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType>** StaticGet__867___RPGClientChimeraDuelBattlePageViewModelGameViewModelExitModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6828);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginHorizontal>** StaticGet__8___UnityEngineUIImageOriginHorizontal_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginHorizontal>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6830);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Navigation_Mode>** StaticGet__106___UnityEngineUINavigationMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Navigation_Mode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6838);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_34>** StaticGet__512___ProtoSwordTrainingDailyPhaseType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_34>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6840);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OpenURLWebViewType>** StaticGet__488___RPGGameCoreOpenURLWebViewType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OpenURLWebViewType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6848);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemGiftSubType>** StaticGet__116___RPGGameCoreItemGiftSubType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemGiftSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6850);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournAreaGroupID>** StaticGet__468___RPGGameCoreRogueTournAreaGroupID_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournAreaGroupID>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6858);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_9>** StaticGet__1090___ProtoCmdRogueEndlessType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6860);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesBtnUnlockType>** StaticGet__655___RPGGameCorePlanetFesBtnUnlockType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesBtnUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6868);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_43>** StaticGet__1042___ProtoTurnFoodSwitch_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_43>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6870);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightConsumeType>** StaticGet__696___RPGGameCoreGridFightConsumeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightConsumeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6878);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__153___RPGGameCoreModifierBehaviorFlag_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6880);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarRankControl_ShowAvatarType>** StaticGet__190___RPGClientAvatarRankControlShowAvatarType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarRankControl_ShowAvatarType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6888);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CocoonType>** StaticGet__146___RPGGameCoreCocoonType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CocoonType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6890);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleRecordDisplayType>** StaticGet__527___RPGClientBattleRecordDisplayType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleRecordDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6898);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MVVM::ViewModel::LimaoNewsWebsiteViewTabEnum>** StaticGet__892___RPGClientMVVMViewModelLimaoNewsWebsiteViewTabEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MVVM::ViewModel::LimaoNewsWebsiteViewTabEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_LayoutType>** StaticGet__185___UnityEngineUIScrollRectLayoutType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_LayoutType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEntryType>** StaticGet__81___RPGGameCoreMapEntryType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEntryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConvinceTrickSkillType>** StaticGet__524___RPGGameCoreConvinceTrickSkillType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConvinceTrickSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_DialogueTriggerReason>** StaticGet__110___RPGGameCoreDialogueUtilDialogueTriggerReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_DialogueTriggerReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidConfigType>** StaticGet__207___RPGGameCoreRaidConfigType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidConfigType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConflictType>** StaticGet__245___RPGClientConflictType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConflictType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AudioGameState>** StaticGet__242___RPGGameCoreAudioGameState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AudioGameState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_27>** StaticGet__1086___ProtoCmdRndOptionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_27>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_2>** StaticGet__1073___ProtoCmdPlayerBoardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A908C4100D30AA>** StaticGet__994___ProtoCmdAetherDivideType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A908C4100D30AA>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_17>** StaticGet__790___ProtoGridFightGlobalHpChangeReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_17>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x68F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerRelicRarityType>** StaticGet__122___RPGGameCoreCombatPowerRelicRarityType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerRelicRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6900);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_10>** StaticGet__297___ProtoSyncLineupReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6908);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicScepterFuncType>** StaticGet__588___RPGGameCoreRogueMagicScepterFuncType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicScepterFuncType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6910);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PayProductResult>** StaticGet__137___RPGClientPayProductResult_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PayProductResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6918);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardShowType>** StaticGet__182___RPGClientBillboardShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6920);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AntialiasingMode>** StaticGet__109___RPGClientAntialiasingMode_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AntialiasingMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6928);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillSPProgressType>** StaticGet__377___RPGGameCoreSkillSPProgressType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillSPProgressType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6930);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowFullScreenCutInType>** StaticGet__774___RPGGameCoreGridFightShowFullScreenCutInType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowFullScreenCutInType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6938);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphModeType>** StaticGet__195___RPGGameCorePhotoGraphModeType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6940);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsContentType>** StaticGet__890___RPGGameCoreLimaoNewsContentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6948);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumRandomEventType>** StaticGet__255___RPGGameCoreMuseumRandomEventType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumRandomEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6950);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainingSettleReason>** StaticGet__515___RPGClientSwordTrainingSettleReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainingSettleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6958);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatCommunicateType>** StaticGet__845___RPGGameCoreDiceCombatCommunicateType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatCommunicateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6960);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionType>** StaticGet__94___RPGGameCoreMainMissionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6968);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourLevelState>** StaticGet__669___RPGClientParkourLevelState_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourLevelState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6970);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuelSettleReason>** StaticGet__848___RPGClientLittleGameChimeraDuelSettleReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuelSettleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6978);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureFeature>** StaticGet__37___RPGCustomRPFrameCaptureCaptureFeature_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureFeature>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6980);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardApplyHandleType>** StaticGet__649___RPGClientPlanetFesTradingCardApplyHandleType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardApplyHandleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6988);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournRoomType>** StaticGet__632___RPGGameCoreRogueTournRoomType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournRoomType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6990);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleReason>** StaticGet__369___RPGGameCoreCharacterVisibleReason_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6998);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesMiniGameRewardType>** StaticGet__638___RPGGameCorePlanetFesMiniGameRewardType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesMiniGameRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69A0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooChannelType>** StaticGet__392___RPGGameCoreSpaceZooChannelType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooChannelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69A8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_24>** StaticGet__466___ProtoClockParkPlayStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_24>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69B0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AetherMonsterAvatarDisplayDataStatus>** StaticGet__282___RPGClientAetherMonsterAvatarDisplayDataStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AetherMonsterAvatarDisplayDataStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69B8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPopupSkillDescShowType>** StaticGet__896___RPGClientDiceCombatDiceCombatPopupSkillDescShowType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPopupSkillDescShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69C0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyFloorType>** StaticGet__953___RPGGameCoreAlleyFloorType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyFloorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69C8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_8>** StaticGet__1001___ProtoCmdBattlePassType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69D0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLockableFeatureType>** StaticGet__983___RPGGameCoreLevelLockableFeatureType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLockableFeatureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69D8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_27>** StaticGet__163___ProtoMessageGroupStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_27>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69E0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_3>** StaticGet__1012___ProtoCmdClockParkType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69E8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GesturePriority>** StaticGet__45___HedgehogTeamEasyTouchEasyTouchGesturePriority_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GesturePriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69F0);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_37>** StaticGet__391___ProtoMovieRacingType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_37>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x69F8);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseConditionType>** StaticGet__487___RPGGameCoreChimeraPhaseConditionType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A00);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleTargetStatus>** StaticGet__329___RPGClientBattleTargetStatus_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleTargetStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A08);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesReportType>** StaticGet__667___RPGClientPlanetFesReportType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesReportType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A10);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridTypeEnum>** StaticGet__306___RPGGameCoreGridTypeEnum_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A18);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleResultProcess_RestartOption>** StaticGet__516___RPGClientBattleResultProcessRestartOption_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleResultProcess_RestartOption>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A20);
-		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTalentType>** StaticGet__744___RPGClientGridFightTalentType_cast()
-		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTalentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A28);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_30>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B228);
 		}
 		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceClass>** StaticGet__117___InControlInputDeviceClass_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceClass>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A30);
+			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceClass>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B230);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GotoType>** StaticGet__144___RPGGameCoreGotoType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376_1>** StaticGet__1142___ProtoCmdTrainPartyType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GotoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A38);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B238);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Effect_AbyssCrystalManager_SelectedState>** StaticGet__191___RPGClientEffect_AbyssCrystalManagerSelectedState_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_MazeBattleShotDataType>** StaticGet__170___RPGClientCameraDataAndFlagsMazeBattleShotDataType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Effect_AbyssCrystalManager_SelectedState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A40);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_MazeBattleShotDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B240);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_6>** StaticGet__1107___ProtoCmdTarotBookType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesAvatarEventResultRank>** StaticGet__679___RPGClientPlanetFesAvatarEventResultRank_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A48);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesAvatarEventResultRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B248);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_25>** StaticGet__1099___ProtoCmdStarFightType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueImageType>** StaticGet__359___RPGGameCoreRogueImageType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A50);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueImageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B250);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_2>** StaticGet__1026___ProtoCmdFightType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatPreviewValueType>** StaticGet__854___RPGGameCoreDiceCombatPreviewValueType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A58);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatPreviewValueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B258);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumCollectionItemStatus>** StaticGet__259___RPGClientMuseumCollectionItemStatus_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournAreaGroupID>** StaticGet__470___RPGGameCoreRogueTournAreaGroupID_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumCollectionItemStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A60);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournAreaGroupID>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B260);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AnimatorButtonCheckMode>** StaticGet__929___RPGClientAnimatorButtonCheckMode_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::CommandRobotPuzzleDirection>** StaticGet__364___RPGClientPropCommandRobotPuzzleDirection_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AnimatorButtonCheckMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A68);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::CommandRobotPuzzleDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B268);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GoodsRefreshType>** StaticGet__407___RPGGameCoreGoodsRefreshType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_6>** StaticGet__1085___ProtoCmdMatchThreeModuleType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GoodsRefreshType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A70);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B270);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_28>** StaticGet__1024___ProtoFateMasterStatusType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTendencyType>** StaticGet__984___RPGGameCoreHeliobusTendencyType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_28>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A78);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTendencyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B278);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_UnitType>** StaticGet__187___RPGClientUIPartialBlurUnitType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoShotTargetResult>** StaticGet__544___RPGClientTrackPhotoShotTargetResult_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_UnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A80);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoShotTargetResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B280);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceSpliteLineType>** StaticGet__543___RPGClientTalkConvinceSpliteLineType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::SnapStatus>** StaticGet__933___SuperScrollViewSnapStatus_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceSpliteLineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A88);
+			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::SnapStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B288);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_36>** StaticGet__796___ProtoGridFightEquipDressSource_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_3>** StaticGet__1043___ProtoCmdClockParkType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_36>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A90);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B290);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::UI3DHipplenViewType>** StaticGet__785___RPGClientActivityHipplenUI3DHipplenViewType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_MonoOrStereoscopicEye>** StaticGet__44___UnityEngineCameraMonoOrStereoscopicEye_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::UI3DHipplenViewType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6A98);
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_MonoOrStereoscopicEye>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B298);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_14>** StaticGet__470___ProtoFeverTimeBattleRank_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_MovementType>** StaticGet__67___UnityEngineUIScrollRectMovementType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AA0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_MovementType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2A0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_RoamingStyle>** StaticGet__168___RPGClientCameraDataAndFlagsRoamingStyle_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelSettleBattleResult>** StaticGet__803___RPGClientChimeraDuelSettleBattleResult_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_RoamingStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AA8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelSettleBattleResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2A8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupRefreshReason>** StaticGet__451___RPGClientRuntimeGroupManagerGroupRefreshReason_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetSelectState>** StaticGet__92___RPGGameCoreEMazeLockTargetSelectState_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupRefreshReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AB0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetSelectState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2B0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataExportTarget>** StaticGet__965___RPGGameCoreLevelDataExportTarget_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateReijuType>** StaticGet__979___RPGGameCoreFateReijuType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataExportTarget>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AB8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateReijuType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2B8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillTargetType>** StaticGet__88___RPGGameCoreSkillTargetType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightBattleShowDetailType>** StaticGet__713___RPGClientGridFightBattleShowDetailType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AC0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightBattleShowDetailType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2C0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAlley::AlleyPackController_AlleyJoyStickState>** StaticGet__333___RPGClientActivityAlleyAlleyPackControllerAlleyJoyStickState_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_4>** StaticGet__1047___ProtoCmdDrinkMakerType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAlley::AlleyPackController_AlleyJoyStickState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AC8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2C8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameFlowState>** StaticGet__921___RPGClientGameFlowState_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::MatchThreeGameMode>** StaticGet__503___RPGClientLittleGameMatch3MatchThreeGameMode_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameFlowState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AD0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::MatchThreeGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2D0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTurntableRewardLevel>** StaticGet__408___RPGGameCoreRogueTurntableRewardLevel_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightForgeFuncType>** StaticGet__823___RPGGameCoreGridFightForgeFuncType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTurntableRewardLevel>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AD8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightForgeFuncType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2D8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarDataLevelRaritySortType>** StaticGet__919___RPGClientAvatarDataLevelRaritySortType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::DiceCombatSkillPreviewLogicInvokeType>** StaticGet__891___RPGLittleGameShareDiceCombatCoreDiceCombatSkillPreviewLogicInvokeType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarDataLevelRaritySortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AE0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::DiceCombatSkillPreviewLogicInvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2E0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_18>** StaticGet__336___ProtoChessRogueBoardCellStatus_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionUtils_SubMissionSortType>** StaticGet__762___RPGClientMissionUtilsSubMissionSortType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_18>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AE8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionUtils_SubMissionSortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2E8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChronicleStatus>** StaticGet__419___RPGClientChronicleStatus_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_18>** StaticGet__324___ProtoChessRogueDiceStatus_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChronicleStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AF0);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_18>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2F0);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_26>** StaticGet__1100___ProtoCmdStoryLineType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidEnterType>** StaticGet__476___RPGGameCoreRaidEnterType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6AF8);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidEnterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B2F8);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C>** StaticGet__276___ProtoChatType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupUnitSideType>** StaticGet__454___RPGClientRuntimeGroupManagerGroupUnitSideType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B00);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupUnitSideType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B300);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlacementType>** StaticGet__706___RPGClientGridFightPlacementType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Slider_Direction>** StaticGet__13___UnityEngineUISliderDirection_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlacementType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B08);
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Slider_Direction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B308);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightEquipCategory>** StaticGet__693___RPGGameCoreGridFightEquipCategory_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::DayOfWeek>** StaticGet__28___SystemDayOfWeek_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightEquipCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B10);
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::DayOfWeek>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B310);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionModule_ClientFinishMissionType>** StaticGet__483___RPGClientMissionModuleClientFinishMissionType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginHorizontal>** StaticGet__8___UnityEngineUIImageOriginHorizontal_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionModule_ClientFinishMissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B18);
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginHorizontal>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B318);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleUnitType>** StaticGet__496___RPGGameCoreRogueGambleUnitType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonSkillType>** StaticGet__543___RPGGameCoreActivitySummonSkillType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleUnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B20);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B320);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_3>** StaticGet__1029___ProtoCmdFightDiceCombatType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_WalkSwitchMode>** StaticGet__156___RPGClientSettingManagerWalkSwitchMode_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B28);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_WalkSwitchMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B328);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueClientAdventureRoomStatus>** StaticGet__356___RPGGameCoreRogueClientAdventureRoomStatus_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConflictType>** StaticGet__246___RPGClientConflictType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueClientAdventureRoomStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B30);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConflictType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B330);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationType>** StaticGet__771___RPGClientLineupRecommendationType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_SwipeDirection>** StaticGet__48___HedgehogTeamEasyTouchEasyTouchSwipeDirection_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B38);
+			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_SwipeDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B338);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DebateUIType>** StaticGet__403___RPGGameCoreDebateUIType_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainProcessActionStatus>** StaticGet__513___RPGClientSwordTrainProcessActionStatus_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DebateUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B40);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainProcessActionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B340);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesSkillBuffState>** StaticGet__628___RPGClientPlanetFesSkillBuffState_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkGameStateEnum>** StaticGet__464___RPGClientClockParkGameStateEnum_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesSkillBuffState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B48);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkGameStateEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B348);
 		}
-		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletSectionState>** StaticGet__600___RPGClientBookletSectionState_cast()
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockShowType>** StaticGet__800___RPGGameCoreGridFightUnlockShowType_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletSectionState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B50);
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B350);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingBattle::SoldierPropertyChangeType>** StaticGet__959___RPGClientChenLingBattleSoldierPropertyChangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingBattle::SoldierPropertyChangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B358);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphCheckCanIdleShowResult>** StaticGet__413___RPGClientPhotoGraphCheckCanIdleShowResult_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphCheckCanIdleShowResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B360);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_CustomForbidTag>** StaticGet__411___RPGGameCoreAdventureSkillCharacterComponentCustomForbidTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_CustomForbidTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B368);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenPickingGoodsDisplayType>** StaticGet__757___RPGGameCoreHipplenPickingGoodsDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenPickingGoodsDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B370);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAeonType>** StaticGet__357___RPGGameCoreRogueAeonType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAeonType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B378);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsContentType>** StaticGet__909___RPGGameCoreLimaoNewsContentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B380);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamAudienceControlData_AudienceControlMode>** StaticGet__889___RPGToolsTimelinePerformanceLiveStreamAudienceControlDataAudienceControlMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamAudienceControlData_AudienceControlMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B388);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_3>** StaticGet__1144___ProtoCmdTravelBrochureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B390);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_2>** StaticGet__1109___ProtoCmdRaidType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B398);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PreCharacterStatus>** StaticGet__642___RPGClientPreCharacterStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PreCharacterStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelPerformanceHideType>** StaticGet__1000___RPGGameCoreLevelPerformanceHideType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelPerformanceHideType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTalkType>** StaticGet__837___RPGGameCoreChimeraDuelTalkType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_10>** StaticGet__1058___ProtoCmdFightActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleTutorialType>** StaticGet__972___RPGGameCorePuzzleTutorialType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleTutorialType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLandType>** StaticGet__622___RPGGameCorePlanetFesLandType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLandType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B14C27C4318BFDC0>** StaticGet__1126___ProtoCmdSceneType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B14C27C4318BFDC0>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityProperty>** StaticGet__63___RPGGameCoreAbilityProperty_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidConfigType>** StaticGet__208___RPGGameCoreRaidConfigType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidConfigType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseConditionType>** StaticGet__489___RPGGameCoreChimeraPhaseConditionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkHistoryType>** StaticGet__348___RPGClientTalkHistoryType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkHistoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceSpliteLineType>** StaticGet__545___RPGClientTalkConvinceSpliteLineType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceSpliteLineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B3F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffSlotType>** StaticGet__703___RPGGameCoreFateBuffSlotType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffSlotType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B400);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_LineType>** StaticGet__17___UnityEngineUIInputFieldLineType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_LineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B408);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::LogTag>** StaticGet__20___RPGLogTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::LogTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B410);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantRuleType>** StaticGet__725___RPGGameCoreAssistantRuleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantRuleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B418);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_3>** StaticGet__325___ProtoRogueModifierSourceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B420);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Selectable_Transition>** StaticGet__233___UnityEngineUISelectableTransition_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Selectable_Transition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B428);
 		}
 		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_7>** StaticGet__124___ProtoGender_cast()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x6B58);
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B430);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::E_PakType>** StaticGet__328___RPGGameCoreE_PakType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::E_PakType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B438);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_10>** StaticGet__297___ProtoFriendApplySource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B440);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StartMusicRhythmTask_Phase>** StaticGet__963___RPGGameCoreStartMusicRhythmTaskPhase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StartMusicRhythmTask_Phase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B448);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_17>** StaticGet__792___ProtoGridFightGlobalHpChangeReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_17>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B450);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookItemStatus>** StaticGet__771___RPGClientGridFightHandBookItemStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookItemStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B458);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::NumberStyles>** StaticGet__23___SystemGlobalizationNumberStyles_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::NumberStyles>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B460);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowFullScreenCutInType>** StaticGet__776___RPGGameCoreGridFightShowFullScreenCutInType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowFullScreenCutInType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B468);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUIAnchoredMoveAnimation_CurveType>** StaticGet__380___RPGClientMonoUIAnchoredMoveAnimationCurveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUIAnchoredMoveAnimation_CurveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B470);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfBehaviorStateType>** StaticGet__666___RPGGameCoreElfBehaviorStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfBehaviorStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B478);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_3>** StaticGet__1115___ProtoCmdRelicSmartWearType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B480);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooSpicalEventState>** StaticGet__400___RPGGameCoreSpaceZooSpicalEventState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooSpicalEventState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B488);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaccoonStateType>** StaticGet__483___RPGGameCoreRaccoonStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaccoonStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B490);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QteCatchGhostRewindInstance_RewindPhase>** StaticGet__604___RPGClientQteCatchGhostRewindInstanceRewindPhase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QteCatchGhostRewindInstance_RewindPhase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B498);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAreaType>** StaticGet__700___RPGGameCoreFateAreaType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAreaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_VerifyLoadingType>** StaticGet__592___RPGClientLoadingManagerVerifyLoadingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_VerifyLoadingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapShortCutType>** StaticGet__230___RPGGameCoreMapShortCutType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapShortCutType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_29>** StaticGet__1132___ProtoCmdStrongChallengeActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleNodeType>** StaticGet__420___RPGGameCoreChronicleNodeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3_2>** StaticGet__1051___ProtoCmdEvolveBuildType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LoadingDescGroup>** StaticGet__467___RPGGameCoreLoadingDescGroup_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LoadingDescGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DateTimePro_LiteralDate_Kind>** StaticGet__753___RPGClientDateTimeProLiteralDateKind_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DateTimePro_LiteralDate_Kind>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemGiftSubType>** StaticGet__116___RPGGameCoreItemGiftSubType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemGiftSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Promises::PromiseState>** StaticGet__221___RPGClientPromisesPromiseState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Promises::PromiseState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesItemUseType>** StaticGet__637___RPGGameCorePlanetFesItemUseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesItemUseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PauseDialogTabEnum>** StaticGet__561___RPGClientPauseDialogTabEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PauseDialogTabEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B4F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkType>** StaticGet__268___RPGGameCoreMuseumTalkType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B500);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightStageMonsterSelectType>** StaticGet__739___RPGClientGridFightStageMonsterSelectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightStageMonsterSelectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B508);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UserPrefs_EyeProtectionMode>** StaticGet__336___RPGClientUserPrefsEyeProtectionMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UserPrefs_EyeProtectionMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B510);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityCharacterVOType>** StaticGet__1011___RPGGameCoreAbilityCharacterVOType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityCharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B518);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestPhaseType>** StaticGet__533___RPGGameCoreFightFestPhaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestPhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B520);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageItemType>** StaticGet__181___RPGGameCoreMessageItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B528);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractLikeType>** StaticGet__782___RPGGameCoreHipplenInteractLikeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractLikeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B530);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideChallengeType>** StaticGet__397___RPGGameCoreGuideChallengeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideChallengeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B538);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureFeature>** StaticGet__37___RPGCustomRPFrameCaptureCaptureFeature_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureFeature>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B540);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyType>** StaticGet__987___RPGGameCoreChessRogueDifficultyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B548);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimMiniGameEnterType>** StaticGet__912___RPGClientLittleGameFiveDimFiveDimMiniGameEnterType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimMiniGameEnterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B550);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideType>** StaticGet__225___RPGGameCoreGuideType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B558);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterOutfitComponent_ESlot>** StaticGet__902___RPGGameCoreCharacterOutfitComponentESlot_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterOutfitComponent_ESlot>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B560);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraSettleCommandType>** StaticGet__649___RPGClientChimeraSettleCommandType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraSettleCommandType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B568);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousSurfaceTag>** StaticGet__988___RPGGameCoreRogueNousSurfaceTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousSurfaceTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B570);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QingQueEnergyBarIconType>** StaticGet__273___RPGClientQingQueEnergyBarIconType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QingQueEnergyBarIconType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B578);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerCheersTagUIState>** StaticGet__735___RPGClientDrinkMakerCheersTagUIState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerCheersTagUIState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B580);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B152E7C43191AFD6>** StaticGet__1090___ProtoCmdMonopolyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_B152E7C43191AFD6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B588);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialRestoreType>** StaticGet__163___RPGGameCoreTutorialRestoreType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialRestoreType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B590);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF131C413C919AF_1>** StaticGet__1077___ProtoCmdLineupType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF131C413C919AF_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B598);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraPreparationState>** StaticGet__598___RPGClientPropChimeraPreparationState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraPreparationState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINavigationDirection>** StaticGet__383___RPGClientUINavigationDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINavigationDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyFloorType>** StaticGet__982___RPGGameCoreAlleyFloorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyFloorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropType>** StaticGet__100___RPGGameCorePropType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildPropertyType>** StaticGet__473___RPGGameCoreEvolveBuildPropertyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphType>** StaticGet__1014___RPGGameCoreLevelGraphType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefSortType>** StaticGet__822___RPGClientGameRefSortType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefSortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441>** StaticGet__546___ProtoMultiPathAvatarType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ComefromOpenType>** StaticGet__686___RPGGameCoreComefromOpenType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ComefromOpenType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildCardType>** StaticGet__469___RPGGameCoreEvolveBuildCardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildCardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowRightCutInTraitImgType>** StaticGet__809___RPGGameCoreGridFightShowRightCutInTraitImgType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightShowRightCutInTraitImgType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_44>** StaticGet__668___ProtoRelicDiscardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_44>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B5F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardShowType>** StaticGet__183___RPGClientBillboardShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B600);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDLCBlockType>** StaticGet__351___RPGGameCoreRogueDLCBlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDLCBlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B608);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFrontSpecialSPDisplayType>** StaticGet__810___RPGGameCoreGridFightFrontSpecialSPDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFrontSpecialSPDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B610);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSourceSystemType>** StaticGet__626___RPGGameCorePlanetFesSourceSystemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSourceSystemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B618);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleUnitType>** StaticGet__498___RPGGameCoreRogueGambleUnitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleUnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B620);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759EC8C410046F6D>** StaticGet__1041___ProtoCmdChimeraDuelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759EC8C410046F6D>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B628);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::OtherSettings_FastRunSwitchMode>** StaticGet__151___RPGClientOtherSettingsFastRunSwitchMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::OtherSettings_FastRunSwitchMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B630);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildGearResonanceEffectType>** StaticGet__665___RPGClientEvolveBuildGearResonanceEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildGearResonanceEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B638);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_20>** StaticGet__1079___ProtoCmdLocalLegendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_20>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B640);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_519A64C3FB3A5470>** StaticGet__1124___ProtoCmdRogueTournType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_519A64C3FB3A5470>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B648);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_13>** StaticGet__1099___ProtoCmdPetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B650);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MPChangeStatus>** StaticGet__145___RPGClientMPChangeStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MPChangeStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B658);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightAugmentQuality>** StaticGet__740___RPGGameCoreGridFightAugmentQuality_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightAugmentQuality>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B660);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueEventType>** StaticGet__414___RPGGameCoreRogueDialogueEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B668);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingCardType>** StaticGet__872___RPGGameCoreChenLingCardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingCardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B670);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAffixRarityType>** StaticGet__702___RPGGameCoreFateAffixRarityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateAffixRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B678);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaItemType>** StaticGet__675___RPGGameCoreGachaItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B680);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPriority>** StaticGet__436___RPGClientUIPriority_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B688);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateHouguType>** StaticGet__710___RPGGameCoreFateHouguType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateHouguType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B690);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_3>** StaticGet__1094___ProtoCmdMusicRhythmType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B698);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Texture2D_EXRFlags>** StaticGet__180___UnityEngineTexture2DEXRFlags_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Texture2D_EXRFlags>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseMainCameraUpdateReason>** StaticGet__591___RPGClientCameraDataAndFlagsPauseMainCameraUpdateReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseMainCameraUpdateReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUtils_StorageFormatType>** StaticGet__168___RPGClientPhotoGraphUtilsStorageFormatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUtils_StorageFormatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::RankType>** StaticGet__612___RPGClientRelicSmartSuitRankType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::RankType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode>** StaticGet__685___RPGClientMatchThreeV2PlayerPvpCareerGameMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MatchThreeV2PlayerPvpCareer_GameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCollectionExhibitionPropFloor>** StaticGet__807___RPGGameCoreRogueTournCollectionExhibitionPropFloor_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCollectionExhibitionPropFloor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_1>** StaticGet__510___ProtoMatchThreeStatisticsType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseTargetType>** StaticGet__608___RPGGameCoreChimeraPhaseTargetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraPhaseTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlSendType>** StaticGet__868___RPGClientCloudUtilsGameControlSendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlSendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_3>** StaticGet__522___ProtoFightGameMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumCollectionItemStatus>** StaticGet__260___RPGClientMuseumCollectionItemStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumCollectionItemStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MarblePhaseType>** StaticGet__619___RPGGameCoreMarblePhaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MarblePhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B6F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DebateUIType>** StaticGet__405___RPGGameCoreDebateUIType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DebateUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B700);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ItemCornerEnum>** StaticGet__934___SuperScrollViewItemCornerEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ItemCornerEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B708);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceGameFlowMessage>** StaticGet__781___RPGClientCakeRaceGameFlowMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B710);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionBeginType>** StaticGet__217___RPGGameCoreMissionBeginType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionBeginType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B718);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SilverWolfState>** StaticGet__247___RPGClientSilverWolfState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SilverWolfState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B720);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDecalRaycast_DecalResultState>** StaticGet__965___RPGClientCameraDecalRaycastDecalResultState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDecalRaycast_DecalResultState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B728);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DailyLoginRewardActivityData_RewardStatus>** StaticGet__442___RPGClientDailyLoginRewardActivityDataRewardStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DailyLoginRewardActivityData_RewardStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B730);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::TimeScaleReason>** StaticGet__828___RPGClientLittleGameFiveDimTimeScaleReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::TimeScaleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B738);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_3>** StaticGet__1100___ProtoCmdPhoneType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B740);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MappingInfoType>** StaticGet__226___RPGGameCoreMappingInfoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MappingInfoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B748);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimPanelSkillType>** StaticGet__840___RPGGameCoreFiveDimPanelSkillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimPanelSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B750);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGQualitySettingsBoolWrapper>** StaticGet__537___RPGClientRPGQualitySettingsBoolWrapper_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGQualitySettingsBoolWrapper>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B758);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesPageType>** StaticGet__496___RPGGameCoreRollingSubtitlesPageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesPageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B760);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin180>** StaticGet__11___UnityEngineUIImageOrigin180_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin180>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B768);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_1>** StaticGet__1091___ProtoCmdMultiplayerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B770);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_7>** StaticGet__1146___ProtoCmdTutorialType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B778);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_28>** StaticGet__164___ProtoMessageGroupStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_28>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B780);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_11>** StaticGet__1044___ProtoCmdContentPackageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B788);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_15>** StaticGet__1123___ProtoCmdRogueModifierType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_15>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B790);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightDifficulty>** StaticGet__523___RPGGameCoreStarFightDifficulty_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B798);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanCategory>** StaticGet__606___RPGGameCoreRogueTitanCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActionBarUpdateTiming>** StaticGet__954___RPGClientActionBarUpdateTiming_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActionBarUpdateTiming>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingActionType>** StaticGet__512___RPGGameCoreSwordTrainingActionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingActionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFunctionNodeType>** StaticGet__793___RPGGameCoreGridFightFunctionNodeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightFunctionNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableCameraProtectReason>** StaticGet__564___RPGClientCameraDataAndFlagsDisableCameraProtectReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableCameraProtectReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfProfileQuestGroupData_ElfProfileQuestGroupStatus>** StaticGet__717___RPGClientElfProfileQuestGroupDataElfProfileQuestGroupStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfProfileQuestGroupData_ElfProfileQuestGroupStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSubEffect>** StaticGet__308___RPGGameCoreMapSubEffect_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSubEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialStepType>** StaticGet__377___RPGGameCoreHeartDialStepType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialStepType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitEffectType>** StaticGet__734___RPGGameCoreGridFightTraitEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TextMotionTyperType>** StaticGet__826___RPGGameCoreTextMotionTyperType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TextMotionTyperType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AudioGameState>** StaticGet__243___RPGGameCoreAudioGameState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AudioGameState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ContentSizeFitter_FitMode>** StaticGet__528___UnityEngineUIContentSizeFitterFitMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ContentSizeFitter_FitMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B7F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterRank>** StaticGet__93___RPGGameCoreMonsterRank_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B800);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_55>** StaticGet__495___ProtoRogueTournLevelStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_55>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B808);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUIZoomRange>** StaticGet__199___RPGClientMonoExUICameraE_ExUIZoomRange_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUIZoomRange>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B810);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GrowthMaterialGroup>** StaticGet__948___RPGClientGrowthMaterialGroup_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GrowthMaterialGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B818);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesToastItem_Status>** StaticGet__968___RPGClientPlanetFesToastItemStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesToastItem_Status>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B820);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LightCone3DColorType>** StaticGet__212___RPGGameCoreLightCone3DColorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LightCone3DColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B828);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventorySortType>** StaticGet__24___RPGGameCoreInventorySortType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventorySortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B830);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_4>** StaticGet__508___ProtoLobbyCharacterStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B838);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_TalkSourceType>** StaticGet__111___RPGGameCoreDialogueUtilTalkSourceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_TalkSourceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B840);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DialogueMode>** StaticGet__344___RPGClientDialogueMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DialogueMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B848);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventTypeEnum>** StaticGet__304___RPGGameCoreEventTypeEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B850);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_23>** StaticGet__1110___ProtoCmdRaidCollectionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_23>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B858);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatSkillPreviewInvokeType>** StaticGet__863___RPGGameCoreDiceCombatSkillPreviewInvokeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatSkillPreviewInvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B860);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ViewCacheType>** StaticGet__207___RPGClientViewCacheType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ViewCacheType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B868);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_35>** StaticGet__834___ProtoGridFightEquipCraftSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_35>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B870);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackCameraTrackType>** StaticGet__795___RPGClientCameraDataAndFlagsTrackCameraTrackType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackCameraTrackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B878);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimEnterType>** StaticGet__916___RPGClientLittleGameFiveDimFiveDimEnterType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::FiveDimEnterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B880);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C>** StaticGet__277___ProtoChatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B888);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportVirtualCameraType>** StaticGet__323___RPGClientAlleyTransportVirtualCameraType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportVirtualCameraType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B890);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_4>** StaticGet__884___ProtoLobbyInteractType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B898);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueEventType>** StaticGet__264___RPGGameCoreDialogueEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MarbleBattleSpecialKillType>** StaticGet__949___RPGClientMarbleBattleSpecialKillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MarbleBattleSpecialKillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Corner>** StaticGet__72___UnityEngineUIGridLayoutGroupCorner_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Corner>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_12>** StaticGet__1092___ProtoCmdMultipleDropType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_12>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooMaskType>** StaticGet__395___RPGGameCoreSpaceZooMaskType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooMaskType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournRoomType>** StaticGet__634___RPGGameCoreRogueTournRoomType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournRoomType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_4>** StaticGet__831___ProtoGridFightUpdateGlobalHpReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemVendor>** StaticGet__830___RPGGameCoreChimeraDuelItemVendor_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemVendor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_DialogueTriggerReason>** StaticGet__110___RPGGameCoreDialogueUtilDialogueTriggerReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueUtil_DialogueTriggerReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRarity>** StaticGet__27___RPGGameCoreItemRarity_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRarity>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityBenefitV2RoundListViewModel_Round_StateType>** StaticGet__923___RPGClientActivityBenefitV2RoundListViewModelRoundStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityBenefitV2RoundListViewModel_Round_StateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ElfRestaurant::SIMFoodState>** StaticGet__650___RPGClientLittleGameElfRestaurantSIMFoodState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ElfRestaurant::SIMFoodState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B8F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::Direction>** StaticGet__820___RPGClientSequentialPanelContainerDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::Direction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B900);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillEffect>** StaticGet__970___RPGGameCoreSkillEffect_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B908);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSubType>** StaticGet__242___RPGGameCoreItemSubType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B910);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPopupSkillDescShowType>** StaticGet__915___RPGClientDiceCombatDiceCombatPopupSkillDescShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPopupSkillDescShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B918);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphIdentifyState>** StaticGet__172___RPGClientPhotoGraphIdentifyState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphIdentifyState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B920);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueExhibitionType>** StaticGet__531___RPGGameCoreRogueExhibitionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueExhibitionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B928);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureAnimStateType>** StaticGet__1016___RPGGameCoreAdventureAnimStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureAnimStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B930);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::Quality>** StaticGet__97___RPGCustomRPQuality_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::Quality>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B938);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Conflict_GroupUnitType>** StaticGet__597___ConflictGroupUnitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Conflict_GroupUnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B940);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A5FFBC3F78A3BD7>** StaticGet__1027___ProtoCmdAvatarType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A5FFBC3F78A3BD7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B948);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardWayPointMutexStatus>** StaticGet__114___RPGClientBillboardWayPointMutexStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BillboardWayPointMutexStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B950);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_15>** StaticGet__175___ProtoBpTierType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_15>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B958);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphModeType>** StaticGet__196___RPGGameCorePhotoGraphModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B960);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultiPlayerGameMode>** StaticGet__974___RPGGameCoreMultiPlayerGameMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultiPlayerGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B968);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavmapAreaConnectType>** StaticGet__1005___RPGGameCoreLevelNavmapAreaConnectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavmapAreaConnectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B970);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataComponent_PerMonster_State>** StaticGet__751___RPGGameCoreLevelDataComponentPerMonsterState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataComponent_PerMonster_State>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B978);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingStageType>** StaticGet__878___RPGGameCoreChenLingStageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingStageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B980);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveGearType>** StaticGet__462___RPGGameCoreEvolveGearType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveGearType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B988);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeLimitType>** StaticGet__236___RPGGameCoreItemComposeLimitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeLimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B990);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_46>** StaticGet__627___ProtoPlanetFesQuestState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_46>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B998);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShowType>** StaticGet__148___RPGGameCoreShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueCommonDisplayType>** StaticGet__362___RPGClientRogueCommonDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueCommonDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ErrorType>** StaticGet__1155___UnityEngineUIErrorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ErrorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CumulativeConsumptionTierState>** StaticGet__658___RPGClientCumulativeConsumptionTierState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CumulativeConsumptionTierState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataExportTarget>** StaticGet__994___RPGGameCoreLevelDataExportTarget_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDataExportTarget>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerRequestSourceType>** StaticGet__446___RPGClientDrinkMakerRequestSourceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerRequestSourceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaMapTabProgressItemType>** StaticGet__882___RPGClientRogueTournPersonaMapTabProgressItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaMapTabProgressItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Type>** StaticGet__6___UnityEngineUIImageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Type>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiscreteBar_DisplayMode>** StaticGet__108___RPGClientDiscreteBarDisplayMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiscreteBar_DisplayMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateTraitType>** StaticGet__707___RPGGameCoreFateTraitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateTraitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRecommendType>** StaticGet__784___RPGClientLightConeRecommendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRecommendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyOrderStatus>** StaticGet__279___RPGClientAlleyOrderStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyOrderStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1B9F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonDifficulty>** StaticGet__540___RPGGameCoreActivitySummonDifficulty_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivitySummonDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicAreaGroupID>** StaticGet__595___RPGGameCoreRogueMagicAreaGroupID_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicAreaGroupID>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyContentType>** StaticGet__466___RPGClientMonopolyContentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyComponentType>** StaticGet__381___RPGGameCoreChessRogueDifficultyComponentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueDifficultyComponentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_27>** StaticGet__159___ProtoMessageSectionStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_27>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_SoftRangeType>** StaticGet__55___UnityEngineUISmoothMaskSoftRangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_SoftRangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterCampType>** StaticGet__384___RPGGameCoreCharacterCampType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterCampType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaHexEquipmentMessage>** StaticGet__900___RPGClientRogueTournPersonaHexEquipmentMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaHexEquipmentMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_1>** StaticGet__494___ProtoLobbyModifyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleFunc>** StaticGet__147___RPGGameCorePuzzleFunc_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleFunc>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyLineDirectionEnum>** StaticGet__945___RPGClientAlleyLineDirectionEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyLineDirectionEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenWorkType>** StaticGet__769___RPGGameCoreHipplenWorkType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenWorkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimitType>** StaticGet__26___RPGGameCoreLimitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Spine::Unity::SkeletonGraphic_LayoutMode>** StaticGet__333___SpineUnitySkeletonGraphicLayoutMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Spine::Unity::SkeletonGraphic_LayoutMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFB31C413D16E14>** StaticGet__1148___ProtoCmdWolfBroType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFB31C413D16E14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_9>** StaticGet__1042___ProtoCmdClientCustomOpType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_1>** StaticGet__768___ProtoGridFightDropType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParkourTalkType>** StaticGet__687___RPGGameCoreParkourTalkType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParkourTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InputControlType>** StaticGet__132___InControlInputControlType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InputControlType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleEventType>** StaticGet__839___RPGClientPenaconyEndmostChronicleEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BA98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PerformanceLiveStreamAtmosphereType>** StaticGet__894___RPGGameCorePerformanceLiveStreamAtmosphereType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PerformanceLiveStreamAtmosphereType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UILayer>** StaticGet__5___RPGClientUILayer_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UILayer>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivitySwordTrainingAvatarVOType>** StaticGet__548___RPGClientActivitySwordTrainingAvatarVOType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivitySwordTrainingAvatarVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightEquipCategory>** StaticGet__695___RPGGameCoreGridFightEquipCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightEquipCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BuffType>** StaticGet__322___RPGGameCoreBuffType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_3>** StaticGet__99___ProtoExtraLineupType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkDebateBtn>** StaticGet__334___RPGClientTalkDebateBtn_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkDebateBtn>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatShopGoodType>** StaticGet__857___RPGClientDiceCombatDiceCombatShopGoodType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatShopGoodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyEventFadeInType>** StaticGet__607___RPGGameCoreTrainPartyEventFadeInType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyEventFadeInType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_28>** StaticGet__251___ProtoRogueStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_28>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FarmTypeConfig>** StaticGet__152___RPGGameCoreFarmTypeConfig_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FarmTypeConfig>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightHandBookType>** StaticGet__770___RPGGameCoreGridFightHandBookType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightHandBookType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BAF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5AA38DC400740F29>** StaticGet__295___ProtoVirtualItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5AA38DC400740F29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraWorkRoundOptionType>** StaticGet__601___RPGGameCoreChimeraWorkRoundOptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraWorkRoundOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandbookRoleFilter>** StaticGet__913___RPGClientGridFightHandbookRoleFilter_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandbookRoleFilter>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletSectionState>** StaticGet__602___RPGClientBookletSectionState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletSectionState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShortCutWheelGotoType>** StaticGet__201___RPGGameCoreShortCutWheelGotoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShortCutWheelGotoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfoState>** StaticGet__926___RPGClientRogueTournPersonaHexEquipmentSlotItemInfoState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfoState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_AlignDirection>** StaticGet__353___UnityEngineUIScrollRectAlignDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_AlignDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPVPMode>** StaticGet__829___RPGClientDiceCombatDiceCombatPVPMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatPVPMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesMiniGameRewardType>** StaticGet__640___RPGGameCorePlanetFesMiniGameRewardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesMiniGameRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelVOType>** StaticGet__1013___RPGGameCoreLevelVOType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingBattle::ChenLingBattleProgressNodeState>** StaticGet__879___RPGClientChenLingBattleChenLingBattleProgressNodeState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingBattle::ChenLingBattleProgressNodeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HandbookMissionChronicleState>** StaticGet__844___RPGClientHandbookMissionChronicleState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HandbookMissionChronicleState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherShowType>** StaticGet__859___RPGGameCoreDiceCombatWeatherShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LobbyState>** StaticGet__493___RPGClientLobbyState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LobbyState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::DontHidePanelType>** StaticGet__139___RPGToolsTimelineDontHidePanelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::DontHidePanelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePhaseType>** StaticGet__19___RPGClientGamePhaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_InputButton>** StaticGet__638___UnityEngineEventSystemsPointerEventDataInputButton_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_InputButton>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_23>** StaticGet__648___ProtoChimeraRoundWorkEndReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_23>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParamType>** StaticGet__332___RPGGameCoreParamType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ParamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Effect_AbyssCrystalManager_SelectedState>** StaticGet__192___RPGClientEffect_AbyssCrystalManagerSelectedState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Effect_AbyssCrystalManager_SelectedState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BB98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonItemType>** StaticGet__337___RPGGameCoreTreasureDungeonItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceUIType>** StaticGet__804___RPGClientCakeRaceCakeRaceUIType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_GateFitMode>** StaticGet__41___UnityEngineCameraGateFitMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_GateFitMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_OperateType>** StaticGet__1160___UnityEngineUICaculateNodeDataOperateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_OperateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_83>** StaticGet__1149___ProtoCmdWorldUnlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_83>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType>** StaticGet__851___RPGClientLittleGameFiveDimMiniGameNotifyScoreType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::FiveDim::MiniGameNotify::ScoreType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleCustomUnlockCondition>** StaticGet__424___RPGGameCoreChronicleCustomUnlockCondition_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleCustomUnlockCondition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphFovLevel>** StaticGet__539___RPGGameCorePhotoGraphFovLevel_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphFovLevel>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_35>** StaticGet__514___ProtoSwordTrainingDailyPhaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_35>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionTalkStyleType>** StaticGet__694___RPGGameCoreMissionTalkStyleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionTalkStyleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::RectMask2D_SoftType>** StaticGet__363___UnityEngineUIRectMask2DSoftType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::RectMask2D_SoftType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NewsTicker_MoveDirectionType>** StaticGet__677___RPGClientNewsTickerMoveDirectionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NewsTicker_MoveDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BBF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleResultProcess_RestartOption>** StaticGet__518___RPGClientBattleResultProcessRestartOption_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleResultProcess_RestartOption>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UITransitionAnimType>** StaticGet__375___RPGClientUITransitionAnimType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UITransitionAnimType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournPersonaRoomBgColorType>** StaticGet__904___RPGGameCoreRogueTournPersonaRoomBgColorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournPersonaRoomBgColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochureType>** StaticGet__389___RPGGameCoreTravelBrochureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E>** StaticGet__1033___ProtoCmdBoxingClubType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsIssueHintPopupShowType>** StaticGet__910___RPGGameCoreLimaoNewsIssueHintPopupShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsIssueHintPopupShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin90>** StaticGet__10___UnityEngineUIImageOrigin90_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin90>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeType>** StaticGet__130___RPGGameCoreGameModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridItemArrangeType>** StaticGet__241___SuperScrollViewGridItemArrangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridItemArrangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelAnimatingObjectState>** StaticGet__996___RPGGameCoreLevelAnimatingObjectState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelAnimatingObjectState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Scrollbar_Direction>** StaticGet__74___UnityEngineUIScrollbarDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Scrollbar_Direction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InwardBubbleTalkType>** StaticGet__317___RPGGameCoreInwardBubbleTalkType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InwardBubbleTalkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialTriggerType>** StaticGet__31___RPGGameCoreTutorialTriggerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionOptionalTrackMode>** StaticGet__572___RPGGameCoreSubmissionOptionalTrackMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubmissionOptionalTrackMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_2>** StaticGet__1087___ProtoCmdMessageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SenderType>** StaticGet__158___RPGGameCoreSenderType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SenderType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::Key>** StaticGet__133___InControlKey_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::Key>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarPropertyType>** StaticGet__61___RPGGameCoreAvatarPropertyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_15>** StaticGet__571___ProtoDifficultyAdjustmentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_15>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameStateType>** StaticGet__519___RPGClientSwordTrainingSwordTrainingGameStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BC98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerBanModEntranceType>** StaticGet__447___RPGGameCoreDrinkMakerBanModEntranceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerBanModEntranceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialEmoType>** StaticGet__376___RPGGameCoreHeartDialEmoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeartDialEmoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_FramePressState>** StaticGet__639___UnityEngineEventSystemsPointerEventDataFramePressState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::PointerEventData_FramePressState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialOPType>** StaticGet__794___RPGGameCoreGridFightPrepTutorialOPType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialOPType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardApplyHandleType>** StaticGet__651___RPGClientPlanetFesTradingCardApplyHandleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardApplyHandleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelMinimapSectionType>** StaticGet__104___RPGGameCoreLevelMinimapSectionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelMinimapSectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesUnitType>** StaticGet__633___RPGGameCorePlanetFesUnitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesUnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmGroupState>** StaticGet__553___RPGClientMusicRhythmGroupState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmGroupState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_1>** StaticGet__1081___ProtoCmdMapRotationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF7F1C413CECBBD_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTalentType>** StaticGet__746___RPGClientGridFightTalentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTalentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventHandle>** StaticGet__1156___UnityEngineEventSystemsEventHandle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventHandle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ColorMode>** StaticGet__1154___UnityEngineUIColorMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ColorMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BCF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportMarkType>** StaticGet__941___RPGClientRogueTournBuildRefReportMarkType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportMarkType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingItemType>** StaticGet__173___RPGGameCorePhotoGraphSettingItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreType>** StaticGet__511___RPGGameCoreMatchThreeScoreType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCOverrideBehaviorType>** StaticGet__998___RPGGameCoreLevelNPCOverrideBehaviorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCOverrideBehaviorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuelSettleReason>** StaticGet__850___RPGClientLittleGameChimeraDuelSettleReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuelSettleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ESwitchHandGestureType>** StaticGet__574___RPGGameCoreESwitchHandGestureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ESwitchHandGestureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyPackGoodsTypeEnum>** StaticGet__305___RPGGameCoreAlleyPackGoodsTypeEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyPackGoodsTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ControlSkillType>** StaticGet__378___RPGGameCoreControlSkillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ControlSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityInstanceState>** StaticGet__938___RPGGameCoreAbilityInstanceState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityInstanceState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_13>** StaticGet__270___ProtoGetStuffType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerTagType>** StaticGet__983___RPGGameCoreDrinkMakerTagType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerTagType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAlley::AlleyPackController_AlleyJoyStickState>** StaticGet__335___RPGClientActivityAlleyAlleyPackControllerAlleyJoyStickState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAlley::AlleyPackController_AlleyJoyStickState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffAeonType>** StaticGet__291___RPGGameCoreRogueBuffAeonType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffAeonType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MRMusicCompositionMode>** StaticGet__942___RPGClientMRMusicCompositionMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MRMusicCompositionMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeGroupType>** StaticGet__398___RPGGameCoreChallengeGroupType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::CollectDataType>** StaticGet__750___RPGClientActivityHipplenCollectDataType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::CollectDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelAnimalType>** StaticGet__867___RPGGameCoreFourRotateVoxelAnimalType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelAnimalType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_3>** StaticGet__1107___ProtoCmdPunkLordType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Navigation_Mode>** StaticGet__106___UnityEngineUINavigationMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Navigation_Mode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AliveStateMask>** StaticGet__205___RPGGameCoreAliveStateMask_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AliveStateMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BD98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueCabinetType>** StaticGet__319___RPGGameCoreChessRogueCabinetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueCabinetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::TutorialNode_NodePlatform>** StaticGet__680___TutorialNodeNodePlatform_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::TutorialNode_NodePlatform>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffType>** StaticGet__214___RPGGameCoreMazeBuffType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenTrialGameState_TrialStep>** StaticGet__726___RPGClientActivityHipplenActivityHipplenTrialGameStateTrialStep_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenTrialGameState_TrialStep>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_4>** StaticGet__1129___ProtoCmdSpaceZooType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRangeType>** StaticGet__976___RPGGameCoreRogueMagicRangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C>** StaticGet__1054___ProtoCmdFateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelJumpTextType>** StaticGet__797___RPGClientPropChimeraDuelJumpTextType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelJumpTextType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapPregressShowType>** StaticGet__195___RPGGameCoreMapPregressShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapPregressShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CocoonType>** StaticGet__146___RPGGameCoreCocoonType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CocoonType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GesturePriority>** StaticGet__45___HedgehogTeamEasyTouchEasyTouchGesturePriority_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GesturePriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkConditionType>** StaticGet__605___RPGGameCoreChimeraTalkConditionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BDF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_29>** StaticGet__1055___ProtoFateMasterStatusType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridFixedType>** StaticGet__936___SuperScrollViewGridFixedType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridFixedType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_9>** StaticGet__179___ProtoBpRewardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkRoundType>** StaticGet__484___RPGGameCoreClockParkRoundType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkRoundType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerUnlockType>** StaticGet__434___RPGGameCoreDrinkMakerUnlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoardShowType>** StaticGet__254___RPGGameCoreBoardShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoardShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindEntityControlType>** StaticGet__582___RPGGameCoreTimeRewindEntityControlType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindEntityControlType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4135D2C3F2354D90>** StaticGet__1101___ProtoCmdPlanetFesType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4135D2C3F2354D90>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextAnchor>** StaticGet__402___UnityEngineTextAnchor_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextAnchor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_5>** StaticGet__1031___ProtoCmdBenefitActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterType>** StaticGet__1001___RPGGameCoreLevelDimensionFilterType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGameType>** StaticGet__635___RPGGameCorePlanetFesGameType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_2>** StaticGet__1078___ProtoCmdLobbyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameRecordType>** StaticGet__516___RPGClientSwordTrainingSwordTrainingGameRecordType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTraining::SwordTrainingGameRecordType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_1>** StaticGet__1050___ProtoCmdEraFlipperType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleOpenType>** StaticGet__864___RPGClientPenaconyEndmostChronicleOpenType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PenaconyEndmostChronicleOpenType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueMainStoryToastType>** StaticGet__360___RPGGameCoreChessRogueMainStoryToastType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueMainStoryToastType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityFarmMultipleDropType>** StaticGet__285___RPGGameCoreActivityFarmMultipleDropType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityFarmMultipleDropType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriorityGroup>** StaticGet__451___RPGGameCorePPEffectFilterPriorityGroup_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriorityGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GraphicRaycaster_BlockingObjects>** StaticGet__862___UnityEngineUIGraphicRaycasterBlockingObjects_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GraphicRaycaster_BlockingObjects>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BE98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeState>** StaticGet__35___RPGGameCoreGameModeState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameModeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventBubbleType>** StaticGet__780___RPGGameCoreRestaurantSelectEventBubbleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventBubbleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingType>** StaticGet__908___RPGClientChenLingGameBoyChenLingGameBoyPlayerRankingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextFormattingTag>** StaticGet__580___UnityEngineTextFormattingTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::TextFormattingTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumMissionType>** StaticGet__274___RPGGameCoreMuseumMissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumMissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeType>** StaticGet__678___RPGGameCoreRestaurantEmployeeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::BossPhase>** StaticGet__479___RPGClientLittleGameBossPhase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::BossPhase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BED0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::Anniversary2NDPanelEnum>** StaticGet__664___RPGGameCoreAnniversary2NDPanelEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::Anniversary2NDPanelEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BED8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSpaceType>** StaticGet__404___RPGGameCoreMapSpaceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapSpaceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::AlignmentType>** StaticGet__821___RPGClientSequentialPanelContainerAlignmentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SequentialPanelContainer::AlignmentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RedDotType>** StaticGet__690___RPGGameCoreRedDotType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RedDotType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_5>** StaticGet__1082___ProtoCmdMarbleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BEF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamType>** StaticGet__38___RPGGameCoreTeamType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyGameType>** StaticGet__438___RPGGameCoreMonopolyGameType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightOrbType>** StaticGet__736___RPGGameCoreGridFightOrbType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightOrbType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkChapterType>** StaticGet__487___RPGGameCoreClockParkChapterType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkChapterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_2>** StaticGet__1024___ProtoCmdAiPamType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnergyBarState>** StaticGet__1018___RPGGameCoreEnergyBarState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnergyBarState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3>** StaticGet__1034___ProtoCmdCakeRaceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CFE31C413D3A3C3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooCatType>** StaticGet__396___RPGClientSpaceZooCatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooCatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueSubMode>** StaticGet__386___RPGGameCoreRogueSubMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueSubMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameFlowState>** StaticGet__947___RPGClientGameFlowState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameFlowState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartySettleSourceType>** StaticGet__547___RPGClientTrainPartyTrainPartySettleSourceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartySettleSourceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaLegendMessage>** StaticGet__880___RPGClientRogueTournPersonaLegendMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaLegendMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimGameInstance_VisibleReason>** StaticGet__964___RPGClientFiveDimGameInstanceVisibleReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimGameInstance_VisibleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_5>** StaticGet__1105___ProtoCmdPlayerReturnType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Toggle_ToggleTransition>** StaticGet__18___UnityEngineUIToggleToggleTransition_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Toggle_ToggleTransition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionModule_ClientFinishMissionType>** StaticGet__485___RPGClientMissionModuleClientFinishMissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionModule_ClientFinishMissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_1>** StaticGet__131___ProtoBattleModuleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ButtonShowPriority>** StaticGet__614___RPGGameCoreButtonShowPriority_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ButtonShowPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourLevelState>** StaticGet__671___RPGClientParkourLevelState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourLevelState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissingVideoProcessType>** StaticGet__957___RPGClientMissingVideoProcessType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissingVideoProcessType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BF98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::VirtualCursorStatus>** StaticGet__433___RPGClientVirtualCursorStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::VirtualCursorStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumRandomEventType>** StaticGet__256___RPGGameCoreMuseumRandomEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumRandomEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourGameFlowMessage>** StaticGet__676___RPGClientParkourGameFlowMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarDemoType>** StaticGet__737___RPGGameCoreAvatarDemoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarDemoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_DoubleTapDetection>** StaticGet__46___HedgehogTeamEasyTouchEasyTouchDoubleTapDetection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_DoubleTapDetection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EWolfBroGunPlayTargetScoreMode>** StaticGet__499___RPGClientEWolfBroGunPlayTargetScoreMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EWolfBroGunPlayTargetScoreMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Edge>** StaticGet__3___UnityEngineRectTransformEdge_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Edge>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_27>** StaticGet__1131___ProtoCmdStoryLineType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_27>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_10>** StaticGet__644___ProtoPlanetFesCardPieceApplyPermissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRewardGotoStatus>** StaticGet__716___RPGClientLightConeRewardGotoStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LightConeRewardGotoStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyIneritType>** StaticGet__991___RPGGameCoreAbilityPropertyIneritType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyIneritType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventType>** StaticGet__939___RPGGameCoreEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1BFF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportFromUIType>** StaticGet__636___RPGClientRogueTournBuildRefReportFromUIType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefReportFromUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C000);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginVertical>** StaticGet__58___UnityEngineUISmoothMaskFillOriginVertical_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginVertical>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C008);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial>** StaticGet__59___UnityEngineUISmoothMaskFillOriginRadial_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C010);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A854FEC42C62697A>** StaticGet__1068___ProtoCmdGridFightType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A854FEC42C62697A>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C018);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherSpiritType>** StaticGet__310___RPGGameCoreAetherSpiritType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherSpiritType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C020);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectionType>** StaticGet__715___RPGGameCoreRestaurantSelectionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C028);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33_1>** StaticGet__808___ProtoGridFightUpdateSrcType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A5C8C4100A8E33_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C030);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeAbility>** StaticGet__732___RPGGameCoreRestaurantEmployeeAbility_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantEmployeeAbility>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C038);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_7>** StaticGet__877___ProtoChenLingSoldierAttrType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C040);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ERelicRecommendDataType>** StaticGet__951___RPGClientERelicRecommendDataType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ERelicRecommendDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C048);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefRoleExpiredType>** StaticGet__890___RPGClientGameRefRoleExpiredType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GameRefRoleExpiredType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C050);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamBulletCommentsMode>** StaticGet__893___RPGToolsTimelinePerformanceLiveStreamBulletCommentsMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamBulletCommentsMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C058);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit>** StaticGet__742___RPGClientMonoRemainTimerPositionStyleFirstDisplayedTimeUnit_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C060);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::StoryLineSwitchReason>** StaticGet__443___RPGClientStoryLineSwitchReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::StoryLineSwitchReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C068);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIValueChangeMode>** StaticGet__302___RPGClientUIValueChangeMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIValueChangeMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C070);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatCommunicateType>** StaticGet__847___RPGGameCoreDiceCombatCommunicateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatCommunicateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C078);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StrongChallengeBattleType>** StaticGet__391___RPGGameCoreStrongChallengeBattleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StrongChallengeBattleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C080);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferType>** StaticGet__96___RPGGameCoreScreenTransferType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C088);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ItemFlag>** StaticGet__240___RPGClientItemDataItemFlag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ItemFlag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C090);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AcheronPowerNodeState>** StaticGet__458___RPGClientAcheronPowerNodeState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AcheronPowerNodeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C098);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ToastType>** StaticGet__107___RPGGameCoreToastType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ToastType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerFormulaUnlockType>** StaticGet__437___RPGGameCoreDrinkMakerFormulaUnlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerFormulaUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial90>** StaticGet__60___UnityEngineUISmoothMaskFillOriginRadial90_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginRadial90>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletMessage>** StaticGet__609___RPGClientBookletMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookletMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AUiProgressBar_Enum_3_BEB443A01708ECF3>** StaticGet__228___UnityEngineUIAUiProgressBarTextType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AUiProgressBar_Enum_3_BEB443A01708ECF3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureType>** StaticGet__36___RPGCustomRPFrameCaptureCaptureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::CustomRP::FrameCapture_CaptureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenGameGradeType>** StaticGet__729___RPGGameCoreHipplenGameGradeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenGameGradeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkModule_OptionType>** StaticGet__407___RPGClientTalkModuleOptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkModule_OptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_5>** StaticGet__1029___ProtoCmdBattleCollegeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76>** StaticGet__53___ProtoAvatarType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePlayLockTarget>** StaticGet__356___RPGClientGamePlayLockTarget_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GamePlayLockTarget>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceChatEventType>** StaticGet__832___RPGClientCakeRaceChatEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceChatEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C0F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HeliobusSNSPostPhase>** StaticGet__346___RPGClientHeliobusSNSPostPhase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HeliobusSNSPostPhase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C100);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_ConflictModelSortType>** StaticGet__456___RPGClientRuntimeGroupManagerConflictModelSortType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_ConflictModelSortType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C108);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_ShapeType>** StaticGet__187___RPGClientUIPartialBlurShapeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_ShapeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C110);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_2>** StaticGet__1040___ProtoCmdChimeraType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C118);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_E5895DA3995ACDBD>** StaticGet__213___RPGClientPacketCmdID_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_E5895DA3995ACDBD>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C120);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::MoveDirection>** StaticGet__134___UnityEngineEventSystemsMoveDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::MoveDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C128);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_4>** StaticGet__1114___ProtoCmdRelicBoxType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C130);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityQuestUITYPE>** StaticGet__425___RPGGameCoreActivityQuestUITYPE_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityQuestUITYPE>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C138);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_LayoutType>** StaticGet__186___UnityEngineUIScrollRectLayoutType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_LayoutType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C140);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FormulaType>** StaticGet__178___RPGGameCoreFormulaType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FormulaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C148);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_1>** StaticGet__1067___ProtoCmdGachaType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C150);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504_1>** StaticGet__1135___ProtoCmdSwordTrainingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C158);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRoomType>** StaticGet__575___RPGGameCoreRogueMagicRoomType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicRoomType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C160);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_11>** StaticGet__298___ProtoSyncLineupReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C168);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLockableFeatureType>** StaticGet__1012___RPGGameCoreLevelLockableFeatureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLockableFeatureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C170);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattlePostureType>** StaticGet__84___RPGGameCoreBattlePostureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattlePostureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C178);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RelicType>** StaticGet__118___RPGGameCoreRelicType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RelicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C180);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConditionType>** StaticGet__154___RPGGameCoreConditionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C188);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GenderType>** StaticGet__129___RPGGameCoreGenderType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GenderType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C190);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageShowInUIType>** StaticGet__931___RPGClientMessageShowInUIType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageShowInUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C198);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::WrapMode>** StaticGet__303___UnityEngineWrapMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::WrapMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengePeakRewardType>** StaticGet__761___RPGGameCoreChallengePeakRewardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengePeakRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfSelectEventType>** StaticGet__672___RPGGameCoreElfSelectEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ElfSelectEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyMapCellType>** StaticGet__457___RPGGameCoreMonopolyMapCellType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyMapCellType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialOrderFinishTypeEnum>** StaticGet__318___RPGGameCoreSpecialOrderFinishTypeEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialOrderFinishTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_CaculateNodeType>** StaticGet__1158___UnityEngineUICaculateNodeDataCaculateNodeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_CaculateNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlaneType>** StaticGet__171___RPGGameCorePlaneType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlaneType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TutorialGuideConfigType>** StaticGet__372___RPGClientTutorialGuideConfigType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TutorialGuideConfigType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyChallengeState>** StaticGet__907___RPGClientChenLingGameBoyChenLingGameBoyChallengeState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyChallengeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCheckPointType>** StaticGet__486___RPGGameCoreClockParkCheckPointType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCheckPointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeInnerConditionType>** StaticGet__992___RPGGameCoreLevelNavNodeInnerConditionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeInnerConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMode>** StaticGet__560___RPGGameCoreRogueMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C1F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::AnimatorCullingMode>** StaticGet__215___UnityEngineAnimatorCullingMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::AnimatorCullingMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C200);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_22>** StaticGet__660___ProtoPlanetFesCustomKey_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_22>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C208);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_Unit>** StaticGet__461___UnityEngineUICanvasScalerUnit_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_Unit>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C210);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_OnClickType>** StaticGet__255___RPGClientConfirmDialogContextOnClickType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_OnClickType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C218);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideRogueType>** StaticGet__534___RPGGameCoreGuideRogueType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GuideRogueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C220);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournDifficultyType>** StaticGet__536___RPGGameCoreRogueTournDifficultyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C228);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectTriggerType>** StaticGet__480___RPGClientMonopolyEffectTriggerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C230);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_16>** StaticGet__1125___ProtoCmdRollShopType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_16>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C238);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_26>** StaticGet__385___ProtoChessRogueNousDicePhase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C240);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind>** StaticGet__969___RPGClientRogueTournBuildRefUnionIndexUnionKind_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournBuildRefUnionIndex_UnionKind>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C248);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDifficultyType>** StaticGet__975___RPGGameCoreRogueDifficultyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C250);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillType>** StaticGet__87___RPGGameCoreAdventureSkillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C258);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialPopupPanelType>** StaticGet__815___RPGGameCoreGridFightPrepTutorialPopupPanelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPrepTutorialPopupPanelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C260);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F>** StaticGet__1089___ProtoCmdMissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C268);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_1>** StaticGet__1070___ProtoCmdHeliobusType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C270);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTemplateType>** StaticGet__352___RPGGameCoreHeliobusTemplateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusTemplateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C278);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Proto::SceneEntityInfo_EntityOneofCase>** StaticGet__1150___ProtoSceneEntityInfoEntityOneofCase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Proto::SceneEntityInfo_EntityOneofCase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C280);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingStyle>** StaticGet__77___RPGClientLoadingStyle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C288);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetUIState>** StaticGet__91___RPGGameCoreEMazeLockTargetUIState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetUIState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C290);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTraitRemarkLineColorType>** StaticGet__813___RPGClientGridFightTraitRemarkLineColorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightTraitRemarkLineColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C298);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WeaknessState>** StaticGet__142___RPGGameCoreWeaknessState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WeaknessState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_FieldOfViewAxis>** StaticGet__42___UnityEngineCameraFieldOfViewAxis_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_FieldOfViewAxis>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenMiniGameType>** StaticGet__728___RPGGameCoreHipplenMiniGameType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenMiniGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF3F1C413CAE286>** StaticGet__1075___ProtoCmdLimaoNewsType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CF3F1C413CAE286>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_6>** StaticGet__1143___ProtoCmdTrainVisitorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelGameType>** StaticGet__852___RPGGameCoreChimeraDuelGameType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelGameType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffStats>** StaticGet__252___RPGGameCoreStuffStats_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffStats>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MVVM::ViewModel::LimaoNewsWebsiteViewTabEnum>** StaticGet__911___RPGClientMVVMViewModelLimaoNewsWebsiteViewTabEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MVVM::ViewModel::LimaoNewsWebsiteViewTabEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_79>** StaticGet__30___ProtoTutorialStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_79>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueLogTag>** StaticGet__594___RPGClientRogueLogTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueLogTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterMotionFlag>** StaticGet__39___RPGGameCoreCharacterMotionFlag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterMotionFlag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PuzzleType>** StaticGet__219___RPGClientPropPuzzleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PuzzleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C2F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_2>** StaticGet__1108___ProtoCmdQuestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CAB6C405C6C7B1_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C300);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OfferingRewardType>** StaticGet__573___RPGGameCoreOfferingRewardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OfferingRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C308);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMaskMaterial_Params_DirtyFlagBit>** StaticGet__1161___UnityEngineUISmoothMaskMaterialParamsDirtyFlagBit_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMaskMaterial_Params_DirtyFlagBit>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C310);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeType>** StaticGet__103___RPGGameCoreChallengeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C318);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAdventureGameplayType>** StaticGet__330___RPGGameCoreRogueAdventureGameplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueAdventureGameplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C320);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmLevelResultType>** StaticGet__554___RPGClientMusicRhythmLevelResultType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MusicRhythmLevelResultType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C328);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSummaryNominateType>** StaticGet__980___RPGGameCorePlanetFesSummaryNominateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesSummaryNominateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C330);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameModeType>** StaticGet__802___RPGClientChimeraDuelGameModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C338);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScaleMode>** StaticGet__459___UnityEngineUICanvasScalerScaleMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScaleMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C340);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_45>** StaticGet__1073___ProtoTurnFoodSwitch_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_45>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C348);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_40>** StaticGet__431___ProtoTrackMainMissionUpdateReasonId_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_40>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C350);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68>** StaticGet__1028___ProtoCmdBattleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C358);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginVertical>** StaticGet__9___UnityEngineUIImageOriginVertical_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_OriginVertical>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C360);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimer_TimeMode>** StaticGet__70___RPGClientMonoRemainTimerTimeMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoRemainTimer_TimeMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C368);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FindChestTriggerType>** StaticGet__611___RPGGameCoreFindChestTriggerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FindChestTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C370);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsOfficeSurveyType>** StaticGet__985___RPGGameCoreLimaoNewsOfficeSurveyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LimaoNewsOfficeSurveyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C378);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournTitanFloorType>** StaticGet__629___RPGGameCoreRogueTournTitanFloorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournTitanFloorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C380);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityPanelDataSource>** StaticGet__943___RPGClientResidentActivityPanelDataSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityPanelDataSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C388);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::Reflection::BindingFlags>** StaticGet__98___SystemReflectionBindingFlags_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::Reflection::BindingFlags>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C390);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeConditionLogicType>** StaticGet__993___RPGGameCoreLevelNavNodeConditionLogicType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNavNodeConditionLogicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C398);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::TMPro::TextAlignmentOptions>** StaticGet__1151___TMProTextAlignmentOptions_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::TMPro::TextAlignmentOptions>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_1>** StaticGet__1064___ProtoCmdFightMatch3Type_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageContentBlock_BlockType>** StaticGet__905___RPGClientMessageContentBlockBlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageContentBlock_BlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridType>** StaticGet__937___SuperScrollViewGridType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::GridType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FuncUnlockPromptType>** StaticGet__418___RPGGameCoreFuncUnlockPromptType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FuncUnlockPromptType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_2>** StaticGet__185___ProtoPunkLordAttackerStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_38>** StaticGet__798___ProtoGridFightEquipDressSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_38>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_StartCorner>** StaticGet__897___RPGUINavigationUINavigationAreaStartCorner_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_StartCorner>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooQuestType>** StaticGet__403___RPGGameCoreSpaceZooQuestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooQuestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityExpeditionRank>** StaticGet__314___RPGGameCoreActivityExpeditionRank_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityExpeditionRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_TriggerType>** StaticGet__125___RPGClientQTEUIDataTriggerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_TriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkPopDirection>** StaticGet__632___RPGGameCoreChimeraTalkPopDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraTalkPopDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C3F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffCategory>** StaticGet__515___RPGGameCoreRogueBuffCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueBuffCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C400);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A908C4100D30AA>** StaticGet__1023___ProtoCmdAetherDivideType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A908C4100D30AA>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C408);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TarotBookVersion>** StaticGet__835___RPGClientTarotBookVersion_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TarotBookVersion>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C410);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GestureType>** StaticGet__47___HedgehogTeamEasyTouchEasyTouchGestureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_GestureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C418);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DynamicValue_DynamicValueType>** StaticGet__659___RPGGameCoreDynamicValueDynamicValueType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DynamicValue_DynamicValueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C420);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialAvatarType>** StaticGet__123___RPGGameCoreSpecialAvatarType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialAvatarType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C428);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeFuncType>** StaticGet__656___RPGGameCoreItemComposeFuncType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemComposeFuncType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C430);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhoneMessagePlayMode>** StaticGet__1017___RPGGameCorePhoneMessagePlayMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhoneMessagePlayMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C438);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleTargetStatus>** StaticGet__331___RPGClientBattleTargetStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleTargetStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C440);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatType>** StaticGet__724___RPGGameCoreHipplenStatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C448);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerRequestMode>** StaticGet__419___RPGGameCoreDrinkMakerRequestMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerRequestMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C450);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SuitRecommendDataType>** StaticGet__952___RPGClientSuitRecommendDataType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SuitRecommendDataType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C458);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AnimatorButtonCheckMode>** StaticGet__955___RPGClientAnimatorButtonCheckMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AnimatorButtonCheckMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C460);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_64>** StaticGet__583___ProtoRogueTalentStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_64>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C468);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFarmType>** StaticGet__684___RPGGameCoreRestaurantFarmType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFarmType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C470);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PersonalizeCardUseType>** StaticGet__663___RPGClientPersonalizeCardUseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PersonalizeCardUseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C478);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIAdaptiveDeviceType>** StaticGet__475___RPGGameCoreUIAdaptiveDeviceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIAdaptiveDeviceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C480);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidCollectionType>** StaticGet__552___RPGGameCoreRaidCollectionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidCollectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C488);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleCollegeData_BattleCollegeStatus>** StaticGet__339___RPGClientBattleCollegeDataBattleCollegeStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleCollegeData_BattleCollegeStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C490);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_SwipeDirectionType>** StaticGet__126___RPGClientQTEUIDataSwipeDirectionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::QTEUIData_SwipeDirectionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C498);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialVisionType>** StaticGet__315___RPGGameCoreSpecialVisionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpecialVisionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierStateFilter>** StaticGet__509___RPGGameCoreModifierStateFilter_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierStateFilter>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidTeamType>** StaticGet__231___RPGGameCoreRaidTeamType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidTeamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleGroupLevelType>** StaticGet__989___RPGGameCoreRogueGambleGroupLevelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueGambleGroupLevelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkStyleType>** StaticGet__692___RPGGameCoreSimpleTalkStyleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkStyleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UseSkillErrorCode>** StaticGet__791___RPGGameCoreUseSkillErrorCode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UseSkillErrorCode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPreset>** StaticGet__696___RPGGameCoreGridFightPreset_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightPreset>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingDisplayOptionType>** StaticGet__223___RPGGameCorePhotoGraphSettingDisplayOptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingDisplayOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelCommandGuideMode>** StaticGet__693___RPGClientLittleGameChimeraDuelChimeraDuelCommandGuideMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelCommandGuideMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMiracleCategory>** StaticGet__478___RPGGameCoreRogueMiracleCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMiracleCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedType>** StaticGet__596___RPGClientCachedType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDifficulty>** StaticGet__209___RPGGameCoreLevelDifficulty_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C4F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_26>** StaticGet__1116___ProtoCmdReplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C500);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartyPreviewTipsType>** StaticGet__584___RPGClientTrainPartyTrainPartyPreviewTipsType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrainParty::TrainPartyPreviewTipsType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C508);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_14>** StaticGet__349___ProtoMailType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C510);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_24>** StaticGet__82___ProtoQuestStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_24>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C518);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FrameCaptureManager_CaptureUsage>** StaticGet__210___RPGClientFrameCaptureManagerCaptureUsage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FrameCaptureManager_CaptureUsage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C520);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardError>** StaticGet__682___RPGClientPlanetFesTradingCardError_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesTradingCardError>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C528);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_ContentType>** StaticGet__14___UnityEngineUIInputFieldContentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_ContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C530);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType>** StaticGet__961___RPGClientLittleGameChenLingChenLingHPChangeFormatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChenLing::ChenLingHPChangeFormatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C538);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_11>** StaticGet__1084___ProtoCmdMatchType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C540);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_HoekeySettingType>** StaticGet__190___RPGClientSettingManagerHoekeySettingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SettingManager_HoekeySettingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C548);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipTrackCancelReason>** StaticGet__796___RPGClientGridFightEquipTrackCancelReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipTrackCancelReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C550);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterViewPhaseType>** StaticGet__764___RPGGameCoreMonsterViewPhaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterViewPhaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C558);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_43>** StaticGet__1072___ProtoCmdInteractiveTriggerMazeBuffType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_43>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C560);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51AB64C3FB48C743>** StaticGet__1103___ProtoCmdPlayerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51AB64C3FB48C743>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C568);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointTriggerKey>** StaticGet__870___RPGGameCoreAvatarSkillTreePointTriggerKey_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointTriggerKey>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C570);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_21>** StaticGet__1083___ProtoCmdMarkChestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_21>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C578);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityState>** StaticGet__816___RPGClientResidentActivityState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ResidentActivityState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C580);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_26>** StaticGet__1130___ProtoCmdStarFightType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C588);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookEquipItemType>** StaticGet__774___RPGClientGridFightHandBookEquipItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightHandBookEquipItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C590);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::FontStyle>** StaticGet__245___UnityEngineFontStyle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::FontStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C598);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferMode>** StaticGet__95___RPGGameCoreScreenTransferMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionCategory>** StaticGet__1002___RPGGameCoreLevelDimensionCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockFunctionType>** StaticGet__799___RPGGameCoreGridFightUnlockFunctionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightUnlockFunctionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AntialiasingMode>** StaticGet__109___RPGClientAntialiasingMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AntialiasingMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRecycleShowType>** StaticGet__227___RPGGameCoreItemRecycleShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemRecycleShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraMemberType>** StaticGet__600___RPGGameCoreChimeraMemberType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraMemberType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceRare>** StaticGet__856___RPGGameCoreDiceCombatDiceRare_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceRare>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75B6C8C41019010E>** StaticGet__1088___ProtoCmdMiscModuleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75B6C8C41019010E>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupRefreshReason>** StaticGet__453___RPGClientRuntimeGroupManagerGroupRefreshReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupRefreshReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerBartendProcedure>** StaticGet__432___RPGClientDrinkMakerBartendProcedure_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DrinkMakerBartendProcedure>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioManager_AudioDownloadState>** StaticGet__272___RPGClientAudioManagerAudioDownloadState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioManager_AudioDownloadState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::ProfileUtility_LoadReason>** StaticGet__262___RPGProfileUtilityLoadReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::ProfileUtility_LoadReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C5F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13>** StaticGet__342___ProtoMsgType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C600);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaRoomCardPileMessage>** StaticGet__874___RPGClientRogueTournPersonaRoomCardPileMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaRoomCardPileMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C608);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffInBattleBindingType>** StaticGet__481___RPGGameCoreMazeBuffInBattleBindingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffInBattleBindingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C610);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumStaffData_StaffStatus>** StaticGet__259___RPGClientMuseumStaffDataStaffStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MuseumStaffData_StaffStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C618);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventTriggerType>** StaticGet__40___UnityEngineEventSystemsEventTriggerType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::EventSystems::EventTriggerType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C620);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightCommonDetailType>** StaticGet__827___RPGClientGridFightCommonDetailType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightCommonDetailType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C628);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridType>** StaticGet__288___RPGGameCoreTreasureDungeonGridType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C630);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_26>** StaticGet__296___ProtoMissionStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C638);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioListenerMode>** StaticGet__250___RPGClientAudioListenerMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioListenerMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C640);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingMoodState>** StaticGet__559___RPGGameCoreSwordTrainingMoodState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingMoodState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C648);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGApplication_UpdateStep>** StaticGet__280___RPGClientRPGApplicationUpdateStep_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGApplication_UpdateStep>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C650);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F_1>** StaticGet__1093___ProtoCmdMuseumType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759808C40FFEBD5F_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C658);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A483BC3F77616F6>** StaticGet__1038___ProtoCmdChenLingBattleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A483BC3F77616F6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C660);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_LoadingType>** StaticGet__257___RPGClientLoadingManagerLoadingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoadingManager_LoadingType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C668);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PunkLordMonsterRare>** StaticGet__184___RPGGameCorePunkLordMonsterRare_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PunkLordMonsterRare>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C670);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesEventSpineItemType>** StaticGet__673___RPGClientPlanetFesEventSpineItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesEventSpineItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C678);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamLimitType>** StaticGet__578___RPGGameCoreTeamLimitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamLimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C680);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStoryCategory>** StaticGet__587___RPGGameCoreRogueMagicStoryCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStoryCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C688);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateRoundType>** StaticGet__706___RPGGameCoreFateRoundType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateRoundType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C690);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillType>** StaticGet__65___RPGGameCoreSkillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C698);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGAnimationEvent_InvokeType>** StaticGet__365___RPGClientRPGAnimationEventInvokeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RPGAnimationEvent_InvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityMarble::MarblePVPMode>** StaticGet__625___RPGClientActivityMarbleMarblePVPMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityMarble::MarblePVPMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_19>** StaticGet__338___ProtoChessRogueBoardCellStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_19>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63BCB6C405BA8A1D>** StaticGet__1065___ProtoCmdFiveDimType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63BCB6C405BA8A1D>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamModule_TeleportState>** StaticGet__127___RPGClientTeamModuleTeleportState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamModule_TeleportState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlayerPropertyType>** StaticGet__778___RPGClientGridFightPlayerPropertyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlayerPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_3>** StaticGet__1061___ProtoCmdFightFestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_38>** StaticGet__393___ProtoMovieRacingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_38>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RecordType>** StaticGet__237___RPGGameCoreRecordType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RecordType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScreenMatchMode>** StaticGet__460___UnityEngineUICanvasScalerScreenMatchMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasScaler_ScreenMatchMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_InputType>** StaticGet__15___UnityEngineUIInputFieldInputType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_InputType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAetherDivideDataStatus>** StaticGet__292___RPGClientActivityAetherDivideDataStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityAetherDivideDataStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C6F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPRewardStatus>** StaticGet__174___RPGClientBPRewardStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPRewardStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C700);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeV2StarTargetFinishType>** StaticGet__730___RPGGameCoreMatchThreeV2StarTargetFinishType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeV2StarTargetFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C708);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShopGoodTag>** StaticGet__777___RPGGameCoreShopGoodTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ShopGoodTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C710);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillSlotState>** StaticGet__532___RPGGameCoreAdventureSkillSlotState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillSlotState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C718);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_9>** StaticGet__1147___ProtoCmdWaypointType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C720);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeRarityType>** StaticGet__520___RPGGameCoreMatchThreeRarityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C728);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSellType>** StaticGet__326___RPGGameCoreItemSellType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemSellType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C730);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityTargetType>** StaticGet__990___RPGGameCoreAbilityTargetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C738);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HudType>** StaticGet__301___RPGGameCoreHudType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HudType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C740);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_7>** StaticGet__1030___ProtoCmdBattlePassType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C748);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GotoType>** StaticGet__144___RPGGameCoreGotoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GotoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C750);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LogicStateType>** StaticGet__950___RPGClientLogicStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LogicStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C758);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenOutfitType>** StaticGet__759___RPGGameCoreHipplenOutfitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenOutfitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C760);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MaterialSubmissionType>** StaticGet__563___RPGGameCoreMaterialSubmissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MaterialSubmissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C768);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_42>** StaticGet__278___ProtoMuseumRandomEventState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_42>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C770);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_Layout>** StaticGet__896___RPGUINavigationUINavigationAreaLayout_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigationArea_Layout>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C778);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusPostType>** StaticGet__345___RPGGameCoreHeliobusPostType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HeliobusPostType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C780);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaRoomCardPile>** StaticGet__885___RPGClientRogueTournPersonaRoomCardPile_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaRoomCardPile>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C788);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventSenderType>** StaticGet__714___RPGGameCoreRestaurantSelectEventSenderType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantSelectEventSenderType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C790);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A84DFEC42C5C4A94>** StaticGet__161___ProtoFeatureSwitchType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A84DFEC42C5C4A94>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C798);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AnimZoneType>** StaticGet__112___RPGGameCoreAnimZoneType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AnimZoneType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesSkillBuffState>** StaticGet__630___RPGClientPlanetFesSkillBuffState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesSkillBuffState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingEffectType>** StaticGet__557___RPGGameCoreSwordTrainingEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoCurveRateSlider_ContentMoveDirection>** StaticGet__350___RPGClientMonoCurveRateSliderContentMoveDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoCurveRateSlider_ContentMoveDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_6>** StaticGet__1138___ProtoCmdTarotBookType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMemberType>** StaticGet__783___RPGClientGridFightGridMemberType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMemberType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_14>** StaticGet__1128___ProtoCmdShopType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildRewardBoxGearUpgradeEffect>** StaticGet__645___RPGGameCoreEvolveBuildRewardBoxGearUpgradeEffect_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildRewardBoxGearUpgradeEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::QuestFinishType>** StaticGet__426___RPGGameCoreQuestFinishType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::QuestFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTurntableRewardLevel>** StaticGet__410___RPGGameCoreRogueTurntableRewardLevel_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTurntableRewardLevel>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherRuleTag>** StaticGet__860___RPGGameCoreDiceCombatWeatherRuleTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatWeatherRuleTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason>** StaticGet__766___RPGClientCameraDataAndFlagsKeepOrthographicOnResetReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C7F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodSubType>** StaticGet__75___RPGGameCoreItemFoodSubType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C800);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraState>** StaticGet__197___RPGClientMonoExUICameraE_ExUICameraState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoExUICamera_E_ExUICameraState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C808);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftStatus>** StaticGet__654___RPGClientRechargeGiftStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C810);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyOptionType>** StaticGet__441___RPGGameCoreMonopolyOptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonopolyOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C818);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaMapTabRoomStatus>** StaticGet__903___RPGClientRogueTournPersonaMapTabRoomStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaMapTabRoomStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C820);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffRarityType>** StaticGet__704___RPGGameCoreFateBuffRarityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateBuffRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C828);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClientPunkLordShareType>** StaticGet__755___RPGClientClientPunkLordShareType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClientPunkLordShareType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C830);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodTargetType>** StaticGet__76___RPGGameCoreItemFoodTargetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemFoodTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C838);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_5>** StaticGet__1074___ProtoCmdJukeboxType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C840);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEntryType>** StaticGet__81___RPGGameCoreMapEntryType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEntryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C848);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenBubbleType>** StaticGet__758___RPGClientActivityHipplenActivityHipplenBubbleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenBubbleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C850);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimSurfaceConnectDirection>** StaticGet__861___RPGGameCoreFiveDimSurfaceConnectDirection_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimSurfaceConnectDirection>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C858);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectDisplayEnum>** StaticGet__444___RPGClientMonopolyEffectDisplayEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonopolyEffectDisplayEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C860);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAccelerateMode>** StaticGet__848___RPGClientLittleGameChimeraDuelChimeraDuelAccelerateMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAccelerateMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C868);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PamChatQuickFunctionType>** StaticGet__922___RPGClientPamChatQuickFunctionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PamChatQuickFunctionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C870);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelFeatureType>** StaticGet__999___RPGGameCoreLevelFeatureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelFeatureType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C878);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::OpponentRole>** StaticGet__667___RPGClientLittleGameMatch3OpponentRole_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::OpponentRole>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C880);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityCountRefreshType>** StaticGet__329___RPGGameCoreActivityCountRefreshType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityCountRefreshType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C888);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceHUDDisplayState>** StaticGet__853___RPGClientLittleGameCakeRaceCakeRaceHUDDisplayState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceHUDDisplayState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C890);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_3>** StaticGet__1019___ProtoCmdActiveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C898);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesBtnUnlockType>** StaticGet__657___RPGGameCorePlanetFesBtnUnlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesBtnUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoNativeEditBox_ReturnKeyType>** StaticGet__294___RPGClientMonoNativeEditBoxReturnKeyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoNativeEditBox_ReturnKeyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkCardRarity>** StaticGet__502___RPGClientClockParkCardRarity_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkCardRarity>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantNormalEventType>** StaticGet__662___RPGGameCoreRestaurantNormalEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantNormalEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionSubType>** StaticGet__617___RPGGameCoreMainMissionSubType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionSubType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ManaVideoPlayerPauseReason>** StaticGet__615___RPGClientManaVideoPlayerPauseReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ManaVideoPlayerPauseReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_37>** StaticGet__382___ProtoTrainVisitorStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_37>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildStageStatus>** StaticGet__474___RPGClientEvolveBuildStageStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::EvolveBuildStageStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightConsumeType>** StaticGet__698___RPGGameCoreGridFightConsumeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightConsumeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRewardState>** StaticGet__760___RPGClientChallengePeakRewardState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRewardState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherRarityType>** StaticGet__312___RPGGameCoreAetherRarityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasUpdate>** StaticGet__1153___UnityEngineUICanvasUpdate_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CanvasUpdate>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C8F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueType>** StaticGet__265___RPGGameCoreRogueDialogueType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueDialogueType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C900);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesDisplayType>** StaticGet__497___RPGGameCoreRollingSubtitlesDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RollingSubtitlesDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C908);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_1>** StaticGet__501___ProtoPlayingState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0F1B992870941C13_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C910);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFacilityType>** StaticGet__681___RPGGameCoreRestaurantFacilityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RestaurantFacilityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C918);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ListItemArrangeType>** StaticGet__935___SuperScrollViewListItemArrangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::SuperScrollView::ListItemArrangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C920);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlacementType>** StaticGet__708___RPGClientGridFightPlacementType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightPlacementType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C928);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarUI3DDisableIdleShowReason>** StaticGet__763___RPGClientAvatarUI3DDisableIdleShowReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarUI3DDisableIdleShowReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C930);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginPanelFunction>** StaticGet__321___RPGClientLoginPanelFunction_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginPanelFunction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C938);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BodySize>** StaticGet__140___RPGGameCoreBodySize_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BodySize>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C940);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGameRefData_RoleExpiredStatus>** StaticGet__921___RPGClientGridFightGameRefDataRoleExpiredStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGameRefData_RoleExpiredStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C948);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_36>** StaticGet__585___ProtoTrainPartyMtSkillBriefType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_36>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C950);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Class_2_28AE27DB9AA4E9DD_LuaDataInvokeType>** StaticGet__967___RPGClientLuaDataModuleLuaDataInvokeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Class_2_28AE27DB9AA4E9DD_LuaDataInvokeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C958);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::QueryTriggerInteraction>** StaticGet__721___UnityEngineQueryTriggerInteraction_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::QueryTriggerInteraction>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C960);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode>** StaticGet__550___RPGClientCameraDataAndFlagsTrackRoamingCameraRotationMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C968);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_45>** StaticGet__1096___ProtoCmdPamMissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_45>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C970);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Recommend::GoodRelicRecommendType>** StaticGet__653___RPGClientRecommendGoodRelicRecommendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Recommend::GoodRelicRecommendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C978);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GoodsRefreshType>** StaticGet__409___RPGGameCoreGoodsRefreshType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GoodsRefreshType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C980);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_SkillAllowUseCheckResult>** StaticGet__86___RPGGameCoreAdventureSkillCharacterComponentSkillAllowUseCheckResult_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureSkillCharacterComponent_SkillAllowUseCheckResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C988);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyRatio>** StaticGet__1010___RPGGameCoreAbilityPropertyRatio_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityPropertyRatio>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C990);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityGuessTheSilhouetteDataStatus>** StaticGet__287___RPGClientActivityGuessTheSilhouetteDataStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityGuessTheSilhouetteDataStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C998);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawCurorState>** StaticGet__370___RPGClientPropJigsawCurorState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawCurorState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ExpeditionStatus>** StaticGet__157___RPGGameCoreExpeditionStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ExpeditionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::PlanType>** StaticGet__613___RPGClientRelicSmartSuitPlanType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RelicSmartSuit::PlanType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_25>** StaticGet__1136___ProtoCmdPlayerSyncType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_44>** StaticGet__253___ProtoStatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_44>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionProgressType>** StaticGet__593___RPGGameCoreMissionProgressType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionProgressType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_3>** StaticGet__1060___ProtoCmdFightDiceCombatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaMapTabMessage>** StaticGet__887___RPGClientRogueTournPersonaMapTabMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaMapTabMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedAssetLogicType>** StaticGet__918___RPGClientCachedAssetLogicType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CachedAssetLogicType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleAssetPreload_RecorderState>** StaticGet__767___RPGClientBattleAssetPreloadRecorderState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleAssetPreload_RecorderState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PayProductResult>** StaticGet__137___RPGClientPayProductResult_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PayProductResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioSettings_SpeakerModeType>** StaticGet__392___RPGClientAudioSettingsSpeakerModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AudioSettings_SpeakerModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1C9F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_10>** StaticGet__1048___ProtoCmdElationActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_10>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarCommonRowWrap>** StaticGet__401___RPGGameCoreEAvatarCommonRowWrap_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarCommonRowWrap>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionWayPointType>** StaticGet__51___RPGGameCoreMissionWayPointType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionWayPointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyGridType>** StaticGet__541___RPGGameCoreTrainPartyGridType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyGridType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatAvatarInfoType>** StaticGet__958___RPGClientDiceCombatDiceCombatAvatarInfoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatAvatarInfoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_9>** StaticGet__1141___ProtoCmdTrackPhotoActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTargetRewardType>** StaticGet__275___RPGGameCoreMuseumTargetRewardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MuseumTargetRewardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolvePeriodType>** StaticGet__978___RPGGameCoreEvolvePeriodType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolvePeriodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_TwoFingerPickMethod>** StaticGet__49___HedgehogTeamEasyTouchEasyTouchTwoFingerPickMethod_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_TwoFingerPickMethod>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceType>** StaticGet__899___RPGGameCoreDiceCombatDiceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDiceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_29>** StaticGet__500___ProtoBattleRecordType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MiniMapIconOrientationType>** StaticGet__327___RPGGameCoreMiniMapIconOrientationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MiniMapIconOrientationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesReportType>** StaticGet__669___RPGClientPlanetFesReportType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PlanetFesReportType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaType>** StaticGet__138___RPGGameCoreGachaType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType>** StaticGet__722___RPGClientActivityHipplenActivityHipplenGameStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::ActivityHipplenGameStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_3>** StaticGet__1021___ProtoCmdActivityRewardStatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINPCWarningTipsContainer_WaypointStatus>** StaticGet__206___RPGClientUINPCWarningTipsContainerWaypointStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UINPCWarningTipsContainer_WaypointStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_22>** StaticGet__1097___ProtoCmdPamSkinType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_22>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_5>** StaticGet__1111___ProtoCmdRechargeGiftType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatGradeType>** StaticGet__738___RPGGameCoreHipplenStatGradeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenStatGradeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CA98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournCollectionExhibitionInteractingPropType>** StaticGet__805___RPGClientRogueTournCollectionExhibitionInteractingPropType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournCollectionExhibitionInteractingPropType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueRoomAttributeCategory>** StaticGet__925___RPGGameCoreRogueRoomAttributeCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueRoomAttributeCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarRowWrapperDeriveType>** StaticGet__631___RPGGameCoreAvatarRowWrapperDeriveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarRowWrapperDeriveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_TransfomrRefType>** StaticGet__1159___UnityEngineUICaculateNodeDataTransfomrRefType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::CaculateNodeData_TransfomrRefType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourCrossroadType>** StaticGet__944___RPGClientParkourCrossroadType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourCrossroadType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueGroupType>** StaticGet__150___RPGGameCoreDialogueGroupType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DialogueGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightSettleRankType>** StaticGet__806___RPGGameCoreGridFightSettleRankType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightSettleRankType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoScrollView_Dir>** StaticGet__33___RPGClientMonoScrollViewDir_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoScrollView_Dir>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_7>** StaticGet__1102___ProtoCmdPlanetFesExtType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightManager_GridFightCustomValue_ValueClassify>** StaticGet__765___RPGGameCoreGridFightManagerGridFightCustomValueValueClassify_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightManager_GridFightCustomValue_ValueClassify>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueClientAdventureRoomStatus>** StaticGet__358___RPGGameCoreRogueClientAdventureRoomStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueClientAdventureRoomStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_CharacterValidation>** StaticGet__16___UnityEngineUIInputFieldCharacterValidation_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::InputField_CharacterValidation>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CAF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_20>** StaticGet__1076___ProtoLimaoNewsOfficeSurveyState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_20>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::UI3DHipplenViewType>** StaticGet__787___RPGClientActivityHipplenUI3DHipplenViewType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityHipplen::UI3DHipplenViewType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51CA64C3FB637832>** StaticGet__1039___ProtoCmdChessRogueType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_51CA64C3FB637832>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterBodySize>** StaticGet__971___RPGGameCoreMonsterBodySize_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MonsterBodySize>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTalkColorType>** StaticGet__261___RPGGameCoreRogueTalkColorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTalkColorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamDataRefreshMask>** StaticGet__160___RPGClientTeamDataRefreshMask_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TeamDataRefreshMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackDamageType>** StaticGet__34___RPGGameCoreAttackDamageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginNodeType>** StaticGet__271___RPGClientLoginNodeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LoginNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLittleGameLoadType>** StaticGet__1006___RPGGameCoreLevelLittleGameLoadType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelLittleGameLoadType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkAttributeType>** StaticGet__465___RPGClientClockParkAttributeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ClockParkAttributeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A453BC3F773E0DF>** StaticGet__1122___ProtoCmdRogueMagicType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4A453BC3F773E0DF>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolderOption>** StaticGet__79___SystemEnvironmentSpecialFolderOption_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolderOption>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::Match3GameState>** StaticGet__492___RPGClientLittleGameMatch3Match3GameState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::Match3::Match3GameState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::VideoCaptionPosition>** StaticGet__415___RPGGameCoreVideoCaptionPosition_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::VideoCaptionPosition>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetState>** StaticGet__90___RPGGameCoreEMazeLockTargetState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EMazeLockTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ACC4DC40096A745>** StaticGet__1120___ProtoCmdRogueCommon_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ACC4DC40096A745>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetConfigType>** StaticGet__408___RPGGameCoreBattleTargetConfigType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetConfigType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCardTipsTypeEnum>** StaticGet__482___RPGGameCoreClockParkCardTipsTypeEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkCardTipsTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengeTargetState>** StaticGet__102___RPGClientChallengeTargetState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengeTargetState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookSeries_CollectStateEnum>** StaticGet__69___RPGClientBookSeriesCollectStateEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookSeries_CollectStateEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CB98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreFinishType>** StaticGet__731___RPGGameCoreMatchThreeScoreFinishType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MatchThreeScoreFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIController_TransitionStyle>** StaticGet__165___RPGClientUIControllerTransitionStyle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIController_TransitionStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphOperationType>** StaticGet__973___RPGGameCoreLevelGraphOperationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphOperationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameFlowType>** StaticGet__747___RPGGameCoreGameFlowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GameFlowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ArchiveType>** StaticGet__222___RPGClientArchiveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ArchiveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingTableSceneType>** StaticGet__858___RPGClientChenLingTableSceneType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingTableSceneType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_FillMethod>** StaticGet__7___UnityEngineUIImageFillMethod_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_FillMethod>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhainonPowerNodeState>** StaticGet__741___RPGClientPhainonPowerNodeState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhainonPowerNodeState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UISymbolFilterSource>** StaticGet__843___RPGClientUISymbolFilterSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UISymbolFilterSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochurePasterType>** StaticGet__387___RPGGameCoreTravelBrochurePasterType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TravelBrochurePasterType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindState>** StaticGet__581___RPGGameCoreTimeRewindState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TimeRewindState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackType>** StaticGet__64___RPGGameCoreAttackType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AttackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CBF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleComponent_ShadowVisibleSource>** StaticGet__674___RPGGameCoreCharacterVisibleComponentShadowVisibleSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleComponent_ShadowVisibleSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_7>** StaticGet__1119___ProtoCmdRogueArcadeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingStoryType>** StaticGet__507___RPGGameCoreSwordTrainingStoryType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SwordTrainingStoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazePuzzleMovieGameMode>** StaticGet__448___RPGGameCoreMazePuzzleMovieGameMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazePuzzleMovieGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightForgeAwardType>** StaticGet__756___RPGClientGridFightForgeAwardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightForgeAwardType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_27>** StaticGet__1117___ProtoCmdRndOptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_27>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUI3DTouch_MouseWheelType>** StaticGet__220___RPGClientMonoUI3DTouchMouseWheelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoUI3DTouch_MouseWheelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherDivideChallengeType>** StaticGet__311___RPGGameCoreAetherDivideChallengeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherDivideChallengeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightSeason>** StaticGet__981___RPGGameCoreStarFightSeason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StarFightSeason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_8>** StaticGet__1121___ProtoCmdRogueEndlessType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamTransitionType>** StaticGet__920___RPGToolsTimelinePerformanceLiveStreamTransitionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPGTools::Timeline::PerformanceLiveStreamTransitionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_Type>** StaticGet__54___UnityEngineUISmoothMaskType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_Type>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_StereoscopicEye>** StaticGet__43___UnityEngineCameraStereoscopicEye_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Camera_StereoscopicEye>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_8>** StaticGet__1053___ProtoCmdFantasticStoryActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_RoamingStyle>** StaticGet__169___RPGClientCameraDataAndFlagsRoamingStyle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_RoamingStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicMountType>** StaticGet__556___RPGGameCoreRogueMagicMountType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicMountType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitSourceMask>** StaticGet__865___RPGGameCoreGridFightTraitSourceMask_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitSourceMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConvinceTrickSkillType>** StaticGet__526___RPGGameCoreConvinceTrickSkillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ConvinceTrickSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarRankControl_ShowAvatarType>** StaticGet__191___RPGClientAvatarRankControlShowAvatarType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AvatarRankControl_ShowAvatarType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_414012C3F23E0EDD>** StaticGet__1118___ProtoCmdRogueType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_414012C3F23E0EDD>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CC98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_2>** StaticGet__290___ProtoTreasureDungeonRecordType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D15F1C413E7C92C_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_415112C3F24C8228>** StaticGet__1066___ProtoCmdFriendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_415112C3F24C8228>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WheelItemType>** StaticGet__176___RPGGameCoreWheelItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::WheelItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeBossDisplayPattern>** StaticGet__525___RPGGameCoreChallengeBossDisplayPattern_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeBossDisplayPattern>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooChannelType>** StaticGet__394___RPGGameCoreSpaceZooChannelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SpaceZooChannelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType>** StaticGet__423___RPGClientPropPinballPageProxyPinballPageFloatBtnType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Proto::ItemCost_ItemOneofCase>** StaticGet__62___ProtoItemCostItemOneofCase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Proto::ItemCost_ItemOneofCase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StageType>** StaticGet__85___RPGGameCoreStageType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StageType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_1>** StaticGet__1134___ProtoCmdSwitchHandType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventoryType>** StaticGet__128___RPGGameCoreInventoryType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::InventoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType>** StaticGet__914___RPGClientDiceCombatDiceCombatCollectionPageParamTabType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatCollectionPageParam_TabType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Constraint>** StaticGet__71___UnityEngineUIGridLayoutGroupConstraint_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Constraint>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CCF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIButtonSoundType>** StaticGet__113___RPGClientUIButtonSoundType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIButtonSoundType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__153___RPGGameCoreModifierBehaviorFlag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DisPlaySelectServerStatus>** StaticGet__189___RPGClientDisPlaySelectServerStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DisPlaySelectServerStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIProfiler_SampleType>** StaticGet__249___RPGClientUIProfilerSampleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIProfiler_SampleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueFormulaCategory>** StaticGet__477___RPGGameCoreRogueFormulaCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueFormulaCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AssetLoadPriority>** StaticGet__2___RPGClientAssetLoadPriority_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AssetLoadPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleConnectionPointType>** StaticGet__422___RPGGameCoreChronicleConnectionPointType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleConnectionPointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_14>** StaticGet__472___ProtoFeverTimeBattleRank_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_14>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStepResultType>** StaticGet__551___RPGGameCoreTrainPartyStepResultType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStepResultType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Axis>** StaticGet__4___UnityEngineRectTransformAxis_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RectTransform_Axis>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_11>** StaticGet__1056___ProtoCmdFeverTimeActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_11>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUIMode>** StaticGet__269___RPGClientPhotoGraphUIMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PhotoGraphUIMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LittleWheelType>** StaticGet__449___RPGGameCoreLittleWheelType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LittleWheelType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CumulativeConsumptionType>** StaticGet__670___RPGGameCoreCumulativeConsumptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CumulativeConsumptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::TouchFilter_FilterState>** StaticGet__1157___UnityEngineUITouchFilterFilterState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::TouchFilter_FilterState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemCostState>** StaticGet__646___RPGClientItemCostState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemCostState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraGameModeType>** StaticGet__488___RPGClientChimeraGameModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemType>** StaticGet__849___RPGGameCoreChimeraDuelItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_2>** StaticGet__1104___ProtoCmdPlayerBoardType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D176C405CC7947_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_80>** StaticGet__745___ProtoTutorialFinishType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_80>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CD98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamTypeMask>** StaticGet__203___RPGGameCoreTeamTypeMask_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TeamTypeMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_30>** StaticGet__1133___ProtoCmdSummonActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_30>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationType>** StaticGet__773___RPGClientLineupRecommendationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIMeta_UIBlurMode>** StaticGet__135___RPGClientUIMetaUIBlurMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIMeta_UIBlurMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRank>** StaticGet__752___RPGClientChallengePeakRank_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIEventType>** StaticGet__248___RPGGameCoreUIEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::UIEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::StringComparison>** StaticGet__167___SystemStringComparison_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::StringComparison>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceTalkingSide>** StaticGet__621___RPGClientTalkConvinceTalkingSide_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TalkConvinceTalkingSide>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_6>** StaticGet__341___ProtoChessRogueCellSpecialType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_96F6662CA3713095_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillSPProgressType>** StaticGet__379___RPGGameCoreSkillSPProgressType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillSPProgressType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MovieGameMode>** StaticGet__390___RPGClientLittleGameMovieGameMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MovieGameMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_1>** StaticGet__1037___ProtoCmdChatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CDF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ELevelPerformanceType>** StaticGet__166___RPGGameCoreELevelPerformanceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ELevelPerformanceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueBoardAnimationType>** StaticGet__412___RPGGameCoreChessRogueBoardAnimationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChessRogueBoardAnimationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelBubbleEventType>** StaticGet__801___RPGGameCoreChimeraDuelBubbleEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChimeraDuelBubbleEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_5>** StaticGet__1071___ProtoCmdHipplenType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674_5>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestCoachType>** StaticGet__538___RPGGameCoreFightFestCoachType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FightFestCoachType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreeAnchorType>** StaticGet__785___RPGGameCoreAvatarSkillTreeAnchorType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreeAnchorType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourRankType>** StaticGet__699___RPGClientParkourRankType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ParkourRankType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkinType>** StaticGet__819___RPGGameCoreAvatarSkinType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkinType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierEffectType>** StaticGet__343___RPGGameCoreModifierEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriority>** StaticGet__452___RPGGameCorePPEffectFilterPriority_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PPEffectFilterPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyGroup>** StaticGet__0___RPGClientNotifyGroup_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyGroup>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_FieldEffectBudgetStrategy>** StaticGet__838___RPGClientMonoEffectManagerFieldEffectBudgetStrategy_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_FieldEffectBudgetStrategy>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LockSource>** StaticGet__355___RPGClientLockSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LockSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftRewardStatus>** StaticGet__655___RPGClientRechargeGiftRewardStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RechargeGiftRewardStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_12>** StaticGet__1095___ProtoCmdOfferingType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_12>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_7>** StaticGet__1145___ProtoCmdTreasureDungeonType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_7>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageStateType>** StaticGet__211___RPGGameCoreMessageStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MessageStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityStateEnum>** StaticGet__354___RPGClientActivityStateEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityStateEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrackPhotoCanType>** StaticGet__535___RPGGameCoreTrackPhotoCanType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrackPhotoCanType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnJourneyItemType>** StaticGet__428___RPGGameCorePlayerReturnJourneyItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnJourneyItemType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CE98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_6>** StaticGet__1098___ProtoCmdParkourType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_A35B38E5F9115A76_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_4>** StaticGet__1046___ProtoCmdDiceCombatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63D476C405CEAF7E_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractType>** StaticGet__723___RPGGameCoreHipplenInteractType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HipplenInteractType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerQuantifyTagType>** StaticGet__440___RPGGameCoreDrinkMakerQuantifyTagType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DrinkMakerQuantifyTagType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCurseChestType>** StaticGet__697___RPGGameCoreRogueTournCurseChestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournCurseChestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason>** StaticGet__749___RPGClientCameraDataAndFlagsDisableFreelook3rdCameraInputAxisReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_Mode>** StaticGet__688___RPGClientHPBarMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_Mode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CED0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigation_Rule>** StaticGet__962___RPGUINavigationUINavigationRule_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::UINavigation::UINavigation_Rule>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CED8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLevelUnlockType>** StaticGet__647___RPGGameCorePlanetFesLevelUnlockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesLevelUnlockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::StageState>** StaticGet__866___RPGClientStageState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::StageState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_25>** StaticGet__468___ProtoClockParkPlayStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeDarkInitData_TabType>** StaticGet__883___RPGClientBattleViewModeDarkInitDataTabType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeDarkInitData_TabType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CEF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridEffectType>** StaticGet__825___RPGClientGridFightGridEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF00);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HPBarType>** StaticGet__445___RPGGameCoreHPBarType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::HPBarType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF08);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkBlackMaskColor>** StaticGet__691___RPGGameCoreSimpleTalkBlackMaskColor_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SimpleTalkBlackMaskColor>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF10);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffDisplayType>** StaticGet__775___RPGGameCoreMazeBuffDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF18);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EraStateType>** StaticGet__577___RPGGameCoreEraStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EraStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF20);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_34>** StaticGet__1063___ProtoFightMarbleHpChangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_34>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF28);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookContentData_BookContentType>** StaticGet__66___RPGClientBookContentDataBookContentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BookContentData_BookContentType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF30);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ServantBodySize>** StaticGet__599___RPGGameCoreServantBodySize_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ServantBodySize>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF38);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityLocalLegendDifficulty>** StaticGet__812___RPGGameCoreActivityLocalLegendDifficulty_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityLocalLegendDifficulty>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF40);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Proto::RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase>** StaticGet__570___ProtoRogueAdventureRoomGameplayWolfGunTargetTargetImplOneofCase_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Proto::RogueAdventureRoomGameplayWolfGunTarget_TargetImplOneofCase>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF48);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointType>** StaticGet__817___RPGGameCoreAvatarSkillTreePointType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSkillTreePointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF50);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnRecommendType>** StaticGet__527___RPGGameCorePlayerReturnRecommendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlayerReturnRecommendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF58);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusType>** StaticGet__244___RPGGameCoreEnumStatusType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF60);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStyleType>** StaticGet__589___RPGGameCoreRogueMagicStyleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicStyleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF68);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooEXPChangeType>** StaticGet__416___RPGClientSpaceZooEXPChangeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SpaceZooEXPChangeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF70);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultipleDropTypeConfig>** StaticGet__300___RPGGameCoreMultipleDropTypeConfig_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MultipleDropTypeConfig>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF78);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaLegendRowType>** StaticGet__956___RPGClientRogueTournPersonaLegendRowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournPersonaLegendRowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF80);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousDifficultyType>** StaticGet__406___RPGGameCoreRogueNousDifficultyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueNousDifficultyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF88);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityBehavior>** StaticGet__1009___RPGGameCoreAbilityBehavior_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AbilityBehavior>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF90);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemUseMethod>** StaticGet__368___RPGGameCoreItemUseMethod_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ItemUseMethod>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CF98);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupLoadStatus>** StaticGet__455___RPGClientRuntimeGroupManagerGroupLoadStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RuntimeGroupManager_GroupLoadStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFA0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ForceKillShowType>** StaticGet__712___RPGGameCoreForceKillShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ForceKillShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFA8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MainCameraDisableReason>** StaticGet__568___RPGClientMainCameraDisableReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MainCameraDisableReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFB0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopRefreshType>** StaticGet__779___RPGClientGridFightShopRefreshType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopRefreshType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFB8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RuntimePlatform>** StaticGet__1162___UnityEngineRuntimePlatform_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::RuntimePlatform>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFC0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanType>** StaticGet__620___RPGGameCoreRogueTitanType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTitanType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFC8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_HideFieldEffectReason>** StaticGet__427___RPGClientMonoEffectManagerHideFieldEffectReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonoEffectManager_HideFieldEffectReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFD0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_LockFovReason>** StaticGet__576___RPGClientCameraDataAndFlagsLockFovReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_LockFovReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFD8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChronicleStatus>** StaticGet__421___RPGClientChronicleStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChronicleStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFE0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageBoxDialogContext_MessageBoxMode>** StaticGet__25___RPGClientMessageBoxDialogContextMessageBoxMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageBoxDialogContext_MessageBoxMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFE8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_26>** StaticGet__892___ProtoTutorialGuideType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_26>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFF0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoxingClubActivityType>** StaticGet__373___RPGGameCoreBoxingClubActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BoxingClubActivityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1CFF8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateGameMasterTalkUIType>** StaticGet__701___RPGClientFateGameMasterTalkUIType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateGameMasterTalkUIType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D000);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicUnitCategory>** StaticGet__555___RPGGameCoreRogueMagicUnitCategory_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicUnitCategory>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D008);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::DateTimeStyles>** StaticGet__29___SystemGlobalizationDateTimeStyles_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::Globalization::DateTimeStyles>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D010);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightModifierEffectType>** StaticGet__836___RPGClientGridFightModifierEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightModifierEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D018);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarSkillCommonRowWrap>** StaticGet__361___RPGGameCoreEAvatarSkillCommonRowWrap_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EAvatarSkillCommonRowWrap>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D020);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGachaType>** StaticGet__623___RPGGameCorePlanetFesGachaType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesGachaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D028);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_18>** StaticGet__1139___ProtoCmdTelevisionActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_18>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D030);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialGuideShowType>** StaticGet__143___RPGGameCoreTutorialGuideShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TutorialGuideShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D038);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_17>** StaticGet__1127___ProtoCmdServerPrefsType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_17>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D040);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PullRefreshControl_DragLoadState>** StaticGet__80___RPGClientPullRefreshControlDragLoadState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::PullRefreshControl_DragLoadState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D048);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OpenURLWebViewType>** StaticGet__490___RPGGameCoreOpenURLWebViewType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::OpenURLWebViewType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D050);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationReportActionType>** StaticGet__772___RPGClientLineupRecommendationReportActionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LineupRecommendationReportActionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D058);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NoteInputResult>** StaticGet__521___RPGClientNoteInputResult_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NoteInputResult>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D060);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkBuffType>** StaticGet__504___RPGGameCoreClockParkBuffType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ClockParkBuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D068);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TreasureChallengeTargetStatus>** StaticGet__224___RPGClientTreasureChallengeTargetStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TreasureChallengeTargetStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D070);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesEventType>** StaticGet__624___RPGGameCorePlanetFesEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D078);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504>** StaticGet__1025___ProtoCmdAlleyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_75A1C8C41006A504>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D080);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceParticipantData_CakeRaceParticipantType>** StaticGet__788___RPGClientCakeRaceParticipantDataCakeRaceParticipantType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRaceParticipantData_CakeRaceParticipantType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D088);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateCoinIncomeType>** StaticGet__705___RPGGameCoreFateCoinIncomeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FateCoinIncomeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D090);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_ColorMode>** StaticGet__689___RPGClientHPBarColorMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::HPBar_ColorMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D098);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MapEntityType>** StaticGet__603___RPGClientMapEntityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MapEntityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimTransitionStatus>** StaticGet__901___RPGClientFiveDimTransitionStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FiveDimTransitionStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerAvatarRarityType>** StaticGet__120___RPGGameCoreCombatPowerAvatarRarityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerAvatarRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674>** StaticGet__505___ProtoDevelopmentType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63C076C405BE0674>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleScoringDisplayType>** StaticGet__155___RPGGameCoreBattleScoringDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleScoringDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonsterAvatarSkillSlotStatus>** StaticGet__284___RPGClientMonsterAvatarSkillSlotStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MonsterAvatarSkillSlotStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopGoodType>** StaticGet__842___RPGClientGridFightShopGoodType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightShopGoodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidLimitType>** StaticGet__263___RPGGameCoreRaidLimitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RaidLimitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionReplayModule_DownloadState>** StaticGet__789___RPGClientMissionReplayModuleDownloadState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MissionReplayModule_DownloadState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_19>** StaticGet__1140___ProtoCmdTextJoinType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_19>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_6>** StaticGet__388___ProtoChessRogueDiceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_ED790DAC948A65A9_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ComposeItemFailedType>** StaticGet__136___RPGClientComposeItemFailedType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ComposeItemFailedType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D0F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubMissionState>** StaticGet__101___RPGGameCoreSubMissionState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SubMissionState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D100);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_25>** StaticGet__1112___ProtoCmdRecommendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_25>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D108);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PersonalizeShowType>** StaticGet__347___RPGGameCorePersonalizeShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PersonalizeShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D110);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightFlyType>** StaticGet__845___RPGClientGridFightFlyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightFlyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D118);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainingSettleReason>** StaticGet__517___RPGClientSwordTrainingSettleReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::SwordTrainingSettleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D120);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEffect>** StaticGet__309___RPGGameCoreMapEffect_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MapEffect>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D128);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPQuestType>** StaticGet__177___RPGClientBPQuestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BPQuestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D130);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCUseAnimationType>** StaticGet__997___RPGGameCoreLevelNPCUseAnimationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNPCUseAnimationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D138);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScoreRaceType>** StaticGet__567___RPGGameCoreScoreRaceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScoreRaceType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D140);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_8>** StaticGet__1045___ProtoCmdDailyActiveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D148);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ProductPlatformType>** StaticGet__917___RPGClientItemDataProductPlatformType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ItemData_ProductPlatformType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D150);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicScepterFuncType>** StaticGet__590___RPGGameCoreRogueMagicScepterFuncType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueMagicScepterFuncType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D158);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportEditMode>** StaticGet__281___RPGClientAlleyTransportEditMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportEditMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D160);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TarotBookConditionType>** StaticGet__616___RPGGameCoreTarotBookConditionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TarotBookConditionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D168);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376>** StaticGet__1020___ProtoCmdActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_759B08C41000F376>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D170);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::AkCallbackType>** StaticGet__238___AkCallbackType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::AkCallbackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D178);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipEffectType>** StaticGet__919___RPGClientGridFightEquipEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D180);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindTargetType>** StaticGet__652___RPGClientTimeRewindTargetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D188);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimFluteEffectType>** StaticGet__906___RPGGameCoreFiveDimFluteEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimFluteEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D190);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_NavigationControlType>** StaticGet__266___InControlInControlInputModuleNavigationControlType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_NavigationControlType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D198);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfFarmCellData_ElfCellUpdateReason>** StaticGet__966___RPGClientElfFarmCellDataElfCellUpdateReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ElfFarmCellData_ElfCellUpdateReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGambleMode>** StaticGet__566___RPGClientRogueGambleMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGambleMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityType>** StaticGet__89___RPGGameCoreEntityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMoveValidateResultType>** StaticGet__841___RPGClientGridFightGridMoveValidateResultType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightGridMoveValidateResultType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingBattle::ChenLingBattleMessage>** StaticGet__875___RPGClientChenLingBattleChenLingBattleMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChenLingBattle::ChenLingBattleMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_Button>** StaticGet__119___InControlInControlInputModuleButton_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InControlInputModule_Button>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityRank>** StaticGet__293___RPGGameCoreActivityRank_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityRank>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LevelDirector_CaptureUsage>** StaticGet__282___RPGClientLevelDirectorCaptureUsage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LevelDirector_CaptureUsage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleHudType>** StaticGet__399___RPGGameCorePuzzleHudType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PuzzleHudType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffPoolType>** StaticGet__986___RPGGameCoreMazeBuffPoolType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MazeBuffPoolType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BoxingClubResonanceUIStageEnum>** StaticGet__374___RPGClientBoxingClubResonanceUIStageEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BoxingClubResonanceUIStageEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureCharacterVOType>** StaticGet__369___RPGGameCoreAdventureCharacterVOType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AdventureCharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D1F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridEffectType>** StaticGet__340___RPGGameCoreTreasureDungeonGridEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TreasureDungeonGridEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D200);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChenLing::CirticalTrackType>** StaticGet__895___RPGClientLittleGameChenLingCirticalTrackType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::ChenLing::CirticalTrackType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D208);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoIdentifyState>** StaticGet__542___RPGClientTrackPhotoIdentifyState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TrackPhotoIdentifyState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D210);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin360>** StaticGet__12___UnityEngineUIImageOrigin360_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::Image_Origin360>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D218);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleLineType>** StaticGet__435___RPGGameCoreChronicleLineType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChronicleLineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D220);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MinimapAreaType>** StaticGet__417___RPGGameCoreMinimapAreaType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MinimapAreaType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D228);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferReason>** StaticGet__286___RPGGameCoreScreenTransferReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ScreenTransferReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D230);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ToastPauseSource>** StaticGet__711___RPGClientToastPauseSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ToastPauseSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D238);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridTypeEnum>** StaticGet__307___RPGGameCoreGridTypeEnum_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridTypeEnum>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D240);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StanceMode>** StaticGet__579___RPGGameCoreStanceMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StanceMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D248);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_29>** StaticGet__299___ProtoRogueRoomStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_29>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D250);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingEffectType>** StaticGet__927___RPGGameCoreChenLingEffectType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D258);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_8>** StaticGet__182___ProtoPunkLordShareType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D260);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_3>** StaticGet__1080___ProtoCmdMailType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_01618AD0437C8486_3>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D268);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelGameModeType>** StaticGet__876___RPGGameCoreFourRotateVoxelGameModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FourRotateVoxelGameModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D270);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D0231C413D78CFA_1>** StaticGet__1035___ProtoCmdChallengeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7D0231C413D78CFA_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D278);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeStoryType>** StaticGet__588___RPGGameCoreChallengeStoryType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChallengeStoryType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D280);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawItemState>** StaticGet__367___RPGClientPropJigsawItemState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::JigsawItemState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D288);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightNodeType>** StaticGet__709___RPGGameCoreGridFightNodeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightNodeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D290);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_4>** StaticGet__1062___ProtoCmdFightMarbleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_4>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D298);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AetherMonsterAvatarDisplayDataStatus>** StaticGet__283___RPGClientAetherMonsterAvatarDisplayDataStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AetherMonsterAvatarDisplayDataStatus>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournMode>** StaticGet__618___RPGGameCoreRogueTournMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::RogueTournMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeLightInitData_TabType>** StaticGet__881___RPGClientBattleViewModeLightInitDataTabType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleViewModeLightInitData_TabType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_EvtType>** StaticGet__50___HedgehogTeamEasyTouchEasyTouchEvtType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::HedgehogTeam::EasyTouch::EasyTouch_EvtType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType>** StaticGet__873___RPGClientChimeraDuelBattlePageViewModelGameViewModelExitModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::CombatPerformanceEventType>** StaticGet__818___RPGLittleGameShareDiceCombatCoreCombatPerformanceEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::LittleGameShare::DiceCombatCore::CombatPerformanceEventType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ShareSource>** StaticGet__429___RPGClientShareSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ShareSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNpcLookAtTargetType>** StaticGet__1007___RPGGameCoreLevelNpcLookAtTargetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelNpcLookAtTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionUIGotoType>** StaticGet__439___RPGGameCoreMissionUIGotoType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MissionUIGotoType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageHintState>** StaticGet__430___RPGClientPropPinballPageProxyPinballPageHintState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::PinballPageProxy_PinballPageHintState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoanPrepareType>** StaticGet__960___RPGClientCakeRaceCakeRaceLoanPrepareType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoanPrepareType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillTargetType>** StaticGet__88___RPGGameCoreSkillTargetType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::SkillTargetType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D2F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleReason>** StaticGet__371___RPGGameCoreCharacterVisibleReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CharacterVisibleReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D300);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageSituationType>** StaticGet__193___RPGClientMessageSituationType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MessageSituationType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D308);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AccountLoginMode>** StaticGet__21___RPGClientAccountLoginMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AccountLoginMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D310);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Platform>** StaticGet__194___RPGClientPlatform_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Platform>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D318);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateHouguSelectBgType>** StaticGet__720___RPGClientFateHouguSelectBgType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::FateHouguSelectBgType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D320);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ETravelShipState>** StaticGet__743___RPGClientETravelShipState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ETravelShipState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D328);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyType>** StaticGet__1___RPGClientNotifyType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NotifyType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D330);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameSessionState>** StaticGet__833___RPGClientChimeraDuelGameSessionState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraDuelGameSessionState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D338);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherPassiveSkillType>** StaticGet__313___RPGGameCoreAetherPassiveSkillType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AetherPassiveSkillType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D340);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildSeason>** StaticGet__641___RPGGameCoreEvolveBuildSeason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EvolveBuildSeason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D348);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDirectDamageStyle>** StaticGet__886___RPGGameCoreDiceCombatDirectDamageStyle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::DiceCombatDirectDamageStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D350);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTrailLayerQuality>** StaticGet__727___RPGGameCoreGridFightTrailLayerQuality_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTrailLayerQuality>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D358);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelHoyoTagOverrideMode>** StaticGet__1004___RPGGameCoreLevelHoyoTagOverrideMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelHoyoTagOverrideMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D360);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetIconType>** StaticGet__450___RPGGameCoreBattleTargetIconType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BattleTargetIconType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D368);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimBtnType>** StaticGet__924___RPGGameCoreFiveDimBtnType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimBtnType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D370);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Axis>** StaticGet__73___UnityEngineUIGridLayoutGroupAxis_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::GridLayoutGroup_Axis>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D378);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FeverTimePeriodType>** StaticGet__471___RPGGameCoreFeverTimePeriodType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FeverTimePeriodType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D380);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportRouteState>** StaticGet__320___RPGClientAlleyTransportRouteState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AlleyTransportRouteState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D388);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_49>** StaticGet__216___ProtoRogueAreaStatus_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_49>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D390);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_8>** StaticGet__1026___ProtoCmdArchiveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_4608E37A1B3D374A_8>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D398);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEffectLockType>** StaticGet__811___RPGClientGridFightEffectLockType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEffectLockType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MappingInfoShowType>** StaticGet__232___RPGClientMappingInfoShowType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MappingInfoShowType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_13>** StaticGet__276___ProtoAlleyEventState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DB663931210BBC27_13>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStatType>** StaticGet__558___RPGGameCoreTrainPartyStatType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TrainPartyStatType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceGameplayBubbleType>** StaticGet__855___RPGClientLittleGameCakeRaceCakeRaceGameplayBubbleType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::CakeRace::CakeRaceGameplayBubbleType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakGameFlowMessage>** StaticGet__748___RPGClientChallengePeakGameFlowMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChallengePeakGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyShipType>** StaticGet__306___RPGGameCoreAlleyShipType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AlleyShipType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelRegionConnectivityType>** StaticGet__1008___RPGGameCoreLevelRegionConnectivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelRegionConnectivityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Timeline::TimelineAsset_DurationMode>** StaticGet__1152___UnityEngineTimelineTimelineAssetDurationMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::Timeline::TimelineAsset_DurationMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_2>** StaticGet__1137___ProtoCmdTalkEventType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_63CDB6C405C8FD68_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>** StaticGet__786___RPGClientPropChimeraDuelMainPuzzleStateType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0>** StaticGet__200___ProtoProductGiftType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_7CED31C413C530F0>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D3F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BeginHintType>** StaticGet__105___RPGGameCoreBeginHintType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BeginHintType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D400);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerRelicRarityType>** StaticGet__122___RPGGameCoreCombatPowerRelicRarityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::CombatPowerRelicRarityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D408);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_2>** StaticGet__1069___ProtoCmdHeartdialType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_237A657B7EBA40A4_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D410);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffType>** StaticGet__258___RPGGameCoreStuffType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::StuffType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D418);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityPanelFinishType>** StaticGet__733___RPGGameCoreActivityPanelFinishType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ActivityPanelFinishType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D420);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MaterialSubmitterState>** StaticGet__565___RPGClientMaterialSubmitterState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::MaterialSubmitterState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D428);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BackGroundMusicGroupType>** StaticGet__898___RPGGameCoreBackGroundMusicGroupType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::BackGroundMusicGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D430);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierState>** StaticGet__52___RPGGameCoreModifierState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ModifierState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D438);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_ScrollbarVisibility>** StaticGet__68___UnityEngineUIScrollRectScrollbarVisibility_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::ScrollRect_ScrollbarVisibility>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D440);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AdventureWaypointType>** StaticGet__162___RPGClientAdventureWaypointType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::AdventureWaypointType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D448);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleRecordDisplayType>** StaticGet__529___RPGClientBattleRecordDisplayType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::BattleRecordDisplayType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D450);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_1>** StaticGet__1022___ProtoCmdAdventureType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_DFCB42601400F441_1>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D458);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_6>** StaticGet__1032___ProtoCmdBenefitV2ActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_71AA90D596A09AC8_6>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D460);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSpecialUltraType>** StaticGet__463___RPGGameCoreAvatarSpecialUltraType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarSpecialUltraType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D468);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingStageWaveType>** StaticGet__871___RPGGameCoreChenLingStageWaveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::ChenLingStageWaveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D470);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CompetitiveGamePlaySystemPriority>** StaticGet__586___RPGClientCompetitiveGamePlaySystemPriority_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CompetitiveGamePlaySystemPriority>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D478);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GunPlayModeType>** StaticGet__491___RPGGameCoreGunPlayModeType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GunPlayModeType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D480);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropState>** StaticGet__83___RPGGameCorePropState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PropState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D488);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_2>** StaticGet__1059___ProtoCmdFightCakeRaceType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_84F790F6B4BFF34E_2>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D490);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceStyle>** StaticGet__235___InControlInputDeviceStyle_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::InControl::InputDeviceStyle>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D498);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_56>** StaticGet__1106___ProtoCmdPlotType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_0A3761FE34514D6C_56>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusTag>** StaticGet__562___RPGGameCoreEnumStatusTag_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EnumStatusTag>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaGroupType>** StaticGet__719___RPGGameCoreGachaGroupType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GachaGroupType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4B0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantShowCaseType>** StaticGet__718___RPGGameCoreAssistantShowCaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AssistantShowCaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4B8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_9>** StaticGet__1052___ProtoCmdExpeditionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_F80BFD5B986D5503_9>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4C0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesQuestType>** StaticGet__628___RPGGameCorePlanetFesQuestType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PlanetFesQuestType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4C8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitType>** StaticGet__754___RPGGameCoreGridFightTraitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::GridFightTraitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4D0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseFreelookCinemachineUpdateReason>** StaticGet__569___RPGClientCameraDataAndFlagsPauseFreelookCinemachineUpdateReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CameraDataAndFlags_PauseFreelookCinemachineUpdateReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4D8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingOptionType>** StaticGet__1015___RPGGameCorePhotoGraphSettingOptionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::PhotoGraphSettingOptionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4E0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphState>** StaticGet__940___RPGGameCoreLevelGraphState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelGraphState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4E8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatGameFlowMessage>** StaticGet__824___RPGClientDiceCombatDiceCombatGameFlowMessage_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::DiceCombat::DiceCombatGameFlowMessage>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4F0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::WaypointIdentifierType>** StaticGet__953___RPGClientWaypointIdentifierType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::WaypointIdentifierType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D4F8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MatchThreeTimelineBattleField_MatchThreeTimelineType>** StaticGet__524___RPGClientLittleGameMatchThreeTimelineBattleFieldMatchThreeTimelineType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::LittleGame::MatchThreeTimelineBattleField_MatchThreeTimelineType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D500);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraPageState>** StaticGet__610___RPGClientChimeraPageState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ChimeraPageState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D508);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_UnitType>** StaticGet__188___RPGClientUIPartialBlurUnitType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIPartialBlur_UnitType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D510);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource>** StaticGet__744___RPGClientGridFightEquipReturnPackEventEquipReturnPackSource_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::GridFightEquipReturnPackEvent_EquipReturnPackSource>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D518);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ABE4DC4008A6A21>** StaticGet__229___ProtoCmdItemType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::Enum_3_5ABE4DC4008A6A21>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D520);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournUnderlineParamType>** StaticGet__929___RPGClientRogueTournUnderlineParamType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueTournUnderlineParamType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D528);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AspectRatioFitter_AspectMode>** StaticGet__141___UnityEngineUIAspectRatioFitterAspectMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::AspectRatioFitter_AspectMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D530);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoadingDisplayState>** StaticGet__846___RPGClientCakeRaceCakeRaceLoadingDisplayState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CakeRace::CakeRaceLoadingDisplayState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D538);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlReceiveType>** StaticGet__869___RPGClientCloudUtilsGameControlReceiveType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::CloudUtils_GameControlReceiveType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D540);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarBaseType>** StaticGet__32___RPGGameCoreAvatarBaseType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D548);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityModule_ActivityType>** StaticGet__149___RPGClientActivityModuleActivityType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ActivityModule_ActivityType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D550);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimGameplayMode>** StaticGet__888___RPGGameCoreFiveDimGameplayMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::FiveDimGameplayMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D558);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginHorizontal>** StaticGet__57___UnityEngineUISmoothMaskFillOriginHorizontal_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::UnityEngine::UI::SmoothMask_FillOriginHorizontal>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D560);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIManager_ClearReason>** StaticGet__218___RPGClientUIManagerClearReason_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::UIManager_ClearReason>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D568);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityTypeMask>** StaticGet__204___RPGGameCoreEntityTypeMask_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::EntityTypeMask>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D570);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindUIControlMode>** StaticGet__506___RPGClientTimeRewindUIControlMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::TimeRewindUIControlMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D578);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolder>** StaticGet__78___SystemEnvironmentSpecialFolder_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::System::Environment_SpecialFolder>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D580);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterExprListCompareType>** StaticGet__1003___RPGGameCoreLevelDimensionFilterExprListCompareType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::LevelDimensionFilterExprListCompareType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D588);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_DialogBtnMode>** StaticGet__115___RPGClientConfirmDialogContextDialogBtnMode_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::ConfirmDialogContext_DialogBtnMode>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D590);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NetworkManager_ConnectState>** StaticGet__22___RPGClientNetworkManagerConnectState_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::NetworkManager_ConnectState>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D598);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TalkBgCGBlendType>** StaticGet__661___RPGGameCoreTalkBgCGBlendType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::TalkBgCGBlendType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D5A0);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionType>** StaticGet__94___RPGGameCoreMainMissionType_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::GameCore::MainMissionType>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D5A8);
+		}
+		static ::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGableRarity>** StaticGet__928___RPGClientRogueGableRarity_cast()
+		{
+			return (::XLua::CastToInt_1_CastToIntFunc<::RPG::Client::RogueGableRarity>**)Il2CppClass::FromTypeDefinitionIndex(ObjectTranslator_IniterAdderUnityEngineVector2___O_TypeDefinitionIndex)->GetStaticField(0x1D5B0);
 		}
 	};
 }

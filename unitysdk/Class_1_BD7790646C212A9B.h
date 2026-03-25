@@ -6,22 +6,22 @@ namespace RPG::Client::Prop { class JigsawItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BD7790646C212A9B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C4F0C0)
-#define CLASS_1_BD7790646C212A9B_METHOD_1_2C5EDE50B6CE7646_OFFSET UNITYSDK_OFFSET(0x10C4F470)
-#define CLASS_1_BD7790646C212A9B_METHOD_1_6BDC25DE080C4A8E_OFFSET UNITYSDK_OFFSET(0x10C4F760)
-#define CLASS_1_BD7790646C212A9B_METHOD_1_73052712910A9EE7_OFFSET UNITYSDK_OFFSET(0x10C4ED80)
-#define CLASS_1_BD7790646C212A9B_METHOD_1_771CDD36F10EAB9E_OFFSET UNITYSDK_OFFSET(0x10C4F120)
-#define CLASS_1_BD7790646C212A9B_METHOD_1_B7F43F3C2CB20088_OFFSET UNITYSDK_OFFSET(0x10C4F2B0)
-#define CLASS_1_BD7790646C212A9B__CTOR_OFFSET UNITYSDK_OFFSET(0x10C4EC70)
+#define CLASS_1_BD7790646C212A9B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x109FD870)
+#define CLASS_1_BD7790646C212A9B_METHOD_1_2C5EDE50B6CE7646_OFFSET UNITYSDK_OFFSET(0x109FDC20)
+#define CLASS_1_BD7790646C212A9B_METHOD_1_6BDC25DE080C4A8E_OFFSET UNITYSDK_OFFSET(0x109FDF10)
+#define CLASS_1_BD7790646C212A9B_METHOD_1_73052712910A9EE7_OFFSET UNITYSDK_OFFSET(0x109FD530)
+#define CLASS_1_BD7790646C212A9B_METHOD_1_771CDD36F10EAB9E_OFFSET UNITYSDK_OFFSET(0x109FD8D0)
+#define CLASS_1_BD7790646C212A9B_METHOD_1_B7F43F3C2CB20088_OFFSET UNITYSDK_OFFSET(0x109FDA60)
+#define CLASS_1_BD7790646C212A9B__CTOR_OFFSET UNITYSDK_OFFSET(0x109FD420)
 
-inline static constexpr unsigned int Class_1_BD7790646C212A9B_TypeDefinitionIndex = 61911;
+inline static constexpr unsigned int Class_1_BD7790646C212A9B_TypeDefinitionIndex = 64098;
 
 class Class_1_BD7790646C212A9B : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>* Field_1_2; // 0x10
 	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* Field_1_0; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class DeviceTipsManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159E1620)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__DISPLAYCLASS18_0__REQUESTNEWDEVICELIST_B__0_OFFSET UNITYSDK_OFFSET(0x159E2C40)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160AD480)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__DISPLAYCLASS18_0__REQUESTNEWDEVICELIST_B__0_OFFSET UNITYSDK_OFFSET(0x160AEA70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceTipsManager___c__DisplayClass18_0_TypeDefinitionIndex = 7817;
+	inline static constexpr unsigned int DeviceTipsManager___c__DisplayClass18_0_TypeDefinitionIndex = 7942;
 
 	class DeviceTipsManager___c__DisplayClass18_0 : public ::System::Object
 	{

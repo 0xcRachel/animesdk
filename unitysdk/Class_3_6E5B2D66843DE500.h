@@ -7,19 +7,19 @@ namespace RPG::GameCore { class SetComponentAssetLoadState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_6E5B2D66843DE500_DISPOSE_OFFSET UNITYSDK_OFFSET(0x104E8E90)
-#define CLASS_3_6E5B2D66843DE500_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104E8ED0)
-#define CLASS_3_6E5B2D66843DE500__CTOR_OFFSET UNITYSDK_OFFSET(0x104E8E60)
-#define CLASS_3_6E5B2D66843DE500___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x104E9440)
+#define CLASS_3_6E5B2D66843DE500_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9F0A580)
+#define CLASS_3_6E5B2D66843DE500_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9F0A5C0)
+#define CLASS_3_6E5B2D66843DE500__CTOR_OFFSET UNITYSDK_OFFSET(0x9F0A550)
+#define CLASS_3_6E5B2D66843DE500___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9F0AB30)
 
-inline static constexpr unsigned int Class_3_6E5B2D66843DE500_TypeDefinitionIndex = 43285;
+inline static constexpr unsigned int Class_3_6E5B2D66843DE500_TypeDefinitionIndex = 44340;
 
 class Class_3_6E5B2D66843DE500 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetComponentAssetLoadState*>
 {
 public:
 	static ::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>** StaticGet_Field_3_0()
 	{
-		return (::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_6E5B2D66843DE500_TypeDefinitionIndex)->GetStaticField(0x43D60);
+		return (::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_6E5B2D66843DE500_TypeDefinitionIndex)->GetStaticField(0x44AB0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetComponentAssetLoadState* a2)

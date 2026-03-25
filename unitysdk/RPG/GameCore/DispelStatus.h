@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_40C044C8BA1D2958_OFFSET UNITYSDK_OFFSET(0x16A44EF0)
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x16A44E50)
-#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A44EB0)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_40C044C8BA1D2958_OFFSET UNITYSDK_OFFSET(0x17187A20)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x17187980)
+#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x171879E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 20320;
+	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 20867;
 
 	class DispelStatus : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_FC01049DA05831B0;
-namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
+namespace RPG::Client { class ITeleportableIcon; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_932_TypeDefinitionIndex = 61559;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_932_TypeDefinitionIndex = 61251;
 
 class Class_0_16E4307DCC419505_932
 {

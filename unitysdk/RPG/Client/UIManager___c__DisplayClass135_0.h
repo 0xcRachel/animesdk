@@ -5,12 +5,12 @@
 namespace RPG::Client { class UIController; }
 namespace System { class String; }
 
-#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS135_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D0ED0)
-#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS135_0__GETABOVEDIALOGBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xA1D2C70)
+#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS135_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA70C8D0)
+#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS135_0__GETABOVEDIALOGBYNAME_B__0_OFFSET UNITYSDK_OFFSET(0xA70C8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIManager___c__DisplayClass135_0_TypeDefinitionIndex = 58243;
+	inline static constexpr unsigned int UIManager___c__DisplayClass135_0_TypeDefinitionIndex = 59893;
 
 	class UIManager___c__DisplayClass135_0 : public ::System::Object
 	{

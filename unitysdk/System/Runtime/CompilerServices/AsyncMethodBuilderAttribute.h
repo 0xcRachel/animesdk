@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D371E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x185680E0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 8764;
+	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 8991;
 
 	class AsyncMethodBuilderAttribute : public ::System::Attribute
 	{

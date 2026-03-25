@@ -10,17 +10,17 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_85A134E85BB8A408_METHOD_2_0A0A8830B02C5A4B_OFFSET UNITYSDK_OFFSET(0x86BEEE0)
-#define CLASS_2_85A134E85BB8A408_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x86BF6C0)
-#define CLASS_2_85A134E85BB8A408_METHOD_2_6BCEDD4814D8A8D9_OFFSET UNITYSDK_OFFSET(0x86BE8C0)
-#define CLASS_2_85A134E85BB8A408_METHOD_2_C89A41A14F7CCD91_OFFSET UNITYSDK_OFFSET(0x86BF650)
-#define CLASS_2_85A134E85BB8A408_METHOD_2_D0B68C1DD4B91F49_OFFSET UNITYSDK_OFFSET(0x86BE9F0)
-#define CLASS_2_85A134E85BB8A408_METHOD_2_F94763144FCDCC61_OFFSET UNITYSDK_OFFSET(0x86BEBD0)
-#define CLASS_2_85A134E85BB8A408__CTOR_OFFSET UNITYSDK_OFFSET(0x86BF5C0)
-#define CLASS_2_85A134E85BB8A408__ONBIND_OFFSET UNITYSDK_OFFSET(0x86BE7D0)
-#define CLASS_2_85A134E85BB8A408___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x86BF5F0)
+#define CLASS_2_85A134E85BB8A408_METHOD_2_0A0A8830B02C5A4B_OFFSET UNITYSDK_OFFSET(0xA205DC0)
+#define CLASS_2_85A134E85BB8A408_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA2065B0)
+#define CLASS_2_85A134E85BB8A408_METHOD_2_6BCEDD4814D8A8D9_OFFSET UNITYSDK_OFFSET(0xA2057A0)
+#define CLASS_2_85A134E85BB8A408_METHOD_2_C89A41A14F7CCD91_OFFSET UNITYSDK_OFFSET(0xA206540)
+#define CLASS_2_85A134E85BB8A408_METHOD_2_D0B68C1DD4B91F49_OFFSET UNITYSDK_OFFSET(0xA2058D0)
+#define CLASS_2_85A134E85BB8A408_METHOD_2_F94763144FCDCC61_OFFSET UNITYSDK_OFFSET(0xA205AB0)
+#define CLASS_2_85A134E85BB8A408__CTOR_OFFSET UNITYSDK_OFFSET(0xA2064B0)
+#define CLASS_2_85A134E85BB8A408__ONBIND_OFFSET UNITYSDK_OFFSET(0xA205540)
+#define CLASS_2_85A134E85BB8A408___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xA2064E0)
 
-inline static constexpr unsigned int Class_2_85A134E85BB8A408_TypeDefinitionIndex = 56934;
+inline static constexpr unsigned int Class_2_85A134E85BB8A408_TypeDefinitionIndex = 58523;
 
 class Class_2_85A134E85BB8A408 : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -28,17 +28,17 @@ public:
 	// static const ::System::String* Field_2_4; // 0x0
 	// static const ::System::String* Field_2_12; // 0x0
 	// static const ::System::String* Field_2_13; // 0x0
-	::Class_2_85A134E85BB8A408_Class_1_C424DD286DB85E98* Field_2_10; // 0x60
-	::UnityEngine::Animation* Field_2_3; // 0x68
-	::UnityEngine::UI::Image* Field_2_1; // 0x70
-	::UnityEngine::UI::Image* Field_2_2; // 0x78
-	::UnityEngine::UI::Image* Field_2_0; // 0x80
-	::System::Single Field_2_8; // 0x88
-	::System::Single Field_2_7; // 0x8C
-	::System::Single Field_2_6; // 0x90
-	::System::Single Field_2_5; // 0x94
-	::System::Nullable_1<::System::Boolean> Field_2_11; // 0x98
-	::System::Nullable_1<::UnityEngine::Color> Field_2_9; // 0x9C
+	::UnityEngine::UI::Image* Field_2_1; // 0x60
+	::UnityEngine::UI::Image* Field_2_0; // 0x68
+	::UnityEngine::Animation* Field_2_3; // 0x70
+	::Class_2_85A134E85BB8A408_Class_1_C424DD286DB85E98* Field_2_10; // 0x78
+	::UnityEngine::UI::Image* Field_2_2; // 0x80
+	::System::Nullable_1<::UnityEngine::Color> Field_2_9; // 0x88
+	::System::Single Field_2_5; // 0x9C
+	::System::Single Field_2_8; // 0xA0
+	::System::Single Field_2_6; // 0xA4
+	::System::Single Field_2_7; // 0xA8
+	::System::Nullable_1<::System::Boolean> Field_2_11; // 0xAC
 
 	::System::Void _ctor()
 	{

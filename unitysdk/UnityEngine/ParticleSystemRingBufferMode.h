@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemRingBufferMode_TypeDefinitionIndex = 5399;
+	inline static constexpr unsigned int ParticleSystemRingBufferMode_TypeDefinitionIndex = 5499;
 
 	enum class ParticleSystemRingBufferMode : ::System::Int32
 	{

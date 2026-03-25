@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyAdventureCharacterCollider; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_04B44C4D2441EC4B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1032B1F0)
-#define CLASS_3_04B44C4D2441EC4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1032B1C0)
+#define CLASS_3_04B44C4D2441EC4B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB452B0)
+#define CLASS_3_04B44C4D2441EC4B__CTOR_OFFSET UNITYSDK_OFFSET(0xCB45280)
 
-inline static constexpr unsigned int Class_3_04B44C4D2441EC4B_TypeDefinitionIndex = 43730;
+inline static constexpr unsigned int Class_3_04B44C4D2441EC4B_TypeDefinitionIndex = 44786;
 
 class Class_3_04B44C4D2441EC4B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyAdventureCharacterCollider*>
 {

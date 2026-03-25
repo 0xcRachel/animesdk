@@ -8,23 +8,23 @@ class Class_1_5CF1DDAFE12F0E87;
 class Class_2_1DB6C02CA182EEBA;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A64CC8A9B1CC56C5_METHOD_1_68529220378F3FE9_OFFSET UNITYSDK_OFFSET(0x875A200)
-#define CLASS_1_A64CC8A9B1CC56C5_METHOD_1_B909D881A7A7DA74_OFFSET UNITYSDK_OFFSET(0x8759FC0)
-#define CLASS_1_A64CC8A9B1CC56C5_METHOD_1_CA7166CC92AE9871_OFFSET UNITYSDK_OFFSET(0x8759C80)
-#define CLASS_1_A64CC8A9B1CC56C5__CTOR_OFFSET UNITYSDK_OFFSET(0x8759F60)
+#define CLASS_1_A64CC8A9B1CC56C5_METHOD_1_68529220378F3FE9_OFFSET UNITYSDK_OFFSET(0x110D4740)
+#define CLASS_1_A64CC8A9B1CC56C5_METHOD_1_B909D881A7A7DA74_OFFSET UNITYSDK_OFFSET(0x110D4500)
+#define CLASS_1_A64CC8A9B1CC56C5_METHOD_1_CA7166CC92AE9871_OFFSET UNITYSDK_OFFSET(0x110D41B0)
+#define CLASS_1_A64CC8A9B1CC56C5__CTOR_OFFSET UNITYSDK_OFFSET(0x110D4480)
 
-inline static constexpr unsigned int Class_1_A64CC8A9B1CC56C5_TypeDefinitionIndex = 43876;
+inline static constexpr unsigned int Class_1_A64CC8A9B1CC56C5_TypeDefinitionIndex = 44936;
 
 class Class_1_A64CC8A9B1CC56C5 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* Field_1_5; // 0x10
-	::Class_2_1DB6C02CA182EEBA* Field_1_6; // 0x18
-	::System::UInt32 Field_1_3; // 0x20
-	::Enum_3_01618AD0437C8486 Field_1_1; // 0x24
-	::System::UInt32 Field_1_2; // 0x28
+	::Class_2_1DB6C02CA182EEBA* Field_1_6; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FixPoint>* Field_1_5; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::System::UInt32 Field_1_3; // 0x24
+	::System::UInt32 Field_1_4; // 0x28
 	::System::UInt32 Field_1_0; // 0x2C
-	::System::UInt32 Field_1_4; // 0x30
+	::Enum_3_01618AD0437C8486 Field_1_1; // 0x30
 
 	::System::Void _ctor()
 	{

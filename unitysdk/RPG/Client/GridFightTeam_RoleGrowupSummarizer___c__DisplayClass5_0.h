@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9411980)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0__UPDATEBEFORE_B__0_OFFSET UNITYSDK_OFFSET(0x9412490)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98CEF60)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0__UPDATEBEFORE_B__0_OFFSET UNITYSDK_OFFSET(0x98CFA70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c__DisplayClass5_0_TypeDefinitionIndex = 51777;
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c__DisplayClass5_0_TypeDefinitionIndex = 52911;
 
 	class GridFightTeam_RoleGrowupSummarizer___c__DisplayClass5_0 : public ::System::Object
 	{

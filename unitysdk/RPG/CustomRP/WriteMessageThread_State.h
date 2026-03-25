@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int WriteMessageThread_State_TypeDefinitionIndex = 28633;
+	inline static constexpr unsigned int WriteMessageThread_State_TypeDefinitionIndex = 29508;
 
 	enum class WriteMessageThread_State : ::System::Int32
 	{

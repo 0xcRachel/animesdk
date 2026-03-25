@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_METHOD_1_95D745151349AC1F_OFFSET UNITYSDK_OFFSET(0xA677240)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA677320)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_METHOD_1_95D745151349AC1F_OFFSET UNITYSDK_OFFSET(0xABBE4D0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABBE5B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectOnAnchorData_TypeDefinitionIndex = 38187;
+	inline static constexpr unsigned int TriggerEffectOnAnchorData_TypeDefinitionIndex = 39162;
 
 	class TriggerEffectOnAnchorData : public ::System::Object
 	{

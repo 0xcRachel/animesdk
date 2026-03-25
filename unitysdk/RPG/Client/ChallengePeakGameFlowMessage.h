@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakGameFlowMessage_TypeDefinitionIndex = 50129;
+	inline static constexpr unsigned int ChallengePeakGameFlowMessage_TypeDefinitionIndex = 51262;
 
 	enum class ChallengePeakGameFlowMessage : ::System::Int32
 	{

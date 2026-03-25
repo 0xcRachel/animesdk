@@ -11,22 +11,22 @@ namespace RPG::GameCore { class GridFightPrepTutorialSubToastHintParam; }
 namespace RPG::GameCore { class GridFightPrepTutorialToastHintParam; }
 namespace RPG::GameCore { class GridFightPrepTutorialTopHintParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOPPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA443120)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOPPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA97E190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialOPParam_TypeDefinitionIndex = 42318;
+	inline static constexpr unsigned int GridFightPrepTutorialOPParam_TypeDefinitionIndex = 43367;
 
 	class GridFightPrepTutorialOPParam : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GridFightPrepTutorialNodeVisibleParam* NodeVisibleParam; // 0x10
-		::RPG::GameCore::GridFightPrepTutorialSetGoldNumParam* SetGoldNumParam; // 0x18
-		::RPG::GameCore::GridFightPrepTutorialSubToastHintParam* SubToastHintParam; // 0x20
-		::RPG::GameCore::GridFightPrepTutorialPopupPanelVisibleParam* PopupPanelVisibleParam; // 0x28
-		::RPG::GameCore::GridFightPrepTutorialTopHintParam* TopHintParam; // 0x30
-		::RPG::GameCore::GridFightPrepTutorialRemoveEquipTrackParam* RemoveEquipTrackParam; // 0x38
-		::RPG::GameCore::GridFightPrepTutorialToastHintParam* ToastHintParam; // 0x40
+		::RPG::GameCore::GridFightPrepTutorialPopupPanelVisibleParam* PopupPanelVisibleParam; // 0x10
+		::RPG::GameCore::GridFightPrepTutorialSubToastHintParam* SubToastHintParam; // 0x18
+		::RPG::GameCore::GridFightPrepTutorialSetGoldNumParam* SetGoldNumParam; // 0x20
+		::RPG::GameCore::GridFightPrepTutorialRemoveEquipTrackParam* RemoveEquipTrackParam; // 0x28
+		::RPG::GameCore::GridFightPrepTutorialNodeVisibleParam* NodeVisibleParam; // 0x30
+		::RPG::GameCore::GridFightPrepTutorialToastHintParam* ToastHintParam; // 0x38
+		::RPG::GameCore::GridFightPrepTutorialTopHintParam* TopHintParam; // 0x40
 		::RPG::GameCore::GridFightPrepTutorialOPType TutorialOpType; // 0x48
 
 		::System::Void _ctor()

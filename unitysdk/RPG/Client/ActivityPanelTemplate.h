@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPanelTemplate_TypeDefinitionIndex = 48919;
+	inline static constexpr unsigned int ActivityPanelTemplate_TypeDefinitionIndex = 50054;
 
 	struct alignas(8) ActivityPanelTemplate
 	{

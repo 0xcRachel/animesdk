@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTREADERIMPL_XMLCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17E26E80)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_XMLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x17E26E50)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_XMLCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18654A60)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_XMLCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18654A30)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_XmlContext_TypeDefinitionIndex = 1838;
+	inline static constexpr unsigned int XmlTextReaderImpl_XmlContext_TypeDefinitionIndex = 1843;
 
 	class XmlTextReaderImpl_XmlContext : public ::System::Object
 	{
 	public:
-		::System::Xml::XmlTextReaderImpl_XmlContext* previousContext; // 0x10
+		::System::String* xmlLang; // 0x10
 		::System::String* defaultNamespace; // 0x18
-		::System::String* xmlLang; // 0x20
+		::System::Xml::XmlTextReaderImpl_XmlContext* previousContext; // 0x20
 		::System::Xml::XmlSpace xmlSpace; // 0x28
 
 		::System::Void _ctor()

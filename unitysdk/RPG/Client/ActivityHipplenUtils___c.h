@@ -10,44 +10,44 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B550B0)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B550F0)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETCYCLEGROWTHPHASETRIALNAMELIST_B__26_0_OFFSET UNITYSDK_OFFSET(0x8B55190)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETITEMDISPLAYDATAFROMGIFTLIST_B__28_0_OFFSET UNITYSDK_OFFSET(0x8B551D0)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETNEWUNLOCKEDINTERACTPROPS_B__25_0_OFFSET UNITYSDK_OFFSET(0x8B55140)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETSTATGRADETYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x8B55100)
-#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__OPENHIPPLENMAINPAGE_B__31_1_OFFSET UNITYSDK_OFFSET(0x8B55200)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F55BF0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F55C30)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETCYCLEGROWTHPHASETRIALNAMELIST_B__26_0_OFFSET UNITYSDK_OFFSET(0x8F55CD0)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETITEMDISPLAYDATAFROMGIFTLIST_B__28_0_OFFSET UNITYSDK_OFFSET(0x8F55D10)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETNEWUNLOCKEDINTERACTPROPS_B__25_0_OFFSET UNITYSDK_OFFSET(0x8F55C80)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__GETSTATGRADETYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x8F55C40)
+#define RPG_CLIENT_ACTIVITYHIPPLENUTILS___C__OPENHIPPLENMAINPAGE_B__31_1_OFFSET UNITYSDK_OFFSET(0x8F55D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenUtils___c_TypeDefinitionIndex = 48788;
+	inline static constexpr unsigned int ActivityHipplenUtils___c_TypeDefinitionIndex = 49922;
 
 	class ActivityHipplenUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__31_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x19B30);
-		}
 		static ::RPG::Client::ActivityHipplenUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityHipplenUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x19B38);
-		}
-		static ::System::Comparison_1<::Class_1_4B6B1EA474B8E7B0*>** StaticGet___9__1_0()
-		{
-			return (::System::Comparison_1<::Class_1_4B6B1EA474B8E7B0*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x19B40);
+			return (::RPG::Client::ActivityHipplenUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x27930);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::ActivityHipplenPhaseRow*>** StaticGet___9__26_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::ActivityHipplenPhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x19B48);
+			return (::System::Comparison_1<::RPG::GameCore::ActivityHipplenPhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x27938);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*, ::System::UInt32>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x19B50);
+			return (::System::Func_2<::RPG::Client::ActivityHipplen::ActivityHipplenGiftData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x27940);
+		}
+		static ::System::Comparison_1<::Class_1_4B6B1EA474B8E7B0*>** StaticGet___9__1_0()
+		{
+			return (::System::Comparison_1<::Class_1_4B6B1EA474B8E7B0*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x27948);
 		}
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>** StaticGet___9__25_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x19B58);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x27950);
+		}
+		static ::System::Action** StaticGet___9__31_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenUtils___c_TypeDefinitionIndex)->GetStaticField(0x27958);
 		}
 
 		static ::System::Void _cctor()

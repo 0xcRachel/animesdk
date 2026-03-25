@@ -5,18 +5,18 @@
 namespace RPG::Client::ActivityMarble { class MarbleMatchContext; }
 namespace RPG::Client::ActivityMarble { class MarblePVPMatchContext; }
 
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B7BA60)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_0__OPENMARBLEMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x8B7D660)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F7D1C0)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_0__OPENMARBLEMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x8F7EE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass3_0_TypeDefinitionIndex = 52298;
+	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass3_0_TypeDefinitionIndex = 53434;
 
 	class ActivityMarbleUtils___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityMarble::MarblePVPMatchContext* pvpContext; // 0x10
-		::RPG::Client::ActivityMarble::MarbleMatchContext* context; // 0x18
+		::RPG::Client::ActivityMarble::MarbleMatchContext* context; // 0x10
+		::RPG::Client::ActivityMarble::MarblePVPMatchContext* pvpContext; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -12,12 +12,13 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
+namespace System { template <typename T> class Func_1; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_1_TypeDefinitionIndex = 885;
+	inline static constexpr unsigned int TaskFactory_1_TypeDefinitionIndex = 886;
 
 	template <typename TResult>
 	class TaskFactory_1 : public ::System::Object

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChimeraDuelEnterShowcaseBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F9132091215BB0F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E2AA40)
-#define CLASS_3_F9132091215BB0F4__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2AA10)
+#define CLASS_3_F9132091215BB0F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109770B0)
+#define CLASS_3_F9132091215BB0F4__CTOR_OFFSET UNITYSDK_OFFSET(0x10977080)
 
-inline static constexpr unsigned int Class_3_F9132091215BB0F4_TypeDefinitionIndex = 45729;
+inline static constexpr unsigned int Class_3_F9132091215BB0F4_TypeDefinitionIndex = 46797;
 
 class Class_3_F9132091215BB0F4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChimeraDuelEnterShowcaseBattle*>
 {

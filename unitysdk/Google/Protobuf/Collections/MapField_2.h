@@ -23,7 +23,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_TypeDefinitionIndex = 6266;
+	inline static constexpr unsigned int MapField_2_TypeDefinitionIndex = 6366;
 
 	template <typename TKey, typename TValue>
 	class MapField_2 : public ::System::Object

@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class Timestamp; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156EC130)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156EC170)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x156EC180)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DDC910)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDC950)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_TIMESTAMP___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x15DDC960)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Timestamp___c_TypeDefinitionIndex = 27307;
+	inline static constexpr unsigned int Timestamp___c_TypeDefinitionIndex = 28043;
 
 	class Timestamp___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::WellKnownTypes::Timestamp___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Timestamp___c**)Il2CppClass::FromTypeDefinitionIndex(Timestamp___c_TypeDefinitionIndex)->GetStaticField(0x2B00);
+			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Timestamp___c**)Il2CppClass::FromTypeDefinitionIndex(Timestamp___c_TypeDefinitionIndex)->GetStaticField(0xA30);
 		}
 
 		static ::System::Void _cctor()

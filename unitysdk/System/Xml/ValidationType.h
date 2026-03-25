@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ValidationType_TypeDefinitionIndex = 1813;
+	inline static constexpr unsigned int ValidationType_TypeDefinitionIndex = 1818;
 
 	enum class ValidationType : ::System::Int32
 	{

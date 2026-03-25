@@ -10,13 +10,13 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_DOWNLOADWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x15960BA0)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_REQUESTWATERMARKINFO_OFFSET UNITYSDK_OFFSET(0x15960B10)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15960C20)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_DOWNLOADWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x16039290)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT_REQUESTWATERMARKINFO_OFFSET UNITYSDK_OFFSET(0x16039200)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16039310)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkApiClient_TypeDefinitionIndex = 7352;
+	inline static constexpr unsigned int WatermarkApiClient_TypeDefinitionIndex = 7477;
 
 	class WatermarkApiClient : public ::System::Object
 	{

@@ -6,7 +6,6 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_81595715048249D2;
-namespace RPG::Client { class AvatarData; }
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class RelicRecommendData; }
@@ -15,40 +14,40 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERANK_OFFSET UNITYSDK_OFFSET(0x9DA1510)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULTFORCURSET_OFFSET UNITYSDK_OFFSET(0x9DA0AC0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULTFORSPECIFIC_OFFSET UNITYSDK_OFFSET(0x9DA06F0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULT_OFFSET UNITYSDK_OFFSET(0x9D9FB20)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATEVIRTUALSCOREAFTERFILTER_OFFSET UNITYSDK_OFFSET(0x9DA13D0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x9D9F960)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_GETRELICCALCULATIONRESULTINFOS_OFFSET UNITYSDK_OFFSET(0x9DA15B0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_SETUPPLANDATA_OFFSET UNITYSDK_OFFSET(0x9D9FAA0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEFINALSCORE_OFFSET UNITYSDK_OFFSET(0x9DA0C80)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEHITCOUNT_OFFSET UNITYSDK_OFFSET(0x9DA12B0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEINFO_OFFSET UNITYSDK_OFFSET(0x9D9FFD0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEMAINPROPERTYMATCH_OFFSET UNITYSDK_OFFSET(0x9DA1050)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATERANK_OFFSET UNITYSDK_OFFSET(0x9DA0FE0)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CONTAINCRITICAL_OFFSET UNITYSDK_OFFSET(0x9DA0130)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9D9FA30)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__ISCRITICALPROPERTY_OFFSET UNITYSDK_OFFSET(0x9DA0690)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERANK_OFFSET UNITYSDK_OFFSET(0xA2C21E0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULTFORCURSET_OFFSET UNITYSDK_OFFSET(0xA2C1790)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULTFORSPECIFIC_OFFSET UNITYSDK_OFFSET(0xA2C13B0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULT_OFFSET UNITYSDK_OFFSET(0xA2C0850)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATEVIRTUALSCOREAFTERFILTER_OFFSET UNITYSDK_OFFSET(0xA2C1FF0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0xA2C0690)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_GETRELICCALCULATIONRESULTINFOS_OFFSET UNITYSDK_OFFSET(0xA2C22A0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_SETUPPLANDATA_OFFSET UNITYSDK_OFFSET(0xA2C07D0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEFINALSCORE_OFFSET UNITYSDK_OFFSET(0xA2C1910)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEHITCOUNT_OFFSET UNITYSDK_OFFSET(0xA2C1F20)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEINFO_OFFSET UNITYSDK_OFFSET(0xA2C0CD0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEMAINPROPERTYMATCH_OFFSET UNITYSDK_OFFSET(0xA2C1CC0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATERANK_OFFSET UNITYSDK_OFFSET(0xA2C1C60)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CONTAINCRITICAL_OFFSET UNITYSDK_OFFSET(0xA2C0DF0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C0760)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__ISCRITICALPROPERTY_OFFSET UNITYSDK_OFFSET(0xA2C1350)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitCalculator_TypeDefinitionIndex = 59424;
+	inline static constexpr unsigned int RelicSmartSuitCalculator_TypeDefinitionIndex = 61177;
 
 	class RelicSmartSuitCalculator : public ::System::Object
 	{
 	public:
 		::Class_1_81595715048249D2* _DataSource; // 0x10
 
-		::System::Void _ctor(::RPG::Client::IAvatarInfoProvider* avatarData)
+		::System::Void _ctor(::RPG::Client::IAvatarInfoProvider* avatar)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CTOR_OFFSET))(this, avatarData);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CTOR_OFFSET))(this, avatar);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculator* Create(::RPG::Client::IAvatarInfoProvider* avatarData)
+		static ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculator* Create(::RPG::Client::IAvatarInfoProvider* avatar)
 		{
-			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculator*(*)(::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CREATE_OFFSET))(avatarData);
+			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculator*(*)(::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CREATE_OFFSET))(avatar);
 		}
 
 		::System::Void SetupPlanData(::RPG::Client::RelicSmartSuit::RelicSmartSuitPlanData* planData)
@@ -71,9 +70,9 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__ISCRITICALPROPERTY_OFFSET))(this, propertyType);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* CalculateResultForSpecific(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicDatas, ::RPG::Client::AvatarData* avatarData)
+		static ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* CalculateResultForSpecific(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicDatas, ::RPG::Client::IAvatarInfoProvider* avatar)
 		{
-			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*(*)(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULTFORSPECIFIC_OFFSET))(relicDatas, avatarData);
+			return ((::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*(*)(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERESULTFORSPECIFIC_OFFSET))(relicDatas, avatar);
 		}
 
 		::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* CalculateResultForCurSet()
@@ -96,14 +95,14 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATEFINALSCORE_OFFSET))(this, resultData);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::RankType CalculateRank(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicDatas, ::RPG::Client::AvatarData* avatarData)
+		static ::RPG::Client::RelicSmartSuit::RankType CalculateRank(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>* relicDatas, ::RPG::Client::IAvatarInfoProvider* avatar)
 		{
-			return ((::RPG::Client::RelicSmartSuit::RankType(*)(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERANK_OFFSET))(relicDatas, avatarData);
+			return ((::RPG::Client::RelicSmartSuit::RankType(*)(::System::Collections::Generic::List_1<::RPG::Client::RelicItemData*>*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR_CALCULATERANK_OFFSET))(relicDatas, avatar);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::RankType _CalculateRank(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* resultData, ::RPG::Client::AvatarData* avatarData)
+		static ::RPG::Client::RelicSmartSuit::RankType _CalculateRank(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* resultData, ::System::UInt32 avatarID)
 		{
-			return ((::RPG::Client::RelicSmartSuit::RankType(*)(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATERANK_OFFSET))(resultData, avatarData);
+			return ((::RPG::Client::RelicSmartSuit::RankType(*)(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATOR__CALCULATERANK_OFFSET))(resultData, avatarID);
 		}
 
 		::System::Void _CalculateMainPropertyMatch(::RPG::Client::RelicSmartSuit::RelicSmartSuitCalculationResultData* resultData)

@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PHOTOGRAPHIDENTIFYSTATECHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9A784B0)
+#define RPG_CLIENT_PHOTOGRAPHIDENTIFYSTATECHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9F4BF90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphIdentifyStateChangeParam_TypeDefinitionIndex = 55165;
+	inline static constexpr unsigned int PhotoGraphIdentifyStateChangeParam_TypeDefinitionIndex = 56730;
 
 	class PhotoGraphIdentifyStateChangeParam : public ::System::Object
 	{

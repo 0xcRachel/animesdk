@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class SimpleTalkTargetBehavior; }
 
-#define RPG_CLIENT_SIMPLETALKTARGETBEHAVIORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9F7DAC0)
+#define RPG_CLIENT_SIMPLETALKTARGETBEHAVIORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA492E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTalkTargetBehaviorInfo_TypeDefinitionIndex = 48128;
+	inline static constexpr unsigned int SimpleTalkTargetBehaviorInfo_TypeDefinitionIndex = 49220;
 
 	class SimpleTalkTargetBehaviorInfo : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/ColorGradingGradual.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_COLORGRADINGGRADUALPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16390F60)
+#define RPG_CUSTOMRP_COLORGRADINGGRADUALPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9FF10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingGradualParameter_TypeDefinitionIndex = 28528;
+	inline static constexpr unsigned int ColorGradingGradualParameter_TypeDefinitionIndex = 29403;
 
 	class ColorGradingGradualParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::ColorGradingGradual>
 	{

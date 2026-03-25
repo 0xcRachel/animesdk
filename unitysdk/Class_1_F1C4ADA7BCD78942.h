@@ -8,32 +8,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_F1C4ADA7BCD78942_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1719C340)
-#define CLASS_1_F1C4ADA7BCD78942__CTOR_OFFSET UNITYSDK_OFFSET(0x1719CB60)
+#define CLASS_1_F1C4ADA7BCD78942_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x16D8F510)
+#define CLASS_1_F1C4ADA7BCD78942__CTOR_OFFSET UNITYSDK_OFFSET(0x16D8FD30)
 
-inline static constexpr unsigned int Class_1_F1C4ADA7BCD78942_TypeDefinitionIndex = 10698;
+inline static constexpr unsigned int Class_1_F1C4ADA7BCD78942_TypeDefinitionIndex = 10766;
 
 class Class_1_F1C4ADA7BCD78942 : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* Field_1_8; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x18
+	::System::String* Field_1_12; // 0x18
 	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_4; // 0x20
-	::System::String* Field_1_10; // 0x28
-	::System::String* Field_1_12; // 0x30
-	::Il2CppArray<::System::String*>* Field_1_9; // 0x38
-	::System::String* Field_1_16; // 0x40
+	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x28
+	::System::String* Field_1_10; // 0x30
+	::System::String* Field_1_16; // 0x38
+	::Il2CppArray<::System::String*>* Field_1_9; // 0x40
 	::RPG::Client::TextID Field_1_13; // 0x48
-	::RPG::GameCore::FateTraitType Field_1_11; // 0x58
-	::System::UInt32 Field_1_15; // 0x5C
-	::RPG::Client::TextID Field_1_17; // 0x60
-	::RPG::Client::TextID Field_1_14; // 0x70
-	::RPG::Client::TextID Field_1_1; // 0x80
-	::System::UInt32 Field_1_0; // 0x90
-	::System::UInt32 Field_1_7; // 0x94
-	::RPG::Client::TextID Field_1_3; // 0x98
-	::RPG::Client::TextID Field_1_2; // 0xA8
-	::RPG::Client::TextID Field_1_5; // 0xB8
+	::RPG::Client::TextID Field_1_14; // 0x58
+	::RPG::Client::TextID Field_1_2; // 0x68
+	::RPG::Client::TextID Field_1_3; // 0x78
+	::RPG::Client::TextID Field_1_5; // 0x88
+	::RPG::Client::TextID Field_1_1; // 0x98
+	::RPG::Client::TextID Field_1_17; // 0xA8
+	::RPG::GameCore::FateTraitType Field_1_11; // 0xB8
+	::System::UInt32 Field_1_7; // 0xBC
+	::System::UInt32 Field_1_0; // 0xC0
+	::System::UInt32 Field_1_15; // 0xC4
 
 	::System::Void _ctor()
 	{

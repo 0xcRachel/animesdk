@@ -11,40 +11,40 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UI3DPARKOURBALL_CREATE_OFFSET UNITYSDK_OFFSET(0xA1848C0)
-#define RPG_CLIENT_UI3DPARKOURBALL_GET__ISSPRCIALCAR_OFFSET UNITYSDK_OFFSET(0xA1859C0)
-#define RPG_CLIENT_UI3DPARKOURBALL_INIT_OFFSET UNITYSDK_OFFSET(0xA184970)
-#define RPG_CLIENT_UI3DPARKOURBALL_LOADMODEL_OFFSET UNITYSDK_OFFSET(0xA184A50)
-#define RPG_CLIENT_UI3DPARKOURBALL_RELEASEMODEL_OFFSET UNITYSDK_OFFSET(0xA184F50)
-#define RPG_CLIENT_UI3DPARKOURBALL_REMOVE_OFFSET UNITYSDK_OFFSET(0xA185A40)
-#define RPG_CLIENT_UI3DPARKOURBALL__CTOR_OFFSET UNITYSDK_OFFSET(0xA184880)
-#define RPG_CLIENT_UI3DPARKOURBALL__DISPOSEENTITY_OFFSET UNITYSDK_OFFSET(0xA184B40)
-#define RPG_CLIENT_UI3DPARKOURBALL__FIRECAREFFECT_OFFSET UNITYSDK_OFFSET(0xA185090)
-#define RPG_CLIENT_UI3DPARKOURBALL__FIREEFFECT_OFFSET UNITYSDK_OFFSET(0xA185540)
-#define RPG_CLIENT_UI3DPARKOURBALL__GETENTITY_OFFSET UNITYSDK_OFFSET(0xA184C50)
-#define RPG_CLIENT_UI3DPARKOURBALL__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0xA184DA0)
-#define RPG_CLIENT_UI3DPARKOURBALL__ONTICK_OFFSET UNITYSDK_OFFSET(0xA185830)
+#define RPG_CLIENT_UI3DPARKOURBALL_CREATE_OFFSET UNITYSDK_OFFSET(0xA668A40)
+#define RPG_CLIENT_UI3DPARKOURBALL_GET__ISSPRCIALCAR_OFFSET UNITYSDK_OFFSET(0xA669BB0)
+#define RPG_CLIENT_UI3DPARKOURBALL_INIT_OFFSET UNITYSDK_OFFSET(0xA668AF0)
+#define RPG_CLIENT_UI3DPARKOURBALL_LOADMODEL_OFFSET UNITYSDK_OFFSET(0xA668BD0)
+#define RPG_CLIENT_UI3DPARKOURBALL_RELEASEMODEL_OFFSET UNITYSDK_OFFSET(0xA6690D0)
+#define RPG_CLIENT_UI3DPARKOURBALL_REMOVE_OFFSET UNITYSDK_OFFSET(0xA669C30)
+#define RPG_CLIENT_UI3DPARKOURBALL__CTOR_OFFSET UNITYSDK_OFFSET(0xA668A00)
+#define RPG_CLIENT_UI3DPARKOURBALL__DISPOSEENTITY_OFFSET UNITYSDK_OFFSET(0xA668CC0)
+#define RPG_CLIENT_UI3DPARKOURBALL__FIRECAREFFECT_OFFSET UNITYSDK_OFFSET(0xA669210)
+#define RPG_CLIENT_UI3DPARKOURBALL__FIREEFFECT_OFFSET UNITYSDK_OFFSET(0xA6696C0)
+#define RPG_CLIENT_UI3DPARKOURBALL__GETENTITY_OFFSET UNITYSDK_OFFSET(0xA668DD0)
+#define RPG_CLIENT_UI3DPARKOURBALL__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0xA668F20)
+#define RPG_CLIENT_UI3DPARKOURBALL__ONTICK_OFFSET UNITYSDK_OFFSET(0xA669A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DParkourBall_TypeDefinitionIndex = 49084;
+	inline static constexpr unsigned int UI3DParkourBall_TypeDefinitionIndex = 50219;
 
 	class UI3DParkourBall : public ::System::Object
 	{
 	public:
-		::RPG::Client::ParkourBall* _CurrentData; // 0x10
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Diffuse_MaterialBlock; // 0x18
-		::RPG::GameCore::GameEntity* _Entity; // 0x20
-		::System::String* _EffectPath; // 0x28
-		::UnityEngine::Transform* _Root; // 0x30
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _R_MaterialBlock; // 0x38
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _F_MaterialBlock; // 0x40
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _S_MaterialBlock; // 0x48
-		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x50
-		::Struct_2_0B84ADD7815498A2 _Instance; // 0x58
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Reflectio_MaterialBlock; // 0x68
-		::System::UInt32 _SprcialCarID; // 0x70
-		::System::Int32 _TimerID; // 0x74
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _F_MaterialBlock; // 0x10
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _S_MaterialBlock; // 0x18
+		::UnityEngine::Transform* _Root; // 0x20
+		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x28
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Diffuse_MaterialBlock; // 0x30
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Reflectio_MaterialBlock; // 0x38
+		::Struct_2_0B84ADD7815498A2 _Instance; // 0x40
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _R_MaterialBlock; // 0x50
+		::System::String* _EffectPath; // 0x58
+		::RPG::GameCore::GameEntity* _Entity; // 0x60
+		::RPG::Client::ParkourBall* _CurrentData; // 0x68
+		::System::Int32 _TimerID; // 0x70
+		::System::UInt32 _SprcialCarID; // 0x74
 
 		::System::Void _ctor()
 		{

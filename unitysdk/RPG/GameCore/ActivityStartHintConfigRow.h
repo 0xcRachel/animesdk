@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167B3180)
-#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167B37B0)
+#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F29BD0)
+#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2A200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 10418;
+	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 10488;
 
 	class ActivityStartHintConfigRow : public ::System::Object
 	{

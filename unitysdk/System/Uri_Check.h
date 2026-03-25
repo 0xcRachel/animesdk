@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Uri_Check_TypeDefinitionIndex = 2449;
+	inline static constexpr unsigned int Uri_Check_TypeDefinitionIndex = 2454;
 
 	enum class Uri_Check : ::System::Int32
 	{

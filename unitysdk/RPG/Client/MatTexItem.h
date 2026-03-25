@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATTEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9648850)
+#define RPG_CLIENT_MATTEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2E720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatTexItem_TypeDefinitionIndex = 55832;
+	inline static constexpr unsigned int MatTexItem_TypeDefinitionIndex = 57397;
 
 	class MatTexItem : public ::System::Object
 	{

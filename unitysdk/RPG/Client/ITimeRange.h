@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITimeRange_TypeDefinitionIndex = 53841;
+	inline static constexpr unsigned int ITimeRange_TypeDefinitionIndex = 55393;
 
 	class ITimeRange
 	{

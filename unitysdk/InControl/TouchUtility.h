@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define INCONTROL_TOUCHUTILITY_ANCHORTOVIEWPOINT_OFFSET UNITYSDK_OFFSET(0x1550F700)
-#define INCONTROL_TOUCHUTILITY_ROUNDVECTOR_OFFSET UNITYSDK_OFFSET(0x1550F720)
+#define INCONTROL_TOUCHUTILITY_ANCHORTOVIEWPOINT_OFFSET UNITYSDK_OFFSET(0x15C294F0)
+#define INCONTROL_TOUCHUTILITY_ROUNDVECTOR_OFFSET UNITYSDK_OFFSET(0x15C29510)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchUtility_TypeDefinitionIndex = 30605;
+	inline static constexpr unsigned int TouchUtility_TypeDefinitionIndex = 31480;
 
 	class TouchUtility : public ::System::Object
 	{

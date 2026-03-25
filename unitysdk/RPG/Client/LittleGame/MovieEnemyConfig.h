@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/EnemyType.h"
 #include "unitysdk/RPG/Client/LittleGame/PlacementConfig.h"
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEENEMYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x161572E0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEENEMYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16865370)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieEnemyConfig_TypeDefinitionIndex = 31874;
+	inline static constexpr unsigned int MovieEnemyConfig_TypeDefinitionIndex = 32784;
 
 	class MovieEnemyConfig : public ::RPG::Client::LittleGame::PlacementConfig
 	{

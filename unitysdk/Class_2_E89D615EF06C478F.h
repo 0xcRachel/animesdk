@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_B55037134F9E6688.h"
 
-class Class_2_053DD8E4EC1165EB;
+class Class_2_843468DEB2C89684;
 namespace RPG::GameCore { class DiceCombatTaskConfig_RemoveModifier; }
 
-#define CLASS_2_E89D615EF06C478F_METHOD_2_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0x15F01EF0)
-#define CLASS_2_E89D615EF06C478F__CTOR_OFFSET UNITYSDK_OFFSET(0x15F01EE0)
+#define CLASS_2_E89D615EF06C478F_METHOD_2_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x166205A0)
+#define CLASS_2_E89D615EF06C478F__CTOR_OFFSET UNITYSDK_OFFSET(0x16620590)
 
-inline static constexpr unsigned int Class_2_E89D615EF06C478F_TypeDefinitionIndex = 27671;
+inline static constexpr unsigned int Class_2_E89D615EF06C478F_TypeDefinitionIndex = 28420;
 
 class Class_2_E89D615EF06C478F : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_053DD8E4EC1165EB* Field_2_1; // 0x18
+	::Class_2_843468DEB2C89684* Field_2_1; // 0x18
 	::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier* Field_2_0; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier* a1, ::Class_2_053DD8E4EC1165EB* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier* a1, ::Class_2_843468DEB2C89684* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*, ::Class_2_053DD8E4EC1165EB*))((::PBYTE)hIl2Cpp + CLASS_2_E89D615EF06C478F__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*, ::Class_2_843468DEB2C89684*))((::PBYTE)hIl2Cpp + CLASS_2_E89D615EF06C478F__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_10054BB010E03EDD()
+	::System::Void Method_2_06330CD58CB602B6()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E89D615EF06C478F_METHOD_2_10054BB010E03EDD_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E89D615EF06C478F_METHOD_2_06330CD58CB602B6_OFFSET))(this);
 	}
 };

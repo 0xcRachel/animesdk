@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/Entity.h"
 
-#define CLASS_2_7417CA3454CD3FC1__CTOR_OFFSET UNITYSDK_OFFSET(0x162D6AA0)
+#define CLASS_2_7417CA3454CD3FC1__CTOR_OFFSET UNITYSDK_OFFSET(0x1684E850)
 
-inline static constexpr unsigned int Class_2_7417CA3454CD3FC1_TypeDefinitionIndex = 31655;
+inline static constexpr unsigned int Class_2_7417CA3454CD3FC1_TypeDefinitionIndex = 32565;
 
 class Class_2_7417CA3454CD3FC1 : public ::Entitas::Entity
 {

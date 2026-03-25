@@ -4,33 +4,39 @@
 
 namespace RPG::Client { class ActivityElationAvatarData; }
 namespace RPG::Client { class AvatarData; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B113E0)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B11420)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_0_OFFSET UNITYSDK_OFFSET(0x8B11480)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GETSORTEDMONSTERS_B__49_0_OFFSET UNITYSDK_OFFSET(0x8B11430)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F124C0)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F12500)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_0_OFFSET UNITYSDK_OFFSET(0x8F12560)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_1_OFFSET UNITYSDK_OFFSET(0x8F12580)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GETSORTEDMONSTERS_B__49_0_OFFSET UNITYSDK_OFFSET(0x8F12510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityElationStage___c_TypeDefinitionIndex = 48773;
+	inline static constexpr unsigned int ActivityElationStage___c_TypeDefinitionIndex = 49907;
 
 	class ActivityElationStage___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::Client::IAvatarInfoProvider*>** StaticGet___9__54_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::Client::IAvatarInfoProvider*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x1DC10);
+		}
+		static ::System::Func_2<::RPG::Client::AvatarData*, ::RPG::Client::IAvatarInfoProvider*>** StaticGet___9__54_1()
+		{
+			return (::System::Func_2<::RPG::Client::AvatarData*, ::RPG::Client::IAvatarInfoProvider*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x1DC18);
+		}
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__49_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x169D0);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::Client::AvatarData*>** StaticGet___9__54_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::Client::AvatarData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x169D8);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x1DC20);
 		}
 		static ::RPG::Client::ActivityElationStage___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityElationStage___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x169E0);
+			return (::RPG::Client::ActivityElationStage___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityElationStage___c_TypeDefinitionIndex)->GetStaticField(0x1DC28);
 		}
 
 		static ::System::Void _cctor()
@@ -48,9 +54,14 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MonsterData*, ::RPG::Client::MonsterData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GETSORTEDMONSTERS_B__49_0_OFFSET))(this, a, b);
 		}
 
-		::RPG::Client::AvatarData* _GerSelectableAvatarDataList_b__54_0(::RPG::Client::ActivityElationAvatarData* data)
+		::RPG::Client::IAvatarInfoProvider* _GerSelectableAvatarDataList_b__54_0(::RPG::Client::ActivityElationAvatarData* data)
 		{
-			return ((::RPG::Client::AvatarData*(*)(::PVOID, ::RPG::Client::ActivityElationAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_0_OFFSET))(this, data);
+			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID, ::RPG::Client::ActivityElationAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_0_OFFSET))(this, data);
+		}
+
+		::RPG::Client::IAvatarInfoProvider* _GerSelectableAvatarDataList_b__54_1(::RPG::Client::AvatarData* a)
+		{
+			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_1_OFFSET))(this, a);
 		}
 	};
 }

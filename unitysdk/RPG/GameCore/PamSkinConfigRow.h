@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMSKINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D15410)
-#define RPG_GAMECORE_PAMSKINCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D155B0)
+#define RPG_GAMECORE_PAMSKINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1749BD10)
+#define RPG_GAMECORE_PAMSKINCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1749BEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamSkinConfigRow_TypeDefinitionIndex = 13044;
+	inline static constexpr unsigned int PamSkinConfigRow_TypeDefinitionIndex = 13115;
 
 	class PamSkinConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ConfigEntityPath; // 0x10
-		::System::String* SkinIcon; // 0x18
-		::System::String* JsonPath; // 0x20
+		::System::String* JsonPath; // 0x10
+		::System::String* ConfigEntityPath; // 0x18
+		::System::String* SkinIcon; // 0x20
 		::System::UInt32 SkinID; // 0x28
 
 		::System::Void _ctor()

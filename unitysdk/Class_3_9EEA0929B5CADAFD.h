@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByComparePlanetFesEventProgressLeft; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9EEA0929B5CADAFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x9E94F80)
-#define CLASS_3_9EEA0929B5CADAFD__CTOR_OFFSET UNITYSDK_OFFSET(0x9E94F50)
+#define CLASS_3_9EEA0929B5CADAFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8D66A20)
+#define CLASS_3_9EEA0929B5CADAFD__CTOR_OFFSET UNITYSDK_OFFSET(0x8D669F0)
 
-inline static constexpr unsigned int Class_3_9EEA0929B5CADAFD_TypeDefinitionIndex = 45687;
+inline static constexpr unsigned int Class_3_9EEA0929B5CADAFD_TypeDefinitionIndex = 46752;
 
 class Class_3_9EEA0929B5CADAFD : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByComparePlanetFesEventProgressLeft*>
 {

@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
+#include "unitysdk/RPG/Client/Multithread/SchedulerType.h"
+#include "unitysdk/Unity/Jobs/JobHandle.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_249_TypeDefinitionIndex = 33014;
+class Class_0_16E4307DCC419505_247;
 
-template <typename TKey, typename TValue>
+inline static constexpr unsigned int Class_0_16E4307DCC419505_249_TypeDefinitionIndex = 33780;
+
 class Class_0_16E4307DCC419505_249
 {
 public:

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightDropCfgType_TypeDefinitionIndex = 20170;
+	inline static constexpr unsigned int GridFightDropCfgType_TypeDefinitionIndex = 20714;
 
 	enum class GridFightDropCfgType : ::System::Int32
 	{

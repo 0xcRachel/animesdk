@@ -8,22 +8,22 @@ namespace RPG::Client { class RogueMagicStyleTypeInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9E0C940)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETAVAILABLESTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0x9E1B7D0)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETSTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0x9E1B4D0)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GET_UNLOCKEDSTYLETYPELIST_OFFSET UNITYSDK_OFFSET(0x9E1BD00)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_SYNCUNLOCKINFO_OFFSET UNITYSDK_OFFSET(0x9E0FD20)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9E0B7C0)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA32E400)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETAVAILABLESTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0xA33D1F0)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETSTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0xA33CF10)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GET_UNLOCKEDSTYLETYPELIST_OFFSET UNITYSDK_OFFSET(0xA33D700)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_SYNCUNLOCKINFO_OFFSET UNITYSDK_OFFSET(0xA3317B0)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA32D260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicStyleTypeCollection_TypeDefinitionIndex = 53595;
+	inline static constexpr unsigned int RogueMagicStyleTypeCollection_TypeDefinitionIndex = 54952;
 
 	class RogueMagicStyleTypeCollection : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _UnlockedStyleTypeList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicStyleType, ::RPG::Client::RogueMagicStyleTypeInfo*>* _StyleTypeInfoDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicStyleType, ::RPG::Client::RogueMagicStyleTypeInfo*>* _StyleTypeInfoDict; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _UnlockedStyleTypeList; // 0x18
 
 		::System::Void _ctor()
 		{

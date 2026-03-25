@@ -48,7 +48,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRCompositor__WaitGetPoses; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor_TypeDefinitionIndex = 29181;
+	inline static constexpr unsigned int IVRCompositor_TypeDefinitionIndex = 30056;
 
 	struct alignas(8) IVRCompositor
 	{

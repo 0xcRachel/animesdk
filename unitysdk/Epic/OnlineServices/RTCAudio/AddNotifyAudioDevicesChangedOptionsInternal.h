@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::RTCAudio { class AddNotifyAudioDevicesChangedOpt
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_RTCAUDIO_ADDNOTIFYAUDIODEVICESCHANGEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_RTCAUDIO_ADDNOTIFYAUDIODEVICESCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6A740)
+#define EPIC_ONLINESERVICES_RTCAUDIO_ADDNOTIFYAUDIODEVICESCHANGEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x6A8C0)
 #define EPIC_ONLINESERVICES_RTCAUDIO_ADDNOTIFYAUDIODEVICESCHANGEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int AddNotifyAudioDevicesChangedOptionsInternal_TypeDefinitionIndex = 34662;
+	inline static constexpr unsigned int AddNotifyAudioDevicesChangedOptionsInternal_TypeDefinitionIndex = 35596;
 
 	struct alignas(4) AddNotifyAudioDevicesChangedOptionsInternal
 	{

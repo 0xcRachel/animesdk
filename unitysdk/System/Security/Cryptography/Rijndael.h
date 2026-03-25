@@ -4,24 +4,24 @@
 
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CREATE_OFFSET UNITYSDK_OFFSET(0x15B1ED20)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B1EE90)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1ECB0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CREATE_OFFSET UNITYSDK_OFFSET(0x161E8930)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x161E8A40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL__CTOR_OFFSET UNITYSDK_OFFSET(0x161E88C0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int Rijndael_TypeDefinitionIndex = 1027;
+	inline static constexpr unsigned int Rijndael_TypeDefinitionIndex = 1032;
 
 	class Rijndael : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Rijndael_TypeDefinitionIndex)->GetStaticField(0xB5E0);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Rijndael_TypeDefinitionIndex)->GetStaticField(0xC560);
 		}
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Rijndael_TypeDefinitionIndex)->GetStaticField(0xB5E8);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(Rijndael_TypeDefinitionIndex)->GetStaticField(0xC568);
 		}
 
 		::System::Void _ctor()

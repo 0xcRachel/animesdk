@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceBackupConfig; }
 
-#define RPG_GAMECORE_PERFORMANCESORTEDITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D2E040)
-#define RPG_GAMECORE_PERFORMANCESORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D2E2D0)
+#define RPG_GAMECORE_PERFORMANCESORTEDITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B6070)
+#define RPG_GAMECORE_PERFORMANCESORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x174B6300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSortedItem_TypeDefinitionIndex = 17045;
+	inline static constexpr unsigned int PerformanceSortedItem_TypeDefinitionIndex = 17450;
 
 	class PerformanceSortedItem : public ::RPG::GameCore::JsonConfig
 	{

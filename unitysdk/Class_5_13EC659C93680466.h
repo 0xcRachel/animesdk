@@ -8,7 +8,7 @@ namespace System { class String; }
 namespace UnityEngine { class Object; }
 template <typename T> class Class_5_13EC659C93680466;
 
-inline static constexpr unsigned int Class_5_13EC659C93680466_TypeDefinitionIndex = 39237;
+inline static constexpr unsigned int Class_5_13EC659C93680466_TypeDefinitionIndex = 40217;
 
 template <typename D>
 class Class_5_13EC659C93680466 : public ::Class_4_05FF35658BCCC951<D>

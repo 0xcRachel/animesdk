@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimPipePortalConfig; }
 
-#define CLASS_1_DD7FDD65A35FA686__CTOR_OFFSET UNITYSDK_OFFSET(0x160CC650)
+#define CLASS_1_DD7FDD65A35FA686__CTOR_OFFSET UNITYSDK_OFFSET(0x167C0630)
 
-inline static constexpr unsigned int Class_1_DD7FDD65A35FA686_TypeDefinitionIndex = 32586;
+inline static constexpr unsigned int Class_1_DD7FDD65A35FA686_TypeDefinitionIndex = 33509;
 
 class Class_1_DD7FDD65A35FA686 : public ::System::Object
 {

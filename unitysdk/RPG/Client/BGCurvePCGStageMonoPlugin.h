@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_BGCURVEPCGSTAGEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x8D6E3E0)
+#define RPG_CLIENT_BGCURVEPCGSTAGEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9179450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BGCurvePCGStageMonoPlugin_TypeDefinitionIndex = 54607;
+	inline static constexpr unsigned int BGCurvePCGStageMonoPlugin_TypeDefinitionIndex = 56167;
 
 	class BGCurvePCGStageMonoPlugin : public ::UnityEngine::MonoBehaviour
 	{

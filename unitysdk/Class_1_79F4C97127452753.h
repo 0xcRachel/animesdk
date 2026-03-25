@@ -7,25 +7,25 @@ namespace RPG::GameCore { class FiveDimCustomLoadConfig; }
 namespace RPG::GameCore { class FiveDimEntityVarConfig; }
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 
-#define CLASS_1_79F4C97127452753_CLEAR_OFFSET UNITYSDK_OFFSET(0x162D75F0)
-#define CLASS_1_79F4C97127452753_ONALLOC_OFFSET UNITYSDK_OFFSET(0x162D7670)
-#define CLASS_1_79F4C97127452753_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x162D7700)
-#define CLASS_1_79F4C97127452753__CTOR_OFFSET UNITYSDK_OFFSET(0x162D7740)
+#define CLASS_1_79F4C97127452753_CLEAR_OFFSET UNITYSDK_OFFSET(0x16788BA0)
+#define CLASS_1_79F4C97127452753_ONALLOC_OFFSET UNITYSDK_OFFSET(0x16788C20)
+#define CLASS_1_79F4C97127452753_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x16788CB0)
+#define CLASS_1_79F4C97127452753__CTOR_OFFSET UNITYSDK_OFFSET(0x16788CF0)
 
-inline static constexpr unsigned int Class_1_79F4C97127452753_TypeDefinitionIndex = 32477;
+inline static constexpr unsigned int Class_1_79F4C97127452753_TypeDefinitionIndex = 33388;
 
 class Class_1_79F4C97127452753 : public ::System::Object
 {
 public:
-	::RPG::GameCore::LittleGameEntityConfig* Field_1_1; // 0x10
-	::RPG::GameCore::FiveDimEntityVarConfig* Field_1_3; // 0x18
+	::RPG::GameCore::FiveDimEntityVarConfig* Field_1_3; // 0x10
+	::RPG::GameCore::LittleGameEntityConfig* Field_1_1; // 0x18
 	::RPG::GameCore::FiveDimCustomLoadConfig* Field_1_2; // 0x20
 	::RPG::PoolList_1<::System::UInt32>* Field_1_5; // 0x28
-	::System::UInt32 Field_1_0; // 0x30
-	::System::UInt32 Field_1_4; // 0x34
-	::System::Int32 Field_1_8; // 0x38
-	::System::Boolean Field_1_6; // 0x3C
-	::System::Boolean Field_1_7; // 0x3D
+	::System::UInt32 Field_1_4; // 0x30
+	::System::Boolean Field_1_6; // 0x34
+	::System::Boolean Field_1_7; // 0x35
+	::System::UInt32 Field_1_0; // 0x38
+	::System::Int32 Field_1_8; // 0x3C
 
 	::System::Void _ctor()
 	{

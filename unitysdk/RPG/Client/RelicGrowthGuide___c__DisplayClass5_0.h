@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_RELICGROWTHGUIDE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9D8C860)
-#define RPG_CLIENT_RELICGROWTHGUIDE___C__DISPLAYCLASS5_0__REQUESTRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9D8C8E0)
+#define RPG_CLIENT_RELICGROWTHGUIDE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2AD810)
+#define RPG_CLIENT_RELICGROWTHGUIDE___C__DISPLAYCLASS5_0__REQUESTRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA2AD890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicGrowthGuide___c__DisplayClass5_0_TypeDefinitionIndex = 52094;
+	inline static constexpr unsigned int RelicGrowthGuide___c__DisplayClass5_0_TypeDefinitionIndex = 53228;
 
 	class RelicGrowthGuide___c__DisplayClass5_0 : public ::System::Object
 	{

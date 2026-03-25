@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEMDEBUG_MESHLETBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x10AD4E20)
+#define IRICLUSTERBUILDER_IRIMESHCLUSTERITEMDEBUG_MESHLETBOUNDS__CTOR_OFFSET UNITYSDK_OFFSET(0x111EA5F0)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRIMeshClusterItemDebug_MeshletBounds_TypeDefinitionIndex = 37665;
+	inline static constexpr unsigned int IRIMeshClusterItemDebug_MeshletBounds_TypeDefinitionIndex = 38627;
 
 	class IRIMeshClusterItemDebug_MeshletBounds : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY0__CTOR_OFFSET UNITYSDK_OFFSET(0x1543D0E0)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B56E00)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey0_TypeDefinitionIndex = 9330;
+	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey0_TypeDefinitionIndex = 9797;
 
 	class GenericDelegateFactory__Create_c__AnonStorey0 : public ::System::Object
 	{

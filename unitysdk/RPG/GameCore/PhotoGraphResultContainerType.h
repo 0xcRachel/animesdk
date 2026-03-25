@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphResultContainerType_TypeDefinitionIndex = 19257;
+	inline static constexpr unsigned int PhotoGraphResultContainerType_TypeDefinitionIndex = 19783;
 
 	enum class PhotoGraphResultContainerType : ::System::Int32
 	{

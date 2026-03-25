@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA_GET_TIME_OFFSET UNITYSDK_OFFSET(0x9306150)
-#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x93061E0)
+#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA_GET_TIME_OFFSET UNITYSDK_OFFSET(0x97C4390)
+#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_HISTORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x97C4420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_HistoryData_TypeDefinitionIndex = 53783;
+	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_HistoryData_TypeDefinitionIndex = 55295;
 
 	class GetRogueTournBuildRefHistoryHttpRsp_HistoryData : public ::System::Object
 	{

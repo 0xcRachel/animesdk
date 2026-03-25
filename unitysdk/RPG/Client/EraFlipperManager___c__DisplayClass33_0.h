@@ -5,12 +5,12 @@
 class Class_1_ECBCF86CDE61CBCA;
 namespace RPG::GameCore { class EraRegion; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x91877B0)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__ONREGIONVISUALSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x9188A10)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9634940)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__ONREGIONVISUALSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x9635BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass33_0_TypeDefinitionIndex = 47919;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass33_0_TypeDefinitionIndex = 49001;
 
 	class EraFlipperManager___c__DisplayClass33_0 : public ::System::Object
 	{

@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_2932F8DCC5CA2CFD_OFFSET UNITYSDK_OFFSET(0x16A41B50)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_400FDA632843C14C_OFFSET UNITYSDK_OFFSET(0x16A435C0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16A41B30)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_4B7B759928DFCECF_OFFSET UNITYSDK_OFFSET(0x17186020)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_76A2F268F79DD662_OFFSET UNITYSDK_OFFSET(0x17183B00)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17183AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_WriteCustomValue_EntityData_TypeDefinitionIndex = 14512;
+	inline static constexpr unsigned int DiceCombatTaskConfig_WriteCustomValue_EntityData_TypeDefinitionIndex = 14764;
 
 	class DiceCombatTaskConfig_WriteCustomValue_EntityData : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -28,14 +28,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_400FDA632843C14C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData*& a2)
+		static ::System::Void Method_3_4B7B759928DFCECF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_400FDA632843C14C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_4B7B759928DFCECF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2932F8DCC5CA2CFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData* a2)
+		static ::System::Void Method_3_76A2F268F79DD662(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_2932F8DCC5CA2CFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue_EntityData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_WRITECUSTOMVALUE_ENTITYDATA_METHOD_3_76A2F268F79DD662_OFFSET))(a1, a2);
 		}
 	};
 }

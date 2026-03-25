@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VREvent_Data_t.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x2062730)
-#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x20626E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x2139040)
+#define ZENFULCRUM_VR_OPENVRBINDING_VREVENT_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x2138FF0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_t_Packed_TypeDefinitionIndex = 29470;
+	inline static constexpr unsigned int VREvent_t_Packed_TypeDefinitionIndex = 30345;
 
 	struct alignas(4) VREvent_t_Packed
 	{

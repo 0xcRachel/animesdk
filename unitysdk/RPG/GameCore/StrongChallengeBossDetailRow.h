@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FA3690)
-#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA3880)
+#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17797910)
+#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17797B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeBossDetailRow_TypeDefinitionIndex = 11261;
+	inline static constexpr unsigned int StrongChallengeBossDetailRow_TypeDefinitionIndex = 11329;
 
 	class StrongChallengeBossDetailRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::RPG::Client::TextID Detail; // 0x20
+		::RPG::Client::TextID Detail; // 0x10
+		::RPG::Client::TextID Name; // 0x20
 		::System::UInt32 BossDetailID; // 0x30
 
 		::System::Void _ctor()

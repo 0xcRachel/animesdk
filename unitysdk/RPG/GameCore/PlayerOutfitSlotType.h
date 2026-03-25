@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerOutfitSlotType_TypeDefinitionIndex = 13174;
+	inline static constexpr unsigned int PlayerOutfitSlotType_TypeDefinitionIndex = 13248;
 
 	enum class PlayerOutfitSlotType : ::System::Int32
 	{

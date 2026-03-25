@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_APPLEMFIMICROGAMEPADNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1547FB60)
-#define INCONTROL_NATIVEDEVICEPROFILES_APPLEMFIMICROGAMEPADNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15480340)
+#define INCONTROL_NATIVEDEVICEPROFILES_APPLEMFIMICROGAMEPADNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B99960)
+#define INCONTROL_NATIVEDEVICEPROFILES_APPLEMFIMICROGAMEPADNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9A140)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int AppleMFiMicroGamepadNativeProfile_TypeDefinitionIndex = 30956;
+	inline static constexpr unsigned int AppleMFiMicroGamepadNativeProfile_TypeDefinitionIndex = 31831;
 
 	class AppleMFiMicroGamepadNativeProfile : public ::InControl::InputDeviceProfile
 	{

@@ -10,12 +10,12 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x156BC610)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x156DEAE0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15DACE70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCF300)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 27394;
+	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 28130;
 
 	class OneofAccessor : public ::System::Object
 	{

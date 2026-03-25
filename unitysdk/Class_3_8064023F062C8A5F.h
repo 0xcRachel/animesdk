@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RogueWolfGunRandomCase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8064023F062C8A5F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11216C10)
-#define CLASS_3_8064023F062C8A5F__CTOR_OFFSET UNITYSDK_OFFSET(0x11216BE0)
+#define CLASS_3_8064023F062C8A5F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8E25EF0)
+#define CLASS_3_8064023F062C8A5F__CTOR_OFFSET UNITYSDK_OFFSET(0x8E25EC0)
 
-inline static constexpr unsigned int Class_3_8064023F062C8A5F_TypeDefinitionIndex = 46118;
+inline static constexpr unsigned int Class_3_8064023F062C8A5F_TypeDefinitionIndex = 47192;
 
 class Class_3_8064023F062C8A5F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueWolfGunRandomCase*>
 {

@@ -2,7 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
 #include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+#include "unitysdk/RPG/ZLinq/FromFixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/ZLinq/ValueEnumerable_2.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueMiracleRow; }
@@ -11,45 +13,46 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16E8F400)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16E8F250)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16E8EF20)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16E8F1F0)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16E8F580)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16E8EFA0)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16E8F5C0)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E8F7A0)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16E8F970)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E8FC80)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16E8F700)
-#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16E8F660)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x17630220)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x176302E0)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17630070)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1762FD40)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17630010)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17630460)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1762FDC0)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x176304A0)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17630680)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17630850)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17630B60)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x176305E0)
+#define RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17630540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleExcelTable_TypeDefinitionIndex = 13380;
+	inline static constexpr unsigned int RogueMiracleExcelTable_TypeDefinitionIndex = 13456;
 
 	class RogueMiracleExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x2D9F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x189E0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x2D9F8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x189E8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x2DA00);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0xAA50);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x189F0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0xAA51);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x9480);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueMiracleExcelTable_TypeDefinitionIndex)->GetStaticField(0x9481);
 		}
 
 		static ::System::Void _cctor()
@@ -70,6 +73,11 @@ namespace RPG::GameCore
 		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*> GetEnumerator()
 		{
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_GETENUMERATOR_OFFSET))();
+		}
+
+		static ::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*>, ::RPG::GameCore::RogueMiracleRow*> AsZLinqEnumerable()
+		{
+			return ((::ZLinq::ValueEnumerable_2<::RPG::ZLinq::FromFixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMiracleRow*>, ::RPG::GameCore::RogueMiracleRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMIRACLEEXCELTABLE_ASZLINQENUMERABLE_OFFSET))();
 		}
 
 		static ::RPG::GameCore::RogueMiracleRow* GetData(::System::UInt32 MiracleID)

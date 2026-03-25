@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSTAGENODEDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4B240)
-#define RPG_GAMECORE_GRIDFIGHTSTAGENODEDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4B530)
+#define RPG_GAMECORE_GRIDFIGHTSTAGENODEDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17299940)
+#define RPG_GAMECORE_GRIDFIGHTSTAGENODEDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17299C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightStageNodeDisplayConfigRow_TypeDefinitionIndex = 12401;
+	inline static constexpr unsigned int GridFightStageNodeDisplayConfigRow_TypeDefinitionIndex = 12471;
 
 	class GridFightStageNodeDisplayConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* NodePic; // 0x10
-		::RPG::Client::TextID NodeDesc; // 0x18
-		::RPG::Client::TextID NodeName; // 0x28
-		::RPG::GameCore::GridFightNodeType NodeType; // 0x38
+		::RPG::GameCore::GridFightNodeType NodeType; // 0x18
+		::RPG::Client::TextID NodeName; // 0x20
+		::RPG::Client::TextID NodeDesc; // 0x30
 		::RPG::Client::TextID NodeDetailName; // 0x40
 
 		::System::Void _ctor()

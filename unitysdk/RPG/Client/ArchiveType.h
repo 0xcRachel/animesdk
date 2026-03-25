@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArchiveType_TypeDefinitionIndex = 49572;
+	inline static constexpr unsigned int ArchiveType_TypeDefinitionIndex = 50705;
 
 	enum class ArchiveType : ::System::Int32
 	{

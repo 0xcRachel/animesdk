@@ -1,9 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
 
 namespace MessagePack::Internal { class AutomataDictionary_AutomataNode; }
 namespace System { class Action; }
@@ -16,20 +14,18 @@ namespace System::Reflection::Emit { class ILGenerator; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 namespace System::Text { class StringBuilder; }
 
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_ADD_OFFSET UNITYSDK_OFFSET(0x15642890)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_EMITMATCH_OFFSET UNITYSDK_OFFSET(0x15643A50)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15643870)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15643860)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TOSTRINGCORE_OFFSET UNITYSDK_OFFSET(0x156433C0)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15643270)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TRYGETVALUE_1_OFFSET UNITYSDK_OFFSET(0x15643090)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x15642FC0)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_YIELDCORE_OFFSET UNITYSDK_OFFSET(0x156439D0)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x156427F0)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_ADD_OFFSET UNITYSDK_OFFSET(0x15D53460)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_EMITMATCH_OFFSET UNITYSDK_OFFSET(0x15D54390)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15D541B0)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15D541A0)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TOSTRINGCORE_OFFSET UNITYSDK_OFFSET(0x15D53D00)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D53BB0)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_YIELDCORE_OFFSET UNITYSDK_OFFSET(0x15D54310)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x15D533C0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AutomataDictionary_TypeDefinitionIndex = 9575;
+	inline static constexpr unsigned int AutomataDictionary_TypeDefinitionIndex = 9135;
 
 	class AutomataDictionary : public ::System::Object
 	{
@@ -44,16 +40,6 @@ namespace MessagePack::Internal
 		::System::Void Add(::System::String* str, ::System::Int32 value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_ADD_OFFSET))(this, str, value);
-		}
-
-		::System::Boolean TryGetValue(::System::Buffers::ReadOnlySequence_1<::System::Byte>& bytes, ::System::Int32& value)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Buffers::ReadOnlySequence_1<::System::Byte>&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TRYGETVALUE_OFFSET))(this, bytes, value);
-		}
-
-		::System::Boolean TryGetValue_1(::System::ReadOnlySpan_1<::System::Byte> bytes, ::System::Int32& value)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_TRYGETVALUE_1_OFFSET))(this, bytes, value);
 		}
 
 		::System::String* ToString()

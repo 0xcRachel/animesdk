@@ -5,19 +5,19 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_ROTATE_OFFSET UNITYSDK_OFFSET(0xA4B7F80)
-#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_SYNCROOTPOS_OFFSET UNITYSDK_OFFSET(0xA4B7E40)
-#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B7E30)
+#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_ROTATE_OFFSET UNITYSDK_OFFSET(0xA9A86E0)
+#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG_SYNCROOTPOS_OFFSET UNITYSDK_OFFSET(0xA9A85A0)
+#define RPG_GAMECORE_MARBLEDRAGGUIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA9A8590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleDragGuideConfig_TypeDefinitionIndex = 41285;
+	inline static constexpr unsigned int MarbleDragGuideConfig_TypeDefinitionIndex = 42328;
 
 	class MarbleDragGuideConfig : public ::System::Object
 	{
 	public:
-		::System::Single RotationAngle; // 0x10
-		::UnityEngine::Vector2 RootScreenPos; // 0x14
+		::UnityEngine::Vector2 RootScreenPos; // 0x10
+		::System::Single RotationAngle; // 0x18
 
 		::System::Void _ctor()
 		{

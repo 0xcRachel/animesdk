@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F9FBCC956DFCF137_13;
+class Class_1_F9FBCC956DFCF137_14;
 class Class_2_6AA7CA7493367EF4;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelSummonChimeraDisplayData; }
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x951D590)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_FLYTOSUMMONQUEUEFINISH_OFFSET UNITYSDK_OFFSET(0x951D700)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_TICK_OFFSET UNITYSDK_OFFSET(0x951D760)
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x951D240)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x99ADD50)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_FLYTOSUMMONQUEUEFINISH_OFFSET UNITYSDK_OFFSET(0x99ADEC0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_TICK_OFFSET UNITYSDK_OFFSET(0x99ADF20)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x99ADA00)
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelSyncSummonQueueCommand_TypeDefinitionIndex = 61209;
+	inline static constexpr unsigned int ChimeraDuelSyncSummonQueueCommand_TypeDefinitionIndex = 63208;
 
 	class ChimeraDuelSyncSummonQueueCommand : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelSummonChimeraDisplayData*>* EnemySummonQueue; // 0x10
-		::RPG::Client::Prop::DuelChimeraProxy* Caster; // 0x18
+		::System::Action* _OnComplete; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelSummonChimeraDisplayData*>* AllySummonQueue; // 0x20
-		::System::Action* _OnComplete; // 0x28
+		::RPG::Client::Prop::DuelChimeraProxy* Caster; // 0x28
 		::System::Int32 _CasterID; // 0x30
 		::System::Boolean _IsComplete; // 0x34
 
@@ -33,9 +33,9 @@ namespace RPG::Client::LittleGame::ChimeraDuel
 			return ((::System::Void(*)(::PVOID, ::Class_2_6AA7CA7493367EF4*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND__CTOR_OFFSET))(this, context, casterID);
 		}
 
-		::System::Void Execute(::Class_1_F9FBCC956DFCF137_13* nodeContext, ::System::Action* onComplete)
+		::System::Void Execute(::Class_1_F9FBCC956DFCF137_14* nodeContext, ::System::Action* onComplete)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_13*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_EXECUTE_OFFSET))(this, nodeContext, onComplete);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_14*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSYNCSUMMONQUEUECOMMAND_EXECUTE_OFFSET))(this, nodeContext, onComplete);
 		}
 
 		::System::Void FlyToSummonQueueFinish()

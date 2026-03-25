@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEBATTLEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F84400)
-#define RPG_GAMECORE_STAGEBATTLEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F847B0)
+#define RPG_GAMECORE_STAGEBATTLEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17778590)
+#define RPG_GAMECORE_STAGEBATTLEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17778940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageBattleEventRow_TypeDefinitionIndex = 13762;
+	inline static constexpr unsigned int StageBattleEventRow_TypeDefinitionIndex = 13876;
 
 	class StageBattleEventRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::Il2CppArray<::System::String*>* SelfModifierNameList; // 0x18
-		::Il2CppArray<::System::String*>* AbilityNameList; // 0x20
-		::System::String* IconPath; // 0x28
-		::Il2CppArray<::System::String*>* ModifierNameList; // 0x30
-		::System::Boolean IncludeAvatar; // 0x38
-		::System::Boolean IncludeMonster; // 0x39
-		::RPG::GameCore::StageBattleEventType EventType; // 0x3C
+		::Il2CppArray<::System::String*>* AbilityNameList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::Il2CppArray<::System::String*>* ModifierNameList; // 0x20
+		::Il2CppArray<::System::String*>* SelfModifierNameList; // 0x28
+		::System::String* IconPath; // 0x30
+		::RPG::GameCore::StageBattleEventType EventType; // 0x38
+		::System::Boolean IncludeMonster; // 0x3C
+		::System::Boolean IncludeAvatar; // 0x3D
 		::System::UInt32 EventID; // 0x40
 
 		::System::Void _ctor()

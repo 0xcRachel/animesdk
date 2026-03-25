@@ -7,11 +7,11 @@ namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class Session; }
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C9140)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SESSIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xAB0CC20)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int SessionResult_TypeDefinitionIndex = 40815;
+	inline static constexpr unsigned int SessionResult_TypeDefinitionIndex = 41863;
 
 	class SessionResult : public ::System::Object
 	{

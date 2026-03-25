@@ -8,18 +8,18 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindChestFuncDataRow___O_TypeDefinitionIndex = 12065;
+	inline static constexpr unsigned int FindChestFuncDataRow___O_TypeDefinitionIndex = 12135;
 
 	class FindChestFuncDataRow___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>** StaticGet__0___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataRow___O_TypeDefinitionIndex)->GetStaticField(0x2A1B0);
-		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ChestType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ChestType>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataRow___O_TypeDefinitionIndex)->GetStaticField(0x2A1B8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ChestType>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataRow___O_TypeDefinitionIndex)->GetStaticField(0x3D250);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>** StaticGet__0___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataRow___O_TypeDefinitionIndex)->GetStaticField(0x3D258);
 		}
 	};
 }

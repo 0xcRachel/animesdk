@@ -6,13 +6,13 @@ namespace RPG::Client { class BatchAnimationAttachPointMapping_AttachPoint; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0x8D7E0D0)
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0x8D7E000)
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x8D7E1E0)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0x9189150)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_GETBONEINDEX_OFFSET UNITYSDK_OFFSET(0x9189040)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x9189260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationAttachPointMapping_TypeDefinitionIndex = 55248;
+	inline static constexpr unsigned int BatchAnimationAttachPointMapping_TypeDefinitionIndex = 56813;
 
 	class BatchAnimationAttachPointMapping : public ::UnityEngine::MonoBehaviour
 	{

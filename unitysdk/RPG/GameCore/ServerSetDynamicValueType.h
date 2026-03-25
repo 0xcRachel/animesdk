@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerSetDynamicValueType_TypeDefinitionIndex = 19442;
+	inline static constexpr unsigned int ServerSetDynamicValueType_TypeDefinitionIndex = 19968;
 
 	enum class ServerSetDynamicValueType : ::System::Int32
 	{

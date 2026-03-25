@@ -8,11 +8,11 @@ namespace RPG::GameCore { class AdvSetDynamicValueByTargetDistance; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B6A7C315FC7EE469_METHOD_3_4D047432F8151DA0_OFFSET UNITYSDK_OFFSET(0x10FCE490)
-#define CLASS_3_B6A7C315FC7EE469_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10FCE020)
-#define CLASS_3_B6A7C315FC7EE469__CTOR_OFFSET UNITYSDK_OFFSET(0x10FCDFF0)
+#define CLASS_3_B6A7C315FC7EE469_METHOD_3_4D047432F8151DA0_OFFSET UNITYSDK_OFFSET(0x11066F80)
+#define CLASS_3_B6A7C315FC7EE469_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11066B10)
+#define CLASS_3_B6A7C315FC7EE469__CTOR_OFFSET UNITYSDK_OFFSET(0x11066AE0)
 
-inline static constexpr unsigned int Class_3_B6A7C315FC7EE469_TypeDefinitionIndex = 45606;
+inline static constexpr unsigned int Class_3_B6A7C315FC7EE469_TypeDefinitionIndex = 46670;
 
 class Class_3_B6A7C315FC7EE469 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetDynamicValueByTargetDistance*>
 {

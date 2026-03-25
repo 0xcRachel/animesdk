@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightParticleEffect.h"
 
-#define RPG_CLIENT_GRIDFIGHTUPGRADEREFRESHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x946B800)
+#define RPG_CLIENT_GRIDFIGHTUPGRADEREFRESHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x98EF0B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUpgradeRefreshEffect_TypeDefinitionIndex = 51268;
+	inline static constexpr unsigned int GridFightUpgradeRefreshEffect_TypeDefinitionIndex = 52401;
 
 	class GridFightUpgradeRefreshEffect : public ::RPG::Client::GridFightParticleEffect
 	{

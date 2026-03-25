@@ -2,17 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDENHANCEROGUEBUFFCSREQ_OFFSET UNITYSDK_OFFSET(0x9F84680)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDGETROGUEBUFFENHANCEINFOSCREQ_OFFSET UNITYSDK_OFFSET(0x9F845C0)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDPICKROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0x9F84180)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0x9F84340)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x9F84760)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDENHANCEROGUEBUFFCSREQ_OFFSET UNITYSDK_OFFSET(0xA4A48E0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDGETROGUEBUFFENHANCEINFOSCREQ_OFFSET UNITYSDK_OFFSET(0xA4A4820)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDPICKROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0xA4A41B0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0xA4A4380)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A49C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimulatedRogueSendPacketCmd_TypeDefinitionIndex = 53493;
+	inline static constexpr unsigned int SimulatedRogueSendPacketCmd_TypeDefinitionIndex = 54834;
 
 	class SimulatedRogueSendPacketCmd : public ::System::Object
 	{
@@ -27,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDPICKROGUEAVATARCSREQ_OFFSET))(this, propEntityID, avatarIDList, specialIDList);
 		}
 
-		::System::Void SendReviveRogueAvatarCsReq(::System::Collections::Generic::List_1<::System::UInt32>* avatarIDList)
+		::System::Void SendReviveRogueAvatarCsReq(::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* avatars)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET))(this, avatarIDList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET))(this, avatars);
 		}
 
 		::System::Void SendGetRogueBuffEnhanceInfoScReq()

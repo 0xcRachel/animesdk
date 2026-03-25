@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnumEnterPerformanceResult_TypeDefinitionIndex = 48087;
+	inline static constexpr unsigned int EnumEnterPerformanceResult_TypeDefinitionIndex = 49175;
 
 	enum class EnumEnterPerformanceResult : ::System::Int32
 	{

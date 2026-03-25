@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define MONODEBUGUI_GET_FPSTEXT_OFFSET UNITYSDK_OFFSET(0x111FF100)
-#define MONODEBUGUI_START_OFFSET UNITYSDK_OFFSET(0x111FF110)
-#define MONODEBUGUI_UPDATE_OFFSET UNITYSDK_OFFSET(0x111FF2D0)
-#define MONODEBUGUI__CTOR_OFFSET UNITYSDK_OFFSET(0x111FF4F0)
+#define MONODEBUGUI_GET_FPSTEXT_OFFSET UNITYSDK_OFFSET(0x88C97D0)
+#define MONODEBUGUI_START_OFFSET UNITYSDK_OFFSET(0x88C97E0)
+#define MONODEBUGUI_UPDATE_OFFSET UNITYSDK_OFFSET(0x88C99A0)
+#define MONODEBUGUI__CTOR_OFFSET UNITYSDK_OFFSET(0x88C9BC0)
 
-inline static constexpr unsigned int MonoDebugUI_TypeDefinitionIndex = 37476;
+inline static constexpr unsigned int MonoDebugUI_TypeDefinitionIndex = 38440;
 
 class MonoDebugUI : public ::UnityEngine::MonoBehaviour
 {

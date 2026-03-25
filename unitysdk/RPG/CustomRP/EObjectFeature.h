@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int EObjectFeature_TypeDefinitionIndex = 28396;
+	inline static constexpr unsigned int EObjectFeature_TypeDefinitionIndex = 29271;
 
 	enum class EObjectFeature : ::System::Int32
 	{

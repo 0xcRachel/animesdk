@@ -6,21 +6,21 @@ namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace MiHoYo::SDK::HoYoPass { class LoginManager_HoYoPassResult; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15825BD0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__ONHOYOPASSAGEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x15833960)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__ONHOYOPASSAGEGATE_B__1_OFFSET UNITYSDK_OFFSET(0x15833990)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__ONHOYOPASSAGEGATE_B__2_OFFSET UNITYSDK_OFFSET(0x15833E70)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F0B9A0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__ONHOYOPASSAGEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x15F19610)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__ONHOYOPASSAGEGATE_B__1_OFFSET UNITYSDK_OFFSET(0x15F19640)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS42_0__ONHOYOPASSAGEGATE_B__2_OFFSET UNITYSDK_OFFSET(0x15F19B20)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass42_0_TypeDefinitionIndex = 7178;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass42_0_TypeDefinitionIndex = 7303;
 
 	class LoginManager___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::HoYoPass::LoginManager_HoYoPassResult* result; // 0x10
-		::System::String* args; // 0x18
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x20
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
+		::System::String* args; // 0x20
 
 		::System::Void _ctor()
 		{

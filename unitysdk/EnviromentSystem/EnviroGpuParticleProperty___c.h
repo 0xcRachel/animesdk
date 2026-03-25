@@ -5,24 +5,24 @@
 namespace RPG::Client { class GpuParticleOccluder; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CALCULATEOBBAABBINTERSECTIONS_B__56_0_OFFSET UNITYSDK_OFFSET(0xE4C1610)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE4C15C0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE4C1600)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CALCULATEOBBAABBINTERSECTIONS_B__56_0_OFFSET UNITYSDK_OFFSET(0xFBA2E10)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBA2DC0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFBA2E00)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 39310;
+	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 40290;
 
 	class EnviroGpuParticleProperty___c : public ::System::Object
 	{
 	public:
 		static ::EnviromentSystem::EnviroGpuParticleProperty___c** StaticGet___9()
 		{
-			return (::EnviromentSystem::EnviroGpuParticleProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0x44720);
+			return (::EnviromentSystem::EnviroGpuParticleProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0xFFA0);
 		}
 		static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__56_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0x44728);
+			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0xFFA8);
 		}
 
 		static ::System::Void _cctor()

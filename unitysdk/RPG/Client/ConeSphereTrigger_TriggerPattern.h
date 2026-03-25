@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConeSphereTrigger_TriggerPattern_TypeDefinitionIndex = 47924;
+	inline static constexpr unsigned int ConeSphereTrigger_TriggerPattern_TypeDefinitionIndex = 49006;
 
 	enum class ConeSphereTrigger_TriggerPattern : ::System::Int32
 	{

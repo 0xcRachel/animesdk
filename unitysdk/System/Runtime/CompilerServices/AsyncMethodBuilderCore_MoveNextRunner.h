@@ -6,23 +6,23 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x15CDDB70)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x15CDD9B0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDD040)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x163A5EF0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x163A5D30)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER__CTOR_OFFSET UNITYSDK_OFFSET(0x163A53C0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex = 1339;
+	inline static constexpr unsigned int AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex = 1344;
 
 	class AsyncMethodBuilderCore_MoveNextRunner : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeMoveNext()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex)->GetStaticField(0xB440);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex)->GetStaticField(0xE750);
 		}
-		::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine; // 0x10
-		::System::Threading::ExecutionContext* m_context; // 0x18
+		::System::Threading::ExecutionContext* m_context; // 0x10
+		::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine; // 0x18
 
 		::System::Void _ctor(::System::Threading::ExecutionContext* context, ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine)
 		{

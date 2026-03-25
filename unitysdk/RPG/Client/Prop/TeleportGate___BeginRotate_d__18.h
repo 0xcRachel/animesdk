@@ -5,28 +5,28 @@
 namespace RPG::Client::Prop { class TeleportGate; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9CE5A50)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x9CE5FC0)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x9CE6020)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x9CE5FD0)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9CE5A40)
-#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0x9CE4FF0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA1720F0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA172660)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA1726C0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA172670)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA1720E0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___BEGINROTATE_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0xA171690)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGate___BeginRotate_d__18_TypeDefinitionIndex = 62152;
+	inline static constexpr unsigned int TeleportGate___BeginRotate_d__18_TypeDefinitionIndex = 64339;
 
 	class TeleportGate___BeginRotate_d__18 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
+		::RPG::Client::Prop::TeleportGate* __4__this; // 0x10
 		::UnityEngine::AnimationCurve* speedCurve; // 0x18
-		::RPG::Client::Prop::TeleportGate* __4__this; // 0x20
-		::System::Single targetYaw; // 0x28
-		::System::Single _initYaw_5__4; // 0x2C
-		::System::Single maxRotateSpeed; // 0x30
+		::System::Object* __2__current; // 0x20
+		::System::Single maxRotateSpeed; // 0x28
+		::System::Int32 __1__state; // 0x2C
+		::System::Single targetYaw; // 0x30
 		::System::Single _currentDeltaYaw_5__3; // 0x34
-		::System::Int32 __1__state; // 0x38
+		::System::Single _initYaw_5__4; // 0x38
 		::System::Single _needRotateAngle_5__2; // 0x3C
 
 		::System::Void _ctor(::System::Int32 __1__state)

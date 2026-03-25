@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CARSTATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9952D60)
+#define CARSTATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA6E5380)
 
-inline static constexpr unsigned int CarStateParam_TypeDefinitionIndex = 37042;
+inline static constexpr unsigned int CarStateParam_TypeDefinitionIndex = 38004;
 
 class CarStateParam : public ::System::Object
 {

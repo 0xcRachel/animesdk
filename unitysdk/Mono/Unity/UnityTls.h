@@ -4,20 +4,20 @@
 
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct; }
 
-#define MONO_UNITY_UNITYTLS_GETUNITYTLSINTERFACE_OFFSET UNITYSDK_OFFSET(0x17E512E0)
-#define MONO_UNITY_UNITYTLS_GET_ISSUPPORTED_OFFSET UNITYSDK_OFFSET(0x17E4E8F0)
-#define MONO_UNITY_UNITYTLS_GET_NATIVEINTERFACE_OFFSET UNITYSDK_OFFSET(0x17E4F9F0)
+#define MONO_UNITY_UNITYTLS_GETUNITYTLSINTERFACE_OFFSET UNITYSDK_OFFSET(0x1867EB90)
+#define MONO_UNITY_UNITYTLS_GET_ISSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1867C660)
+#define MONO_UNITY_UNITYTLS_GET_NATIVEINTERFACE_OFFSET UNITYSDK_OFFSET(0x1867D730)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_TypeDefinitionIndex = 2332;
+	inline static constexpr unsigned int UnityTls_TypeDefinitionIndex = 2337;
 
 	class UnityTls : public ::System::Object
 	{
 	public:
 		static ::Mono::Unity::UnityTls_unitytls_interface_struct** StaticGet_marshalledInterface()
 		{
-			return (::Mono::Unity::UnityTls_unitytls_interface_struct**)Il2CppClass::FromTypeDefinitionIndex(UnityTls_TypeDefinitionIndex)->GetStaticField(0x15780);
+			return (::Mono::Unity::UnityTls_unitytls_interface_struct**)Il2CppClass::FromTypeDefinitionIndex(UnityTls_TypeDefinitionIndex)->GetStaticField(0x288B0);
 		}
 
 		static ::System::IntPtr GetUnityTlsInterface()

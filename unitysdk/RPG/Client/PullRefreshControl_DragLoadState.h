@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PullRefreshControl_DragLoadState_TypeDefinitionIndex = 57903;
+	inline static constexpr unsigned int PullRefreshControl_DragLoadState_TypeDefinitionIndex = 59531;
 
 	enum class PullRefreshControl_DragLoadState : ::System::Int32
 	{

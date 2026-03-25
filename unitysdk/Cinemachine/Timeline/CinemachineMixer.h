@@ -8,26 +8,26 @@ namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine::Timeline { class CinemachineMixer_MasterDirectorDelegate; }
 namespace System { class Object; }
 
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x11268A20)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x11267ED0)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x11267F00)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x11267F10)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x11268A80)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x119F2BB0)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x119F2060)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x119F2090)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x119F20A0)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x119F2C10)
 
 namespace Cinemachine::Timeline
 {
-	inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 30046;
+	inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 30921;
 
 	class CinemachineMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		static ::Cinemachine::Timeline::CinemachineMixer_MasterDirectorDelegate** StaticGet_GetMasterPlayableDirector()
 		{
-			return (::Cinemachine::Timeline::CinemachineMixer_MasterDirectorDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineMixer_TypeDefinitionIndex)->GetStaticField(0x47310);
+			return (::Cinemachine::Timeline::CinemachineMixer_MasterDirectorDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineMixer_TypeDefinitionIndex)->GetStaticField(0x49080);
 		}
 		::Cinemachine::CinemachineBrain* mBrain; // 0x10
-		::System::Boolean mPreviewPlay; // 0x18
-		::System::Int32 mBrainOverrideId; // 0x1C
+		::System::Int32 mBrainOverrideId; // 0x18
+		::System::Boolean mPreviewPlay; // 0x1C
 
 		::System::Void _ctor()
 		{

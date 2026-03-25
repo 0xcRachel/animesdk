@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int TimeOfDayFMSource_SignalMode_TypeDefinitionIndex = 39266;
+	inline static constexpr unsigned int TimeOfDayFMSource_SignalMode_TypeDefinitionIndex = 40246;
 
 	enum class TimeOfDayFMSource_SignalMode : ::System::Int32
 	{

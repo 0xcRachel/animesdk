@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Compatibility_AnchorPositions_TypeDefinitionIndex = 33296;
+	inline static constexpr unsigned int TMP_Compatibility_AnchorPositions_TypeDefinitionIndex = 34285;
 
 	enum class TMP_Compatibility_AnchorPositions : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumCollectionItemStatus_TypeDefinitionIndex = 52825;
+	inline static constexpr unsigned int MuseumCollectionItemStatus_TypeDefinitionIndex = 53962;
 
 	enum class MuseumCollectionItemStatus : ::System::Int32
 	{

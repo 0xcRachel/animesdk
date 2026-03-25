@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MENUITEMEXTRAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C7D820)
-#define RPG_GAMECORE_MENUITEMEXTRAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C7DEA0)
+#define RPG_GAMECORE_MENUITEMEXTRAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173E3110)
+#define RPG_GAMECORE_MENUITEMEXTRAINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173E3790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MenuItemExtraInfoRow_TypeDefinitionIndex = 11913;
+	inline static constexpr unsigned int MenuItemExtraInfoRow_TypeDefinitionIndex = 11983;
 
 	class MenuItemExtraInfoRow : public ::System::Object
 	{

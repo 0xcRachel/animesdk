@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BPValueType_TypeDefinitionIndex = 20763;
+	inline static constexpr unsigned int BPValueType_TypeDefinitionIndex = 21314;
 
 	enum class BPValueType : ::System::Int32
 	{

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_5_22EFD11B51234E19_OFFSET UNITYSDK_OFFSET(0x16A9B420)
-#define RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_5_9B1D498DF6D332A2_OFFSET UNITYSDK_OFFSET(0x16A9B590)
-#define RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9B4F0)
+#define RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_6_17D9AC8A94EB68FF_OFFSET UNITYSDK_OFFSET(0x171E0290)
+#define RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_6_8526DD625AECBA23_OFFSET UNITYSDK_OFFSET(0x171E0450)
+#define RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171E0390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateParamShopRefreshCountConfig_TypeDefinitionIndex = 14978;
+	inline static constexpr unsigned int FateParamShopRefreshCountConfig_TypeDefinitionIndex = 15230;
 
 	class FateParamShopRefreshCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_22EFD11B51234E19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamShopRefreshCountConfig*& a2)
+		static ::System::Void Method_6_17D9AC8A94EB68FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamShopRefreshCountConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamShopRefreshCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_5_22EFD11B51234E19_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamShopRefreshCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_6_17D9AC8A94EB68FF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_9B1D498DF6D332A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamShopRefreshCountConfig* a2)
+		static ::System::Void Method_6_8526DD625AECBA23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamShopRefreshCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamShopRefreshCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_5_9B1D498DF6D332A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamShopRefreshCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMSHOPREFRESHCOUNTCONFIG_METHOD_6_8526DD625AECBA23_OFFSET))(a1, a2);
 		}
 	};
 }

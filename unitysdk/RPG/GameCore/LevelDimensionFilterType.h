@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionFilterType_TypeDefinitionIndex = 15505;
+	inline static constexpr unsigned int LevelDimensionFilterType_TypeDefinitionIndex = 15782;
 
 	enum class LevelDimensionFilterType : ::System::Int32
 	{

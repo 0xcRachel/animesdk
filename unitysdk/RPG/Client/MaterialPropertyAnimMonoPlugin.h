@@ -6,13 +6,13 @@ namespace RPG::Client { class MaterialPropertyAnimBehavior; }
 namespace RPG::Client { class MaterialPropertyAnimBehavior_MaterialPropertyContent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x96D9B00)
-#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x96D9B50)
-#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x96D9B70)
+#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9B7F640)
+#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9B7F690)
+#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9B7F6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertyAnimMonoPlugin_TypeDefinitionIndex = 56353;
+	inline static constexpr unsigned int MaterialPropertyAnimMonoPlugin_TypeDefinitionIndex = 57924;
 
 	class MaterialPropertyAnimMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MaterialPropertyAnimBehavior*>
 	{

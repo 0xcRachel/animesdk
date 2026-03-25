@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildCardInfluenceScope_TypeDefinitionIndex = 10618;
+	inline static constexpr unsigned int EvolveBuildCardInfluenceScope_TypeDefinitionIndex = 10686;
 
 	enum class EvolveBuildCardInfluenceScope : ::System::Int32
 	{

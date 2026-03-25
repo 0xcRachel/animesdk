@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_COLORARRAYPROPERTY_METHOD_3_64C8CF167B1D4401_OFFSET UNITYSDK_OFFSET(0xA01E5B0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_COLORARRAYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA01CC30)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_COLORARRAYPROPERTY_METHOD_3_64C8CF167B1D4401_OFFSET UNITYSDK_OFFSET(0xA53FFA0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_COLORARRAYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA53E620)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_ColorArrayProperty_TypeDefinitionIndex = 58635;
+	inline static constexpr unsigned int MaterialPropertiesCollection_ColorArrayProperty_TypeDefinitionIndex = 60347;
 
 	class MaterialPropertiesCollection_ColorArrayProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::Il2CppArray<::UnityEngine::Color>*>
 	{

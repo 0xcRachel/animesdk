@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PlatformWin_RegSAM_TypeDefinitionIndex = 36726;
+	inline static constexpr unsigned int HEU_PlatformWin_RegSAM_TypeDefinitionIndex = 37663;
 
 	enum class HEU_PlatformWin_RegSAM : ::System::Int32
 	{

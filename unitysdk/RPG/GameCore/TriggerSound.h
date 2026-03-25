@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERSOUND_METHOD_3_5D4FC03435F81ECD_OFFSET UNITYSDK_OFFSET(0x17126830)
-#define RPG_GAMECORE_TRIGGERSOUND_METHOD_3_D01DD0BC6B2C2E08_OFFSET UNITYSDK_OFFSET(0x17126A70)
-#define RPG_GAMECORE_TRIGGERSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x17126A40)
+#define RPG_GAMECORE_TRIGGERSOUND_METHOD_3_5D4FC03435F81ECD_OFFSET UNITYSDK_OFFSET(0x178E2810)
+#define RPG_GAMECORE_TRIGGERSOUND_METHOD_3_D01DD0BC6B2C2E08_OFFSET UNITYSDK_OFFSET(0x178E2A50)
+#define RPG_GAMECORE_TRIGGERSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x178E2A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerSound_TypeDefinitionIndex = 18400;
+	inline static constexpr unsigned int TriggerSound_TypeDefinitionIndex = 18919;
 
 	class TriggerSound : public ::RPG::GameCore::TaskConfig
 	{

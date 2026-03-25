@@ -6,12 +6,12 @@ namespace RPG::Client { class IAdventureSettingConflictShowInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DF95282726A91A64_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0xFE6D150)
-#define CLASS_1_DF95282726A91A64_METHOD_1_5CC3E83085F8132A_OFFSET UNITYSDK_OFFSET(0xFE6D1D0)
-#define CLASS_1_DF95282726A91A64_METHOD_1_C6E14CE377D03CE0_OFFSET UNITYSDK_OFFSET(0xFE6D160)
-#define CLASS_1_DF95282726A91A64__CTOR_OFFSET UNITYSDK_OFFSET(0xFE6D2A0)
+#define CLASS_1_DF95282726A91A64_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0xB8D5480)
+#define CLASS_1_DF95282726A91A64_METHOD_1_5CC3E83085F8132A_OFFSET UNITYSDK_OFFSET(0xB8D5520)
+#define CLASS_1_DF95282726A91A64_METHOD_1_F00C9C530ADB1CA9_OFFSET UNITYSDK_OFFSET(0xB8D5490)
+#define CLASS_1_DF95282726A91A64__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D55F0)
 
-inline static constexpr unsigned int Class_1_DF95282726A91A64_TypeDefinitionIndex = 50994;
+inline static constexpr unsigned int Class_1_DF95282726A91A64_TypeDefinitionIndex = 52129;
 
 class Class_1_DF95282726A91A64 : public ::System::Object
 {
@@ -28,9 +28,9 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DF95282726A91A64_METHOD_1_02A3D10A9D535169_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_C6E14CE377D03CE0(::System::String* a1)
+	::System::Boolean Method_1_F00C9C530ADB1CA9(::System::String* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DF95282726A91A64_METHOD_1_C6E14CE377D03CE0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DF95282726A91A64_METHOD_1_F00C9C530ADB1CA9_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::IAdventureSettingConflictShowInfo* Method_1_5CC3E83085F8132A(::System::String* a1, ::System::String* a2)

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SystemLanguage_TypeDefinitionIndex = 3818;
+	inline static constexpr unsigned int SystemLanguage_TypeDefinitionIndex = 3827;
 
 	enum class SystemLanguage : ::System::Int32
 	{

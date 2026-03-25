@@ -8,13 +8,13 @@ namespace RPG::Client::TAUtils { class RendererSlotMaterialPaths; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9AB0990)
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x9AB09E0)
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9AB0A00)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9F842B0)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x9F84300)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9F84310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanarReflectionFallback_TypeDefinitionIndex = 55976;
+	inline static constexpr unsigned int PlanarReflectionFallback_TypeDefinitionIndex = 57538;
 
 	class PlanarReflectionFallback : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PlanarReflectionFallbackBehavior*>
 	{

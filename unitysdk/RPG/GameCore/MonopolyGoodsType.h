@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGoodsType_TypeDefinitionIndex = 10963;
+	inline static constexpr unsigned int MonopolyGoodsType_TypeDefinitionIndex = 11031;
 
 	enum class MonopolyGoodsType : ::System::Int32
 	{

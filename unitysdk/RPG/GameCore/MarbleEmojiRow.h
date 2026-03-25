@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C3D000)
-#define RPG_GAMECORE_MARBLEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C3D170)
+#define RPG_GAMECORE_MARBLEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173A1E70)
+#define RPG_GAMECORE_MARBLEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173A1FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleEmojiRow_TypeDefinitionIndex = 10834;
+	inline static constexpr unsigned int MarbleEmojiRow_TypeDefinitionIndex = 10902;
 
 	class MarbleEmojiRow : public ::System::Object
 	{

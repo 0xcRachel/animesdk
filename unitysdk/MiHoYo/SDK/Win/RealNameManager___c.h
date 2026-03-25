@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157A7A10)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157A7A50)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTMAIL_B__38_4_OFFSET UNITYSDK_OFFSET(0x157A7B10)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTPHONE_B__35_4_OFFSET UNITYSDK_OFFSET(0x157A7A60)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E976A0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E976E0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTMAIL_B__38_4_OFFSET UNITYSDK_OFFSET(0x15E97760)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__SHOWGRANTPHONE_B__35_4_OFFSET UNITYSDK_OFFSET(0x15E976F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c_TypeDefinitionIndex = 7839;
+	inline static constexpr unsigned int RealNameManager___c_TypeDefinitionIndex = 7966;
 
 	class RealNameManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::RealNameManager___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::Win::RealNameManager___c**)Il2CppClass::FromTypeDefinitionIndex(RealNameManager___c_TypeDefinitionIndex)->GetStaticField(0x23330);
-		}
 		static ::System::Action** StaticGet___9__38_4()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RealNameManager___c_TypeDefinitionIndex)->GetStaticField(0x23338);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RealNameManager___c_TypeDefinitionIndex)->GetStaticField(0x2B3F0);
 		}
 		static ::System::Action** StaticGet___9__35_4()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RealNameManager___c_TypeDefinitionIndex)->GetStaticField(0x23340);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RealNameManager___c_TypeDefinitionIndex)->GetStaticField(0x2B3F8);
+		}
+		static ::MiHoYo::SDK::Win::RealNameManager___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::Win::RealNameManager___c**)Il2CppClass::FromTypeDefinitionIndex(RealNameManager___c_TypeDefinitionIndex)->GetStaticField(0x2B400);
 		}
 
 		static ::System::Void _cctor()

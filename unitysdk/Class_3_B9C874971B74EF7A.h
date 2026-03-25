@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByComparePropFastDeliverCheckSimplifiedMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B9C874971B74EF7A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x96D1E30)
-#define CLASS_3_B9C874971B74EF7A__CTOR_OFFSET UNITYSDK_OFFSET(0x96D1E00)
+#define CLASS_3_B9C874971B74EF7A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10CC2BE0)
+#define CLASS_3_B9C874971B74EF7A__CTOR_OFFSET UNITYSDK_OFFSET(0x10CC2BB0)
 
-inline static constexpr unsigned int Class_3_B9C874971B74EF7A_TypeDefinitionIndex = 41545;
+inline static constexpr unsigned int Class_3_B9C874971B74EF7A_TypeDefinitionIndex = 42590;
 
 class Class_3_B9C874971B74EF7A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByComparePropFastDeliverCheckSimplifiedMode*>
 {

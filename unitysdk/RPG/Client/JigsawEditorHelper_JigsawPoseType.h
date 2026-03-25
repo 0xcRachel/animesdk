@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int JigsawEditorHelper_JigsawPoseType_TypeDefinitionIndex = 54374;
+	inline static constexpr unsigned int JigsawEditorHelper_JigsawPoseType_TypeDefinitionIndex = 55933;
 
 	enum class JigsawEditorHelper_JigsawPoseType : ::System::Int32
 	{

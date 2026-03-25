@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16157490)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMEWORLD_LEVELGROUPACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16865510)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_TypeDefinitionIndex = 32076;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_TypeDefinitionIndex = 32986;
 
 	class TimelineControlGameWorld_LevelGroupAction : public ::System::Object
 	{

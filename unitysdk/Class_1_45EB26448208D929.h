@@ -3,16 +3,16 @@
 #include "unitysdk/Struct_2_9FC3BF6B16C6AFE6.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_45EB26448208D929_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFE4E7A0)
-#define CLASS_1_45EB26448208D929__CTOR_OFFSET UNITYSDK_OFFSET(0xFE4E790)
+#define CLASS_1_45EB26448208D929_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDE59E90)
+#define CLASS_1_45EB26448208D929__CTOR_OFFSET UNITYSDK_OFFSET(0xDE59E80)
 
-inline static constexpr unsigned int Class_1_45EB26448208D929_TypeDefinitionIndex = 37587;
+inline static constexpr unsigned int Class_1_45EB26448208D929_TypeDefinitionIndex = 38551;
 
 class Class_1_45EB26448208D929 : public ::System::Object
 {
 public:
 	::Struct_2_9FC3BF6B16C6AFE6 Field_1_1; // 0x10
-	::System::UInt32 Field_1_0; // 0xB0
+	::System::UInt32 Field_1_0; // 0xC0
 
 	::System::Void _ctor(::System::UInt32 a1)
 	{

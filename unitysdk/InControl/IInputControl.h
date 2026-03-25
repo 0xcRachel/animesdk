@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int IInputControl_TypeDefinitionIndex = 30528;
+	inline static constexpr unsigned int IInputControl_TypeDefinitionIndex = 31403;
 
 	class IInputControl
 	{

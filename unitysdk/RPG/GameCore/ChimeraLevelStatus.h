@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERALEVELSTATUS_METHOD_2_BD899551DE98FB1F_OFFSET UNITYSDK_OFFSET(0x16986D10)
-#define RPG_GAMECORE_CHIMERALEVELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1699BAA0)
+#define RPG_GAMECORE_CHIMERALEVELSTATUS_METHOD_2_BD899551DE98FB1F_OFFSET UNITYSDK_OFFSET(0x170BDC70)
+#define RPG_GAMECORE_CHIMERALEVELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x170BDE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraLevelStatus_TypeDefinitionIndex = 14289;
+	inline static constexpr unsigned int ChimeraLevelStatus_TypeDefinitionIndex = 14541;
 
 	class ChimeraLevelStatus : public ::RPG::GameCore::JsonConfig
 	{

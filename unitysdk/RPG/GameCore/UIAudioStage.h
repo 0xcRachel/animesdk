@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIAudioStage_TypeDefinitionIndex = 14737;
+	inline static constexpr unsigned int UIAudioStage_TypeDefinitionIndex = 14989;
 
 	enum class UIAudioStage : ::System::Int32
 	{

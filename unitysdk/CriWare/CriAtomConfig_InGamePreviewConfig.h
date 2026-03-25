@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_INGAMEPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x112871B0)
+#define CRIWARE_CRIATOMCONFIG_INGAMEPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x11A10810)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_InGamePreviewConfig_TypeDefinitionIndex = 30300;
+	inline static constexpr unsigned int CriAtomConfig_InGamePreviewConfig_TypeDefinitionIndex = 31175;
 
 	class CriAtomConfig_InGamePreviewConfig : public ::System::Object
 	{

@@ -6,27 +6,27 @@ class SceneLightVolume;
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_3_EE4DB731842C0A44___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x85AC4B0)
-#define CLASS_3_EE4DB731842C0A44___C__CTOR_OFFSET UNITYSDK_OFFSET(0x85AC4F0)
-#define CLASS_3_EE4DB731842C0A44___C__GETACTIVESCENELIGHTVOLUME_B__25_0_OFFSET UNITYSDK_OFFSET(0x85AC510)
-#define CLASS_3_EE4DB731842C0A44___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0x85AC500)
+#define CLASS_3_EE4DB731842C0A44___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8B9D80)
+#define CLASS_3_EE4DB731842C0A44___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B9DC0)
+#define CLASS_3_EE4DB731842C0A44___C__GETACTIVESCENELIGHTVOLUME_B__25_0_OFFSET UNITYSDK_OFFSET(0xB8B9DE0)
+#define CLASS_3_EE4DB731842C0A44___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0xB8B9DD0)
 
-inline static constexpr unsigned int Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex = 39050;
+inline static constexpr unsigned int Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex = 40030;
 
 class Class_3_EE4DB731842C0A44___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__25_0()
-	{
-		return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex)->GetStaticField(0x46AB0);
-	}
 	static ::Class_3_EE4DB731842C0A44___c** StaticGet___9()
 	{
-		return (::Class_3_EE4DB731842C0A44___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex)->GetStaticField(0x46AB8);
+		return (::Class_3_EE4DB731842C0A44___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex)->GetStaticField(0x3C500);
+	}
+	static ::System::Comparison_1<::SceneLightVolume*>** StaticGet___9__25_0()
+	{
+		return (::System::Comparison_1<::SceneLightVolume*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex)->GetStaticField(0x3C508);
 	}
 	static ::System::Action** StaticGet___9__13_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex)->GetStaticField(0x46AC0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_3_EE4DB731842C0A44___c_TypeDefinitionIndex)->GetStaticField(0x3C510);
 	}
 
 	static ::System::Void _cctor()

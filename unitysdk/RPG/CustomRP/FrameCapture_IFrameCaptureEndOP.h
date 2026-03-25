@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FrameCapture_IFrameCaptureEndOP_TypeDefinitionIndex = 28360;
+	inline static constexpr unsigned int FrameCapture_IFrameCaptureEndOP_TypeDefinitionIndex = 29235;
 
 	class FrameCapture_IFrameCaptureEndOP
 	{

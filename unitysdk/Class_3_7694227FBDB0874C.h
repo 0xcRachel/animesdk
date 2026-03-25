@@ -7,11 +7,11 @@ class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceTopRankedCatSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define CLASS_3_7694227FBDB0874C_METHOD_3_66F8220DF4B56032_OFFSET UNITYSDK_OFFSET(0x15FC25C0)
-#define CLASS_3_7694227FBDB0874C_METHOD_3_CE00AE2448C95464_OFFSET UNITYSDK_OFFSET(0x15FC2690)
-#define CLASS_3_7694227FBDB0874C__CTOR_OFFSET UNITYSDK_OFFSET(0x15FC2660)
+#define CLASS_3_7694227FBDB0874C_METHOD_3_66F8220DF4B56032_OFFSET UNITYSDK_OFFSET(0x166A92D0)
+#define CLASS_3_7694227FBDB0874C_METHOD_3_CE00AE2448C95464_OFFSET UNITYSDK_OFFSET(0x166DCB70)
+#define CLASS_3_7694227FBDB0874C__CTOR_OFFSET UNITYSDK_OFFSET(0x166DCB40)
 
-inline static constexpr unsigned int Class_3_7694227FBDB0874C_TypeDefinitionIndex = 28214;
+inline static constexpr unsigned int Class_3_7694227FBDB0874C_TypeDefinitionIndex = 29086;
 
 class Class_3_7694227FBDB0874C : public ::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceCoreBaseSelector_1<::RPG::GameCore::CakeRaceTopRankedCatSelectorConfig*>
 {

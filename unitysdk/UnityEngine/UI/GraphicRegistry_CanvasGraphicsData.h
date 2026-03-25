@@ -6,11 +6,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
-#define UNITYENGINE_UI_GRAPHICREGISTRY_CANVASGRAPHICSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18304CD0)
+#define UNITYENGINE_UI_GRAPHICREGISTRY_CANVASGRAPHICSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2AEE0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRegistry_CanvasGraphicsData_TypeDefinitionIndex = 5490;
+	inline static constexpr unsigned int GraphicRegistry_CanvasGraphicsData_TypeDefinitionIndex = 5590;
 
 	class GraphicRegistry_CanvasGraphicsData : public ::System::Object
 	{

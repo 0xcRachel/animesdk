@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_099B78418029B3B1;
+class Class_2_099B78418029B3B1_2;
 class Class_2_3ABA989E5AECB261;
 class Class_2_F3C45F1FC7349B6E;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define CLASS_1_ED2BCBC36469767D_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15F5ACB0)
-#define CLASS_1_ED2BCBC36469767D_METHOD_1_147FCE0F047B77D8_OFFSET UNITYSDK_OFFSET(0x15F5B380)
-#define CLASS_1_ED2BCBC36469767D_METHOD_1_C796A0B42720FBD3_OFFSET UNITYSDK_OFFSET(0x15F5B120)
-#define CLASS_1_ED2BCBC36469767D__CTOR_OFFSET UNITYSDK_OFFSET(0x15F5AB00)
+#define CLASS_1_ED2BCBC36469767D_EXECUTE_OFFSET UNITYSDK_OFFSET(0x166CFAF0)
+#define CLASS_1_ED2BCBC36469767D_METHOD_1_147FCE0F047B77D8_OFFSET UNITYSDK_OFFSET(0x166CFE50)
+#define CLASS_1_ED2BCBC36469767D_METHOD_1_C796A0B42720FBD3_OFFSET UNITYSDK_OFFSET(0x166CFC60)
+#define CLASS_1_ED2BCBC36469767D__CTOR_OFFSET UNITYSDK_OFFSET(0x166CF940)
 
-inline static constexpr unsigned int Class_1_ED2BCBC36469767D_TypeDefinitionIndex = 28224;
+inline static constexpr unsigned int Class_1_ED2BCBC36469767D_TypeDefinitionIndex = 29096;
 
 class Class_1_ED2BCBC36469767D : public ::System::Object
 {
 public:
-	::Entitas::IGroup_1<::Class_2_3ABA989E5AECB261*>* Field_1_3; // 0x10
-	::Entitas::IGroup_1<::Class_2_3ABA989E5AECB261*>* Field_1_2; // 0x18
-	::Class_2_099B78418029B3B1* Field_1_0; // 0x20
-	::Class_2_F3C45F1FC7349B6E* Field_1_1; // 0x28
+	::Entitas::IGroup_1<::Class_2_3ABA989E5AECB261*>* Field_1_2; // 0x10
+	::Entitas::IGroup_1<::Class_2_3ABA989E5AECB261*>* Field_1_3; // 0x18
+	::Class_2_F3C45F1FC7349B6E* Field_1_1; // 0x20
+	::Class_2_099B78418029B3B1_2* Field_1_0; // 0x28
 	::System::Int32 Field_1_4; // 0x30
 
-	::System::Void _ctor(::Class_2_099B78418029B3B1* a1, ::Class_2_F3C45F1FC7349B6E* a2)
+	::System::Void _ctor(::Class_2_099B78418029B3B1_2* a1, ::Class_2_F3C45F1FC7349B6E* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_099B78418029B3B1*, ::Class_2_F3C45F1FC7349B6E*))((::PBYTE)hIl2Cpp + CLASS_1_ED2BCBC36469767D__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_2_099B78418029B3B1_2*, ::Class_2_F3C45F1FC7349B6E*))((::PBYTE)hIl2Cpp + CLASS_1_ED2BCBC36469767D__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Execute()

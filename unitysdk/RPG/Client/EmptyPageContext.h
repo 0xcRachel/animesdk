@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UIController.h"
 
-#define RPG_CLIENT_EMPTYPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x915D840)
+#define RPG_CLIENT_EMPTYPAGECONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x960A920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmptyPageContext_TypeDefinitionIndex = 58007;
+	inline static constexpr unsigned int EmptyPageContext_TypeDefinitionIndex = 59634;
 
 	class EmptyPageContext : public ::RPG::Client::UIController
 	{

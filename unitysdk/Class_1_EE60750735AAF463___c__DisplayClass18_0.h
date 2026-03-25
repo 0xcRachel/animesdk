@@ -5,10 +5,10 @@
 namespace RPG::Client { class BAPartVariantRes; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x105530F0)
-#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x105535A0)
+#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF0D90)
+#define CLASS_1_EE60750735AAF463___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x8DF1240)
 
-inline static constexpr unsigned int Class_1_EE60750735AAF463___c__DisplayClass18_0_TypeDefinitionIndex = 62340;
+inline static constexpr unsigned int Class_1_EE60750735AAF463___c__DisplayClass18_0_TypeDefinitionIndex = 64528;
 
 class Class_1_EE60750735AAF463___c__DisplayClass18_0 : public ::System::Object
 {

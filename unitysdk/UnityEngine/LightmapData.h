@@ -6,7 +6,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightmapData_TypeDefinitionIndex = 3914;
+	inline static constexpr unsigned int LightmapData_TypeDefinitionIndex = 3935;
 
 	class LightmapData : public ::System::Object
 	{

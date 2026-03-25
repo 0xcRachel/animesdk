@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16DC4820)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16DC4670)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16DC4340)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16DC4610)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16DC49F0)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16DC43C0)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16DC4A30)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DC4C10)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16DC4F40)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DC52A0)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16DC4B70)
-#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16DC4AD0)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17591980)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x175917D0)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x175914A0)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17591770)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17591B50)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17591520)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17591B90)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17591D70)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x175920A0)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17592400)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17591CD0)
+#define RPG_GAMECORE_RAIDLIMITCONDITIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17591C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidLimitConditionExcelTable_TypeDefinitionIndex = 13250;
+	inline static constexpr unsigned int RaidLimitConditionExcelTable_TypeDefinitionIndex = 13324;
 
 	class RaidLimitConditionExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RaidLimitConditionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RaidLimitConditionRow*>**)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x29460);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x29468);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RaidLimitConditionRow*>**)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x36BB0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x29470);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x36BB8);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x36BC0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x8F00);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xD810);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x8F01);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RaidLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xD811);
 		}
 
 		static ::System::Void _cctor()

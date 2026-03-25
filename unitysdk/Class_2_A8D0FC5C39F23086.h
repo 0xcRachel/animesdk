@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class SwordTrainingShowEndingPerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_A8D0FC5C39F23086_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9EF6FD0)
-#define CLASS_2_A8D0FC5C39F23086_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9EF7010)
-#define CLASS_2_A8D0FC5C39F23086_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9EF7720)
-#define CLASS_2_A8D0FC5C39F23086_TICK_OFFSET UNITYSDK_OFFSET(0x9EF7770)
-#define CLASS_2_A8D0FC5C39F23086__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF6FC0)
+#define CLASS_2_A8D0FC5C39F23086_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8D1480)
+#define CLASS_2_A8D0FC5C39F23086_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8D14C0)
+#define CLASS_2_A8D0FC5C39F23086_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8D1C70)
+#define CLASS_2_A8D0FC5C39F23086_TICK_OFFSET UNITYSDK_OFFSET(0xB8D1CC0)
+#define CLASS_2_A8D0FC5C39F23086__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D1470)
 
-inline static constexpr unsigned int Class_2_A8D0FC5C39F23086_TypeDefinitionIndex = 46358;
+inline static constexpr unsigned int Class_2_A8D0FC5C39F23086_TypeDefinitionIndex = 47436;
 
 class Class_2_A8D0FC5C39F23086 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::SwordTrainingShowEndingPerformance* Field_2_0; // 0x20
+	::RPG::GameCore::SwordTrainingShowEndingPerformance* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwordTrainingShowEndingPerformance* a2)
 	{

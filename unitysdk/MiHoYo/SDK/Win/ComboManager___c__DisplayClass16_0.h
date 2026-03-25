@@ -13,25 +13,25 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159C4D10)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x159D47C0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x159D67D0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__3_OFFSET UNITYSDK_OFFSET(0x159D62B0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__4_OFFSET UNITYSDK_OFFSET(0x159D67A0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16093690)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x160A0B00)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x160A2970)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__3_OFFSET UNITYSDK_OFFSET(0x160A2450)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_0__ONMDKORAUTHTICKETLOGIN_B__4_OFFSET UNITYSDK_OFFSET(0x160A2940)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass16_0_TypeDefinitionIndex = 7891;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass16_0_TypeDefinitionIndex = 8020;
 
 	class ComboManager___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__4; // 0x18
-		::System::Action* __9__3; // 0x20
-		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x28
+		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x10
+		::System::Action* __9__3; // 0x18
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x28
 		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x30
-		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x38
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__4; // 0x38
 
 		::System::Void _ctor()
 		{

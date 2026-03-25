@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class AdventureTriggerMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_F88AED87C726752F__CTOR_OFFSET UNITYSDK_OFFSET(0x86E6D80)
+#define CLASS_4_F88AED87C726752F__CTOR_OFFSET UNITYSDK_OFFSET(0x8AF8D80)
 
-inline static constexpr unsigned int Class_4_F88AED87C726752F_TypeDefinitionIndex = 45647;
+inline static constexpr unsigned int Class_4_F88AED87C726752F_TypeDefinitionIndex = 46711;
 
 class Class_4_F88AED87C726752F : public ::RPG::GameCore::AdventureTriggerMoveTaskBase_1<::RPG::GameCore::AdventureTriggerMove*>
 {

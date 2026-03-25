@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindTimeRewindMultiControlType_TypeDefinitionIndex = 15860;
+	inline static constexpr unsigned int BindTimeRewindMultiControlType_TypeDefinitionIndex = 16137;
 
 	enum class BindTimeRewindMultiControlType : ::System::Int32
 	{

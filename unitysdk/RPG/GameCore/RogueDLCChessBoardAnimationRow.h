@@ -7,20 +7,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDANIMATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E706E0)
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDANIMATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E70DC0)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDANIMATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1760FC60)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDANIMATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17610340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCChessBoardAnimationRow_TypeDefinitionIndex = 13427;
+	inline static constexpr unsigned int RogueDLCChessBoardAnimationRow_TypeDefinitionIndex = 13503;
 
 	class RogueDLCChessBoardAnimationRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChessRogueBoardAnimationType AnimationType; // 0x10
-		::System::Boolean NeedCheckCoinChange; // 0x14
-		::RPG::GameCore::ModifierEffectType ModifierType; // 0x18
-		::RPG::GameCore::RogueSubMode RogueSubMode; // 0x1C
+		::RPG::GameCore::ModifierEffectType ModifierType; // 0x10
+		::RPG::GameCore::RogueSubMode RogueSubMode; // 0x14
+		::RPG::GameCore::ChessRogueBoardAnimationType AnimationType; // 0x18
+		::System::Boolean NeedCheckCoinChange; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -8,17 +8,17 @@ class Class_3_F4528A5C0F861AF2;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CLASS_1_B82AC0A1DAC315CA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x109F42D0)
-#define CLASS_1_B82AC0A1DAC315CA__CTOR_OFFSET UNITYSDK_OFFSET(0x109F42A0)
+#define CLASS_1_B82AC0A1DAC315CA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x118795C0)
+#define CLASS_1_B82AC0A1DAC315CA__CTOR_OFFSET UNITYSDK_OFFSET(0x11879590)
 
-inline static constexpr unsigned int Class_1_B82AC0A1DAC315CA_TypeDefinitionIndex = 60939;
+inline static constexpr unsigned int Class_1_B82AC0A1DAC315CA_TypeDefinitionIndex = 62938;
 
 class Class_1_B82AC0A1DAC315CA : public ::System::Object
 {
 public:
-	::Class_2_43D1AA62A6D00FFF* Field_1_3; // 0x10
+	::Class_3_F4528A5C0F861AF2* Field_1_4; // 0x10
 	::Entitas::IGroup_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>* Field_1_0; // 0x18
-	::Class_3_F4528A5C0F861AF2* Field_1_4; // 0x20
+	::Class_2_43D1AA62A6D00FFF* Field_1_3; // 0x20
 	::System::Single Field_1_1; // 0x28
 	::System::Single Field_1_2; // 0x2C
 

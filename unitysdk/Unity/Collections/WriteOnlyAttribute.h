@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_WRITEONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x181D2DB0)
+#define UNITY_COLLECTIONS_WRITEONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189FC2B0)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int WriteOnlyAttribute_TypeDefinitionIndex = 3781;
+	inline static constexpr unsigned int WriteOnlyAttribute_TypeDefinitionIndex = 3790;
 
 	class WriteOnlyAttribute : public ::System::Attribute
 	{

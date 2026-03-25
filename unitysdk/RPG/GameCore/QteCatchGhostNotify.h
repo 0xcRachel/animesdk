@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostNotify_TypeDefinitionIndex = 19698;
+	inline static constexpr unsigned int QteCatchGhostNotify_TypeDefinitionIndex = 20226;
 
 	enum class QteCatchGhostNotify : ::System::Int32
 	{

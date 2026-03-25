@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class AvatarUseMaterialDataRow; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9491500)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__GETMATERIALGUIDEIDLISTBYAVATAR_B__1_OFFSET UNITYSDK_OFFSET(0x949B8E0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9914E00)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS82_1__GETMATERIALGUIDEIDLISTBYAVATAR_B__1_OFFSET UNITYSDK_OFFSET(0x991F1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass82_1_TypeDefinitionIndex = 52169;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass82_1_TypeDefinitionIndex = 53305;
 
 	class HandbookModule___c__DisplayClass82_1 : public ::System::Object
 	{

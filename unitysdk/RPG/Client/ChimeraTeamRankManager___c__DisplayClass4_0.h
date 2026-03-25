@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_180;
+class Class_1_FA4F4A67B1C04320_203;
 namespace RPG::Client { class ChimeraTeamData; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F41FC0)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS4_0__SYNCTEAMFINISHWORK_B__0_OFFSET UNITYSDK_OFFSET(0x8F42F60)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93E3B90)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__DISPLAYCLASS4_0__SYNCTEAMFINISHWORK_B__0_OFFSET UNITYSDK_OFFSET(0x93E4B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass4_0_TypeDefinitionIndex = 50376;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c__DisplayClass4_0_TypeDefinitionIndex = 51511;
 
 	class ChimeraTeamRankManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Class_1_FA4F4A67B1C04320_180* chimeraTeam; // 0x10
+		::Class_1_FA4F4A67B1C04320_203* chimeraTeam; // 0x10
 
 		::System::Void _ctor()
 		{

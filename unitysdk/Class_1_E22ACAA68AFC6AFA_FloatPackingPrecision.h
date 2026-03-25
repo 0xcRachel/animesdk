@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_E22ACAA68AFC6AFA_FloatPackingPrecision_TypeDefinitionIndex = 38732;
+inline static constexpr unsigned int Class_1_E22ACAA68AFC6AFA_FloatPackingPrecision_TypeDefinitionIndex = 39712;
 
 enum class Class_1_E22ACAA68AFC6AFA_FloatPackingPrecision : ::System::Int32
 {

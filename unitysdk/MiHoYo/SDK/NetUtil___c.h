@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_NETUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15868B80)
-#define MIHOYO_SDK_NETUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15868BB0)
-#define MIHOYO_SDK_NETUTIL___C__HTTPGET_B__10_0_OFFSET UNITYSDK_OFFSET(0x15868BD0)
-#define MIHOYO_SDK_NETUTIL___C__HTTPGET_B__9_0_OFFSET UNITYSDK_OFFSET(0x15868BC0)
+#define MIHOYO_SDK_NETUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F4F240)
+#define MIHOYO_SDK_NETUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4F270)
+#define MIHOYO_SDK_NETUTIL___C__HTTPGET_B__10_0_OFFSET UNITYSDK_OFFSET(0x15F4F290)
+#define MIHOYO_SDK_NETUTIL___C__HTTPGET_B__9_0_OFFSET UNITYSDK_OFFSET(0x15F4F280)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c_TypeDefinitionIndex = 7058;
+	inline static constexpr unsigned int NetUtil___c_TypeDefinitionIndex = 7183;
 
 	class NetUtil___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>**)Il2CppClass::FromTypeDefinitionIndex(NetUtil___c_TypeDefinitionIndex)->GetStaticField(0x116D0);
+		}
 		static ::MiHoYo::SDK::NetUtil___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::NetUtil___c**)Il2CppClass::FromTypeDefinitionIndex(NetUtil___c_TypeDefinitionIndex)->GetStaticField(0x13E90);
+			return (::MiHoYo::SDK::NetUtil___c**)Il2CppClass::FromTypeDefinitionIndex(NetUtil___c_TypeDefinitionIndex)->GetStaticField(0x116D8);
 		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>**)Il2CppClass::FromTypeDefinitionIndex(NetUtil___c_TypeDefinitionIndex)->GetStaticField(0x13E98);
-		}
-		static ::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>**)Il2CppClass::FromTypeDefinitionIndex(NetUtil___c_TypeDefinitionIndex)->GetStaticField(0x13EA0);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Networking::UnityWebRequest*>**)Il2CppClass::FromTypeDefinitionIndex(NetUtil___c_TypeDefinitionIndex)->GetStaticField(0x116E0);
 		}
 
 		static ::System::Void _cctor()

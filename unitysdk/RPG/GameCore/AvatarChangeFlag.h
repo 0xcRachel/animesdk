@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarChangeFlag_TypeDefinitionIndex = 44016;
+	inline static constexpr unsigned int AvatarChangeFlag_TypeDefinitionIndex = 45076;
 
 	enum class AvatarChangeFlag : ::System::Int32
 	{

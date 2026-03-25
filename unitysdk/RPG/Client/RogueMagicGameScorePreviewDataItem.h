@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x9E08180)
-#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E08190)
+#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0xA329B90)
+#define RPG_CLIENT_ROGUEMAGICGAMESCOREPREVIEWDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA329BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicGameScorePreviewDataItem_TypeDefinitionIndex = 53553;
+	inline static constexpr unsigned int RogueMagicGameScorePreviewDataItem_TypeDefinitionIndex = 54908;
 
 	class RogueMagicGameScorePreviewDataItem : public ::System::Object
 	{

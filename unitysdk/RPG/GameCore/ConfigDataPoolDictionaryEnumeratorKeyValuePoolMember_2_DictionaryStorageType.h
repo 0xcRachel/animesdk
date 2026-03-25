@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2_DictionaryStorageType_TypeDefinitionIndex = 21985;
+	inline static constexpr unsigned int ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2_DictionaryStorageType_TypeDefinitionIndex = 22550;
 
 	enum class ConfigDataPoolDictionaryEnumeratorKeyValuePoolMember_2_DictionaryStorageType : ::System::Int32
 	{

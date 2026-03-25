@@ -9,32 +9,32 @@ namespace System { class String; }
 namespace System::Diagnostics { class Stopwatch; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_RPGPROFILERMARKER_BEGIN_1_OFFSET UNITYSDK_OFFSET(0x17AD6AC0)
-#define RPG_CLIENT_RPGPROFILERMARKER_BEGIN_OFFSET UNITYSDK_OFFSET(0x17AD68E0)
-#define RPG_CLIENT_RPGPROFILERMARKER_END_OFFSET UNITYSDK_OFFSET(0x17AD6BC0)
-#define RPG_CLIENT_RPGPROFILERMARKER__BUDGETMARKERBEGIN_OFFSET UNITYSDK_OFFSET(0x17AD6D30)
-#define RPG_CLIENT_RPGPROFILERMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD67C0)
-#define RPG_CLIENT_RPGPROFILERMARKER__INTMARKEREND_OFFSET UNITYSDK_OFFSET(0x17AD6EC0)
-#define RPG_CLIENT_RPGPROFILERMARKER__ISBUDGETMARKERACTIVATED_OFFSET UNITYSDK_OFFSET(0x17AD6D20)
-#define RPG_CLIENT_RPGPROFILERMARKER__ISBUDGETMARKER_OFFSET UNITYSDK_OFFSET(0x17AD6D10)
+#define RPG_CLIENT_RPGPROFILERMARKER_BEGIN_1_OFFSET UNITYSDK_OFFSET(0x182F0A60)
+#define RPG_CLIENT_RPGPROFILERMARKER_BEGIN_OFFSET UNITYSDK_OFFSET(0x182F0880)
+#define RPG_CLIENT_RPGPROFILERMARKER_END_OFFSET UNITYSDK_OFFSET(0x182F0B60)
+#define RPG_CLIENT_RPGPROFILERMARKER__BUDGETMARKERBEGIN_OFFSET UNITYSDK_OFFSET(0x182F0CD0)
+#define RPG_CLIENT_RPGPROFILERMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x182F0760)
+#define RPG_CLIENT_RPGPROFILERMARKER__INTMARKEREND_OFFSET UNITYSDK_OFFSET(0x182F0E60)
+#define RPG_CLIENT_RPGPROFILERMARKER__ISBUDGETMARKERACTIVATED_OFFSET UNITYSDK_OFFSET(0x182F0CC0)
+#define RPG_CLIENT_RPGPROFILERMARKER__ISBUDGETMARKER_OFFSET UNITYSDK_OFFSET(0x182F0CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGProfilerMarker_TypeDefinitionIndex = 26891;
+	inline static constexpr unsigned int RPGProfilerMarker_TypeDefinitionIndex = 27627;
 
 	class RPGProfilerMarker : public ::System::Object
 	{
 	public:
 		// static const ::System::String* _INT_MARKER_P1_NAME; // 0x0
 		// static const ::System::String* _INT_MARKER_P2_NAME; // 0x0
-		::System::Diagnostics::Stopwatch* m_Stopwatch; // 0x10
-		::RPG::Client::RPGProfilerMarkerLevel* m_MarkerLevel; // 0x18
-		::Unity::Profiling::ProfilerMarkerWithIntData m_IntMarker; // 0x20
-		::System::Int32 m_BudgetMs; // 0x30
-		::System::Int32 m_ActivatedMs; // 0x34
-		::System::Int32 m_BudgetCoolDownMax; // 0x38
-		::System::Int32 m_BudgetCoolDownCurrent; // 0x3C
-		::Unity::Profiling::ProfilerMarker m_Marker; // 0x40
+		::RPG::Client::RPGProfilerMarkerLevel* m_MarkerLevel; // 0x10
+		::System::Diagnostics::Stopwatch* m_Stopwatch; // 0x18
+		::System::Int32 m_BudgetMs; // 0x20
+		::System::Int32 m_BudgetCoolDownCurrent; // 0x24
+		::Unity::Profiling::ProfilerMarkerWithIntData m_IntMarker; // 0x28
+		::Unity::Profiling::ProfilerMarker m_Marker; // 0x38
+		::System::Int32 m_BudgetCoolDownMax; // 0x40
+		::System::Int32 m_ActivatedMs; // 0x44
 
 		::System::Void _ctor(::System::String* name, ::System::Int32 markerLevel, ::System::Int32 budgetMS)
 		{

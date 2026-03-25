@@ -6,6 +6,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_303D5A33D1401D59;
+namespace RPG::Client { class FMSystem; }
 namespace RPG::Client { class LevelStageVisableController; }
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class AudioStateConfig; }
@@ -16,39 +17,46 @@ namespace RPG::GameCore { class UnifiedBattleAreaConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_BB0632FE727463CD_OFFSET UNITYSDK_OFFSET(0x899B450)
-#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_C5C746E79A067435_OFFSET UNITYSDK_OFFSET(0x899B4D0)
-#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x899B5C0)
-#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_FA59CDD5B462F41F_OFFSET UNITYSDK_OFFSET(0x899B5D0)
-#define CLASS_1_0EB00F37E3AA0D96__CTOR_OFFSET UNITYSDK_OFFSET(0x899B650)
+#define CLASS_1_0EB00F37E3AA0D96_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8941D90)
+#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_BB0632FE727463CD_OFFSET UNITYSDK_OFFSET(0x8941DF0)
+#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_C5C746E79A067435_OFFSET UNITYSDK_OFFSET(0x8941E70)
+#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x8941F50)
+#define CLASS_1_0EB00F37E3AA0D96_METHOD_1_FA59CDD5B462F41F_OFFSET UNITYSDK_OFFSET(0x8941F60)
+#define CLASS_1_0EB00F37E3AA0D96__CTOR_OFFSET UNITYSDK_OFFSET(0x8941CF0)
 
-inline static constexpr unsigned int Class_1_0EB00F37E3AA0D96_TypeDefinitionIndex = 58811;
+inline static constexpr unsigned int Class_1_0EB00F37E3AA0D96_TypeDefinitionIndex = 60554;
 
 class Class_1_0EB00F37E3AA0D96 : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::System::String* Field_1_10; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::RPG::Client::MonoEffect* Field_1_17; // 0x28
-	::RPG::GameCore::StageGrassOverrideConfig* Field_1_4; // 0x30
-	::System::String* Field_1_9; // 0x38
-	::RPG::GameCore::UnifiedBattleAreaConfig* Field_1_5; // 0x40
-	::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* Field_1_7; // 0x48
-	::System::Collections::Generic::List_1<::Class_1_303D5A33D1401D59*>* Field_1_15; // 0x50
-	::System::String* Field_1_0; // 0x58
-	::Il2CppArray<::RPG::GameCore::DistrictAudioRTPCConfig*>* Field_1_8; // 0x60
-	::Il2CppArray<::System::String*>* Field_1_6; // 0x68
-	::UnityEngine::Quaternion Field_1_12; // 0x70
-	::System::UInt32 Field_1_16; // 0x80
-	::System::Boolean Field_1_14; // 0x84
-	::System::Boolean Field_1_13; // 0x85
+	::System::String* Field_1_2; // 0x10
+	::Il2CppArray<::System::String*>* Field_1_6; // 0x18
+	::System::String* Field_1_10; // 0x20
+	::System::String* Field_1_1; // 0x28
+	::Il2CppArray<::RPG::GameCore::DistrictAudioRTPCConfig*>* Field_1_8; // 0x30
+	::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* Field_1_7; // 0x38
+	::System::String* Field_1_0; // 0x40
+	::System::String* Field_1_9; // 0x48
+	::RPG::GameCore::UnifiedBattleAreaConfig* Field_1_5; // 0x50
+	::System::Collections::Generic::List_1<::Class_1_303D5A33D1401D59*>* Field_1_15; // 0x58
+	::RPG::Client::FMSystem* Field_1_18; // 0x60
+	::RPG::Client::MonoEffect* Field_1_17; // 0x68
+	::RPG::GameCore::StageGrassOverrideConfig* Field_1_4; // 0x70
+	::UnityEngine::Quaternion Field_1_12; // 0x78
 	::RPG::GameCore::EnviromentControlPriority Field_1_3; // 0x88
 	::UnityEngine::Vector3 Field_1_11; // 0x8C
+	::System::UInt32 Field_1_16; // 0x98
+	::System::Boolean Field_1_13; // 0x9C
+	::System::Boolean Field_1_14; // 0x9D
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0EB00F37E3AA0D96__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0EB00F37E3AA0D96_DISPOSE_OFFSET))(this);
 	}
 
 	::System::Void Method_1_BB0632FE727463CD(::RPG::GameCore::LevelBattleAreaInfo* a1)

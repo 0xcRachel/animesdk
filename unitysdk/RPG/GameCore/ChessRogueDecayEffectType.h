@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessRogueDecayEffectType_TypeDefinitionIndex = 13411;
+	inline static constexpr unsigned int ChessRogueDecayEffectType_TypeDefinitionIndex = 13487;
 
 	enum class ChessRogueDecayEffectType : ::System::Int32
 	{

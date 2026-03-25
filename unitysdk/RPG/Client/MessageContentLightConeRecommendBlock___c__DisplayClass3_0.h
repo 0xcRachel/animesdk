@@ -5,18 +5,18 @@
 namespace RPG::Client { class MessageContentLightConeRecommendBlock; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x96F8540)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__REQUESTLIGHTCONERECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x96F8640)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B9E350)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__REQUESTLIGHTCONERECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B9E450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentLightConeRecommendBlock___c__DisplayClass3_0_TypeDefinitionIndex = 50205;
+	inline static constexpr unsigned int MessageContentLightConeRecommendBlock___c__DisplayClass3_0_TypeDefinitionIndex = 51339;
 
 	class MessageContentLightConeRecommendBlock___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::UInt32>* callback; // 0x10
-		::RPG::Client::MessageContentLightConeRecommendBlock* __4__this; // 0x18
+		::RPG::Client::MessageContentLightConeRecommendBlock* __4__this; // 0x10
+		::System::Action_1<::System::UInt32>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,34 +5,34 @@
 namespace RPG::GameCore { class MonsterSkillRowData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DC4C90)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8DC4CD0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C___SORTSKILLS_B__2_0_OFFSET UNITYSDK_OFFSET(0x8DC4CE0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C___SORTSKILLS_B__2_1_OFFSET UNITYSDK_OFFSET(0x8DC4D10)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C___SORTSKILLS_B__2_2_OFFSET UNITYSDK_OFFSET(0x8DC4D80)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x91CEC40)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x91CEC80)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C___SORTSKILLS_B__2_0_OFFSET UNITYSDK_OFFSET(0x91CEC90)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C___SORTSKILLS_B__2_1_OFFSET UNITYSDK_OFFSET(0x91CECC0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILSKILLDATA___C___SORTSKILLS_B__2_2_OFFSET UNITYSDK_OFFSET(0x91CED30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex = 57397;
+	inline static constexpr unsigned int BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex = 58996;
 
 	class BattleMonsterTeamDetailSkillData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::Boolean>** StaticGet___9__2_0()
+		static ::RPG::Client::BattleMonsterTeamDetailSkillData___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x36CB0);
-		}
-		static ::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x36CB8);
+			return (::RPG::Client::BattleMonsterTeamDetailSkillData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x483D0);
 		}
 		static ::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>** StaticGet___9__2_2()
 		{
-			return (::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x36CC0);
+			return (::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x483D8);
 		}
-		static ::RPG::Client::BattleMonsterTeamDetailSkillData___c** StaticGet___9()
+		static ::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::RPG::Client::BattleMonsterTeamDetailSkillData___c**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x36CC8);
+			return (::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x483E0);
+		}
+		static ::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::MonsterSkillRowData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(BattleMonsterTeamDetailSkillData___c_TypeDefinitionIndex)->GetStaticField(0x483E8);
 		}
 
 		static ::System::Void _cctor()

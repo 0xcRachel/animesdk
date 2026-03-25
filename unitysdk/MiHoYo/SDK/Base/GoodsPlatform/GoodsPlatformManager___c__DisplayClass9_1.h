@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK::Base::GoodsPlatform { class GoodsPlatformManager___c__DisplayClass9_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15704790)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x15704B70)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF60A0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x15DF6480)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 7336;
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 7461;
 
 	class GoodsPlatformManager___c__DisplayClass9_1 : public ::System::Object
 	{

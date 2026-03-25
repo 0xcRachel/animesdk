@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameSceneItemType_TypeDefinitionIndex = 32319;
+	inline static constexpr unsigned int FourRotateVoxelGameSceneItemType_TypeDefinitionIndex = 33229;
 
 	enum class FourRotateVoxelGameSceneItemType : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsCharacterChangeSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_196B8449B05E5D0F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1037B960)
-#define CLASS_3_196B8449B05E5D0F__CTOR_OFFSET UNITYSDK_OFFSET(0x1037B930)
+#define CLASS_3_196B8449B05E5D0F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x108EC910)
+#define CLASS_3_196B8449B05E5D0F__CTOR_OFFSET UNITYSDK_OFFSET(0x108EC8E0)
 
-inline static constexpr unsigned int Class_3_196B8449B05E5D0F_TypeDefinitionIndex = 42851;
+inline static constexpr unsigned int Class_3_196B8449B05E5D0F_TypeDefinitionIndex = 43901;
 
 class Class_3_196B8449B05E5D0F : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsCharacterChangeSource*>
 {

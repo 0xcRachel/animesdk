@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_ContentType_TypeDefinitionIndex = 33341;
+	inline static constexpr unsigned int TMP_InputField_ContentType_TypeDefinitionIndex = 34330;
 
 	enum class TMP_InputField_ContentType : ::System::Int32
 	{

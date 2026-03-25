@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Sessions { class AddNotifyJoinSessionAcceptedOpt
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYJOINSESSIONACCEPTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYJOINSESSIONACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x716A0)
+#define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYJOINSESSIONACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x71820)
 #define EPIC_ONLINESERVICES_SESSIONS_ADDNOTIFYJOINSESSIONACCEPTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int AddNotifyJoinSessionAcceptedOptionsInternal_TypeDefinitionIndex = 34476;
+	inline static constexpr unsigned int AddNotifyJoinSessionAcceptedOptionsInternal_TypeDefinitionIndex = 35410;
 
 	struct alignas(4) AddNotifyJoinSessionAcceptedOptionsInternal
 	{

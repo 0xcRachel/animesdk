@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Reflection { class MemberInfo; }
 
-#define CLASS_2_D498B111BE5D7F6F__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17B7C550)
-#define CLASS_2_D498B111BE5D7F6F__CTOR_OFFSET UNITYSDK_OFFSET(0x17B7C460)
+#define CLASS_2_D498B111BE5D7F6F__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18395430)
+#define CLASS_2_D498B111BE5D7F6F__CTOR_OFFSET UNITYSDK_OFFSET(0x18395340)
 
-inline static constexpr unsigned int Class_2_D498B111BE5D7F6F_TypeDefinitionIndex = 33046;
+inline static constexpr unsigned int Class_2_D498B111BE5D7F6F_TypeDefinitionIndex = 34034;
 
 class Class_2_D498B111BE5D7F6F : public ::System::Exception
 {

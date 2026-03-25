@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierInterrupt_TypeDefinitionIndex = 16333;
+	inline static constexpr unsigned int ModifierInterrupt_TypeDefinitionIndex = 16707;
 
 	enum class ModifierInterrupt : ::System::Int32
 	{

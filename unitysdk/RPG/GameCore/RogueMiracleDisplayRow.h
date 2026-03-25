@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E8E510)
-#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E8EC00)
+#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1762F360)
+#define RPG_GAMECORE_ROGUEMIRACLEDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1762FA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleDisplayRow_TypeDefinitionIndex = 13350;
+	inline static constexpr unsigned int RogueMiracleDisplayRow_TypeDefinitionIndex = 13424;
 
 	class RogueMiracleDisplayRow : public ::System::Object
 	{
 	public:
-		::System::String* MiracleIconPath; // 0x10
-		::System::String* MiracleFigureIconPath; // 0x18
-		::System::UInt32 MiracleDisplayID; // 0x20
-		::RPG::Client::TextID MiracleBGDesc; // 0x28
-		::RPG::Client::TextID MiracleName; // 0x38
+		::System::String* MiracleFigureIconPath; // 0x10
+		::System::String* MiracleIconPath; // 0x18
+		::RPG::Client::TextID MiracleBGDesc; // 0x20
+		::RPG::Client::TextID MiracleName; // 0x30
+		::System::UInt32 MiracleDisplayID; // 0x40
 
 		::System::Void _ctor()
 		{

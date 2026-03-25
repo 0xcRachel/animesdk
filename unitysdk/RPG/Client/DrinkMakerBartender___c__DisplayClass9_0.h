@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class DrinkMakerBartender_Ingredient; }
 
-#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9062E70)
-#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS9_0__GETINGREDIENT_B__0_OFFSET UNITYSDK_OFFSET(0x9063440)
+#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x950FD70)
+#define RPG_CLIENT_DRINKMAKERBARTENDER___C__DISPLAYCLASS9_0__GETINGREDIENT_B__0_OFFSET UNITYSDK_OFFSET(0x9510340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBartender___c__DisplayClass9_0_TypeDefinitionIndex = 50521;
+	inline static constexpr unsigned int DrinkMakerBartender___c__DisplayClass9_0_TypeDefinitionIndex = 51656;
 
 	class DrinkMakerBartender___c__DisplayClass9_0 : public ::System::Object
 	{

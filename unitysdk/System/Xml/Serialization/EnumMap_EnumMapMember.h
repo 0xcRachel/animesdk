@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_ENUMNAME_OFFSET UNITYSDK_OFFSET(0x17DA2D60)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17DA2D70)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_XMLNAME_OFFSET UNITYSDK_OFFSET(0x17DA2D50)
-#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA2D40)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_ENUMNAME_OFFSET UNITYSDK_OFFSET(0x185D26A0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x185D26B0)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER_GET_XMLNAME_OFFSET UNITYSDK_OFFSET(0x185D2690)
+#define SYSTEM_XML_SERIALIZATION_ENUMMAP_ENUMMAPMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x185D2680)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int EnumMap_EnumMapMember_TypeDefinitionIndex = 2044;
+	inline static constexpr unsigned int EnumMap_EnumMapMember_TypeDefinitionIndex = 2049;
 
 	class EnumMap_EnumMapMember : public ::System::Object
 	{
 	public:
-		::System::String* _xmlName; // 0x10
-		::System::String* _enumName; // 0x18
+		::System::String* _enumName; // 0x10
+		::System::String* _xmlName; // 0x18
 		::System::Int64 _value; // 0x20
 
 		::System::Void _ctor(::System::String* xmlName, ::System::String* enumName, ::System::Int64 value)

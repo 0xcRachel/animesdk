@@ -4,32 +4,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_4_960E06B330D892BE_OFFSET UNITYSDK_OFFSET(0x16C4F1E0)
-#define RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_4_B4FE7D638E78B59C_OFFSET UNITYSDK_OFFSET(0x16C4F060)
-#define RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16C4F190)
+#define RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_5_1969618E9097D3C5_OFFSET UNITYSDK_OFFSET(0x173B3F60)
+#define RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_5_75D826E496F8D7D4_OFFSET UNITYSDK_OFFSET(0x173B4080)
+#define RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x173B4010)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int AddScoreByGemPouchAction_TypeDefinitionIndex = 22167;
+	inline static constexpr unsigned int AddScoreByGemPouchAction_TypeDefinitionIndex = 22732;
 
 	class AddScoreByGemPouchAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:
-		::System::UInt32 ScaleFactor; // 0x10
+		::System::UInt32 ScaleFactor; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B4FE7D638E78B59C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::AddScoreByGemPouchAction*& a2)
+		static ::System::Void Method_5_1969618E9097D3C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::AddScoreByGemPouchAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::AddScoreByGemPouchAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_4_B4FE7D638E78B59C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::AddScoreByGemPouchAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_5_1969618E9097D3C5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_960E06B330D892BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::AddScoreByGemPouchAction* a2)
+		static ::System::Void Method_5_75D826E496F8D7D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::AddScoreByGemPouchAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::AddScoreByGemPouchAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_4_960E06B330D892BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::AddScoreByGemPouchAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ADDSCOREBYGEMPOUCHACTION_METHOD_5_75D826E496F8D7D4_OFFSET))(a1, a2);
 		}
 	};
 }

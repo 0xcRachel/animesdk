@@ -6,15 +6,15 @@ namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x15CE3EF0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x15CE3E20)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x15CE3E80)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x15CE3DC0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE4B80)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x163AC320)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CLIENTPROVIDERS_OFFSET UNITYSDK_OFFSET(0x163AC250)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_CUSTOMPROPERTIES_OFFSET UNITYSDK_OFFSET(0x163AC2B0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA_GET_SERVERPROVIDERS_OFFSET UNITYSDK_OFFSET(0x163AC1F0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163ACFB0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1199;
+	inline static constexpr unsigned int ChannelData_TypeDefinitionIndex = 1204;
 
 	class ChannelData : public ::System::Object
 	{
@@ -22,8 +22,8 @@ namespace System::Runtime::Remoting
 		::System::String* Ref; // 0x10
 		::System::Collections::Hashtable* _customProperties; // 0x18
 		::System::Collections::ArrayList* _serverProviders; // 0x20
-		::System::String* Type; // 0x28
-		::System::String* DelayLoadAsClientChannel; // 0x30
+		::System::String* DelayLoadAsClientChannel; // 0x28
+		::System::String* Type; // 0x30
 		::System::Collections::ArrayList* _clientProviders; // 0x38
 		::System::String* Id; // 0x40
 

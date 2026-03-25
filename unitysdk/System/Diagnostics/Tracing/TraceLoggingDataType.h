@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TraceLoggingDataType_TypeDefinitionIndex = 1646;
+	inline static constexpr unsigned int TraceLoggingDataType_TypeDefinitionIndex = 1651;
 
 	enum class TraceLoggingDataType : ::System::Int32
 	{

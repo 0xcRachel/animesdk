@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LoopTowerAnimBehavior_TowerDirectionType.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
 namespace RPG::Client { class LoopTowerAnimBehavior; }
@@ -8,13 +9,13 @@ namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x95A22F0)
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x95A2340)
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x95A2360)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9A80C80)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9A80CD0)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9A80CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 56508;
+	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 58089;
 
 	class LoopTowerAnimMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LoopTowerAnimBehavior*>
 	{
@@ -22,6 +23,7 @@ namespace RPG::Client
 		::System::Single Speed; // 0x30
 		::System::Single TowerHeight; // 0x34
 		::System::Single BaseOffset; // 0x38
+		::RPG::Client::LoopTowerAnimBehavior_TowerDirectionType TowerDirectionType; // 0x3C
 		::System::Collections::Generic::List_1<::RPG::Client::LoopTowerAnimBehavior_LoopTowerSlide*>* SliderTemplate; // 0x40
 		::System::Boolean PreviewMode; // 0x48
 		::System::Single SwayIntensity; // 0x4C

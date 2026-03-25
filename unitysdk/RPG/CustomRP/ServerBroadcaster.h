@@ -8,21 +8,21 @@ namespace System::IO { class MemoryStream; }
 namespace System::Net::Sockets { class UdpClient; }
 namespace System::Threading { class Thread; }
 
-#define RPG_CUSTOMRP_SERVERBROADCASTER_STOP_OFFSET UNITYSDK_OFFSET(0x163DE180)
-#define RPG_CUSTOMRP_SERVERBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x163DDEA0)
-#define RPG_CUSTOMRP_SERVERBROADCASTER__THREADFUNC_OFFSET UNITYSDK_OFFSET(0x163DE1B0)
+#define RPG_CUSTOMRP_SERVERBROADCASTER_STOP_OFFSET UNITYSDK_OFFSET(0x16AECE00)
+#define RPG_CUSTOMRP_SERVERBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AECB50)
+#define RPG_CUSTOMRP_SERVERBROADCASTER__THREADFUNC_OFFSET UNITYSDK_OFFSET(0x16AECE30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 28647;
+	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 29522;
 
 	class ServerBroadcaster : public ::System::Object
 	{
 	public:
-		::System::IO::MemoryStream* _ms; // 0x10
-		::System::IO::BinaryWriter* _bw; // 0x18
-		::System::Threading::Thread* _thread; // 0x20
-		::System::Net::Sockets::UdpClient* _udpClient; // 0x28
+		::System::Net::Sockets::UdpClient* _udpClient; // 0x10
+		::System::Threading::Thread* _thread; // 0x18
+		::System::IO::MemoryStream* _ms; // 0x20
+		::System::IO::BinaryWriter* _bw; // 0x28
 		::RPG::CustomRP::RPUdpMessageHello* _message; // 0x30
 		::System::Boolean _isRun; // 0x38
 

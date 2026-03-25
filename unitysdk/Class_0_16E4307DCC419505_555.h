@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class EquipmentItemData; }
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_555_TypeDefinitionIndex = 49813;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_555_TypeDefinitionIndex = 50637;
 
 class Class_0_16E4307DCC419505_555
 {

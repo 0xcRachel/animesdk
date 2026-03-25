@@ -8,29 +8,29 @@ namespace RPG::GameCore { class IntersectionPhaseSerialization; }
 namespace RPG::GameCore { class PhaseValueActionPairSerialization; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9FB5B30)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9FB5B70)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__1_0_OFFSET UNITYSDK_OFFSET(0x9FB5B80)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__1_1_OFFSET UNITYSDK_OFFSET(0x9FB5CD0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4D84B0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D84F0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__1_0_OFFSET UNITYSDK_OFFSET(0xA4D8500)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__1_1_OFFSET UNITYSDK_OFFSET(0xA4D8650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex = 56579;
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex = 58164;
 
 	class StageHarmonyTrafficLightMonoPlugin___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_PhaseValueActionPair*, ::RPG::GameCore::PhaseValueActionPairSerialization*>** StaticGet___9__1_1()
+		{
+			return (::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_PhaseValueActionPair*, ::RPG::GameCore::PhaseValueActionPairSerialization*>**)Il2CppClass::FromTypeDefinitionIndex(StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex)->GetStaticField(0x3AE60);
+		}
 		static ::RPG::Client::StageHarmonyTrafficLightMonoPlugin___c** StaticGet___9()
 		{
-			return (::RPG::Client::StageHarmonyTrafficLightMonoPlugin___c**)Il2CppClass::FromTypeDefinitionIndex(StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex)->GetStaticField(0x19990);
+			return (::RPG::Client::StageHarmonyTrafficLightMonoPlugin___c**)Il2CppClass::FromTypeDefinitionIndex(StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex)->GetStaticField(0x3AE68);
 		}
 		static ::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase*, ::RPG::GameCore::IntersectionPhaseSerialization*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase*, ::RPG::GameCore::IntersectionPhaseSerialization*>**)Il2CppClass::FromTypeDefinitionIndex(StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex)->GetStaticField(0x19998);
-		}
-		static ::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_PhaseValueActionPair*, ::RPG::GameCore::PhaseValueActionPairSerialization*>** StaticGet___9__1_1()
-		{
-			return (::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase_PhaseValueActionPair*, ::RPG::GameCore::PhaseValueActionPairSerialization*>**)Il2CppClass::FromTypeDefinitionIndex(StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex)->GetStaticField(0x199A0);
+			return (::System::Func_2<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase*, ::RPG::GameCore::IntersectionPhaseSerialization*>**)Il2CppClass::FromTypeDefinitionIndex(StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex)->GetStaticField(0x3AE70);
 		}
 
 		static ::System::Void _cctor()

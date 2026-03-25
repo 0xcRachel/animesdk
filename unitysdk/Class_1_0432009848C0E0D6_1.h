@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define CLASS_1_0432009848C0E0D6_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x1615F740)
+#define CLASS_1_0432009848C0E0D6_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x167A55D0)
 
-inline static constexpr unsigned int Class_1_0432009848C0E0D6_1_TypeDefinitionIndex = 31491;
+inline static constexpr unsigned int Class_1_0432009848C0E0D6_1_TypeDefinitionIndex = 32395;
 
 class Class_1_0432009848C0E0D6_1 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_29()
+	static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_Field_1_46()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0x45B0);
+		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0xC2B0);
 	}
-	static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_Field_1_30()
+	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_45()
 	{
-		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0x45B8);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0432009848C0E0D6_1_TypeDefinitionIndex)->GetStaticField(0xC2B8);
 	}
 	// static const ::System::Int32 Field_1_0 = 0x0; // 0x0
 	// static const ::System::Int32 Field_1_1 = 0x1; // 0x0
@@ -49,6 +49,22 @@ public:
 	// static const ::System::Int32 Field_1_26 = 0x1A; // 0x0
 	// static const ::System::Int32 Field_1_27 = 0x1B; // 0x0
 	// static const ::System::Int32 Field_1_28 = 0x1C; // 0x0
+	// static const ::System::Int32 Field_1_29 = 0x1D; // 0x0
+	// static const ::System::Int32 Field_1_30 = 0x1E; // 0x0
+	// static const ::System::Int32 Field_1_31 = 0x1F; // 0x0
+	// static const ::System::Int32 Field_1_32 = 0x20; // 0x0
+	// static const ::System::Int32 Field_1_33 = 0x21; // 0x0
+	// static const ::System::Int32 Field_1_34 = 0x22; // 0x0
+	// static const ::System::Int32 Field_1_35 = 0x23; // 0x0
+	// static const ::System::Int32 Field_1_36 = 0x24; // 0x0
+	// static const ::System::Int32 Field_1_37 = 0x25; // 0x0
+	// static const ::System::Int32 Field_1_38 = 0x26; // 0x0
+	// static const ::System::Int32 Field_1_39 = 0x27; // 0x0
+	// static const ::System::Int32 Field_1_40 = 0x28; // 0x0
+	// static const ::System::Int32 Field_1_41 = 0x29; // 0x0
+	// static const ::System::Int32 Field_1_42 = 0x2A; // 0x0
+	// static const ::System::Int32 Field_1_43 = 0x2B; // 0x0
+	// static const ::System::Int32 Field_1_44 = 0x2C; // 0x0
 
 	static ::System::Void _cctor()
 	{

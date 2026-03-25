@@ -7,19 +7,19 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B086460A47690D65_METHOD_1_CF780FC3D0CB1833_OFFSET UNITYSDK_OFFSET(0x864CA90)
-#define CLASS_1_B086460A47690D65_METHOD_1_D2AFBAB4C209AA0D_OFFSET UNITYSDK_OFFSET(0x864C970)
-#define CLASS_1_B086460A47690D65__CCTOR_OFFSET UNITYSDK_OFFSET(0x864CC30)
-#define CLASS_1_B086460A47690D65__CTOR_OFFSET UNITYSDK_OFFSET(0x864CB90)
+#define CLASS_1_B086460A47690D65_METHOD_1_CF780FC3D0CB1833_OFFSET UNITYSDK_OFFSET(0x882ED10)
+#define CLASS_1_B086460A47690D65_METHOD_1_D2AFBAB4C209AA0D_OFFSET UNITYSDK_OFFSET(0x882EBF0)
+#define CLASS_1_B086460A47690D65__CCTOR_OFFSET UNITYSDK_OFFSET(0x882EEB0)
+#define CLASS_1_B086460A47690D65__CTOR_OFFSET UNITYSDK_OFFSET(0x882EE10)
 
-inline static constexpr unsigned int Class_1_B086460A47690D65_TypeDefinitionIndex = 42467;
+inline static constexpr unsigned int Class_1_B086460A47690D65_TypeDefinitionIndex = 43517;
 
 class Class_1_B086460A47690D65 : public ::System::Object
 {
 public:
 	static ::Class_1_B086460A47690D65** StaticGet_Field_1_0()
 	{
-		return (::Class_1_B086460A47690D65**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B086460A47690D65_TypeDefinitionIndex)->GetStaticField(0x3DBD0);
+		return (::Class_1_B086460A47690D65**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B086460A47690D65_TypeDefinitionIndex)->GetStaticField(0x43DC0);
 	}
 	::System::Collections::Generic::List_1<::Struct_2_DF90B2BD73749811_1>* Field_1_3; // 0x10
 	::System::Collections::Generic::List_1<::Struct_2_ABC67D4EFBF3BD9A>* Field_1_4; // 0x18

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/RPG/GameCore/ElationPointChangePopUIStyle.h"
 
-class Class_0_16E4307DCC419505_863;
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_864_TypeDefinitionIndex = 59519;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_864_TypeDefinitionIndex = 59077;
 
 class Class_0_16E4307DCC419505_864
 {

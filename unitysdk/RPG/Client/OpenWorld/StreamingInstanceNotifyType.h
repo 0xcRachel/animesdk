@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingInstanceNotifyType_TypeDefinitionIndex = 58864;
+	inline static constexpr unsigned int StreamingInstanceNotifyType_TypeDefinitionIndex = 60607;
 
 	enum class StreamingInstanceNotifyType : ::System::Int32
 	{

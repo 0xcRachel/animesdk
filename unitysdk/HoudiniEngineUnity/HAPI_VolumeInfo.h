@@ -7,7 +7,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_VolumeInfo_TypeDefinitionIndex = 36791;
+	inline static constexpr unsigned int HAPI_VolumeInfo_TypeDefinitionIndex = 37728;
 
 	struct alignas(8) HAPI_VolumeInfo
 	{

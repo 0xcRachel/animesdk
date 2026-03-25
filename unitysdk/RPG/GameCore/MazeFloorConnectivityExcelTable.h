@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16C6FE80)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16C6FD00)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16C6F9D0)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16C6FCA0)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16C70090)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16C6FA50)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16C700D0)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C702B0)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16C704C0)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C70820)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16C70210)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16C70170)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x173D5830)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x173D56B0)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x173D5380)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x173D5650)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x173D5A40)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x173D5400)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x173D5A80)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x173D5C60)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x173D5E70)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x173D61D0)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x173D5BC0)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x173D5B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeFloorConnectivityExcelTable_TypeDefinitionIndex = 12775;
+	inline static constexpr unsigned int MazeFloorConnectivityExcelTable_TypeDefinitionIndex = 12846;
 
 	class MazeFloorConnectivityExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x371E0);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x371E8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x45710);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x45718);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeFloorConnectivityRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeFloorConnectivityRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x371F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeFloorConnectivityRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x45720);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0xD570);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x11EA0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0xD571);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazeFloorConnectivityExcelTable_TypeDefinitionIndex)->GetStaticField(0x11EA1);
 		}
 
 		static ::System::Void _cctor()

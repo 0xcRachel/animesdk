@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueDynamicContentParamType_TypeDefinitionIndex = 11920;
+	inline static constexpr unsigned int DialogueDynamicContentParamType_TypeDefinitionIndex = 11990;
 
 	enum class DialogueDynamicContentParamType : ::System::Int32
 	{

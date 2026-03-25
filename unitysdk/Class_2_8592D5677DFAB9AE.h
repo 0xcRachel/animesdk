@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_1_A8AA94B0A861166B;
+class Class_1_0AAFEDEA798400CF;
 namespace RPG::GameCore { class MemoryVisionPuzzleInit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_8592D5677DFAB9AE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10CA9BF0)
-#define CLASS_2_8592D5677DFAB9AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10CA9C90)
-#define CLASS_2_8592D5677DFAB9AE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10CA9E30)
-#define CLASS_2_8592D5677DFAB9AE_TICK_OFFSET UNITYSDK_OFFSET(0x10CA9E80)
-#define CLASS_2_8592D5677DFAB9AE__CTOR_OFFSET UNITYSDK_OFFSET(0x10CA9BB0)
+#define CLASS_2_8592D5677DFAB9AE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8BB6AA0)
+#define CLASS_2_8592D5677DFAB9AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BB6B40)
+#define CLASS_2_8592D5677DFAB9AE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8BB6CE0)
+#define CLASS_2_8592D5677DFAB9AE_TICK_OFFSET UNITYSDK_OFFSET(0x8BB6D30)
+#define CLASS_2_8592D5677DFAB9AE__CTOR_OFFSET UNITYSDK_OFFSET(0x8BB6A60)
 
-inline static constexpr unsigned int Class_2_8592D5677DFAB9AE_TypeDefinitionIndex = 41860;
+inline static constexpr unsigned int Class_2_8592D5677DFAB9AE_TypeDefinitionIndex = 42909;
 
 class Class_2_8592D5677DFAB9AE : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::MemoryVisionPuzzleInit* Field_2_1; // 0x18
-	::Class_1_A8AA94B0A861166B* Field_2_0; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
+	::RPG::GameCore::MemoryVisionPuzzleInit* Field_2_1; // 0x20
+	::Class_1_0AAFEDEA798400CF* Field_2_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MemoryVisionPuzzleInit* a2)
 	{

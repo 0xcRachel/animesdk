@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PipelinePlatformFlag_TypeDefinitionIndex = 28267;
+	inline static constexpr unsigned int PipelinePlatformFlag_TypeDefinitionIndex = 29142;
 
 	enum class PipelinePlatformFlag : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistrictSoundUsage_TypeDefinitionIndex = 15499;
+	inline static constexpr unsigned int DistrictSoundUsage_TypeDefinitionIndex = 15776;
 
 	enum class DistrictSoundUsage : ::System::Int32
 	{

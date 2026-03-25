@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropAttachPointRendererSetVisibility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_768B4D012B2B57BC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B26150)
-#define CLASS_3_768B4D012B2B57BC__CTOR_OFFSET UNITYSDK_OFFSET(0x10B26120)
+#define CLASS_3_768B4D012B2B57BC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEC6C80)
+#define CLASS_3_768B4D012B2B57BC__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC6C50)
 
-inline static constexpr unsigned int Class_3_768B4D012B2B57BC_TypeDefinitionIndex = 45971;
+inline static constexpr unsigned int Class_3_768B4D012B2B57BC_TypeDefinitionIndex = 47039;
 
 class Class_3_768B4D012B2B57BC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropAttachPointRendererSetVisibility*>
 {

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168B1920)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168B17A0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168B1470)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168B1740)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168B1AA0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168B14F0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168B1AE0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168B1CC0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168B22D0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168B25E0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168B1C20)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168B1B80)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FBF460)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FBF2E0)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FBEFB0)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FBF280)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FBF5E0)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBF030)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBF620)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FBF800)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FBFE10)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FC0120)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FBF760)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBF6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarRelicRecommendExcelTable_TypeDefinitionIndex = 11582;
+	inline static constexpr unsigned int AvatarRelicRecommendExcelTable_TypeDefinitionIndex = 11652;
 
 	class AvatarRelicRecommendExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarRelicRecommendRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarRelicRecommendRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x24760);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x24768);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x17FB0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarRelicRecommendRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarRelicRecommendRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x17FB8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x24770);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x7780);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x17FC0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x7781);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x9290);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AvatarRelicRecommendExcelTable_TypeDefinitionIndex)->GetStaticField(0x9291);
 		}
 
 		static ::System::Void _cctor()

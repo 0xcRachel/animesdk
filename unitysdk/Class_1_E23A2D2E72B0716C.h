@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_173;
+class Class_1_43BD383C98B4C0C5_176;
 class Class_1_933C07741192A471;
 class Class_1_F9EBB5A401350F78;
-class Class_1_F9FBCC956DFCF137_13;
+class Class_1_F9FBCC956DFCF137_14;
 class Class_2_49CAB3DE74280C58;
 class Class_2_6AA7CA7493367EF4;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
@@ -15,29 +15,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E23A2D2E72B0716C_EXECUTE_OFFSET UNITYSDK_OFFSET(0x8ABEB80)
-#define CLASS_1_E23A2D2E72B0716C_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x8ABE990)
-#define CLASS_1_E23A2D2E72B0716C_METHOD_1_ADB7A142D796596C_OFFSET UNITYSDK_OFFSET(0x8ABE870)
-#define CLASS_1_E23A2D2E72B0716C_METHOD_1_BA1BB49741CFDFE1_OFFSET UNITYSDK_OFFSET(0x8ABE9D0)
-#define CLASS_1_E23A2D2E72B0716C_METHOD_1_C2ECD4DEFC38CA09_OFFSET UNITYSDK_OFFSET(0x8ABE900)
-#define CLASS_1_E23A2D2E72B0716C_METHOD_1_D754D5F3490FC4F3_OFFSET UNITYSDK_OFFSET(0x8ABEE90)
-#define CLASS_1_E23A2D2E72B0716C_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x8ABF130)
-#define CLASS_1_E23A2D2E72B0716C_TICK_OFFSET UNITYSDK_OFFSET(0x8ABF0C0)
-#define CLASS_1_E23A2D2E72B0716C__CTOR_OFFSET UNITYSDK_OFFSET(0x8ABE810)
+#define CLASS_1_E23A2D2E72B0716C_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10C77170)
+#define CLASS_1_E23A2D2E72B0716C_METHOD_1_128774387667156B_OFFSET UNITYSDK_OFFSET(0x10C76F80)
+#define CLASS_1_E23A2D2E72B0716C_METHOD_1_ADB7A142D796596C_OFFSET UNITYSDK_OFFSET(0x10C76E60)
+#define CLASS_1_E23A2D2E72B0716C_METHOD_1_BA1BB49741CFDFE1_OFFSET UNITYSDK_OFFSET(0x10C76FC0)
+#define CLASS_1_E23A2D2E72B0716C_METHOD_1_C2ECD4DEFC38CA09_OFFSET UNITYSDK_OFFSET(0x10C76EF0)
+#define CLASS_1_E23A2D2E72B0716C_METHOD_1_D754D5F3490FC4F3_OFFSET UNITYSDK_OFFSET(0x10C77480)
+#define CLASS_1_E23A2D2E72B0716C_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x10C77720)
+#define CLASS_1_E23A2D2E72B0716C_TICK_OFFSET UNITYSDK_OFFSET(0x10C776B0)
+#define CLASS_1_E23A2D2E72B0716C__CTOR_OFFSET UNITYSDK_OFFSET(0x10C76E00)
 
-inline static constexpr unsigned int Class_1_E23A2D2E72B0716C_TypeDefinitionIndex = 61194;
+inline static constexpr unsigned int Class_1_E23A2D2E72B0716C_TypeDefinitionIndex = 63193;
 
 class Class_1_E23A2D2E72B0716C : public ::System::Object
 {
 public:
 	// static const ::System::String* Field_1_0; // 0x0
-	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_1_2; // 0x10
-	::Class_1_F9EBB5A401350F78* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_173*>* Field_1_3; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_176*>* Field_1_3; // 0x10
+	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_1_2; // 0x18
+	::Class_1_F9EBB5A401350F78* Field_1_1; // 0x20
 
-	::System::Void _ctor(::Class_2_49CAB3DE74280C58* a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_173*>* a2, ::Class_2_6AA7CA7493367EF4* a3)
+	::System::Void _ctor(::Class_2_49CAB3DE74280C58* a1, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_176*>* a2, ::Class_2_6AA7CA7493367EF4* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_49CAB3DE74280C58*, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_173*>*, ::Class_2_6AA7CA7493367EF4*))((::PBYTE)hIl2Cpp + CLASS_1_E23A2D2E72B0716C__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_2_49CAB3DE74280C58*, ::System::Collections::Generic::IEnumerable_1<::Class_1_43BD383C98B4C0C5_176*>*, ::Class_2_6AA7CA7493367EF4*))((::PBYTE)hIl2Cpp + CLASS_1_E23A2D2E72B0716C__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	static ::RPG::GameCore::ChimeraDuelNodeContainer* Method_1_ADB7A142D796596C()
@@ -55,9 +55,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_E23A2D2E72B0716C_METHOD_1_BA1BB49741CFDFE1_OFFSET))();
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_13* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_14* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_13*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_E23A2D2E72B0716C_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_14*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_E23A2D2E72B0716C_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_D754D5F3490FC4F3(::Class_1_933C07741192A471* a1)

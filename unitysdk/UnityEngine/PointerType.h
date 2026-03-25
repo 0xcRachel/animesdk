@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5004;
+	inline static constexpr unsigned int PointerType_TypeDefinitionIndex = 5104;
 
 	enum class PointerType : ::System::Int32
 	{

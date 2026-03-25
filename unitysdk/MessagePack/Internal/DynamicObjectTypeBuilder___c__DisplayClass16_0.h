@@ -13,27 +13,27 @@ namespace System::Reflection::Emit { class ILGenerator; }
 namespace System::Reflection::Emit { class LocalBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS16_0__BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_G__FORBODY_0_OFFSET UNITYSDK_OFFSET(0x1565F5A0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1565BE20)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS16_0__BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_G__FORBODY_0_OFFSET UNITYSDK_OFFSET(0x15D6DFD0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15D6A830)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass16_0_TypeDefinitionIndex = 9624;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass16_0_TypeDefinitionIndex = 9176;
 
 	class DynamicObjectTypeBuilder___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Reflection::Emit::LocalBuilder* key; // 0x10
-		::System::Reflection::Emit::TypeBuilder* typeBuilder; // 0x18
-		::Il2CppArray<::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*>* infoList; // 0x20
-		::MessagePack::Internal::ArgumentField reader; // 0x28
-		::System::Reflection::Emit::ILGenerator* il; // 0x38
-		::System::Reflection::Emit::LocalBuilder* localResult; // 0x40
-		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x48
-		::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter; // 0x50
-		::MessagePack::Internal::ArgumentField options; // 0x58
-		::System::Reflection::Emit::Label switchDefault; // 0x68
-		::System::Nullable_1<::System::Reflection::Emit::Label> gotoDefault; // 0x6C
+		::Il2CppArray<::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*>* infoList; // 0x10
+		::MessagePack::Internal::ArgumentField reader; // 0x18
+		::System::Reflection::Emit::LocalBuilder* localResult; // 0x28
+		::System::Reflection::Emit::ILGenerator* il; // 0x30
+		::System::Reflection::Emit::TypeBuilder* typeBuilder; // 0x38
+		::MessagePack::Internal::ArgumentField options; // 0x40
+		::System::Reflection::Emit::LocalBuilder* localResolver; // 0x50
+		::System::Reflection::Emit::LocalBuilder* key; // 0x58
+		::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter; // 0x60
+		::System::Nullable_1<::System::Reflection::Emit::Label> gotoDefault; // 0x68
+		::System::Reflection::Emit::Label switchDefault; // 0x70
 		::System::Boolean canOverwrite; // 0x74
 
 		::System::Void _ctor()

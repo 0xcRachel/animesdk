@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_22D61CFAEF9166B1;
-class Class_1_43BD383C98B4C0C5_11;
+class Class_0_16E4307DCC419505_30;
+namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
-namespace RPG::GameCore { class AIVariable; }
-namespace System { class String; }
+namespace System { class Type; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_32_TypeDefinitionIndex = 27988;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_32_TypeDefinitionIndex = 28627;
 
 class Class_0_16E4307DCC419505_32
 {

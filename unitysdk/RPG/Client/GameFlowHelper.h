@@ -6,13 +6,13 @@ class Class_1_B823313B2CC4BC8E;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_GAMEFLOWHELPER_CHECKCANGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x92F34D0)
-#define RPG_CLIENT_GAMEFLOWHELPER_TRYGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x92F30D0)
-#define RPG_CLIENT_GAMEFLOWHELPER__CREATEGOTOPARAMS_OFFSET UNITYSDK_OFFSET(0x92F3780)
+#define RPG_CLIENT_GAMEFLOWHELPER_CHECKCANGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x9768280)
+#define RPG_CLIENT_GAMEFLOWHELPER_TRYGOTOGAMEFLOW_OFFSET UNITYSDK_OFFSET(0x9767E60)
+#define RPG_CLIENT_GAMEFLOWHELPER__CREATEGOTOPARAMS_OFFSET UNITYSDK_OFFSET(0x9768530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameFlowHelper_TypeDefinitionIndex = 51122;
+	inline static constexpr unsigned int GameFlowHelper_TypeDefinitionIndex = 52255;
 
 	class GameFlowHelper : public ::System::Object
 	{

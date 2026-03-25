@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class TerrainData; }
 
-#define UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET UNITYSDK_OFFSET(0x182AA7D0)
+#define UNITYENGINE_TERRAINCOLLIDER_SET_TERRAINDATA_OFFSET UNITYSDK_OFFSET(0x18AD1040)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainCollider_TypeDefinitionIndex = 5424;
+	inline static constexpr unsigned int TerrainCollider_TypeDefinitionIndex = 5524;
 
 	class TerrainCollider : public ::UnityEngine::Collider
 	{

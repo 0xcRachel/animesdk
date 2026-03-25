@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IActivityQuestRewardTabInfo; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFOFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x8BC4E80)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFOFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC4FF0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFOFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x8FC5BF0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFOFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x8FC5D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfoFactory_TypeDefinitionIndex = 49123;
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfoFactory_TypeDefinitionIndex = 50259;
 
 	class ActivitySummonQuestRewardTabInfoFactory : public ::System::Object
 	{

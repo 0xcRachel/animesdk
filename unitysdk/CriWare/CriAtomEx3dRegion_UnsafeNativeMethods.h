@@ -3,12 +3,12 @@
 #include "unitysdk/CriWare/CriAtomEx3dRegion_Config.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_CREATE_OFFSET UNITYSDK_OFFSET(0x1128C870)
-#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_DESTROY_OFFSET UNITYSDK_OFFSET(0x1128CA00)
+#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_CREATE_OFFSET UNITYSDK_OFFSET(0x11A15ED0)
+#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_DESTROY_OFFSET UNITYSDK_OFFSET(0x11A16060)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dRegion_UnsafeNativeMethods_TypeDefinitionIndex = 30168;
+	inline static constexpr unsigned int CriAtomEx3dRegion_UnsafeNativeMethods_TypeDefinitionIndex = 31043;
 
 	class CriAtomEx3dRegion_UnsafeNativeMethods : public ::System::Object
 	{

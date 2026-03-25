@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSSURFACETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EB0590)
-#define RPG_GAMECORE_ROGUENOUSSURFACETAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB0BF0)
+#define RPG_GAMECORE_ROGUENOUSSURFACETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1765B9F0)
+#define RPG_GAMECORE_ROGUENOUSSURFACETAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1765C050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousSurfaceTagRow_TypeDefinitionIndex = 13565;
+	inline static constexpr unsigned int RogueNousSurfaceTagRow_TypeDefinitionIndex = 13643;
 
 	class RogueNousSurfaceTagRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID TagName; // 0x10
-		::System::UInt32 TagID; // 0x20
-		::System::UInt32 Sort; // 0x24
+		::System::UInt32 Sort; // 0x20
+		::System::UInt32 TagID; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropPuzzleViewEventSender; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4C7F38673F333756_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C493B0)
-#define CLASS_3_4C7F38673F333756__CTOR_OFFSET UNITYSDK_OFFSET(0x10C49380)
+#define CLASS_3_4C7F38673F333756_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110FDCA0)
+#define CLASS_3_4C7F38673F333756__CTOR_OFFSET UNITYSDK_OFFSET(0x110FDC70)
 
-inline static constexpr unsigned int Class_3_4C7F38673F333756_TypeDefinitionIndex = 46009;
+inline static constexpr unsigned int Class_3_4C7F38673F333756_TypeDefinitionIndex = 47077;
 
 class Class_3_4C7F38673F333756 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropPuzzleViewEventSender*>
 {

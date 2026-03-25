@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_POOLED_SPINLOCKWITHNOCRITICALREGION_ENTER_OFFSET UNITYSDK_OFFSET(0x200E2B0)
-#define UNITYENGINE_POOLED_SPINLOCKWITHNOCRITICALREGION_EXIT_OFFSET UNITYSDK_OFFSET(0x2044FF0)
+#define UNITYENGINE_POOLED_SPINLOCKWITHNOCRITICALREGION_ENTER_OFFSET UNITYSDK_OFFSET(0x20E3B40)
+#define UNITYENGINE_POOLED_SPINLOCKWITHNOCRITICALREGION_EXIT_OFFSET UNITYSDK_OFFSET(0x211B750)
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int SpinLockWithNoCriticalRegion_TypeDefinitionIndex = 4318;
+	inline static constexpr unsigned int SpinLockWithNoCriticalRegion_TypeDefinitionIndex = 4340;
 
 	struct alignas(4) SpinLockWithNoCriticalRegion
 	{

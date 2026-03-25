@@ -8,23 +8,23 @@
 
 namespace UnityEngine::UIElements::StyleSheets { class StyleValuePropertyReader; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x182CCBE0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182CC730)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AF32F0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF2E40)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 5882;
+	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 5982;
 
 	class VisualElementStylesData : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::StyleSheets::VisualElementStylesData** StaticGet_none()
-		{
-			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0xA340);
-		}
 		static ::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader** StaticGet_s_StyleValuePropertyReader()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0xA348);
+			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x73E0);
+		}
+		static ::UnityEngine::UIElements::StyleSheets::VisualElementStylesData** StaticGet_none()
+		{
+			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x73E8);
 		}
 		::System::Boolean isShared; // 0x10
 		::UnityEngine::UIElements::StyleLength width; // 0x14

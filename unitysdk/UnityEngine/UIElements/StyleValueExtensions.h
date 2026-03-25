@@ -10,12 +10,12 @@
 namespace System { class String; }
 namespace UnityEngine::UIElements { template <typename T> class IStyleValue_1; }
 
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET UNITYSDK_OFFSET(0x182CCBC0)
-#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET UNITYSDK_OFFSET(0x182CCBA0)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLEFLOAT_OFFSET UNITYSDK_OFFSET(0x18AF32D0)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEEXTENSIONS_TOSTYLELENGTH_OFFSET UNITYSDK_OFFSET(0x18AF32B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 5872;
+	inline static constexpr unsigned int StyleValueExtensions_TypeDefinitionIndex = 5972;
 
 	class StyleValueExtensions : public ::System::Object
 	{

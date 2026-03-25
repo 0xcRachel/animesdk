@@ -9,32 +9,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class WWWForm; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xFEB35B0)
-#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xFEB3C10)
-#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xFEB3C70)
-#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xFEB3C20)
-#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEB3590)
-#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0__CTOR_OFFSET UNITYSDK_OFFSET(0xFEB3300)
+#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x89FE2B0)
+#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x89FE940)
+#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x89FE9A0)
+#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x89FE950)
+#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x89FE290)
+#define CLASS_1_7CDF63EE29789810__WWWREQUESTWITHRETRY_D__0__CTOR_OFFSET UNITYSDK_OFFSET(0x89FDFC0)
 
-inline static constexpr unsigned int Class_1_7CDF63EE29789810__WWWRequestWithRetry_d__0_TypeDefinitionIndex = 39376;
+inline static constexpr unsigned int Class_1_7CDF63EE29789810__WWWRequestWithRetry_d__0_TypeDefinitionIndex = 40356;
 
 class Class_1_7CDF63EE29789810__WWWRequestWithRetry_d__0 : public ::System::Object
 {
 public:
-	::UnityEngine::WWWForm* _wwwForm_5__4; // 0x10
-	::System::Action_1<::System::String*>* callback; // 0x18
+	::System::Action_1<::System::String*>* callback; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x18
 	::System::Action* timeOutCallback; // 0x20
-	::UnityEngine::Networking::UnityWebRequest* _localWWW_5__3; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* formDict; // 0x30
-	::System::String* jsonBody; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x40
-	::System::Object* __2__current; // 0x48
-	::System::String* url; // 0x50
-	::System::Single timeoutSecond; // 0x58
-	::System::Int32 retryTime; // 0x5C
-	::System::Boolean _timeout_5__5; // 0x60
-	::System::Int32 _counter_5__2; // 0x64
-	::System::Int32 __1__state; // 0x68
+	::System::Object* __2__current; // 0x28
+	::UnityEngine::WWWForm* _wwwForm_5__4; // 0x30
+	::System::String* url; // 0x38
+	::UnityEngine::Networking::UnityWebRequest* _localWWW_5__3; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* formDict; // 0x48
+	::System::String* jsonBody; // 0x50
+	::System::Int32 _counter_5__2; // 0x58
+	::System::Boolean _timeout_5__5; // 0x5C
+	::System::Int32 retryTime; // 0x60
+	::System::Int32 __1__state; // 0x64
+	::System::Single timeoutSecond; // 0x68
 
 	::System::Void _ctor(::System::Int32 __1__state)
 	{

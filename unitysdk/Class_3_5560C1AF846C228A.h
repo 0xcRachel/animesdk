@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareHeartDialTracingNPC; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5560C1AF846C228A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x88E41B0)
-#define CLASS_3_5560C1AF846C228A__CTOR_OFFSET UNITYSDK_OFFSET(0x88E4180)
+#define CLASS_3_5560C1AF846C228A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8AD5160)
+#define CLASS_3_5560C1AF846C228A__CTOR_OFFSET UNITYSDK_OFFSET(0x8AD5130)
 
-inline static constexpr unsigned int Class_3_5560C1AF846C228A_TypeDefinitionIndex = 41530;
+inline static constexpr unsigned int Class_3_5560C1AF846C228A_TypeDefinitionIndex = 42575;
 
 class Class_3_5560C1AF846C228A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareHeartDialTracingNPC*>
 {

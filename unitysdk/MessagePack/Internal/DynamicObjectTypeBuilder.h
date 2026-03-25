@@ -25,115 +25,114 @@ namespace System::Reflection::Emit { class LocalBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x15654FD0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCUSTOMFORMATTERFIELD_OFFSET UNITYSDK_OFFSET(0x15655760)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLEINTKEY_OFFSET UNITYSDK_OFFSET(0x1565B420)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLESTRINGKEY_OFFSET UNITYSDK_OFFSET(0x1565A900)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCEWITHARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1565A5A0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x156593A0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHSTEP_OFFSET UNITYSDK_OFFSET(0x156594C0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHUNSTEP_OFFSET UNITYSDK_OFFSET(0x15659DF0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYINTKEY_OFFSET UNITYSDK_OFFSET(0x1565ABA0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x15659EF0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYINTKEY_OFFSET UNITYSDK_OFFSET(0x156597A0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x15659910)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_OFFSET UNITYSDK_OFFSET(0x1565B270)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x1565A2D0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNDIRECTLY_OFFSET UNITYSDK_OFFSET(0x1565C0E0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x1565CD20)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15659A40)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALREADHEADERLENGTH_OFFSET UNITYSDK_OFFSET(0x15659580)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALRESOLVER_OFFSET UNITYSDK_OFFSET(0x15659680)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALTRYREADNIL_OFFSET UNITYSDK_OFFSET(0x15659150)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15657A40)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x15656010)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x15650F00)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITSERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x15658590)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MATCHES_OFFSET UNITYSDK_OFFSET(0x1565D4F0)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1565D680)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x15D63940)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDCUSTOMFORMATTERFIELD_OFFSET UNITYSDK_OFFSET(0x15D640D0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLEINTKEY_OFFSET UNITYSDK_OFFSET(0x15D69E30)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALASSIGNFIELDFROMLOCALVARIABLESTRINGKEY_OFFSET UNITYSDK_OFFSET(0x15D69310)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCEWITHARGUMENTS_OFFSET UNITYSDK_OFFSET(0x15D68FB0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALCREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x15D67DC0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHSTEP_OFFSET UNITYSDK_OFFSET(0x15D67EE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDEPTHUNSTEP_OFFSET UNITYSDK_OFFSET(0x15D68800)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYINTKEY_OFFSET UNITYSDK_OFFSET(0x15D695B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZATIONINFOARRAYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x15D68900)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYINTKEY_OFFSET UNITYSDK_OFFSET(0x15D681B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEEACHPROPERTYSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x15D68320)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPINTKEY_OFFSET UNITYSDK_OFFSET(0x15D69C80)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZELOOPSTRINGKEY_OFFSET UNITYSDK_OFFSET(0x15D68CE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNDIRECTLY_OFFSET UNITYSDK_OFFSET(0x15D6AAF0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNLOCALVARIABLE_OFFSET UNITYSDK_OFFSET(0x15D6B730)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D68450)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALREADHEADERLENGTH_OFFSET UNITYSDK_OFFSET(0x15D67FA0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALRESOLVER_OFFSET UNITYSDK_OFFSET(0x15D68090)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALTRYREADNIL_OFFSET UNITYSDK_OFFSET(0x15D67B70)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D663B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDSERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D64980)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDTYPE_OFFSET UNITYSDK_OFFSET(0x15D5F6B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITSERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x15D66FB0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D6BF00)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_TypeDefinitionIndex = 9612;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_TypeDefinitionIndex = 9166;
 
 	class DynamicObjectTypeBuilder : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
+		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B20);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_onAfterDeserialize()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B28);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_readerDepthSet()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B30);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ReadOnlySpanFromByteArray()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B38);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_messagePackSerializationExceptionMessageOnlyConstructor()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B40);
-		}
-		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
-		{
-			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B48);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x19980);
 		}
 		static ::System::Type** StaticGet_refMessagePackReader()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B50);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B58);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_SubtractFullNameRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B60);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_getSecurityFromOptions()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B68);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x19988);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getDeserialize()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B70);
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x19990);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_ReadStringSpan()
+		static ::System::Reflection::MethodInfo** StaticGet_ReadOnlySpanFromByteArray()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B78);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x19998);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_ArrayFromNullableReadOnlySequence()
+		static ::System::Reflection::MethodInfo** StaticGet_getSecurityFromOptions()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B80);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199A0);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_onBeforeSerialize()
+		static ::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_getSerialize()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B88);
+			return (::System::Func_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199A8);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_securityDepthStep()
+		static ::System::Reflection::MethodInfo** StaticGet_onAfterDeserialize()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B90);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199B0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::Type*>** StaticGet_ignoreTypes()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24B98);
+			return (::System::Collections::Generic::HashSet_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199B8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_onBeforeSerialize()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199C0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_ArrayFromNullableReadOnlySequence()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199C8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_ReadStringSpan()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199D0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_getResolverFromOptions()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199D8);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_messagePackSerializationExceptionMessageOnlyConstructor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199E0);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_getFormatterWithVerify()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24BA0);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199E8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_readerDepthSet()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199F0);
 		}
 		static ::System::Reflection::MethodInfo** StaticGet_readerDepthGet()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x24BA8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x199F8);
+		}
+		static ::System::Reflection::ConstructorInfo** StaticGet_objectCtor()
+		{
+			return (::System::Reflection::ConstructorInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x19A00);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_securityDepthStep()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x19A08);
 		}
 		static ::System::Int32* StaticGet_nameSequence()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x7910);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_TypeDefinitionIndex)->GetStaticField(0x9890);
 		}
 
 		static ::System::Void _cctor()
@@ -259,11 +258,6 @@ namespace MessagePack::Internal
 		static ::System::Void BuildDeserializeInternalDeserializeValueAssignLocalVariable(::System::Reflection::Emit::ILGenerator* il, ::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo* info, ::System::Int32 index, ::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>* tryEmitLoadCustomFormatter, ::MessagePack::Internal::ArgumentField& argReader, ::MessagePack::Internal::ArgumentField& argOptions, ::System::Reflection::Emit::LocalBuilder* localResolver, ::System::Reflection::Emit::LocalBuilder* localResult)
 		{
 			return ((::System::Void(*)(::System::Reflection::Emit::ILGenerator*, ::MessagePack::Internal::DynamicObjectTypeBuilder_DeserializeInfo*, ::System::Int32, ::System::Func_3<::System::Int32, ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember*, ::System::Action*>*, ::MessagePack::Internal::ArgumentField&, ::MessagePack::Internal::ArgumentField&, ::System::Reflection::Emit::LocalBuilder*, ::System::Reflection::Emit::LocalBuilder*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_BUILDDESERIALIZEINTERNALDESERIALIZEVALUEASSIGNLOCALVARIABLE_OFFSET))(il, info, index, tryEmitLoadCustomFormatter, argReader, argOptions, localResolver, localResult);
-		}
-
-		static ::System::Boolean Matches(::System::Reflection::MethodInfo* m, ::System::Int32 parameterIndex, ::System::Type* desiredType)
-		{
-			return ((::System::Boolean(*)(::System::Reflection::MethodInfo*, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MATCHES_OFFSET))(m, parameterIndex, desiredType);
 		}
 	};
 }

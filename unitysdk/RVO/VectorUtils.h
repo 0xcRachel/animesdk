@@ -5,14 +5,14 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RVO_VECTORUTILS_TORVO_1_OFFSET UNITYSDK_OFFSET(0x8289500)
-#define RVO_VECTORUTILS_TORVO_OFFSET UNITYSDK_OFFSET(0x82894F0)
-#define RVO_VECTORUTILS_TOUNITYX0Z_OFFSET UNITYSDK_OFFSET(0x82894D0)
-#define RVO_VECTORUTILS_TOUNITY_OFFSET UNITYSDK_OFFSET(0x82894C0)
+#define RVO_VECTORUTILS_TORVO_1_OFFSET UNITYSDK_OFFSET(0x85DBAC0)
+#define RVO_VECTORUTILS_TORVO_OFFSET UNITYSDK_OFFSET(0x85DBAB0)
+#define RVO_VECTORUTILS_TOUNITYX0Z_OFFSET UNITYSDK_OFFSET(0x85DBA90)
+#define RVO_VECTORUTILS_TOUNITY_OFFSET UNITYSDK_OFFSET(0x85DBA80)
 
 namespace RVO
 {
-	inline static constexpr unsigned int VectorUtils_TypeDefinitionIndex = 34298;
+	inline static constexpr unsigned int VectorUtils_TypeDefinitionIndex = 35232;
 
 	class VectorUtils : public ::System::Object
 	{

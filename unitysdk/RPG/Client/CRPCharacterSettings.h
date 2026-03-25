@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CRPCHARACTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E138D0)
+#define RPG_CLIENT_CRPCHARACTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x921D690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPCharacterSettings_TypeDefinitionIndex = 53878;
+	inline static constexpr unsigned int CRPCharacterSettings_TypeDefinitionIndex = 55430;
 
 	class CRPCharacterSettings : public ::System::Object
 	{

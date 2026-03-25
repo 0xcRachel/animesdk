@@ -8,23 +8,23 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenMiniGameManager; }
 namespace RPG::GameCore { class HipplenGameWaitEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_CFE01593AA29BD1C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x85E6900)
-#define CLASS_2_CFE01593AA29BD1C_METHOD_2_D3314DFA55F6676E_OFFSET UNITYSDK_OFFSET(0x85E6A80)
-#define CLASS_2_CFE01593AA29BD1C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x85E6620)
-#define CLASS_2_CFE01593AA29BD1C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x85E68B0)
-#define CLASS_2_CFE01593AA29BD1C_TICK_OFFSET UNITYSDK_OFFSET(0x85E6800)
-#define CLASS_2_CFE01593AA29BD1C__CTOR_OFFSET UNITYSDK_OFFSET(0x85E6610)
+#define CLASS_2_CFE01593AA29BD1C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8AF46E0)
+#define CLASS_2_CFE01593AA29BD1C_METHOD_2_D3314DFA55F6676E_OFFSET UNITYSDK_OFFSET(0x8AF4860)
+#define CLASS_2_CFE01593AA29BD1C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8AF4400)
+#define CLASS_2_CFE01593AA29BD1C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8AF4690)
+#define CLASS_2_CFE01593AA29BD1C_TICK_OFFSET UNITYSDK_OFFSET(0x8AF45E0)
+#define CLASS_2_CFE01593AA29BD1C__CTOR_OFFSET UNITYSDK_OFFSET(0x8AF43F0)
 
-inline static constexpr unsigned int Class_2_CFE01593AA29BD1C_TypeDefinitionIndex = 41258;
+inline static constexpr unsigned int Class_2_CFE01593AA29BD1C_TypeDefinitionIndex = 42301;
 
 class Class_2_CFE01593AA29BD1C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53* Field_2_3; // 0x18
-	::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* Field_2_4; // 0x20
-	::Class_1_69FF5DE516C87A66* Field_2_2; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
-	::RPG::GameCore::HipplenGameWaitEvent* Field_2_1; // 0x38
+	::RPG::GameCore::HipplenGameWaitEvent* Field_2_1; // 0x18
+	::Class_1_69FF5DE516C87A66* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
+	::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* Field_2_4; // 0x30
+	::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53* Field_2_3; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HipplenGameWaitEvent* a2)
 	{

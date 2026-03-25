@@ -6,11 +6,11 @@ namespace MiHoYo::SDK::PluginUI { class MiHoYoSDKBridgeUIElement; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIBRIDGEEVENTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x82298B0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIBRIDGEEVENTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8579D10)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIBridgeEventModel_TypeDefinitionIndex = 36522;
+	inline static constexpr unsigned int MiHoYoSDKUIBridgeEventModel_TypeDefinitionIndex = 37459;
 
 	class MiHoYoSDKUIBridgeEventModel : public ::System::Object
 	{

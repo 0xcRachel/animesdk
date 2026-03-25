@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EventEffectEnum_TypeDefinitionIndex = 11437;
+	inline static constexpr unsigned int EventEffectEnum_TypeDefinitionIndex = 11505;
 
 	enum class EventEffectEnum : ::System::Int32
 	{

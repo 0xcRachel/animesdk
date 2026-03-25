@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define SETTRANSFORMONSTART_START_OFFSET UNITYSDK_OFFSET(0xA68AF00)
-#define SETTRANSFORMONSTART__CTOR_OFFSET UNITYSDK_OFFSET(0xA68AF80)
+#define SETTRANSFORMONSTART_START_OFFSET UNITYSDK_OFFSET(0xABD2930)
+#define SETTRANSFORMONSTART__CTOR_OFFSET UNITYSDK_OFFSET(0xABD29B0)
 
-inline static constexpr unsigned int SetTransformOnStart_TypeDefinitionIndex = 37490;
+inline static constexpr unsigned int SetTransformOnStart_TypeDefinitionIndex = 38454;
 
 class SetTransformOnStart : public ::UnityEngine::MonoBehaviour
 {

@@ -8,22 +8,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_167CC5FE2F587D46_METHOD_2_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x8A7D340)
-#define CLASS_2_167CC5FE2F587D46_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8A7DE60)
-#define CLASS_2_167CC5FE2F587D46__CTOR_OFFSET UNITYSDK_OFFSET(0x8A7DE40)
+#define CLASS_2_167CC5FE2F587D46_METHOD_2_00DEF5A164D9A9D5_OFFSET UNITYSDK_OFFSET(0x117B95C0)
+#define CLASS_2_167CC5FE2F587D46_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x117BA0E0)
+#define CLASS_2_167CC5FE2F587D46__CTOR_OFFSET UNITYSDK_OFFSET(0x117BA0C0)
 
-inline static constexpr unsigned int Class_2_167CC5FE2F587D46_TypeDefinitionIndex = 56262;
+inline static constexpr unsigned int Class_2_167CC5FE2F587D46_TypeDefinitionIndex = 57833;
 
 class Class_2_167CC5FE2F587D46 : public ::Class_1_3FBBE3A5D4F5B883
 {
 public:
-	::System::Collections::Generic::List_1<::System::Single>* Field_2_6; // 0x30
-	::System::String* Field_2_0; // 0x38
-	::System::Collections::Generic::List_1<::RPG::Client::TAUtils::SimpleTransform>* Field_2_5; // 0x40
-	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_2_7; // 0x48
-	::System::Single Field_2_3; // 0x50
-	::System::Single Field_2_4; // 0x54
-	::System::Single Field_2_2; // 0x58
+	::System::Collections::Generic::List_1<::RPG::Client::TAUtils::SimpleTransform>* Field_2_5; // 0x30
+	::System::Collections::Generic::List_1<::System::Single>* Field_2_6; // 0x38
+	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* Field_2_7; // 0x40
+	::System::String* Field_2_0; // 0x48
+	::System::Single Field_2_2; // 0x50
+	::System::Single Field_2_3; // 0x54
+	::System::Single Field_2_4; // 0x58
 	::Class_2_167CC5FE2F587D46_CustomDataChannel Field_2_1; // 0x5C
 
 	::System::Void _ctor()

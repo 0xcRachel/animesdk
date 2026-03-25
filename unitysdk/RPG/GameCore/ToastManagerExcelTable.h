@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x170F8750)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x170F85A0)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x170F8270)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x170F8540)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x170F8900)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x170F82F0)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x170F8940)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x170F8B20)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x170F8D20)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x170F9030)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x170F8A80)
-#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x170F89E0)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x178B5E50)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x178B5CA0)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x178B5970)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x178B5C40)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x178B6000)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x178B59F0)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x178B6040)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x178B6220)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x178B6420)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178B6730)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x178B6180)
+#define RPG_GAMECORE_TOASTMANAGEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x178B60E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastManagerExcelTable_TypeDefinitionIndex = 13914;
+	inline static constexpr unsigned int ToastManagerExcelTable_TypeDefinitionIndex = 14030;
 
 	class ToastManagerExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ToastManagerRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ToastManagerRow*>**)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x25360);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x25368);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x18FA0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ToastManagerRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ToastManagerRow*>**)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x18FA8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x25370);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x7CD0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x18FB0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x7CD1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x9670);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ToastManagerExcelTable_TypeDefinitionIndex)->GetStaticField(0x9671);
 		}
 
 		static ::System::Void _cctor()

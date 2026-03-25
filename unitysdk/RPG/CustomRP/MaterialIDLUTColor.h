@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialIDLUTColor_TypeDefinitionIndex = 28607;
+	inline static constexpr unsigned int MaterialIDLUTColor_TypeDefinitionIndex = 29482;
 
 	enum class MaterialIDLUTColor : ::System::Int32
 	{

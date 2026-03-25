@@ -7,10 +7,10 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define BONECHAIN_GET_MAXDEFORMATIONANGLE_OFFSET UNITYSDK_OFFSET(0x8AA8DD0)
-#define BONECHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x8AA8DE0)
+#define BONECHAIN_GET_MAXDEFORMATIONANGLE_OFFSET UNITYSDK_OFFSET(0x8FD9180)
+#define BONECHAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x8FD9190)
 
-inline static constexpr unsigned int BoneChain_TypeDefinitionIndex = 37203;
+inline static constexpr unsigned int BoneChain_TypeDefinitionIndex = 38167;
 
 class BoneChain : public ::System::Object
 {

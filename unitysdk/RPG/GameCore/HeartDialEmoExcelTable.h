@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16B5E210)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16B5E060)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16B5DD30)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16B5E000)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16B5E3E0)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B5DDB0)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16B5E420)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B5E600)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16B5E7D0)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B5EB30)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16B5E560)
-#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B5E4C0)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x172AC8F0)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x172AC740)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x172AC410)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x172AC6E0)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x172ACAC0)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x172AC490)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x172ACB00)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x172ACCE0)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x172ACEB0)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x172AD210)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x172ACC40)
+#define RPG_GAMECORE_HEARTDIALEMOEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x172ACBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialEmoExcelTable_TypeDefinitionIndex = 12491;
+	inline static constexpr unsigned int HeartDialEmoExcelTable_TypeDefinitionIndex = 12561;
 
 	class HeartDialEmoExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeartDialEmoRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeartDialEmoRow*>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0x36EC0);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0x30200);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0x36EC8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0x30208);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeartDialEmoRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeartDialEmoRow*>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0x30210);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0x36ED0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0xB820);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0xD900);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0xB821);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(HeartDialEmoExcelTable_TypeDefinitionIndex)->GetStaticField(0xD901);
 		}
 
 		static ::System::Void _cctor()

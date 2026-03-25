@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGoodTag_TypeDefinitionIndex = 13734;
+	inline static constexpr unsigned int ShopGoodTag_TypeDefinitionIndex = 13848;
 
 	enum class ShopGoodTag : ::System::Int32
 	{

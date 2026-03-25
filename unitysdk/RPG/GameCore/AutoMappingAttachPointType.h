@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoMappingAttachPointType_TypeDefinitionIndex = 20862;
+	inline static constexpr unsigned int AutoMappingAttachPointType_TypeDefinitionIndex = 21416;
 
 	enum class AutoMappingAttachPointType : ::System::Int32
 	{

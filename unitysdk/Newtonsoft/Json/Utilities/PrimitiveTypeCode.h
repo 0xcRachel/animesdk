@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int PrimitiveTypeCode_TypeDefinitionIndex = 8127;
+	inline static constexpr unsigned int PrimitiveTypeCode_TypeDefinitionIndex = 8256;
 
 	enum class PrimitiveTypeCode : ::System::Int32
 	{

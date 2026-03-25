@@ -5,7 +5,7 @@ namespace System { class Type; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IExecuteEventBlocker_TypeDefinitionIndex = 5701;
+	inline static constexpr unsigned int IExecuteEventBlocker_TypeDefinitionIndex = 5801;
 
 	class IExecuteEventBlocker
 	{

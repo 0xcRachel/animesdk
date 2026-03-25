@@ -7,13 +7,13 @@ namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_COMPONENTMODEL_STRINGCONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x17E7D0C0)
-#define SYSTEM_COMPONENTMODEL_STRINGCONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x17E7D130)
-#define SYSTEM_COMPONENTMODEL_STRINGCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7D1B0)
+#define SYSTEM_COMPONENTMODEL_STRINGCONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x186A6F40)
+#define SYSTEM_COMPONENTMODEL_STRINGCONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x186A6FB0)
+#define SYSTEM_COMPONENTMODEL_STRINGCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x186A7030)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int StringConverter_TypeDefinitionIndex = 2611;
+	inline static constexpr unsigned int StringConverter_TypeDefinitionIndex = 2616;
 
 	class StringConverter : public ::System::ComponentModel::TypeConverter
 	{

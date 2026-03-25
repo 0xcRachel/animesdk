@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class GameWorld; }
 
-#define CLASS_2_C99AB858A13088D7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8A257E0)
+#define CLASS_2_C99AB858A13088D7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8AA0420)
 
-inline static constexpr unsigned int Class_2_C99AB858A13088D7_1_TypeDefinitionIndex = 48400;
+inline static constexpr unsigned int Class_2_C99AB858A13088D7_1_TypeDefinitionIndex = 49493;
 
 class Class_2_C99AB858A13088D7_1 : public ::RPG::Client::LevelDirector
 {

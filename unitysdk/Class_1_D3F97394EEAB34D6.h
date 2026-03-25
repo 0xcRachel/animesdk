@@ -10,48 +10,48 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_D3F97394EEAB34D6_CLEAR_OFFSET UNITYSDK_OFFSET(0x1618D710)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_3BBB5E0EA80F92AC_OFFSET UNITYSDK_OFFSET(0x1618D6A0)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_40E490E2772D5D75_1_OFFSET UNITYSDK_OFFSET(0x1618D520)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_40E490E2772D5D75_OFFSET UNITYSDK_OFFSET(0x1618D1A0)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_77FD543600E00498_1_OFFSET UNITYSDK_OFFSET(0x1618D320)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_77FD543600E00498_OFFSET UNITYSDK_OFFSET(0x1618CFA0)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_C34AC80B04BCFF1B_OFFSET UNITYSDK_OFFSET(0x1618CA60)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_F10A0D072D26C4BF_1_OFFSET UNITYSDK_OFFSET(0x1618CC80)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_F10A0D072D26C4BF_2_OFFSET UNITYSDK_OFFSET(0x1618CE10)
-#define CLASS_1_D3F97394EEAB34D6_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x1618CAF0)
-#define CLASS_1_D3F97394EEAB34D6_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1618D830)
-#define CLASS_1_D3F97394EEAB34D6_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1618D890)
-#define CLASS_1_D3F97394EEAB34D6__CTOR_OFFSET UNITYSDK_OFFSET(0x1618D8D0)
+#define CLASS_1_D3F97394EEAB34D6_CLEAR_OFFSET UNITYSDK_OFFSET(0x16A0DC50)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_3BBB5E0EA80F92AC_OFFSET UNITYSDK_OFFSET(0x16A0F080)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_40E490E2772D5D75_1_OFFSET UNITYSDK_OFFSET(0x16A0EEF0)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_40E490E2772D5D75_OFFSET UNITYSDK_OFFSET(0x16A0EB60)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_77FD543600E00498_1_OFFSET UNITYSDK_OFFSET(0x16A0ECE0)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_77FD543600E00498_OFFSET UNITYSDK_OFFSET(0x16A0E960)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_C34AC80B04BCFF1B_OFFSET UNITYSDK_OFFSET(0x16A0E3F0)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_F10A0D072D26C4BF_1_OFFSET UNITYSDK_OFFSET(0x16A0E620)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_F10A0D072D26C4BF_2_OFFSET UNITYSDK_OFFSET(0x16A0E7C0)
+#define CLASS_1_D3F97394EEAB34D6_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x16A0E480)
+#define CLASS_1_D3F97394EEAB34D6_ONALLOC_OFFSET UNITYSDK_OFFSET(0x16A0F0F0)
+#define CLASS_1_D3F97394EEAB34D6_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x16A0F150)
+#define CLASS_1_D3F97394EEAB34D6__CTOR_OFFSET UNITYSDK_OFFSET(0x16A0E3A0)
 
-inline static constexpr unsigned int Class_1_D3F97394EEAB34D6_TypeDefinitionIndex = 32615;
+inline static constexpr unsigned int Class_1_D3F97394EEAB34D6_TypeDefinitionIndex = 33543;
 
 class Class_1_D3F97394EEAB34D6 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_19; // 0x10
-	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_20; // 0x18
-	::UnityEngine::Collider* Field_1_15; // 0x20
-	::UnityEngine::Vector3 Field_1_10; // 0x28
-	::System::UInt32 Field_1_2; // 0x34
-	::System::Int32 Field_1_13; // 0x38
-	::System::Single Field_1_21; // 0x3C
-	::UnityEngine::Vector3 Field_1_4; // 0x40
-	::UnityEngine::Vector3 Field_1_7; // 0x4C
-	::RPG::Client::LittleGame::FiveDim::PropMoveState Field_1_1; // 0x58
-	::UnityEngine::Vector3 Field_1_5; // 0x5C
-	::UnityEngine::Quaternion Field_1_3; // 0x68
-	::Struct_2_EAC1BB0F093534A5 Field_1_14; // 0x78
-	::System::Boolean Field_1_9; // 0xE0
-	::System::Boolean Field_1_18; // 0xE1
-	::System::Single Field_1_12; // 0xE4
-	::Struct_2_52A902145F5BE51F_2 Field_1_22; // 0xE8
-	::System::Boolean Field_1_17; // 0x318
-	::System::Boolean Field_1_6; // 0x319
-	::System::Boolean Field_1_16; // 0x31A
-	::UnityEngine::Vector3 Field_1_8; // 0x31C
-	::RPG::Client::LittleGame::FiveDim::PropMoveState Field_1_0; // 0x328
-	::UnityEngine::Vector3 Field_1_11; // 0x32C
+	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_20; // 0x10
+	::UnityEngine::Collider* Field_1_15; // 0x18
+	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_19; // 0x20
+	::UnityEngine::Vector3 Field_1_7; // 0x28
+	::Struct_2_52A902145F5BE51F_2 Field_1_22; // 0x34
+	::Struct_2_EAC1BB0F093534A5 Field_1_14; // 0x264
+	::UnityEngine::Vector3 Field_1_11; // 0x2CC
+	::System::Boolean Field_1_17; // 0x2D8
+	::System::Boolean Field_1_16; // 0x2D9
+	::UnityEngine::Vector3 Field_1_4; // 0x2DC
+	::System::Boolean Field_1_18; // 0x2E8
+	::System::Boolean Field_1_6; // 0x2E9
+	::System::Boolean Field_1_9; // 0x2EA
+	::UnityEngine::Vector3 Field_1_8; // 0x2EC
+	::UnityEngine::Vector3 Field_1_5; // 0x2F8
+	::System::UInt32 Field_1_2; // 0x304
+	::System::Single Field_1_21; // 0x308
+	::System::Int32 Field_1_13; // 0x30C
+	::System::Single Field_1_12; // 0x310
+	::UnityEngine::Vector3 Field_1_10; // 0x314
+	::RPG::Client::LittleGame::FiveDim::PropMoveState Field_1_0; // 0x320
+	::RPG::Client::LittleGame::FiveDim::PropMoveState Field_1_1; // 0x324
+	::UnityEngine::Quaternion Field_1_3; // 0x328
 
 	::System::Void _ctor()
 	{

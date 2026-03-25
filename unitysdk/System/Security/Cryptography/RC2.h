@@ -4,27 +4,27 @@
 
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CREATE_OFFSET UNITYSDK_OFFSET(0x15D65190)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_EFFECTIVEKEYSIZE_OFFSET UNITYSDK_OFFSET(0x15D65100)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x15D65110)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_SET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x15D65120)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D651E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2__CTOR_OFFSET UNITYSDK_OFFSET(0x15D65090)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_CREATE_OFFSET UNITYSDK_OFFSET(0x1642CA00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_EFFECTIVEKEYSIZE_OFFSET UNITYSDK_OFFSET(0x1642C970)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_GET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x1642C980)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2_SET_KEYSIZE_OFFSET UNITYSDK_OFFSET(0x1642C990)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1642CA50)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RC2__CTOR_OFFSET UNITYSDK_OFFSET(0x1642C900)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RC2_TypeDefinitionIndex = 1025;
+	inline static constexpr unsigned int RC2_TypeDefinitionIndex = 1030;
 
 	class RC2 : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC2_TypeDefinitionIndex)->GetStaticField(0xAE00);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC2_TypeDefinitionIndex)->GetStaticField(0x14C00);
 		}
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC2_TypeDefinitionIndex)->GetStaticField(0xAE08);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC2_TypeDefinitionIndex)->GetStaticField(0x14C08);
 		}
 		::System::Int32 EffectiveKeySizeValue; // 0x48
 

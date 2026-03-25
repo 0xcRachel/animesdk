@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESEFFECTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D46640)
-#define RPG_GAMECORE_PLANETFESEFFECTTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D467F0)
+#define RPG_GAMECORE_PLANETFESEFFECTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CE490)
+#define RPG_GAMECORE_PLANETFESEFFECTTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CE640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesEffectTypeConfigRow_TypeDefinitionIndex = 11061;
+	inline static constexpr unsigned int PlanetFesEffectTypeConfigRow_TypeDefinitionIndex = 11129;
 
 	class PlanetFesEffectTypeConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::GameCore::PlanetFesEffectType ID; // 0x18
-		::RPG::Client::TextID Decription; // 0x20
+		::RPG::Client::TextID Decription; // 0x18
+		::RPG::GameCore::PlanetFesEffectType ID; // 0x28
 
 		::System::Void _ctor()
 		{

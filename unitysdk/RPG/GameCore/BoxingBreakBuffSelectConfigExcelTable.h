@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168F4CD0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168F4B20)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168F47F0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168F4AC0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168F4EA0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168F4870)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168F4EE0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168F50C0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168F52A0)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168F5600)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168F5020)
-#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168F4F80)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17005B40)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17005990)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17005660)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17005930)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17005D10)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x170056E0)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17005D50)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17005F30)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17006110)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17006470)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17005E90)
+#define RPG_GAMECORE_BOXINGBREAKBUFFSELECTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17005DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex = 11723;
+	inline static constexpr unsigned int BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex = 11793;
 
 	class BoxingBreakBuffSelectConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingBreakBuffSelectConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingBreakBuffSelectConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27BB0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingBreakBuffSelectConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F240);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27BB8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F248);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27BC0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8700);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F250);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8701);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA460);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoxingBreakBuffSelectConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA461);
 		}
 
 		static ::System::Void _cctor()

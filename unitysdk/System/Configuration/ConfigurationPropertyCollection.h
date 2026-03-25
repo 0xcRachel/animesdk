@@ -4,7 +4,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationPropertyCollection_TypeDefinitionIndex = 2322;
+	inline static constexpr unsigned int ConfigurationPropertyCollection_TypeDefinitionIndex = 2327;
 
 	class ConfigurationPropertyCollection : public ::System::Object
 	{

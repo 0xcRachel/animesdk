@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYROADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA261510)
+#define RPG_CLIENT_WOLFBROGUNPLAYROADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA79B300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayRoadConfig_TypeDefinitionIndex = 54587;
+	inline static constexpr unsigned int WolfBroGunPlayRoadConfig_TypeDefinitionIndex = 56147;
 
 	class WolfBroGunPlayRoadConfig : public ::UnityEngine::ScriptableObject
 	{

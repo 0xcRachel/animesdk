@@ -6,30 +6,30 @@ namespace Hdg { class rdtSerializerRegistry_ConvertObjectDelegate; }
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerRegistry___O_TypeDefinitionIndex = 36966;
+	inline static constexpr unsigned int rdtSerializerRegistry___O_TypeDefinitionIndex = 37903;
 
 	class rdtSerializerRegistry___O : public ::System::Object
 	{
 	public:
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__4___Serialize()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x358B0);
-		}
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__2___Serialize()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x358B8);
-		}
-		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__3___Serialize()
-		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x358C0);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x45570);
 		}
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__0___Serialize()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x358C8);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x45578);
 		}
 		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__1___Serialize()
 		{
-			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x358D0);
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x45580);
+		}
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__4___Serialize()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x45588);
+		}
+		static ::Hdg::rdtSerializerRegistry_ConvertObjectDelegate** StaticGet__3___Serialize()
+		{
+			return (::Hdg::rdtSerializerRegistry_ConvertObjectDelegate**)Il2CppClass::FromTypeDefinitionIndex(rdtSerializerRegistry___O_TypeDefinitionIndex)->GetStaticField(0x45590);
 		}
 	};
 }

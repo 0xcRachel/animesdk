@@ -10,24 +10,24 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_CREAT_OFFSET UNITYSDK_OFFSET(0x90F0DC0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONCLOSEOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x90F10E0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONOPENOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x90F1060)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x90F0EA0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x90F0E60)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_CREAT_OFFSET UNITYSDK_OFFSET(0x959DF30)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONCLOSEOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x959E270)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONOPENOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x959E1F0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x959E030)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x959DFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 56733;
+	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 58322;
 
 	class ElationBuffPresenter : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Text* _TotalPointText; // 0x10
-		::UnityEngine::UI::Button* _OpenOverviewBtn; // 0x18
-		::UnityEngine::UI::Text* _TotalDescText; // 0x20
-		::UnityEngine::UI::Button* _CloseOverviewBtn; // 0x28
-		::UnityEngine::Transform* _LineBottom; // 0x30
+		::UnityEngine::UI::Button* _OpenOverviewBtn; // 0x10
+		::UnityEngine::UI::Text* _TotalPointText; // 0x18
+		::UnityEngine::Transform* _LineBottom; // 0x20
+		::UnityEngine::UI::Text* _TotalDescText; // 0x28
+		::UnityEngine::UI::Button* _CloseOverviewBtn; // 0x30
 		::RPG::Client::NodeListViewPanel_1<::Class_2_F76E966DD50AB39A*>* _ElationBuffList; // 0x38
 
 		::System::Void _ctor(::RPG::Client::ElationBuffPresenterUIParam* param)

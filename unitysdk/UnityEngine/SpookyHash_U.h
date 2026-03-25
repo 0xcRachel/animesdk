@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpookyHash_U_TypeDefinitionIndex = 3995;
+	inline static constexpr unsigned int SpookyHash_U_TypeDefinitionIndex = 4016;
 
 	struct alignas(8) SpookyHash_U
 	{

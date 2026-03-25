@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_REDSAMURAIANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x155D17B0)
-#define INCONTROL_UNITYDEVICEPROFILES_REDSAMURAIANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x155D2DE0)
+#define INCONTROL_UNITYDEVICEPROFILES_REDSAMURAIANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15CEB570)
+#define INCONTROL_UNITYDEVICEPROFILES_REDSAMURAIANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CECBA0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int RedSamuraiAndroidUnityProfile_TypeDefinitionIndex = 30695;
+	inline static constexpr unsigned int RedSamuraiAndroidUnityProfile_TypeDefinitionIndex = 31570;
 
 	class RedSamuraiAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

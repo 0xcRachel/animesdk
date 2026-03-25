@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTSPECIALBUBBLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DF1B50)
-#define RPG_GAMECORE_RESTAURANTSPECIALBUBBLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DF1E20)
+#define RPG_GAMECORE_RESTAURANTSPECIALBUBBLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175BECE0)
+#define RPG_GAMECORE_RESTAURANTSPECIALBUBBLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175BEFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantSpecialBubbleRow_TypeDefinitionIndex = 10535;
+	inline static constexpr unsigned int RestaurantSpecialBubbleRow_TypeDefinitionIndex = 10603;
 
 	class RestaurantSpecialBubbleRow : public ::System::Object
 	{
 	public:
 		::System::String* BehaviorName; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 GenMaxNum; // 0x1C
-		::System::UInt32 GenCustomerNumGap; // 0x20
-		::RPG::Client::TextID Content; // 0x28
+		::System::UInt32 GenCustomerNumGap; // 0x18
+		::RPG::Client::TextID Content; // 0x20
+		::System::UInt32 GenMaxNum; // 0x30
+		::System::UInt32 ID; // 0x34
 		::System::UInt32 DynamicValue; // 0x38
 		::RPG::GameCore::RestaurantDynamicValueType DynamicValueType; // 0x3C
 

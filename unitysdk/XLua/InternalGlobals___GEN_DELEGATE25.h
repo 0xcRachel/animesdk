@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_2_15E317187C4E8254;
+namespace RPG::Client { class IRogueTournGameLevelLinear; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF835630)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF8356D0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25_INVOKE_OFFSET UNITYSDK_OFFSET(0xF834DD0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B2C0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF5FBD0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF5FC00)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF5F670)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE25__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57B40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE25_TypeDefinitionIndex = 39456;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE25_TypeDefinitionIndex = 40442;
 
 	class InternalGlobals___GEN_DELEGATE25 : public ::System::MulticastDelegate
 	{
@@ -25,19 +24,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Class_2_15E317187C4E8254* entity, ::RPG::GameCore::CakeRaceProperty property, ::System::Int32 value)
+		::System::UInt32 Invoke(::RPG::Client::IRogueTournGameLevelLinear* level)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_15E317187C4E8254*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25_INVOKE_OFFSET))(this, entity, property, value);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLinear*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25_INVOKE_OFFSET))(this, level);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_2_15E317187C4E8254* entity, ::RPG::GameCore::CakeRaceProperty property, ::System::Int32 value, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournGameLevelLinear* level, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_2_15E317187C4E8254*, ::RPG::GameCore::CakeRaceProperty, ::System::Int32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25_BEGININVOKE_OFFSET))(this, entity, property, value, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLinear*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25_BEGININVOKE_OFFSET))(this, level, callback, object);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::UInt32 EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE25_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

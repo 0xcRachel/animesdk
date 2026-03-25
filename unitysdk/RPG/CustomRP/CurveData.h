@@ -5,7 +5,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CurveData_TypeDefinitionIndex = 28542;
+	inline static constexpr unsigned int CurveData_TypeDefinitionIndex = 29417;
 
 	struct alignas(4) CurveData
 	{

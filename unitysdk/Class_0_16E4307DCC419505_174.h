@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/MatchThreePropType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_174_TypeDefinitionIndex = 31846;
+class Class_1_C65FB61BCA66847A;
+namespace RPG::GameCore { class LevelTriggerInfo; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_174_TypeDefinitionIndex = 32458;
 
 class Class_0_16E4307DCC419505_174
 {

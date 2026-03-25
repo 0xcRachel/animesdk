@@ -7,11 +7,11 @@
 namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarControl; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCAR__CTOR_OFFSET UNITYSDK_OFFSET(0x8F48B60)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCAR__CTOR_OFFSET UNITYSDK_OFFSET(0x93EBB40)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCar_TypeDefinitionIndex = 62350;
+	inline static constexpr unsigned int MonoCityCar_TypeDefinitionIndex = 64538;
 
 	class MonoCityCar : public ::UnityEngine::MonoBehaviour
 	{

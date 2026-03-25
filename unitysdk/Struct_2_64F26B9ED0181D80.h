@@ -8,17 +8,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET UNITYSDK_OFFSET(0x1462CF0)
-#define STRUCT_2_64F26B9ED0181D80_METHOD_2_77DC958FDB6DF417_OFFSET UNITYSDK_OFFSET(0x1462D40)
-#define STRUCT_2_64F26B9ED0181D80__CCTOR_OFFSET UNITYSDK_OFFSET(0x10ECB550)
+#define STRUCT_2_64F26B9ED0181D80_METHOD_2_6676B536AB0BDA5B_OFFSET UNITYSDK_OFFSET(0x142C070)
+#define STRUCT_2_64F26B9ED0181D80_METHOD_2_77DC958FDB6DF417_OFFSET UNITYSDK_OFFSET(0x142C0C0)
+#define STRUCT_2_64F26B9ED0181D80__CCTOR_OFFSET UNITYSDK_OFFSET(0x10655390)
 
-inline static constexpr unsigned int Struct_2_64F26B9ED0181D80_TypeDefinitionIndex = 46595;
+inline static constexpr unsigned int Struct_2_64F26B9ED0181D80_TypeDefinitionIndex = 47674;
 
 struct alignas(8) Struct_2_64F26B9ED0181D80
 {
 	static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_Field_2_1()
 	{
-		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_64F26B9ED0181D80_TypeDefinitionIndex)->GetStaticField(0x33410);
+		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Struct_2_64F26B9ED0181D80_TypeDefinitionIndex)->GetStaticField(0x18680);
 	}
 	// static const ::System::Int32 Field_2_0 = 0x1A; // 0x0
 	::System::UInt32 Field_2_2; // 0x10

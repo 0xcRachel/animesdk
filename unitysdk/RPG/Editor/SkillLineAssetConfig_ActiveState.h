@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_EDITOR_SKILLLINEASSETCONFIG_ACTIVESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA297180)
+#define RPG_EDITOR_SKILLLINEASSETCONFIG_ACTIVESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D1C60)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillLineAssetConfig_ActiveState_TypeDefinitionIndex = 41021;
+	inline static constexpr unsigned int SkillLineAssetConfig_ActiveState_TypeDefinitionIndex = 42064;
 
 	class SkillLineAssetConfig_ActiveState : public ::System::Object
 	{

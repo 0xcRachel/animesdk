@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int PinOperationSourceType_TypeDefinitionIndex = 59449;
+	inline static constexpr unsigned int PinOperationSourceType_TypeDefinitionIndex = 61203;
 
 	enum class PinOperationSourceType : ::System::Int32
 	{

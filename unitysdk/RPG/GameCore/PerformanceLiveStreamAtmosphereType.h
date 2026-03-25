@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLiveStreamAtmosphereType_TypeDefinitionIndex = 13048;
+	inline static constexpr unsigned int PerformanceLiveStreamAtmosphereType_TypeDefinitionIndex = 13119;
 
 	enum class PerformanceLiveStreamAtmosphereType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x917F250)
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS42_0__INITENVIRONMENTSYSTEMASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x917F260)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9625F20)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS42_0__INITENVIRONMENTSYSTEMASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x962C5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass42_0_TypeDefinitionIndex = 55505;
+	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass42_0_TypeDefinitionIndex = 57070;
 
 	class EnvironmentSystemV1___c__DisplayClass42_0 : public ::System::Object
 	{

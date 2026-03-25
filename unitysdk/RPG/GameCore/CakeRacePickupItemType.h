@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePickupItemType_TypeDefinitionIndex = 16546;
+	inline static constexpr unsigned int CakeRacePickupItemType_TypeDefinitionIndex = 16920;
 
 	enum class CakeRacePickupItemType : ::System::Int32
 	{

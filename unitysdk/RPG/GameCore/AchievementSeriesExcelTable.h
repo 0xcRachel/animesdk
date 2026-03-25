@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x167770A0)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16776EF0)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16776BC0)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16776E90)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16777220)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16776C40)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16777260)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16777440)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16777810)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16777B20)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x167773A0)
-#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16777300)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16EAB8A0)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16EAB6F0)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16EAB3C0)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16EAB690)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16EABA20)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16EAB440)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16EABA60)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EABC40)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16EAC010)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EAC320)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16EABBA0)
+#define RPG_GAMECORE_ACHIEVEMENTSERIESEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16EABB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AchievementSeriesExcelTable_TypeDefinitionIndex = 10217;
+	inline static constexpr unsigned int AchievementSeriesExcelTable_TypeDefinitionIndex = 10221;
 
 	class AchievementSeriesExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A6D0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementSeriesRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementSeriesRow*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A6D8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementSeriesRow*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x13250);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x13258);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x1A6E0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x13260);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x63E0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x6640);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x63E1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AchievementSeriesExcelTable_TypeDefinitionIndex)->GetStaticField(0x6641);
 		}
 
 		static ::System::Void _cctor()

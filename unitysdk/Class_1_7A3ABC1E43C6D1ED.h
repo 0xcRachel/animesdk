@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimPressureSwitchConfig; }
 
-#define CLASS_1_7A3ABC1E43C6D1ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1622D9D0)
+#define CLASS_1_7A3ABC1E43C6D1ED__CTOR_OFFSET UNITYSDK_OFFSET(0x167FBED0)
 
-inline static constexpr unsigned int Class_1_7A3ABC1E43C6D1ED_TypeDefinitionIndex = 32566;
+inline static constexpr unsigned int Class_1_7A3ABC1E43C6D1ED_TypeDefinitionIndex = 33488;
 
 class Class_1_7A3ABC1E43C6D1ED : public ::System::Object
 {

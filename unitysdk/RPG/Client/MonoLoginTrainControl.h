@@ -8,29 +8,29 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x98422C0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x9841D30)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET UNITYSDK_OFFSET(0x9841980)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_732EDB3121B072B2_OFFSET UNITYSDK_OFFSET(0x9841B80)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9842520)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9841520)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x98425A0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9842570)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9D248F0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_0CC4BC19C602BCD0_OFFSET UNITYSDK_OFFSET(0x9D24360)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_70CD9A040B4290BE_OFFSET UNITYSDK_OFFSET(0x9D23FB0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_METHOD_5_732EDB3121B072B2_OFFSET UNITYSDK_OFFSET(0x9D241B0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9D24B50)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9D23B50)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D24BD0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9D24BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 55850;
+	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 57415;
 
 	class MonoLoginTrainControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_9()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0xE9F0);
-		}
 		static ::System::Int32* StaticGet_Field_5_10()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0xE9F4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0x102C0);
+		}
+		static ::System::Int32* StaticGet_Field_5_9()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoLoginTrainControl_TypeDefinitionIndex)->GetStaticField(0x102C4);
 		}
 		::UnityEngine::GameObject* train; // 0x18
 		::UnityEngine::GameObject* train02; // 0x20

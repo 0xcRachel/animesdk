@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int BlendMode_TypeDefinitionIndex = 39191;
+	inline static constexpr unsigned int BlendMode_TypeDefinitionIndex = 40171;
 
 	enum class BlendMode : ::System::Int32
 	{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9AA1F60)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9AA1FA0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__TRIGGERIDLESHOW_B__36_0_OFFSET UNITYSDK_OFFSET(0x9AA1FB0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F75A50)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F75A90)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__TRIGGERIDLESHOW_B__36_0_OFFSET UNITYSDK_OFFSET(0x9F75AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c_TypeDefinitionIndex = 55203;
+	inline static constexpr unsigned int PhotoGraphUtils___c_TypeDefinitionIndex = 56768;
 
 	class PhotoGraphUtils___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PhotoGraphUtils___c** StaticGet___9()
-		{
-			return (::RPG::Client::PhotoGraphUtils___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x45B60);
-		}
 		static ::System::Action** StaticGet___9__36_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x45B68);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x45240);
+		}
+		static ::RPG::Client::PhotoGraphUtils___c** StaticGet___9()
+		{
+			return (::RPG::Client::PhotoGraphUtils___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphUtils___c_TypeDefinitionIndex)->GetStaticField(0x45248);
 		}
 
 		static ::System::Void _cctor()

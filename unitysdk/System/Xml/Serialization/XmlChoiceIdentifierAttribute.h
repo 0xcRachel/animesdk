@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLCHOICEIDENTIFIERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x17DAD1E0)
+#define SYSTEM_XML_SERIALIZATION_XMLCHOICEIDENTIFIERATTRIBUTE_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0x185DC5B0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlChoiceIdentifierAttribute_TypeDefinitionIndex = 1988;
+	inline static constexpr unsigned int XmlChoiceIdentifierAttribute_TypeDefinitionIndex = 1993;
 
 	class XmlChoiceIdentifierAttribute : public ::System::Attribute
 	{

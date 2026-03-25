@@ -6,20 +6,20 @@ namespace RPG::Client { class EvolveBuildCard; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9C05E9EEA86F0292_GET_CARDSDICT_OFFSET UNITYSDK_OFFSET(0x96B6770)
-#define CLASS_1_9C05E9EEA86F0292_GET_CARDS_OFFSET UNITYSDK_OFFSET(0x96B6780)
-#define CLASS_1_9C05E9EEA86F0292_METHOD_1_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0x96B63B0)
-#define CLASS_1_9C05E9EEA86F0292_METHOD_1_C8F236EDA5771098_OFFSET UNITYSDK_OFFSET(0x96B6270)
-#define CLASS_1_9C05E9EEA86F0292_SET_CARDS_OFFSET UNITYSDK_OFFSET(0x96B6790)
-#define CLASS_1_9C05E9EEA86F0292__CTOR_OFFSET UNITYSDK_OFFSET(0x96B6330)
+#define CLASS_1_9C05E9EEA86F0292_GET_CARDSDICT_OFFSET UNITYSDK_OFFSET(0x875CF30)
+#define CLASS_1_9C05E9EEA86F0292_GET_CARDS_OFFSET UNITYSDK_OFFSET(0x875CF40)
+#define CLASS_1_9C05E9EEA86F0292_METHOD_1_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0x875CB70)
+#define CLASS_1_9C05E9EEA86F0292_METHOD_1_C8F236EDA5771098_OFFSET UNITYSDK_OFFSET(0x875CA30)
+#define CLASS_1_9C05E9EEA86F0292_SET_CARDS_OFFSET UNITYSDK_OFFSET(0x875CF50)
+#define CLASS_1_9C05E9EEA86F0292__CTOR_OFFSET UNITYSDK_OFFSET(0x875CAF0)
 
-inline static constexpr unsigned int Class_1_9C05E9EEA86F0292_TypeDefinitionIndex = 50704;
+inline static constexpr unsigned int Class_1_9C05E9EEA86F0292_TypeDefinitionIndex = 51839;
 
 class Class_1_9C05E9EEA86F0292 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildCard*>* _Cards_k__BackingField; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::EvolveBuildCard*>* _CardsDict_k__BackingField; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::EvolveBuildCard*>* _CardsDict_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::EvolveBuildCard*>* _Cards_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{

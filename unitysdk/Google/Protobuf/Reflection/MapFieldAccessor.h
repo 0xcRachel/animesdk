@@ -7,13 +7,13 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { class Object; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MAPFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1540E940)
-#define GOOGLE_PROTOBUF_REFLECTION_MAPFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1540E990)
-#define GOOGLE_PROTOBUF_REFLECTION_MAPFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x153FAB90)
+#define GOOGLE_PROTOBUF_REFLECTION_MAPFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x15B27360)
+#define GOOGLE_PROTOBUF_REFLECTION_MAPFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x15B273B0)
+#define GOOGLE_PROTOBUF_REFLECTION_MAPFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B12E40)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MapFieldAccessor_TypeDefinitionIndex = 6236;
+	inline static constexpr unsigned int MapFieldAccessor_TypeDefinitionIndex = 6336;
 
 	class MapFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{

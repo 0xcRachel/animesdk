@@ -3,9 +3,9 @@
 #include "unitysdk/Class_2_31DBDE0D61D4AD4E_FilterUsage.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_31DBDE0D61D4AD4E__CTOR_OFFSET UNITYSDK_OFFSET(0x164B3860)
+#define CLASS_2_31DBDE0D61D4AD4E__CTOR_OFFSET UNITYSDK_OFFSET(0x16C66C90)
 
-inline static constexpr unsigned int Class_2_31DBDE0D61D4AD4E_TypeDefinitionIndex = 22253;
+inline static constexpr unsigned int Class_2_31DBDE0D61D4AD4E_TypeDefinitionIndex = 22818;
 
 class Class_2_31DBDE0D61D4AD4E : public ::System::Attribute
 {

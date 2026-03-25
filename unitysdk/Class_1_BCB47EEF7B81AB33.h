@@ -6,17 +6,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_BCB47EEF7B81AB33_CLEAR_OFFSET UNITYSDK_OFFSET(0x105A5B50)
-#define CLASS_1_BCB47EEF7B81AB33_METHOD_1_7370D99716AA6445_OFFSET UNITYSDK_OFFSET(0x105A5BC0)
-#define CLASS_1_BCB47EEF7B81AB33__CTOR_OFFSET UNITYSDK_OFFSET(0x105A5CB0)
+#define CLASS_1_BCB47EEF7B81AB33_CLEAR_OFFSET UNITYSDK_OFFSET(0xA1D3380)
+#define CLASS_1_BCB47EEF7B81AB33_METHOD_1_7370D99716AA6445_OFFSET UNITYSDK_OFFSET(0xA1D33F0)
+#define CLASS_1_BCB47EEF7B81AB33__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D34E0)
 
-inline static constexpr unsigned int Class_1_BCB47EEF7B81AB33_TypeDefinitionIndex = 43513;
+inline static constexpr unsigned int Class_1_BCB47EEF7B81AB33_TypeDefinitionIndex = 44569;
 
 class Class_1_BCB47EEF7B81AB33 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Struct_2_DD9114AFAA2D17DA>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::Struct_2_DD9114AFAA2D17DA>* Field_1_1; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

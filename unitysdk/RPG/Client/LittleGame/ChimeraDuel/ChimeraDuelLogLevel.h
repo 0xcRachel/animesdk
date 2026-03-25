@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelLogLevel_TypeDefinitionIndex = 61102;
+	inline static constexpr unsigned int ChimeraDuelLogLevel_TypeDefinitionIndex = 63101;
 
 	enum class ChimeraDuelLogLevel : ::System::Int32
 	{

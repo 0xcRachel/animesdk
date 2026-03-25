@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/SequentialPanelContainer/EdgeDirection.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_2_5892D7E177089471_METHOD_2_AE31073233167114_OFFSET UNITYSDK_OFFSET(0xFEE46F0)
-#define CLASS_2_5892D7E177089471__CTOR_OFFSET UNITYSDK_OFFSET(0xFEE4750)
+#define CLASS_2_5892D7E177089471_METHOD_2_AE31073233167114_OFFSET UNITYSDK_OFFSET(0x10BB5580)
+#define CLASS_2_5892D7E177089471__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB55E0)
 
-inline static constexpr unsigned int Class_2_5892D7E177089471_TypeDefinitionIndex = 59713;
+inline static constexpr unsigned int Class_2_5892D7E177089471_TypeDefinitionIndex = 61469;
 
 class Class_2_5892D7E177089471 : public ::Class_1_46DD0805BD563560
 {

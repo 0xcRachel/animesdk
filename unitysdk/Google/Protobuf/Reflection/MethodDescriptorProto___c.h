@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15414450)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15414490)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTORPROTO___C___CCTOR_B__74_0_OFFSET UNITYSDK_OFFSET(0x154144A0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B2D0A0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B2D0E0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTORPROTO___C___CCTOR_B__74_0_OFFSET UNITYSDK_OFFSET(0x15B2D0F0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodDescriptorProto___c_TypeDefinitionIndex = 6174;
+	inline static constexpr unsigned int MethodDescriptorProto___c_TypeDefinitionIndex = 6274;
 
 	class MethodDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::MethodDescriptorProto___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::MethodDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(MethodDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0xB080);
+			return (::Google::Protobuf::Reflection::MethodDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(MethodDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0xC590);
 		}
 
 		static ::System::Void _cctor()

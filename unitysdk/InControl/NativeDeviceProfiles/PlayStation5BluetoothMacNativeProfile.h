@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION5BLUETOOTHMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x154B6F30)
-#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION5BLUETOOTHMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x154B86C0)
+#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION5BLUETOOTHMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BD0D30)
+#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION5BLUETOOTHMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD24C0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int PlayStation5BluetoothMacNativeProfile_TypeDefinitionIndex = 30974;
+	inline static constexpr unsigned int PlayStation5BluetoothMacNativeProfile_TypeDefinitionIndex = 31849;
 
 	class PlayStation5BluetoothMacNativeProfile : public ::InControl::InputDeviceProfile
 	{

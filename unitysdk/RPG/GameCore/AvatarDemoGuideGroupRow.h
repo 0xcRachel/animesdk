@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARDEMOGUIDEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168A1230)
-#define RPG_GAMECORE_AVATARDEMOGUIDEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168A1860)
+#define RPG_GAMECORE_AVATARDEMOGUIDEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FAECA0)
+#define RPG_GAMECORE_AVATARDEMOGUIDEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FAF2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDemoGuideGroupRow_TypeDefinitionIndex = 11599;
+	inline static constexpr unsigned int AvatarDemoGuideGroupRow_TypeDefinitionIndex = 11669;
 
 	class AvatarDemoGuideGroupRow : public ::System::Object
 	{

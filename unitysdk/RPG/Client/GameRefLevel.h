@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameRefLevel_TypeDefinitionIndex = 51432;
+	inline static constexpr unsigned int GameRefLevel_TypeDefinitionIndex = 52565;
 
 	enum class GameRefLevel : ::System::Int32
 	{

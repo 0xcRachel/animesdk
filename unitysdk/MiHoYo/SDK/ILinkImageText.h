@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ILinkImageText_TypeDefinitionIndex = 6898;
+	inline static constexpr unsigned int ILinkImageText_TypeDefinitionIndex = 7016;
 
 	class ILinkImageText
 	{

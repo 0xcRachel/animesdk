@@ -3,7 +3,7 @@
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int SslPolicyErrors_TypeDefinitionIndex = 2904;
+	inline static constexpr unsigned int SslPolicyErrors_TypeDefinitionIndex = 2913;
 
 	enum class SslPolicyErrors : ::System::Int32
 	{

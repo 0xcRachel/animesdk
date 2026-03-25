@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E7E970)
-#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E7EF10)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1761DFB0)
+#define RPG_GAMECORE_ROGUEEVENTSPECIALOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1761E550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEventSpecialOptionRow_TypeDefinitionIndex = 13471;
+	inline static constexpr unsigned int RogueEventSpecialOptionRow_TypeDefinitionIndex = 13547;
 
 	class RogueEventSpecialOptionRow : public ::System::Object
 	{
 	public:
-		::System::String* AeonFigure; // 0x10
-		::System::String* AeonIcon; // 0x18
+		::System::String* AeonIcon; // 0x10
+		::System::String* AeonFigure; // 0x18
 		::System::UInt32 SpecialOptionID; // 0x20
 
 		::System::Void _ctor()

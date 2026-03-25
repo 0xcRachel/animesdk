@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168AE220)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168AE070)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168ADD40)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168AE010)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168AE3B0)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168ADDC0)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168AE3F0)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168AE5D0)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168AEB90)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168AEEA0)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168AE530)
-#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168AE490)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FBBD60)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FBBBB0)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FBB880)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FBBB50)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FBBEF0)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBB900)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBBF30)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FBC110)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FBC6D0)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FBC9E0)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FBC070)
+#define RPG_GAMECORE_AVATARPROPERTYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBBFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyExcelTable_TypeDefinitionIndex = 11563;
+	inline static constexpr unsigned int AvatarPropertyExcelTable_TypeDefinitionIndex = 11633;
 
 	class AvatarPropertyExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarPropertyRow*>** StaticGet_dataDict_()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarPropertyRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x24550);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x17800);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x24558);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x17808);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarPropertyRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x24560);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x76B0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarPropertyRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x17810);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x76B1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x91F0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarPropertyExcelTable_TypeDefinitionIndex)->GetStaticField(0x91F1);
 		}
 
 		static ::System::Void _cctor()

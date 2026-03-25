@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3C58D309C7A040F5_6;
+class Class_1_3C58D309C7A040F5_4;
 namespace Proto { class AlleyPlacingShip; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP_TOPROTO_OFFSET UNITYSDK_OFFSET(0x8AFAE00)
-#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x8AFAEF0)
+#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP_TOPROTO_OFFSET UNITYSDK_OFFSET(0x8EFB7F0)
+#define RPG_CLIENT_ACTIVITYALLEY_CLIENTALLEYPLACINGSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x8EFB8E0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int ClientAlleyPlacingShip_TypeDefinitionIndex = 58982;
+	inline static constexpr unsigned int ClientAlleyPlacingShip_TypeDefinitionIndex = 60734;
 
 	class ClientAlleyPlacingShip : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_3C58D309C7A040F5_6*>* GoodsList; // 0x10
+		::System::Collections::Generic::List_1<::Class_1_3C58D309C7A040F5_4*>* GoodsList; // 0x10
 		::System::UInt32 ShipId; // 0x18
 
 		::System::Void _ctor()

@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_352A8B3482C80E7D_61;
+class Class_1_352A8B3482C80E7D_63;
 namespace RPG::Client { class TreasureDungeonBaseGrid; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM_CLEARTUTORIAL_OFFSET UNITYSDK_OFFSET(0xA11F9B0)
-#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM_CLEAR_OFFSET UNITYSDK_OFFSET(0xA117930)
-#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM_GET_ISGETCHEST_OFFSET UNITYSDK_OFFSET(0xA11FA20)
-#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA117EE0)
+#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM_CLEARTUTORIAL_OFFSET UNITYSDK_OFFSET(0xA6436B0)
+#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM_CLEAR_OFFSET UNITYSDK_OFFSET(0xA63B5D0)
+#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM_GET_ISGETCHEST_OFFSET UNITYSDK_OFFSET(0xA643720)
+#define RPG_CLIENT_TREASUREDUNGEONNOTIFYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA63BB70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureDungeonNotifyParam_TypeDefinitionIndex = 54109;
+	inline static constexpr unsigned int TreasureDungeonNotifyParam_TypeDefinitionIndex = 55667;
 
 	class TreasureDungeonNotifyParam : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_352A8B3482C80E7D_61*>* RecordData; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* EmptyChangedGrids; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* TriggeredTutorialKeys; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* RefreshedGridIDs; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TreasureDungeonBaseGrid*>* TypeChangedGrids; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* NewFlippedGridList; // 0x38
-		::System::Boolean IsItemUpdated; // 0x40
-		::System::Boolean IsFloorBuffReplaced; // 0x41
-		::System::UInt32 GotChestItemID; // 0x44
-		::System::Boolean IsBuffUpdated; // 0x48
+		::System::Collections::Generic::List_1<::System::UInt32>* RefreshedGridIDs; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TreasureDungeonBaseGrid*>* TypeChangedGrids; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* NewFlippedGridList; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* EmptyChangedGrids; // 0x28
+		::System::Collections::Generic::List_1<::Class_1_352A8B3482C80E7D_63*>* RecordData; // 0x30
+		::System::Collections::Generic::List_1<::System::String*>* TriggeredTutorialKeys; // 0x38
+		::System::UInt32 GotChestItemID; // 0x40
+		::System::Boolean IsFloorBuffReplaced; // 0x44
+		::System::Boolean IsExplorePointUpdated; // 0x45
+		::System::Boolean IsBuffUpdated; // 0x46
+		::System::Boolean IsTeamUpdated; // 0x47
+		::System::Boolean IsMapUpdated; // 0x48
 		::System::Boolean IsGetUltraItem; // 0x49
-		::System::Boolean IsTeamUpdated; // 0x4A
+		::System::Boolean IsItemUpdated; // 0x4A
 		::System::Boolean IsGetNewFloorBuff; // 0x4B
 		::System::UInt32 GotChestGridIndex; // 0x4C
 		::System::Boolean IsGetNewEnvBuff; // 0x50
 		::System::Boolean IsFloorUpdated; // 0x51
-		::System::Boolean IsMapUpdated; // 0x52
-		::System::Boolean IsExplorePointUpdated; // 0x53
 
 		::System::Void _ctor()
 		{

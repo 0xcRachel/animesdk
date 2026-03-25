@@ -6,17 +6,17 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightMergeEquipEvent_EquipData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMERGEEQUIPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x93A5D20)
+#define RPG_CLIENT_GRIDFIGHTMERGEEQUIPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9863110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMergeEquipEvent_TypeDefinitionIndex = 51610;
+	inline static constexpr unsigned int GridFightMergeEquipEvent_TypeDefinitionIndex = 52744;
 
 	class GridFightMergeEquipEvent : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEquipItemData* RemovedItemData; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightMergeEquipEvent_EquipData*>* RemoveEquips; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightMergeEquipEvent_EquipData*>* RemoveEquips; // 0x10
+		::RPG::Client::GridFightEquipItemData* RemovedItemData; // 0x18
 		::System::UInt32 AddEquipUID; // 0x20
 
 		::System::Void _ctor()

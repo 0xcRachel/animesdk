@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSeverityType_TypeDefinitionIndex = 2202;
+	inline static constexpr unsigned int XmlSeverityType_TypeDefinitionIndex = 2207;
 
 	enum class XmlSeverityType : ::System::Int32
 	{

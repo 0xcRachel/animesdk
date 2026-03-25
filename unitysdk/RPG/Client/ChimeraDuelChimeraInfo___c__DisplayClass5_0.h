@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8EFE6D0)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__GETDATAWITHINRARITY_B__0_OFFSET UNITYSDK_OFFSET(0x8EFE8C0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93A1470)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO___C__DISPLAYCLASS5_0__GETDATAWITHINRARITY_B__0_OFFSET UNITYSDK_OFFSET(0x93A1660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInfo___c__DisplayClass5_0_TypeDefinitionIndex = 50278;
+	inline static constexpr unsigned int ChimeraDuelChimeraInfo___c__DisplayClass5_0_TypeDefinitionIndex = 51413;
 
 	class ChimeraDuelChimeraInfo___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCECROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D1F990)
-#define RPG_GAMECORE_PERFORMANCECROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D200D0)
+#define RPG_GAMECORE_PERFORMANCECROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174A7820)
+#define RPG_GAMECORE_PERFORMANCECROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174A7F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceCRow_TypeDefinitionIndex = 13053;
+	inline static constexpr unsigned int PerformanceCRow_TypeDefinitionIndex = 13124;
 
 	class PerformanceCRow : public ::System::Object
 	{
 	public:
 		::System::String* PerformancePath; // 0x10
-		::System::Boolean EndWithCrack; // 0x18
-		::System::UInt32 PerformanceID; // 0x1C
-		::System::UInt32 PlaneID; // 0x20
-		::System::UInt32 FloorID; // 0x24
+		::System::UInt32 FloorID; // 0x18
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x1C
+		::System::UInt32 PerformanceID; // 0x20
+		::System::Boolean EndWithCrack; // 0x24
 		::RPG::GameCore::StoryBlackType EndBlack; // 0x28
 		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x2C
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x30
+		::System::UInt32 PlaneID; // 0x30
 
 		::System::Void _ctor()
 		{

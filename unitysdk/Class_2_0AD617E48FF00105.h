@@ -6,23 +6,23 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::GameCore { class AdventureWaitCameraLookAtTransition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_0AD617E48FF00105_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10DCF700)
-#define CLASS_2_0AD617E48FF00105_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10DCF750)
-#define CLASS_2_0AD617E48FF00105_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10DCF950)
-#define CLASS_2_0AD617E48FF00105_TICK_OFFSET UNITYSDK_OFFSET(0x10DCF9A0)
-#define CLASS_2_0AD617E48FF00105__CTOR_OFFSET UNITYSDK_OFFSET(0x10DCF6F0)
+#define CLASS_2_0AD617E48FF00105_DISPOSE_OFFSET UNITYSDK_OFFSET(0x117AF450)
+#define CLASS_2_0AD617E48FF00105_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117AF4A0)
+#define CLASS_2_0AD617E48FF00105_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x117AF6A0)
+#define CLASS_2_0AD617E48FF00105_TICK_OFFSET UNITYSDK_OFFSET(0x117AF6F0)
+#define CLASS_2_0AD617E48FF00105__CTOR_OFFSET UNITYSDK_OFFSET(0x117AF440)
 
-inline static constexpr unsigned int Class_2_0AD617E48FF00105_TypeDefinitionIndex = 42846;
+inline static constexpr unsigned int Class_2_0AD617E48FF00105_TypeDefinitionIndex = 43896;
 
 class Class_2_0AD617E48FF00105 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::Client::CameraDataAndFlags* Field_2_5; // 0x18
-	::RPG::GameCore::AdventureWaitCameraLookAtTransition* Field_2_6; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_7; // 0x28
-	::System::Boolean Field_2_1; // 0x30
-	::System::Boolean Field_2_0; // 0x31
-	::System::Single Field_2_2; // 0x34
+	::RPG::GameCore::TaskContext* Field_2_7; // 0x18
+	::RPG::Client::CameraDataAndFlags* Field_2_5; // 0x20
+	::RPG::GameCore::AdventureWaitCameraLookAtTransition* Field_2_6; // 0x28
+	::System::Single Field_2_2; // 0x30
+	::System::Boolean Field_2_0; // 0x34
+	::System::Boolean Field_2_1; // 0x35
 	::System::Single Field_2_3; // 0x38
 	::System::Single Field_2_4; // 0x3C
 

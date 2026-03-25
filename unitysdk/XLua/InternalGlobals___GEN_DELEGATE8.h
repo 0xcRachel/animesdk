@@ -1,20 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AliveState.h"
+#include "unitysdk/RPG/GameCore/RogueMiracleCategory.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
+namespace RPG::Client { class IRogueMiracleInGame; }
+namespace RPG::Client { class IRogueMiracleInfo; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF839F10)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF839F60)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8_INVOKE_OFFSET UNITYSDK_OFFSET(0xF839AE0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B0A0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF6D670)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF6D6F0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF6D070)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE8__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57900)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE8_TypeDefinitionIndex = 39439;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE8_TypeDefinitionIndex = 40425;
 
 	class InternalGlobals___GEN_DELEGATE8 : public ::System::MulticastDelegate
 	{
@@ -24,19 +27,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Boolean Invoke(::RPG::GameCore::AliveState state)
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* Invoke(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::RPG::GameCore::RogueMiracleCategory category, ::System::Boolean isBrokenFirst)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AliveState))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8_INVOKE_OFFSET))(this, state);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::RPG::GameCore::RogueMiracleCategory, ::System::Boolean))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8_INVOKE_OFFSET))(this, miracleInfo, category, isBrokenFirst);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::AliveState state, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::RPG::GameCore::RogueMiracleCategory category, ::System::Boolean isBrokenFirst, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::AliveState, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8_BEGININVOKE_OFFSET))(this, state, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::RPG::GameCore::RogueMiracleCategory, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8_BEGININVOKE_OFFSET))(this, miracleInfo, category, isBrokenFirst, callback, object);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE8_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

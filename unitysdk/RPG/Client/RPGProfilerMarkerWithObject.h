@@ -7,13 +7,13 @@ namespace RPG::Client { class RPGProfilerMarkerLevel; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_BEGIN_OFFSET UNITYSDK_OFFSET(0x17AD7640)
-#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_END_OFFSET UNITYSDK_OFFSET(0x17AD76C0)
-#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD7570)
+#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_BEGIN_OFFSET UNITYSDK_OFFSET(0x182F15E0)
+#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT_END_OFFSET UNITYSDK_OFFSET(0x182F1660)
+#define RPG_CLIENT_RPGPROFILERMARKERWITHOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x182F1510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGProfilerMarkerWithObject_TypeDefinitionIndex = 26895;
+	inline static constexpr unsigned int RPGProfilerMarkerWithObject_TypeDefinitionIndex = 27631;
 
 	class RPGProfilerMarkerWithObject : public ::System::Object
 	{

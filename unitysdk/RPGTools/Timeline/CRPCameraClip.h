@@ -10,13 +10,13 @@ namespace RPGTools::Timeline { class CRPCameraFollowAndLookAt; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERACLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA5F4E20)
-#define RPGTOOLS_TIMELINE_CRPCAMERACLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA5F4E10)
-#define RPGTOOLS_TIMELINE_CRPCAMERACLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F4FE0)
+#define RPGTOOLS_TIMELINE_CRPCAMERACLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB38810)
+#define RPGTOOLS_TIMELINE_CRPCAMERACLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB38800)
+#define RPGTOOLS_TIMELINE_CRPCAMERACLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB389D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraClip_TypeDefinitionIndex = 37781;
+	inline static constexpr unsigned int CRPCameraClip_TypeDefinitionIndex = 38743;
 
 	class CRPCameraClip : public ::UnityEngine::Playables::PlayableAsset
 	{

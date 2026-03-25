@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_B9E56D0D50E02617_1;
+class Class_1_F0A446EC7AE7E87D_1;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_46EA924A13E63904_GET_ISEFFECT_OFFSET UNITYSDK_OFFSET(0xCBD4000)
-#define CLASS_2_46EA924A13E63904_GET_ITEMIDS_OFFSET UNITYSDK_OFFSET(0xCBD3FE0)
-#define CLASS_2_46EA924A13E63904_SET_ISEFFECT_OFFSET UNITYSDK_OFFSET(0xCBD4010)
-#define CLASS_2_46EA924A13E63904_SET_ITEMIDS_OFFSET UNITYSDK_OFFSET(0xCBD3FF0)
-#define CLASS_2_46EA924A13E63904_UPDATE_OFFSET UNITYSDK_OFFSET(0xCBD3E90)
-#define CLASS_2_46EA924A13E63904__CTOR_OFFSET UNITYSDK_OFFSET(0xCBD3D80)
-#define CLASS_2_46EA924A13E63904___IFIXBASEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0xCBD4020)
+#define CLASS_2_46EA924A13E63904_GET_ISEFFECT_OFFSET UNITYSDK_OFFSET(0x115B37A0)
+#define CLASS_2_46EA924A13E63904_GET_ITEMIDS_OFFSET UNITYSDK_OFFSET(0x115B3780)
+#define CLASS_2_46EA924A13E63904_SET_ISEFFECT_OFFSET UNITYSDK_OFFSET(0x115B37B0)
+#define CLASS_2_46EA924A13E63904_SET_ITEMIDS_OFFSET UNITYSDK_OFFSET(0x115B3790)
+#define CLASS_2_46EA924A13E63904_UPDATE_OFFSET UNITYSDK_OFFSET(0x115B3630)
+#define CLASS_2_46EA924A13E63904__CTOR_OFFSET UNITYSDK_OFFSET(0x115B3520)
+#define CLASS_2_46EA924A13E63904___IFIXBASEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x115B37C0)
 
-inline static constexpr unsigned int Class_2_46EA924A13E63904_TypeDefinitionIndex = 51656;
+inline static constexpr unsigned int Class_2_46EA924A13E63904_TypeDefinitionIndex = 52790;
 
 class Class_2_46EA924A13E63904 : public ::RPG::Client::GridFightGameModifier
 {
@@ -21,14 +21,14 @@ public:
 	::System::Collections::Generic::List_1<::System::UInt32>* _ItemIds_k__BackingField; // 0x28
 	::System::Boolean _IsEffect_k__BackingField; // 0x30
 
-	::System::Void _ctor(::Class_1_B9E56D0D50E02617_1* a1)
+	::System::Void _ctor(::Class_1_F0A446EC7AE7E87D_1* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B9E56D0D50E02617_1*))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Update(::Class_1_B9E56D0D50E02617_1* a1)
+	::System::Void Update(::Class_1_F0A446EC7AE7E87D_1* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B9E56D0D50E02617_1*))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904_UPDATE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904_UPDATE_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::List_1<::System::UInt32>* get_ItemIds()
@@ -51,8 +51,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904_SET_ISEFFECT_OFFSET))(this, value);
 	}
 
-	::System::Void __iFixBaseProxy_Update(::Class_1_B9E56D0D50E02617_1* P0)
+	::System::Void __iFixBaseProxy_Update(::Class_1_F0A446EC7AE7E87D_1* P0)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B9E56D0D50E02617_1*))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904___IFIXBASEPROXY_UPDATE_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + CLASS_2_46EA924A13E63904___IFIXBASEPROXY_UPDATE_OFFSET))(this, P0);
 	}
 };

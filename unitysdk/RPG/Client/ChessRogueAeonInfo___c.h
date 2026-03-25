@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChessRogueAeonDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHESSROGUEAEONINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8ECC0E0)
-#define RPG_CLIENT_CHESSROGUEAEONINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8ECC120)
-#define RPG_CLIENT_CHESSROGUEAEONINFO___C__GETCHESSROGUEAEONSORTEDDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x8ECC130)
+#define RPG_CLIENT_CHESSROGUEAEONINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x936ECA0)
+#define RPG_CLIENT_CHESSROGUEAEONINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x936ECE0)
+#define RPG_CLIENT_CHESSROGUEAEONINFO___C__GETCHESSROGUEAEONSORTEDDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x936ECF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueAeonInfo___c_TypeDefinitionIndex = 53280;
+	inline static constexpr unsigned int ChessRogueAeonInfo___c_TypeDefinitionIndex = 54421;
 
 	class ChessRogueAeonInfo___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChessRogueAeonInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChessRogueAeonInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAeonInfo___c_TypeDefinitionIndex)->GetStaticField(0x410D0);
+			return (::RPG::Client::ChessRogueAeonInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAeonInfo___c_TypeDefinitionIndex)->GetStaticField(0x41400);
 		}
 		static ::System::Func_2<::RPG::Client::ChessRogueAeonDataItem*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueAeonDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAeonInfo___c_TypeDefinitionIndex)->GetStaticField(0x410D8);
+			return (::System::Func_2<::RPG::Client::ChessRogueAeonDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAeonInfo___c_TypeDefinitionIndex)->GetStaticField(0x41408);
 		}
 
 		static ::System::Void _cctor()

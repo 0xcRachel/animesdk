@@ -5,10 +5,10 @@
 
 namespace RPG::Client { class GridFightBonusResultData; }
 
-#define CLASS_1_E9054A92590C980A_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0x10A58370)
-#define CLASS_1_E9054A92590C980A__CTOR_OFFSET UNITYSDK_OFFSET(0x10A58360)
+#define CLASS_1_E9054A92590C980A_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0xDE45BD0)
+#define CLASS_1_E9054A92590C980A__CTOR_OFFSET UNITYSDK_OFFSET(0xDE45BC0)
 
-inline static constexpr unsigned int Class_1_E9054A92590C980A_TypeDefinitionIndex = 51185;
+inline static constexpr unsigned int Class_1_E9054A92590C980A_TypeDefinitionIndex = 52318;
 
 class Class_1_E9054A92590C980A : public ::System::Object
 {

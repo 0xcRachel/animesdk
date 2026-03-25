@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int AddNotifyPeerActionRequiredOptionsInternal_TypeDefinitionIndex = 35761;
+	inline static constexpr unsigned int AddNotifyPeerActionRequiredOptionsInternal_TypeDefinitionIndex = 36695;
 
 	struct alignas(4) AddNotifyPeerActionRequiredOptionsInternal
 	{

@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFramingTransposer_FramingMode_TypeDefinitionIndex = 29941;
+	inline static constexpr unsigned int CinemachineFramingTransposer_FramingMode_TypeDefinitionIndex = 30816;
 
 	enum class CinemachineFramingTransposer_FramingMode : ::System::Int32
 	{

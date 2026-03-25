@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_5_78F111EEA2524A55_OFFSET UNITYSDK_OFFSET(0x16A94920)
-#define RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_5_F5A380892CF3E256_OFFSET UNITYSDK_OFFSET(0x16A947B0)
-#define RPG_GAMECORE_FATECONDTRUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A94880)
+#define RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_6_9CB46396511F268C_OFFSET UNITYSDK_OFFSET(0x171D8F40)
+#define RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_6_B66367AF9B939BA8_OFFSET UNITYSDK_OFFSET(0x171D9100)
+#define RPG_GAMECORE_FATECONDTRUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171D9040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateCondTrueConfig_TypeDefinitionIndex = 17268;
+	inline static constexpr unsigned int FateCondTrueConfig_TypeDefinitionIndex = 17673;
 
 	class FateCondTrueConfig : public ::RPG::GameCore::FateConditionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDTRUECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_F5A380892CF3E256(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondTrueConfig*& a2)
+		static ::System::Void Method_6_9CB46396511F268C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondTrueConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondTrueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_5_F5A380892CF3E256_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondTrueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_6_9CB46396511F268C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_78F111EEA2524A55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondTrueConfig* a2)
+		static ::System::Void Method_6_B66367AF9B939BA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondTrueConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondTrueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_5_78F111EEA2524A55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondTrueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDTRUECONFIG_METHOD_6_B66367AF9B939BA8_OFFSET))(a1, a2);
 		}
 	};
 }

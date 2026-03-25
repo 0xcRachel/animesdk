@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int DLSSQuality_TypeDefinitionIndex = 5062;
+	inline static constexpr unsigned int DLSSQuality_TypeDefinitionIndex = 5162;
 
 	enum class DLSSQuality : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C479F0)
-#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C47B40)
+#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173AC860)
+#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173AC9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealGroupConfigRow_TypeDefinitionIndex = 10830;
+	inline static constexpr unsigned int MarbleSealGroupConfigRow_TypeDefinitionIndex = 10898;
 
 	class MarbleSealGroupConfigRow : public ::System::Object
 	{

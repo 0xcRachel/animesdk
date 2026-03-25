@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/MotionBlurQuality.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_MOTIONBLURQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x163A78C0)
+#define RPG_CUSTOMRP_MOTIONBLURQUALITYPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB69E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MotionBlurQualityParameter_TypeDefinitionIndex = 28562;
+	inline static constexpr unsigned int MotionBlurQualityParameter_TypeDefinitionIndex = 29437;
 
 	class MotionBlurQualityParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::MotionBlurQuality>
 	{

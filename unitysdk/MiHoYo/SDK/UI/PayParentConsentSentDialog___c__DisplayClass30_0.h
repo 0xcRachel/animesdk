@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::UI { class PayParentConsentSentDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1595C810)
-#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1595C910)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16034A90)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x16034B90)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int PayParentConsentSentDialog___c__DisplayClass30_0_TypeDefinitionIndex = 7217;
+	inline static constexpr unsigned int PayParentConsentSentDialog___c__DisplayClass30_0_TypeDefinitionIndex = 7342;
 
 	class PayParentConsentSentDialog___c__DisplayClass30_0 : public ::System::Object
 	{

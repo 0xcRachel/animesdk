@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GridLayoutGroup_Constraint_TypeDefinitionIndex = 5538;
+	inline static constexpr unsigned int GridLayoutGroup_Constraint_TypeDefinitionIndex = 5638;
 
 	enum class GridLayoutGroup_Constraint : ::System::Int32
 	{

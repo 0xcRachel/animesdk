@@ -8,11 +8,11 @@ namespace RPGTools::Octree::Generation { class OctreeAreaData; }
 namespace RPGTools::Octree::Generation { class OctreeLinkData; }
 namespace System { class String; }
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E0520)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB23EB0)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeData_TypeDefinitionIndex = 38650;
+	inline static constexpr unsigned int OctreeData_TypeDefinitionIndex = 39630;
 
 	class OctreeData : public ::System::Object
 	{

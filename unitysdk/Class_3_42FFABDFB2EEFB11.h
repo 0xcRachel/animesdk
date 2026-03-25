@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class NpcSetupTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_42FFABDFB2EEFB11_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x111C7AD0)
-#define CLASS_3_42FFABDFB2EEFB11__CTOR_OFFSET UNITYSDK_OFFSET(0x111C7AA0)
+#define CLASS_3_42FFABDFB2EEFB11_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD148050)
+#define CLASS_3_42FFABDFB2EEFB11__CTOR_OFFSET UNITYSDK_OFFSET(0xD148020)
 
-inline static constexpr unsigned int Class_3_42FFABDFB2EEFB11_TypeDefinitionIndex = 45908;
+inline static constexpr unsigned int Class_3_42FFABDFB2EEFB11_TypeDefinitionIndex = 46976;
 
 class Class_3_42FFABDFB2EEFB11 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NpcSetupTrigger*>
 {

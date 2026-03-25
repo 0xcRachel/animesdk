@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F843A0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F843E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__ONDESTROY_B__39_0_OFFSET UNITYSDK_OFFSET(0x17F843F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x187AD6C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x187AD700)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__ONDESTROY_B__39_0_OFFSET UNITYSDK_OFFSET(0x187AD710)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 34116;
+	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 35050;
 
 	class AlembicPointsRenderer___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c** StaticGet___9()
 		{
-			return (::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x39620);
+			return (::UnityEngine::Formats::Alembic::Importer::AlembicPointsRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x3C440);
 		}
 		static ::System::Action_1<::UnityEngine::ComputeBuffer*>** StaticGet___9__39_0()
 		{
-			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x39628);
+			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)Il2CppClass::FromTypeDefinitionIndex(AlembicPointsRenderer___c_TypeDefinitionIndex)->GetStaticField(0x3C448);
 		}
 
 		static ::System::Void _cctor()

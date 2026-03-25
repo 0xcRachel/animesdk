@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int VolumeToBlock_TypeDefinitionIndex = 37634;
+	inline static constexpr unsigned int VolumeToBlock_TypeDefinitionIndex = 38598;
 
 	struct alignas(8) VolumeToBlock
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BPRewardStatus_TypeDefinitionIndex = 49914;
+	inline static constexpr unsigned int BPRewardStatus_TypeDefinitionIndex = 51046;
 
 	enum class BPRewardStatus : ::System::Int32
 	{

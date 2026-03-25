@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DAILYMISSIONCOUNTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x169DDAB0)
-#define RPG_GAMECORE_DAILYMISSIONCOUNTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x169DDC20)
+#define RPG_GAMECORE_DAILYMISSIONCOUNTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17159B90)
+#define RPG_GAMECORE_DAILYMISSIONCOUNTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17159D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyMissionCountRow_TypeDefinitionIndex = 11896;
+	inline static constexpr unsigned int DailyMissionCountRow_TypeDefinitionIndex = 11966;
 
 	class DailyMissionCountRow : public ::System::Object
 	{

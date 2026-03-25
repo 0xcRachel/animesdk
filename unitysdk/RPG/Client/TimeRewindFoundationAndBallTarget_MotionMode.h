@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindFoundationAndBallTarget_MotionMode_TypeDefinitionIndex = 48189;
+	inline static constexpr unsigned int TimeRewindFoundationAndBallTarget_MotionMode_TypeDefinitionIndex = 49281;
 
 	enum class TimeRewindFoundationAndBallTarget_MotionMode : ::System::Int32
 	{

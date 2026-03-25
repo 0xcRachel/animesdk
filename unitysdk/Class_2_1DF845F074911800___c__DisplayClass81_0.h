@@ -11,21 +11,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB2DC0)
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__0_OFFSET UNITYSDK_OFFSET(0x9EB47E0)
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__1_OFFSET UNITYSDK_OFFSET(0x9EB4900)
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__2_OFFSET UNITYSDK_OFFSET(0x9EB4A50)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE0E30)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__0_OFFSET UNITYSDK_OFFSET(0xBEE28B0)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__1_OFFSET UNITYSDK_OFFSET(0xBEE29D0)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__2_OFFSET UNITYSDK_OFFSET(0xBEE2B20)
 
-inline static constexpr unsigned int Class_2_1DF845F074911800___c__DisplayClass81_0_TypeDefinitionIndex = 58822;
+inline static constexpr unsigned int Class_2_1DF845F074911800___c__DisplayClass81_0_TypeDefinitionIndex = 60565;
 
 class Class_2_1DF845F074911800___c__DisplayClass81_0 : public ::System::Object
 {
 public:
-	::UnityEngine::Animator* animator; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::PolymerEffectControllBase*>* effectController; // 0x18
-	::UnityEngine::GameObject* instObj; // 0x20
-	::RPG::Client::MonoRenderPerfOptIndicator* monoRenderPerfOptIndicator; // 0x28
-	::Class_2_1DF845F074911800* __4__this; // 0x30
+	::RPG::Client::MonoRenderPerfOptIndicator* monoRenderPerfOptIndicator; // 0x10
+	::UnityEngine::GameObject* instObj; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::PolymerEffectControllBase*>* effectController; // 0x20
+	::Class_2_1DF845F074911800* __4__this; // 0x28
+	::UnityEngine::Animator* animator; // 0x30
 
 	::System::Void _ctor()
 	{

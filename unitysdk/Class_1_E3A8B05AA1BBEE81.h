@@ -12,27 +12,27 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System { class String; }
 
-#define CLASS_1_E3A8B05AA1BBEE81_CLEAR_OFFSET UNITYSDK_OFFSET(0x1102BD80)
-#define CLASS_1_E3A8B05AA1BBEE81_METHOD_1_538706B04C2A4407_OFFSET UNITYSDK_OFFSET(0x1102BE30)
-#define CLASS_1_E3A8B05AA1BBEE81_METHOD_1_AC7CF00B57D864AB_OFFSET UNITYSDK_OFFSET(0x1102C030)
-#define CLASS_1_E3A8B05AA1BBEE81_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1102BF40)
-#define CLASS_1_E3A8B05AA1BBEE81__CTOR_OFFSET UNITYSDK_OFFSET(0x1102C490)
-#define CLASS_1_E3A8B05AA1BBEE81___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1102C4A0)
+#define CLASS_1_E3A8B05AA1BBEE81_CLEAR_OFFSET UNITYSDK_OFFSET(0x8BDEAB0)
+#define CLASS_1_E3A8B05AA1BBEE81_METHOD_1_538706B04C2A4407_OFFSET UNITYSDK_OFFSET(0x8BDEB80)
+#define CLASS_1_E3A8B05AA1BBEE81_METHOD_1_AC7CF00B57D864AB_OFFSET UNITYSDK_OFFSET(0x8BDED80)
+#define CLASS_1_E3A8B05AA1BBEE81_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8BDEC90)
+#define CLASS_1_E3A8B05AA1BBEE81__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDF1F0)
+#define CLASS_1_E3A8B05AA1BBEE81___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x8BDF200)
 
-inline static constexpr unsigned int Class_1_E3A8B05AA1BBEE81_TypeDefinitionIndex = 44009;
+inline static constexpr unsigned int Class_1_E3A8B05AA1BBEE81_TypeDefinitionIndex = 45069;
 
 class Class_1_E3A8B05AA1BBEE81 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_0; // 0x10
-	::RPG::GameCore::SkillCharacterComponent* Field_1_1; // 0x18
-	::Struct_2_52A902145F5BE513_3 Field_1_6; // 0x20
+	::RPG::GameCore::SkillCharacterComponent* Field_1_1; // 0x10
+	::Struct_2_52A902145F5BE513_3 Field_1_6; // 0x18
+	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_0; // 0x80
 	::Class_1_5F51D4049EA87B7B* Field_1_9; // 0x88
 	::Class_1_A2D8E5AB4B623162* Field_1_2; // 0x90
 	::System::Int32 Field_1_7; // 0x98
-	::System::Boolean Field_1_4; // 0x9C
-	::System::Boolean Field_1_5; // 0x9D
-	::RPG::GameCore::InsertAbilityState Field_1_3; // 0x9E
+	::System::Boolean Field_1_5; // 0x9C
+	::RPG::GameCore::InsertAbilityState Field_1_3; // 0x9D
+	::System::Boolean Field_1_4; // 0x9E
 	::RPG::GameCore::InsertAbilityFinishSource Field_1_8; // 0xA0
 
 	::System::Void _ctor()

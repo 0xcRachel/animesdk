@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class EvolveGearConfig; }
 
-#define RPG_GAMECORE_EVOLVEBUILDGEARSELECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA401350)
+#define RPG_GAMECORE_EVOLVEBUILDGEARSELECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA93C6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearSelectInfo_TypeDefinitionIndex = 43863;
+	inline static constexpr unsigned int EvolveBuildGearSelectInfo_TypeDefinitionIndex = 44923;
 
 	class EvolveBuildGearSelectInfo : public ::System::Object
 	{

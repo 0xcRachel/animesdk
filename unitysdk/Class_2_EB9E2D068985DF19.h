@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_0_16E4307DCC419505_347;
-class Class_3_BCCE950C2E8DF1F0;
+class Class_0_16E4307DCC419505_375;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindLoopControlStateChangeListener; }
 namespace System { class Object; }
 
-#define CLASS_2_EB9E2D068985DF19_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8440870)
-#define CLASS_2_EB9E2D068985DF19_METHOD_2_33C64EF100D014E2_OFFSET UNITYSDK_OFFSET(0x8440B60)
-#define CLASS_2_EB9E2D068985DF19_METHOD_2_EF7FF4D68C8A0DF5_OFFSET UNITYSDK_OFFSET(0x84409B0)
-#define CLASS_2_EB9E2D068985DF19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8440510)
-#define CLASS_2_EB9E2D068985DF19_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x84406F0)
-#define CLASS_2_EB9E2D068985DF19_TICK_OFFSET UNITYSDK_OFFSET(0x8440810)
-#define CLASS_2_EB9E2D068985DF19__CTOR_OFFSET UNITYSDK_OFFSET(0x8440480)
+#define CLASS_2_EB9E2D068985DF19_DISPOSE_OFFSET UNITYSDK_OFFSET(0x891B530)
+#define CLASS_2_EB9E2D068985DF19_METHOD_2_33C64EF100D014E2_OFFSET UNITYSDK_OFFSET(0x891B810)
+#define CLASS_2_EB9E2D068985DF19_METHOD_2_EF7FF4D68C8A0DF5_OFFSET UNITYSDK_OFFSET(0x891B670)
+#define CLASS_2_EB9E2D068985DF19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x891B1D0)
+#define CLASS_2_EB9E2D068985DF19_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x891B3B0)
+#define CLASS_2_EB9E2D068985DF19_TICK_OFFSET UNITYSDK_OFFSET(0x891B4D0)
+#define CLASS_2_EB9E2D068985DF19__CTOR_OFFSET UNITYSDK_OFFSET(0x891B140)
 
-inline static constexpr unsigned int Class_2_EB9E2D068985DF19_TypeDefinitionIndex = 42186;
+inline static constexpr unsigned int Class_2_EB9E2D068985DF19_TypeDefinitionIndex = 43235;
 
 class Class_2_EB9E2D068985DF19 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::EntityTimeRewindComponent* Field_2_2; // 0x18
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x20
-	::Class_3_BCCE950C2E8DF1F0* Field_2_4; // 0x28
-	::RPG::GameCore::TimeRewindLoopControlStateChangeListener* Field_2_0; // 0x30
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x18
+	::RPG::GameCore::EntityTimeRewindComponent* Field_2_2; // 0x20
+	::RPG::GameCore::TimeRewindLoopControlStateChangeListener* Field_2_0; // 0x28
+	::Class_3_5775A4FEC79026BC* Field_2_4; // 0x30
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x38
 	::System::UInt32 Field_2_6; // 0x40
 	::System::Int32 Field_2_5; // 0x44
@@ -56,9 +56,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EB9E2D068985DF19_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_2_EF7FF4D68C8A0DF5(::Class_0_16E4307DCC419505_347* a1)
+	::System::Void Method_2_EF7FF4D68C8A0DF5(::Class_0_16E4307DCC419505_375* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_347*))((::PBYTE)hIl2Cpp + CLASS_2_EB9E2D068985DF19_METHOD_2_EF7FF4D68C8A0DF5_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_2_EB9E2D068985DF19_METHOD_2_EF7FF4D68C8A0DF5_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_33C64EF100D014E2(::System::Object* a1)

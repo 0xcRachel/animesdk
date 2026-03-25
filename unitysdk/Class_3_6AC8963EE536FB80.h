@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByCheckGameMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6AC8963EE536FB80_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFF070A0)
-#define CLASS_3_6AC8963EE536FB80__CTOR_OFFSET UNITYSDK_OFFSET(0xFF07070)
+#define CLASS_3_6AC8963EE536FB80_EVALUATE_OFFSET UNITYSDK_OFFSET(0xAC77CC0)
+#define CLASS_3_6AC8963EE536FB80__CTOR_OFFSET UNITYSDK_OFFSET(0xAC77C90)
 
-inline static constexpr unsigned int Class_3_6AC8963EE536FB80_TypeDefinitionIndex = 42481;
+inline static constexpr unsigned int Class_3_6AC8963EE536FB80_TypeDefinitionIndex = 43531;
 
 class Class_3_6AC8963EE536FB80 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCheckGameMode*>
 {

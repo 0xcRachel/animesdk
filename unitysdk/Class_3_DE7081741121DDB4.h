@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvAttachEntityToPropEX; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DE7081741121DDB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A735B0)
-#define CLASS_3_DE7081741121DDB4__CTOR_OFFSET UNITYSDK_OFFSET(0x8A73580)
+#define CLASS_3_DE7081741121DDB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89B23A0)
+#define CLASS_3_DE7081741121DDB4__CTOR_OFFSET UNITYSDK_OFFSET(0x89B2370)
 
-inline static constexpr unsigned int Class_3_DE7081741121DDB4_TypeDefinitionIndex = 45589;
+inline static constexpr unsigned int Class_3_DE7081741121DDB4_TypeDefinitionIndex = 46653;
 
 class Class_3_DE7081741121DDB4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvAttachEntityToPropEX*>
 {

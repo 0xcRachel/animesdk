@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IMethodCallMessage_TypeDefinitionIndex = 1303;
+	inline static constexpr unsigned int IMethodCallMessage_TypeDefinitionIndex = 1308;
 
 	class IMethodCallMessage
 	{

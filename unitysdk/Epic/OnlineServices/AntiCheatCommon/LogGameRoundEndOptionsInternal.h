@@ -12,7 +12,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogGameRoundEndOptionsInternal_TypeDefinitionIndex = 35717;
+	inline static constexpr unsigned int LogGameRoundEndOptionsInternal_TypeDefinitionIndex = 36651;
 
 	struct alignas(4) LogGameRoundEndOptionsInternal
 	{

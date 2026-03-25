@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15831940)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15831980)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__SHOWACCOUNTLISTWINDOW_B__52_4_OFFSET UNITYSDK_OFFSET(0x15831990)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F175D0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F17610)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__SHOWACCOUNTLISTWINDOW_B__52_4_OFFSET UNITYSDK_OFFSET(0x15F17620)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c_TypeDefinitionIndex = 7184;
+	inline static constexpr unsigned int LoginManager___c_TypeDefinitionIndex = 7309;
 
 	class LoginManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::String*>** StaticGet___9__52_4()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0x109A0);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0xCB30);
 		}
 		static ::MiHoYo::SDK::HoYoPass::LoginManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::HoYoPass::LoginManager___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0x109A8);
+			return (::MiHoYo::SDK::HoYoPass::LoginManager___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0xCB38);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_KeepOrthographicOnResetReason_TypeDefinitionIndex = 55289;
+	inline static constexpr unsigned int CameraDataAndFlags_KeepOrthographicOnResetReason_TypeDefinitionIndex = 56854;
 
 	enum class CameraDataAndFlags_KeepOrthographicOnResetReason : ::System::Int32
 	{

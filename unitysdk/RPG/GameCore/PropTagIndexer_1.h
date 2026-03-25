@@ -6,7 +6,7 @@ namespace RPG::GameCore { class HoyoTag; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTagIndexer_1_TypeDefinitionIndex = 45548;
+	inline static constexpr unsigned int PropTagIndexer_1_TypeDefinitionIndex = 46612;
 
 	template <typename T>
 	class PropTagIndexer_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityDestroyWaitReason_TypeDefinitionIndex = 45543;
+	inline static constexpr unsigned int EntityDestroyWaitReason_TypeDefinitionIndex = 46607;
 
 	enum class EntityDestroyWaitReason : ::System::Int32
 	{

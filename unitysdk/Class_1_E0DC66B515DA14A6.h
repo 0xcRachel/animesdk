@@ -9,24 +9,24 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_E0DC66B515DA14A6_CLEAR_OFFSET UNITYSDK_OFFSET(0x10356470)
-#define CLASS_1_E0DC66B515DA14A6_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x10355FA0)
-#define CLASS_1_E0DC66B515DA14A6_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0x103563F0)
-#define CLASS_1_E0DC66B515DA14A6_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0x10355FB0)
-#define CLASS_1_E0DC66B515DA14A6_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x10356430)
-#define CLASS_1_E0DC66B515DA14A6__CTOR_OFFSET UNITYSDK_OFFSET(0x10356690)
+#define CLASS_1_E0DC66B515DA14A6_CLEAR_OFFSET UNITYSDK_OFFSET(0xAC511F0)
+#define CLASS_1_E0DC66B515DA14A6_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xAC50D20)
+#define CLASS_1_E0DC66B515DA14A6_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0xAC51170)
+#define CLASS_1_E0DC66B515DA14A6_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xAC50D30)
+#define CLASS_1_E0DC66B515DA14A6_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xAC511B0)
+#define CLASS_1_E0DC66B515DA14A6__CTOR_OFFSET UNITYSDK_OFFSET(0xAC51400)
 
-inline static constexpr unsigned int Class_1_E0DC66B515DA14A6_TypeDefinitionIndex = 54521;
+inline static constexpr unsigned int Class_1_E0DC66B515DA14A6_TypeDefinitionIndex = 56081;
 
 class Class_1_E0DC66B515DA14A6 : public ::System::Object
 {
 public:
-	::RPG::Client::ElfFarmCellData* Field_1_3; // 0x10
-	::System::String* Field_1_0; // 0x18
-	::System::String* Field_1_6; // 0x20
-	::UnityEngine::Transform* Field_1_1; // 0x28
-	::UnityEngine::GameObject* Field_1_4; // 0x30
-	::UnityEngine::GameObject* Field_1_5; // 0x38
+	::UnityEngine::GameObject* Field_1_5; // 0x10
+	::System::String* Field_1_6; // 0x18
+	::RPG::Client::ElfFarmCellData* Field_1_3; // 0x20
+	::UnityEngine::GameObject* Field_1_4; // 0x28
+	::UnityEngine::Transform* Field_1_1; // 0x30
+	::System::String* Field_1_0; // 0x38
 	::UnityEngine::Quaternion Field_1_2; // 0x40
 
 	::System::Void _ctor()

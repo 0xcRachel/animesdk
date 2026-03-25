@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE_METHOD_3_6540EA182E45775B_OFFSET UNITYSDK_OFFSET(0x16A3E750)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE_METHOD_3_A3A0C85A205BBC78_OFFSET UNITYSDK_OFFSET(0x16A42120)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A3E730)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE_METHOD_3_6540EA182E45775B_OFFSET UNITYSDK_OFFSET(0x1717F3F0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE_METHOD_3_D3AFBC467687C0FF_OFFSET UNITYSDK_OFFSET(0x17184210)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1717F3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_AIEffectScore_TypeDefinitionIndex = 14599;
+	inline static constexpr unsigned int DiceCombatTaskConfig_AIEffectScore_TypeDefinitionIndex = 14851;
 
 	class DiceCombatTaskConfig_AIEffectScore : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A3A0C85A205BBC78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore*& a2)
+		static ::System::Void Method_3_D3AFBC467687C0FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE_METHOD_3_A3A0C85A205BBC78_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_AIEFFECTSCORE_METHOD_3_D3AFBC467687C0FF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6540EA182E45775B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AIEffectScore* a2)

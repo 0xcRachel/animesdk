@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_NATIVEHEADERATTRIBUTE_SET_HEADER_OFFSET UNITYSDK_OFFSET(0x182A2E10)
-#define UNITYENGINE_BINDINGS_NATIVEHEADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x182A2E20)
+#define UNITYENGINE_BINDINGS_NATIVEHEADERATTRIBUTE_SET_HEADER_OFFSET UNITYSDK_OFFSET(0x18AC9F20)
+#define UNITYENGINE_BINDINGS_NATIVEHEADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC9F30)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeHeaderAttribute_TypeDefinitionIndex = 3690;
+	inline static constexpr unsigned int NativeHeaderAttribute_TypeDefinitionIndex = 3699;
 
 	class NativeHeaderAttribute : public ::System::Attribute
 	{

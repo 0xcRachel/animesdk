@@ -5,16 +5,16 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_39BEC054B54B7956___C__DISPLAYCLASS5_0__BUILDANIMGROUPEVENTTASKISCLIENTONLYERRORLOG_B__0_OFFSET UNITYSDK_OFFSET(0x89130F0)
-#define CLASS_1_39BEC054B54B7956___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x89127C0)
+#define CLASS_1_39BEC054B54B7956___C__DISPLAYCLASS5_0__BUILDANIMGROUPEVENTTASKISCLIENTONLYERRORLOG_B__0_OFFSET UNITYSDK_OFFSET(0x8842680)
+#define CLASS_1_39BEC054B54B7956___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8841D50)
 
-inline static constexpr unsigned int Class_1_39BEC054B54B7956___c__DisplayClass5_0_TypeDefinitionIndex = 43759;
+inline static constexpr unsigned int Class_1_39BEC054B54B7956___c__DisplayClass5_0_TypeDefinitionIndex = 44816;
 
 class Class_1_39BEC054B54B7956___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::System::String* ownerName; // 0x10
-	::System::Text::StringBuilder* stringBuilder; // 0x18
+	::System::Text::StringBuilder* stringBuilder; // 0x10
+	::System::String* ownerName; // 0x18
 
 	::System::Void _ctor()
 	{

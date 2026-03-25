@@ -9,22 +9,22 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreUISetting___O_TypeDefinitionIndex = 15431;
+	inline static constexpr unsigned int GameCoreUISetting___O_TypeDefinitionIndex = 15710;
 
 	class GameCoreUISetting___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreUISetting___O_TypeDefinitionIndex)->GetStaticField(0x2DF10);
-		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>** StaticGet__2___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreUISetting___O_TypeDefinitionIndex)->GetStaticField(0x2DF18);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreUISetting___O_TypeDefinitionIndex)->GetStaticField(0x44CF0);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EnumStatusType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EnumStatusType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreUISetting___O_TypeDefinitionIndex)->GetStaticField(0x2DF20);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::EnumStatusType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreUISetting___O_TypeDefinitionIndex)->GetStaticField(0x44CF8);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>** StaticGet__2___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreUISetting___O_TypeDefinitionIndex)->GetStaticField(0x44D00);
 		}
 	};
 }

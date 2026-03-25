@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetLevelChallengeTurnLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E7A7B22FDE4135ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10997350)
-#define CLASS_3_E7A7B22FDE4135ED__CTOR_OFFSET UNITYSDK_OFFSET(0x10997320)
+#define CLASS_3_E7A7B22FDE4135ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x116C4F90)
+#define CLASS_3_E7A7B22FDE4135ED__CTOR_OFFSET UNITYSDK_OFFSET(0x116C4F60)
 
-inline static constexpr unsigned int Class_3_E7A7B22FDE4135ED_TypeDefinitionIndex = 43414;
+inline static constexpr unsigned int Class_3_E7A7B22FDE4135ED_TypeDefinitionIndex = 44470;
 
 class Class_3_E7A7B22FDE4135ED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetLevelChallengeTurnLimit*>
 {

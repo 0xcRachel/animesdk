@@ -5,12 +5,12 @@
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0xA01E540)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA01C870)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0xA53FF30)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA53E260)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_BufferProperty_TypeDefinitionIndex = 58631;
+	inline static constexpr unsigned int MaterialPropertiesCollection_BufferProperty_TypeDefinitionIndex = 60343;
 
 	class MaterialPropertiesCollection_BufferProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::UnityEngine::ComputeBuffer*>
 	{

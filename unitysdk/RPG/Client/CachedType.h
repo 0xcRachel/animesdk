@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedType_TypeDefinitionIndex = 31073;
+	inline static constexpr unsigned int CachedType_TypeDefinitionIndex = 31948;
 
 	enum class CachedType : ::System::Int32
 	{

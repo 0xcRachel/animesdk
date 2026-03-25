@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PerformanceReplay_SetFloorSavedValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E8D5BFD92FA23D13_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10FCF8B0)
-#define CLASS_3_E8D5BFD92FA23D13__CTOR_OFFSET UNITYSDK_OFFSET(0x10FCF880)
+#define CLASS_3_E8D5BFD92FA23D13_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C6B710)
+#define CLASS_3_E8D5BFD92FA23D13__CTOR_OFFSET UNITYSDK_OFFSET(0x10C6B6E0)
 
-inline static constexpr unsigned int Class_3_E8D5BFD92FA23D13_TypeDefinitionIndex = 45923;
+inline static constexpr unsigned int Class_3_E8D5BFD92FA23D13_TypeDefinitionIndex = 46991;
 
 class Class_3_E8D5BFD92FA23D13 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PerformanceReplay_SetFloorSavedValue*>
 {

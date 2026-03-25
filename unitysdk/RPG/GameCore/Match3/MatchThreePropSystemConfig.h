@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Match3 { class MatchThreePropConfig; }
 
-#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPSYSTEMCONFIG_METHOD_2_B5694B1F078F754C_OFFSET UNITYSDK_OFFSET(0x16C58C70)
-#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPSYSTEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5A6E0)
+#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPSYSTEMCONFIG_METHOD_2_B5694B1F078F754C_OFFSET UNITYSDK_OFFSET(0x173BE160)
+#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPSYSTEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173BFCE0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int MatchThreePropSystemConfig_TypeDefinitionIndex = 22212;
+	inline static constexpr unsigned int MatchThreePropSystemConfig_TypeDefinitionIndex = 22777;
 
 	class MatchThreePropSystemConfig : public ::RPG::GameCore::JsonConfig
 	{

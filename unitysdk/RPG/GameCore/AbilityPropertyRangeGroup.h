@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
 
-#define RPG_GAMECORE_ABILITYPROPERTYRANGEGROUP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16774C90)
-#define RPG_GAMECORE_ABILITYPROPERTYRANGEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16774DC0)
+#define RPG_GAMECORE_ABILITYPROPERTYRANGEGROUP_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA9490)
+#define RPG_GAMECORE_ABILITYPROPERTYRANGEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA95C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyRangeGroup_TypeDefinitionIndex = 16350;
+	inline static constexpr unsigned int AbilityPropertyRangeGroup_TypeDefinitionIndex = 16724;
 
 	class AbilityPropertyRangeGroup : public ::RPG::GameCore::JsonConfig
 	{

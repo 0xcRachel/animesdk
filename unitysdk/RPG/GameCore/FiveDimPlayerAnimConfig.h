@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYERANIMCONFIG_METHOD_2_00644FCCD1750A5A_OFFSET UNITYSDK_OFFSET(0x16ACC620)
-#define RPG_GAMECORE_FIVEDIMPLAYERANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16ACC890)
+#define RPG_GAMECORE_FIVEDIMPLAYERANIMCONFIG_METHOD_2_00644FCCD1750A5A_OFFSET UNITYSDK_OFFSET(0x172164B0)
+#define RPG_GAMECORE_FIVEDIMPLAYERANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17216720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerAnimConfig_TypeDefinitionIndex = 15017;
+	inline static constexpr unsigned int FiveDimPlayerAnimConfig_TypeDefinitionIndex = 15270;
 
 	class FiveDimPlayerAnimConfig : public ::RPG::GameCore::JsonConfig
 	{

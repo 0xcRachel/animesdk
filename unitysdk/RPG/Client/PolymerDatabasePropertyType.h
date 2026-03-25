@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PolymerDatabasePropertyType_TypeDefinitionIndex = 55979;
+	inline static constexpr unsigned int PolymerDatabasePropertyType_TypeDefinitionIndex = 57541;
 
 	enum class PolymerDatabasePropertyType : ::System::Int32
 	{

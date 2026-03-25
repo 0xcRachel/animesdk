@@ -6,120 +6,120 @@ namespace RPG::Client { class CharacterDissolve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x8EA7150)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_178812F674E8B05A_OFFSET UNITYSDK_OFFSET(0x8EA6DF0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_422AB1A19F04E217_OFFSET UNITYSDK_OFFSET(0x8EA73A0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x8EA7220)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x8EA7280)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x8EA72E0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x8EA71C0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x8EA8A70)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x8EA8AD0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x8EA8B30)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x8EA8B90)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x8EA8BF0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8EA8A10)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x8EA6D50)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_FE936CB8E8F44BDB_OFFSET UNITYSDK_OFFSET(0x8EA74F0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x8EA7340)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x8EA8840)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8EA87E0)
-#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x8EA8C50)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x930B8D0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_422AB1A19F04E217_OFFSET UNITYSDK_OFFSET(0x930BB20)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x930B9A0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x930BA00)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x930BA60)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x930B940)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x930D1F0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x930D250)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x930D2B0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x930D310)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x930D380)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x930D190)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x930B4F0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_BFB00779E460D7A3_OFFSET UNITYSDK_OFFSET(0x930B590)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_FE936CB8E8F44BDB_OFFSET UNITYSDK_OFFSET(0x930BC70)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x930BAC0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x930CFC0)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x930CF60)
+#define RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x930D3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterDissolveBehavior_TypeDefinitionIndex = 55955;
+	inline static constexpr unsigned int CharacterDissolveBehavior_TypeDefinitionIndex = 57517;
 
 	class CharacterDissolveBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__DissolveShadowOffShaderProperty()
+		static ::System::Int32* StaticGet__DissolveComponentShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED60);
-		}
-		static ::System::Int32* StaticGet__DissolveMaskShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED64);
-		}
-		static ::System::Int32* StaticGet__DitherAlphaShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED68);
-		}
-		static ::System::Int32* StaticGet__DissolveOutlineColor1ShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED6C);
-		}
-		static ::System::Int32* StaticGet__DissoveOnShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED70);
-		}
-		static ::System::Int32* StaticGet__DissolveMaskUVSetShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED74);
-		}
-		static ::System::Int32* StaticGet__DissolveStShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED78);
-		}
-		static ::System::Int32* StaticGet__DissolveOutlineSmoothStepShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED7C);
-		}
-		static ::System::Int32* StaticGet__DissolveMapShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED80);
-		}
-		static ::System::Int32* StaticGet__DissolveOutlineSize1ShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED84);
-		}
-		static ::System::Int32* StaticGet__DissoveDirecMaskShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED88);
-		}
-		static ::System::Int32* StaticGet__DistortionStShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED8C);
-		}
-		static ::System::Int32* StaticGet__DissolveUVSpeedShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED90);
-		}
-		static ::System::Int32* StaticGet__DissolveOutlineSize2ShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED94);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE900);
 		}
 		static ::System::Int32* StaticGet__DissolveUVShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED98);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE904);
 		}
-		static ::System::Int32* StaticGet__DissolveOutlineOffsetShaderProperty()
+		static ::System::Int32* StaticGet__DistortionStShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xED9C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE908);
 		}
-		static ::System::Int32* StaticGet__DissolveDistortionIntensityShaderProperty()
+		static ::System::Int32* StaticGet__DissolveOutlineColor1ShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xEDA0);
-		}
-		static ::System::Int32* StaticGet__DissolveMapAddShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xEDA4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE90C);
 		}
 		static ::System::Int32* StaticGet__DissolveRateShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xEDA8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE910);
+		}
+		static ::System::Int32* StaticGet__DissoveDirecMaskShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE914);
 		}
 		static ::System::Int32* StaticGet__DissolveOutlineColor2ShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xEDAC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE918);
+		}
+		static ::System::Int32* StaticGet__DissolveDistortionIntensityShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE91C);
+		}
+		static ::System::Int32* StaticGet__DissolveOutlineSize1ShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE920);
+		}
+		static ::System::Int32* StaticGet__DissolveMapAddShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE924);
+		}
+		static ::System::Int32* StaticGet__DissolveMaskShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE928);
+		}
+		static ::System::Int32* StaticGet__DitherAlphaShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE92C);
+		}
+		static ::System::Int32* StaticGet__DissolveOutlineSize2ShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE930);
+		}
+		static ::System::Int32* StaticGet__DissolveStShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE934);
+		}
+		static ::System::Int32* StaticGet__DissolveOutlineOffsetShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE938);
+		}
+		static ::System::Int32* StaticGet__DissolveMapShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE93C);
+		}
+		static ::System::Int32* StaticGet__DissolveMaskUVSetShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE940);
+		}
+		static ::System::Int32* StaticGet__DissoveOnShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE944);
+		}
+		static ::System::Int32* StaticGet__DissolveOutlineSmoothStepShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE948);
+		}
+		static ::System::Int32* StaticGet__DissolveUVSpeedShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE94C);
 		}
 		static ::System::Int32* StaticGet__UsingDitherAlphaShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xEDB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE950);
 		}
-		static ::System::Int32* StaticGet__DissolveComponentShaderProperty()
+		static ::System::Int32* StaticGet__DissolveShadowOffShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xEDB4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterDissolveBehavior_TypeDefinitionIndex)->GetStaticField(0xE954);
 		}
 		::UnityEngine::Renderer* _Renderer; // 0x38
 		::System::Collections::Generic::List_1<::System::Int32>* _MatIndexes; // 0x40
@@ -139,9 +139,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
 		}
 
-		::System::Void Method_3_178812F674E8B05A()
+		::System::Void Method_3_BFB00779E460D7A3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_178812F674E8B05A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERDISSOLVEBEHAVIOR_METHOD_3_BFB00779E460D7A3_OFFSET))(this);
 		}
 
 		::System::Void Method_3_4343F372F34C05BF()

@@ -7,11 +7,11 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define SCENEOPTIMIZELIGHTBUDGETCELL_START_OFFSET UNITYSDK_OFFSET(0xA682670)
-#define SCENEOPTIMIZELIGHTBUDGETCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0xA682720)
-#define SCENEOPTIMIZELIGHTBUDGETCELL__CTOR_OFFSET UNITYSDK_OFFSET(0xA682790)
+#define SCENEOPTIMIZELIGHTBUDGETCELL_START_OFFSET UNITYSDK_OFFSET(0xABCA050)
+#define SCENEOPTIMIZELIGHTBUDGETCELL_UPDATE_OFFSET UNITYSDK_OFFSET(0xABCA100)
+#define SCENEOPTIMIZELIGHTBUDGETCELL__CTOR_OFFSET UNITYSDK_OFFSET(0xABCA170)
 
-inline static constexpr unsigned int SceneOptimizeLightBudgetCell_TypeDefinitionIndex = 37303;
+inline static constexpr unsigned int SceneOptimizeLightBudgetCell_TypeDefinitionIndex = 38267;
 
 class SceneOptimizeLightBudgetCell : public ::UnityEngine::MonoBehaviour
 {

@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int Analyzer_1_TypeDefinitionIndex = 36382;
+	inline static constexpr unsigned int Analyzer_1_TypeDefinitionIndex = 37318;
 
 	template <typename TDataType>
 	class Analyzer_1 : public ::System::Object

@@ -35,7 +35,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerTakeDamageOptionsInternal_TypeDefinitionIndex = 35727;
+	inline static constexpr unsigned int LogPlayerTakeDamageOptionsInternal_TypeDefinitionIndex = 36661;
 
 	struct alignas(8) LogPlayerTakeDamageOptionsInternal
 	{

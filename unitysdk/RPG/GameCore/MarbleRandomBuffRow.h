@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLERANDOMBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C459F0)
-#define RPG_GAMECORE_MARBLERANDOMBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C45F30)
+#define RPG_GAMECORE_MARBLERANDOMBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173AA860)
+#define RPG_GAMECORE_MARBLERANDOMBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173AADA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleRandomBuffRow_TypeDefinitionIndex = 10851;
+	inline static constexpr unsigned int MarbleRandomBuffRow_TypeDefinitionIndex = 10919;
 
 	class MarbleRandomBuffRow : public ::System::Object
 	{
@@ -20,17 +20,17 @@ namespace RPG::GameCore
 		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
 		::Il2CppArray<::System::UInt32>* ConditionList; // 0x20
-		::System::UInt32 EffectParam; // 0x28
-		::System::UInt32 IsRepeat; // 0x2C
-		::RPG::Client::TextID Desc; // 0x30
-		::System::UInt32 EffectType; // 0x40
-		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x44
-		::System::Int32 Weight; // 0x48
-		::RPG::Client::TextID Name; // 0x50
-		::System::UInt32 ID; // 0x60
-		::System::UInt32 SetInactive; // 0x64
-		::System::UInt32 ActivityID; // 0x68
-		::System::UInt32 UnlockSubMission; // 0x6C
+		::System::UInt32 UnlockSubMission; // 0x28
+		::System::UInt32 ActivityID; // 0x2C
+		::System::UInt32 IsRepeat; // 0x30
+		::System::UInt32 SetInactive; // 0x34
+		::RPG::Client::TextID Desc; // 0x38
+		::RPG::Client::TextID Name; // 0x48
+		::System::UInt32 ID; // 0x58
+		::System::UInt32 EffectType; // 0x5C
+		::System::UInt32 EffectParam; // 0x60
+		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x64
+		::System::Int32 Weight; // 0x68
 
 		::System::Void _ctor()
 		{

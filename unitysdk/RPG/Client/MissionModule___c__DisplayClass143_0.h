@@ -5,12 +5,12 @@
 namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9739010)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS143_0___UNREGISTERSINGLEFLOORCUSTOMVALUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x97529D0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BDE8E0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS143_0___UNREGISTERSINGLEFLOORCUSTOMVALUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x9BF7FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass143_0_TypeDefinitionIndex = 52636;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass143_0_TypeDefinitionIndex = 53773;
 
 	class MissionModule___c__DisplayClass143_0 : public ::System::Object
 	{

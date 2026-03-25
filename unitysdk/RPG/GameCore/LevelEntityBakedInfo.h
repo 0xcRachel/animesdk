@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelObjectNavMapBakedInfo; }
 
-#define RPG_GAMECORE_LEVELENTITYBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BA48B0)
-#define RPG_GAMECORE_LEVELENTITYBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA4A40)
+#define RPG_GAMECORE_LEVELENTITYBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17348120)
+#define RPG_GAMECORE_LEVELENTITYBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173482B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityBakedInfo_TypeDefinitionIndex = 15450;
+	inline static constexpr unsigned int LevelEntityBakedInfo_TypeDefinitionIndex = 15727;
 
 	class LevelEntityBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,25 +7,25 @@ namespace RPG::Client { class GridFightUpgradeFlyEffect; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93454F0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9347050)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__PLAYUPGRADEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x9347090)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__PLAYUPGRADEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x93470E0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98036E0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9805380)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__PLAYUPGRADEEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x98053C0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS24_0__PLAYUPGRADEEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x9805410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass24_0_TypeDefinitionIndex = 51248;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass24_0_TypeDefinitionIndex = 52381;
 
 	class GridFightEffectController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* end; // 0x10
-		::RPG::Client::GridFightEffectController* __4__this; // 0x18
-		::RPG::Client::GridFightUpgradeFlyEffect* fly1; // 0x20
+		::RPG::Client::GridFightEffectController* __4__this; // 0x10
+		::UnityEngine::Transform* end; // 0x18
+		::System::Action* onFinished; // 0x20
 		::RPG::Client::GridFightUpgradeFlyEffect* fly2; // 0x28
-		::System::Action* onFinished; // 0x30
-		::System::Boolean isEndPerspective; // 0x38
-		::System::Int32 star; // 0x3C
+		::RPG::Client::GridFightUpgradeFlyEffect* fly1; // 0x30
+		::System::Int32 star; // 0x38
+		::System::Boolean isEndPerspective; // 0x3C
 
 		::System::Void _ctor()
 		{

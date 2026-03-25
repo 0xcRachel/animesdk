@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddRegardAsSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3FD36B594CD7C59B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F4CF30)
-#define CLASS_3_3FD36B594CD7C59B__CTOR_OFFSET UNITYSDK_OFFSET(0x10F4CF00)
+#define CLASS_3_3FD36B594CD7C59B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10509200)
+#define CLASS_3_3FD36B594CD7C59B__CTOR_OFFSET UNITYSDK_OFFSET(0x105091D0)
 
-inline static constexpr unsigned int Class_3_3FD36B594CD7C59B_TypeDefinitionIndex = 42830;
+inline static constexpr unsigned int Class_3_3FD36B594CD7C59B_TypeDefinitionIndex = 43880;
 
 class Class_3_3FD36B594CD7C59B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddRegardAsSkillType*>
 {

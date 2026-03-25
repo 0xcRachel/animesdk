@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/PointerEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_POINTEROUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x182C7BB0)
+#define UNITYENGINE_UIELEMENTS_POINTEROUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18AEE250)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerOutEvent_TypeDefinitionIndex = 5853;
+	inline static constexpr unsigned int PointerOutEvent_TypeDefinitionIndex = 5953;
 
 	class PointerOutEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOutEvent*>
 	{

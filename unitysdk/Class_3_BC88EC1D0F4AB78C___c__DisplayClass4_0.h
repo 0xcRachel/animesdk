@@ -6,10 +6,10 @@ class Class_1_E3A8B05AA1BBEE81;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_3_BC88EC1D0F4AB78C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10D758E0)
-#define CLASS_3_BC88EC1D0F4AB78C___C__DISPLAYCLASS4_0___PRECHECKFORCONDITION_B__0_OFFSET UNITYSDK_OFFSET(0x10D758F0)
+#define CLASS_3_BC88EC1D0F4AB78C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8ADD350)
+#define CLASS_3_BC88EC1D0F4AB78C___C__DISPLAYCLASS4_0___PRECHECKFORCONDITION_B__0_OFFSET UNITYSDK_OFFSET(0x8ADD360)
 
-inline static constexpr unsigned int Class_3_BC88EC1D0F4AB78C___c__DisplayClass4_0_TypeDefinitionIndex = 43628;
+inline static constexpr unsigned int Class_3_BC88EC1D0F4AB78C___c__DisplayClass4_0_TypeDefinitionIndex = 44684;
 
 class Class_3_BC88EC1D0F4AB78C___c__DisplayClass4_0 : public ::System::Object
 {

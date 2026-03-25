@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvDisablePlayerLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BFCAA1B29DB6CB40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8D4360)
-#define CLASS_3_BFCAA1B29DB6CB40__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D4330)
+#define CLASS_3_BFCAA1B29DB6CB40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10399CA0)
+#define CLASS_3_BFCAA1B29DB6CB40__CTOR_OFFSET UNITYSDK_OFFSET(0x10399C70)
 
-inline static constexpr unsigned int Class_3_BFCAA1B29DB6CB40_TypeDefinitionIndex = 41320;
+inline static constexpr unsigned int Class_3_BFCAA1B29DB6CB40_TypeDefinitionIndex = 42363;
 
 class Class_3_BFCAA1B29DB6CB40 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvDisablePlayerLockTarget*>
 {

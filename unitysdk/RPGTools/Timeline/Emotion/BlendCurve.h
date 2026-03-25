@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int BlendCurve_TypeDefinitionIndex = 38542;
+	inline static constexpr unsigned int BlendCurve_TypeDefinitionIndex = 39522;
 
 	enum class BlendCurve : ::System::Int32
 	{

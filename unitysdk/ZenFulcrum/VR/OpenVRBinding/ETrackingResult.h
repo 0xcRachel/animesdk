@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ETrackingResult_TypeDefinitionIndex = 29384;
+	inline static constexpr unsigned int ETrackingResult_TypeDefinitionIndex = 30259;
 
 	enum class ETrackingResult : ::System::Int32
 	{

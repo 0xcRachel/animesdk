@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FireProjectile.h"
+#include "unitysdk/RPG/GameCore/FireProjectileBase.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class NewProjectileConfig; }
 
-#define RPG_GAMECORE_NEWFIREPROJECTILE_METHOD_4_276C2C77A253A714_OFFSET UNITYSDK_OFFSET(0x16CFFAF0)
-#define RPG_GAMECORE_NEWFIREPROJECTILE_METHOD_4_B8F11FA84BE31C58_OFFSET UNITYSDK_OFFSET(0x16CFFB90)
-#define RPG_GAMECORE_NEWFIREPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CFFB50)
+#define RPG_GAMECORE_NEWFIREPROJECTILE_METHOD_4_276C2C77A253A714_OFFSET UNITYSDK_OFFSET(0x174863D0)
+#define RPG_GAMECORE_NEWFIREPROJECTILE_METHOD_4_B8F11FA84BE31C58_OFFSET UNITYSDK_OFFSET(0x17486470)
+#define RPG_GAMECORE_NEWFIREPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17486430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewFireProjectile_TypeDefinitionIndex = 20219;
+	inline static constexpr unsigned int NewFireProjectile_TypeDefinitionIndex = 20764;
 
-	class NewFireProjectile : public ::RPG::GameCore::FireProjectile
+	class NewFireProjectile : public ::RPG::GameCore::FireProjectileBase
 	{
 	public:
-		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x68
+		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x60
 
 		::System::Void _ctor()
 		{

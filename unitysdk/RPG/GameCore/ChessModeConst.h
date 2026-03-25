@@ -7,22 +7,22 @@ namespace RPG::GameCore { class ChessStageRow; }
 namespace RPG::GameCore { class ChessUnitRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_1B32AF70E11D7939_OFFSET UNITYSDK_OFFSET(0x1697EB40)
-#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1697EAA0)
-#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1697EB20)
-#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_B1A2DA04C35D60D5_OFFSET UNITYSDK_OFFSET(0x1697E8A0)
-#define RPG_GAMECORE_CHESSMODECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1697EA90)
+#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_1B32AF70E11D7939_OFFSET UNITYSDK_OFFSET(0x170A0FD0)
+#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x170A0F30)
+#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x170A0FB0)
+#define RPG_GAMECORE_CHESSMODECONST_METHOD_2_B1A2DA04C35D60D5_OFFSET UNITYSDK_OFFSET(0x170A0D30)
+#define RPG_GAMECORE_CHESSMODECONST__CTOR_OFFSET UNITYSDK_OFFSET(0x170A0F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessModeConst_TypeDefinitionIndex = 15911;
+	inline static constexpr unsigned int ChessModeConst_TypeDefinitionIndex = 16188;
 
 	class ChessModeConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::ChessModeConst** StaticGet_Config()
 		{
-			return (::RPG::GameCore::ChessModeConst**)Il2CppClass::FromTypeDefinitionIndex(ChessModeConst_TypeDefinitionIndex)->GetStaticField(0x18D50);
+			return (::RPG::GameCore::ChessModeConst**)Il2CppClass::FromTypeDefinitionIndex(ChessModeConst_TypeDefinitionIndex)->GetStaticField(0x18E10);
 		}
 		::Il2CppArray<::RPG::GameCore::ChessStageRow*>* StageList; // 0x10
 		::Il2CppArray<::RPG::GameCore::ChessUnitRow*>* UnitList; // 0x18

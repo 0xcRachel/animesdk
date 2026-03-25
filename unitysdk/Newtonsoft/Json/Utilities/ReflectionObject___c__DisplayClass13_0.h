@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x15DEFE90)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DEFE80)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x164B73F0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164B6D20)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionObject___c__DisplayClass13_0_TypeDefinitionIndex = 8120;
+	inline static constexpr unsigned int ReflectionObject___c__DisplayClass13_0_TypeDefinitionIndex = 8249;
 
 	class ReflectionObject___c__DisplayClass13_0 : public ::System::Object
 	{

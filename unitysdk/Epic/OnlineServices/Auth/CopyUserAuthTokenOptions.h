@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_AUTH_COPYUSERAUTHTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x80440A0)
+#define EPIC_ONLINESERVICES_AUTH_COPYUSERAUTHTOKENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x83A3930)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int CopyUserAuthTokenOptions_TypeDefinitionIndex = 35601;
+	inline static constexpr unsigned int CopyUserAuthTokenOptions_TypeDefinitionIndex = 36535;
 
 	class CopyUserAuthTokenOptions : public ::System::Object
 	{

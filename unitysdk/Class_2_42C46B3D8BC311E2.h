@@ -6,10 +6,10 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class OrbitMoveRange; }
 namespace System { class String; }
 
-#define CLASS_2_42C46B3D8BC311E2_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x16A0D330)
-#define CLASS_2_42C46B3D8BC311E2__CTOR_OFFSET UNITYSDK_OFFSET(0x16A0D480)
+#define CLASS_2_42C46B3D8BC311E2_METHOD_2_E4EE4D98EE55C81B_OFFSET UNITYSDK_OFFSET(0x179B6B90)
+#define CLASS_2_42C46B3D8BC311E2__CTOR_OFFSET UNITYSDK_OFFSET(0x179B6CE0)
 
-inline static constexpr unsigned int Class_2_42C46B3D8BC311E2_TypeDefinitionIndex = 20522;
+inline static constexpr unsigned int Class_2_42C46B3D8BC311E2_TypeDefinitionIndex = 21070;
 
 class Class_2_42C46B3D8BC311E2 : public ::RPG::GameCore::JsonConfig
 {

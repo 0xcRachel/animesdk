@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StandByStance_TypeDefinitionIndex = 17888;
+	inline static constexpr unsigned int StandByStance_TypeDefinitionIndex = 18405;
 
 	enum class StandByStance : ::System::Int32
 	{

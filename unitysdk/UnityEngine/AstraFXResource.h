@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_TypeDefinitionIndex = 3887;
+	inline static constexpr unsigned int AstraFXResource_TypeDefinitionIndex = 3896;
 
 	struct alignas(8) AstraFXResource
 	{

@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::Win { class SecondRealName; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157B3C60)
-#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x157B43D0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA3550)
+#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15EA3CC0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealName___c__DisplayClass25_0_TypeDefinitionIndex = 8024;
+	inline static constexpr unsigned int SecondRealName___c__DisplayClass25_0_TypeDefinitionIndex = 8153;
 
 	class SecondRealName___c__DisplayClass25_0 : public ::System::Object
 	{

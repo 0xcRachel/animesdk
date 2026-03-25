@@ -3,11 +3,11 @@
 #include "unitysdk/System/Net/Cache/RequestCacheLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEPOLICY_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x17EA14E0)
+#define SYSTEM_NET_CACHE_REQUESTCACHEPOLICY_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x186CA730)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCachePolicy_TypeDefinitionIndex = 2963;
+	inline static constexpr unsigned int RequestCachePolicy_TypeDefinitionIndex = 2972;
 
 	class RequestCachePolicy : public ::System::Object
 	{

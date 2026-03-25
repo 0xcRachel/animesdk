@@ -17,11 +17,11 @@ namespace RPG::Client::LittleGame { class PresetGroupConfig; }
 namespace RPG::Client::LittleGame { class ShootingConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16157300)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16865390)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameLevelConfig_TypeDefinitionIndex = 31887;
+	inline static constexpr unsigned int MovieGameLevelConfig_TypeDefinitionIndex = 32797;
 
 	class MovieGameLevelConfig : public ::System::Object
 	{

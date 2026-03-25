@@ -5,31 +5,32 @@
 class AkGameObj;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKGAMEOBJMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x183A0300)
-#define AKGAMEOBJMANAGER_REGISTERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x1839DC60)
-#define AKGAMEOBJMANAGER_REGISTERLISTENERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x1837E700)
-#define AKGAMEOBJMANAGER_TERMINATE_OFFSET UNITYSDK_OFFSET(0x183A0460)
-#define AKGAMEOBJMANAGER_UNREGISTERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x1839E030)
-#define AKGAMEOBJMANAGER_UNREGISTERLISTENERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x1837E9E0)
-#define AKGAMEOBJMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x183A0500)
-#define AKGAMEOBJMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183A0870)
-#define AKGAMEOBJMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x183A0400)
+#define AKGAMEOBJMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x18BC4F60)
+#define AKGAMEOBJMANAGER_REGISTERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x18BC2870)
+#define AKGAMEOBJMANAGER_REGISTERLISTENERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x18BA3A90)
+#define AKGAMEOBJMANAGER_SETMAXPROCESSCOUNTPERFRAME_OFFSET UNITYSDK_OFFSET(0x18BC5160)
+#define AKGAMEOBJMANAGER_TERMINATE_OFFSET UNITYSDK_OFFSET(0x18BC50C0)
+#define AKGAMEOBJMANAGER_UNREGISTERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x18BC2C40)
+#define AKGAMEOBJMANAGER_UNREGISTERLISTENERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x18BA3D70)
+#define AKGAMEOBJMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18BC51C0)
+#define AKGAMEOBJMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BC54F0)
+#define AKGAMEOBJMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC5060)
 
-inline static constexpr unsigned int AkGameObjManager_TypeDefinitionIndex = 33592;
+inline static constexpr unsigned int AkGameObjManager_TypeDefinitionIndex = 34581;
 
 class AkGameObjManager : public ::System::Object
 {
 public:
 	static ::AkGameObjManager** StaticGet_m_Instance()
 	{
-		return (::AkGameObjManager**)Il2CppClass::FromTypeDefinitionIndex(AkGameObjManager_TypeDefinitionIndex)->GetStaticField(0x35290);
+		return (::AkGameObjManager**)Il2CppClass::FromTypeDefinitionIndex(AkGameObjManager_TypeDefinitionIndex)->GetStaticField(0x28670);
 	}
-	static ::System::Single* StaticGet__MAX_FRAME_PROCESS_TIME()
+	static ::System::Int32* StaticGet__MaxProcessCountPerFrame()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(AkGameObjManager_TypeDefinitionIndex)->GetStaticField(0xCD60);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkGameObjManager_TypeDefinitionIndex)->GetStaticField(0xB8B0);
 	}
-	::System::Collections::Generic::List_1<::AkGameObj*>* m_GameObjs; // 0x10
-	::System::Collections::Generic::List_1<::AkGameObj*>* m_ListenerGameObjs; // 0x18
+	::System::Collections::Generic::List_1<::AkGameObj*>* m_ListenerGameObjs; // 0x10
+	::System::Collections::Generic::List_1<::AkGameObj*>* m_GameObjs; // 0x18
 	::System::Int32 index; // 0x20
 
 	::System::Void _ctor()
@@ -70,6 +71,11 @@ public:
 	static ::System::Void UnregisterListenerGameObj(::AkGameObj* gameObj)
 	{
 		return ((::System::Void(*)(::AkGameObj*))((::PBYTE)hIl2Cpp + AKGAMEOBJMANAGER_UNREGISTERLISTENERGAMEOBJ_OFFSET))(gameObj);
+	}
+
+	static ::System::Void SetMaxProcessCountPerFrame(::System::Int32 maxProcessCountPerFrame)
+	{
+		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + AKGAMEOBJMANAGER_SETMAXPROCESSCOUNTPERFRAME_OFFSET))(maxProcessCountPerFrame);
 	}
 
 	static ::System::Void Update()

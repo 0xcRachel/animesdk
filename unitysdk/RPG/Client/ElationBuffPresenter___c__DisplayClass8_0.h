@@ -5,12 +5,12 @@
 class Class_2_F76E966DD50AB39A;
 namespace RPG::Client { class ElationBattleBuffGroupViewData; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x90F1050)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__DISPLAYCLASS8_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x90F1160)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x959E1E0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER___C__DISPLAYCLASS8_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x959E2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenter___c__DisplayClass8_0_TypeDefinitionIndex = 56734;
+	inline static constexpr unsigned int ElationBuffPresenter___c__DisplayClass8_0_TypeDefinitionIndex = 58323;
 
 	class ElationBuffPresenter___c__DisplayClass8_0 : public ::System::Object
 	{

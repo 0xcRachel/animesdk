@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_VCAMERASHOWTARGETENTITY_METHOD_2_BFA33D6F15CEB745_OFFSET UNITYSDK_OFFSET(0x17144670)
-#define RPG_GAMECORE_VCAMERASHOWTARGETENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x17146530)
+#define RPG_GAMECORE_VCAMERASHOWTARGETENTITY_METHOD_2_BFA33D6F15CEB745_OFFSET UNITYSDK_OFFSET(0x17900890)
+#define RPG_GAMECORE_VCAMERASHOWTARGETENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x17902750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraShowTargetEntity_TypeDefinitionIndex = 14779;
+	inline static constexpr unsigned int VCameraShowTargetEntity_TypeDefinitionIndex = 15031;
 
 	class VCameraShowTargetEntity : public ::RPG::GameCore::JsonConfig
 	{

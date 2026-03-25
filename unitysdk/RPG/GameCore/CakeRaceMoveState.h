@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceMoveState_TypeDefinitionIndex = 16534;
+	inline static constexpr unsigned int CakeRaceMoveState_TypeDefinitionIndex = 16908;
 
 	enum class CakeRaceMoveState : ::System::Int32
 	{

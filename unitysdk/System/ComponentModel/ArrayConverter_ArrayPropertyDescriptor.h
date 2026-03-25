@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6A800)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18694CB0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ArrayConverter_ArrayPropertyDescriptor_TypeDefinitionIndex = 2543;
+	inline static constexpr unsigned int ArrayConverter_ArrayPropertyDescriptor_TypeDefinitionIndex = 2548;
 
 	class ArrayConverter_ArrayPropertyDescriptor : public ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor
 	{

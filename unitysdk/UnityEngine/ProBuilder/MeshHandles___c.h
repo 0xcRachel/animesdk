@@ -6,29 +6,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18004390)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CREATEFACEMESHFROMFACES_B__10_0_OFFSET UNITYSDK_OFFSET(0x18004430)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CREATEFACEMESH_B__9_0_OFFSET UNITYSDK_OFFSET(0x180043E0)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x180043D0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1882D090)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CREATEFACEMESHFROMFACES_B__10_0_OFFSET UNITYSDK_OFFSET(0x1882D130)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CREATEFACEMESH_B__9_0_OFFSET UNITYSDK_OFFSET(0x1882D0E0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1882D0D0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int MeshHandles___c_TypeDefinitionIndex = 33123;
+	inline static constexpr unsigned int MeshHandles___c_TypeDefinitionIndex = 34112;
 
 	class MeshHandles___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshHandles___c_TypeDefinitionIndex)->GetStaticField(0x2CCB0);
-		}
 		static ::UnityEngine::ProBuilder::MeshHandles___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::MeshHandles___c**)Il2CppClass::FromTypeDefinitionIndex(MeshHandles___c_TypeDefinitionIndex)->GetStaticField(0x2CCB8);
+			return (::UnityEngine::ProBuilder::MeshHandles___c**)Il2CppClass::FromTypeDefinitionIndex(MeshHandles___c_TypeDefinitionIndex)->GetStaticField(0x3A500);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshHandles___c_TypeDefinitionIndex)->GetStaticField(0x3A508);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshHandles___c_TypeDefinitionIndex)->GetStaticField(0x2CCC0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshHandles___c_TypeDefinitionIndex)->GetStaticField(0x3A510);
 		}
 
 		static ::System::Void _cctor()

@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPTRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DBA1C0)
-#define RPG_GAMECORE_PROPTRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DBA360)
+#define RPG_GAMECORE_PROPTRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175861E0)
+#define RPG_GAMECORE_PROPTRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17586380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTriggerEventRow_TypeDefinitionIndex = 13218;
+	inline static constexpr unsigned int PropTriggerEventRow_TypeDefinitionIndex = 13292;
 
 	class PropTriggerEventRow : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::System::String* ExitJsonPath; // 0x18
-		::System::String* JsonPath; // 0x20
+		::System::String* ExitJsonPath; // 0x10
+		::System::String* JsonPath; // 0x18
+		::System::String* Name; // 0x20
 		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()

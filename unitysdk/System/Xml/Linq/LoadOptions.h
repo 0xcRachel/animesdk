@@ -3,7 +3,7 @@
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int LoadOptions_TypeDefinitionIndex = 4814;
+	inline static constexpr unsigned int LoadOptions_TypeDefinitionIndex = 4913;
 
 	enum class LoadOptions : ::System::Int32
 	{

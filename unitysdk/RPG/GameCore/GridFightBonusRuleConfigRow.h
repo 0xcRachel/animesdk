@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTBONUSRULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B1BDF0)
-#define RPG_GAMECORE_GRIDFIGHTBONUSRULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B1BF80)
+#define RPG_GAMECORE_GRIDFIGHTBONUSRULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172684E0)
+#define RPG_GAMECORE_GRIDFIGHTBONUSRULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17268670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBonusRuleConfigRow_TypeDefinitionIndex = 12385;
+	inline static constexpr unsigned int GridFightBonusRuleConfigRow_TypeDefinitionIndex = 12455;
 
 	class GridFightBonusRuleConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ProgressBonusList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 ProgressRatio; // 0x1C
+		::System::UInt32 ProgressRatio; // 0x18
+		::System::UInt32 ID; // 0x1C
 
 		::System::Void _ctor()
 		{

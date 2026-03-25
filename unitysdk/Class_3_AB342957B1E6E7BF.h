@@ -7,10 +7,10 @@ class Class_2_3ABA989E5AECB261;
 class Class_2_FBC1E64DC5B2C441;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareSupportCatBehindDistance; }
 
-#define CLASS_3_AB342957B1E6E7BF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15F7E870)
-#define CLASS_3_AB342957B1E6E7BF__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7E7A0)
+#define CLASS_3_AB342957B1E6E7BF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16701680)
+#define CLASS_3_AB342957B1E6E7BF__CTOR_OFFSET UNITYSDK_OFFSET(0x167015B0)
 
-inline static constexpr unsigned int Class_3_AB342957B1E6E7BF_TypeDefinitionIndex = 27934;
+inline static constexpr unsigned int Class_3_AB342957B1E6E7BF_TypeDefinitionIndex = 28755;
 
 class Class_3_AB342957B1E6E7BF : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_CakeRaceByCompareSupportCatBehindDistance*>
 {

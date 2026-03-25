@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubeGroup_TypeDefinitionIndex = 62098;
+	inline static constexpr unsigned int RubikCubeGroup_TypeDefinitionIndex = 64285;
 
 	enum class RubikCubeGroup : ::System::Int32
 	{

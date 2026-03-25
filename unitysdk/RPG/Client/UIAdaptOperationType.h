@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdaptOperationType_TypeDefinitionIndex = 47599;
+	inline static constexpr unsigned int UIAdaptOperationType_TypeDefinitionIndex = 48680;
 
 	enum class UIAdaptOperationType : ::System::Int32
 	{

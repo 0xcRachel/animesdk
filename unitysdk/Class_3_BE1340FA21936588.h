@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RefreshWeaknessUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BE1340FA21936588_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105BC1A0)
-#define CLASS_3_BE1340FA21936588__CTOR_OFFSET UNITYSDK_OFFSET(0x105BC170)
+#define CLASS_3_BE1340FA21936588_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A3EFB0)
+#define CLASS_3_BE1340FA21936588__CTOR_OFFSET UNITYSDK_OFFSET(0x10A3EF80)
 
-inline static constexpr unsigned int Class_3_BE1340FA21936588_TypeDefinitionIndex = 43213;
+inline static constexpr unsigned int Class_3_BE1340FA21936588_TypeDefinitionIndex = 44265;
 
 class Class_3_BE1340FA21936588 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RefreshWeaknessUI*>
 {

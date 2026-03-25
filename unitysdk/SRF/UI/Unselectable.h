@@ -4,13 +4,13 @@
 
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define SRF_UI_UNSELECTABLE_ONSELECT_OFFSET UNITYSDK_OFFSET(0x17C74D90)
-#define SRF_UI_UNSELECTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17C74DA0)
-#define SRF_UI_UNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17C74EC0)
+#define SRF_UI_UNSELECTABLE_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1848AA00)
+#define SRF_UI_UNSELECTABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1848AA10)
+#define SRF_UI_UNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1848AB30)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int Unselectable_TypeDefinitionIndex = 26952;
+	inline static constexpr unsigned int Unselectable_TypeDefinitionIndex = 27688;
 
 	class Unselectable : public ::SRF::SRMonoBehaviour
 	{

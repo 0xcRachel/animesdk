@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_43F6DDF52C7C3FE6_OFFSET UNITYSDK_OFFSET(0x16DA2D70)
-#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_4DA5C41852A726D0_OFFSET UNITYSDK_OFFSET(0x16DA2EB0)
-#define RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA2E20)
+#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_43F6DDF52C7C3FE6_OFFSET UNITYSDK_OFFSET(0x17529EC0)
+#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_4DA5C41852A726D0_OFFSET UNITYSDK_OFFSET(0x1752A000)
+#define RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17529F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropAttachMove_TypeDefinitionIndex = 19610;
+	inline static constexpr unsigned int PropAttachMove_TypeDefinitionIndex = 20138;
 
 	class PropAttachMove : public ::RPG::GameCore::TaskConfig
 	{

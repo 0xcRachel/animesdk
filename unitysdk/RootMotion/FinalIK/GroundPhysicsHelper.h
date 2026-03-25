@@ -11,36 +11,36 @@ namespace RootMotion::FinalIK { class GroundPhysicsHelper_RaycastDelegate; }
 namespace RootMotion::FinalIK { class GroundPhysicsHelper_SphereCastDelegate; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_CAPSULECAST_OFFSET UNITYSDK_OFFSET(0x828B0C0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSCAPSULECAST_OFFSET UNITYSDK_OFFSET(0x828BEB0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSRAYCAST_OFFSET UNITYSDK_OFFSET(0x8289EC0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSSPHERECAST_OFFSET UNITYSDK_OFFSET(0x828AD90)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x8289510)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_SPHERECAST_OFFSET UNITYSDK_OFFSET(0x828A2B0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x828C6A0)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_CAPSULECAST_OFFSET UNITYSDK_OFFSET(0x85DD380)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSCAPSULECAST_OFFSET UNITYSDK_OFFSET(0x85DDFD0)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSRAYCAST_OFFSET UNITYSDK_OFFSET(0x85DC300)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSSPHERECAST_OFFSET UNITYSDK_OFFSET(0x85DD050)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_RAYCAST_OFFSET UNITYSDK_OFFSET(0x85DBAD0)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_SPHERECAST_OFFSET UNITYSDK_OFFSET(0x85DC6F0)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x85DE7C0)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundPhysicsHelper_TypeDefinitionIndex = 34242;
+	inline static constexpr unsigned int GroundPhysicsHelper_TypeDefinitionIndex = 35176;
 
 	class GroundPhysicsHelper : public ::System::Object
 	{
 	public:
-		static ::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate** StaticGet_OverrideRaycastDelegate()
-		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0xB190);
-		}
 		static ::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>** StaticGet_HitCaches()
 		{
-			return (::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0xB198);
-		}
-		static ::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate** StaticGet_OverrideSphereCastDelegate()
-		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0xB1A0);
+			return (::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0x1DFE0);
 		}
 		static ::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate** StaticGet_OverrideCapsuleCastDelegate()
 		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0xB1A8);
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0x1DFE8);
+		}
+		static ::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate** StaticGet_OverrideRaycastDelegate()
+		{
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0x1DFF0);
+		}
+		static ::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate** StaticGet_OverrideSphereCastDelegate()
+		{
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(GroundPhysicsHelper_TypeDefinitionIndex)->GetStaticField(0x1DFF8);
 		}
 
 		static ::System::Void _cctor()

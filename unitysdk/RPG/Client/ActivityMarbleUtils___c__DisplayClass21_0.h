@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B7CFB0)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS21_0__OPENMARBLEMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x8B7D440)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F7E750)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS21_0__OPENMARBLEMAINPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x8F7EBE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass21_0_TypeDefinitionIndex = 52297;
+	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass21_0_TypeDefinitionIndex = 53433;
 
 	class ActivityMarbleUtils___c__DisplayClass21_0 : public ::System::Object
 	{

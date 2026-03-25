@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B9E56D0D50E02617_1;
+class Class_1_F0A446EC7AE7E87D_1;
 namespace RPG::Client { class GridFightGameModifier; }
 
-#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10AC7640)
-#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS16_0__UPDATEADD_B__0_OFFSET UNITYSDK_OFFSET(0x10AC84B0)
-#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS16_0__UPDATEADD_B__1_OFFSET UNITYSDK_OFFSET(0x10AC8530)
+#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x105874D0)
+#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS16_0__UPDATEADD_B__0_OFFSET UNITYSDK_OFFSET(0x105888D0)
+#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS16_0__UPDATEADD_B__1_OFFSET UNITYSDK_OFFSET(0x10588950)
 
-inline static constexpr unsigned int Class_1_789872D6523A4E58___c__DisplayClass16_0_TypeDefinitionIndex = 51676;
+inline static constexpr unsigned int Class_1_789872D6523A4E58___c__DisplayClass16_0_TypeDefinitionIndex = 52810;
 
 class Class_1_789872D6523A4E58___c__DisplayClass16_0 : public ::System::Object
 {
 public:
-	::Class_1_B9E56D0D50E02617_1* info; // 0x10
+	::Class_1_F0A446EC7AE7E87D_1* info; // 0x10
 
 	::System::Void _ctor()
 	{

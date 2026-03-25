@@ -3,9 +3,9 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvConfigType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_5628D167FB0D308C__CTOR_OFFSET UNITYSDK_OFFSET(0x10BBB320)
+#define CLASS_2_5628D167FB0D308C__CTOR_OFFSET UNITYSDK_OFFSET(0xA1E9D60)
 
-inline static constexpr unsigned int Class_2_5628D167FB0D308C_TypeDefinitionIndex = 39039;
+inline static constexpr unsigned int Class_2_5628D167FB0D308C_TypeDefinitionIndex = 40019;
 
 class Class_2_5628D167FB0D308C : public ::System::Attribute
 {

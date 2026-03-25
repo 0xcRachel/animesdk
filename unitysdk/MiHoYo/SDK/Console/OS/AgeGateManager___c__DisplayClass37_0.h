@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::Console::OS { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentDialog; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalConsentProcessDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1577BEF0)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS37_0__ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x1577D6D0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6A400)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS37_0__ONSHOWPARENTALCONTROLPROCESSBUTTONPRESSED_B__0_OFFSET UNITYSDK_OFFSET(0x15E6BBE0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass37_0_TypeDefinitionIndex = 7547;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass37_0_TypeDefinitionIndex = 7672;
 
 	class AgeGateManager___c__DisplayClass37_0 : public ::System::Object
 	{

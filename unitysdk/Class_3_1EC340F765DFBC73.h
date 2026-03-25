@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByDynamicSkillButtonInputSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1EC340F765DFBC73_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10F77D30)
-#define CLASS_3_1EC340F765DFBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x10F77D00)
+#define CLASS_3_1EC340F765DFBC73_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10650980)
+#define CLASS_3_1EC340F765DFBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x10650950)
 
-inline static constexpr unsigned int Class_3_1EC340F765DFBC73_TypeDefinitionIndex = 42885;
+inline static constexpr unsigned int Class_3_1EC340F765DFBC73_TypeDefinitionIndex = 43935;
 
 class Class_3_1EC340F765DFBC73 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByDynamicSkillButtonInputSlot*>
 {

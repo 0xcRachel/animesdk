@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168F9580)
-#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168F9800)
+#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1700A3B0)
+#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1700A630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubPerformanceConfigRow_TypeDefinitionIndex = 11726;
+	inline static constexpr unsigned int BoxingClubPerformanceConfigRow_TypeDefinitionIndex = 11796;
 
 	class BoxingClubPerformanceConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
-		::System::String* BubbleTalkEnemy; // 0x18
-		::System::String* EnemyRank; // 0x20
-		::System::String* PlayerRank; // 0x28
-		::System::String* BubbleTalkPlayer; // 0x30
+		::System::String* EnemyRank; // 0x18
+		::System::String* BubbleTalkPlayer; // 0x20
+		::System::String* BubbleTalkEnemy; // 0x28
+		::System::String* PlayerRank; // 0x30
 		::System::UInt32 ID; // 0x38
 		::System::UInt32 MonsterTemplateID; // 0x3C
 

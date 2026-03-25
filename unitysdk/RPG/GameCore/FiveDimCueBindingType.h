@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCueBindingType_TypeDefinitionIndex = 16865;
+	inline static constexpr unsigned int FiveDimCueBindingType_TypeDefinitionIndex = 17266;
 
 	enum class FiveDimCueBindingType : ::System::Int32
 	{

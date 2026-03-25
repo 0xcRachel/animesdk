@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormatChange_TypeDefinitionIndex = 4848;
+	inline static constexpr unsigned int TextFormatChange_TypeDefinitionIndex = 4947;
 
 	struct alignas(4) TextFormatChange
 	{

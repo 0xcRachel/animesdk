@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_4_5144EFD8CB309AB5_OFFSET UNITYSDK_OFFSET(0x16C4EB60)
-#define RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_4_9E0A72F419C49509_OFFSET UNITYSDK_OFFSET(0x16C4EC40)
-#define RPG_GAMECORE_MATCH3_ACTIONROLECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x16C4EBF0)
+#define RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_5_8B6514FD33236E21_OFFSET UNITYSDK_OFFSET(0x173B39D0)
+#define RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_5_A5CF75682A7804A2_OFFSET UNITYSDK_OFFSET(0x173B3B10)
+#define RPG_GAMECORE_MATCH3_ACTIONROLECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x173B3A90)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int ActionRoleCondition_TypeDefinitionIndex = 22155;
+	inline static constexpr unsigned int ActionRoleCondition_TypeDefinitionIndex = 22720;
 
 	class ActionRoleCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ACTIONROLECONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5144EFD8CB309AB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ActionRoleCondition*& a2)
+		static ::System::Void Method_5_8B6514FD33236E21(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ActionRoleCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ActionRoleCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_4_5144EFD8CB309AB5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ActionRoleCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_5_8B6514FD33236E21_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9E0A72F419C49509(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ActionRoleCondition* a2)
+		static ::System::Void Method_5_A5CF75682A7804A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ActionRoleCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ActionRoleCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_4_9E0A72F419C49509_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ActionRoleCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ACTIONROLECONDITION_METHOD_5_A5CF75682A7804A2_OFFSET))(a1, a2);
 		}
 	};
 }

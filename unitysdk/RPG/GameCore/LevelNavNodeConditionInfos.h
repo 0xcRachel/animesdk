@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelNavNodeConditionInfo; }
 
-#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFOS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BB0460)
-#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x16BB0590)
+#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFOS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173544A0)
+#define RPG_GAMECORE_LEVELNAVNODECONDITIONINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x173545D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeConditionInfos_TypeDefinitionIndex = 15466;
+	inline static constexpr unsigned int LevelNavNodeConditionInfos_TypeDefinitionIndex = 15743;
 
 	class LevelNavNodeConditionInfos : public ::RPG::GameCore::JsonConfig
 	{

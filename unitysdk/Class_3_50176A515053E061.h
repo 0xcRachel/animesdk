@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionTemplate_1.h"
 
-namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_BossAvatar; }
+namespace RPG::Client { class WolfBroGunPlayTargetActionConfig_TriggerEffect; }
 
-#define CLASS_3_50176A515053E061_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x11142640)
-#define CLASS_3_50176A515053E061_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x11142550)
-#define CLASS_3_50176A515053E061__CTOR_OFFSET UNITYSDK_OFFSET(0x11142620)
+#define CLASS_3_50176A515053E061_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x109D5870)
+#define CLASS_3_50176A515053E061_METHOD_3_B1EA412ACAE87C15_OFFSET UNITYSDK_OFFSET(0x109D5280)
+#define CLASS_3_50176A515053E061__CTOR_OFFSET UNITYSDK_OFFSET(0x109D5850)
 
-inline static constexpr unsigned int Class_3_50176A515053E061_TypeDefinitionIndex = 54542;
+inline static constexpr unsigned int Class_3_50176A515053E061_TypeDefinitionIndex = 56096;
 
-class Class_3_50176A515053E061 : public ::RPG::Client::WolfBroGunPlayTargetActionTemplate_1<::RPG::Client::WolfBroGunPlayTargetActionConfig_BossAvatar*>
+class Class_3_50176A515053E061 : public ::RPG::Client::WolfBroGunPlayTargetActionTemplate_1<::RPG::Client::WolfBroGunPlayTargetActionConfig_TriggerEffect*>
 {
 public:
 	::System::Void _ctor()
@@ -18,9 +18,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_50176A515053E061__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_3_9681042564541CD6()
+	::System::Void Method_3_B1EA412ACAE87C15()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_50176A515053E061_METHOD_3_9681042564541CD6_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_50176A515053E061_METHOD_3_B1EA412ACAE87C15_OFFSET))(this);
 	}
 
 	::System::Void Method_3_5790A55946AA509D()

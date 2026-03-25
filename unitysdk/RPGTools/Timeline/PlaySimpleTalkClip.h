@@ -15,15 +15,15 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA648200)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA648480)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA6481C0)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_METHOD_4_FCE3E84D14491ED7_OFFSET UNITYSDK_OFFSET(0xA648440)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA648490)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB8E4C0)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB8E750)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAB8E480)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP_METHOD_4_FCE3E84D14491ED7_OFFSET UNITYSDK_OFFSET(0xAB8E710)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB8E760)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaySimpleTalkClip_TypeDefinitionIndex = 38088;
+	inline static constexpr unsigned int PlaySimpleTalkClip_TypeDefinitionIndex = 39063;
 
 	class PlaySimpleTalkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -37,7 +37,9 @@ namespace RPGTools::Timeline
 		::RPG::GameCore::SimpleTalkBlackMaskColor BlackMaskColor; // 0x3C
 		::System::Boolean NeedFadeBlackMask; // 0x40
 		::System::Single BlackMaskFadeDuration; // 0x44
-		::System::Boolean HaveProtectTime; // 0x48
+		::System::Boolean ProtectByVoice; // 0x48
+		::System::Boolean ForceToNextOnProtectEnd; // 0x49
+		::System::Boolean HaveProtectTime; // 0x4A
 		::System::String* UniqueName; // 0x50
 		::System::Boolean Use3DVoice; // 0x58
 		::System::Boolean UseDiscussionMouthTalk; // 0x59

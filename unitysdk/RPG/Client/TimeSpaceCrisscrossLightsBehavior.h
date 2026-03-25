@@ -14,38 +14,38 @@ namespace RPG::Client { class EasyFog; }
 namespace RPG::Client { class EnvironmentSystem; }
 namespace RPG::Client { class LineGlowLightMonoPlugin; }
 namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084; }
-namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_Class_1_688DDE0D106B8A41; }
+namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_Class_1_8B686C5AA85BCE88; }
 namespace RPG::Client { class TimeSpaceCrisscrossLightsMonoPlugin; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class FogEmissionBakeVolume; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace VLB { class VolumetricLightBeam; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xA0B5200)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_0016C41EF590541B_OFFSET UNITYSDK_OFFSET(0xA0B5880)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0xA0B53D0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_364E91940C737CC9_OFFSET UNITYSDK_OFFSET(0xA0B3A00)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xA0B9980)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA0B9920)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4C9E0464E121B71C_OFFSET UNITYSDK_OFFSET(0xA0B99E0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xA0B9E30)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xA0B9E90)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0xA0B9EF0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0xA0B9F50)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0xA0B9FB0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA0B9DD0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_67BA5EB9CC5245C3_OFFSET UNITYSDK_OFFSET(0xA0B6B70)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_67D41ACFEF39E84E_OFFSET UNITYSDK_OFFSET(0xA0B9250)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_8D57252FBA67B119_OFFSET UNITYSDK_OFFSET(0xA0B5680)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xA0B9150)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_BE758D8D11ACCDDB_OFFSET UNITYSDK_OFFSET(0xA0B66F0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_C6E4AB6C40FAF7DC_OFFSET UNITYSDK_OFFSET(0xA0B9710)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0xA0B9580)
-#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA0B9D00)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xA5DAA70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_0F75626A9DEF92D2_OFFSET UNITYSDK_OFFSET(0xA5DC130)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_0FF2EE63EA46287A_OFFSET UNITYSDK_OFFSET(0xA5DC5D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_1E13A8A5C0FF7D62_OFFSET UNITYSDK_OFFSET(0xA5DAC70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xA5DF830)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xA5DF7D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0xA5DFD00)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0xA5DFD60)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0xA5DFDC0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0xA5DFE20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0xA5DFE90)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA5DFCA0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5A124CAF1E48B74F_OFFSET UNITYSDK_OFFSET(0xA5DF3D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_724025AF880C2293_OFFSET UNITYSDK_OFFSET(0xA5D8E30)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_8D57252FBA67B119_OFFSET UNITYSDK_OFFSET(0xA5DB040)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xA5DEF20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_C6E4AB6C40FAF7DC_OFFSET UNITYSDK_OFFSET(0xA5DF5C0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_CD69EA1DE35224E5_OFFSET UNITYSDK_OFFSET(0xA5DF890)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_CEBFF096B4C9D46B_OFFSET UNITYSDK_OFFSET(0xA5DF020)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_E2AA36F32DD46AAD_OFFSET UNITYSDK_OFFSET(0xA5DB240)
+#define RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA5DFBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_TypeDefinitionIndex = 55924;
+	inline static constexpr unsigned int TimeSpaceCrisscrossLightsBehavior_TypeDefinitionIndex = 57486;
 
 	class TimeSpaceCrisscrossLightsBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -85,22 +85,22 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Plane>* PlaneCIns; // 0x138
 		::Il2CppArray<::System::Single>* _QuadTreeConeRect; // 0x140
 		::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState _TSCState; // 0x148
-		::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_688DDE0D106B8A41* _FogDataA; // 0x150
-		::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_688DDE0D106B8A41* _FogDataB; // 0x158
+		::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_8B686C5AA85BCE88* _FogDataA; // 0x150
+		::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_8B686C5AA85BCE88* _FogDataB; // 0x158
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_364E91940C737CC9()
+		::System::Void Method_3_724025AF880C2293()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_364E91940C737CC9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_724025AF880C2293_OFFSET))(this);
 		}
 
-		::System::Void Method_3_18982EFD3B740683()
+		::System::Void Method_3_1E13A8A5C0FF7D62()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_18982EFD3B740683_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_1E13A8A5C0FF7D62_OFFSET))(this);
 		}
 
 		::System::Void Method_3_8D57252FBA67B119(::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084* a1, ::Il2CppArray<::UnityEngine::Plane>* a2, ::Il2CppArray<::UnityEngine::Plane>* a3, ::Il2CppArray<::UnityEngine::Plane>* a4, ::Il2CppArray<::UnityEngine::Plane>* a5, ::Il2CppArray<::UnityEngine::Plane>* a6, ::Il2CppArray<::UnityEngine::Plane>* a7, ::Il2CppArray<::UnityEngine::Vector3>* a8, ::Il2CppArray<::UnityEngine::Vector3>* a9, ::Il2CppArray<::UnityEngine::Vector3>* a10, ::Il2CppArray<::UnityEngine::Vector3>* a11, ::Il2CppArray<::UnityEngine::Vector3>* a12, ::Il2CppArray<::UnityEngine::Vector3>* a13, ::System::Boolean a14, ::System::Boolean a15, ::System::Boolean a16)
@@ -108,19 +108,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_8D57252FBA67B119_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
 		}
 
-		::System::Void Method_3_0016C41EF590541B(::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084* a1, ::Il2CppArray<::UnityEngine::Plane>* a2, ::Il2CppArray<::UnityEngine::Plane>* a3, ::Il2CppArray<::UnityEngine::Plane>* a4, ::Il2CppArray<::UnityEngine::Plane>* a5, ::Il2CppArray<::UnityEngine::Plane>* a6, ::Il2CppArray<::UnityEngine::Plane>* a7, ::Il2CppArray<::UnityEngine::Vector3>* a8, ::Il2CppArray<::UnityEngine::Vector3>* a9, ::Il2CppArray<::UnityEngine::Vector3>* a10, ::Il2CppArray<::UnityEngine::Vector3>* a11, ::Il2CppArray<::UnityEngine::Vector3>* a12, ::Il2CppArray<::UnityEngine::Vector3>* a13, ::System::Boolean a14, ::System::Boolean a15, ::System::Boolean a16)
+		::System::Void Method_3_E2AA36F32DD46AAD(::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084* a1, ::Il2CppArray<::UnityEngine::Plane>* a2, ::Il2CppArray<::UnityEngine::Plane>* a3, ::Il2CppArray<::UnityEngine::Plane>* a4, ::Il2CppArray<::UnityEngine::Plane>* a5, ::Il2CppArray<::UnityEngine::Plane>* a6, ::Il2CppArray<::UnityEngine::Plane>* a7, ::Il2CppArray<::UnityEngine::Vector3>* a8, ::Il2CppArray<::UnityEngine::Vector3>* a9, ::Il2CppArray<::UnityEngine::Vector3>* a10, ::Il2CppArray<::UnityEngine::Vector3>* a11, ::Il2CppArray<::UnityEngine::Vector3>* a12, ::Il2CppArray<::UnityEngine::Vector3>* a13, ::System::Boolean a14, ::System::Boolean a15, ::System::Boolean a16)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_0016C41EF590541B_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Plane>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::Il2CppArray<::UnityEngine::Vector3>*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_E2AA36F32DD46AAD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
 		}
 
-		::System::Void Method_3_BE758D8D11ACCDDB(::System::Int32 a1)
+		::System::Void Method_3_0F75626A9DEF92D2(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_BE758D8D11ACCDDB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_0F75626A9DEF92D2_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_67BA5EB9CC5245C3(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Single a7, ::System::Single a8, ::UnityEngine::Vector3 a9, ::UnityEngine::Vector3 a10, ::System::Single a11, ::System::Single a12, ::System::Boolean a13, ::System::Boolean a14, ::System::Boolean a15, ::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState a16)
+		::System::Void Method_3_0FF2EE63EA46287A(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Single a7, ::System::Single a8, ::UnityEngine::Vector3 a9, ::UnityEngine::Vector3 a10, ::System::Single a11, ::System::Single a12, ::System::Boolean a13, ::System::Boolean a14, ::System::Boolean a15, ::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState a16)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_67BA5EB9CC5245C3_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_0FF2EE63EA46287A_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16);
 		}
 
 		::System::Void Method_3_B1936CE4DA97AA45()
@@ -128,14 +128,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET))(this);
 		}
 
-		::System::Void Method_3_67D41ACFEF39E84E()
+		::System::Void Method_3_CEBFF096B4C9D46B()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_67D41ACFEF39E84E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_CEBFF096B4C9D46B_OFFSET))(this);
 		}
 
-		::System::Void Method_3_F978A1D172468895()
+		::System::Void Method_3_5A124CAF1E48B74F()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_F978A1D172468895_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_5A124CAF1E48B74F_OFFSET))(this);
 		}
 
 		::System::Void Method_3_C6E4AB6C40FAF7DC()
@@ -153,9 +153,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4C9E0464E121B71C(::System::Single a1)
+		::System::Void Method_3_CD69EA1DE35224E5(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_4C9E0464E121B71C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSLIGHTSBEHAVIOR_METHOD_3_CD69EA1DE35224E5_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TimeSpaceCrisscrossLightsMonoPlugin* get__OwnerMonoPlugin()

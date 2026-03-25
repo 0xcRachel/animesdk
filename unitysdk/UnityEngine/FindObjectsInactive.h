@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FindObjectsInactive_TypeDefinitionIndex = 4146;
+	inline static constexpr unsigned int FindObjectsInactive_TypeDefinitionIndex = 4168;
 
 	enum class FindObjectsInactive : ::System::Int32
 	{

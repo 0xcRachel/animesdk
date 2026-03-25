@@ -5,8 +5,8 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_09216AC83FE49B91;
-class Class_1_F65DC6656DEF8159;
+class Class_1_2533213D74484D5C;
+class Class_1_DD81253E160EB8B2;
 namespace RPG::Client { class Effect_ParticleBackwardMonoPlugin; }
 namespace RPG::Client { class Effect_RendererMatBackwardMonoPlugin; }
 namespace RPG::Client { class EntityTimelineControlNode; }
@@ -15,54 +15,54 @@ namespace RPG::Client { class MonoEffectPluginFollow; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TimeRewindEffConfig; }
 
-#define CLASS_1_EB12C59D9F121FDC_CLEAR_OFFSET UNITYSDK_OFFSET(0x10BD46B0)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_182E80CD9B0202EB_OFFSET UNITYSDK_OFFSET(0x10BD4110)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_1CD1133DC003C11C_OFFSET UNITYSDK_OFFSET(0x10BD4AB0)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_264C4240ED75E08B_OFFSET UNITYSDK_OFFSET(0x10BD42A0)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_3D81D6DE93C85F92_OFFSET UNITYSDK_OFFSET(0x10BD4400)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_51AA029DE3B8B5BD_OFFSET UNITYSDK_OFFSET(0x10BD54B0)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x10BD4730)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x10BD4620)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_AA194C2184220475_OFFSET UNITYSDK_OFFSET(0x10BD3FE0)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_AB1A9623E03F063F_OFFSET UNITYSDK_OFFSET(0x10BD5290)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_B9F72A112CB05C02_OFFSET UNITYSDK_OFFSET(0x10BD3F00)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x10BD40C0)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x10BD4670)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10BD4070)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_D378160D37B885FA_OFFSET UNITYSDK_OFFSET(0x10BD5560)
-#define CLASS_1_EB12C59D9F121FDC_METHOD_1_E93DAC0FCFC435B3_OFFSET UNITYSDK_OFFSET(0x10BD4BD0)
-#define CLASS_1_EB12C59D9F121FDC__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD5770)
+#define CLASS_1_EB12C59D9F121FDC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1154DCE0)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_182E80CD9B0202EB_OFFSET UNITYSDK_OFFSET(0x1154D740)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_1CD1133DC003C11C_OFFSET UNITYSDK_OFFSET(0x1154E130)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_264C4240ED75E08B_OFFSET UNITYSDK_OFFSET(0x1154D8D0)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_3D81D6DE93C85F92_OFFSET UNITYSDK_OFFSET(0x1154DA30)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_51AA029DE3B8B5BD_OFFSET UNITYSDK_OFFSET(0x1154EB30)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x1154DC50)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_AA194C2184220475_OFFSET UNITYSDK_OFFSET(0x1154D610)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_AB1A9623E03F063F_OFFSET UNITYSDK_OFFSET(0x1154E910)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_B9F72A112CB05C02_OFFSET UNITYSDK_OFFSET(0x1154D530)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1154D6F0)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1154DCA0)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1154D6A0)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_D378160D37B885FA_OFFSET UNITYSDK_OFFSET(0x1154EBE0)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x1154DD60)
+#define CLASS_1_EB12C59D9F121FDC_METHOD_1_E93DAC0FCFC435B3_OFFSET UNITYSDK_OFFSET(0x1154E250)
+#define CLASS_1_EB12C59D9F121FDC__CTOR_OFFSET UNITYSDK_OFFSET(0x1154EDF0)
 
-inline static constexpr unsigned int Class_1_EB12C59D9F121FDC_TypeDefinitionIndex = 48175;
+inline static constexpr unsigned int Class_1_EB12C59D9F121FDC_TypeDefinitionIndex = 49267;
 
 class Class_1_EB12C59D9F121FDC : public ::System::Object
 {
 public:
-	::RPG::Client::EntityTimelineControlNode* Field_1_12; // 0x10
-	::RPG::Client::MonoEffect* Field_1_2; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_3; // 0x20
-	::Il2CppArray<::RPG::Client::Effect_RendererMatBackwardMonoPlugin*>* Field_1_9; // 0x28
-	::Class_1_F65DC6656DEF8159* Field_1_15; // 0x30
-	::RPG::Client::MonoEffectPluginFollow* Field_1_10; // 0x38
-	::Class_1_09216AC83FE49B91* Field_1_1; // 0x40
+	::RPG::Client::MonoEffectPluginFollow* Field_1_10; // 0x10
+	::Class_1_2533213D74484D5C* Field_1_15; // 0x18
+	::RPG::Client::MonoEffect* Field_1_2; // 0x20
+	::Class_1_DD81253E160EB8B2* Field_1_1; // 0x28
+	::RPG::GameCore::GameEntity* Field_1_3; // 0x30
+	::Il2CppArray<::RPG::Client::Effect_ParticleBackwardMonoPlugin*>* Field_1_8; // 0x38
+	::RPG::Client::EntityTimelineControlNode* Field_1_12; // 0x40
 	::RPG::GameCore::TimeRewindEffConfig* Field_1_0; // 0x48
-	::Il2CppArray<::RPG::Client::Effect_ParticleBackwardMonoPlugin*>* Field_1_8; // 0x50
-	::RPG::GameCore::TimeRewindState Field_1_4; // 0x58
-	::System::Single Field_1_6; // 0x5C
-	::System::Single Field_1_5; // 0x60
-	::System::Single Field_1_13; // 0x64
-	::System::Boolean Field_1_14; // 0x68
-	::System::Boolean Field_1_11; // 0x69
-	::System::Single Field_1_7; // 0x6C
+	::Il2CppArray<::RPG::Client::Effect_RendererMatBackwardMonoPlugin*>* Field_1_9; // 0x50
+	::System::Single Field_1_7; // 0x58
+	::System::Single Field_1_5; // 0x5C
+	::System::Single Field_1_6; // 0x60
+	::System::Boolean Field_1_11; // 0x64
+	::System::Boolean Field_1_14; // 0x65
+	::System::Single Field_1_13; // 0x68
+	::RPG::GameCore::TimeRewindState Field_1_4; // 0x6C
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EB12C59D9F121FDC__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_B9F72A112CB05C02(::RPG::GameCore::GameEntity* a1, ::Class_1_F65DC6656DEF8159* a2, ::RPG::GameCore::TimeRewindEffConfig* a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::RPG::Client::EntityTimelineControlNode* a7)
+	::System::Void Method_1_B9F72A112CB05C02(::RPG::GameCore::GameEntity* a1, ::Class_1_2533213D74484D5C* a2, ::RPG::GameCore::TimeRewindEffConfig* a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::RPG::Client::EntityTimelineControlNode* a7)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_F65DC6656DEF8159*, ::RPG::GameCore::TimeRewindEffConfig*, ::System::Single, ::System::Single, ::System::Single, ::RPG::Client::EntityTimelineControlNode*))((::PBYTE)hIl2Cpp + CLASS_1_EB12C59D9F121FDC_METHOD_1_B9F72A112CB05C02_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_2533213D74484D5C*, ::RPG::GameCore::TimeRewindEffConfig*, ::System::Single, ::System::Single, ::System::Single, ::RPG::Client::EntityTimelineControlNode*))((::PBYTE)hIl2Cpp + CLASS_1_EB12C59D9F121FDC_METHOD_1_B9F72A112CB05C02_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 	}
 
 	::System::Void Method_1_AA194C2184220475(::RPG::GameCore::TimeRewindState a1)
@@ -110,9 +110,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EB12C59D9F121FDC_CLEAR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_99D60EF23C904C6D()
+	::System::Void Method_1_D799715F2EF979EA()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EB12C59D9F121FDC_METHOD_1_99D60EF23C904C6D_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EB12C59D9F121FDC_METHOD_1_D799715F2EF979EA_OFFSET))(this);
 	}
 
 	::System::Void Method_1_1CD1133DC003C11C(::System::Boolean a1)

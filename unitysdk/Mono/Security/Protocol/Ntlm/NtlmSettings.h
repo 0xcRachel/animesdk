@@ -3,19 +3,19 @@
 #include "unitysdk/Mono/Security/Protocol/Ntlm/NtlmAuthLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS_GET_DEFAULTAUTHLEVEL_OFFSET UNITYSDK_OFFSET(0x15A92AB0)
-#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A92B10)
+#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS_GET_DEFAULTAUTHLEVEL_OFFSET UNITYSDK_OFFSET(0x1615C920)
+#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1615C980)
 
 namespace Mono::Security::Protocol::Ntlm
 {
-	inline static constexpr unsigned int NtlmSettings_TypeDefinitionIndex = 2260;
+	inline static constexpr unsigned int NtlmSettings_TypeDefinitionIndex = 2265;
 
 	class NtlmSettings : public ::System::Object
 	{
 	public:
 		static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel* StaticGet_defaultAuthLevel()
 		{
-			return (::Mono::Security::Protocol::Ntlm::NtlmAuthLevel*)Il2CppClass::FromTypeDefinitionIndex(NtlmSettings_TypeDefinitionIndex)->GetStaticField(0x5030);
+			return (::Mono::Security::Protocol::Ntlm::NtlmAuthLevel*)Il2CppClass::FromTypeDefinitionIndex(NtlmSettings_TypeDefinitionIndex)->GetStaticField(0xB100);
 		}
 
 		static ::System::Void _cctor()

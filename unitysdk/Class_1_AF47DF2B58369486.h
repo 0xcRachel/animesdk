@@ -5,7 +5,7 @@
 
 namespace System { class String; }
 
-#define CLASS_1_AF47DF2B58369486__CTOR_OFFSET UNITYSDK_OFFSET(0x165150D0)
+#define CLASS_1_AF47DF2B58369486__CTOR_OFFSET UNITYSDK_OFFSET(0x16C8F780)
 
 inline static constexpr unsigned int Class_1_AF47DF2B58369486_TypeDefinitionIndex = 9918;
 

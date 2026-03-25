@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1685A000)
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_METHOD_2_2EF6BEEE437C6169_OFFSET UNITYSDK_OFFSET(0x16859620)
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1685A030)
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16859FF0)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x16F678D0)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_METHOD_2_2EF6BEEE437C6169_OFFSET UNITYSDK_OFFSET(0x16F66EF0)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F67900)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F678C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterFootIKConfig_TypeDefinitionIndex = 15739;
+	inline static constexpr unsigned int AdventureCharacterFootIKConfig_TypeDefinitionIndex = 16016;
 
 	class AdventureCharacterFootIKConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::AdventureCharacterFootIKConfig** StaticGet__Default_k__BackingField()
 		{
-			return (::RPG::GameCore::AdventureCharacterFootIKConfig**)Il2CppClass::FromTypeDefinitionIndex(AdventureCharacterFootIKConfig_TypeDefinitionIndex)->GetStaticField(0x23110);
+			return (::RPG::GameCore::AdventureCharacterFootIKConfig**)Il2CppClass::FromTypeDefinitionIndex(AdventureCharacterFootIKConfig_TypeDefinitionIndex)->GetStaticField(0x1EE10);
 		}
 		::System::Single BlendInTime; // 0x10
 		::System::Single BlendOutTime; // 0x14

@@ -7,34 +7,34 @@ namespace RPG::Client { class GridFightBackRankConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93E3330)
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93E3370)
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C___GETALLRANKBACKEQUIPMENTDESC_B__70_0_OFFSET UNITYSDK_OFFSET(0x93E3380)
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C___GETALLRANKBACKEQUIPMENTDESC_B__70_1_OFFSET UNITYSDK_OFFSET(0x93E33B0)
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C___INITBACKRANKCONFIGS_B__73_0_OFFSET UNITYSDK_OFFSET(0x93E33F0)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98A0470)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98A04B0)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C___GETALLRANKBACKEQUIPMENTDESC_B__70_0_OFFSET UNITYSDK_OFFSET(0x98A04C0)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C___GETALLRANKBACKEQUIPMENTDESC_B__70_1_OFFSET UNITYSDK_OFFSET(0x98A04F0)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C___INITBACKRANKCONFIGS_B__73_0_OFFSET UNITYSDK_OFFSET(0x98A0530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleConfig___c_TypeDefinitionIndex = 51735;
+	inline static constexpr unsigned int GridFightRoleConfig___c_TypeDefinitionIndex = 52869;
 
 	class GridFightRoleConfig___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::GridFightBackRankConfig*>** StaticGet___9__73_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::GridFightBackRankConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x88F0);
-		}
 		static ::System::Func_2<::RPG::Client::GridFightBackEquipmentConfig*, ::System::UInt32>** StaticGet___9__70_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightBackEquipmentConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x88F8);
-		}
-		static ::RPG::Client::GridFightRoleConfig___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightRoleConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x8900);
+			return (::System::Func_2<::RPG::Client::GridFightBackEquipmentConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x15470);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightBackEquipmentConfig*, ::System::Int32>** StaticGet___9__70_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightBackEquipmentConfig*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x8908);
+			return (::System::Func_2<::RPG::Client::GridFightBackEquipmentConfig*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x15478);
+		}
+		static ::RPG::Client::GridFightRoleConfig___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightRoleConfig___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x15480);
+		}
+		static ::System::Comparison_1<::RPG::Client::GridFightBackRankConfig*>** StaticGet___9__73_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::GridFightBackRankConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightRoleConfig___c_TypeDefinitionIndex)->GetStaticField(0x15488);
 		}
 
 		static ::System::Void _cctor()

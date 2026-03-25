@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int RefreshMask_TypeDefinitionIndex = 33149;
+	inline static constexpr unsigned int RefreshMask_TypeDefinitionIndex = 34138;
 
 	enum class RefreshMask : ::System::Int32
 	{

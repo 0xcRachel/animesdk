@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EndPropSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C958A04556732C9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110316C0)
-#define CLASS_3_C958A04556732C9F__CTOR_OFFSET UNITYSDK_OFFSET(0x11031690)
+#define CLASS_3_C958A04556732C9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104DC130)
+#define CLASS_3_C958A04556732C9F__CTOR_OFFSET UNITYSDK_OFFSET(0x104DC100)
 
-inline static constexpr unsigned int Class_3_C958A04556732C9F_TypeDefinitionIndex = 45821;
+inline static constexpr unsigned int Class_3_C958A04556732C9F_TypeDefinitionIndex = 46889;
 
 class Class_3_C958A04556732C9F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EndPropSceneSelection*>
 {

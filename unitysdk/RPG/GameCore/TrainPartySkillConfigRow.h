@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171080C0)
-#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171083C0)
+#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C40A0)
+#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C43A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySkillConfigRow_TypeDefinitionIndex = 13943;
+	inline static constexpr unsigned int TrainPartySkillConfigRow_TypeDefinitionIndex = 14059;
 
 	class TrainPartySkillConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* SkillIconPath; // 0x10
-		::System::String* SkillFigurePath; // 0x18
+		::System::String* SkillFigurePath; // 0x10
+		::System::String* SkillIconPath; // 0x18
 		::RPG::Client::TextID SkillDescription; // 0x20
-		::RPG::Client::TextID SkillName; // 0x30
-		::System::Boolean IsRare; // 0x40
-		::System::UInt32 SKillID; // 0x44
+		::System::UInt32 SKillID; // 0x30
+		::System::Boolean IsRare; // 0x34
+		::RPG::Client::TextID SkillName; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupAdaptDataType_TypeDefinitionIndex = 18538;
+	inline static constexpr unsigned int GroupAdaptDataType_TypeDefinitionIndex = 19057;
 
 	enum class GroupAdaptDataType : ::System::Int32
 	{

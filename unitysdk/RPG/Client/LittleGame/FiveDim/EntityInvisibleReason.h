@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int EntityInvisibleReason_TypeDefinitionIndex = 32419;
+	inline static constexpr unsigned int EntityInvisibleReason_TypeDefinitionIndex = 33329;
 
 	enum class EntityInvisibleReason : ::System::UInt32
 	{
@@ -15,5 +15,6 @@ namespace RPG::Client::LittleGame::FiveDim
 		PlayerCreation = 0x10,
 		MinionOwnerInvisible = 0x20,
 		ActionOrTask = 0x40,
+		CurveViewLoadModeNone = 0x80,
 	};
 }

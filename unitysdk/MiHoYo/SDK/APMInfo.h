@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMInfo_TypeDefinitionIndex = 6464;
+	inline static constexpr unsigned int APMInfo_TypeDefinitionIndex = 6581;
 
 	class APMInfo : public ::System::Object
 	{

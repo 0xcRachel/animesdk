@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class BlusherData; }
 namespace RPGTools::Timeline { class EmoFaceBlusherTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA618B90)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA618B80)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA618D90)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB5E110)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB5E100)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5E2E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoFaceBlusherTimelineClip_TypeDefinitionIndex = 37989;
+	inline static constexpr unsigned int EmoFaceBlusherTimelineClip_TypeDefinitionIndex = 38955;
 
 	class EmoFaceBlusherTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{

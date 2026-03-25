@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_PLUGINUITASK__CTOR_OFFSET UNITYSDK_OFFSET(0x8172EC0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_PLUGINUITASK__CTOR_OFFSET UNITYSDK_OFFSET(0x84C40C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative_PluginUITask_TypeDefinitionIndex = 35930;
+	inline static constexpr unsigned int AccountPlatNative_PluginUITask_TypeDefinitionIndex = 36865;
 
 	class AccountPlatNative_PluginUITask : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class AdventureModifierInstance; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE___C__DISPLAYCLASS1_0__ATTACHEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA314E40)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA312230)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE___C__DISPLAYCLASS1_0__ATTACHEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA8509E0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA84DD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierInstance___c__DisplayClass1_0_TypeDefinitionIndex = 42443;
+	inline static constexpr unsigned int AdventureModifierInstance___c__DisplayClass1_0_TypeDefinitionIndex = 43493;
 
 	class AdventureModifierInstance___c__DisplayClass1_0 : public ::System::Object
 	{

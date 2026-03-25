@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_3_8E8736513AFC5C1E_PortalMoveState_TypeDefinitionIndex = 60701;
+inline static constexpr unsigned int Class_3_8E8736513AFC5C1E_PortalMoveState_TypeDefinitionIndex = 62687;
 
 enum class Class_3_8E8736513AFC5C1E_PortalMoveState : ::System::Int32
 {

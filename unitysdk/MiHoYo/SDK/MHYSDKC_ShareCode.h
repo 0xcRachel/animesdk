@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ShareCode_TypeDefinitionIndex = 36041;
+	inline static constexpr unsigned int MHYSDKC_ShareCode_TypeDefinitionIndex = 36976;
 
 	class MHYSDKC_ShareCode : public ::System::Object
 	{

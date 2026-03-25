@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PersonalizeShowType_TypeDefinitionIndex = 11782;
+	inline static constexpr unsigned int PersonalizeShowType_TypeDefinitionIndex = 11852;
 
 	enum class PersonalizeShowType : ::System::Int32
 	{

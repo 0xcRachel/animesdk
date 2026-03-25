@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_NOSAVEDURINGPLAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11265B50)
+#define CINEMACHINE_NOSAVEDURINGPLAYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x119EFCE0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int NoSaveDuringPlayAttribute_TypeDefinitionIndex = 29995;
+	inline static constexpr unsigned int NoSaveDuringPlayAttribute_TypeDefinitionIndex = 30870;
 
 	class NoSaveDuringPlayAttribute : public ::UnityEngine::PropertyAttribute
 	{

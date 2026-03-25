@@ -5,12 +5,12 @@
 namespace RPG::Client { class ChimeraDuelMasterData; }
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleBattleView; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B85B30)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__LOADMASTERGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x9B867E0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0577D0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBATTLEVIEW___C__DISPLAYCLASS24_0__LOADMASTERGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xA058480)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0_TypeDefinitionIndex = 61637;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0_TypeDefinitionIndex = 63824;
 
 	class ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0 : public ::System::Object
 	{

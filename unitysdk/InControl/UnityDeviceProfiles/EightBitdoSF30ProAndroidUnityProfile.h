@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSF30PROANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15532D10)
-#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSF30PROANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15534190)
+#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSF30PROANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C4CAD0)
+#define INCONTROL_UNITYDEVICEPROFILES_EIGHTBITDOSF30PROANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4DF50)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int EightBitdoSF30ProAndroidUnityProfile_TypeDefinitionIndex = 30659;
+	inline static constexpr unsigned int EightBitdoSF30ProAndroidUnityProfile_TypeDefinitionIndex = 31534;
 
 	class EightBitdoSF30ProAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

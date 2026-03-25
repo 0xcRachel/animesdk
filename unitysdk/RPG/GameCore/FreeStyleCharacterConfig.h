@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FreeStyleCharacterExtendLayerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_79413102F997B3D6_OFFSET UNITYSDK_OFFSET(0x16AE8430)
-#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AE86E0)
+#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_79413102F997B3D6_OFFSET UNITYSDK_OFFSET(0x17233CA0)
+#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17233F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterConfig_TypeDefinitionIndex = 14675;
+	inline static constexpr unsigned int FreeStyleCharacterConfig_TypeDefinitionIndex = 14927;
 
 	class FreeStyleCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{

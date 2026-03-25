@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGApplication_UpdateStep_TypeDefinitionIndex = 55228;
+	inline static constexpr unsigned int RPGApplication_UpdateStep_TypeDefinitionIndex = 56793;
 
 	enum class RPGApplication_UpdateStep : ::System::Int32
 	{

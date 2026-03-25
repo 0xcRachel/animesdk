@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICSIGNATUREFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D56300)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_ASYMMETRICSIGNATUREFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1641DB20)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int AsymmetricSignatureFormatter_TypeDefinitionIndex = 990;
+	inline static constexpr unsigned int AsymmetricSignatureFormatter_TypeDefinitionIndex = 995;
 
 	class AsymmetricSignatureFormatter : public ::System::Object
 	{

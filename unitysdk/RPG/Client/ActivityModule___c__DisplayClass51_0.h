@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class RogueResidentActivityPanelData; }
 
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B818D0)
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS51_0__GETROGUERESIDENTPANELDATA_B__0_OFFSET UNITYSDK_OFFSET(0x8B8FEC0)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F831A0)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS51_0__GETROGUERESIDENTPANELDATA_B__0_OFFSET UNITYSDK_OFFSET(0x8F91730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityModule___c__DisplayClass51_0_TypeDefinitionIndex = 48915;
+	inline static constexpr unsigned int ActivityModule___c__DisplayClass51_0_TypeDefinitionIndex = 50050;
 
 	class ActivityModule___c__DisplayClass51_0 : public ::System::Object
 	{

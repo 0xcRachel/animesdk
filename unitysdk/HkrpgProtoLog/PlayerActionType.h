@@ -3,7 +3,7 @@
 
 namespace HkrpgProtoLog
 {
-	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 22316;
+	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 22881;
 
 	enum class PlayerActionType : ::System::Int32
 	{
@@ -781,6 +781,25 @@ namespace HkrpgProtoLog
 		PlayerActionRogueTournSelectReRollMiracle = 6247,
 		PlayerActionRogueTournTriggerBattleByShop = 6248,
 		PlayerActionRogueTournUseSuperRewardKey = 6249,
+		PlayerActionRogueTournPersonaStyleExpChange = 6250,
+		PlayerActionRogueTournPersonaStyleSelect = 6251,
+		PlayerActionRogueTournPersonaStartLevel = 6252,
+		PlayerActionRogueTournPersonaFinishLevel = 6253,
+		PlayerActionRogueTournPersonaEnterRoom = 6254,
+		PlayerActionRogueTournPersonaLeaveRoom = 6255,
+		PlayerActionRogueTournPersonaStageBegin = 6256,
+		PlayerActionRogueTournPersonaStageEnd = 6257,
+		PlayerActionRogueTournPersonaArchiveSave = 6258,
+		PlayerActionRogueTournHexEquipmentChange = 6259,
+		PlayerActionRogueTournPersonaRoomCardChange = 6260,
+		PlayerActionRogueTournPersonaRoomCardLevelChange = 6261,
+		PlayerActionRogueTournPersonaRoomCardAttributeChange = 6262,
+		PlayerActionRogueTournPersonaRoomCardSelect = 6263,
+		PlayerActionRogueTournPersonaRoomCardWash = 6264,
+		PlayerActionRogueTournPersonaStyleGiftSelect = 6265,
+		PlayerActionRogueTournPersonaStyleGiftSelectRefresh = 6266,
+		PlayerActionRogueTournPersonaRoomCardReroll = 6267,
+		PlayerActionRogueTournMiracleStatusChange = 6268,
 		PlayerActionRogueWorkbenchReforgeFormula = 6281,
 		PlayerActionRogueWorkbenchReforgeMiracle = 6282,
 		PlayerActionRogueWorkbenchComposeMiracle = 6283,
@@ -1115,5 +1134,23 @@ namespace HkrpgProtoLog
 		PlayerActionLimaoNewsTriggerOfficeEvent = 7495,
 		PlayerActionLimaoNewsFinishOfficeEvent = 7496,
 		PlayerActionLimaoNewsUpvoteContent = 7497,
+		PlayerActionChenLingBattleActivatePrivilege = 7506,
+		PlayerActionChenLingBattleConquerLevelUp = 7507,
+		PlayerActionChenLingBattleStartStage = 7508,
+		PlayerActionChenLingBattleSettleStage = 7509,
+		PlayerActionChenLingBattleStartBattle = 7510,
+		PlayerActionChenLingBattleFinishBattle = 7511,
+		PlayerActionChenLingBattleFinishWave = 7512,
+		PlayerActionChenLingBattleSelectCard = 7513,
+		PlayerActionChenLingBattleRefreshCard = 7514,
+		PlayerActionChenLingBattleBuyShopItem = 7515,
+		PlayerActionChenLingBattleRefreshShop = 7516,
+		PlayerActionChenLingBattleSelectPolicy = 7517,
+		PlayerActionChenLingBattleRefreshPolicy = 7518,
+		PlayerActionChenLingBattleAddHandCard = 7519,
+		PlayerActionChenLingBattleUseHandCard = 7520,
+		PlayerActionChenLingBattleSellHandCard = 7521,
+		PlayerActionChenLingBattleEntityUpgrade = 7522,
+		PlayerActionChenLingBattleCloneEntity = 7523,
 	};
 }

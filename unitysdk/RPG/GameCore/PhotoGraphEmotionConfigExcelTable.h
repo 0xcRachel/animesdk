@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16D35BC0)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16D35A10)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16D356E0)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16D359B0)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16D35D90)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D35760)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16D35DD0)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D35FB0)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16D36480)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D367E0)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16D35F10)
-#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D35E70)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x174BDB20)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x174BD970)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x174BD640)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x174BD910)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x174BDCF0)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x174BD6C0)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x174BDD30)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x174BDF10)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x174BE3E0)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174BE740)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x174BDE70)
+#define RPG_GAMECORE_PHOTOGRAPHEMOTIONCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x174BDDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex = 13152;
+	inline static constexpr unsigned int PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex = 13226;
 
 	class PhotoGraphEmotionConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D530);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D538);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3A020);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphEmotionConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphEmotionConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D540);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhotoGraphEmotionConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3A028);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3A030);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9E1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xEA70);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphEmotionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xEA71);
 		}
 
 		static ::System::Void _cctor()

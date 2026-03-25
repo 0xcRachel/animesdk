@@ -9,23 +9,23 @@ namespace System::Text::RegularExpressions { class RegexCode; }
 namespace System::Text::RegularExpressions { class RegexRunnerFactory; }
 namespace System::Text::RegularExpressions { class SharedReference; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CACHEDCODEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17F26F40)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CACHEDCODEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x187507D0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2482;
+	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2487;
 
 	class CachedCodeEntry : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::RegexRunnerFactory* _factory; // 0x10
-		::System::Collections::Hashtable* _caps; // 0x18
-		::System::Text::RegularExpressions::ExclusiveReference* _runnerref; // 0x20
-		::System::Text::RegularExpressions::SharedReference* _replref; // 0x28
-		::System::Text::RegularExpressions::RegexCode* _code; // 0x30
-		::Il2CppArray<::System::String*>* _capslist; // 0x38
-		::System::Collections::Hashtable* _capnames; // 0x40
-		::System::String* _key; // 0x48
+		::System::Collections::Hashtable* _caps; // 0x10
+		::System::Text::RegularExpressions::RegexRunnerFactory* _factory; // 0x18
+		::System::Collections::Hashtable* _capnames; // 0x20
+		::System::Text::RegularExpressions::ExclusiveReference* _runnerref; // 0x28
+		::System::Text::RegularExpressions::SharedReference* _replref; // 0x30
+		::System::Text::RegularExpressions::RegexCode* _code; // 0x38
+		::System::String* _key; // 0x40
+		::Il2CppArray<::System::String*>* _capslist; // 0x48
 		::System::Int32 _capsize; // 0x50
 
 		::System::Void _ctor(::System::String* key, ::System::Collections::Hashtable* capnames, ::Il2CppArray<::System::String*>* capslist, ::System::Text::RegularExpressions::RegexCode* code, ::System::Collections::Hashtable* caps, ::System::Int32 capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner, ::System::Text::RegularExpressions::SharedReference* repl)

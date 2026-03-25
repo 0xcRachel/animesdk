@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX_GET_CASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x17F48810)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x17F48820)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX_GET_PREFIX_OFFSET UNITYSDK_OFFSET(0x17F48800)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F48850)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX__CTOR_OFFSET UNITYSDK_OFFSET(0x17F38640)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX_GET_CASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x18772060)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x18772070)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX_GET_PREFIX_OFFSET UNITYSDK_OFFSET(0x18772050)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX__CCTOR_OFFSET UNITYSDK_OFFSET(0x187720A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXPREFIX__CTOR_OFFSET UNITYSDK_OFFSET(0x18761F10)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexPrefix_TypeDefinitionIndex = 2496;
+	inline static constexpr unsigned int RegexPrefix_TypeDefinitionIndex = 2501;
 
 	class RegexPrefix : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::RegexPrefix** StaticGet__empty()
 		{
-			return (::System::Text::RegularExpressions::RegexPrefix**)Il2CppClass::FromTypeDefinitionIndex(RegexPrefix_TypeDefinitionIndex)->GetStaticField(0x15A90);
+			return (::System::Text::RegularExpressions::RegexPrefix**)Il2CppClass::FromTypeDefinitionIndex(RegexPrefix_TypeDefinitionIndex)->GetStaticField(0x18AA0);
 		}
 		::System::String* _prefix; // 0x10
 		::System::Boolean _caseInsensitive; // 0x18

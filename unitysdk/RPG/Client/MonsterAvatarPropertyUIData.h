@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONSTERAVATARPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x98AE330)
+#define RPG_CLIENT_MONSTERAVATARPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D90930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarPropertyUIData_TypeDefinitionIndex = 49395;
+	inline static constexpr unsigned int MonsterAvatarPropertyUIData_TypeDefinitionIndex = 50528;
 
 	class MonsterAvatarPropertyUIData : public ::System::Object
 	{

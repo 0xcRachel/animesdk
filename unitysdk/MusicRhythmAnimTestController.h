@@ -4,24 +4,24 @@
 
 namespace UnityEngine { class Animator; }
 
-#define MUSICRHYTHMANIMTESTCONTROLLER_CONTROLCAKE_OFFSET UNITYSDK_OFFSET(0x11201CE0)
-#define MUSICRHYTHMANIMTESTCONTROLLER_CONTROLSOLIDABOTTLE_OFFSET UNITYSDK_OFFSET(0x11201D90)
-#define MUSICRHYTHMANIMTESTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x11201C70)
-#define MUSICRHYTHMANIMTESTCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x11201E50)
-#define MUSICRHYTHMANIMTESTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x11201E40)
+#define MUSICRHYTHMANIMTESTCONTROLLER_CONTROLCAKE_OFFSET UNITYSDK_OFFSET(0x88CC3D0)
+#define MUSICRHYTHMANIMTESTCONTROLLER_CONTROLSOLIDABOTTLE_OFFSET UNITYSDK_OFFSET(0x88CC480)
+#define MUSICRHYTHMANIMTESTCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0x88CC360)
+#define MUSICRHYTHMANIMTESTCONTROLLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x88CC540)
+#define MUSICRHYTHMANIMTESTCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x88CC530)
 
-inline static constexpr unsigned int MusicRhythmAnimTestController_TypeDefinitionIndex = 37066;
+inline static constexpr unsigned int MusicRhythmAnimTestController_TypeDefinitionIndex = 38028;
 
 class MusicRhythmAnimTestController : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet_RoarHash()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmAnimTestController_TypeDefinitionIndex)->GetStaticField(0xFFB0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmAnimTestController_TypeDefinitionIndex)->GetStaticField(0x12BB0);
 	}
 	static ::System::Int32* StaticGet_IsShakingHash()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmAnimTestController_TypeDefinitionIndex)->GetStaticField(0xFFB4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmAnimTestController_TypeDefinitionIndex)->GetStaticField(0x12BB4);
 	}
 	::UnityEngine::Animator* RuanMadeCakeController; // 0x18
 	::UnityEngine::Animator* SolidaBottleController; // 0x20

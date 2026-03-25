@@ -7,17 +7,17 @@ class Class_1_5D7D12B9E06AB41E_Class_3_95F370961AEDDA1E;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_1_5D7D12B9E06AB41E___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x1114D820)
-#define CLASS_1_5D7D12B9E06AB41E___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1114D5B0)
+#define CLASS_1_5D7D12B9E06AB41E___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x110F33F0)
+#define CLASS_1_5D7D12B9E06AB41E___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x110F3180)
 
-inline static constexpr unsigned int Class_1_5D7D12B9E06AB41E___c__DisplayClass39_0_TypeDefinitionIndex = 54963;
+inline static constexpr unsigned int Class_1_5D7D12B9E06AB41E___c__DisplayClass39_0_TypeDefinitionIndex = 56525;
 
 class Class_1_5D7D12B9E06AB41E___c__DisplayClass39_0 : public ::System::Object
 {
 public:
-	::Class_1_5D7D12B9E06AB41E_Class_3_95F370961AEDDA1E* onLoadAction; // 0x10
-	::RPG::Client::Promises::Promise* promise; // 0x18
-	::Class_1_5D7D12B9E06AB41E* __4__this; // 0x20
+	::Class_1_5D7D12B9E06AB41E* __4__this; // 0x10
+	::Class_1_5D7D12B9E06AB41E_Class_3_95F370961AEDDA1E* onLoadAction; // 0x18
+	::RPG::Client::Promises::Promise* promise; // 0x20
 
 	::System::Void _ctor()
 	{

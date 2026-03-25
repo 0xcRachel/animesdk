@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAdvEffectForceField; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F2791F9A09F58BAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B384B0)
-#define CLASS_3_F2791F9A09F58BAA__CTOR_OFFSET UNITYSDK_OFFSET(0x10B38480)
+#define CLASS_3_F2791F9A09F58BAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8CAC250)
+#define CLASS_3_F2791F9A09F58BAA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CAC220)
 
-inline static constexpr unsigned int Class_3_F2791F9A09F58BAA_TypeDefinitionIndex = 43256;
+inline static constexpr unsigned int Class_3_F2791F9A09F58BAA_TypeDefinitionIndex = 44311;
 
 class Class_3_F2791F9A09F58BAA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAdvEffectForceField*>
 {

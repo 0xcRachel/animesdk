@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/NPCSubType.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
@@ -10,15 +11,17 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA642BA0)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA642B70)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_GET_TRACKINSTANCEID_OFFSET UNITYSDK_OFFSET(0xA642B80)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_SET_TRACKINSTANCEID_OFFSET UNITYSDK_OFFSET(0xA642B90)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA642D60)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB88D10)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB88CE0)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_GET_TRACKINSTANCEID_OFFSET UNITYSDK_OFFSET(0xAB88CF0)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_METHOD_4_6C88CD2F7D698314_OFFSET UNITYSDK_OFFSET(0xAB88ED0)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_METHOD_4_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xAB88F10)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_SET_TRACKINSTANCEID_OFFSET UNITYSDK_OFFSET(0xAB88D00)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB88F60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NpcPossessionClip_TypeDefinitionIndex = 38076;
+	inline static constexpr unsigned int NpcPossessionClip_TypeDefinitionIndex = 39051;
 
 	class NpcPossessionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -53,6 +56,16 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::GameCore::NPCSubType Method_4_6C88CD2F7D698314()
+		{
+			return ((::RPG::GameCore::NPCSubType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_METHOD_4_6C88CD2F7D698314_OFFSET))(this);
+		}
+
+		::System::String* Method_4_DA1BF2C227DC3D86()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCPOSSESSIONCLIP_METHOD_4_DA1BF2C227DC3D86_OFFSET))(this);
 		}
 	};
 }

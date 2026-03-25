@@ -8,34 +8,34 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class SwitchCase; }
 namespace System::Linq::Expressions::Interpreter { class LightCompiler; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CE6C40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILENOLABELPUSH_B__101_0_OFFSET UNITYSDK_OFFSET(0x17CE6E00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_0_OFFSET UNITYSDK_OFFSET(0x17CE6C90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_1_OFFSET UNITYSDK_OFFSET(0x17CE6D90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17CE6C80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184FE190)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILENOLABELPUSH_B__101_0_OFFSET UNITYSDK_OFFSET(0x184FE350)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_0_OFFSET UNITYSDK_OFFSET(0x184FE1E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__COMPILESWITCHEXPRESSION_B__56_1_OFFSET UNITYSDK_OFFSET(0x184FE2E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTCOMPILER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184FE1D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LightCompiler___c_TypeDefinitionIndex = 3462;
+	inline static constexpr unsigned int LightCompiler___c_TypeDefinitionIndex = 3471;
 
 	class LightCompiler___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>** StaticGet___9__101_0()
-		{
-			return (::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x18890);
-		}
 		static ::System::Func_2<::System::Linq::Expressions::SwitchCase*, ::System::Boolean>** StaticGet___9__56_0()
 		{
-			return (::System::Func_2<::System::Linq::Expressions::SwitchCase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x18898);
+			return (::System::Func_2<::System::Linq::Expressions::SwitchCase*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x26B70);
 		}
 		static ::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>** StaticGet___9__56_1()
 		{
-			return (::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x188A0);
+			return (::System::Func_2<::System::Linq::Expressions::Expression*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x26B78);
+		}
+		static ::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>** StaticGet___9__101_0()
+		{
+			return (::System::Action_2<::System::Linq::Expressions::Interpreter::LightCompiler*, ::System::Linq::Expressions::Expression*>**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x26B80);
 		}
 		static ::System::Linq::Expressions::Interpreter::LightCompiler___c** StaticGet___9()
 		{
-			return (::System::Linq::Expressions::Interpreter::LightCompiler___c**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x188A8);
+			return (::System::Linq::Expressions::Interpreter::LightCompiler___c**)Il2CppClass::FromTypeDefinitionIndex(LightCompiler___c_TypeDefinitionIndex)->GetStaticField(0x26B88);
 		}
 
 		static ::System::Void _cctor()

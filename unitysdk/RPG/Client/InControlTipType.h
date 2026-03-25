@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InControlTipType_TypeDefinitionIndex = 48610;
+	inline static constexpr unsigned int InControlTipType_TypeDefinitionIndex = 49704;
 
 	enum class InControlTipType : ::System::Int32
 	{

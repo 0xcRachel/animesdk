@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO_GET_STATEHASH_OFFSET UNITYSDK_OFFSET(0x9FC8610)
-#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9FC8810)
+#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO_GET_STATEHASH_OFFSET UNITYSDK_OFFSET(0xA4EB470)
+#define RPG_CLIENT_STATETRANSITIONAUDIO_TRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA4EB670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateTransitionAudio_TransitionInfo_TypeDefinitionIndex = 54685;
+	inline static constexpr unsigned int StateTransitionAudio_TransitionInfo_TypeDefinitionIndex = 56245;
 
 	class StateTransitionAudio_TransitionInfo : public ::System::Object
 	{

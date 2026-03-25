@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceLayoutConfig_IdentifierConfig_TypeDefinitionIndex = 54948;
+	inline static constexpr unsigned int AudienceLayoutConfig_IdentifierConfig_TypeDefinitionIndex = 56510;
 
 	struct alignas(8) AudienceLayoutConfig_IdentifierConfig
 	{

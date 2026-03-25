@@ -3,7 +3,7 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CultureTypes_TypeDefinitionIndex = 736;
+	inline static constexpr unsigned int CultureTypes_TypeDefinitionIndex = 737;
 
 	enum class CultureTypes : ::System::Int32
 	{

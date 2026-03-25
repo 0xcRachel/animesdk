@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateCameraMode_TypeDefinitionIndex = 62163;
+	inline static constexpr unsigned int TeleportGateCameraMode_TypeDefinitionIndex = 64350;
 
 	enum class TeleportGateCameraMode : ::System::Int32
 	{

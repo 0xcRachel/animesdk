@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_D9631739BEA23757.h"
+#include "unitysdk/Enum_3_734E5242A20E505E.h"
 #include "unitysdk/System/Exception.h"
 
-#define CLASS_2_ECFFE2D95FB9D2F9_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x10DC0AE0)
-#define CLASS_2_ECFFE2D95FB9D2F9_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x10DC0AF0)
-#define CLASS_2_ECFFE2D95FB9D2F9__CTOR_OFFSET UNITYSDK_OFFSET(0x10DC09E0)
+#define CLASS_2_ECFFE2D95FB9D2F9_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x114067C0)
+#define CLASS_2_ECFFE2D95FB9D2F9_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x114067D0)
+#define CLASS_2_ECFFE2D95FB9D2F9__CTOR_OFFSET UNITYSDK_OFFSET(0x114066C0)
 
-inline static constexpr unsigned int Class_2_ECFFE2D95FB9D2F9_TypeDefinitionIndex = 52644;
+inline static constexpr unsigned int Class_2_ECFFE2D95FB9D2F9_TypeDefinitionIndex = 53781;
 
 class Class_2_ECFFE2D95FB9D2F9 : public ::System::Exception
 {
 public:
-	::Enum_3_D9631739BEA23757 _Retcode_k__BackingField; // 0x88
+	::Enum_3_734E5242A20E505E _Retcode_k__BackingField; // 0x88
 	::System::UInt32 _MainMissionID_k__BackingField; // 0x8C
 
-	::System::Void _ctor(::System::UInt32 a1, ::Enum_3_D9631739BEA23757 a2)
+	::System::Void _ctor(::System::UInt32 a1, ::Enum_3_734E5242A20E505E a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Enum_3_D9631739BEA23757))((::PBYTE)hIl2Cpp + CLASS_2_ECFFE2D95FB9D2F9__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Enum_3_734E5242A20E505E))((::PBYTE)hIl2Cpp + CLASS_2_ECFFE2D95FB9D2F9__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::UInt32 get_MainMissionID()
@@ -25,8 +25,8 @@ public:
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECFFE2D95FB9D2F9_GET_MAINMISSIONID_OFFSET))(this);
 	}
 
-	::Enum_3_D9631739BEA23757 get_Retcode()
+	::Enum_3_734E5242A20E505E get_Retcode()
 	{
-		return ((::Enum_3_D9631739BEA23757(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECFFE2D95FB9D2F9_GET_RETCODE_OFFSET))(this);
+		return ((::Enum_3_734E5242A20E505E(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECFFE2D95FB9D2F9_GET_RETCODE_OFFSET))(this);
 	}
 };

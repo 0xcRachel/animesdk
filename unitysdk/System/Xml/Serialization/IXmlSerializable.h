@@ -7,7 +7,7 @@ namespace System::Xml::Schema { class XmlSchema; }
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int IXmlSerializable_TypeDefinitionIndex = 1972;
+	inline static constexpr unsigned int IXmlSerializable_TypeDefinitionIndex = 1977;
 
 	class IXmlSerializable
 	{

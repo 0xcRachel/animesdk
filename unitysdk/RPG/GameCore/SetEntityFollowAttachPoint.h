@@ -4,16 +4,17 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+class Class_2_B35C6E695A702FAB;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_110A2442DAE48A83_OFFSET UNITYSDK_OFFSET(0x16F2A5E0)
-#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_C2619A456C494D90_OFFSET UNITYSDK_OFFSET(0x16F2A540)
-#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2A5A0)
+#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_110A2442DAE48A83_OFFSET UNITYSDK_OFFSET(0x176DFAA0)
+#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_C2619A456C494D90_OFFSET UNITYSDK_OFFSET(0x176DFA00)
+#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x176DFA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityFollowAttachPoint_TypeDefinitionIndex = 20362;
+	inline static constexpr unsigned int SetEntityFollowAttachPoint_TypeDefinitionIndex = 20910;
 
 	class SetEntityFollowAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,6 +27,7 @@ namespace RPG::GameCore
 		::System::Boolean EnableTransmitVisible; // 0x33
 		::System::Boolean DisableWhenAttachTargetInvisible; // 0x34
 		::System::Boolean UseAttachedTargetScale; // 0x35
+		::Class_2_B35C6E695A702FAB* SmoothFollow; // 0x38
 
 		::System::Void _ctor()
 		{

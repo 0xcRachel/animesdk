@@ -8,26 +8,26 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1679CAD0)
-#define RPG_GAMECORE_ACTIVITYHOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1679CFB0)
+#define RPG_GAMECORE_ACTIVITYHOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F13670)
+#define RPG_GAMECORE_ACTIVITYHOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F13B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHotRow_TypeDefinitionIndex = 10806;
+	inline static constexpr unsigned int ActivityHotRow_TypeDefinitionIndex = 10874;
 
 	class ActivityHotRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* RewardShow; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* RewardReceived; // 0x18
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* RewardReceived; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* RewardShow; // 0x18
 		::System::String* ImgPath; // 0x20
 		::System::Int32 SortWeight; // 0x28
 		::System::UInt32 ActivityPanelOverwrite; // 0x2C
 		::System::UInt32 ActivityID; // 0x30
-		::RPG::Client::TextID ItemDes; // 0x38
-		::RPG::Client::TextID TimeDes; // 0x48
-		::RPG::Client::TextID DesName; // 0x58
-		::RPG::Client::TextID ActivityName; // 0x68
+		::RPG::Client::TextID ActivityName; // 0x38
+		::RPG::Client::TextID DesName; // 0x48
+		::RPG::Client::TextID TimeDes; // 0x58
+		::RPG::Client::TextID ItemDes; // 0x68
 
 		::System::Void _ctor()
 		{

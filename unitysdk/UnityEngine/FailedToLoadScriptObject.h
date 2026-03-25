@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FailedToLoadScriptObject_TypeDefinitionIndex = 4111;
+	inline static constexpr unsigned int FailedToLoadScriptObject_TypeDefinitionIndex = 4133;
 
 	class FailedToLoadScriptObject : public ::UnityEngine::Object
 	{

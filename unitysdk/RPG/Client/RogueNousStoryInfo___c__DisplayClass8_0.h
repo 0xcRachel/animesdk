@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueNousMainMissionDataItem; }
 namespace RPG::Client { class RogueNousStoryInfo; }
 
-#define RPG_CLIENT_ROGUENOUSSTORYINFO___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E3DE60)
-#define RPG_CLIENT_ROGUENOUSSTORYINFO___C__DISPLAYCLASS8_0__GETMAINSTORYBYLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x9E3E4E0)
+#define RPG_CLIENT_ROGUENOUSSTORYINFO___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA360140)
+#define RPG_CLIENT_ROGUENOUSSTORYINFO___C__DISPLAYCLASS8_0__GETMAINSTORYBYLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xA3607C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueNousStoryInfo___c__DisplayClass8_0_TypeDefinitionIndex = 53642;
+	inline static constexpr unsigned int RogueNousStoryInfo___c__DisplayClass8_0_TypeDefinitionIndex = 54999;
 
 	class RogueNousStoryInfo___c__DisplayClass8_0 : public ::System::Object
 	{

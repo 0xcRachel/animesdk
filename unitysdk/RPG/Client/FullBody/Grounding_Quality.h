@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int Grounding_Quality_TypeDefinitionIndex = 59145;
+	inline static constexpr unsigned int Grounding_Quality_TypeDefinitionIndex = 60897;
 
 	enum class Grounding_Quality : ::System::Int32
 	{

@@ -3,26 +3,33 @@
 #include "unitysdk/System/Object.h"
 
 namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15772F10)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15772F50)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x15772F60)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E616F0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__159_0_OFFSET UNITYSDK_OFFSET(0x15E61960)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E61730)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x15E61740)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 7442;
+	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 7567;
 
 	class MiHoYoSDKDll___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_0()
+		static ::System::Converter_2<::System::Int32, ::System::String*>** StaticGet___9__159_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x145F0);
+			return (::System::Converter_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x13370);
 		}
 		static ::MiHoYo::SDK::Console::MiHoYoSDKDll___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::MiHoYoSDKDll___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x145F8);
+			return (::MiHoYo::SDK::Console::MiHoYoSDKDll___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x13378);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDll___c_TypeDefinitionIndex)->GetStaticField(0x13380);
 		}
 
 		static ::System::Void _cctor()
@@ -38,6 +45,11 @@ namespace MiHoYo::SDK::Console
 		::System::Void _Init_b__18_0(::MiHoYo::SDK::NetworkResponseModel* response)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET))(this, response);
+		}
+
+		::System::String* _console_switch_control_b__159_0(::System::Int32 m)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__159_0_OFFSET))(this, m);
 		}
 	};
 }

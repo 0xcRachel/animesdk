@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9388D00)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS20_0__GETTRAITBYID_B__0_OFFSET UNITYSDK_OFFSET(0x938B0A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98468D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFTEAM___C__DISPLAYCLASS20_0__GETTRAITBYID_B__0_OFFSET UNITYSDK_OFFSET(0x9848C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass20_0_TypeDefinitionIndex = 51476;
+	inline static constexpr unsigned int GridFightGameRefTeam___c__DisplayClass20_0_TypeDefinitionIndex = 52609;
 
 	class GridFightGameRefTeam___c__DisplayClass20_0 : public ::System::Object
 	{

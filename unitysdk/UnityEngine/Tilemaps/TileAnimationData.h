@@ -6,7 +6,7 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int TileAnimationData_TypeDefinitionIndex = 5450;
+	inline static constexpr unsigned int TileAnimationData_TypeDefinitionIndex = 5550;
 
 	struct alignas(8) TileAnimationData
 	{

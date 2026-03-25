@@ -16,9 +16,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_122__CTOR_OFFSET UNITYSDK_OFFSET(0x11218B30)
+#define CLASS_1_43BD383C98B4C0C5_122__CTOR_OFFSET UNITYSDK_OFFSET(0x11381F20)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_122_TypeDefinitionIndex = 49233;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_122_TypeDefinitionIndex = 50366;
 
 class Class_1_43BD383C98B4C0C5_122 : public ::System::Object
 {

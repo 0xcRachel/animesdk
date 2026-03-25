@@ -6,12 +6,12 @@ namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class ClampedFloatParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 
-#define RPG_CUSTOMRP_RPGCHROMATICABERRATION_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x163B3280)
-#define RPG_CUSTOMRP_RPGCHROMATICABERRATION__CTOR_OFFSET UNITYSDK_OFFSET(0x163B32C0)
+#define RPG_CUSTOMRP_RPGCHROMATICABERRATION_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x16AC1F60)
+#define RPG_CUSTOMRP_RPGCHROMATICABERRATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC1FA0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGChromaticAberration_TypeDefinitionIndex = 28525;
+	inline static constexpr unsigned int RPGChromaticAberration_TypeDefinitionIndex = 29400;
 
 	class RPGChromaticAberration : public ::RPG::CustomRP::CustomVolumeComponent
 	{

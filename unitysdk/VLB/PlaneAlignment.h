@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int PlaneAlignment_TypeDefinitionIndex = 38717;
+	inline static constexpr unsigned int PlaneAlignment_TypeDefinitionIndex = 39697;
 
 	enum class PlaneAlignment : ::System::Int32
 	{

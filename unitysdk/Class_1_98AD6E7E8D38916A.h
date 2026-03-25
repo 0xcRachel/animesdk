@@ -6,21 +6,21 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_331DB481D82394A4_OFFSET UNITYSDK_OFFSET(0x9EA9BF0)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_3ABEF3AC048CCD47_OFFSET UNITYSDK_OFFSET(0x9EA9330)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_46203437EA3F6181_OFFSET UNITYSDK_OFFSET(0x9EA9AE0)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_89553A998583D62F_OFFSET UNITYSDK_OFFSET(0x9EA9A40)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0x9EA9410)
-#define CLASS_1_98AD6E7E8D38916A__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA9DE0)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_331DB481D82394A4_OFFSET UNITYSDK_OFFSET(0x11597230)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_3ABEF3AC048CCD47_OFFSET UNITYSDK_OFFSET(0x11596940)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_46203437EA3F6181_OFFSET UNITYSDK_OFFSET(0x11597120)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_89553A998583D62F_OFFSET UNITYSDK_OFFSET(0x11597080)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0x11596A20)
+#define CLASS_1_98AD6E7E8D38916A__CTOR_OFFSET UNITYSDK_OFFSET(0x11597420)
 
-inline static constexpr unsigned int Class_1_98AD6E7E8D38916A_TypeDefinitionIndex = 52739;
+inline static constexpr unsigned int Class_1_98AD6E7E8D38916A_TypeDefinitionIndex = 53876;
 
 class Class_1_98AD6E7E8D38916A : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::String*>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*>* Field_1_2; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::MonopolyCellPeformanceType>* Field_1_0; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*>* Field_1_2; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::MonopolyCellPeformanceType>* Field_1_0; // 0x18
+	::Il2CppArray<::System::String*>* Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

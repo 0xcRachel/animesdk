@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class AvatarData; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class MemberData; }
 
-#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__CTOR_OFFSET UNITYSDK_OFFSET(0x9D6C440)
-#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__GETDEFAULTRAIDTEAMWITHTRIAL_B__2_OFFSET UNITYSDK_OFFSET(0x9D6DF30)
+#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__CTOR_OFFSET UNITYSDK_OFFSET(0xA28D3E0)
+#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__GETDEFAULTRAIDTEAMWITHTRIAL_B__2_OFFSET UNITYSDK_OFFSET(0xA28EEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RaidModule___c__DisplayClass78_2_TypeDefinitionIndex = 53192;
+	inline static constexpr unsigned int RaidModule___c__DisplayClass78_2_TypeDefinitionIndex = 54333;
 
 	class RaidModule___c__DisplayClass78_2 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetDefaultRaidTeamWithTrial_b__2(::RPG::Client::AvatarData* trialAvatar)
+		::System::Boolean _GetDefaultRaidTeamWithTrial_b__2(::RPG::Client::IAvatarInfoProvider* trialAvatar)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__GETDEFAULTRAIDTEAMWITHTRIAL_B__2_OFFSET))(this, trialAvatar);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_2__GETDEFAULTRAIDTEAMWITHTRIAL_B__2_OFFSET))(this, trialAvatar);
 		}
 	};
 }

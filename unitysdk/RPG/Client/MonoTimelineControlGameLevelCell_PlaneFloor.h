@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoTimelineControlGameLevelCell_FloorConfig.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_PLANEFLOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9867C80)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_PLANEFLOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4A2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_PlaneFloor_TypeDefinitionIndex = 47852;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_PlaneFloor_TypeDefinitionIndex = 48934;
 
 	class MonoTimelineControlGameLevelCell_PlaneFloor : public ::RPG::Client::MonoTimelineControlGameLevelCell_FloorConfig
 	{

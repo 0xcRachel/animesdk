@@ -3,19 +3,20 @@
 #include "unitysdk/RPG/GameCore/FiveDimPropBakedMoveConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 
-#define RPG_GAMECORE_FIVEDIMCLEANERBOTBAKEDMOVECONFIG_METHOD_3_875F455E990589E8_OFFSET UNITYSDK_OFFSET(0x16AB6820)
-#define RPG_GAMECORE_FIVEDIMCLEANERBOTBAKEDMOVECONFIG_METHOD_3_9737F1D1C24415CD_OFFSET UNITYSDK_OFFSET(0x16AB67E0)
-#define RPG_GAMECORE_FIVEDIMCLEANERBOTBAKEDMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB6810)
+#define RPG_GAMECORE_FIVEDIMCLEANERBOTBAKEDMOVECONFIG_METHOD_3_875F455E990589E8_OFFSET UNITYSDK_OFFSET(0x17200730)
+#define RPG_GAMECORE_FIVEDIMCLEANERBOTBAKEDMOVECONFIG_METHOD_3_9737F1D1C24415CD_OFFSET UNITYSDK_OFFSET(0x172006F0)
+#define RPG_GAMECORE_FIVEDIMCLEANERBOTBAKEDMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17200720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCleanerBotBakedMoveConfig_TypeDefinitionIndex = 15030;
+	inline static constexpr unsigned int FiveDimCleanerBotBakedMoveConfig_TypeDefinitionIndex = 15283;
 
 	class FiveDimCleanerBotBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:
-		::System::Single FallGravity; // 0x30
+		::RPG::GameCore::FiveDimTrampolineConfig* InternalTrampolineConfig; // 0x30
 
 		::System::Void _ctor()
 		{

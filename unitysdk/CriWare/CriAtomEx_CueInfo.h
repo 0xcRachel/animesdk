@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1467110)
+#define CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14F4B10)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 30124;
+	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 30999;
 
 	struct alignas(8) CriAtomEx_CueInfo
 	{

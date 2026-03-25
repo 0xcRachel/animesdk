@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PUNKLORDHONORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DBC340)
-#define RPG_GAMECORE_PUNKLORDHONORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DBC500)
+#define RPG_GAMECORE_PUNKLORDHONORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17588360)
+#define RPG_GAMECORE_PUNKLORDHONORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17588520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordHonorRow_TypeDefinitionIndex = 11155;
+	inline static constexpr unsigned int PunkLordHonorRow_TypeDefinitionIndex = 11223;
 
 	class PunkLordHonorRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID HonorName; // 0x10
-		::System::UInt32 DisplayPriority; // 0x20
-		::System::UInt32 HonorID; // 0x24
+		::System::UInt32 HonorID; // 0x20
+		::System::UInt32 DisplayPriority; // 0x24
 
 		::System::Void _ctor()
 		{

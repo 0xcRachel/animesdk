@@ -7,39 +7,39 @@ namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::AI { class NavMeshModifier; }
 namespace UnityEngine::AI { class NavMeshModifierVolume; }
 
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__APPENDMODIFIERVOLUMES_B__76_0_OFFSET UNITYSDK_OFFSET(0x15D765E0)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D76590)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__77_0_OFFSET UNITYSDK_OFFSET(0x15D76600)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__77_1_OFFSET UNITYSDK_OFFSET(0x15D76620)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__77_2_OFFSET UNITYSDK_OFFSET(0x15D766E0)
-#define UNITYENGINE_AI_NAVMESHSURFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D765D0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__APPENDMODIFIERVOLUMES_B__76_0_OFFSET UNITYSDK_OFFSET(0x1643D4F0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1643D4A0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__77_0_OFFSET UNITYSDK_OFFSET(0x1643D510)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__77_1_OFFSET UNITYSDK_OFFSET(0x1643D530)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__COLLECTSOURCES_B__77_2_OFFSET UNITYSDK_OFFSET(0x1643D5F0)
+#define UNITYENGINE_AI_NAVMESHSURFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1643D4E0)
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshSurface___c_TypeDefinitionIndex = 31064;
+	inline static constexpr unsigned int NavMeshSurface___c_TypeDefinitionIndex = 31939;
 
 	class NavMeshSurface___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::AI::NavMeshSurface___c** StaticGet___9()
+		static ::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>** StaticGet___9__77_1()
 		{
-			return (::UnityEngine::AI::NavMeshSurface___c**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x2D40);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0xC40);
 		}
 		static ::System::Predicate_1<::UnityEngine::AI::NavMeshModifierVolume*>** StaticGet___9__76_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifierVolume*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x2D48);
-		}
-		static ::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>** StaticGet___9__77_0()
-		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x2D50);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifierVolume*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0xC48);
 		}
 		static ::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>** StaticGet___9__77_2()
 		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x2D58);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0xC50);
 		}
-		static ::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>** StaticGet___9__77_1()
+		static ::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>** StaticGet___9__77_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::AI::NavMeshBuildSource>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0x2D60);
+			return (::System::Predicate_1<::UnityEngine::AI::NavMeshModifier*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0xC58);
+		}
+		static ::UnityEngine::AI::NavMeshSurface___c** StaticGet___9()
+		{
+			return (::UnityEngine::AI::NavMeshSurface___c**)Il2CppClass::FromTypeDefinitionIndex(NavMeshSurface___c_TypeDefinitionIndex)->GetStaticField(0xC60);
 		}
 
 		static ::System::Void _cctor()

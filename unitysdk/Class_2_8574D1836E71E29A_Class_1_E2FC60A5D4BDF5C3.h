@@ -6,18 +6,18 @@ namespace RPG::Client { class BattleAssetPreload_CharacterPreloadGroupBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_2_8574D1836E71E29A_CLASS_1_E2FC60A5D4BDF5C3_CLEAR_OFFSET UNITYSDK_OFFSET(0x111DAE00)
-#define CLASS_2_8574D1836E71E29A_CLASS_1_E2FC60A5D4BDF5C3_COMPARETO_OFFSET UNITYSDK_OFFSET(0x111DAE50)
-#define CLASS_2_8574D1836E71E29A_CLASS_1_E2FC60A5D4BDF5C3__CTOR_OFFSET UNITYSDK_OFFSET(0x111DAF00)
+#define CLASS_2_8574D1836E71E29A_CLASS_1_E2FC60A5D4BDF5C3_CLEAR_OFFSET UNITYSDK_OFFSET(0x11537F80)
+#define CLASS_2_8574D1836E71E29A_CLASS_1_E2FC60A5D4BDF5C3_COMPARETO_OFFSET UNITYSDK_OFFSET(0x11537FD0)
+#define CLASS_2_8574D1836E71E29A_CLASS_1_E2FC60A5D4BDF5C3__CTOR_OFFSET UNITYSDK_OFFSET(0x11538080)
 
-inline static constexpr unsigned int Class_2_8574D1836E71E29A_Class_1_E2FC60A5D4BDF5C3_TypeDefinitionIndex = 47272;
+inline static constexpr unsigned int Class_2_8574D1836E71E29A_Class_1_E2FC60A5D4BDF5C3_TypeDefinitionIndex = 48353;
 
 class Class_2_8574D1836E71E29A_Class_1_E2FC60A5D4BDF5C3 : public ::System::Object
 {
 public:
-	::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase* Field_1_1; // 0x10
-	::System::String* Field_1_2; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
 	::System::String* Field_1_3; // 0x28
 	::System::Single Field_1_4; // 0x30
 

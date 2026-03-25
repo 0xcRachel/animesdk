@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_SpeakerMapping_TypeDefinitionIndex = 30189;
+	inline static constexpr unsigned int CriAtomExAsrRack_SpeakerMapping_TypeDefinitionIndex = 31064;
 
 	enum class CriAtomExAsrRack_SpeakerMapping : ::System::Int32
 	{

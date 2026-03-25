@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CC4720)
-#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CC48A0)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1744B120)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1744B2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 10999;
+	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 11067;
 
 	class MonopolyCellResourceRow : public ::System::Object
 	{

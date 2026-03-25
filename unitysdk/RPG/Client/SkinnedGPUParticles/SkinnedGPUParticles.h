@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/SkinnedGPUParticles/SkinnedGPUParticlesBehavior_CustomVertexStreams.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
 namespace RPG::Client::SkinnedGPUParticles { class SkinnedGPUParticlesBehavior; }
-namespace UnityEngine { class GPUParticlesAsset; }
 namespace UnityEngine { class GPUParticlesRenderer; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define RPG_CLIENT_SKINNEDGPUPARTICLES_SKINNEDGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0x9F89700)
+#define RPG_CLIENT_SKINNEDGPUPARTICLES_SKINNEDGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A9C30)
 
 namespace RPG::Client::SkinnedGPUParticles
 {
-	inline static constexpr unsigned int SkinnedGPUParticles_TypeDefinitionIndex = 58608;
+	inline static constexpr unsigned int SkinnedGPUParticles_TypeDefinitionIndex = 60413;
 
 	class SkinnedGPUParticles : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::SkinnedGPUParticles::SkinnedGPUParticlesBehavior*>
 	{
 	public:
-		::UnityEngine::SkinnedMeshRenderer* SkinnedMesh; // 0x30
-		::UnityEngine::GPUParticlesRenderer* ParticlesRenderer; // 0x38
-		::UnityEngine::GPUParticlesAsset* ParticlesAsset; // 0x40
+		::UnityEngine::GPUParticlesRenderer* ParticlesRenderer; // 0x30
+		::UnityEngine::SkinnedMeshRenderer* SkinnedMesh; // 0x38
+		::RPG::Client::SkinnedGPUParticles::SkinnedGPUParticlesBehavior_CustomVertexStreams CustomVertexStreams; // 0x40
 
 		::System::Void _ctor()
 		{

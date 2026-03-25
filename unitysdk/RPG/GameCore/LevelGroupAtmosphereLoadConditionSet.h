@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupAtmosphereLoadCondition; }
 
-#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET_METHOD_2_80158AD37FD8CCC0_OFFSET UNITYSDK_OFFSET(0x16BA8420)
-#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA8550)
+#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET_METHOD_2_80158AD37FD8CCC0_OFFSET UNITYSDK_OFFSET(0x1734C050)
+#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1734C180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupAtmosphereLoadConditionSet_TypeDefinitionIndex = 15533;
+	inline static constexpr unsigned int LevelGroupAtmosphereLoadConditionSet_TypeDefinitionIndex = 15810;
 
 	class LevelGroupAtmosphereLoadConditionSet : public ::RPG::GameCore::JsonConfig
 	{

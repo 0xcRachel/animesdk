@@ -11,12 +11,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROJECTILEDATA_METHOD_2_BE58D2EA3FC7D8AB_OFFSET UNITYSDK_OFFSET(0x16DA11D0)
-#define RPG_GAMECORE_PROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA23E0)
+#define RPG_GAMECORE_PROJECTILEDATA_METHOD_2_BE58D2EA3FC7D8AB_OFFSET UNITYSDK_OFFSET(0x17528320)
+#define RPG_GAMECORE_PROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17529530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileData_TypeDefinitionIndex = 14232;
+	inline static constexpr unsigned int ProjectileData_TypeDefinitionIndex = 14350;
 
 	class ProjectileData : public ::RPG::GameCore::JsonConfig
 	{

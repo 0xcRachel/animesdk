@@ -6,9 +6,9 @@
 namespace Google::Protobuf { class ByteString; }
 namespace System { class String; }
 
-#define CLASS_1_BEB73AACF0CDA957__CTOR_OFFSET UNITYSDK_OFFSET(0x8A87EC0)
+#define CLASS_1_BEB73AACF0CDA957__CTOR_OFFSET UNITYSDK_OFFSET(0x10505FA0)
 
-inline static constexpr unsigned int Class_1_BEB73AACF0CDA957_TypeDefinitionIndex = 53950;
+inline static constexpr unsigned int Class_1_BEB73AACF0CDA957_TypeDefinitionIndex = 55502;
 
 class Class_1_BEB73AACF0CDA957 : public ::System::Object
 {

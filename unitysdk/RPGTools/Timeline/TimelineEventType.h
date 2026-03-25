@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimelineEventType_TypeDefinitionIndex = 38263;
+	inline static constexpr unsigned int TimelineEventType_TypeDefinitionIndex = 39243;
 
 	enum class TimelineEventType : ::System::Int32
 	{

@@ -5,29 +5,29 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xA722F40)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLE_OFFSET UNITYSDK_OFFSET(0xA723000)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_SETRECTTRANSFORMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xA6E9F20)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7231E0)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xAC2C6F0)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLE_OFFSET UNITYSDK_OFFSET(0xAC2C7B0)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_SETRECTTRANSFORMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xAC2C540)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC2C990)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 37535;
+	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 38499;
 
 	class PosVisibleTool : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_primeN2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0xF5C0);
-		}
-		static ::System::Int32* StaticGet_primeN1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0xF5C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x2A60);
 		}
 		static ::UnityEngine::Vector3* StaticGet__VeryFarPos()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0xF5C8);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x2A64);
+		}
+		static ::System::Int32* StaticGet_primeN1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x2A70);
 		}
 
 		static ::System::Void _cctor()

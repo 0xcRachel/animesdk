@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define RPG_CLIENT_HEARTDIALMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x94A54C0)
-#define RPG_CLIENT_HEARTDIALMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x94A5500)
-#define RPG_CLIENT_HEARTDIALMODULE___C__SENDSUBMITEMOTIONITEMCSREQ_B__15_0_OFFSET UNITYSDK_OFFSET(0x94A5510)
+#define RPG_CLIENT_HEARTDIALMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9929750)
+#define RPG_CLIENT_HEARTDIALMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9929790)
+#define RPG_CLIENT_HEARTDIALMODULE___C__SENDSUBMITEMOTIONITEMCSREQ_B__15_0_OFFSET UNITYSDK_OFFSET(0x99297A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeartDialModule___c_TypeDefinitionIndex = 52187;
+	inline static constexpr unsigned int HeartDialModule___c_TypeDefinitionIndex = 53323;
 
 	class HeartDialModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::HeartDialModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::HeartDialModule___c**)Il2CppClass::FromTypeDefinitionIndex(HeartDialModule___c_TypeDefinitionIndex)->GetStaticField(0xFDF0);
-		}
 		static ::System::Converter_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>** StaticGet___9__15_0()
 		{
-			return (::System::Converter_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialModule___c_TypeDefinitionIndex)->GetStaticField(0xFDF8);
+			return (::System::Converter_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeartDialModule___c_TypeDefinitionIndex)->GetStaticField(0x279C0);
+		}
+		static ::RPG::Client::HeartDialModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::HeartDialModule___c**)Il2CppClass::FromTypeDefinitionIndex(HeartDialModule___c_TypeDefinitionIndex)->GetStaticField(0x279C8);
 		}
 
 		static ::System::Void _cctor()

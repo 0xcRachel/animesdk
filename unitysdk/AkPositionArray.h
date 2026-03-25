@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKPOSITIONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x183B94E0)
-#define AKPOSITIONARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x183B9380)
-#define AKPOSITIONARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x183B93E0)
-#define AKPOSITIONARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x183B9360)
-#define AKPOSITIONARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x183B9490)
-#define AKPOSITIONARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x183B9370)
-#define AKPOSITIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x183B9320)
+#define AKPOSITIONARRAY_ADD_OFFSET UNITYSDK_OFFSET(0x18BDDF70)
+#define AKPOSITIONARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18BDDE10)
+#define AKPOSITIONARRAY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x18BDDE70)
+#define AKPOSITIONARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x18BDDDF0)
+#define AKPOSITIONARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x18BDDF20)
+#define AKPOSITIONARRAY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x18BDDE00)
+#define AKPOSITIONARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDDDB0)
 
-inline static constexpr unsigned int AkPositionArray_TypeDefinitionIndex = 33617;
+inline static constexpr unsigned int AkPositionArray_TypeDefinitionIndex = 34606;
 
 class AkPositionArray : public ::System::Object
 {
 public:
-	::System::UInt32 _Count_k__BackingField; // 0x10
-	::System::UInt32 m_MaxCount; // 0x14
+	::System::IntPtr m_Current; // 0x10
 	::System::IntPtr m_Buffer; // 0x18
-	::System::IntPtr m_Current; // 0x20
+	::System::UInt32 _Count_k__BackingField; // 0x20
+	::System::UInt32 m_MaxCount; // 0x24
 
 	::System::Void _ctor(::System::UInt32 in_Count)
 	{

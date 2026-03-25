@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int Provider_TypeDefinitionIndex = 36410;
+	inline static constexpr unsigned int Provider_TypeDefinitionIndex = 37346;
 
 	enum class Provider : ::System::Int32
 	{

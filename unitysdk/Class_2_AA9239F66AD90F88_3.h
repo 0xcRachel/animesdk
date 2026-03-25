@@ -1,14 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF2B522AC5DB4E39.h"
+#include "unitysdk/Class_1_47C4886CB6C61234.h"
 
-#define CLASS_2_AA9239F66AD90F88_3_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xFDFDDC0)
-#define CLASS_2_AA9239F66AD90F88_3_METHOD_2_F17676F976AEF1D8_OFFSET UNITYSDK_OFFSET(0xFDFCDF0)
-#define CLASS_2_AA9239F66AD90F88_3__CTOR_OFFSET UNITYSDK_OFFSET(0xFDFDDB0)
+#define CLASS_2_AA9239F66AD90F88_3_ONINIT_OFFSET UNITYSDK_OFFSET(0x1164BE50)
+#define CLASS_2_AA9239F66AD90F88_3_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x1164BE90)
+#define CLASS_2_AA9239F66AD90F88_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1164BED0)
+#define CLASS_2_AA9239F66AD90F88_3___IFIXBASEPROXY_ONINIT_OFFSET UNITYSDK_OFFSET(0x1164BEE0)
+#define CLASS_2_AA9239F66AD90F88_3___IFIXBASEPROXY_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x1164BF40)
 
-inline static constexpr unsigned int Class_2_AA9239F66AD90F88_3_TypeDefinitionIndex = 47268;
+inline static constexpr unsigned int Class_2_AA9239F66AD90F88_3_TypeDefinitionIndex = 48834;
 
-class Class_2_AA9239F66AD90F88_3 : public ::Class_1_BF2B522AC5DB4E39
+class Class_2_AA9239F66AD90F88_3 : public ::Class_1_47C4886CB6C61234
 {
 public:
 	::System::Void _ctor()
@@ -16,13 +18,23 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_2_F17676F976AEF1D8()
+	::System::Void OnInit()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3_METHOD_2_F17676F976AEF1D8_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3_ONINIT_OFFSET))(this);
 	}
 
-	::System::Void Method_2_5790A55946AA509D()
+	::System::Void OnUninit()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3_METHOD_2_5790A55946AA509D_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3_ONUNINIT_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnInit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3___IFIXBASEPROXY_ONINIT_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_OnUninit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_AA9239F66AD90F88_3___IFIXBASEPROXY_ONUNINIT_OFFSET))(this);
 	}
 };

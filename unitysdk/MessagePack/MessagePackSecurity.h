@@ -9,39 +9,35 @@ namespace MessagePack { class SipHash; }
 namespace System::Collections { class IEqualityComparer; }
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_CLONE_OFFSET UNITYSDK_OFFSET(0x156847E0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_DEPTHSTEP_OFFSET UNITYSDK_OFFSET(0x156845A0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GETEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x15684570)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GETHASHCOLLISIONRESISTANTEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x15684640)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GET_HASHCOLLISIONRESISTANT_OFFSET UNITYSDK_OFFSET(0x156844B0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_GET_MAXIMUMOBJECTGRAPHDEPTH_OFFSET UNITYSDK_OFFSET(0x156844D0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_SECUREHASH_OFFSET UNITYSDK_OFFSET(0x15684810)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_SET_HASHCOLLISIONRESISTANT_OFFSET UNITYSDK_OFFSET(0x156844C0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_SET_MAXIMUMOBJECTGRAPHDEPTH_OFFSET UNITYSDK_OFFSET(0x156844E0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_WITHHASHCOLLISIONRESISTANT_OFFSET UNITYSDK_OFFSET(0x15684530)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_WITHMAXIMUMOBJECTGRAPHDEPTH_OFFSET UNITYSDK_OFFSET(0x156844F0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15685210)
-#define MESSAGEPACK_MESSAGEPACKSECURITY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156843E0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY__CTOR_OFFSET UNITYSDK_OFFSET(0x15684300)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_DEPTHSTEP_OFFSET UNITYSDK_OFFSET(0x15D89A50)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GETEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x15D89A20)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GETHASHCOLLISIONRESISTANTEQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x15D89AF0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GET_HASHCOLLISIONRESISTANT_OFFSET UNITYSDK_OFFSET(0x15D899E0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_GET_MAXIMUMOBJECTGRAPHDEPTH_OFFSET UNITYSDK_OFFSET(0x15D89A00)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_SECUREHASH_OFFSET UNITYSDK_OFFSET(0x15D89BC0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_SET_HASHCOLLISIONRESISTANT_OFFSET UNITYSDK_OFFSET(0x15D899F0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_SET_MAXIMUMOBJECTGRAPHDEPTH_OFFSET UNITYSDK_OFFSET(0x15D89A10)
+#define MESSAGEPACK_MESSAGEPACKSECURITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D8A5C0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY__CTOR_OFFSET UNITYSDK_OFFSET(0x15D89900)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_TypeDefinitionIndex = 9440;
+	inline static constexpr unsigned int MessagePackSecurity_TypeDefinitionIndex = 9054;
 
 	class MessagePackSecurity : public ::System::Object
 	{
 	public:
+		static ::MessagePack::MessagePackSecurity** StaticGet_TrustedData()
+		{
+			return (::MessagePack::MessagePackSecurity**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_TypeDefinitionIndex)->GetStaticField(0x1AEA0);
+		}
 		static ::MessagePack::SipHash** StaticGet_Hash()
 		{
-			return (::MessagePack::SipHash**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_TypeDefinitionIndex)->GetStaticField(0x26FE0);
+			return (::MessagePack::SipHash**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_TypeDefinitionIndex)->GetStaticField(0x1AEA8);
 		}
 		static ::MessagePack::MessagePackSecurity** StaticGet_UntrustedData()
 		{
-			return (::MessagePack::MessagePackSecurity**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_TypeDefinitionIndex)->GetStaticField(0x26FE8);
-		}
-		static ::MessagePack::MessagePackSecurity** StaticGet_TrustedData()
-		{
-			return (::MessagePack::MessagePackSecurity**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_TypeDefinitionIndex)->GetStaticField(0x26FF0);
+			return (::MessagePack::MessagePackSecurity**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_TypeDefinitionIndex)->GetStaticField(0x1AEB0);
 		}
 		::MessagePack::MessagePackSecurity_ObjectFallbackEqualityComparer* objectFallbackEqualityComparer; // 0x10
 		::System::Boolean _HashCollisionResistant_k__BackingField; // 0x18
@@ -50,11 +46,6 @@ namespace MessagePack
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY__CTOR_OFFSET))(this);
-		}
-
-		::System::Void _ctor_1(::MessagePack::MessagePackSecurity* copyFrom)
-		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackSecurity*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY__CTOR_1_OFFSET))(this, copyFrom);
 		}
 
 		static ::System::Void _cctor()
@@ -82,16 +73,6 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_SET_MAXIMUMOBJECTGRAPHDEPTH_OFFSET))(this, value);
 		}
 
-		::MessagePack::MessagePackSecurity* WithMaximumObjectGraphDepth(::System::Int32 maximumObjectGraphDepth)
-		{
-			return ((::MessagePack::MessagePackSecurity*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_WITHMAXIMUMOBJECTGRAPHDEPTH_OFFSET))(this, maximumObjectGraphDepth);
-		}
-
-		::MessagePack::MessagePackSecurity* WithHashCollisionResistant(::System::Boolean hashCollisionResistant)
-		{
-			return ((::MessagePack::MessagePackSecurity*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_WITHHASHCOLLISIONRESISTANT_OFFSET))(this, hashCollisionResistant);
-		}
-
 		::System::Collections::IEqualityComparer* GetEqualityComparer()
 		{
 			return ((::System::Collections::IEqualityComparer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_GETEQUALITYCOMPARER_OFFSET))(this);
@@ -105,11 +86,6 @@ namespace MessagePack
 		::System::Collections::IEqualityComparer* GetHashCollisionResistantEqualityComparer()
 		{
 			return ((::System::Collections::IEqualityComparer*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_GETHASHCOLLISIONRESISTANTEQUALITYCOMPARER_OFFSET))(this);
-		}
-
-		::MessagePack::MessagePackSecurity* Clone()
-		{
-			return ((::MessagePack::MessagePackSecurity*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_CLONE_OFFSET))(this);
 		}
 
 		static ::System::Int32 SecureHash(::System::ReadOnlySpan_1<::System::Byte> data)

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYSTATECONFIG_METHOD_2_097E85F76FCBDA62_OFFSET UNITYSDK_OFFSET(0x16FA20E0)
-#define RPG_GAMECORE_STORYSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA2280)
+#define RPG_GAMECORE_STORYSTATECONFIG_METHOD_2_097E85F76FCBDA62_OFFSET UNITYSDK_OFFSET(0x17795C50)
+#define RPG_GAMECORE_STORYSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17795DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryStateConfig_TypeDefinitionIndex = 14744;
+	inline static constexpr unsigned int StoryStateConfig_TypeDefinitionIndex = 14996;
 
 	class StoryStateConfig : public ::RPG::GameCore::JsonConfig
 	{

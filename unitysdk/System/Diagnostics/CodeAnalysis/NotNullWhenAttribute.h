@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x156ABD20)
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x156ABD10)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA00C0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int NotNullWhenAttribute_TypeDefinitionIndex = 9888;
+	inline static constexpr unsigned int NotNullWhenAttribute_TypeDefinitionIndex = 9383;
 
 	class NotNullWhenAttribute : public ::System::Attribute
 	{
@@ -17,11 +16,6 @@ namespace System::Diagnostics::CodeAnalysis
 		::System::Void _ctor(::System::Boolean returnValue)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE__CTOR_OFFSET))(this, returnValue);
-		}
-
-		::System::Boolean get_ReturnValue()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLWHENATTRIBUTE_GET_RETURNVALUE_OFFSET))(this);
 		}
 	};
 }

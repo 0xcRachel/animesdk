@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/ReactiveSystem_1.h"
 
-class Class_0_16E4307DCC419505_145;
+class Class_0_16E4307DCC419505_175;
 class Class_1_867B6CE75953535A;
 class Class_2_9850514C0F89B91A;
 namespace Entitas { template <typename T> class ICollector_1; }
@@ -10,19 +10,19 @@ namespace Entitas { template <typename T> class IContext_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_D3822A7AB5A19402_EXECUTE_OFFSET UNITYSDK_OFFSET(0x162A3A50)
-#define CLASS_2_D3822A7AB5A19402_FILTER_OFFSET UNITYSDK_OFFSET(0x162A39A0)
-#define CLASS_2_D3822A7AB5A19402_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x162A3800)
-#define CLASS_2_D3822A7AB5A19402__CTOR_OFFSET UNITYSDK_OFFSET(0x162A36B0)
+#define CLASS_2_D3822A7AB5A19402_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1695E060)
+#define CLASS_2_D3822A7AB5A19402_FILTER_OFFSET UNITYSDK_OFFSET(0x1695DFB0)
+#define CLASS_2_D3822A7AB5A19402_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1695DE10)
+#define CLASS_2_D3822A7AB5A19402__CTOR_OFFSET UNITYSDK_OFFSET(0x1695AE20)
 
-inline static constexpr unsigned int Class_2_D3822A7AB5A19402_TypeDefinitionIndex = 31590;
+inline static constexpr unsigned int Class_2_D3822A7AB5A19402_TypeDefinitionIndex = 32500;
 
 class Class_2_D3822A7AB5A19402 : public ::Entitas::ReactiveSystem_1<::Class_2_9850514C0F89B91A*>
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_145*>* Field_2_2; // 0x28
-	::System::Collections::Generic::List_1<::Class_2_9850514C0F89B91A*>* Field_2_1; // 0x30
-	::Entitas::IGroup_1<::Class_2_9850514C0F89B91A*>* Field_2_0; // 0x38
+	::System::Collections::Generic::List_1<::Class_2_9850514C0F89B91A*>* Field_2_1; // 0x28
+	::Entitas::IGroup_1<::Class_2_9850514C0F89B91A*>* Field_2_0; // 0x30
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_175*>* Field_2_2; // 0x38
 
 	::System::Void _ctor(::Class_1_867B6CE75953535A* a1)
 	{

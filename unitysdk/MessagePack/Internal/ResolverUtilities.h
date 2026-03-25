@@ -6,12 +6,12 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MESSAGEPACK_INTERNAL_RESOLVERUTILITIES_ACTIVATEFORMATTER_OFFSET UNITYSDK_OFFSET(0x1566A840)
-#define MESSAGEPACK_INTERNAL_RESOLVERUTILITIES_FETCHSINGLETONFIELD_OFFSET UNITYSDK_OFFSET(0x1566AA90)
+#define MESSAGEPACK_INTERNAL_RESOLVERUTILITIES_ACTIVATEFORMATTER_OFFSET UNITYSDK_OFFSET(0x15D74910)
+#define MESSAGEPACK_INTERNAL_RESOLVERUTILITIES_FETCHSINGLETONFIELD_OFFSET UNITYSDK_OFFSET(0x15D66D20)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ResolverUtilities_TypeDefinitionIndex = 9646;
+	inline static constexpr unsigned int ResolverUtilities_TypeDefinitionIndex = 9197;
 
 	class ResolverUtilities : public ::System::Object
 	{

@@ -6,26 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MazeBuffRow; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1678C9C0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAXLEVEL_OFFSET UNITYSDK_OFFSET(0x1678D7F0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x1678D7B0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_ISMATERIALOFFORGE_OFFSET UNITYSDK_OFFSET(0x1678D860)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1678D7A0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EC2820)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAXLEVEL_OFFSET UNITYSDK_OFFSET(0x16EC3650)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x16EC3610)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW_ISMATERIALOFFORGE_OFFSET UNITYSDK_OFFSET(0x16EC36C0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC3600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildGearRow_TypeDefinitionIndex = 10586;
+	inline static constexpr unsigned int ActivityEvolveBuildGearRow_TypeDefinitionIndex = 10654;
 
 	class ActivityEvolveBuildGearRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DynamicIndexList; // 0x10
+		::Il2CppArray<::System::UInt32>* IndexList; // 0x10
 		::Il2CppArray<::System::UInt32>* SimpIndexList; // 0x18
-		::Il2CppArray<::System::UInt32>* IndexList; // 0x20
-		::RPG::GameCore::EvolveGearType Type; // 0x28
-		::System::UInt32 MazeBuffID; // 0x2C
-		::System::UInt32 GearID; // 0x30
-		::System::UInt32 Level; // 0x34
+		::Il2CppArray<::System::UInt32>* DynamicIndexList; // 0x20
+		::System::UInt32 Level; // 0x28
+		::RPG::GameCore::EvolveGearType Type; // 0x2C
+		::System::UInt32 MazeBuffID; // 0x30
+		::System::UInt32 GearID; // 0x34
 
 		::System::Void _ctor()
 		{

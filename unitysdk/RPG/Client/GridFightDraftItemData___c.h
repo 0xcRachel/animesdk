@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTDRAFTITEMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9342240)
-#define RPG_CLIENT_GRIDFIGHTDRAFTITEMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9342280)
-#define RPG_CLIENT_GRIDFIGHTDRAFTITEMDATA___C__GET_ISTRAITTRACKED_B__13_0_OFFSET UNITYSDK_OFFSET(0x9342290)
+#define RPG_CLIENT_GRIDFIGHTDRAFTITEMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9800440)
+#define RPG_CLIENT_GRIDFIGHTDRAFTITEMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9800480)
+#define RPG_CLIENT_GRIDFIGHTDRAFTITEMDATA___C__GET_ISTRAITTRACKED_B__13_0_OFFSET UNITYSDK_OFFSET(0x9800490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightDraftItemData___c_TypeDefinitionIndex = 51304;
+	inline static constexpr unsigned int GridFightDraftItemData___c_TypeDefinitionIndex = 52437;
 
 	class GridFightDraftItemData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GridFightDraftItemData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightDraftItemData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightDraftItemData___c_TypeDefinitionIndex)->GetStaticField(0x441B0);
+			return (::RPG::Client::GridFightDraftItemData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightDraftItemData___c_TypeDefinitionIndex)->GetStaticField(0x16E60);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightDraftItemData___c_TypeDefinitionIndex)->GetStaticField(0x441B8);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightDraftItemData___c_TypeDefinitionIndex)->GetStaticField(0x16E68);
 		}
 
 		static ::System::Void _cctor()

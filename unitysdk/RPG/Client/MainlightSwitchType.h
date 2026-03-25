@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainlightSwitchType_TypeDefinitionIndex = 55500;
+	inline static constexpr unsigned int MainlightSwitchType_TypeDefinitionIndex = 57065;
 
 	enum class MainlightSwitchType : ::System::Int32
 	{

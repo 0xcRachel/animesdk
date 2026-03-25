@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPlanetFesCardData_TypeDefinitionIndex = 53021;
+	inline static constexpr unsigned int IPlanetFesCardData_TypeDefinitionIndex = 54159;
 
 	class IPlanetFesCardData
 	{

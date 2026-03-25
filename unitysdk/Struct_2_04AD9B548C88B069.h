@@ -3,9 +3,9 @@
 #include "unitysdk/System/ReadOnlyMemory_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_04AD9B548C88B069__CTOR_OFFSET UNITYSDK_OFFSET(0x14A6D00)
+#define STRUCT_2_04AD9B548C88B069__CTOR_OFFSET UNITYSDK_OFFSET(0x1534670)
 
-inline static constexpr unsigned int Struct_2_04AD9B548C88B069_TypeDefinitionIndex = 27883;
+inline static constexpr unsigned int Struct_2_04AD9B548C88B069_TypeDefinitionIndex = 28663;
 
 struct alignas(8) Struct_2_04AD9B548C88B069
 {

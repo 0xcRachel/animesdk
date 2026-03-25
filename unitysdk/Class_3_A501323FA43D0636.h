@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropWormCompassSetItemVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A501323FA43D0636_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E86B10)
-#define CLASS_3_A501323FA43D0636__CTOR_OFFSET UNITYSDK_OFFSET(0x10E86AE0)
+#define CLASS_3_A501323FA43D0636_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97ABCA0)
+#define CLASS_3_A501323FA43D0636__CTOR_OFFSET UNITYSDK_OFFSET(0x97ABC70)
 
-inline static constexpr unsigned int Class_3_A501323FA43D0636_TypeDefinitionIndex = 46036;
+inline static constexpr unsigned int Class_3_A501323FA43D0636_TypeDefinitionIndex = 47104;
 
 class Class_3_A501323FA43D0636 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropWormCompassSetItemVisible*>
 {

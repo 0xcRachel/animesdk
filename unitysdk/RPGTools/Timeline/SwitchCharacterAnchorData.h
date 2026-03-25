@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA66F770)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABB69A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SwitchCharacterAnchorData_TypeDefinitionIndex = 38205;
+	inline static constexpr unsigned int SwitchCharacterAnchorData_TypeDefinitionIndex = 39185;
 
 	class SwitchCharacterAnchorData : public ::System::Object
 	{

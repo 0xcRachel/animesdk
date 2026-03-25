@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICURVES_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x17F8EFE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AICURVES_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x187B8310)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiCurves_TypeDefinitionIndex = 34030;
+	inline static constexpr unsigned int NativeMethods_aiCurves_TypeDefinitionIndex = 34964;
 
 	struct alignas(1) NativeMethods_aiCurves
 	{

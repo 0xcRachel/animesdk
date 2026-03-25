@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RoleTrialEntranceData; }
 
-#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F364F0)
-#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__GETROLETRIALENTRANCEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9F374C0)
+#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA401920)
+#define RPG_CLIENT_ROLETRIALMODULE___C__DISPLAYCLASS23_0__GETROLETRIALENTRANCEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA4028B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoleTrialModule___c__DisplayClass23_0_TypeDefinitionIndex = 53834;
+	inline static constexpr unsigned int RoleTrialModule___c__DisplayClass23_0_TypeDefinitionIndex = 55386;
 
 	class RoleTrialModule___c__DisplayClass23_0 : public ::System::Object
 	{

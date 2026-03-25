@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_REWARDPACKPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x9DCFD70)
+#define RPG_CLIENT_REWARDPACKPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F0A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RewardPackParams_TypeDefinitionIndex = 47633;
+	inline static constexpr unsigned int RewardPackParams_TypeDefinitionIndex = 48714;
 
 	class RewardPackParams : public ::System::Object
 	{

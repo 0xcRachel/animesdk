@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARDETAILTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168A2340)
-#define RPG_GAMECORE_AVATARDETAILTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168A2960)
+#define RPG_GAMECORE_AVATARDETAILTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FAFDB0)
+#define RPG_GAMECORE_AVATARDETAILTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB03D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDetailTabRow_TypeDefinitionIndex = 11585;
+	inline static constexpr unsigned int AvatarDetailTabRow_TypeDefinitionIndex = 11655;
 
 	class AvatarDetailTabRow : public ::System::Object
 	{
 	public:
-		::System::String* TabName; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::String* TabName; // 0x18
 		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()

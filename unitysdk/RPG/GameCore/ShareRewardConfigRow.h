@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHAREREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F4CA60)
-#define RPG_GAMECORE_SHAREREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F4CBD0)
+#define RPG_GAMECORE_SHAREREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17701EF0)
+#define RPG_GAMECORE_SHAREREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17702060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShareRewardConfigRow_TypeDefinitionIndex = 13722;
+	inline static constexpr unsigned int ShareRewardConfigRow_TypeDefinitionIndex = 13836;
 
 	class ShareRewardConfigRow : public ::System::Object
 	{

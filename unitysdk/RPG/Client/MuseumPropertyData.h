@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARALLDATA_OFFSET UNITYSDK_OFFSET(0x98F0490)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARPREVIEWDATA_OFFSET UNITYSDK_OFFSET(0x98E0460)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x98F04F0)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_CANUPDATE_OFFSET UNITYSDK_OFFSET(0x98F0480)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWCURNUM_OFFSET UNITYSDK_OFFSET(0x98F03C0)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWMAXNUM_OFFSET UNITYSDK_OFFSET(0x98F0420)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA_ISMAX_OFFSET UNITYSDK_OFFSET(0x98E0810)
-#define RPG_CLIENT_MUSEUMPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x98DE6B0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARALLDATA_OFFSET UNITYSDK_OFFSET(0x9DD2850)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_CLEARPREVIEWDATA_OFFSET UNITYSDK_OFFSET(0x9DC2920)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x9DD28B0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_CANUPDATE_OFFSET UNITYSDK_OFFSET(0x9DD2840)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWCURNUM_OFFSET UNITYSDK_OFFSET(0x9DD2780)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_GET_PREVIEWMAXNUM_OFFSET UNITYSDK_OFFSET(0x9DD27E0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA_ISMAX_OFFSET UNITYSDK_OFFSET(0x9DC2CC0)
+#define RPG_CLIENT_MUSEUMPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DC0BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumPropertyData_TypeDefinitionIndex = 52815;
+	inline static constexpr unsigned int MuseumPropertyData_TypeDefinitionIndex = 53952;
 
 	class MuseumPropertyData : public ::System::Object
 	{
 	public:
-		::System::UInt32 Level; // 0x10
-		::System::Boolean IsAddMaxNumMinus; // 0x14
-		::System::Boolean IsJustAdd; // 0x15
-		::System::Boolean IsJustMax; // 0x16
-		::System::Boolean IsAddCurNumMinus; // 0x17
-		::System::UInt32 AddMaxNum; // 0x18
-		::System::UInt32 UpdateCost; // 0x1C
-		::System::UInt32 MaxNum; // 0x20
-		::System::UInt32 MaxLevel; // 0x24
-		::System::UInt32 CurNum; // 0x28
-		::System::UInt32 AddCurNum; // 0x2C
+		::System::UInt32 AddCurNum; // 0x10
+		::System::UInt32 UpdateCost; // 0x14
+		::System::UInt32 MaxNum; // 0x18
+		::System::UInt32 CurNum; // 0x1C
+		::System::UInt32 Level; // 0x20
+		::System::Boolean IsJustAdd; // 0x24
+		::System::Boolean IsAddMaxNumMinus; // 0x25
+		::System::Boolean IsAddCurNumMinus; // 0x26
+		::System::Boolean IsJustMax; // 0x27
+		::System::UInt32 AddMaxNum; // 0x28
+		::System::UInt32 MaxLevel; // 0x2C
 
 		::System::Void _ctor()
 		{

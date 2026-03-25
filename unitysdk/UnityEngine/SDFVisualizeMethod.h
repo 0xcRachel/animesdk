@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFVisualizeMethod_TypeDefinitionIndex = 4045;
+	inline static constexpr unsigned int SDFVisualizeMethod_TypeDefinitionIndex = 4067;
 
 	enum class SDFVisualizeMethod : ::System::Int32
 	{

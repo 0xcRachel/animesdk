@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_ADVANCEDDESTROYPARAMS_RESET_OFFSET UNITYSDK_OFFSET(0xD7860)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_ADVANCEDDESTROYPARAMS_RESET_OFFSET UNITYSDK_OFFSET(0x88DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierInstance_AdvancedDestroyParams_TypeDefinitionIndex = 43675;
+	inline static constexpr unsigned int TurnBasedModifierInstance_AdvancedDestroyParams_TypeDefinitionIndex = 44731;
 
 	struct alignas(1) TurnBasedModifierInstance_AdvancedDestroyParams
 	{

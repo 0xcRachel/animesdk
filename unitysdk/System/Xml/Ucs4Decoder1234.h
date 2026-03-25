@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Ucs4Decoder.h"
 
-#define SYSTEM_XML_UCS4DECODER1234_GETFULLCHARS_OFFSET UNITYSDK_OFFSET(0x17DD8D40)
-#define SYSTEM_XML_UCS4DECODER1234__CTOR_OFFSET UNITYSDK_OFFSET(0x17DD90C0)
+#define SYSTEM_XML_UCS4DECODER1234_GETFULLCHARS_OFFSET UNITYSDK_OFFSET(0x18607550)
+#define SYSTEM_XML_UCS4DECODER1234__CTOR_OFFSET UNITYSDK_OFFSET(0x186078D0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int Ucs4Decoder1234_TypeDefinitionIndex = 1942;
+	inline static constexpr unsigned int Ucs4Decoder1234_TypeDefinitionIndex = 1947;
 
 	class Ucs4Decoder1234 : public ::System::Xml::Ucs4Decoder
 	{

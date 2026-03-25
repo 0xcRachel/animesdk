@@ -5,11 +5,11 @@
 namespace RPG::Client::Prop { class ChimeraDuelBattleBuffChangeEvent_BuffDisplayData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELBATTLEBUFFCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9B77F10)
+#define RPG_CLIENT_PROP_CHIMERADUELBATTLEBUFFCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA049CC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelBattleBuffChangeEvent_TypeDefinitionIndex = 61534;
+	inline static constexpr unsigned int ChimeraDuelBattleBuffChangeEvent_TypeDefinitionIndex = 63721;
 
 	class ChimeraDuelBattleBuffChangeEvent : public ::System::Object
 	{

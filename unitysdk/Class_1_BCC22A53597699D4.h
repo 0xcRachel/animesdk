@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class FiveDimMusicInfo; }
 namespace System { class String; }
 
-#define CLASS_1_BCC22A53597699D4__CTOR_OFFSET UNITYSDK_OFFSET(0x16082CE0)
+#define CLASS_1_BCC22A53597699D4__CTOR_OFFSET UNITYSDK_OFFSET(0x1684D4D0)
 
-inline static constexpr unsigned int Class_1_BCC22A53597699D4_TypeDefinitionIndex = 32716;
+inline static constexpr unsigned int Class_1_BCC22A53597699D4_TypeDefinitionIndex = 33648;
 
 class Class_1_BCC22A53597699D4 : public ::System::Object
 {
 public:
-	::System::String* Field_1_4; // 0x10
-	::System::String* Field_1_5; // 0x18
-	::System::Single Field_1_0; // 0x20
-	::System::Single Field_1_3; // 0x24
-	::System::Single Field_1_2; // 0x28
-	::System::Single Field_1_1; // 0x2C
+	::System::String* Field_1_5; // 0x10
+	::System::String* Field_1_4; // 0x18
+	::System::Single Field_1_1; // 0x20
+	::System::Single Field_1_0; // 0x24
+	::System::Single Field_1_3; // 0x28
+	::System::Single Field_1_2; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::FiveDimMusicInfo* a1)
 	{

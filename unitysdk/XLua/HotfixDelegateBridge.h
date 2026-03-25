@@ -4,13 +4,13 @@
 
 namespace XLua { class DelegateBridge; }
 
-#define XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET UNITYSDK_OFFSET(0xF828ED0)
-#define XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET UNITYSDK_OFFSET(0xF828F40)
-#define XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET UNITYSDK_OFFSET(0xF828E20)
+#define XLUA_HOTFIXDELEGATEBRIDGE_GET_OFFSET UNITYSDK_OFFSET(0xFF54690)
+#define XLUA_HOTFIXDELEGATEBRIDGE_SET_OFFSET UNITYSDK_OFFSET(0xFF54700)
+#define XLUA_HOTFIXDELEGATEBRIDGE_XLUA_GET_HOTFIX_FLAG_OFFSET UNITYSDK_OFFSET(0xFF545E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 39464;
+	inline static constexpr unsigned int HotfixDelegateBridge_TypeDefinitionIndex = 40480;
 
 	class HotfixDelegateBridge : public ::System::Object
 	{

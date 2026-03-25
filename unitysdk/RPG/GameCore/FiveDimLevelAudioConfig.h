@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELAUDIOCONFIG_METHOD_2_884806C39652FC15_OFFSET UNITYSDK_OFFSET(0x16AC3D50)
-#define RPG_GAMECORE_FIVEDIMLEVELAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC3E60)
+#define RPG_GAMECORE_FIVEDIMLEVELAUDIOCONFIG_METHOD_2_884806C39652FC15_OFFSET UNITYSDK_OFFSET(0x1720CB10)
+#define RPG_GAMECORE_FIVEDIMLEVELAUDIOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1720CC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelAudioConfig_TypeDefinitionIndex = 16617;
+	inline static constexpr unsigned int FiveDimLevelAudioConfig_TypeDefinitionIndex = 16991;
 
 	class FiveDimLevelAudioConfig : public ::RPG::GameCore::JsonConfig
 	{

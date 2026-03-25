@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_0414B7E68ABA5085_OFFSET UNITYSDK_OFFSET(0xE4CE9D0)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET UNITYSDK_OFFSET(0xE4CDE40)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_6441B51DB3E78348_OFFSET UNITYSDK_OFFSET(0xE4CE930)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_E83461C42980F950_OFFSET UNITYSDK_OFFSET(0xE4CD5A0)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0xE4CE600)
-#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xE4CD200)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_0414B7E68ABA5085_OFFSET UNITYSDK_OFFSET(0xFBB0190)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_4B0274957BFBA3A3_OFFSET UNITYSDK_OFFSET(0xFBAF600)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_6441B51DB3E78348_OFFSET UNITYSDK_OFFSET(0xFBB00F0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP_METHOD_3_E83461C42980F950_OFFSET UNITYSDK_OFFSET(0xFBAED60)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBAFDC0)
+#define ENVIROMENTSYSTEM_ENVIROLIGHTQUALITYFALLBACKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xFBAE9C0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 39330;
+	inline static constexpr unsigned int EnviroLightQualityFallbackGroup_TypeDefinitionIndex = 40310;
 
 	class EnviroLightQualityFallbackGroup : public ::EnviromentSystem::EnviroBoolProperty
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>** StaticGet_PropertyGroupNameDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x44850);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystem::EnviromentPropertiesID, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroLightQualityFallbackGroup_TypeDefinitionIndex)->GetStaticField(0x10240);
 		}
 		::EnviromentSystem::EnviromentPropertiesID highProperty; // 0x60
 		::EnviromentSystem::EnviromentPropertiesID middleProperty; // 0x64

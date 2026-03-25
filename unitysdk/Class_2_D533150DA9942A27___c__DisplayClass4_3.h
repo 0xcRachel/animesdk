@@ -6,10 +6,10 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_3__CTOR_OFFSET UNITYSDK_OFFSET(0x8F585E0)
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_3__ONTASKBEGIN_B__3_OFFSET UNITYSDK_OFFSET(0x8F5E120)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_3__CTOR_OFFSET UNITYSDK_OFFSET(0x99F8190)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_3__ONTASKBEGIN_B__3_OFFSET UNITYSDK_OFFSET(0x99FE0A0)
 
-inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_3_TypeDefinitionIndex = 44259;
+inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_3_TypeDefinitionIndex = 45319;
 
 class Class_2_D533150DA9942A27___c__DisplayClass4_3 : public ::System::Object
 {

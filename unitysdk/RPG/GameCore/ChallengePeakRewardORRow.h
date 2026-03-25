@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16961040)
-#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x169611B0)
+#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17072790)
+#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17072900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakRewardORRow_TypeDefinitionIndex = 11769;
+	inline static constexpr unsigned int ChallengePeakRewardORRow_TypeDefinitionIndex = 11839;
 
 	class ChallengePeakRewardORRow : public ::System::Object
 	{

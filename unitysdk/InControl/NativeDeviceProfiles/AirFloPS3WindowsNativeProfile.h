@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_AIRFLOPS3WINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1547CD30)
-#define INCONTROL_NATIVEDEVICEPROFILES_AIRFLOPS3WINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1547E260)
+#define INCONTROL_NATIVEDEVICEPROFILES_AIRFLOPS3WINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15B96B30)
+#define INCONTROL_NATIVEDEVICEPROFILES_AIRFLOPS3WINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B98060)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int AirFloPS3WindowsNativeProfile_TypeDefinitionIndex = 31005;
+	inline static constexpr unsigned int AirFloPS3WindowsNativeProfile_TypeDefinitionIndex = 31880;
 
 	class AirFloPS3WindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

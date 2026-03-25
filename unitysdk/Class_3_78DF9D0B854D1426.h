@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddIsometricConnector; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_78DF9D0B854D1426_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C5A7F0)
-#define CLASS_3_78DF9D0B854D1426__CTOR_OFFSET UNITYSDK_OFFSET(0x10C5A7C0)
+#define CLASS_3_78DF9D0B854D1426_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113B7560)
+#define CLASS_3_78DF9D0B854D1426__CTOR_OFFSET UNITYSDK_OFFSET(0x113B7530)
 
-inline static constexpr unsigned int Class_3_78DF9D0B854D1426_TypeDefinitionIndex = 41296;
+inline static constexpr unsigned int Class_3_78DF9D0B854D1426_TypeDefinitionIndex = 42339;
 
 class Class_3_78DF9D0B854D1426 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddIsometricConnector*>
 {

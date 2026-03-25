@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelGameView.h"
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELTRIGGERGAMEVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x955DE90)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELTRIGGERGAMEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x955DF70)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELTRIGGERGAMEVIEW_AWAKE_OFFSET UNITYSDK_OFFSET(0x9A389C0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELTRIGGERGAMEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A38AA0)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelTriggerGameView_TypeDefinitionIndex = 60581;
+	inline static constexpr unsigned int FourRotateVoxelTriggerGameView_TypeDefinitionIndex = 62559;
 
 	class FourRotateVoxelTriggerGameView : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView
 	{

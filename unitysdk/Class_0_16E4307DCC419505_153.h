@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/Match3/MatchThreeOpponentLiveState.h"
 
-class Class_2_536CC4186B095618;
+class Class_1_9E9E805FDD041FD9;
+namespace RPG::GameCore { class HoyoTagContainer; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_153_TypeDefinitionIndex = 31581;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_153_TypeDefinitionIndex = 32437;
 
 class Class_0_16E4307DCC419505_153
 {

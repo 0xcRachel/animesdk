@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesTradingCardApplyHandleType_TypeDefinitionIndex = 53034;
+	inline static constexpr unsigned int PlanetFesTradingCardApplyHandleType_TypeDefinitionIndex = 54172;
 
 	enum class PlanetFesTradingCardApplyHandleType : ::System::Int32
 	{

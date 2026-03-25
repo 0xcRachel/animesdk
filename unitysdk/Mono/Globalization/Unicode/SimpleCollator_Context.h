@@ -3,7 +3,7 @@
 #include "unitysdk/System/Globalization/CompareOptions.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD4A0)
+#define MONO_GLOBALIZATION_UNICODE_SIMPLECOLLATOR_CONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x20D2D50)
 
 namespace Mono::Globalization::Unicode
 {

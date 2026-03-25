@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16F90FB0)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16F90E00)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16F90AD0)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16F90DA0)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16F91180)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F90B50)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16F911C0)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F913A0)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16F91610)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F91970)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16F91300)
-#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F91260)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17784B00)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17784950)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17784620)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x177848F0)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17784CD0)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x177846A0)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17784D10)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17784EF0)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17785160)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x177854C0)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17784E50)
+#define RPG_GAMECORE_STAMINAITEMCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17784DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StaminaItemConfigExcelTable_TypeDefinitionIndex = 13171;
+	inline static constexpr unsigned int StaminaItemConfigExcelTable_TypeDefinitionIndex = 13245;
 
 	class StaminaItemConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaItemConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaItemConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13690);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x13698);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12210);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaItemConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaItemConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12218);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x136A0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x12220);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x47C0);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x61A0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x47C1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StaminaItemConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x61A1);
 		}
 
 		static ::System::Void _cctor()

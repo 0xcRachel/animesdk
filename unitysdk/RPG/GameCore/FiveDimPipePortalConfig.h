@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimPortalTarget; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_9D202D4F5621F27E_OFFSET UNITYSDK_OFFSET(0x16ACB9C0)
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_F9F60BCAA7733B8F_OFFSET UNITYSDK_OFFSET(0x16ACB950)
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16ACB9A0)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_9D202D4F5621F27E_OFFSET UNITYSDK_OFFSET(0x17215660)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_F9F60BCAA7733B8F_OFFSET UNITYSDK_OFFSET(0x172155F0)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17215640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 16672;
+	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 17046;
 
 	class FiveDimPipePortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -34,12 +34,14 @@ namespace RPG::GameCore
 		::System::Boolean HasValidTarget; // 0x40
 		::System::Boolean HasCustomTeleport; // 0x41
 		::RPG::GameCore::FiveDimPortalTarget* Target; // 0x48
-		::System::Boolean UsePipeCamera; // 0x50
+		::System::Boolean SyncLoadTargetLevel; // 0x50
+		::System::Boolean UsePipeCamera; // 0x51
 		::RPG::GameCore::FiveDimPipeCameraActiveCondition PipeCameraType; // 0x54
 		::RPG::GameCore::FiveDimPipeCameraConfig* PipeCameraConfig; // 0x58
 		::System::Boolean NoCameraBlend; // 0x60
 		::System::Boolean TriggerFiveDimLoadingView; // 0x61
 		::System::Boolean ReverseEnterGravity; // 0x62
+		::System::Boolean GravityUseNegativeY; // 0x63
 		::RPG::GameCore::LittleGameEvent* StartHintEvent; // 0x68
 		::RPG::GameCore::LittleGameEvent* StopHintEvent; // 0x70
 		::RPG::GameCore::LittleGameEvent* EnterPipeEvent; // 0x78

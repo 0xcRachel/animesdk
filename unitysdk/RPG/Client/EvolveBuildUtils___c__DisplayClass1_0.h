@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x91AA360)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS1_0__GETSORTEDGEAREQUIPINFO_B__1_OFFSET UNITYSDK_OFFSET(0x91ACFA0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9656DB0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS1_0__GETSORTEDGEAREQUIPINFO_B__1_OFFSET UNITYSDK_OFFSET(0x9659F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass1_0_TypeDefinitionIndex = 50727;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass1_0_TypeDefinitionIndex = 51862;
 
 	class EvolveBuildUtils___c__DisplayClass1_0 : public ::System::Object
 	{

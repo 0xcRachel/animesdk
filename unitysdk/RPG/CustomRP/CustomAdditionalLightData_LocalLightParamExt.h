@@ -6,7 +6,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomAdditionalLightData_LocalLightParamExt_TypeDefinitionIndex = 28461;
+	inline static constexpr unsigned int CustomAdditionalLightData_LocalLightParamExt_TypeDefinitionIndex = 29336;
 
 	struct alignas(4) CustomAdditionalLightData_LocalLightParamExt
 	{

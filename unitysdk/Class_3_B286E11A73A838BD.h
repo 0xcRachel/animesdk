@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTargetIsStanceWeakForCurrentHit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B286E11A73A838BD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10A41DF0)
-#define CLASS_3_B286E11A73A838BD__CTOR_OFFSET UNITYSDK_OFFSET(0x10A41DC0)
+#define CLASS_3_B286E11A73A838BD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEC9BB0)
+#define CLASS_3_B286E11A73A838BD__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC9B80)
 
-inline static constexpr unsigned int Class_3_B286E11A73A838BD_TypeDefinitionIndex = 42739;
+inline static constexpr unsigned int Class_3_B286E11A73A838BD_TypeDefinitionIndex = 43789;
 
 class Class_3_B286E11A73A838BD : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetIsStanceWeakForCurrentHit*>
 {

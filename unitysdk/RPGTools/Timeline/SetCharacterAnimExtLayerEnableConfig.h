@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA663830)
+#define RPGTOOLS_TIMELINE_SETCHARACTERANIMEXTLAYERENABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xABA9F50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableConfig_TypeDefinitionIndex = 37823;
+	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableConfig_TypeDefinitionIndex = 38788;
 
 	class SetCharacterAnimExtLayerEnableConfig : public ::System::Object
 	{

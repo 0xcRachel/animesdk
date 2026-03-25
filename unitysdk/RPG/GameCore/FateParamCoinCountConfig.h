@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_5_015D67B967DB6439_OFFSET UNITYSDK_OFFSET(0x16A99760)
-#define RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_5_82549BFFBABA5A8E_OFFSET UNITYSDK_OFFSET(0x16A99580)
-#define RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A996C0)
+#define RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_6_4410DC20F5C7B0A1_OFFSET UNITYSDK_OFFSET(0x171DDD70)
+#define RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_6_F147A9002D79D12A_OFFSET UNITYSDK_OFFSET(0x171DDFC0)
+#define RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171DDF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateParamCoinCountConfig_TypeDefinitionIndex = 14994;
+	inline static constexpr unsigned int FateParamCoinCountConfig_TypeDefinitionIndex = 15246;
 
 	class FateParamCoinCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_82549BFFBABA5A8E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamCoinCountConfig*& a2)
+		static ::System::Void Method_6_4410DC20F5C7B0A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamCoinCountConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamCoinCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_5_82549BFFBABA5A8E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamCoinCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_6_4410DC20F5C7B0A1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_015D67B967DB6439(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamCoinCountConfig* a2)
+		static ::System::Void Method_6_F147A9002D79D12A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamCoinCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamCoinCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_5_015D67B967DB6439_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamCoinCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMCOINCOUNTCONFIG_METHOD_6_F147A9002D79D12A_OFFSET))(a1, a2);
 		}
 	};
 }

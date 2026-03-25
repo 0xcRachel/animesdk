@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GPUParticlesPass_TypeDefinitionIndex = 3901;
+	inline static constexpr unsigned int GPUParticlesPass_TypeDefinitionIndex = 3922;
 
 	struct alignas(4) GPUParticlesPass
 	{

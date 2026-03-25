@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define MONO_NET_CFRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x2031AD0)
+#define MONO_NET_CFRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x2107C30)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFRange_TypeDefinitionIndex = 2391;
+	inline static constexpr unsigned int CFRange_TypeDefinitionIndex = 2396;
 
 	struct alignas(8) CFRange
 	{

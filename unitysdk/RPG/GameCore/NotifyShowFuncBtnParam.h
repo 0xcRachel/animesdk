@@ -7,11 +7,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NOTIFYSHOWFUNCBTNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA4CA820)
+#define RPG_GAMECORE_NOTIFYSHOWFUNCBTNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xAA0B3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NotifyShowFuncBtnParam_TypeDefinitionIndex = 42081;
+	inline static constexpr unsigned int NotifyShowFuncBtnParam_TypeDefinitionIndex = 43130;
 
 	class NotifyShowFuncBtnParam : public ::System::Object
 	{
@@ -19,12 +19,12 @@ namespace RPG::GameCore
 		::System::String* OverrideIconPath; // 0x10
 		::System::String* CustomEvent; // 0x18
 		::RPG::GameCore::GameEntity* OwnerEntity; // 0x20
-		::RPG::Client::TextID BtnHintTextID; // 0x28
-		::System::Boolean ShowBtnFuncHint; // 0x38
-		::System::Boolean ShowBtnEffect; // 0x39
-		::System::Single CDDuration; // 0x3C
-		::RPG::GameCore::PuzzleFunc FuncType; // 0x40
-		::System::Int32 MissionID; // 0x44
+		::System::Single CDDuration; // 0x28
+		::System::Int32 MissionID; // 0x2C
+		::RPG::GameCore::PuzzleFunc FuncType; // 0x30
+		::System::Boolean ShowBtnEffect; // 0x34
+		::System::Boolean ShowBtnFuncHint; // 0x35
+		::RPG::Client::TextID BtnHintTextID; // 0x38
 
 		::System::Void _ctor()
 		{

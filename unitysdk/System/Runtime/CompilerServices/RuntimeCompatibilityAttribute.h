@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMECOMPATIBILITYATTRIBUTE_SET_WRAPNONEXCEPTIONTHROWS_OFFSET UNITYSDK_OFFSET(0x15CDE6D0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMECOMPATIBILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDE6C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMECOMPATIBILITYATTRIBUTE_SET_WRAPNONEXCEPTIONTHROWS_OFFSET UNITYSDK_OFFSET(0x163A6AA0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMECOMPATIBILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A6A90)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int RuntimeCompatibilityAttribute_TypeDefinitionIndex = 1350;
+	inline static constexpr unsigned int RuntimeCompatibilityAttribute_TypeDefinitionIndex = 1355;
 
 	class RuntimeCompatibilityAttribute : public ::System::Attribute
 	{

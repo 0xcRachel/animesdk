@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetIconType_TypeDefinitionIndex = 11658;
+	inline static constexpr unsigned int BattleTargetIconType_TypeDefinitionIndex = 11728;
 
 	enum class BattleTargetIconType : ::System::Int32
 	{

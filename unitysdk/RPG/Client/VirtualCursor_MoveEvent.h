@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_VIRTUALCURSOR_MOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA24DE10)
+#define RPG_CLIENT_VIRTUALCURSOR_MOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA787440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursor_MoveEvent_TypeDefinitionIndex = 58383;
+	inline static constexpr unsigned int VirtualCursor_MoveEvent_TypeDefinitionIndex = 60036;
 
 	class VirtualCursor_MoveEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>
 	{

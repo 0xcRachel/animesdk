@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SummonEntityPreloadConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERPRELOADCONFIGBASE_METHOD_2_1C69A7E6203BF7AF_OFFSET UNITYSDK_OFFSET(0x16973C40)
-#define RPG_GAMECORE_CHARACTERPRELOADCONFIGBASE_METHOD_2_5DB5DADAAAAFDE9C_OFFSET UNITYSDK_OFFSET(0x16973EA0)
-#define RPG_GAMECORE_CHARACTERPRELOADCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16973C30)
+#define RPG_GAMECORE_CHARACTERPRELOADCONFIGBASE_METHOD_2_1C69A7E6203BF7AF_OFFSET UNITYSDK_OFFSET(0x170852C0)
+#define RPG_GAMECORE_CHARACTERPRELOADCONFIGBASE_METHOD_2_5DB5DADAAAAFDE9C_OFFSET UNITYSDK_OFFSET(0x17085520)
+#define RPG_GAMECORE_CHARACTERPRELOADCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x170852B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPreloadConfigBase_TypeDefinitionIndex = 14703;
+	inline static constexpr unsigned int CharacterPreloadConfigBase_TypeDefinitionIndex = 14955;
 
 	class CharacterPreloadConfigBase : public ::RPG::GameCore::JsonConfig
 	{

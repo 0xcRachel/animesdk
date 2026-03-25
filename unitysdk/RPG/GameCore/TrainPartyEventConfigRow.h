@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171041D0)
-#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17104350)
+#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C01B0)
+#define RPG_GAMECORE_TRAINPARTYEVENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C0330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyEventConfigRow_TypeDefinitionIndex = 13928;
+	inline static constexpr unsigned int TrainPartyEventConfigRow_TypeDefinitionIndex = 14044;
 
 	class TrainPartyEventConfigRow : public ::System::Object
 	{

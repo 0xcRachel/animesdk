@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class MonoTrainPartyBuildItemDynamicBind_DynamicBind; }
 
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEMDYNAMICBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x986A770)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEMDYNAMICBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4CDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_TypeDefinitionIndex = 54716;
+	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_TypeDefinitionIndex = 56276;
 
 	class MonoTrainPartyBuildItemDynamicBind : public ::UnityEngine::MonoBehaviour
 	{

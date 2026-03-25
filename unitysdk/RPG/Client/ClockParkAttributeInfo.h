@@ -8,23 +8,23 @@ namespace RPG::Client { class ClockParkAttributeItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_GET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0x8F99E20)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8F997E0)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0x8F99E30)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x8F99CF0)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F99E40)
-#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F997D0)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_GET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0x93F5080)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x93F4A60)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SET_ATTRIBUTEITEMSDICT_OFFSET UNITYSDK_OFFSET(0x93F5090)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x93F4F50)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x93F50A0)
+#define RPG_CLIENT_CLOCKPARKATTRIBUTEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x93F4A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkAttributeInfo_TypeDefinitionIndex = 48744;
+	inline static constexpr unsigned int ClockParkAttributeInfo_TypeDefinitionIndex = 49878;
 
 	class ClockParkAttributeInfo : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::ClockParkAttributeType>** StaticGet_AttributeTypeList()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::ClockParkAttributeType>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkAttributeInfo_TypeDefinitionIndex)->GetStaticField(0x29660);
+			return (::System::Collections::Generic::List_1<::RPG::Client::ClockParkAttributeType>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkAttributeInfo_TypeDefinitionIndex)->GetStaticField(0x44F90);
 		}
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::ClockParkAttributeType, ::RPG::Client::ClockParkAttributeItem*>* _AttributeItemsDict_k__BackingField; // 0x10
 

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/Generic/List_1.h"
 
-class Class_0_16E4307DCC419505_303;
+class Class_0_16E4307DCC419505_337;
 
-#define CLASS_2_0B13FD24364C968E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F1A1C0)
-#define CLASS_2_0B13FD24364C968E__CTOR_OFFSET UNITYSDK_OFFSET(0x10F1A230)
+#define CLASS_2_0B13FD24364C968E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8C541A0)
+#define CLASS_2_0B13FD24364C968E__CTOR_OFFSET UNITYSDK_OFFSET(0x8C54210)
 
-inline static constexpr unsigned int Class_2_0B13FD24364C968E_TypeDefinitionIndex = 48247;
+inline static constexpr unsigned int Class_2_0B13FD24364C968E_TypeDefinitionIndex = 49339;
 
-class Class_2_0B13FD24364C968E : public ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>
+class Class_2_0B13FD24364C968E : public ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_337*>
 {
 public:
 	::System::Void _ctor()

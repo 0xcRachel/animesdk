@@ -8,13 +8,13 @@ namespace RPG::Editor { class SkillGroupConfig; }
 namespace RPG::Editor { class SkillPointConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_SKILLTREEGRIDLAYOUT_ADDSKILLPOINT_OFFSET UNITYSDK_OFFSET(0xA297440)
-#define RPG_EDITOR_SKILLTREEGRIDLAYOUT_RESET_OFFSET UNITYSDK_OFFSET(0xA2974D0)
-#define RPG_EDITOR_SKILLTREEGRIDLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xA297620)
+#define RPG_EDITOR_SKILLTREEGRIDLAYOUT_ADDSKILLPOINT_OFFSET UNITYSDK_OFFSET(0xA7D1F20)
+#define RPG_EDITOR_SKILLTREEGRIDLAYOUT_RESET_OFFSET UNITYSDK_OFFSET(0xA7D1FB0)
+#define RPG_EDITOR_SKILLTREEGRIDLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D2100)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillTreeGridLayout_TypeDefinitionIndex = 41028;
+	inline static constexpr unsigned int SkillTreeGridLayout_TypeDefinitionIndex = 42071;
 
 	class SkillTreeGridLayout : public ::UnityEngine::MonoBehaviour
 	{

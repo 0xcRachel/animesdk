@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierEffectType_TypeDefinitionIndex = 10157;
+	inline static constexpr unsigned int ModifierEffectType_TypeDefinitionIndex = 10159;
 
 	enum class ModifierEffectType : ::System::Int32
 	{

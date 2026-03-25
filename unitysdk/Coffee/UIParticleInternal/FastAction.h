@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1127D9C0)
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1127DA90)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x11A07360)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11A07430)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 33875;
+	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 34864;
 
 	class FastAction : public ::Coffee::UIParticleInternal::FastActionBase_1<::System::Action*>
 	{

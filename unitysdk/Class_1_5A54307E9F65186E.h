@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_5A54307E9F65186E_METHOD_1_75128EB2502FF804_OFFSET UNITYSDK_OFFSET(0x111AA2B0)
-#define CLASS_1_5A54307E9F65186E__CTOR_OFFSET UNITYSDK_OFFSET(0x111AA370)
+#define CLASS_1_5A54307E9F65186E_METHOD_1_75128EB2502FF804_OFFSET UNITYSDK_OFFSET(0x10589440)
+#define CLASS_1_5A54307E9F65186E__CTOR_OFFSET UNITYSDK_OFFSET(0x10589500)
 
-inline static constexpr unsigned int Class_1_5A54307E9F65186E_TypeDefinitionIndex = 57780;
+inline static constexpr unsigned int Class_1_5A54307E9F65186E_TypeDefinitionIndex = 59408;
 
 class Class_1_5A54307E9F65186E : public ::System::Object
 {

@@ -7,25 +7,25 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define CLASS_1_B8CD4F1CB8207431_CLEAR_OFFSET UNITYSDK_OFFSET(0x16340B00)
-#define CLASS_1_B8CD4F1CB8207431_ONALLOC_OFFSET UNITYSDK_OFFSET(0x16340BC0)
-#define CLASS_1_B8CD4F1CB8207431_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x16340C90)
-#define CLASS_1_B8CD4F1CB8207431__CTOR_OFFSET UNITYSDK_OFFSET(0x16340CD0)
+#define CLASS_1_B8CD4F1CB8207431_CLEAR_OFFSET UNITYSDK_OFFSET(0x169F5140)
+#define CLASS_1_B8CD4F1CB8207431_ONALLOC_OFFSET UNITYSDK_OFFSET(0x169F51F0)
+#define CLASS_1_B8CD4F1CB8207431_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x169F52C0)
+#define CLASS_1_B8CD4F1CB8207431__CTOR_OFFSET UNITYSDK_OFFSET(0x169F5300)
 
-inline static constexpr unsigned int Class_1_B8CD4F1CB8207431_TypeDefinitionIndex = 32603;
+inline static constexpr unsigned int Class_1_B8CD4F1CB8207431_TypeDefinitionIndex = 33527;
 
 class Class_1_B8CD4F1CB8207431 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::System::Int32>* Field_1_7; // 0x10
+	::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* Field_1_6; // 0x10
 	::System::String* Field_1_5; // 0x18
-	::RPG::PoolDictionary_2<::System::Int32, ::System::Boolean>* Field_1_6; // 0x20
+	::RPG::PoolList_1<::System::Int32>* Field_1_7; // 0x20
 	::System::String* Field_1_8; // 0x28
-	::System::Int32 Field_1_1; // 0x30
-	::UnityEngine::Vector3 Field_1_3; // 0x34
-	::UnityEngine::Vector3 Field_1_4; // 0x40
-	::System::Boolean Field_1_2; // 0x4C
-	::System::Boolean Field_1_0; // 0x4D
+	::System::Boolean Field_1_0; // 0x30
+	::System::Boolean Field_1_2; // 0x31
+	::UnityEngine::Vector3 Field_1_4; // 0x34
+	::UnityEngine::Vector3 Field_1_3; // 0x40
+	::System::Int32 Field_1_1; // 0x4C
 
 	::System::Void _ctor()
 	{

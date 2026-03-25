@@ -5,16 +5,16 @@
 class Class_1_B8CD4F1CB8207431;
 namespace RPG::GameCore { class FiveDimGravitySwitchLineConfig; }
 
-#define CLASS_1_358F5D52EF111F36_CLEAR_OFFSET UNITYSDK_OFFSET(0x16195970)
-#define CLASS_1_358F5D52EF111F36__CTOR_OFFSET UNITYSDK_OFFSET(0x16195A00)
+#define CLASS_1_358F5D52EF111F36_CLEAR_OFFSET UNITYSDK_OFFSET(0x16A61670)
+#define CLASS_1_358F5D52EF111F36__CTOR_OFFSET UNITYSDK_OFFSET(0x16A61700)
 
-inline static constexpr unsigned int Class_1_358F5D52EF111F36_TypeDefinitionIndex = 32604;
+inline static constexpr unsigned int Class_1_358F5D52EF111F36_TypeDefinitionIndex = 33528;
 
 class Class_1_358F5D52EF111F36 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimGravitySwitchLineConfig* Field_1_0; // 0x10
-	::Class_1_B8CD4F1CB8207431* Field_1_1; // 0x18
+	::Class_1_B8CD4F1CB8207431* Field_1_1; // 0x10
+	::RPG::GameCore::FiveDimGravitySwitchLineConfig* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

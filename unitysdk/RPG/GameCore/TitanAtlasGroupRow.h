@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170F79F0)
-#define RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170F7C30)
+#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178B5220)
+#define RPG_GAMECORE_TITANATLASGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178B5460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 13905;
+	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 14021;
 
 	class TitanAtlasGroupRow : public ::System::Object
 	{

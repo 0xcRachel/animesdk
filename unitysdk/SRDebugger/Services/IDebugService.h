@@ -16,7 +16,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IDebugService_TypeDefinitionIndex = 28831;
+	inline static constexpr unsigned int IDebugService_TypeDefinitionIndex = 29706;
 
 	class IDebugService
 	{

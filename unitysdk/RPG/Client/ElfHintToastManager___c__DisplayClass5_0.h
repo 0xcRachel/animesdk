@@ -6,19 +6,19 @@ namespace RPG::Client { class ElfRestaurantProgressData; }
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x911A010)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x911A1F0)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9119510)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x95C68B0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CHECKRECIPEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x95C6A90)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x95C5DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass5_0_TypeDefinitionIndex = 50613;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass5_0_TypeDefinitionIndex = 51748;
 
 	class ElfHintToastManager___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UserPrefs* userPrefs; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUndevelopedRecipeIDs; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUndevelopedRecipeIDs; // 0x10
+		::RPG::Client::UserPrefs* userPrefs; // 0x18
 		::RPG::Client::ElfRestaurantProgressData* currentProgressData; // 0x20
 
 		::System::Void _ctor()

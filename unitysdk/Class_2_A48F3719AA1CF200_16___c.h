@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class BattleFateHouguRuntime; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_A48F3719AA1CF200_16___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x111C68F0)
-#define CLASS_2_A48F3719AA1CF200_16___C__CTOR_OFFSET UNITYSDK_OFFSET(0x111C6930)
-#define CLASS_2_A48F3719AA1CF200_16___C__EVALUATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x111C6940)
+#define CLASS_2_A48F3719AA1CF200_16___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x113DA350)
+#define CLASS_2_A48F3719AA1CF200_16___C__CTOR_OFFSET UNITYSDK_OFFSET(0x113DA390)
+#define CLASS_2_A48F3719AA1CF200_16___C__EVALUATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x113DA3A0)
 
-inline static constexpr unsigned int Class_2_A48F3719AA1CF200_16___c_TypeDefinitionIndex = 50928;
+inline static constexpr unsigned int Class_2_A48F3719AA1CF200_16___c_TypeDefinitionIndex = 52063;
 
 class Class_2_A48F3719AA1CF200_16___c : public ::System::Object
 {
 public:
 	static ::Class_2_A48F3719AA1CF200_16___c** StaticGet___9()
 	{
-		return (::Class_2_A48F3719AA1CF200_16___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A48F3719AA1CF200_16___c_TypeDefinitionIndex)->GetStaticField(0x44120);
+		return (::Class_2_A48F3719AA1CF200_16___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A48F3719AA1CF200_16___c_TypeDefinitionIndex)->GetStaticField(0x15A10);
 	}
 	static ::System::Func_2<::RPG::GameCore::BattleFateHouguRuntime*, ::System::Int64>** StaticGet___9__0_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::BattleFateHouguRuntime*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A48F3719AA1CF200_16___c_TypeDefinitionIndex)->GetStaticField(0x44128);
+		return (::System::Func_2<::RPG::GameCore::BattleFateHouguRuntime*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_A48F3719AA1CF200_16___c_TypeDefinitionIndex)->GetStaticField(0x15A18);
 	}
 
 	static ::System::Void _cctor()

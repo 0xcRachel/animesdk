@@ -1,20 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/AstraFXResource.h"
 #include "unitysdk/UnityEngine/ComputeShaderAsset.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_ASTRAFXASSET_FINDMESHINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x181DA110)
-#define UNITYENGINE_ASTRAFXASSET_FINDPASSINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x181DA120)
-#define UNITYENGINE_ASTRAFXASSET_FINDRESOURCEINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x181DA0F0)
-#define UNITYENGINE_ASTRAFXASSET_GETMESHATINDEX_OFFSET UNITYSDK_OFFSET(0x181DA100)
-#define UNITYENGINE_ASTRAFXASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x181DA0E0)
-#define UNITYENGINE_ASTRAFXASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x181DA0D0)
+#define UNITYENGINE_ASTRAFXASSET_FINDMESHINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x18A02F70)
+#define UNITYENGINE_ASTRAFXASSET_FINDPASSINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x18A02F80)
+#define UNITYENGINE_ASTRAFXASSET_FINDRESOURCEINDEXBYNAME_OFFSET UNITYSDK_OFFSET(0x18A02F50)
+#define UNITYENGINE_ASTRAFXASSET_GETMESHATINDEX_OFFSET UNITYSDK_OFFSET(0x18A02F60)
+#define UNITYENGINE_ASTRAFXASSET_GETRESOURCEATINDEX_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A02F40)
+#define UNITYENGINE_ASTRAFXASSET_GETRESOURCEATINDEX_OFFSET UNITYSDK_OFFSET(0x18A02ED0)
+#define UNITYENGINE_ASTRAFXASSET_GET_NUMRESOURCES_OFFSET UNITYSDK_OFFSET(0x18A02EA0)
+#define UNITYENGINE_ASTRAFXASSET_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x18A02EC0)
+#define UNITYENGINE_ASTRAFXASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18A02EB0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXAsset_TypeDefinitionIndex = 3893;
+	inline static constexpr unsigned int AstraFXAsset_TypeDefinitionIndex = 3902;
 
 	class AstraFXAsset : public ::UnityEngine::ComputeShaderAsset
 	{
@@ -22,6 +26,16 @@ namespace UnityEngine
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASTRAFXASSET__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_numResources()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASTRAFXASSET_GET_NUMRESOURCES_OFFSET))(this);
+		}
+
+		::UnityEngine::AstraFXResource GetResourceAtIndex(::System::Int32 index)
+		{
+			return ((::UnityEngine::AstraFXResource(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_ASTRAFXASSET_GETRESOURCEATINDEX_OFFSET))(this, index);
 		}
 
 		::System::Int32 FindResourceIndexByName(::System::String* name)
@@ -47,6 +61,11 @@ namespace UnityEngine
 		static ::System::Void Internal_Create(::UnityEngine::AstraFXAsset* asset)
 		{
 			return ((::System::Void(*)(::UnityEngine::AstraFXAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASTRAFXASSET_INTERNAL_CREATE_OFFSET))(asset);
+		}
+
+		::System::Void GetResourceAtIndex_Injected(::System::Int32 index, ::UnityEngine::AstraFXResource& ret)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::AstraFXResource&))((::PBYTE)hIl2Cpp + UNITYENGINE_ASTRAFXASSET_GETRESOURCEATINDEX_INJECTED_OFFSET))(this, index, ret);
 		}
 	};
 }

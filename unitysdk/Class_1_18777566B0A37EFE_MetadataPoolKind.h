@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_18777566B0A37EFE_MetadataPoolKind_TypeDefinitionIndex = 39378;
+inline static constexpr unsigned int Class_1_18777566B0A37EFE_MetadataPoolKind_TypeDefinitionIndex = 40358;
 
 enum class Class_1_18777566B0A37EFE_MetadataPoolKind : ::System::Int32
 {

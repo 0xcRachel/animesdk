@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class CaptureCurrentInteractDialogueEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_C33D09E6AC333A6B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9E9A440)
-#define CLASS_2_C33D09E6AC333A6B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9E9A4F0)
-#define CLASS_2_C33D09E6AC333A6B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9E9A7A0)
-#define CLASS_2_C33D09E6AC333A6B_TICK_OFFSET UNITYSDK_OFFSET(0x9E9A490)
-#define CLASS_2_C33D09E6AC333A6B__CTOR_OFFSET UNITYSDK_OFFSET(0x9E9A430)
+#define CLASS_2_C33D09E6AC333A6B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x89C8D60)
+#define CLASS_2_C33D09E6AC333A6B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89C8E10)
+#define CLASS_2_C33D09E6AC333A6B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x89C90C0)
+#define CLASS_2_C33D09E6AC333A6B_TICK_OFFSET UNITYSDK_OFFSET(0x89C8DB0)
+#define CLASS_2_C33D09E6AC333A6B__CTOR_OFFSET UNITYSDK_OFFSET(0x89C8D50)
 
-inline static constexpr unsigned int Class_2_C33D09E6AC333A6B_TypeDefinitionIndex = 41577;
+inline static constexpr unsigned int Class_2_C33D09E6AC333A6B_TypeDefinitionIndex = 42622;
 
 class Class_2_C33D09E6AC333A6B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::CaptureCurrentInteractDialogueEntity* Field_2_0; // 0x20
+	::RPG::GameCore::CaptureCurrentInteractDialogueEntity* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CaptureCurrentInteractDialogueEntity* a2)
 	{

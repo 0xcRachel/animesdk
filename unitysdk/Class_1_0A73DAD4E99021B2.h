@@ -10,19 +10,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_0A73DAD4E99021B2_METHOD_1_0696DCA26B35BB36_OFFSET UNITYSDK_OFFSET(0xB2D5E10)
-#define CLASS_1_0A73DAD4E99021B2_METHOD_1_92E70BF14C1F70A4_OFFSET UNITYSDK_OFFSET(0xB2D5AF0)
-#define CLASS_1_0A73DAD4E99021B2__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2D6160)
-#define CLASS_1_0A73DAD4E99021B2__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D6110)
+#define CLASS_1_0A73DAD4E99021B2_METHOD_1_0696DCA26B35BB36_OFFSET UNITYSDK_OFFSET(0x114F4410)
+#define CLASS_1_0A73DAD4E99021B2_METHOD_1_92E70BF14C1F70A4_OFFSET UNITYSDK_OFFSET(0x114F40F0)
+#define CLASS_1_0A73DAD4E99021B2__CCTOR_OFFSET UNITYSDK_OFFSET(0x114F4760)
+#define CLASS_1_0A73DAD4E99021B2__CTOR_OFFSET UNITYSDK_OFFSET(0x114F4710)
 
-inline static constexpr unsigned int Class_1_0A73DAD4E99021B2_TypeDefinitionIndex = 44980;
+inline static constexpr unsigned int Class_1_0A73DAD4E99021B2_TypeDefinitionIndex = 46041;
 
 class Class_1_0A73DAD4E99021B2 : public ::System::Object
 {
 public:
 	static ::RPG::MVector3* StaticGet_Field_1_0()
 	{
-		return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A73DAD4E99021B2_TypeDefinitionIndex)->GetStaticField(0x10900);
+		return (::RPG::MVector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A73DAD4E99021B2_TypeDefinitionIndex)->GetStaticField(0xC200);
 	}
 	// static const ::System::Single Field_1_2; // 0x0
 	::System::Collections::Generic::List_1<::Class_1_F8634184B38ED7F3*>* Field_1_1; // 0x10

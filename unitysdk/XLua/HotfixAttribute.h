@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/XLua/HotfixFlag.h"
 
-#define XLUA_HOTFIXATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x172C8B10)
-#define XLUA_HOTFIXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x172C8B20)
+#define XLUA_HOTFIXATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x17A83E40)
+#define XLUA_HOTFIXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A83E50)
 
 namespace XLua
 {
-	inline static constexpr unsigned int HotfixAttribute_TypeDefinitionIndex = 8503;
+	inline static constexpr unsigned int HotfixAttribute_TypeDefinitionIndex = 8632;
 
 	class HotfixAttribute : public ::System::Attribute
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_CC12BEA64A5FD961;
 
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0CAF30)
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0__FINDTRAINPASSENGER_B__0_OFFSET UNITYSDK_OFFSET(0xA0CF690)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F0FA0)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS3_0__FINDTRAINPASSENGER_B__0_OFFSET UNITYSDK_OFFSET(0xA5F5740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainModule___c__DisplayClass3_0_TypeDefinitionIndex = 54084;
+	inline static constexpr unsigned int TrainModule___c__DisplayClass3_0_TypeDefinitionIndex = 55642;
 
 	class TrainModule___c__DisplayClass3_0 : public ::System::Object
 	{

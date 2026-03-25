@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_GroupType_TypeDefinitionIndex = 36748;
+	inline static constexpr unsigned int HAPI_GroupType_TypeDefinitionIndex = 37685;
 
 	enum class HAPI_GroupType : ::System::Int32
 	{

@@ -4,19 +4,19 @@
 
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASKREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1542C690)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASKREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1542C6F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASKREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15B46220)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASKREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B46280)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int FieldMaskReflection_TypeDefinitionIndex = 6110;
+	inline static constexpr unsigned int FieldMaskReflection_TypeDefinitionIndex = 6210;
 
 	class FieldMaskReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)Il2CppClass::FromTypeDefinitionIndex(FieldMaskReflection_TypeDefinitionIndex)->GetStaticField(0xBB60);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)Il2CppClass::FromTypeDefinitionIndex(FieldMaskReflection_TypeDefinitionIndex)->GetStaticField(0xD4B0);
 		}
 
 		static ::System::Void _cctor()

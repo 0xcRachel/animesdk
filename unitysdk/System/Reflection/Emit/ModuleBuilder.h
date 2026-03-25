@@ -7,9 +7,8 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x15CBAB40)
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_2_OFFSET UNITYSDK_OFFSET(0x15CBAB90)
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x15CBAAF0)
+#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x16383B30)
+#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x16383AE0)
 
 namespace System::Reflection::Emit
 {
@@ -18,19 +17,14 @@ namespace System::Reflection::Emit
 	class ModuleBuilder : public ::System::Reflection::Module
 	{
 	public:
-		::System::Reflection::Emit::TypeBuilder* DefineType(::System::String* name, ::System::Reflection::TypeAttributes attr)
+		::System::Reflection::Emit::TypeBuilder* DefineType(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent)
 		{
-			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET))(this, name, attr);
+			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET))(this, name, attr, parent);
 		}
 
-		::System::Reflection::Emit::TypeBuilder* DefineType_1(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent)
+		::System::Reflection::Emit::TypeBuilder* DefineType_1(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent, ::Il2CppArray<::System::Type*>* interfaces)
 		{
-			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET))(this, name, attr, parent);
-		}
-
-		::System::Reflection::Emit::TypeBuilder* DefineType_2(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent, ::Il2CppArray<::System::Type*>* interfaces)
-		{
-			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_2_OFFSET))(this, name, attr, parent, interfaces);
+			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET))(this, name, attr, parent, interfaces);
 		}
 	};
 }

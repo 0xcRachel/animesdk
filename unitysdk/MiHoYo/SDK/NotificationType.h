@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationType_TypeDefinitionIndex = 6991;
+	inline static constexpr unsigned int NotificationType_TypeDefinitionIndex = 7115;
 
 	enum class NotificationType : ::System::Int32
 	{

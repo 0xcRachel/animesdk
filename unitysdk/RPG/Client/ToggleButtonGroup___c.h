@@ -5,24 +5,24 @@
 namespace RPG::Client { class ToggleButton; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_TOGGLEBUTTONGROUP___C__ANYTOGGLESON_B__3_0_OFFSET UNITYSDK_OFFSET(0xA0C9EB0)
-#define RPG_CLIENT_TOGGLEBUTTONGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0C9E60)
-#define RPG_CLIENT_TOGGLEBUTTONGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C9EA0)
+#define RPG_CLIENT_TOGGLEBUTTONGROUP___C__ANYTOGGLESON_B__3_0_OFFSET UNITYSDK_OFFSET(0xA5EFF10)
+#define RPG_CLIENT_TOGGLEBUTTONGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5EFEC0)
+#define RPG_CLIENT_TOGGLEBUTTONGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5EFF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ToggleButtonGroup___c_TypeDefinitionIndex = 57952;
+	inline static constexpr unsigned int ToggleButtonGroup___c_TypeDefinitionIndex = 59579;
 
 	class ToggleButtonGroup___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::ToggleButton*>** StaticGet___9__3_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ToggleButton*>**)Il2CppClass::FromTypeDefinitionIndex(ToggleButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x2B9A0);
+			return (::System::Predicate_1<::RPG::Client::ToggleButton*>**)Il2CppClass::FromTypeDefinitionIndex(ToggleButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x43F00);
 		}
 		static ::RPG::Client::ToggleButtonGroup___c** StaticGet___9()
 		{
-			return (::RPG::Client::ToggleButtonGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ToggleButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x2B9A8);
+			return (::RPG::Client::ToggleButtonGroup___c**)Il2CppClass::FromTypeDefinitionIndex(ToggleButtonGroup___c_TypeDefinitionIndex)->GetStaticField(0x43F08);
 		}
 
 		static ::System::Void _cctor()

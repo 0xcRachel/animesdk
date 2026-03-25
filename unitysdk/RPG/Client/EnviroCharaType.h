@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnviroCharaType_TypeDefinitionIndex = 55497;
+	inline static constexpr unsigned int EnviroCharaType_TypeDefinitionIndex = 57062;
 
 	enum class EnviroCharaType : ::System::Int32
 	{

@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D24A90)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D25080)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174AC940)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174ACF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLiveStreamEmojiRow_TypeDefinitionIndex = 13046;
+	inline static constexpr unsigned int PerformanceLiveStreamEmojiRow_TypeDefinitionIndex = 13117;
 
 	class PerformanceLiveStreamEmojiRow : public ::System::Object
 	{
 	public:
-		::System::String* SubEmojiPath1; // 0x10
-		::System::String* SubEmojiPath2; // 0x18
+		::System::String* SubEmojiPath2; // 0x10
+		::System::String* SubEmojiPath1; // 0x18
 		::System::String* MainEmojiPath; // 0x20
 		::RPG::GameCore::PerformanceLiveStreamAtmosphereType Atmosphere; // 0x28
 

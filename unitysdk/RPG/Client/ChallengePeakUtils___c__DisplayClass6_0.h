@@ -4,18 +4,18 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8E9C970)
-#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS6_0__TRANSFERTOLAUNCHER_B__0_OFFSET UNITYSDK_OFFSET(0x8E9CFB0)
+#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93012F0)
+#define RPG_CLIENT_CHALLENGEPEAKUTILS___C__DISPLAYCLASS6_0__TRANSFERTOLAUNCHER_B__0_OFFSET UNITYSDK_OFFSET(0x9301930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakUtils___c__DisplayClass6_0_TypeDefinitionIndex = 50156;
+	inline static constexpr unsigned int ChallengePeakUtils___c__DisplayClass6_0_TypeDefinitionIndex = 51289;
 
 	class ChallengePeakUtils___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::System::Action* afterTeleportCallback; // 0x10
-		::System::Action* preTeleportCallback; // 0x18
+		::System::Action* preTeleportCallback; // 0x10
+		::System::Action* afterTeleportCallback; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -9,45 +9,45 @@ namespace CloudGame::MailBox { class Mailbox; }
 namespace CloudGame::MailBox { class Mailbox_ReceiveCallbackHandler; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_CONNECT_OFFSET UNITYSDK_OFFSET(0x156EED60)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_GAMECONTROLRECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x156EE840)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_GET_ACCELERATION_OFFSET UNITYSDK_OFFSET(0x156EE950)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_GET_GYRO_OFFSET UNITYSDK_OFFSET(0x156EEA30)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_PARSEQUATERNION_OFFSET UNITYSDK_OFFSET(0x156EEC40)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_PARSEVECTOR3_OFFSET UNITYSDK_OFFSET(0x156EEB50)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SEND_OFFSET UNITYSDK_OFFSET(0x156EF4A0)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SETIMUENABLED_OFFSET UNITYSDK_OFFSET(0x156EF250)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SET_ACCELERATION_OFFSET UNITYSDK_OFFSET(0x156EE9C0)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SET_GYRO_OFFSET UNITYSDK_OFFSET(0x156EEAB0)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x156EF6B0)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x156EF6A0)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_CONNECT_OFFSET UNITYSDK_OFFSET(0x15DDF540)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_GAMECONTROLRECEIVECALLBACK_OFFSET UNITYSDK_OFFSET(0x15DDF020)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_GET_ACCELERATION_OFFSET UNITYSDK_OFFSET(0x15DDF130)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_GET_GYRO_OFFSET UNITYSDK_OFFSET(0x15DDF210)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_PARSEQUATERNION_OFFSET UNITYSDK_OFFSET(0x15DDF420)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_PARSEVECTOR3_OFFSET UNITYSDK_OFFSET(0x15DDF330)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SEND_OFFSET UNITYSDK_OFFSET(0x15DDFC80)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SETIMUENABLED_OFFSET UNITYSDK_OFFSET(0x15DDFA30)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SET_ACCELERATION_OFFSET UNITYSDK_OFFSET(0x15DDF1A0)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL_SET_GYRO_OFFSET UNITYSDK_OFFSET(0x15DDF290)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DDFE90)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDFE80)
 
 namespace CloudGame::MailBox::GameControl
 {
-	inline static constexpr unsigned int GameControl_TypeDefinitionIndex = 6447;
+	inline static constexpr unsigned int GameControl_TypeDefinitionIndex = 6564;
 
 	class GameControl : public ::System::Object
 	{
 	public:
-		static ::CloudGame::MailBox::Mailbox** StaticGet_mailbox()
-		{
-			return (::CloudGame::MailBox::Mailbox**)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0xF4C0);
-		}
 		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet_OnReceiveData()
 		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0xF4C8);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x10EF0);
+		}
+		static ::CloudGame::MailBox::Mailbox** StaticGet_mailbox()
+		{
+			return (::CloudGame::MailBox::Mailbox**)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x10EF8);
 		}
 		static ::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler** StaticGet_receiveCallback()
 		{
-			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0xF4D0);
+			return (::CloudGame::MailBox::Mailbox_ReceiveCallbackHandler**)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x10F00);
 		}
 		static ::CloudGame::MailBox::GameControl::Gyroscope* StaticGet__gyro_k__BackingField()
 		{
-			return (::CloudGame::MailBox::GameControl::Gyroscope*)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x4390);
+			return (::CloudGame::MailBox::GameControl::Gyroscope*)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x5D90);
 		}
 		static ::UnityEngine::Vector3* StaticGet__acceleration_k__BackingField()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x43D0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(GameControl_TypeDefinitionIndex)->GetStaticField(0x5DD0);
 		}
 
 		::System::Void _ctor()

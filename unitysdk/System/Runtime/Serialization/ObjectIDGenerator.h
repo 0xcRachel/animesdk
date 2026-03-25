@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x15D39920)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_GETID_OFFSET UNITYSDK_OFFSET(0x15D399D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_HASID_OFFSET UNITYSDK_OFFSET(0x15D3A060)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_REHASH_OFFSET UNITYSDK_OFFSET(0x15D39C30)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D3A1E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15D39850)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_FINDELEMENT_OFFSET UNITYSDK_OFFSET(0x164013C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_GETID_OFFSET UNITYSDK_OFFSET(0x16401470)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_HASID_OFFSET UNITYSDK_OFFSET(0x16401B00)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR_REHASH_OFFSET UNITYSDK_OFFSET(0x164016D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x16401C80)
+#define SYSTEM_RUNTIME_SERIALIZATION_OBJECTIDGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x164012F0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ObjectIDGenerator_TypeDefinitionIndex = 1093;
+	inline static constexpr unsigned int ObjectIDGenerator_TypeDefinitionIndex = 1098;
 
 	class ObjectIDGenerator : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_sizes()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ObjectIDGenerator_TypeDefinitionIndex)->GetStaticField(0xA420);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ObjectIDGenerator_TypeDefinitionIndex)->GetStaticField(0x138C0);
 		}
 		::Il2CppArray<::System::Object*>* m_objs; // 0x10
 		::Il2CppArray<::System::Int64>* m_ids; // 0x18
-		::System::Int32 m_currentCount; // 0x20
-		::System::Int32 m_currentSize; // 0x24
+		::System::Int32 m_currentSize; // 0x20
+		::System::Int32 m_currentCount; // 0x24
 
 		::System::Void _ctor()
 		{

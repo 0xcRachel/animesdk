@@ -5,12 +5,12 @@
 namespace RPG::Client { class ProxyEffectProp; }
 namespace RPG::GameCore { class PropComponent; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x91880C0)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0___INITGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x9188A80)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9635250)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS38_0___INITGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x9635C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass38_0_TypeDefinitionIndex = 47920;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass38_0_TypeDefinitionIndex = 49002;
 
 	class EraFlipperManager___c__DisplayClass38_0 : public ::System::Object
 	{

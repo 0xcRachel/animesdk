@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_7807B2B04302CD7B_26.h"
+#include "unitysdk/Class_1_7807B2B04302CD7B_28.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_431D5EDB3988C68C_CLEAR_OFFSET UNITYSDK_OFFSET(0xC54BA10)
-#define CLASS_2_431D5EDB3988C68C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC54BA80)
-#define CLASS_2_431D5EDB3988C68C__CTOR_OFFSET UNITYSDK_OFFSET(0xC54BAF0)
+#define CLASS_2_431D5EDB3988C68C_CLEAR_OFFSET UNITYSDK_OFFSET(0x11389B30)
+#define CLASS_2_431D5EDB3988C68C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11389BA0)
+#define CLASS_2_431D5EDB3988C68C__CTOR_OFFSET UNITYSDK_OFFSET(0x11389C10)
 
-inline static constexpr unsigned int Class_2_431D5EDB3988C68C_TypeDefinitionIndex = 53705;
+inline static constexpr unsigned int Class_2_431D5EDB3988C68C_TypeDefinitionIndex = 55071;
 
-class Class_2_431D5EDB3988C68C : public ::Class_1_7807B2B04302CD7B_26
+class Class_2_431D5EDB3988C68C : public ::Class_1_7807B2B04302CD7B_28
 {
 public:
 	::System::Collections::Generic::List_1<::System::Int32>* Field_2_0; // 0x20

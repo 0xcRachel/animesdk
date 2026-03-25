@@ -7,22 +7,22 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_MESHLINEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x163A7170)
-#define RPG_CUSTOMRP_MESHLINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163A71F0)
+#define RPG_CUSTOMRP_MESHLINEDATA_RESET_OFFSET UNITYSDK_OFFSET(0x16AB63B0)
+#define RPG_CUSTOMRP_MESHLINEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB6430)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MeshLineData_TypeDefinitionIndex = 28658;
+	inline static constexpr unsigned int MeshLineData_TypeDefinitionIndex = 29533;
 
 	class MeshLineData : public ::System::Object
 	{
 	public:
-		::UnityEngine::MaterialPropertyBlock* mpb; // 0x10
-		::UnityEngine::Mesh* m; // 0x18
+		::UnityEngine::Mesh* m; // 0x10
+		::UnityEngine::MaterialPropertyBlock* mpb; // 0x18
 		::UnityEngine::Transform* t; // 0x20
-		::System::Int32 meshOffset; // 0x28
-		::System::Int32 instanceCount; // 0x2C
-		::UnityEngine::Bounds aabb; // 0x30
+		::System::Int32 instanceCount; // 0x28
+		::UnityEngine::Bounds aabb; // 0x2C
+		::System::Int32 meshOffset; // 0x44
 
 		::System::Void _ctor()
 		{

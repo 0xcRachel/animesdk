@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererSkinning_WeightCurveMode_TypeDefinitionIndex = 56165;
+	inline static constexpr unsigned int Effect_LineRendererSkinning_WeightCurveMode_TypeDefinitionIndex = 57736;
 
 	enum class Effect_LineRendererSkinning_WeightCurveMode : ::System::Int32
 	{

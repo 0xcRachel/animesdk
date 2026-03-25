@@ -3,7 +3,7 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_ciphersuite_TypeDefinitionIndex = 2344;
+	inline static constexpr unsigned int UnityTls_unitytls_ciphersuite_TypeDefinitionIndex = 2349;
 
 	enum class UnityTls_unitytls_ciphersuite : ::System::UInt32
 	{

@@ -6,25 +6,25 @@ namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_COPYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xA134E60)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_OVERRIDEDOFOFENVVOLUME_OFFSET UNITYSDK_OFFSET(0xA1351C0)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET UNITYSDK_OFFSET(0xA1357C0)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0xA1358E0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_COPYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xA65ACD0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_OVERRIDEDOFOFENVVOLUME_OFFSET UNITYSDK_OFFSET(0xA65B030)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET UNITYSDK_OFFSET(0xA65B630)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0xA65B750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DCameraCopyUtil_TypeDefinitionIndex = 58188;
+	inline static constexpr unsigned int UI3DCameraCopyUtil_TypeDefinitionIndex = 59838;
 
 	class UI3DCameraCopyUtil : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__DefaultVolumeProfile()
-		{
-			return (::UnityEngine::Rendering::VolumeProfile**)Il2CppClass::FromTypeDefinitionIndex(UI3DCameraCopyUtil_TypeDefinitionIndex)->GetStaticField(0x2FD40);
-		}
 		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__3DUIInstanceVolumeProfile()
 		{
-			return (::UnityEngine::Rendering::VolumeProfile**)Il2CppClass::FromTypeDefinitionIndex(UI3DCameraCopyUtil_TypeDefinitionIndex)->GetStaticField(0x2FD48);
+			return (::UnityEngine::Rendering::VolumeProfile**)Il2CppClass::FromTypeDefinitionIndex(UI3DCameraCopyUtil_TypeDefinitionIndex)->GetStaticField(0x47420);
+		}
+		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__DefaultVolumeProfile()
+		{
+			return (::UnityEngine::Rendering::VolumeProfile**)Il2CppClass::FromTypeDefinitionIndex(UI3DCameraCopyUtil_TypeDefinitionIndex)->GetStaticField(0x47428);
 		}
 
 		::System::Void _ctor()

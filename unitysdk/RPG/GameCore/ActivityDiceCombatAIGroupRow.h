@@ -5,23 +5,23 @@
 class Class_1_0DD0086A20E51DD0;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16784FF0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167852D0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EBAAE0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBADC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 10475;
+	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 10543;
 
 	class ActivityDiceCombatAIGroupRow : public ::System::Object
 	{
 	public:
 		::Class_1_0DD0086A20E51DD0* SelectTimeRange; // 0x10
-		::System::Single SelectWrongRate; // 0x18
-		::System::Single Quantile; // 0x1C
+		::System::UInt32 RerollMaxDefend; // 0x18
+		::System::Single SelectWrongRate; // 0x1C
 		::System::Single ColorfulDiceWeight; // 0x20
-		::System::UInt32 RerollMaxDefend; // 0x24
-		::System::Single SpecialRuleWeight; // 0x28
-		::System::Single SkillWeight; // 0x2C
+		::System::Single Quantile; // 0x24
+		::System::Single SkillWeight; // 0x28
+		::System::Single SpecialRuleWeight; // 0x2C
 		::System::UInt32 AIGroupID; // 0x30
 		::System::UInt32 RerollMaxAttack; // 0x34
 

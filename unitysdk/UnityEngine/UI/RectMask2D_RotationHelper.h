@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x205A590)
-#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x205A580)
+#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2130EA0)
+#define UNITYENGINE_UI_RECTMASK2D_ROTATIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x2130E90)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 5576;
+	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 5676;
 
 	struct alignas(8) RectMask2D_RotationHelper
 	{

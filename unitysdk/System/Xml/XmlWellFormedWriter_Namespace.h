@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Xml { class XmlRawWriter; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x2031A40)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_WRITEDECL_OFFSET UNITYSDK_OFFSET(0x2031A60)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x2107BA0)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_NAMESPACE_WRITEDECL_OFFSET UNITYSDK_OFFSET(0x2107BC0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_Namespace_TypeDefinitionIndex = 1860;
+	inline static constexpr unsigned int XmlWellFormedWriter_Namespace_TypeDefinitionIndex = 1865;
 
 	struct alignas(8) XmlWellFormedWriter_Namespace
 	{

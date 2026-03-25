@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTLEVELBASEVALUECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B26C80)
-#define RPG_GAMECORE_GRIDFIGHTLEVELBASEVALUECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B26E30)
+#define RPG_GAMECORE_GRIDFIGHTLEVELBASEVALUECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172737A0)
+#define RPG_GAMECORE_GRIDFIGHTLEVELBASEVALUECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17273950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightLevelBaseValueConfigRow_TypeDefinitionIndex = 12389;
+	inline static constexpr unsigned int GridFightLevelBaseValueConfigRow_TypeDefinitionIndex = 12459;
 
 	class GridFightLevelBaseValueConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SectionID; // 0x10
+		::System::UInt32 LevelBaseHP; // 0x10
 		::System::UInt32 LevelBaseAttack; // 0x14
-		::System::UInt32 LevelBaseHP; // 0x18
+		::System::UInt32 SectionID; // 0x18
 		::System::UInt32 ChapterID; // 0x1C
 
 		::System::Void _ctor()

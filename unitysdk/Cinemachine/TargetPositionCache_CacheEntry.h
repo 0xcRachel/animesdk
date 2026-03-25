@@ -7,19 +7,19 @@ namespace Cinemachine { class TargetPositionCache_CacheCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_ADDRAWITEM_OFFSET UNITYSDK_OFFSET(0x11267530)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_CREATECURVES_OFFSET UNITYSDK_OFFSET(0x112670F0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x11267490)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_ADDRAWITEM_OFFSET UNITYSDK_OFFSET(0x119F16C0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY_CREATECURVES_OFFSET UNITYSDK_OFFSET(0x119F1280)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x119F1620)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_CacheEntry_TypeDefinitionIndex = 30017;
+	inline static constexpr unsigned int TargetPositionCache_CacheEntry_TypeDefinitionIndex = 30892;
 
 	class TargetPositionCache_CacheEntry : public ::System::Object
 	{
 	public:
-		::Cinemachine::TargetPositionCache_CacheCurve* Curve; // 0x10
-		::System::Collections::Generic::List_1<::Cinemachine::TargetPositionCache_CacheEntry_RecordingItem>* RawItems; // 0x18
+		::System::Collections::Generic::List_1<::Cinemachine::TargetPositionCache_CacheEntry_RecordingItem>* RawItems; // 0x10
+		::Cinemachine::TargetPositionCache_CacheCurve* Curve; // 0x18
 
 		::System::Void _ctor()
 		{

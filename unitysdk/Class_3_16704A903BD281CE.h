@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialClearAllHideNodes; }
 
-#define CLASS_3_16704A903BD281CE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x111F21E0)
-#define CLASS_3_16704A903BD281CE__CTOR_OFFSET UNITYSDK_OFFSET(0x111F21B0)
+#define CLASS_3_16704A903BD281CE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118C34E0)
+#define CLASS_3_16704A903BD281CE__CTOR_OFFSET UNITYSDK_OFFSET(0x118C34B0)
 
-inline static constexpr unsigned int Class_3_16704A903BD281CE_TypeDefinitionIndex = 46413;
+inline static constexpr unsigned int Class_3_16704A903BD281CE_TypeDefinitionIndex = 47491;
 
 class Class_3_16704A903BD281CE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TutorialClearAllHideNodes*>
 {

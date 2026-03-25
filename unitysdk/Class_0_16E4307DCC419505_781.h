@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_781_TypeDefinitionIndex = 57178;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_781_TypeDefinitionIndex = 56283;
 
 class Class_0_16E4307DCC419505_781
 {

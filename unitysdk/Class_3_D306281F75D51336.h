@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureForbidAttackTriggerBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D306281F75D51336_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105CC850)
-#define CLASS_3_D306281F75D51336__CTOR_OFFSET UNITYSDK_OFFSET(0x105CC820)
+#define CLASS_3_D306281F75D51336_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8FE9E60)
+#define CLASS_3_D306281F75D51336__CTOR_OFFSET UNITYSDK_OFFSET(0x8FE9E30)
 
-inline static constexpr unsigned int Class_3_D306281F75D51336_TypeDefinitionIndex = 45619;
+inline static constexpr unsigned int Class_3_D306281F75D51336_TypeDefinitionIndex = 46683;
 
 class Class_3_D306281F75D51336 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureForbidAttackTriggerBattle*>
 {

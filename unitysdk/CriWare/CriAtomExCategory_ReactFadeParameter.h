@@ -5,7 +5,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactFadeParameter_TypeDefinitionIndex = 30136;
+	inline static constexpr unsigned int CriAtomExCategory_ReactFadeParameter_TypeDefinitionIndex = 31011;
 
 	struct alignas(4) CriAtomExCategory_ReactFadeParameter
 	{

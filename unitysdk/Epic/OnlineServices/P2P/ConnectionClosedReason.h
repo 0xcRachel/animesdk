@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int ConnectionClosedReason_TypeDefinitionIndex = 34949;
+	inline static constexpr unsigned int ConnectionClosedReason_TypeDefinitionIndex = 35883;
 
 	enum class ConnectionClosedReason : ::System::Int32
 	{

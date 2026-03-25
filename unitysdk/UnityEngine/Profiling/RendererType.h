@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Profiling
 {
-	inline static constexpr unsigned int RendererType_TypeDefinitionIndex = 4298;
+	inline static constexpr unsigned int RendererType_TypeDefinitionIndex = 4320;
 
 	enum class RendererType : ::System::Int32
 	{

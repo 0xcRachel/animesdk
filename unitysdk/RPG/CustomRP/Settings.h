@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x163DE610)
-#define RPG_CUSTOMRP_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x163DE600)
+#define RPG_CUSTOMRP_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AED2B0)
+#define RPG_CUSTOMRP_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x16AED2A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 28648;
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 29523;
 
 	class Settings : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_DEFAULT_SERVER_PORT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xDEF0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xB7B0);
 		}
 		static ::System::Int32* StaticGet_BROADCAST_TIME()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xDEF4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xB7B4);
 		}
 		static ::System::Int32* StaticGet_DEFAULT_BROADCAST_PORT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xDEF8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xB7B8);
 		}
 
 		::System::Void _ctor()

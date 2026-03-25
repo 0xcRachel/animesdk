@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AICompareStrategy_TypeDefinitionIndex = 14152;
+	inline static constexpr unsigned int AICompareStrategy_TypeDefinitionIndex = 14270;
 
 	enum class AICompareStrategy : ::System::Int32
 	{

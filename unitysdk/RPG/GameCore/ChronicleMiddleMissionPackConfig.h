@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiddleMissionPackConfig; }
 
-#define RPG_GAMECORE_CHRONICLEMIDDLEMISSIONPACKCONFIG_METHOD_2_E49C035FDE69C9E5_OFFSET UNITYSDK_OFFSET(0x169A0830)
-#define RPG_GAMECORE_CHRONICLEMIDDLEMISSIONPACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x169A0900)
+#define RPG_GAMECORE_CHRONICLEMIDDLEMISSIONPACKCONFIG_METHOD_2_E49C035FDE69C9E5_OFFSET UNITYSDK_OFFSET(0x170C2980)
+#define RPG_GAMECORE_CHRONICLEMIDDLEMISSIONPACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170C2A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleMiddleMissionPackConfig_TypeDefinitionIndex = 16990;
+	inline static constexpr unsigned int ChronicleMiddleMissionPackConfig_TypeDefinitionIndex = 17395;
 
 	class ChronicleMiddleMissionPackConfig : public ::RPG::GameCore::JsonConfig
 	{

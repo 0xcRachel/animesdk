@@ -4,12 +4,12 @@
 
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASEQUENCE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x17D94C40)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D934C0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASEQUENCE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x185C4760)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x185C2FE0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSequence_TypeDefinitionIndex = 2192;
+	inline static constexpr unsigned int XmlSchemaSequence_TypeDefinitionIndex = 2197;
 
 	class XmlSchemaSequence : public ::System::Xml::Schema::XmlSchemaGroupBase
 	{

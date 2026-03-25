@@ -12,16 +12,16 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALREPLACERBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x96DFAB0)
-#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_27EEE9768439A81E_OFFSET UNITYSDK_OFFSET(0x96DFFA0)
-#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_C9AFB90996C1C3FE_OFFSET UNITYSDK_OFFSET(0x96DFB70)
-#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_E6FA84ECDEF620CE_OFFSET UNITYSDK_OFFSET(0x96DFF40)
-#define RPG_CLIENT_MATERIALREPLACERBASE_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0x96DFB00)
-#define RPG_CLIENT_MATERIALREPLACERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x96E00A0)
+#define RPG_CLIENT_MATERIALREPLACERBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x9B855E0)
+#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_27EEE9768439A81E_OFFSET UNITYSDK_OFFSET(0x9B85B00)
+#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_77DD15830483C589_OFFSET UNITYSDK_OFFSET(0x9B856A0)
+#define RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_E6FA84ECDEF620CE_OFFSET UNITYSDK_OFFSET(0x9B85AA0)
+#define RPG_CLIENT_MATERIALREPLACERBASE_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0x9B85630)
+#define RPG_CLIENT_MATERIALREPLACERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x9B85C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialReplacerBase_TypeDefinitionIndex = 54840;
+	inline static constexpr unsigned int MaterialReplacerBase_TypeDefinitionIndex = 56401;
 
 	class MaterialReplacerBase : public ::UnityEngine::MonoBehaviour
 	{
@@ -44,9 +44,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_REPLACEMATERIAL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C9AFB90996C1C3FE(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a2)
+		::System::Void Method_5_77DD15830483C589(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_C9AFB90996C1C3FE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALREPLACERBASE_METHOD_5_77DD15830483C589_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_5_E6FA84ECDEF620CE()

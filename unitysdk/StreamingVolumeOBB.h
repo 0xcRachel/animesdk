@@ -10,10 +10,10 @@ namespace System::Collections { class BitArray; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STREAMINGVOLUMEOBB_UPDATEBITSTATE_OFFSET UNITYSDK_OFFSET(0xA6A5C70)
-#define STREAMINGVOLUMEOBB__CTOR_OFFSET UNITYSDK_OFFSET(0xA6A5E50)
+#define STREAMINGVOLUMEOBB_UPDATEBITSTATE_OFFSET UNITYSDK_OFFSET(0xABED7E0)
+#define STREAMINGVOLUMEOBB__CTOR_OFFSET UNITYSDK_OFFSET(0xABED9C0)
 
-inline static constexpr unsigned int StreamingVolumeOBB_TypeDefinitionIndex = 37231;
+inline static constexpr unsigned int StreamingVolumeOBB_TypeDefinitionIndex = 38195;
 
 class StreamingVolumeOBB : public ::UnityEngine::MonoBehaviour
 {

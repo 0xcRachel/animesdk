@@ -6,13 +6,13 @@ namespace EnviromentSystem { class EnviroProperty; }
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_1B0916E27D8401AA_OFFSET UNITYSDK_OFFSET(0xE4B5E00)
-#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_6AA875EA08DEE2B3_OFFSET UNITYSDK_OFFSET(0xE4B5EB0)
-#define ENVIROMENTSYSTEM_ENVIROFOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE4B5EA0)
+#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_1B0916E27D8401AA_OFFSET UNITYSDK_OFFSET(0xFB97820)
+#define ENVIROMENTSYSTEM_ENVIROFOGCLIP_METHOD_2_6AA875EA08DEE2B3_OFFSET UNITYSDK_OFFSET(0xFB978D0)
+#define ENVIROMENTSYSTEM_ENVIROFOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xFB978C0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroFogClip_TypeDefinitionIndex = 39282;
+	inline static constexpr unsigned int EnviroFogClip_TypeDefinitionIndex = 40262;
 
 	class EnviroFogClip : public ::EnviromentSystem::EnviromentClip
 	{

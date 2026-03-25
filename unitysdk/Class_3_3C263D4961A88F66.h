@@ -8,25 +8,25 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Side_ElfInteractCurrentSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3C263D4961A88F66_METHOD_3_F859CE601F919CF3_OFFSET UNITYSDK_OFFSET(0x878C9E0)
-#define CLASS_3_3C263D4961A88F66_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x878C490)
-#define CLASS_3_3C263D4961A88F66_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x878CCF0)
-#define CLASS_3_3C263D4961A88F66_TICK_OFFSET UNITYSDK_OFFSET(0x878CD40)
-#define CLASS_3_3C263D4961A88F66__CTOR_OFFSET UNITYSDK_OFFSET(0x878C460)
-#define CLASS_3_3C263D4961A88F66___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x878CEF0)
+#define CLASS_3_3C263D4961A88F66_METHOD_3_F859CE601F919CF3_OFFSET UNITYSDK_OFFSET(0x105292D0)
+#define CLASS_3_3C263D4961A88F66_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10528DA0)
+#define CLASS_3_3C263D4961A88F66_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105295E0)
+#define CLASS_3_3C263D4961A88F66_TICK_OFFSET UNITYSDK_OFFSET(0x10529630)
+#define CLASS_3_3C263D4961A88F66__CTOR_OFFSET UNITYSDK_OFFSET(0x10528D70)
+#define CLASS_3_3C263D4961A88F66___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x105297E0)
 
-inline static constexpr unsigned int Class_3_3C263D4961A88F66_TypeDefinitionIndex = 41151;
+inline static constexpr unsigned int Class_3_3C263D4961A88F66_TypeDefinitionIndex = 42194;
 
 class Class_3_3C263D4961A88F66 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_ElfInteractCurrentSlot*>
 {
 public:
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
-	::UnityEngine::Vector3 Field_3_4; // 0x30
-	::UnityEngine::Vector3 Field_3_3; // 0x3C
-	::UnityEngine::Quaternion Field_3_5; // 0x48
+	::UnityEngine::Quaternion Field_3_6; // 0x30
+	::UnityEngine::Vector3 Field_3_4; // 0x40
+	::UnityEngine::Vector3 Field_3_3; // 0x4C
 	::System::Single Field_3_2; // 0x58
-	::System::Single Field_3_1; // 0x5C
-	::UnityEngine::Quaternion Field_3_6; // 0x60
+	::UnityEngine::Quaternion Field_3_5; // 0x5C
+	::System::Single Field_3_1; // 0x6C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_ElfInteractCurrentSlot* a2)
 	{

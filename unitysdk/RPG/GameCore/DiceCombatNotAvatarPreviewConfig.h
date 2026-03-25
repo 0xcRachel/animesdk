@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_METHOD_2_BBF4479ED512072C_OFFSET UNITYSDK_OFFSET(0x16A36970)
-#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A36AA0)
+#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_METHOD_2_DC60ABB6BC469463_OFFSET UNITYSDK_OFFSET(0x17175930)
+#define RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17175A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatNotAvatarPreviewConfig_TypeDefinitionIndex = 14554;
+	inline static constexpr unsigned int DiceCombatNotAvatarPreviewConfig_TypeDefinitionIndex = 14806;
 
 	class DiceCombatNotAvatarPreviewConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BBF4479ED512072C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatNotAvatarPreviewConfig*& a2)
+		static ::System::Void Method_2_DC60ABB6BC469463(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatNotAvatarPreviewConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatNotAvatarPreviewConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_METHOD_2_BBF4479ED512072C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatNotAvatarPreviewConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATNOTAVATARPREVIEWCONFIG_METHOD_2_DC60ABB6BC469463_OFFSET))(a1, a2);
 		}
 	};
 }

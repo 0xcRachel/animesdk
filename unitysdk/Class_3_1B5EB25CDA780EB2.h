@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DestroyPropTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1B5EB25CDA780EB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFE6F8E0)
-#define CLASS_3_1B5EB25CDA780EB2__CTOR_OFFSET UNITYSDK_OFFSET(0xFE6F8B0)
+#define CLASS_3_1B5EB25CDA780EB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114F38B0)
+#define CLASS_3_1B5EB25CDA780EB2__CTOR_OFFSET UNITYSDK_OFFSET(0x114F3880)
 
-inline static constexpr unsigned int Class_3_1B5EB25CDA780EB2_TypeDefinitionIndex = 45783;
+inline static constexpr unsigned int Class_3_1B5EB25CDA780EB2_TypeDefinitionIndex = 46851;
 
 class Class_3_1B5EB25CDA780EB2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DestroyPropTrigger*>
 {

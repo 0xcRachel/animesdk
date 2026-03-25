@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdateCaptureScreenshot_TypeDefinitionIndex = 4436;
+	inline static constexpr unsigned int PostLateUpdate_UpdateCaptureScreenshot_TypeDefinitionIndex = 4458;
 
 	struct alignas(1) PostLateUpdate_UpdateCaptureScreenshot
 	{

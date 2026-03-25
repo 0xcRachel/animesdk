@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareTeamLeaderBodySize; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C15E9B3B55B9A973_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8A3B8B0)
-#define CLASS_3_C15E9B3B55B9A973__CTOR_OFFSET UNITYSDK_OFFSET(0x8A3B880)
+#define CLASS_3_C15E9B3B55B9A973_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10B2D800)
+#define CLASS_3_C15E9B3B55B9A973__CTOR_OFFSET UNITYSDK_OFFSET(0x10B2D7D0)
 
-inline static constexpr unsigned int Class_3_C15E9B3B55B9A973_TypeDefinitionIndex = 41959;
+inline static constexpr unsigned int Class_3_C15E9B3B55B9A973_TypeDefinitionIndex = 43008;
 
 class Class_3_C15E9B3B55B9A973 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareTeamLeaderBodySize*>
 {

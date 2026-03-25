@@ -4,9 +4,9 @@
 
 class Class_1_89D8044AB73F8F6D;
 
-#define CLASS_2_5BC851BA5024940F__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB0C20)
+#define CLASS_2_5BC851BA5024940F__CTOR_OFFSET UNITYSDK_OFFSET(0x113937D0)
 
-inline static constexpr unsigned int Class_2_5BC851BA5024940F_TypeDefinitionIndex = 56888;
+inline static constexpr unsigned int Class_2_5BC851BA5024940F_TypeDefinitionIndex = 58477;
 
 class Class_2_5BC851BA5024940F : public ::RPG::Client::UIController
 {

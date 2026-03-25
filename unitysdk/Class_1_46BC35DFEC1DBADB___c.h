@@ -6,27 +6,27 @@
 namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_46BC35DFEC1DBADB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF57F860)
-#define CLASS_1_46BC35DFEC1DBADB___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF57F8A0)
-#define CLASS_1_46BC35DFEC1DBADB___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xF57F8B0)
-#define CLASS_1_46BC35DFEC1DBADB___C___CTOR_B__3_1_OFFSET UNITYSDK_OFFSET(0xF57F8E0)
+#define CLASS_1_46BC35DFEC1DBADB___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1069D010)
+#define CLASS_1_46BC35DFEC1DBADB___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1069D050)
+#define CLASS_1_46BC35DFEC1DBADB___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1069D060)
+#define CLASS_1_46BC35DFEC1DBADB___C___CTOR_B__3_1_OFFSET UNITYSDK_OFFSET(0x1069D090)
 
-inline static constexpr unsigned int Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex = 61744;
+inline static constexpr unsigned int Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex = 63931;
 
 class Class_1_46BC35DFEC1DBADB___c : public ::System::Object
 {
 public:
-	static ::Class_1_46BC35DFEC1DBADB___c** StaticGet___9()
-	{
-		return (::Class_1_46BC35DFEC1DBADB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex)->GetStaticField(0x45F70);
-	}
 	static ::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>** StaticGet___9__3_1()
 	{
-		return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex)->GetStaticField(0x45F78);
+		return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex)->GetStaticField(0x1F8C0);
+	}
+	static ::Class_1_46BC35DFEC1DBADB___c** StaticGet___9()
+	{
+		return (::Class_1_46BC35DFEC1DBADB___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex)->GetStaticField(0x1F8C8);
 	}
 	static ::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationState>** StaticGet___9__3_0()
 	{
-		return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex)->GetStaticField(0x45F80);
+		return (::System::Func_2<::RPG::Client::Prop::ChimeraPreparationStateControllerBase*, ::RPG::Client::Prop::ChimeraPreparationState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_46BC35DFEC1DBADB___c_TypeDefinitionIndex)->GetStaticField(0x1F8D0);
 	}
 
 	static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BA4BA0)
-#define RPG_GAMECORE_LEVELENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA4C90)
+#define RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17348570)
+#define RPG_GAMECORE_LEVELENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x17348660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 16929;
+	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 17334;
 
 	class LevelEntityRef : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,20 +8,20 @@ namespace System::Collections { class Hashtable; }
 namespace System::Collections { class IDictionary; }
 namespace System::Collections { class IList; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x15CE9C30)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x15CE9C40)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE9B90)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x163B2050)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x163B2060)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_SINKPROVIDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x163B1FB0)
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int SinkProviderData_TypeDefinitionIndex = 1261;
+	inline static constexpr unsigned int SinkProviderData_TypeDefinitionIndex = 1266;
 
 	class SinkProviderData : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* properties; // 0x10
+		::System::Collections::ArrayList* children; // 0x10
 		::System::String* sinkName; // 0x18
-		::System::Collections::ArrayList* children; // 0x20
+		::System::Collections::Hashtable* properties; // 0x20
 
 		::System::Void _ctor(::System::String* name)
 		{

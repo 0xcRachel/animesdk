@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleUIInTimeline___O_TypeDefinitionIndex = 20575;
+	inline static constexpr unsigned int ShowBattleUIInTimeline___O_TypeDefinitionIndex = 21124;
 
 	class ShowBattleUIInTimeline___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::BattleUIPanelType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::BattleUIPanelType>**)Il2CppClass::FromTypeDefinitionIndex(ShowBattleUIInTimeline___O_TypeDefinitionIndex)->GetStaticField(0xB4A0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::BattleUIPanelType>**)Il2CppClass::FromTypeDefinitionIndex(ShowBattleUIInTimeline___O_TypeDefinitionIndex)->GetStaticField(0x11540);
 		}
 	};
 }

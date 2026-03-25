@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_0_16E4307DCC419505_347;
+class Class_0_16E4307DCC419505_375;
 namespace RPG::Client { class QteCatchGhostRewindInstance; }
 namespace RPG::GameCore { class QteCatchGhostRewind; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_1FAB2FDBD0E565C2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x85A6AA0)
-#define CLASS_2_1FAB2FDBD0E565C2_METHOD_2_240B9CD8AFBDC4FE_OFFSET UNITYSDK_OFFSET(0x85A6F60)
-#define CLASS_2_1FAB2FDBD0E565C2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x85A6BA0)
-#define CLASS_2_1FAB2FDBD0E565C2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x85A7080)
-#define CLASS_2_1FAB2FDBD0E565C2_TICK_OFFSET UNITYSDK_OFFSET(0x85A70D0)
-#define CLASS_2_1FAB2FDBD0E565C2__CTOR_OFFSET UNITYSDK_OFFSET(0x85A6A30)
+#define CLASS_2_1FAB2FDBD0E565C2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x105125B0)
+#define CLASS_2_1FAB2FDBD0E565C2_METHOD_2_240B9CD8AFBDC4FE_OFFSET UNITYSDK_OFFSET(0x10512A70)
+#define CLASS_2_1FAB2FDBD0E565C2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105126B0)
+#define CLASS_2_1FAB2FDBD0E565C2_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10512B90)
+#define CLASS_2_1FAB2FDBD0E565C2_TICK_OFFSET UNITYSDK_OFFSET(0x10512BE0)
+#define CLASS_2_1FAB2FDBD0E565C2__CTOR_OFFSET UNITYSDK_OFFSET(0x10512540)
 
-inline static constexpr unsigned int Class_2_1FAB2FDBD0E565C2_TypeDefinitionIndex = 42010;
+inline static constexpr unsigned int Class_2_1FAB2FDBD0E565C2_TypeDefinitionIndex = 43059;
 
 class Class_2_1FAB2FDBD0E565C2 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::Client::QteCatchGhostRewindInstance* Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
-	::RPG::GameCore::QteCatchGhostRewind* Field_2_1; // 0x28
+	::RPG::GameCore::QteCatchGhostRewind* Field_2_1; // 0x18
+	::RPG::Client::QteCatchGhostRewindInstance* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::QteCatchGhostRewind* a2)
 	{
@@ -38,9 +38,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_1FAB2FDBD0E565C2_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_2_240B9CD8AFBDC4FE(::Class_0_16E4307DCC419505_347* a1)
+	::System::Void Method_2_240B9CD8AFBDC4FE(::Class_0_16E4307DCC419505_375* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_347*))((::PBYTE)hIl2Cpp + CLASS_2_1FAB2FDBD0E565C2_METHOD_2_240B9CD8AFBDC4FE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_2_1FAB2FDBD0E565C2_METHOD_2_240B9CD8AFBDC4FE_OFFSET))(this, a1);
 	}
 
 	::System::Void OnTaskReset()

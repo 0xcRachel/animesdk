@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICSTRING_METHOD_2_84F01E2593882111_OFFSET UNITYSDK_OFFSET(0x16A54DC0)
-#define RPG_GAMECORE_DYNAMICSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x16A57180)
+#define RPG_GAMECORE_DYNAMICSTRING_METHOD_2_84F01E2593882111_OFFSET UNITYSDK_OFFSET(0x171978F0)
+#define RPG_GAMECORE_DYNAMICSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x17199D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicString_TypeDefinitionIndex = 14835;
+	inline static constexpr unsigned int DynamicString_TypeDefinitionIndex = 15087;
 
 	class DynamicString : public ::RPG::GameCore::JsonConfig
 	{

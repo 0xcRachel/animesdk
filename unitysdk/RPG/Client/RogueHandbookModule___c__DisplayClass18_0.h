@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueHandbookBuffTypeRewardData; }
 
-#define RPG_CLIENT_ROGUEHANDBOOKMODULE___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DFAC10)
-#define RPG_CLIENT_ROGUEHANDBOOKMODULE___C__DISPLAYCLASS18_0__ISBUFFTYPEREWARDCANTAKE_B__0_OFFSET UNITYSDK_OFFSET(0x9DFAC20)
+#define RPG_CLIENT_ROGUEHANDBOOKMODULE___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA319130)
+#define RPG_CLIENT_ROGUEHANDBOOKMODULE___C__DISPLAYCLASS18_0__ISBUFFTYPEREWARDCANTAKE_B__0_OFFSET UNITYSDK_OFFSET(0xA31C8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueHandbookModule___c__DisplayClass18_0_TypeDefinitionIndex = 53544;
+	inline static constexpr unsigned int RogueHandbookModule___c__DisplayClass18_0_TypeDefinitionIndex = 54891;
 
 	class RogueHandbookModule___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelRotatableRegionBakedInfo; }
 
-#define RPG_GAMECORE_LEVELROTATABLEBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BBCFC0)
-#define RPG_GAMECORE_LEVELROTATABLEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BBD0C0)
+#define RPG_GAMECORE_LEVELROTATABLEBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173494F0)
+#define RPG_GAMECORE_LEVELROTATABLEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17360720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRotatableBakedInfo_TypeDefinitionIndex = 15461;
+	inline static constexpr unsigned int LevelRotatableBakedInfo_TypeDefinitionIndex = 15738;
 
 	class LevelRotatableBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

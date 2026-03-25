@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_SERIALIZABLEDICTIONARYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA280E90)
+#define RPG_CUSTOMRP_SERIALIZABLEDICTIONARYBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7BB990)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SerializableDictionaryBase_TypeDefinitionIndex = 40856;
+	inline static constexpr unsigned int SerializableDictionaryBase_TypeDefinitionIndex = 41904;
 
 	class SerializableDictionaryBase : public ::System::Object
 	{

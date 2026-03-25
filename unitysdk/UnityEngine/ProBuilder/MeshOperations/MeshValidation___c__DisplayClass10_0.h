@@ -5,12 +5,12 @@
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180432C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__REBUILDSELECTIONINDEXES_B__0_OFFSET UNITYSDK_OFFSET(0x18043390)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1886B670)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS10_0__REBUILDSELECTIONINDEXES_B__0_OFFSET UNITYSDK_OFFSET(0x1886B740)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshValidation___c__DisplayClass10_0_TypeDefinitionIndex = 33257;
+	inline static constexpr unsigned int MeshValidation___c__DisplayClass10_0_TypeDefinitionIndex = 34246;
 
 	class MeshValidation___c__DisplayClass10_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNDIFFICULTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EC4E10)
-#define RPG_GAMECORE_ROGUETOURNDIFFICULTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC4F60)
+#define RPG_GAMECORE_ROGUETOURNDIFFICULTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17678CD0)
+#define RPG_GAMECORE_ROGUETOURNDIFFICULTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17678E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournDifficultyRow_TypeDefinitionIndex = 13607;
+	inline static constexpr unsigned int RogueTournDifficultyRow_TypeDefinitionIndex = 13689;
 
 	class RogueTournDifficultyRow : public ::System::Object
 	{

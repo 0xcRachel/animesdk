@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_ColorMode_TypeDefinitionIndex = 32932;
+inline static constexpr unsigned int RefGPUParticleSystem_ColorMode_TypeDefinitionIndex = 33920;
 
 enum class RefGPUParticleSystem_ColorMode : ::System::Int32
 {

@@ -33,7 +33,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int DefinitionV2Internal_TypeDefinitionIndex = 35846;
+	inline static constexpr unsigned int DefinitionV2Internal_TypeDefinitionIndex = 36780;
 
 	struct alignas(8) DefinitionV2Internal
 	{

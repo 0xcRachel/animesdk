@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoguePropPageType_TypeDefinitionIndex = 19945;
+	inline static constexpr unsigned int RoguePropPageType_TypeDefinitionIndex = 20484;
 
 	enum class RoguePropPageType : ::System::Int32
 	{

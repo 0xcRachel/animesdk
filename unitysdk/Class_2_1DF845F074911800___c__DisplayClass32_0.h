@@ -6,17 +6,17 @@ class Class_2_1DF845F074911800;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EAF740)
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS32_0___INITINSTOBJ_B__0_OFFSET UNITYSDK_OFFSET(0x9EB4770)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDD790)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS32_0___INITINSTOBJ_B__0_OFFSET UNITYSDK_OFFSET(0xBEE2840)
 
-inline static constexpr unsigned int Class_2_1DF845F074911800___c__DisplayClass32_0_TypeDefinitionIndex = 58820;
+inline static constexpr unsigned int Class_2_1DF845F074911800___c__DisplayClass32_0_TypeDefinitionIndex = 60563;
 
 class Class_2_1DF845F074911800___c__DisplayClass32_0 : public ::System::Object
 {
 public:
-	::RPG::Client::OpenWorld::StreamingItemData* renderItem; // 0x10
+	::Class_2_1DF845F074911800* __4__this; // 0x10
 	::UnityEngine::GameObject* instObject; // 0x18
-	::Class_2_1DF845F074911800* __4__this; // 0x20
+	::RPG::Client::OpenWorld::StreamingItemData* renderItem; // 0x20
 	::System::Boolean isLoadedBySync; // 0x28
 
 	::System::Void _ctor()

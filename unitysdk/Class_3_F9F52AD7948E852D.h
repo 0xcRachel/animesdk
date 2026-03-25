@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareAliveEnemyNumber; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F9F52AD7948E852D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8497090)
-#define CLASS_3_F9F52AD7948E852D__CTOR_OFFSET UNITYSDK_OFFSET(0x8497060)
+#define CLASS_3_F9F52AD7948E852D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x114288F0)
+#define CLASS_3_F9F52AD7948E852D__CTOR_OFFSET UNITYSDK_OFFSET(0x114288C0)
 
-inline static constexpr unsigned int Class_3_F9F52AD7948E852D_TypeDefinitionIndex = 42542;
+inline static constexpr unsigned int Class_3_F9F52AD7948E852D_TypeDefinitionIndex = 43592;
 
 class Class_3_F9F52AD7948E852D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareAliveEnemyNumber*>
 {

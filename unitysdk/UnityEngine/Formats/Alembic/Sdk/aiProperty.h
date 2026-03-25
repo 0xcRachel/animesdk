@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x17F91030)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPROPERTY_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x187BA360)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiProperty_TypeDefinitionIndex = 34070;
+	inline static constexpr unsigned int aiProperty_TypeDefinitionIndex = 35004;
 
 	struct alignas(8) aiProperty
 	{

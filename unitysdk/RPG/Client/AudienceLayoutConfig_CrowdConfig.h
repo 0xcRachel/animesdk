@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceLayoutConfig_CrowdConfig_TypeDefinitionIndex = 54947;
+	inline static constexpr unsigned int AudienceLayoutConfig_CrowdConfig_TypeDefinitionIndex = 56509;
 
 	struct alignas(4) AudienceLayoutConfig_CrowdConfig
 	{

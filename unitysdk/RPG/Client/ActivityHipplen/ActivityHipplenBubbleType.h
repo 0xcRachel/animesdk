@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenBubbleType_TypeDefinitionIndex = 59858;
+	inline static constexpr unsigned int ActivityHipplenBubbleType_TypeDefinitionIndex = 61614;
 
 	enum class ActivityHipplenBubbleType : ::System::Int32
 	{

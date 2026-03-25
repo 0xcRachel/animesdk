@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE_METHOD_3_36F88CC3BF5C32B2_OFFSET UNITYSDK_OFFSET(0x16FF29F0)
-#define RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE_METHOD_3_C51DEEAF9F01D3F9_OFFSET UNITYSDK_OFFSET(0x16FF12F0)
-#define RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF12D0)
+#define RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE_METHOD_3_A56D8209BD0D84E6_OFFSET UNITYSDK_OFFSET(0x177E7C10)
+#define RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE_METHOD_3_C51DEEAF9F01D3F9_OFFSET UNITYSDK_OFFSET(0x177E6510)
+#define RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x177E64F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortByModifierValue_TypeDefinitionIndex = 21701;
+	inline static constexpr unsigned int TargetSortByModifierValue_TypeDefinitionIndex = 22264;
 
 	class TargetSortByModifierValue : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36F88CC3BF5C32B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByModifierValue*& a2)
+		static ::System::Void Method_3_A56D8209BD0D84E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByModifierValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByModifierValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE_METHOD_3_36F88CC3BF5C32B2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByModifierValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYMODIFIERVALUE_METHOD_3_A56D8209BD0D84E6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C51DEEAF9F01D3F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByModifierValue* a2)

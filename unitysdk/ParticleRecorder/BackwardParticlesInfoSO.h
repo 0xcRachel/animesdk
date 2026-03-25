@@ -5,11 +5,11 @@
 namespace ParticleRecorder { class ParticleSystemItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PARTICLERECORDER_BACKWARDPARTICLESINFOSO__CTOR_OFFSET UNITYSDK_OFFSET(0x1635FA90)
+#define PARTICLERECORDER_BACKWARDPARTICLESINFOSO__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6F140)
 
 namespace ParticleRecorder
 {
-	inline static constexpr unsigned int BackwardParticlesInfoSO_TypeDefinitionIndex = 28259;
+	inline static constexpr unsigned int BackwardParticlesInfoSO_TypeDefinitionIndex = 29134;
 
 	class BackwardParticlesInfoSO : public ::UnityEngine::ScriptableObject
 	{

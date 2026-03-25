@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_5_272FE8DACE94441A_OFFSET UNITYSDK_OFFSET(0x16B1CAB0)
-#define RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_5_5E9B9CD0CEADDFB1_OFFSET UNITYSDK_OFFSET(0x16B1C940)
-#define RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B1CA10)
+#define RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_6_664BB540578C07D7_OFFSET UNITYSDK_OFFSET(0x172690F0)
+#define RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_6_AEBA1E32B940FF3B_OFFSET UNITYSDK_OFFSET(0x172692B0)
+#define RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172691F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCondFalseConfig_TypeDefinitionIndex = 17342;
+	inline static constexpr unsigned int GridFightCondFalseConfig_TypeDefinitionIndex = 17747;
 
 	class GridFightCondFalseConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_5E9B9CD0CEADDFB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightCondFalseConfig*& a2)
+		static ::System::Void Method_6_664BB540578C07D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightCondFalseConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCondFalseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_5_5E9B9CD0CEADDFB1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCondFalseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_6_664BB540578C07D7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_272FE8DACE94441A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightCondFalseConfig* a2)
+		static ::System::Void Method_6_AEBA1E32B940FF3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightCondFalseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_5_272FE8DACE94441A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDFALSECONFIG_METHOD_6_AEBA1E32B940FF3B_OFFSET))(a1, a2);
 		}
 	};
 }

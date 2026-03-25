@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15721100)
-#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__SAFEFORMATNOTCSHARPSTANDARDSTRING_B__0_OFFSET UNITYSDK_OFFSET(0x15721420)
+#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E10E30)
+#define MIHOYO_SDK_COMMON_STRINGUTILS___C__DISPLAYCLASS2_0__SAFEFORMATNOTCSHARPSTANDARDSTRING_B__0_OFFSET UNITYSDK_OFFSET(0x15E11150)
 
 namespace MiHoYo::SDK::Common
 {
-	inline static constexpr unsigned int StringUtils___c__DisplayClass2_0_TypeDefinitionIndex = 7319;
+	inline static constexpr unsigned int StringUtils___c__DisplayClass2_0_TypeDefinitionIndex = 7444;
 
 	class StringUtils___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextProcessingStack_1_TypeDefinitionIndex = 33415;
+	inline static constexpr unsigned int TMP_TextProcessingStack_1_TypeDefinitionIndex = 34404;
 
 	template <typename T>
 	struct TMP_TextProcessingStack_1

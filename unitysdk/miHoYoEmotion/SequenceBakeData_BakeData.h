@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYOEMOTION_SEQUENCEBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x82DA380)
+#define MIHOYOEMOTION_SEQUENCEBAKEDATA_BAKEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x862A3B0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int SequenceBakeData_BakeData_TypeDefinitionIndex = 34202;
+	inline static constexpr unsigned int SequenceBakeData_BakeData_TypeDefinitionIndex = 35139;
 
 	class SequenceBakeData_BakeData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebHeaderCollectionType_TypeDefinitionIndex = 2744;
+	inline static constexpr unsigned int WebHeaderCollectionType_TypeDefinitionIndex = 2750;
 
 	enum class WebHeaderCollectionType : ::System::UInt16
 	{

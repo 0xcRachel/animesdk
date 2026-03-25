@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int FightSoftStopReason_TypeDefinitionIndex = 28103;
+	inline static constexpr unsigned int FightSoftStopReason_TypeDefinitionIndex = 28975;
 
 	enum class FightSoftStopReason : ::System::Int32
 	{

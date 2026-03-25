@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERNOTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A50CC0)
-#define RPG_GAMECORE_DRINKMAKERNOTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A512C0)
+#define RPG_GAMECORE_DRINKMAKERNOTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171937F0)
+#define RPG_GAMECORE_DRINKMAKERNOTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17193DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerNoteRow_TypeDefinitionIndex = 11964;
+	inline static constexpr unsigned int DrinkMakerNoteRow_TypeDefinitionIndex = 12034;
 
 	class DrinkMakerNoteRow : public ::System::Object
 	{

@@ -9,19 +9,19 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_C67A6979628184B7_METHOD_1_06150765F7C4861F_OFFSET UNITYSDK_OFFSET(0xA6D0650)
-#define CLASS_1_C67A6979628184B7_METHOD_1_8B13E979A52E412C_OFFSET UNITYSDK_OFFSET(0xA6D06A0)
-#define CLASS_1_C67A6979628184B7__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D05B0)
+#define CLASS_1_C67A6979628184B7_METHOD_1_06150765F7C4861F_OFFSET UNITYSDK_OFFSET(0x87F35A0)
+#define CLASS_1_C67A6979628184B7_METHOD_1_8B13E979A52E412C_OFFSET UNITYSDK_OFFSET(0x87F35F0)
+#define CLASS_1_C67A6979628184B7__CTOR_OFFSET UNITYSDK_OFFSET(0x87F3500)
 
-inline static constexpr unsigned int Class_1_C67A6979628184B7_TypeDefinitionIndex = 52441;
+inline static constexpr unsigned int Class_1_C67A6979628184B7_TypeDefinitionIndex = 53577;
 
 class Class_1_C67A6979628184B7 : public ::System::Object
 {
 public:
-	::Class_1_C67A6979628184B7_Class_1_36A0020EEB62E831* Field_1_0; // 0x10
-	::RPG::Client::UIPrefabLoader* Field_1_3; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>* Field_1_1; // 0x28
+	::RPG::Client::UIPrefabLoader* Field_1_3; // 0x10
+	::System::Collections::Generic::Queue_1<::UnityEngine::GameObject*>* Field_1_1; // 0x18
+	::Class_1_C67A6979628184B7_Class_1_36A0020EEB62E831* Field_1_0; // 0x20
+	::System::String* Field_1_2; // 0x28
 
 	::System::Void _ctor(::System::String* a1, ::Class_1_C67A6979628184B7_Class_1_36A0020EEB62E831* a2)
 	{

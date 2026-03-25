@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_526DEDA1541332AE_Casing_TypeDefinitionIndex = 62388;
+inline static constexpr unsigned int Class_1_526DEDA1541332AE_Casing_TypeDefinitionIndex = 64576;
 
 enum class Class_1_526DEDA1541332AE_Casing : ::System::UInt32
 {

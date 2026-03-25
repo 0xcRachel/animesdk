@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_GAMECORE_PROJECTILECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D5290)
+#define RPG_GAMECORE_PROJECTILECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xAA15BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileCurve_TypeDefinitionIndex = 42764;
+	inline static constexpr unsigned int ProjectileCurve_TypeDefinitionIndex = 43814;
 
 	class ProjectileCurve : public ::System::Object
 	{

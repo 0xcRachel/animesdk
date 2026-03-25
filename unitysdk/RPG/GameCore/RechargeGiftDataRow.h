@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RECHARGEGIFTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DCC500)
-#define RPG_GAMECORE_RECHARGEGIFTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DCC700)
+#define RPG_GAMECORE_RECHARGEGIFTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17599640)
+#define RPG_GAMECORE_RECHARGEGIFTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17599840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeGiftDataRow_TypeDefinitionIndex = 13273;
+	inline static constexpr unsigned int RechargeGiftDataRow_TypeDefinitionIndex = 13347;
 
 	class RechargeGiftDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardsPay; // 0x10
+		::System::UInt32 McoinPay; // 0x10
 		::System::UInt32 GiftID; // 0x14
-		::System::UInt32 Days; // 0x18
-		::System::UInt32 RewardsFree; // 0x1C
-		::System::UInt32 McoinFree; // 0x20
-		::System::UInt32 McoinPay; // 0x24
+		::System::UInt32 McoinFree; // 0x18
+		::System::UInt32 Days; // 0x1C
+		::System::UInt32 RewardsPay; // 0x20
+		::System::UInt32 RewardsFree; // 0x24
 
 		::System::Void _ctor()
 		{

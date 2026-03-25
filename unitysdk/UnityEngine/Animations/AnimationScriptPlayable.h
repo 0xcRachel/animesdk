@@ -3,20 +3,20 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x203E9E0)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1465FE0)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x181C0410)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x203F340)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2114B50)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1495E80)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x189E8A00)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONSCRIPTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x21154B0)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationScriptPlayable_TypeDefinitionIndex = 4977;
+	inline static constexpr unsigned int AnimationScriptPlayable_TypeDefinitionIndex = 5077;
 
 	struct alignas(8) AnimationScriptPlayable
 	{
 		static ::UnityEngine::Animations::AnimationScriptPlayable* StaticGet_m_NullPlayable()
 		{
-			return (::UnityEngine::Animations::AnimationScriptPlayable*)Il2CppClass::FromTypeDefinitionIndex(AnimationScriptPlayable_TypeDefinitionIndex)->GetStaticField(0x6B40);
+			return (::UnityEngine::Animations::AnimationScriptPlayable*)Il2CppClass::FromTypeDefinitionIndex(AnimationScriptPlayable_TypeDefinitionIndex)->GetStaticField(0xC700);
 		}
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10
 

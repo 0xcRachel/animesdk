@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GCFreeClosure/ClosureEvent_2.h"
-#include "unitysdk/Struct_2_300255A4917C4300.h"
+#include "unitysdk/Struct_2_4127FF4C06B070D3.h"
 #include "unitysdk/Struct_2_A7B9824716EA1FCD.h"
 #include "unitysdk/System/Object.h"
 
@@ -25,6 +25,7 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FiveDimBaseEventCondition; }
 namespace RPG::GameCore { class FiveDimBaseScrollGameEndAction; }
 namespace RPG::GameCore { class FiveDimBeatBackPlayerAction; }
+namespace RPG::GameCore { class FiveDimBroadcastEventToChildrenMinionAction; }
 namespace RPG::GameCore { class FiveDimBubbleTalkAction; }
 namespace RPG::GameCore { class FiveDimCameraShakeAction; }
 namespace RPG::GameCore { class FiveDimCancelDelayedSequenceAction; }
@@ -42,7 +43,10 @@ namespace RPG::GameCore { class FiveDimDebugLogEventAction; }
 namespace RPG::GameCore { class FiveDimDestroyMascotFakePlayerAction; }
 namespace RPG::GameCore { class FiveDimDestroyPhantomPlayerAction; }
 namespace RPG::GameCore { class FiveDimDestructPropAction; }
+namespace RPG::GameCore { class FiveDimDropEntityAction; }
 namespace RPG::GameCore { class FiveDimEnableIntervalSpawnAction; }
+namespace RPG::GameCore { class FiveDimEnergyBlockChargeAction; }
+namespace RPG::GameCore { class FiveDimEnterDashPrepareStateAction; }
 namespace RPG::GameCore { class FiveDimEnterHiddenAreaAction; }
 namespace RPG::GameCore { class FiveDimEntityRotateAction; }
 namespace RPG::GameCore { class FiveDimEntityShakeAction; }
@@ -50,12 +54,15 @@ namespace RPG::GameCore { class FiveDimFinishChenLingGameBoyAction; }
 namespace RPG::GameCore { class FiveDimFinishDelayedSequenceAction; }
 namespace RPG::GameCore { class FiveDimFireAvatarEffectAction; }
 namespace RPG::GameCore { class FiveDimFireEffectAction; }
+namespace RPG::GameCore { class FiveDimForceResetMascotFakePlayerAction; }
 namespace RPG::GameCore { class FiveDimForceResetPlayerAction; }
 namespace RPG::GameCore { class FiveDimGarbageBinFinishMoveAction; }
+namespace RPG::GameCore { class FiveDimGrenadierAttackAction; }
 namespace RPG::GameCore { class FiveDimJumpToSplinePointAction; }
 namespace RPG::GameCore { class FiveDimKillAllEffectAction; }
 namespace RPG::GameCore { class FiveDimKillAvatarEffectAction; }
 namespace RPG::GameCore { class FiveDimKillEffectAction; }
+namespace RPG::GameCore { class FiveDimLightningChangeStateAction; }
 namespace RPG::GameCore { class FiveDimMiniGameCoinCollectedAction; }
 namespace RPG::GameCore { class FiveDimMinionDestroyByPresetNameAction; }
 namespace RPG::GameCore { class FiveDimMinionDestroySelfAction; }
@@ -67,8 +74,11 @@ namespace RPG::GameCore { class FiveDimMuteUIInputAction; }
 namespace RPG::GameCore { class FiveDimOverrideSimpleGameLevelTipAction; }
 namespace RPG::GameCore { class FiveDimPauseMusicAction; }
 namespace RPG::GameCore { class FiveDimPlayShootArrowAnimAction; }
+namespace RPG::GameCore { class FiveDimPlaySummonBotAnimAction; }
 namespace RPG::GameCore { class FiveDimPlayUsePropAnimAction; }
 namespace RPG::GameCore { class FiveDimPlayerSkillArrowCondition; }
+namespace RPG::GameCore { class FiveDimPlayerSkillCleanerBotCondition; }
+namespace RPG::GameCore { class FiveDimPlayerSkillDashCondition; }
 namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
 namespace RPG::GameCore { class FiveDimRandomBubbleTalkAction; }
 namespace RPG::GameCore { class FiveDimRefillPlayerJumpEnergyAction; }
@@ -80,16 +90,19 @@ namespace RPG::GameCore { class FiveDimSetAnimParamByDoorKeyCountAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamByLevelVarAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamByRawLevelVarAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamEventAction; }
+namespace RPG::GameCore { class FiveDimSetAnimatorCullingModeAction; }
 namespace RPG::GameCore { class FiveDimSetArrowCollectCoinAction; }
 namespace RPG::GameCore { class FiveDimSetBillboardAction; }
 namespace RPG::GameCore { class FiveDimSetCameraActiveAction; }
 namespace RPG::GameCore { class FiveDimSetColliderVisibleAction; }
+namespace RPG::GameCore { class FiveDimSetDanmuTrackAction; }
 namespace RPG::GameCore { class FiveDimSetDynamicAttachAction; }
 namespace RPG::GameCore { class FiveDimSetEntityVisibleAction; }
 namespace RPG::GameCore { class FiveDimSetJumpEnergyVisibleAction; }
 namespace RPG::GameCore { class FiveDimSetLevelVarShortAction; }
 namespace RPG::GameCore { class FiveDimSetLocalAvatarJumpEnergyAction; }
 namespace RPG::GameCore { class FiveDimSetPlayerInteractEnableAction; }
+namespace RPG::GameCore { class FiveDimSetPlayerInvincibleAction; }
 namespace RPG::GameCore { class FiveDimSetPlayerResetModeAction; }
 namespace RPG::GameCore { class FiveDimSetPlayerSkillMoveAction; }
 namespace RPG::GameCore { class FiveDimSetPlayerSkillUpgradeAction; }
@@ -100,22 +113,29 @@ namespace RPG::GameCore { class FiveDimSetRenderingItemStateAction; }
 namespace RPG::GameCore { class FiveDimSetResetPointAction; }
 namespace RPG::GameCore { class FiveDimSetSplineMoveDirectionAction; }
 namespace RPG::GameCore { class FiveDimSetSplineTraceEffectVisibleAction; }
+namespace RPG::GameCore { class FiveDimSetSuiyangDeadAction; }
 namespace RPG::GameCore { class FiveDimSetTriggerEnableAction; }
 namespace RPG::GameCore { class FiveDimSpawnArrowAction; }
+namespace RPG::GameCore { class FiveDimSpawnCleanerBotAction; }
 namespace RPG::GameCore { class FiveDimSpawnPropAction; }
 namespace RPG::GameCore { class FiveDimStartChenLingGameBoyCountDownAction; }
+namespace RPG::GameCore { class FiveDimStartDanmuAction; }
 namespace RPG::GameCore { class FiveDimStartLimaoDropMoveAction; }
 namespace RPG::GameCore { class FiveDimStartMusicAction; }
 namespace RPG::GameCore { class FiveDimStartSplineMoveAction; }
 namespace RPG::GameCore { class FiveDimStartSplineMoveWithParamAction; }
+namespace RPG::GameCore { class FiveDimStartSuiyangBeatAction; }
 namespace RPG::GameCore { class FiveDimStartWindowStageAction; }
+namespace RPG::GameCore { class FiveDimStatisticGetTrainEnergyAction; }
 namespace RPG::GameCore { class FiveDimStopBubbleTalkAction; }
+namespace RPG::GameCore { class FiveDimStopDanmuAction; }
 namespace RPG::GameCore { class FiveDimStopMusicAction; }
 namespace RPG::GameCore { class FiveDimStopSplineMoveAction; }
 namespace RPG::GameCore { class FiveDimStopWindowStageAction; }
 namespace RPG::GameCore { class FiveDimSwitchMaterialAction; }
 namespace RPG::GameCore { class FiveDimSwitchSplineMoveDirectionAction; }
 namespace RPG::GameCore { class FiveDimTeleportAction; }
+namespace RPG::GameCore { class FiveDimTriggerEventNextBeatAction; }
 namespace RPG::GameCore { class FiveDimTriggerGameLoadingViewAction; }
 namespace RPG::GameCore { class FiveDimTriggerSelfEventAction; }
 namespace RPG::GameCore { class FiveDimTryMutePlayerMoveOnSurfaceDestroyAction; }
@@ -127,7 +147,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 60598;
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 62576;
 
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object

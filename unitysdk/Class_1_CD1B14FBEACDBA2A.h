@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace System { class String; }
 
-#define CLASS_1_CD1B14FBEACDBA2A__CTOR_OFFSET UNITYSDK_OFFSET(0x10C03BD0)
+#define CLASS_1_CD1B14FBEACDBA2A__CTOR_OFFSET UNITYSDK_OFFSET(0x8BD6510)
 
-inline static constexpr unsigned int Class_1_CD1B14FBEACDBA2A_TypeDefinitionIndex = 44024;
+inline static constexpr unsigned int Class_1_CD1B14FBEACDBA2A_TypeDefinitionIndex = 45084;
 
 class Class_1_CD1B14FBEACDBA2A : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Class_3_BCCE950C2E8DF1F0* Field_1_6; // 0x18
-	::Class_3_BCCE950C2E8DF1F0* Field_1_5; // 0x20
-	::System::Boolean Field_1_3; // 0x28
-	::System::Boolean Field_1_2; // 0x29
-	::System::Boolean Field_1_1; // 0x2A
+	::Class_3_5775A4FEC79026BC* Field_1_6; // 0x10
+	::System::String* Field_1_0; // 0x18
+	::Class_3_5775A4FEC79026BC* Field_1_5; // 0x20
+	::System::Boolean Field_1_1; // 0x28
+	::System::Boolean Field_1_3; // 0x29
+	::System::Boolean Field_1_2; // 0x2A
 	::System::Boolean Field_1_4; // 0x2B
 
 	::System::Void _ctor()

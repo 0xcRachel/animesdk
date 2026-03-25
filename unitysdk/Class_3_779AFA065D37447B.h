@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchNextTurnOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_779AFA065D37447B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10584530)
-#define CLASS_3_779AFA065D37447B__CTOR_OFFSET UNITYSDK_OFFSET(0x105844B0)
+#define CLASS_3_779AFA065D37447B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1060A0E0)
+#define CLASS_3_779AFA065D37447B__CTOR_OFFSET UNITYSDK_OFFSET(0x1060A060)
 
-inline static constexpr unsigned int Class_3_779AFA065D37447B_TypeDefinitionIndex = 46764;
+inline static constexpr unsigned int Class_3_779AFA065D37447B_TypeDefinitionIndex = 47843;
 
 class Class_3_779AFA065D37447B : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchNextTurnOwnerEntity*>
 {

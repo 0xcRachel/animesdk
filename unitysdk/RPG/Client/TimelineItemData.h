@@ -6,12 +6,12 @@ namespace RPG::Client { class EntityTimelineControlTrackInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TIMELINEITEMDATA_METHOD_3_4AE71836C7BCEC98_OFFSET UNITYSDK_OFFSET(0xA0C2210)
-#define RPG_CLIENT_TIMELINEITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C23C0)
+#define RPG_CLIENT_TIMELINEITEMDATA_METHOD_3_4AE71836C7BCEC98_OFFSET UNITYSDK_OFFSET(0xA5E8200)
+#define RPG_CLIENT_TIMELINEITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E83B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimelineItemData_TypeDefinitionIndex = 48226;
+	inline static constexpr unsigned int TimelineItemData_TypeDefinitionIndex = 49318;
 
 	class TimelineItemData : public ::UnityEngine::ScriptableObject
 	{

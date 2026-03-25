@@ -7,11 +7,11 @@
 
 class Class_2_54AE1C44DE8123D2;
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMECHARACTERMOVEMENTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x16157430)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMECHARACTERMOVEMENTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x168654B0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameCharacterMovementPath_TypeDefinitionIndex = 32045;
+	inline static constexpr unsigned int TimelineControlGameCharacterMovementPath_TypeDefinitionIndex = 32955;
 
 	class TimelineControlGameCharacterMovementPath : public ::System::Object
 	{

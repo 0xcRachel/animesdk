@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/ActionItemType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6D9BD8CC3D4D1B76_METHOD_1_A7F826E2281770F2_OFFSET UNITYSDK_OFFSET(0x10E8C9C0)
+#define CLASS_1_6D9BD8CC3D4D1B76_METHOD_1_A7F826E2281770F2_OFFSET UNITYSDK_OFFSET(0xD172A30)
 
-inline static constexpr unsigned int Class_1_6D9BD8CC3D4D1B76_TypeDefinitionIndex = 56763;
+inline static constexpr unsigned int Class_1_6D9BD8CC3D4D1B76_TypeDefinitionIndex = 58352;
 
 class Class_1_6D9BD8CC3D4D1B76 : public ::System::Object
 {

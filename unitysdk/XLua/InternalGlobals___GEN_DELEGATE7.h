@@ -2,19 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::Client { class IRogueMiracleInGame; }
+namespace RPG::Client { class IRogueMiracleInfo; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF839A70)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF839AB0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7_INVOKE_OFFSET UNITYSDK_OFFSET(0xF839250)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B080)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF6D030)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF6D060)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF6CAD0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE7__CTOR_OFFSET UNITYSDK_OFFSET(0xFF578E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE7_TypeDefinitionIndex = 39438;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE7_TypeDefinitionIndex = 40424;
 
 	class InternalGlobals___GEN_DELEGATE7 : public ::System::MulticastDelegate
 	{
@@ -24,19 +26,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Boolean Invoke(::Il2CppArray<::RPG::GameCore::JsonEnum*>* jsonEnumList, ::RPG::GameCore::JsonEnum* jsonEnum)
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* Invoke(::RPG::Client::IRogueMiracleInfo* miracleInfo)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::JsonEnum*>*, ::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7_INVOKE_OFFSET))(this, jsonEnumList, jsonEnum);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7_INVOKE_OFFSET))(this, miracleInfo);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Il2CppArray<::RPG::GameCore::JsonEnum*>* jsonEnumList, ::RPG::GameCore::JsonEnum* jsonEnum, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueMiracleInfo* miracleInfo, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::JsonEnum*>*, ::RPG::GameCore::JsonEnum*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7_BEGININVOKE_OFFSET))(this, jsonEnumList, jsonEnum, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueMiracleInfo*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7_BEGININVOKE_OFFSET))(this, miracleInfo, callback, object);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>* EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IRogueMiracleInGame*>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE7_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

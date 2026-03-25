@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MIRRORMENTVALLEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9718270)
+#define RPG_CLIENT_MIRRORMENTVALLEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9BBE270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MirrormentValleyConfig_TypeDefinitionIndex = 47564;
+	inline static constexpr unsigned int MirrormentValleyConfig_TypeDefinitionIndex = 48645;
 
 	class MirrormentValleyConfig : public ::UnityEngine::ScriptableObject
 	{

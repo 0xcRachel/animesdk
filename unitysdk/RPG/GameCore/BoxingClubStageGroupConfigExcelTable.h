@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168FAE30)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168FAC80)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168FA950)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168FAC20)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168FB000)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168FA9D0)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168FB040)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168FB220)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168FB500)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168FB860)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168FB180)
-#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168FB0E0)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1700BC60)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1700BAB0)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1700B780)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1700BA50)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1700BE30)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1700B800)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1700BE70)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1700C050)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1700C330)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1700C690)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1700BFB0)
+#define RPG_GAMECORE_BOXINGCLUBSTAGEGROUPCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1700BF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex = 11719;
+	inline static constexpr unsigned int BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex = 11789;
 
 	class BoxingClubStageGroupConfigExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F680);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27E50);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F688);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingClubStageGroupConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingClubStageGroupConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27E58);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27E60);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BoxingClubStageGroupConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1F690);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8850);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA560);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8851);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BoxingClubStageGroupConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA561);
 		}
 
 		static ::System::Void _cctor()

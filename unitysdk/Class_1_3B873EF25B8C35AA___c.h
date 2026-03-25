@@ -2,51 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7807B2B04302CD7B_26;
+class Class_1_7807B2B04302CD7B_28;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define CLASS_1_3B873EF25B8C35AA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CB4010)
-#define CLASS_1_3B873EF25B8C35AA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB4050)
-#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_0_OFFSET UNITYSDK_OFFSET(0x10CB4060)
-#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_1_OFFSET UNITYSDK_OFFSET(0x10CB4080)
-#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_2_OFFSET UNITYSDK_OFFSET(0x10CB4150)
-#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_3_OFFSET UNITYSDK_OFFSET(0x10CB4220)
-#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_4_OFFSET UNITYSDK_OFFSET(0x10CB4240)
-#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_5_OFFSET UNITYSDK_OFFSET(0x10CB4310)
+#define CLASS_1_3B873EF25B8C35AA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x115BF530)
+#define CLASS_1_3B873EF25B8C35AA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x115BF570)
+#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_0_OFFSET UNITYSDK_OFFSET(0x115BF580)
+#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_1_OFFSET UNITYSDK_OFFSET(0x115BF5A0)
+#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_2_OFFSET UNITYSDK_OFFSET(0x115BF670)
+#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_3_OFFSET UNITYSDK_OFFSET(0x115BF740)
+#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_4_OFFSET UNITYSDK_OFFSET(0x115BF760)
+#define CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_5_OFFSET UNITYSDK_OFFSET(0x115BF830)
 
-inline static constexpr unsigned int Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex = 53713;
+inline static constexpr unsigned int Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex = 55079;
 
 class Class_1_3B873EF25B8C35AA___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_7807B2B04302CD7B_26*, ::System::Int32>** StaticGet___9__5_0()
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>** StaticGet___9__5_5()
 	{
-		return (::System::Func_2<::Class_1_7807B2B04302CD7B_26*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32940);
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D20);
 	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>** StaticGet___9__5_4()
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>** StaticGet___9__5_2()
 	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32948);
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D28);
 	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>** StaticGet___9__5_1()
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>** StaticGet___9__5_4()
 	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32950);
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D30);
 	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>** StaticGet___9__5_2()
+	static ::System::Func_2<::Class_1_7807B2B04302CD7B_28*, ::System::Int32>** StaticGet___9__5_3()
 	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32958);
+		return (::System::Func_2<::Class_1_7807B2B04302CD7B_28*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D38);
 	}
-	static ::System::Func_2<::Class_1_7807B2B04302CD7B_26*, ::System::Int32>** StaticGet___9__5_3()
+	static ::System::Func_2<::Class_1_7807B2B04302CD7B_28*, ::System::Int32>** StaticGet___9__5_0()
 	{
-		return (::System::Func_2<::Class_1_7807B2B04302CD7B_26*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32960);
+		return (::System::Func_2<::Class_1_7807B2B04302CD7B_28*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D40);
+	}
+	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>** StaticGet___9__5_1()
+	{
+		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D48);
 	}
 	static ::Class_1_3B873EF25B8C35AA___c** StaticGet___9()
 	{
-		return (::Class_1_3B873EF25B8C35AA___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32968);
-	}
-	static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>** StaticGet___9__5_5()
-	{
-		return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x32970);
+		return (::Class_1_3B873EF25B8C35AA___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3B873EF25B8C35AA___c_TypeDefinitionIndex)->GetStaticField(0x27D50);
 	}
 
 	static ::System::Void _cctor()
@@ -59,33 +59,33 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Int32 __FillTeams_b__5_0(::Class_1_7807B2B04302CD7B_26* c)
+	::System::Int32 __FillTeams_b__5_0(::Class_1_7807B2B04302CD7B_28* c)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_26*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_0_OFFSET))(this, c);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_28*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_0_OFFSET))(this, c);
 	}
 
-	::System::Int32 __FillTeams_b__5_1(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>* g)
+	::System::Int32 __FillTeams_b__5_1(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>* g)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_1_OFFSET))(this, g);
+		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_1_OFFSET))(this, g);
 	}
 
-	::System::Int32 __FillTeams_b__5_2(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>* g)
+	::System::Int32 __FillTeams_b__5_2(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>* g)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_2_OFFSET))(this, g);
+		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_2_OFFSET))(this, g);
 	}
 
-	::System::Int32 __FillTeams_b__5_3(::Class_1_7807B2B04302CD7B_26* c)
+	::System::Int32 __FillTeams_b__5_3(::Class_1_7807B2B04302CD7B_28* c)
 	{
-		return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_26*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_3_OFFSET))(this, c);
+		return ((::System::Int32(*)(::PVOID, ::Class_1_7807B2B04302CD7B_28*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_3_OFFSET))(this, c);
 	}
 
-	::System::Int32 __FillTeams_b__5_4(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>* g)
+	::System::Int32 __FillTeams_b__5_4(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>* g)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_4_OFFSET))(this, g);
+		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_4_OFFSET))(this, g);
 	}
 
-	::System::Int32 __FillTeams_b__5_5(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>* g)
+	::System::Int32 __FillTeams_b__5_5(::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>* g)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_26*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_5_OFFSET))(this, g);
+		return ((::System::Int32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::Int32, ::Class_1_7807B2B04302CD7B_28*>*))((::PBYTE)hIl2Cpp + CLASS_1_3B873EF25B8C35AA___C___FILLTEAMS_B__5_5_OFFSET))(this, g);
 	}
 };

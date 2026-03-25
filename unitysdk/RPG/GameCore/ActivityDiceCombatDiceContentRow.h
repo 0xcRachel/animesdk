@@ -6,28 +6,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16785E00)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16786280)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EBB910)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATDICECONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBBDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatDiceContentRow_TypeDefinitionIndex = 10455;
+	inline static constexpr unsigned int ActivityDiceCombatDiceContentRow_TypeDefinitionIndex = 10523;
 
 	class ActivityDiceCombatDiceContentRow : public ::System::Object
 	{
 	public:
-		::System::String* SKillImagePathSmall; // 0x10
-		::System::String* DiceSkillJsonPath; // 0x18
+		::System::String* ImgPath; // 0x10
+		::System::String* SKillImagePathSmall; // 0x18
 		::Il2CppArray<::System::UInt32>* SkillParam; // 0x20
-		::Il2CppArray<::System::UInt32>* GlossaryIDList; // 0x28
-		::System::String* SKillImgPath; // 0x30
-		::System::String* SKillImgPathUI3D; // 0x38
-		::System::String* ImgPath; // 0x40
+		::System::String* SKillImgPath; // 0x28
+		::Il2CppArray<::System::UInt32>* GlossaryIDList; // 0x30
+		::System::String* DiceSkillJsonPath; // 0x38
+		::System::String* SKillImgPathUI3D; // 0x40
 		::System::Single AIEffectWeight; // 0x48
 		::System::UInt32 Content; // 0x4C
-		::RPG::Client::TextID ImageTextmap; // 0x50
-		::System::UInt32 ContentID; // 0x60
-		::RPG::Client::TextID SKillDesc; // 0x68
+		::System::UInt32 ContentID; // 0x50
+		::RPG::Client::TextID SKillDesc; // 0x58
+		::RPG::Client::TextID ImageTextmap; // 0x68
 
 		::System::Void _ctor()
 		{

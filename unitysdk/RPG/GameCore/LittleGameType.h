@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameType_TypeDefinitionIndex = 16881;
+	inline static constexpr unsigned int LittleGameType_TypeDefinitionIndex = 17286;
 
 	enum class LittleGameType : ::System::Int32
 	{
@@ -18,5 +18,6 @@ namespace RPG::GameCore
 		ElfRestaurant = 341,
 		CakeRace = 371,
 		DiceCombat = 403,
+		RPGDemo = 411,
 	};
 }

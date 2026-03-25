@@ -3,7 +3,7 @@
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int FadingState_TypeDefinitionIndex = 38821;
+	inline static constexpr unsigned int FadingState_TypeDefinitionIndex = 39801;
 
 	enum class FadingState : ::System::Int32
 	{

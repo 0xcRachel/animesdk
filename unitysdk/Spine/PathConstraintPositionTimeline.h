@@ -8,13 +8,13 @@ namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_PATHCONSTRAINTPOSITIONTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x17BA1550)
-#define SPINE_PATHCONSTRAINTPOSITIONTIMELINE_GET_PATHCONSTRAINTINDEX_OFFSET UNITYSDK_OFFSET(0x17BA1540)
-#define SPINE_PATHCONSTRAINTPOSITIONTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA14D0)
+#define SPINE_PATHCONSTRAINTPOSITIONTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x183BA7E0)
+#define SPINE_PATHCONSTRAINTPOSITIONTIMELINE_GET_PATHCONSTRAINTINDEX_OFFSET UNITYSDK_OFFSET(0x183BA7D0)
+#define SPINE_PATHCONSTRAINTPOSITIONTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x183BA760)
 
 namespace Spine
 {
-	inline static constexpr unsigned int PathConstraintPositionTimeline_TypeDefinitionIndex = 29791;
+	inline static constexpr unsigned int PathConstraintPositionTimeline_TypeDefinitionIndex = 30666;
 
 	class PathConstraintPositionTimeline : public ::Spine::CurveTimeline1
 	{

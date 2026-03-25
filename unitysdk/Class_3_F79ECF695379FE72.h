@@ -6,11 +6,11 @@ namespace RPG::GameCore { class EraRegion; }
 namespace RPG::GameCore { class InitEraFlipperRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F79ECF695379FE72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2EA410)
-#define CLASS_3_F79ECF695379FE72__CTOR_OFFSET UNITYSDK_OFFSET(0xB2EA3E0)
-#define CLASS_3_F79ECF695379FE72__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB2EA690)
+#define CLASS_3_F79ECF695379FE72_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA9F80D0)
+#define CLASS_3_F79ECF695379FE72__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F80A0)
+#define CLASS_3_F79ECF695379FE72__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xA9F8350)
 
-inline static constexpr unsigned int Class_3_F79ECF695379FE72_TypeDefinitionIndex = 41670;
+inline static constexpr unsigned int Class_3_F79ECF695379FE72_TypeDefinitionIndex = 42716;
 
 class Class_3_F79ECF695379FE72 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitEraFlipperRegion*>
 {

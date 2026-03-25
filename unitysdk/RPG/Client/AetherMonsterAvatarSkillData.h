@@ -7,21 +7,21 @@ namespace RPG::Client { class AetherMonsterAvatarData; }
 namespace RPG::Client { class AetherMonsterAvatarSkillSingleData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_GETPROPERTYMODIFIER_OFFSET UNITYSDK_OFFSET(0x8C3AC70)
-#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_GET_SKILLDATALIST_OFFSET UNITYSDK_OFFSET(0x8C3B8A0)
-#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_SET_SKILLDATALIST_OFFSET UNITYSDK_OFFSET(0x8C3B8B0)
-#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_SYNCSKILLDATA_OFFSET UNITYSDK_OFFSET(0x8C3A8E0)
-#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8C37650)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_GETPROPERTYMODIFIER_OFFSET UNITYSDK_OFFSET(0x908BED0)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_GET_SKILLDATALIST_OFFSET UNITYSDK_OFFSET(0x908CB00)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_SET_SKILLDATALIST_OFFSET UNITYSDK_OFFSET(0x908CB10)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA_SYNCSKILLDATA_OFFSET UNITYSDK_OFFSET(0x908BB40)
+#define RPG_CLIENT_AETHERMONSTERAVATARSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9088900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AetherMonsterAvatarSkillData_TypeDefinitionIndex = 49402;
+	inline static constexpr unsigned int AetherMonsterAvatarSkillData_TypeDefinitionIndex = 50535;
 
 	class AetherMonsterAvatarSkillData : public ::System::Object
 	{
 	public:
-		::RPG::Client::AetherMonsterAvatarData* _AetherMonsterAvatarData; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::AetherMonsterAvatarSkillSingleData*>* _SkillDataList_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::AetherMonsterAvatarSkillSingleData*>* _SkillDataList_k__BackingField; // 0x10
+		::RPG::Client::AetherMonsterAvatarData* _AetherMonsterAvatarData; // 0x18
 
 		::System::Void _ctor(::RPG::Client::AetherMonsterAvatarData* aetherMonsterAvatarData)
 		{

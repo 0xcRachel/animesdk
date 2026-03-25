@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RotationFollowOption_TypeDefinitionIndex = 55766;
+	inline static constexpr unsigned int RotationFollowOption_TypeDefinitionIndex = 57331;
 
 	enum class RotationFollowOption : ::System::Int32
 	{

@@ -5,16 +5,16 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define CLASS_1_7D41D5D948382242_METHOD_1_7CF2439931A13FE4_OFFSET UNITYSDK_OFFSET(0x8419460)
-#define CLASS_1_7D41D5D948382242__CTOR_OFFSET UNITYSDK_OFFSET(0x84196D0)
+#define CLASS_1_7D41D5D948382242_METHOD_1_7CF2439931A13FE4_OFFSET UNITYSDK_OFFSET(0x8DA0D40)
+#define CLASS_1_7D41D5D948382242__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA0FB0)
 
-inline static constexpr unsigned int Class_1_7D41D5D948382242_TypeDefinitionIndex = 53157;
+inline static constexpr unsigned int Class_1_7D41D5D948382242_TypeDefinitionIndex = 54297;
 
 class Class_1_7D41D5D948382242 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::System::String* Field_1_0; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 	::System::Int32 Field_1_3; // 0x24
 

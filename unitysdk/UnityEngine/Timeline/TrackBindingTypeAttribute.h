@@ -5,12 +5,12 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x181AE940)
-#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x181AE930)
+#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x189D7330)
+#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189D7320)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackBindingTypeAttribute_TypeDefinitionIndex = 29027;
+	inline static constexpr unsigned int TrackBindingTypeAttribute_TypeDefinitionIndex = 29902;
 
 	class TrackBindingTypeAttribute : public ::System::Attribute
 	{

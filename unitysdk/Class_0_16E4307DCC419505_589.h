@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AvatarUpgradePart.h"
 
-class Class_1_046D7E7D73E44996_1;
-namespace System { class Exception; }
-namespace System { template <typename T> class Action_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client { class AvatarData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_589_TypeDefinitionIndex = 51036;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_589_TypeDefinitionIndex = 51007;
 
 class Class_0_16E4307DCC419505_589
 {

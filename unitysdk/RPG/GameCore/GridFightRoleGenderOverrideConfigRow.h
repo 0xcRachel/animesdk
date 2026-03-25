@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEGENDEROVERRIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B44A40)
-#define RPG_GAMECORE_GRIDFIGHTROLEGENDEROVERRIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B44BF0)
+#define RPG_GAMECORE_GRIDFIGHTROLEGENDEROVERRIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17293140)
+#define RPG_GAMECORE_GRIDFIGHTROLEGENDEROVERRIDECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172932F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleGenderOverrideConfigRow_TypeDefinitionIndex = 12323;
+	inline static constexpr unsigned int GridFightRoleGenderOverrideConfigRow_TypeDefinitionIndex = 12393;
 
 	class GridFightRoleGenderOverrideConfigRow : public ::System::Object
 	{

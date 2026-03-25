@@ -7,13 +7,13 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS215_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1844FD00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS215_0__EVALJS_B__0_OFFSET UNITYSDK_OFFSET(0x18457A40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS215_0__EVALJS_B__1_OFFSET UNITYSDK_OFFSET(0x18457C00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS215_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C71D20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS215_0__EVALJS_B__0_OFFSET UNITYSDK_OFFSET(0x18C78C90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS215_0__EVALJS_B__1_OFFSET UNITYSDK_OFFSET(0x18C78E50)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass215_0_TypeDefinitionIndex = 29518;
+	inline static constexpr unsigned int Browser___c__DisplayClass215_0_TypeDefinitionIndex = 30393;
 
 	class Browser___c__DisplayClass215_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 		::ZenFulcrum::EmbeddedBrowser::Promise_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>* promise; // 0x18
 		::System::String* scriptURL; // 0x20
 		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x28
-		::System::Int32 id; // 0x30
-		::System::Int32 timeout; // 0x34
-		::System::Boolean block; // 0x38
+		::System::Boolean block; // 0x30
+		::System::Int32 id; // 0x34
+		::System::Int32 timeout; // 0x38
 
 		::System::Void _ctor()
 		{

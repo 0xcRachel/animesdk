@@ -6,12 +6,12 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY_GET_STRINGVALUE_OFFSET UNITYSDK_OFFSET(0x2041AA0)
-#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x2041AB0)
+#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY_GET_STRINGVALUE_OFFSET UNITYSDK_OFFSET(0x2118160)
+#define UNITYENGINE_CONSOLEVARIABLESTRINGPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x2118170)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConsoleVariableStringProperty_TypeDefinitionIndex = 3860;
+	inline static constexpr unsigned int ConsoleVariableStringProperty_TypeDefinitionIndex = 3869;
 
 	struct alignas(8) ConsoleVariableStringProperty
 	{

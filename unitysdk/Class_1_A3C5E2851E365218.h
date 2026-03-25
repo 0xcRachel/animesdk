@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_32.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_33.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_352A8B3482C80E7D_53;
+class Class_1_352A8B3482C80E7D_55;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_A3C5E2851E365218_METHOD_1_3BEE013982122797_OFFSET UNITYSDK_OFFSET(0x10E80990)
-#define CLASS_1_A3C5E2851E365218_METHOD_1_3F1A5F0DB7432C33_OFFSET UNITYSDK_OFFSET(0x10E80ED0)
-#define CLASS_1_A3C5E2851E365218_METHOD_1_6946F1F238E10B32_OFFSET UNITYSDK_OFFSET(0x10E80CD0)
-#define CLASS_1_A3C5E2851E365218_METHOD_1_70F9AF56CA31874A_OFFSET UNITYSDK_OFFSET(0x10E80690)
-#define CLASS_1_A3C5E2851E365218_METHOD_1_F9555880FBE027D5_OFFSET UNITYSDK_OFFSET(0x10E80B20)
-#define CLASS_1_A3C5E2851E365218__CTOR_OFFSET UNITYSDK_OFFSET(0x10E80F80)
+#define CLASS_1_A3C5E2851E365218_METHOD_1_3BEE013982122797_OFFSET UNITYSDK_OFFSET(0x11529890)
+#define CLASS_1_A3C5E2851E365218_METHOD_1_3F1A5F0DB7432C33_OFFSET UNITYSDK_OFFSET(0x11529DD0)
+#define CLASS_1_A3C5E2851E365218_METHOD_1_6946F1F238E10B32_OFFSET UNITYSDK_OFFSET(0x11529BD0)
+#define CLASS_1_A3C5E2851E365218_METHOD_1_70F9AF56CA31874A_OFFSET UNITYSDK_OFFSET(0x11529590)
+#define CLASS_1_A3C5E2851E365218_METHOD_1_F9555880FBE027D5_OFFSET UNITYSDK_OFFSET(0x11529A20)
+#define CLASS_1_A3C5E2851E365218__CTOR_OFFSET UNITYSDK_OFFSET(0x11529E80)
 
-inline static constexpr unsigned int Class_1_A3C5E2851E365218_TypeDefinitionIndex = 44686;
+inline static constexpr unsigned int Class_1_A3C5E2851E365218_TypeDefinitionIndex = 45747;
 
 class Class_1_A3C5E2851E365218 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_32, ::System::Collections::Generic::List_1<::System::UInt32>*>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Enum_3_4608E37A1B3D374A_32>* Field_1_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_33, ::System::Collections::Generic::List_1<::System::UInt32>*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Enum_3_4608E37A1B3D374A_33>* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A3C5E2851E365218__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_70F9AF56CA31874A(::System::Collections::Generic::IList_1<::Class_1_352A8B3482C80E7D_53*>* a1, ::System::Boolean a2)
+	::System::Boolean Method_1_70F9AF56CA31874A(::System::Collections::Generic::IList_1<::Class_1_352A8B3482C80E7D_55*>* a1, ::System::Boolean a2)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_352A8B3482C80E7D_53*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A3C5E2851E365218_METHOD_1_70F9AF56CA31874A_OFFSET))(this, a1, a2);
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_352A8B3482C80E7D_55*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A3C5E2851E365218_METHOD_1_70F9AF56CA31874A_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_1_3BEE013982122797()
@@ -43,9 +43,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A3C5E2851E365218_METHOD_1_F9555880FBE027D5_OFFSET))(this);
 	}
 
-	::System::Void Method_1_6946F1F238E10B32(::Enum_3_4608E37A1B3D374A_32 a1, ::System::UInt32 a2)
+	::System::Void Method_1_6946F1F238E10B32(::Enum_3_4608E37A1B3D374A_33 a1, ::System::UInt32 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_4608E37A1B3D374A_32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A3C5E2851E365218_METHOD_1_6946F1F238E10B32_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_4608E37A1B3D374A_33, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A3C5E2851E365218_METHOD_1_6946F1F238E10B32_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_1_3F1A5F0DB7432C33(::System::UInt32 a1)

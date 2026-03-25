@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167A03C0)
-#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167A0A30)
+#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F16F00)
+#define RPG_GAMECORE_ACTIVITYNEWBIEPROMOTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F17570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityNewbiePromoteRow_TypeDefinitionIndex = 10434;
+	inline static constexpr unsigned int ActivityNewbiePromoteRow_TypeDefinitionIndex = 10504;
 
 	class ActivityNewbiePromoteRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SortID; // 0x10
-		::System::UInt32 FinishQuest; // 0x14
-		::RPG::Client::TextID Desc; // 0x18
-		::System::UInt32 DisplayItem; // 0x28
-		::System::UInt32 ID; // 0x2C
+		::System::UInt32 FinishQuest; // 0x10
+		::System::UInt32 DisplayItem; // 0x14
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 SortID; // 0x1C
+		::RPG::Client::TextID Desc; // 0x20
 
 		::System::Void _ctor()
 		{

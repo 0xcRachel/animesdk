@@ -12,12 +12,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define MIRRORMENT_MIRRORMENTTOOL_GET_MIRRORPLANE_OFFSET UNITYSDK_OFFSET(0x111FEB90)
-#define MIRRORMENT_MIRRORMENTTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x111FEC30)
+#define MIRRORMENT_MIRRORMENTTOOL_GET_MIRRORPLANE_OFFSET UNITYSDK_OFFSET(0x88C9260)
+#define MIRRORMENT_MIRRORMENTTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x88C9300)
 
 namespace Mirrorment
 {
-	inline static constexpr unsigned int MirrormentTool_TypeDefinitionIndex = 37682;
+	inline static constexpr unsigned int MirrormentTool_TypeDefinitionIndex = 38644;
 
 	class MirrormentTool : public ::UnityEngine::MonoBehaviour
 	{

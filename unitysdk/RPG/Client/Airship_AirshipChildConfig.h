@@ -6,7 +6,7 @@ namespace RPG::Client { class Airship; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Airship_AirshipChildConfig_TypeDefinitionIndex = 47325;
+	inline static constexpr unsigned int Airship_AirshipChildConfig_TypeDefinitionIndex = 48406;
 
 	struct alignas(8) Airship_AirshipChildConfig
 	{

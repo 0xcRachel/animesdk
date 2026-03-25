@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x169CD6F0)
-#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x169CDDB0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171496A0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17149D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 11874;
+	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 11944;
 
 	class ConvinceGameplayNPCConfigRow : public ::System::Object
 	{

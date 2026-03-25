@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ScenenLightManager/FadingState.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_272_TypeDefinitionIndex = 38788;
+namespace System { class EventHandler; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_272_TypeDefinitionIndex = 33972;
 
 class Class_0_16E4307DCC419505_272
 {

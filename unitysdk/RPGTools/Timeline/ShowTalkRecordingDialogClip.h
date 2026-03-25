@@ -9,29 +9,29 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA666AA0)
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA666A90)
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xA666D30)
-#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA666CC0)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xABAD1F0)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xABAD1E0)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xABAD430)
+#define RPGTOOLS_TIMELINE_SHOWTALKRECORDINGDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xABAD3F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowTalkRecordingDialogClip_TypeDefinitionIndex = 38158;
+	inline static constexpr unsigned int ShowTalkRecordingDialogClip_TypeDefinitionIndex = 39133;
 
 	class ShowTalkRecordingDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowTalkRecordingDialogClip_TypeDefinitionIndex)->GetStaticField(0x17620);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowTalkRecordingDialogClip_TypeDefinitionIndex)->GetStaticField(0x45B30);
 		}
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowTalkRecordingDialogClip_TypeDefinitionIndex)->GetStaticField(0x17628);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowTalkRecordingDialogClip_TypeDefinitionIndex)->GetStaticField(0x45B38);
 		}
 		static ::RPG::Client::NotifyType* StaticGet_CLOSE_NOTIFY_TYPE()
 		{
-			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowTalkRecordingDialogClip_TypeDefinitionIndex)->GetStaticField(0x5AC0);
+			return (::RPG::Client::NotifyType*)Il2CppClass::FromTypeDefinitionIndex(ShowTalkRecordingDialogClip_TypeDefinitionIndex)->GetStaticField(0x11FB0);
 		}
 		::System::String* UILuaPath; // 0x18
 

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetWaypointSafeZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1EFB8D4D1B1B4098_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFF40CA0)
-#define CLASS_3_1EFB8D4D1B1B4098__CTOR_OFFSET UNITYSDK_OFFSET(0xFF40C70)
+#define CLASS_3_1EFB8D4D1B1B4098_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A64930)
+#define CLASS_3_1EFB8D4D1B1B4098__CTOR_OFFSET UNITYSDK_OFFSET(0x10A64900)
 
-inline static constexpr unsigned int Class_3_1EFB8D4D1B1B4098_TypeDefinitionIndex = 46209;
+inline static constexpr unsigned int Class_3_1EFB8D4D1B1B4098_TypeDefinitionIndex = 47285;
 
 class Class_3_1EFB8D4D1B1B4098 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetWaypointSafeZone*>
 {

@@ -9,42 +9,42 @@ namespace System { class Type; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IFIX_CORE_NEWFIELDINFO_CHECKINIT_OFFSET UNITYSDK_OFFSET(0x1543B640)
-#define IFIX_CORE_NEWFIELDINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1543AC30)
-#define IFIX_CORE_NEWFIELDINFO_HASINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1543D4B0)
-#define IFIX_CORE_NEWFIELDINFO_OBJECTTOINDEX_OFFSET UNITYSDK_OFFSET(0x1543D720)
-#define IFIX_CORE_NEWFIELDINFO_SETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1543D450)
-#define IFIX_CORE_NEWFIELDINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1543B250)
-#define IFIX_CORE_NEWFIELDINFO_SWEEP_OFFSET UNITYSDK_OFFSET(0x1543A1E0)
-#define IFIX_CORE_NEWFIELDINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1543D7A0)
-#define IFIX_CORE_NEWFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1543D440)
+#define IFIX_CORE_NEWFIELDINFO_CHECKINIT_OFFSET UNITYSDK_OFFSET(0x15B555C0)
+#define IFIX_CORE_NEWFIELDINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x15B54BB0)
+#define IFIX_CORE_NEWFIELDINFO_HASINITIALIZE_OFFSET UNITYSDK_OFFSET(0x15B571D0)
+#define IFIX_CORE_NEWFIELDINFO_OBJECTTOINDEX_OFFSET UNITYSDK_OFFSET(0x15B57440)
+#define IFIX_CORE_NEWFIELDINFO_SETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x15B57170)
+#define IFIX_CORE_NEWFIELDINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x15B551D0)
+#define IFIX_CORE_NEWFIELDINFO_SWEEP_OFFSET UNITYSDK_OFFSET(0x15B54160)
+#define IFIX_CORE_NEWFIELDINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B574C0)
+#define IFIX_CORE_NEWFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15B57160)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int NewFieldInfo_TypeDefinitionIndex = 9351;
+	inline static constexpr unsigned int NewFieldInfo_TypeDefinitionIndex = 9818;
 
 	class NewFieldInfo : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>** StaticGet_objList()
+		static ::IFix::Core::ThreadStackInfo** StaticGet_stack()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x750);
+			return (::IFix::Core::ThreadStackInfo**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x6B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>** StaticGet_newFieldValues()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x758);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x6B8);
 		}
-		static ::IFix::Core::ThreadStackInfo** StaticGet_stack()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>** StaticGet_objList()
 		{
-			return (::IFix::Core::ThreadStackInfo**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x760);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x6C0);
 		}
 		static ::System::Int32* StaticGet_staticObjectKey()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x4D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x510);
 		}
-		::System::String* Name; // 0x10
-		::System::Type* DeclaringType; // 0x18
-		::System::Type* FieldType; // 0x20
+		::System::Type* DeclaringType; // 0x10
+		::System::Type* FieldType; // 0x18
+		::System::String* Name; // 0x20
 		::System::Int32 MethodId; // 0x28
 
 		::System::Void _ctor()

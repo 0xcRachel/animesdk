@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_SCROLLVIEWSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1826B4E0)
+#define UNITYENGINE_SCROLLVIEWSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A92AD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScrollViewState_TypeDefinitionIndex = 5033;
+	inline static constexpr unsigned int ScrollViewState_TypeDefinitionIndex = 5133;
 
 	class ScrollViewState : public ::System::Object
 	{

@@ -9,28 +9,28 @@ namespace RPG::GameCore { class LevelAnchorParameter; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0xA33B270)
-#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xA323670)
-#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xA323700)
-#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0xA33B220)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA33B200)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA33B1D0)
+#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0xA876620)
+#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xA876470)
+#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xA876500)
+#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0xA8765D0)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA8765B0)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA876580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 45559;
+	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 46623;
 
 	class AnchorInfo : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
-		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x18
-		::System::String* AreaName; // 0x20
+		::System::String* AreaName; // 0x18
+		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x20
 		::UnityEngine::Transform* TransRoot; // 0x28
-		::UnityEngine::Vector3 _Postion; // 0x30
-		::System::UInt32 ID; // 0x3C
-		::UnityEngine::Quaternion _Rotation; // 0x40
-		::RPG::GameCore::LevelAnchorUsage Usage; // 0x50
+		::RPG::GameCore::LevelAnchorUsage Usage; // 0x30
+		::System::UInt32 ID; // 0x34
+		::UnityEngine::Vector3 _Postion; // 0x38
+		::UnityEngine::Quaternion _Rotation; // 0x44
 
 		::System::Void _ctor(::UnityEngine::Transform* root)
 		{

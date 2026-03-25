@@ -3,7 +3,7 @@
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ItemCornerEnum_TypeDefinitionIndex = 37527;
+	inline static constexpr unsigned int ItemCornerEnum_TypeDefinitionIndex = 38491;
 
 	enum class ItemCornerEnum : ::System::Int32
 	{

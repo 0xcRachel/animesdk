@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVarBindingType_TypeDefinitionIndex = 16922;
+	inline static constexpr unsigned int LittleGameLevelVarBindingType_TypeDefinitionIndex = 17327;
 
 	enum class LittleGameLevelVarBindingType : ::System::Int32
 	{

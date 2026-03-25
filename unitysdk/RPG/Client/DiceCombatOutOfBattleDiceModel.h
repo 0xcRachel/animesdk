@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7719342A69F338F3;
+class Class_1_6DA6DDD878F74995;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x903D600)
-#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x90501B0)
-#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x9050170)
+#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x949C790)
+#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x94AC7A0)
+#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x94AC750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatOutOfBattleDiceModel_TypeDefinitionIndex = 50475;
+	inline static constexpr unsigned int DiceCombatOutOfBattleDiceModel_TypeDefinitionIndex = 51610;
 
 	class DiceCombatOutOfBattleDiceModel : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_7719342A69F338F3*>* _Faces; // 0x10
+		::System::Collections::Generic::List_1<::Class_1_6DA6DDD878F74995*>* _Faces; // 0x10
 
 		::System::Void _ctor()
 		{

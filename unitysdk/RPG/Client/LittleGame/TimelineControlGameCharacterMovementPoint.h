@@ -6,7 +6,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameCharacterMovementPoint_TypeDefinitionIndex = 32044;
+	inline static constexpr unsigned int TimelineControlGameCharacterMovementPoint_TypeDefinitionIndex = 32954;
 
 	struct alignas(4) TimelineControlGameCharacterMovementPoint
 	{

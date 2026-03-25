@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ColorWriteMask_TypeDefinitionIndex = 4482;
+	inline static constexpr unsigned int ColorWriteMask_TypeDefinitionIndex = 4504;
 
 	enum class ColorWriteMask : ::System::Int32
 	{

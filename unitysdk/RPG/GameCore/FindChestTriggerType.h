@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindChestTriggerType_TypeDefinitionIndex = 12063;
+	inline static constexpr unsigned int FindChestTriggerType_TypeDefinitionIndex = 12133;
 
 	enum class FindChestTriggerType : ::System::Int32
 	{

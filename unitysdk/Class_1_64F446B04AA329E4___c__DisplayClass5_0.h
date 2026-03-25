@@ -8,16 +8,16 @@ class Class_1_64F446B04AA329E4;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_1_64F446B04AA329E4___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BE0440)
-#define CLASS_1_64F446B04AA329E4___C__DISPLAYCLASS5_0__SWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0x10BE12B0)
+#define CLASS_1_64F446B04AA329E4___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x116F1DF0)
+#define CLASS_1_64F446B04AA329E4___C__DISPLAYCLASS5_0__SWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0x116F2BB0)
 
-inline static constexpr unsigned int Class_1_64F446B04AA329E4___c__DisplayClass5_0_TypeDefinitionIndex = 59864;
+inline static constexpr unsigned int Class_1_64F446B04AA329E4___c__DisplayClass5_0_TypeDefinitionIndex = 61620;
 
 class Class_1_64F446B04AA329E4___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::System::String* areaPath; // 0x10
-	::System::Action* onFinish; // 0x18
+	::System::Action* onFinish; // 0x10
+	::System::String* areaPath; // 0x18
 	::Class_1_64F446B04AA329E4* __4__this; // 0x20
 	::UnityEngine::Quaternion rotation; // 0x28
 	::UnityEngine::Vector3 position; // 0x38

@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class ICharacterRowData; }
 
-#define CLASS_2_897CE1512E86E87A__CTOR_OFFSET UNITYSDK_OFFSET(0x863D950)
+#define CLASS_2_897CE1512E86E87A__CTOR_OFFSET UNITYSDK_OFFSET(0x1038DDC0)
 
-inline static constexpr unsigned int Class_2_897CE1512E86E87A_TypeDefinitionIndex = 45411;
+inline static constexpr unsigned int Class_2_897CE1512E86E87A_TypeDefinitionIndex = 46472;
 
 class Class_2_897CE1512E86E87A : public ::Class_1_B8FB38F0526A59B0
 {

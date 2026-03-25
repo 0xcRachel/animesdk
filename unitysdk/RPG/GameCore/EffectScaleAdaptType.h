@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectScaleAdaptType_TypeDefinitionIndex = 18031;
+	inline static constexpr unsigned int EffectScaleAdaptType_TypeDefinitionIndex = 18549;
 
 	enum class EffectScaleAdaptType : ::System::Int32
 	{

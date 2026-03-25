@@ -8,12 +8,12 @@ namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameQuaternionD
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen; }
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_System_Boolean_AutoGen; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_METHOD_1_5A8144964C1A6642_OFFSET UNITYSDK_OFFSET(0x16155070)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x16155400)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_METHOD_1_5A8144964C1A6642_OFFSET UNITYSDK_OFFSET(0x16863100)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x168634A0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerRecordFrames_TypeDefinitionIndex = 32669;
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_TypeDefinitionIndex = 33599;
 
 	class PhantomPlayerRecordFrames : public ::System::Object
 	{
@@ -40,8 +40,9 @@ namespace RPG::Client::LittleGame::FiveDim
 		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsWallSlide; // 0xA0
 		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsDoubleJump; // 0xA8
 		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsSkillArrow; // 0xB0
-		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsSquat; // 0xB8
-		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsUseProp; // 0xC0
+		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsSkillSummon; // 0xB8
+		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsSquat; // 0xC0
+		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsUseProp; // 0xC8
 
 		::System::Void _ctor()
 		{

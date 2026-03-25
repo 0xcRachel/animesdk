@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CA6850)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODCLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x90FD3D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceMoodMapConfig_MoodClipData_TypeDefinitionIndex = 54953;
+	inline static constexpr unsigned int AudienceMoodMapConfig_MoodClipData_TypeDefinitionIndex = 56515;
 
 	class AudienceMoodMapConfig_MoodClipData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaDerivationMethod_TypeDefinitionIndex = 2177;
+	inline static constexpr unsigned int XmlSchemaDerivationMethod_TypeDefinitionIndex = 2182;
 
 	enum class XmlSchemaDerivationMethod : ::System::Int32
 	{

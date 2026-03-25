@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_1A5CB4F57CDDD315_OFFSET UNITYSDK_OFFSET(0x105BC2E0)
-#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET UNITYSDK_OFFSET(0x105BC530)
-#define CLASS_1_E6D4E6257B88FF1D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x105BC3E0)
-#define CLASS_1_E6D4E6257B88FF1D__CTOR_OFFSET UNITYSDK_OFFSET(0x105BC3D0)
-#define CLASS_1_E6D4E6257B88FF1D___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x105BC630)
+#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_1A5CB4F57CDDD315_OFFSET UNITYSDK_OFFSET(0xA1EAF50)
+#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET UNITYSDK_OFFSET(0xA1EB1A0)
+#define CLASS_1_E6D4E6257B88FF1D_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA1EB050)
+#define CLASS_1_E6D4E6257B88FF1D__CTOR_OFFSET UNITYSDK_OFFSET(0xA1EB040)
+#define CLASS_1_E6D4E6257B88FF1D___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA1EB2A0)
 
-inline static constexpr unsigned int Class_1_E6D4E6257B88FF1D_TypeDefinitionIndex = 49490;
+inline static constexpr unsigned int Class_1_E6D4E6257B88FF1D_TypeDefinitionIndex = 50623;
 
 class Class_1_E6D4E6257B88FF1D : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_1; // 0x10
 	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_2; // 0x18
-	::Class_1_26FB5CF7326A326B_MeasureAction Field_1_0; // 0x20
-	::UnityEngine::Vector2 Field_1_3; // 0x24
+	::UnityEngine::Vector2 Field_1_3; // 0x20
+	::Class_1_26FB5CF7326A326B_MeasureAction Field_1_0; // 0x28
 
 	::System::Void _ctor()
 	{

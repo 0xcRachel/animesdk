@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define CLASS_1_705B4D774F4E7B74_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x17B37160)
-#define CLASS_1_705B4D774F4E7B74_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x17B37190)
-#define CLASS_1_705B4D774F4E7B74_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x17B37150)
-#define CLASS_1_705B4D774F4E7B74_METHOD_1_A7E171606F37263E_OFFSET UNITYSDK_OFFSET(0x17B37130)
+#define CLASS_1_705B4D774F4E7B74_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1832C950)
+#define CLASS_1_705B4D774F4E7B74_METHOD_1_832295EC279E5994_1_OFFSET UNITYSDK_OFFSET(0x1832C980)
+#define CLASS_1_705B4D774F4E7B74_METHOD_1_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0x1832C940)
+#define CLASS_1_705B4D774F4E7B74_METHOD_1_A7E171606F37263E_OFFSET UNITYSDK_OFFSET(0x1832C920)
 
-inline static constexpr unsigned int Class_1_705B4D774F4E7B74_TypeDefinitionIndex = 8972;
+inline static constexpr unsigned int Class_1_705B4D774F4E7B74_TypeDefinitionIndex = 9543;
 
 class Class_1_705B4D774F4E7B74 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_705B4D774F4E7B74_TypeDefinitionIndex)->GetStaticField(0x6DB0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_705B4D774F4E7B74_TypeDefinitionIndex)->GetStaticField(0xB0D0);
 	}
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_705B4D774F4E7B74_TypeDefinitionIndex)->GetStaticField(0x6DB4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_705B4D774F4E7B74_TypeDefinitionIndex)->GetStaticField(0xB0D4);
 	}
 
 	static ::System::Int32 Method_1_A7E171606F37263E(::System::String* a1)

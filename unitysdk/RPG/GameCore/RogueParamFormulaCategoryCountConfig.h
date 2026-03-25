@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_5_5C2211641256DD21_OFFSET UNITYSDK_OFFSET(0x16EB37E0)
-#define RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_5_CAF641E9DF0534DA_OFFSET UNITYSDK_OFFSET(0x16EB3670)
-#define RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB3740)
+#define RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_6_905A1819997000F4_OFFSET UNITYSDK_OFFSET(0x1765F2A0)
+#define RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_6_95F84992E9A2F37A_OFFSET UNITYSDK_OFFSET(0x1765EFF0)
+#define RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1765F170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamFormulaCategoryCountConfig_TypeDefinitionIndex = 17681;
+	inline static constexpr unsigned int RogueParamFormulaCategoryCountConfig_TypeDefinitionIndex = 18167;
 
 	class RogueParamFormulaCategoryCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_CAF641E9DF0534DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig*& a2)
+		static ::System::Void Method_6_95F84992E9A2F37A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_5_CAF641E9DF0534DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_6_95F84992E9A2F37A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_5C2211641256DD21(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig* a2)
+		static ::System::Void Method_6_905A1819997000F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_5_5C2211641256DD21_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamFormulaCategoryCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMFORMULACATEGORYCOUNTCONFIG_METHOD_6_905A1819997000F4_OFFSET))(a1, a2);
 		}
 	};
 }

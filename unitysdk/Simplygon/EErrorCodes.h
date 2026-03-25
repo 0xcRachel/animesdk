@@ -3,7 +3,7 @@
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int EErrorCodes_TypeDefinitionIndex = 28667;
+	inline static constexpr unsigned int EErrorCodes_TypeDefinitionIndex = 29542;
 
 	enum class EErrorCodes : ::System::Int32
 	{

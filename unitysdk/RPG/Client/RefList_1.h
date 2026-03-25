@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RefList_1_TypeDefinitionIndex = 8916;
+	inline static constexpr unsigned int RefList_1_TypeDefinitionIndex = 9484;
 
 	template <typename T>
 	class RefList_1 : public ::System::Object

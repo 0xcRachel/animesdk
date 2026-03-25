@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_METHOD_2_0A98B44246B6228D_OFFSET UNITYSDK_OFFSET(0x16A3BA50)
-#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A3BB20)
+#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_METHOD_2_0A7C339D22642404_OFFSET UNITYSDK_OFFSET(0x1717BF40)
+#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1717C040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatSkillAIEffectConfig_TypeDefinitionIndex = 14552;
+	inline static constexpr unsigned int DiceCombatSkillAIEffectConfig_TypeDefinitionIndex = 14804;
 
 	class DiceCombatSkillAIEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0A98B44246B6228D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatSkillAIEffectConfig*& a2)
+		static ::System::Void Method_2_0A7C339D22642404(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatSkillAIEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatSkillAIEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_METHOD_2_0A98B44246B6228D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatSkillAIEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_METHOD_2_0A7C339D22642404_OFFSET))(a1, a2);
 		}
 	};
 }

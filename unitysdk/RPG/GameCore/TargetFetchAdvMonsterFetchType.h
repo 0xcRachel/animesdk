@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvMonsterFetchType_TypeDefinitionIndex = 21592;
+	inline static constexpr unsigned int TargetFetchAdvMonsterFetchType_TypeDefinitionIndex = 22154;
 
 	enum class TargetFetchAdvMonsterFetchType : ::System::Int32
 	{

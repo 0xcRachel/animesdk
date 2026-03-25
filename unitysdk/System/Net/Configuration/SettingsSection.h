@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x17EA2DD0)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA2D90)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186CC010)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x186CBFD0)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int SettingsSection_TypeDefinitionIndex = 3061;
+	inline static constexpr unsigned int SettingsSection_TypeDefinitionIndex = 3070;
 
 	class SettingsSection : public ::System::Configuration::ConfigurationSection
 	{

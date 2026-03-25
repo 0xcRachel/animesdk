@@ -11,74 +11,74 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_GET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xA26B1E0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_INIT_OFFSET UNITYSDK_OFFSET(0xA26A3A0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA26B180)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONLOSSHP_OFFSET UNITYSDK_OFFSET(0xA26ADB0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPCOINMATERIAL_OFFSET UNITYSDK_OFFSET(0xA26A540)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPMIRACLEMATERIAL_OFFSET UNITYSDK_OFFSET(0xA26A8D0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xA26B1F0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SHOWSCORE_OFFSET UNITYSDK_OFFSET(0xA26AE70)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP__CCTOR_OFFSET UNITYSDK_OFFSET(0xA26B4C0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP__CTOR_OFFSET UNITYSDK_OFFSET(0xA26B200)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xA26B5B0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP___IFIXBASEPROXY_ONLOSSHP_OFFSET UNITYSDK_OFFSET(0xA26B5C0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP___IFIXBASEPROXY_SHOWSCORE_OFFSET UNITYSDK_OFFSET(0xA26B600)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_GET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xA7A5970)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_INIT_OFFSET UNITYSDK_OFFSET(0xA7A4960)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xA7A5910)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONLOSSHP_OFFSET UNITYSDK_OFFSET(0xA7A5510)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPCOINMATERIAL_OFFSET UNITYSDK_OFFSET(0xA7A4B80)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPMIRACLEMATERIAL_OFFSET UNITYSDK_OFFSET(0xA7A4F40)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xA7A5980)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SHOWSCORE_OFFSET UNITYSDK_OFFSET(0xA7A55F0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7A5BA0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP__CTOR_OFFSET UNITYSDK_OFFSET(0xA7A5990)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xA7A5CB0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP___IFIXBASEPROXY_ONLOSSHP_OFFSET UNITYSDK_OFFSET(0xA7A5D50)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP___IFIXBASEPROXY_SHOWSCORE_OFFSET UNITYSDK_OFFSET(0xA7A5D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex = 54571;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex = 56131;
 
 	class WolfBroGunPlayTarget_RogueHP : public ::RPG::Client::WolfBroGunPlayTarget_HP
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_7_8()
+		static ::System::Int32* StaticGet_Field_7_13()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF70);
-		}
-		static ::System::Int32* StaticGet_Field_7_4()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF74);
-		}
-		static ::System::Int32* StaticGet_Field_7_7()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF78);
-		}
-		static ::System::Int32* StaticGet_Field_7_9()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF7C);
-		}
-		static ::System::Int32* StaticGet_Field_7_14()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103D0);
 		}
 		static ::System::Int32* StaticGet_Field_7_6()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF84);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103D4);
 		}
 		static ::System::Int32* StaticGet_Field_7_12()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF88);
-		}
-		static ::System::Int32* StaticGet_Field_7_5()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF8C);
-		}
-		static ::System::Int32* StaticGet_Field_7_13()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF90);
-		}
-		static ::System::Int32* StaticGet_Field_7_15()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF94);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103D8);
 		}
 		static ::System::Int32* StaticGet_Field_7_11()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF98);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103DC);
+		}
+		static ::System::Int32* StaticGet_Field_7_7()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103E0);
+		}
+		static ::System::Int32* StaticGet_Field_7_14()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103E4);
+		}
+		static ::System::Int32* StaticGet_Field_7_15()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103E8);
+		}
+		static ::System::Int32* StaticGet_Field_7_4()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103EC);
+		}
+		static ::System::Int32* StaticGet_Field_7_8()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103F0);
+		}
+		static ::System::Int32* StaticGet_Field_7_5()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103F4);
 		}
 		static ::System::Int32* StaticGet_Field_7_10()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0xDF9C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103F8);
+		}
+		static ::System::Int32* StaticGet_Field_7_9()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex)->GetStaticField(0x103FC);
 		}
 		::UnityEngine::Renderer* Renderer; // 0xF8
 		::System::Int32 _RogueIndex_k__BackingField; // 0x100

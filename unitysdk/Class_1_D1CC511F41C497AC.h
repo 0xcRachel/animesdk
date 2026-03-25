@@ -7,12 +7,12 @@
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_D1CC511F41C497AC_METHOD_1_057988DB0B887860_OFFSET UNITYSDK_OFFSET(0xB8D2CD0)
-#define CLASS_1_D1CC511F41C497AC_METHOD_1_79F3A0C23F8599CE_OFFSET UNITYSDK_OFFSET(0xB8D2B90)
-#define CLASS_1_D1CC511F41C497AC_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xB8D3060)
-#define CLASS_1_D1CC511F41C497AC__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D3070)
+#define CLASS_1_D1CC511F41C497AC_METHOD_1_057988DB0B887860_OFFSET UNITYSDK_OFFSET(0x119229E0)
+#define CLASS_1_D1CC511F41C497AC_METHOD_1_79F3A0C23F8599CE_OFFSET UNITYSDK_OFFSET(0x119228A0)
+#define CLASS_1_D1CC511F41C497AC_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x11922D70)
+#define CLASS_1_D1CC511F41C497AC__CTOR_OFFSET UNITYSDK_OFFSET(0x11922D80)
 
-inline static constexpr unsigned int Class_1_D1CC511F41C497AC_TypeDefinitionIndex = 46201;
+inline static constexpr unsigned int Class_1_D1CC511F41C497AC_TypeDefinitionIndex = 47277;
 
 class Class_1_D1CC511F41C497AC : public ::System::Object
 {
@@ -20,9 +20,9 @@ public:
 	// static const ::System::Single Field_1_5; // 0x0
 	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
 	::RPG::GameCore::EntityPosAdaptionConfig* Field_1_4; // 0x18
-	::UnityEngine::Vector3 Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x2C
-	::System::Boolean Field_1_0; // 0x30
+	::System::Boolean Field_1_0; // 0x20
+	::System::Single Field_1_3; // 0x24
+	::UnityEngine::Vector3 Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

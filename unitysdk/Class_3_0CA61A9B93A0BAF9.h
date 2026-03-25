@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPhotoGraphFovLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0CA61A9B93A0BAF9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10A04870)
-#define CLASS_3_0CA61A9B93A0BAF9__CTOR_OFFSET UNITYSDK_OFFSET(0x10A04840)
+#define CLASS_3_0CA61A9B93A0BAF9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11416FE0)
+#define CLASS_3_0CA61A9B93A0BAF9__CTOR_OFFSET UNITYSDK_OFFSET(0x11416FB0)
 
-inline static constexpr unsigned int Class_3_0CA61A9B93A0BAF9_TypeDefinitionIndex = 41984;
+inline static constexpr unsigned int Class_3_0CA61A9B93A0BAF9_TypeDefinitionIndex = 43033;
 
 class Class_3_0CA61A9B93A0BAF9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPhotoGraphFovLevel*>
 {

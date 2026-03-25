@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConfigurableJointMotion_TypeDefinitionIndex = 5111;
+	inline static constexpr unsigned int ConfigurableJointMotion_TypeDefinitionIndex = 5211;
 
 	enum class ConfigurableJointMotion : ::System::Int32
 	{

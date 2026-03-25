@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_QUESTTIMELIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DC0340)
-#define RPG_GAMECORE_QUESTTIMELIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC0B30)
+#define RPG_GAMECORE_QUESTTIMELIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1758C600)
+#define RPG_GAMECORE_QUESTTIMELIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1758CDF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestTimeLimitRow_TypeDefinitionIndex = 11174;
+	inline static constexpr unsigned int QuestTimeLimitRow_TypeDefinitionIndex = 11242;
 
 	class QuestTimeLimitRow : public ::System::Object
 	{
 	public:
-		::System::String* GuideImgPath; // 0x10
-		::System::String* FigurePath; // 0x18
-		::System::UInt32 QuestID; // 0x20
-		::System::UInt32 GuideVideoID; // 0x24
-		::RPG::Client::TextID BGDesc; // 0x28
-		::RPG::Client::TextID GuideDesc; // 0x38
-		::System::UInt32 WorldID; // 0x48
-		::System::UInt32 UnlockData; // 0x4C
+		::System::String* FigurePath; // 0x10
+		::System::String* GuideImgPath; // 0x18
+		::RPG::Client::TextID GuideDesc; // 0x20
+		::System::UInt32 GuideVideoID; // 0x30
+		::System::UInt32 UnlockData; // 0x34
+		::System::UInt32 WorldID; // 0x38
+		::System::UInt32 QuestID; // 0x3C
+		::RPG::Client::TextID BGDesc; // 0x40
 
 		::System::Void _ctor()
 		{

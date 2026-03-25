@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_COPYTO_OFFSET UNITYSDK_OFFSET(0x810F840)
-#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x811DDE0)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE_COPYTO_OFFSET UNITYSDK_OFFSET(0x8466A20)
+#define HOUDINIENGINEUNITY_HEU_INSTANCEINPUTUISTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x8474BA0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InstanceInputUIState_TypeDefinitionIndex = 36700;
+	inline static constexpr unsigned int HEU_InstanceInputUIState_TypeDefinitionIndex = 37637;
 
 	class HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject
 	{

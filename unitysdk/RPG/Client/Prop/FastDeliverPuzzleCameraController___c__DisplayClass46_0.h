@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLECAMERACONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9C15EA0)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLECAMERACONTROLLER___C__DISPLAYCLASS46_0___ANIMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x9C162E0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLECAMERACONTROLLER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A30F0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLECAMERACONTROLLER___C__DISPLAYCLASS46_0___ANIMUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xA0A3530)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleCameraController___c__DisplayClass46_0_TypeDefinitionIndex = 61849;
+	inline static constexpr unsigned int FastDeliverPuzzleCameraController___c__DisplayClass46_0_TypeDefinitionIndex = 64036;
 
 	class FastDeliverPuzzleCameraController___c__DisplayClass46_0 : public ::System::Object
 	{

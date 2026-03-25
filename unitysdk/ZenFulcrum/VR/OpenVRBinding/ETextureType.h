@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ETextureType_TypeDefinitionIndex = 29382;
+	inline static constexpr unsigned int ETextureType_TypeDefinitionIndex = 30257;
 
 	enum class ETextureType : ::System::Int32
 	{

@@ -6,18 +6,18 @@ class Class_1_4F30521532511E50;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYMAPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1687C5A0)
-#define RPG_GAMECORE_ALLEYMAPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1687CBA0)
+#define RPG_GAMECORE_ALLEYMAPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F89FF0)
+#define RPG_GAMECORE_ALLEYMAPGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8A5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapGradeRow_TypeDefinitionIndex = 11462;
+	inline static constexpr unsigned int AlleyMapGradeRow_TypeDefinitionIndex = 11530;
 
 	class AlleyMapGradeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_4F30521532511E50*>* GradeConditions; // 0x10
-		::System::String* MapConfig; // 0x18
+		::System::String* MapConfig; // 0x10
+		::Il2CppArray<::Class_1_4F30521532511E50*>* GradeConditions; // 0x18
 		::System::UInt32 MapID; // 0x20
 		::System::UInt32 GradeID; // 0x24
 

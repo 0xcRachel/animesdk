@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GAMEPHASECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x92F8260)
-#define RPG_CLIENT_GAMEPHASECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x92F82A0)
-#define RPG_CLIENT_GAMEPHASECONTEXT___C___ONPSNLOGOUTHANDLER_B__10_0_OFFSET UNITYSDK_OFFSET(0x92F82B0)
+#define RPG_CLIENT_GAMEPHASECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97B6400)
+#define RPG_CLIENT_GAMEPHASECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97B6440)
+#define RPG_CLIENT_GAMEPHASECONTEXT___C___ONPSNLOGOUTHANDLER_B__10_0_OFFSET UNITYSDK_OFFSET(0x97B6450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePhaseContext___c_TypeDefinitionIndex = 48438;
+	inline static constexpr unsigned int GamePhaseContext___c_TypeDefinitionIndex = 49531;
 
 	class GamePhaseContext___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GamePhaseContext___c** StaticGet___9()
-		{
-			return (::RPG::Client::GamePhaseContext___c**)Il2CppClass::FromTypeDefinitionIndex(GamePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x43AE0);
-		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GamePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x43AE8);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GamePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x12B00);
+		}
+		static ::RPG::Client::GamePhaseContext___c** StaticGet___9()
+		{
+			return (::RPG::Client::GamePhaseContext___c**)Il2CppClass::FromTypeDefinitionIndex(GamePhaseContext___c_TypeDefinitionIndex)->GetStaticField(0x12B08);
 		}
 
 		static ::System::Void _cctor()

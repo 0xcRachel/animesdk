@@ -4,10 +4,10 @@
 
 class AkEnvironment;
 
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY_COMPARE_OFFSET UNITYSDK_OFFSET(0x18397C00)
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18397BE0)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY_COMPARE_OFFSET UNITYSDK_OFFSET(0x18BBC810)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18BBC7F0)
 
-inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareByPriority_TypeDefinitionIndex = 33665;
+inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareByPriority_TypeDefinitionIndex = 34654;
 
 class AkEnvironment_AkEnvironment_CompareByPriority : public ::System::Object
 {

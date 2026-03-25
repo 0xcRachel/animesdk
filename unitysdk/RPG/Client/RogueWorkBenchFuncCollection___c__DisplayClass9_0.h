@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueWorkBenchFuncItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F30920)
-#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0___SORTITEMS_B__0_OFFSET UNITYSDK_OFFSET(0x9F30A30)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FBE10)
+#define RPG_CLIENT_ROGUEWORKBENCHFUNCCOLLECTION___C__DISPLAYCLASS9_0___SORTITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xA3FBF20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueWorkBenchFuncCollection___c__DisplayClass9_0_TypeDefinitionIndex = 53510;
+	inline static constexpr unsigned int RogueWorkBenchFuncCollection___c__DisplayClass9_0_TypeDefinitionIndex = 54856;
 
 	class RogueWorkBenchFuncCollection___c__DisplayClass9_0 : public ::System::Object
 	{

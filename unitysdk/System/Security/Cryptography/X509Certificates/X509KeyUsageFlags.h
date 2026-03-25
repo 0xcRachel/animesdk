@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509KeyUsageFlags_TypeDefinitionIndex = 2666;
+	inline static constexpr unsigned int X509KeyUsageFlags_TypeDefinitionIndex = 2671;
 
 	enum class X509KeyUsageFlags : ::System::Int32
 	{

@@ -5,24 +5,24 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_EMITTABLEMEMBER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1566A140)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_EMITTABLEMEMBER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1566A180)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_EMITTABLEMEMBER___C__GET_ISINITONLY_B__14_0_OFFSET UNITYSDK_OFFSET(0x1566A190)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_EMITTABLEMEMBER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D74700)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_EMITTABLEMEMBER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15D74740)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_EMITTABLEMEMBER___C__GET_ISINITONLY_B__14_0_OFFSET UNITYSDK_OFFSET(0x15D74750)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo_EmittableMember___c_TypeDefinitionIndex = 9637;
+	inline static constexpr unsigned int ObjectSerializationInfo_EmittableMember___c_TypeDefinitionIndex = 9189;
 
 	class ObjectSerializationInfo_EmittableMember___c : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Internal::ObjectSerializationInfo_EmittableMember___c** StaticGet___9()
 		{
-			return (::MessagePack::Internal::ObjectSerializationInfo_EmittableMember___c**)Il2CppClass::FromTypeDefinitionIndex(ObjectSerializationInfo_EmittableMember___c_TypeDefinitionIndex)->GetStaticField(0x25430);
+			return (::MessagePack::Internal::ObjectSerializationInfo_EmittableMember___c**)Il2CppClass::FromTypeDefinitionIndex(ObjectSerializationInfo_EmittableMember___c_TypeDefinitionIndex)->GetStaticField(0x19C10);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectSerializationInfo_EmittableMember___c_TypeDefinitionIndex)->GetStaticField(0x25438);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ObjectSerializationInfo_EmittableMember___c_TypeDefinitionIndex)->GetStaticField(0x19C18);
 		}
 
 		static ::System::Void _cctor()

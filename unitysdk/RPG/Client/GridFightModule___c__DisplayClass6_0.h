@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightArchiveData; }
 
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93BA8A0)
-#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0__ISFAVOURARCHIVE_B__0_OFFSET UNITYSDK_OFFSET(0x93BA8B0)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9863DB0)
+#define RPG_CLIENT_GRIDFIGHTMODULE___C__DISPLAYCLASS6_0__ISFAVOURARCHIVE_B__0_OFFSET UNITYSDK_OFFSET(0x9878010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModule___c__DisplayClass6_0_TypeDefinitionIndex = 51538;
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass6_0_TypeDefinitionIndex = 52672;
 
 	class GridFightModule___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING_METHOD_2_F71A2711C8F52DFC_OFFSET UNITYSDK_OFFSET(0x16B09B00)
-#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16B09E70)
+#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING_METHOD_2_F71A2711C8F52DFC_OFFSET UNITYSDK_OFFSET(0x17255EA0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x17256270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameObjectPoolGroupSetting_TypeDefinitionIndex = 14818;
+	inline static constexpr unsigned int GameObjectPoolGroupSetting_TypeDefinitionIndex = 15070;
 
 	class GameObjectPoolGroupSetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,6 +22,7 @@ namespace RPG::GameCore
 		::System::Int32 BattlePoolAutoReleaseCacheInstanceThresh; // 0x24
 		::System::Single BattlePoolAutoReleaseCacheInstanceRatio; // 0x28
 		::System::Int32 DisablePreloadCache; // 0x2C
+		::System::Int32 UnusedPoolCacheCount; // 0x30
 
 		::System::Void _ctor()
 		{

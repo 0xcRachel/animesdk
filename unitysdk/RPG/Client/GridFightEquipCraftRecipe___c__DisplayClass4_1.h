@@ -6,12 +6,12 @@
 namespace RPG::Client { class GridFightEquipCraftRecipe___c__DisplayClass4_0; }
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CANCRAFTTOROLE_B__0_OFFSET UNITYSDK_OFFSET(0x934DBE0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x934DA80)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CANCRAFTTOROLE_B__0_OFFSET UNITYSDK_OFFSET(0x980BB20)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x980B9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_1_TypeDefinitionIndex = 51276;
+	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_1_TypeDefinitionIndex = 52409;
 
 	class GridFightEquipCraftRecipe___c__DisplayClass4_1 : public ::System::Object
 	{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DistrictAreaSoundTransform; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG_METHOD_2_367E62EC66A1DB1F_OFFSET UNITYSDK_OFFSET(0x16A45670)
-#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A45870)
+#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG_METHOD_2_367E62EC66A1DB1F_OFFSET UNITYSDK_OFFSET(0x171881A0)
+#define RPG_GAMECORE_DISTRICTAREASOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171883A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistrictAreaSoundConfig_TypeDefinitionIndex = 15581;
+	inline static constexpr unsigned int DistrictAreaSoundConfig_TypeDefinitionIndex = 15858;
 
 	class DistrictAreaSoundConfig : public ::RPG::GameCore::JsonConfig
 	{

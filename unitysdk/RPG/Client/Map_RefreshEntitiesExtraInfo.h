@@ -5,11 +5,11 @@
 namespace RPG::Client { class Map_OnGroupEntitiesCreatedDelegate; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MAP_REFRESHENTITIESEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9601180)
+#define RPG_CLIENT_MAP_REFRESHENTITIESEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9AE8EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Map_RefreshEntitiesExtraInfo_TypeDefinitionIndex = 48243;
+	inline static constexpr unsigned int Map_RefreshEntitiesExtraInfo_TypeDefinitionIndex = 49335;
 
 	class Map_RefreshEntitiesExtraInfo : public ::System::Object
 	{

@@ -4,21 +4,21 @@
 
 namespace System::Collections { class IEnumerator; }
 
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15B348D0)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15B34620)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15B34770)
-#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B34610)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x161FE380)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x161FE0D0)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x161FE220)
+#define SYSTEM_SECURITY_POLICY_EVIDENCE_EVIDENCEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x161FE0C0)
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int Evidence_EvidenceEnumerator_TypeDefinitionIndex = 946;
+	inline static constexpr unsigned int Evidence_EvidenceEnumerator_TypeDefinitionIndex = 950;
 
 	class Evidence_EvidenceEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::IEnumerator* currentEnum; // 0x10
-		::System::Collections::IEnumerator* hostEnum; // 0x18
-		::System::Collections::IEnumerator* assemblyEnum; // 0x20
+		::System::Collections::IEnumerator* hostEnum; // 0x10
+		::System::Collections::IEnumerator* assemblyEnum; // 0x18
+		::System::Collections::IEnumerator* currentEnum; // 0x20
 
 		::System::Void _ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum)
 		{

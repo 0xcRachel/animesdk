@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16871BC0)
-#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16871E40)
+#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F7F610)
+#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F7F890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideTrainerLevelRow_TypeDefinitionIndex = 10238;
+	inline static constexpr unsigned int AetherDivideTrainerLevelRow_TypeDefinitionIndex = 10242;
 
 	class AetherDivideTrainerLevelRow : public ::System::Object
 	{

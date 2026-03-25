@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightEffectController; }
 namespace RPG::Client { class GridFightUpgradeRefreshEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9345C50)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0___PLAYUPGRADEREFRESHEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9347230)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9803E40)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS27_0___PLAYUPGRADEREFRESHEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9805560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass27_0_TypeDefinitionIndex = 51251;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass27_0_TypeDefinitionIndex = 52384;
 
 	class GridFightEffectController___c__DisplayClass27_0 : public ::System::Object
 	{

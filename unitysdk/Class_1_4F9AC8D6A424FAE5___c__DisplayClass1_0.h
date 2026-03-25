@@ -6,17 +6,17 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
 
-#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xFE505B0)
-#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0xFE505D0)
-#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFE4FE10)
+#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x10A11E30)
+#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x10A11E50)
+#define CLASS_1_4F9AC8D6A424FAE5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A11670)
 
-inline static constexpr unsigned int Class_1_4F9AC8D6A424FAE5___c__DisplayClass1_0_TypeDefinitionIndex = 61659;
+inline static constexpr unsigned int Class_1_4F9AC8D6A424FAE5___c__DisplayClass1_0_TypeDefinitionIndex = 63846;
 
 class Class_1_4F9AC8D6A424FAE5___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::System::Action* onFinishAll; // 0x10
-	::RPG::Client::Promises::Promise* promise; // 0x18
+	::RPG::Client::Promises::Promise* promise; // 0x10
+	::System::Action* onFinishAll; // 0x18
 
 	::System::Void _ctor()
 	{

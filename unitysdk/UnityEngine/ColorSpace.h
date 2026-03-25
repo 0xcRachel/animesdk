@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ColorSpace_TypeDefinitionIndex = 3954;
+	inline static constexpr unsigned int ColorSpace_TypeDefinitionIndex = 3975;
 
 	enum class ColorSpace : ::System::Int32
 	{

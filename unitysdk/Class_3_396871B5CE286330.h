@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChessByContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_396871B5CE286330_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8965F40)
-#define CLASS_3_396871B5CE286330__CTOR_OFFSET UNITYSDK_OFFSET(0x8965F10)
+#define CLASS_3_396871B5CE286330_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8824690)
+#define CLASS_3_396871B5CE286330__CTOR_OFFSET UNITYSDK_OFFSET(0x8824660)
 
-inline static constexpr unsigned int Class_3_396871B5CE286330_TypeDefinitionIndex = 44140;
+inline static constexpr unsigned int Class_3_396871B5CE286330_TypeDefinitionIndex = 45200;
 
 class Class_3_396871B5CE286330 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ChessByContainBehaviorFlag*>
 {

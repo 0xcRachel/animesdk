@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPMOVETO_METHOD_3_7CC5931D4C6F105A_OFFSET UNITYSDK_OFFSET(0x16DAE250)
-#define RPG_GAMECORE_PROPMOVETO_METHOD_3_E99C10B2F4480EF9_OFFSET UNITYSDK_OFFSET(0x16DAE3E0)
-#define RPG_GAMECORE_PROPMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x16DAE290)
+#define RPG_GAMECORE_PROPMOVETO_METHOD_3_7CC5931D4C6F105A_OFFSET UNITYSDK_OFFSET(0x17534F40)
+#define RPG_GAMECORE_PROPMOVETO_METHOD_3_E99C10B2F4480EF9_OFFSET UNITYSDK_OFFSET(0x175350D0)
+#define RPG_GAMECORE_PROPMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x17534F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropMoveTo_TypeDefinitionIndex = 19215;
+	inline static constexpr unsigned int PropMoveTo_TypeDefinitionIndex = 19741;
 
 	class PropMoveTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,6 +35,7 @@ namespace RPG::GameCore
 		::System::Single LocalPlayerForwardRadius; // 0x6C
 		::System::Boolean UseCurveData; // 0x70
 		::System::Boolean BreakWhenTalk; // 0x71
+		::System::Boolean ForbidTickLod; // 0x72
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x78
 
 		::System::Void _ctor()

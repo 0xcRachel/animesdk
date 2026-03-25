@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MLinkedList_1_TypeDefinitionIndex = 8910;
+	inline static constexpr unsigned int MLinkedList_1_TypeDefinitionIndex = 9478;
 
 	template <typename T>
 	class MLinkedList_1 : public ::System::Object

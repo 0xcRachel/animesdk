@@ -6,17 +6,17 @@
 class Class_1_ECBCF86CDE61CBCA;
 namespace System { class String; }
 
-#define CLASS_1_AABA0F441D5E0AED__CTOR_OFFSET UNITYSDK_OFFSET(0xFE6BD80)
+#define CLASS_1_AABA0F441D5E0AED__CTOR_OFFSET UNITYSDK_OFFSET(0xF36A0E0)
 
-inline static constexpr unsigned int Class_1_AABA0F441D5E0AED_TypeDefinitionIndex = 49357;
+inline static constexpr unsigned int Class_1_AABA0F441D5E0AED_TypeDefinitionIndex = 50490;
 
 class Class_1_AABA0F441D5E0AED : public ::System::Object
 {
 public:
 	::System::String* Field_1_1; // 0x10
 	::Class_1_ECBCF86CDE61CBCA* Field_1_3; // 0x18
-	::System::UInt32 Field_1_0; // 0x20
-	::RPG::GameCore::StageRegionVisualState Field_1_2; // 0x24
+	::RPG::GameCore::StageRegionVisualState Field_1_2; // 0x20
+	::System::UInt32 Field_1_0; // 0x24
 
 	::System::Void _ctor()
 	{

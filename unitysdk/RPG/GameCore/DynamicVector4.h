@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_43DEB4651F348FAE_OFFSET UNITYSDK_OFFSET(0x16A59950)
-#define RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x16A59B90)
+#define RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_3211940520E359B5_OFFSET UNITYSDK_OFFSET(0x1719C4F0)
+#define RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x1719C750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicVector4_TypeDefinitionIndex = 21561;
+	inline static constexpr unsigned int DynamicVector4_TypeDefinitionIndex = 22121;
 
 	class DynamicVector4 : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_43DEB4651F348FAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicVector4*& a2)
+		static ::System::Void Method_2_3211940520E359B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicVector4*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicVector4*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_43DEB4651F348FAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicVector4*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_3211940520E359B5_OFFSET))(a1, a2);
 		}
 	};
 }

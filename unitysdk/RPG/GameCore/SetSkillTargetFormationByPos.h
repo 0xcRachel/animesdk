@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TargetFormationPosConfig; }
 
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_50FE5E2CDE56E151_OFFSET UNITYSDK_OFFSET(0x16F3D280)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_8632E1689D648F9F_OFFSET UNITYSDK_OFFSET(0x16F3D350)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x16F3D300)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_50FE5E2CDE56E151_OFFSET UNITYSDK_OFFSET(0x176F27F0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_8632E1689D648F9F_OFFSET UNITYSDK_OFFSET(0x176F28C0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x176F2870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 20139;
+	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 20683;
 
 	class SetSkillTargetFormationByPos : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,8 +28,9 @@ namespace RPG::GameCore
 		::System::Boolean IsIncludeTempLeave; // 0x44
 		::System::Boolean IgnoreHitBoxRadius; // 0x45
 		::System::Boolean SetBodyPartPos; // 0x46
-		::System::Boolean SyncFormationPos; // 0x47
-		::System::Boolean RefreshFormationCenter; // 0x48
+		::System::Boolean BodyPartSortByFormationIndex; // 0x47
+		::System::Boolean SyncFormationPos; // 0x48
+		::System::Boolean RefreshFormationCenter; // 0x49
 		::System::Single CenterRootYaw; // 0x4C
 		::RPG::GameCore::TargetFormationPosConfig* TargetFormation; // 0x50
 		::Il2CppArray<::RPG::GameCore::TargetFormationPosConfig*>* LeftSideFormations; // 0x58

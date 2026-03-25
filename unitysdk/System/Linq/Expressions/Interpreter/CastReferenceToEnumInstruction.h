@@ -5,12 +5,12 @@
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTREFERENCETOENUMINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x17CBB9E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTREFERENCETOENUMINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBB9D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTREFERENCETOENUMINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x184D2D30)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_CASTREFERENCETOENUMINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184D2D20)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int CastReferenceToEnumInstruction_TypeDefinitionIndex = 3633;
+	inline static constexpr unsigned int CastReferenceToEnumInstruction_TypeDefinitionIndex = 3642;
 
 	class CastReferenceToEnumInstruction : public ::System::Linq::Expressions::Interpreter::CastInstruction
 	{

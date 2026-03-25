@@ -5,24 +5,24 @@
 namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyRankingInfo; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8EC59A0)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8EC59E0)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C___SORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x8EC59F0)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9364EC0)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9364F00)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C___SORT_B__4_0_OFFSET UNITYSDK_OFFSET(0x9364F10)
 
 namespace RPG::Client::ChenLingGameBoy
 {
-	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex = 59756;
+	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex = 61512;
 
 	class ChenLingGameBoyPlayerRankingListInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>** StaticGet___9__4_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex)->GetStaticField(0x40D50);
-		}
 		static ::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex)->GetStaticField(0x40D58);
+			return (::RPG::Client::ChenLingGameBoy::ChenLingGameBoyPlayerRankingListInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex)->GetStaticField(0x40B50);
+		}
+		static ::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>** StaticGet___9__4_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex)->GetStaticField(0x40B58);
 		}
 
 		static ::System::Void _cctor()

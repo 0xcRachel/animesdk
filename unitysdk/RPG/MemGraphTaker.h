@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_MEMGRAPHTAKER_TAKE_OFFSET UNITYSDK_OFFSET(0x17AD78F0)
-#define RPG_MEMGRAPHTAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD79A0)
+#define RPG_MEMGRAPHTAKER_TAKE_OFFSET UNITYSDK_OFFSET(0x182F1890)
+#define RPG_MEMGRAPHTAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x182F1940)
 
 namespace RPG
 {
-	inline static constexpr unsigned int MemGraphTaker_TypeDefinitionIndex = 26879;
+	inline static constexpr unsigned int MemGraphTaker_TypeDefinitionIndex = 27615;
 
 	class MemGraphTaker : public ::System::Object
 	{

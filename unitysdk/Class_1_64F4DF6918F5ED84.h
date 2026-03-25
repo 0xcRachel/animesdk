@@ -9,10 +9,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_64F4DF6918F5ED84_METHOD_1_33884B09D9A76EE6_OFFSET UNITYSDK_OFFSET(0x111CB580)
-#define CLASS_1_64F4DF6918F5ED84_METHOD_1_A8265A155457A83A_OFFSET UNITYSDK_OFFSET(0x111CB700)
+#define CLASS_1_64F4DF6918F5ED84_METHOD_1_33884B09D9A76EE6_OFFSET UNITYSDK_OFFSET(0x8C7CE00)
+#define CLASS_1_64F4DF6918F5ED84_METHOD_1_A8265A155457A83A_OFFSET UNITYSDK_OFFSET(0x8C7CF80)
 
-inline static constexpr unsigned int Class_1_64F4DF6918F5ED84_TypeDefinitionIndex = 42374;
+inline static constexpr unsigned int Class_1_64F4DF6918F5ED84_TypeDefinitionIndex = 43424;
 
 class Class_1_64F4DF6918F5ED84 : public ::System::Object
 {

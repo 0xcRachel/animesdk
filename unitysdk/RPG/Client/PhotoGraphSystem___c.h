@@ -5,24 +5,24 @@
 class Class_1_58E5F1B9DB1659B4;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A93170)
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9A931B0)
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__STARTTRACKPHOTO_B__14_0_OFFSET UNITYSDK_OFFSET(0x9A931C0)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F66CD0)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F66D10)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__STARTTRACKPHOTO_B__14_0_OFFSET UNITYSDK_OFFSET(0x9F66D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphSystem___c_TypeDefinitionIndex = 48289;
+	inline static constexpr unsigned int PhotoGraphSystem___c_TypeDefinitionIndex = 49382;
 
 	class PhotoGraphSystem___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Class_1_58E5F1B9DB1659B4*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::Class_1_58E5F1B9DB1659B4*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphSystem___c_TypeDefinitionIndex)->GetStaticField(0x459F0);
+			return (::System::Comparison_1<::Class_1_58E5F1B9DB1659B4*>**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphSystem___c_TypeDefinitionIndex)->GetStaticField(0x44C90);
 		}
 		static ::RPG::Client::PhotoGraphSystem___c** StaticGet___9()
 		{
-			return (::RPG::Client::PhotoGraphSystem___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphSystem___c_TypeDefinitionIndex)->GetStaticField(0x459F8);
+			return (::RPG::Client::PhotoGraphSystem___c**)Il2CppClass::FromTypeDefinitionIndex(PhotoGraphSystem___c_TypeDefinitionIndex)->GetStaticField(0x44C98);
 		}
 
 		static ::System::Void _cctor()

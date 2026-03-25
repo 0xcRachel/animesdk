@@ -5,19 +5,19 @@
 namespace RPG::Client { class AssistantTipsData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FDFC8B8BE050F929_GET_PASSEDTIPS_OFFSET UNITYSDK_OFFSET(0x8667A20)
-#define CLASS_1_FDFC8B8BE050F929_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x8667950)
-#define CLASS_1_FDFC8B8BE050F929_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x8667900)
-#define CLASS_1_FDFC8B8BE050F929_METHOD_1_464D6B54AE6B3DD9_OFFSET UNITYSDK_OFFSET(0x8667990)
-#define CLASS_1_FDFC8B8BE050F929__CTOR_OFFSET UNITYSDK_OFFSET(0x8667A30)
+#define CLASS_1_FDFC8B8BE050F929_GET_PASSEDTIPS_OFFSET UNITYSDK_OFFSET(0xD17A680)
+#define CLASS_1_FDFC8B8BE050F929_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0xD17A5B0)
+#define CLASS_1_FDFC8B8BE050F929_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD17A560)
+#define CLASS_1_FDFC8B8BE050F929_METHOD_1_464D6B54AE6B3DD9_OFFSET UNITYSDK_OFFSET(0xD17A5F0)
+#define CLASS_1_FDFC8B8BE050F929__CTOR_OFFSET UNITYSDK_OFFSET(0xD17A690)
 
-inline static constexpr unsigned int Class_1_FDFC8B8BE050F929_TypeDefinitionIndex = 49600;
+inline static constexpr unsigned int Class_1_FDFC8B8BE050F929_TypeDefinitionIndex = 50733;
 
 class Class_1_FDFC8B8BE050F929 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* _PassedTips_k__BackingField; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* _PassedTips_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{

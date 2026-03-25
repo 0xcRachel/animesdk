@@ -5,24 +5,24 @@
 namespace RPG::Client { class EvolveBuildCard; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_GAMECORE_EVOLVEBUILDSELECTCARDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA40BD70)
-#define RPG_GAMECORE_EVOLVEBUILDSELECTCARDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA40BDB0)
-#define RPG_GAMECORE_EVOLVEBUILDSELECTCARDDATA___C__SETPRESELECTCARDID_B__6_1_OFFSET UNITYSDK_OFFSET(0xA40BDC0)
+#define RPG_GAMECORE_EVOLVEBUILDSELECTCARDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA947020)
+#define RPG_GAMECORE_EVOLVEBUILDSELECTCARDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA947060)
+#define RPG_GAMECORE_EVOLVEBUILDSELECTCARDDATA___C__SETPRESELECTCARDID_B__6_1_OFFSET UNITYSDK_OFFSET(0xA947070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildSelectCardData___c_TypeDefinitionIndex = 42309;
+	inline static constexpr unsigned int EvolveBuildSelectCardData___c_TypeDefinitionIndex = 43358;
 
 	class EvolveBuildSelectCardData___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::EvolveBuildCard*>** StaticGet___9__6_1()
 		{
-			return (::System::Predicate_1<::RPG::Client::EvolveBuildCard*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSelectCardData___c_TypeDefinitionIndex)->GetStaticField(0x42CB0);
+			return (::System::Predicate_1<::RPG::Client::EvolveBuildCard*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSelectCardData___c_TypeDefinitionIndex)->GetStaticField(0x487C0);
 		}
 		static ::RPG::GameCore::EvolveBuildSelectCardData___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::EvolveBuildSelectCardData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSelectCardData___c_TypeDefinitionIndex)->GetStaticField(0x42CB8);
+			return (::RPG::GameCore::EvolveBuildSelectCardData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSelectCardData___c_TypeDefinitionIndex)->GetStaticField(0x487C8);
 		}
 
 		static ::System::Void _cctor()

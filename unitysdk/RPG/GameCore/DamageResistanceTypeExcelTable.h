@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x169E0E60)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x169E0CB0)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x169E0980)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x169E0C50)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x169E0FF0)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x169E0A00)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x169E1030)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x169E1210)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x169E14E0)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x169E17F0)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x169E1170)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x169E10D0)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1715CAA0)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1715C8F0)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1715C810)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1715C890)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1715CE80)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1715CC30)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1715CEC0)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1715D0A0)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1715D370)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1715D680)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1715D000)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1715CF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageResistanceTypeExcelTable_TypeDefinitionIndex = 12915;
+	inline static constexpr unsigned int DamageResistanceTypeExcelTable_TypeDefinitionIndex = 12986;
 
 	class DamageResistanceTypeExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CD70);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2AC20);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CD78);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DamageResistanceTypeRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DamageResistanceTypeRow*>**)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2AC28);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2AC30);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x98D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DamageResistanceTypeRow*>**)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CD80);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0x98D1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0xC330);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DamageResistanceTypeExcelTable_TypeDefinitionIndex)->GetStaticField(0xC331);
 		}
 
 		static ::System::Void _cctor()

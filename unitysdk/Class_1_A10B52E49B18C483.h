@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_A10B52E49B18C483_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x171B65A0)
-#define CLASS_1_A10B52E49B18C483__CTOR_OFFSET UNITYSDK_OFFSET(0x171B67F0)
+#define CLASS_1_A10B52E49B18C483_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x16E36D20)
+#define CLASS_1_A10B52E49B18C483__CTOR_OFFSET UNITYSDK_OFFSET(0x16E36F70)
 
-inline static constexpr unsigned int Class_1_A10B52E49B18C483_TypeDefinitionIndex = 12653;
+inline static constexpr unsigned int Class_1_A10B52E49B18C483_TypeDefinitionIndex = 12723;
 
 class Class_1_A10B52E49B18C483 : public ::System::Object
 {
 public:
-	::System::String* Field_1_2; // 0x10
-	::System::String* Field_1_3; // 0x18
-	::System::UInt32 Field_1_0; // 0x20
-	::RPG::GameCore::LimaoNewsInterviewContentType Field_1_1; // 0x24
+	::System::String* Field_1_3; // 0x10
+	::System::String* Field_1_2; // 0x18
+	::RPG::GameCore::LimaoNewsInterviewContentType Field_1_1; // 0x20
+	::System::UInt32 Field_1_0; // 0x24
 	::RPG::Client::TextID Field_1_4; // 0x28
 
 	::System::Void _ctor()

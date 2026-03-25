@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_MAKEINITIALURL_OFFSET UNITYSDK_OFFSET(0x1836A790)
-#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_MAKEURISTRING_OFFSET UNITYSDK_OFFSET(0x1836AC80)
-#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_REDIRECTTO_OFFSET UNITYSDK_OFFSET(0x1836F5D0)
-#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1836F6F0)
-#define UNITYENGINEINTERNAL_WEBREQUESTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1836F870)
+#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_MAKEINITIALURL_OFFSET UNITYSDK_OFFSET(0x18B90500)
+#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_MAKEURISTRING_OFFSET UNITYSDK_OFFSET(0x18B909F0)
+#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_REDIRECTTO_OFFSET UNITYSDK_OFFSET(0x18B957C0)
+#define UNITYENGINEINTERNAL_WEBREQUESTUTILS_URLDECODE_OFFSET UNITYSDK_OFFSET(0x18B958E0)
+#define UNITYENGINEINTERNAL_WEBREQUESTUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B95AB0)
 
 namespace UnityEngineInternal
 {
-	inline static constexpr unsigned int WebRequestUtils_TypeDefinitionIndex = 5162;
+	inline static constexpr unsigned int WebRequestUtils_TypeDefinitionIndex = 5262;
 
 	class WebRequestUtils : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_domainRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(WebRequestUtils_TypeDefinitionIndex)->GetStaticField(0x3B0);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(WebRequestUtils_TypeDefinitionIndex)->GetStaticField(0x360);
 		}
 
 		static ::System::Void _cctor()

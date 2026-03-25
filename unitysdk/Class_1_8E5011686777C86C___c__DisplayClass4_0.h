@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6F289C13530086A8;
+class Class_1_6F289C13530086A8_1;
 
-#define CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x111ABE30)
-#define CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x111B1D20)
+#define CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A51200)
+#define CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x10A57050)
 
-inline static constexpr unsigned int Class_1_8E5011686777C86C___c__DisplayClass4_0_TypeDefinitionIndex = 53046;
+inline static constexpr unsigned int Class_1_8E5011686777C86C___c__DisplayClass4_0_TypeDefinitionIndex = 54184;
 
 class Class_1_8E5011686777C86C___c__DisplayClass4_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _Sync_b__0(::Class_1_6F289C13530086A8* x)
+	::System::Boolean _Sync_b__0(::Class_1_6F289C13530086A8_1* x)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_6F289C13530086A8*))((::PBYTE)hIl2Cpp + CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET))(this, x);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_6F289C13530086A8_1*))((::PBYTE)hIl2Cpp + CLASS_1_8E5011686777C86C___C__DISPLAYCLASS4_0__SYNC_B__0_OFFSET))(this, x);
 	}
 };

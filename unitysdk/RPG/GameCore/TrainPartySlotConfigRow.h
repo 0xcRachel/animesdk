@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYSLOTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17108570)
-#define RPG_GAMECORE_TRAINPARTYSLOTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171087D0)
+#define RPG_GAMECORE_TRAINPARTYSLOTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C4550)
+#define RPG_GAMECORE_TRAINPARTYSLOTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C47B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySlotConfigRow_TypeDefinitionIndex = 13961;
+	inline static constexpr unsigned int TrainPartySlotConfigRow_TypeDefinitionIndex = 14077;
 
 	class TrainPartySlotConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TagList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 SortID; // 0x30
-		::System::UInt32 CameraStaticID; // 0x34
+		::System::UInt32 CameraStaticID; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 SortID; // 0x20
+		::RPG::Client::TextID Name; // 0x28
 
 		::System::Void _ctor()
 		{

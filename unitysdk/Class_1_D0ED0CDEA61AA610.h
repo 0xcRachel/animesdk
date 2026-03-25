@@ -17,49 +17,49 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_89FFBE5C1B95821A_OFFSET UNITYSDK_OFFSET(0xFDA11F0)
-#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_90A9D3FC07AADABC_OFFSET UNITYSDK_OFFSET(0xFDA1240)
-#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_90ABD7740456E116_OFFSET UNITYSDK_OFFSET(0xFDA5560)
-#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_988BFD308A49965D_OFFSET UNITYSDK_OFFSET(0xFDA59A0)
-#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_B742E1939D14B5D8_OFFSET UNITYSDK_OFFSET(0xFDA59B0)
-#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_D606E24ADEDB8A0D_OFFSET UNITYSDK_OFFSET(0xFDA12E0)
-#define CLASS_1_D0ED0CDEA61AA610__CTOR_OFFSET UNITYSDK_OFFSET(0xFDA59C0)
+#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_89FFBE5C1B95821A_OFFSET UNITYSDK_OFFSET(0x10BC5A40)
+#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_90A9D3FC07AADABC_OFFSET UNITYSDK_OFFSET(0x10BC5A90)
+#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_90ABD7740456E116_OFFSET UNITYSDK_OFFSET(0x10BC9D30)
+#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_988BFD308A49965D_OFFSET UNITYSDK_OFFSET(0x10BCA170)
+#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_B742E1939D14B5D8_OFFSET UNITYSDK_OFFSET(0x10BCA180)
+#define CLASS_1_D0ED0CDEA61AA610_METHOD_1_D606E24ADEDB8A0D_OFFSET UNITYSDK_OFFSET(0x10BC5B30)
+#define CLASS_1_D0ED0CDEA61AA610__CTOR_OFFSET UNITYSDK_OFFSET(0x10BCA190)
 
-inline static constexpr unsigned int Class_1_D0ED0CDEA61AA610_TypeDefinitionIndex = 56310;
+inline static constexpr unsigned int Class_1_D0ED0CDEA61AA610_TypeDefinitionIndex = 57881;
 
 class Class_1_D0ED0CDEA61AA610 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_20; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* Field_1_28; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_15; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_8; // 0x10
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_25; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_17; // 0x20
 	::System::Collections::Generic::List_1<::Class_1_D0ED0CDEA61AA610_Struct_2_E408DF06333D3EEF>* Field_1_26; // 0x28
-	::UnityEngine::Material* Field_1_1; // 0x30
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_24; // 0x38
-	::System::Collections::Generic::List_1<::Class_1_D0ED0CDEA61AA610_Class_1_CE6A8579BF06A891*>* Field_1_27; // 0x40
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_17; // 0x48
-	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* Field_1_29; // 0x50
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_12; // 0x58
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_19; // 0x60
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_7; // 0x68
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_16; // 0x70
-	::System::Collections::Generic::Dictionary_2<::Class_1_D0ED0CDEA61AA610_Class_1_B440A32A7B5DD70F*, ::Class_1_D0ED0CDEA61AA610_Class_1_CE6A8579BF06A891*>* Field_1_21; // 0x78
-	::System::Collections::Generic::Dictionary_2<::Class_1_D0ED0CDEA61AA610_Struct_2_4753009D0AD89794, ::Class_1_D0ED0CDEA61AA610_Struct_2_E408DF06333D3EEF>* Field_1_6; // 0x80
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_18; // 0x88
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_13; // 0x90
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_23; // 0x98
-	::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* Field_1_3; // 0xA0
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_9; // 0x30
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_19; // 0x38
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_12; // 0x40
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_15; // 0x48
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_20; // 0x50
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_11; // 0x58
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_23; // 0x60
+	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Int32>*>* Field_1_29; // 0x68
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_24; // 0x70
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_16; // 0x78
+	::UnityEngine::Material* Field_1_1; // 0x80
+	::System::Collections::Generic::List_1<::Class_1_D0ED0CDEA61AA610_Class_1_CE6A8579BF06A891*>* Field_1_27; // 0x88
+	::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* Field_1_3; // 0x90
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_14; // 0x98
+	::System::Collections::Generic::Dictionary_2<::Class_1_D0ED0CDEA61AA610_Class_1_B440A32A7B5DD70F*, ::Class_1_D0ED0CDEA61AA610_Class_1_CE6A8579BF06A891*>* Field_1_21; // 0xA0
 	::System::Collections::Generic::List_1<::System::Int32>* Field_1_22; // 0xA8
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_8; // 0xB0
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_13; // 0xB0
 	::System::Collections::Generic::List_1<::System::Int32>* Field_1_10; // 0xB8
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_11; // 0xC0
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_14; // 0xC8
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_9; // 0xD0
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_25; // 0xD8
-	::Class_1_D0ED0CDEA61AA610_Struct_2_82986F1B4842ADA2 Field_1_4; // 0xE0
-	::UnityEngine::Ray Field_1_5; // 0xF8
-	::System::Boolean Field_1_2; // 0x110
-	::System::Boolean Field_1_0; // 0x111
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_18; // 0xC0
+	::System::Collections::Generic::Dictionary_2<::Class_1_D0ED0CDEA61AA610_Struct_2_4753009D0AD89794, ::Class_1_D0ED0CDEA61AA610_Struct_2_E408DF06333D3EEF>* Field_1_6; // 0xC8
+	::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* Field_1_28; // 0xD0
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* Field_1_7; // 0xD8
+	::System::Boolean Field_1_2; // 0xE0
+	::System::Boolean Field_1_0; // 0xE1
+	::Class_1_D0ED0CDEA61AA610_Struct_2_82986F1B4842ADA2 Field_1_4; // 0xE4
+	::UnityEngine::Ray Field_1_5; // 0xFC
 
 	::System::Void _ctor()
 	{

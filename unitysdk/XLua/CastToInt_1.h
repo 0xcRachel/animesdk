@@ -7,7 +7,7 @@ namespace XLua { template <typename T> class ObjectTranslator_GetFunc_1; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int CastToInt_1_TypeDefinitionIndex = 39519;
+	inline static constexpr unsigned int CastToInt_1_TypeDefinitionIndex = 40535;
 
 	template <typename S>
 	class CastToInt_1 : public ::System::Object

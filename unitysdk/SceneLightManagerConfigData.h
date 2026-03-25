@@ -6,9 +6,9 @@
 class SceneLightManagerConfigData_StageData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENELIGHTMANAGERCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA681A60)
+#define SCENELIGHTMANAGERCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABC9440)
 
-inline static constexpr unsigned int SceneLightManagerConfigData_TypeDefinitionIndex = 37287;
+inline static constexpr unsigned int SceneLightManagerConfigData_TypeDefinitionIndex = 38251;
 
 class SceneLightManagerConfigData : public ::UnityEngine::ScriptableObject
 {

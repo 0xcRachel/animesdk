@@ -4,26 +4,26 @@
 
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CREATE_OFFSET UNITYSDK_OFFSET(0x15A84690)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_GET_IV_OFFSET UNITYSDK_OFFSET(0x15A8AC10)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_SET_IV_OFFSET UNITYSDK_OFFSET(0x15A85700)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A8AC20)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4__CTOR_OFFSET UNITYSDK_OFFSET(0x15A85020)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_CREATE_OFFSET UNITYSDK_OFFSET(0x1614EC90)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_GET_IV_OFFSET UNITYSDK_OFFSET(0x16155210)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_SET_IV_OFFSET UNITYSDK_OFFSET(0x1614FD00)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4__CCTOR_OFFSET UNITYSDK_OFFSET(0x16155220)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4__CTOR_OFFSET UNITYSDK_OFFSET(0x1614F620)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int RC4_TypeDefinitionIndex = 2293;
+	inline static constexpr unsigned int RC4_TypeDefinitionIndex = 2298;
 
 	class RC4 : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:
-		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
-		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC4_TypeDefinitionIndex)->GetStaticField(0x14F60);
-		}
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC4_TypeDefinitionIndex)->GetStaticField(0x14F68);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC4_TypeDefinitionIndex)->GetStaticField(0x26FC0);
+		}
+		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
+		{
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)Il2CppClass::FromTypeDefinitionIndex(RC4_TypeDefinitionIndex)->GetStaticField(0x26FC8);
 		}
 
 		::System::Void _ctor()

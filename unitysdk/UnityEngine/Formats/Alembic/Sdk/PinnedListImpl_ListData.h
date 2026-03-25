@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_PINNEDLISTIMPL_LISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17F8F260)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_PINNEDLISTIMPL_LISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x187B8590)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int PinnedListImpl_ListData_TypeDefinitionIndex = 34076;
+	inline static constexpr unsigned int PinnedListImpl_ListData_TypeDefinitionIndex = 35010;
 
 	class PinnedListImpl_ListData : public ::System::Object
 	{

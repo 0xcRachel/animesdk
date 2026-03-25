@@ -2,95 +2,95 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_UI_SHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18353E90)
-#define UNITYENGINE_UI_SHADERIDS__CTOR_OFFSET UNITYSDK_OFFSET(0x18353E80)
+#define UNITYENGINE_UI_SHADERIDS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B79250)
+#define UNITYENGINE_UI_SHADERIDS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B79240)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ShaderIDs_TypeDefinitionIndex = 5626;
+	inline static constexpr unsigned int ShaderIDs_TypeDefinitionIndex = 5726;
 
 	class ShaderIDs : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__UseUIAlphaClip()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2C90);
-		}
-		static ::System::Int32* StaticGet__StencilOp()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2C94);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskTexSlice1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2C98);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskTexSlice()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2C9C);
-		}
 		static ::System::Int32* StaticGet__SmoothMaskTexture()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E70);
 		}
 		static ::System::Int32* StaticGet__ColorMask()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CA4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E74);
 		}
-		static ::System::Int32* StaticGet__SmoothMaskTextureST()
+		static ::System::Int32* StaticGet__StencilOp()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CA8);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskType()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CAC);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskTexSlice0()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CB0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E78);
 		}
 		static ::System::Int32* StaticGet__SmoothMaskDiv0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CB4);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskTransform()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CB8);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskDiv1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CBC);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskSoftRanges()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CC0);
-		}
-		static ::System::Int32* StaticGet__SmoothMaskAlphaST()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CC4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E7C);
 		}
 		static ::System::Int32* StaticGet__SmoothMaskFillParams()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CC8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E80);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskDiv1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E84);
 		}
 		static ::System::Int32* StaticGet__SmoothMaskFillParams2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CCC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E88);
 		}
-		static ::System::Int32* StaticGet__StencilWriteMask()
+		static ::System::Int32* StaticGet__SmoothMaskType()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CD0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E8C);
 		}
-		static ::System::Int32* StaticGet__Stencil()
+		static ::System::Int32* StaticGet__SmoothMaskTransform()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CD4);
-		}
-		static ::System::Int32* StaticGet__StencilReadMask()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CD8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E90);
 		}
 		static ::System::Int32* StaticGet__StencilComp()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2CDC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E94);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskTexSlice0()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E98);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskSoftRanges()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2E9C);
+		}
+		static ::System::Int32* StaticGet__Stencil()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EA0);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskAlphaST()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EA4);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskTextureST()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EA8);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskTexSlice()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EAC);
+		}
+		static ::System::Int32* StaticGet__StencilWriteMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EB0);
+		}
+		static ::System::Int32* StaticGet__UseUIAlphaClip()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EB4);
+		}
+		static ::System::Int32* StaticGet__SmoothMaskTexSlice1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EB8);
+		}
+		static ::System::Int32* StaticGet__StencilReadMask()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShaderIDs_TypeDefinitionIndex)->GetStaticField(0x2EBC);
 		}
 
 		::System::Void _ctor()

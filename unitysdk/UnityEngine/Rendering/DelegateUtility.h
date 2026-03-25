@@ -5,11 +5,11 @@
 namespace System { class Delegate; }
 namespace System { class Type; }
 
-#define UNITYENGINE_RENDERING_DELEGATEUTILITY_CAST_OFFSET UNITYSDK_OFFSET(0x180CD460)
+#define UNITYENGINE_RENDERING_DELEGATEUTILITY_CAST_OFFSET UNITYSDK_OFFSET(0x188F5920)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DelegateUtility_TypeDefinitionIndex = 27150;
+	inline static constexpr unsigned int DelegateUtility_TypeDefinitionIndex = 27886;
 
 	class DelegateUtility : public ::System::Object
 	{

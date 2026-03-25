@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ApplyMonsterPhaseOverrideConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E56BCA8CC45407F5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFE4F4F0)
-#define CLASS_3_E56BCA8CC45407F5__CTOR_OFFSET UNITYSDK_OFFSET(0xFE4F4C0)
+#define CLASS_3_E56BCA8CC45407F5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11594B90)
+#define CLASS_3_E56BCA8CC45407F5__CTOR_OFFSET UNITYSDK_OFFSET(0x11594B60)
 
-inline static constexpr unsigned int Class_3_E56BCA8CC45407F5_TypeDefinitionIndex = 43435;
+inline static constexpr unsigned int Class_3_E56BCA8CC45407F5_TypeDefinitionIndex = 44491;
 
 class Class_3_E56BCA8CC45407F5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ApplyMonsterPhaseOverrideConfig*>
 {

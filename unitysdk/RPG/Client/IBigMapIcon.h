@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBigMapIcon_TypeDefinitionIndex = 49926;
+	inline static constexpr unsigned int IBigMapIcon_TypeDefinitionIndex = 51058;
 
 	class IBigMapIcon
 	{

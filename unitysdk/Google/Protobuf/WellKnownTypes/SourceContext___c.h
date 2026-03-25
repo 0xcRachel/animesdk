@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::WellKnownTypes { class SourceContext; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1542EF40)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1542EF80)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXT___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x1542EF90)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B48C50)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B48C90)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_SOURCECONTEXT___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x15B48CA0)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int SourceContext___c_TypeDefinitionIndex = 6115;
+	inline static constexpr unsigned int SourceContext___c_TypeDefinitionIndex = 6215;
 
 	class SourceContext___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::WellKnownTypes::SourceContext___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::WellKnownTypes::SourceContext___c**)Il2CppClass::FromTypeDefinitionIndex(SourceContext___c_TypeDefinitionIndex)->GetStaticField(0xBC90);
+			return (::Google::Protobuf::WellKnownTypes::SourceContext___c**)Il2CppClass::FromTypeDefinitionIndex(SourceContext___c_TypeDefinitionIndex)->GetStaticField(0xD7B0);
 		}
 
 		static ::System::Void _cctor()

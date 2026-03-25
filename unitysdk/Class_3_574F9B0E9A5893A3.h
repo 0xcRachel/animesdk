@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CreateAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_574F9B0E9A5893A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10072DB0)
-#define CLASS_3_574F9B0E9A5893A3__CTOR_OFFSET UNITYSDK_OFFSET(0x10072D80)
+#define CLASS_3_574F9B0E9A5893A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC4F9E0)
+#define CLASS_3_574F9B0E9A5893A3__CTOR_OFFSET UNITYSDK_OFFSET(0xAC4F9B0)
 
-inline static constexpr unsigned int Class_3_574F9B0E9A5893A3_TypeDefinitionIndex = 42955;
+inline static constexpr unsigned int Class_3_574F9B0E9A5893A3_TypeDefinitionIndex = 44006;
 
 class Class_3_574F9B0E9A5893A3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateAttachPoint*>
 {

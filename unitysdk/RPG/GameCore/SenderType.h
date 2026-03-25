@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SenderType_TypeDefinitionIndex = 13118;
+	inline static constexpr unsigned int SenderType_TypeDefinitionIndex = 13189;
 
 	enum class SenderType : ::System::Int32
 	{

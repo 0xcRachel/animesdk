@@ -5,21 +5,21 @@
 namespace UnityEngine::ProBuilder::Poly2Tri { class DelaunayTriangle; }
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONTNODE_GET_HASNEXT_OFFSET UNITYSDK_OFFSET(0x17F99DB0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONTNODE_GET_HASPREV_OFFSET UNITYSDK_OFFSET(0x17F99DC0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F99D80)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONTNODE_GET_HASNEXT_OFFSET UNITYSDK_OFFSET(0x187C2C50)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONTNODE_GET_HASPREV_OFFSET UNITYSDK_OFFSET(0x187C2C60)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_ADVANCINGFRONTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x187C2C20)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int AdvancingFrontNode_TypeDefinitionIndex = 28906;
+	inline static constexpr unsigned int AdvancingFrontNode_TypeDefinitionIndex = 29781;
 
 	class AdvancingFrontNode : public ::System::Object
 	{
 	public:
-		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point; // 0x10
-		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next; // 0x18
-		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev; // 0x20
-		::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle; // 0x28
+		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev; // 0x10
+		::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle; // 0x18
+		::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next; // 0x20
+		::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point; // 0x28
 		::System::Double Value; // 0x30
 
 		::System::Void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point)

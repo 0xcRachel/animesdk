@@ -7,20 +7,20 @@ namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17D753B0)
+#define SYSTEM_XML_SCHEMA_RANGECONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x185A5180)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int RangeContentValidator_TypeDefinitionIndex = 2066;
+	inline static constexpr unsigned int RangeContentValidator_TypeDefinitionIndex = 2071;
 
 	class RangeContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:
-		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x18
+		::System::Xml::Schema::BitSet* positionsWithRangeTerminals; // 0x18
 		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x20
-		::System::Xml::Schema::Positions* positions; // 0x28
-		::System::Xml::Schema::BitSet* firstpos; // 0x30
-		::System::Xml::Schema::BitSet* positionsWithRangeTerminals; // 0x38
+		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x28
+		::System::Xml::Schema::Positions* positions; // 0x30
+		::System::Xml::Schema::BitSet* firstpos; // 0x38
 		::System::Int32 minMaxNodesCount; // 0x40
 		::System::Int32 endMarkerPos; // 0x44
 

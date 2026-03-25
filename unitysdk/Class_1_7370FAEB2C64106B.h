@@ -10,23 +10,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7370FAEB2C64106B_CLEAR_OFFSET UNITYSDK_OFFSET(0x162DDF10)
-#define CLASS_1_7370FAEB2C64106B__CTOR_OFFSET UNITYSDK_OFFSET(0x162DDFD0)
+#define CLASS_1_7370FAEB2C64106B_CLEAR_OFFSET UNITYSDK_OFFSET(0x1695BE60)
+#define CLASS_1_7370FAEB2C64106B__CTOR_OFFSET UNITYSDK_OFFSET(0x1695BF20)
 
-inline static constexpr unsigned int Class_1_7370FAEB2C64106B_TypeDefinitionIndex = 31358;
+inline static constexpr unsigned int Class_1_7370FAEB2C64106B_TypeDefinitionIndex = 32262;
 
 class Class_1_7370FAEB2C64106B : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraBattleConditionEvaluator* Field_1_7; // 0x10
-	::RPG::GameCore::ChimeraBattleExtraConditionEvaluator* Field_1_8; // 0x18
-	::System::String* Field_1_6; // 0x20
+	::RPG::GameCore::ChimeraBattleExtraConditionEvaluator* Field_1_8; // 0x10
+	::System::String* Field_1_6; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraAbilityModifier*, ::System::Collections::Generic::List_1<::System::Int32>*>* Field_1_0; // 0x20
 	::Class_2_7AF1D57CA4301272* Field_1_3; // 0x28
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraAbilityModifier*, ::System::Collections::Generic::List_1<::System::Int32>*>* Field_1_0; // 0x30
-	::System::Int32 Field_1_1; // 0x38
-	::System::Int32 Field_1_4; // 0x3C
-	::System::UInt32 Field_1_5; // 0x40
-	::System::UInt32 Field_1_2; // 0x44
+	::RPG::GameCore::ChimeraBattleConditionEvaluator* Field_1_7; // 0x30
+	::System::Int32 Field_1_4; // 0x38
+	::System::Int32 Field_1_1; // 0x3C
+	::System::UInt32 Field_1_2; // 0x40
+	::System::UInt32 Field_1_5; // 0x44
 
 	::System::Void _ctor()
 	{

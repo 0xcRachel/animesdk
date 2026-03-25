@@ -7,23 +7,23 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterCleanObstacle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5FAE4A26A73E8DB5_METHOD_3_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x8435430)
-#define CLASS_3_5FAE4A26A73E8DB5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8434F50)
-#define CLASS_3_5FAE4A26A73E8DB5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x84352D0)
-#define CLASS_3_5FAE4A26A73E8DB5_TICK_OFFSET UNITYSDK_OFFSET(0x8435320)
-#define CLASS_3_5FAE4A26A73E8DB5__CTOR_OFFSET UNITYSDK_OFFSET(0x8434F20)
-#define CLASS_3_5FAE4A26A73E8DB5___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x8435780)
+#define CLASS_3_5FAE4A26A73E8DB5_METHOD_3_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x11374F90)
+#define CLASS_3_5FAE4A26A73E8DB5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11374AB0)
+#define CLASS_3_5FAE4A26A73E8DB5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11374E30)
+#define CLASS_3_5FAE4A26A73E8DB5_TICK_OFFSET UNITYSDK_OFFSET(0x11374E80)
+#define CLASS_3_5FAE4A26A73E8DB5__CTOR_OFFSET UNITYSDK_OFFSET(0x11374A80)
+#define CLASS_3_5FAE4A26A73E8DB5___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x11376150)
 
-inline static constexpr unsigned int Class_3_5FAE4A26A73E8DB5_TypeDefinitionIndex = 41142;
+inline static constexpr unsigned int Class_3_5FAE4A26A73E8DB5_TypeDefinitionIndex = 42185;
 
 class Class_3_5FAE4A26A73E8DB5 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterCleanObstacle*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_3; // 0x28
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_4; // 0x30
-	::System::Boolean Field_3_0; // 0x38
-	::System::Single Field_3_2; // 0x3C
-	::System::Single Field_3_1; // 0x40
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_4; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_3; // 0x30
+	::System::Single Field_3_2; // 0x38
+	::System::Single Field_3_1; // 0x3C
+	::System::Boolean Field_3_0; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterCleanObstacle* a2)
 	{

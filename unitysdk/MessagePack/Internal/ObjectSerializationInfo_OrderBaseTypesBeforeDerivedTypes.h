@@ -4,20 +4,20 @@
 
 namespace System { class Type; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ORDERBASETYPESBEFOREDERIVEDTYPES_COMPARE_OFFSET UNITYSDK_OFFSET(0x1566A250)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ORDERBASETYPESBEFOREDERIVEDTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1566A310)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ORDERBASETYPESBEFOREDERIVEDTYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x1566A240)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ORDERBASETYPESBEFOREDERIVEDTYPES_COMPARE_OFFSET UNITYSDK_OFFSET(0x15D74800)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ORDERBASETYPESBEFOREDERIVEDTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D748C0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO_ORDERBASETYPESBEFOREDERIVEDTYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x15D747F0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes_TypeDefinitionIndex = 9638;
+	inline static constexpr unsigned int ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes_TypeDefinitionIndex = 9190;
 
 	class ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Internal::ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes** StaticGet_Instance()
 		{
-			return (::MessagePack::Internal::ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes**)Il2CppClass::FromTypeDefinitionIndex(ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes_TypeDefinitionIndex)->GetStaticField(0x25290);
+			return (::MessagePack::Internal::ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes**)Il2CppClass::FromTypeDefinitionIndex(ObjectSerializationInfo_OrderBaseTypesBeforeDerivedTypes_TypeDefinitionIndex)->GetStaticField(0x19C00);
 		}
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SmartObjectState_TypeDefinitionIndex = 31374;
+	inline static constexpr unsigned int SmartObjectState_TypeDefinitionIndex = 32278;
 
 	enum class SmartObjectState : ::System::Int32
 	{

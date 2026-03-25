@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::OS { class BindManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1577F2A0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x15781BD0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6D7B0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGER___C__DISPLAYCLASS24_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x15E6FF30)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 7551;
+	inline static constexpr unsigned int BindManager___c__DisplayClass24_0_TypeDefinitionIndex = 7676;
 
 	class BindManager___c__DisplayClass24_0 : public ::System::Object
 	{

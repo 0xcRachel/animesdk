@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDesigner_TypeDefinitionIndex = 2638;
+	inline static constexpr unsigned int IDesigner_TypeDefinitionIndex = 2643;
 
 	class IDesigner
 	{

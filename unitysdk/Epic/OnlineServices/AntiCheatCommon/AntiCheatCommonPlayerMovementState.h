@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int AntiCheatCommonPlayerMovementState_TypeDefinitionIndex = 35706;
+	inline static constexpr unsigned int AntiCheatCommonPlayerMovementState_TypeDefinitionIndex = 36640;
 
 	enum class AntiCheatCommonPlayerMovementState : ::System::Int32
 	{

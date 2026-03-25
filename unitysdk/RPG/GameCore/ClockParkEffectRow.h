@@ -6,25 +6,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x169AB990)
-#define RPG_GAMECORE_CLOCKPARKEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x169ABDA0)
+#define RPG_GAMECORE_CLOCKPARKEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170CDB10)
+#define RPG_GAMECORE_CLOCKPARKEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170CDF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkEffectRow_TypeDefinitionIndex = 10389;
+	inline static constexpr unsigned int ClockParkEffectRow_TypeDefinitionIndex = 10459;
 
 	class ClockParkEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PlayCardEffectDescParamList; // 0x10
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
-		::System::Int32 Param1; // 0x20
-		::RPG::GameCore::ClockParkEffectType EffectType; // 0x24
-		::System::Int32 Param3; // 0x28
-		::System::Int32 Param2; // 0x2C
-		::System::UInt32 EffectID; // 0x30
-		::System::Int32 DiceParam; // 0x34
-		::RPG::Client::TextID PlayCardEffectDesc; // 0x38
+		::System::Int32 Param3; // 0x20
+		::System::Int32 Param2; // 0x24
+		::RPG::GameCore::ClockParkEffectType EffectType; // 0x28
+		::System::UInt32 EffectID; // 0x2C
+		::RPG::Client::TextID PlayCardEffectDesc; // 0x30
+		::System::Int32 Param1; // 0x40
+		::System::Int32 DiceParam; // 0x44
 
 		::System::Void _ctor()
 		{

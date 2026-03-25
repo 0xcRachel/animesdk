@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_RESOURCEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x18235B40)
+#define UNITYENGINE_RESOURCEREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5DFA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ResourceRequest_TypeDefinitionIndex = 4060;
+	inline static constexpr unsigned int ResourceRequest_TypeDefinitionIndex = 4082;
 
 	class ResourceRequest : public ::UnityEngine::AsyncOperation
 	{

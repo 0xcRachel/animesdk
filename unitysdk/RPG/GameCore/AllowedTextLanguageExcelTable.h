@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16885C70)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16885AF0)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168857C0)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16885A90)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16885E20)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16885840)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16885E60)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16886040)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168867A0)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16886AB0)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16885FA0)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16885F00)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16F93680)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16F93500)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16F931D0)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16F934A0)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16F93830)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F93250)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16F93870)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F93A50)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16F941B0)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F944C0)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16F939B0)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F93910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AllowedTextLanguageExcelTable_TypeDefinitionIndex = 11473;
+	inline static constexpr unsigned int AllowedTextLanguageExcelTable_TypeDefinitionIndex = 11541;
 
 	class AllowedTextLanguageExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AllowedTextLanguageRow*>** StaticGet_dataDict_()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x24CD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AllowedTextLanguageRow*>**)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x27660);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x24CD8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x27668);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AllowedTextLanguageRow*>** StaticGet_dataDict_()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AllowedTextLanguageRow*>**)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x24CE0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x7930);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x27670);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0x7931);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0xB160);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AllowedTextLanguageExcelTable_TypeDefinitionIndex)->GetStaticField(0xB161);
 		}
 
 		static ::System::Void _cctor()

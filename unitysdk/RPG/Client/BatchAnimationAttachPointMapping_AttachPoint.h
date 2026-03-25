@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_ATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x8D7E270)
+#define RPG_CLIENT_BATCHANIMATIONATTACHPOINTMAPPING_ATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x91892E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationAttachPointMapping_AttachPoint_TypeDefinitionIndex = 55249;
+	inline static constexpr unsigned int BatchAnimationAttachPointMapping_AttachPoint_TypeDefinitionIndex = 56814;
 
 	class BatchAnimationAttachPointMapping_AttachPoint : public ::System::Object
 	{

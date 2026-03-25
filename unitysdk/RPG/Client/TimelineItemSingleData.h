@@ -5,11 +5,11 @@
 namespace RPG::Client { class EntityTimelineControlTrackInfo; }
 namespace RPG::Client { class TimeRewindCustomPathData; }
 
-#define RPG_CLIENT_TIMELINEITEMSINGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C23D0)
+#define RPG_CLIENT_TIMELINEITEMSINGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E83C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimelineItemSingleData_TypeDefinitionIndex = 48227;
+	inline static constexpr unsigned int TimelineItemSingleData_TypeDefinitionIndex = 49319;
 
 	class TimelineItemSingleData : public ::UnityEngine::ScriptableObject
 	{

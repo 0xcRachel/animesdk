@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define CLASS_1_63C450F2FF228316__CTOR_OFFSET UNITYSDK_OFFSET(0x8D1CF20)
+#define CLASS_1_63C450F2FF228316__CTOR_OFFSET UNITYSDK_OFFSET(0x109A0E50)
 
-inline static constexpr unsigned int Class_1_63C450F2FF228316_TypeDefinitionIndex = 47397;
+inline static constexpr unsigned int Class_1_63C450F2FF228316_TypeDefinitionIndex = 48478;
 
 class Class_1_63C450F2FF228316 : public ::System::Object
 {

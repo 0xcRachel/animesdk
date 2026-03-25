@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FANTASTICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A8DD90)
-#define RPG_GAMECORE_FANTASTICSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8E000)
+#define RPG_GAMECORE_FANTASTICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D18E0)
+#define RPG_GAMECORE_FANTASTICSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171D1B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FantasticStoryRow_TypeDefinitionIndex = 10635;
+	inline static constexpr unsigned int FantasticStoryRow_TypeDefinitionIndex = 10703;
 
 	class FantasticStoryRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* BuffIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* BuffSlotIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* BattleIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* ChapterIDList; // 0x28
-		::System::UInt32 FantasticStoryID; // 0x30
-		::System::UInt32 ActivityModuleID; // 0x34
+		::Il2CppArray<::System::UInt32>* BuffSlotIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* BuffIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* ChapterIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* BattleIDList; // 0x28
+		::System::UInt32 ActivityModuleID; // 0x30
+		::System::UInt32 FantasticStoryID; // 0x34
 
 		::System::Void _ctor()
 		{

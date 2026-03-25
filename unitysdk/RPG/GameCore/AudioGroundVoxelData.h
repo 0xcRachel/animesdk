@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AUDIOGROUNDVOXELDATA_METHOD_3_A2FB6774E938EB93_OFFSET UNITYSDK_OFFSET(0x16898020)
-#define RPG_GAMECORE_AUDIOGROUNDVOXELDATA_METHOD_3_B645E56803B818E0_OFFSET UNITYSDK_OFFSET(0x16898060)
-#define RPG_GAMECORE_AUDIOGROUNDVOXELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16898050)
+#define RPG_GAMECORE_AUDIOGROUNDVOXELDATA_METHOD_3_B645E56803B818E0_OFFSET UNITYSDK_OFFSET(0x16FA5AC0)
+#define RPG_GAMECORE_AUDIOGROUNDVOXELDATA_METHOD_3_CBB45B281D9AE08A_OFFSET UNITYSDK_OFFSET(0x16FA5A60)
+#define RPG_GAMECORE_AUDIOGROUNDVOXELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA5AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioGroundVoxelData_TypeDefinitionIndex = 17160;
+	inline static constexpr unsigned int AudioGroundVoxelData_TypeDefinitionIndex = 17565;
 
 	class AudioGroundVoxelData : public ::RPG::GameCore::StageVoxelDataBase
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOGROUNDVOXELDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A2FB6774E938EB93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AudioGroundVoxelData*& a2)
+		static ::System::Void Method_3_CBB45B281D9AE08A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AudioGroundVoxelData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AudioGroundVoxelData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOGROUNDVOXELDATA_METHOD_3_A2FB6774E938EB93_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AudioGroundVoxelData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUDIOGROUNDVOXELDATA_METHOD_3_CBB45B281D9AE08A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B645E56803B818E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AudioGroundVoxelData* a2)

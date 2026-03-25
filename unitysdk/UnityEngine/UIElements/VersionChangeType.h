@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VersionChangeType_TypeDefinitionIndex = 5751;
+	inline static constexpr unsigned int VersionChangeType_TypeDefinitionIndex = 5851;
 
 	enum class VersionChangeType : ::System::Int32
 	{

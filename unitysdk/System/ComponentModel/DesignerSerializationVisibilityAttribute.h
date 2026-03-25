@@ -5,35 +5,35 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x17E6F950)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17E6F9B0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x17E6F940)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17E6F9C0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E6FA80)
-#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6F930)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x18699EB0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18699F10)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x18699EA0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18699F20)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18699FE0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERSERIALIZATIONVISIBILITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18699E90)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DesignerSerializationVisibilityAttribute_TypeDefinitionIndex = 2568;
+	inline static constexpr unsigned int DesignerSerializationVisibilityAttribute_TypeDefinitionIndex = 2573;
 
 	class DesignerSerializationVisibilityAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Content()
-		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x15FE0);
-		}
-		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Default()
-		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x15FE8);
-		}
 		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Visible()
 		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x15FF0);
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x2B3C0);
 		}
 		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Hidden()
 		{
-			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x15FF8);
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x2B3C8);
+		}
+		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Content()
+		{
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x2B3D0);
+		}
+		static ::System::ComponentModel::DesignerSerializationVisibilityAttribute** StaticGet_Default()
+		{
+			return (::System::ComponentModel::DesignerSerializationVisibilityAttribute**)Il2CppClass::FromTypeDefinitionIndex(DesignerSerializationVisibilityAttribute_TypeDefinitionIndex)->GetStaticField(0x2B3D8);
 		}
 		::System::ComponentModel::DesignerSerializationVisibility visibility; // 0x10
 

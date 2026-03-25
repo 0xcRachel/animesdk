@@ -6,14 +6,14 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveMovementManager_StateSaver___O_TypeDefinitionIndex = 54409;
+	inline static constexpr unsigned int MonoCurveMovementManager_StateSaver___O_TypeDefinitionIndex = 55969;
 
 	class MonoCurveMovementManager_StateSaver___O : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::NotifyHandler** StaticGet__0___OnSwitchMap()
 		{
-			return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveMovementManager_StateSaver___O_TypeDefinitionIndex)->GetStaticField(0x35710);
+			return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveMovementManager_StateSaver___O_TypeDefinitionIndex)->GetStaticField(0x2D610);
 		}
 	};
 }

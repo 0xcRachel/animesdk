@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK { class SecurityTunnel_File_Range; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_FILE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8247E70)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILE___C__DISPLAYCLASS5_0__GET_DOWNLOADCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0x8249950)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8597F80)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILE___C__DISPLAYCLASS5_0__GET_DOWNLOADCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0x8599590)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_File___c__DisplayClass5_0_TypeDefinitionIndex = 36208;
+	inline static constexpr unsigned int SecurityTunnel_File___c__DisplayClass5_0_TypeDefinitionIndex = 37144;
 
 	class SecurityTunnel_File___c__DisplayClass5_0 : public ::System::Object
 	{

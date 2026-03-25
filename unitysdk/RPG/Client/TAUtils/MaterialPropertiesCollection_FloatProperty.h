@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0xA01E730)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA01C260)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0xA540120)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_FLOATPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xA53DC50)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_FloatProperty_TypeDefinitionIndex = 58625;
+	inline static constexpr unsigned int MaterialPropertiesCollection_FloatProperty_TypeDefinitionIndex = 60337;
 
 	class MaterialPropertiesCollection_FloatProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::System::Single>
 	{

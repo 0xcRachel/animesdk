@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetPropInteractTriggerState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8B3B371454879240_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEEB7CD0)
-#define CLASS_3_8B3B371454879240__CTOR_OFFSET UNITYSDK_OFFSET(0xEEB7CA0)
+#define CLASS_3_8B3B371454879240_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8B68B50)
+#define CLASS_3_8B3B371454879240__CTOR_OFFSET UNITYSDK_OFFSET(0x8B68B20)
 
-inline static constexpr unsigned int Class_3_8B3B371454879240_TypeDefinitionIndex = 46188;
+inline static constexpr unsigned int Class_3_8B3B371454879240_TypeDefinitionIndex = 47264;
 
 class Class_3_8B3B371454879240 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPropInteractTriggerState*>
 {

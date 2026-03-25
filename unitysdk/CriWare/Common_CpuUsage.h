@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int Common_CpuUsage_TypeDefinitionIndex = 30284;
+	inline static constexpr unsigned int Common_CpuUsage_TypeDefinitionIndex = 31159;
 
 	struct alignas(4) Common_CpuUsage
 	{

@@ -8,19 +8,19 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptorProto; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x156D41E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x156E0850)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x156D4A70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15DC4A00)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15DD1050)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC52A0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 27404;
+	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 28140;
 
 	class ServiceDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto* proto; // 0x28
-		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptor*>* methods; // 0x30
+		::System::Collections::Generic::IList_1<::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptor*>* methods; // 0x28
+		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto* proto; // 0x30
 
 		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptorProto* proto, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file, ::System::Int32 index)
 		{

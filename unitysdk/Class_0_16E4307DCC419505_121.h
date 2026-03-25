@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_451601B8BB62C38C;
+namespace RPG::GameCore { class AIVariable; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_121_TypeDefinitionIndex = 31525;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_121_TypeDefinitionIndex = 33666;
 
 class Class_0_16E4307DCC419505_121
 {

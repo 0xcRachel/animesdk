@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_XblPermissionDenyReason_TypeDefinitionIndex = 35998;
+	inline static constexpr unsigned int MHYSDKC_Console_XblPermissionDenyReason_TypeDefinitionIndex = 36933;
 
 	enum class MHYSDKC_Console_XblPermissionDenyReason : ::System::Int32
 	{

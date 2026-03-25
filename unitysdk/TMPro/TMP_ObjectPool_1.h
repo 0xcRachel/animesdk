@@ -7,7 +7,7 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_ObjectPool_1_TypeDefinitionIndex = 33368;
+	inline static constexpr unsigned int TMP_ObjectPool_1_TypeDefinitionIndex = 34357;
 
 	template <typename T>
 	class TMP_ObjectPool_1 : public ::System::Object

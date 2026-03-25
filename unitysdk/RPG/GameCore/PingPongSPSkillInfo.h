@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGSPSKILLINFO_METHOD_2_059673FA017F4AB7_OFFSET UNITYSDK_OFFSET(0x16D3ECB0)
-#define RPG_GAMECORE_PINGPONGSPSKILLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3EE40)
+#define RPG_GAMECORE_PINGPONGSPSKILLINFO_METHOD_2_059673FA017F4AB7_OFFSET UNITYSDK_OFFSET(0x174C6B00)
+#define RPG_GAMECORE_PINGPONGSPSKILLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x174C6C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongSPSkillInfo_TypeDefinitionIndex = 15294;
+	inline static constexpr unsigned int PingPongSPSkillInfo_TypeDefinitionIndex = 15550;
 
 	class PingPongSPSkillInfo : public ::RPG::GameCore::JsonConfig
 	{

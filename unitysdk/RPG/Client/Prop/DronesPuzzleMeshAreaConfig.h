@@ -6,7 +6,7 @@ namespace UnityEngine { class MeshCollider; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleMeshAreaConfig_TypeDefinitionIndex = 61836;
+	inline static constexpr unsigned int DronesPuzzleMeshAreaConfig_TypeDefinitionIndex = 64023;
 
 	struct alignas(8) DronesPuzzleMeshAreaConfig
 	{

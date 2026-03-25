@@ -5,10 +5,10 @@
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System { class Type; }
 
-#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10AC7D30)
-#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS27_0__HASMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x10AC86E0)
+#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10587BC0)
+#define CLASS_1_789872D6523A4E58___C__DISPLAYCLASS27_0__HASMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x10588B00)
 
-inline static constexpr unsigned int Class_1_789872D6523A4E58___c__DisplayClass27_0_TypeDefinitionIndex = 51682;
+inline static constexpr unsigned int Class_1_789872D6523A4E58___c__DisplayClass27_0_TypeDefinitionIndex = 52816;
 
 class Class_1_789872D6523A4E58___c__DisplayClass27_0 : public ::System::Object
 {

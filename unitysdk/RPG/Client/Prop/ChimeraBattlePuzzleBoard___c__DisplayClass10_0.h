@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraViewProxy; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B72C30)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS10_0__DESTROYCHIMERA_B__0_OFFSET UNITYSDK_OFFSET(0x9B75830)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA044990)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS10_0__DESTROYCHIMERA_B__0_OFFSET UNITYSDK_OFFSET(0xA0475E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c__DisplayClass10_0_TypeDefinitionIndex = 61689;
+	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c__DisplayClass10_0_TypeDefinitionIndex = 63876;
 
 	class ChimeraBattlePuzzleBoard___c__DisplayClass10_0 : public ::System::Object
 	{

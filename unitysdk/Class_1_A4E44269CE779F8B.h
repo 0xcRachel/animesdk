@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PropMoveState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A4E44269CE779F8B_METHOD_1_AB06A1CAAF2FB12A_OFFSET UNITYSDK_OFFSET(0x161B1F60)
+#define CLASS_1_A4E44269CE779F8B_METHOD_1_AB06A1CAAF2FB12A_OFFSET UNITYSDK_OFFSET(0x16841380)
 
-inline static constexpr unsigned int Class_1_A4E44269CE779F8B_TypeDefinitionIndex = 32658;
+inline static constexpr unsigned int Class_1_A4E44269CE779F8B_TypeDefinitionIndex = 33587;
 
 class Class_1_A4E44269CE779F8B : public ::System::Object
 {

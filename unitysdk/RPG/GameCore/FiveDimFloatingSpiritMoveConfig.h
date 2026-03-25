@@ -6,23 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_5238D20B8524A9DD_OFFSET UNITYSDK_OFFSET(0x16ABD0E0)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_B68313F30913D940_OFFSET UNITYSDK_OFFSET(0x16ABD140)
-#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABD120)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_5238D20B8524A9DD_OFFSET UNITYSDK_OFFSET(0x17206610)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG_METHOD_3_B68313F30913D940_OFFSET UNITYSDK_OFFSET(0x17206680)
+#define RPG_GAMECORE_FIVEDIMFLOATINGSPIRITMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17206660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFloatingSpiritMoveConfig_TypeDefinitionIndex = 15043;
+	inline static constexpr unsigned int FiveDimFloatingSpiritMoveConfig_TypeDefinitionIndex = 15296;
 
 	class FiveDimFloatingSpiritMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:
 		::RPG::MVector3 ColliderCenter; // 0x40
 		::System::Boolean EnableBeatBackPlayer; // 0x4C
-		::System::Boolean HasHitStop; // 0x4D
-		::System::String* OnHitEvent; // 0x50
-		::System::String* OnRecoverEvent; // 0x58
-		::System::Single HitRecoverDuration; // 0x60
+		::System::String* BeatBackPlayerEvent; // 0x50
+		::System::Boolean HasHitStop; // 0x58
+		::System::String* OnHitEvent; // 0x60
+		::System::String* OnRecoverEvent; // 0x68
+		::System::Single HitRecoverDuration; // 0x70
+		::System::String* HitWithInvinciblePlayerEvent; // 0x78
+		::System::String* HitWithInvinciblePlayerEffectPath; // 0x80
 
 		::System::Void _ctor()
 		{

@@ -8,30 +8,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ITEMREDDOTFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x94FBF70)
-#define RPG_CLIENT_ITEMREDDOTFILTER_INIT_OFFSET UNITYSDK_OFFSET(0x94FB3B0)
-#define RPG_CLIENT_ITEMREDDOTFILTER_UPDATEREDDOTS_OFFSET UNITYSDK_OFFSET(0x94FAB20)
-#define RPG_CLIENT_ITEMREDDOTFILTER__CLEARTABDICTSTATE_OFFSET UNITYSDK_OFFSET(0x94FADD0)
-#define RPG_CLIENT_ITEMREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x94FC140)
-#define RPG_CLIENT_ITEMREDDOTFILTER__INITITEMTYPE2TABDIC_OFFSET UNITYSDK_OFFSET(0x94FB640)
-#define RPG_CLIENT_ITEMREDDOTFILTER__INITTABDICT_OFFSET UNITYSDK_OFFSET(0x94FB440)
-#define RPG_CLIENT_ITEMREDDOTFILTER__UPDATEREDDOTTABKEYS_OFFSET UNITYSDK_OFFSET(0x94FB200)
-#define RPG_CLIENT_ITEMREDDOTFILTER__UPDATEREDDOT_OFFSET UNITYSDK_OFFSET(0x94FAF10)
-#define RPG_CLIENT_ITEMREDDOTFILTER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x94FC240)
-#define RPG_CLIENT_ITEMREDDOTFILTER___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x94FC1C0)
+#define RPG_CLIENT_ITEMREDDOTFILTER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x997F660)
+#define RPG_CLIENT_ITEMREDDOTFILTER_INIT_OFFSET UNITYSDK_OFFSET(0x997EAA0)
+#define RPG_CLIENT_ITEMREDDOTFILTER_UPDATEREDDOTS_OFFSET UNITYSDK_OFFSET(0x997E210)
+#define RPG_CLIENT_ITEMREDDOTFILTER__CLEARTABDICTSTATE_OFFSET UNITYSDK_OFFSET(0x997E4C0)
+#define RPG_CLIENT_ITEMREDDOTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x997F830)
+#define RPG_CLIENT_ITEMREDDOTFILTER__INITITEMTYPE2TABDIC_OFFSET UNITYSDK_OFFSET(0x997ED20)
+#define RPG_CLIENT_ITEMREDDOTFILTER__INITTABDICT_OFFSET UNITYSDK_OFFSET(0x997EB30)
+#define RPG_CLIENT_ITEMREDDOTFILTER__UPDATEREDDOTTABKEYS_OFFSET UNITYSDK_OFFSET(0x997E8F0)
+#define RPG_CLIENT_ITEMREDDOTFILTER__UPDATEREDDOT_OFFSET UNITYSDK_OFFSET(0x997E600)
+#define RPG_CLIENT_ITEMREDDOTFILTER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x997F930)
+#define RPG_CLIENT_ITEMREDDOTFILTER___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x997F8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemRedDotFilter_TypeDefinitionIndex = 53248;
+	inline static constexpr unsigned int ItemRedDotFilter_TypeDefinitionIndex = 54389;
 
 	class ItemRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ItemSubType, ::Il2CppArray<::System::UInt32>*>* _SubType2TabDic; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* RedDotItemKeys; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>* _TabDict; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* RedDotTabKeys; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* _TabIDs; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* RedDotTabKeys; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Boolean>* _TabDict; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _TabIDs; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ItemSubType, ::Il2CppArray<::System::UInt32>*>* _SubType2TabDic; // 0x28
+		::System::Collections::Generic::List_1<::System::String*>* RedDotItemKeys; // 0x30
 
 		::System::Void _ctor()
 		{

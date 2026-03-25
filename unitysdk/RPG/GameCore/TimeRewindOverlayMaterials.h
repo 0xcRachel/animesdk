@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDOVERLAYMATERIALS_METHOD_2_902843E092F03706_OFFSET UNITYSDK_OFFSET(0x170F6050)
-#define RPG_GAMECORE_TIMEREWINDOVERLAYMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x170F61A0)
+#define RPG_GAMECORE_TIMEREWINDOVERLAYMATERIALS_METHOD_2_902843E092F03706_OFFSET UNITYSDK_OFFSET(0x178B3FE0)
+#define RPG_GAMECORE_TIMEREWINDOVERLAYMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x178B4130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindOverlayMaterials_TypeDefinitionIndex = 15855;
+	inline static constexpr unsigned int TimeRewindOverlayMaterials_TypeDefinitionIndex = 16132;
 
 	class TimeRewindOverlayMaterials : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,18 +6,18 @@ class Class_2_624AFA55756E2453;
 class Class_2_624AFA55756E2453_Class_2_A6C83DE587736314;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_624AFA55756E2453___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFE44D30)
-#define CLASS_2_624AFA55756E2453___C__DISPLAYCLASS11_0__TRYCREATEPOSESWITCHER_B__0_OFFSET UNITYSDK_OFFSET(0xFE46A50)
+#define CLASS_2_624AFA55756E2453___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8C035B0)
+#define CLASS_2_624AFA55756E2453___C__DISPLAYCLASS11_0__TRYCREATEPOSESWITCHER_B__0_OFFSET UNITYSDK_OFFSET(0x8C052D0)
 
-inline static constexpr unsigned int Class_2_624AFA55756E2453___c__DisplayClass11_0_TypeDefinitionIndex = 48024;
+inline static constexpr unsigned int Class_2_624AFA55756E2453___c__DisplayClass11_0_TypeDefinitionIndex = 49112;
 
 class Class_2_624AFA55756E2453___c__DisplayClass11_0 : public ::System::Object
 {
 public:
-	::Class_2_624AFA55756E2453_Class_2_A6C83DE587736314* volumeV2; // 0x10
-	::Class_2_624AFA55756E2453* __4__this; // 0x18
-	::System::UInt32 groupID; // 0x20
-	::System::UInt32 instanceID; // 0x24
+	::Class_2_624AFA55756E2453* __4__this; // 0x10
+	::Class_2_624AFA55756E2453_Class_2_A6C83DE587736314* volumeV2; // 0x18
+	::System::UInt32 instanceID; // 0x20
+	::System::UInt32 groupID; // 0x24
 
 	::System::Void _ctor()
 	{

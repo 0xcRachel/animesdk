@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x17BE9980)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17BE9E30)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18402AA0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18402F50)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineAnimationStateTrack_TypeDefinitionIndex = 34142;
+	inline static constexpr unsigned int SpineAnimationStateTrack_TypeDefinitionIndex = 35076;
 
 	class SpineAnimationStateTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

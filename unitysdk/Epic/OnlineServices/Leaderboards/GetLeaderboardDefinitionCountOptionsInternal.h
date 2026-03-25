@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Leaderboards { class GetLeaderboardDefinitionCou
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDDEFINITIONCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDDEFINITIONCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x43D00)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDDEFINITIONCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x43E90)
 #define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDDEFINITIONCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Leaderboards
 {
-	inline static constexpr unsigned int GetLeaderboardDefinitionCountOptionsInternal_TypeDefinitionIndex = 35259;
+	inline static constexpr unsigned int GetLeaderboardDefinitionCountOptionsInternal_TypeDefinitionIndex = 36193;
 
 	struct alignas(4) GetLeaderboardDefinitionCountOptionsInternal
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBoxGearUpgradeEffect_TypeDefinitionIndex = 42307;
+	inline static constexpr unsigned int EvolveBuildRewardBoxGearUpgradeEffect_TypeDefinitionIndex = 43356;
 
 	enum class EvolveBuildRewardBoxGearUpgradeEffect : ::System::Int32
 	{

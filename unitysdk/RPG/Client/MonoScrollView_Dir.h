@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoScrollView_Dir_TypeDefinitionIndex = 57876;
+	inline static constexpr unsigned int MonoScrollView_Dir_TypeDefinitionIndex = 59504;
 
 	enum class MonoScrollView_Dir : ::System::Int32
 	{

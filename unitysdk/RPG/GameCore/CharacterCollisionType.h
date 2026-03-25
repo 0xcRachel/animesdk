@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterCollisionType_TypeDefinitionIndex = 14856;
+	inline static constexpr unsigned int CharacterCollisionType_TypeDefinitionIndex = 15108;
 
 	enum class CharacterCollisionType : ::System::Int32
 	{

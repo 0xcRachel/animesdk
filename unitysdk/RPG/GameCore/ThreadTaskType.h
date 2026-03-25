@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ThreadTaskType_TypeDefinitionIndex = 22057;
+	inline static constexpr unsigned int ThreadTaskType_TypeDefinitionIndex = 22622;
 
 	enum class ThreadTaskType : ::System::Int32
 	{
@@ -18,5 +18,6 @@ namespace RPG::GameCore
 		AdventureMovement = 8,
 		GroundDetection = 9,
 		CityAtmosphere = 10,
+		FiveDimLod = 11,
 	};
 }

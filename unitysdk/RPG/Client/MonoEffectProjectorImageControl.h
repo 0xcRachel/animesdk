@@ -9,11 +9,11 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPROJECTORIMAGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x980E1B0)
+#define RPG_CLIENT_MONOEFFECTPROJECTORIMAGECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9CF0810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectProjectorImageControl_TypeDefinitionIndex = 56368;
+	inline static constexpr unsigned int MonoEffectProjectorImageControl_TypeDefinitionIndex = 57939;
 
 	class MonoEffectProjectorImageControl : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MonoEffectProjectorImageControlBehavior*>
 	{

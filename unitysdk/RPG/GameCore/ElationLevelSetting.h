@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELATIONLEVELSETTING_METHOD_2_DBFB2CE49A1849FB_OFFSET UNITYSDK_OFFSET(0x16A5CDD0)
-#define RPG_GAMECORE_ELATIONLEVELSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5CF20)
+#define RPG_GAMECORE_ELATIONLEVELSETTING_METHOD_2_DBFB2CE49A1849FB_OFFSET UNITYSDK_OFFSET(0x1719F5C0)
+#define RPG_GAMECORE_ELATIONLEVELSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1719F710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationLevelSetting_TypeDefinitionIndex = 15447;
+	inline static constexpr unsigned int ElationLevelSetting_TypeDefinitionIndex = 15724;
 
 	class ElationLevelSetting : public ::RPG::GameCore::JsonConfig
 	{

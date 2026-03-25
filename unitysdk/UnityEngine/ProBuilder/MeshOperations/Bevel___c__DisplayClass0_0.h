@@ -8,20 +8,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__7_OFFSET UNITYSDK_OFFSET(0x18018EF0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__8_OFFSET UNITYSDK_OFFSET(0x18018F60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18016E40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__7_OFFSET UNITYSDK_OFFSET(0x18841910)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__BEVELEDGES_B__8_OFFSET UNITYSDK_OFFSET(0x18841980)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1883F8D0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int Bevel___c__DisplayClass0_0_TypeDefinitionIndex = 33226;
+	inline static constexpr unsigned int Bevel___c__DisplayClass0_0_TypeDefinitionIndex = 34215;
 
 	class Bevel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::System::Int32>*>* ignore; // 0x10
-		::System::Func_2<::System::Int32, ::System::Int32>* __9__8; // 0x18
-		::Il2CppArray<::UnityEngine::ProBuilder::SharedVertex*>* sharedIndexes; // 0x20
+		::Il2CppArray<::UnityEngine::ProBuilder::SharedVertex*>* sharedIndexes; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::System::Int32>*>* ignore; // 0x18
+		::System::Func_2<::System::Int32, ::System::Int32>* __9__8; // 0x20
 		::System::Func_2<::System::Int32, ::System::Int32>* __9__7; // 0x28
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginUITrack_TrackType_TypeDefinitionIndex = 55828;
+	inline static constexpr unsigned int MonoEffectPluginUITrack_TrackType_TypeDefinitionIndex = 57393;
 
 	enum class MonoEffectPluginUITrack_TrackType : ::System::Int32
 	{

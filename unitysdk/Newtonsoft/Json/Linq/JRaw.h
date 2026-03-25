@@ -6,14 +6,14 @@ namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_LINQ_JRAW_CLONETOKEN_OFFSET UNITYSDK_OFFSET(0x15DAD2C0)
-#define NEWTONSOFT_JSON_LINQ_JRAW_CREATE_OFFSET UNITYSDK_OFFSET(0x15DACF90)
-#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15DACF10)
-#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x15DACE70)
+#define NEWTONSOFT_JSON_LINQ_JRAW_CLONETOKEN_OFFSET UNITYSDK_OFFSET(0x16474C30)
+#define NEWTONSOFT_JSON_LINQ_JRAW_CREATE_OFFSET UNITYSDK_OFFSET(0x16474900)
+#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16474880)
+#define NEWTONSOFT_JSON_LINQ_JRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x164747E0)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JRaw_TypeDefinitionIndex = 8231;
+	inline static constexpr unsigned int JRaw_TypeDefinitionIndex = 8360;
 
 	class JRaw : public ::Newtonsoft::Json::Linq::JValue
 	{

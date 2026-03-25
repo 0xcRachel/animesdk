@@ -6,10 +6,10 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Net { class IPEndPoint; }
 
-#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172DB6B0)
-#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__PINGBYUDPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x172DC820)
+#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A84200)
+#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__PINGBYUDPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17A855B0)
 
-inline static constexpr unsigned int Class_1_22664499479190F5___c__DisplayClass1_0_TypeDefinitionIndex = 32891;
+inline static constexpr unsigned int Class_1_22664499479190F5___c__DisplayClass1_0_TypeDefinitionIndex = 33879;
 
 class Class_1_22664499479190F5___c__DisplayClass1_0 : public ::System::Object
 {

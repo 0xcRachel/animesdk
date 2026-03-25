@@ -5,24 +5,24 @@
 namespace RPG::Client { class CakeRaceBattleItemDataItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8E31010)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8E31040)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C___INITBATTLEITEMDATAITEMS_B__5_0_OFFSET UNITYSDK_OFFSET(0x8E31050)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x923B4E0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x923B510)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C___INITBATTLEITEMDATAITEMS_B__5_0_OFFSET UNITYSDK_OFFSET(0x923B520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemInfo___c_TypeDefinitionIndex = 49980;
+	inline static constexpr unsigned int CakeRaceBattleItemInfo___c_TypeDefinitionIndex = 51112;
 
 	class CakeRaceBattleItemInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceBattleItemInfo___c_TypeDefinitionIndex)->GetStaticField(0x395F0);
-		}
 		static ::RPG::Client::CakeRaceBattleItemInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::CakeRaceBattleItemInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceBattleItemInfo___c_TypeDefinitionIndex)->GetStaticField(0x395F8);
+			return (::RPG::Client::CakeRaceBattleItemInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceBattleItemInfo___c_TypeDefinitionIndex)->GetStaticField(0x35540);
+		}
+		static ::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceBattleItemInfo___c_TypeDefinitionIndex)->GetStaticField(0x35548);
 		}
 
 		static ::System::Void _cctor()

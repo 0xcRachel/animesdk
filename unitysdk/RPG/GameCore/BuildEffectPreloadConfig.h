@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BuildEffectPreloadItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BUILDEFFECTPRELOADCONFIG_METHOD_2_3AF1748E511AE8A7_OFFSET UNITYSDK_OFFSET(0x168FC270)
-#define RPG_GAMECORE_BUILDEFFECTPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168FC3F0)
+#define RPG_GAMECORE_BUILDEFFECTPRELOADCONFIG_METHOD_2_3AF1748E511AE8A7_OFFSET UNITYSDK_OFFSET(0x1700D0A0)
+#define RPG_GAMECORE_BUILDEFFECTPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1700D220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BuildEffectPreloadConfig_TypeDefinitionIndex = 14709;
+	inline static constexpr unsigned int BuildEffectPreloadConfig_TypeDefinitionIndex = 14961;
 
 	class BuildEffectPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERATLASFACEEMOTION_METHOD_2_3E89669D07E186FB_OFFSET UNITYSDK_OFFSET(0x16968150)
-#define RPG_GAMECORE_CHARACTERATLASFACEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16968260)
+#define RPG_GAMECORE_CHARACTERATLASFACEEMOTION_METHOD_2_3E89669D07E186FB_OFFSET UNITYSDK_OFFSET(0x17079900)
+#define RPG_GAMECORE_CHARACTERATLASFACEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17079A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAtlasFaceEmotion_TypeDefinitionIndex = 19533;
+	inline static constexpr unsigned int CharacterAtlasFaceEmotion_TypeDefinitionIndex = 20061;
 
 	class CharacterAtlasFaceEmotion : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PauseToastQueue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F0F0D28696937EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C9AFB0)
-#define CLASS_3_2F0F0D28696937EB__CTOR_OFFSET UNITYSDK_OFFSET(0x10C9AF80)
+#define CLASS_3_2F0F0D28696937EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11843750)
+#define CLASS_3_2F0F0D28696937EB__CTOR_OFFSET UNITYSDK_OFFSET(0x11843720)
 
-inline static constexpr unsigned int Class_3_2F0F0D28696937EB_TypeDefinitionIndex = 41898;
+inline static constexpr unsigned int Class_3_2F0F0D28696937EB_TypeDefinitionIndex = 42947;
 
 class Class_3_2F0F0D28696937EB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PauseToastQueue*>
 {

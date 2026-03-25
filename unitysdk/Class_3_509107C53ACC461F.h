@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchCallBackModifierCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_509107C53ACC461F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11066110)
-#define CLASS_3_509107C53ACC461F__CTOR_OFFSET UNITYSDK_OFFSET(0x11066090)
+#define CLASS_3_509107C53ACC461F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8D7E9C0)
+#define CLASS_3_509107C53ACC461F__CTOR_OFFSET UNITYSDK_OFFSET(0x8D7E940)
 
-inline static constexpr unsigned int Class_3_509107C53ACC461F_TypeDefinitionIndex = 46800;
+inline static constexpr unsigned int Class_3_509107C53ACC461F_TypeDefinitionIndex = 47880;
 
 class Class_3_509107C53ACC461F : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchCallBackModifierCaster*>
 {

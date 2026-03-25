@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourGameFlowMessage_TypeDefinitionIndex = 49057;
+	inline static constexpr unsigned int ParkourGameFlowMessage_TypeDefinitionIndex = 50192;
 
 	enum class ParkourGameFlowMessage : ::System::Int32
 	{

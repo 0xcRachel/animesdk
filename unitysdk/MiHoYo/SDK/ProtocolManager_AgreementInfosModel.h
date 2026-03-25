@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class ProtocolManager_MarketingProtocolModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER_AGREEMENTINFOSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15902430)
+#define MIHOYO_SDK_PROTOCOLMANAGER_AGREEMENTINFOSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15FE1920)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager_AgreementInfosModel_TypeDefinitionIndex = 6917;
+	inline static constexpr unsigned int ProtocolManager_AgreementInfosModel_TypeDefinitionIndex = 7035;
 
 	class ProtocolManager_AgreementInfosModel : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int AvgResetInterval_TypeDefinitionIndex = 9281;
+	inline static constexpr unsigned int AvgResetInterval_TypeDefinitionIndex = 9748;
 
 	enum class AvgResetInterval : ::System::Int32
 	{

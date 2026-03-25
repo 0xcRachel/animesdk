@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UISkillIndex_TypeDefinitionIndex = 57366;
+	inline static constexpr unsigned int UISkillIndex_TypeDefinitionIndex = 58965;
 
 	enum class UISkillIndex : ::System::Int32
 	{

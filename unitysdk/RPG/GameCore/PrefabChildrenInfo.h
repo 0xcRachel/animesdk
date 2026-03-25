@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PREFABCHILDRENINFO_METHOD_2_9F0F78723A458023_OFFSET UNITYSDK_OFFSET(0x16D9E100)
-#define RPG_GAMECORE_PREFABCHILDRENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D9E1D0)
+#define RPG_GAMECORE_PREFABCHILDRENINFO_METHOD_2_9F0F78723A458023_OFFSET UNITYSDK_OFFSET(0x17525210)
+#define RPG_GAMECORE_PREFABCHILDRENINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x175252E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PrefabChildrenInfo_TypeDefinitionIndex = 17095;
+	inline static constexpr unsigned int PrefabChildrenInfo_TypeDefinitionIndex = 17500;
 
 	class PrefabChildrenInfo : public ::RPG::GameCore::JsonConfig
 	{

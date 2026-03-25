@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleFailureTipType_TypeDefinitionIndex = 11676;
+	inline static constexpr unsigned int BattleFailureTipType_TypeDefinitionIndex = 11746;
 
 	enum class BattleFailureTipType : ::System::Int32
 	{

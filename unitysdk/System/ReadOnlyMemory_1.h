@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System
 {
-	inline static constexpr unsigned int ReadOnlyMemory_1_TypeDefinitionIndex = 4870;
+	inline static constexpr unsigned int ReadOnlyMemory_1_TypeDefinitionIndex = 4969;
 
 	template <typename T>
 	struct ReadOnlyMemory_1

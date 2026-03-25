@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModelFlipOption_TypeDefinitionIndex = 55768;
+	inline static constexpr unsigned int ModelFlipOption_TypeDefinitionIndex = 57333;
 
 	enum class ModelFlipOption : ::System::Int32
 	{

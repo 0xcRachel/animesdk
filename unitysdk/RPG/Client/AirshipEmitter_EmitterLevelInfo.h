@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AIRSHIPEMITTER_EMITTERLEVELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8C564E0)
+#define RPG_CLIENT_AIRSHIPEMITTER_EMITTERLEVELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x90A76F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipEmitter_EmitterLevelInfo_TypeDefinitionIndex = 47330;
+	inline static constexpr unsigned int AirshipEmitter_EmitterLevelInfo_TypeDefinitionIndex = 48411;
 
 	class AirshipEmitter_EmitterLevelInfo : public ::System::Object
 	{

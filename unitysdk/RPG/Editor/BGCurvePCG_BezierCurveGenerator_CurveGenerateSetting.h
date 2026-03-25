@@ -3,17 +3,17 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_CURVEGENERATESETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xA28ABA0)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_CURVEGENERATESETTING__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7C56A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex = 41001;
+	inline static constexpr unsigned int BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex = 42044;
 
 	struct alignas(4) BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting
 	{
 		static ::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting* StaticGet_init()
 		{
-			return (::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex)->GetStaticField(0xE1E0);
+			return (::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting*)Il2CppClass::FromTypeDefinitionIndex(BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting_TypeDefinitionIndex)->GetStaticField(0xFF20);
 		}
 		::UnityEngine::Vector2 Range; // 0x10
 		::UnityEngine::Vector2 ControlPointDistRange; // 0x18

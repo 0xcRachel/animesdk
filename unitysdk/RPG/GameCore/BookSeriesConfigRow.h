@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOOKSERIESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168EDCD0)
-#define RPG_GAMECORE_BOOKSERIESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168EE400)
+#define RPG_GAMECORE_BOOKSERIESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FFEB00)
+#define RPG_GAMECORE_BOOKSERIESCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFF270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BookSeriesConfigRow_TypeDefinitionIndex = 11706;
+	inline static constexpr unsigned int BookSeriesConfigRow_TypeDefinitionIndex = 11776;
 
 	class BookSeriesConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean IsShowInBookshelf; // 0x10
-		::System::UInt32 BookSeriesWorld; // 0x14
-		::RPG::Client::TextID BookSeriesComments; // 0x18
-		::RPG::Client::TextID BookSeries; // 0x28
-		::System::UInt32 BookSeriesID; // 0x38
-		::System::UInt32 BookSeriesNum; // 0x3C
+		::RPG::Client::TextID BookSeriesComments; // 0x10
+		::System::UInt32 BookSeriesWorld; // 0x20
+		::System::UInt32 BookSeriesID; // 0x24
+		::System::Boolean IsShowInBookshelf; // 0x28
+		::System::UInt32 BookSeriesNum; // 0x2C
+		::RPG::Client::TextID BookSeries; // 0x30
 
 		::System::Void _ctor()
 		{

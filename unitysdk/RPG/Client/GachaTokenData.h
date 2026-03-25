@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client { class ItemData; }
 namespace RPG::GameCore { class GachaTokenShopConfig; }
-namespace RPG::GameCore { class ItemRow; }
 
-#define RPG_CLIENT_GACHATOKENDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x92F2CF0)
-#define RPG_CLIENT_GACHATOKENDATA_SET_ROW_OFFSET UNITYSDK_OFFSET(0x92F2D00)
-#define RPG_CLIENT_GACHATOKENDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x92E8070)
+#define RPG_CLIENT_GACHATOKENDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x9767A80)
+#define RPG_CLIENT_GACHATOKENDATA_SET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x9767A90)
+#define RPG_CLIENT_GACHATOKENDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x975CE90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaTokenData_TypeDefinitionIndex = 51094;
+	inline static constexpr unsigned int GachaTokenData_TypeDefinitionIndex = 52227;
 
 	class GachaTokenData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GachaTokenShopConfig* GachaTokenShop; // 0x10
-		::RPG::GameCore::ItemRow* _Row_k__BackingField; // 0x18
+		::RPG::Client::ItemData* _ItemData_k__BackingField; // 0x18
 		::System::UInt32 Price; // 0x20
 
 		::System::Void _ctor(::System::UInt32 itemID)
@@ -25,14 +25,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATOKENDATA__CTOR_OFFSET))(this, itemID);
 		}
 
-		::RPG::GameCore::ItemRow* get_Row()
+		::RPG::Client::ItemData* get_ItemData()
 		{
-			return ((::RPG::GameCore::ItemRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATOKENDATA_GET_ROW_OFFSET))(this);
+			return ((::RPG::Client::ItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATOKENDATA_GET_ITEMDATA_OFFSET))(this);
 		}
 
-		::System::Void set_Row(::RPG::GameCore::ItemRow* value)
+		::System::Void set_ItemData(::RPG::Client::ItemData* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATOKENDATA_SET_ROW_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHATOKENDATA_SET_ITEMDATA_OFFSET))(this, value);
 		}
 	};
 }

@@ -7,29 +7,29 @@ namespace RPG::Client { class EvolveBuildResultBarData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9198800)
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9198840)
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x9198850)
-#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_1_OFFSET UNITYSDK_OFFSET(0x9198870)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9643BC0)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9643C00)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x9643C10)
+#define RPG_CLIENT_EVOLVEBUILDLEVELFROMPROTO___C__GETRESULTBARDATA_B__5_1_OFFSET UNITYSDK_OFFSET(0x9643C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildLevelFromProto___c_TypeDefinitionIndex = 50709;
+	inline static constexpr unsigned int EvolveBuildLevelFromProto___c_TypeDefinitionIndex = 51844;
 
 	class EvolveBuildLevelFromProto___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_BDBF4167CAB0A166*, ::System::Double>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::Class_1_BDBF4167CAB0A166*, ::System::Double>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildLevelFromProto___c_TypeDefinitionIndex)->GetStaticField(0x40580);
+			return (::System::Func_2<::Class_1_BDBF4167CAB0A166*, ::System::Double>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildLevelFromProto___c_TypeDefinitionIndex)->GetStaticField(0x421E0);
 		}
 		static ::System::Comparison_1<::RPG::Client::EvolveBuildResultBarData*>** StaticGet___9__5_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildResultBarData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildLevelFromProto___c_TypeDefinitionIndex)->GetStaticField(0x40588);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildResultBarData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildLevelFromProto___c_TypeDefinitionIndex)->GetStaticField(0x421E8);
 		}
 		static ::RPG::Client::EvolveBuildLevelFromProto___c** StaticGet___9()
 		{
-			return (::RPG::Client::EvolveBuildLevelFromProto___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildLevelFromProto___c_TypeDefinitionIndex)->GetStaticField(0x40590);
+			return (::RPG::Client::EvolveBuildLevelFromProto___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildLevelFromProto___c_TypeDefinitionIndex)->GetStaticField(0x421F0);
 		}
 
 		static ::System::Void _cctor()

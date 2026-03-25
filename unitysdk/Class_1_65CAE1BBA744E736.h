@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class GridFightEquipConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_65CAE1BBA744E736_METHOD_1_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x10292440)
-#define CLASS_1_65CAE1BBA744E736_METHOD_1_460A012060B107A4_OFFSET UNITYSDK_OFFSET(0x10292350)
-#define CLASS_1_65CAE1BBA744E736_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x102922E0)
-#define CLASS_1_65CAE1BBA744E736__CTOR_OFFSET UNITYSDK_OFFSET(0x102926E0)
+#define CLASS_1_65CAE1BBA744E736_METHOD_1_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x114C4F10)
+#define CLASS_1_65CAE1BBA744E736_METHOD_1_460A012060B107A4_OFFSET UNITYSDK_OFFSET(0x114C4E20)
+#define CLASS_1_65CAE1BBA744E736_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x114C4DB0)
+#define CLASS_1_65CAE1BBA744E736__CTOR_OFFSET UNITYSDK_OFFSET(0x114C51B0)
 
-inline static constexpr unsigned int Class_1_65CAE1BBA744E736_TypeDefinitionIndex = 51331;
+inline static constexpr unsigned int Class_1_65CAE1BBA744E736_TypeDefinitionIndex = 52464;
 
 class Class_1_65CAE1BBA744E736 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GridFightEquipConfigRow*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GridFightEquipConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65CAE1BBA744E736_TypeDefinitionIndex)->GetStaticField(0x2A230);
+		return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GridFightEquipConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65CAE1BBA744E736_TypeDefinitionIndex)->GetStaticField(0x27B00);
 	}
 
 	::System::Void _ctor()

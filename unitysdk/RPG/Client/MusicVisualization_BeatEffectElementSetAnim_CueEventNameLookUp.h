@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTSETANIM_CUEEVENTNAMELOOKUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x99105E0)
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTSETANIM_CUEEVENTNAMELOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x99105D0)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTSETANIM_CUEEVENTNAMELOOKUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x9DF2840)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTSETANIM_CUEEVENTNAMELOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x9DF2830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_BeatEffectElementSetAnim_CueEventNameLookUp_TypeDefinitionIndex = 56448;
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementSetAnim_CueEventNameLookUp_TypeDefinitionIndex = 58020;
 
 	class MusicVisualization_BeatEffectElementSetAnim_CueEventNameLookUp : public ::System::Object
 	{

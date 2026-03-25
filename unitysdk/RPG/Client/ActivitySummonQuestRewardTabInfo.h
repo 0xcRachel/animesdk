@@ -7,13 +7,13 @@ namespace RPG::Client { class ActivitySummonStage; }
 namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 namespace RPG::GameCore { class ActivitySummonRewardTabRow; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x8BC4D40)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC4CB0)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x8BC4E70)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x8FC5AB0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8FC5A20)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x8FC5BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 49122;
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 50258;
 
 	class ActivitySummonQuestRewardTabInfo : public ::RPG::Client::CommonActivityQuestRewardTabInfo
 	{

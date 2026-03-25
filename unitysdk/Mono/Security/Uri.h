@@ -6,36 +6,36 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_URI_EQUALS_OFFSET UNITYSDK_OFFSET(0x15ADA500)
-#define MONO_SECURITY_URI_ESCAPESTRING_1_OFFSET UNITYSDK_OFFSET(0x15ADC180)
-#define MONO_SECURITY_URI_ESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x15ADC120)
-#define MONO_SECURITY_URI_FROMHEX_OFFSET UNITYSDK_OFFSET(0x15ADB440)
-#define MONO_SECURITY_URI_GETDEFAULTPORT_OFFSET UNITYSDK_OFFSET(0x15ADB1D0)
-#define MONO_SECURITY_URI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15ADA8D0)
-#define MONO_SECURITY_URI_GETLEFTPART_OFFSET UNITYSDK_OFFSET(0x15ADABB0)
-#define MONO_SECURITY_URI_GETOPAQUEWISESCHEMEDELIMITER_OFFSET UNITYSDK_OFFSET(0x15ADB160)
-#define MONO_SECURITY_URI_GETSCHEMEDELIMITER_OFFSET UNITYSDK_OFFSET(0x15ADDFA0)
-#define MONO_SECURITY_URI_GET_ABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x15ADA1D0)
-#define MONO_SECURITY_URI_GET_ISFILE_OFFSET UNITYSDK_OFFSET(0x15ADA1E0)
-#define MONO_SECURITY_URI_GET_ISUNC_OFFSET UNITYSDK_OFFSET(0x15ADA290)
-#define MONO_SECURITY_URI_GET_LOCALPATH_OFFSET UNITYSDK_OFFSET(0x15ADA2A0)
-#define MONO_SECURITY_URI_HEXESCAPE_OFFSET UNITYSDK_OFFSET(0x15ADB4E0)
-#define MONO_SECURITY_URI_HEXUNESCAPE_OFFSET UNITYSDK_OFFSET(0x15ADB6F0)
-#define MONO_SECURITY_URI_ISHEXDIGIT_OFFSET UNITYSDK_OFFSET(0x15ADBC20)
-#define MONO_SECURITY_URI_ISHEXENCODING_OFFSET UNITYSDK_OFFSET(0x15ADBC40)
-#define MONO_SECURITY_URI_ISPREDEFINEDSCHEME_OFFSET UNITYSDK_OFFSET(0x15ADD830)
-#define MONO_SECURITY_URI_PARSEASUNIXABSOLUTEFILEPATH_OFFSET UNITYSDK_OFFSET(0x15ADD6F0)
-#define MONO_SECURITY_URI_PARSEASWINDOWSABSOLUTEFILEPATH_OFFSET UNITYSDK_OFFSET(0x15ADD5F0)
-#define MONO_SECURITY_URI_PARSEASWINDOWSUNC_OFFSET UNITYSDK_OFFSET(0x15ADD470)
-#define MONO_SECURITY_URI_PARSE_1_OFFSET UNITYSDK_OFFSET(0x15ADC670)
-#define MONO_SECURITY_URI_PARSE_OFFSET UNITYSDK_OFFSET(0x15ADA100)
-#define MONO_SECURITY_URI_REDUCE_OFFSET UNITYSDK_OFFSET(0x15ADD9B0)
-#define MONO_SECURITY_URI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15ADBDE0)
-#define MONO_SECURITY_URI_UNESCAPE_1_OFFSET UNITYSDK_OFFSET(0x15ADBEA0)
-#define MONO_SECURITY_URI_UNESCAPE_OFFSET UNITYSDK_OFFSET(0x15ADA4F0)
-#define MONO_SECURITY_URI__CCTOR_OFFSET UNITYSDK_OFFSET(0x15ADE230)
-#define MONO_SECURITY_URI__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15ADA0B0)
-#define MONO_SECURITY_URI__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADA060)
+#define MONO_SECURITY_URI_EQUALS_OFFSET UNITYSDK_OFFSET(0x161A3B70)
+#define MONO_SECURITY_URI_ESCAPESTRING_1_OFFSET UNITYSDK_OFFSET(0x161A57F0)
+#define MONO_SECURITY_URI_ESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x161A5790)
+#define MONO_SECURITY_URI_FROMHEX_OFFSET UNITYSDK_OFFSET(0x161A4AB0)
+#define MONO_SECURITY_URI_GETDEFAULTPORT_OFFSET UNITYSDK_OFFSET(0x161A4840)
+#define MONO_SECURITY_URI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x161A3F40)
+#define MONO_SECURITY_URI_GETLEFTPART_OFFSET UNITYSDK_OFFSET(0x161A4220)
+#define MONO_SECURITY_URI_GETOPAQUEWISESCHEMEDELIMITER_OFFSET UNITYSDK_OFFSET(0x161A47D0)
+#define MONO_SECURITY_URI_GETSCHEMEDELIMITER_OFFSET UNITYSDK_OFFSET(0x161A7630)
+#define MONO_SECURITY_URI_GET_ABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x161A3840)
+#define MONO_SECURITY_URI_GET_ISFILE_OFFSET UNITYSDK_OFFSET(0x161A3850)
+#define MONO_SECURITY_URI_GET_ISUNC_OFFSET UNITYSDK_OFFSET(0x161A3900)
+#define MONO_SECURITY_URI_GET_LOCALPATH_OFFSET UNITYSDK_OFFSET(0x161A3910)
+#define MONO_SECURITY_URI_HEXESCAPE_OFFSET UNITYSDK_OFFSET(0x161A4B50)
+#define MONO_SECURITY_URI_HEXUNESCAPE_OFFSET UNITYSDK_OFFSET(0x161A4D60)
+#define MONO_SECURITY_URI_ISHEXDIGIT_OFFSET UNITYSDK_OFFSET(0x161A5290)
+#define MONO_SECURITY_URI_ISHEXENCODING_OFFSET UNITYSDK_OFFSET(0x161A52B0)
+#define MONO_SECURITY_URI_ISPREDEFINEDSCHEME_OFFSET UNITYSDK_OFFSET(0x161A6EC0)
+#define MONO_SECURITY_URI_PARSEASUNIXABSOLUTEFILEPATH_OFFSET UNITYSDK_OFFSET(0x161A6D80)
+#define MONO_SECURITY_URI_PARSEASWINDOWSABSOLUTEFILEPATH_OFFSET UNITYSDK_OFFSET(0x161A6C80)
+#define MONO_SECURITY_URI_PARSEASWINDOWSUNC_OFFSET UNITYSDK_OFFSET(0x161A6B00)
+#define MONO_SECURITY_URI_PARSE_1_OFFSET UNITYSDK_OFFSET(0x161A5D00)
+#define MONO_SECURITY_URI_PARSE_OFFSET UNITYSDK_OFFSET(0x161A3770)
+#define MONO_SECURITY_URI_REDUCE_OFFSET UNITYSDK_OFFSET(0x161A7040)
+#define MONO_SECURITY_URI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x161A5450)
+#define MONO_SECURITY_URI_UNESCAPE_1_OFFSET UNITYSDK_OFFSET(0x161A5510)
+#define MONO_SECURITY_URI_UNESCAPE_OFFSET UNITYSDK_OFFSET(0x161A3B60)
+#define MONO_SECURITY_URI__CCTOR_OFFSET UNITYSDK_OFFSET(0x161A78C0)
+#define MONO_SECURITY_URI__CTOR_1_OFFSET UNITYSDK_OFFSET(0x161A3720)
+#define MONO_SECURITY_URI__CTOR_OFFSET UNITYSDK_OFFSET(0x161A36D0)
 
 namespace Mono::Security
 {
@@ -44,66 +44,66 @@ namespace Mono::Security
 	class Uri : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_hexUpperChars()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44C0);
-		}
-		static ::System::String** StaticGet_UriSchemeNews()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44C8);
-		}
-		static ::System::String** StaticGet_UriSchemeGopher()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44D0);
-		}
 		static ::System::String** StaticGet_UriSchemeNntp()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44D8);
-		}
-		static ::System::String** StaticGet_SchemeDelimiter()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44E0);
-		}
-		static ::System::String** StaticGet_UriSchemeMailto()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44E8);
-		}
-		static ::System::String** StaticGet_UriSchemeHttps()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44F0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1DE0);
 		}
 		static ::System::String** StaticGet_UriSchemeHttp()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x44F8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1DE8);
 		}
-		static ::System::String** StaticGet_UriSchemeFile()
+		static ::System::String** StaticGet_UriSchemeGopher()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x4500);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1DF0);
+		}
+		static ::System::String** StaticGet_UriSchemeHttps()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1DF8);
 		}
 		static ::System::String** StaticGet_UriSchemeFtp()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x4508);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E00);
+		}
+		static ::System::String** StaticGet_UriSchemeFile()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E08);
+		}
+		static ::System::String** StaticGet_UriSchemeMailto()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E10);
+		}
+		static ::System::String** StaticGet_SchemeDelimiter()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E18);
+		}
+		static ::System::String** StaticGet_UriSchemeNews()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E20);
+		}
+		static ::System::String** StaticGet_hexUpperChars()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E28);
 		}
 		static ::Il2CppArray<::Mono::Security::Uri_UriScheme>** StaticGet_schemes()
 		{
-			return (::Il2CppArray<::Mono::Security::Uri_UriScheme>**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x4510);
+			return (::Il2CppArray<::Mono::Security::Uri_UriScheme>**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x1E30);
 		}
-		::System::String* query; // 0x10
-		::System::String* fragment; // 0x18
-		::System::String* cachedLocalPath; // 0x20
-		::System::String* source; // 0x28
-		::System::String* path; // 0x30
-		::System::String* host; // 0x38
-		::System::String* cachedToString; // 0x40
-		::System::String* userinfo; // 0x48
-		::System::String* scheme; // 0x50
-		::System::Boolean isUnc; // 0x58
-		::System::Int32 port; // 0x5C
-		::System::Boolean userEscaped; // 0x60
-		::System::Boolean isUnixFilePath; // 0x61
-		::System::Boolean reduce; // 0x62
-		::System::Boolean isOpaquePart; // 0x63
-		::System::Int32 cachedHashCode; // 0x64
+		::System::String* userinfo; // 0x10
+		::System::String* source; // 0x18
+		::System::String* cachedToString; // 0x20
+		::System::String* fragment; // 0x28
+		::System::String* cachedLocalPath; // 0x30
+		::System::String* query; // 0x38
+		::System::String* scheme; // 0x40
+		::System::String* path; // 0x48
+		::System::String* host; // 0x50
+		::System::Int32 cachedHashCode; // 0x58
+		::System::Boolean userEscaped; // 0x5C
+		::System::Boolean isUnixFilePath; // 0x5D
+		::System::Boolean reduce; // 0x5E
+		::System::Boolean isUnc; // 0x5F
+		::System::Boolean isOpaquePart; // 0x60
+		::System::Int32 port; // 0x64
 
 		::System::Void _ctor(::System::String* uriString)
 		{

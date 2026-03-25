@@ -3,9 +3,9 @@
 #include "unitysdk/HipplenBuilderStatus_StatType.h"
 #include "unitysdk/System/Object.h"
 
-#define HIPPLENBUILDERACTIVITYASSET_STATMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1053DE60)
+#define HIPPLENBUILDERACTIVITYASSET_STATMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x10C2EC30)
 
-inline static constexpr unsigned int HipplenBuilderActivityAsset_StatModifier_TypeDefinitionIndex = 37165;
+inline static constexpr unsigned int HipplenBuilderActivityAsset_StatModifier_TypeDefinitionIndex = 38129;
 
 class HipplenBuilderActivityAsset_StatModifier : public ::System::Object
 {

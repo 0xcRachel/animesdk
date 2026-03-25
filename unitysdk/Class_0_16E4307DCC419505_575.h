@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace RPG::Client { class ChimeraDuelGameData; }
-namespace RPG::Client { class ChimeraDuelGameSessionCurrentRound; }
+class Class_0_16E4307DCC419505_576;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_575_TypeDefinitionIndex = 50260;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_575_TypeDefinitionIndex = 50811;
 
 class Class_0_16E4307DCC419505_575
 {

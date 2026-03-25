@@ -6,10 +6,10 @@ namespace RPG::GameCore { class CharacterEmoConfig; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-#define STRUCT_2_E0754CA22D053A9B_METHOD_2_A2B391699C4CD306_OFFSET UNITYSDK_OFFSET(0x145C8A0)
-#define STRUCT_2_E0754CA22D053A9B_METHOD_2_E433E4A436F99F92_OFFSET UNITYSDK_OFFSET(0x145C890)
+#define STRUCT_2_E0754CA22D053A9B_METHOD_2_A2B391699C4CD306_OFFSET UNITYSDK_OFFSET(0x1499630)
+#define STRUCT_2_E0754CA22D053A9B_METHOD_2_E433E4A436F99F92_OFFSET UNITYSDK_OFFSET(0x1499620)
 
-inline static constexpr unsigned int Struct_2_E0754CA22D053A9B_TypeDefinitionIndex = 45036;
+inline static constexpr unsigned int Struct_2_E0754CA22D053A9B_TypeDefinitionIndex = 46097;
 
 struct alignas(8) Struct_2_E0754CA22D053A9B
 {

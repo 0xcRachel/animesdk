@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_A7B9824716EA1FCD.h"
+#include "unitysdk/RPG/GCFreeClosure/ActionClosure_1.h"
 
-class Class_1_806321C94BBFF6D2;
-namespace RPG { template <typename T> class PoolList_1; }
+namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_106_TypeDefinitionIndex = 31510;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_106_TypeDefinitionIndex = 32316;
 
 class Class_0_16E4307DCC419505_106
 {

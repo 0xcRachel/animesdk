@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CHESSMODIFIERCALLBACKCONFIG_METHOD_2_F953420CC2258649_OFFSET UNITYSDK_OFFSET(0x1697ED40)
-#define RPG_GAMECORE_CHESSMODIFIERCALLBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1697EE40)
+#define RPG_GAMECORE_CHESSMODIFIERCALLBACKCONFIG_METHOD_2_F953420CC2258649_OFFSET UNITYSDK_OFFSET(0x170A11D0)
+#define RPG_GAMECORE_CHESSMODIFIERCALLBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170A12D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessModifierCallbackConfig_TypeDefinitionIndex = 15914;
+	inline static constexpr unsigned int ChessModifierCallbackConfig_TypeDefinitionIndex = 16191;
 
 	class ChessModifierCallbackConfig : public ::RPG::GameCore::JsonConfig
 	{

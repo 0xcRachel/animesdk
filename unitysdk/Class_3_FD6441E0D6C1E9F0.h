@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DeployPuzzleChangeLineIntensity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FD6441E0D6C1E9F0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA15CB70)
-#define CLASS_3_FD6441E0D6C1E9F0__CTOR_OFFSET UNITYSDK_OFFSET(0xA15CB40)
+#define CLASS_3_FD6441E0D6C1E9F0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89AE7E0)
+#define CLASS_3_FD6441E0D6C1E9F0__CTOR_OFFSET UNITYSDK_OFFSET(0x89AE7B0)
 
-inline static constexpr unsigned int Class_3_FD6441E0D6C1E9F0_TypeDefinitionIndex = 45772;
+inline static constexpr unsigned int Class_3_FD6441E0D6C1E9F0_TypeDefinitionIndex = 46840;
 
 class Class_3_FD6441E0D6C1E9F0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DeployPuzzleChangeLineIntensity*>
 {

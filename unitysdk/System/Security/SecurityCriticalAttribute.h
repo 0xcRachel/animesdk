@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_SECURITY_SECURITYCRITICALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B35DF0)
+#define SYSTEM_SECURITY_SECURITYCRITICALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x161FFB80)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityCriticalAttribute_TypeDefinitionIndex = 928;
+	inline static constexpr unsigned int SecurityCriticalAttribute_TypeDefinitionIndex = 932;
 
 	class SecurityCriticalAttribute : public ::System::Attribute
 	{

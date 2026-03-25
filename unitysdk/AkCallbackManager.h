@@ -22,91 +22,91 @@ class AkMusicPlaylistCallbackInfo;
 class AkMusicSyncCallbackInfo;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AKCALLBACKMANAGER_GET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x18385DE0)
-#define AKCALLBACKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x183869C0)
-#define AKCALLBACKMANAGER_POSTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x18387200)
-#define AKCALLBACKMANAGER_REMOVEBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x18386400)
-#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACKCOOKIE_OFFSET UNITYSDK_OFFSET(0x18386110)
-#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x18385E50)
-#define AKCALLBACKMANAGER_SETBGMCALLBACK_OFFSET UNITYSDK_OFFSET(0x18387130)
-#define AKCALLBACKMANAGER_SETLASTADDEDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x18386720)
-#define AKCALLBACKMANAGER_SETMONITORINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x18386F60)
-#define AKCALLBACKMANAGER_SET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x18385E20)
-#define AKCALLBACKMANAGER_TERM_OFFSET UNITYSDK_OFFSET(0x18386C20)
-#define AKCALLBACKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18389E50)
+#define AKCALLBACKMANAGER_GET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x18BAAFE0)
+#define AKCALLBACKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x18BABBC0)
+#define AKCALLBACKMANAGER_POSTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x18BAC400)
+#define AKCALLBACKMANAGER_REMOVEBANKCALLBACK_OFFSET UNITYSDK_OFFSET(0x18BAB600)
+#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACKCOOKIE_OFFSET UNITYSDK_OFFSET(0x18BAB310)
+#define AKCALLBACKMANAGER_REMOVEEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x18BAB050)
+#define AKCALLBACKMANAGER_SETBGMCALLBACK_OFFSET UNITYSDK_OFFSET(0x18BAC330)
+#define AKCALLBACKMANAGER_SETLASTADDEDPLAYINGID_OFFSET UNITYSDK_OFFSET(0x18BAB920)
+#define AKCALLBACKMANAGER_SETMONITORINGCALLBACK_OFFSET UNITYSDK_OFFSET(0x18BAC160)
+#define AKCALLBACKMANAGER_SET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x18BAB020)
+#define AKCALLBACKMANAGER_TERM_OFFSET UNITYSDK_OFFSET(0x18BABE20)
+#define AKCALLBACKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BAEA60)
 
-inline static constexpr unsigned int AkCallbackManager_TypeDefinitionIndex = 33569;
+inline static constexpr unsigned int AkCallbackManager_TypeDefinitionIndex = 34558;
 
 class AkCallbackManager : public ::System::Object
 {
 public:
-	static ::AkBankCallbackInfo** StaticGet_AkBankCallbackInfo()
-	{
-		return (::AkBankCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x349D0);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_EventCallbackPackage*>** StaticGet_m_mapEventCallbacks()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_EventCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x349D8);
-	}
-	static ::AkAudioSourceChangeCallbackInfo** StaticGet_AkAudioSourceChangeCallbackInfo()
-	{
-		return (::AkAudioSourceChangeCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x349E0);
-	}
-	static ::AkMusicSyncCallbackInfo** StaticGet_AkMusicSyncCallbackInfo()
-	{
-		return (::AkMusicSyncCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x349E8);
-	}
-	static ::AkCallbackManager_MonitoringCallback** StaticGet_m_MonitoringCB()
-	{
-		return (::AkCallbackManager_MonitoringCallback**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x349F0);
-	}
-	static ::AkMusicPlaylistCallbackInfo** StaticGet_AkMusicPlaylistCallbackInfo()
-	{
-		return (::AkMusicPlaylistCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x349F8);
-	}
-	static ::AkCallbackManager_EventCallbackPackage** StaticGet_m_LastAddedEventPackage()
-	{
-		return (::AkCallbackManager_EventCallbackPackage**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A00);
-	}
-	static ::AkMonitoringCallbackInfo** StaticGet_AkMonitoringCallbackInfo()
-	{
-		return (::AkMonitoringCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A08);
-	}
 	static ::AkDurationCallbackInfo** StaticGet_AkDurationCallbackInfo()
 	{
-		return (::AkDurationCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A10);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_BankCallbackPackage*>** StaticGet_m_mapBankCallbacks()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_BankCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A18);
+		return (::AkDurationCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x285E0);
 	}
 	static ::AkMarkerCallbackInfo** StaticGet_AkMarkerCallbackInfo()
 	{
-		return (::AkMarkerCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A20);
-	}
-	static ::AkMIDIEventCallbackInfo** StaticGet_AkMIDIEventCallbackInfo()
-	{
-		return (::AkMIDIEventCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A28);
+		return (::AkMarkerCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x285E8);
 	}
 	static ::AkDynamicSequenceItemCallbackInfo** StaticGet_AkDynamicSequenceItemCallbackInfo()
 	{
-		return (::AkDynamicSequenceItemCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A30);
+		return (::AkDynamicSequenceItemCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x285F0);
 	}
-	static ::AkEventCallbackInfo** StaticGet_AkEventCallbackInfo()
+	static ::AkAudioSourceChangeCallbackInfo** StaticGet_AkAudioSourceChangeCallbackInfo()
 	{
-		return (::AkEventCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A38);
+		return (::AkAudioSourceChangeCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x285F8);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_BankCallbackPackage*>** StaticGet_m_mapBankCallbacks()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_BankCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28600);
+	}
+	static ::AkCallbackManager_EventCallbackPackage** StaticGet_m_LastAddedEventPackage()
+	{
+		return (::AkCallbackManager_EventCallbackPackage**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28608);
+	}
+	static ::AkMonitoringCallbackInfo** StaticGet_AkMonitoringCallbackInfo()
+	{
+		return (::AkMonitoringCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28610);
+	}
+	static ::AkMIDIEventCallbackInfo** StaticGet_AkMIDIEventCallbackInfo()
+	{
+		return (::AkMIDIEventCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28618);
 	}
 	static ::AkCallbackManager_BGMCallbackPackage** StaticGet_ms_sourceChangeCallbackPkg()
 	{
-		return (::AkCallbackManager_BGMCallbackPackage**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x34A40);
+		return (::AkCallbackManager_BGMCallbackPackage**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28620);
 	}
-	static ::System::IntPtr* StaticGet_m_pNotifMem()
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_EventCallbackPackage*>** StaticGet_m_mapEventCallbacks()
 	{
-		return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0xCAD0);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::AkCallbackManager_EventCallbackPackage*>**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28628);
+	}
+	static ::AkMusicPlaylistCallbackInfo** StaticGet_AkMusicPlaylistCallbackInfo()
+	{
+		return (::AkMusicPlaylistCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28630);
+	}
+	static ::AkCallbackManager_MonitoringCallback** StaticGet_m_MonitoringCB()
+	{
+		return (::AkCallbackManager_MonitoringCallback**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28638);
+	}
+	static ::AkMusicSyncCallbackInfo** StaticGet_AkMusicSyncCallbackInfo()
+	{
+		return (::AkMusicSyncCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28640);
+	}
+	static ::AkEventCallbackInfo** StaticGet_AkEventCallbackInfo()
+	{
+		return (::AkEventCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28648);
+	}
+	static ::AkBankCallbackInfo** StaticGet_AkBankCallbackInfo()
+	{
+		return (::AkBankCallbackInfo**)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0x28650);
 	}
 	static ::System::Boolean* StaticGet__IsLoggingEnabled_k__BackingField()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0xCAD8);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0xB880);
+	}
+	static ::System::IntPtr* StaticGet_m_pNotifMem()
+	{
+		return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AkCallbackManager_TypeDefinitionIndex)->GetStaticField(0xB888);
 	}
 
 	static ::System::Void _cctor()

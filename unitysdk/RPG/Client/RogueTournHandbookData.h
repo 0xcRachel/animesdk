@@ -4,57 +4,63 @@
 #include "unitysdk/RPG/GameCore/RogueTournMode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_36F606812EC9EB69_3;
-class Class_1_85B276A0726A0A0D;
+class Class_1_36F606812EC9EB69_8;
+class Class_1_F1F83A16E5B8B459_4;
 namespace RPG::Client { class RogueTournHandbookBuffCollection; }
 namespace RPG::Client { class RogueTournHandbookEventDataItem; }
 namespace RPG::Client { class RogueTournHandbookFormulaCollection; }
+namespace RPG::Client { class RogueTournHandbookHexCollection; }
 namespace RPG::Client { class RogueTournHandbookMiracleCollection; }
 namespace RPG::Client { class RogueTournHandbookMiracleDataItem; }
+namespace RPG::Client { class RogueTournHandbookPersonaStyleCollection; }
+namespace RPG::Client { class RogueTournHandbookPersonaStyleGiftCollection; }
 namespace RPG::Client { class RogueTournHandbookRandomEventCollection; }
-namespace RPG::Client { class RogueTournHandbookTitanBlessCollection; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9E74D40)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GETMIRACLEDATABYMIRACLEID_OFFSET UNITYSDK_OFFSET(0x9E767E0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GETRANDOMEVENTDATABYNPCPROGRESS_OFFSET UNITYSDK_OFFSET(0x9E76730)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_ALLITEMSCOUNT_OFFSET UNITYSDK_OFFSET(0x9E76EA0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_ALLUNLOCKEDITEMSCOUNT_OFFSET UNITYSDK_OFFSET(0x9E77150)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_BUFFCOLLECTION_OFFSET UNITYSDK_OFFSET(0x9E76E40)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_FORMULACOLLECTION_OFFSET UNITYSDK_OFFSET(0x9E76E50)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_HEXCOLLECTION_OFFSET UNITYSDK_OFFSET(0x9E76E70)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_ISALLITEMSUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E77200)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_MIRACLECOLLECTION_OFFSET UNITYSDK_OFFSET(0x9E76E60)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_RANDOMEVENTCOLLECTION_OFFSET UNITYSDK_OFFSET(0x9E76E80)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_TITANBLESSCOLLECTION_OFFSET UNITYSDK_OFFSET(0x9E76E90)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_ISCANTAKEANYHANDBOOKREWARD_OFFSET UNITYSDK_OFFSET(0x9E768B0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCALL_OFFSET UNITYSDK_OFFSET(0x9E74E80)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCUPDATE_OFFSET UNITYSDK_OFFSET(0x9E764A0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__CHECKISANYQUESTCANTAKEBYCONSTNAME_OFFSET UNITYSDK_OFFSET(0x9E76950)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9E74AA0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITBUFFDATA_OFFSET UNITYSDK_OFFSET(0x9E74FE0)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITFORMULADATA_OFFSET UNITYSDK_OFFSET(0x9E75490)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITMIRACLEDATA_OFFSET UNITYSDK_OFFSET(0x9E75700)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITRANDOMEVENTDATA_OFFSET UNITYSDK_OFFSET(0x9E75B40)
-#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITTITANBLESSDATA_OFFSET UNITYSDK_OFFSET(0x9E75EF0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA39FB80)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GETMIRACLEDATABYMIRACLEID_OFFSET UNITYSDK_OFFSET(0xA3A16B0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GETRANDOMEVENTDATABYNPCPROGRESS_OFFSET UNITYSDK_OFFSET(0xA3A1600)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_ALLITEMSCOUNT_OFFSET UNITYSDK_OFFSET(0xA3A1B90)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_ALLUNLOCKEDITEMSCOUNT_OFFSET UNITYSDK_OFFSET(0xA3A1DC0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_BUFFCOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B20)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_FORMULACOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B30)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_HEXCOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B50)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_ISALLITEMSUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA3A1E60)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_MIRACLECOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B40)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_PERSONASTYLECOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B70)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_PERSONASTYLEGIFTCOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B80)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_RANDOMEVENTCOLLECTION_OFFSET UNITYSDK_OFFSET(0xA3A1B60)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_ISCANTAKEANYHANDBOOKREWARD_OFFSET UNITYSDK_OFFSET(0xA3A1760)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCALL_OFFSET UNITYSDK_OFFSET(0xA39FCC0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCUPDATE_OFFSET UNITYSDK_OFFSET(0xA3A1360)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__CHECKISANYQUESTCANTAKEBYCONSTNAME_OFFSET UNITYSDK_OFFSET(0xA3A1800)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA39F8B0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITBUFFDATA_OFFSET UNITYSDK_OFFSET(0xA39FE40)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITFORMULADATA_OFFSET UNITYSDK_OFFSET(0xA3A02D0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITHEXDATA_OFFSET UNITYSDK_OFFSET(0xA3A0860)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITMIRACLEDATA_OFFSET UNITYSDK_OFFSET(0xA3A0540)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITPERSONASTYLEDATA_OFFSET UNITYSDK_OFFSET(0xA3A0F50)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITPERSONASTYLEGIFTDATA_OFFSET UNITYSDK_OFFSET(0xA3A1140)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITRANDOMEVENTDATA_OFFSET UNITYSDK_OFFSET(0xA3A0AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookData_TypeDefinitionIndex = 53746;
+	inline static constexpr unsigned int RogueTournHandbookData_TypeDefinitionIndex = 55166;
 
 	class RogueTournHandbookData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MiracleID2HandbookID; // 0x10
-		::RPG::Client::RogueTournHandbookMiracleCollection* _HexCollection_k__BackingField; // 0x18
-		::RPG::Client::RogueTournHandbookRandomEventCollection* _RandomEventCollection_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::RogueTournHandbookData_NPCProgressPair, ::System::UInt32>* _NPCProgress2HandbookID; // 0x28
-		::RPG::Client::RogueTournHandbookMiracleCollection* _MiracleCollection_k__BackingField; // 0x30
-		::Il2CppArray<::System::String*>* _HandbookQuestConstStringArray; // 0x38
-		::RPG::Client::RogueTournHandbookBuffCollection* _BuffCollection_k__BackingField; // 0x40
-		::RPG::Client::RogueTournHandbookFormulaCollection* _FormulaCollection_k__BackingField; // 0x48
-		::RPG::Client::RogueTournHandbookTitanBlessCollection* _TitanBlessCollection_k__BackingField; // 0x50
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::RogueTournHandbookData_NPCProgressPair, ::System::UInt32>* _NPCProgress2HandbookID; // 0x10
+		::RPG::Client::RogueTournHandbookMiracleCollection* _MiracleCollection_k__BackingField; // 0x18
+		::RPG::Client::RogueTournHandbookHexCollection* _HexCollection_k__BackingField; // 0x20
+		::RPG::Client::RogueTournHandbookRandomEventCollection* _RandomEventCollection_k__BackingField; // 0x28
+		::Il2CppArray<::System::String*>* _HandbookQuestConstStringArray; // 0x30
+		::RPG::Client::RogueTournHandbookBuffCollection* _BuffCollection_k__BackingField; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _MiracleID2HandbookID; // 0x40
+		::RPG::Client::RogueTournHandbookPersonaStyleGiftCollection* _PersonaStyleGiftCollection_k__BackingField; // 0x48
+		::RPG::Client::RogueTournHandbookFormulaCollection* _FormulaCollection_k__BackingField; // 0x50
+		::RPG::Client::RogueTournHandbookPersonaStyleCollection* _PersonaStyleCollection_k__BackingField; // 0x58
 
 		::System::Void _ctor()
 		{
@@ -66,14 +72,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SyncAll(::Class_1_85B276A0726A0A0D* proto)
+		::System::Void SyncAll(::Class_1_F1F83A16E5B8B459_4* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_85B276A0726A0A0D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCALL_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F1F83A16E5B8B459_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCALL_OFFSET))(this, proto);
 		}
 
-		::System::Void SyncUpdate(::Class_1_36F606812EC9EB69_3* proto)
+		::System::Void SyncUpdate(::Class_1_36F606812EC9EB69_8* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_36F606812EC9EB69_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCUPDATE_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_36F606812EC9EB69_8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_SYNCUPDATE_OFFSET))(this, proto);
 		}
 
 		::RPG::Client::RogueTournHandbookEventDataItem* GetRandomEventDataByNPCProgress(::System::UInt32 npcID, ::System::UInt32 progress)
@@ -106,14 +112,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITMIRACLEDATA_OFFSET))(this, tournMode);
 		}
 
-		::System::Void _InitRandomEventData(::RPG::GameCore::RogueTournMode tournMode)
+		::System::Void _InitHexData(::RPG::GameCore::RogueTournMode tournMode)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITRANDOMEVENTDATA_OFFSET))(this, tournMode);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITHEXDATA_OFFSET))(this, tournMode);
 		}
 
-		::System::Void _InitTitanBlessData(::RPG::GameCore::RogueTournMode tournMode)
+		::System::Void _InitRandomEventData()
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITTITANBLESSDATA_OFFSET))(this, tournMode);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITRANDOMEVENTDATA_OFFSET))(this);
+		}
+
+		::System::Void _InitPersonaStyleData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITPERSONASTYLEDATA_OFFSET))(this);
+		}
+
+		::System::Void _InitPersonaStyleGiftData()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA__INITPERSONASTYLEGIFTDATA_OFFSET))(this);
 		}
 
 		::System::Boolean _CheckIsAnyQuestCanTakeByConstName(::System::String* constValueName)
@@ -136,9 +152,9 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueTournHandbookMiracleCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_MIRACLECOLLECTION_OFFSET))(this);
 		}
 
-		::RPG::Client::RogueTournHandbookMiracleCollection* get_HexCollection()
+		::RPG::Client::RogueTournHandbookHexCollection* get_HexCollection()
 		{
-			return ((::RPG::Client::RogueTournHandbookMiracleCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_HEXCOLLECTION_OFFSET))(this);
+			return ((::RPG::Client::RogueTournHandbookHexCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_HEXCOLLECTION_OFFSET))(this);
 		}
 
 		::RPG::Client::RogueTournHandbookRandomEventCollection* get_RandomEventCollection()
@@ -146,9 +162,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueTournHandbookRandomEventCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_RANDOMEVENTCOLLECTION_OFFSET))(this);
 		}
 
-		::RPG::Client::RogueTournHandbookTitanBlessCollection* get_TitanBlessCollection()
+		::RPG::Client::RogueTournHandbookPersonaStyleCollection* get_PersonaStyleCollection()
 		{
-			return ((::RPG::Client::RogueTournHandbookTitanBlessCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_TITANBLESSCOLLECTION_OFFSET))(this);
+			return ((::RPG::Client::RogueTournHandbookPersonaStyleCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_PERSONASTYLECOLLECTION_OFFSET))(this);
+		}
+
+		::RPG::Client::RogueTournHandbookPersonaStyleGiftCollection* get_PersonaStyleGiftCollection()
+		{
+			return ((::RPG::Client::RogueTournHandbookPersonaStyleGiftCollection*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKDATA_GET_PERSONASTYLEGIFTCOLLECTION_OFFSET))(this);
 		}
 
 		::System::UInt32 get_AllItemsCount()

@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F874F0)
-#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F877E0)
+#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1777C790)
+#define RPG_GAMECORE_STAGEINFINITEWAVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1777CA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInfiniteWaveConfigRow_TypeDefinitionIndex = 13783;
+	inline static constexpr unsigned int StageInfiniteWaveConfigRow_TypeDefinitionIndex = 13897;
 
 	class StageInfiniteWaveConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MonsterGroupIDList; // 0x10
-		::System::String* Ability; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::System::String* Ability; // 0x20
 		::System::Int32 MaxMonsterCount; // 0x28
-		::System::Int32 MaxTeammateCount; // 0x2C
-		::System::Boolean ClearPreviousAbility; // 0x30
+		::System::Boolean ClearPreviousAbility; // 0x2C
+		::System::Int32 MaxTeammateCount; // 0x30
 		::System::UInt32 InfiniteWaveID; // 0x34
 
 		::System::Void _ctor()

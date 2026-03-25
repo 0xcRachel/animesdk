@@ -10,36 +10,36 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGADDED_OFFSET UNITYSDK_OFFSET(0x15460450)
-#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGENDED_OFFSET UNITYSDK_OFFSET(0x154604A0)
-#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGFOUND_OFFSET UNITYSDK_OFFSET(0x15460430)
-#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGREJECTED_OFFSET UNITYSDK_OFFSET(0x15460470)
-#define INCONTROL_BINDINGLISTENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x154604C0)
+#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGADDED_OFFSET UNITYSDK_OFFSET(0x15B7A170)
+#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGENDED_OFFSET UNITYSDK_OFFSET(0x15B7A1C0)
+#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGFOUND_OFFSET UNITYSDK_OFFSET(0x15B7A150)
+#define INCONTROL_BINDINGLISTENOPTIONS_CALLONBINDINGREJECTED_OFFSET UNITYSDK_OFFSET(0x15B7A190)
+#define INCONTROL_BINDINGLISTENOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x15B7A1E0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int BindingListenOptions_TypeDefinitionIndex = 30501;
+	inline static constexpr unsigned int BindingListenOptions_TypeDefinitionIndex = 31376;
 
 	class BindingListenOptions : public ::System::Object
 	{
 	public:
-		::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>* OnBindingFound; // 0x10
+		::InControl::BindingSource* ReplaceBinding; // 0x10
 		::System::Action_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::InControl::BindingSourceRejectionType>* OnBindingRejected; // 0x18
-		::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>* OnBindingAdded; // 0x20
-		::System::Action_1<::InControl::PlayerAction*>* OnBindingEnded; // 0x28
-		::InControl::BindingSource* ReplaceBinding; // 0x30
-		::System::UInt32 MaxAllowedBindingsPerType; // 0x38
-		::System::UInt32 MaxAllowedBindings; // 0x3C
-		::System::Boolean IncludeControllers; // 0x40
-		::System::Boolean IncludeMouseScrollWheel; // 0x41
-		::System::Boolean UnsetDuplicateBindingsOnSet; // 0x42
-		::System::Boolean IncludeModifiersAsFirstClassKeys; // 0x43
-		::System::Boolean RejectRedundantBindings; // 0x44
-		::System::Boolean IncludeKeys; // 0x45
-		::System::Boolean IncludeMouseButtons; // 0x46
-		::System::Boolean IncludeNonStandardControls; // 0x47
-		::System::Boolean IncludeUnknownControllers; // 0x48
-		::System::Boolean AllowDuplicateBindingsPerSet; // 0x49
+		::System::Func_3<::InControl::PlayerAction*, ::InControl::BindingSource*, ::System::Boolean>* OnBindingFound; // 0x20
+		::System::Action_2<::InControl::PlayerAction*, ::InControl::BindingSource*>* OnBindingAdded; // 0x28
+		::System::Action_1<::InControl::PlayerAction*>* OnBindingEnded; // 0x30
+		::System::Boolean IncludeNonStandardControls; // 0x38
+		::System::Boolean IncludeMouseButtons; // 0x39
+		::System::Boolean IncludeModifiersAsFirstClassKeys; // 0x3A
+		::System::Boolean IncludeKeys; // 0x3B
+		::System::Boolean RejectRedundantBindings; // 0x3C
+		::System::Boolean IncludeMouseScrollWheel; // 0x3D
+		::System::UInt32 MaxAllowedBindingsPerType; // 0x40
+		::System::UInt32 MaxAllowedBindings; // 0x44
+		::System::Boolean UnsetDuplicateBindingsOnSet; // 0x48
+		::System::Boolean IncludeUnknownControllers; // 0x49
+		::System::Boolean IncludeControllers; // 0x4A
+		::System::Boolean AllowDuplicateBindingsPerSet; // 0x4B
 
 		::System::Void _ctor()
 		{

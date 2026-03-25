@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B71940)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS5_0__GOTONEXTSTREET_B__0_OFFSET UNITYSDK_OFFSET(0x9B75870)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0436A0)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLEBOARD___C__DISPLAYCLASS5_0__GOTONEXTSTREET_B__0_OFFSET UNITYSDK_OFFSET(0xA047620)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c__DisplayClass5_0_TypeDefinitionIndex = 61691;
+	inline static constexpr unsigned int ChimeraBattlePuzzleBoard___c__DisplayClass5_0_TypeDefinitionIndex = 63878;
 
 	class ChimeraBattlePuzzleBoard___c__DisplayClass5_0 : public ::System::Object
 	{

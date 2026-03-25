@@ -4,7 +4,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeVersionInfo_TypeDefinitionIndex = 30581;
+	inline static constexpr unsigned int NativeVersionInfo_TypeDefinitionIndex = 31456;
 
 	struct alignas(4) NativeVersionInfo
 	{

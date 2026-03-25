@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int EndSessionOptionsInternal_TypeDefinitionIndex = 35770;
+	inline static constexpr unsigned int EndSessionOptionsInternal_TypeDefinitionIndex = 36704;
 
 	struct alignas(4) EndSessionOptionsInternal
 	{

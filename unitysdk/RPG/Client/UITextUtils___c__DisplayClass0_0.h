@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_UITEXTUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA209CD0)
-#define RPG_CLIENT_UITEXTUTILS___C__DISPLAYCLASS0_0__WRAP_B__0_OFFSET UNITYSDK_OFFSET(0xA20C310)
+#define RPG_CLIENT_UITEXTUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA743B20)
+#define RPG_CLIENT_UITEXTUTILS___C__DISPLAYCLASS0_0__WRAP_B__0_OFFSET UNITYSDK_OFFSET(0xA745ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UITextUtils___c__DisplayClass0_0_TypeDefinitionIndex = 58341;
+	inline static constexpr unsigned int UITextUtils___c__DisplayClass0_0_TypeDefinitionIndex = 59994;
 
 	class UITextUtils___c__DisplayClass0_0 : public ::System::Object
 	{

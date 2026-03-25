@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MAP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x95FBE40)
-#define RPG_CLIENT_MAP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x95FBE70)
-#define RPG_CLIENT_MAP___C__LOADSTAGEONSTEP2_B__19_0_OFFSET UNITYSDK_OFFSET(0x95FBE80)
+#define RPG_CLIENT_MAP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9AE3E80)
+#define RPG_CLIENT_MAP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9AE3EB0)
+#define RPG_CLIENT_MAP___C__LOADSTAGEONSTEP2_B__19_0_OFFSET UNITYSDK_OFFSET(0x9AE3EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Map___c_TypeDefinitionIndex = 48244;
+	inline static constexpr unsigned int Map___c_TypeDefinitionIndex = 49336;
 
 	class Map___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__19_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Map___c_TypeDefinitionIndex)->GetStaticField(0x27C80);
-		}
 		static ::RPG::Client::Map___c** StaticGet___9()
 		{
-			return (::RPG::Client::Map___c**)Il2CppClass::FromTypeDefinitionIndex(Map___c_TypeDefinitionIndex)->GetStaticField(0x27C88);
+			return (::RPG::Client::Map___c**)Il2CppClass::FromTypeDefinitionIndex(Map___c_TypeDefinitionIndex)->GetStaticField(0x3B520);
+		}
+		static ::System::Action** StaticGet___9__19_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Map___c_TypeDefinitionIndex)->GetStaticField(0x3B528);
 		}
 
 		static ::System::Void _cctor()

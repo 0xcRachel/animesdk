@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_173.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_176.h"
 
-class Class_1_F9FBCC956DFCF137_13;
+class Class_1_F9FBCC956DFCF137_14;
 class Class_1_FD611945730E269E;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_FDB2D140BF0822AD_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x109C7E40)
-#define CLASS_2_FDB2D140BF0822AD__CTOR_OFFSET UNITYSDK_OFFSET(0x109C7EE0)
+#define CLASS_2_FDB2D140BF0822AD_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x8AC3A00)
+#define CLASS_2_FDB2D140BF0822AD__CTOR_OFFSET UNITYSDK_OFFSET(0x8AC3AA0)
 
-inline static constexpr unsigned int Class_2_FDB2D140BF0822AD_TypeDefinitionIndex = 61240;
+inline static constexpr unsigned int Class_2_FDB2D140BF0822AD_TypeDefinitionIndex = 63239;
 
-class Class_2_FDB2D140BF0822AD : public ::Class_1_43BD383C98B4C0C5_173
+class Class_2_FDB2D140BF0822AD : public ::Class_1_43BD383C98B4C0C5_176
 {
 public:
 	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_2_0; // 0x10
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_FDB2D140BF0822AD__CTOR_OFFSET))(this);
 	}
 
-	::Class_1_FD611945730E269E* Method_2_98FE8344617B99D4(::Class_1_F9FBCC956DFCF137_13* a1)
+	::Class_1_FD611945730E269E* Method_2_98FE8344617B99D4(::Class_1_F9FBCC956DFCF137_14* a1)
 	{
-		return ((::Class_1_FD611945730E269E*(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_13*))((::PBYTE)hIl2Cpp + CLASS_2_FDB2D140BF0822AD_METHOD_2_98FE8344617B99D4_OFFSET))(this, a1);
+		return ((::Class_1_FD611945730E269E*(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_14*))((::PBYTE)hIl2Cpp + CLASS_2_FDB2D140BF0822AD_METHOD_2_98FE8344617B99D4_OFFSET))(this, a1);
 	}
 };

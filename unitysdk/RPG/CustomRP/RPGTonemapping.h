@@ -6,11 +6,11 @@ namespace RPG::CustomRP { class ToneMappingMethodParameter; }
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGTONEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x163CF5B0)
+#define RPG_CUSTOMRP_RPGTONEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16ADE360)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGTonemapping_TypeDefinitionIndex = 28580;
+	inline static constexpr unsigned int RPGTonemapping_TypeDefinitionIndex = 29455;
 
 	class RPGTonemapping : public ::RPG::CustomRP::CustomVolumeComponent
 	{

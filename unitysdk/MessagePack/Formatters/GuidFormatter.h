@@ -8,21 +8,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1562E990)
-#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1562DC60)
-#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1562F740)
-#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1562DC50)
+#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D45C40)
+#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D44F10)
+#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D469F0)
+#define MESSAGEPACK_FORMATTERS_GUIDFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D44F00)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GuidFormatter_TypeDefinitionIndex = 9811;
+	inline static constexpr unsigned int GuidFormatter_TypeDefinitionIndex = 9343;
 
 	class GuidFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Guid>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(GuidFormatter_TypeDefinitionIndex)->GetStaticField(0x23C80);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(GuidFormatter_TypeDefinitionIndex)->GetStaticField(0x19590);
 		}
 
 		::System::Void _ctor()

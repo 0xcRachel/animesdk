@@ -8,22 +8,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTEVENTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DEBEB0)
-#define RPG_GAMECORE_RESTAURANTEVENTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DEC1A0)
+#define RPG_GAMECORE_RESTAURANTEVENTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175B9040)
+#define RPG_GAMECORE_RESTAURANTEVENTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175B9330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantEventRewardRow_TypeDefinitionIndex = 10514;
+	inline static constexpr unsigned int RestaurantEventRewardRow_TypeDefinitionIndex = 10582;
 
 	class RestaurantEventRewardRow : public ::System::Object
 	{
 	public:
 		::System::String* BuffName; // 0x10
 		::Il2CppArray<::System::Single>* DynamicValues; // 0x18
-		::RPG::GameCore::RestaurantSuperEventType SuperEventType; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::GameCore::RestaurantNormalEventType EventType; // 0x28
-		::System::UInt32 RewardID; // 0x2C
+		::RPG::GameCore::RestaurantNormalEventType EventType; // 0x20
+		::System::UInt32 RewardID; // 0x24
+		::RPG::GameCore::RestaurantSuperEventType SuperEventType; // 0x28
+		::System::UInt32 ID; // 0x2C
 		::RPG::Client::TextID EventDsc; // 0x30
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ENTITYFORMATIONSORTDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD77D0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_ENTITYFORMATIONSORTDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0x88D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_EntityFormationSortData_TypeDefinitionIndex = 45452;
+	inline static constexpr unsigned int TeamFormationComponent_EntityFormationSortData_TypeDefinitionIndex = 46515;
 
 	struct alignas(8) TeamFormationComponent_EntityFormationSortData
 	{

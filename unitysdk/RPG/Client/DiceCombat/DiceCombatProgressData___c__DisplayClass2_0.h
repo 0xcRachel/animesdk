@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DiceCombatCampaignConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x902FAF0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET UNITYSDK_OFFSET(0x9030340)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x948C870)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET UNITYSDK_OFFSET(0x948D0F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 60139;
+	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 61920;
 
 	class DiceCombatProgressData___c__DisplayClass2_0 : public ::System::Object
 	{

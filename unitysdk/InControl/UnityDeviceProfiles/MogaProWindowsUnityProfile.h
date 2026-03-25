@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1558AAE0)
-#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROWINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1558C110)
+#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROWINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15CA48A0)
+#define INCONTROL_UNITYDEVICEPROFILES_MOGAPROWINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CA5ED0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int MogaProWindowsUnityProfile_TypeDefinitionIndex = 30789;
+	inline static constexpr unsigned int MogaProWindowsUnityProfile_TypeDefinitionIndex = 31664;
 
 	class MogaProWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

@@ -6,24 +6,24 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_GET_ROLEADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0x93E0850)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x93E07E0)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x93E05F0)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x93E0450)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_SET_ROLEADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0x93E0860)
-#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x93E0870)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_GET_ROLEADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0x989DEE0)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x989DE70)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x989DC80)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x989DAE0)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR_SET_ROLEADDEDORREMOVED_OFFSET UNITYSDK_OFFSET(0x989DEF0)
+#define RPG_CLIENT_GRIDFIGHTROLECHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x989DF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleChangeCollector_TypeDefinitionIndex = 51324;
+	inline static constexpr unsigned int GridFightRoleChangeCollector_TypeDefinitionIndex = 52457;
 
 	class GridFightRoleChangeCollector : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* PosUpdatedRoleUIDs; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* TraitUpdatedRoleUIDs; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* EquipUpdatedRoleUIDs; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* RoleUpdateUIDs; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* RoleUpdateUIDs; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* EquipUpdatedRoleUIDs; // 0x28
 		::System::Boolean _RoleAddedOrRemoved_k__BackingField; // 0x30
 
 		::System::Void _ctor()

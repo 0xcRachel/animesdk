@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x82DB460)
+#define EPIC_ONLINESERVICES_CONNECT_DELETEDEVICEIDOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x862BA30)
 
 namespace Epic::OnlineServices::Connect
 {
-	inline static constexpr unsigned int DeleteDeviceIdOptions_TypeDefinitionIndex = 35524;
+	inline static constexpr unsigned int DeleteDeviceIdOptions_TypeDefinitionIndex = 36458;
 
 	class DeleteDeviceIdOptions : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VolumetricLightType_TypeDefinitionIndex = 4057;
+	inline static constexpr unsigned int VolumetricLightType_TypeDefinitionIndex = 4079;
 
 	enum class VolumetricLightType : ::System::Int32
 	{

@@ -5,19 +5,19 @@
 
 namespace RPG::Client { class RspHandler; }
 
-#define RPG_CLIENT_NOTIFYMANAGER_RSPHANDLERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x99F8C80)
+#define RPG_CLIENT_NOTIFYMANAGER_RSPHANDLERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9E99CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_RspHandlerInfo_TypeDefinitionIndex = 46859;
+	inline static constexpr unsigned int NotifyManager_RspHandlerInfo_TypeDefinitionIndex = 47939;
 
 	class NotifyManager_RspHandlerInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::RspHandler* Handler; // 0x10
-		::System::UInt16 CmdID; // 0x18
-		::System::Boolean Add; // 0x1A
-		::RPG::Client::NotifyGroup Group; // 0x1C
+		::RPG::Client::NotifyGroup Group; // 0x18
+		::System::Boolean Add; // 0x1C
+		::System::UInt16 CmdID; // 0x1E
 
 		::System::Void _ctor(::RPG::Client::NotifyGroup group, ::System::UInt16 cmdID, ::RPG::Client::RspHandler* handler, ::System::Boolean add)
 		{

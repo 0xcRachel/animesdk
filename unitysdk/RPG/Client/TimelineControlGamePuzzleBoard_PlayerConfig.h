@@ -8,7 +8,7 @@ namespace RPG::Client { class TimelineControlGamePlayerConfigAsset; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimelineControlGamePuzzleBoard_PlayerConfig_TypeDefinitionIndex = 47866;
+	inline static constexpr unsigned int TimelineControlGamePuzzleBoard_PlayerConfig_TypeDefinitionIndex = 48948;
 
 	struct alignas(8) TimelineControlGamePuzzleBoard_PlayerConfig
 	{

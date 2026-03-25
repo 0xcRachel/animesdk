@@ -8,18 +8,18 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachSkillTypeDisable___O_TypeDefinitionIndex = 21287;
+	inline static constexpr unsigned int AttachSkillTypeDisable___O_TypeDefinitionIndex = 21847;
 
 	class AttachSkillTypeDisable___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ControlSkillType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ControlSkillType>**)Il2CppClass::FromTypeDefinitionIndex(AttachSkillTypeDisable___O_TypeDefinitionIndex)->GetStaticField(0x234D0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ControlSkillType>**)Il2CppClass::FromTypeDefinitionIndex(AttachSkillTypeDisable___O_TypeDefinitionIndex)->GetStaticField(0x16010);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(AttachSkillTypeDisable___O_TypeDefinitionIndex)->GetStaticField(0x234D8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillType>**)Il2CppClass::FromTypeDefinitionIndex(AttachSkillTypeDisable___O_TypeDefinitionIndex)->GetStaticField(0x16018);
 		}
 	};
 }

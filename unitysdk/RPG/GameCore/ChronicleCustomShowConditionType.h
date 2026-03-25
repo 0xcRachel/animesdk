@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleCustomShowConditionType_TypeDefinitionIndex = 16981;
+	inline static constexpr unsigned int ChronicleCustomShowConditionType_TypeDefinitionIndex = 17386;
 
 	enum class ChronicleCustomShowConditionType : ::System::Int32
 	{

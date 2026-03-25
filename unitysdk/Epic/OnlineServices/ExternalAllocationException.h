@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define EPIC_ONLINESERVICES_EXTERNALALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x830F790)
+#define EPIC_ONLINESERVICES_EXTERNALALLOCATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x865BBD0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int ExternalAllocationException_TypeDefinitionIndex = 34303;
+	inline static constexpr unsigned int ExternalAllocationException_TypeDefinitionIndex = 35237;
 
 	class ExternalAllocationException : public ::Epic::OnlineServices::AllocationException
 	{

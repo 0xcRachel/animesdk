@@ -7,12 +7,12 @@ namespace RPG::GameCore { class StageCaptureAliasData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGECAPTUREALIASLOOKUP_METHOD_2_43E4EECF562C8920_OFFSET UNITYSDK_OFFSET(0x16F84970)
-#define RPG_GAMECORE_STAGECAPTUREALIASLOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16F84A40)
+#define RPG_GAMECORE_STAGECAPTUREALIASLOOKUP_METHOD_2_43E4EECF562C8920_OFFSET UNITYSDK_OFFSET(0x17778B00)
+#define RPG_GAMECORE_STAGECAPTUREALIASLOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17778BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageCaptureAliasLookup_TypeDefinitionIndex = 17172;
+	inline static constexpr unsigned int StageCaptureAliasLookup_TypeDefinitionIndex = 17577;
 
 	class StageCaptureAliasLookup : public ::RPG::GameCore::JsonConfig
 	{

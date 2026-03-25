@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_RTCAUDIO_GETAUDIOINPUTDEVICESCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x83BE690)
+#define EPIC_ONLINESERVICES_RTCAUDIO_GETAUDIOINPUTDEVICESCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x86FD910)
 
 namespace Epic::OnlineServices::RTCAudio
 {
-	inline static constexpr unsigned int GetAudioInputDevicesCountOptions_TypeDefinitionIndex = 34687;
+	inline static constexpr unsigned int GetAudioInputDevicesCountOptions_TypeDefinitionIndex = 35621;
 
 	class GetAudioInputDevicesCountOptions : public ::System::Object
 	{

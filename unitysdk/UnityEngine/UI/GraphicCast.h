@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_GRAPHICCAST_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA7367D0)
-#define UNITYENGINE_UI_GRAPHICCAST__CTOR_OFFSET UNITYSDK_OFFSET(0xA7367F0)
+#define UNITYENGINE_UI_GRAPHICCAST_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAC3FCD0)
+#define UNITYENGINE_UI_GRAPHICCAST__CTOR_OFFSET UNITYSDK_OFFSET(0xAC3FCF0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicCast_TypeDefinitionIndex = 37647;
+	inline static constexpr unsigned int GraphicCast_TypeDefinitionIndex = 38611;
 
 	class GraphicCast : public ::UnityEngine::UI::Graphic
 	{

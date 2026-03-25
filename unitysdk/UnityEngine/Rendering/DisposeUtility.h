@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_RENDERING_DISPOSEUTILITY_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x203C540)
-#define UNITYENGINE_RENDERING_DISPOSEUTILITY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x203C480)
+#define UNITYENGINE_RENDERING_DISPOSEUTILITY_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x21126B0)
+#define UNITYENGINE_RENDERING_DISPOSEUTILITY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x21125F0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DisposeUtility_TypeDefinitionIndex = 27115;
+	inline static constexpr unsigned int DisposeUtility_TypeDefinitionIndex = 27851;
 
 	struct alignas(1) DisposeUtility
 	{

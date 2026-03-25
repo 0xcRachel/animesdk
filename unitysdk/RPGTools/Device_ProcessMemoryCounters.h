@@ -4,7 +4,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int Device_ProcessMemoryCounters_TypeDefinitionIndex = 34208;
+	inline static constexpr unsigned int Device_ProcessMemoryCounters_TypeDefinitionIndex = 35145;
 
 	struct alignas(8) Device_ProcessMemoryCounters
 	{

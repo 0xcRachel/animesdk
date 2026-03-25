@@ -6,19 +6,19 @@
 class Class_1_C3FD3943CDE7D4EA;
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA4AC6B0)
-#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA4AC660)
-#define RPG_GAMECORE_LEVELSTOREDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4AC650)
+#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA99D2E0)
+#define RPG_GAMECORE_LEVELSTOREDAMAGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA99D290)
+#define RPG_GAMECORE_LEVELSTOREDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xA99D280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelStoreDamage_TypeDefinitionIndex = 44578;
+	inline static constexpr unsigned int LevelStoreDamage_TypeDefinitionIndex = 45639;
 
 	class LevelStoreDamage : public ::System::Object
 	{
 	public:
-		::Class_1_C3FD3943CDE7D4EA* StoreData; // 0x10
-		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::GameEntity* Target; // 0x10
+		::Class_1_C3FD3943CDE7D4EA* StoreData; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* pTarget, ::Class_1_C3FD3943CDE7D4EA* pStoreData)
 		{

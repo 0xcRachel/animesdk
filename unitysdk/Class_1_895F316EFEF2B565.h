@@ -7,10 +7,10 @@ class Class_2_49CAB3DE74280C58;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_895F316EFEF2B565_METHOD_1_9EC05CD8054C8C05_OFFSET UNITYSDK_OFFSET(0x103002F0)
-#define CLASS_1_895F316EFEF2B565__CTOR_OFFSET UNITYSDK_OFFSET(0x103003B0)
+#define CLASS_1_895F316EFEF2B565_METHOD_1_9EC05CD8054C8C05_OFFSET UNITYSDK_OFFSET(0x8AE2440)
+#define CLASS_1_895F316EFEF2B565__CTOR_OFFSET UNITYSDK_OFFSET(0x8AE2500)
 
-inline static constexpr unsigned int Class_1_895F316EFEF2B565_TypeDefinitionIndex = 61047;
+inline static constexpr unsigned int Class_1_895F316EFEF2B565_TypeDefinitionIndex = 63046;
 
 class Class_1_895F316EFEF2B565 : public ::System::Object
 {

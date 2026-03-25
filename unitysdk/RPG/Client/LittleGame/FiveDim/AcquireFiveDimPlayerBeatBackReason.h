@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int AcquireFiveDimPlayerBeatBackReason_TypeDefinitionIndex = 32541;
+	inline static constexpr unsigned int AcquireFiveDimPlayerBeatBackReason_TypeDefinitionIndex = 33463;
 
 	enum class AcquireFiveDimPlayerBeatBackReason : ::System::Int32
 	{
@@ -14,5 +14,7 @@ namespace RPG::Client::LittleGame::FiveDim
 		GarbageBin = 4,
 		Missile = 5,
 		SimpleProjectile = 6,
+		EvilSmile = 7,
+		Grenadier = 8,
 	};
 }

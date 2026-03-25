@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class AvatarData; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x9239660)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x923AF40)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x923AE40)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0x923AF30)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x923AE10)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x96ADCC0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x96ADDD0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0x96ADD60)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0x96ADDC0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x96ADC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 50916;
+	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 52051;
 
 	class FateStatisticsMasterInfoItem : public ::System::Object
 	{
 	public:
-		::RPG::Client::AvatarData* _AvatarData; // 0x10
-		::System::UInt32 _Ranking; // 0x18
-		::System::Boolean _IsPlayer; // 0x1C
-		::System::UInt32 _AvatarRealID; // 0x20
+		::RPG::Client::IAvatarInfoProvider* _AvatarData; // 0x10
+		::System::UInt32 _AvatarRealID; // 0x18
+		::System::UInt32 _Ranking; // 0x1C
+		::System::Boolean _IsPlayer; // 0x20
 
 		::System::Void _ctor(::System::UInt32 avatarRealID, ::System::UInt32 ranking, ::System::Boolean isPlayer)
 		{

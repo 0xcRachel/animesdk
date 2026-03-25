@@ -4,12 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x156ABD00)
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x156ABCF0)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA00B0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int NotNullIfNotNullAttribute_TypeDefinitionIndex = 9887;
+	inline static constexpr unsigned int NotNullIfNotNullAttribute_TypeDefinitionIndex = 9382;
 
 	class NotNullIfNotNullAttribute : public ::System::Attribute
 	{
@@ -19,11 +18,6 @@ namespace System::Diagnostics::CodeAnalysis
 		::System::Void _ctor(::System::String* parameterName)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE__CTOR_OFFSET))(this, parameterName);
-		}
-
-		::System::String* get_ParameterName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE_GET_PARAMETERNAME_OFFSET))(this);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityRotateAxis_TypeDefinitionIndex = 16817;
+	inline static constexpr unsigned int FiveDimEntityRotateAxis_TypeDefinitionIndex = 17212;
 
 	enum class FiveDimEntityRotateAxis : ::System::Int32
 	{

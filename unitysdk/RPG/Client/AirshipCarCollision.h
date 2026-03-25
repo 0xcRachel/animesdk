@@ -10,31 +10,31 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_AWAKE_OFFSET UNITYSDK_OFFSET(0x8C52530)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_ISIGNOREENTITY_OFFSET UNITYSDK_OFFSET(0x8C51B60)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x8C524D0)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x8C52470)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x8C51EB0)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_REGISTERIGNOREENTITY_OFFSET UNITYSDK_OFFSET(0x8C517D0)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_RESET_OFFSET UNITYSDK_OFFSET(0x8C52580)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION_UNREGISTERIGNOREENTITY_OFFSET UNITYSDK_OFFSET(0x8C51900)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C526B0)
-#define RPG_CLIENT_AIRSHIPCARCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x8C526A0)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_AWAKE_OFFSET UNITYSDK_OFFSET(0x90A3840)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_ISIGNOREENTITY_OFFSET UNITYSDK_OFFSET(0x90A2E80)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x90A37E0)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x90A3780)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x90A31D0)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_REGISTERIGNOREENTITY_OFFSET UNITYSDK_OFFSET(0x90A2AF0)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_RESET_OFFSET UNITYSDK_OFFSET(0x90A3890)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION_UNREGISTERIGNOREENTITY_OFFSET UNITYSDK_OFFSET(0x90A2C20)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION__CCTOR_OFFSET UNITYSDK_OFFSET(0x90A39C0)
+#define RPG_CLIENT_AIRSHIPCARCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x90A39B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipCarCollision_TypeDefinitionIndex = 47347;
+	inline static constexpr unsigned int AirshipCarCollision_TypeDefinitionIndex = 48428;
 
 	class AirshipCarCollision : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::UInt32>** StaticGet_AdvertBoardNPC()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AirshipCarCollision_TypeDefinitionIndex)->GetStaticField(0x2C650);
-		}
 		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>** StaticGet_IgnoreCollisionEntities()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>**)Il2CppClass::FromTypeDefinitionIndex(AirshipCarCollision_TypeDefinitionIndex)->GetStaticField(0x2C658);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::RPG::GameCore::GameEntity*>*>**)Il2CppClass::FromTypeDefinitionIndex(AirshipCarCollision_TypeDefinitionIndex)->GetStaticField(0x37FC0);
+		}
+		static ::Il2CppArray<::System::UInt32>** StaticGet_AdvertBoardNPC()
+		{
+			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AirshipCarCollision_TypeDefinitionIndex)->GetStaticField(0x37FC8);
 		}
 		// static const ::System::Int32 HitPlayerQuestID = 0x3E4D3E; // 0x0
 		// static const ::System::Int32 HitAdvertBoardQuestID = 0x3E4D3F; // 0x0

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowFiveDimBillboardChestIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FBA4EBCE9C9BC8AD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10EB3510)
-#define CLASS_3_FBA4EBCE9C9BC8AD__CTOR_OFFSET UNITYSDK_OFFSET(0x10EB34E0)
+#define CLASS_3_FBA4EBCE9C9BC8AD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10511D80)
+#define CLASS_3_FBA4EBCE9C9BC8AD__CTOR_OFFSET UNITYSDK_OFFSET(0x10511D50)
 
-inline static constexpr unsigned int Class_3_FBA4EBCE9C9BC8AD_TypeDefinitionIndex = 41751;
+inline static constexpr unsigned int Class_3_FBA4EBCE9C9BC8AD_TypeDefinitionIndex = 42799;
 
 class Class_3_FBA4EBCE9C9BC8AD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowFiveDimBillboardChestIcon*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_DisplacementType_TypeDefinitionIndex = 58582;
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_DisplacementType_TypeDefinitionIndex = 60302;
 
 	enum class Effect_ElectricChainV2Behavior_DisplacementType : ::System::Int32
 	{

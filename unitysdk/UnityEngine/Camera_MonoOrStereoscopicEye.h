@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Camera_MonoOrStereoscopicEye_TypeDefinitionIndex = 3846;
+	inline static constexpr unsigned int Camera_MonoOrStereoscopicEye_TypeDefinitionIndex = 3855;
 
 	enum class Camera_MonoOrStereoscopicEye : ::System::Int32
 	{

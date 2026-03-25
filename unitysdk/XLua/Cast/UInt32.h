@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/XLua/Cast/Any_1.h"
 
-#define XLUA_CAST_UINT32__CTOR_OFFSET UNITYSDK_OFFSET(0xF762380)
+#define XLUA_CAST_UINT32__CTOR_OFFSET UNITYSDK_OFFSET(0xFE8A1D0)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int UInt32_TypeDefinitionIndex = 39553;
+	inline static constexpr unsigned int UInt32_TypeDefinitionIndex = 40569;
 
 	class UInt32 : public ::XLua::Cast::Any_1<::System::UInt32>
 	{

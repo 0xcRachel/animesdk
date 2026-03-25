@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessSelectTargetStrategy_TypeDefinitionIndex = 21446;
+	inline static constexpr unsigned int ChessSelectTargetStrategy_TypeDefinitionIndex = 22006;
 
 	enum class ChessSelectTargetStrategy : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/ArrayList.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x17DB6930)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPELEMENTINFOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x185E57B0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeMapElementInfoList_TypeDefinitionIndex = 2029;
+	inline static constexpr unsigned int XmlTypeMapElementInfoList_TypeDefinitionIndex = 2034;
 
 	class XmlTypeMapElementInfoList : public ::System::Collections::ArrayList
 	{

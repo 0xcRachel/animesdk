@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CONSTRAINTBONES__CTOR_OFFSET UNITYSDK_OFFSET(0x996D660)
+#define CONSTRAINTBONES__CTOR_OFFSET UNITYSDK_OFFSET(0xA6FFB60)
 
-inline static constexpr unsigned int ConstraintBones_TypeDefinitionIndex = 37340;
+inline static constexpr unsigned int ConstraintBones_TypeDefinitionIndex = 38304;
 
 class ConstraintBones : public ::System::Object
 {

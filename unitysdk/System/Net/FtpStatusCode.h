@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int FtpStatusCode_TypeDefinitionIndex = 2714;
+	inline static constexpr unsigned int FtpStatusCode_TypeDefinitionIndex = 2719;
 
 	enum class FtpStatusCode : ::System::Int32
 	{

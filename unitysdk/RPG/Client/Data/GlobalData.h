@@ -7,25 +7,25 @@ class Class_1_F19AB08624168191;
 namespace RPG::Client::Data { class DataDispatcher; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_DATA_GLOBALDATA_GETGLOBALDATAMODEL_OFFSET UNITYSDK_OFFSET(0x8FF77E0)
-#define RPG_CLIENT_DATA_GLOBALDATA_REGISTERGLOBAL_OFFSET UNITYSDK_OFFSET(0x8FF7380)
-#define RPG_CLIENT_DATA_GLOBALDATA_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x8FF75E0)
-#define RPG_CLIENT_DATA_GLOBALDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x8FF79F0)
+#define RPG_CLIENT_DATA_GLOBALDATA_GETGLOBALDATAMODEL_OFFSET UNITYSDK_OFFSET(0x9453070)
+#define RPG_CLIENT_DATA_GLOBALDATA_REGISTERGLOBAL_OFFSET UNITYSDK_OFFSET(0x9452C10)
+#define RPG_CLIENT_DATA_GLOBALDATA_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x9452E70)
+#define RPG_CLIENT_DATA_GLOBALDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9453280)
 
 namespace RPG::Client::Data
 {
-	inline static constexpr unsigned int GlobalData_TypeDefinitionIndex = 58469;
+	inline static constexpr unsigned int GlobalData_TypeDefinitionIndex = 60189;
 
 	class GlobalData : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::Data::NameID, ::Class_1_F19AB08624168191*>** StaticGet_globalModels()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Data::NameID, ::Class_1_F19AB08624168191*>**)Il2CppClass::FromTypeDefinitionIndex(GlobalData_TypeDefinitionIndex)->GetStaticField(0x437F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Data::NameID, ::Class_1_F19AB08624168191*>**)Il2CppClass::FromTypeDefinitionIndex(GlobalData_TypeDefinitionIndex)->GetStaticField(0x1F6B0);
 		}
 		static ::RPG::Client::Data::DataDispatcher** StaticGet_Dispatcher()
 		{
-			return (::RPG::Client::Data::DataDispatcher**)Il2CppClass::FromTypeDefinitionIndex(GlobalData_TypeDefinitionIndex)->GetStaticField(0x437F8);
+			return (::RPG::Client::Data::DataDispatcher**)Il2CppClass::FromTypeDefinitionIndex(GlobalData_TypeDefinitionIndex)->GetStaticField(0x1F6B8);
 		}
 
 		static ::System::Void _cctor()

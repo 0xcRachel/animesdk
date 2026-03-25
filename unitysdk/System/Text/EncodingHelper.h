@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODINGHELPER_GETDEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x15B5DA40)
-#define SYSTEM_TEXT_ENCODINGHELPER_GET_UTF8UNMARKED_OFFSET UNITYSDK_OFFSET(0x15B5F4C0)
-#define SYSTEM_TEXT_ENCODINGHELPER_INTERNALCODEPAGE_OFFSET UNITYSDK_OFFSET(0x15B5F6F0)
-#define SYSTEM_TEXT_ENCODINGHELPER_INVOKEI18N_OFFSET UNITYSDK_OFFSET(0x15B5B930)
-#define SYSTEM_TEXT_ENCODINGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B5F700)
+#define SYSTEM_TEXT_ENCODINGHELPER_GETDEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x16227840)
+#define SYSTEM_TEXT_ENCODINGHELPER_GET_UTF8UNMARKED_OFFSET UNITYSDK_OFFSET(0x162292C0)
+#define SYSTEM_TEXT_ENCODINGHELPER_INTERNALCODEPAGE_OFFSET UNITYSDK_OFFSET(0x16229530)
+#define SYSTEM_TEXT_ENCODINGHELPER_INVOKEI18N_OFFSET UNITYSDK_OFFSET(0x16225760)
+#define SYSTEM_TEXT_ENCODINGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16229540)
 
 namespace System::Text
 {
@@ -19,21 +19,21 @@ namespace System::Text
 	class EncodingHelper : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_lockobj()
+		static ::System::Text::Encoding** StaticGet_utf8EncodingWithoutMarkers()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x100B0);
+			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0xE680);
 		}
 		static ::System::Reflection::Assembly** StaticGet_i18nAssembly()
 		{
-			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x100B8);
+			return (::System::Reflection::Assembly**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0xE688);
 		}
-		static ::System::Text::Encoding** StaticGet_utf8EncodingWithoutMarkers()
+		static ::System::Object** StaticGet_lockobj()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x100C0);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0xE690);
 		}
 		static ::System::Boolean* StaticGet_i18nDisabled()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x4550);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EncodingHelper_TypeDefinitionIndex)->GetStaticField(0x5240);
 		}
 
 		static ::System::Void _cctor()

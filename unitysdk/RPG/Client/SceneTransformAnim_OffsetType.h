@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneTransformAnim_OffsetType_TypeDefinitionIndex = 56527;
+	inline static constexpr unsigned int SceneTransformAnim_OffsetType_TypeDefinitionIndex = 58108;
 
 	enum class SceneTransformAnim_OffsetType : ::System::Int32
 	{

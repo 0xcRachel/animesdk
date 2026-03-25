@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IsometricViewPuzzleEvent_TypeDefinitionIndex = 47654;
+	inline static constexpr unsigned int IsometricViewPuzzleEvent_TypeDefinitionIndex = 48735;
 
 	enum class IsometricViewPuzzleEvent : ::System::UInt32
 	{

@@ -6,12 +6,12 @@ namespace System::Linq::Expressions::Interpreter { class InstructionList; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x17CB9EF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x17CB9EE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x184D11E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x184D11D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ByRefUpdater_TypeDefinitionIndex = 3463;
+	inline static constexpr unsigned int ByRefUpdater_TypeDefinitionIndex = 3472;
 
 	class ByRefUpdater : public ::System::Object
 	{

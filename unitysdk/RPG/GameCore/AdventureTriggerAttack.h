@@ -9,13 +9,13 @@ namespace RPG::GameCore { class AdventureAttackDetectSummonUnitTriggerConfig; }
 namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_287821EE07D86265_OFFSET UNITYSDK_OFFSET(0x168622A0)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_7C794FCF43CF3E2B_OFFSET UNITYSDK_OFFSET(0x16862540)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x168624D0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_287821EE07D86265_OFFSET UNITYSDK_OFFSET(0x16F6FC40)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_7C794FCF43CF3E2B_OFFSET UNITYSDK_OFFSET(0x16F6FEE0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6FE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 17973;
+	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 18490;
 
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{

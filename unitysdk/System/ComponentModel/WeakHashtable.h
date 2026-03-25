@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System::Collections { class IEqualityComparer; }
 
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x17E87270)
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_REMOVE_OFFSET UNITYSDK_OFFSET(0x17E873C0)
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E873D0)
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E85C70)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x186B1140)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_REMOVE_OFFSET UNITYSDK_OFFSET(0x186B1290)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x186B12A0)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x186AFB40)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int WeakHashtable_TypeDefinitionIndex = 2636;
+	inline static constexpr unsigned int WeakHashtable_TypeDefinitionIndex = 2641;
 
 	class WeakHashtable : public ::System::Collections::Hashtable
 	{
 	public:
 		static ::System::Collections::IEqualityComparer** StaticGet__comparer()
 		{
-			return (::System::Collections::IEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(WeakHashtable_TypeDefinitionIndex)->GetStaticField(0x16500);
+			return (::System::Collections::IEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(WeakHashtable_TypeDefinitionIndex)->GetStaticField(0x2BB20);
 		}
 
 		::System::Void _ctor()

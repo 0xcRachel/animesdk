@@ -6,12 +6,12 @@
 
 namespace CriWare { class CriAtomExAcb; }
 
-#define CRIWARE_CRIATOMEXACBDEBUG_CRIATOMEXACB_GETACBINFO_OFFSET UNITYSDK_OFFSET(0x112935D0)
-#define CRIWARE_CRIATOMEXACBDEBUG_GETACBINFO_OFFSET UNITYSDK_OFFSET(0x112934E0)
+#define CRIWARE_CRIATOMEXACBDEBUG_CRIATOMEXACB_GETACBINFO_OFFSET UNITYSDK_OFFSET(0x11A1CC30)
+#define CRIWARE_CRIATOMEXACBDEBUG_GETACBINFO_OFFSET UNITYSDK_OFFSET(0x11A1CB40)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_TypeDefinitionIndex = 30334;
+	inline static constexpr unsigned int CriAtomExAcbDebug_TypeDefinitionIndex = 31209;
 
 	class CriAtomExAcbDebug : public ::System::Object
 	{

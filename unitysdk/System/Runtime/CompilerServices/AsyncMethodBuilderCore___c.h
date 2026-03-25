@@ -5,29 +5,29 @@
 namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CDD740)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDD780)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__THROWASYNC_B__6_0_OFFSET UNITYSDK_OFFSET(0x15CDD790)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__THROWASYNC_B__6_1_OFFSET UNITYSDK_OFFSET(0x15CDD850)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163A5AC0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163A5B00)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__THROWASYNC_B__6_0_OFFSET UNITYSDK_OFFSET(0x163A5B10)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__THROWASYNC_B__6_1_OFFSET UNITYSDK_OFFSET(0x163A5BD0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderCore___c_TypeDefinitionIndex = 1342;
+	inline static constexpr unsigned int AsyncMethodBuilderCore___c_TypeDefinitionIndex = 1347;
 
 	class AsyncMethodBuilderCore___c : public ::System::Object
 	{
 	public:
 		static ::System::Threading::SendOrPostCallback** StaticGet___9__6_0()
 		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore___c_TypeDefinitionIndex)->GetStaticField(0xB3F0);
-		}
-		static ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c** StaticGet___9()
-		{
-			return (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore___c_TypeDefinitionIndex)->GetStaticField(0xB3F8);
+			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore___c_TypeDefinitionIndex)->GetStaticField(0xE710);
 		}
 		static ::System::Threading::WaitCallback** StaticGet___9__6_1()
 		{
-			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore___c_TypeDefinitionIndex)->GetStaticField(0xB400);
+			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore___c_TypeDefinitionIndex)->GetStaticField(0xE718);
+		}
+		static ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c** StaticGet___9()
+		{
+			return (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c**)Il2CppClass::FromTypeDefinitionIndex(AsyncMethodBuilderCore___c_TypeDefinitionIndex)->GetStaticField(0xE720);
 		}
 
 		static ::System::Void _cctor()

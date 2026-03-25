@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonConfigListType_TypeDefinitionIndex = 44381;
+	inline static constexpr unsigned int JsonConfigListType_TypeDefinitionIndex = 45442;
 
 	enum class JsonConfigListType : ::System::Int32
 	{

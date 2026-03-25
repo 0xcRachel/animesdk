@@ -11,31 +11,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule { template <typename T> class RenderFunc_1; }
 namespace UnityEngine::Rendering { class ProfilingSampler; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_CLEAR_OFFSET UNITYSDK_OFFSET(0x180A9D60)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_GET_COLORBUFFERMAXINDEX_OFFSET UNITYSDK_OFFSET(0x180A9D50)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_GET_COLORBUFFERS_OFFSET UNITYSDK_OFFSET(0x180A9D40)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_GET_DEPTHBUFFER_OFFSET UNITYSDK_OFFSET(0x180A9D20)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_SETCOLORBUFFER_OFFSET UNITYSDK_OFFSET(0x180A9EF0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_SETDEPTHBUFFER_OFFSET UNITYSDK_OFFSET(0x180A9F70)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x180A9FE0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_CLEAR_OFFSET UNITYSDK_OFFSET(0x188D2440)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_GET_COLORBUFFERMAXINDEX_OFFSET UNITYSDK_OFFSET(0x188D2430)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_GET_COLORBUFFERS_OFFSET UNITYSDK_OFFSET(0x188D2420)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_GET_DEPTHBUFFER_OFFSET UNITYSDK_OFFSET(0x188D2400)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_SETCOLORBUFFER_OFFSET UNITYSDK_OFFSET(0x188D25D0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS_SETDEPTHBUFFER_OFFSET UNITYSDK_OFFSET(0x188D2650)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPH_RENDERPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x188D26C0)
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraph_RenderPass_TypeDefinitionIndex = 27003;
+	inline static constexpr unsigned int RenderGraph_RenderPass_TypeDefinitionIndex = 27739;
 
 	class RenderGraph_RenderPass : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource>* m_ColorBuffers; // 0x10
+		::System::String* name; // 0x10
 		::UnityEngine::Rendering::ProfilingSampler* customSampler; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource>* resourceWriteList; // 0x20
-		::System::String* name; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResource>* resourceReadList; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResource>* usedRendererListList; // 0x38
-		::System::Int32 m_MaxColorBufferIndex; // 0x40
-		::System::Boolean enableAsyncCompute; // 0x44
-		::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource m_DepthBuffer; // 0x48
-		::System::Int32 index; // 0x54
+		::Il2CppArray<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource>* m_ColorBuffers; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResource>* usedRendererListList; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource>* resourceWriteList; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphResource>* resourceReadList; // 0x38
+		::UnityEngine::Experimental::Rendering::RenderGraphModule::RenderGraphMutableResource m_DepthBuffer; // 0x40
+		::System::Int32 index; // 0x4C
+		::System::Int32 m_MaxColorBufferIndex; // 0x50
+		::System::Boolean enableAsyncCompute; // 0x54
 
 		::System::Void _ctor()
 		{

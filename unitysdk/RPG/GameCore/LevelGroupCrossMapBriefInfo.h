@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RtLevelGroupInfo; }
 namespace RPG::GameCore { class RtLevelGroupInstanceInfo; }
 
-#define RPG_GAMECORE_LEVELGROUPCROSSMAPBRIEFINFO_METHOD_2_9A52A211091CA4D1_OFFSET UNITYSDK_OFFSET(0x16BA8BB0)
-#define RPG_GAMECORE_LEVELGROUPCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA8CC0)
+#define RPG_GAMECORE_LEVELGROUPCROSSMAPBRIEFINFO_METHOD_2_9A52A211091CA4D1_OFFSET UNITYSDK_OFFSET(0x1734C7E0)
+#define RPG_GAMECORE_LEVELGROUPCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1734C8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupCrossMapBriefInfo_TypeDefinitionIndex = 15475;
+	inline static constexpr unsigned int LevelGroupCrossMapBriefInfo_TypeDefinitionIndex = 15752;
 
 	class LevelGroupCrossMapBriefInfo : public ::RPG::GameCore::JsonConfig
 	{

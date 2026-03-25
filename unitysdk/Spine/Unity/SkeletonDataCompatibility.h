@@ -4,7 +4,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataCompatibility_TypeDefinitionIndex = 33750;
+	inline static constexpr unsigned int SkeletonDataCompatibility_TypeDefinitionIndex = 34739;
 
 	class SkeletonDataCompatibility : public ::System::Object
 	{

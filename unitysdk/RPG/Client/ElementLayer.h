@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElementLayer_TypeDefinitionIndex = 56436;
+	inline static constexpr unsigned int ElementLayer_TypeDefinitionIndex = 58008;
 
 	enum class ElementLayer : ::System::Int32
 	{

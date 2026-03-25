@@ -12,7 +12,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int PollStatusOptionsInternal_TypeDefinitionIndex = 35784;
+	inline static constexpr unsigned int PollStatusOptionsInternal_TypeDefinitionIndex = 36718;
 
 	struct alignas(4) PollStatusOptionsInternal
 	{

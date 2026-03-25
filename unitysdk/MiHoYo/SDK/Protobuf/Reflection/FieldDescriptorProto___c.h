@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class FieldDescriptorProto; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156D19A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156D19E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C___CCTOR_B__70_0_OFFSET UNITYSDK_OFFSET(0x156D19F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC21D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC2210)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C___CCTOR_B__70_0_OFFSET UNITYSDK_OFFSET(0x15DC2220)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldDescriptorProto___c_TypeDefinitionIndex = 27324;
+	inline static constexpr unsigned int FieldDescriptorProto___c_TypeDefinitionIndex = 28060;
 
 	class FieldDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(FieldDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x28900);
+			return (::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(FieldDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x265D0);
 		}
 
 		static ::System::Void _cctor()

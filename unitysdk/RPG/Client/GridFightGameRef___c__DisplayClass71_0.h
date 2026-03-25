@@ -6,19 +6,19 @@ namespace RPG::Client { class GridFightGameRef; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9375DD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS71_0__LIKE_B__0_OFFSET UNITYSDK_OFFSET(0x9378880)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS71_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9834920)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS71_0__LIKE_B__0_OFFSET UNITYSDK_OFFSET(0x9837890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass71_0_TypeDefinitionIndex = 51395;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass71_0_TypeDefinitionIndex = 52528;
 
 	class GridFightGameRef___c__DisplayClass71_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightGameRef* __4__this; // 0x10
-		::System::String* id; // 0x18
-		::System::Action_1<::System::Boolean>* callback; // 0x20
+		::System::Action_1<::System::Boolean>* callback; // 0x18
+		::System::String* id; // 0x20
 
 		::System::Void _ctor()
 		{

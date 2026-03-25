@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { class Object; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x156E07D0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x156CFE50)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x15DD0FD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_REPEATEDFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC0680)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int RepeatedFieldAccessor_TypeDefinitionIndex = 27403;
+	inline static constexpr unsigned int RepeatedFieldAccessor_TypeDefinitionIndex = 28139;
 
 	class RepeatedFieldAccessor : public ::MiHoYo::SDK::Protobuf::Reflection::FieldAccessorBase
 	{

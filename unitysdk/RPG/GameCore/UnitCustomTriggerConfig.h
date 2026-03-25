@@ -10,12 +10,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG_METHOD_2_0D53C204AEEC360A_OFFSET UNITYSDK_OFFSET(0x1713C390)
-#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1713D0C0)
+#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG_METHOD_2_0D53C204AEEC360A_OFFSET UNITYSDK_OFFSET(0x178F8590)
+#define RPG_GAMECORE_UNITCUSTOMTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178F92C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnitCustomTriggerConfig_TypeDefinitionIndex = 15890;
+	inline static constexpr unsigned int UnitCustomTriggerConfig_TypeDefinitionIndex = 16167;
 
 	class UnitCustomTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

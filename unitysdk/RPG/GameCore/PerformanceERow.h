@@ -9,29 +9,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x16D22AB0)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D22E60)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x16D23A80)
-#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x16D23AE0)
-#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D23AF0)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x174AA940)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174AACF0)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x174AB910)
+#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x174AB970)
+#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174AB9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13057;
+	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13128;
 
 	class PerformanceERow : public ::System::Object
 	{
 	public:
 		::System::String* PerformanceCharacter; // 0x10
 		::System::String* PerformancePath; // 0x18
-		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x20
-		::RPG::GameCore::StoryBlackType EndBlack; // 0x24
-		::System::UInt32 FloorID; // 0x28
-		::System::Boolean IsIntroDialogue; // 0x2C
-		::System::Boolean EndWithCrack; // 0x2D
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x30
+		::RPG::GameCore::StoryBlackType EndBlack; // 0x20
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x24
+		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x28
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x2C
+		::System::Boolean EndWithCrack; // 0x30
+		::System::Boolean IsIntroDialogue; // 0x31
 		::System::UInt32 PlaneID; // 0x34
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x38
+		::System::UInt32 FloorID; // 0x38
 		::System::UInt32 PerformanceID; // 0x3C
 
 		::System::Void _ctor()

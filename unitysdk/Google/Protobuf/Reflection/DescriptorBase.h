@@ -6,20 +6,20 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x153E5780)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FILE_OFFSET UNITYSDK_OFFSET(0x153E5770)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x153E5760)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x153E5750)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x15AFD910)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FILE_OFFSET UNITYSDK_OFFSET(0x15AFD900)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x15AFD8F0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15AFD8E0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorBase_TypeDefinitionIndex = 6213;
+	inline static constexpr unsigned int DescriptorBase_TypeDefinitionIndex = 6313;
 
 	class DescriptorBase : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::FileDescriptor* _File_k__BackingField; // 0x10
-		::System::String* _FullName_k__BackingField; // 0x18
+		::System::String* _FullName_k__BackingField; // 0x10
+		::Google::Protobuf::Reflection::FileDescriptor* _File_k__BackingField; // 0x18
 		::System::Int32 _Index_k__BackingField; // 0x20
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::FileDescriptor* file, ::System::String* fullName, ::System::Int32 index)

@@ -6,13 +6,13 @@
 namespace RPG::Client { class Effect_GPUCrowdAnimation; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CROWDUNIT_GET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0x8FE3E00)
-#define RPG_CLIENT_CROWDUNIT_SET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0x8FE3E10)
-#define RPG_CLIENT_CROWDUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x8FE3E20)
+#define RPG_CLIENT_CROWDUNIT_GET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0x943F830)
+#define RPG_CLIENT_CROWDUNIT_SET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0x943F840)
+#define RPG_CLIENT_CROWDUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x943F850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CrowdUnit_TypeDefinitionIndex = 56142;
+	inline static constexpr unsigned int CrowdUnit_TypeDefinitionIndex = 57713;
 
 	class CrowdUnit : public ::System::Object
 	{

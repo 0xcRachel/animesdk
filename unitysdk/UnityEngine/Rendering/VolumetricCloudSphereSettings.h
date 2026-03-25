@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumetricCloudSphereSettings_TypeDefinitionIndex = 4623;
+	inline static constexpr unsigned int VolumetricCloudSphereSettings_TypeDefinitionIndex = 4651;
 
 	struct alignas(4) VolumetricCloudSphereSettings
 	{

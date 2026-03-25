@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_SEQUENCEMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x17D19870)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_SEQUENCEMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x18530C50)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 4885;
+	inline static constexpr unsigned int SequenceMarshal_TypeDefinitionIndex = 4984;
 
 	class SequenceMarshal : public ::System::Object
 	{

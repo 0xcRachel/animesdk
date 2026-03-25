@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_0B0024C28BCE81FD_OFFSET UNITYSDK_OFFSET(0x16A401D0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_D43DAA4D4047DF5E_OFFSET UNITYSDK_OFFSET(0x16A42CF0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE__CTOR_OFFSET UNITYSDK_OFFSET(0x16A401B0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_B746A6514A324BE8_OFFSET UNITYSDK_OFFSET(0x17185260)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_BF93F2EAFB830966_OFFSET UNITYSDK_OFFSET(0x17181700)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE__CTOR_OFFSET UNITYSDK_OFFSET(0x171816B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_MarkSkillDice_TypeDefinitionIndex = 14582;
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkSkillDice_TypeDefinitionIndex = 14834;
 
 	class DiceCombatTaskConfig_MarkSkillDice : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D43DAA4D4047DF5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice*& a2)
+		static ::System::Void Method_3_B746A6514A324BE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_D43DAA4D4047DF5E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_B746A6514A324BE8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0B0024C28BCE81FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice* a2)
+		static ::System::Void Method_3_BF93F2EAFB830966(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_0B0024C28BCE81FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkSkillDice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKSKILLDICE_METHOD_3_BF93F2EAFB830966_OFFSET))(a1, a2);
 		}
 	};
 }

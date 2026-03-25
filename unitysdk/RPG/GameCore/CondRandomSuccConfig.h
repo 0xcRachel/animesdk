@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_3_049EE63ECD138F96_OFFSET UNITYSDK_OFFSET(0x169C39E0)
-#define RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_3_BCE353DC013E08D8_OFFSET UNITYSDK_OFFSET(0x169C3AC0)
-#define RPG_GAMECORE_CONDRANDOMSUCCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x169C3A70)
+#define RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_4_63F02B9B97E84361_OFFSET UNITYSDK_OFFSET(0x1713F620)
+#define RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_4_71265C2E80D80C54_OFFSET UNITYSDK_OFFSET(0x1713F4E0)
+#define RPG_GAMECORE_CONDRANDOMSUCCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1713F5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CondRandomSuccConfig_TypeDefinitionIndex = 15371;
+	inline static constexpr unsigned int CondRandomSuccConfig_TypeDefinitionIndex = 15645;
 
 	class CondRandomSuccConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDRANDOMSUCCCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_049EE63ECD138F96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondRandomSuccConfig*& a2)
+		static ::System::Void Method_4_71265C2E80D80C54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondRandomSuccConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondRandomSuccConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_3_049EE63ECD138F96_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondRandomSuccConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_4_71265C2E80D80C54_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BCE353DC013E08D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondRandomSuccConfig* a2)
+		static ::System::Void Method_4_63F02B9B97E84361(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondRandomSuccConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondRandomSuccConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_3_BCE353DC013E08D8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondRandomSuccConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDRANDOMSUCCCONFIG_METHOD_4_63F02B9B97E84361_OFFSET))(a1, a2);
 		}
 	};
 }

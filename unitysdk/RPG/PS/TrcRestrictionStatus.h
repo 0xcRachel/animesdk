@@ -3,7 +3,7 @@
 
 namespace RPG::PS
 {
-	inline static constexpr unsigned int TrcRestrictionStatus_TypeDefinitionIndex = 40889;
+	inline static constexpr unsigned int TrcRestrictionStatus_TypeDefinitionIndex = 41937;
 
 	enum class TrcRestrictionStatus : ::System::Int32
 	{

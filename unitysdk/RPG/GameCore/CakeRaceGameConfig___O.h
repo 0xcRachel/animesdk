@@ -8,18 +8,18 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceGameConfig___O_TypeDefinitionIndex = 16522;
+	inline static constexpr unsigned int CakeRaceGameConfig___O_TypeDefinitionIndex = 16896;
 
 	class CakeRaceGameConfig___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRacePickupItemType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRacePickupItemType>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameConfig___O_TypeDefinitionIndex)->GetStaticField(0x24F00);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRacePickupItemType>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameConfig___O_TypeDefinitionIndex)->GetStaticField(0x2C380);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRaceCellType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRaceCellType>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameConfig___O_TypeDefinitionIndex)->GetStaticField(0x24F08);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CakeRaceCellType>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameConfig___O_TypeDefinitionIndex)->GetStaticField(0x2C388);
 		}
 	};
 }

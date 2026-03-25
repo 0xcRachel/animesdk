@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleModelResultType_TypeDefinitionIndex = 44108;
+	inline static constexpr unsigned int BattleModelResultType_TypeDefinitionIndex = 45168;
 
 	enum class BattleModelResultType : ::System::Int32
 	{

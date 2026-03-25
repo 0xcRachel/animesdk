@@ -5,13 +5,13 @@
 namespace Mono::Security { class ASN1; }
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_SAFEBAG_GET_ASN1_OFFSET UNITYSDK_OFFSET(0x15AA0EB0)
-#define MONO_SECURITY_X509_SAFEBAG_GET_BAGOID_OFFSET UNITYSDK_OFFSET(0x15AA0EA0)
-#define MONO_SECURITY_X509_SAFEBAG__CTOR_OFFSET UNITYSDK_OFFSET(0x15A9A560)
+#define MONO_SECURITY_X509_SAFEBAG_GET_ASN1_OFFSET UNITYSDK_OFFSET(0x1616ADD0)
+#define MONO_SECURITY_X509_SAFEBAG_GET_BAGOID_OFFSET UNITYSDK_OFFSET(0x1616ADC0)
+#define MONO_SECURITY_X509_SAFEBAG__CTOR_OFFSET UNITYSDK_OFFSET(0x16164480)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int SafeBag_TypeDefinitionIndex = 2246;
+	inline static constexpr unsigned int SafeBag_TypeDefinitionIndex = 2251;
 
 	class SafeBag : public ::System::Object
 	{

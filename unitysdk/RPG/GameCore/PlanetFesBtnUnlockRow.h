@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESBTNUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D44940)
-#define RPG_GAMECORE_PLANETFESBTNUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D44A40)
+#define RPG_GAMECORE_PLANETFESBTNUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CC790)
+#define RPG_GAMECORE_PLANETFESBTNUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CC890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBtnUnlockRow_TypeDefinitionIndex = 11135;
+	inline static constexpr unsigned int PlanetFesBtnUnlockRow_TypeDefinitionIndex = 11203;
 
 	class PlanetFesBtnUnlockRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockQuestID; // 0x10
-		::RPG::GameCore::PlanetFesBtnUnlockType ID; // 0x14
+		::RPG::GameCore::PlanetFesBtnUnlockType ID; // 0x10
+		::System::UInt32 UnlockQuestID; // 0x14
 
 		::System::Void _ctor()
 		{

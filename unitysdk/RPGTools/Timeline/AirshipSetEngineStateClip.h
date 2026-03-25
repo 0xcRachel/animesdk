@@ -8,12 +8,12 @@
 class CommonShipEngineController;
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA5E57C0)
-#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E59D0)
+#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB29220)
+#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB29430)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AirshipSetEngineStateClip_TypeDefinitionIndex = 37746;
+	inline static constexpr unsigned int AirshipSetEngineStateClip_TypeDefinitionIndex = 38708;
 
 	class AirshipSetEngineStateClip : public ::RPGTools::Timeline::CustomEventClip
 	{

@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SwordTrainingSetDynamicValueByEnemyRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_40B8F6155197440F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F67640)
-#define CLASS_3_40B8F6155197440F__CTOR_OFFSET UNITYSDK_OFFSET(0x10F67560)
+#define CLASS_3_40B8F6155197440F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89E6B30)
+#define CLASS_3_40B8F6155197440F__CTOR_OFFSET UNITYSDK_OFFSET(0x89E6A50)
 
-inline static constexpr unsigned int Class_3_40B8F6155197440F_TypeDefinitionIndex = 43559;
+inline static constexpr unsigned int Class_3_40B8F6155197440F_TypeDefinitionIndex = 44615;
 
 class Class_3_40B8F6155197440F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwordTrainingSetDynamicValueByEnemyRank*>
 {

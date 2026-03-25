@@ -10,7 +10,7 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserInputSettings; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int IBrowserUI_TypeDefinitionIndex = 29641;
+	inline static constexpr unsigned int IBrowserUI_TypeDefinitionIndex = 30516;
 
 	class IBrowserUI
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int NetWorkEvent_TypeDefinitionIndex = 27898;
+	inline static constexpr unsigned int NetWorkEvent_TypeDefinitionIndex = 28718;
 
 	enum class NetWorkEvent : ::System::Int32
 	{

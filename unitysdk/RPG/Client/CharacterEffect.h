@@ -15,187 +15,187 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_CHARACTEREFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x8EADD40)
-#define RPG_CLIENT_CHARACTEREFFECT_GETHIGHOUTLINERENDERER2MATDIC_OFFSET UNITYSDK_OFFSET(0x8EA9090)
-#define RPG_CLIENT_CHARACTEREFFECT_GET_ALLMESHRENDER_OFFSET UNITYSDK_OFFSET(0x8EAE160)
-#define RPG_CLIENT_CHARACTEREFFECT_GET_ARTMODELLOADED_OFFSET UNITYSDK_OFFSET(0x8EAE0B0)
-#define RPG_CLIENT_CHARACTEREFFECT_GET_ENABLEHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0x8EAE080)
-#define RPG_CLIENT_CHARACTEREFFECT_GET_FETCHOWNERTIMESCALE_OFFSET UNITYSDK_OFFSET(0x8EAE0A0)
-#define RPG_CLIENT_CHARACTEREFFECT_INHERITSHOWPARTIDFROMORIGINMATERIAL_OFFSET UNITYSDK_OFFSET(0x8EAB860)
-#define RPG_CLIENT_CHARACTEREFFECT_LATETICK_OFFSET UNITYSDK_OFFSET(0x8EAD7D0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_03C4FFAD29DE0852_OFFSET UNITYSDK_OFFSET(0x8EA90F0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_08FEC147AACAA81D_1_OFFSET UNITYSDK_OFFSET(0x8EA9E00)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_08FEC147AACAA81D_OFFSET UNITYSDK_OFFSET(0x8EA9BB0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_0D11EC436EC5ACCE_OFFSET UNITYSDK_OFFSET(0x8EABAE0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0x8EAAC50)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x8EAD2A0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x8EAA750)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_1E13A8A5C0FF7D62_OFFSET UNITYSDK_OFFSET(0x8EAA7F0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x8EA9B10)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_394F35BBA0EE596A_OFFSET UNITYSDK_OFFSET(0x8EAA060)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x8EAAB00)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_43A478BA01FE29B7_OFFSET UNITYSDK_OFFSET(0x8EA8F20)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_47680E2642F37A1B_1_OFFSET UNITYSDK_OFFSET(0x8EACB30)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_47680E2642F37A1B_OFFSET UNITYSDK_OFFSET(0x8EAB600)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_5223D107AF3EE2AB_OFFSET UNITYSDK_OFFSET(0x8EAD380)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_543063A1C8FC9D3E_OFFSET UNITYSDK_OFFSET(0x8EABE90)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_652F3820D8B242FF_OFFSET UNITYSDK_OFFSET(0x8EAB720)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_67EBBDD5CDE980A1_OFFSET UNITYSDK_OFFSET(0x8EA94F0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_7E7E85596230BF07_OFFSET UNITYSDK_OFFSET(0x8EAA6E0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_A2172401030892FD_OFFSET UNITYSDK_OFFSET(0x8EACCB0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0x8EAAF20)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_A7E01A8523F2C0BA_OFFSET UNITYSDK_OFFSET(0x8EABCE0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0x8EAD9C0)
-#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x8EAADA0)
-#define RPG_CLIENT_CHARACTEREFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8EADED0)
-#define RPG_CLIENT_CHARACTEREFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x8EADE30)
-#define RPG_CLIENT_CHARACTEREFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x8EADD90)
-#define RPG_CLIENT_CHARACTEREFFECT_REFRESHHIGHOUTLINE_OFFSET UNITYSDK_OFFSET(0x8EA94A0)
-#define RPG_CLIENT_CHARACTEREFFECT_REFRESHRENDERBATTLESTENCIL_OFFSET UNITYSDK_OFFSET(0x8EA8E60)
-#define RPG_CLIENT_CHARACTEREFFECT_SETBATTLECHARASTENCIL_OFFSET UNITYSDK_OFFSET(0x8EA8E00)
-#define RPG_CLIENT_CHARACTEREFFECT_SETENABLEHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0x8EA8CC0)
-#define RPG_CLIENT_CHARACTEREFFECT_SETEXTRATARGETRENDERS_OFFSET UNITYSDK_OFFSET(0x8EA9770)
-#define RPG_CLIENT_CHARACTEREFFECT_SETSHADERSIMULATIONSPEEDENABLE_OFFSET UNITYSDK_OFFSET(0x8EADC00)
-#define RPG_CLIENT_CHARACTEREFFECT_SET_ARTMODELLOADED_OFFSET UNITYSDK_OFFSET(0x8EAE0C0)
-#define RPG_CLIENT_CHARACTEREFFECT_SET_ENABLEHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0x8EA8D90)
-#define RPG_CLIENT_CHARACTEREFFECT_SET_FETCHOWNERTIMESCALE_OFFSET UNITYSDK_OFFSET(0x8EAE090)
-#define RPG_CLIENT_CHARACTEREFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x8EAE3A0)
-#define RPG_CLIENT_CHARACTEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x8EAE170)
+#define RPG_CLIENT_CHARACTEREFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0x93124E0)
+#define RPG_CLIENT_CHARACTEREFFECT_GETHIGHOUTLINERENDERER2MATDIC_OFFSET UNITYSDK_OFFSET(0x930D830)
+#define RPG_CLIENT_CHARACTEREFFECT_GET_ALLMESHRENDER_OFFSET UNITYSDK_OFFSET(0x9312900)
+#define RPG_CLIENT_CHARACTEREFFECT_GET_ARTMODELLOADED_OFFSET UNITYSDK_OFFSET(0x9312850)
+#define RPG_CLIENT_CHARACTEREFFECT_GET_ENABLEHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0x9312820)
+#define RPG_CLIENT_CHARACTEREFFECT_GET_FETCHOWNERTIMESCALE_OFFSET UNITYSDK_OFFSET(0x9312840)
+#define RPG_CLIENT_CHARACTEREFFECT_INHERITSHOWPARTIDFROMORIGINMATERIAL_OFFSET UNITYSDK_OFFSET(0x9310000)
+#define RPG_CLIENT_CHARACTEREFFECT_LATETICK_OFFSET UNITYSDK_OFFSET(0x9311F70)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_03C4FFAD29DE0852_OFFSET UNITYSDK_OFFSET(0x930D890)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_08FEC147AACAA81D_1_OFFSET UNITYSDK_OFFSET(0x930E5A0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_08FEC147AACAA81D_OFFSET UNITYSDK_OFFSET(0x930E350)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_0D11EC436EC5ACCE_OFFSET UNITYSDK_OFFSET(0x9310280)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0x930F3F0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x9311A40)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x930EEF0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_1E13A8A5C0FF7D62_OFFSET UNITYSDK_OFFSET(0x930EF90)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x930E2B0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_394F35BBA0EE596A_OFFSET UNITYSDK_OFFSET(0x930E800)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x930F2A0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_43A478BA01FE29B7_OFFSET UNITYSDK_OFFSET(0x930D6C0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_47680E2642F37A1B_1_OFFSET UNITYSDK_OFFSET(0x93112D0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_47680E2642F37A1B_OFFSET UNITYSDK_OFFSET(0x930FDA0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_5223D107AF3EE2AB_OFFSET UNITYSDK_OFFSET(0x9311B20)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_543063A1C8FC9D3E_OFFSET UNITYSDK_OFFSET(0x9310630)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_652F3820D8B242FF_OFFSET UNITYSDK_OFFSET(0x930FEC0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_67EBBDD5CDE980A1_OFFSET UNITYSDK_OFFSET(0x930DC90)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_7E7E85596230BF07_OFFSET UNITYSDK_OFFSET(0x930EE80)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_A2172401030892FD_OFFSET UNITYSDK_OFFSET(0x9311450)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0x930F6C0)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_A7E01A8523F2C0BA_OFFSET UNITYSDK_OFFSET(0x9310480)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0x9312160)
+#define RPG_CLIENT_CHARACTEREFFECT_METHOD_5_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x930F540)
+#define RPG_CLIENT_CHARACTEREFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9312670)
+#define RPG_CLIENT_CHARACTEREFFECT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x93125D0)
+#define RPG_CLIENT_CHARACTEREFFECT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9312530)
+#define RPG_CLIENT_CHARACTEREFFECT_REFRESHHIGHOUTLINE_OFFSET UNITYSDK_OFFSET(0x930DC40)
+#define RPG_CLIENT_CHARACTEREFFECT_REFRESHRENDERBATTLESTENCIL_OFFSET UNITYSDK_OFFSET(0x930D600)
+#define RPG_CLIENT_CHARACTEREFFECT_SETBATTLECHARASTENCIL_OFFSET UNITYSDK_OFFSET(0x930D5A0)
+#define RPG_CLIENT_CHARACTEREFFECT_SETENABLEHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0x930D460)
+#define RPG_CLIENT_CHARACTEREFFECT_SETEXTRATARGETRENDERS_OFFSET UNITYSDK_OFFSET(0x930DF10)
+#define RPG_CLIENT_CHARACTEREFFECT_SETSHADERSIMULATIONSPEEDENABLE_OFFSET UNITYSDK_OFFSET(0x93123A0)
+#define RPG_CLIENT_CHARACTEREFFECT_SET_ARTMODELLOADED_OFFSET UNITYSDK_OFFSET(0x9312860)
+#define RPG_CLIENT_CHARACTEREFFECT_SET_ENABLEHIGHLIGHTOUTLINE_OFFSET UNITYSDK_OFFSET(0x930D530)
+#define RPG_CLIENT_CHARACTEREFFECT_SET_FETCHOWNERTIMESCALE_OFFSET UNITYSDK_OFFSET(0x9312830)
+#define RPG_CLIENT_CHARACTEREFFECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x9312B40)
+#define RPG_CLIENT_CHARACTEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9312910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterEffect_TypeDefinitionIndex = 55478;
+	inline static constexpr unsigned int CharacterEffect_TypeDefinitionIndex = 57043;
 
 	class CharacterEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_Field_5_36()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0x40560);
-		}
-		static ::System::Int32* StaticGet_Field_5_61()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDC0);
-		}
-		static ::System::Int32* StaticGet_Field_5_57()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDC4);
-		}
-		static ::System::Int32* StaticGet_Field_5_63()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDC8);
-		}
-		static ::System::Int32* StaticGet_Field_5_67()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDCC);
-		}
-		static ::System::Int32* StaticGet_Field_5_39()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDD0);
-		}
-		static ::System::Int32* StaticGet_Field_5_51()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDD4);
-		}
-		static ::System::Int32* StaticGet_Field_5_62()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDD8);
-		}
-		static ::System::Int32* StaticGet_Field_5_58()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDDC);
-		}
-		static ::System::Int32* StaticGet_Field_5_43()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDE0);
-		}
-		static ::System::Int32* StaticGet_Field_5_53()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDE4);
-		}
-		static ::System::Int32* StaticGet_Field_5_42()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDE8);
-		}
-		static ::System::Int32* StaticGet_Field_5_41()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDEC);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0x39EE0);
 		}
 		static ::System::Int32* StaticGet_Field_5_49()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDF0);
-		}
-		static ::System::Int32* StaticGet_Field_5_40()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDF4);
-		}
-		static ::System::Int32* StaticGet_Field_5_52()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDF8);
-		}
-		static ::System::Int32* StaticGet_Field_5_65()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEDFC);
-		}
-		static ::System::Int32* StaticGet_Field_5_46()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE00);
-		}
-		static ::System::Int32* StaticGet_Field_5_66()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE04);
-		}
-		static ::System::Int32* StaticGet_Field_5_44()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE08);
-		}
-		static ::System::Int32* StaticGet_Field_5_59()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE0C);
-		}
-		static ::System::Int32* StaticGet_Field_5_56()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE10);
-		}
-		static ::System::Int32* StaticGet_Field_5_68()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE14);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE990);
 		}
 		static ::System::Int32* StaticGet_Field_5_55()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE18);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE994);
 		}
-		static ::System::Int32* StaticGet_Field_5_60()
+		static ::System::Int32* StaticGet_Field_5_68()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE1C);
-		}
-		static ::System::Int32* StaticGet_Field_5_47()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE20);
-		}
-		static ::System::Int32* StaticGet_Field_5_54()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE24);
-		}
-		static ::System::Int32* StaticGet_Field_5_69()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE28);
-		}
-		static ::System::Int32* StaticGet_Field_5_48()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE2C);
-		}
-		static ::System::Int32* StaticGet_Field_5_64()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE998);
 		}
 		static ::System::Int32* StaticGet_Field_5_50()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE34);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE99C);
+		}
+		static ::System::Int32* StaticGet_Field_5_40()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9A0);
+		}
+		static ::System::Int32* StaticGet_Field_5_44()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9A4);
+		}
+		static ::System::Int32* StaticGet_Field_5_43()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9A8);
+		}
+		static ::System::Int32* StaticGet_Field_5_52()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9AC);
+		}
+		static ::System::Int32* StaticGet_Field_5_56()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9B0);
+		}
+		static ::System::Int32* StaticGet_Field_5_51()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9B4);
+		}
+		static ::System::Int32* StaticGet_Field_5_67()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9B8);
+		}
+		static ::System::Int32* StaticGet_Field_5_48()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9BC);
+		}
+		static ::System::Int32* StaticGet_Field_5_58()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9C0);
+		}
+		static ::System::Int32* StaticGet_Field_5_59()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9C4);
+		}
+		static ::System::Int32* StaticGet_Field_5_53()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9C8);
+		}
+		static ::System::Int32* StaticGet_Field_5_42()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9CC);
+		}
+		static ::System::Int32* StaticGet_Field_5_60()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9D0);
 		}
 		static ::System::Int32* StaticGet_Field_5_45()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEE38);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9D4);
+		}
+		static ::System::Int32* StaticGet_Field_5_54()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9D8);
+		}
+		static ::System::Int32* StaticGet_Field_5_41()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9DC);
+		}
+		static ::System::Int32* StaticGet_Field_5_62()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9E0);
+		}
+		static ::System::Int32* StaticGet_Field_5_46()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9E4);
+		}
+		static ::System::Int32* StaticGet_Field_5_69()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9E8);
+		}
+		static ::System::Int32* StaticGet_Field_5_47()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9EC);
+		}
+		static ::System::Int32* StaticGet_Field_5_64()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9F0);
+		}
+		static ::System::Int32* StaticGet_Field_5_39()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9F4);
+		}
+		static ::System::Int32* StaticGet_Field_5_66()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9F8);
+		}
+		static ::System::Int32* StaticGet_Field_5_63()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xE9FC);
+		}
+		static ::System::Int32* StaticGet_Field_5_65()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEA00);
+		}
+		static ::System::Int32* StaticGet_Field_5_61()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEA04);
+		}
+		static ::System::Int32* StaticGet_Field_5_57()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterEffect_TypeDefinitionIndex)->GetStaticField(0xEA08);
 		}
 		::System::Boolean Field_5_0; // 0x18
 		::System::Boolean KeyOutlineColorIsOn; // 0x19

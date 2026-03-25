@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_HALTONSEQUENCE_GET_OFFSET UNITYSDK_OFFSET(0x180D1450)
+#define UNITYENGINE_RENDERING_HALTONSEQUENCE_GET_OFFSET UNITYSDK_OFFSET(0x188F95B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HaltonSequence_TypeDefinitionIndex = 27155;
+	inline static constexpr unsigned int HaltonSequence_TypeDefinitionIndex = 27891;
 
 	class HaltonSequence : public ::System::Object
 	{

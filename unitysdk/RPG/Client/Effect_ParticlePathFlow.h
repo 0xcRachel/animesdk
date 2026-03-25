@@ -10,13 +10,13 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x90D01E0)
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x90D0230)
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x90D02A0)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x957D090)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x957D0E0)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x957D150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 56177;
+	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 57748;
 
 	class Effect_ParticlePathFlow : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ParticlePathFlowBehavior*>
 	{

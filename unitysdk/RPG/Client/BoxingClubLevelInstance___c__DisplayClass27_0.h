@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class BattleGamePhase; }
 
-#define RPG_CLIENT_BOXINGCLUBLEVELINSTANCE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8E054C0)
-#define RPG_CLIENT_BOXINGCLUBLEVELINSTANCE___C__DISPLAYCLASS27_0___EXITTOTOWNBYSERVERQUITNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x8E05E90)
+#define RPG_CLIENT_BOXINGCLUBLEVELINSTANCE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x920F1F0)
+#define RPG_CLIENT_BOXINGCLUBLEVELINSTANCE___C__DISPLAYCLASS27_0___EXITTOTOWNBYSERVERQUITNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x920FBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoxingClubLevelInstance___c__DisplayClass27_0_TypeDefinitionIndex = 49968;
+	inline static constexpr unsigned int BoxingClubLevelInstance___c__DisplayClass27_0_TypeDefinitionIndex = 51100;
 
 	class BoxingClubLevelInstance___c__DisplayClass27_0 : public ::System::Object
 	{

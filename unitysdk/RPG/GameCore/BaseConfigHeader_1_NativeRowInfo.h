@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseConfigHeader_1_NativeRowInfo_TypeDefinitionIndex = 22014;
+	inline static constexpr unsigned int BaseConfigHeader_1_NativeRowInfo_TypeDefinitionIndex = 22579;
 
 	template <typename TKey>
 	struct BaseConfigHeader_1_NativeRowInfo

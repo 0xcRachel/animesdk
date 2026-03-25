@@ -6,24 +6,24 @@ namespace RPG::Client { class MainMissionData; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x94A9770)
-#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x94A97B0)
-#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C___GETCONDITION_B__16_0_OFFSET UNITYSDK_OFFSET(0x94A97C0)
+#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x992D2B0)
+#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x992D2F0)
+#define RPG_CLIENT_HELIOBUSACTIVITYDATA___C___GETCONDITION_B__16_0_OFFSET UNITYSDK_OFFSET(0x992D300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusActivityData___c_TypeDefinitionIndex = 48864;
+	inline static constexpr unsigned int HeliobusActivityData___c_TypeDefinitionIndex = 49999;
 
 	class HeliobusActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::HeliobusActivityData___c** StaticGet___9()
-		{
-			return (::RPG::Client::HeliobusActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x13770);
-		}
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x13778);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x27BA0);
+		}
+		static ::RPG::Client::HeliobusActivityData___c** StaticGet___9()
+		{
+			return (::RPG::Client::HeliobusActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x27BA8);
 		}
 
 		static ::System::Void _cctor()

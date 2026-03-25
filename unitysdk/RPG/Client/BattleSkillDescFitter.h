@@ -8,24 +8,24 @@ namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x8DD8640)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x8DD84F0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x8DD8810)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DD85F0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x8DD8870)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x8DD89D0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x91E2850)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x91E2700)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x91E2A30)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x91E2800)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x91E2A90)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x91E2BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 57268;
+	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 58869;
 
 	class BattleSkillDescFitter : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x10
-		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x18
-		::UnityEngine::RectTransform* _PosChangeTransform; // 0x20
-		::Class_1_99E47DBBD38370B7* _RootTransformCornerData; // 0x28
+		::UnityEngine::RectTransform* _PosChangeTransform; // 0x10
+		::Class_1_99E47DBBD38370B7* _RootTransformCornerData; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x20
+		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x28
 
 		::System::Void _ctor()
 		{

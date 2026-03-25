@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ProtoPreconditions_TypeDefinitionIndex = 6099;
+	inline static constexpr unsigned int ProtoPreconditions_TypeDefinitionIndex = 6199;
 
 	class ProtoPreconditions : public ::System::Object
 	{

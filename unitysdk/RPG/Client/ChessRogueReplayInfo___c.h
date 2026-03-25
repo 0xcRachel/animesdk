@@ -6,39 +6,39 @@ namespace RPG::Client { class ChessRogueMainMissionReplayDataItem; }
 namespace RPG::Client { class ChessRogueSubMissionReplayDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8EEB9B0)
-#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8EEB9F0)
-#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETMAINSTORYUNLOCKEDNUM_B__5_0_OFFSET UNITYSDK_OFFSET(0x8EEBA20)
-#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETMAINSTORYUNLOCKPROGRESS_B__4_0_OFFSET UNITYSDK_OFFSET(0x8EEBA00)
-#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETUNLOCKEDPROGRESS_B__6_0_OFFSET UNITYSDK_OFFSET(0x8EEBA40)
-#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETUNLOCKEDSUBSTORYNUM_B__7_0_OFFSET UNITYSDK_OFFSET(0x8EEBA60)
+#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x938F0C0)
+#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x938F100)
+#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETMAINSTORYUNLOCKEDNUM_B__5_0_OFFSET UNITYSDK_OFFSET(0x938F130)
+#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETMAINSTORYUNLOCKPROGRESS_B__4_0_OFFSET UNITYSDK_OFFSET(0x938F110)
+#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETUNLOCKEDPROGRESS_B__6_0_OFFSET UNITYSDK_OFFSET(0x938F150)
+#define RPG_CLIENT_CHESSROGUEREPLAYINFO___C__GETUNLOCKEDSUBSTORYNUM_B__7_0_OFFSET UNITYSDK_OFFSET(0x938F170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueReplayInfo___c_TypeDefinitionIndex = 53348;
+	inline static constexpr unsigned int ChessRogueReplayInfo___c_TypeDefinitionIndex = 54489;
 
 	class ChessRogueReplayInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>** StaticGet___9__7_0()
+		static ::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x41720);
+			return (::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x44B30);
 		}
 		static ::System::Func_2<::RPG::Client::ChessRogueMainMissionReplayDataItem*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueMainMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x41728);
+			return (::System::Func_2<::RPG::Client::ChessRogueMainMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x44B38);
 		}
-		static ::RPG::Client::ChessRogueReplayInfo___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::RPG::Client::ChessRogueReplayInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x41730);
+			return (::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x44B40);
 		}
 		static ::System::Func_2<::RPG::Client::ChessRogueMainMissionReplayDataItem*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueMainMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x41738);
+			return (::System::Func_2<::RPG::Client::ChessRogueMainMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x44B48);
 		}
-		static ::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>** StaticGet___9__6_0()
+		static ::RPG::Client::ChessRogueReplayInfo___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueSubMissionReplayDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x41740);
+			return (::RPG::Client::ChessRogueReplayInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueReplayInfo___c_TypeDefinitionIndex)->GetStaticField(0x44B50);
 		}
 
 		static ::System::Void _cctor()

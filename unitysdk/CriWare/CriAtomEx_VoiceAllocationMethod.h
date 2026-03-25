@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_VoiceAllocationMethod_TypeDefinitionIndex = 30105;
+	inline static constexpr unsigned int CriAtomEx_VoiceAllocationMethod_TypeDefinitionIndex = 30980;
 
 	enum class CriAtomEx_VoiceAllocationMethod : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_SpeakerSystem_TypeDefinitionIndex = 30113;
+	inline static constexpr unsigned int CriAtomEx_SpeakerSystem_TypeDefinitionIndex = 30988;
 
 	enum class CriAtomEx_SpeakerSystem : ::System::UInt32
 	{

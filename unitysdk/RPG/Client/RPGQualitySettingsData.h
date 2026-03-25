@@ -5,11 +5,11 @@
 namespace RPG::Client { class RPGQualitySettingsConsole; }
 namespace RPG::Client { class RPGQualitySettingsPreset; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D4C570)
+#define RPG_CLIENT_RPGQUALITYSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA26D8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsData_TypeDefinitionIndex = 53892;
+	inline static constexpr unsigned int RPGQualitySettingsData_TypeDefinitionIndex = 55444;
 
 	class RPGQualitySettingsData : public ::UnityEngine::ScriptableObject
 	{

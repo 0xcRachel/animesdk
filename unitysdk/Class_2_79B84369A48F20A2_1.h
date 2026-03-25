@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_79B84369A48F20A2_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFD76090)
+#define CLASS_2_79B84369A48F20A2_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA4561E0)
 
-inline static constexpr unsigned int Class_2_79B84369A48F20A2_1_TypeDefinitionIndex = 46610;
+inline static constexpr unsigned int Class_2_79B84369A48F20A2_1_TypeDefinitionIndex = 47689;
 
 class Class_2_79B84369A48F20A2_1 : public ::RPG::GameCore::PriorityQueue_1<::UnityEngine::GameObject*>
 {

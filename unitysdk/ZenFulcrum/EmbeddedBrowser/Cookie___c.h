@@ -6,29 +6,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184715F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__17_0_OFFSET UNITYSDK_OFFSET(0x18471640)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__18_0_OFFSET UNITYSDK_OFFSET(0x18471A90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18471630)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C8EC20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__17_0_OFFSET UNITYSDK_OFFSET(0x18C8EC70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__18_0_OFFSET UNITYSDK_OFFSET(0x18C8F0C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8EC60)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Cookie___c_TypeDefinitionIndex = 29655;
+	inline static constexpr unsigned int Cookie___c_TypeDefinitionIndex = 30530;
 
 	class Cookie___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::DateTime, ::System::String*>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::System::DateTime, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Cookie___c_TypeDefinitionIndex)->GetStaticField(0x393A0);
+		}
 		static ::ZenFulcrum::EmbeddedBrowser::Cookie___c** StaticGet___9()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::Cookie___c**)Il2CppClass::FromTypeDefinitionIndex(Cookie___c_TypeDefinitionIndex)->GetStaticField(0x40DB0);
+			return (::ZenFulcrum::EmbeddedBrowser::Cookie___c**)Il2CppClass::FromTypeDefinitionIndex(Cookie___c_TypeDefinitionIndex)->GetStaticField(0x393A8);
 		}
 		static ::System::Func_2<::System::String*, ::System::DateTime>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::DateTime>**)Il2CppClass::FromTypeDefinitionIndex(Cookie___c_TypeDefinitionIndex)->GetStaticField(0x40DB8);
-		}
-		static ::System::Func_2<::System::DateTime, ::System::String*>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::System::DateTime, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Cookie___c_TypeDefinitionIndex)->GetStaticField(0x40DC0);
+			return (::System::Func_2<::System::String*, ::System::DateTime>**)Il2CppClass::FromTypeDefinitionIndex(Cookie___c_TypeDefinitionIndex)->GetStaticField(0x393B0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace MessagePack { class MessagePackEventSource; }
 namespace System { class Type; }
 
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCEEXTENSIONS_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x15676100)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCEEXTENSIONS_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x15D66710)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackEventSourceExtensions_TypeDefinitionIndex = 9411;
+	inline static constexpr unsigned int MessagePackEventSourceExtensions_TypeDefinitionIndex = 9025;
 
 	class MessagePackEventSourceExtensions : public ::System::Object
 	{

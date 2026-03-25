@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class AvatarData; }
-namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class SkillData; }
+namespace System { class String; }
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_855_TypeDefinitionIndex = 59411;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_855_TypeDefinitionIndex = 58866;
 
 class Class_0_16E4307DCC419505_855
 {

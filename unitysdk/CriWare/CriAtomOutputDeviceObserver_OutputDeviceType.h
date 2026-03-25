@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomOutputDeviceObserver_OutputDeviceType_TypeDefinitionIndex = 30090;
+	inline static constexpr unsigned int CriAtomOutputDeviceObserver_OutputDeviceType_TypeDefinitionIndex = 30965;
 
 	enum class CriAtomOutputDeviceObserver_OutputDeviceType : ::System::Int32
 	{

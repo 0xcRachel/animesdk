@@ -9,16 +9,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_1E2C0B86BA2D02B7_OFFSET UNITYSDK_OFFSET(0x9B90970)
-#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_50BCBE94922E1EB0_OFFSET UNITYSDK_OFFSET(0x9B905E0)
-#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_689F570C13938115_OFFSET UNITYSDK_OFFSET(0x9B908C0)
-#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_95ADE8ED590C5559_OFFSET UNITYSDK_OFFSET(0x9B90A10)
-#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x9B90B60)
-#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x9B90CC0)
+#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_1E2C0B86BA2D02B7_OFFSET UNITYSDK_OFFSET(0xA062340)
+#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_689F570C13938115_OFFSET UNITYSDK_OFFSET(0xA062290)
+#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_95ADE8ED590C5559_OFFSET UNITYSDK_OFFSET(0xA0623E0)
+#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_D95160FA61EDB70B_OFFSET UNITYSDK_OFFSET(0xA061F70)
+#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA062530)
+#define RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xA062690)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelModelVfxPlayer_TypeDefinitionIndex = 61597;
+	inline static constexpr unsigned int ChimeraDuelModelVfxPlayer_TypeDefinitionIndex = 63784;
 
 	class ChimeraDuelModelVfxPlayer : public ::UnityEngine::MonoBehaviour
 	{
@@ -30,9 +30,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::MonoEffect* Method_5_50BCBE94922E1EB0(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Boolean a3, ::System::Nullable_1<::System::Single> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::String* a6, ::System::Nullable_1<::System::Single> a7)
+		::RPG::Client::MonoEffect* Method_5_D95160FA61EDB70B(::UnityEngine::Transform* a1, ::System::String* a2, ::System::Boolean a3, ::System::Nullable_1<::System::Single> a4, ::System::Nullable_1<::UnityEngine::Vector3> a5, ::System::String* a6, ::System::Nullable_1<::System::Single> a7)
 		{
-			return ((::RPG::Client::MonoEffect*(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::String*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_50BCBE94922E1EB0_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::RPG::Client::MonoEffect*(*)(::PVOID, ::UnityEngine::Transform*, ::System::String*, ::System::Boolean, ::System::Nullable_1<::System::Single>, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::String*, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMODELVFXPLAYER_METHOD_5_D95160FA61EDB70B_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void Method_5_689F570C13938115(::System::UInt32 a1)

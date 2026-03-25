@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEPVPRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C43140)
-#define RPG_GAMECORE_MARBLEPVPRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C43520)
+#define RPG_GAMECORE_MARBLEPVPRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173A7FB0)
+#define RPG_GAMECORE_MARBLEPVPRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173A8390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePVPRankConfigRow_TypeDefinitionIndex = 10844;
+	inline static constexpr unsigned int MarblePVPRankConfigRow_TypeDefinitionIndex = 10912;
 
 	class MarblePVPRankConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* LevelPool; // 0x10
-		::System::String* IconPath; // 0x18
-		::System::String* SmallIconPath; // 0x20
-		::System::String* BigIconPath; // 0x28
-		::Il2CppArray<::System::UInt32>* ScoreArea; // 0x30
+		::Il2CppArray<::System::UInt32>* ScoreArea; // 0x18
+		::System::String* BigIconPath; // 0x20
+		::System::String* SmallIconPath; // 0x28
+		::System::String* IconPath; // 0x30
 		::System::UInt32 ID; // 0x38
-		::System::UInt32 TimeOutAIRank; // 0x3C
 		::RPG::Client::TextID Name; // 0x40
-		::System::UInt32 LoseAIRank; // 0x50
+		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x50
 		::System::UInt32 Rank; // 0x54
-		::RPG::GameCore::MultiPlayerGameMode GameMode; // 0x58
+		::System::UInt32 TimeOutAIRank; // 0x58
+		::System::UInt32 LoseAIRank; // 0x5C
 
 		::System::Void _ctor()
 		{

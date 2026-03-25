@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraDuelSkillData_TypeDefinitionIndex = 50322;
+	inline static constexpr unsigned int IChimeraDuelSkillData_TypeDefinitionIndex = 51457;
 
 	class IChimeraDuelSkillData
 	{

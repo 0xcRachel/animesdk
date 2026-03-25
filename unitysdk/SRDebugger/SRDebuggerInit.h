@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
 
-#define SRDEBUGGER_SRDEBUGGERINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x17C33CA0)
+#define SRDEBUGGER_SRDEBUGGERINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1844AE90)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int SRDebuggerInit_TypeDefinitionIndex = 28727;
+	inline static constexpr unsigned int SRDebuggerInit_TypeDefinitionIndex = 29602;
 
 	class SRDebuggerInit : public ::SRF::SRMonoBehaviourEx
 	{

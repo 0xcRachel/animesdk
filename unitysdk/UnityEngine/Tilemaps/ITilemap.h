@@ -5,20 +5,20 @@
 
 namespace UnityEngine::Tilemaps { class Tilemap; }
 
-#define UNITYENGINE_TILEMAPS_ITILEMAP_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x182B38C0)
-#define UNITYENGINE_TILEMAPS_ITILEMAP_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x182B3870)
-#define UNITYENGINE_TILEMAPS_ITILEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x182B3860)
+#define UNITYENGINE_TILEMAPS_ITILEMAP_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x18AD9A80)
+#define UNITYENGINE_TILEMAPS_ITILEMAP_REFRESHTILE_OFFSET UNITYSDK_OFFSET(0x18AD9A30)
+#define UNITYENGINE_TILEMAPS_ITILEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD9A20)
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int ITilemap_TypeDefinitionIndex = 5442;
+	inline static constexpr unsigned int ITilemap_TypeDefinitionIndex = 5542;
 
 	class ITilemap : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Tilemaps::ITilemap** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::Tilemaps::ITilemap**)Il2CppClass::FromTypeDefinitionIndex(ITilemap_TypeDefinitionIndex)->GetStaticField(0x4D0);
+			return (::UnityEngine::Tilemaps::ITilemap**)Il2CppClass::FromTypeDefinitionIndex(ITilemap_TypeDefinitionIndex)->GetStaticField(0x480);
 		}
 		::UnityEngine::Tilemaps::Tilemap* m_Tilemap; // 0x10
 

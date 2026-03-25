@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelGroupBakedInfo; }
 namespace RPG::GameCore { class LevelSubmapEntityBakedInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BA2BC0)
-#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA2D90)
+#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17346150)
+#define RPG_GAMECORE_LEVELDIMENSIONBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17346320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionBakedInfo_TypeDefinitionIndex = 15458;
+	inline static constexpr unsigned int LevelDimensionBakedInfo_TypeDefinitionIndex = 15735;
 
 	class LevelDimensionBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

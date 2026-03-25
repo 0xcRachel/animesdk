@@ -6,28 +6,28 @@
 namespace Mono::Math { class BigInteger; }
 namespace Mono::Security::Cryptography { class RSAManaged_KeyGeneratedEventHandler; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x15A8BC30)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x15A8AD20)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x15A8BFA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x15A8BBA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x15A8C020)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_EXPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16155FA0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GENERATEKEYPAIR_OFFSET UNITYSDK_OFFSET(0x16155330)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GETPADDEDVALUE_OFFSET UNITYSDK_OFFSET(0x16156310)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_GET_PUBLICONLY_OFFSET UNITYSDK_OFFSET(0x16155F10)
+#define MONO_SECURITY_CRYPTOGRAPHY_RSAMANAGED_IMPORTPARAMETERS_OFFSET UNITYSDK_OFFSET(0x16156390)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 2294;
+	inline static constexpr unsigned int RSAManaged_TypeDefinitionIndex = 2299;
 
 	class RSAManaged : public ::System::Security::Cryptography::RSA
 	{
 	public:
-		::Mono::Math::BigInteger* dp; // 0x20
-		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x28
-		::Mono::Math::BigInteger* qInv; // 0x30
-		::Mono::Math::BigInteger* e; // 0x38
-		::Mono::Math::BigInteger* dq; // 0x40
-		::Mono::Math::BigInteger* d; // 0x48
-		::Mono::Math::BigInteger* p; // 0x50
-		::Mono::Math::BigInteger* q; // 0x58
-		::Mono::Math::BigInteger* n; // 0x60
+		::Mono::Math::BigInteger* dq; // 0x20
+		::Mono::Math::BigInteger* d; // 0x28
+		::Mono::Math::BigInteger* p; // 0x30
+		::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* KeyGenerated; // 0x38
+		::Mono::Math::BigInteger* n; // 0x40
+		::Mono::Math::BigInteger* q; // 0x48
+		::Mono::Math::BigInteger* e; // 0x50
+		::Mono::Math::BigInteger* dp; // 0x58
+		::Mono::Math::BigInteger* qInv; // 0x60
 		::System::Boolean keypairGenerated; // 0x68
 		::System::Boolean isCRTpossible; // 0x69
 		::System::Boolean m_disposed; // 0x6A

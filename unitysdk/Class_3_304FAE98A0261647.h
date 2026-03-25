@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class EnableSmoothLoadBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_304FAE98A0261647_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x83F5F60)
-#define CLASS_3_304FAE98A0261647__CCTOR_OFFSET UNITYSDK_OFFSET(0x83F62E0)
-#define CLASS_3_304FAE98A0261647__CTOR_OFFSET UNITYSDK_OFFSET(0x83F5F30)
+#define CLASS_3_304FAE98A0261647_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA2116E0)
+#define CLASS_3_304FAE98A0261647__CCTOR_OFFSET UNITYSDK_OFFSET(0xA211A60)
+#define CLASS_3_304FAE98A0261647__CTOR_OFFSET UNITYSDK_OFFSET(0xA2116B0)
 
-inline static constexpr unsigned int Class_3_304FAE98A0261647_TypeDefinitionIndex = 42997;
+inline static constexpr unsigned int Class_3_304FAE98A0261647_TypeDefinitionIndex = 44048;
 
 class Class_3_304FAE98A0261647 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableSmoothLoadBattle*>
 {
 public:
 	static ::System::Single* StaticGet_Field_3_0()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_3_304FAE98A0261647_TypeDefinitionIndex)->GetStaticField(0x46C0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_3_304FAE98A0261647_TypeDefinitionIndex)->GetStaticField(0x123A0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableSmoothLoadBattle* a2)

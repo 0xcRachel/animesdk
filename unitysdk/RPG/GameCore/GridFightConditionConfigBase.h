@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_4_6FC81A1EEE810C42_OFFSET UNITYSDK_OFFSET(0x16B1DB10)
-#define RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_4_74A52943B8458D4B_OFFSET UNITYSDK_OFFSET(0x16B1D240)
-#define RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B1C720)
+#define RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_5_7475CB6159A86560_OFFSET UNITYSDK_OFFSET(0x17269BD0)
+#define RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_5_D7E23F6DEED95B39_OFFSET UNITYSDK_OFFSET(0x1726A630)
+#define RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17268E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightConditionConfigBase_TypeDefinitionIndex = 17340;
+	inline static constexpr unsigned int GridFightConditionConfigBase_TypeDefinitionIndex = 17745;
 
 	class GridFightConditionConfigBase : public ::RPG::GameCore::PlayerCondConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_74A52943B8458D4B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightConditionConfigBase*& a2)
+		static ::System::Void Method_5_7475CB6159A86560(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightConditionConfigBase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightConditionConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_4_74A52943B8458D4B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightConditionConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_5_7475CB6159A86560_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6FC81A1EEE810C42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightConditionConfigBase* a2)
+		static ::System::Void Method_5_D7E23F6DEED95B39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightConditionConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightConditionConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_4_6FC81A1EEE810C42_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightConditionConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTCONDITIONCONFIGBASE_METHOD_5_D7E23F6DEED95B39_OFFSET))(a1, a2);
 		}
 	};
 }

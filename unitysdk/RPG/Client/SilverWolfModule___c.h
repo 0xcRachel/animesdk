@@ -5,24 +5,24 @@
 namespace RPG::Client { class SilverWolfGroupData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_SILVERWOLFMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F7C440)
-#define RPG_CLIENT_SILVERWOLFMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F7C480)
-#define RPG_CLIENT_SILVERWOLFMODULE___C__GETSORTEDSILVERWOLFGROUPDATAS_B__1_0_OFFSET UNITYSDK_OFFSET(0x9F7C490)
+#define RPG_CLIENT_SILVERWOLFMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4917C0)
+#define RPG_CLIENT_SILVERWOLFMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA491800)
+#define RPG_CLIENT_SILVERWOLFMODULE___C__GETSORTEDSILVERWOLFGROUPDATAS_B__1_0_OFFSET UNITYSDK_OFFSET(0xA491810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfModule___c_TypeDefinitionIndex = 53908;
+	inline static constexpr unsigned int SilverWolfModule___c_TypeDefinitionIndex = 55460;
 
 	class SilverWolfModule___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::SilverWolfModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::SilverWolfModule___c**)Il2CppClass::FromTypeDefinitionIndex(SilverWolfModule___c_TypeDefinitionIndex)->GetStaticField(0x15D10);
+			return (::RPG::Client::SilverWolfModule___c**)Il2CppClass::FromTypeDefinitionIndex(SilverWolfModule___c_TypeDefinitionIndex)->GetStaticField(0x36E00);
 		}
 		static ::System::Comparison_1<::RPG::Client::SilverWolfGroupData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SilverWolfGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(SilverWolfModule___c_TypeDefinitionIndex)->GetStaticField(0x15D18);
+			return (::System::Comparison_1<::RPG::Client::SilverWolfGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(SilverWolfModule___c_TypeDefinitionIndex)->GetStaticField(0x36E08);
 		}
 
 		static ::System::Void _cctor()

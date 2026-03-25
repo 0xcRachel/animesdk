@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropCurveMoveRecover; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6E237B6AC1346A2F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFF41330)
-#define CLASS_3_6E237B6AC1346A2F__CTOR_OFFSET UNITYSDK_OFFSET(0xFF41300)
+#define CLASS_3_6E237B6AC1346A2F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109BA450)
+#define CLASS_3_6E237B6AC1346A2F__CTOR_OFFSET UNITYSDK_OFFSET(0x109BA420)
 
-inline static constexpr unsigned int Class_3_6E237B6AC1346A2F_TypeDefinitionIndex = 45977;
+inline static constexpr unsigned int Class_3_6E237B6AC1346A2F_TypeDefinitionIndex = 47045;
 
 class Class_3_6E237B6AC1346A2F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropCurveMoveRecover*>
 {

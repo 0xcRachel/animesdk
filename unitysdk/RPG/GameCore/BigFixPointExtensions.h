@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_BIGFIXPOINTEXTENSIONS_BIGMUL_OFFSET UNITYSDK_OFFSET(0x172291F0)
+#define RPG_GAMECORE_BIGFIXPOINTEXTENSIONS_BIGMUL_OFFSET UNITYSDK_OFFSET(0x179E49F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BigFixPointExtensions_TypeDefinitionIndex = 8825;
+	inline static constexpr unsigned int BigFixPointExtensions_TypeDefinitionIndex = 9393;
 
 	class BigFixPointExtensions : public ::System::Object
 	{

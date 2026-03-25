@@ -6,7 +6,7 @@ namespace RPG::GameCore { class FloorCustomValueConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass229_0_1_TypeDefinitionIndex = 52637;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass229_0_1_TypeDefinitionIndex = 53774;
 
 	template <typename TConfig>
 	class MissionModule___c__DisplayClass229_0_1 : public ::System::Object

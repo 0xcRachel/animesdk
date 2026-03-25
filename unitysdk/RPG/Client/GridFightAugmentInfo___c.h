@@ -6,29 +6,29 @@ namespace RPG::Client { class GridFightAugment; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x931F610)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x931F650)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__GET_PLAYERAUGMENTSWITHOUTEXTRA_B__5_0_OFFSET UNITYSDK_OFFSET(0x931F660)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__REMOVEALLAUGMENT_B__18_0_OFFSET UNITYSDK_OFFSET(0x931F680)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97DD6F0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97DD730)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__GET_PLAYERAUGMENTSWITHOUTEXTRA_B__5_0_OFFSET UNITYSDK_OFFSET(0x97DD740)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__REMOVEALLAUGMENT_B__18_0_OFFSET UNITYSDK_OFFSET(0x97DD760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentInfo___c_TypeDefinitionIndex = 51149;
+	inline static constexpr unsigned int GridFightAugmentInfo___c_TypeDefinitionIndex = 52282;
 
 	class GridFightAugmentInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightAugmentInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightAugmentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentInfo___c_TypeDefinitionIndex)->GetStaticField(0x43E40);
-		}
 		static ::System::Func_2<::RPG::Client::GridFightAugment*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightAugment*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentInfo___c_TypeDefinitionIndex)->GetStaticField(0x43E48);
+			return (::System::Func_2<::RPG::Client::GridFightAugment*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentInfo___c_TypeDefinitionIndex)->GetStaticField(0x13700);
+		}
+		static ::RPG::Client::GridFightAugmentInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightAugmentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentInfo___c_TypeDefinitionIndex)->GetStaticField(0x13708);
 		}
 		static ::System::Action_1<::RPG::Client::GridFightAugment*>** StaticGet___9__18_0()
 		{
-			return (::System::Action_1<::RPG::Client::GridFightAugment*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentInfo___c_TypeDefinitionIndex)->GetStaticField(0x43E50);
+			return (::System::Action_1<::RPG::Client::GridFightAugment*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentInfo___c_TypeDefinitionIndex)->GetStaticField(0x13710);
 		}
 
 		static ::System::Void _cctor()

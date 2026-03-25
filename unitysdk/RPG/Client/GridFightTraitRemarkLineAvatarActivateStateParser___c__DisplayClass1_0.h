@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9424D80)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x9424DB0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98E1B20)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEAVATARACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x98E1B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineAvatarActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 52025;
+	inline static constexpr unsigned int GridFightTraitRemarkLineAvatarActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 53159;
 
 	class GridFightTraitRemarkLineAvatarActivateStateParser___c__DisplayClass1_0 : public ::System::Object
 	{

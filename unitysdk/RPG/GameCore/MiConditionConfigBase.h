@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/RPG/GameCore/MiAtomConfigBase.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_2_2EFB46832B07D3B5_OFFSET UNITYSDK_OFFSET(0x16C9BC50)
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_2_E535F40F402A1D28_OFFSET UNITYSDK_OFFSET(0x16C9BE10)
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C9BEE0)
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C9BED0)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_50FF91C50CB9236F_OFFSET UNITYSDK_OFFSET(0x174208C0)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_90FC8C5534A43E62_OFFSET UNITYSDK_OFFSET(0x17420700)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174209A0)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17420980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiConditionConfigBase_TypeDefinitionIndex = 15363;
+	inline static constexpr unsigned int MiConditionConfigBase_TypeDefinitionIndex = 15635;
 
-	class MiConditionConfigBase : public ::RPG::GameCore::JsonConfig
+	class MiConditionConfigBase : public ::RPG::GameCore::MiAtomConfigBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*>*>** StaticGet__FromBinary_MiConditionConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(MiConditionConfigBase_TypeDefinitionIndex)->GetStaticField(0x37D90);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(MiConditionConfigBase_TypeDefinitionIndex)->GetStaticField(0x46A60);
 		}
 		::System::Boolean Inverse; // 0x10
 
@@ -34,14 +34,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_MICONDITIONCONFIGBASE__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Method_2_2EFB46832B07D3B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiConditionConfigBase*& a2)
+		static ::System::Void Method_3_90FC8C5534A43E62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiConditionConfigBase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_2_2EFB46832B07D3B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_90FC8C5534A43E62_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_E535F40F402A1D28(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiConditionConfigBase* a2)
+		static ::System::Void Method_3_50FF91C50CB9236F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiConditionConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_2_E535F40F402A1D28_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_50FF91C50CB9236F_OFFSET))(a1, a2);
 		}
 	};
 }

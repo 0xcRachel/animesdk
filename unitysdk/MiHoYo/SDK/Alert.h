@@ -11,32 +11,32 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_ALERT_AWAKE_OFFSET UNITYSDK_OFFSET(0x156FB8D0)
-#define MIHOYO_SDK_ALERT_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x156FC6E0)
-#define MIHOYO_SDK_ALERT_HIDE_OFFSET UNITYSDK_OFFSET(0x156FC7E0)
-#define MIHOYO_SDK_ALERT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x156FCB40)
-#define MIHOYO_SDK_ALERT_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x156FCA60)
-#define MIHOYO_SDK_ALERT_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x156FCAD0)
-#define MIHOYO_SDK_ALERT_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x156FBE30)
-#define MIHOYO_SDK_ALERT_SHOW_OFFSET UNITYSDK_OFFSET(0x156FC2F0)
-#define MIHOYO_SDK_ALERT_START_OFFSET UNITYSDK_OFFSET(0x156FBDD0)
-#define MIHOYO_SDK_ALERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x156FCFD0)
-#define MIHOYO_SDK_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x156FCF80)
+#define MIHOYO_SDK_ALERT_AWAKE_OFFSET UNITYSDK_OFFSET(0x15DECD20)
+#define MIHOYO_SDK_ALERT_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x15DEDB50)
+#define MIHOYO_SDK_ALERT_HIDE_OFFSET UNITYSDK_OFFSET(0x15DEDC50)
+#define MIHOYO_SDK_ALERT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15DEDFB0)
+#define MIHOYO_SDK_ALERT_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x15DEDED0)
+#define MIHOYO_SDK_ALERT_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x15DEDF40)
+#define MIHOYO_SDK_ALERT_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x15DED280)
+#define MIHOYO_SDK_ALERT_SHOW_OFFSET UNITYSDK_OFFSET(0x15DED740)
+#define MIHOYO_SDK_ALERT_START_OFFSET UNITYSDK_OFFSET(0x15DED220)
+#define MIHOYO_SDK_ALERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DEE310)
+#define MIHOYO_SDK_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x15DEE2C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 7109;
+	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 7233;
 
 	class Alert : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_AlertHideTaskList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0xFE00);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0x10FF0);
 		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0xFE08);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0x10FF8);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* CloseButtonPath; // 0x0

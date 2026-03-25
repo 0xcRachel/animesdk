@@ -3,7 +3,7 @@
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringColliderType_TypeDefinitionIndex = 37578;
+	inline static constexpr unsigned int SpringColliderType_TypeDefinitionIndex = 38542;
 
 	enum class SpringColliderType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ScreenColorCopySettingsData_CopyTypes_TypeDefinitionIndex = 28588;
+	inline static constexpr unsigned int ScreenColorCopySettingsData_CopyTypes_TypeDefinitionIndex = 29463;
 
 	enum class ScreenColorCopySettingsData_CopyTypes : ::System::Int32
 	{

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimGrenadierAttackType.h"
+#include "unitysdk/RPG/GameCore/FiveDimGrenadierTargetType.h"
 #include "unitysdk/RPG/GameCore/FiveDimOrthoDirection.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropSpawnerParam.h"
 #include "unitysdk/RPG/GameCore/FiveDimSimpleProjectileMoveType.h"
@@ -8,13 +9,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimGrenadierProjectileConfig; }
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROPSPAWNERPARAM_METHOD_3_1636ADB9B3ECA84F_OFFSET UNITYSDK_OFFSET(0x16AC1EA0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROPSPAWNERPARAM_METHOD_3_CD1343F2AAB20C3F_OFFSET UNITYSDK_OFFSET(0x16AC1EE0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC1ED0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROPSPAWNERPARAM_METHOD_3_1636ADB9B3ECA84F_OFFSET UNITYSDK_OFFSET(0x1720AE60)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROPSPAWNERPARAM_METHOD_3_CD1343F2AAB20C3F_OFFSET UNITYSDK_OFFSET(0x1720AEB0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROPSPAWNERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1720AEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierPropSpawnerParam_TypeDefinitionIndex = 16680;
+	inline static constexpr unsigned int FiveDimGrenadierPropSpawnerParam_TypeDefinitionIndex = 17055;
 
 	class FiveDimGrenadierPropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
@@ -33,8 +34,11 @@ namespace RPG::GameCore
 		::System::Single LaunchSpeed; // 0x3C
 		::System::Boolean EnableOverrideProjectileConfigList; // 0x40
 		::Il2CppArray<::RPG::GameCore::FiveDimGrenadierProjectileConfig*>* ProjectileConfigList; // 0x48
-		::System::UInt32 CurveConfigID; // 0x50
-		::RPG::GameCore::FiveDimOrthoDirection Direction; // 0x54
+		::RPG::GameCore::FiveDimOrthoDirection Direction; // 0x50
+		::RPG::GameCore::FiveDimGrenadierTargetType TargetType; // 0x54
+		::System::UInt32 CustomTargetID; // 0x58
+		::System::Single StartOffset; // 0x5C
+		::System::Single EndOffset; // 0x60
 
 		::System::Void _ctor()
 		{

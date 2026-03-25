@@ -13,11 +13,11 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_MODULEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA290E60)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_MODULEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA7CB910)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_ModuleData_TypeDefinitionIndex = 41009;
+	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_ModuleData_TypeDefinitionIndex = 42052;
 
 	class BGCurvePCG_LinearModuleGenerator_ModuleData : public ::System::Object
 	{

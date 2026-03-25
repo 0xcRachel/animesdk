@@ -8,19 +8,19 @@ namespace MiHoYo::SDK::HoYoPass { class UserCenterManager___c__DisplayClass13_0;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15840130)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__OPEN_B__1_OFFSET UNITYSDK_OFFSET(0x158401B0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__OPEN_B__2_OFFSET UNITYSDK_OFFSET(0x158408C0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15F25C90)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__OPEN_B__1_OFFSET UNITYSDK_OFFSET(0x15F25D10)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_1__OPEN_B__2_OFFSET UNITYSDK_OFFSET(0x15F26420)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c__DisplayClass13_1_TypeDefinitionIndex = 7140;
+	inline static constexpr unsigned int UserCenterManager___c__DisplayClass13_1_TypeDefinitionIndex = 7265;
 
 	class UserCenterManager___c__DisplayClass13_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::UserCenterManager___c__DisplayClass13_0* CS___8__locals1; // 0x10
-		::System::Action_1<::MiHoYo::SDK::Web*>* __9__2; // 0x18
+		::System::Action_1<::MiHoYo::SDK::Web*>* __9__2; // 0x10
+		::MiHoYo::SDK::HoYoPass::UserCenterManager___c__DisplayClass13_0* CS___8__locals1; // 0x18
 		::System::String* cookieToken; // 0x20
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode ret; // 0x28
 

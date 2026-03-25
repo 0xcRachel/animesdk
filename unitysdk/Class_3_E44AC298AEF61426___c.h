@@ -3,37 +3,37 @@
 #include "unitysdk/Struct_2_09BA741879A02AC6.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_280;
+class Class_1_FA4F4A67B1C04320_303;
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_3_E44AC298AEF61426___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10B9D440)
-#define CLASS_3_E44AC298AEF61426___C__CLEARMESSAGESBEFORE_B__20_0_OFFSET UNITYSDK_OFFSET(0x10B9D4B0)
-#define CLASS_3_E44AC298AEF61426___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10B9D480)
-#define CLASS_3_E44AC298AEF61426___C__FETCHINPUTNOTIFYMESSAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x10B9D4D0)
-#define CLASS_3_E44AC298AEF61426___C___BUILDPLAYERDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x10B9D490)
+#define CLASS_3_E44AC298AEF61426___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x87310A0)
+#define CLASS_3_E44AC298AEF61426___C__CLEARMESSAGESBEFORE_B__20_0_OFFSET UNITYSDK_OFFSET(0x8731110)
+#define CLASS_3_E44AC298AEF61426___C__CTOR_OFFSET UNITYSDK_OFFSET(0x87310E0)
+#define CLASS_3_E44AC298AEF61426___C__FETCHINPUTNOTIFYMESSAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x8731130)
+#define CLASS_3_E44AC298AEF61426___C___BUILDPLAYERDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x87310F0)
 
-inline static constexpr unsigned int Class_3_E44AC298AEF61426___c_TypeDefinitionIndex = 60346;
+inline static constexpr unsigned int Class_3_E44AC298AEF61426___c_TypeDefinitionIndex = 62324;
 
 class Class_3_E44AC298AEF61426___c : public ::System::Object
 {
 public:
-	static ::System::Func_4<::Struct_2_09BA741879A02AC6, ::System::UInt16, ::System::UInt16, ::System::Boolean>** StaticGet___9__33_0()
+	static ::System::Func_2<::Class_1_FA4F4A67B1C04320_303*, ::System::UInt32>** StaticGet___9__7_0()
 	{
-		return (::System::Func_4<::Struct_2_09BA741879A02AC6, ::System::UInt16, ::System::UInt16, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x45BB0);
-	}
-	static ::System::Func_2<::Class_1_FA4F4A67B1C04320_280*, ::System::UInt32>** StaticGet___9__7_0()
-	{
-		return (::System::Func_2<::Class_1_FA4F4A67B1C04320_280*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x45BB8);
+		return (::System::Func_2<::Class_1_FA4F4A67B1C04320_303*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x263E0);
 	}
 	static ::Class_3_E44AC298AEF61426___c** StaticGet___9()
 	{
-		return (::Class_3_E44AC298AEF61426___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x45BC0);
+		return (::Class_3_E44AC298AEF61426___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x263E8);
 	}
 	static ::System::Func_3<::Struct_2_09BA741879A02AC6, ::System::UInt64, ::System::Boolean>** StaticGet___9__20_0()
 	{
-		return (::System::Func_3<::Struct_2_09BA741879A02AC6, ::System::UInt64, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x45BC8);
+		return (::System::Func_3<::Struct_2_09BA741879A02AC6, ::System::UInt64, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x263F0);
+	}
+	static ::System::Func_4<::Struct_2_09BA741879A02AC6, ::System::UInt16, ::System::UInt16, ::System::Boolean>** StaticGet___9__33_0()
+	{
+		return (::System::Func_4<::Struct_2_09BA741879A02AC6, ::System::UInt16, ::System::UInt16, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_E44AC298AEF61426___c_TypeDefinitionIndex)->GetStaticField(0x263F8);
 	}
 
 	static ::System::Void _cctor()
@@ -46,9 +46,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E44AC298AEF61426___C__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 __BuildPlayerData_b__7_0(::Class_1_FA4F4A67B1C04320_280* x)
+	::System::UInt32 __BuildPlayerData_b__7_0(::Class_1_FA4F4A67B1C04320_303* x)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_280*))((::PBYTE)hIl2Cpp + CLASS_3_E44AC298AEF61426___C___BUILDPLAYERDATA_B__7_0_OFFSET))(this, x);
+		return ((::System::UInt32(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_303*))((::PBYTE)hIl2Cpp + CLASS_3_E44AC298AEF61426___C___BUILDPLAYERDATA_B__7_0_OFFSET))(this, x);
 	}
 
 	::System::Boolean _ClearMessagesBefore_b__20_0(::Struct_2_09BA741879A02AC6 msg, ::System::UInt64 sid)

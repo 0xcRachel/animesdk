@@ -3,7 +3,7 @@
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int SnapStatus_TypeDefinitionIndex = 37526;
+	inline static constexpr unsigned int SnapStatus_TypeDefinitionIndex = 38490;
 
 	enum class SnapStatus : ::System::Int32
 	{

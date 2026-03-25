@@ -4,24 +4,22 @@
 
 namespace System { class String; }
 
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTART_OFFSET UNITYSDK_OFFSET(0x15676050)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x15676080)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15676090)
-#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15676010)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTART_OFFSET UNITYSDK_OFFSET(0x15D638F0)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE_FORMATTERDYNAMICALLYGENERATEDSTOP_OFFSET UNITYSDK_OFFSET(0x15D7B270)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D7B280)
+#define MESSAGEPACK_MESSAGEPACKEVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x15D7B230)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 9409;
+	inline static constexpr unsigned int MessagePackEventSource_TypeDefinitionIndex = 9023;
 
 	class MessagePackEventSource : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:
 		static ::MessagePack::MessagePackEventSource** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackEventSource**)Il2CppClass::FromTypeDefinitionIndex(MessagePackEventSource_TypeDefinitionIndex)->GetStaticField(0x24BB0);
+			return (::MessagePack::MessagePackEventSource**)Il2CppClass::FromTypeDefinitionIndex(MessagePackEventSource_TypeDefinitionIndex)->GetStaticField(0x19A10);
 		}
-		// static const ::System::Int32 FormatterDynamicallyGeneratedStartEvent = 0x1; // 0x0
-		// static const ::System::Int32 FormatterDynamicallyGeneratedStopEvent = 0x2; // 0x0
 
 		::System::Void _ctor()
 		{

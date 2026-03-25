@@ -8,7 +8,7 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_DA3382F1929EE34F_TypeDefinitionIndex = 44307;
+inline static constexpr unsigned int Struct_2_DA3382F1929EE34F_TypeDefinitionIndex = 45368;
 
 struct alignas(8) Struct_2_DA3382F1929EE34F
 {

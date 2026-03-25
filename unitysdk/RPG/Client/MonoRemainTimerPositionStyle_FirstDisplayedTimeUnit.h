@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit_TypeDefinitionIndex = 57870;
+	inline static constexpr unsigned int MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit_TypeDefinitionIndex = 59498;
 
 	enum class MonoRemainTimerPositionStyle_FirstDisplayedTimeUnit : ::System::Int32
 	{

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class RogueChestGridItem; }
 namespace RPG::GameCore { class RogueChestModifierEvent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUECHESTMAPCONFIG_METHOD_2_A068E300B1EE4746_OFFSET UNITYSDK_OFFSET(0x16E20780)
-#define RPG_GAMECORE_ROGUECHESTMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E20AB0)
+#define RPG_GAMECORE_ROGUECHESTMAPCONFIG_METHOD_2_A068E300B1EE4746_OFFSET UNITYSDK_OFFSET(0x175FDD20)
+#define RPG_GAMECORE_ROGUECHESTMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175FE050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueChestMapConfig_TypeDefinitionIndex = 16091;
+	inline static constexpr unsigned int RogueChestMapConfig_TypeDefinitionIndex = 16456;
 
 	class RogueChestMapConfig : public ::RPG::GameCore::JsonConfig
 	{

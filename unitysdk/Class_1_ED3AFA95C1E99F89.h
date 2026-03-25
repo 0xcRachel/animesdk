@@ -7,11 +7,11 @@ namespace RPG::GameCore { class TextJoinConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_ED3AFA95C1E99F89_METHOD_1_701E3C1ECA0CCEE6_OFFSET UNITYSDK_OFFSET(0x83F9C30)
-#define CLASS_1_ED3AFA95C1E99F89_METHOD_1_7CF1517F98DDE022_OFFSET UNITYSDK_OFFSET(0x83F9A00)
-#define CLASS_1_ED3AFA95C1E99F89__CTOR_OFFSET UNITYSDK_OFFSET(0x83F99F0)
+#define CLASS_1_ED3AFA95C1E99F89_METHOD_1_7CF1517F98DDE022_OFFSET UNITYSDK_OFFSET(0x10B119C0)
+#define CLASS_1_ED3AFA95C1E99F89_METHOD_1_E8D9C51A90BA2B74_OFFSET UNITYSDK_OFFSET(0x10B11BF0)
+#define CLASS_1_ED3AFA95C1E99F89__CTOR_OFFSET UNITYSDK_OFFSET(0x10B119B0)
 
-inline static constexpr unsigned int Class_1_ED3AFA95C1E99F89_TypeDefinitionIndex = 59399;
+inline static constexpr unsigned int Class_1_ED3AFA95C1E99F89_TypeDefinitionIndex = 61152;
 
 class Class_1_ED3AFA95C1E99F89 : public ::System::Object
 {
@@ -28,8 +28,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TextJoinConfigRow*))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_METHOD_1_7CF1517F98DDE022_OFFSET))(this, a1);
 	}
 
-	::System::String* Method_1_701E3C1ECA0CCEE6()
+	::System::String* Method_1_E8D9C51A90BA2B74()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_METHOD_1_701E3C1ECA0CCEE6_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_ED3AFA95C1E99F89_METHOD_1_E8D9C51A90BA2B74_OFFSET))(this);
 	}
 };

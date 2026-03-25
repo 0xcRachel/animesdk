@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineAsset_TimelineAssetUpgrade_TypeDefinitionIndex = 28958;
+	inline static constexpr unsigned int TimelineAsset_TimelineAssetUpgrade_TypeDefinitionIndex = 29833;
 
 	class TimelineAsset_TimelineAssetUpgrade : public ::System::Object
 	{

@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageOptions; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156DCBE0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156DCC20)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEOPTIONS___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x156DCC30)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DCD400)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCD440)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEOPTIONS___C___CCTOR_B__44_0_OFFSET UNITYSDK_OFFSET(0x15DCD450)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageOptions___c_TypeDefinitionIndex = 27340;
+	inline static constexpr unsigned int MessageOptions___c_TypeDefinitionIndex = 28076;
 
 	class MessageOptions___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageOptions___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::MessageOptions___c**)Il2CppClass::FromTypeDefinitionIndex(MessageOptions___c_TypeDefinitionIndex)->GetStaticField(0x29170);
+			return (::MiHoYo::SDK::Protobuf::Reflection::MessageOptions___c**)Il2CppClass::FromTypeDefinitionIndex(MessageOptions___c_TypeDefinitionIndex)->GetStaticField(0x26FD0);
 		}
 
 		static ::System::Void _cctor()

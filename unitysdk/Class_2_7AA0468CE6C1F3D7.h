@@ -6,52 +6,52 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_0_16E4307DCC419505_304;
+class Class_0_16E4307DCC419505_338;
 class Class_1_B086460A47690D65;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define CLASS_2_7AA0468CE6C1F3D7_CLEAR_OFFSET UNITYSDK_OFFSET(0xFF07880)
-#define CLASS_2_7AA0468CE6C1F3D7_METHOD_2_3C8305164A0C9B06_OFFSET UNITYSDK_OFFSET(0xFF07730)
-#define CLASS_2_7AA0468CE6C1F3D7__CCTOR_OFFSET UNITYSDK_OFFSET(0xFF07930)
-#define CLASS_2_7AA0468CE6C1F3D7__CTOR_OFFSET UNITYSDK_OFFSET(0xFF078F0)
+#define CLASS_2_7AA0468CE6C1F3D7_CLEAR_OFFSET UNITYSDK_OFFSET(0xA9B95B0)
+#define CLASS_2_7AA0468CE6C1F3D7_METHOD_2_3C8305164A0C9B06_OFFSET UNITYSDK_OFFSET(0xA9B9440)
+#define CLASS_2_7AA0468CE6C1F3D7__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9B9660)
+#define CLASS_2_7AA0468CE6C1F3D7__CTOR_OFFSET UNITYSDK_OFFSET(0xA9B9620)
 
-inline static constexpr unsigned int Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex = 43692;
+inline static constexpr unsigned int Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex = 44748;
 
 class Class_2_7AA0468CE6C1F3D7 : public ::Class_1_AD314FA3A58751E4<::Class_2_7AA0468CE6C1F3D7*>
 {
 public:
 	static ::Class_2_7AA0468CE6C1F3D7** StaticGet_Field_2_0()
 	{
-		return (::Class_2_7AA0468CE6C1F3D7**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex)->GetStaticField(0x1A570);
+		return (::Class_2_7AA0468CE6C1F3D7**)Il2CppClass::FromTypeDefinitionIndex(Class_2_7AA0468CE6C1F3D7_TypeDefinitionIndex)->GetStaticField(0x48A10);
 	}
-	::RPG::GameCore::TurnBasedModifierInstance* Field_2_14; // 0x18
-	::System::String* Field_2_11; // 0x20
-	::Class_0_16E4307DCC419505_304* Field_2_25; // 0x28
-	::RPG::GameCore::GameEntity* Field_2_24; // 0x30
-	::System::String* Field_2_3; // 0x38
-	::Class_1_B086460A47690D65* Field_2_12; // 0x40
-	::System::Nullable_1<::System::Int32> Field_2_6; // 0x48
-	::System::Boolean Field_2_4; // 0x50
-	::System::Boolean Field_2_21; // 0x51
-	::System::Boolean Field_2_1; // 0x52
-	::System::Boolean Field_2_2; // 0x53
-	::System::Single Field_2_15; // 0x54
-	::RPG::MVector3 Field_2_18; // 0x58
-	::System::Boolean Field_2_17; // 0x64
-	::System::Boolean Field_2_20; // 0x65
-	::System::Boolean Field_2_5; // 0x66
-	::RPG::GameCore::ModifierStackingFlag Field_2_13; // 0x68
-	::System::Boolean Field_2_19; // 0x6C
-	::System::Boolean Field_2_23; // 0x6D
-	::System::Single Field_2_22; // 0x70
-	::System::Nullable_1<::System::Int32> Field_2_9; // 0x74
-	::System::Nullable_1<::System::Int32> Field_2_8; // 0x7C
-	::System::Nullable_1<::System::Int32> Field_2_10; // 0x84
-	::System::Nullable_1<::System::Int32> Field_2_7; // 0x8C
-	::System::Single Field_2_16; // 0x94
-	::RPG::GameCore::ModifierAddReason Field_2_26; // 0x98
+	::RPG::GameCore::GameEntity* Field_2_24; // 0x18
+	::System::String* Field_2_3; // 0x20
+	::Class_1_B086460A47690D65* Field_2_12; // 0x28
+	::System::String* Field_2_11; // 0x30
+	::RPG::GameCore::TurnBasedModifierInstance* Field_2_14; // 0x38
+	::Class_0_16E4307DCC419505_338* Field_2_25; // 0x40
+	::System::Nullable_1<::System::Int32> Field_2_7; // 0x48
+	::System::Single Field_2_16; // 0x50
+	::RPG::GameCore::ModifierAddReason Field_2_26; // 0x54
+	::RPG::GameCore::ModifierStackingFlag Field_2_13; // 0x58
+	::RPG::MVector3 Field_2_18; // 0x5C
+	::System::Single Field_2_22; // 0x68
+	::System::Nullable_1<::System::Int32> Field_2_9; // 0x6C
+	::System::Single Field_2_15; // 0x74
+	::System::Boolean Field_2_2; // 0x78
+	::System::Boolean Field_2_5; // 0x79
+	::System::Nullable_1<::System::Int32> Field_2_10; // 0x7C
+	::System::Boolean Field_2_21; // 0x84
+	::System::Boolean Field_2_1; // 0x85
+	::System::Boolean Field_2_23; // 0x86
+	::System::Boolean Field_2_20; // 0x87
+	::System::Nullable_1<::System::Int32> Field_2_6; // 0x88
+	::System::Boolean Field_2_19; // 0x90
+	::System::Boolean Field_2_4; // 0x91
+	::System::Boolean Field_2_17; // 0x92
+	::System::Nullable_1<::System::Int32> Field_2_8; // 0x94
 
 	::System::Void _ctor()
 	{

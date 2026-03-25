@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_4_8539D14B8E50A260_OFFSET UNITYSDK_OFFSET(0x171026C0)
-#define RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_4_E8A6455823819839_OFFSET UNITYSDK_OFFSET(0x17102790)
-#define RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17102740)
+#define RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_5_808C200923294942_OFFSET UNITYSDK_OFFSET(0x178BE540)
+#define RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_5_A4766245E5C523F0_OFFSET UNITYSDK_OFFSET(0x178BE410)
+#define RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178BE4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCondFalseConfig_TypeDefinitionIndex = 16223;
+	inline static constexpr unsigned int TrainPartyCondFalseConfig_TypeDefinitionIndex = 16596;
 
 	class TrainPartyCondFalseConfig : public ::RPG::GameCore::TrainPartyConditionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8539D14B8E50A260(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondFalseConfig*& a2)
+		static ::System::Void Method_5_A4766245E5C523F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondFalseConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondFalseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_4_8539D14B8E50A260_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondFalseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_5_A4766245E5C523F0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E8A6455823819839(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondFalseConfig* a2)
+		static ::System::Void Method_5_808C200923294942(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCondFalseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_4_E8A6455823819839_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCONDFALSECONFIG_METHOD_5_808C200923294942_OFFSET))(a1, a2);
 		}
 	};
 }

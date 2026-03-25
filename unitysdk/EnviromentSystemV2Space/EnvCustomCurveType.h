@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvCustomCurveType_TypeDefinitionIndex = 39103;
+	inline static constexpr unsigned int EnvCustomCurveType_TypeDefinitionIndex = 40083;
 
 	enum class EnvCustomCurveType : ::System::Int32
 	{

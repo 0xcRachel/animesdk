@@ -11,31 +11,31 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_681989098607FC23_OFFSET UNITYSDK_OFFSET(0x11151450)
-#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_9256B4946C27AD99_OFFSET UNITYSDK_OFFSET(0x11151C10)
-#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_CD7E3482DD97228D_OFFSET UNITYSDK_OFFSET(0x11151A90)
-#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_D7BA759F99E4AE12_OFFSET UNITYSDK_OFFSET(0x11151B20)
-#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x11151BC0)
-#define CLASS_2_9C9B343BAD38C7E4__CTOR_OFFSET UNITYSDK_OFFSET(0x11151C30)
-#define CLASS_2_9C9B343BAD38C7E4__ONBIND_OFFSET UNITYSDK_OFFSET(0x11151160)
-#define CLASS_2_9C9B343BAD38C7E4___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x11151C60)
+#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_681989098607FC23_OFFSET UNITYSDK_OFFSET(0x8CD60C0)
+#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_9256B4946C27AD99_OFFSET UNITYSDK_OFFSET(0x8CD67F0)
+#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_CD7E3482DD97228D_OFFSET UNITYSDK_OFFSET(0x8CD6670)
+#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_D7BA759F99E4AE12_OFFSET UNITYSDK_OFFSET(0x8CD6700)
+#define CLASS_2_9C9B343BAD38C7E4_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x8CD67A0)
+#define CLASS_2_9C9B343BAD38C7E4__CTOR_OFFSET UNITYSDK_OFFSET(0x8CD6810)
+#define CLASS_2_9C9B343BAD38C7E4__ONBIND_OFFSET UNITYSDK_OFFSET(0x8CD5A10)
+#define CLASS_2_9C9B343BAD38C7E4___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x8CD6840)
 
-inline static constexpr unsigned int Class_2_9C9B343BAD38C7E4_TypeDefinitionIndex = 56845;
+inline static constexpr unsigned int Class_2_9C9B343BAD38C7E4_TypeDefinitionIndex = 58434;
 
 class Class_2_9C9B343BAD38C7E4 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::UI::Text* Field_2_5; // 0x60
-	::UnityEngine::Transform* Field_2_8; // 0x68
-	::UnityEngine::Transform* Field_2_7; // 0x70
-	::UnityEngine::UI::Text* Field_2_1; // 0x78
-	::UnityEngine::UI::Text* Field_2_2; // 0x80
-	::UnityEngine::UI::Text* Field_2_3; // 0x88
-	::UnityEngine::Animation* Field_2_10; // 0x90
-	::UnityEngine::Transform* Field_2_9; // 0x98
-	::UnityEngine::Transform* Field_2_6; // 0xA0
-	::UnityEngine::UI::Text* Field_2_4; // 0xA8
-	::UnityEngine::UI::Image* Field_2_0; // 0xB0
+	::UnityEngine::Transform* Field_2_9; // 0x60
+	::UnityEngine::UI::Text* Field_2_3; // 0x68
+	::UnityEngine::UI::Text* Field_2_1; // 0x70
+	::UnityEngine::Transform* Field_2_6; // 0x78
+	::UnityEngine::Animation* Field_2_10; // 0x80
+	::UnityEngine::Transform* Field_2_7; // 0x88
+	::UnityEngine::UI::Text* Field_2_2; // 0x90
+	::UnityEngine::UI::Image* Field_2_0; // 0x98
+	::UnityEngine::UI::Text* Field_2_4; // 0xA0
+	::UnityEngine::Transform* Field_2_8; // 0xA8
+	::UnityEngine::UI::Text* Field_2_5; // 0xB0
 
 	::System::Void _ctor()
 	{

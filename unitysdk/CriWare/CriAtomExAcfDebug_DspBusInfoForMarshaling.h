@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x146A330)
+#define CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x14F7D30)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_DspBusInfoForMarshaling_TypeDefinitionIndex = 30329;
+	inline static constexpr unsigned int CriAtomExAcfDebug_DspBusInfoForMarshaling_TypeDefinitionIndex = 31204;
 
 	struct alignas(8) CriAtomExAcfDebug_DspBusInfoForMarshaling
 	{

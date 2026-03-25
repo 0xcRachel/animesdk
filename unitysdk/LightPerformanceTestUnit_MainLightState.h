@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LightPerformanceTestUnit_MainLightState_TypeDefinitionIndex = 37256;
+inline static constexpr unsigned int LightPerformanceTestUnit_MainLightState_TypeDefinitionIndex = 38220;
 
 enum class LightPerformanceTestUnit_MainLightState : ::System::Int32
 {

@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define CLASS_2_A26EE818BFB0B010__CTOR_OFFSET UNITYSDK_OFFSET(0x10342DA0)
+#define CLASS_2_A26EE818BFB0B010__CTOR_OFFSET UNITYSDK_OFFSET(0x11675090)
 
-inline static constexpr unsigned int Class_2_A26EE818BFB0B010_TypeDefinitionIndex = 40882;
+inline static constexpr unsigned int Class_2_A26EE818BFB0B010_TypeDefinitionIndex = 41930;
 
 class Class_2_A26EE818BFB0B010 : public ::Sofa::Core::ObservableObject
 {
 public:
-	::System::String* Field_2_2; // 0x18
-	::System::String* Field_2_1; // 0x20
+	::System::String* Field_2_1; // 0x18
+	::System::String* Field_2_2; // 0x20
 	::System::UInt32 Field_2_0; // 0x28
 
 	::System::Void _ctor(::System::UInt32 a1)

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORYPRIORITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x112CFA50)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORYPRIORITYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A57860)
 
 namespace CriWare::CriMana::Detail
 {
-	inline static constexpr unsigned int RendererResourceFactoryPriorityAttribute_TypeDefinitionIndex = 30375;
+	inline static constexpr unsigned int RendererResourceFactoryPriorityAttribute_TypeDefinitionIndex = 31250;
 
 	class RendererResourceFactoryPriorityAttribute : public ::System::Attribute
 	{

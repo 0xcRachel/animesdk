@@ -6,26 +6,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSAEONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA5C20)
-#define RPG_GAMECORE_ROGUENOUSAEONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA6430)
+#define RPG_GAMECORE_ROGUENOUSAEONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17651240)
+#define RPG_GAMECORE_ROGUENOUSAEONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17651A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousAeonRow_TypeDefinitionIndex = 13575;
+	inline static constexpr unsigned int RogueNousAeonRow_TypeDefinitionIndex = 13653;
 
 	class RogueNousAeonRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EffectParam1; // 0x10
-		::RPG::Client::TextID EffectDesc1; // 0x18
-		::System::UInt32 Sort; // 0x28
-		::System::UInt32 AeonID; // 0x2C
-		::System::UInt32 DisplayID; // 0x30
-		::RPG::GameCore::ModifierEffectType EffectType1; // 0x34
-		::System::UInt32 BattleEventBuffGroup; // 0x38
-		::System::UInt32 UnlockID; // 0x3C
-		::System::UInt32 RogueBuffType; // 0x40
-		::System::UInt32 BattleEventEnhanceBuffGroup; // 0x44
+		::System::UInt32 BattleEventBuffGroup; // 0x18
+		::System::UInt32 BattleEventEnhanceBuffGroup; // 0x1C
+		::RPG::GameCore::ModifierEffectType EffectType1; // 0x20
+		::System::UInt32 UnlockID; // 0x24
+		::System::UInt32 RogueBuffType; // 0x28
+		::System::UInt32 DisplayID; // 0x2C
+		::System::UInt32 Sort; // 0x30
+		::System::UInt32 AeonID; // 0x34
+		::RPG::Client::TextID EffectDesc1; // 0x38
 
 		::System::Void _ctor()
 		{

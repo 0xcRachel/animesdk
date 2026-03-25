@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOROTATABLEREGIONPOSEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x985D350)
+#define RPG_CLIENT_MONOROTATABLEREGIONPOSEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9D3F980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRotatableRegionPoseInfo_TypeDefinitionIndex = 54846;
+	inline static constexpr unsigned int MonoRotatableRegionPoseInfo_TypeDefinitionIndex = 56407;
 
 	class MonoRotatableRegionPoseInfo : public ::UnityEngine::MonoBehaviour
 	{

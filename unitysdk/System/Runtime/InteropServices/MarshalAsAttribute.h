@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x15CC9BF0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x163923C0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int MarshalAsAttribute_TypeDefinitionIndex = 1422;
+	inline static constexpr unsigned int MarshalAsAttribute_TypeDefinitionIndex = 1427;
 
 	class MarshalAsAttribute : public ::System::Attribute
 	{

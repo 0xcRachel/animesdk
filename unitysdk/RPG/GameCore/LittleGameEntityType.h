@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEntityType_TypeDefinitionIndex = 16882;
+	inline static constexpr unsigned int LittleGameEntityType_TypeDefinitionIndex = 17287;
 
 	enum class LittleGameEntityType : ::System::Int32
 	{
@@ -27,6 +27,7 @@ namespace RPG::GameCore
 		FiveDimLevelCamera = 40105,
 		FiveDimStage = 40106,
 		FiveDimMusicDirector = 40107,
+		FiveDimDanmuManager = 40108,
 		FiveDimWindowController = 40110,
 		FiveDimWindow = 40111,
 		FiveDimWindowSlot = 40112,
@@ -70,5 +71,9 @@ namespace RPG::GameCore
 		FourRotateVoxelPlayer = 40203,
 		FourRotateVoxelCamera = 40204,
 		FourRotateVoxelProp = 40205,
+		RPGDemoField = 41101,
+		RPGDemoBall = 41102,
+		RPGDemoBlock = 41103,
+		RPGDemoPlayerBall = 41104,
 	};
 }

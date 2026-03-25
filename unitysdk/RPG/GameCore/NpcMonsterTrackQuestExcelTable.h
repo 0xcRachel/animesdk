@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16D05480)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16D052D0)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16D04FA0)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16D05270)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16D05650)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D05020)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16D05690)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D05870)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16D05A30)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D05D90)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16D057D0)
-#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D05730)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1748BD20)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1748BB70)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1748B840)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1748BB10)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1748BEF0)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1748B8C0)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1748BF30)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1748C110)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1748C2D0)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1748C630)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1748C070)
+#define RPG_GAMECORE_NPCMONSTERTRACKQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1748BFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex = 13234;
+	inline static constexpr unsigned int NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex = 13308;
 
 	class NpcMonsterTrackQuestExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::NpcMonsterTrackQuestRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::NpcMonsterTrackQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x3C470);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x3C478);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x36840);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::NpcMonsterTrackQuestRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::NpcMonsterTrackQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x36848);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x3C480);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x36850);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xE710);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xD6E0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xE711);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NpcMonsterTrackQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xD6E1);
 		}
 
 		static ::System::Void _cctor()

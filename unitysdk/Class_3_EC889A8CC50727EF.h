@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHasSecretWeak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EC889A8CC50727EF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10CF1420)
-#define CLASS_3_EC889A8CC50727EF__CTOR_OFFSET UNITYSDK_OFFSET(0x10CF13F0)
+#define CLASS_3_EC889A8CC50727EF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x99D9E30)
+#define CLASS_3_EC889A8CC50727EF__CTOR_OFFSET UNITYSDK_OFFSET(0x99D9E00)
 
-inline static constexpr unsigned int Class_3_EC889A8CC50727EF_TypeDefinitionIndex = 42644;
+inline static constexpr unsigned int Class_3_EC889A8CC50727EF_TypeDefinitionIndex = 43694;
 
 class Class_3_EC889A8CC50727EF : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHasSecretWeak*>
 {

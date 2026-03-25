@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class AutoTestLoginManager___c__DisplayClass8_0; }
 
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_1__COMBOLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x15990850)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15990840)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_1__COMBOLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1605F6A0)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1605F690)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass8_1_TypeDefinitionIndex = 7755;
+	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass8_1_TypeDefinitionIndex = 7878;
 
 	class AutoTestLoginManager___c__DisplayClass8_1 : public ::System::Object
 	{

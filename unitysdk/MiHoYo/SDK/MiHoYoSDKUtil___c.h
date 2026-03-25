@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x81EDE10)
-#define MIHOYO_SDK_MIHOYOSDKUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x81EDE50)
-#define MIHOYO_SDK_MIHOYOSDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x81EDFC0)
-#define MIHOYO_SDK_MIHOYOSDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET UNITYSDK_OFFSET(0x81EDF10)
-#define MIHOYO_SDK_MIHOYOSDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET UNITYSDK_OFFSET(0x81EDE60)
+#define MIHOYO_SDK_MIHOYOSDKUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x853CCC0)
+#define MIHOYO_SDK_MIHOYOSDKUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x853CD00)
+#define MIHOYO_SDK_MIHOYOSDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x853CE70)
+#define MIHOYO_SDK_MIHOYOSDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET UNITYSDK_OFFSET(0x853CDC0)
+#define MIHOYO_SDK_MIHOYOSDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET UNITYSDK_OFFSET(0x853CD10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUtil___c_TypeDefinitionIndex = 36305;
+	inline static constexpr unsigned int MiHoYoSDKUtil___c_TypeDefinitionIndex = 37241;
 
 	class MiHoYoSDKUtil___c : public ::System::Object
 	{
 	public:
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x10D00);
+		}
 		static ::MiHoYo::SDK::MiHoYoSDKUtil___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKUtil___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x41840);
+			return (::MiHoYo::SDK::MiHoYoSDKUtil___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x10D08);
 		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x41848);
-		}
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x41850);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x10D10);
 		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x41858);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x10D18);
 		}
 
 		static ::System::Void _cctor()

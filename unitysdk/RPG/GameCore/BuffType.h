@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BuffType_TypeDefinitionIndex = 11426;
+	inline static constexpr unsigned int BuffType_TypeDefinitionIndex = 11494;
 
 	enum class BuffType : ::System::Int32
 	{

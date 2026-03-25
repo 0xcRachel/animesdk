@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define INCONTROL_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x155032C0)
+#define INCONTROL_PRESERVEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C1D090)
 
 namespace InControl
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 30621;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 31496;
 
 	class PreserveAttribute : public ::System::Attribute
 	{

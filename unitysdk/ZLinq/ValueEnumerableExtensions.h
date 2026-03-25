@@ -2,7 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Index.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/ZLinq/Linq/ArraySelectWhere_2.h"
 #include "unitysdk/ZLinq/Linq/ArraySelect_2.h"
+#include "unitysdk/ZLinq/Linq/ArrayWhere_1.h"
 #include "unitysdk/ZLinq/Linq/Concat_3.h"
 #include "unitysdk/ZLinq/Linq/Distinct_2.h"
 #include "unitysdk/ZLinq/Linq/Except_3.h"
@@ -13,6 +15,7 @@
 #include "unitysdk/ZLinq/Linq/ListSelect_2.h"
 #include "unitysdk/ZLinq/Linq/ListWhereSelect_2.h"
 #include "unitysdk/ZLinq/Linq/ListWhere_1.h"
+#include "unitysdk/ZLinq/Linq/OrderBySkipTake_3.h"
 #include "unitysdk/ZLinq/Linq/OrderBy_3.h"
 #include "unitysdk/ZLinq/Linq/Select2_3.h"
 #include "unitysdk/ZLinq/Linq/SelectMany_3.h"
@@ -37,7 +40,7 @@ namespace ZLinq::Internal { template <typename T> class HashSetSlim_1; }
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6369;
+	inline static constexpr unsigned int ValueEnumerableExtensions_TypeDefinitionIndex = 6470;
 
 	class ValueEnumerableExtensions : public ::System::Object
 	{

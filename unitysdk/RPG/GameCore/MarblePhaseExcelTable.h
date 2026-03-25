@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16C43BD0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16C43A20)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16C436F0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16C439C0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16C43DA0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16C43770)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16C43DE0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C43FC0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16C44190)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C444F0)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16C43F20)
-#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16C43E80)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x173A8A40)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x173A8890)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x173A8560)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x173A8830)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x173A8C10)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x173A85E0)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x173A8C50)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x173A8E30)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x173A9000)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x173A9360)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x173A8D90)
+#define RPG_GAMECORE_MARBLEPHASEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x173A8CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePhaseExcelTable_TypeDefinitionIndex = 10837;
+	inline static constexpr unsigned int MarblePhaseExcelTable_TypeDefinitionIndex = 10905;
 
 	class MarblePhaseExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x36080);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarblePhaseRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarblePhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x36088);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarblePhaseRow*>**)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AA20);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x36090);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AA28);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AA30);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0xD190);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x9E10);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0xD191);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MarblePhaseExcelTable_TypeDefinitionIndex)->GetStaticField(0x9E11);
 		}
 
 		static ::System::Void _cctor()

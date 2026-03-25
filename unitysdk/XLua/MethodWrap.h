@@ -7,18 +7,18 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_METHODWRAP_CALL_OFFSET UNITYSDK_OFFSET(0xF849B30)
-#define XLUA_METHODWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0xF849AD0)
+#define XLUA_METHODWRAP_CALL_OFFSET UNITYSDK_OFFSET(0xFF7DB70)
+#define XLUA_METHODWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0xFF7DB10)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrap_TypeDefinitionIndex = 39478;
+	inline static constexpr unsigned int MethodWrap_TypeDefinitionIndex = 40494;
 
 	class MethodWrap : public ::System::Object
 	{
 	public:
-		::System::String* TypeName; // 0x10
-		::System::Collections::Generic::List_1<::XLua::OverloadMethodWrap*>* overloads; // 0x18
+		::System::Collections::Generic::List_1<::XLua::OverloadMethodWrap*>* overloads; // 0x10
+		::System::String* TypeName; // 0x18
 		::System::String* methodName; // 0x20
 		::System::Boolean TriggeredError; // 0x28
 		::System::Boolean forceCheck; // 0x29

@@ -5,12 +5,12 @@
 namespace RPG::Client { class SwitchHandCoinData; }
 namespace RPG::GameCore { class AdventureAfterPropStateChange; }
 
-#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FE4E60)
-#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0___ONPROPSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x9FE5B80)
+#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA507C90)
+#define RPG_CLIENT_SWITCHHANDCOINCONTAINER___C__DISPLAYCLASS13_0___ONPROPSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xA508920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwitchHandCoinContainer___c__DisplayClass13_0_TypeDefinitionIndex = 53942;
+	inline static constexpr unsigned int SwitchHandCoinContainer___c__DisplayClass13_0_TypeDefinitionIndex = 55494;
 
 	class SwitchHandCoinContainer___c__DisplayClass13_0 : public ::System::Object
 	{

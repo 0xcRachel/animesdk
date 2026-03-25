@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORLDDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17166010)
-#define RPG_GAMECORE_WORLDDATACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17166B80)
+#define RPG_GAMECORE_WORLDDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17922540)
+#define RPG_GAMECORE_WORLDDATACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x179230A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldDataConfigRow_TypeDefinitionIndex = 12729;
+	inline static constexpr unsigned int WorldDataConfigRow_TypeDefinitionIndex = 12800;
 
 	class WorldDataConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ChronicleWorldProcessingPath; // 0x10
-		::System::String* SmallWorldIconPath; // 0x18
-		::System::String* ChapterIconBigPath; // 0x20
-		::Il2CppArray<::RPG::GameCore::MapSpaceType>* MapSpaceTypeList; // 0x28
-		::System::String* ChronicleWorldPredictPath; // 0x30
-		::System::String* ChronicleWorldBgPath; // 0x38
-		::System::String* ChronicleWorldSubBgPath; // 0x40
-		::RPG::Client::TextID WorldName; // 0x48
-		::System::Single CameraHeight; // 0x58
-		::RPG::Client::TextID WorldDesc; // 0x60
+		::System::String* SmallWorldIconPath; // 0x10
+		::System::String* ChronicleWorldBgPath; // 0x18
+		::System::String* ChronicleWorldProcessingPath; // 0x20
+		::System::String* ChapterIconBigPath; // 0x28
+		::System::String* ChronicleWorldSubBgPath; // 0x30
+		::System::String* ChronicleWorldPredictPath; // 0x38
+		::Il2CppArray<::RPG::GameCore::MapSpaceType>* MapSpaceTypeList; // 0x40
+		::RPG::GameCore::MapSpaceType TrainSpaceType; // 0x48
+		::System::Single CameraHeight; // 0x4C
+		::System::UInt32 ID; // 0x50
+		::System::Single CameraWidth; // 0x54
+		::System::Boolean IsShow; // 0x58
+		::System::Boolean IsRealWorld; // 0x59
+		::RPG::Client::TextID WorldLanguageName; // 0x60
 		::RPG::Client::TextID SimpleWorldDesc; // 0x70
-		::System::Single CameraWidth; // 0x80
-		::System::Boolean IsRealWorld; // 0x84
-		::System::Boolean IsShow; // 0x85
-		::RPG::Client::TextID WorldLanguageName; // 0x88
-		::System::UInt32 ID; // 0x98
-		::RPG::GameCore::MapSpaceType TrainSpaceType; // 0x9C
+		::RPG::Client::TextID WorldName; // 0x80
+		::RPG::Client::TextID WorldDesc; // 0x90
 
 		::System::Void _ctor()
 		{

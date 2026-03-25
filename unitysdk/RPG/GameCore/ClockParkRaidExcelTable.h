@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x169AE070)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x169ADEC0)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x169ADB90)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x169ADE60)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x169AE1F0)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x169ADC10)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x169AE230)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x169AE410)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x169AE5A0)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x169AE8B0)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x169AE370)
-#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x169AE2D0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x170D01B0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x170D0000)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x170CFCD0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x170CFFA0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x170D0330)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x170CFD50)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x170D0370)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x170D0550)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x170D06E0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x170D09F0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x170D04B0)
+#define RPG_GAMECORE_CLOCKPARKRAIDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x170D0410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkRaidExcelTable_TypeDefinitionIndex = 10402;
+	inline static constexpr unsigned int ClockParkRaidExcelTable_TypeDefinitionIndex = 10472;
 
 	class ClockParkRaidExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x28C90);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x28C98);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C5B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkRaidRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkRaidRow*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x28CA0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkRaidRow*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C5B8);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C5C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x8C40);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0xC210);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0x8C41);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClockParkRaidExcelTable_TypeDefinitionIndex)->GetStaticField(0xC211);
 		}
 
 		static ::System::Void _cctor()

@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_B6A3FA7992F9F37E.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_875CD33404EE411E;
-namespace RPG::GameCore { class FiveDimContactEventEmitterConfig; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_103_TypeDefinitionIndex = 31507;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_103_TypeDefinitionIndex = 32313;
 
 class Class_0_16E4307DCC419505_103
 {

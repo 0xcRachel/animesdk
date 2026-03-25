@@ -7,31 +7,31 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_Config; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_AFTERINIT_OFFSET UNITYSDK_OFFSET(0x15ED8150)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x15ED86E0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15ED8660)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED8140)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_AFTERINIT_OFFSET UNITYSDK_OFFSET(0x1659FBB0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x165A0140)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165A00C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEFORMULAMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1659FBA0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveFormulaMath_TypeDefinitionIndex = 27449;
+	inline static constexpr unsigned int BGCurveFormulaMath_TypeDefinitionIndex = 28185;
 
 	class BGCurveFormulaMath : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath
 	{
 	public:
-		::Il2CppArray<::System::Single>* bakedT2x3; // 0x78
-		::Il2CppArray<::System::Single>* bakedT3; // 0x80
-		::Il2CppArray<::System::Single>* bakedT2xTrx3; // 0x88
-		::Il2CppArray<::System::Single>* bakedTr2; // 0x90
-		::Il2CppArray<::System::Single>* bakedTr2xTx3; // 0x98
-		::Il2CppArray<::System::Single>* bakedTxTrx6; // 0xA0
-		::Il2CppArray<::System::Single>* bakedT; // 0xA8
-		::Il2CppArray<::System::Single>* bakedTr3; // 0xB0
+		::Il2CppArray<::System::Single>* bakedTr2; // 0x78
+		::Il2CppArray<::System::Single>* bakedTrx2; // 0x80
+		::Il2CppArray<::System::Single>* bakedT2x3; // 0x88
+		::Il2CppArray<::System::Single>* bakedT2xTrx3; // 0x90
+		::Il2CppArray<::System::Single>* bakedTxTrx6; // 0x98
+		::Il2CppArray<::System::Single>* bakedT; // 0xA0
+		::Il2CppArray<::System::Single>* bakedTr2x3; // 0xA8
+		::Il2CppArray<::System::Single>* bakedT2; // 0xB0
 		::Il2CppArray<::System::Single>* bakedTxTrx2; // 0xB8
 		::Il2CppArray<::System::Single>* bakedTx2; // 0xC0
-		::Il2CppArray<::System::Single>* bakedTr2x3; // 0xC8
-		::Il2CppArray<::System::Single>* bakedTrx2; // 0xD0
-		::Il2CppArray<::System::Single>* bakedT2; // 0xD8
+		::Il2CppArray<::System::Single>* bakedTr3; // 0xC8
+		::Il2CppArray<::System::Single>* bakedT3; // 0xD0
+		::Il2CppArray<::System::Single>* bakedTr2xTx3; // 0xD8
 
 		::System::Void _ctor(::BansheeGz::BGSpline::Curve::BGCurve* curve, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config* config)
 		{

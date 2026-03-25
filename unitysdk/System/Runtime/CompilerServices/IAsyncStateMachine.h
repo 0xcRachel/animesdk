@@ -3,7 +3,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IAsyncStateMachine_TypeDefinitionIndex = 1346;
+	inline static constexpr unsigned int IAsyncStateMachine_TypeDefinitionIndex = 1351;
 
 	class IAsyncStateMachine
 	{

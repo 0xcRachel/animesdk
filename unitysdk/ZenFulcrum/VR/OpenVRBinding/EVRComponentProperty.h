@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRComponentProperty_TypeDefinitionIndex = 29425;
+	inline static constexpr unsigned int EVRComponentProperty_TypeDefinitionIndex = 30300;
 
 	enum class EVRComponentProperty : ::System::Int32
 	{

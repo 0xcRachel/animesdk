@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EAudiencePrefabSpecialTag_TypeDefinitionIndex = 54921;
+	inline static constexpr unsigned int EAudiencePrefabSpecialTag_TypeDefinitionIndex = 56483;
 
 	enum class EAudiencePrefabSpecialTag : ::System::Int32
 	{

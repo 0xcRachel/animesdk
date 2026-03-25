@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MATERIALGROUPASSET_RENDERERNAMEMATERIALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x96D8C00)
-#define RPG_CLIENT_MATERIALGROUPASSET_RENDERERNAMEMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x96D8B90)
+#define RPG_CLIENT_MATERIALGROUPASSET_RENDERERNAMEMATERIALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B7E720)
+#define RPG_CLIENT_MATERIALGROUPASSET_RENDERERNAMEMATERIALS__CTOR_OFFSET UNITYSDK_OFFSET(0x9B7E6B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialGroupAsset_RendererNameMaterials_TypeDefinitionIndex = 55563;
+	inline static constexpr unsigned int MaterialGroupAsset_RendererNameMaterials_TypeDefinitionIndex = 57127;
 
 	class MaterialGroupAsset_RendererNameMaterials : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Material*>** StaticGet_EMPTY_MATERIALS()
 		{
-			return (::Il2CppArray<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialGroupAsset_RendererNameMaterials_TypeDefinitionIndex)->GetStaticField(0x2F6C0);
+			return (::Il2CppArray<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialGroupAsset_RendererNameMaterials_TypeDefinitionIndex)->GetStaticField(0x45A90);
 		}
 		::System::String* rendererName; // 0x10
 		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x18

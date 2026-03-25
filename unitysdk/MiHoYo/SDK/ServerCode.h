@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x159326A0)
+#define MIHOYO_SDK_SERVERCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1600C0B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 6467;
+	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 6584;
 
 	class ServerCode : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_SUPPORTSCHILDTRACKSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1819BAD0)
+#define UNITYENGINE_TIMELINE_SUPPORTSCHILDTRACKSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189C43F0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int SupportsChildTracksAttribute_TypeDefinitionIndex = 29028;
+	inline static constexpr unsigned int SupportsChildTracksAttribute_TypeDefinitionIndex = 29903;
 
 	class SupportsChildTracksAttribute : public ::System::Attribute
 	{

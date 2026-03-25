@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167B4BD0)
-#define RPG_GAMECORE_ACTIVITYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167B4D30)
+#define RPG_GAMECORE_ACTIVITYTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F2B620)
+#define RPG_GAMECORE_ACTIVITYTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2B780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 10424;
+	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 10494;
 
 	class ActivityTagRow : public ::System::Object
 	{

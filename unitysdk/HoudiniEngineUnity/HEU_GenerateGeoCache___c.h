@@ -6,29 +6,29 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x80E54A0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x80E54E0)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GENERATELODMESHESFROMGEOGROUPS_B__65_0_OFFSET UNITYSDK_OFFSET(0x80E5510)
-#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GETFINALMATERIALSFROMCOMPARINGNEWWITHPREVIOUS_B__63_0_OFFSET UNITYSDK_OFFSET(0x80E54F0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x843CDB0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x843CDF0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GENERATELODMESHESFROMGEOGROUPS_B__65_0_OFFSET UNITYSDK_OFFSET(0x843CE20)
+#define HOUDINIENGINEUNITY_HEU_GENERATEGEOCACHE___C__GETFINALMATERIALSFROMCOMPARINGNEWWITHPREVIOUS_B__63_0_OFFSET UNITYSDK_OFFSET(0x843CE00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateGeoCache___c_TypeDefinitionIndex = 36881;
+	inline static constexpr unsigned int HEU_GenerateGeoCache___c_TypeDefinitionIndex = 37818;
 
 	class HEU_GenerateGeoCache___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Single>** StaticGet___9__65_0()
-		{
-			return (::System::Comparison_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___c_TypeDefinitionIndex)->GetStaticField(0x36BA0);
-		}
 		static ::System::Predicate_1<::UnityEngine::Material*>** StaticGet___9__63_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___c_TypeDefinitionIndex)->GetStaticField(0x36BA8);
+			return (::System::Predicate_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___c_TypeDefinitionIndex)->GetStaticField(0x45F70);
+		}
+		static ::System::Comparison_1<::System::Single>** StaticGet___9__65_0()
+		{
+			return (::System::Comparison_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___c_TypeDefinitionIndex)->GetStaticField(0x45F78);
 		}
 		static ::HoudiniEngineUnity::HEU_GenerateGeoCache___c** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::HEU_GenerateGeoCache___c**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___c_TypeDefinitionIndex)->GetStaticField(0x36BB0);
+			return (::HoudiniEngineUnity::HEU_GenerateGeoCache___c**)Il2CppClass::FromTypeDefinitionIndex(HEU_GenerateGeoCache___c_TypeDefinitionIndex)->GetStaticField(0x45F80);
 		}
 
 		static ::System::Void _cctor()

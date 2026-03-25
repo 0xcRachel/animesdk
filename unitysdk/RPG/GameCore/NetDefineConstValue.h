@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_2FDB7821F634F886_OFFSET UNITYSDK_OFFSET(0x16CFE5A0)
-#define RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CFEB10)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_2FDB7821F634F886_OFFSET UNITYSDK_OFFSET(0x17484D80)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x17485470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 17046;
+	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 17451;
 
 	class NetDefineConstValue : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,13 @@ namespace RPG::GameCore
 		::System::UInt16 ProcessPacketsPerFrameMS; // 0x2E
 		::Il2CppArray<::System::UInt16>* LoginForbidSendCmdList; // 0x30
 		::Il2CppArray<::System::UInt16>* PerformanceReplayWhiteList; // 0x38
-		::System::Single RefreshRTTInterval; // 0x40
-		::System::Boolean CreateSocketOnSessionConnected; // 0x44
-		::System::Boolean StopAdventurePhaseWhenDisconnect; // 0x45
+		::System::Boolean IsBlockNetworkByPerformanceStandalone; // 0x40
+		::System::Boolean IsBlockNetworkByPerformanceStandaloneError; // 0x41
+		::Il2CppArray<::System::UInt16>* PerformanceStandaloneWhiteList; // 0x48
+		::Il2CppArray<::System::UInt16>* PerformanceStandaloneBlackList; // 0x50
+		::System::Single RefreshRTTInterval; // 0x58
+		::System::Boolean CreateSocketOnSessionConnected; // 0x5C
+		::System::Boolean StopAdventurePhaseWhenDisconnect; // 0x5D
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int LazyMemberTypes_TypeDefinitionIndex = 39524;
+	inline static constexpr unsigned int LazyMemberTypes_TypeDefinitionIndex = 40540;
 
 	enum class LazyMemberTypes : ::System::Int32
 	{

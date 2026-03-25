@@ -3,10 +3,10 @@
 #include "unitysdk/SerializedRenderTargetBlendState.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SERIALIZEDBLENDSTATE_METHOD_2_0DD48251E464EFCB_OFFSET UNITYSDK_OFFSET(0xD9A20)
-#define SERIALIZEDBLENDSTATE_METHOD_2_2CE1B569DD3C4970_OFFSET UNITYSDK_OFFSET(0xD9A30)
+#define SERIALIZEDBLENDSTATE_METHOD_2_0DD48251E464EFCB_OFFSET UNITYSDK_OFFSET(0x8B420)
+#define SERIALIZEDBLENDSTATE_METHOD_2_2CE1B569DD3C4970_OFFSET UNITYSDK_OFFSET(0x8B430)
 
-inline static constexpr unsigned int SerializedBlendState_TypeDefinitionIndex = 37315;
+inline static constexpr unsigned int SerializedBlendState_TypeDefinitionIndex = 38279;
 
 struct alignas(4) SerializedBlendState
 {

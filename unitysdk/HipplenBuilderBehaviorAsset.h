@@ -5,9 +5,9 @@
 class HipplenBuilderBehaviorAsset_BehaviorConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERBEHAVIORASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1053DE70)
+#define HIPPLENBUILDERBEHAVIORASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x10C2EC40)
 
-inline static constexpr unsigned int HipplenBuilderBehaviorAsset_TypeDefinitionIndex = 37167;
+inline static constexpr unsigned int HipplenBuilderBehaviorAsset_TypeDefinitionIndex = 38131;
 
 class HipplenBuilderBehaviorAsset : public ::UnityEngine::ScriptableObject
 {

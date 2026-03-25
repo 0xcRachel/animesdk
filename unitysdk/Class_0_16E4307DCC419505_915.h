@@ -1,8 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/ChimeraDuel/ChimeraDuelLogLevel.h"
+#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 61099;
+namespace UnityEngine { class Texture2D; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_915_TypeDefinitionIndex = 60507;
 
 class Class_0_16E4307DCC419505_915
 {

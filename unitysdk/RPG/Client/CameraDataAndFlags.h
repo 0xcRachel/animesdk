@@ -33,8 +33,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class CameraShakeTask;
-class Class_1_2C62E4CDE21F302D;
 class Class_1_47AACC0D1B9F3610;
+class Class_1_78B03B04E15725BC;
 class Class_1_9F6A7BD216A5C0E3;
 class Class_1_AA5627556691B674;
 class Class_1_C0FA7ACF6234A735;
@@ -44,7 +44,7 @@ class Class_1_E34FF29EE1CCACD4;
 class Class_1_F064940CC10176D1;
 class Class_2_2D85C3C5517A2A08_TransitionShotData;
 class Class_2_DACB2D3D3C70FB8C;
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace RPG::Client { class CameraFreelook3rdConfigData; }
@@ -71,311 +71,311 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ACTIVESHOTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x8E59D60)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_APPLYCAMERANOISECHANGECONFIG_OFFSET UNITYSDK_OFFSET(0x8E55140)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_APPLYINHERITPARAMS_OFFSET UNITYSDK_OFFSET(0x8E54DE0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_CALCCAMERALOOKATANGLE_OFFSET UNITYSDK_OFFSET(0x8E58F10)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_CONSUMESHOTTEMPLATEDATA_OFFSET UNITYSDK_OFFSET(0x8E59E40)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_DEACTIVESHOTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x8E59DD0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_DISABLECAMERAPROTECT_OFFSET UNITYSDK_OFFSET(0x8E54F10)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8E54C90)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENABLENOISE_OFFSET UNITYSDK_OFFSET(0x8E555B0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUECAMERAFREELOOK3RDCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x8E58860)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUECAMERALOOKATCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x8E59BD0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEDEFERREDCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x8E59C40)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEVCAMERACLOSEUPTASK_OFFSET UNITYSDK_OFFSET(0x8E58990)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEVCAMERASHAKETASK_OFFSET UNITYSDK_OFFSET(0x8E59CD0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEVCAMERASHOTANIMTASK_OFFSET UNITYSDK_OFFSET(0x8E58920)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETADJOINATKTARGETAVERAGEPOS_OFFSET UNITYSDK_OFFSET(0x8E54740)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETBATTLEMONSTERCAMERAOFFSETHEIGHT_OFFSET UNITYSDK_OFFSET(0x8E543B0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETCAMERAMODE_OFFSET UNITYSDK_OFFSET(0x8E569B0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETCAMERASHAKEDISTANCEATTENUATIONTARGET_OFFSET UNITYSDK_OFFSET(0x8E59700)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETCHARACTERSOMATO_OFFSET UNITYSDK_OFFSET(0x8E54420)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETDARKTEAMENTITY_OFFSET UNITYSDK_OFFSET(0x8E54140)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETDARKTEAMFORMATIONWIDTH_OFFSET UNITYSDK_OFFSET(0x8E53F00)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETDARKTEAMMAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x8E54000)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETINHERITPARAMS_OFFSET UNITYSDK_OFFSET(0x8E54D40)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMENTITY_OFFSET UNITYSDK_OFFSET(0x8E541F0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFACEDIR_OFFSET UNITYSDK_OFFSET(0x8E54490)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFORMATIONCENTERWORLDPOSFROMBOUNDBOX_OFFSET UNITYSDK_OFFSET(0x8E54640)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFORMATIONCENTERWORLDPOS_OFFSET UNITYSDK_OFFSET(0x8E545B0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFORMATIONWIDTH_OFFSET UNITYSDK_OFFSET(0x8E53E90)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMLEFT_OFFSET UNITYSDK_OFFSET(0x8E53F70)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMLOCKTARGETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x8E54320)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMROTATION_OFFSET UNITYSDK_OFFSET(0x8E542A0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTEAMALIVEENTITIESCENTERWORLDPOS_OFFSET UNITYSDK_OFFSET(0x8E54500)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTEAMFORMATIONWIDTH_OFFSET UNITYSDK_OFFSET(0x8E53E10)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTIMESCALE_OFFSET UNITYSDK_OFFSET(0x8E53D00)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTRANSFORMCOMPONENTYAWANGLE_OFFSET UNITYSDK_OFFSET(0x8E546D0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_BLOCKAIMDAMPUNTILLOOKATTARGETMOVED_OFFSET UNITYSDK_OFFSET(0x8E54E60)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_CINEMACHINEBRAINREF_OFFSET UNITYSDK_OFFSET(0x8E55B80)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_DISABLEPROTECTFLAG_OFFSET UNITYSDK_OFFSET(0x8E54E80)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_GAMECOREDATA_OFFSET UNITYSDK_OFFSET(0x8E55BA0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_KEEPORTHOGRAPHICONRESET_OFFSET UNITYSDK_OFFSET(0x8E55130)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_LOCKRELATEDTARGET_OFFSET UNITYSDK_OFFSET(0x8E55BC0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_PAUSECAMERAUPDATE_OFFSET UNITYSDK_OFFSET(0x8E59EB0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_QUERYCHARACTERSINTEAM_OFFSET UNITYSDK_OFFSET(0x8E53D60)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_RECOVERNORMALCONFIGCAMERA_OFFSET UNITYSDK_OFFSET(0x8E59350)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_REFRESH_OFFSET UNITYSDK_OFFSET(0x8E55BE0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_REGISTERNOISETRANSITION_OFFSET UNITYSDK_OFFSET(0x8E55360)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_RESETVCAMERAGLOBALDYNAMICOFFSET_OFFSET UNITYSDK_OFFSET(0x8E597E0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETACTIVEENTITYREF_OFFSET UNITYSDK_OFFSET(0x8E56730)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0x8E58AE0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETCAMERAMODE_OFFSET UNITYSDK_OFFSET(0x8E56940)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETKEEPORTHOGRAPHICONRESET_OFFSET UNITYSDK_OFFSET(0x8E550C0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETUSINGULTRADISTANCEGLOBALDYNAMICOFFSETFLAG_OFFSET UNITYSDK_OFFSET(0x8E59830)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x8E56A00)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERAGLOBALDYNAMICOFFSET_OFFSET UNITYSDK_OFFSET(0x8E595D0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERAHIDEENTITY_OFFSET UNITYSDK_OFFSET(0x8E59290)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_BLOCKAIMDAMPUNTILLOOKATTARGETMOVED_OFFSET UNITYSDK_OFFSET(0x8E54E70)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_CINEMACHINEBRAINREF_OFFSET UNITYSDK_OFFSET(0x8E55B90)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_GAMECOREDATA_OFFSET UNITYSDK_OFFSET(0x8E55BB0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_LOCKRELATEDTARGET_OFFSET UNITYSDK_OFFSET(0x8E55BD0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_THIRDROAMINGRELEASEENABLECAMERAPROTECT_OFFSET UNITYSDK_OFFSET(0x8E55010)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_THIRDROAMINGSETENABLECAMERAPROTECT_OFFSET UNITYSDK_OFFSET(0x8E54FB0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_TICKNOISETRANSITION_OFFSET UNITYSDK_OFFSET(0x8E556F0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS_UNREGISTERNOISETRANSITION_OFFSET UNITYSDK_OFFSET(0x8E55530)
-#define RPG_CLIENT_CAMERADATAANDFLAGS__CHECKPRIORITY_OFFSET UNITYSDK_OFFSET(0x8E57BD0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x8E54830)
-#define RPG_CLIENT_CAMERADATAANDFLAGS__ONTEAMLEADERENTITYCHANGED_OFFSET UNITYSDK_OFFSET(0x8E557B0)
-#define RPG_CLIENT_CAMERADATAANDFLAGS__REFRESHBATTLEPHASENEWDATA_OFFSET UNITYSDK_OFFSET(0x8E55A40)
-#define RPG_CLIENT_CAMERADATAANDFLAGS__REFRESHLOCALPLAYERDEF_OFFSET UNITYSDK_OFFSET(0x8E55800)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ACTIVESHOTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x9263B10)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_APPLYCAMERANOISECHANGECONFIG_OFFSET UNITYSDK_OFFSET(0x925EEA0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_APPLYINHERITPARAMS_OFFSET UNITYSDK_OFFSET(0x925EB40)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_CALCCAMERALOOKATANGLE_OFFSET UNITYSDK_OFFSET(0x9262CD0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_CONSUMESHOTTEMPLATEDATA_OFFSET UNITYSDK_OFFSET(0x9263C00)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_DEACTIVESHOTTEMPLATE_OFFSET UNITYSDK_OFFSET(0x9263B90)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_DISABLECAMERAPROTECT_OFFSET UNITYSDK_OFFSET(0x925EC70)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x925E9E0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENABLENOISE_OFFSET UNITYSDK_OFFSET(0x925F330)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUECAMERAFREELOOK3RDCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x9262600)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUECAMERALOOKATCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x9263980)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEDEFERREDCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x92639F0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEVCAMERACLOSEUPTASK_OFFSET UNITYSDK_OFFSET(0x9262750)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEVCAMERASHAKETASK_OFFSET UNITYSDK_OFFSET(0x9263A80)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_ENQUEUEVCAMERASHOTANIMTASK_OFFSET UNITYSDK_OFFSET(0x92626C0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETADJOINATKTARGETAVERAGEPOS_OFFSET UNITYSDK_OFFSET(0x925E480)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETBATTLEMONSTERCAMERAOFFSETHEIGHT_OFFSET UNITYSDK_OFFSET(0x925E0F0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETCAMERAMODE_OFFSET UNITYSDK_OFFSET(0x9260710)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETCAMERASHAKEDISTANCEATTENUATIONTARGET_OFFSET UNITYSDK_OFFSET(0x92634D0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETCHARACTERSOMATO_OFFSET UNITYSDK_OFFSET(0x925E160)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETDARKTEAMENTITY_OFFSET UNITYSDK_OFFSET(0x925DE70)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETDARKTEAMFORMATIONWIDTH_OFFSET UNITYSDK_OFFSET(0x925DC30)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETDARKTEAMMAXHEIGHT_OFFSET UNITYSDK_OFFSET(0x925DD30)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETINHERITPARAMS_OFFSET UNITYSDK_OFFSET(0x925EAA0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMENTITY_OFFSET UNITYSDK_OFFSET(0x925DF20)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFACEDIR_OFFSET UNITYSDK_OFFSET(0x925E1D0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFORMATIONCENTERWORLDPOSFROMBOUNDBOX_OFFSET UNITYSDK_OFFSET(0x925E380)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFORMATIONCENTERWORLDPOS_OFFSET UNITYSDK_OFFSET(0x925E2F0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMFORMATIONWIDTH_OFFSET UNITYSDK_OFFSET(0x925DBC0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMLEFT_OFFSET UNITYSDK_OFFSET(0x925DCA0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMLOCKTARGETTRANSFORM_OFFSET UNITYSDK_OFFSET(0x925E060)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETLIGHTTEAMROTATION_OFFSET UNITYSDK_OFFSET(0x925DFE0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTEAMALIVEENTITIESCENTERWORLDPOS_OFFSET UNITYSDK_OFFSET(0x925E240)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTEAMFORMATIONWIDTH_OFFSET UNITYSDK_OFFSET(0x925DB40)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTIMESCALE_OFFSET UNITYSDK_OFFSET(0x925DA30)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GETTRANSFORMCOMPONENTYAWANGLE_OFFSET UNITYSDK_OFFSET(0x925E410)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_BLOCKAIMDAMPUNTILLOOKATTARGETMOVED_OFFSET UNITYSDK_OFFSET(0x925EBC0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_CINEMACHINEBRAINREF_OFFSET UNITYSDK_OFFSET(0x925F910)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_DISABLEPROTECTFLAG_OFFSET UNITYSDK_OFFSET(0x925EBE0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_GAMECOREDATA_OFFSET UNITYSDK_OFFSET(0x925F930)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_KEEPORTHOGRAPHICONRESET_OFFSET UNITYSDK_OFFSET(0x925EE90)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_GET_LOCKRELATEDTARGET_OFFSET UNITYSDK_OFFSET(0x925F950)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_PAUSECAMERAUPDATE_OFFSET UNITYSDK_OFFSET(0x9263C70)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_QUERYCHARACTERSINTEAM_OFFSET UNITYSDK_OFFSET(0x925DA90)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_RECOVERNORMALCONFIGCAMERA_OFFSET UNITYSDK_OFFSET(0x9263110)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_REFRESH_OFFSET UNITYSDK_OFFSET(0x925F970)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_REGISTERNOISETRANSITION_OFFSET UNITYSDK_OFFSET(0x925F0D0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_RESETVCAMERAGLOBALDYNAMICOFFSET_OFFSET UNITYSDK_OFFSET(0x92635B0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETACTIVEENTITYREF_OFFSET UNITYSDK_OFFSET(0x92604A0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0x92628A0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETCAMERAMODE_OFFSET UNITYSDK_OFFSET(0x92606A0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETKEEPORTHOGRAPHICONRESET_OFFSET UNITYSDK_OFFSET(0x925EE20)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETUSINGULTRADISTANCEGLOBALDYNAMICOFFSETFLAG_OFFSET UNITYSDK_OFFSET(0x9263600)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x9260760)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERAGLOBALDYNAMICOFFSET_OFFSET UNITYSDK_OFFSET(0x9263390)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SETVCAMERAHIDEENTITY_OFFSET UNITYSDK_OFFSET(0x9263050)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_BLOCKAIMDAMPUNTILLOOKATTARGETMOVED_OFFSET UNITYSDK_OFFSET(0x925EBD0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_CINEMACHINEBRAINREF_OFFSET UNITYSDK_OFFSET(0x925F920)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_GAMECOREDATA_OFFSET UNITYSDK_OFFSET(0x925F940)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_SET_LOCKRELATEDTARGET_OFFSET UNITYSDK_OFFSET(0x925F960)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_THIRDROAMINGRELEASEENABLECAMERAPROTECT_OFFSET UNITYSDK_OFFSET(0x925ED70)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_THIRDROAMINGSETENABLECAMERAPROTECT_OFFSET UNITYSDK_OFFSET(0x925ED10)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_TICKNOISETRANSITION_OFFSET UNITYSDK_OFFSET(0x925F480)
+#define RPG_CLIENT_CAMERADATAANDFLAGS_UNREGISTERNOISETRANSITION_OFFSET UNITYSDK_OFFSET(0x925F2B0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS__CHECKPRIORITY_OFFSET UNITYSDK_OFFSET(0x9261970)
+#define RPG_CLIENT_CAMERADATAANDFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x925E570)
+#define RPG_CLIENT_CAMERADATAANDFLAGS__ONTEAMLEADERENTITYCHANGED_OFFSET UNITYSDK_OFFSET(0x925F540)
+#define RPG_CLIENT_CAMERADATAANDFLAGS__REFRESHBATTLEPHASENEWDATA_OFFSET UNITYSDK_OFFSET(0x925F7D0)
+#define RPG_CLIENT_CAMERADATAANDFLAGS__REFRESHLOCALPLAYERDEF_OFFSET UNITYSDK_OFFSET(0x925F590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_TypeDefinitionIndex = 55281;
+	inline static constexpr unsigned int CameraDataAndFlags_TypeDefinitionIndex = 56846;
 
 	class CameraDataAndFlags : public ::System::Object
 	{
 	public:
-		::Class_3_BCCE950C2E8DF1F0* TrackCameraOnOutOfRange; // 0x10
-		::UnityEngine::Transform* OverrideFreelook3rdTarget; // 0x18
-		::System::Collections::Generic::Queue_1<::Class_1_AA5627556691B674*>* DeferredCameraAfterCloseupShot; // 0x20
-		::RPG::Client::CameraNormalConfigData* CurrentCameraNormalConfigData; // 0x28
-		::UnityEngine::Transform* ShotTemplateLookAt; // 0x30
-		::Class_1_C0FA7ACF6234A735* CameraConfigRecoverData; // 0x38
-		::System::String* TrackCameraAreaName; // 0x40
-		::System::Collections::Generic::Queue_1<::CameraShakeTask*>* VCameraShakeTaskQueue; // 0x48
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* GlobalDynamicOffsetIgnoreEntityList; // 0x50
-		::Class_1_9F6A7BD216A5C0E3* GlobalNamedDynamicOffsetData; // 0x58
-		::RPG::GameCore::GameEntity* Freelook3rdCameraLookAtTarget; // 0x60
-		::RPG::GameCore::GameEntity* VCameraFollowTarget; // 0x68
-		::Class_3_BCCE950C2E8DF1F0* TrackCameraExitFromStartSeq; // 0x70
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* HideEntityList; // 0x78
-		::System::Collections::Generic::Queue_1<::Class_1_47AACC0D1B9F3610*>* CameraCloseupShotTaskQueue; // 0x80
-		::System::String* IsometricCurvePath; // 0x88
-		::Class_1_CDAD1C4D78702C93* Freelook3rdControllerRef; // 0x90
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* ForceHiddenEntityList; // 0x98
-		::Class_2_2D85C3C5517A2A08_TransitionShotData* CustomShotData; // 0xA0
-		::RPG::Client::CameraFreelook3rdConfigData* CurrentFreelook3rdChangeParam; // 0xA8
-		::Class_1_CDAD1C4D78702C93* RoamingFreelook3rdControllerRef; // 0xB0
-		::RPG::GameCore::GameEntity* CurrentPlayerEntity; // 0xB8
-		::Cinemachine::CinemachineVirtualCameraBase* LittleGameDirectCamera; // 0xC0
-		::System::String* ProjectionBlendOutCurve; // 0xC8
-		::RPG::Client::ShotTemplateRuntime* ShotTemplate; // 0xD0
-		::RPG::Client::CameraNormalConfigData* NextCameraNormalConfigData; // 0xD8
-		::Class_3_BCCE950C2E8DF1F0* TrackCameraExitFromEndSeq; // 0xE0
-		::Class_2_DACB2D3D3C70FB8C* DisableProtectPriorityQueue; // 0xE8
-		::Class_1_2C62E4CDE21F302D* CurrentBaseChangeParam; // 0xF0
-		::Class_1_E34FF29EE1CCACD4* CurActiveCameraController; // 0xF8
-		::System::Collections::Generic::Queue_1<::RPG::Client::CameraFreelook3rdConfigData*>* CameraFreelook3rdConfigDataQueue; // 0x100
-		::Class_1_D27BF54F25500E5F* NoiseTransition; // 0x108
-		::Cinemachine::CinemachineBrain* _CinemachineBrainRef_k__BackingField; // 0x110
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::VCameraState, ::RPG::Client::CameraNormalConfigData*>* StateAdditiveNormalConfigMap; // 0x118
-		::System::String* TrackCameraName; // 0x120
-		::RPG::Client::CameraResultData CurrentResult; // 0x128
-		::System::String* ProjectionBlendInCurve; // 0x1B8
-		::RPG::Client::CameraResultData LastResult; // 0x1C0
-		::System::Collections::Generic::Queue_1<::RPG::Client::CameraLookAtConfigData*>* CameraLookAtConfigDataQueue; // 0x250
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TopViewLookAtEntities; // 0x258
-		::RPG::Client::GameCoreCameraData* _GameCoreData_k__BackingField; // 0x260
-		::System::Collections::Generic::Queue_1<::Class_1_F064940CC10176D1*>* VCameraShotAnimTaskQueue; // 0x268
-		::Class_1_E34FF29EE1CCACD4* RoamingVCameraControllerRef; // 0x270
-		::RPGTools::Timeline::CameraData* PlayingCameraTimelineData; // 0x278
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* AimTargetFocusEntityList; // 0x280
-		::UnityEngine::Transform* ShotTemplateFollow; // 0x288
-		::RPG::GameCore::VCameraBlend* HoldenBlendForCastAnimation; // 0x290
-		::RPG::GameCore::GameEntity* ConfigCaster; // 0x298
-		::RPG::GameCore::TeamFormationType LightTeamRefreshTypeWhenSetVCameraConfig; // 0x2A0
-		::System::Single TrackRoamingAngleRecoverDamp; // 0x2A4
-		::Struct_2_A725E4562D03EA4E_3 LastFrameResult; // 0x2A8
-		::System::Single TrackRoamingAngleLimitX; // 0x2B0
-		::System::Single TrackRoamingAngleRotationFactorMax; // 0x2B4
-		::System::Single ProjectionBlendOutTime; // 0x2B8
-		::System::Single TrackRoamingAngleRotationFactorMin; // 0x2BC
-		::System::Single TargetAutoAdsorbAxisY; // 0x2C0
-		::System::Boolean UseLookAtChangeOffset; // 0x2C4
-		::System::Boolean _LockRelatedTarget_k__BackingField; // 0x2C5
-		::System::Boolean RoamingVCameraControllerDragMode; // 0x2C6
-		::System::Boolean TrackCameraEnable; // 0x2C7
-		::UnityEngine::Vector3 OpticalIllusionPosition; // 0x2C8
-		::System::Boolean EnableProtectAfterBlend; // 0x2D4
-		::System::Boolean ShotTemplateDirty; // 0x2D5
-		::System::Boolean TrackCameraMappingInput; // 0x2D6
-		::System::Boolean ForbidRoamingZoomChange; // 0x2D7
-		::RPG::GameCore::ActiveTrackCameraMode TrackCameraPlayMode; // 0x2D8
-		::System::Single MoveControlDir; // 0x2DC
-		::System::Int32 TrackCameraStartBlendOutIndex; // 0x2E0
-		::UnityEngine::Quaternion OpticalIllusionRotation; // 0x2E4
-		::RPG::GameCore::VCameraState CurVCameraState; // 0x2F4
-		::System::Single FreeLookMaxDistance; // 0x2F8
-		::UnityEngine::Vector3 ShotAimCenterPos; // 0x2FC
-		::System::Single FirstPersonHeightOverride; // 0x308
-		::System::Single CameraZoomRatio; // 0x30C
-		::UnityEngine::Vector3 RoamingInitForward; // 0x310
-		::System::Single OrthographicSize; // 0x31C
-		::System::Single NearClippingPlane; // 0x320
-		::System::Single TrackRoamingAngleDeadZoneLimitX; // 0x324
-		::System::Single TrackRoamingRotationFactor; // 0x328
-		::System::Single ProjectionBlendInTime; // 0x32C
-		::RPG::GameCore::VCameraState NextVCameraState; // 0x330
-		::UnityEngine::Matrix4x4 PresetOrthographicProjectionMatrix; // 0x334
-		::System::Single FOVSmoothDampTime; // 0x374
-		::System::Single DialogModeBlendingWeight; // 0x378
-		::System::Single TrackRoamingStandardScreenDis; // 0x37C
-		::System::Boolean DisableCameraRecenter; // 0x380
-		::System::Boolean ForbidCameraShake; // 0x381
-		::System::Boolean DoProjectionBlendToOrthographic; // 0x382
-		::System::Boolean ForbidRoamingPosUpdate; // 0x383
-		::System::Boolean VCameraDitherNPCOn; // 0x384
-		::System::Boolean ShotAnimClear; // 0x385
-		::System::Boolean IsForbidHugeMonsterHalfDither; // 0x386
-		::System::Boolean NeedDefaultBlendCurveFlag; // 0x387
-		::UnityEngine::Vector3 LastSelectDarkTeamEntityAim; // 0x388
-		::Struct_2_2D71E0AE8D880088 DisableFreelook3rdCameraInputX; // 0x394
-		::System::Int32 TrackCameraEndBlendInIndex; // 0x398
-		::System::Nullable_1<::UnityEngine::Vector3> Freelook3rdChangeParamLookAtDamping; // 0x39C
-		::System::Single FOVAdaptionRatio; // 0x3AC
-		::Struct_2_CB7D37A2987B484B DofConfig; // 0x3B0
-		::System::Single CameraZoomDistanceDelta; // 0x3C4
-		::System::Boolean ResetToFaceDir; // 0x3C8
-		::System::Boolean CameraRotating; // 0x3C9
-		::System::Boolean ResetTeamRootPos; // 0x3CA
-		::System::Boolean RoamingUseInitLookAtPos; // 0x3CB
-		::System::UInt32 PauseLateUpdateCount; // 0x3CC
-		::UnityEngine::Vector3 FreeLookAtPos; // 0x3D0
-		::System::UInt32 _DisableProtectCount; // 0x3DC
-		::System::Boolean ResetZoomKeepCameraBlend; // 0x3E0
-		::System::Boolean StartIsometricSizeBlend; // 0x3E1
-		::System::UInt32 ConfigVersion; // 0x3E4
-		::System::Nullable_1<::UnityEngine::Vector3> DialogModeTargetPos; // 0x3E8
-		::System::Single BlockDitherTime; // 0x3F8
-		::System::Single DialogModeBlendingRatio; // 0x3FC
-		::Struct_2_2CBB9F488B837A11 UltraDistanceGlobalDynamicOffsetData; // 0x400
-		::RPG::Client::CameraDataAndFlags_TrackCameraTrackType TrackCameraUseTrackType; // 0x420
-		::System::Single VCameraDitherNPCMaxDistance; // 0x424
-		::Struct_2_2D71E0AE8D880088 DisableFreelook3rdCameraInputY; // 0x428
-		::System::Single VCameraDitherAlphaNPCMin; // 0x42C
-		::System::Boolean CameraZoomEnable; // 0x430
-		::System::Boolean ClearHidingEntityFlag; // 0x431
-		::System::Boolean CloseupShotPureTimelineAnimFlag; // 0x432
-		::System::Int32 ConfigPriority; // 0x434
-		::System::Single TopViewLookAngleBias; // 0x438
-		::UnityEngine::Vector3 ShotAnimOffset; // 0x43C
-		::System::Single TrackRoamingSpeedDamp; // 0x448
-		::System::Single OverrideAimOffsetLerpRatio; // 0x44C
-		::System::Single OpticalIllusionSize; // 0x450
-		::System::Single TrackRoamingAngleLimitY; // 0x454
-		::System::Single TopViewSmoothTime; // 0x458
-		::System::Boolean DisableElevationDither; // 0x45C
-		::System::Boolean IsFreeLookAt; // 0x45D
-		::System::Boolean DisableDitherClose; // 0x45E
-		::System::Boolean DofGetNewConfig; // 0x45F
-		::System::Single CameraZoomDistance; // 0x460
-		::UnityEngine::Vector3 RoamingInitLookAtPos; // 0x464
-		::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode TrackRoamingRotationMode; // 0x470
-		::RPG::Client::CameraDataAndFlags_RoamingStyle CurRoamingStyle; // 0x474
-		::System::Boolean IsCloseFightDitherDarkRight; // 0x478
-		::System::Boolean MazePrepareTriggerBattle; // 0x479
-		::System::Boolean DofNeedReset; // 0x47A
-		::System::Boolean IsInBattleDataViewMode; // 0x47B
-		::System::Single MoveControlDistance; // 0x47C
-		::System::Single MazeBattleTransitionOverrideInitBlendTime; // 0x480
-		::System::Single TrackRoamingXAnglePercentage; // 0x484
-		::System::Boolean CameraDampSmoothReset; // 0x488
-		::System::Boolean DisableFreelook3rdCameraInput; // 0x489
-		::System::Boolean IsForceHugeMonsterHalfDither; // 0x48A
-		::System::Boolean EnableFreelookCameraDragMode; // 0x48B
-		::UnityEngine::Vector2 refAnchorAngularVelocity; // 0x48C
-		::System::Single TargetAutoAdsorbFaceDir; // 0x494
-		::System::Boolean ForceHiddenEntityReset; // 0x498
-		::System::Boolean IsPlayerDitherByDistance; // 0x499
-		::System::Boolean IsScreenPointerDown; // 0x49A
-		::System::Boolean LookAtLockAxisInput; // 0x49B
-		::RPG::GameCore::AdventureCameraOrthographicResetMode OrthographicMatrixResetMode; // 0x49C
-		::System::Single FreeLookMinDistance; // 0x4A0
-		::UnityEngine::Vector2 LookAtMouseSpeedRatio; // 0x4A4
-		::RPG::GameCore::CameraMode CurrentMode; // 0x4AC
-		::System::Boolean LockRecenterY; // 0x4B0
-		::System::Boolean IsNeedBlend; // 0x4B1
-		::System::Boolean BlendOutImmediately; // 0x4B2
-		::System::Boolean _BlockAimDampUntilLookAtTargetMoved_k__BackingField; // 0x4B3
-		::UnityEngine::Vector2 ShotAimScreenOffset; // 0x4B4
-		::UnityEngine::Vector3 OffsetPos; // 0x4BC
-		::System::Single CameraZoomAddValue; // 0x4C8
-		::System::Single TrackRoamingAngleDeadZoneLimitY; // 0x4CC
-		::System::Single RoamingZoomValue; // 0x4D0
-		::UnityEngine::Vector3 CameraShakePosOffset; // 0x4D4
-		::System::Single CameraAimOffsetDelta; // 0x4E0
-		::System::Boolean IsForceClearDitherOnce; // 0x4E4
-		::System::Boolean ForbidCameraZoomChange; // 0x4E5
-		::System::Boolean ForbidRoamingInput; // 0x4E6
-		::System::Boolean ResetCinemachineZoomFlag; // 0x4E7
-		::System::Single RoamingInitFov; // 0x4E8
-		::System::Boolean KeepInputCameraDirection; // 0x4EC
-		::System::Boolean CloseupPendingTimelineUpdate; // 0x4ED
-		::System::Boolean TopViewReset; // 0x4EE
-		::System::Boolean IsShowEntityListIgnoreDither; // 0x4EF
-		::System::Single TopViewCameraDist; // 0x4F0
-		::System::UInt32 TrackPathWayID; // 0x4F4
-		::System::Single TrackRoamingStandardSpeed; // 0x4F8
-		::Struct_2_A725E4562D03EA4E_3 CurrentFrameResult; // 0x4FC
-		::UnityEngine::Vector3 TopViewLookAtPos; // 0x504
-		::System::Single ScreenPointUpTimer; // 0x510
-		::UnityEngine::Vector3 TopViewLookAtOffset; // 0x514
-		::UnityEngine::Vector3 ForwardDir; // 0x520
-		::System::Nullable_1<::System::Single> EraLightFollowModeZoomDistanceLimit; // 0x52C
-		::System::Boolean DoProjectionBlendRecoverToProjection; // 0x534
-		::System::Boolean ForbidAimOffsetLerpFlag; // 0x535
-		::System::Boolean IsRecovering; // 0x536
-		::System::Boolean ResetCinemachineZoomImmFlag; // 0x537
-		::UnityEngine::Vector3 ShotInitCenterPos; // 0x538
-		::System::Boolean LookAtUnlockAxisInputAfterRecover; // 0x544
-		::System::Boolean IsAutoAdsorbOn; // 0x545
-		::System::Boolean CloseupShotExitFlag; // 0x546
-		::System::Boolean IsCameraBlendCut; // 0x547
-		::UnityEngine::Vector3 TopViewForwardDir; // 0x548
-		::System::Single RoamingCurFovRatio; // 0x554
-		::System::Single TopViewDepressionAngle; // 0x558
-		::UnityEngine::Vector3 TopViewDefaultLookAtPos; // 0x55C
-		::System::Single OverrideRayHitDietherCheckInterval; // 0x568
-		::Class_2_2D85C3C5517A2A08_TransitionMode MazeBattleTransitionMode; // 0x56C
-		::System::Boolean NoiseTransitionFinishNeedApply; // 0x570
-		::System::Boolean IsometricUseCurve; // 0x571
-		::System::Boolean DoOpticalIllusionSet; // 0x572
-		::System::Boolean DoIsometricSizeBlend; // 0x573
-		::System::Single IsometricOrthographicSize; // 0x574
-		::RPG::Client::CameraDataAndFlags_MazeBattleShotDataType ShotDataType; // 0x578
-		::UnityEngine::Vector3 CameraAimOffsetResult; // 0x57C
-		::System::Nullable_1<::UnityEngine::Vector3> Freelook3rdChangeParamFollowDamping; // 0x588
-		::System::Single ScreenPointDownTimer; // 0x598
-		::UnityEngine::Matrix4x4 ProjectionBlendCameraOriMatrix; // 0x59C
-		::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason KeepOrthographicOnResetCounter; // 0x5DC
-		::System::Single CameraZoomVelocityAdditiveRatio; // 0x5E0
-		::UnityEngine::Vector3 CameraShakeRotOffset; // 0x5E4
-		::System::Nullable_1<::System::Single> DialogModeZoomDistance; // 0x5F0
-		::System::Single MazeBattleTransitionSpeed; // 0x5F8
-		::System::UInt32 TrackPathWayGroupID; // 0x5FC
-		::System::Boolean ForbidCameraZoomInput; // 0x600
-		::System::Boolean HasProtectDistance; // 0x601
-		::System::Boolean DialogModeBlending; // 0x602
-		::System::Boolean NoiseIgnoreActionWaitOrder; // 0x603
-		::RPG::GameCore::TeamFormationType DarkTeamRefreshTypeWhenSetVCameraConfig; // 0x604
-		::System::Boolean ChangeDOF; // 0x608
-		::System::Boolean ResetToFightNormalModeFlag; // 0x609
-		::System::Boolean MazeBattleTransitionOpen; // 0x60A
-		::System::Boolean IsNoiseOpen; // 0x60B
-		::System::Single TrackCameraPathWayDetectWidth; // 0x60C
+		::System::String* ProjectionBlendInCurve; // 0x10
+		::System::Collections::Generic::Queue_1<::CameraShakeTask*>* VCameraShakeTaskQueue; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* HideEntityList; // 0x20
+		::Cinemachine::CinemachineBrain* _CinemachineBrainRef_k__BackingField; // 0x28
+		::RPG::Client::CameraResultData CurrentResult; // 0x30
+		::RPG::GameCore::GameEntity* ConfigCaster; // 0xC0
+		::RPG::GameCore::GameEntity* VCameraFollowTarget; // 0xC8
+		::System::String* TrackCameraAreaName; // 0xD0
+		::RPG::GameCore::GameEntity* Freelook3rdCameraLookAtTarget; // 0xD8
+		::RPG::GameCore::VCameraBlend* HoldenBlendForCastAnimation; // 0xE0
+		::Class_1_78B03B04E15725BC* CurrentBaseChangeParam; // 0xE8
+		::Class_2_DACB2D3D3C70FB8C* DisableProtectPriorityQueue; // 0xF0
+		::RPG::Client::CameraNormalConfigData* NextCameraNormalConfigData; // 0xF8
+		::Class_1_CDAD1C4D78702C93* Freelook3rdControllerRef; // 0x100
+		::System::String* ProjectionBlendOutCurve; // 0x108
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TopViewLookAtEntities; // 0x110
+		::RPG::Client::CameraNormalConfigData* CurrentCameraNormalConfigData; // 0x118
+		::RPG::GameCore::GameEntity* CurrentPlayerEntity; // 0x120
+		::Class_3_5775A4FEC79026BC* TrackCameraExitFromStartSeq; // 0x128
+		::System::Collections::Generic::Queue_1<::Class_1_47AACC0D1B9F3610*>* CameraCloseupShotTaskQueue; // 0x130
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* ForceHiddenEntityList; // 0x138
+		::Class_1_9F6A7BD216A5C0E3* GlobalNamedDynamicOffsetData; // 0x140
+		::Class_3_5775A4FEC79026BC* TrackCameraOnOutOfRange; // 0x148
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* GlobalDynamicOffsetIgnoreEntityList; // 0x150
+		::RPG::Client::GameCoreCameraData* _GameCoreData_k__BackingField; // 0x158
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* AimTargetFocusEntityList; // 0x160
+		::UnityEngine::Transform* ShotTemplateFollow; // 0x168
+		::System::Collections::Generic::Queue_1<::RPG::Client::CameraLookAtConfigData*>* CameraLookAtConfigDataQueue; // 0x170
+		::System::Collections::Generic::Queue_1<::RPG::Client::CameraFreelook3rdConfigData*>* CameraFreelook3rdConfigDataQueue; // 0x178
+		::System::String* IsometricCurvePath; // 0x180
+		::Cinemachine::CinemachineVirtualCameraBase* LittleGameDirectCamera; // 0x188
+		::Class_2_2D85C3C5517A2A08_TransitionShotData* CustomShotData; // 0x190
+		::System::Collections::Generic::Queue_1<::Class_1_F064940CC10176D1*>* VCameraShotAnimTaskQueue; // 0x198
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::VCameraState, ::RPG::Client::CameraNormalConfigData*>* StateAdditiveNormalConfigMap; // 0x1A0
+		::UnityEngine::Transform* ShotTemplateLookAt; // 0x1A8
+		::Class_1_E34FF29EE1CCACD4* RoamingVCameraControllerRef; // 0x1B0
+		::Class_3_5775A4FEC79026BC* TrackCameraExitFromEndSeq; // 0x1B8
+		::Class_1_C0FA7ACF6234A735* CameraConfigRecoverData; // 0x1C0
+		::RPGTools::Timeline::CameraData* PlayingCameraTimelineData; // 0x1C8
+		::System::Collections::Generic::Queue_1<::Class_1_AA5627556691B674*>* DeferredCameraAfterCloseupShot; // 0x1D0
+		::RPG::Client::CameraFreelook3rdConfigData* CurrentFreelook3rdChangeParam; // 0x1D8
+		::Class_1_CDAD1C4D78702C93* RoamingFreelook3rdControllerRef; // 0x1E0
+		::UnityEngine::Transform* OverrideFreelook3rdTarget; // 0x1E8
+		::Class_1_D27BF54F25500E5F* NoiseTransition; // 0x1F0
+		::Class_1_E34FF29EE1CCACD4* CurActiveCameraController; // 0x1F8
+		::RPG::Client::CameraResultData LastResult; // 0x200
+		::System::String* TrackCameraName; // 0x290
+		::RPG::Client::ShotTemplateRuntime* ShotTemplate; // 0x298
+		::System::Single FreeLookMaxDistance; // 0x2A0
+		::System::Boolean KeepInputCameraDirection; // 0x2A4
+		::System::Boolean UseLookAtChangeOffset; // 0x2A5
+		::System::Single CameraZoomDistance; // 0x2A8
+		::System::UInt32 ConfigVersion; // 0x2AC
+		::Struct_2_A725E4562D03EA4E_3 CurrentFrameResult; // 0x2B0
+		::System::Single TopViewDepressionAngle; // 0x2B8
+		::System::Single TrackRoamingSpeedDamp; // 0x2BC
+		::System::Single OverrideAimOffsetLerpRatio; // 0x2C0
+		::System::Single CameraZoomVelocityAdditiveRatio; // 0x2C4
+		::System::Single OrthographicSize; // 0x2C8
+		::System::Single ProjectionBlendOutTime; // 0x2CC
+		::System::Nullable_1<::UnityEngine::Vector3> Freelook3rdChangeParamFollowDamping; // 0x2D0
+		::System::Boolean BlendOutImmediately; // 0x2E0
+		::System::Boolean CameraRotating; // 0x2E1
+		::System::Boolean IsForceHugeMonsterHalfDither; // 0x2E2
+		::System::Boolean DisableDitherClose; // 0x2E3
+		::System::Single FirstPersonHeightOverride; // 0x2E4
+		::Struct_2_2D71E0AE8D880088 DisableFreelook3rdCameraInputX; // 0x2E8
+		::System::Single FOVSmoothDampTime; // 0x2EC
+		::UnityEngine::Vector2 refAnchorAngularVelocity; // 0x2F0
+		::System::Single CameraAimOffsetDelta; // 0x2F8
+		::System::Single TrackRoamingAngleRecoverDamp; // 0x2FC
+		::System::Boolean VCameraDitherNPCOn; // 0x300
+		::System::Boolean LockRecenterY; // 0x301
+		::System::Boolean IsometricUseCurve; // 0x302
+		::System::Boolean ChangeDOF; // 0x303
+		::System::Single TargetAutoAdsorbAxisY; // 0x304
+		::System::Single DialogModeBlendingWeight; // 0x308
+		::System::Single FreeLookMinDistance; // 0x30C
+		::System::Single CameraZoomRatio; // 0x310
+		::System::Boolean MazeBattleTransitionOpen; // 0x314
+		::System::Boolean NoiseTransitionFinishNeedApply; // 0x315
+		::System::Boolean LookAtLockAxisInput; // 0x316
+		::System::Boolean StartIsometricSizeBlend; // 0x317
+		::System::Boolean CloseupShotPureTimelineAnimFlag; // 0x318
+		::System::Boolean DisableFreelook3rdCameraInput; // 0x319
+		::System::Boolean CloseupPendingTimelineUpdate; // 0x31A
+		::System::Boolean CameraZoomEnable; // 0x31B
+		::System::Single ProjectionBlendInTime; // 0x31C
+		::System::Boolean ForbidCameraShake; // 0x320
+		::System::Boolean IsScreenPointerDown; // 0x321
+		::System::Boolean DoProjectionBlendToOrthographic; // 0x322
+		::System::Boolean IsPlayerDitherByDistance; // 0x323
+		::System::Single OpticalIllusionSize; // 0x324
+		::System::Boolean ResetToFaceDir; // 0x328
+		::System::Boolean TrackCameraMappingInput; // 0x329
+		::System::Boolean IsNeedBlend; // 0x32A
+		::System::Boolean EnableFreelookCameraDragMode; // 0x32B
+		::System::Boolean HasProtectDistance; // 0x32C
+		::System::Boolean ForbidCameraZoomChange; // 0x32D
+		::System::Boolean CloseupShotExitFlag; // 0x32E
+		::System::Boolean IsInBattleDataViewMode; // 0x32F
+		::UnityEngine::Vector3 TopViewDefaultLookAtPos; // 0x330
+		::System::Boolean EnableProtectAfterBlend; // 0x33C
+		::System::Boolean NoiseIgnoreActionWaitOrder; // 0x33D
+		::System::Boolean ShotAnimClear; // 0x33E
+		::System::Boolean TrackCameraEnable; // 0x33F
+		::System::Boolean MazePrepareTriggerBattle; // 0x340
+		::System::Boolean DisableCameraRecenter; // 0x341
+		::System::Boolean ForbidRoamingPosUpdate; // 0x342
+		::System::Boolean _LockRelatedTarget_k__BackingField; // 0x343
+		::System::Single TopViewCameraDist; // 0x344
+		::RPG::Client::CameraDataAndFlags_MazeBattleShotDataType ShotDataType; // 0x348
+		::UnityEngine::Matrix4x4 ProjectionBlendCameraOriMatrix; // 0x34C
+		::RPG::Client::CameraDataAndFlags_TrackCameraTrackType TrackCameraUseTrackType; // 0x38C
+		::UnityEngine::Vector3 TopViewLookAtPos; // 0x390
+		::System::Boolean LookAtUnlockAxisInputAfterRecover; // 0x39C
+		::System::Boolean ForceHiddenEntityReset; // 0x39D
+		::System::Boolean DofNeedReset; // 0x39E
+		::System::Boolean ResetZoomKeepCameraBlend; // 0x39F
+		::System::Boolean NeedDefaultBlendCurveFlag; // 0x3A0
+		::System::Boolean IsAutoAdsorbOn; // 0x3A1
+		::System::Boolean ForbidRoamingZoomChange; // 0x3A2
+		::System::Boolean ResetTeamRootPos; // 0x3A3
+		::System::Single RoamingZoomValue; // 0x3A4
+		::System::Single IsometricOrthographicSize; // 0x3A8
+		::System::Single ScreenPointDownTimer; // 0x3AC
+		::System::UInt32 PauseLateUpdateCount; // 0x3B0
+		::System::Single DialogModeBlendingRatio; // 0x3B4
+		::UnityEngine::Vector3 ForwardDir; // 0x3B8
+		::System::Single RoamingInitFov; // 0x3C4
+		::RPG::Client::CameraDataAndFlags_RoamingStyle CurRoamingStyle; // 0x3C8
+		::Struct_2_2CBB9F488B837A11 UltraDistanceGlobalDynamicOffsetData; // 0x3CC
+		::System::Single TrackRoamingAngleRotationFactorMax; // 0x3EC
+		::Struct_2_2D71E0AE8D880088 DisableFreelook3rdCameraInputY; // 0x3F0
+		::Class_2_2D85C3C5517A2A08_TransitionMode MazeBattleTransitionMode; // 0x3F4
+		::System::Single TrackRoamingXAnglePercentage; // 0x3F8
+		::UnityEngine::Matrix4x4 PresetOrthographicProjectionMatrix; // 0x3FC
+		::System::Single TrackRoamingAngleDeadZoneLimitY; // 0x43C
+		::RPG::GameCore::VCameraState CurVCameraState; // 0x440
+		::System::Single ScreenPointUpTimer; // 0x444
+		::System::Single TrackRoamingAngleLimitY; // 0x448
+		::UnityEngine::Vector3 OpticalIllusionPosition; // 0x44C
+		::UnityEngine::Vector3 RoamingInitForward; // 0x458
+		::System::Nullable_1<::UnityEngine::Vector3> Freelook3rdChangeParamLookAtDamping; // 0x464
+		::System::Single VCameraDitherNPCMaxDistance; // 0x474
+		::System::Single TrackRoamingStandardSpeed; // 0x478
+		::System::Single TrackRoamingAngleLimitX; // 0x47C
+		::UnityEngine::Vector2 LookAtMouseSpeedRatio; // 0x480
+		::RPG::GameCore::TeamFormationType DarkTeamRefreshTypeWhenSetVCameraConfig; // 0x488
+		::System::Nullable_1<::System::Single> DialogModeZoomDistance; // 0x48C
+		::System::Boolean IsForceClearDitherOnce; // 0x494
+		::System::Boolean DialogModeBlending; // 0x495
+		::System::Boolean IsRecovering; // 0x496
+		::System::Boolean DoIsometricSizeBlend; // 0x497
+		::System::Boolean IsShowEntityListIgnoreDither; // 0x498
+		::System::Boolean DisableElevationDither; // 0x499
+		::System::Boolean _BlockAimDampUntilLookAtTargetMoved_k__BackingField; // 0x49A
+		::System::Boolean IsForbidHugeMonsterHalfDither; // 0x49B
+		::System::Boolean DoOpticalIllusionSet; // 0x49C
+		::System::Boolean RoamingUseInitLookAtPos; // 0x49D
+		::System::Boolean ForbidAimOffsetLerpFlag; // 0x49E
+		::UnityEngine::Vector3 FreeLookAtPos; // 0x4A0
+		::System::Int32 TrackCameraStartBlendOutIndex; // 0x4AC
+		::UnityEngine::Vector3 CameraAimOffsetResult; // 0x4B0
+		::System::Single TrackRoamingAngleRotationFactorMin; // 0x4BC
+		::UnityEngine::Vector3 ShotAnimOffset; // 0x4C0
+		::System::Boolean ResetToFightNormalModeFlag; // 0x4CC
+		::System::Boolean CameraDampSmoothReset; // 0x4CD
+		::System::Boolean ForbidCameraZoomInput; // 0x4CE
+		::System::Boolean DofGetNewConfig; // 0x4CF
+		::System::Single RoamingCurFovRatio; // 0x4D0
+		::System::Single MoveControlDistance; // 0x4D4
+		::UnityEngine::Vector3 RoamingInitLookAtPos; // 0x4D8
+		::System::Single TrackCameraPathWayDetectWidth; // 0x4E4
+		::System::Single NearClippingPlane; // 0x4E8
+		::System::Int32 TrackCameraEndBlendInIndex; // 0x4EC
+		::UnityEngine::Vector3 TopViewLookAtOffset; // 0x4F0
+		::System::Single TrackRoamingRotationFactor; // 0x4FC
+		::System::Single TopViewLookAngleBias; // 0x500
+		::RPG::Client::CameraDataAndFlags_TrackRoamingCameraRotationMode TrackRoamingRotationMode; // 0x504
+		::System::Single MazeBattleTransitionOverrideInitBlendTime; // 0x508
+		::System::Int32 ConfigPriority; // 0x50C
+		::System::UInt32 TrackPathWayID; // 0x510
+		::UnityEngine::Vector3 TopViewForwardDir; // 0x514
+		::System::Single OverrideRayHitDietherCheckInterval; // 0x520
+		::System::UInt32 TrackPathWayGroupID; // 0x524
+		::System::Single VCameraDitherAlphaNPCMin; // 0x528
+		::UnityEngine::Vector3 ShotAimCenterPos; // 0x52C
+		::System::Single TrackRoamingStandardScreenDis; // 0x538
+		::UnityEngine::Vector3 CameraShakePosOffset; // 0x53C
+		::UnityEngine::Vector3 CameraShakeRotOffset; // 0x548
+		::System::Single TrackRoamingAngleDeadZoneLimitX; // 0x554
+		::System::Single TopViewSmoothTime; // 0x558
+		::Struct_2_A725E4562D03EA4E_3 LastFrameResult; // 0x55C
+		::System::Single FOVAdaptionRatio; // 0x564
+		::System::Single TargetAutoAdsorbFaceDir; // 0x568
+		::UnityEngine::Vector3 ShotInitCenterPos; // 0x56C
+		::UnityEngine::Vector3 LastSelectDarkTeamEntityAim; // 0x578
+		::Struct_2_CB7D37A2987B484B DofConfig; // 0x584
+		::System::Boolean ResetCinemachineZoomFlag; // 0x598
+		::System::Boolean ForbidRoamingInput; // 0x599
+		::System::Boolean ClearHidingEntityFlag; // 0x59A
+		::System::Boolean IsCloseFightDitherDarkRight; // 0x59B
+		::System::Nullable_1<::UnityEngine::Vector3> DialogModeTargetPos; // 0x59C
+		::System::Single MazeBattleTransitionSpeed; // 0x5AC
+		::System::Single CameraZoomDistanceDelta; // 0x5B0
+		::System::Single MoveControlDir; // 0x5B4
+		::System::Boolean IsFreeLookAt; // 0x5B8
+		::System::Boolean TopViewReset; // 0x5B9
+		::System::Boolean ShotTemplateDirty; // 0x5BA
+		::System::Boolean RoamingVCameraControllerDragMode; // 0x5BB
+		::UnityEngine::Vector2 ShotAimScreenOffset; // 0x5BC
+		::RPG::GameCore::CameraMode CurrentMode; // 0x5C4
+		::System::Single CameraZoomAddValue; // 0x5C8
+		::System::Boolean IsNoiseOpen; // 0x5CC
+		::System::Boolean IsCameraBlendCut; // 0x5CD
+		::System::Boolean DoProjectionBlendRecoverToProjection; // 0x5CE
+		::System::Boolean ResetCinemachineZoomImmFlag; // 0x5CF
+		::UnityEngine::Vector3 OffsetPos; // 0x5D0
+		::System::Nullable_1<::System::Single> EraLightFollowModeZoomDistanceLimit; // 0x5DC
+		::RPG::GameCore::TeamFormationType LightTeamRefreshTypeWhenSetVCameraConfig; // 0x5E4
+		::RPG::GameCore::ActiveTrackCameraMode TrackCameraPlayMode; // 0x5E8
+		::RPG::GameCore::AdventureCameraOrthographicResetMode OrthographicMatrixResetMode; // 0x5EC
+		::RPG::Client::CameraDataAndFlags_KeepOrthographicOnResetReason KeepOrthographicOnResetCounter; // 0x5F0
+		::RPG::GameCore::VCameraState NextVCameraState; // 0x5F4
+		::System::UInt32 _DisableProtectCount; // 0x5F8
+		::System::Single BlockDitherTime; // 0x5FC
+		::UnityEngine::Quaternion OpticalIllusionRotation; // 0x600
 
 		::System::Void _ctor()
 		{

@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class RogueMiracleRow; }
+namespace RPG::GameCore { class TrainPartyGridSpecialShowRow; }
+namespace System { class String; }
 
-#define CLASS_1_A4ED94721C8F4303_METHOD_1_0AD2A112431030E3_OFFSET UNITYSDK_OFFSET(0x10C03830)
-#define CLASS_1_A4ED94721C8F4303_METHOD_1_259B533085E399D3_1_OFFSET UNITYSDK_OFFSET(0x10C03890)
-#define CLASS_1_A4ED94721C8F4303_METHOD_1_259B533085E399D3_OFFSET UNITYSDK_OFFSET(0x10C037C0)
-#define CLASS_1_A4ED94721C8F4303_METHOD_1_63D1770D8D097315_OFFSET UNITYSDK_OFFSET(0x10C03740)
-#define CLASS_1_A4ED94721C8F4303__CTOR_OFFSET UNITYSDK_OFFSET(0x10C03730)
+#define CLASS_1_A4ED94721C8F4303_METHOD_1_5BB1D7B29EF5D8ED_OFFSET UNITYSDK_OFFSET(0x8AC1340)
+#define CLASS_1_A4ED94721C8F4303_METHOD_1_63D1770D8D097315_OFFSET UNITYSDK_OFFSET(0x8AC1200)
+#define CLASS_1_A4ED94721C8F4303_METHOD_1_C101CD8C5CF89A5A_OFFSET UNITYSDK_OFFSET(0x8AC1290)
+#define CLASS_1_A4ED94721C8F4303__CTOR_OFFSET UNITYSDK_OFFSET(0x8AC1280)
 
-inline static constexpr unsigned int Class_1_A4ED94721C8F4303_TypeDefinitionIndex = 53470;
+inline static constexpr unsigned int Class_1_A4ED94721C8F4303_TypeDefinitionIndex = 61109;
 
 class Class_1_A4ED94721C8F4303 : public ::System::Object
 {
 public:
 	::System::UInt32 Field_1_0; // 0x10
 
-	::System::Void _ctor(::System::UInt32 a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303__CTOR_OFFSET))(this);
 	}
 
 	static ::Class_1_A4ED94721C8F4303* Method_1_63D1770D8D097315(::System::UInt32 a1)
@@ -27,18 +27,13 @@ public:
 		return ((::Class_1_A4ED94721C8F4303*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303_METHOD_1_63D1770D8D097315_OFFSET))(a1);
 	}
 
-	::System::UInt32 Method_1_259B533085E399D3()
+	::System::String* Method_1_C101CD8C5CF89A5A()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303_METHOD_1_259B533085E399D3_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303_METHOD_1_C101CD8C5CF89A5A_OFFSET))(this);
 	}
 
-	::System::UInt32 Method_1_259B533085E399D3_1()
+	::RPG::GameCore::TrainPartyGridSpecialShowRow* Method_1_5BB1D7B29EF5D8ED()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303_METHOD_1_259B533085E399D3_1_OFFSET))(this);
-	}
-
-	::RPG::GameCore::RogueMiracleRow* Method_1_0AD2A112431030E3()
-	{
-		return ((::RPG::GameCore::RogueMiracleRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303_METHOD_1_0AD2A112431030E3_OFFSET))(this);
+		return ((::RPG::GameCore::TrainPartyGridSpecialShowRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A4ED94721C8F4303_METHOD_1_5BB1D7B29EF5D8ED_OFFSET))(this);
 	}
 };

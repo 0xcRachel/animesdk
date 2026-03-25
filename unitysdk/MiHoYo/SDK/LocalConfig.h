@@ -12,11 +12,11 @@ namespace MiHoYo::SDK { class EOSParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15858080)
+#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3DA20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 6792;
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 6904;
 
 	class LocalConfig : public ::System::Object
 	{
@@ -51,6 +51,7 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::ConfigManager_WebViewABTestModel* webview; // 0xC8
 		::MiHoYo::SDK::AccountPlatConfig* account_platform; // 0xD0
 		::System::Boolean ps4_bind_email_can_skip; // 0xD8
+		::System::Boolean enable_color_text_fix; // 0xD9
 
 		::System::Void _ctor()
 		{

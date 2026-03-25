@@ -5,20 +5,20 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x156E0570)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x156E0560)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x156E0550)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x156C2380)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x15DD0D70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x15DD0D60)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15DD0D50)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DB2BE0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 27397;
+	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 28133;
 
 	class PackageDescriptor : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x18
+		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x10
+		::System::String* name; // 0x18
 		::System::String* fullName; // 0x20
 
 		::System::Void _ctor(::System::String* name, ::System::String* fullName, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file)

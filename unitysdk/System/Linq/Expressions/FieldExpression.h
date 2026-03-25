@@ -7,13 +7,13 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_FIELDEXPRESSION_GETMEMBER_OFFSET UNITYSDK_OFFSET(0x17CB3890)
-#define SYSTEM_LINQ_EXPRESSIONS_FIELDEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17CB38A0)
-#define SYSTEM_LINQ_EXPRESSIONS_FIELDEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CB3820)
+#define SYSTEM_LINQ_EXPRESSIONS_FIELDEXPRESSION_GETMEMBER_OFFSET UNITYSDK_OFFSET(0x184CAB80)
+#define SYSTEM_LINQ_EXPRESSIONS_FIELDEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x184CAB90)
+#define SYSTEM_LINQ_EXPRESSIONS_FIELDEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x184CAB10)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int FieldExpression_TypeDefinitionIndex = 3220;
+	inline static constexpr unsigned int FieldExpression_TypeDefinitionIndex = 3229;
 
 	class FieldExpression : public ::System::Linq::Expressions::MemberExpression
 	{

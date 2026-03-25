@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByInfiniteMonsterWaveLeft; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B2B2792AFEA7BF35_EVALUATE_OFFSET UNITYSDK_OFFSET(0x103790C0)
-#define CLASS_3_B2B2792AFEA7BF35__CTOR_OFFSET UNITYSDK_OFFSET(0x10379090)
+#define CLASS_3_B2B2792AFEA7BF35_EVALUATE_OFFSET UNITYSDK_OFFSET(0x111BA5E0)
+#define CLASS_3_B2B2792AFEA7BF35__CTOR_OFFSET UNITYSDK_OFFSET(0x111BA5B0)
 
-inline static constexpr unsigned int Class_3_B2B2792AFEA7BF35_TypeDefinitionIndex = 43054;
+inline static constexpr unsigned int Class_3_B2B2792AFEA7BF35_TypeDefinitionIndex = 44105;
 
 class Class_3_B2B2792AFEA7BF35 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByInfiniteMonsterWaveLeft*>
 {

@@ -6,12 +6,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 
-#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_1_OFFSET UNITYSDK_OFFSET(0x8094570)
-#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_OFFSET UNITYSDK_OFFSET(0x8094450)
+#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_1_OFFSET UNITYSDK_OFFSET(0x83EE4A0)
+#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_OFFSET UNITYSDK_OFFSET(0x83EE380)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int TextureRegionExtension_TypeDefinitionIndex = 36998;
+	inline static constexpr unsigned int TextureRegionExtension_TypeDefinitionIndex = 37935;
 
 	class TextureRegionExtension : public ::System::Object
 	{

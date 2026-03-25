@@ -9,28 +9,28 @@ namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_COMPARE_OFFSET UNITYSDK_OFFSET(0x17D6A600)
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17D6A5A0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x17D6A540)
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x17D6A6F0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x17D6A840)
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D6A8D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR__CTOR_OFFSET UNITYSDK_OFFSET(0x17D62F40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_COMPARE_OFFSET UNITYSDK_OFFSET(0x1859A3D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1859A370)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1859A310)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1859A4C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1859A610)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1859A6A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_CHAR__CTOR_OFFSET UNITYSDK_OFFSET(0x18592D10)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_char_TypeDefinitionIndex = 2133;
+	inline static constexpr unsigned int Datatype_char_TypeDefinitionIndex = 2138;
 
 	class Datatype_char : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_listValueType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_char_TypeDefinitionIndex)->GetStaticField(0x14120);
-		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_char_TypeDefinitionIndex)->GetStaticField(0x14128);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_char_TypeDefinitionIndex)->GetStaticField(0x14290);
+		}
+		static ::System::Type** StaticGet_listValueType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_char_TypeDefinitionIndex)->GetStaticField(0x14298);
 		}
 
 		::System::Void _ctor()

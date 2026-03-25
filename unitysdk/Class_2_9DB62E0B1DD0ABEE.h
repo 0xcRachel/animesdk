@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10D88910)
-#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x10D888A0)
-#define CLASS_2_9DB62E0B1DD0ABEE__CTOR_OFFSET UNITYSDK_OFFSET(0x10D889D0)
+#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9EFABA0)
+#define CLASS_2_9DB62E0B1DD0ABEE_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x9EFAB30)
+#define CLASS_2_9DB62E0B1DD0ABEE__CTOR_OFFSET UNITYSDK_OFFSET(0x9EFAC60)
 
-inline static constexpr unsigned int Class_2_9DB62E0B1DD0ABEE_TypeDefinitionIndex = 57472;
+inline static constexpr unsigned int Class_2_9DB62E0B1DD0ABEE_TypeDefinitionIndex = 59072;
 
 class Class_2_9DB62E0B1DD0ABEE : public ::Class_1_89D8044AB73F8F6D
 {
 public:
-	::UnityEngine::UI::Text* Field_2_2; // 0x18
-	::UnityEngine::UI::Text* Field_2_0; // 0x20
-	::UnityEngine::Transform* Field_2_1; // 0x28
+	::UnityEngine::Transform* Field_2_1; // 0x18
+	::UnityEngine::UI::Text* Field_2_2; // 0x20
+	::UnityEngine::UI::Text* Field_2_0; // 0x28
 
 	::System::Void _ctor()
 	{

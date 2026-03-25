@@ -3,7 +3,7 @@
 
 namespace RPG::AvatarSystem
 {
-	inline static constexpr unsigned int AvatarInstanceType_TypeDefinitionIndex = 40894;
+	inline static constexpr unsigned int AvatarInstanceType_TypeDefinitionIndex = 41942;
 
 	enum class AvatarInstanceType : ::System::Int32
 	{

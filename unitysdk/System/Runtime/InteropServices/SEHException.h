@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_SEHEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15CE0F90)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_SEHEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE0EF0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_SEHEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x163A9390)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_SEHEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x163A92F0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int SEHException_TypeDefinitionIndex = 1418;
+	inline static constexpr unsigned int SEHException_TypeDefinitionIndex = 1423;
 
 	class SEHException : public ::System::Runtime::InteropServices::ExternalException
 	{

@@ -6,20 +6,20 @@
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstance; }
 namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_GETSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x9B93EC0)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_PLAYMOTIONFROM_OFFSET UNITYSDK_OFFSET(0x9B95950)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0x9B958E0)
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x9B8E8C0)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_GETSCREENPOINT_OFFSET UNITYSDK_OFFSET(0xA065820)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_PLAYMOTIONFROM_OFFSET UNITYSDK_OFFSET(0xA0672B0)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xA067240)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xA0602D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelTeamMemberSlot_TypeDefinitionIndex = 61622;
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlot_TypeDefinitionIndex = 63809;
 
 	class ChimeraDuelTeamMemberSlot : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView* _View; // 0x10
-		::RPG::Client::Prop::ChimeraDuelShopChimeraInstance* Instance; // 0x18
+		::RPG::Client::Prop::ChimeraDuelShopChimeraInstance* Instance; // 0x10
+		::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView* _View; // 0x18
 
 		::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView* view)
 		{

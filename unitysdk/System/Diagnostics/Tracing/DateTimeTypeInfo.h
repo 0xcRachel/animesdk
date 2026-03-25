@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_DATETIMETYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x15C05B50)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATETIMETYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x15C05B00)
-#define SYSTEM_DIAGNOSTICS_TRACING_DATETIMETYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15C05C00)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATETIMETYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x162CDFF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATETIMETYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x162CDFA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DATETIMETYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x162CE0A0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int DateTimeTypeInfo_TypeDefinitionIndex = 1638;
+	inline static constexpr unsigned int DateTimeTypeInfo_TypeDefinitionIndex = 1643;
 
 	class DateTimeTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::DateTime>
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELAUDIOSWITCH_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x16BA0030)
-#define RPG_GAMECORE_LEVELAUDIOSWITCH_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B9FFB0)
-#define RPG_GAMECORE_LEVELAUDIOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA0000)
+#define RPG_GAMECORE_LEVELAUDIOSWITCH_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x173435C0)
+#define RPG_GAMECORE_LEVELAUDIOSWITCH_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17343540)
+#define RPG_GAMECORE_LEVELAUDIOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x17343590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioSwitch_TypeDefinitionIndex = 20149;
+	inline static constexpr unsigned int LevelAudioSwitch_TypeDefinitionIndex = 20693;
 
 	class LevelAudioSwitch : public ::RPG::GameCore::TaskConfig
 	{

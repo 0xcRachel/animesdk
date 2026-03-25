@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_3DE83D320AD4AA4D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1116B410)
-#define CLASS_1_3DE83D320AD4AA4D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1116B440)
-#define CLASS_1_3DE83D320AD4AA4D___C__SORTDARKTEAMMULTIROWMEMBER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1116B450)
+#define CLASS_1_3DE83D320AD4AA4D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B87160)
+#define CLASS_1_3DE83D320AD4AA4D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B87190)
+#define CLASS_1_3DE83D320AD4AA4D___C__SORTDARKTEAMMULTIROWMEMBER_B__11_0_OFFSET UNITYSDK_OFFSET(0x8B871A0)
 
-inline static constexpr unsigned int Class_1_3DE83D320AD4AA4D___c_TypeDefinitionIndex = 46633;
+inline static constexpr unsigned int Class_1_3DE83D320AD4AA4D___c_TypeDefinitionIndex = 47712;
 
 class Class_1_3DE83D320AD4AA4D___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__11_0()
-	{
-		return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DE83D320AD4AA4D___c_TypeDefinitionIndex)->GetStaticField(0x43780);
-	}
 	static ::Class_1_3DE83D320AD4AA4D___c** StaticGet___9()
 	{
-		return (::Class_1_3DE83D320AD4AA4D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DE83D320AD4AA4D___c_TypeDefinitionIndex)->GetStaticField(0x43788);
+		return (::Class_1_3DE83D320AD4AA4D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DE83D320AD4AA4D___c_TypeDefinitionIndex)->GetStaticField(0x44760);
+	}
+	static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__11_0()
+	{
+		return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DE83D320AD4AA4D___c_TypeDefinitionIndex)->GetStaticField(0x44768);
 	}
 
 	static ::System::Void _cctor()

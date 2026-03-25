@@ -7,19 +7,19 @@ namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_7FDBB1F35A937052_METHOD_2_05B2F72F98EC81FB_OFFSET UNITYSDK_OFFSET(0x10B35CA0)
-#define CLASS_2_7FDBB1F35A937052__CTOR_OFFSET UNITYSDK_OFFSET(0x10B35DE0)
-#define CLASS_2_7FDBB1F35A937052__ONBIND_OFFSET UNITYSDK_OFFSET(0x10B35C00)
-#define CLASS_2_7FDBB1F35A937052___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x10B35E10)
+#define CLASS_2_7FDBB1F35A937052_METHOD_2_05B2F72F98EC81FB_OFFSET UNITYSDK_OFFSET(0x10C6E860)
+#define CLASS_2_7FDBB1F35A937052__CTOR_OFFSET UNITYSDK_OFFSET(0x10C6E9A0)
+#define CLASS_2_7FDBB1F35A937052__ONBIND_OFFSET UNITYSDK_OFFSET(0x10C6E700)
+#define CLASS_2_7FDBB1F35A937052___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x10C6E9D0)
 
-inline static constexpr unsigned int Class_2_7FDBB1F35A937052_TypeDefinitionIndex = 57538;
+inline static constexpr unsigned int Class_2_7FDBB1F35A937052_TypeDefinitionIndex = 59157;
 
 class Class_2_7FDBB1F35A937052 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
-	::UnityEngine::UI::Image* Field_2_2; // 0x60
-	::RPG::Client::MonoUIColorSwitcher* Field_2_1; // 0x68
+	::RPG::Client::MonoUIColorSwitcher* Field_2_1; // 0x60
+	::UnityEngine::UI::Image* Field_2_2; // 0x68
 
 	::System::Void _ctor()
 	{

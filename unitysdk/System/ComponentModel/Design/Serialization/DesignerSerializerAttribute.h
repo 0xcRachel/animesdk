@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x17E6E7C0)
-#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6E7B0)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x18698C70)
+#define SYSTEM_COMPONENTMODEL_DESIGN_SERIALIZATION_DESIGNERSERIALIZERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18698C60)
 
 namespace System::ComponentModel::Design::Serialization
 {
-	inline static constexpr unsigned int DesignerSerializerAttribute_TypeDefinitionIndex = 2643;
+	inline static constexpr unsigned int DesignerSerializerAttribute_TypeDefinitionIndex = 2648;
 
 	class DesignerSerializerAttribute : public ::System::Attribute
 	{

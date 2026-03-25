@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLocationType_TypeDefinitionIndex = 16334;
+	inline static constexpr unsigned int TeamLocationType_TypeDefinitionIndex = 16708;
 
 	enum class TeamLocationType : ::System::Int32
 	{

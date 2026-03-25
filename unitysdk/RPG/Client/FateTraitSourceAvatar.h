@@ -4,33 +4,33 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class AvatarData; }
 namespace RPG::Client { class FateBuffTraitInfo; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETDESC_OFFSET UNITYSDK_OFFSET(0x9243030)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETIMGICON_OFFSET UNITYSDK_OFFSET(0x9242CE0)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETNAME_OFFSET UNITYSDK_OFFSET(0x9242F10)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETRARITYBG_OFFSET UNITYSDK_OFFSET(0x9242EA0)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x9242DE0)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x9243170)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x92430B0)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x9242190)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x9243180)
-#define RPG_CLIENT_FATETRAITSOURCEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x9242280)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETDESC_OFFSET UNITYSDK_OFFSET(0x96B6330)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETIMGICON_OFFSET UNITYSDK_OFFSET(0x96B6100)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETNAME_OFFSET UNITYSDK_OFFSET(0x96B62A0)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GETRARITYBG_OFFSET UNITYSDK_OFFSET(0x96B6230)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x96B6170)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x96B64A0)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x96B63E0)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x96B5440)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x96B64B0)
+#define RPG_CLIENT_FATETRAITSOURCEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x96B5530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateTraitSourceAvatar_TypeDefinitionIndex = 50794;
+	inline static constexpr unsigned int FateTraitSourceAvatar_TypeDefinitionIndex = 51929;
 
 	class FateTraitSourceAvatar : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParamList; // 0x10
-		::RPG::Client::FateBuffTraitInfo* _BelongTraitInfo; // 0x18
-		::RPG::Client::AvatarData* _AvatarData; // 0x20
-		::RPG::Client::TextID _AvatarTipDesc; // 0x28
-		::System::UInt32 _AvatarID_k__BackingField; // 0x38
+		::RPG::Client::FateBuffTraitInfo* _BelongTraitInfo; // 0x10
+		::RPG::Client::IAvatarInfoProvider* _AvatarData; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _DescParamList; // 0x20
+		::System::UInt32 _AvatarID_k__BackingField; // 0x28
+		::RPG::Client::TextID _AvatarTipDesc; // 0x30
 
 		::System::Void _ctor(::System::UInt32 avatarId, ::RPG::Client::TextID desc, ::Il2CppArray<::RPG::GameCore::FixPoint>* descParamList, ::RPG::Client::FateBuffTraitInfo* belongTraitInfo)
 		{
@@ -77,9 +77,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEAVATAR_SET_AVATARID_OFFSET))(this, value);
 		}
 
-		::RPG::Client::AvatarData* get_AvatarData()
+		::RPG::Client::IAvatarInfoProvider* get_AvatarData()
 		{
-			return ((::RPG::Client::AvatarData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEAVATAR_GET_AVATARDATA_OFFSET))(this);
+			return ((::RPG::Client::IAvatarInfoProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATETRAITSOURCEAVATAR_GET_AVATARDATA_OFFSET))(this);
 		}
 	};
 }

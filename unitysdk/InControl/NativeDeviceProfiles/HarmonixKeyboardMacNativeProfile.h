@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXKEYBOARDMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15494FC0)
-#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXKEYBOARDMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15495050)
+#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXKEYBOARDMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BAEDC0)
+#define INCONTROL_NATIVEDEVICEPROFILES_HARMONIXKEYBOARDMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BAEE50)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int HarmonixKeyboardMacNativeProfile_TypeDefinitionIndex = 30831;
+	inline static constexpr unsigned int HarmonixKeyboardMacNativeProfile_TypeDefinitionIndex = 31706;
 
 	class HarmonixKeyboardMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

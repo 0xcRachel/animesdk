@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class LittleGameProxyEntityConfig; }
 
-#define CLASS_1_291F4DFF708B8F23__CTOR_OFFSET UNITYSDK_OFFSET(0x1618D9A0)
+#define CLASS_1_291F4DFF708B8F23__CTOR_OFFSET UNITYSDK_OFFSET(0x16811AB0)
 
-inline static constexpr unsigned int Class_1_291F4DFF708B8F23_TypeDefinitionIndex = 31398;
+inline static constexpr unsigned int Class_1_291F4DFF708B8F23_TypeDefinitionIndex = 32302;
 
 class Class_1_291F4DFF708B8F23 : public ::System::Object
 {

@@ -4,18 +4,18 @@
 
 namespace RPG::GameCore { class NPCTriggerSound; }
 
-#define CLASS_1_495BD7C43746BF8B__CTOR_OFFSET UNITYSDK_OFFSET(0x10C8A250)
+#define CLASS_1_495BD7C43746BF8B__CTOR_OFFSET UNITYSDK_OFFSET(0x887ABC0)
 
-inline static constexpr unsigned int Class_1_495BD7C43746BF8B_TypeDefinitionIndex = 44876;
+inline static constexpr unsigned int Class_1_495BD7C43746BF8B_TypeDefinitionIndex = 45937;
 
 class Class_1_495BD7C43746BF8B : public ::System::Object
 {
 public:
 	::RPG::GameCore::NPCTriggerSound* Field_1_4; // 0x10
-	::System::Single Field_1_0; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
-	::System::Boolean Field_1_3; // 0x20
-	::System::Single Field_1_1; // 0x24
+	::System::Int32 Field_1_2; // 0x18
+	::System::Boolean Field_1_3; // 0x1C
+	::System::Single Field_1_1; // 0x20
+	::System::Single Field_1_0; // 0x24
 
 	::System::Void _ctor()
 	{

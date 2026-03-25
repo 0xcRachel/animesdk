@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_5045AA363287E230;
-namespace RPG::GameCore { class TurnBasedAbilityComponent; }
+namespace RPG::Client { class IRogueTournDifficultyWithDifficultyComp; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF8319A0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF8319E0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19_INVOKE_OFFSET UNITYSDK_OFFSET(0xF831180)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B200)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF5D3F0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF5D420)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF5CE90)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE19__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57A80)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE19_TypeDefinitionIndex = 39450;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE19_TypeDefinitionIndex = 40436;
 
 	class InternalGlobals___GEN_DELEGATE19 : public ::System::MulticastDelegate
 	{
@@ -25,19 +24,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Class_1_5045AA363287E230* pBattleRelicModule, ::RPG::GameCore::TurnBasedAbilityComponent* pTurnBasedAbilityComponent)
+		::System::UInt32 Invoke(::RPG::Client::IRogueTournDifficultyWithDifficultyComp* difficulty)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5045AA363287E230*, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19_INVOKE_OFFSET))(this, pBattleRelicModule, pTurnBasedAbilityComponent);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::IRogueTournDifficultyWithDifficultyComp*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19_INVOKE_OFFSET))(this, difficulty);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_1_5045AA363287E230* pBattleRelicModule, ::RPG::GameCore::TurnBasedAbilityComponent* pTurnBasedAbilityComponent, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournDifficultyWithDifficultyComp* difficulty, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_5045AA363287E230*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19_BEGININVOKE_OFFSET))(this, pBattleRelicModule, pTurnBasedAbilityComponent, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournDifficultyWithDifficultyComp*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19_BEGININVOKE_OFFSET))(this, difficulty, callback, object);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::System::UInt32 EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE19_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_09216AC83FE49B91;
+class Class_1_DD81253E160EB8B2;
 namespace RPG::Client { class TimeRewindControlManager; }
 namespace RPG::Client { class TimeRewindControlManager_TimeRewindEntityPreloadEffItem; }
 namespace RPG::Client { class TriggerEffectParams; }
@@ -12,24 +12,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_CACHEEFFASYNC_OFFSET UNITYSDK_OFFSET(0xA0894B0)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_CLEAR_OFFSET UNITYSDK_OFFSET(0xA08D650)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_EFFECTSETFINISH_OFFSET UNITYSDK_OFFSET(0xA08AB20)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_FIREEFFECTASYNC_OFFSET UNITYSDK_OFFSET(0xA08A7D0)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_GET_LOADEFFITEM_OFFSET UNITYSDK_OFFSET(0xA094850)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_INIT_OFFSET UNITYSDK_OFFSET(0xA089AF0)
-#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA094CD0)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_CACHEEFFASYNC_OFFSET UNITYSDK_OFFSET(0xA5ADB60)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_CLEAR_OFFSET UNITYSDK_OFFSET(0xA5B1C80)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_EFFECTSETFINISH_OFFSET UNITYSDK_OFFSET(0xA5AF1E0)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_FIREEFFECTASYNC_OFFSET UNITYSDK_OFFSET(0xA5AEE90)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_GET_LOADEFFITEM_OFFSET UNITYSDK_OFFSET(0xA5B8BA0)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_INIT_OFFSET UNITYSDK_OFFSET(0xA5AE1D0)
+#define RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA5B9010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEntityPreload_TypeDefinitionIndex = 48197;
+	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEntityPreload_TypeDefinitionIndex = 49289;
 
 	class TimeRewindControlManager_TimeRewindEntityPreload : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::System::String*>* _UniqueEffPreloadPaths; // 0x10
-		::RPG::GameCore::GameEntity* Owner; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::TimeRewindControlManager_TimeRewindEntityPreloadEffItem*>* _LoadEffItem; // 0x20
+		::RPG::GameCore::GameEntity* Owner; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::TimeRewindControlManager_TimeRewindEntityPreloadEffItem*>* _LoadEffItem; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::String*>* _UniqueEffPreloadPaths; // 0x20
 		::RPG::Client::TimeRewindControlManager* _OwnerManager; // 0x28
 
 		::System::Void _ctor()
@@ -42,14 +42,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::TimeRewindControlManager_TimeRewindEntityPreloadEffItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_GET_LOADEFFITEM_OFFSET))(this);
 		}
 
-		::System::Void FireEffectAsync(::RPG::Client::TriggerEffectParams* param, ::Class_1_09216AC83FE49B91* handler)
+		::System::Void FireEffectAsync(::RPG::Client::TriggerEffectParams* param, ::Class_1_DD81253E160EB8B2* handler)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TriggerEffectParams*, ::Class_1_09216AC83FE49B91*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_FIREEFFECTASYNC_OFFSET))(this, param, handler);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TriggerEffectParams*, ::Class_1_DD81253E160EB8B2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_FIREEFFECTASYNC_OFFSET))(this, param, handler);
 		}
 
-		::System::Void EffectSetFinish(::Class_1_09216AC83FE49B91* handler, ::System::Boolean needFadeOut)
+		::System::Void EffectSetFinish(::Class_1_DD81253E160EB8B2* handler, ::System::Boolean needFadeOut)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_09216AC83FE49B91*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_EFFECTSETFINISH_OFFSET))(this, handler, needFadeOut);
+			return ((::System::Void(*)(::PVOID, ::Class_1_DD81253E160EB8B2*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMEREWINDCONTROLMANAGER_TIMEREWINDENTITYPRELOAD_EFFECTSETFINISH_OFFSET))(this, handler, needFadeOut);
 		}
 
 		::System::Void Clear()

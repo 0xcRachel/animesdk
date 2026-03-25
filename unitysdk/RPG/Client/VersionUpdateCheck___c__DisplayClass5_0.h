@@ -5,12 +5,12 @@
 class Class_1_43BD383C98B4C0C5_101;
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2375A0)
-#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS5_0__ISPSSUBPACKPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xA23B160)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA770D20)
+#define RPG_CLIENT_VERSIONUPDATECHECK___C__DISPLAYCLASS5_0__ISPSSUBPACKPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xA7748E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass5_0_TypeDefinitionIndex = 48576;
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass5_0_TypeDefinitionIndex = 49670;
 
 	class VersionUpdateCheck___c__DisplayClass5_0 : public ::System::Object
 	{

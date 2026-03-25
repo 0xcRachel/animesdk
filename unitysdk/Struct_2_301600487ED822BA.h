@@ -4,7 +4,7 @@
 
 namespace RPG::Client { class MonoHandCatchableItem; }
 
-inline static constexpr unsigned int Struct_2_301600487ED822BA_TypeDefinitionIndex = 54614;
+inline static constexpr unsigned int Struct_2_301600487ED822BA_TypeDefinitionIndex = 56174;
 
 struct alignas(8) Struct_2_301600487ED822BA
 {

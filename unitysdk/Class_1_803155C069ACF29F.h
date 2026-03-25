@@ -5,20 +5,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_803155C069ACF29F__CTOR_OFFSET UNITYSDK_OFFSET(0x1616D8D0)
+#define CLASS_1_803155C069ACF29F__CTOR_OFFSET UNITYSDK_OFFSET(0x16949800)
 
-inline static constexpr unsigned int Class_1_803155C069ACF29F_TypeDefinitionIndex = 31990;
+inline static constexpr unsigned int Class_1_803155C069ACF29F_TypeDefinitionIndex = 32900;
 
 class Class_1_803155C069ACF29F : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_2; // 0x10
-	::UnityEngine::Vector3 Field_1_4; // 0x14
-	::RPG::Client::LittleGame::TRFOperate Field_1_0; // 0x20
-	::System::Boolean Field_1_6; // 0x24
-	::System::UInt32 Field_1_3; // 0x28
-	::RPG::Client::LittleGame::TRFAction Field_1_1; // 0x2C
-	::System::Single Field_1_5; // 0x30
+	::RPG::Client::LittleGame::TRFAction Field_1_1; // 0x10
+	::System::Single Field_1_5; // 0x14
+	::UnityEngine::Vector3 Field_1_4; // 0x18
+	::RPG::Client::LittleGame::TRFOperate Field_1_0; // 0x24
+	::System::UInt32 Field_1_2; // 0x28
+	::System::Boolean Field_1_6; // 0x2C
+	::System::UInt32 Field_1_3; // 0x30
 
 	::System::Void _ctor()
 	{

@@ -5,17 +5,17 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_39C3E43CBEDA89C8_CLEAR_OFFSET UNITYSDK_OFFSET(0x8964750)
-#define CLASS_1_39C3E43CBEDA89C8_METHOD_1_1459F312B6A8DF68_OFFSET UNITYSDK_OFFSET(0x89646D0)
-#define CLASS_1_39C3E43CBEDA89C8__CTOR_OFFSET UNITYSDK_OFFSET(0x89647B0)
+#define CLASS_1_39C3E43CBEDA89C8_CLEAR_OFFSET UNITYSDK_OFFSET(0x880E3E0)
+#define CLASS_1_39C3E43CBEDA89C8_METHOD_1_1459F312B6A8DF68_OFFSET UNITYSDK_OFFSET(0x880E360)
+#define CLASS_1_39C3E43CBEDA89C8__CTOR_OFFSET UNITYSDK_OFFSET(0x880E440)
 
-inline static constexpr unsigned int Class_1_39C3E43CBEDA89C8_TypeDefinitionIndex = 43099;
+inline static constexpr unsigned int Class_1_39C3E43CBEDA89C8_TypeDefinitionIndex = 44150;
 
 class Class_1_39C3E43CBEDA89C8 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x18
 	::RPG::GameCore::FixPoint Field_1_3; // 0x20
 	::RPG::GameCore::FixPoint Field_1_2; // 0x28
 

@@ -5,10 +5,10 @@
 class Class_1_6AF92A74E815B48E;
 namespace RPG::GameCore { class FiveDimOneSidePassConfig; }
 
-#define CLASS_1_0A375F255DF0006F_CLEAR_OFFSET UNITYSDK_OFFSET(0x163402A0)
-#define CLASS_1_0A375F255DF0006F__CTOR_OFFSET UNITYSDK_OFFSET(0x16340300)
+#define CLASS_1_0A375F255DF0006F_CLEAR_OFFSET UNITYSDK_OFFSET(0x16790470)
+#define CLASS_1_0A375F255DF0006F__CTOR_OFFSET UNITYSDK_OFFSET(0x167904D0)
 
-inline static constexpr unsigned int Class_1_0A375F255DF0006F_TypeDefinitionIndex = 32559;
+inline static constexpr unsigned int Class_1_0A375F255DF0006F_TypeDefinitionIndex = 33481;
 
 class Class_1_0A375F255DF0006F : public ::System::Object
 {

@@ -8,21 +8,21 @@ namespace System { template <typename T> class Action_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__ALL_B__0_OFFSET UNITYSDK_OFFSET(0x18485660)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__ALL_B__1_OFFSET UNITYSDK_OFFSET(0x184857B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__ALL_B__2_OFFSET UNITYSDK_OFFSET(0x184857E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18484610)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__ALL_B__0_OFFSET UNITYSDK_OFFSET(0x18CA2780)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__ALL_B__1_OFFSET UNITYSDK_OFFSET(0x18CA28D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__ALL_B__2_OFFSET UNITYSDK_OFFSET(0x18CA2900)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA1730)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass51_0_TypeDefinitionIndex = 29723;
+	inline static constexpr unsigned int Promise___c__DisplayClass51_0_TypeDefinitionIndex = 30598;
 
 	class Promise___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::EmbeddedBrowser::Promise* resultPromise; // 0x10
-		::System::Action* __9__2; // 0x18
-		::System::Action_1<::System::Exception*>* __9__1; // 0x20
+		::System::Action_1<::System::Exception*>* __9__1; // 0x18
+		::System::Action* __9__2; // 0x20
 		::System::Int32 remainingCount; // 0x28
 
 		::System::Void _ctor()

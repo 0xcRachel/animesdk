@@ -5,16 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_3A3D56D4D49D35CE_METHOD_1_239127A8B01A1A3F_OFFSET UNITYSDK_OFFSET(0x1708B050)
-#define CLASS_1_3A3D56D4D49D35CE__CTOR_OFFSET UNITYSDK_OFFSET(0x1708B150)
+#define CLASS_1_3A3D56D4D49D35CE_METHOD_1_239127A8B01A1A3F_OFFSET UNITYSDK_OFFSET(0x16C2DB30)
+#define CLASS_1_3A3D56D4D49D35CE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2DC30)
 
-inline static constexpr unsigned int Class_1_3A3D56D4D49D35CE_TypeDefinitionIndex = 10279;
+inline static constexpr unsigned int Class_1_3A3D56D4D49D35CE_TypeDefinitionIndex = 10283;
 
 class Class_1_3A3D56D4D49D35CE : public ::System::Object
 {
 public:
-	::RPG::GameCore::CakeRaceUnlockConditionType Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 Field_1_1; // 0x10
+	::RPG::GameCore::CakeRaceUnlockConditionType Field_1_0; // 0x14
 
 	::System::Void _ctor()
 	{

@@ -5,12 +5,12 @@
 
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CONFIGUREDTASKAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x1465FE0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CONFIGUREDTASKAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x14FFDE0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CONFIGUREDTASKAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x1495E80)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CONFIGUREDTASKAWAITABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x158C9C0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ConfiguredTaskAwaitable_TypeDefinitionIndex = 1355;
+	inline static constexpr unsigned int ConfiguredTaskAwaitable_TypeDefinitionIndex = 1360;
 
 	struct alignas(8) ConfiguredTaskAwaitable
 	{

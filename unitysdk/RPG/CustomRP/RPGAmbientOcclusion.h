@@ -6,11 +6,11 @@ namespace RPG::CustomRP { class AmibentOcclusioMethodParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class MinFloatParameter; }
 
-#define RPG_CUSTOMRP_RPGAMBIENTOCCLUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x163AC240)
+#define RPG_CUSTOMRP_RPGAMBIENTOCCLUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABAEA0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGAmbientOcclusion_TypeDefinitionIndex = 28517;
+	inline static constexpr unsigned int RPGAmbientOcclusion_TypeDefinitionIndex = 29392;
 
 	class RPGAmbientOcclusion : public ::RPG::CustomRP::CustomVolumeComponent
 	{

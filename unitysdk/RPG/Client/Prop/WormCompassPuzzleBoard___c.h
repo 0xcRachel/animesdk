@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D10900)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9D10940)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C___CONFIRMCLICKINTERNAL_B__78_0_OFFSET UNITYSDK_OFFSET(0x9D10950)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA19CD40)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA19CD80)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLEBOARD___C___CONFIRMCLICKINTERNAL_B__78_0_OFFSET UNITYSDK_OFFSET(0xA19CD90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleBoard___c_TypeDefinitionIndex = 62190;
+	inline static constexpr unsigned int WormCompassPuzzleBoard___c_TypeDefinitionIndex = 64377;
 
 	class WormCompassPuzzleBoard___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__78_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x43A20);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0xB360);
 		}
 		static ::RPG::Client::Prop::WormCompassPuzzleBoard___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::WormCompassPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x43A28);
+			return (::RPG::Client::Prop::WormCompassPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(WormCompassPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0xB368);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console { class ConsoleBindingSuccessDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1575BBC0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1575C560)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E488B0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG___C__DISPLAYCLASS11_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15E49210)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleBindingSuccessDialog___c__DisplayClass11_0_TypeDefinitionIndex = 7492;
+	inline static constexpr unsigned int ConsoleBindingSuccessDialog___c__DisplayClass11_0_TypeDefinitionIndex = 7617;
 
 	class ConsoleBindingSuccessDialog___c__DisplayClass11_0 : public ::System::Object
 	{

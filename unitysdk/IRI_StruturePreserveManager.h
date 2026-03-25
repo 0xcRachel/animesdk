@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define IRI_STRUTUREPRESERVEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x10ADC960)
+#define IRI_STRUTUREPRESERVEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x111F42F0)
 
-inline static constexpr unsigned int IRI_StruturePreserveManager_TypeDefinitionIndex = 37455;
+inline static constexpr unsigned int IRI_StruturePreserveManager_TypeDefinitionIndex = 38419;
 
 class IRI_StruturePreserveManager : public ::UnityEngine::MonoBehaviour
 {

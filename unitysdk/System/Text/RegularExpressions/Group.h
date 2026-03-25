@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x17F27730)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x17F27720)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F27790)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17F27810)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17F27690)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x18750FB0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x18750FA0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18751010)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18751090)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18750F10)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2497;
+	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2502;
 
 	class Group : public ::System::Text::RegularExpressions::Capture
 	{
 	public:
 		static ::System::Text::RegularExpressions::Group** StaticGet__emptygroup()
 		{
-			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x155B0);
+			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x181D0);
 		}
 		::System::String* _name; // 0x20
-		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x28
-		::Il2CppArray<::System::Int32>* _caps; // 0x30
+		::Il2CppArray<::System::Int32>* _caps; // 0x28
+		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x30
 		::System::Int32 _capcount; // 0x38
 
 		::System::Void _ctor(::System::String* text, ::Il2CppArray<::System::Int32>* caps, ::System::Int32 capcount, ::System::String* name)

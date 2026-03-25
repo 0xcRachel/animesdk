@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xA2973E0)
-#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA297430)
+#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION_ONANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xA7D1EC0)
+#define RPG_EDITOR_SKILLPREVIEW_EDITORROOTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D1F10)
 
 namespace RPG::Editor::SkillPreview
 {
-	inline static constexpr unsigned int EditorRootMotion_TypeDefinitionIndex = 41049;
+	inline static constexpr unsigned int EditorRootMotion_TypeDefinitionIndex = 42092;
 
 	class EditorRootMotion : public ::UnityEngine::MonoBehaviour
 	{

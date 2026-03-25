@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_5_9412AE416F3A3E89_OFFSET UNITYSDK_OFFSET(0x16E61FD0)
-#define RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_5_F168FA5502406542_OFFSET UNITYSDK_OFFSET(0x16E61E60)
-#define RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E61F30)
+#define RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_6_91F2D8E9C3719758_OFFSET UNITYSDK_OFFSET(0x17600440)
+#define RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_6_9E6F130967C9B8FC_OFFSET UNITYSDK_OFFSET(0x17600600)
+#define RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17600540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCondNousValueConfig_TypeDefinitionIndex = 17668;
+	inline static constexpr unsigned int RogueCondNousValueConfig_TypeDefinitionIndex = 18147;
 
 	class RogueCondNousValueConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_F168FA5502406542(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondNousValueConfig*& a2)
+		static ::System::Void Method_6_91F2D8E9C3719758(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondNousValueConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondNousValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_5_F168FA5502406542_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondNousValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_6_91F2D8E9C3719758_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_9412AE416F3A3E89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondNousValueConfig* a2)
+		static ::System::Void Method_6_9E6F130967C9B8FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondNousValueConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondNousValueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_5_9412AE416F3A3E89_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondNousValueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDNOUSVALUECONFIG_METHOD_6_9E6F130967C9B8FC_OFFSET))(a1, a2);
 		}
 	};
 }

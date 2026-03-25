@@ -4,7 +4,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ErrorWrapper_TypeDefinitionIndex = 1411;
+	inline static constexpr unsigned int ErrorWrapper_TypeDefinitionIndex = 1416;
 
 	class ErrorWrapper : public ::System::Object
 	{

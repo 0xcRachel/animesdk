@@ -5,11 +5,11 @@
 namespace Entitas { class IContext; }
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTENTITYINDEXDOESNOTEXISTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11316EE0)
+#define ENTITAS_CONTEXTENTITYINDEXDOESNOTEXISTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x11A99100)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextEntityIndexDoesNotExistException_TypeDefinitionIndex = 9213;
+	inline static constexpr unsigned int ContextEntityIndexDoesNotExistException_TypeDefinitionIndex = 9680;
 
 	class ContextEntityIndexDoesNotExistException : public ::Entitas::EntitasException
 	{

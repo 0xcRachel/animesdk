@@ -3,7 +3,7 @@
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int EChartAggregatorMode_TypeDefinitionIndex = 28671;
+	inline static constexpr unsigned int EChartAggregatorMode_TypeDefinitionIndex = 29546;
 
 	enum class EChartAggregatorMode : ::System::Int32
 	{

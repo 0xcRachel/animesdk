@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_4.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
@@ -9,22 +9,22 @@ namespace RPG::Client::ActivityMarble { class MarblePVPManager; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B6EDB0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x8B716B0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0x8B71A70)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0x8B71850)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__3_OFFSET UNITYSDK_OFFSET(0x8B71BA0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F70180)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x8F72B60)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0x8F72F20)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0x8F72D00)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__3_OFFSET UNITYSDK_OFFSET(0x8F73050)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass25_0_TypeDefinitionIndex = 59696;
+	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass25_0_TypeDefinitionIndex = 61452;
 
 	class MarblePVPManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x10
-		::System::Action* __9__3; // 0x18
-		::System::Action_1<::RPG::Client::BaseLobby*>* __9__2; // 0x20
+		::System::Action_1<::RPG::Client::BaseLobby*>* __9__2; // 0x10
+		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x18
+		::System::Action* __9__3; // 0x20
 		::System::UInt64 roomID; // 0x28
 
 		::System::Void _ctor()
@@ -42,9 +42,9 @@ namespace RPG::Client::ActivityMarble
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BaseLobby*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__2_OFFSET))(this, lobby);
 		}
 
-		::System::Void _JoinLobby_b__1(::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_4> arg)
+		::System::Void _JoinLobby_b__1(::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_3> arg)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_4>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__1_OFFSET))(this, arg);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS25_0__JOINLOBBY_B__1_OFFSET))(this, arg);
 		}
 
 		::System::Void _JoinLobby_b__3()

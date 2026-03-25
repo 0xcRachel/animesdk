@@ -6,7 +6,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int Grounding_GroundingLegLockTransform_TypeDefinitionIndex = 34261;
+	inline static constexpr unsigned int Grounding_GroundingLegLockTransform_TypeDefinitionIndex = 35195;
 
 	struct alignas(4) Grounding_GroundingLegLockTransform
 	{

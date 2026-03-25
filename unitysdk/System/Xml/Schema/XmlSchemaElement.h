@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaElement_TypeDefinitionIndex = 2178;
+	inline static constexpr unsigned int XmlSchemaElement_TypeDefinitionIndex = 2183;
 
 	class XmlSchemaElement : public ::System::Xml::Schema::XmlSchemaParticle
 	{

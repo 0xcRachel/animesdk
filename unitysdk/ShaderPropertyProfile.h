@@ -5,9 +5,9 @@
 class ShaderGroup;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SHADERPROPERTYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA68BA70)
+#define SHADERPROPERTYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xABD34A0)
 
-inline static constexpr unsigned int ShaderPropertyProfile_TypeDefinitionIndex = 37448;
+inline static constexpr unsigned int ShaderPropertyProfile_TypeDefinitionIndex = 38412;
 
 class ShaderPropertyProfile : public ::UnityEngine::ScriptableObject
 {

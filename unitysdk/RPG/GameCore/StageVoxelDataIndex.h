@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEVOXELDATAINDEX_METHOD_2_D2CF13DA94A1F4A9_OFFSET UNITYSDK_OFFSET(0x16F8F670)
-#define RPG_GAMECORE_STAGEVOXELDATAINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8FB60)
+#define RPG_GAMECORE_STAGEVOXELDATAINDEX_METHOD_2_A9A3C46B019714E0_OFFSET UNITYSDK_OFFSET(0x17783180)
+#define RPG_GAMECORE_STAGEVOXELDATAINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x17783690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVoxelDataIndex_TypeDefinitionIndex = 17157;
+	inline static constexpr unsigned int StageVoxelDataIndex_TypeDefinitionIndex = 17562;
 
 	class StageVoxelDataIndex : public ::RPG::GameCore::JsonConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATAINDEX__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D2CF13DA94A1F4A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelDataIndex*& a2)
+		static ::System::Void Method_2_A9A3C46B019714E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelDataIndex*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelDataIndex*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATAINDEX_METHOD_2_D2CF13DA94A1F4A9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelDataIndex*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATAINDEX_METHOD_2_A9A3C46B019714E0_OFFSET))(a1, a2);
 		}
 	};
 }

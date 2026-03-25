@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightStageNode; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9404DD0)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS14_0__GETNODE_B__0_OFFSET UNITYSDK_OFFSET(0x94050F0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98C2760)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__DISPLAYCLASS14_0__GETNODE_B__0_OFFSET UNITYSDK_OFFSET(0x98C2A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass14_0_TypeDefinitionIndex = 51849;
+	inline static constexpr unsigned int GridFightStageRoute___c__DisplayClass14_0_TypeDefinitionIndex = 52983;
 
 	class GridFightStageRoute___c__DisplayClass14_0 : public ::System::Object
 	{

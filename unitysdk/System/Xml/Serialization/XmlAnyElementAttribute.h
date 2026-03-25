@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x17DAAFE0)
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17DAAFC0)
-#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x17DAAFF0)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x185DA670)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x185DA650)
+#define SYSTEM_XML_SERIALIZATION_XMLANYELEMENTATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x185DA680)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAnyElementAttribute_TypeDefinitionIndex = 1980;
+	inline static constexpr unsigned int XmlAnyElementAttribute_TypeDefinitionIndex = 1985;
 
 	class XmlAnyElementAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* elementName; // 0x10
-		::System::String* ns; // 0x18
+		::System::String* ns; // 0x10
+		::System::String* elementName; // 0x18
 		::System::Int32 order; // 0x20
 
 		::System::String* get_Name()

@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class CanvasGroup; }
 
-#define RPG_CLIENT_PARKOURBILLBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0x9A34800)
-#define RPG_CLIENT_PARKOURBILLBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0x9A34910)
-#define RPG_CLIENT_PARKOURBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x9A34ED0)
+#define RPG_CLIENT_PARKOURBILLBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0x9ED61E0)
+#define RPG_CLIENT_PARKOURBILLBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0x9ED62F0)
+#define RPG_CLIENT_PARKOURBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED68B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourBillboard_TypeDefinitionIndex = 49052;
+	inline static constexpr unsigned int ParkourBillboard_TypeDefinitionIndex = 50187;
 
 	class ParkourBillboard : public ::UnityEngine::MonoBehaviour
 	{

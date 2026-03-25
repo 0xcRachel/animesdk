@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HEARTDIALDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B5D8A0)
-#define RPG_GAMECORE_HEARTDIALDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B5DA50)
+#define RPG_GAMECORE_HEARTDIALDIALOGUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172ABF80)
+#define RPG_GAMECORE_HEARTDIALDIALOGUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172AC130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialDialogueRow_TypeDefinitionIndex = 12479;
+	inline static constexpr unsigned int HeartDialDialogueRow_TypeDefinitionIndex = 12549;
 
 	class HeartDialDialogueRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ControlTalkList; // 0x10
-		::System::UInt32 RewardID; // 0x18
+		::System::UInt32 SubMissionID; // 0x18
 		::System::UInt32 ID; // 0x1C
-		::System::UInt32 SubMissionID; // 0x20
+		::System::UInt32 RewardID; // 0x20
 
 		::System::Void _ctor()
 		{

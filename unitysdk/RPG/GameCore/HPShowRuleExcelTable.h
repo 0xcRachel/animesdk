@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16B58390)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16B581E0)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16B57EB0)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16B58180)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16B58560)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B57F30)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16B585A0)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B58780)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16B589B0)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B58D10)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16B586E0)
-#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B58640)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x172A6AB0)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x172A6900)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x172A65D0)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x172A68A0)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x172A6C80)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x172A6650)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x172A6CC0)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A6EA0)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x172A70D0)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x172A7430)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x172A6E00)
+#define RPG_GAMECORE_HPSHOWRULEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x172A6D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HPShowRuleExcelTable_TypeDefinitionIndex = 12475;
+	inline static constexpr unsigned int HPShowRuleExcelTable_TypeDefinitionIndex = 12545;
 
 	class HPShowRuleExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HPShowRuleRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HPShowRuleRow*>**)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x300A0);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x300A8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HPShowRuleRow*>**)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x369D0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x300B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x369D8);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xB760);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x369E0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xB761);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xD770);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(HPShowRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xD771);
 		}
 
 		static ::System::Void _cctor()

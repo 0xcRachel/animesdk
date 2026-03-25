@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters
 {
-	inline static constexpr unsigned int TypeFilterLevel_TypeDefinitionIndex = 1127;
+	inline static constexpr unsigned int TypeFilterLevel_TypeDefinitionIndex = 1132;
 
 	enum class TypeFilterLevel : ::System::Int32
 	{

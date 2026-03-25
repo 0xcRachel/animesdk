@@ -5,7 +5,7 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Value_TypeDefinitionIndex = 9328;
+	inline static constexpr unsigned int Value_TypeDefinitionIndex = 9795;
 
 	struct alignas(4) Value
 	{

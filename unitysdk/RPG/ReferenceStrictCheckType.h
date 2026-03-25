@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferenceStrictCheckType_TypeDefinitionIndex = 40764;
+	inline static constexpr unsigned int ReferenceStrictCheckType_TypeDefinitionIndex = 41812;
 
 	enum class ReferenceStrictCheckType : ::System::Byte
 	{

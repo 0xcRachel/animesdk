@@ -5,10 +5,10 @@
 namespace RPG::Client { class PlanetFesAvatarMoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_687A07818698E325_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10CD7B80)
-#define CLASS_3_687A07818698E325__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD7B50)
+#define CLASS_3_687A07818698E325_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEEF7D0)
+#define CLASS_3_687A07818698E325__CTOR_OFFSET UNITYSDK_OFFSET(0xBEEF7A0)
 
-inline static constexpr unsigned int Class_3_687A07818698E325_TypeDefinitionIndex = 45928;
+inline static constexpr unsigned int Class_3_687A07818698E325_TypeDefinitionIndex = 46996;
 
 class Class_3_687A07818698E325 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::Client::PlanetFesAvatarMoveTo*>
 {

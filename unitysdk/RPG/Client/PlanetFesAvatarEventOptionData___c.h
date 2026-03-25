@@ -6,24 +6,24 @@
 namespace RPG::Client { class PlanetFesAvatarEventOptionResultData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PLANETFESAVATAREVENTOPTIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9ABC780)
-#define RPG_CLIENT_PLANETFESAVATAREVENTOPTIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9ABC7C0)
-#define RPG_CLIENT_PLANETFESAVATAREVENTOPTIONDATA___C__GET_ISALLRESULTGOT_B__21_0_OFFSET UNITYSDK_OFFSET(0x9ABC7D0)
+#define RPG_CLIENT_PLANETFESAVATAREVENTOPTIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F90430)
+#define RPG_CLIENT_PLANETFESAVATAREVENTOPTIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F90470)
+#define RPG_CLIENT_PLANETFESAVATAREVENTOPTIONDATA___C__GET_ISALLRESULTGOT_B__21_0_OFFSET UNITYSDK_OFFSET(0x9F90480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex = 53006;
+	inline static constexpr unsigned int PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex = 54144;
 
 	class PlanetFesAvatarEventOptionData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarEventOptionResultData*>, ::System::Boolean>** StaticGet___9__21_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarEventOptionResultData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex)->GetStaticField(0x45EC0);
-		}
 		static ::RPG::Client::PlanetFesAvatarEventOptionData___c** StaticGet___9()
 		{
-			return (::RPG::Client::PlanetFesAvatarEventOptionData___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex)->GetStaticField(0x45EC8);
+			return (::RPG::Client::PlanetFesAvatarEventOptionData___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex)->GetStaticField(0x45C10);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarEventOptionResultData*>, ::System::Boolean>** StaticGet___9__21_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarEventOptionResultData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAvatarEventOptionData___c_TypeDefinitionIndex)->GetStaticField(0x45C18);
 		}
 
 		static ::System::Void _cctor()

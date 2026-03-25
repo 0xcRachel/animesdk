@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterGroupMemberType_TypeDefinitionIndex = 44759;
+	inline static constexpr unsigned int CharacterGroupMemberType_TypeDefinitionIndex = 45820;
 
 	enum class CharacterGroupMemberType : ::System::Int32
 	{

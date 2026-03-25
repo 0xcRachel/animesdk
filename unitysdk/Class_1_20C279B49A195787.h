@@ -5,81 +5,81 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_3EB6D13BCFBCDBBC;
-class Class_1_6F4466F4D48CF248;
+class Class_1_D7692BFC86C747A2;
+class Class_2_4C5CE8D630A9F4A2;
 class Class_2_A0580152EB393340;
-class Class_2_A9BE984B2C4C6B5C;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterModelComponent; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_1_20C279B49A195787_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9452DC0)
-#define CLASS_1_20C279B49A195787_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x9453910)
-#define CLASS_1_20C279B49A195787_METHOD_1_0A5DD54A2675889F_OFFSET UNITYSDK_OFFSET(0x94531F0)
-#define CLASS_1_20C279B49A195787_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x9453050)
-#define CLASS_1_20C279B49A195787_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x9452FF0)
-#define CLASS_1_20C279B49A195787_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x9454540)
-#define CLASS_1_20C279B49A195787_METHOD_1_5595F7B248936921_OFFSET UNITYSDK_OFFSET(0x94546C0)
-#define CLASS_1_20C279B49A195787_METHOD_1_57D80B372834C5D1_OFFSET UNITYSDK_OFFSET(0x9454630)
-#define CLASS_1_20C279B49A195787_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x9454410)
-#define CLASS_1_20C279B49A195787_METHOD_1_96F674FB9A99092A_OFFSET UNITYSDK_OFFSET(0x94544C0)
-#define CLASS_1_20C279B49A195787_METHOD_1_B1445E8504415D4D_OFFSET UNITYSDK_OFFSET(0x9454A40)
-#define CLASS_1_20C279B49A195787_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x94545C0)
-#define CLASS_1_20C279B49A195787_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x9454680)
-#define CLASS_1_20C279B49A195787_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x94543B0)
-#define CLASS_1_20C279B49A195787_METHOD_1_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x9454A50)
-#define CLASS_1_20C279B49A195787_METHOD_1_F984B00E5903EAAE_OFFSET UNITYSDK_OFFSET(0x9454160)
-#define CLASS_1_20C279B49A195787_ONAFTERMODELARTLOAD_OFFSET UNITYSDK_OFFSET(0x9452E00)
-#define CLASS_1_20C279B49A195787_ONBEFOREMODELARTUNLOAD_OFFSET UNITYSDK_OFFSET(0x94531A0)
-#define CLASS_1_20C279B49A195787__CCTOR_OFFSET UNITYSDK_OFFSET(0x9454A70)
-#define CLASS_1_20C279B49A195787__CTOR_OFFSET UNITYSDK_OFFSET(0x9452AC0)
+#define CLASS_1_20C279B49A195787_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10BB8C20)
+#define CLASS_1_20C279B49A195787_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x10BB9750)
+#define CLASS_1_20C279B49A195787_METHOD_1_0A5DD54A2675889F_OFFSET UNITYSDK_OFFSET(0x10BB9040)
+#define CLASS_1_20C279B49A195787_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x10BB8EB0)
+#define CLASS_1_20C279B49A195787_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x10BB8E50)
+#define CLASS_1_20C279B49A195787_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10BBA370)
+#define CLASS_1_20C279B49A195787_METHOD_1_5595F7B248936921_OFFSET UNITYSDK_OFFSET(0x10BBA500)
+#define CLASS_1_20C279B49A195787_METHOD_1_57D80B372834C5D1_OFFSET UNITYSDK_OFFSET(0x10BBA470)
+#define CLASS_1_20C279B49A195787_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x10BBA250)
+#define CLASS_1_20C279B49A195787_METHOD_1_96F674FB9A99092A_OFFSET UNITYSDK_OFFSET(0x10BBA2F0)
+#define CLASS_1_20C279B49A195787_METHOD_1_B1445E8504415D4D_OFFSET UNITYSDK_OFFSET(0x10BBA880)
+#define CLASS_1_20C279B49A195787_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x10BBA3F0)
+#define CLASS_1_20C279B49A195787_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x10BBA4C0)
+#define CLASS_1_20C279B49A195787_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10BBA1F0)
+#define CLASS_1_20C279B49A195787_METHOD_1_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x10BBA890)
+#define CLASS_1_20C279B49A195787_METHOD_1_F984B00E5903EAAE_OFFSET UNITYSDK_OFFSET(0x10BB9FA0)
+#define CLASS_1_20C279B49A195787_ONAFTERMODELARTLOAD_OFFSET UNITYSDK_OFFSET(0x10BB8C60)
+#define CLASS_1_20C279B49A195787_ONBEFOREMODELARTUNLOAD_OFFSET UNITYSDK_OFFSET(0x10BB8FF0)
+#define CLASS_1_20C279B49A195787__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BBA8B0)
+#define CLASS_1_20C279B49A195787__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB8920)
 
-inline static constexpr unsigned int Class_1_20C279B49A195787_TypeDefinitionIndex = 51024;
+inline static constexpr unsigned int Class_1_20C279B49A195787_TypeDefinitionIndex = 52159;
 
 class Class_1_20C279B49A195787 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_25()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xF2F0);
-	}
-	static ::System::Int32* StaticGet_Field_1_27()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xF2F4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xED00);
 	}
 	static ::System::Int32* StaticGet_Field_1_26()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xF2F8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xED04);
+	}
+	static ::System::Int32* StaticGet_Field_1_27()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xED08);
 	}
 	static ::System::Int32* StaticGet_Field_1_28()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xF2FC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_20C279B49A195787_TypeDefinitionIndex)->GetStaticField(0xED0C);
 	}
 	// static const ::System::Single Field_1_24; // 0x0
-	::RPG::GameCore::ModifyAdventureCharacterRunSpeedRatio* Field_1_13; // 0x10
-	::Class_2_A0580152EB393340* Field_1_8; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x20
-	::Class_1_6F4466F4D48CF248* Field_1_12; // 0x28
-	::RPG::GameCore::AdventureCharacterController* Field_1_7; // 0x30
-	::RPG::GameCore::TransformComponent* Field_1_6; // 0x38
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x40
-	::Class_1_3EB6D13BCFBCDBBC* Field_1_2; // 0x48
-	::RPG::GameCore::CharacterModelComponent* Field_1_10; // 0x50
-	::RPG::GameCore::CharacterModelComponent* Field_1_11; // 0x58
-	::Class_2_A9BE984B2C4C6B5C* Field_1_9; // 0x60
-	::System::Int32 Field_1_23; // 0x68
-	::System::Single Field_1_4; // 0x6C
-	::UnityEngine::Vector3 Field_1_16; // 0x70
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
+	::RPG::GameCore::TransformComponent* Field_1_6; // 0x18
+	::RPG::GameCore::CharacterModelComponent* Field_1_10; // 0x20
+	::RPG::GameCore::ModifyAdventureCharacterRunSpeedRatio* Field_1_13; // 0x28
+	::Class_2_A0580152EB393340* Field_1_8; // 0x30
+	::RPG::GameCore::CharacterModelComponent* Field_1_11; // 0x38
+	::Class_1_D7692BFC86C747A2* Field_1_12; // 0x40
+	::Class_2_4C5CE8D630A9F4A2* Field_1_9; // 0x48
+	::Class_1_3EB6D13BCFBCDBBC* Field_1_2; // 0x50
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x58
+	::RPG::GameCore::AdventureCharacterController* Field_1_7; // 0x60
+	::System::Single Field_1_4; // 0x68
+	::RPG::GameCore::CharacterMotionFlag Field_1_17; // 0x6C
+	::System::Boolean Field_1_20; // 0x70
+	::System::Boolean Field_1_19; // 0x71
+	::System::Single Field_1_18; // 0x74
+	::System::Single Field_1_21; // 0x78
 	::System::Single Field_1_5; // 0x7C
-	::UnityEngine::Vector3 Field_1_15; // 0x80
-	::RPG::GameCore::CharacterMotionFlag Field_1_17; // 0x8C
-	::System::Single Field_1_21; // 0x90
-	::System::Boolean Field_1_20; // 0x94
-	::System::Boolean Field_1_19; // 0x95
-	::System::Single Field_1_22; // 0x98
-	::UnityEngine::Vector3 Field_1_14; // 0x9C
-	::System::Single Field_1_18; // 0xA8
+	::System::Int32 Field_1_23; // 0x80
+	::UnityEngine::Vector3 Field_1_16; // 0x84
+	::UnityEngine::Vector3 Field_1_14; // 0x90
+	::UnityEngine::Vector3 Field_1_15; // 0x9C
+	::System::Single Field_1_22; // 0xA8
 	::System::Int32 Field_1_3; // 0xAC
 
 	::System::Void _ctor(::Class_1_3EB6D13BCFBCDBBC* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::System::Single a4, ::System::Single a5)

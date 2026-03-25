@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16CC8960)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16CC87E0)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16CC84B0)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16CC8780)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16CC8AE0)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16CC8530)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16CC8B20)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CC8D00)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16CC8F20)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CC9230)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16CC8C60)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16CC8BC0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1744F320)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1744F1A0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1744EE70)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1744F140)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1744F4A0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1744EEF0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1744F4E0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1744F6C0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1744F8E0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1744FBF0)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1744F620)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1744F580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGameResourceExcelTable_TypeDefinitionIndex = 10988;
+	inline static constexpr unsigned int MonopolyGameResourceExcelTable_TypeDefinitionIndex = 11056;
 
 	class MonopolyGameResourceExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameResourceRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameResourceRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x38990);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x38998);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x47210);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameResourceRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyGameResourceRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x47218);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x389A0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0xE170);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x47220);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0xE171);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x12610);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonopolyGameResourceExcelTable_TypeDefinitionIndex)->GetStaticField(0x12611);
 		}
 
 		static ::System::Void _cctor()

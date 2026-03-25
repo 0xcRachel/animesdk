@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYTELEVISIONSEASONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167B67D0)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONSEASONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167B6AA0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONSEASONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F2D220)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONSEASONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2D4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTelevisionSeasonRow_TypeDefinitionIndex = 11328;
+	inline static constexpr unsigned int ActivityTelevisionSeasonRow_TypeDefinitionIndex = 11396;
 
 	class ActivityTelevisionSeasonRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* BuffLevelBackgroundPathList; // 0x10
+		::System::String* BuffLevelDefaultBackgroundPath; // 0x10
 		::Il2CppArray<::System::String*>* BuffLevelIconPathList; // 0x18
-		::System::String* BuffLevelDefaultBackgroundPath; // 0x20
+		::Il2CppArray<::System::String*>* BuffLevelBackgroundPathList; // 0x20
 		::System::UInt32 LastStage; // 0x28
 		::System::UInt32 LastStageQuest; // 0x2C
 		::System::UInt32 LevelMessageSubmission; // 0x30

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_43BD383C98B4C0C5_9.h"
 
-class Class_3_0B8D1566449A1677;
+class Class_3_7E62691AFFAF8E9F;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind; }
 
-#define CLASS_2_6296C16A8E9B046E_METHOD_2_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x15F5FA40)
-#define CLASS_2_6296C16A8E9B046E__CTOR_OFFSET UNITYSDK_OFFSET(0x15F5FA30)
+#define CLASS_2_6296C16A8E9B046E_METHOD_2_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x166F7B90)
+#define CLASS_2_6296C16A8E9B046E__CTOR_OFFSET UNITYSDK_OFFSET(0x166F7B80)
 
-inline static constexpr unsigned int Class_2_6296C16A8E9B046E_TypeDefinitionIndex = 27607;
+inline static constexpr unsigned int Class_2_6296C16A8E9B046E_TypeDefinitionIndex = 28356;
 
 class Class_2_6296C16A8E9B046E : public ::Class_1_43BD383C98B4C0C5_9
 {
 public:
-	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* Field_2_0; // 0x10
-	::Class_3_0B8D1566449A1677* Field_2_1; // 0x18
+	::Class_3_7E62691AFFAF8E9F* Field_2_1; // 0x10
+	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* Field_2_0; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a1, ::Class_3_0B8D1566449A1677* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a1, ::Class_3_7E62691AFFAF8E9F* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*, ::Class_3_0B8D1566449A1677*))((::PBYTE)hIl2Cpp + CLASS_2_6296C16A8E9B046E__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*, ::Class_3_7E62691AFFAF8E9F*))((::PBYTE)hIl2Cpp + CLASS_2_6296C16A8E9B046E__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Single Method_2_D64FD9A228A1C4E0()

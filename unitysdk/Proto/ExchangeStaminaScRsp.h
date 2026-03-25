@@ -11,47 +11,47 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ItemCost; }
 namespace System { class String; }
 
-#define PROTO_EXCHANGESTAMINASCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x17A7CAB0)
-#define PROTO_EXCHANGESTAMINASCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x17A7C610)
-#define PROTO_EXCHANGESTAMINASCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17A7C700)
-#define PROTO_EXCHANGESTAMINASCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x17A7C6D0)
-#define PROTO_EXCHANGESTAMINASCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17A7C7E0)
-#define PROTO_EXCHANGESTAMINASCRSP_GET_EXCHANGETIMES_OFFSET UNITYSDK_OFFSET(0x17A7C6B0)
-#define PROTO_EXCHANGESTAMINASCRSP_GET_ITEMCOSTLIST_OFFSET UNITYSDK_OFFSET(0x17A7C640)
-#define PROTO_EXCHANGESTAMINASCRSP_GET_LASTRECOVERTIME_OFFSET UNITYSDK_OFFSET(0x17A7C650)
-#define PROTO_EXCHANGESTAMINASCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x17A7C690)
-#define PROTO_EXCHANGESTAMINASCRSP_GET_STAMINAADD_OFFSET UNITYSDK_OFFSET(0x17A7C670)
-#define PROTO_EXCHANGESTAMINASCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x17A7CE60)
-#define PROTO_EXCHANGESTAMINASCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x17A7CD90)
-#define PROTO_EXCHANGESTAMINASCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17A7C520)
-#define PROTO_EXCHANGESTAMINASCRSP_SET_EXCHANGETIMES_OFFSET UNITYSDK_OFFSET(0x17A7C6C0)
-#define PROTO_EXCHANGESTAMINASCRSP_SET_LASTRECOVERTIME_OFFSET UNITYSDK_OFFSET(0x17A7C660)
-#define PROTO_EXCHANGESTAMINASCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x17A7C6A0)
-#define PROTO_EXCHANGESTAMINASCRSP_SET_STAMINAADD_OFFSET UNITYSDK_OFFSET(0x17A7C680)
-#define PROTO_EXCHANGESTAMINASCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17A7C900)
-#define PROTO_EXCHANGESTAMINASCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x17A7C960)
-#define PROTO_EXCHANGESTAMINASCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A7CF60)
-#define PROTO_EXCHANGESTAMINASCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A7C570)
-#define PROTO_EXCHANGESTAMINASCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x17A7C530)
+#define PROTO_EXCHANGESTAMINASCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x182902D0)
+#define PROTO_EXCHANGESTAMINASCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1828FE30)
+#define PROTO_EXCHANGESTAMINASCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1828FF20)
+#define PROTO_EXCHANGESTAMINASCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1828FEF0)
+#define PROTO_EXCHANGESTAMINASCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18290000)
+#define PROTO_EXCHANGESTAMINASCRSP_GET_EXCHANGETIMES_OFFSET UNITYSDK_OFFSET(0x1828FE60)
+#define PROTO_EXCHANGESTAMINASCRSP_GET_ITEMCOSTLIST_OFFSET UNITYSDK_OFFSET(0x1828FEC0)
+#define PROTO_EXCHANGESTAMINASCRSP_GET_LASTRECOVERTIME_OFFSET UNITYSDK_OFFSET(0x1828FEA0)
+#define PROTO_EXCHANGESTAMINASCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1828FED0)
+#define PROTO_EXCHANGESTAMINASCRSP_GET_STAMINAADD_OFFSET UNITYSDK_OFFSET(0x1828FE80)
+#define PROTO_EXCHANGESTAMINASCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18290680)
+#define PROTO_EXCHANGESTAMINASCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x182905B0)
+#define PROTO_EXCHANGESTAMINASCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1828FD30)
+#define PROTO_EXCHANGESTAMINASCRSP_SET_EXCHANGETIMES_OFFSET UNITYSDK_OFFSET(0x1828FE70)
+#define PROTO_EXCHANGESTAMINASCRSP_SET_LASTRECOVERTIME_OFFSET UNITYSDK_OFFSET(0x1828FEB0)
+#define PROTO_EXCHANGESTAMINASCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1828FEE0)
+#define PROTO_EXCHANGESTAMINASCRSP_SET_STAMINAADD_OFFSET UNITYSDK_OFFSET(0x1828FE90)
+#define PROTO_EXCHANGESTAMINASCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18290110)
+#define PROTO_EXCHANGESTAMINASCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x18290170)
+#define PROTO_EXCHANGESTAMINASCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18290780)
+#define PROTO_EXCHANGESTAMINASCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1828FD80)
+#define PROTO_EXCHANGESTAMINASCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1828FD40)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ExchangeStaminaScRsp_TypeDefinitionIndex = 25298;
+	inline static constexpr unsigned int ExchangeStaminaScRsp_TypeDefinitionIndex = 25967;
 
 	class ExchangeStaminaScRsp : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::FieldCodec_1<::Proto::ItemCost*>** StaticGet__repeated_itemCostList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::ItemCost*>**)Il2CppClass::FromTypeDefinitionIndex(ExchangeStaminaScRsp_TypeDefinitionIndex)->GetStaticField(0x1AB20);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ItemCost*>**)Il2CppClass::FromTypeDefinitionIndex(ExchangeStaminaScRsp_TypeDefinitionIndex)->GetStaticField(0x14FF0);
 		}
-		// static const ::System::Int32 ItemCostListFieldNumber = 0xF; // 0x0
-		// static const ::System::Int32 LastRecoverTimeFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 StaminaAddFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 RetcodeFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 ExchangeTimesFieldNumber = 0x5; // 0x0
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ItemCost*>* itemCostList_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		// static const ::System::Int32 ExchangeTimesFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 StaminaAddFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 LastRecoverTimeFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 ItemCostListFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0xF; // 0x0
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ItemCost*>* itemCostList_; // 0x18
 		::System::Int64 lastRecoverTime_; // 0x20
 		::System::UInt32 exchangeTimes_; // 0x28
 		::System::UInt32 retcode_; // 0x2C
@@ -82,19 +82,14 @@ namespace Proto
 			return ((::Proto::ExchangeStaminaScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ItemCost*>* get_ItemCostList()
+		::System::UInt32 get_ExchangeTimes()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::ItemCost*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_ITEMCOSTLIST_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_EXCHANGETIMES_OFFSET))(this);
 		}
 
-		::System::Int64 get_LastRecoverTime()
+		::System::Void set_ExchangeTimes(::System::UInt32 value)
 		{
-			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_LASTRECOVERTIME_OFFSET))(this);
-		}
-
-		::System::Void set_LastRecoverTime(::System::Int64 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_SET_LASTRECOVERTIME_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_SET_EXCHANGETIMES_OFFSET))(this, value);
 		}
 
 		::System::UInt32 get_StaminaAdd()
@@ -107,6 +102,21 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_SET_STAMINAADD_OFFSET))(this, value);
 		}
 
+		::System::Int64 get_LastRecoverTime()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_LASTRECOVERTIME_OFFSET))(this);
+		}
+
+		::System::Void set_LastRecoverTime(::System::Int64 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_SET_LASTRECOVERTIME_OFFSET))(this, value);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ItemCost*>* get_ItemCostList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::ItemCost*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_ITEMCOSTLIST_OFFSET))(this);
+		}
+
 		::System::UInt32 get_Retcode()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_RETCODE_OFFSET))(this);
@@ -115,16 +125,6 @@ namespace Proto
 		::System::Void set_Retcode(::System::UInt32 value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_SET_RETCODE_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_ExchangeTimes()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_GET_EXCHANGETIMES_OFFSET))(this);
-		}
-
-		::System::Void set_ExchangeTimes(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_EXCHANGESTAMINASCRSP_SET_EXCHANGETIMES_OFFSET))(this, value);
 		}
 
 		::System::Boolean Equals(::System::Object* other)

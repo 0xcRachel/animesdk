@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR_METHOD_2_F0BB01AED69A18A4_OFFSET UNITYSDK_OFFSET(0x168E1080)
-#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x168E1210)
+#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR_METHOD_2_F0BB01AED69A18A4_OFFSET UNITYSDK_OFFSET(0x16FF1E40)
+#define RPG_GAMECORE_BATTLEPERFORMCAPTUREACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF1FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformCaptureActor_TypeDefinitionIndex = 21049;
+	inline static constexpr unsigned int BattlePerformCaptureActor_TypeDefinitionIndex = 21609;
 
 	class BattlePerformCaptureActor : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,14 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/SDFTextAlignType.h"
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA666A30)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABA2690)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowSDFTextData_TypeDefinitionIndex = 38114;
+	inline static constexpr unsigned int ShowSDFTextData_TypeDefinitionIndex = 39089;
 
 	class ShowSDFTextData : public ::System::Object
 	{
@@ -25,6 +26,7 @@ namespace RPGTools::Timeline
 		::System::Single OverrallScale; // 0x34
 		::System::Boolean OverrideRenderQueue; // 0x38
 		::System::Int32 RenderQueue; // 0x3C
+		::RPG::GameCore::SDFTextAlignType AlignType; // 0x40
 
 		::System::Void _ctor()
 		{

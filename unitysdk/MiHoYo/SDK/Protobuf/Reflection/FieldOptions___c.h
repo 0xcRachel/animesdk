@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class FieldOptions; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156D2700)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156D2740)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDOPTIONS___C___CCTOR_B__55_0_OFFSET UNITYSDK_OFFSET(0x156D2750)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DC2F20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DC2F60)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDOPTIONS___C___CCTOR_B__55_0_OFFSET UNITYSDK_OFFSET(0x15DC2F70)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions___c_TypeDefinitionIndex = 27345;
+	inline static constexpr unsigned int FieldOptions___c_TypeDefinitionIndex = 28081;
 
 	class FieldOptions___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::FieldOptions___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::FieldOptions___c**)Il2CppClass::FromTypeDefinitionIndex(FieldOptions___c_TypeDefinitionIndex)->GetStaticField(0x28A50);
+			return (::MiHoYo::SDK::Protobuf::Reflection::FieldOptions___c**)Il2CppClass::FromTypeDefinitionIndex(FieldOptions___c_TypeDefinitionIndex)->GetStaticField(0x26710);
 		}
 
 		static ::System::Void _cctor()

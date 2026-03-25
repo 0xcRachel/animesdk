@@ -4,11 +4,11 @@
 
 namespace System::Collections { class IEnumerator; }
 
-#define SRF_COROUTINES_WAITFORSECONDSREALTIME_OFFSET UNITYSDK_OFFSET(0x17C654F0)
+#define SRF_COROUTINES_WAITFORSECONDSREALTIME_OFFSET UNITYSDK_OFFSET(0x1847B300)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Coroutines_TypeDefinitionIndex = 26917;
+	inline static constexpr unsigned int Coroutines_TypeDefinitionIndex = 27653;
 
 	class Coroutines : public ::System::Object
 	{

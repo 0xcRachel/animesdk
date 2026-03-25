@@ -4,11 +4,11 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CUSTOMCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDE500)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CUSTOMCONSTANTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A6900)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CustomConstantAttribute_TypeDefinitionIndex = 1365;
+	inline static constexpr unsigned int CustomConstantAttribute_TypeDefinitionIndex = 1370;
 
 	class CustomConstantAttribute : public ::System::Attribute
 	{

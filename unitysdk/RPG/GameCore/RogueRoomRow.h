@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EB7A50)
-#define RPG_GAMECORE_ROGUEROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB7CA0)
+#define RPG_GAMECORE_ROGUEROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1766C8D0)
+#define RPG_GAMECORE_ROGUEROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1766CB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueRoomRow_TypeDefinitionIndex = 13363;
+	inline static constexpr unsigned int RogueRoomRow_TypeDefinitionIndex = 13437;
 
 	class RogueRoomRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* GroupWithContent; // 0x10
-		::Il2CppArray<::System::UInt32>* RogueRoomSections; // 0x18
+		::Il2CppArray<::System::UInt32>* RogueRoomSections; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* GroupWithContent; // 0x18
 		::System::UInt32 RogueRoomID; // 0x20
-		::System::UInt32 MapEntrance; // 0x24
+		::System::UInt32 GroupID; // 0x24
 		::System::UInt32 RogueRoomType; // 0x28
-		::System::UInt32 GroupID; // 0x2C
+		::System::UInt32 MapEntrance; // 0x2C
 
 		::System::Void _ctor()
 		{

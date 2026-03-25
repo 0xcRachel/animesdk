@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffUseType_TypeDefinitionIndex = 12743;
+	inline static constexpr unsigned int MazeBuffUseType_TypeDefinitionIndex = 12814;
 
 	enum class MazeBuffUseType : ::System::Int32
 	{

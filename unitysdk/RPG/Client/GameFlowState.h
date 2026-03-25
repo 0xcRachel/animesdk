@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameFlowState_TypeDefinitionIndex = 51097;
+	inline static constexpr unsigned int GameFlowState_TypeDefinitionIndex = 52230;
 
 	enum class GameFlowState : ::System::Int32
 	{

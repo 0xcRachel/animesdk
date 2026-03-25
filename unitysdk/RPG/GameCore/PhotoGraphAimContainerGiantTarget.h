@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET_METHOD_3_683AF9015B51F909_OFFSET UNITYSDK_OFFSET(0x16D33DF0)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET_METHOD_3_7811DCE9F74636A4_OFFSET UNITYSDK_OFFSET(0x16D33EB0)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x16D33E70)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET_METHOD_3_40103ECDFA8A8740_OFFSET UNITYSDK_OFFSET(0x174BBD90)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET_METHOD_3_7811DCE9F74636A4_OFFSET UNITYSDK_OFFSET(0x174BBE40)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x174BBE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimContainerGiantTarget_TypeDefinitionIndex = 15821;
+	inline static constexpr unsigned int PhotoGraphAimContainerGiantTarget_TypeDefinitionIndex = 16098;
 
 	class PhotoGraphAimContainerGiantTarget : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_683AF9015B51F909(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContainerGiantTarget*& a2)
+		static ::System::Void Method_3_40103ECDFA8A8740(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContainerGiantTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAimContainerGiantTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET_METHOD_3_683AF9015B51F909_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAimContainerGiantTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAINERGIANTTARGET_METHOD_3_40103ECDFA8A8740_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7811DCE9F74636A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContainerGiantTarget* a2)

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST_METHOD_2_CC08BB18D4DB8B8D_OFFSET UNITYSDK_OFFSET(0x16A9E080)
-#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9E150)
+#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST_METHOD_2_CC08BB18D4DB8B8D_OFFSET UNITYSDK_OFFSET(0x171E3460)
+#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x171E3530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FieldEffectHighPriorityList_TypeDefinitionIndex = 14849;
+	inline static constexpr unsigned int FieldEffectHighPriorityList_TypeDefinitionIndex = 15101;
 
 	class FieldEffectHighPriorityList : public ::RPG::GameCore::JsonConfig
 	{

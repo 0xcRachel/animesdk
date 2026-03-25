@@ -7,23 +7,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1697AA00)
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1697AD60)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1709A8C0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1709AC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyChallengeRow_TypeDefinitionIndex = 12823;
+	inline static constexpr unsigned int ChenLingGameBoyChallengeRow_TypeDefinitionIndex = 12894;
 
 	class ChenLingGameBoyChallengeRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::DynamicValue* Parameter3; // 0x10
-		::RPG::GameCore::DynamicValue* Parameter2; // 0x18
+		::RPG::GameCore::DynamicValue* Parameter2; // 0x10
+		::RPG::GameCore::DynamicValue* Parameter3; // 0x18
 		::RPG::GameCore::DynamicValue* Parameter1; // 0x20
-		::RPG::Client::TextID TextmapMazePuzzle; // 0x28
-		::System::UInt32 GameBoyChallengeID; // 0x38
-		::System::UInt32 RewardID; // 0x3C
-		::RPG::GameCore::ChenLingGameBoyChallengeType ChallengeType; // 0x40
+		::System::UInt32 RewardID; // 0x28
+		::RPG::GameCore::ChenLingGameBoyChallengeType ChallengeType; // 0x2C
+		::RPG::Client::TextID TextmapMazePuzzle; // 0x30
+		::System::UInt32 GameBoyChallengeID; // 0x40
 
 		::System::Void _ctor()
 		{

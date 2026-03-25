@@ -3,12 +3,12 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1804B480)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS4_0__SEWUVS_B__0_OFFSET UNITYSDK_OFFSET(0x1804E0C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18873A00)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_UVEDITING___C__DISPLAYCLASS4_0__SEWUVS_B__0_OFFSET UNITYSDK_OFFSET(0x18876650)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int UVEditing___c__DisplayClass4_0_TypeDefinitionIndex = 33269;
+	inline static constexpr unsigned int UVEditing___c__DisplayClass4_0_TypeDefinitionIndex = 34258;
 
 	class UVEditing___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 9237;
+	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 9704;
 
 	class IEntity
 	{

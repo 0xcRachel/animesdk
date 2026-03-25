@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15CDF330)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15CDF290)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDF180)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x163A7700)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x163A7660)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x163A7550)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int COMException_TypeDefinitionIndex = 1410;
+	inline static constexpr unsigned int COMException_TypeDefinitionIndex = 1415;
 
 	class COMException : public ::System::Runtime::InteropServices::ExternalException
 	{

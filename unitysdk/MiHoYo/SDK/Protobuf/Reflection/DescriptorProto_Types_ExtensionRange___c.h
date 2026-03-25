@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class DescriptorProto_Types_ExtensionRange; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156C5FF0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156C6030)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x156C6040)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DB6850)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DB6890)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x15DB68A0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex = 27316;
+	inline static constexpr unsigned int DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex = 28052;
 
 	class DescriptorProto_Types_ExtensionRange___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex)->GetStaticField(0x28280);
+			return (::MiHoYo::SDK::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex)->GetStaticField(0x25F80);
 		}
 
 		static ::System::Void _cctor()

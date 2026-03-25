@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/ArrayPoolWrapper_1.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_2_8B5A351C6D6BAFA2;
+class Class_2_DE4AC8AE3B4F2B78;
 namespace RPG::GameCore { class ChessRemoveModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F9F2B1AAE7578639_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA6D60F0)
-#define CLASS_3_F9F2B1AAE7578639_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6D6130)
-#define CLASS_3_F9F2B1AAE7578639__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D60C0)
-#define CLASS_3_F9F2B1AAE7578639___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA6D6420)
+#define CLASS_3_F9F2B1AAE7578639_DISPOSE_OFFSET UNITYSDK_OFFSET(0x89EDDF0)
+#define CLASS_3_F9F2B1AAE7578639_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x89EDE30)
+#define CLASS_3_F9F2B1AAE7578639__CTOR_OFFSET UNITYSDK_OFFSET(0x89EDDC0)
+#define CLASS_3_F9F2B1AAE7578639___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x89EE120)
 
-inline static constexpr unsigned int Class_3_F9F2B1AAE7578639_TypeDefinitionIndex = 44134;
+inline static constexpr unsigned int Class_3_F9F2B1AAE7578639_TypeDefinitionIndex = 45194;
 
 class Class_3_F9F2B1AAE7578639 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChessRemoveModifier*>
 {
 public:
-	::RPG::GameCore::ArrayPoolWrapper_1<::Class_2_8B5A351C6D6BAFA2*> Field_3_0; // 0x28
+	::RPG::GameCore::ArrayPoolWrapper_1<::Class_2_DE4AC8AE3B4F2B78*> Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ChessRemoveModifier* a2)
 	{

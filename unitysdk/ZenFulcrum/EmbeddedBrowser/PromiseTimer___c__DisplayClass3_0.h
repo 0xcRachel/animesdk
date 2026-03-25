@@ -5,12 +5,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18485D40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x18486020)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA2E60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISETIMER___C__DISPLAYCLASS3_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x18CA3140)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 29706;
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass3_0_TypeDefinitionIndex = 30581;
 
 	class PromiseTimer___c__DisplayClass3_0 : public ::System::Object
 	{

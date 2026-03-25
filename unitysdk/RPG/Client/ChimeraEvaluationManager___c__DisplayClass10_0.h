@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1B7044A592B17773_2;
+class Class_1_1B7044A592B17773_5;
 
-#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F232D0)
-#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__GETEVALUATIONGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0x8F23B60)
+#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93C6C90)
+#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__GETEVALUATIONGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0x93C7520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraEvaluationManager___c__DisplayClass10_0_TypeDefinitionIndex = 50426;
+	inline static constexpr unsigned int ChimeraEvaluationManager___c__DisplayClass10_0_TypeDefinitionIndex = 51561;
 
 	class ChimeraEvaluationManager___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetEvaluationGroupData_b__0(::Class_1_1B7044A592B17773_2* data)
+		::System::Boolean _GetEvaluationGroupData_b__0(::Class_1_1B7044A592B17773_5* data)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_1B7044A592B17773_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__GETEVALUATIONGROUPDATA_B__0_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_1B7044A592B17773_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__GETEVALUATIONGROUPDATA_B__0_OFFSET))(this, data);
 		}
 	};
 }

@@ -7,26 +7,26 @@ namespace RPG::GameCore { class ChessModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_3820E78609AB7DCF_METHOD_1_0653F10CBA1DED7C_OFFSET UNITYSDK_OFFSET(0x10F24810)
-#define CLASS_1_3820E78609AB7DCF_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0x10F244F0)
-#define CLASS_1_3820E78609AB7DCF_METHOD_1_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0x10F241F0)
-#define CLASS_1_3820E78609AB7DCF_METHOD_1_D5AC075C8F70B681_OFFSET UNITYSDK_OFFSET(0x10F24950)
-#define CLASS_1_3820E78609AB7DCF_METHOD_1_DB1AA8D3E82418E2_OFFSET UNITYSDK_OFFSET(0x10F24640)
-#define CLASS_1_3820E78609AB7DCF_METHOD_1_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x10F24120)
-#define CLASS_1_3820E78609AB7DCF__CCTOR_OFFSET UNITYSDK_OFFSET(0x10F24A90)
+#define CLASS_1_3820E78609AB7DCF_METHOD_1_0653F10CBA1DED7C_OFFSET UNITYSDK_OFFSET(0x108D72D0)
+#define CLASS_1_3820E78609AB7DCF_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0x108D6FB0)
+#define CLASS_1_3820E78609AB7DCF_METHOD_1_3DFCA4C89D58D97F_OFFSET UNITYSDK_OFFSET(0x108D6CB0)
+#define CLASS_1_3820E78609AB7DCF_METHOD_1_D5AC075C8F70B681_OFFSET UNITYSDK_OFFSET(0x108D7410)
+#define CLASS_1_3820E78609AB7DCF_METHOD_1_DB1AA8D3E82418E2_OFFSET UNITYSDK_OFFSET(0x108D7100)
+#define CLASS_1_3820E78609AB7DCF_METHOD_1_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x108D6BE0)
+#define CLASS_1_3820E78609AB7DCF__CCTOR_OFFSET UNITYSDK_OFFSET(0x108D7550)
 
-inline static constexpr unsigned int Class_1_3820E78609AB7DCF_TypeDefinitionIndex = 44365;
+inline static constexpr unsigned int Class_1_3820E78609AB7DCF_TypeDefinitionIndex = 45426;
 
 class Class_1_3820E78609AB7DCF : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessModifierConfig*>** StaticGet_Field_1_1()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessModifierConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3820E78609AB7DCF_TypeDefinitionIndex)->GetStaticField(0x36540);
-	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessAbilityConfig*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessAbilityConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3820E78609AB7DCF_TypeDefinitionIndex)->GetStaticField(0x36548);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessAbilityConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3820E78609AB7DCF_TypeDefinitionIndex)->GetStaticField(0x28C80);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessModifierConfig*>** StaticGet_Field_1_1()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChessModifierConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3820E78609AB7DCF_TypeDefinitionIndex)->GetStaticField(0x28C88);
 	}
 
 	static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByContainsRedStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_379A579F8CA12265_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10C23280)
-#define CLASS_3_379A579F8CA12265__CTOR_OFFSET UNITYSDK_OFFSET(0x10C23250)
+#define CLASS_3_379A579F8CA12265_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8993FB0)
+#define CLASS_3_379A579F8CA12265__CTOR_OFFSET UNITYSDK_OFFSET(0x8993F80)
 
-inline static constexpr unsigned int Class_3_379A579F8CA12265_TypeDefinitionIndex = 42623;
+inline static constexpr unsigned int Class_3_379A579F8CA12265_TypeDefinitionIndex = 43673;
 
 class Class_3_379A579F8CA12265 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByContainsRedStance*>
 {

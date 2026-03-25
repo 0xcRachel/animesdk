@@ -3,11 +3,11 @@
 #include "unitysdk/System/Net/NetworkInformation/IPv4InterfaceStatistics.h"
 #include "unitysdk/System/Net/NetworkInformation/Win32_MIB_IFROW.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPV4INTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x17EE9690)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPV4INTERFACESTATISTICS__CTOR_OFFSET UNITYSDK_OFFSET(0x18712BE0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32IPv4InterfaceStatistics_TypeDefinitionIndex = 2923;
+	inline static constexpr unsigned int Win32IPv4InterfaceStatistics_TypeDefinitionIndex = 2932;
 
 	class Win32IPv4InterfaceStatistics : public ::System::Net::NetworkInformation::IPv4InterfaceStatistics
 	{

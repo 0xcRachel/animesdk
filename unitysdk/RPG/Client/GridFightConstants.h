@@ -8,154 +8,154 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x9338550)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x9338540)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUEBOOL_OFFSET UNITYSDK_OFFSET(0x9338470)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUELIST_OFFSET UNITYSDK_OFFSET(0x9338260)
-#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUE_OFFSET UNITYSDK_OFFSET(0x93381A0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x97F6AC0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__CTOR_OFFSET UNITYSDK_OFFSET(0x97F6AB0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUEBOOL_OFFSET UNITYSDK_OFFSET(0x97F69E0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUELIST_OFFSET UNITYSDK_OFFSET(0x97F67D0)
+#define RPG_CLIENT_GRIDFIGHTCONSTANTS__GETCONSTVALUE_OFFSET UNITYSDK_OFFSET(0x97F6710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightConstants_TypeDefinitionIndex = 51526;
+	inline static constexpr unsigned int GridFightConstants_TypeDefinitionIndex = 52659;
 
 	class GridFightConstants : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>** StaticGet_CraftCostEquipCategories()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x3DD0);
-		}
-		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_DivisionLevelUpTable()
-		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x3DD8);
-		}
 		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_TutorialSpecialStageIDList()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x3DE0);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x155C0);
 		}
 		static ::Il2CppArray<::RPG::GameCore::AvatarPropertyType>** StaticGet_HandBookAvatarPropertyTypes()
 		{
-			return (::Il2CppArray<::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x3DE8);
+			return (::Il2CppArray<::RPG::GameCore::AvatarPropertyType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x155C8);
+		}
+		static ::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>** StaticGet_CraftCostEquipCategories()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::GameCore::GridFightEquipCategory>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x155D0);
+		}
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet_DivisionLevelUpTable()
+		{
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x155D8);
 		}
 		static ::System::String** StaticGet_SeasonNameTextID()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x3DF0);
-		}
-		static ::System::UInt32* StaticGet_CoinItemID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1050);
-		}
-		static ::System::UInt32* StaticGet_DraftRoleStar()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1054);
-		}
-		static ::System::UInt32* StaticGet_MaxOverCrowdCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1058);
-		}
-		static ::System::UInt32* StaticGet_RoleStarUpgradeCountRequirement()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x105C);
-		}
-		static ::System::UInt32* StaticGet_GridFightContentID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1060);
-		}
-		static ::System::UInt32* StaticGet_GridStartIndex()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1064);
-		}
-		static ::System::UInt32* StaticGet_TrialRoleWorldLevel()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1068);
-		}
-		static ::System::UInt32* StaticGet_ActivityID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x106C);
-		}
-		static ::System::UInt32* StaticGet_MaxBackMemberCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1070);
-		}
-		static ::System::UInt32* StaticGet_MaxBenchMemberCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1074);
-		}
-		static ::System::UInt32* StaticGet_OverChargeModeUnlockQuestID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1078);
-		}
-		static ::System::UInt32* StaticGet_PropEntranceID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x107C);
-		}
-		static ::System::UInt32* StaticGet_ShowSpecialFrontBackTypeTraitID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1080);
-		}
-		static ::System::Boolean* StaticGet_IsShowSeasonTimeOverHint()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1084);
-		}
-		static ::System::Boolean* StaticGet_IsShowSeasonUpdatedNotice()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1085);
-		}
-		static ::System::UInt32* StaticGet_MaxFrontMemberCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1088);
-		}
-		static ::System::UInt32* StaticGet_DivisionLevelUpMaxValuePerGame()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x108C);
-		}
-		static ::System::UInt32* StaticGet_MaxBoardMemberCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1090);
-		}
-		static ::System::UInt32* StaticGet_MainPageUnlockId()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1094);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x155E0);
 		}
 		static ::System::UInt32* StaticGet_NewBieDivisionLevel()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x1098);
-		}
-		static ::System::UInt32* StaticGet_MaxMemberCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x109C);
-		}
-		static ::System::UInt32* StaticGet_EquipTrackMaxMemberCount()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10A0);
-		}
-		static ::System::UInt32* StaticGet_ExtraSeasonExpMax()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10A4);
-		}
-		static ::System::UInt32* StaticGet_MaxRoleStar()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10A8);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AA0);
 		}
 		static ::System::UInt32* StaticGet_MaxRoleEquipCount()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10AC);
-		}
-		static ::System::UInt32* StaticGet_RelicItemID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10B0);
-		}
-		static ::System::Single* StaticGet_ExtraSeasonExpRatio()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10B4);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AA4);
 		}
 		static ::System::UInt32* StaticGet_PropMappingInfoID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10B8);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AA8);
+		}
+		static ::System::UInt32* StaticGet_MaxFrontMemberCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AAC);
+		}
+		static ::System::UInt32* StaticGet_ExtraSeasonExpMax()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AB0);
+		}
+		static ::System::UInt32* StaticGet_GridStartIndex()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AB4);
+		}
+		static ::System::UInt32* StaticGet_GridFightContentID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AB8);
+		}
+		static ::System::UInt32* StaticGet_RelicItemID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8ABC);
+		}
+		static ::System::UInt32* StaticGet_PropEntranceID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AC0);
+		}
+		static ::System::UInt32* StaticGet_TrialRoleWorldLevel()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AC4);
+		}
+		static ::System::Single* StaticGet_ExtraSeasonExpRatio()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AC8);
+		}
+		static ::System::UInt32* StaticGet_DraftRoleStar()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8ACC);
+		}
+		static ::System::UInt32* StaticGet_MaxMemberCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AD0);
+		}
+		static ::System::UInt32* StaticGet_EquipTrackMaxMemberCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AD4);
+		}
+		static ::System::UInt32* StaticGet_MaxBoardMemberCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AD8);
 		}
 		static ::System::UInt32* StaticGet_OpenOrbWaitMs()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x10BC);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8ADC);
+		}
+		static ::System::UInt32* StaticGet_MainPageUnlockId()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AE0);
+		}
+		static ::System::UInt32* StaticGet_ActivityID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AE4);
+		}
+		static ::System::UInt32* StaticGet_RoleStarUpgradeCountRequirement()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AE8);
+		}
+		static ::System::UInt32* StaticGet_MaxRoleStar()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AEC);
+		}
+		static ::System::UInt32* StaticGet_MaxOverCrowdCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AF0);
+		}
+		static ::System::UInt32* StaticGet_CoinItemID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AF4);
+		}
+		static ::System::Boolean* StaticGet_IsShowSeasonTimeOverHint()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AF8);
+		}
+		static ::System::Boolean* StaticGet_IsShowSeasonUpdatedNotice()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AF9);
+		}
+		static ::System::UInt32* StaticGet_DivisionLevelUpMaxValuePerGame()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8AFC);
+		}
+		static ::System::UInt32* StaticGet_MaxBenchMemberCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8B00);
+		}
+		static ::System::UInt32* StaticGet_OverChargeModeUnlockQuestID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8B04);
+		}
+		static ::System::UInt32* StaticGet_MaxBackMemberCount()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8B08);
+		}
+		static ::System::UInt32* StaticGet_ShowSpecialFrontBackTypeTraitID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(GridFightConstants_TypeDefinitionIndex)->GetStaticField(0x8B0C);
 		}
 
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_DirectorUpdateAnimationBegin_TypeDefinitionIndex = 4398;
+	inline static constexpr unsigned int PreLateUpdate_DirectorUpdateAnimationBegin_TypeDefinitionIndex = 4420;
 
 	struct alignas(1) PreLateUpdate_DirectorUpdateAnimationBegin
 	{

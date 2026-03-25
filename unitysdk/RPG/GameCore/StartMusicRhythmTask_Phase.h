@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartMusicRhythmTask_Phase_TypeDefinitionIndex = 42101;
+	inline static constexpr unsigned int StartMusicRhythmTask_Phase_TypeDefinitionIndex = 43150;
 
 	enum class StartMusicRhythmTask_Phase : ::System::Int32
 	{

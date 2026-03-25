@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x17D5B520)
+#define SYSTEM_XML_REF_EQUAL_OFFSET UNITYSDK_OFFSET(0x1858B2F0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int Ref_TypeDefinitionIndex = 1913;
+	inline static constexpr unsigned int Ref_TypeDefinitionIndex = 1918;
 
 	class Ref : public ::System::Object
 	{

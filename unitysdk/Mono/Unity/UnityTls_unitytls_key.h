@@ -4,7 +4,7 @@
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_key_TypeDefinitionIndex = 2335;
+	inline static constexpr unsigned int UnityTls_unitytls_key_TypeDefinitionIndex = 2340;
 
 	struct alignas(1) UnityTls_unitytls_key
 	{

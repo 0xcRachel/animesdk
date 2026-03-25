@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_1C9C081C3F4294E9_MapRotationChargerState_TypeDefinitionIndex = 45099;
+inline static constexpr unsigned int Class_2_1C9C081C3F4294E9_MapRotationChargerState_TypeDefinitionIndex = 46160;
 
 enum class Class_2_1C9C081C3F4294E9_MapRotationChargerState : ::System::Int32
 {

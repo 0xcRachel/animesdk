@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class SilverWolfImgPath; }
 
-#define RPG_CLIENT_SILVERWOLFEXPLOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9F78180)
+#define RPG_CLIENT_SILVERWOLFEXPLOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA48D540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfExploreData_TypeDefinitionIndex = 53902;
+	inline static constexpr unsigned int SilverWolfExploreData_TypeDefinitionIndex = 55454;
 
 	class SilverWolfExploreData : public ::RPG::Client::SilverWolfBaseMissionData
 	{

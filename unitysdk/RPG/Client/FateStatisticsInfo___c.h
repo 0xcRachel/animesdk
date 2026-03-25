@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_FATESTATISTICSINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x923AC70)
-#define RPG_CLIENT_FATESTATISTICSINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x923ACB0)
-#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_0_OFFSET UNITYSDK_OFFSET(0x923ACC0)
-#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_2_OFFSET UNITYSDK_OFFSET(0x923ADE0)
+#define RPG_CLIENT_FATESTATISTICSINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96ADB70)
+#define RPG_CLIENT_FATESTATISTICSINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x96ADBB0)
+#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_0_OFFSET UNITYSDK_OFFSET(0x96ADBC0)
+#define RPG_CLIENT_FATESTATISTICSINFO___C___SYNCDIFFICULTYINFO_B__4_2_OFFSET UNITYSDK_OFFSET(0x96ADC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsInfo___c_TypeDefinitionIndex = 50914;
+	inline static constexpr unsigned int FateStatisticsInfo___c_TypeDefinitionIndex = 52049;
 
 	class FateStatisticsInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateStatisticsInfo___c** StaticGet___9()
+		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_10526515FFAD6598_1*>>** StaticGet___9__4_2()
 		{
-			return (::RPG::Client::FateStatisticsInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateStatisticsInfo___c_TypeDefinitionIndex)->GetStaticField(0x41E80);
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_10526515FFAD6598_1*>>**)Il2CppClass::FromTypeDefinitionIndex(FateStatisticsInfo___c_TypeDefinitionIndex)->GetStaticField(0x12B0);
 		}
 		static ::System::Func_1<::System::String*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FateStatisticsInfo___c_TypeDefinitionIndex)->GetStaticField(0x41E88);
+			return (::System::Func_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FateStatisticsInfo___c_TypeDefinitionIndex)->GetStaticField(0x12B8);
 		}
-		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_10526515FFAD6598_1*>>** StaticGet___9__4_2()
+		static ::RPG::Client::FateStatisticsInfo___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_10526515FFAD6598_1*>>**)Il2CppClass::FromTypeDefinitionIndex(FateStatisticsInfo___c_TypeDefinitionIndex)->GetStaticField(0x41E90);
+			return (::RPG::Client::FateStatisticsInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateStatisticsInfo___c_TypeDefinitionIndex)->GetStaticField(0x12C0);
 		}
 
 		static ::System::Void _cctor()

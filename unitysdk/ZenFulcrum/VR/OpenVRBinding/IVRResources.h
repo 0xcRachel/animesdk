@@ -7,7 +7,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRResources__LoadSharedResource
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRResources_TypeDefinitionIndex = 29350;
+	inline static constexpr unsigned int IVRResources_TypeDefinitionIndex = 30225;
 
 	struct alignas(8) IVRResources
 	{

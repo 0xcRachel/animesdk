@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightEffectController; }
 namespace RPG::Client { class GridFightParticleEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9345D80)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__PLAYCYRENEACTIVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x93472B0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9803F70)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__PLAYCYRENEACTIVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x98055E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 51252;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 52385;
 
 	class GridFightEffectController___c__DisplayClass28_0 : public ::System::Object
 	{

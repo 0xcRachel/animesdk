@@ -7,18 +7,18 @@ namespace EnviromentSystemV2Space { class BlendingValBase; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_2CD72A7067203FFF_METHOD_2_DA1A441CB0E4DAC7_OFFSET UNITYSDK_OFFSET(0x9435EC0)
-#define CLASS_2_2CD72A7067203FFF__CCTOR_OFFSET UNITYSDK_OFFSET(0x9436410)
-#define CLASS_2_2CD72A7067203FFF__CTOR_OFFSET UNITYSDK_OFFSET(0x94363E0)
+#define CLASS_2_2CD72A7067203FFF_METHOD_2_DA1A441CB0E4DAC7_OFFSET UNITYSDK_OFFSET(0x1063F7D0)
+#define CLASS_2_2CD72A7067203FFF__CCTOR_OFFSET UNITYSDK_OFFSET(0x1063FD20)
+#define CLASS_2_2CD72A7067203FFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1063FCF0)
 
-inline static constexpr unsigned int Class_2_2CD72A7067203FFF_TypeDefinitionIndex = 39242;
+inline static constexpr unsigned int Class_2_2CD72A7067203FFF_TypeDefinitionIndex = 40222;
 
 class Class_2_2CD72A7067203FFF : public ::Class_1_EAF7984A8FAD6BE4
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_EAF7984A8FAD6BE4_Class_1_318ED6F2EFD8034A*>** StaticGet_Field_2_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_EAF7984A8FAD6BE4_Class_1_318ED6F2EFD8034A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_2CD72A7067203FFF_TypeDefinitionIndex)->GetStaticField(0x41A60);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_EAF7984A8FAD6BE4_Class_1_318ED6F2EFD8034A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_2CD72A7067203FFF_TypeDefinitionIndex)->GetStaticField(0x16C40);
 	}
 
 	::System::Void _ctor()

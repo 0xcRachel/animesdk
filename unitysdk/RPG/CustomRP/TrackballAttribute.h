@@ -4,20 +4,20 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CUSTOMRP_TRACKBALLATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x163E2290)
-#define RPG_CUSTOMRP_TRACKBALLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163E2270)
+#define RPG_CUSTOMRP_TRACKBALLATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16AF0CD0)
+#define RPG_CUSTOMRP_TRACKBALLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16AF0CB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TrackballAttribute_TypeDefinitionIndex = 28496;
+	inline static constexpr unsigned int TrackballAttribute_TypeDefinitionIndex = 29371;
 
 	class TrackballAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Single SliderMax; // 0x10
-		::System::Single SliderMin; // 0x14
-		::UnityEngine::Vector4 DefaultValue; // 0x18
-		::RPG::CustomRP::TrackballAttribute_Mode mode; // 0x28
+		::System::Single SliderMin; // 0x10
+		::UnityEngine::Vector4 DefaultValue; // 0x14
+		::RPG::CustomRP::TrackballAttribute_Mode mode; // 0x24
+		::System::Single SliderMax; // 0x28
 
 		::System::Void _ctor(::RPG::CustomRP::TrackballAttribute_Mode mode)
 		{

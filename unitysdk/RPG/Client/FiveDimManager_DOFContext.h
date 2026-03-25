@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_FIVEDIMMANAGER_DOFCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0xCD6D0)
+#define RPG_CLIENT_FIVEDIMMANAGER_DOFCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0x7DDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimManager_DOFContext_TypeDefinitionIndex = 47945;
+	inline static constexpr unsigned int FiveDimManager_DOFContext_TypeDefinitionIndex = 49032;
 
 	struct alignas(4) FiveDimManager_DOFContext
 	{

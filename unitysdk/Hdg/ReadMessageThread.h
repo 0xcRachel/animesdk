@@ -12,27 +12,27 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class Thread; }
 
-#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x8099640)
-#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x809A2E0)
-#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0x8099970)
-#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x8099860)
-#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x8099890)
-#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x8099650)
+#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x83F3440)
+#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x83F45F0)
+#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0x83F37D0)
+#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x83F3680)
+#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x83F36B0)
+#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x83F3450)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 36935;
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 37872;
 
 	class ReadMessageThread : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x10
-		::System::IO::Stream* m_stream; // 0x18
-		::Hdg::rdtDispatcher* m_dispatcher; // 0x20
-		::System::Threading::Thread* m_thread; // 0x28
-		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x30
-		::System::IO::BinaryReader* m_reader; // 0x38
-		::System::String* m_name; // 0x40
+		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x10
+		::System::Threading::Thread* m_thread; // 0x18
+		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x20
+		::Hdg::rdtDispatcher* m_dispatcher; // 0x28
+		::System::String* m_name; // 0x30
+		::System::IO::Stream* m_stream; // 0x38
+		::System::IO::BinaryReader* m_reader; // 0x40
 		::System::Boolean m_run; // 0x48
 		::Hdg::ReadMessageThread_State m_state; // 0x4C
 

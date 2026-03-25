@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int Mouse_TypeDefinitionIndex = 30512;
+	inline static constexpr unsigned int Mouse_TypeDefinitionIndex = 31387;
 
 	enum class Mouse : ::System::Int32
 	{

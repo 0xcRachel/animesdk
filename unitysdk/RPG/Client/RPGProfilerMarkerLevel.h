@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RPGPROFILERMARKERLEVEL_ISINWORKINGLEVEL_OFFSET UNITYSDK_OFFSET(0x17AD6FB0)
-#define RPG_CLIENT_RPGPROFILERMARKERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD68D0)
+#define RPG_CLIENT_RPGPROFILERMARKERLEVEL_ISINWORKINGLEVEL_OFFSET UNITYSDK_OFFSET(0x182F0F50)
+#define RPG_CLIENT_RPGPROFILERMARKERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x182F0870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGProfilerMarkerLevel_TypeDefinitionIndex = 26893;
+	inline static constexpr unsigned int RPGProfilerMarkerLevel_TypeDefinitionIndex = 27629;
 
 	class RPGProfilerMarkerLevel : public ::System::Object
 	{

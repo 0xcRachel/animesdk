@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOPLAYLOGINTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15883D80)
+#define MIHOYO_SDK_PC_OS_HOYOPLAYLOGINTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6ACB0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoPlayLoginType_TypeDefinitionIndex = 7308;
+	inline static constexpr unsigned int HoYoPlayLoginType_TypeDefinitionIndex = 7433;
 
 	class HoYoPlayLoginType : public ::System::Object
 	{

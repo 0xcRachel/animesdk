@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class Freelook3rdVCamConfigChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2942014A3F55712A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x103B1DC0)
-#define CLASS_3_2942014A3F55712A__CTOR_OFFSET UNITYSDK_OFFSET(0x103B1D90)
+#define CLASS_3_2942014A3F55712A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87A2140)
+#define CLASS_3_2942014A3F55712A__CTOR_OFFSET UNITYSDK_OFFSET(0x87A2110)
 
-inline static constexpr unsigned int Class_3_2942014A3F55712A_TypeDefinitionIndex = 43021;
+inline static constexpr unsigned int Class_3_2942014A3F55712A_TypeDefinitionIndex = 44072;
 
 class Class_3_2942014A3F55712A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::Freelook3rdVCamConfigChange*>
 {

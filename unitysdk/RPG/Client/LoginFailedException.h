@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define RPG_CLIENT_LOGINFAILEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9585120)
+#define RPG_CLIENT_LOGINFAILEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9A5F9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginFailedException_TypeDefinitionIndex = 48441;
+	inline static constexpr unsigned int LoginFailedException_TypeDefinitionIndex = 49534;
 
 	class LoginFailedException : public ::System::Exception
 	{
 	public:
-		::System::Boolean ResetPhase; // 0x88
-		::System::Boolean Handled; // 0x89
+		::System::Int32 SubErrorCode; // 0x88
 		::System::Int32 ErrorCode; // 0x8C
-		::System::Int32 SubErrorCode; // 0x90
+		::System::Boolean Handled; // 0x90
+		::System::Boolean ResetPhase; // 0x91
 
 		::System::Void _ctor(::System::Int32 errorCode, ::System::Boolean handled, ::System::Int32 subErrorCode, ::System::Boolean resetPhase)
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddTargetStancePreshowConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3886A2773C34CA7B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F2D5B0)
-#define CLASS_3_3886A2773C34CA7B__CTOR_OFFSET UNITYSDK_OFFSET(0x10F2D580)
+#define CLASS_3_3886A2773C34CA7B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC78F90)
+#define CLASS_3_3886A2773C34CA7B__CTOR_OFFSET UNITYSDK_OFFSET(0xAC78F60)
 
-inline static constexpr unsigned int Class_3_3886A2773C34CA7B_TypeDefinitionIndex = 42834;
+inline static constexpr unsigned int Class_3_3886A2773C34CA7B_TypeDefinitionIndex = 43884;
 
 class Class_3_3886A2773C34CA7B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddTargetStancePreshowConfig*>
 {

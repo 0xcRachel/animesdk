@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/GamePhaseType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_227;
+class Class_0_16E4307DCC419505_260;
 class Class_1_6B41D5D37BA0605F;
 class Class_1_CA3918258B4D86BD;
 class Class_1_DD365D3DF2F2F979;
@@ -12,38 +12,38 @@ namespace RPG::GameCore { class BattleLineupData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define CLASS_1_C6DE3EC0A20D0749_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1044D6E0)
-#define CLASS_1_C6DE3EC0A20D0749_ENTER_OFFSET UNITYSDK_OFFSET(0x1044D730)
-#define CLASS_1_C6DE3EC0A20D0749_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0x1044DD70)
-#define CLASS_1_C6DE3EC0A20D0749_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1044DC80)
-#define CLASS_1_C6DE3EC0A20D0749_LEAVE_OFFSET UNITYSDK_OFFSET(0x1044DCE0)
-#define CLASS_1_C6DE3EC0A20D0749_METHOD_1_0608E01D4DD006F1_OFFSET UNITYSDK_OFFSET(0x1044DE70)
-#define CLASS_1_C6DE3EC0A20D0749_METHOD_1_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0x1044DDC0)
-#define CLASS_1_C6DE3EC0A20D0749_METHOD_1_D34A16F0E3B2364F_OFFSET UNITYSDK_OFFSET(0x1044D960)
-#define CLASS_1_C6DE3EC0A20D0749_TICK_OFFSET UNITYSDK_OFFSET(0x1044DC20)
-#define CLASS_1_C6DE3EC0A20D0749__CTOR_OFFSET UNITYSDK_OFFSET(0x1044D6D0)
-#define CLASS_1_C6DE3EC0A20D0749__ENTER_B__2_0_OFFSET UNITYSDK_OFFSET(0x1044DF00)
+#define CLASS_1_C6DE3EC0A20D0749_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD16FF00)
+#define CLASS_1_C6DE3EC0A20D0749_ENTER_OFFSET UNITYSDK_OFFSET(0xD16FF50)
+#define CLASS_1_C6DE3EC0A20D0749_GETGAMEPHASETYPE_OFFSET UNITYSDK_OFFSET(0xD1705A0)
+#define CLASS_1_C6DE3EC0A20D0749_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD1704B0)
+#define CLASS_1_C6DE3EC0A20D0749_LEAVE_OFFSET UNITYSDK_OFFSET(0xD170510)
+#define CLASS_1_C6DE3EC0A20D0749_METHOD_1_0608E01D4DD006F1_OFFSET UNITYSDK_OFFSET(0xD1706A0)
+#define CLASS_1_C6DE3EC0A20D0749_METHOD_1_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0xD1705F0)
+#define CLASS_1_C6DE3EC0A20D0749_METHOD_1_D34A16F0E3B2364F_OFFSET UNITYSDK_OFFSET(0xD170180)
+#define CLASS_1_C6DE3EC0A20D0749_TICK_OFFSET UNITYSDK_OFFSET(0xD170450)
+#define CLASS_1_C6DE3EC0A20D0749__CTOR_OFFSET UNITYSDK_OFFSET(0xD16FEF0)
+#define CLASS_1_C6DE3EC0A20D0749__ENTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xD170730)
 
-inline static constexpr unsigned int Class_1_C6DE3EC0A20D0749_TypeDefinitionIndex = 48528;
+inline static constexpr unsigned int Class_1_C6DE3EC0A20D0749_TypeDefinitionIndex = 49622;
 
 class Class_1_C6DE3EC0A20D0749 : public ::System::Object
 {
 public:
 	static ::Class_1_DD365D3DF2F2F979** StaticGet_Field_1_11()
 	{
-		return (::Class_1_DD365D3DF2F2F979**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C6DE3EC0A20D0749_TypeDefinitionIndex)->GetStaticField(0x427C0);
+		return (::Class_1_DD365D3DF2F2F979**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C6DE3EC0A20D0749_TypeDefinitionIndex)->GetStaticField(0x1F760);
 	}
-	::Class_1_DD365D3DF2F2F979* Field_1_0; // 0x10
-	::System::String* Field_1_9; // 0x18
-	::Class_1_CA3918258B4D86BD* Field_1_8; // 0x20
-	::System::String* Field_1_5; // 0x28
-	::RPG::GameCore::BattleLineupData* Field_1_6; // 0x30
-	::RPG::Client::EnvironmentSystem* Field_1_10; // 0x38
-	::System::UInt32 Field_1_2; // 0x40
-	::System::UInt32 Field_1_3; // 0x44
-	::System::UInt32 Field_1_4; // 0x48
-	::System::UInt32 Field_1_1; // 0x4C
-	::System::Boolean Field_1_7; // 0x50
+	::Class_1_CA3918258B4D86BD* Field_1_8; // 0x10
+	::Class_1_DD365D3DF2F2F979* Field_1_0; // 0x18
+	::RPG::Client::EnvironmentSystem* Field_1_10; // 0x20
+	::System::String* Field_1_9; // 0x28
+	::System::String* Field_1_5; // 0x30
+	::RPG::GameCore::BattleLineupData* Field_1_6; // 0x38
+	::System::Boolean Field_1_7; // 0x40
+	::System::UInt32 Field_1_2; // 0x44
+	::System::UInt32 Field_1_1; // 0x48
+	::System::UInt32 Field_1_4; // 0x4C
+	::System::UInt32 Field_1_3; // 0x50
 
 	::System::Void _ctor(::Class_1_DD365D3DF2F2F979* a1)
 	{
@@ -85,9 +85,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6DE3EC0A20D0749_METHOD_1_0D7638DBC93E5002_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_227*>* Method_1_0608E01D4DD006F1()
+	::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_260*>* Method_1_0608E01D4DD006F1()
 	{
-		return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_227*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6DE3EC0A20D0749_METHOD_1_0608E01D4DD006F1_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_260*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6DE3EC0A20D0749_METHOD_1_0608E01D4DD006F1_OFFSET))(this);
 	}
 
 	::System::Void Method_1_D34A16F0E3B2364F(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::RPG::GameCore::BattleLineupData* a5, ::System::String* a6, ::System::Boolean a7)

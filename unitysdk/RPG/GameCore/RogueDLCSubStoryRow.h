@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E79080)
-#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E79310)
+#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17618630)
+#define RPG_GAMECORE_ROGUEDLCSUBSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x176188C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCSubStoryRow_TypeDefinitionIndex = 13453;
+	inline static constexpr unsigned int RogueDLCSubStoryRow_TypeDefinitionIndex = 13529;
 
 	class RogueDLCSubStoryRow : public ::System::Object
 	{
 	public:
-		::System::String* LevelGraphPath; // 0x10
+		::System::String* ImgPath; // 0x10
 		::System::String* OptionPath; // 0x18
-		::System::String* ImgPath; // 0x20
+		::System::String* LevelGraphPath; // 0x20
 		::System::UInt32 RogueDLCSubStoryID; // 0x28
 		::System::UInt32 Layer; // 0x2C
 		::RPG::Client::TextID SubStoryName; // 0x30

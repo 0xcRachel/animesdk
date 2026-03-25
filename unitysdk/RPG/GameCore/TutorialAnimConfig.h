@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TUTORIALANIMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1712E6A0)
-#define RPG_GAMECORE_TUTORIALANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1712E850)
+#define RPG_GAMECORE_TUTORIALANIMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178EA6A0)
+#define RPG_GAMECORE_TUTORIALANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178EA850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialAnimConfig_TypeDefinitionIndex = 21814;
+	inline static constexpr unsigned int TutorialAnimConfig_TypeDefinitionIndex = 22379;
 
 	class TutorialAnimConfig : public ::RPG::GameCore::JsonConfig
 	{

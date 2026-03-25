@@ -8,34 +8,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F4F240)
-#define RPG_GAMECORE_SHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F4FD20)
+#define RPG_GAMECORE_SHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177046D0)
+#define RPG_GAMECORE_SHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177051B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 13730;
+	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 13844;
 
 	class ShopConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* LimitValue2List; // 0x10
-		::Il2CppArray<::System::UInt32>* LimitValue1List; // 0x18
-		::System::String* ShopBar; // 0x20
-		::System::String* ShopIconPath; // 0x28
-		::System::UInt32 ShopID; // 0x30
-		::RPG::GameCore::LimitType LimitType1; // 0x34
-		::System::UInt32 ActivityModuleID; // 0x38
-		::System::UInt32 ShopSortID; // 0x3C
+		::System::String* ShopBar; // 0x10
+		::Il2CppArray<::System::UInt32>* LimitValue2List; // 0x18
+		::System::String* ShopIconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* LimitValue1List; // 0x28
+		::RPG::Client::TextID ShopName; // 0x30
 		::RPG::Client::TextID ShopDesc; // 0x40
-		::System::UInt32 ScheduleDataID; // 0x50
-		::System::Boolean IsOpen; // 0x54
-		::System::Boolean ServerVerification; // 0x55
-		::System::Boolean HideRemainTime; // 0x56
-		::RPG::Client::TextID ShopName; // 0x58
-		::RPG::GameCore::ShopMainType ShopMainType; // 0x68
+		::System::UInt32 ShopID; // 0x50
+		::RPG::GameCore::LimitType LimitType2; // 0x54
+		::RPG::GameCore::ShopMainType ShopMainType; // 0x58
+		::System::UInt32 ShopGroupID; // 0x5C
+		::System::UInt32 ShopSortID; // 0x60
+		::RPG::GameCore::LimitType LimitType1; // 0x64
+		::System::UInt32 ScheduleDataID; // 0x68
 		::System::UInt32 ShopType; // 0x6C
-		::System::UInt32 ShopGroupID; // 0x70
-		::RPG::GameCore::LimitType LimitType2; // 0x74
+		::System::UInt32 ActivityModuleID; // 0x70
+		::System::Boolean ServerVerification; // 0x74
+		::System::Boolean HideRemainTime; // 0x75
+		::System::Boolean IsOpen; // 0x76
 
 		::System::Void _ctor()
 		{

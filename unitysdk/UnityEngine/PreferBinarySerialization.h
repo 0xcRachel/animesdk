@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PreferBinarySerialization_TypeDefinitionIndex = 4159;
+	inline static constexpr unsigned int PreferBinarySerialization_TypeDefinitionIndex = 4181;
 
 	class PreferBinarySerialization : public ::System::Attribute
 	{

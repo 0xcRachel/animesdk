@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPEAGERSTATICCLASSCONSTRUCTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x154603D0)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPEAGERSTATICCLASSCONSTRUCTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B7A0F0)
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppEagerStaticClassConstructionAttribute_TypeDefinitionIndex = 9336;
+	inline static constexpr unsigned int Il2CppEagerStaticClassConstructionAttribute_TypeDefinitionIndex = 9803;
 
 	class Il2CppEagerStaticClassConstructionAttribute : public ::System::Attribute
 	{

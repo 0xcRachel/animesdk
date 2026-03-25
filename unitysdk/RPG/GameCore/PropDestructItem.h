@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_C853717DEE2015B8_OFFSET UNITYSDK_OFFSET(0x16DA7A90)
-#define RPG_GAMECORE_PROPDESTRUCTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA7CA0)
+#define RPG_GAMECORE_PROPDESTRUCTITEM_METHOD_2_C853717DEE2015B8_OFFSET UNITYSDK_OFFSET(0x1752E790)
+#define RPG_GAMECORE_PROPDESTRUCTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1752E9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 18979;
+	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 19502;
 
 	class PropDestructItem : public ::RPG::GameCore::JsonConfig
 	{

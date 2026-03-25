@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x17D46EA0)
-#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x17D46F00)
-#define SYSTEM_XML_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D471B0)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x18576EB0)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x18576F10)
+#define SYSTEM_XML_BINARYCOMPATIBILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x185771C0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinaryCompatibility_TypeDefinitionIndex = 1778;
+	inline static constexpr unsigned int BinaryCompatibility_TypeDefinitionIndex = 1783;
 
 	class BinaryCompatibility : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet__targetsAtLeast_Desktop_V4_5_2()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x49D0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BinaryCompatibility_TypeDefinitionIndex)->GetStaticField(0x66A0);
 		}
 
 		static ::System::Void _cctor()

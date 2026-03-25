@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RNDOPTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DF7A20)
-#define RPG_GAMECORE_RNDOPTIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DF7B50)
+#define RPG_GAMECORE_RNDOPTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175C4C60)
+#define RPG_GAMECORE_RNDOPTIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175C4D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RndOptionGroupRow_TypeDefinitionIndex = 13314;
+	inline static constexpr unsigned int RndOptionGroupRow_TypeDefinitionIndex = 13388;
 
 	class RndOptionGroupRow : public ::System::Object
 	{

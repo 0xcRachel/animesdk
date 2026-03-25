@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceSortedItem; }
 
-#define RPG_GAMECORE_SUBMISSIONSORTEDITEM_METHOD_2_1468540DAE5C4EA0_OFFSET UNITYSDK_OFFSET(0x16FAABD0)
-#define RPG_GAMECORE_SUBMISSIONSORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16FAAD20)
+#define RPG_GAMECORE_SUBMISSIONSORTEDITEM_METHOD_2_1468540DAE5C4EA0_OFFSET UNITYSDK_OFFSET(0x1779F020)
+#define RPG_GAMECORE_SUBMISSIONSORTEDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1779F170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionSortedItem_TypeDefinitionIndex = 17042;
+	inline static constexpr unsigned int SubMissionSortedItem_TypeDefinitionIndex = 17447;
 
 	class SubMissionSortedItem : public ::RPG::GameCore::JsonConfig
 	{

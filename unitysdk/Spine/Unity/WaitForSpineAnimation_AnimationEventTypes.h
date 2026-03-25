@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int WaitForSpineAnimation_AnimationEventTypes_TypeDefinitionIndex = 33853;
+	inline static constexpr unsigned int WaitForSpineAnimation_AnimationEventTypes_TypeDefinitionIndex = 34842;
 
 	enum class WaitForSpineAnimation_AnimationEventTypes : ::System::Int32
 	{

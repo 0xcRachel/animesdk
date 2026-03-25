@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeAnimatorConditionMode_TypeDefinitionIndex = 54666;
+	inline static constexpr unsigned int RuntimeAnimatorConditionMode_TypeDefinitionIndex = 56226;
 
 	enum class RuntimeAnimatorConditionMode : ::System::Int32
 	{

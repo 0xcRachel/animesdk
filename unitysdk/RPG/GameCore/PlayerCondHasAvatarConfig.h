@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_36BE07D8ADAFB755_OFFSET UNITYSDK_OFFSET(0x16D68080)
-#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_C72063CDDF0E06E6_OFFSET UNITYSDK_OFFSET(0x16D669F0)
-#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D66950)
+#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_5_0F963D96DE8EB599_OFFSET UNITYSDK_OFFSET(0x174EF730)
+#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_5_1469F88C2084826D_OFFSET UNITYSDK_OFFSET(0x174ED680)
+#define RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174ED5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerCondHasAvatarConfig_TypeDefinitionIndex = 17516;
+	inline static constexpr unsigned int PlayerCondHasAvatarConfig_TypeDefinitionIndex = 17921;
 
 	class PlayerCondHasAvatarConfig : public ::RPG::GameCore::PlayerCondConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_36BE07D8ADAFB755(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerCondHasAvatarConfig*& a2)
+		static ::System::Void Method_5_0F963D96DE8EB599(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerCondHasAvatarConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerCondHasAvatarConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_36BE07D8ADAFB755_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerCondHasAvatarConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_5_0F963D96DE8EB599_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C72063CDDF0E06E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerCondHasAvatarConfig* a2)
+		static ::System::Void Method_5_1469F88C2084826D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerCondHasAvatarConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerCondHasAvatarConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_4_C72063CDDF0E06E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerCondHasAvatarConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERCONDHASAVATARCONFIG_METHOD_5_1469F88C2084826D_OFFSET))(a1, a2);
 		}
 	};
 }

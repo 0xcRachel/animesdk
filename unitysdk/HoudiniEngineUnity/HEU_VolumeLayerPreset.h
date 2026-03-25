@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_VOLUMELAYERPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x815EC10)
+#define HOUDINIENGINEUNITY_HEU_VOLUMELAYERPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x84B3750)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_VolumeLayerPreset_TypeDefinitionIndex = 36669;
+	inline static constexpr unsigned int HEU_VolumeLayerPreset_TypeDefinitionIndex = 37606;
 
 	class HEU_VolumeLayerPreset : public ::System::Object
 	{

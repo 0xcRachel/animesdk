@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8135460)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__COPYGAMEOBJECTCOMPONENTS_B__85_0_OFFSET UNITYSDK_OFFSET(0x81354B0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x81354A0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x848BBC0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__COPYGAMEOBJECTCOMPONENTS_B__85_0_OFFSET UNITYSDK_OFFSET(0x848BC10)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x848BC00)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PartData___c_TypeDefinitionIndex = 36706;
+	inline static constexpr unsigned int HEU_PartData___c_TypeDefinitionIndex = 37643;
 
 	class HEU_PartData___c : public ::System::Object
 	{
 	public:
 		static ::HoudiniEngineUnity::HEU_PartData___c** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::HEU_PartData___c**)Il2CppClass::FromTypeDefinitionIndex(HEU_PartData___c_TypeDefinitionIndex)->GetStaticField(0x38830);
+			return (::HoudiniEngineUnity::HEU_PartData___c**)Il2CppClass::FromTypeDefinitionIndex(HEU_PartData___c_TypeDefinitionIndex)->GetStaticField(0x5080);
 		}
 		static ::System::Comparison_1<::UnityEngine::LOD>** StaticGet___9__85_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::LOD>**)Il2CppClass::FromTypeDefinitionIndex(HEU_PartData___c_TypeDefinitionIndex)->GetStaticField(0x38838);
+			return (::System::Comparison_1<::UnityEngine::LOD>**)Il2CppClass::FromTypeDefinitionIndex(HEU_PartData___c_TypeDefinitionIndex)->GetStaticField(0x5088);
 		}
 
 		static ::System::Void _cctor()

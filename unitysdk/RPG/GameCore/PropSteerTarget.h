@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSteerTarget_TypeDefinitionIndex = 45155;
+	inline static constexpr unsigned int PropSteerTarget_TypeDefinitionIndex = 46216;
 
 	enum class PropSteerTarget : ::System::Int32
 	{

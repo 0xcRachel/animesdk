@@ -3,7 +3,7 @@
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int IOrderByComparer_TypeDefinitionIndex = 6400;
+	inline static constexpr unsigned int IOrderByComparer_TypeDefinitionIndex = 6503;
 
 	class IOrderByComparer
 	{

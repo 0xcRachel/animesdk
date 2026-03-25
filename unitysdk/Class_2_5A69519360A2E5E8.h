@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_5A69519360A2E5E8_METHOD_2_6A0EBEECA245A27C_OFFSET UNITYSDK_OFFSET(0x88DBF50)
-#define CLASS_2_5A69519360A2E5E8__CTOR_OFFSET UNITYSDK_OFFSET(0x88DBB80)
+#define CLASS_2_5A69519360A2E5E8_METHOD_2_E5B2D19C36637166_OFFSET UNITYSDK_OFFSET(0x11949E50)
+#define CLASS_2_5A69519360A2E5E8__CTOR_OFFSET UNITYSDK_OFFSET(0x11949A80)
 
-inline static constexpr unsigned int Class_2_5A69519360A2E5E8_TypeDefinitionIndex = 62425;
+inline static constexpr unsigned int Class_2_5A69519360A2E5E8_TypeDefinitionIndex = 64613;
 
 class Class_2_5A69519360A2E5E8 : public ::Class_1_FAF146B3D74C3C3F
 {
@@ -26,8 +26,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + CLASS_2_5A69519360A2E5E8__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_2_6A0EBEECA245A27C()
+	::System::Void Method_2_E5B2D19C36637166()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5A69519360A2E5E8_METHOD_2_6A0EBEECA245A27C_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5A69519360A2E5E8_METHOD_2_E5B2D19C36637166_OFFSET))(this);
 	}
 };

@@ -7,19 +7,19 @@
 namespace RPG::Client { class AudienceLayoutConfig; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB_METHOD_2_B0351A8151A472A4_OFFSET UNITYSDK_OFFSET(0x8CA5730)
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB__CTOR_OFFSET UNITYSDK_OFFSET(0x8CA5710)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB_METHOD_2_B0351A8151A472A4_OFFSET UNITYSDK_OFFSET(0x90FC8D0)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_D0CA5DEF5F6E25EB__CTOR_OFFSET UNITYSDK_OFFSET(0x90FC8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_Class_2_D0CA5DEF5F6E25EB_TypeDefinitionIndex = 54941;
+	inline static constexpr unsigned int AudienceGroupInstance_Class_2_D0CA5DEF5F6E25EB_TypeDefinitionIndex = 56503;
 
 	class AudienceGroupInstance_Class_2_D0CA5DEF5F6E25EB : public ::RPG::Client::AudienceGroupInstance_Class_1_9A90CD018E72DF20_7
 	{
 	public:
 		::RPG::Client::AudienceLayoutConfig* Field_2_0; // 0x10
-		::UnityEngine::Vector3 Field_2_1; // 0x18
-		::UnityEngine::Vector2 Field_2_2; // 0x24
+		::UnityEngine::Vector2 Field_2_2; // 0x18
+		::UnityEngine::Vector3 Field_2_1; // 0x20
 
 		::System::Void _ctor(::RPG::Client::AudienceLayoutConfig* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector2 a3)
 		{

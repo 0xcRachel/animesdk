@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AxisType_TypeDefinitionIndex = 14227;
+	inline static constexpr unsigned int AxisType_TypeDefinitionIndex = 14345;
 
 	enum class AxisType : ::System::Int32
 	{

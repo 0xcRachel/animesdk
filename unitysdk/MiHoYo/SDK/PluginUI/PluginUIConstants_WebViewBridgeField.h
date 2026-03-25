@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_WebViewBridgeField_TypeDefinitionIndex = 7742;
+	inline static constexpr unsigned int PluginUIConstants_WebViewBridgeField_TypeDefinitionIndex = 7865;
 
 	class PluginUIConstants_WebViewBridgeField : public ::System::Object
 	{
@@ -16,6 +16,8 @@ namespace MiHoYo::SDK::PluginUI
 		// static const ::System::String* UNIWEBVIEW_ARGS; // 0x0
 		// static const ::System::String* UNIWEBVIEW_RAWMSG; // 0x0
 		// static const ::System::String* URL; // 0x0
+		// static const ::System::String* ENABLE_JOYPAD; // 0x0
+		// static const ::System::String* DISABLE_JOYPAD_CLOSE; // 0x0
 		// static const ::System::String* ERROR_CODE; // 0x0
 		// static const ::System::String* ERROR_MESSAGE; // 0x0
 		// static const ::System::String* ID; // 0x0

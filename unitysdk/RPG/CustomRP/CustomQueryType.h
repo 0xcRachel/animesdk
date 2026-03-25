@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomQueryType_TypeDefinitionIndex = 28279;
+	inline static constexpr unsigned int CustomQueryType_TypeDefinitionIndex = 29154;
 
 	enum class CustomQueryType : ::System::Int32
 	{

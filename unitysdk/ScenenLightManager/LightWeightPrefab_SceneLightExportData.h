@@ -5,12 +5,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class LightWeightPrefab_ExportData; }
 
-#define SCENENLIGHTMANAGER_LIGHTWEIGHTPREFAB_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xA6880B0)
-#define SCENENLIGHTMANAGER_LIGHTWEIGHTPREFAB_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA6880C0)
+#define SCENENLIGHTMANAGER_LIGHTWEIGHTPREFAB_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xABCFA90)
+#define SCENENLIGHTMANAGER_LIGHTWEIGHTPREFAB_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABCFAA0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightWeightPrefab_SceneLightExportData_TypeDefinitionIndex = 38771;
+	inline static constexpr unsigned int LightWeightPrefab_SceneLightExportData_TypeDefinitionIndex = 39751;
 
 	class LightWeightPrefab_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraModifierTargetType_TypeDefinitionIndex = 14260;
+	inline static constexpr unsigned int ChimeraModifierTargetType_TypeDefinitionIndex = 14512;
 
 	enum class ChimeraModifierTargetType : ::System::Int32
 	{

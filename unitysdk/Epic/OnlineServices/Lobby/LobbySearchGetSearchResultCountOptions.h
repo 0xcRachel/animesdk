@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHGETSEARCHRESULTCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8348ED0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYSEARCHGETSEARCHRESULTCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8692660)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbySearchGetSearchResultCountOptions_TypeDefinitionIndex = 35168;
+	inline static constexpr unsigned int LobbySearchGetSearchResultCountOptions_TypeDefinitionIndex = 36102;
 
 	class LobbySearchGetSearchResultCountOptions : public ::System::Object
 	{

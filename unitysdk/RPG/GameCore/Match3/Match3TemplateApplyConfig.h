@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Match3 { class Match3GridTagApplyConfig; }
 namespace RPG::GameCore::Match3 { class Match3PieceTagApplyConfig; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3TEMPLATEAPPLYCONFIG_METHOD_2_AF2884B2D33C707B_OFFSET UNITYSDK_OFFSET(0x16C58660)
-#define RPG_GAMECORE_MATCH3_MATCH3TEMPLATEAPPLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C59A20)
+#define RPG_GAMECORE_MATCH3_MATCH3TEMPLATEAPPLYCONFIG_METHOD_2_AF2884B2D33C707B_OFFSET UNITYSDK_OFFSET(0x173BDE80)
+#define RPG_GAMECORE_MATCH3_MATCH3TEMPLATEAPPLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173BF020)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3TemplateApplyConfig_TypeDefinitionIndex = 22210;
+	inline static constexpr unsigned int Match3TemplateApplyConfig_TypeDefinitionIndex = 22775;
 
 	class Match3TemplateApplyConfig : public ::RPG::GameCore::JsonConfig
 	{

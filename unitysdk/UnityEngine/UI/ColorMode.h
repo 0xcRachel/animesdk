@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ColorMode_TypeDefinitionIndex = 5568;
+	inline static constexpr unsigned int ColorMode_TypeDefinitionIndex = 5668;
 
 	enum class ColorMode : ::System::Int32
 	{

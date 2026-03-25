@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterDropType_TypeDefinitionIndex = 13337;
+	inline static constexpr unsigned int RogueMonsterDropType_TypeDefinitionIndex = 13411;
 
 	enum class RogueMonsterDropType : ::System::Int32
 	{

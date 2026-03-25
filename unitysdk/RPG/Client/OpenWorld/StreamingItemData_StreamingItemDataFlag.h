@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingItemData_StreamingItemDataFlag_TypeDefinitionIndex = 58863;
+	inline static constexpr unsigned int StreamingItemData_StreamingItemDataFlag_TypeDefinitionIndex = 60606;
 
 	enum class StreamingItemData_StreamingItemDataFlag : ::System::Int32
 	{

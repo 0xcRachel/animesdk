@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacOsArpHardware_TypeDefinitionIndex = 2931;
+	inline static constexpr unsigned int MacOsArpHardware_TypeDefinitionIndex = 2940;
 
 	enum class MacOsArpHardware : ::System::Int32
 	{

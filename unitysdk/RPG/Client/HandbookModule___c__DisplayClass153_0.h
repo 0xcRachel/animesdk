@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS153_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94983E0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS153_0__GOTOTOGUIDEROGUETOURNENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x949AEC0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS153_0__CTOR_OFFSET UNITYSDK_OFFSET(0x991BDD0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS153_0__GOTOTOGUIDEROGUETOURNENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x991E7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass153_0_TypeDefinitionIndex = 52162;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass153_0_TypeDefinitionIndex = 53298;
 
 	class HandbookModule___c__DisplayClass153_0 : public ::System::Object
 	{

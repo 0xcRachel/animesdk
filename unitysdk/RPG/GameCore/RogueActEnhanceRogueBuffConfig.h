@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_5_2150FD9299EACFAC_OFFSET UNITYSDK_OFFSET(0x16DFB270)
-#define RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_5_FA9F2E56EAD9A808_OFFSET UNITYSDK_OFFSET(0x16DFB0B0)
-#define RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16DFB1B0)
+#define RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_6_09F837678B0C4F44_OFFSET UNITYSDK_OFFSET(0x175C90F0)
+#define RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_6_DB11BAE36C6CFDB9_OFFSET UNITYSDK_OFFSET(0x175C9310)
+#define RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175C9230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActEnhanceRogueBuffConfig_TypeDefinitionIndex = 17542;
+	inline static constexpr unsigned int RogueActEnhanceRogueBuffConfig_TypeDefinitionIndex = 17947;
 
 	class RogueActEnhanceRogueBuffConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_FA9F2E56EAD9A808(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig*& a2)
+		static ::System::Void Method_6_09F837678B0C4F44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_5_FA9F2E56EAD9A808_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_6_09F837678B0C4F44_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_2150FD9299EACFAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig* a2)
+		static ::System::Void Method_6_DB11BAE36C6CFDB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_5_2150FD9299EACFAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActEnhanceRogueBuffConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTENHANCEROGUEBUFFCONFIG_METHOD_6_DB11BAE36C6CFDB9_OFFSET))(a1, a2);
 		}
 	};
 }

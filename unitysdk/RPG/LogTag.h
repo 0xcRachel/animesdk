@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 8591;
+	inline static constexpr unsigned int LogTag_TypeDefinitionIndex = 8720;
 
 	enum class LogTag : ::System::Int32
 	{
@@ -101,14 +101,15 @@ namespace RPG
 		Activity = 91,
 		ChimeraDuel = 92,
 		DiceCombat = 93,
-		WhiteBox = 94,
-		MemoryLeak = 95,
-		Stamina = 96,
-		StartUp = 97,
-		LuaDebug = 98,
-		Tutorial = 99,
-		MissionChronicle = 100,
-		TextJoin = 101,
-		PlayerReturn = 102,
+		ChenLingBattle = 94,
+		WhiteBox = 95,
+		MemoryLeak = 96,
+		Stamina = 97,
+		StartUp = 98,
+		LuaDebug = 99,
+		Tutorial = 100,
+		MissionChronicle = 101,
+		TextJoin = 102,
+		PlayerReturn = 103,
 	};
 }

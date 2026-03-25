@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialVisionType_TypeDefinitionIndex = 18292;
+	inline static constexpr unsigned int SpecialVisionType_TypeDefinitionIndex = 18811;
 
 	enum class SpecialVisionType : ::System::Int32
 	{

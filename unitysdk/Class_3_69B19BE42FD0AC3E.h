@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindSetResetPlayerAnchor; }
 
-#define CLASS_3_69B19BE42FD0AC3E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2B8D90)
-#define CLASS_3_69B19BE42FD0AC3E__CTOR_OFFSET UNITYSDK_OFFSET(0xB2B8D60)
+#define CLASS_3_69B19BE42FD0AC3E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDE4DF90)
+#define CLASS_3_69B19BE42FD0AC3E__CTOR_OFFSET UNITYSDK_OFFSET(0xDE4DF60)
 
-inline static constexpr unsigned int Class_3_69B19BE42FD0AC3E_TypeDefinitionIndex = 42189;
+inline static constexpr unsigned int Class_3_69B19BE42FD0AC3E_TypeDefinitionIndex = 43238;
 
 class Class_3_69B19BE42FD0AC3E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRewindSetResetPlayerAnchor*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITeleportableIcon_TypeDefinitionIndex = 49929;
+	inline static constexpr unsigned int ITeleportableIcon_TypeDefinitionIndex = 51061;
 
 	class ITeleportableIcon
 	{

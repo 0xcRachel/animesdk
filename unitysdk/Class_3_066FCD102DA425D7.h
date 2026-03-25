@@ -7,23 +7,23 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerProcessBill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_066FCD102DA425D7_METHOD_3_F859CE601F919CF3_OFFSET UNITYSDK_OFFSET(0x10E25740)
-#define CLASS_3_066FCD102DA425D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E25260)
-#define CLASS_3_066FCD102DA425D7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10E25560)
-#define CLASS_3_066FCD102DA425D7_TICK_OFFSET UNITYSDK_OFFSET(0x10E255B0)
-#define CLASS_3_066FCD102DA425D7__CTOR_OFFSET UNITYSDK_OFFSET(0x10E25230)
-#define CLASS_3_066FCD102DA425D7___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x10E25A50)
+#define CLASS_3_066FCD102DA425D7_METHOD_3_F859CE601F919CF3_OFFSET UNITYSDK_OFFSET(0x8B5DC90)
+#define CLASS_3_066FCD102DA425D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8B5D7E0)
+#define CLASS_3_066FCD102DA425D7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8B5DAB0)
+#define CLASS_3_066FCD102DA425D7_TICK_OFFSET UNITYSDK_OFFSET(0x8B5DB00)
+#define CLASS_3_066FCD102DA425D7__CTOR_OFFSET UNITYSDK_OFFSET(0x8B5D7B0)
+#define CLASS_3_066FCD102DA425D7___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x8B5DFA0)
 
-inline static constexpr unsigned int Class_3_066FCD102DA425D7_TypeDefinitionIndex = 41129;
+inline static constexpr unsigned int Class_3_066FCD102DA425D7_TypeDefinitionIndex = 42172;
 
 class Class_3_066FCD102DA425D7 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfCustomerProcessBill*>
 {
 public:
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_4; // 0x28
-	::UnityEngine::Quaternion Field_3_2; // 0x30
+	::UnityEngine::Quaternion Field_3_3; // 0x30
 	::System::Single Field_3_1; // 0x40
-	::System::Single Field_3_0; // 0x44
-	::UnityEngine::Quaternion Field_3_3; // 0x48
+	::UnityEngine::Quaternion Field_3_2; // 0x44
+	::System::Single Field_3_0; // 0x54
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerProcessBill* a2)
 	{

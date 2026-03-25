@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchTrailblazer; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_BFA078CE16E16786_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10E78DA0)
-#define CLASS_3_BFA078CE16E16786_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10E78D20)
+#define CLASS_3_BFA078CE16E16786_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8D28680)
+#define CLASS_3_BFA078CE16E16786_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8D28600)
 
-inline static constexpr unsigned int Class_3_BFA078CE16E16786_1_TypeDefinitionIndex = 46733;
+inline static constexpr unsigned int Class_3_BFA078CE16E16786_1_TypeDefinitionIndex = 47812;
 
 class Class_3_BFA078CE16E16786_1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchTrailblazer*>
 {

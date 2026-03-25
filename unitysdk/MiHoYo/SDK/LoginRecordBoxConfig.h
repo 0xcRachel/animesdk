@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOGINRECORDBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15858290)
+#define MIHOYO_SDK_LOGINRECORDBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3DC30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginRecordBoxConfig_TypeDefinitionIndex = 6811;
+	inline static constexpr unsigned int LoginRecordBoxConfig_TypeDefinitionIndex = 6923;
 
 	class LoginRecordBoxConfig : public ::System::Object
 	{

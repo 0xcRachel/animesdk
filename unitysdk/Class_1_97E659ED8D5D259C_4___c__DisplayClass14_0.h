@@ -6,17 +6,17 @@ class Class_1_97E659ED8D5D259C_4;
 namespace RPG::Client { class ChimeraDuelChimeraData; }
 namespace RPG::Client { class ChimeraDuelChimeraInfo; }
 
-#define CLASS_1_97E659ED8D5D259C_4___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D28C50)
-#define CLASS_1_97E659ED8D5D259C_4___C__DISPLAYCLASS14_0___GETCHIMERAPOOLMAXRARITY_B__0_OFFSET UNITYSDK_OFFSET(0x8D28D20)
-#define CLASS_1_97E659ED8D5D259C_4___C__DISPLAYCLASS14_0___GETCHIMERAPOOLMAXRARITY_B__2_OFFSET UNITYSDK_OFFSET(0x8D28D90)
+#define CLASS_1_97E659ED8D5D259C_4___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x116D1A80)
+#define CLASS_1_97E659ED8D5D259C_4___C__DISPLAYCLASS14_0___GETCHIMERAPOOLMAXRARITY_B__0_OFFSET UNITYSDK_OFFSET(0x116D1B50)
+#define CLASS_1_97E659ED8D5D259C_4___C__DISPLAYCLASS14_0___GETCHIMERAPOOLMAXRARITY_B__2_OFFSET UNITYSDK_OFFSET(0x116D1BC0)
 
-inline static constexpr unsigned int Class_1_97E659ED8D5D259C_4___c__DisplayClass14_0_TypeDefinitionIndex = 50319;
+inline static constexpr unsigned int Class_1_97E659ED8D5D259C_4___c__DisplayClass14_0_TypeDefinitionIndex = 51454;
 
 class Class_1_97E659ED8D5D259C_4___c__DisplayClass14_0 : public ::System::Object
 {
 public:
-	::Class_1_97E659ED8D5D259C_4* __4__this; // 0x10
-	::RPG::Client::ChimeraDuelChimeraInfo* chimeraInfo; // 0x18
+	::RPG::Client::ChimeraDuelChimeraInfo* chimeraInfo; // 0x10
+	::Class_1_97E659ED8D5D259C_4* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

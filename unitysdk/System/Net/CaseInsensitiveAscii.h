@@ -4,27 +4,27 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_CASEINSENSITIVEASCII_COMPARE_OFFSET UNITYSDK_OFFSET(0x17EA16C0)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_EQUALS_OFFSET UNITYSDK_OFFSET(0x17EA1A40)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_FASTGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17EA1920)
-#define SYSTEM_NET_CASEINSENSITIVEASCII_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17EA1590)
-#define SYSTEM_NET_CASEINSENSITIVEASCII__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EA1C10)
-#define SYSTEM_NET_CASEINSENSITIVEASCII__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA1C00)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_COMPARE_OFFSET UNITYSDK_OFFSET(0x186CA910)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_EQUALS_OFFSET UNITYSDK_OFFSET(0x186CAC90)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_FASTGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x186CAB70)
+#define SYSTEM_NET_CASEINSENSITIVEASCII_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x186CA7E0)
+#define SYSTEM_NET_CASEINSENSITIVEASCII__CCTOR_OFFSET UNITYSDK_OFFSET(0x186CAE60)
+#define SYSTEM_NET_CASEINSENSITIVEASCII__CTOR_OFFSET UNITYSDK_OFFSET(0x186CAE50)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CaseInsensitiveAscii_TypeDefinitionIndex = 2747;
+	inline static constexpr unsigned int CaseInsensitiveAscii_TypeDefinitionIndex = 2753;
 
 	class CaseInsensitiveAscii : public ::System::Object
 	{
 	public:
-		static ::System::Net::CaseInsensitiveAscii** StaticGet_StaticInstance()
-		{
-			return (::System::Net::CaseInsensitiveAscii**)Il2CppClass::FromTypeDefinitionIndex(CaseInsensitiveAscii_TypeDefinitionIndex)->GetStaticField(0x14CB0);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_AsciiToLower()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(CaseInsensitiveAscii_TypeDefinitionIndex)->GetStaticField(0x14CB8);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(CaseInsensitiveAscii_TypeDefinitionIndex)->GetStaticField(0x16A60);
+		}
+		static ::System::Net::CaseInsensitiveAscii** StaticGet_StaticInstance()
+		{
+			return (::System::Net::CaseInsensitiveAscii**)Il2CppClass::FromTypeDefinitionIndex(CaseInsensitiveAscii_TypeDefinitionIndex)->GetStaticField(0x16A68);
 		}
 
 		::System::Void _ctor()

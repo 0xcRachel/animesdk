@@ -3,23 +3,23 @@
 #include "unitysdk/Class_1_CE573B7713B36D39_TrackPlayingState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6365090DC62D5BA5;
+class Class_1_8AE73F462C66560E;
 class Class_1_BCC22A53597699D4;
 
-#define CLASS_1_CE573B7713B36D39_CLEAR_OFFSET UNITYSDK_OFFSET(0x16175550)
-#define CLASS_1_CE573B7713B36D39_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x161755D0)
-#define CLASS_1_CE573B7713B36D39__CTOR_OFFSET UNITYSDK_OFFSET(0x16175620)
+#define CLASS_1_CE573B7713B36D39_CLEAR_OFFSET UNITYSDK_OFFSET(0x169F5A70)
+#define CLASS_1_CE573B7713B36D39_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x169F5AF0)
+#define CLASS_1_CE573B7713B36D39__CTOR_OFFSET UNITYSDK_OFFSET(0x169F5B40)
 
-inline static constexpr unsigned int Class_1_CE573B7713B36D39_TypeDefinitionIndex = 32519;
+inline static constexpr unsigned int Class_1_CE573B7713B36D39_TypeDefinitionIndex = 33431;
 
 class Class_1_CE573B7713B36D39 : public ::System::Object
 {
 public:
-	::Class_1_6365090DC62D5BA5* Field_1_0; // 0x10
-	::Class_1_BCC22A53597699D4* Field_1_4; // 0x18
+	::Class_1_BCC22A53597699D4* Field_1_4; // 0x10
+	::Class_1_8AE73F462C66560E* Field_1_0; // 0x18
 	::System::Double Field_1_2; // 0x20
-	::Class_1_CE573B7713B36D39_TrackPlayingState Field_1_1; // 0x28
-	::System::Int32 Field_1_3; // 0x2C
+	::System::Int32 Field_1_3; // 0x28
+	::Class_1_CE573B7713B36D39_TrackPlayingState Field_1_1; // 0x2C
 
 	::System::Void _ctor()
 	{

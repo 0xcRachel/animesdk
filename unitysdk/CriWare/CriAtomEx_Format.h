@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_Format_TypeDefinitionIndex = 30112;
+	inline static constexpr unsigned int CriAtomEx_Format_TypeDefinitionIndex = 30987;
 
 	enum class CriAtomEx_Format : ::System::UInt32
 	{

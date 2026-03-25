@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TIMELINEEVENTARGUMENT_TIMELINEEVENTCALLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA674DA0)
+#define RPGTOOLS_TIMELINE_TIMELINEEVENTARGUMENT_TIMELINEEVENTCALLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xABBC020)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TimelineEventArgument_TimelineEventCallParam_TypeDefinitionIndex = 38266;
+	inline static constexpr unsigned int TimelineEventArgument_TimelineEventCallParam_TypeDefinitionIndex = 39246;
 
 	class TimelineEventArgument_TimelineEventCallParam : public ::System::Object
 	{

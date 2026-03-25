@@ -9,14 +9,14 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x16F26860)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_30C1F578A293F0F1_OFFSET UNITYSDK_OFFSET(0x16F267E0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_E11B713C3B0FE389_OFFSET UNITYSDK_OFFSET(0x16F1EF90)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1EF40)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x176D90D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_1859888E11721A82_OFFSET UNITYSDK_OFFSET(0x176D8E10)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_32EE14C2CD4DE1FE_OFFSET UNITYSDK_OFFSET(0x176D8EE0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x176D8E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByShield_TypeDefinitionIndex = 20766;
+	inline static constexpr unsigned int SetDynamicValueByShield_TypeDefinitionIndex = 21317;
 
 	class SetDynamicValueByShield : public ::RPG::GameCore::SetDynamicValueBase
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_30C1F578A293F0F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByShield*& a2)
+		static ::System::Void Method_4_1859888E11721A82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByShield*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_30C1F578A293F0F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_1859888E11721A82_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E11B713C3B0FE389(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByShield* a2)
+		static ::System::Void Method_4_32EE14C2CD4DE1FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByShield* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByShield*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_E11B713C3B0FE389_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByShield*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSHIELD_METHOD_4_32EE14C2CD4DE1FE_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()

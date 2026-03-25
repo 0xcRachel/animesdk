@@ -6,35 +6,35 @@ namespace System { class String; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_5218F55178695EA2_OFFSET UNITYSDK_OFFSET(0x10CD8510)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_636B7BE91E57AB07_OFFSET UNITYSDK_OFFSET(0x10CD8950)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_7A51B439873F47D6_OFFSET UNITYSDK_OFFSET(0x10CD91A0)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_80D0C78BF4F70EC9_OFFSET UNITYSDK_OFFSET(0x10CD95B0)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_8CA68E572E24C9BA_OFFSET UNITYSDK_OFFSET(0x10CD9240)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_C14E0A34ADA4BC2C_1_OFFSET UNITYSDK_OFFSET(0x10CD8EA0)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_C14E0A34ADA4BC2C_OFFSET UNITYSDK_OFFSET(0x10CD8BA0)
-#define CLASS_1_BC6AC856D49A5C05_METHOD_1_F7D688468C5755C6_OFFSET UNITYSDK_OFFSET(0x10CD86B0)
-#define CLASS_1_BC6AC856D49A5C05__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD86A0)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_5218F55178695EA2_OFFSET UNITYSDK_OFFSET(0x10BB62B0)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_636B7BE91E57AB07_OFFSET UNITYSDK_OFFSET(0x10BB66F0)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_7A51B439873F47D6_OFFSET UNITYSDK_OFFSET(0x10BB6F50)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_80D0C78BF4F70EC9_OFFSET UNITYSDK_OFFSET(0x10BB7360)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_8CA68E572E24C9BA_OFFSET UNITYSDK_OFFSET(0x10BB6FF0)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_C14E0A34ADA4BC2C_1_OFFSET UNITYSDK_OFFSET(0x10BB6C50)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_C14E0A34ADA4BC2C_OFFSET UNITYSDK_OFFSET(0x10BB6950)
+#define CLASS_1_BC6AC856D49A5C05_METHOD_1_F7D688468C5755C6_OFFSET UNITYSDK_OFFSET(0x10BB6450)
+#define CLASS_1_BC6AC856D49A5C05__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB6440)
 
-inline static constexpr unsigned int Class_1_BC6AC856D49A5C05_TypeDefinitionIndex = 37245;
+inline static constexpr unsigned int Class_1_BC6AC856D49A5C05_TypeDefinitionIndex = 38209;
 
 class Class_1_BC6AC856D49A5C05 : public ::System::Object
 {
 public:
 	static ::Class_1_BC6AC856D49A5C05** StaticGet_Field_1_0()
 	{
-		return (::Class_1_BC6AC856D49A5C05**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BC6AC856D49A5C05_TypeDefinitionIndex)->GetStaticField(0x15360);
+		return (::Class_1_BC6AC856D49A5C05**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BC6AC856D49A5C05_TypeDefinitionIndex)->GetStaticField(0x3A640);
 	}
 	::UnityEngine::Rendering::VolumeProfile* Field_1_4; // 0x10
-	::UnityEngine::Rendering::VolumeComponent* Field_1_7; // 0x18
-	::UnityEngine::Rendering::VolumeComponent* Field_1_8; // 0x20
-	::UnityEngine::Rendering::VolumeComponent* Field_1_6; // 0x28
-	::System::String* Field_1_1; // 0x30
-	::UnityEngine::Rendering::VolumeProfile* Field_1_9; // 0x38
-	::UnityEngine::Rendering::VolumeProfile* Field_1_3; // 0x40
-	::UnityEngine::Rendering::VolumeComponent* Field_1_5; // 0x48
-	::UnityEngine::Rendering::VolumeProfile* Field_1_2; // 0x50
-	::UnityEngine::Rendering::VolumeProfile* Field_1_10; // 0x58
+	::UnityEngine::Rendering::VolumeComponent* Field_1_6; // 0x18
+	::UnityEngine::Rendering::VolumeComponent* Field_1_7; // 0x20
+	::UnityEngine::Rendering::VolumeComponent* Field_1_8; // 0x28
+	::UnityEngine::Rendering::VolumeComponent* Field_1_5; // 0x30
+	::UnityEngine::Rendering::VolumeProfile* Field_1_10; // 0x38
+	::UnityEngine::Rendering::VolumeProfile* Field_1_2; // 0x40
+	::UnityEngine::Rendering::VolumeProfile* Field_1_3; // 0x48
+	::UnityEngine::Rendering::VolumeProfile* Field_1_9; // 0x50
+	::System::String* Field_1_1; // 0x58
 	::System::Single Field_1_12; // 0x60
 	::System::Single Field_1_11; // 0x64
 

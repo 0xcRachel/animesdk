@@ -4,11 +4,11 @@
 
 namespace System::Net { class ICredentials; }
 
-#define SYSTEM_NET_CREDENTIALCACHE_GET_DEFAULTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x17EAF8B0)
+#define SYSTEM_NET_CREDENTIALCACHE_GET_DEFAULTCREDENTIALS_OFFSET UNITYSDK_OFFSET(0x186D8AD0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CredentialCache_TypeDefinitionIndex = 2711;
+	inline static constexpr unsigned int CredentialCache_TypeDefinitionIndex = 2716;
 
 	class CredentialCache : public ::System::Object
 	{

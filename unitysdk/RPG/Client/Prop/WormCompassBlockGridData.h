@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/Prop/WormCompassPuzzleBlockType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_WORMCOMPASSBLOCKGRIDDATA_METHOD_1_7841B7A88F86B0EE_OFFSET UNITYSDK_OFFSET(0x9D06890)
-#define RPG_CLIENT_PROP_WORMCOMPASSBLOCKGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D06930)
+#define RPG_CLIENT_PROP_WORMCOMPASSBLOCKGRIDDATA_METHOD_1_7841B7A88F86B0EE_OFFSET UNITYSDK_OFFSET(0xA1930F0)
+#define RPG_CLIENT_PROP_WORMCOMPASSBLOCKGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA193190)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassBlockGridData_TypeDefinitionIndex = 62187;
+	inline static constexpr unsigned int WormCompassBlockGridData_TypeDefinitionIndex = 64374;
 
 	class WormCompassBlockGridData : public ::System::Object
 	{

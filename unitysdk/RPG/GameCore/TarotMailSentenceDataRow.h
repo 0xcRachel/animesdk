@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FF6C90)
-#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF6E10)
+#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177EBED0)
+#define RPG_GAMECORE_TAROTMAILSENTENCEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177EC050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotMailSentenceDataRow_TypeDefinitionIndex = 13878;
+	inline static constexpr unsigned int TarotMailSentenceDataRow_TypeDefinitionIndex = 13992;
 
 	class TarotMailSentenceDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::RPG::Client::TextID Sentence; // 0x18
+		::RPG::Client::TextID Sentence; // 0x10
+		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()
 		{

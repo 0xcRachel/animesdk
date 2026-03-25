@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA35D840)
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA35D880)
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET UNITYSDK_OFFSET(0xA35D890)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA898770)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA8987B0)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET UNITYSDK_OFFSET(0xA8987C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 44361;
+	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 45422;
 
 	class BattleLineupJsonTable___c : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::BattleLineupJsonTable___c** StaticGet___9()
-		{
-			return (::RPG::GameCore::BattleLineupJsonTable___c**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x40D40);
-		}
 		static ::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x40D48);
+			return (::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x46920);
+		}
+		static ::RPG::GameCore::BattleLineupJsonTable___c** StaticGet___9()
+		{
+			return (::RPG::GameCore::BattleLineupJsonTable___c**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x46928);
 		}
 
 		static ::System::Void _cctor()

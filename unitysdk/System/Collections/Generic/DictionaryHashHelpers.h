@@ -5,19 +5,19 @@
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x15B13620)
-#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B13680)
+#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x161DC750)
+#define SYSTEM_COLLECTIONS_GENERIC_DICTIONARYHASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x161DC7B0)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int DictionaryHashHelpers_TypeDefinitionIndex = 1526;
+	inline static constexpr unsigned int DictionaryHashHelpers_TypeDefinitionIndex = 1531;
 
 	class DictionaryHashHelpers : public ::System::Object
 	{
 	public:
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet__SerializationInfoTable_k__BackingField()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryHashHelpers_TypeDefinitionIndex)->GetStaticField(0x71A0);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryHashHelpers_TypeDefinitionIndex)->GetStaticField(0x5460);
 		}
 
 		static ::System::Void _cctor()

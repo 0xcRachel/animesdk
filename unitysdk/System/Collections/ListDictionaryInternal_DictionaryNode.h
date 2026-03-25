@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_LISTDICTIONARYINTERNAL_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B185E0)
+#define SYSTEM_COLLECTIONS_LISTDICTIONARYINTERNAL_DICTIONARYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x161E1740)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int ListDictionaryInternal_DictionaryNode_TypeDefinitionIndex = 1478;
+	inline static constexpr unsigned int ListDictionaryInternal_DictionaryNode_TypeDefinitionIndex = 1483;
 
 	class ListDictionaryInternal_DictionaryNode : public ::System::Object
 	{
 	public:
-		::System::Object* key; // 0x10
-		::System::Object* value; // 0x18
-		::System::Collections::ListDictionaryInternal_DictionaryNode* next; // 0x20
+		::System::Object* value; // 0x10
+		::System::Collections::ListDictionaryInternal_DictionaryNode* next; // 0x18
+		::System::Object* key; // 0x20
 
 		::System::Void _ctor()
 		{

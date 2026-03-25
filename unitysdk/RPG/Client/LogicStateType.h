@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LogicStateType_TypeDefinitionIndex = 53135;
+	inline static constexpr unsigned int LogicStateType_TypeDefinitionIndex = 54274;
 
 	enum class LogicStateType : ::System::Int32
 	{

@@ -5,7 +5,7 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int RUsage_TypeDefinitionIndex = 34221;
+	inline static constexpr unsigned int RUsage_TypeDefinitionIndex = 35158;
 
 	struct alignas(8) RUsage
 	{

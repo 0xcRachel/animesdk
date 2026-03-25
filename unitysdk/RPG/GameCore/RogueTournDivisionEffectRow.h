@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EC4F70)
-#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC5150)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17678E30)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17679010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournDivisionEffectRow_TypeDefinitionIndex = 13603;
+	inline static constexpr unsigned int RogueTournDivisionEffectRow_TypeDefinitionIndex = 13685;
 
 	class RogueTournDivisionEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParamList; // 0x10
-		::System::UInt32 DivisionLevel; // 0x18
-		::RPG::Client::TextID DescText; // 0x20
+		::RPG::Client::TextID DescText; // 0x18
+		::System::UInt32 DivisionLevel; // 0x28
 
 		::System::Void _ctor()
 		{

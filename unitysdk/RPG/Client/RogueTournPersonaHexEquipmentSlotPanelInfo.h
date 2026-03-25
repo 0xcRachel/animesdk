@@ -1,0 +1,113 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class IRogueTournHex; }
+namespace RPG::Client { class RogueTournPersonaHexEquipmentSlotItemInfo; }
+namespace RPG::Client { class RogueTournPersonaHexEquipmentViewModel; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xA3C6470)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GETREMOVEEQUIPPEDHEXID_OFFSET UNITYSDK_OFFSET(0xA3C68E0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_EQUIPPEDCOUNT_OFFSET UNITYSDK_OFFSET(0xA3C6260)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_PRESLOTCNT_OFFSET UNITYSDK_OFFSET(0xA3C60C0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_SLOTCNT_OFFSET UNITYSDK_OFFSET(0xA3C5FB0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_SLOTITEMS_OFFSET UNITYSDK_OFFSET(0xA3C6460)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_ISSLOTSFULL_OFFSET UNITYSDK_OFFSET(0xA3C6840)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_REFRESH_OFFSET UNITYSDK_OFFSET(0xA3C6AF0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_TRYUNEQUIPHEX_OFFSET UNITYSDK_OFFSET(0xA3C6990)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__ADDACHIVEDHEXES_OFFSET UNITYSDK_OFFSET(0xA3C6D40)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__ADDHEX_OFFSET UNITYSDK_OFFSET(0xA3C7360)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C6530)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__INIT_OFFSET UNITYSDK_OFFSET(0xA3C6570)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__REMOVEINVALIDHEXES_OFFSET UNITYSDK_OFFSET(0xA3C6B50)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__SHIFTHEXES_OFFSET UNITYSDK_OFFSET(0xA3C71D0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo_TypeDefinitionIndex = 59747;
+
+	class RogueTournPersonaHexEquipmentSlotPanelInfo : public ::System::Object
+	{
+	public:
+		// static const ::System::UInt32 MAX_SLOT_CNT = 0x3; // 0x0
+		::Il2CppArray<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*>* _SlotItems; // 0x10
+		::RPG::Client::RogueTournPersonaHexEquipmentViewModel* _ViewModel; // 0x18
+		::System::UInt32 _LastEquippedHexID; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EquippedCount()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_EQUIPPEDCOUNT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SlotCnt()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_SLOTCNT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PreSlotCnt()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_PRESLOTCNT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*>* get_SlotItems()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GET_SLOTITEMS_OFFSET))(this);
+		}
+
+		static ::RPG::Client::RogueTournPersonaHexEquipmentSlotPanelInfo* Create(::RPG::Client::RogueTournPersonaHexEquipmentViewModel* viewModel)
+		{
+			return ((::RPG::Client::RogueTournPersonaHexEquipmentSlotPanelInfo*(*)(::RPG::Client::RogueTournPersonaHexEquipmentViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_CREATE_OFFSET))(viewModel);
+		}
+
+		::System::Void _Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__INIT_OFFSET))(this);
+		}
+
+		::System::Boolean IsSlotsFull()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_ISSLOTSFULL_OFFSET))(this);
+		}
+
+		::System::UInt32 GetRemoveEquippedHexID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_GETREMOVEEQUIPPEDHEXID_OFFSET))(this);
+		}
+
+		::System::Void TryUnEquipHex(::RPG::Client::IRogueTournHex* hex)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRogueTournHex*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_TRYUNEQUIPHEX_OFFSET))(this, hex);
+		}
+
+		::System::Void Refresh()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO_REFRESH_OFFSET))(this);
+		}
+
+		::System::Void _RemoveInvalidHexes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__REMOVEINVALIDHEXES_OFFSET))(this);
+		}
+
+		::System::Void _AddAchivedHexes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__ADDACHIVEDHEXES_OFFSET))(this);
+		}
+
+		::System::Void _AddHex(::RPG::Client::IRogueTournHex* hex)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRogueTournHex*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__ADDHEX_OFFSET))(this, hex);
+		}
+
+		::System::Void _ShiftHexes()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO__SHIFTHEXES_OFFSET))(this);
+		}
+	};
+}

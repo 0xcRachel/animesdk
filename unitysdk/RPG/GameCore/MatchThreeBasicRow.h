@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEBASICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C5DC60)
-#define RPG_GAMECORE_MATCHTHREEBASICROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5E230)
+#define RPG_GAMECORE_MATCHTHREEBASICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173C3640)
+#define RPG_GAMECORE_MATCHTHREEBASICROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173C3C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeBasicRow_TypeDefinitionIndex = 10880;
+	inline static constexpr unsigned int MatchThreeBasicRow_TypeDefinitionIndex = 10948;
 
 	class MatchThreeBasicRow : public ::System::Object
 	{

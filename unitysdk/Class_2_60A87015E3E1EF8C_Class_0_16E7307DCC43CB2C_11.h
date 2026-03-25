@@ -5,7 +5,7 @@
 namespace RPG::GameCore { class EventManager; }
 namespace System { class Action; }
 
-inline static constexpr unsigned int Class_2_60A87015E3E1EF8C_Class_0_16E7307DCC43CB2C_11_TypeDefinitionIndex = 46457;
+inline static constexpr unsigned int Class_2_60A87015E3E1EF8C_Class_0_16E7307DCC43CB2C_11_TypeDefinitionIndex = 47535;
 
 class Class_2_60A87015E3E1EF8C_Class_0_16E7307DCC43CB2C_11
 {

@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class BattleFailureTipsConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_D42203C3868EBCB8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8A3A7C0)
-#define CLASS_2_D42203C3868EBCB8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8A3A7F0)
-#define CLASS_2_D42203C3868EBCB8___C___PREPARETIPSDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0x8A3A800)
+#define CLASS_2_D42203C3868EBCB8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8D31490)
+#define CLASS_2_D42203C3868EBCB8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8D314C0)
+#define CLASS_2_D42203C3868EBCB8___C___PREPARETIPSDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0x8D314D0)
 
-inline static constexpr unsigned int Class_2_D42203C3868EBCB8___c_TypeDefinitionIndex = 49919;
+inline static constexpr unsigned int Class_2_D42203C3868EBCB8___c_TypeDefinitionIndex = 51051;
 
 class Class_2_D42203C3868EBCB8___c : public ::System::Object
 {
 public:
-	static ::Class_2_D42203C3868EBCB8___c** StaticGet___9()
-	{
-		return (::Class_2_D42203C3868EBCB8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D42203C3868EBCB8___c_TypeDefinitionIndex)->GetStaticField(0xA170);
-	}
 	static ::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>** StaticGet___9__4_0()
 	{
-		return (::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D42203C3868EBCB8___c_TypeDefinitionIndex)->GetStaticField(0xA178);
+		return (::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D42203C3868EBCB8___c_TypeDefinitionIndex)->GetStaticField(0x126B0);
+	}
+	static ::Class_2_D42203C3868EBCB8___c** StaticGet___9()
+	{
+		return (::Class_2_D42203C3868EBCB8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_D42203C3868EBCB8___c_TypeDefinitionIndex)->GetStaticField(0x126B8);
 	}
 
 	static ::System::Void _cctor()

@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define INDEXCARGOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x10ADCA70)
+#define INDEXCARGOLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x111F4400)
 
-inline static constexpr unsigned int IndexCargoList_TypeDefinitionIndex = 37054;
+inline static constexpr unsigned int IndexCargoList_TypeDefinitionIndex = 38016;
 
 class IndexCargoList : public ::System::Object
 {

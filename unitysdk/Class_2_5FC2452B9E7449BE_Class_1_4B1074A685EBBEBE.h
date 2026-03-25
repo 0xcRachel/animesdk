@@ -6,9 +6,9 @@
 class DamageTextStyle;
 namespace System { class String; }
 
-#define CLASS_2_5FC2452B9E7449BE_CLASS_1_4B1074A685EBBEBE__CTOR_OFFSET UNITYSDK_OFFSET(0x109B7060)
+#define CLASS_2_5FC2452B9E7449BE_CLASS_1_4B1074A685EBBEBE__CTOR_OFFSET UNITYSDK_OFFSET(0x10A4AEA0)
 
-inline static constexpr unsigned int Class_2_5FC2452B9E7449BE_Class_1_4B1074A685EBBEBE_TypeDefinitionIndex = 57665;
+inline static constexpr unsigned int Class_2_5FC2452B9E7449BE_Class_1_4B1074A685EBBEBE_TypeDefinitionIndex = 59284;
 
 class Class_2_5FC2452B9E7449BE_Class_1_4B1074A685EBBEBE : public ::System::Object
 {

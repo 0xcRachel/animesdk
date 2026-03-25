@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BEActionBarType_TypeDefinitionIndex = 11663;
+	inline static constexpr unsigned int BEActionBarType_TypeDefinitionIndex = 11733;
 
 	enum class BEActionBarType : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ES_POSTPROCESSVOLUMECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F69F0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_POSTPROCESSVOLUMECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1036A550)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ES_PostProcessVolumeComponent_TypeDefinitionIndex = 39013;
+	inline static constexpr unsigned int ES_PostProcessVolumeComponent_TypeDefinitionIndex = 39993;
 
 	class ES_PostProcessVolumeComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{

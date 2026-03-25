@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PauseAnimatorReason_TypeDefinitionIndex = 32446;
+	inline static constexpr unsigned int PauseAnimatorReason_TypeDefinitionIndex = 33356;
 
 	enum class PauseAnimatorReason : ::System::Int32
 	{

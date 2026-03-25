@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class AlleyEventRow; }
 
-#define RPG_CLIENT_ALLEYEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCA110)
+#define RPG_CLIENT_ALLEYEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x7B2D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 49431;
+	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 50564;
 
 	struct alignas(8) AlleyEventInfo
 	{

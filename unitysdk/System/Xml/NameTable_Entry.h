@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_NAMETABLE_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17D59E80)
+#define SYSTEM_XML_NAMETABLE_ENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18589E40)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int NameTable_Entry_TypeDefinitionIndex = 1912;
+	inline static constexpr unsigned int NameTable_Entry_TypeDefinitionIndex = 1917;
 
 	class NameTable_Entry : public ::System::Object
 	{

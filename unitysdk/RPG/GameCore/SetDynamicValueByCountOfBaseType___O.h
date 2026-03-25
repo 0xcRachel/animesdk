@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByCountOfBaseType___O_TypeDefinitionIndex = 21267;
+	inline static constexpr unsigned int SetDynamicValueByCountOfBaseType___O_TypeDefinitionIndex = 21827;
 
 	class SetDynamicValueByCountOfBaseType___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(SetDynamicValueByCountOfBaseType___O_TypeDefinitionIndex)->GetStaticField(0x92D0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AvatarBaseType>**)Il2CppClass::FromTypeDefinitionIndex(SetDynamicValueByCountOfBaseType___O_TypeDefinitionIndex)->GetStaticField(0xBD60);
 		}
 	};
 }

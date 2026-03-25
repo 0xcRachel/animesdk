@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_TransformComponent_TypeDefinitionIndex = 36758;
+	inline static constexpr unsigned int HAPI_TransformComponent_TypeDefinitionIndex = 37695;
 
 	enum class HAPI_TransformComponent : ::System::Int32
 	{

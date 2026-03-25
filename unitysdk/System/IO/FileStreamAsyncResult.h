@@ -7,29 +7,29 @@ namespace System { class IAsyncResult; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x15C85440)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x15C854D0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x15C854F0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x15C854E0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x15C85500)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x15C83230)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1634CE90)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1634CF20)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1634CF40)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1634CF30)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1634CF50)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1634B1A0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileStreamAsyncResult_TypeDefinitionIndex = 717;
+	inline static constexpr unsigned int FileStreamAsyncResult_TypeDefinitionIndex = 718;
 
 	class FileStreamAsyncResult : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEvent* wh; // 0x10
-		::System::AsyncCallback* realcb; // 0x18
-		::System::Object* state; // 0x20
-		::System::AsyncCallback* cb; // 0x28
-		::System::Int32 Count; // 0x30
-		::System::Int32 BytesRead; // 0x34
-		::System::Boolean completedSynch; // 0x38
-		::System::Boolean completed; // 0x39
-		::System::Int32 OriginalCount; // 0x3C
+		::System::Object* state; // 0x10
+		::System::Threading::ManualResetEvent* wh; // 0x18
+		::System::AsyncCallback* cb; // 0x20
+		::System::AsyncCallback* realcb; // 0x28
+		::System::Boolean completed; // 0x30
+		::System::Boolean completedSynch; // 0x31
+		::System::Int32 Count; // 0x34
+		::System::Int32 OriginalCount; // 0x38
+		::System::Int32 BytesRead; // 0x3C
 
 		::System::Void _ctor(::System::AsyncCallback* cb, ::System::Object* state)
 		{

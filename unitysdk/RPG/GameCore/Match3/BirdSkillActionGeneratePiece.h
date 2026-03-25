@@ -4,34 +4,34 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_4_03B37394B80915DC_OFFSET UNITYSDK_OFFSET(0x16C505A0)
-#define RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_4_DF22FCF3EFB6FFA3_OFFSET UNITYSDK_OFFSET(0x16C504E0)
-#define RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C50550)
+#define RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_5_9C1D7A38DBA991DD_OFFSET UNITYSDK_OFFSET(0x173B54F0)
+#define RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_5_D927DB1AF5D951D2_OFFSET UNITYSDK_OFFSET(0x173B5600)
+#define RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE__CTOR_OFFSET UNITYSDK_OFFSET(0x173B5590)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BirdSkillActionGeneratePiece_TypeDefinitionIndex = 22197;
+	inline static constexpr unsigned int BirdSkillActionGeneratePiece_TypeDefinitionIndex = 22762;
 
 	class BirdSkillActionGeneratePiece : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:
-		::System::UInt32 StyleID; // 0x10
-		::System::UInt32 PieceCount; // 0x14
-		::System::Boolean ScoreBonus; // 0x18
+		::System::UInt32 StyleID; // 0x18
+		::System::UInt32 PieceCount; // 0x1C
+		::System::Boolean ScoreBonus; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DF22FCF3EFB6FFA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece*& a2)
+		static ::System::Void Method_5_9C1D7A38DBA991DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_4_DF22FCF3EFB6FFA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_5_9C1D7A38DBA991DD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_03B37394B80915DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece* a2)
+		static ::System::Void Method_5_D927DB1AF5D951D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_4_03B37394B80915DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::BirdSkillActionGeneratePiece*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_BIRDSKILLACTIONGENERATEPIECE_METHOD_5_D927DB1AF5D951D2_OFFSET))(a1, a2);
 		}
 	};
 }

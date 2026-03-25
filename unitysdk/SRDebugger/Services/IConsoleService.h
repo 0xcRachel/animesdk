@@ -7,7 +7,7 @@ namespace SRDebugger::Services { class ConsoleUpdatedEventHandler; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IConsoleService_TypeDefinitionIndex = 28826;
+	inline static constexpr unsigned int IConsoleService_TypeDefinitionIndex = 29701;
 
 	class IConsoleService
 	{

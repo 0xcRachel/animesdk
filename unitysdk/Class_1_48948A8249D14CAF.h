@@ -6,25 +6,25 @@
 
 class Class_1_803155C069ACF29F;
 
-#define CLASS_1_48948A8249D14CAF__CTOR_OFFSET UNITYSDK_OFFSET(0x1622CBD0)
+#define CLASS_1_48948A8249D14CAF__CTOR_OFFSET UNITYSDK_OFFSET(0x167906F0)
 
-inline static constexpr unsigned int Class_1_48948A8249D14CAF_TypeDefinitionIndex = 32005;
+inline static constexpr unsigned int Class_1_48948A8249D14CAF_TypeDefinitionIndex = 32915;
 
 class Class_1_48948A8249D14CAF : public ::System::Object
 {
 public:
 	::Class_1_803155C069ACF29F* Field_1_2; // 0x10
-	::System::Boolean Field_1_5; // 0x18
-	::System::Boolean Field_1_6; // 0x19
-	::System::Boolean Field_1_8; // 0x1A
-	::RPG::Client::LittleGame::TRFPlayerAnim Field_1_3; // 0x1C
-	::System::UInt32 Field_1_10; // 0x20
-	::RPG::Client::LittleGame::TRFMoveState Field_1_0; // 0x24
-	::RPG::Client::LittleGame::TRFPlayerAnim Field_1_4; // 0x28
-	::System::Single Field_1_1; // 0x2C
-	::System::UInt32 Field_1_11; // 0x30
-	::System::Boolean Field_1_9; // 0x34
-	::System::Boolean Field_1_7; // 0x35
+	::RPG::Client::LittleGame::TRFPlayerAnim Field_1_3; // 0x18
+	::System::Boolean Field_1_7; // 0x1C
+	::System::Boolean Field_1_6; // 0x1D
+	::System::Boolean Field_1_8; // 0x1E
+	::System::Boolean Field_1_9; // 0x1F
+	::System::Boolean Field_1_5; // 0x20
+	::System::Single Field_1_1; // 0x24
+	::System::UInt32 Field_1_11; // 0x28
+	::RPG::Client::LittleGame::TRFPlayerAnim Field_1_4; // 0x2C
+	::RPG::Client::LittleGame::TRFMoveState Field_1_0; // 0x30
+	::System::UInt32 Field_1_10; // 0x34
 
 	::System::Void _ctor()
 	{

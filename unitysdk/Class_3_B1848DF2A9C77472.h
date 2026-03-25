@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetGraphDynamicFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B1848DF2A9C77472_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10EA3190)
-#define CLASS_3_B1848DF2A9C77472__CTOR_OFFSET UNITYSDK_OFFSET(0x10EA3160)
+#define CLASS_3_B1848DF2A9C77472_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A09DC0)
+#define CLASS_3_B1848DF2A9C77472__CTOR_OFFSET UNITYSDK_OFFSET(0x10A09D90)
 
-inline static constexpr unsigned int Class_3_B1848DF2A9C77472_TypeDefinitionIndex = 42052;
+inline static constexpr unsigned int Class_3_B1848DF2A9C77472_TypeDefinitionIndex = 43101;
 
 class Class_3_B1848DF2A9C77472 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetGraphDynamicFloat*>
 {

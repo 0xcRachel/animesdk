@@ -6,13 +6,13 @@ namespace RPG::Client { class CommonActivityLightConeRewardData; }
 namespace RPG::Client { class CommonActivityLightConeRewardGroup; }
 namespace RPG::GameCore { class ActivityEquipmentRewardMaterialRow; }
 
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET UNITYSDK_OFFSET(0x8FBC8A0)
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x8FBC450)
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x8FBCAE0)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET UNITYSDK_OFFSET(0x9417CE0)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x9417890)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x9417F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CommonActivityLightConeRewardFactory_TypeDefinitionIndex = 48904;
+	inline static constexpr unsigned int CommonActivityLightConeRewardFactory_TypeDefinitionIndex = 50039;
 
 	class CommonActivityLightConeRewardFactory : public ::System::Object
 	{

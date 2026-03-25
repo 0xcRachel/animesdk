@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBreak; }
 
-#define CLASS_3_C9CFBB2710ACF1F9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B62280)
-#define CLASS_3_C9CFBB2710ACF1F9__CTOR_OFFSET UNITYSDK_OFFSET(0x10B62250)
+#define CLASS_3_C9CFBB2710ACF1F9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87B2AA0)
+#define CLASS_3_C9CFBB2710ACF1F9__CTOR_OFFSET UNITYSDK_OFFSET(0x87B2A70)
 
-inline static constexpr unsigned int Class_3_C9CFBB2710ACF1F9_TypeDefinitionIndex = 43579;
+inline static constexpr unsigned int Class_3_C9CFBB2710ACF1F9_TypeDefinitionIndex = 44635;
 
 class Class_3_C9CFBB2710ACF1F9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerBreak*>
 {

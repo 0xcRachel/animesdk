@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildGearResonanceEffectType_TypeDefinitionIndex = 50687;
+	inline static constexpr unsigned int EvolveBuildGearResonanceEffectType_TypeDefinitionIndex = 51822;
 
 	enum class EvolveBuildGearResonanceEffectType : ::System::Int32
 	{

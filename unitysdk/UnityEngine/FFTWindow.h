@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FFTWindow_TypeDefinitionIndex = 4982;
+	inline static constexpr unsigned int FFTWindow_TypeDefinitionIndex = 5082;
 
 	enum class FFTWindow : ::System::Int32
 	{

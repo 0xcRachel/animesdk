@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class SortedEvolveBuildGearEquipInfoLists; }
-namespace RPG::GameCore { class EvolveBuildGearManager; }
+namespace RPG::Client { class AvatarOutfit; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_353_TypeDefinitionIndex = 42317;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_353_TypeDefinitionIndex = 41959;
 
 class Class_0_16E4307DCC419505_353
 {

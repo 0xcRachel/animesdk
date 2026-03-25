@@ -7,12 +7,12 @@ namespace RPG::Client::CrowdAnimator { class CapsuleColliderInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_METHOD_1_3A6C1E569C719E98_OFFSET UNITYSDK_OFFSET(0x8CA6860)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CA68F0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_METHOD_1_3A6C1E569C719E98_OFFSET UNITYSDK_OFFSET(0x90FD3E0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x90FD470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceMoodMapConfig_MoodData_TypeDefinitionIndex = 54952;
+	inline static constexpr unsigned int AudienceMoodMapConfig_MoodData_TypeDefinitionIndex = 56514;
 
 	class AudienceMoodMapConfig_MoodData : public ::System::Object
 	{

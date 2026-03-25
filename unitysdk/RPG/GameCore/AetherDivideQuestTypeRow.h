@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1686C430)
-#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1686C9A0)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F79E80)
+#define RPG_GAMECORE_AETHERDIVIDEQUESTTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F7A3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideQuestTypeRow_TypeDefinitionIndex = 10258;
+	inline static constexpr unsigned int AetherDivideQuestTypeRow_TypeDefinitionIndex = 10262;
 
 	class AetherDivideQuestTypeRow : public ::System::Object
 	{

@@ -8,21 +8,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections { class IList; }
 
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x156346C0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x156341C0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15634AD0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x156341B0)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4B120)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4AC00)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D4B530)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACELISTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4ABF0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NonGenericInterfaceListFormatter_TypeDefinitionIndex = 9699;
+	inline static constexpr unsigned int NonGenericInterfaceListFormatter_TypeDefinitionIndex = 9257;
 
 	class NonGenericInterfaceListFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IList*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IList*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceListFormatter_TypeDefinitionIndex)->GetStaticField(0x23F60);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IList*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceListFormatter_TypeDefinitionIndex)->GetStaticField(0x19660);
 		}
 
 		::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IInitializeSystem_TypeDefinitionIndex = 9269;
+	inline static constexpr unsigned int IInitializeSystem_TypeDefinitionIndex = 9736;
 
 	class IInitializeSystem
 	{

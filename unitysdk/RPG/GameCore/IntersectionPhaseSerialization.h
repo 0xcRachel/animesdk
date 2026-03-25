@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhaseValueActionPairSerialization; }
 
-#define RPG_GAMECORE_INTERSECTIONPHASESERIALIZATION_METHOD_2_0F7FE53198C17459_OFFSET UNITYSDK_OFFSET(0x16B83FC0)
-#define RPG_GAMECORE_INTERSECTIONPHASESERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16B84100)
+#define RPG_GAMECORE_INTERSECTIONPHASESERIALIZATION_METHOD_2_0F7FE53198C17459_OFFSET UNITYSDK_OFFSET(0x172D28F0)
+#define RPG_GAMECORE_INTERSECTIONPHASESERIALIZATION__CTOR_OFFSET UNITYSDK_OFFSET(0x172D2A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IntersectionPhaseSerialization_TypeDefinitionIndex = 17209;
+	inline static constexpr unsigned int IntersectionPhaseSerialization_TypeDefinitionIndex = 17614;
 
 	class IntersectionPhaseSerialization : public ::RPG::GameCore::JsonConfig
 	{

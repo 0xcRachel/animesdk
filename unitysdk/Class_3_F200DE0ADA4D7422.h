@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartWindowStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F200DE0ADA4D7422_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFD5D130)
-#define CLASS_3_F200DE0ADA4D7422__CTOR_OFFSET UNITYSDK_OFFSET(0xFD5D100)
+#define CLASS_3_F200DE0ADA4D7422_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9C6D6D0)
+#define CLASS_3_F200DE0ADA4D7422__CTOR_OFFSET UNITYSDK_OFFSET(0x9C6D6A0)
 
-inline static constexpr unsigned int Class_3_F200DE0ADA4D7422_TypeDefinitionIndex = 41752;
+inline static constexpr unsigned int Class_3_F200DE0ADA4D7422_TypeDefinitionIndex = 42800;
 
 class Class_3_F200DE0ADA4D7422 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartWindowStage*>
 {

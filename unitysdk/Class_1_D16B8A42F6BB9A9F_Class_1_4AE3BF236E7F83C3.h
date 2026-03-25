@@ -6,16 +6,16 @@ class Class_1_D16B8A42F6BB9A9F_Class_1_41B104475EBB8850;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PerformanceCaptureNPC; }
 
-#define CLASS_1_D16B8A42F6BB9A9F_CLASS_1_4AE3BF236E7F83C3__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C9910)
+#define CLASS_1_D16B8A42F6BB9A9F_CLASS_1_4AE3BF236E7F83C3__CTOR_OFFSET UNITYSDK_OFFSET(0x111C38C0)
 
-inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F_Class_1_4AE3BF236E7F83C3_TypeDefinitionIndex = 48099;
+inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F_Class_1_4AE3BF236E7F83C3_TypeDefinitionIndex = 49190;
 
 class Class_1_D16B8A42F6BB9A9F_Class_1_4AE3BF236E7F83C3 : public ::System::Object
 {
 public:
-	::RPG::GameCore::PerformanceCaptureNPC* Field_1_0; // 0x10
-	::Class_1_D16B8A42F6BB9A9F_Class_1_41B104475EBB8850* Field_1_2; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x10
+	::RPG::GameCore::PerformanceCaptureNPC* Field_1_0; // 0x18
+	::Class_1_D16B8A42F6BB9A9F_Class_1_41B104475EBB8850* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

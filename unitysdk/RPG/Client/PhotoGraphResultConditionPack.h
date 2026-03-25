@@ -9,24 +9,24 @@ namespace RPG::Client { class PhotoGraphResultCondition; }
 namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0x9A82330)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9A823C0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0x9A821F0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x9A82040)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0x9F55EF0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9F55F80)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0x9F55DB0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x9F55C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 55195;
+	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 56760;
 
 	class PhotoGraphResultConditionPack : public ::System::Object
 	{
 	public:
-		::Class_3_B8A086DB341E9298* _ResultChange; // 0x10
-		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x18
-		::RPG::Client::TextID ConditionName; // 0x20
-		::System::Boolean _LastResult; // 0x30
-		::System::Boolean AutoSnapFovLevel; // 0x31
-		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x34
+		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x10
+		::Class_3_B8A086DB341E9298* _ResultChange; // 0x18
+		::System::Boolean _LastResult; // 0x20
+		::System::Boolean AutoSnapFovLevel; // 0x21
+		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x24
+		::RPG::Client::TextID ConditionName; // 0x28
 
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphShotResultCondition* condition, ::RPG::GameCore::TaskContext* context, ::Class_3_B8A086DB341E9298* resultChangeCallback)
 		{

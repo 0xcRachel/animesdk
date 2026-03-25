@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16991410)
-#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16991620)
+#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170B2F80)
+#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170B3190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelMasterChallengeRow_TypeDefinitionIndex = 10361;
+	inline static constexpr unsigned int ChimeraDuelMasterChallengeRow_TypeDefinitionIndex = 10431;
 
 	class ChimeraDuelMasterChallengeRow : public ::System::Object
 	{
 	public:
 		::System::String* MasterHeadIconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* PresetIDList; // 0x18
-		::System::UInt32 MasterID; // 0x20
-		::System::UInt32 MasterRankLevel; // 0x24
+		::System::UInt32 MasterRankLevel; // 0x20
+		::System::UInt32 MasterID; // 0x24
 		::System::UInt32 ChallengeID; // 0x28
 
 		::System::Void _ctor()

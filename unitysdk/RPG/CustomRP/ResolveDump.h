@@ -8,29 +8,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class FileInfo; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCPPGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x163DB680)
-#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCSGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x163DB780)
-#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x163DCB20)
-#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_OFFSET UNITYSDK_OFFSET(0x163DB880)
-#define RPG_CUSTOMRP_RESOLVEDUMP__CTOR_OFFSET UNITYSDK_OFFSET(0x163DD450)
-#define RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET UNITYSDK_OFFSET(0x163DBBE0)
-#define RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET UNITYSDK_OFFSET(0x163DBF10)
-#define RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x163DCD50)
+#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCPPGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x16AEA330)
+#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCSGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x16AEA430)
+#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x16AEB7D0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_OFFSET UNITYSDK_OFFSET(0x16AEA530)
+#define RPG_CUSTOMRP_RESOLVEDUMP__CTOR_OFFSET UNITYSDK_OFFSET(0x16AEC100)
+#define RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET UNITYSDK_OFFSET(0x16AEA890)
+#define RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET UNITYSDK_OFFSET(0x16AEABC0)
+#define RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x16AEBA00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump_TypeDefinitionIndex = 28490;
+	inline static constexpr unsigned int ResolveDump_TypeDefinitionIndex = 29365;
 
 	class ResolveDump : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__CppCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResolveDump_TypeDefinitionIndex)->GetStaticField(0xE560);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResolveDump_TypeDefinitionIndex)->GetStaticField(0xC460);
 		}
 		static ::System::Int32* StaticGet__CsCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResolveDump_TypeDefinitionIndex)->GetStaticField(0xE564);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResolveDump_TypeDefinitionIndex)->GetStaticField(0xC464);
 		}
 
 		::System::Void _ctor()

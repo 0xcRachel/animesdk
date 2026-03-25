@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTUREANIMATIONMOVERANGE_METHOD_2_9BBC4D2465CED7B2_OFFSET UNITYSDK_OFFSET(0x16851100)
-#define RPG_GAMECORE_ADVENTUREANIMATIONMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x168516E0)
+#define RPG_GAMECORE_ADVENTUREANIMATIONMOVERANGE_METHOD_2_9BBC4D2465CED7B2_OFFSET UNITYSDK_OFFSET(0x16F5E9D0)
+#define RPG_GAMECORE_ADVENTUREANIMATIONMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5EFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAnimationMoveRange_TypeDefinitionIndex = 17947;
+	inline static constexpr unsigned int AdventureAnimationMoveRange_TypeDefinitionIndex = 18464;
 
 	class AdventureAnimationMoveRange : public ::RPG::GameCore::JsonConfig
 	{

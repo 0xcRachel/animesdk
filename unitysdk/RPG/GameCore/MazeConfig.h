@@ -25,12 +25,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C6E6E0)
-#define RPG_GAMECORE_MAZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C6F3E0)
+#define RPG_GAMECORE_MAZECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173D4090)
+#define RPG_GAMECORE_MAZECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173D4D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeConfig_TypeDefinitionIndex = 15937;
+	inline static constexpr unsigned int MazeConfig_TypeDefinitionIndex = 16214;
 
 	class MazeConfig : public ::RPG::GameCore::JsonConfig
 	{

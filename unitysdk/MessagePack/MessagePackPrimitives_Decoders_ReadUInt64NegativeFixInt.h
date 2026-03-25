@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64NEGATIVEFIXINT_READ_OFFSET UNITYSDK_OFFSET(0x1567C390)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64NEGATIVEFIXINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1567C410)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64NEGATIVEFIXINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1567C380)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64NEGATIVEFIXINT_READ_OFFSET UNITYSDK_OFFSET(0x15D818D0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64NEGATIVEFIXINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D81950)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64NEGATIVEFIXINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15D818C0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt_TypeDefinitionIndex = 9430;
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt_TypeDefinitionIndex = 9044;
 
 	class MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt_TypeDefinitionIndex)->GetStaticField(0x26A10);
+			return (::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadUInt64NegativeFixInt_TypeDefinitionIndex)->GetStaticField(0x19EE0);
 		}
 
 		::System::Void _ctor()

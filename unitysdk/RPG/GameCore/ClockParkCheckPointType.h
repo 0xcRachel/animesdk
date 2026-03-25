@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCheckPointType_TypeDefinitionIndex = 10369;
+	inline static constexpr unsigned int ClockParkCheckPointType_TypeDefinitionIndex = 10439;
 
 	enum class ClockParkCheckPointType : ::System::Int32
 	{

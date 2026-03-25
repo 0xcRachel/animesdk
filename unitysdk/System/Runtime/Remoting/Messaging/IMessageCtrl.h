@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IMessageCtrl_TypeDefinitionIndex = 1301;
+	inline static constexpr unsigned int IMessageCtrl_TypeDefinitionIndex = 1306;
 
 	class IMessageCtrl
 	{

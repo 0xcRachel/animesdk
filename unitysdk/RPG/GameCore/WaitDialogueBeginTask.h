@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitDialogueBegin; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA5C3A40)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA5C3B00)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA5C3BE0)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_TICK_OFFSET UNITYSDK_OFFSET(0xA5C3C80)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C39B0)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK__ONDIALOGUEBEGIN_OFFSET UNITYSDK_OFFSET(0xA5C3CE0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAB07610)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAB076D0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAB077B0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_TICK_OFFSET UNITYSDK_OFFSET(0xAB07850)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xAB07580)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK__ONDIALOGUEBEGIN_OFFSET UNITYSDK_OFFSET(0xAB078B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitDialogueBeginTask_TypeDefinitionIndex = 46473;
+	inline static constexpr unsigned int WaitDialogueBeginTask_TypeDefinitionIndex = 47551;
 
 	class WaitDialogueBeginTask : public ::Class_1_5F51D4049EA87B7B
 	{
 	public:
-		::RPG::GameCore::WaitDialogueBegin* _ConfigRef; // 0x18
-		::Class_3_BCCE950C2E8DF1F0* _BeginCallback; // 0x20
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x28
-		::RPG::GameCore::GameEntity* _TargetEntity; // 0x30
+		::Class_3_5775A4FEC79026BC* _BeginCallback; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
+		::RPG::GameCore::GameEntity* _TargetEntity; // 0x28
+		::RPG::GameCore::WaitDialogueBegin* _ConfigRef; // 0x30
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* Context, ::RPG::GameCore::WaitDialogueBegin* Config)
 		{

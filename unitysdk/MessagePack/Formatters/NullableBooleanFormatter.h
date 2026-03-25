@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15634B80)
-#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15634B20)
-#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15634C30)
-#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15634B10)
+#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4B5E0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4B580)
+#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D4B690)
+#define MESSAGEPACK_FORMATTERS_NULLABLEBOOLEANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4B570)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableBooleanFormatter_TypeDefinitionIndex = 9791;
+	inline static constexpr unsigned int NullableBooleanFormatter_TypeDefinitionIndex = 9323;
 
 	class NullableBooleanFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableBooleanFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableBooleanFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableBooleanFormatter_TypeDefinitionIndex)->GetStaticField(0x23F70);
+			return (::MessagePack::Formatters::NullableBooleanFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableBooleanFormatter_TypeDefinitionIndex)->GetStaticField(0x19670);
 		}
 
 		::System::Void _ctor()

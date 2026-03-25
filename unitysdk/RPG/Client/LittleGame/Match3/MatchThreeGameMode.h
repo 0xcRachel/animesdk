@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int MatchThreeGameMode_TypeDefinitionIndex = 32185;
+	inline static constexpr unsigned int MatchThreeGameMode_TypeDefinitionIndex = 33095;
 
 	enum class MatchThreeGameMode : ::System::Int32
 	{

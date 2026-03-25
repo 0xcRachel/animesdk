@@ -3,13 +3,13 @@
 #include "unitysdk/Simplygon/spObject.h"
 #include "unitysdk/System/Runtime/InteropServices/HandleRef.h"
 
-#define SIMPLYGON_SPTABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B6C510)
-#define SIMPLYGON_SPTABLE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x17B6CA90)
-#define SIMPLYGON_SPTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B6C280)
+#define SIMPLYGON_SPTABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18384940)
+#define SIMPLYGON_SPTABLE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x18384EC0)
+#define SIMPLYGON_SPTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x183846B0)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int spTable_TypeDefinitionIndex = 28676;
+	inline static constexpr unsigned int spTable_TypeDefinitionIndex = 29551;
 
 	class spTable : public ::Simplygon::spObject
 	{

@@ -5,12 +5,12 @@
 class Class_1_3745C69C00F04B7D_1;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESRECOMMENDTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D4BB20)
-#define RPG_GAMECORE_PLANETFESRECOMMENDTEAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D4BD70)
+#define RPG_GAMECORE_PLANETFESRECOMMENDTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174D3970)
+#define RPG_GAMECORE_PLANETFESRECOMMENDTEAMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174D3BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesRecommendTeamRow_TypeDefinitionIndex = 11124;
+	inline static constexpr unsigned int PlanetFesRecommendTeamRow_TypeDefinitionIndex = 11192;
 
 	class PlanetFesRecommendTeamRow : public ::System::Object
 	{

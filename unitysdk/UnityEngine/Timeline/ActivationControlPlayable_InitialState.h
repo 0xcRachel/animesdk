@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ActivationControlPlayable_InitialState_TypeDefinitionIndex = 29010;
+	inline static constexpr unsigned int ActivationControlPlayable_InitialState_TypeDefinitionIndex = 29885;
 
 	enum class ActivationControlPlayable_InitialState : ::System::Int32
 	{

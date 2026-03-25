@@ -7,25 +7,25 @@
 
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x9F875D0)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x9F875F0)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x9F875E0)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x9F87600)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9F87610)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0xA4A7680)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0xA4A76A0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0xA4A7690)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0xA4A76B0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A76C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_TypeDefinitionIndex = 57471;
+	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_TypeDefinitionIndex = 59071;
 
 	class SkillDetailInfoDialogInitParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ICharacterSkillRowData* _SkillRowData_k__BackingField; // 0x10
 		::RPG::GameCore::AvatarSpecialUltraType _UltraSkillType_k__BackingField; // 0x18
-		::System::Boolean ShowLevel; // 0x1C
-		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x20
-		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x30
-		::System::Nullable_1<::System::Int32> CurSP; // 0x40
+		::System::Nullable_1<::System::Int32> CurSP; // 0x1C
+		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x24
+		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x34
+		::System::Boolean ShowLevel; // 0x44
 
 		::System::Void _ctor()
 		{

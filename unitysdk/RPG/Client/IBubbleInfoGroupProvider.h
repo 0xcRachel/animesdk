@@ -5,7 +5,7 @@ namespace RPG::Client { class IBubbleInfoProvider; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBubbleInfoGroupProvider_TypeDefinitionIndex = 49961;
+	inline static constexpr unsigned int IBubbleInfoGroupProvider_TypeDefinitionIndex = 51093;
 
 	class IBubbleInfoGroupProvider
 	{

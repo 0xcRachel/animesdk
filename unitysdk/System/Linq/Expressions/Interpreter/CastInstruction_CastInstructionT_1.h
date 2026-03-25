@@ -6,7 +6,7 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int CastInstruction_CastInstructionT_1_TypeDefinitionIndex = 3628;
+	inline static constexpr unsigned int CastInstruction_CastInstructionT_1_TypeDefinitionIndex = 3637;
 
 	template <typename T>
 	class CastInstruction_CastInstructionT_1 : public ::System::Linq::Expressions::Interpreter::CastInstruction

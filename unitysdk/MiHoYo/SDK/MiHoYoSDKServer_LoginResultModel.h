@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER_LOGINRESULTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x81DC980)
+#define MIHOYO_SDK_MIHOYOSDKSERVER_LOGINRESULTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x852B790)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer_LoginResultModel_TypeDefinitionIndex = 36145;
+	inline static constexpr unsigned int MiHoYoSDKServer_LoginResultModel_TypeDefinitionIndex = 37081;
 
 	class MiHoYoSDKServer_LoginResultModel : public ::System::Object
 	{

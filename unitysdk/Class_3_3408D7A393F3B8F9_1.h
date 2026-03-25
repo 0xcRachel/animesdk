@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchEnemyInAlertRange; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_3408D7A393F3B8F9_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10E6E0D0)
-#define CLASS_3_3408D7A393F3B8F9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10E6E050)
+#define CLASS_3_3408D7A393F3B8F9_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x89E8A80)
+#define CLASS_3_3408D7A393F3B8F9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x89E8A00)
 
-inline static constexpr unsigned int Class_3_3408D7A393F3B8F9_1_TypeDefinitionIndex = 44132;
+inline static constexpr unsigned int Class_3_3408D7A393F3B8F9_1_TypeDefinitionIndex = 45192;
 
 class Class_3_3408D7A393F3B8F9_1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchEnemyInAlertRange*>
 {

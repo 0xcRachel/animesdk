@@ -5,29 +5,29 @@
 namespace MiHoYoSDKJSON { class JSONObject; }
 namespace System::Threading { class Thread; }
 
-#define CLASS_1_3911DF0B553838C1_METHOD_1_4AADAF19CDCB660E_OFFSET UNITYSDK_OFFSET(0x10E2C7B0)
-#define CLASS_1_3911DF0B553838C1_METHOD_1_93DA6293BFCF7821_OFFSET UNITYSDK_OFFSET(0x10E2CF30)
-#define CLASS_1_3911DF0B553838C1_METHOD_1_94063F96A3043A1A_OFFSET UNITYSDK_OFFSET(0x10E2CFA0)
-#define CLASS_1_3911DF0B553838C1_METHOD_1_D308836DB54415C3_OFFSET UNITYSDK_OFFSET(0x10E2C8C0)
-#define CLASS_1_3911DF0B553838C1_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x10E2C740)
-#define CLASS_1_3911DF0B553838C1__CTOR_OFFSET UNITYSDK_OFFSET(0x10E2CFE0)
+#define CLASS_1_3911DF0B553838C1_METHOD_1_4AADAF19CDCB660E_OFFSET UNITYSDK_OFFSET(0x8D51940)
+#define CLASS_1_3911DF0B553838C1_METHOD_1_93DA6293BFCF7821_OFFSET UNITYSDK_OFFSET(0x8D520C0)
+#define CLASS_1_3911DF0B553838C1_METHOD_1_94063F96A3043A1A_OFFSET UNITYSDK_OFFSET(0x8D52130)
+#define CLASS_1_3911DF0B553838C1_METHOD_1_D308836DB54415C3_OFFSET UNITYSDK_OFFSET(0x8D51A50)
+#define CLASS_1_3911DF0B553838C1_METHOD_1_F730968E2645E14B_OFFSET UNITYSDK_OFFSET(0x8D518D0)
+#define CLASS_1_3911DF0B553838C1__CTOR_OFFSET UNITYSDK_OFFSET(0x8D52170)
 
-inline static constexpr unsigned int Class_1_3911DF0B553838C1_TypeDefinitionIndex = 55217;
+inline static constexpr unsigned int Class_1_3911DF0B553838C1_TypeDefinitionIndex = 56782;
 
 class Class_1_3911DF0B553838C1 : public ::System::Object
 {
 public:
 	static ::System::Threading::Thread** StaticGet_Field_1_1()
 	{
-		return (::System::Threading::Thread**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3911DF0B553838C1_TypeDefinitionIndex)->GetStaticField(0x2BEF0);
-	}
-	static ::System::Boolean* StaticGet_Field_1_0()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3911DF0B553838C1_TypeDefinitionIndex)->GetStaticField(0xA090);
+		return (::System::Threading::Thread**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3911DF0B553838C1_TypeDefinitionIndex)->GetStaticField(0x45660);
 	}
 	static ::System::Int32* StaticGet_Field_1_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3911DF0B553838C1_TypeDefinitionIndex)->GetStaticField(0xA094);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3911DF0B553838C1_TypeDefinitionIndex)->GetStaticField(0x11E80);
+	}
+	static ::System::Boolean* StaticGet_Field_1_0()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_3911DF0B553838C1_TypeDefinitionIndex)->GetStaticField(0x11E84);
 	}
 
 	::System::Void _ctor()

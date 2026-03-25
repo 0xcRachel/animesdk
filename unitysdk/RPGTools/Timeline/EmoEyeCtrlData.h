@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_EMOEYECTRLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA615080)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5A6F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeCtrlData_TypeDefinitionIndex = 37981;
+	inline static constexpr unsigned int EmoEyeCtrlData_TypeDefinitionIndex = 38947;
 
 	class EmoEyeCtrlData : public ::System::Object
 	{

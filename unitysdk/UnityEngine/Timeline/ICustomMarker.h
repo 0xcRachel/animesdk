@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ICustomMarker_TypeDefinitionIndex = 28971;
+	inline static constexpr unsigned int ICustomMarker_TypeDefinitionIndex = 29846;
 
 	class ICustomMarker
 	{

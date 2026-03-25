@@ -7,12 +7,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FARMELEMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A8E970)
-#define RPG_GAMECORE_FARMELEMENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8F2D0)
+#define RPG_GAMECORE_FARMELEMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D24C0)
+#define RPG_GAMECORE_FARMELEMENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171D2E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FarmElementConfigRow_TypeDefinitionIndex = 11394;
+	inline static constexpr unsigned int FarmElementConfigRow_TypeDefinitionIndex = 11462;
 
 	class FarmElementConfigRow : public ::System::Object
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType; // 0x10
 		::Il2CppArray<::System::UInt32>* DropList; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::System::UInt32 StageID; // 0x28
-		::System::Boolean AutoObtainDamageType; // 0x2C
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 MappingInfoID; // 0x34
-		::System::UInt32 StaminaCost; // 0x38
-		::RPG::Client::TextID BuffDesc; // 0x40
-		::System::UInt32 MaxChallengeCnt; // 0x50
-		::System::UInt32 WorldLevel; // 0x54
+		::RPG::Client::TextID BuffDesc; // 0x28
+		::System::UInt32 MappingInfoID; // 0x38
+		::System::UInt32 StageID; // 0x3C
+		::System::UInt32 WorldLevel; // 0x40
+		::System::UInt32 MaxChallengeCnt; // 0x44
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 StaminaCost; // 0x4C
+		::System::Boolean AutoObtainDamageType; // 0x50
 
 		::System::Void _ctor()
 		{

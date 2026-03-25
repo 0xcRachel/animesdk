@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UpgradeAvatarSubRelicType_TypeDefinitionIndex = 14029;
+	inline static constexpr unsigned int UpgradeAvatarSubRelicType_TypeDefinitionIndex = 14145;
 
 	enum class UpgradeAvatarSubRelicType : ::System::Int32
 	{

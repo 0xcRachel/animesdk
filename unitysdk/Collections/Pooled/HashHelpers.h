@@ -5,26 +5,26 @@
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define COLLECTIONS_POOLED_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x15DF8690)
-#define COLLECTIONS_POOLED_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x15DF8560)
-#define COLLECTIONS_POOLED_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x15DF8420)
-#define COLLECTIONS_POOLED_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x15DF84E0)
-#define COLLECTIONS_POOLED_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DF86B0)
+#define COLLECTIONS_POOLED_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x164BEC80)
+#define COLLECTIONS_POOLED_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x164BEB50)
+#define COLLECTIONS_POOLED_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x164BEA10)
+#define COLLECTIONS_POOLED_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x164BEAD0)
+#define COLLECTIONS_POOLED_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x164BECA0)
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 5204;
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 5304;
 
 	class HashHelpers : public ::System::Object
 	{
 	public:
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_s_serializationInfoTable()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x400);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x3B0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_Primes()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x408);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HashHelpers_TypeDefinitionIndex)->GetStaticField(0x3B8);
 		}
 		// static const ::System::Int32 HashCollisionThreshold = 0x64; // 0x0
 		// static const ::System::Int32 MaxPrimeArrayLength = 0x7FEFFFFD; // 0x0

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UseAbilityOption_TypeDefinitionIndex = 42432;
+	inline static constexpr unsigned int UseAbilityOption_TypeDefinitionIndex = 43482;
 
 	enum class UseAbilityOption : ::System::UInt32
 	{

@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateAgeAppealOptionDialog; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157DF030)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x157DF430)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15ECE1D0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEAGEAPPEALOPTIONDIALOG___C__DISPLAYCLASS33_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x15ECE5D0)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateAgeAppealOptionDialog___c__DisplayClass33_0_TypeDefinitionIndex = 7515;
+	inline static constexpr unsigned int ConsoleAgeGateAgeAppealOptionDialog___c__DisplayClass33_0_TypeDefinitionIndex = 7640;
 
 	class ConsoleAgeGateAgeAppealOptionDialog___c__DisplayClass33_0 : public ::System::Object
 	{

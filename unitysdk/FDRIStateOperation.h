@@ -5,9 +5,9 @@
 
 class FiveDimRenderingItem;
 
-#define FDRISTATEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0xF576450)
+#define FDRISTATEOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1050AC10)
 
-inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 37072;
+inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 38034;
 
 class FDRIStateOperation : public ::System::Object
 {

@@ -8,7 +8,7 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int DictionaryWrap_EnumeratorGetCurrent_2_TypeDefinitionIndex = 39485;
+	inline static constexpr unsigned int DictionaryWrap_EnumeratorGetCurrent_2_TypeDefinitionIndex = 40501;
 
 	template <typename TKey, typename TValue>
 	class DictionaryWrap_EnumeratorGetCurrent_2 : public ::XLua::OverloadMethodWrap

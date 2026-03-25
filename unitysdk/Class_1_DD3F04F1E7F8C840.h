@@ -8,26 +8,26 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_1B0D3B386C81DA39_OFFSET UNITYSDK_OFFSET(0x110E2ED0)
-#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_65D75B9CCC02A8BC_OFFSET UNITYSDK_OFFSET(0x110E2E70)
-#define CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET UNITYSDK_OFFSET(0x110E3600)
+#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_1B0D3B386C81DA39_OFFSET UNITYSDK_OFFSET(0x10CEB1E0)
+#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x10CEB030)
+#define CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CEBA70)
 
-inline static constexpr unsigned int Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex = 58695;
+inline static constexpr unsigned int Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex = 60441;
 
 class Class_1_DD3F04F1E7F8C840 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_29()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xF430);
-	}
 	static ::System::Boolean* StaticGet_Field_1_28()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xF431);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x10F70);
+	}
+	static ::System::Boolean* StaticGet_Field_1_29()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x10F71);
 	}
 	static ::System::Int32* StaticGet_Field_1_30()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xF434);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x10F74);
 	}
 	// static const ::System::String* Field_1_0; // 0x0
 	// static const ::System::String* Field_1_1; // 0x0
@@ -65,9 +65,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET))();
 	}
 
-	static ::UnityEngine::ComputeShader* Method_1_65D75B9CCC02A8BC(::System::String* a1)
+	static ::UnityEngine::ComputeShader* Method_1_5983C37099894977(::System::String* a1)
 	{
-		return ((::UnityEngine::ComputeShader*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DD3F04F1E7F8C840_METHOD_1_65D75B9CCC02A8BC_OFFSET))(a1);
+		return ((::UnityEngine::ComputeShader*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_DD3F04F1E7F8C840_METHOD_1_5983C37099894977_OFFSET))(a1);
 	}
 
 	static ::UnityEngine::Texture2D* Method_1_1B0D3B386C81DA39(::UnityEngine::Mesh* a1, ::RPG::Client::CrowdAnimator::SkinnedMeshData* a2)

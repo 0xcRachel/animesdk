@@ -5,12 +5,12 @@
 namespace RPG::Client { class MessageContentRelicRankBlock; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x96F8F90)
-#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK___C__DISPLAYCLASS3_0__REQUESTRELICRANKDATA_B__0_OFFSET UNITYSDK_OFFSET(0x96F9090)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B9EF40)
+#define RPG_CLIENT_MESSAGECONTENTRELICRANKBLOCK___C__DISPLAYCLASS3_0__REQUESTRELICRANKDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B9F040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentRelicRankBlock___c__DisplayClass3_0_TypeDefinitionIndex = 50207;
+	inline static constexpr unsigned int MessageContentRelicRankBlock___c__DisplayClass3_0_TypeDefinitionIndex = 51341;
 
 	class MessageContentRelicRankBlock___c__DisplayClass3_0 : public ::System::Object
 	{

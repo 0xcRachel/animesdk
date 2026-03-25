@@ -12,52 +12,52 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_4F5BD18B1E642C11___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F85820)
-#define CLASS_2_4F5BD18B1E642C11___C__CREATEBALL_B__9_0_OFFSET UNITYSDK_OFFSET(0x8F85900)
-#define CLASS_2_4F5BD18B1E642C11___C__CREATEDROPITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0x8F85930)
-#define CLASS_2_4F5BD18B1E642C11___C__CREATEENEMYBULLET_B__8_0_OFFSET UNITYSDK_OFFSET(0x8F858D0)
-#define CLASS_2_4F5BD18B1E642C11___C__CREATEENEMY_B__15_0_OFFSET UNITYSDK_OFFSET(0x8F85960)
-#define CLASS_2_4F5BD18B1E642C11___C__CREATERACKETBULLET_B__7_0_OFFSET UNITYSDK_OFFSET(0x8F858A0)
-#define CLASS_2_4F5BD18B1E642C11___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0x8F85870)
-#define CLASS_2_4F5BD18B1E642C11___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F85860)
-#define CLASS_2_4F5BD18B1E642C11___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0x8F859A0)
+#define CLASS_2_4F5BD18B1E642C11___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1183EE20)
+#define CLASS_2_4F5BD18B1E642C11___C__CREATEBALL_B__9_0_OFFSET UNITYSDK_OFFSET(0x1183EF00)
+#define CLASS_2_4F5BD18B1E642C11___C__CREATEDROPITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0x1183EF30)
+#define CLASS_2_4F5BD18B1E642C11___C__CREATEENEMYBULLET_B__8_0_OFFSET UNITYSDK_OFFSET(0x1183EED0)
+#define CLASS_2_4F5BD18B1E642C11___C__CREATEENEMY_B__15_0_OFFSET UNITYSDK_OFFSET(0x1183EF60)
+#define CLASS_2_4F5BD18B1E642C11___C__CREATERACKETBULLET_B__7_0_OFFSET UNITYSDK_OFFSET(0x1183EEA0)
+#define CLASS_2_4F5BD18B1E642C11___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1183EE70)
+#define CLASS_2_4F5BD18B1E642C11___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1183EE60)
+#define CLASS_2_4F5BD18B1E642C11___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0x1183EFA0)
 
-inline static constexpr unsigned int Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex = 60437;
+inline static constexpr unsigned int Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex = 62415;
 
 class Class_2_4F5BD18B1E642C11___c : public ::System::Object
 {
 public:
 	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__6_0()
 	{
-		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E310);
-	}
-	static ::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>** StaticGet___9__21_0()
-	{
-		return (::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E318);
-	}
-	static ::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>** StaticGet___9__15_0()
-	{
-		return (::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E320);
-	}
-	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__9_0()
-	{
-		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E328);
-	}
-	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__10_0()
-	{
-		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E330);
-	}
-	static ::Class_2_4F5BD18B1E642C11___c** StaticGet___9()
-	{
-		return (::Class_2_4F5BD18B1E642C11___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E338);
+		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462A0);
 	}
 	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__8_0()
 	{
-		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E340);
+		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462A8);
+	}
+	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__9_0()
+	{
+		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462B0);
 	}
 	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__7_0()
 	{
-		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x3E348);
+		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462B8);
+	}
+	static ::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>** StaticGet___9__15_0()
+	{
+		return (::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462C0);
+	}
+	static ::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>** StaticGet___9__21_0()
+	{
+		return (::System::Action_4<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462C8);
+	}
+	static ::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>** StaticGet___9__10_0()
+	{
+		return (::System::Action_3<::Class_2_4F5BD18B1E642C11*, ::Class_2_921296CE04546AF9*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462D0);
+	}
+	static ::Class_2_4F5BD18B1E642C11___c** StaticGet___9()
+	{
+		return (::Class_2_4F5BD18B1E642C11___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4F5BD18B1E642C11___c_TypeDefinitionIndex)->GetStaticField(0x462D8);
 	}
 
 	static ::System::Void _cctor()

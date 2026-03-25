@@ -10,7 +10,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_62;
+class Class_0_16E4307DCC419505_90;
 class Class_1_1257637E4CB15DE5_1;
 class Class_1_FF977B9ED3EAAF49;
 namespace Entitas { class IEntity; }
@@ -31,7 +31,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 60273;
+	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 62245;
 
 	template <typename TEntity>
 	class SimpleEffectService_1 : public ::System::Object

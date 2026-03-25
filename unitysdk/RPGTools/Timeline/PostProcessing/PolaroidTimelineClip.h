@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class PolaroidTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA654FA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB9B620)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineClip_TypeDefinitionIndex = 38418;
+	inline static constexpr unsigned int PolaroidTimelineClip_TypeDefinitionIndex = 39398;
 
 	class PolaroidTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::PolaroidTimelineBehaviour*>
 	{

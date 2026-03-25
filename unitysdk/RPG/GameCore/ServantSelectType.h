@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantSelectType_TypeDefinitionIndex = 16303;
+	inline static constexpr unsigned int ServantSelectType_TypeDefinitionIndex = 16677;
 
 	enum class ServantSelectType : ::System::Int32
 	{

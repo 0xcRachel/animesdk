@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchSnapshotEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_8D72F7EC7626EEF7_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x111B9770)
-#define CLASS_3_8D72F7EC7626EEF7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x111B96F0)
+#define CLASS_3_8D72F7EC7626EEF7_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8C32110)
+#define CLASS_3_8D72F7EC7626EEF7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8C32090)
 
-inline static constexpr unsigned int Class_3_8D72F7EC7626EEF7_1_TypeDefinitionIndex = 46713;
+inline static constexpr unsigned int Class_3_8D72F7EC7626EEF7_1_TypeDefinitionIndex = 47792;
 
 class Class_3_8D72F7EC7626EEF7_1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchSnapshotEntityList*>
 {

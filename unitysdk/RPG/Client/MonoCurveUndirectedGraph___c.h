@@ -5,24 +5,24 @@
 namespace RPG::Client { class CurveUndirectedEdgeSetting; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x978FA90)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x978FAD0)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__GENERATECURVEEDGES_B__7_0_OFFSET UNITYSDK_OFFSET(0x978FAE0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C35980)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9C359C0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__GENERATECURVEEDGES_B__7_0_OFFSET UNITYSDK_OFFSET(0x9C359D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c_TypeDefinitionIndex = 54434;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c_TypeDefinitionIndex = 55994;
 
 	class MonoCurveUndirectedGraph___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MonoCurveUndirectedGraph___c** StaticGet___9()
-		{
-			return (::RPG::Client::MonoCurveUndirectedGraph___c**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveUndirectedGraph___c_TypeDefinitionIndex)->GetStaticField(0x358E0);
-		}
 		static ::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveUndirectedGraph___c_TypeDefinitionIndex)->GetStaticField(0x358E8);
+			return (::System::Func_2<::RPG::Client::CurveUndirectedEdgeSetting*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveUndirectedGraph___c_TypeDefinitionIndex)->GetStaticField(0x2D680);
+		}
+		static ::RPG::Client::MonoCurveUndirectedGraph___c** StaticGet___9()
+		{
+			return (::RPG::Client::MonoCurveUndirectedGraph___c**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveUndirectedGraph___c_TypeDefinitionIndex)->GetStaticField(0x2D688);
 		}
 
 		static ::System::Void _cctor()

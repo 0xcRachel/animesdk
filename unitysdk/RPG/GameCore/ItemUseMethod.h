@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseMethod_TypeDefinitionIndex = 12586;
+	inline static constexpr unsigned int ItemUseMethod_TypeDefinitionIndex = 12656;
 
 	enum class ItemUseMethod : ::System::Int32
 	{

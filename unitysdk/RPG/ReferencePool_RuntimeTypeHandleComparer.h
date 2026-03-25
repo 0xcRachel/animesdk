@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x15DFC000)
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15DFC010)
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GET_GET_OFFSET UNITYSDK_OFFSET(0x15DFBDC0)
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x15DFC020)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x164C2C20)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x164C2C30)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GET_GET_OFFSET UNITYSDK_OFFSET(0x164C29E0)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x164C2C40)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex = 6291;
+	inline static constexpr unsigned int ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex = 6391;
 
 	class ReferencePool_RuntimeTypeHandleComparer : public ::System::Object
 	{
 	public:
 		static ::RPG::ReferencePool_RuntimeTypeHandleComparer** StaticGet__instance()
 		{
-			return (::RPG::ReferencePool_RuntimeTypeHandleComparer**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex)->GetStaticField(0x500);
+			return (::RPG::ReferencePool_RuntimeTypeHandleComparer**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex)->GetStaticField(0x4B0);
 		}
 
 		::System::Void _ctor()

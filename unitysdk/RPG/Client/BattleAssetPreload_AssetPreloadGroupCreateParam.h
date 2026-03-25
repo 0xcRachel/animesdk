@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD_ASSETPRELOADGROUPCREATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x8D85E70)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_ASSETPRELOADGROUPCREATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9190B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_AssetPreloadGroupCreateParam_TypeDefinitionIndex = 47202;
+	inline static constexpr unsigned int BattleAssetPreload_AssetPreloadGroupCreateParam_TypeDefinitionIndex = 48284;
 
 	class BattleAssetPreload_AssetPreloadGroupCreateParam : public ::System::Object
 	{

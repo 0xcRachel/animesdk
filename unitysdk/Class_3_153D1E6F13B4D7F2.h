@@ -6,11 +6,11 @@ namespace RPG::GameCore { class RogueTournCollectionLoadedPostProcess; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_153D1E6F13B4D7F2_METHOD_3_0A5213CB8CB2A5BD_OFFSET UNITYSDK_OFFSET(0x86F4070)
-#define CLASS_3_153D1E6F13B4D7F2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x86F3FE0)
-#define CLASS_3_153D1E6F13B4D7F2__CTOR_OFFSET UNITYSDK_OFFSET(0x86F3FB0)
+#define CLASS_3_153D1E6F13B4D7F2_METHOD_3_0A5213CB8CB2A5BD_OFFSET UNITYSDK_OFFSET(0x118776F0)
+#define CLASS_3_153D1E6F13B4D7F2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11877660)
+#define CLASS_3_153D1E6F13B4D7F2__CTOR_OFFSET UNITYSDK_OFFSET(0x11877630)
 
-inline static constexpr unsigned int Class_3_153D1E6F13B4D7F2_TypeDefinitionIndex = 46108;
+inline static constexpr unsigned int Class_3_153D1E6F13B4D7F2_TypeDefinitionIndex = 47176;
 
 class Class_3_153D1E6F13B4D7F2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueTournCollectionLoadedPostProcess*>
 {

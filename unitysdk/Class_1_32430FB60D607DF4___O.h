@@ -4,13 +4,13 @@
 
 namespace System { class Action; }
 
-inline static constexpr unsigned int Class_1_32430FB60D607DF4___O_TypeDefinitionIndex = 48352;
+inline static constexpr unsigned int Class_1_32430FB60D607DF4___O_TypeDefinitionIndex = 49445;
 
 class Class_1_32430FB60D607DF4___O : public ::System::Object
 {
 public:
 	static ::System::Action** StaticGet__0___DeleteDelayUploadReplayData()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_32430FB60D607DF4___O_TypeDefinitionIndex)->GetStaticField(0x42DB0);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_32430FB60D607DF4___O_TypeDefinitionIndex)->GetStaticField(0x3F050);
 	}
 };

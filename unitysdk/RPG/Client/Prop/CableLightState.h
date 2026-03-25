@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CableLightState_TypeDefinitionIndex = 61870;
+	inline static constexpr unsigned int CableLightState_TypeDefinitionIndex = 64057;
 
 	enum class CableLightState : ::System::Int32
 	{

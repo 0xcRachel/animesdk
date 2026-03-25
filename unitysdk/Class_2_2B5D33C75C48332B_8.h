@@ -4,23 +4,23 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_8_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xFDDE340)
-#define CLASS_2_2B5D33C75C48332B_8__CTOR_OFFSET UNITYSDK_OFFSET(0xFDDE350)
+#define CLASS_2_2B5D33C75C48332B_8_METHOD_2_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x108E05B0)
+#define CLASS_2_2B5D33C75C48332B_8__CTOR_OFFSET UNITYSDK_OFFSET(0x108E05A0)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_8_TypeDefinitionIndex = 39364;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_8_TypeDefinitionIndex = 40204;
 
 class Class_2_2B5D33C75C48332B_8 : public ::System::Attribute
 {
 public:
-	::System::Type* _Type_k__BackingField; // 0x10
+	::System::Type* Field_2_0; // 0x10
 
 	::System::Void _ctor(::System::Type* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_8__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Type* get_Type()
+	::System::Type* Method_2_A99467CE9479C990()
 	{
-		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_8_GET_TYPE_OFFSET))(this);
+		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_8_METHOD_2_A99467CE9479C990_OFFSET))(this);
 	}
 };

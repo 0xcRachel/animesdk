@@ -5,49 +5,49 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x90D4DC0)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x90D4DF0)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_0_OFFSET UNITYSDK_OFFSET(0x90D4E00)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_1_OFFSET UNITYSDK_OFFSET(0x90D4E10)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_2_OFFSET UNITYSDK_OFFSET(0x90D4E20)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_3_OFFSET UNITYSDK_OFFSET(0x90D4E30)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_4_OFFSET UNITYSDK_OFFSET(0x90D4E40)
-#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_5_OFFSET UNITYSDK_OFFSET(0x90D4E50)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9581CE0)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9581D10)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_0_OFFSET UNITYSDK_OFFSET(0x9581D20)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_1_OFFSET UNITYSDK_OFFSET(0x9581D30)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_2_OFFSET UNITYSDK_OFFSET(0x9581D40)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_3_OFFSET UNITYSDK_OFFSET(0x9581D50)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_4_OFFSET UNITYSDK_OFFSET(0x9581D60)
+#define RPG_CLIENT_EFFECT_PATHDEFORMBEHAVIOR___C___GETRENDERBOUND_B__9_5_OFFSET UNITYSDK_OFFSET(0x9581D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PathDeformBehavior___c_TypeDefinitionIndex = 56184;
+	inline static constexpr unsigned int Effect_PathDeformBehavior___c_TypeDefinitionIndex = 57755;
 
 	class Effect_PathDeformBehavior___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_1()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x457E0);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_2()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x457E8);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_3()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x457F0);
-		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x457F8);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47CE0);
 		}
 		static ::RPG::Client::Effect_PathDeformBehavior___c** StaticGet___9()
 		{
-			return (::RPG::Client::Effect_PathDeformBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x45800);
+			return (::RPG::Client::Effect_PathDeformBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47CE8);
 		}
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_5()
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x45808);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47CF0);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_2()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47CF8);
 		}
 		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_4()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x45810);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47D00);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_3()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47D08);
+		}
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__9_5()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Effect_PathDeformBehavior___c_TypeDefinitionIndex)->GetStaticField(0x47D10);
 		}
 
 		static ::System::Void _cctor()

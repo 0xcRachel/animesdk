@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYBENEFITV2ACTIVITYPANELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B01300)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ACTIVITYPANELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B01340)
-#define RPG_CLIENT_ACTIVITYBENEFITV2ACTIVITYPANELDATA___C___ONINIT_B__3_1_OFFSET UNITYSDK_OFFSET(0x8B01350)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ACTIVITYPANELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F018B0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ACTIVITYPANELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F018F0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2ACTIVITYPANELDATA___C___ONINIT_B__3_1_OFFSET UNITYSDK_OFFSET(0x8F01900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex = 48822;
+	inline static constexpr unsigned int ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex = 49956;
 
 	class ActivityBenefitV2ActivityPanelData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityBenefitV2ActivityPanelData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityBenefitV2ActivityPanelData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x16110);
-		}
 		static ::System::Action** StaticGet___9__3_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x16118);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x18EE0);
+		}
+		static ::RPG::Client::ActivityBenefitV2ActivityPanelData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityBenefitV2ActivityPanelData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityBenefitV2ActivityPanelData___c_TypeDefinitionIndex)->GetStaticField(0x18EE8);
 		}
 
 		static ::System::Void _cctor()

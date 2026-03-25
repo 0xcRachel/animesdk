@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Sessions { class SessionSearchGetSearchResultCou
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x18440)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x183F0)
 #define EPIC_ONLINESERVICES_SESSIONS_SESSIONSEARCHGETSEARCHRESULTCOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionSearchGetSearchResultCountOptionsInternal_TypeDefinitionIndex = 34608;
+	inline static constexpr unsigned int SessionSearchGetSearchResultCountOptionsInternal_TypeDefinitionIndex = 35542;
 
 	struct alignas(4) SessionSearchGetSearchResultCountOptionsInternal
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class PlayerChallengePeakRecordGroupData; }
 
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B19630)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA___C__DISPLAYCLASS2_0__GETCURRECORDGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B19670)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9FECEE0)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA___C__DISPLAYCLASS2_0__GETCURRECORDGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9FECF20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerChallengePeakRecordData___c__DisplayClass2_0_TypeDefinitionIndex = 51047;
+	inline static constexpr unsigned int PlayerChallengePeakRecordData___c__DisplayClass2_0_TypeDefinitionIndex = 52182;
 
 	class PlayerChallengePeakRecordData___c__DisplayClass2_0 : public ::System::Object
 	{

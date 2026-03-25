@@ -5,12 +5,12 @@
 
 namespace RPG::GameCore { class PhotoGraphRoamingConfig; }
 
-#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A80BE0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS9_0__GETROAMINGCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x9A81B50)
+#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F547D0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS9_0__GETROAMINGCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x9F55710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass9_0_TypeDefinitionIndex = 52916;
+	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass9_0_TypeDefinitionIndex = 54054;
 
 	class PhotoGraphModule___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -2,12 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x156ABBE0)
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x156ABBD0)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA0090)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int MaybeNullWhenAttribute_TypeDefinitionIndex = 9883;
+	inline static constexpr unsigned int MaybeNullWhenAttribute_TypeDefinitionIndex = 9380;
 
 	class MaybeNullWhenAttribute : public ::System::Attribute
 	{
@@ -17,11 +16,6 @@ namespace System::Diagnostics::CodeAnalysis
 		::System::Void _ctor(::System::Boolean returnValue)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE__CTOR_OFFSET))(this, returnValue);
-		}
-
-		::System::Boolean get_ReturnValue()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_CODEANALYSIS_MAYBENULLWHENATTRIBUTE_GET_RETURNVALUE_OFFSET))(this);
 		}
 	};
 }

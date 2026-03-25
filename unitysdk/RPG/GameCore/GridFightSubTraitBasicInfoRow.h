@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSUBTRAITBASICINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4CB10)
-#define RPG_GAMECORE_GRIDFIGHTSUBTRAITBASICINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4CEF0)
+#define RPG_GAMECORE_GRIDFIGHTSUBTRAITBASICINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729B210)
+#define RPG_GAMECORE_GRIDFIGHTSUBTRAITBASICINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729B5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSubTraitBasicInfoRow_TypeDefinitionIndex = 12451;
+	inline static constexpr unsigned int GridFightSubTraitBasicInfoRow_TypeDefinitionIndex = 12521;
 
 	class GridFightSubTraitBasicInfoRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TraitEffectList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* BaseDescParamList; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* BaseDescParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* TraitEffectList; // 0x18
 		::System::String* TraitSearchKey; // 0x20
-		::RPG::Client::TextID SubTraitName; // 0x28
+		::RPG::Client::TextID TraitBaseDesc; // 0x28
 		::System::UInt32 FatherTraitID; // 0x38
 		::System::UInt32 ID; // 0x3C
-		::RPG::Client::TextID TraitBaseSimpleDesc; // 0x40
-		::RPG::Client::TextID TraitBaseDesc; // 0x50
+		::RPG::Client::TextID SubTraitName; // 0x40
+		::RPG::Client::TextID TraitBaseSimpleDesc; // 0x50
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AwaitDeathProcessState_TypeDefinitionIndex = 44012;
+	inline static constexpr unsigned int AwaitDeathProcessState_TypeDefinitionIndex = 45072;
 
 	enum class AwaitDeathProcessState : ::System::Int32
 	{

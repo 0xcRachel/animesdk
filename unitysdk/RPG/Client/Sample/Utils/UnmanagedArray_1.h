@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Sample::Utils
 {
-	inline static constexpr unsigned int UnmanagedArray_1_TypeDefinitionIndex = 58966;
+	inline static constexpr unsigned int UnmanagedArray_1_TypeDefinitionIndex = 60714;
 
 	template <typename T>
 	struct UnmanagedArray_1

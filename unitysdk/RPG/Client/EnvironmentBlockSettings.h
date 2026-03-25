@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS_METHOD_3_11F007EB99F2A22E_OFFSET UNITYSDK_OFFSET(0x916B300)
-#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x916B370)
+#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS_METHOD_3_BBD36158AE50EC8B_OFFSET UNITYSDK_OFFSET(0x9618670)
+#define RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x96186E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentBlockSettings_TypeDefinitionIndex = 55496;
+	inline static constexpr unsigned int EnvironmentBlockSettings_TypeDefinitionIndex = 57061;
 
 	class EnvironmentBlockSettings : public ::UnityEngine::ScriptableObject
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::String* Method_3_11F007EB99F2A22E(::System::String* a1)
+		static ::System::String* Method_3_BBD36158AE50EC8B(::System::String* a1)
 		{
-			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS_METHOD_3_11F007EB99F2A22E_OFFSET))(a1);
+			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTBLOCKSETTINGS_METHOD_3_BBD36158AE50EC8B_OFFSET))(a1);
 		}
 	};
 }

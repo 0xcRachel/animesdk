@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_359214CFB84D4DF3;
+class Class_1_280047DF9F661B14;
 class Class_1_8C3AC9786B6764EF;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA23E9F0)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0__GETPREDOWNLOADALLSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xA2417B0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA77AE40)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS17_0__GETPREDOWNLOADALLSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xA77AE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass17_0_TypeDefinitionIndex = 48594;
+	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass17_0_TypeDefinitionIndex = 49688;
 
 	class VersionUpdateMgr___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::Class_1_8C3AC9786B6764EF* queue; // 0x10
-		::Class_1_359214CFB84D4DF3* board; // 0x18
-		::System::Action_2<::System::Int64, ::System::Int64>* callback; // 0x20
+		::System::Action_2<::System::Int64, ::System::Int64>* callback; // 0x10
+		::Class_1_280047DF9F661B14* board; // 0x18
+		::Class_1_8C3AC9786B6764EF* queue; // 0x20
 
 		::System::Void _ctor()
 		{

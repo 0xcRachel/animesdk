@@ -6,12 +6,12 @@
 namespace HoudiniEngineUnity { class JSONNode; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_JSONOBJECT___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8167BC0)
-#define HOUDINIENGINEUNITY_JSONOBJECT___C__DISPLAYCLASS23_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x8167F30)
+#define HOUDINIENGINEUNITY_JSONOBJECT___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x84BC9F0)
+#define HOUDINIENGINEUNITY_JSONOBJECT___C__DISPLAYCLASS23_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0x84BCD60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONObject___c__DisplayClass23_0_TypeDefinitionIndex = 36914;
+	inline static constexpr unsigned int JSONObject___c__DisplayClass23_0_TypeDefinitionIndex = 37851;
 
 	class JSONObject___c__DisplayClass23_0 : public ::System::Object
 	{

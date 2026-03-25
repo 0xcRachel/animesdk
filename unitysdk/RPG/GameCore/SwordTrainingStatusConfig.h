@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FC0EA0)
-#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC0FC0)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B5310)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177B5430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStatusConfig_TypeDefinitionIndex = 11280;
+	inline static constexpr unsigned int SwordTrainingStatusConfig_TypeDefinitionIndex = 11348;
 
 	class SwordTrainingStatusConfig : public ::System::Object
 	{

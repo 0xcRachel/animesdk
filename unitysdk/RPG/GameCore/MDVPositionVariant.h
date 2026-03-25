@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTag; }
 
-#define RPG_GAMECORE_MDVPOSITIONVARIANT_METHOD_2_97449C712096B6B7_OFFSET UNITYSDK_OFFSET(0x16C21940)
-#define RPG_GAMECORE_MDVPOSITIONVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x16C21AC0)
+#define RPG_GAMECORE_MDVPOSITIONVARIANT_METHOD_2_C9E7239D80AD0670_OFFSET UNITYSDK_OFFSET(0x17386700)
+#define RPG_GAMECORE_MDVPOSITIONVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x173868A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MDVPositionVariant_TypeDefinitionIndex = 17103;
+	inline static constexpr unsigned int MDVPositionVariant_TypeDefinitionIndex = 17508;
 
 	class MDVPositionVariant : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MDVPOSITIONVARIANT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_97449C712096B6B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MDVPositionVariant*& a2)
+		static ::System::Void Method_2_C9E7239D80AD0670(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MDVPositionVariant*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MDVPositionVariant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MDVPOSITIONVARIANT_METHOD_2_97449C712096B6B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MDVPositionVariant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MDVPOSITIONVARIANT_METHOD_2_C9E7239D80AD0670_OFFSET))(a1, a2);
 		}
 	};
 }

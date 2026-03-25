@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/CharacterSomatoType.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
+namespace RPG::Client { class RogueTournAreaGroupData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF82E5D0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF82E660)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12_INVOKE_OFFSET UNITYSDK_OFFSET(0xF82E110)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B120)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF5ABF0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF5AC20)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF5A690)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE12__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57980)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE12_TypeDefinitionIndex = 39443;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE12_TypeDefinitionIndex = 40429;
 
 	class InternalGlobals___GEN_DELEGATE12 : public ::System::MulticastDelegate
 	{
@@ -24,19 +24,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Int32 Invoke(::RPG::GameCore::CharacterSomatoType a, ::RPG::GameCore::CharacterSomatoType b)
+		::System::Boolean Invoke(::RPG::Client::RogueTournAreaGroupData* data)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12_INVOKE_OFFSET))(this, a, b);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12_INVOKE_OFFSET))(this, data);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::CharacterSomatoType a, ::RPG::GameCore::CharacterSomatoType b, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::RogueTournAreaGroupData* data, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType, ::RPG::GameCore::CharacterSomatoType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12_BEGININVOKE_OFFSET))(this, a, b, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::RogueTournAreaGroupData*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12_BEGININVOKE_OFFSET))(this, data, callback, object);
 		}
 
-		::System::Int32 EndInvoke(::System::IAsyncResult* result)
+		::System::Boolean EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE12_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

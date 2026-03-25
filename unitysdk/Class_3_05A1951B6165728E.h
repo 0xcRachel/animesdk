@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterEffectMaterialBlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_05A1951B6165728E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1056A440)
-#define CLASS_3_05A1951B6165728E__CTOR_OFFSET UNITYSDK_OFFSET(0x1056A410)
+#define CLASS_3_05A1951B6165728E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x118E8E90)
+#define CLASS_3_05A1951B6165728E__CTOR_OFFSET UNITYSDK_OFFSET(0x118E8E60)
 
-inline static constexpr unsigned int Class_3_05A1951B6165728E_TypeDefinitionIndex = 46152;
+inline static constexpr unsigned int Class_3_05A1951B6165728E_TypeDefinitionIndex = 47226;
 
 class Class_3_05A1951B6165728E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterEffectMaterialBlock*>
 {

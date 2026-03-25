@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_59305B446B42427E.h"
+#include "unitysdk/Class_1_87854DF4F09D42E1.h"
 #include "unitysdk/RPG/GameCore/AirlockEvent.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -9,25 +9,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_6913162F9B84888B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F85220)
-#define CLASS_2_6913162F9B84888B_DOONENTER_OFFSET UNITYSDK_OFFSET(0x10F85280)
-#define CLASS_2_6913162F9B84888B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x10F85500)
-#define CLASS_2_6913162F9B84888B_METHOD_2_6287030D53179AEE_OFFSET UNITYSDK_OFFSET(0x10F85370)
-#define CLASS_2_6913162F9B84888B__CTOR_OFFSET UNITYSDK_OFFSET(0x10F851A0)
-#define CLASS_2_6913162F9B84888B___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F85620)
-#define CLASS_2_6913162F9B84888B___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x10F85630)
-#define CLASS_2_6913162F9B84888B___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x10F85640)
+#define CLASS_2_6913162F9B84888B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x117C10B0)
+#define CLASS_2_6913162F9B84888B_DOONENTER_OFFSET UNITYSDK_OFFSET(0x117C1110)
+#define CLASS_2_6913162F9B84888B_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x117C1390)
+#define CLASS_2_6913162F9B84888B_METHOD_2_6287030D53179AEE_OFFSET UNITYSDK_OFFSET(0x117C1200)
+#define CLASS_2_6913162F9B84888B__CTOR_OFFSET UNITYSDK_OFFSET(0x117C1030)
+#define CLASS_2_6913162F9B84888B___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x117C14B0)
+#define CLASS_2_6913162F9B84888B___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x117C14C0)
+#define CLASS_2_6913162F9B84888B___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x117C14D0)
 
-inline static constexpr unsigned int Class_2_6913162F9B84888B_TypeDefinitionIndex = 45264;
+inline static constexpr unsigned int Class_2_6913162F9B84888B_TypeDefinitionIndex = 46325;
 
-class Class_2_6913162F9B84888B : public ::Class_1_59305B446B42427E
+class Class_2_6913162F9B84888B : public ::Class_1_87854DF4F09D42E1
 {
 public:
-	::UnityEngine::Transform* Field_2_2; // 0x98
+	::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* Field_2_0; // 0x98
 	::UnityEngine::Transform* Field_2_3; // 0xA0
-	::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* Field_2_0; // 0xA8
-	::System::Boolean Field_2_4; // 0xB0
-	::System::Int32 Field_2_1; // 0xB4
+	::UnityEngine::Transform* Field_2_2; // 0xA8
+	::System::Int32 Field_2_1; // 0xB0
+	::System::Boolean Field_2_4; // 0xB4
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4, ::System::Action_2<::System::Int32, ::RPG::GameCore::AirlockEvent>* a5)
 	{

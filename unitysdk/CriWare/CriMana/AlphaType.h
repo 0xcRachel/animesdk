@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int AlphaType_TypeDefinitionIndex = 30348;
+	inline static constexpr unsigned int AlphaType_TypeDefinitionIndex = 31223;
 
 	enum class AlphaType : ::System::Int32
 	{

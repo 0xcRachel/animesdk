@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_TRANSPARENTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x163E22F0)
+#define RPG_CUSTOMRP_TRANSPARENTSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x16AF0D10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TransparentSetting_TypeDefinitionIndex = 28589;
+	inline static constexpr unsigned int TransparentSetting_TypeDefinitionIndex = 29464;
 
 	class TransparentSetting : public ::System::Object
 	{

@@ -6,7 +6,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_LineInfo_TypeDefinitionIndex = 33356;
+	inline static constexpr unsigned int TMP_LineInfo_TypeDefinitionIndex = 34345;
 
 	struct alignas(4) TMP_LineInfo
 	{

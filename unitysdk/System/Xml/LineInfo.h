@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_XML_LINEINFO_SET_OFFSET UNITYSDK_OFFSET(0x74250)
-#define SYSTEM_XML_LINEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x74250)
+#define SYSTEM_XML_LINEINFO_SET_OFFSET UNITYSDK_OFFSET(0x72F10)
+#define SYSTEM_XML_LINEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x72F10)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int LineInfo_TypeDefinitionIndex = 1910;
+	inline static constexpr unsigned int LineInfo_TypeDefinitionIndex = 1915;
 
 	struct alignas(4) LineInfo
 	{

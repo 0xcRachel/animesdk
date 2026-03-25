@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_SKIRTIKCONFIG_TRANSFORMLUT__CTOR_OFFSET UNITYSDK_OFFSET(0x9F8B4F0)
+#define RPG_CLIENT_SKIRTIKCONFIG_TRANSFORMLUT__CTOR_OFFSET UNITYSDK_OFFSET(0xA4ABE90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkirtIKConfig_TransformLUT_TypeDefinitionIndex = 54257;
+	inline static constexpr unsigned int SkirtIKConfig_TransformLUT_TypeDefinitionIndex = 55815;
 
 	class SkirtIKConfig_TransformLUT : public ::UnityEngine::ScriptableObject
 	{

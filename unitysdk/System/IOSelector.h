@@ -4,11 +4,11 @@
 
 namespace System { class IOSelectorJob; }
 
-#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x17E99D20)
+#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x186C3350)
 
 namespace System
 {
-	inline static constexpr unsigned int IOSelector_TypeDefinitionIndex = 2473;
+	inline static constexpr unsigned int IOSelector_TypeDefinitionIndex = 2478;
 
 	class IOSelector : public ::System::Object
 	{

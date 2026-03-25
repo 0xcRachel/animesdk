@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16B85660)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16B854B0)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16B85180)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16B85450)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16B85830)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B85200)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16B85870)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B85A50)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16B85C20)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B85F80)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16B859B0)
-#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B85910)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x172D3ED0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x172D3D20)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x172D39F0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x172D3CC0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x172D40A0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x172D3A70)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x172D40E0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x172D42C0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x172D4490)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x172D47F0)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x172D4220)
+#define RPG_GAMECORE_INVENTORYSORTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x172D4180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InventorySortExcelTable_TypeDefinitionIndex = 12567;
+	inline static constexpr unsigned int InventorySortExcelTable_TypeDefinitionIndex = 12637;
 
 	class InventorySortExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0x32A60);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0x3A2B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InventorySortRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InventorySortRow*>**)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0x32A68);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::InventorySortRow*>**)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0x3A2B8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0x32A70);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0xBF30);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0x3A2C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0xBF31);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0xEB60);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(InventorySortExcelTable_TypeDefinitionIndex)->GetStaticField(0xEB61);
 		}
 
 		static ::System::Void _cctor()

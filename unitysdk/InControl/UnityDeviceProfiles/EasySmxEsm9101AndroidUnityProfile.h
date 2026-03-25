@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_EASYSMXESM9101ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x155290C0)
-#define INCONTROL_UNITYDEVICEPROFILES_EASYSMXESM9101ANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1552A7A0)
+#define INCONTROL_UNITYDEVICEPROFILES_EASYSMXESM9101ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C42E80)
+#define INCONTROL_UNITYDEVICEPROFILES_EASYSMXESM9101ANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C44560)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int EasySmxEsm9101AndroidUnityProfile_TypeDefinitionIndex = 30654;
+	inline static constexpr unsigned int EasySmxEsm9101AndroidUnityProfile_TypeDefinitionIndex = 31529;
 
 	class EasySmxEsm9101AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

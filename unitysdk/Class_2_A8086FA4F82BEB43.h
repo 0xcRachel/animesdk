@@ -6,20 +6,20 @@ namespace RPG::GameCore { class PlayScreenDissolve; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_A8086FA4F82BEB43_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9460D60)
-#define CLASS_2_A8086FA4F82BEB43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9460B10)
-#define CLASS_2_A8086FA4F82BEB43_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9460D10)
-#define CLASS_2_A8086FA4F82BEB43_TICK_OFFSET UNITYSDK_OFFSET(0x9460DA0)
-#define CLASS_2_A8086FA4F82BEB43__CTOR_OFFSET UNITYSDK_OFFSET(0x9460B00)
+#define CLASS_2_A8086FA4F82BEB43_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10907190)
+#define CLASS_2_A8086FA4F82BEB43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10906EF0)
+#define CLASS_2_A8086FA4F82BEB43_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10907140)
+#define CLASS_2_A8086FA4F82BEB43_TICK_OFFSET UNITYSDK_OFFSET(0x109071D0)
+#define CLASS_2_A8086FA4F82BEB43__CTOR_OFFSET UNITYSDK_OFFSET(0x10906EE0)
 
-inline static constexpr unsigned int Class_2_A8086FA4F82BEB43_TypeDefinitionIndex = 45950;
+inline static constexpr unsigned int Class_2_A8086FA4F82BEB43_TypeDefinitionIndex = 47018;
 
 class Class_2_A8086FA4F82BEB43 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
-	::RPG::GameCore::PlayScreenDissolve* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
+	::RPG::GameCore::PlayScreenDissolve* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayScreenDissolve* a2)
 	{

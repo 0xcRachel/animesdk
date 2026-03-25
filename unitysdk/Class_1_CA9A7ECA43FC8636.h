@@ -9,7 +9,7 @@ class Class_1_867B6CE75953535A_1;
 class Class_1_CA9A7ECA43FC8636_Class_1_F2D17E30E1E79D69;
 class Class_2_0C58AD91B0F4D809;
 class Class_2_9C2F1FCEC1A75FFD;
-class Class_3_44EDAE37250FA2DB;
+class Class_3_D6E9A038FA23103A;
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameView; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGlobalData; }
@@ -25,58 +25,61 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_CA9A7ECA43FC8636_EXECUTE_OFFSET UNITYSDK_OFFSET(0x10345C60)
-#define CLASS_1_CA9A7ECA43FC8636_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x103450D0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_076E1E2A0183A470_OFFSET UNITYSDK_OFFSET(0x103479A0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1283EC0876EAAACF_OFFSET UNITYSDK_OFFSET(0x10350280)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x10345060)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_18188D67877F2AFB_OFFSET UNITYSDK_OFFSET(0x1034BEA0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_3AC5F11D07AF339C_OFFSET UNITYSDK_OFFSET(0x1034C040)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_45F53D89337FC6C8_OFFSET UNITYSDK_OFFSET(0x1034C970)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_4988666BECC8CE44_OFFSET UNITYSDK_OFFSET(0x1034FEC0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_52DC9CC69AE40BFA_OFFSET UNITYSDK_OFFSET(0x10347AE0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_91B48388F4BFAF76_OFFSET UNITYSDK_OFFSET(0x10348C50)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_A37E414ACE798D5C_OFFSET UNITYSDK_OFFSET(0x1034AA60)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_E41FCF4CAFD9C569_OFFSET UNITYSDK_OFFSET(0x103500B0)
-#define CLASS_1_CA9A7ECA43FC8636_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x10345720)
-#define CLASS_1_CA9A7ECA43FC8636__CCTOR_OFFSET UNITYSDK_OFFSET(0x103506B0)
-#define CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET UNITYSDK_OFFSET(0x10344D90)
+#define CLASS_1_CA9A7ECA43FC8636_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA1EC7D0)
+#define CLASS_1_CA9A7ECA43FC8636_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xA1EBC90)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_076E1E2A0183A470_OFFSET UNITYSDK_OFFSET(0xA1EE520)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1283EC0876EAAACF_OFFSET UNITYSDK_OFFSET(0xA1F7860)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xA1EBC20)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_18188D67877F2AFB_OFFSET UNITYSDK_OFFSET(0xA1F3480)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_3AC5F11D07AF339C_OFFSET UNITYSDK_OFFSET(0xA1F3620)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_45F53D89337FC6C8_OFFSET UNITYSDK_OFFSET(0xA1F3F50)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_4988666BECC8CE44_OFFSET UNITYSDK_OFFSET(0xA1F74A0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_52DC9CC69AE40BFA_OFFSET UNITYSDK_OFFSET(0xA1EE660)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_91B48388F4BFAF76_OFFSET UNITYSDK_OFFSET(0xA1EF7D0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_A37E414ACE798D5C_OFFSET UNITYSDK_OFFSET(0xA1F2020)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_E41FCF4CAFD9C569_OFFSET UNITYSDK_OFFSET(0xA1F7690)
+#define CLASS_1_CA9A7ECA43FC8636_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xA1EC2D0)
+#define CLASS_1_CA9A7ECA43FC8636__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1F7C90)
+#define CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET UNITYSDK_OFFSET(0xA1EB950)
 
-inline static constexpr unsigned int Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex = 60539;
+inline static constexpr unsigned int Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex = 62517;
 
 class Class_1_CA9A7ECA43FC8636 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_1()
+	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x3CA30);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x120D0);
 	}
-	static ::System::Boolean* StaticGet_Field_1_2()
+	static ::System::Boolean* StaticGet_Field_1_3()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0xE7D0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x120D4);
+	}
+	static ::System::Int32* StaticGet_Field_1_0()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x120D8);
 	}
 	// static const ::System::String* Field_1_15; // 0x0
-	::UnityEngine::Coroutine* Field_1_19; // 0x10
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* Field_1_6; // 0x18
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* Field_1_17; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* Field_1_8; // 0x28
-	::UnityEngine::Transform* Field_1_9; // 0x30
-	::System::Collections::Generic::Dictionary_2<::Class_2_9C2F1FCEC1A75FFD*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* Field_1_13; // 0x38
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView* Field_1_12; // 0x40
-	::System::Collections::Generic::List_1<::UnityEngine::Coroutine*>* Field_1_18; // 0x48
-	::Class_1_867B6CE75953535A_1* Field_1_4; // 0x50
-	::Class_3_44EDAE37250FA2DB* Field_1_5; // 0x58
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* Field_1_17; // 0x10
+	::UnityEngine::Transform* Field_1_10; // 0x18
+	::Class_3_D6E9A038FA23103A* Field_1_6; // 0x20
+	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::Class_1_CA9A7ECA43FC8636_Class_1_F2D17E30E1E79D69*>* Field_1_16; // 0x28
+	::System::Collections::Generic::Dictionary_2<::Class_2_9C2F1FCEC1A75FFD*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* Field_1_13; // 0x30
+	::Class_1_867B6CE75953535A_1* Field_1_5; // 0x38
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* Field_1_7; // 0x40
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* Field_1_9; // 0x48
+	::UnityEngine::Transform* Field_1_11; // 0x50
+	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* Field_1_12; // 0x58
 	::System::Collections::Generic::Dictionary_2<::Class_2_9C2F1FCEC1A75FFD*, ::Class_2_9C2F1FCEC1A75FFD*>* Field_1_14; // 0x60
-	::UnityEngine::Transform* Field_1_10; // 0x68
-	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* Field_1_11; // 0x70
-	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::Class_1_CA9A7ECA43FC8636_Class_1_F2D17E30E1E79D69*>* Field_1_16; // 0x78
-	::System::Boolean Field_1_0; // 0x80
-	::System::Boolean Field_1_7; // 0x81
-	::System::Boolean Field_1_3; // 0x82
+	::System::Collections::Generic::List_1<::UnityEngine::Coroutine*>* Field_1_18; // 0x68
+	::UnityEngine::Coroutine* Field_1_19; // 0x70
+	::System::Boolean Field_1_4; // 0x78
+	::System::Boolean Field_1_2; // 0x79
+	::System::Boolean Field_1_8; // 0x7A
 
-	::System::Void _ctor(::Class_1_867B6CE75953535A_1* a1, ::Class_3_44EDAE37250FA2DB* a2)
+	::System::Void _ctor(::Class_1_867B6CE75953535A_1* a1, ::Class_3_D6E9A038FA23103A* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_44EDAE37250FA2DB*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_D6E9A038FA23103A*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	static ::System::Void _cctor()

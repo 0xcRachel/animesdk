@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NormalsMode_TypeDefinitionIndex = 34032;
+	inline static constexpr unsigned int NormalsMode_TypeDefinitionIndex = 34966;
 
 	enum class NormalsMode : ::System::Int32
 	{

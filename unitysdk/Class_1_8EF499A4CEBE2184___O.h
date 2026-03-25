@@ -8,25 +8,25 @@ class Class_2_536CC4186B095618;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-inline static constexpr unsigned int Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex = 60357;
+inline static constexpr unsigned int Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex = 62335;
 
 class Class_1_8EF499A4CEBE2184___O : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__2____BirdSkillGainPropComparison()
+	static ::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet__3___FromVector2Int()
 	{
-		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x9E30);
+		return (::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x282E0);
 	}
 	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__0____BirdSkillCreatePieceComparison()
 	{
-		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x9E38);
+		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x282E8);
+	}
+	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__2____BirdSkillGainPropComparison()
+	{
+		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x282F0);
 	}
 	static ::System::Comparison_1<::Class_2_536CC4186B095618*>** StaticGet__1____BirdSkillCreateItemPackComparison()
 	{
-		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x9E40);
-	}
-	static ::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>** StaticGet__3___FromVector2Int()
-	{
-		return (::System::Func_2<::UnityEngine::Vector2Int, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x9E48);
+		return (::System::Comparison_1<::Class_2_536CC4186B095618*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8EF499A4CEBE2184___O_TypeDefinitionIndex)->GetStaticField(0x282F8);
 	}
 };

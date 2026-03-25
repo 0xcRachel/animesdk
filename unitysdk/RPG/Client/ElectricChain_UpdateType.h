@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElectricChain_UpdateType_TypeDefinitionIndex = 56126;
+	inline static constexpr unsigned int ElectricChain_UpdateType_TypeDefinitionIndex = 57697;
 
 	enum class ElectricChain_UpdateType : ::System::Int32
 	{

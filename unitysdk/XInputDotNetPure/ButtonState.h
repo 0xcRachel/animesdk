@@ -3,7 +3,7 @@
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int ButtonState_TypeDefinitionIndex = 30489;
+	inline static constexpr unsigned int ButtonState_TypeDefinitionIndex = 31364;
 
 	enum class ButtonState : ::System::Int32
 	{

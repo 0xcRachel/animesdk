@@ -19,12 +19,12 @@ namespace RPG::GameCore { class SkillTransitAnimConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHESSCHARACTERCONFIG_METHOD_2_A425762FF85FE7A8_OFFSET UNITYSDK_OFFSET(0x1697D590)
-#define RPG_GAMECORE_CHESSCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1697DE80)
+#define RPG_GAMECORE_CHESSCHARACTERCONFIG_METHOD_2_A425762FF85FE7A8_OFFSET UNITYSDK_OFFSET(0x1709FA20)
+#define RPG_GAMECORE_CHESSCHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170A0310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessCharacterConfig_TypeDefinitionIndex = 15904;
+	inline static constexpr unsigned int ChessCharacterConfig_TypeDefinitionIndex = 16181;
 
 	class ChessCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{

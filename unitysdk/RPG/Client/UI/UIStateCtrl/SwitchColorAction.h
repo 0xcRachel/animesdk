@@ -5,12 +5,12 @@
 namespace RPG::Client::UI::UIStateCtrl { class SwitchColorData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_METHOD_3_89EF21CA0414B145_OFFSET UNITYSDK_OFFSET(0xA134630)
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA134DE0)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_METHOD_3_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0xA659820)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA65A4C0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int SwitchColorAction_TypeDefinitionIndex = 58973;
+	inline static constexpr unsigned int SwitchColorAction_TypeDefinitionIndex = 60723;
 
 	class SwitchColorAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::UI::UIStateCtrl
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_89EF21CA0414B145()
+		::System::Void Method_3_EAD10B3E55E2C4C5()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_METHOD_3_89EF21CA0414B145_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHCOLORACTION_METHOD_3_EAD10B3E55E2C4C5_OFFSET))(this);
 		}
 	};
 }

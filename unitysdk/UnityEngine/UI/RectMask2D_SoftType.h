@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RectMask2D_SoftType_TypeDefinitionIndex = 5575;
+	inline static constexpr unsigned int RectMask2D_SoftType_TypeDefinitionIndex = 5675;
 
 	enum class RectMask2D_SoftType : ::System::Int32
 	{

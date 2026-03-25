@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class FiveDimEntryConfig; }
 namespace System { class String; }
 
-#define CLASS_1_E3E6EC75C8FC3508_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x16300EB0)
-#define CLASS_1_E3E6EC75C8FC3508__CTOR_OFFSET UNITYSDK_OFFSET(0x16300EF0)
+#define CLASS_1_E3E6EC75C8FC3508_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x169F1EE0)
+#define CLASS_1_E3E6EC75C8FC3508__CTOR_OFFSET UNITYSDK_OFFSET(0x169F1F20)
 
-inline static constexpr unsigned int Class_1_E3E6EC75C8FC3508_TypeDefinitionIndex = 32466;
+inline static constexpr unsigned int Class_1_E3E6EC75C8FC3508_TypeDefinitionIndex = 33377;
 
 class Class_1_E3E6EC75C8FC3508 : public ::System::Object
 {

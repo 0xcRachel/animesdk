@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenNeckIKType_TypeDefinitionIndex = 19072;
+	inline static constexpr unsigned int HipplenNeckIKType_TypeDefinitionIndex = 19596;
 
 	enum class HipplenNeckIKType : ::System::Int32
 	{

@@ -5,31 +5,31 @@
 namespace SuperScrollView { class LoopListView2; }
 namespace System { class Action; }
 
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA718F40)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA719100)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA719160)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA719110)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA718F30)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305__CTOR_OFFSET UNITYSDK_OFFSET(0xA717E20)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xAC22500)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAC226C0)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xAC22720)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xAC226D0)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAC224F0)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2__ASYNCUPDATELISTVIEW_D__305__CTOR_OFFSET UNITYSDK_OFFSET(0xAC21380)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopListView2__AsyncUpdateListView_d__305_TypeDefinitionIndex = 37564;
+	inline static constexpr unsigned int LoopListView2__AsyncUpdateListView_d__305_TypeDefinitionIndex = 38528;
 
 	class LoopListView2__AsyncUpdateListView_d__305 : public ::System::Object
 	{
 	public:
-		::SuperScrollView::LoopListView2* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Action* callback; // 0x20
-		::System::Boolean _needContinueCheck_5__2; // 0x28
-		::System::Single distanceForRecycle1; // 0x2C
-		::System::Int32 _maxCount_5__4; // 0x30
-		::System::Int32 __1__state; // 0x34
-		::System::Int32 _checkCount_5__3; // 0x38
-		::System::Single distanceForNew0; // 0x3C
-		::System::Single distanceForRecycle0; // 0x40
-		::System::Single distanceForNew1; // 0x44
+		::System::Object* __2__current; // 0x10
+		::System::Action* callback; // 0x18
+		::SuperScrollView::LoopListView2* __4__this; // 0x20
+		::System::Single distanceForNew0; // 0x28
+		::System::Single distanceForNew1; // 0x2C
+		::System::Single distanceForRecycle1; // 0x30
+		::System::Single distanceForRecycle0; // 0x34
+		::System::Boolean _needContinueCheck_5__2; // 0x38
+		::System::Int32 __1__state; // 0x3C
+		::System::Int32 _maxCount_5__4; // 0x40
+		::System::Int32 _checkCount_5__3; // 0x44
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

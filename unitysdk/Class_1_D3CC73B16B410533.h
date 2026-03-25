@@ -5,29 +5,29 @@
 #include "unitysdk/Struct_2_9BF8902D61AE1796.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_182;
+class Class_0_16E4307DCC419505_212;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_D3CC73B16B410533_CLEAR_OFFSET UNITYSDK_OFFSET(0x162AF7F0)
-#define CLASS_1_D3CC73B16B410533_ONALLOC_OFFSET UNITYSDK_OFFSET(0x162AF920)
-#define CLASS_1_D3CC73B16B410533_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x162AF970)
-#define CLASS_1_D3CC73B16B410533__CTOR_OFFSET UNITYSDK_OFFSET(0x162AF9C0)
+#define CLASS_1_D3CC73B16B410533_CLEAR_OFFSET UNITYSDK_OFFSET(0x1679EAD0)
+#define CLASS_1_D3CC73B16B410533_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1679EC00)
+#define CLASS_1_D3CC73B16B410533_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1679EC50)
+#define CLASS_1_D3CC73B16B410533__CTOR_OFFSET UNITYSDK_OFFSET(0x1679ECA0)
 
-inline static constexpr unsigned int Class_1_D3CC73B16B410533_TypeDefinitionIndex = 32728;
+inline static constexpr unsigned int Class_1_D3CC73B16B410533_TypeDefinitionIndex = 33660;
 
 class Class_1_D3CC73B16B410533 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_182* Field_1_2; // 0x10
-	::System::String* Field_1_0; // 0x18
-	::Struct_2_9BF8902D61AE1796 Field_1_4; // 0x20
-	::Struct_2_09B45CBFDAC5DA07 Field_1_3; // 0xB0
-	::RPG::GameCore::LevelTriggerInfo* Field_1_1; // 0xD0
+	::Struct_2_9BF8902D61AE1796 Field_1_4; // 0x10
+	::System::String* Field_1_0; // 0xA0
+	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_6; // 0xA8
+	::Class_0_16E4307DCC419505_212* Field_1_2; // 0xB0
+	::Struct_2_09B45CBFDAC5DA07 Field_1_3; // 0xB8
 	::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean> Field_1_5; // 0xD8
-	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_6; // 0x168
+	::RPG::GameCore::LevelTriggerInfo* Field_1_1; // 0x168
 
 	::System::Void _ctor()
 	{

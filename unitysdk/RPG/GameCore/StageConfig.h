@@ -14,15 +14,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_STAGECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET UNITYSDK_OFFSET(0x16F85320)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_2_0B3142A33AF5ED4C_OFFSET UNITYSDK_OFFSET(0x16F851A0)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_2_3A7480C8F521D402_OFFSET UNITYSDK_OFFSET(0x16F85290)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_2_61D061BC96739D0A_OFFSET UNITYSDK_OFFSET(0x16F84A50)
-#define RPG_GAMECORE_STAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F85190)
+#define RPG_GAMECORE_STAGECONFIG_GET_ACTIVEBLOCKNODECONFIGLIST_OFFSET UNITYSDK_OFFSET(0x17779610)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_2_0B3142A33AF5ED4C_OFFSET UNITYSDK_OFFSET(0x17779490)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_2_3A7480C8F521D402_OFFSET UNITYSDK_OFFSET(0x17779580)
+#define RPG_GAMECORE_STAGECONFIG_METHOD_2_61D061BC96739D0A_OFFSET UNITYSDK_OFFSET(0x17778BE0)
+#define RPG_GAMECORE_STAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17779390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageConfig_TypeDefinitionIndex = 17143;
+	inline static constexpr unsigned int StageConfig_TypeDefinitionIndex = 17548;
 
 	class StageConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -46,6 +46,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::StageVersionData* StageVersionData; // 0x88
 		::System::Boolean PVSEnableRegionFilter; // 0x90
 		::System::Boolean EnableNormDistanceLodTemplate; // 0x91
+		::System::Boolean EnableAudioGroundVoxel; // 0x92
 		::System::Collections::Generic::List_1<::RPG::GameCore::BlockNodeConfig*>* _ActiveBlockNodeConfig; // 0x98
 
 		::System::Void _ctor()

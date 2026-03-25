@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INTRODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B84A30)
-#define RPG_GAMECORE_INTRODATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B85170)
+#define RPG_GAMECORE_INTRODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172D3310)
+#define RPG_GAMECORE_INTRODATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172D39E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IntroDataRow_TypeDefinitionIndex = 12564;
+	inline static constexpr unsigned int IntroDataRow_TypeDefinitionIndex = 12634;
 
 	class IntroDataRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Desc; // 0x10
-		::RPG::Client::TextID Desc_Os; // 0x20
-		::System::UInt32 ID; // 0x30
-		::RPG::Client::TextID Title; // 0x38
+		::RPG::Client::TextID Title; // 0x10
+		::System::UInt32 ID; // 0x20
+		::RPG::Client::TextID Desc_Os; // 0x28
+		::RPG::Client::TextID Desc; // 0x38
 
 		::System::Void _ctor()
 		{

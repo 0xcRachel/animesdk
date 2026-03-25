@@ -9,49 +9,49 @@ namespace RPG::Client { class MissionChronicleSubPathData; }
 namespace System { class Action; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x949A4A0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x949A4D0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GENERATECHAPTERDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0x949A4E0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GETSHOWROGUEDATALIST_B__150_0_OFFSET UNITYSDK_OFFSET(0x949A7D0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDMAINPATHLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x949A530)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDSUBPATHLIST_B__12_0_OFFSET UNITYSDK_OFFSET(0x949A790)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUEDLC_B__151_0_OFFSET UNITYSDK_OFFSET(0x949A9A0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUENOUS_B__152_0_OFFSET UNITYSDK_OFFSET(0x949AA00)
+#define RPG_CLIENT_HANDBOOKMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x991DDA0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x991DDD0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GENERATECHAPTERDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0x991DDE0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GETSHOWROGUEDATALIST_B__150_0_OFFSET UNITYSDK_OFFSET(0x991E0D0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDMAINPATHLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x991DE30)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDSUBPATHLIST_B__12_0_OFFSET UNITYSDK_OFFSET(0x991E090)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUEDLC_B__151_0_OFFSET UNITYSDK_OFFSET(0x991E2A0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUENOUS_B__152_0_OFFSET UNITYSDK_OFFSET(0x991E300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c_TypeDefinitionIndex = 52157;
+	inline static constexpr unsigned int HandbookModule___c_TypeDefinitionIndex = 53293;
 
 	class HandbookModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::HandbookRogueData*>** StaticGet___9__150_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::HandbookRogueData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF00);
-		}
 		static ::System::Action** StaticGet___9__151_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF08);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x26770);
 		}
 		static ::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>** StaticGet___9__12_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF10);
-		}
-		static ::System::Action** StaticGet___9__152_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF18);
-		}
-		static ::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__11_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF20);
+			return (::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x26778);
 		}
 		static ::RPG::Client::HandbookModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::HandbookModule___c**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF28);
+			return (::RPG::Client::HandbookModule___c**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x26780);
+		}
+		static ::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__11_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x26788);
+		}
+		static ::System::Comparison_1<::RPG::Client::HandbookRogueData*>** StaticGet___9__150_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::HandbookRogueData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x26790);
 		}
 		static ::System::Comparison_1<::RPG::Client::HandbookChapterData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::HandbookChapterData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0xBF30);
+			return (::System::Comparison_1<::RPG::Client::HandbookChapterData*>**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x26798);
+		}
+		static ::System::Action** StaticGet___9__152_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(HandbookModule___c_TypeDefinitionIndex)->GetStaticField(0x267A0);
 		}
 
 		static ::System::Void _cctor()

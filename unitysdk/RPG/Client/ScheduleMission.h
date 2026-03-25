@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SCHEDULEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x9F59C70)
+#define RPG_CLIENT_SCHEDULEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0xA425A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScheduleMission_TypeDefinitionIndex = 52673;
+	inline static constexpr unsigned int ScheduleMission_TypeDefinitionIndex = 53810;
 
 	class ScheduleMission : public ::System::Object
 	{
 	public:
-		::System::UInt64 EndTimeStamp; // 0x10
-		::RPG::Client::DateTimePro EndTimeDate; // 0x18
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::System::UInt64 EndTimeStamp; // 0x18
+		::RPG::Client::DateTimePro EndTimeDate; // 0x20
 
 		::System::Void _ctor(::System::UInt32 id, ::System::UInt64 expireTimeStamp)
 		{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AITIMESAMPLING_GETTIME_OFFSET UNITYSDK_OFFSET(0x2038420)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AITIMESAMPLING_GET_SAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x20383A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AITIMESAMPLING_GETTIME_OFFSET UNITYSDK_OFFSET(0x210E590)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AITIMESAMPLING_GET_SAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x210E510)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiTimeSampling_TypeDefinitionIndex = 34055;
+	inline static constexpr unsigned int aiTimeSampling_TypeDefinitionIndex = 34989;
 
 	struct alignas(8) aiTimeSampling
 	{

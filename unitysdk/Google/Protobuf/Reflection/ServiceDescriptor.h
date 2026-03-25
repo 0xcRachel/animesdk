@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15419260)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x154191F0)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15419180)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15418F80)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15B31FC0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x15B31F50)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B31EE0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B31CE0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 6259;
+	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 6359;
 
 	class ServiceDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::ServiceDescriptorProto* proto; // 0x28
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MethodDescriptor*>* methods; // 0x30
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MethodDescriptor*>* methods; // 0x28
+		::Google::Protobuf::Reflection::ServiceDescriptorProto* proto; // 0x30
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::ServiceDescriptorProto* proto, ::Google::Protobuf::Reflection::FileDescriptor* file, ::System::Int32 index)
 		{

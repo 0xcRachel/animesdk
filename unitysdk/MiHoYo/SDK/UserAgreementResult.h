@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UserAgreementResult_TypeDefinitionIndex = 6982;
+	inline static constexpr unsigned int UserAgreementResult_TypeDefinitionIndex = 7106;
 
 	enum class UserAgreementResult : ::System::Int32
 	{

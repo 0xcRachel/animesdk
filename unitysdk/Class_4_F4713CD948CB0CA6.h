@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_0A374111E3D818FB.h"
+#include "unitysdk/Class_3_75DBBBC880985ABC.h"
 
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixPredicateC; }
 
-#define CLASS_4_F4713CD948CB0CA6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10C82980)
-#define CLASS_4_F4713CD948CB0CA6__CTOR_OFFSET UNITYSDK_OFFSET(0x10C82900)
-#define CLASS_4_F4713CD948CB0CA6___IFIXBASEPROXY_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10C829C0)
+#define CLASS_4_F4713CD948CB0CA6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x113FCEA0)
+#define CLASS_4_F4713CD948CB0CA6__CTOR_OFFSET UNITYSDK_OFFSET(0x113FCE20)
+#define CLASS_4_F4713CD948CB0CA6___IFIXBASEPROXY_EVALUATE_OFFSET UNITYSDK_OFFSET(0x113FCEE0)
 
-inline static constexpr unsigned int Class_4_F4713CD948CB0CA6_TypeDefinitionIndex = 43641;
+inline static constexpr unsigned int Class_4_F4713CD948CB0CA6_TypeDefinitionIndex = 44697;
 
-class Class_4_F4713CD948CB0CA6 : public ::Class_3_0A374111E3D818FB
+class Class_4_F4713CD948CB0CA6 : public ::Class_3_75DBBBC880985ABC
 {
 public:
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UniversalHotFixPredicateC* a2)

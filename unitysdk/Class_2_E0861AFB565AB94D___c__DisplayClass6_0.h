@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_BD3679861BD0C676;
+class Class_1_B1FF62FAE312BC49_7;
 class Class_2_E0861AFB565AB94D;
 namespace RPG::Client { class GridFightEquipDressEvent; }
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightEquipReturnPackEvent; }
 
-#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x110FC250)
-#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__0_OFFSET UNITYSDK_OFFSET(0x110FE670)
-#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__1_OFFSET UNITYSDK_OFFSET(0x110FE6B0)
-#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__2_OFFSET UNITYSDK_OFFSET(0x110FE6E0)
-#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__3_OFFSET UNITYSDK_OFFSET(0x110FE740)
+#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8C903A0)
+#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__0_OFFSET UNITYSDK_OFFSET(0x8C926D0)
+#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__1_OFFSET UNITYSDK_OFFSET(0x8C92710)
+#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__2_OFFSET UNITYSDK_OFFSET(0x8C92740)
+#define CLASS_2_E0861AFB565AB94D___C__DISPLAYCLASS6_0__UPDATEROLE_B__3_OFFSET UNITYSDK_OFFSET(0x8C927A0)
 
-inline static constexpr unsigned int Class_2_E0861AFB565AB94D___c__DisplayClass6_0_TypeDefinitionIndex = 51609;
+inline static constexpr unsigned int Class_2_E0861AFB565AB94D___c__DisplayClass6_0_TypeDefinitionIndex = 52743;
 
 class Class_2_E0861AFB565AB94D___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::Class_1_BD3679861BD0C676* roleSever; // 0x10
+	::Class_1_B1FF62FAE312BC49_7* roleSever; // 0x10
 	::Class_2_E0861AFB565AB94D* __4__this; // 0x18
-	::System::Boolean trackDress; // 0x20
-	::System::Boolean craft; // 0x21
+	::System::Boolean craft; // 0x20
+	::System::Boolean trackDress; // 0x21
 
 	::System::Void _ctor()
 	{

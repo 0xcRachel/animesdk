@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FILTERVOLUMEDATA_METHOD_2_0B9391D86D5D7D04_OFFSET UNITYSDK_OFFSET(0x16AA4B80)
-#define RPG_GAMECORE_FILTERVOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA4D80)
+#define RPG_GAMECORE_FILTERVOLUMEDATA_METHOD_2_0B9391D86D5D7D04_OFFSET UNITYSDK_OFFSET(0x171E9FE0)
+#define RPG_GAMECORE_FILTERVOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x171EA1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FilterVolumeData_TypeDefinitionIndex = 17155;
+	inline static constexpr unsigned int FilterVolumeData_TypeDefinitionIndex = 17560;
 
 	class FilterVolumeData : public ::RPG::GameCore::JsonConfig
 	{

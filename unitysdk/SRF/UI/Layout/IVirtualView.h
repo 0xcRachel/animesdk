@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace SRF::UI::Layout
 {
-	inline static constexpr unsigned int IVirtualView_TypeDefinitionIndex = 26954;
+	inline static constexpr unsigned int IVirtualView_TypeDefinitionIndex = 27690;
 
 	class IVirtualView
 	{

@@ -17,7 +17,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1_TypeDefinitionIndex = 3019;
+	inline static constexpr unsigned int SortedSet_1_TypeDefinitionIndex = 3028;
 
 	template <typename T>
 	class SortedSet_1 : public ::System::Object

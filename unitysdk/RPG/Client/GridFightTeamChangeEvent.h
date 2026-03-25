@@ -7,18 +7,18 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAMCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x94172A0)
+#define RPG_CLIENT_GRIDFIGHTTEAMCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x98D4560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeamChangeEvent_TypeDefinitionIndex = 51767;
+	inline static constexpr unsigned int GridFightTeamChangeEvent_TypeDefinitionIndex = 52901;
 
 	class GridFightTeamChangeEvent : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipChangeEvent*>* EquipChanges; // 0x10
+		::System::Action* returnCallback; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* StarChangeRoles; // 0x18
-		::System::Action* returnCallback; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipChangeEvent*>* EquipChanges; // 0x20
 
 		::System::Void _ctor()
 		{

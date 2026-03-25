@@ -3,31 +3,31 @@
 #include "unitysdk/Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_260;
+class Class_0_16E4307DCC419505_293;
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_AC69624123CC196F_METHOD_1_083FBD0B9A8FC42C_OFFSET UNITYSDK_OFFSET(0x894AB30)
-#define CLASS_1_AC69624123CC196F_METHOD_1_084F46A2F5C54C00_OFFSET UNITYSDK_OFFSET(0x894B190)
-#define CLASS_1_AC69624123CC196F_METHOD_1_3F0ECD90682EBE12_OFFSET UNITYSDK_OFFSET(0x894AD20)
-#define CLASS_1_AC69624123CC196F_METHOD_1_6044DE137CAC4D46_OFFSET UNITYSDK_OFFSET(0x894A870)
-#define CLASS_1_AC69624123CC196F_METHOD_1_C47FE8990A1CD51C_OFFSET UNITYSDK_OFFSET(0x894B2D0)
-#define CLASS_1_AC69624123CC196F__CCTOR_OFFSET UNITYSDK_OFFSET(0x894B400)
-#define CLASS_1_AC69624123CC196F__CTOR_OFFSET UNITYSDK_OFFSET(0x894B3F0)
+#define CLASS_1_AC69624123CC196F_METHOD_1_083FBD0B9A8FC42C_OFFSET UNITYSDK_OFFSET(0x87EDEA0)
+#define CLASS_1_AC69624123CC196F_METHOD_1_084F46A2F5C54C00_OFFSET UNITYSDK_OFFSET(0x87EE500)
+#define CLASS_1_AC69624123CC196F_METHOD_1_3F0ECD90682EBE12_OFFSET UNITYSDK_OFFSET(0x87EE090)
+#define CLASS_1_AC69624123CC196F_METHOD_1_6044DE137CAC4D46_OFFSET UNITYSDK_OFFSET(0x87EDBE0)
+#define CLASS_1_AC69624123CC196F_METHOD_1_C47FE8990A1CD51C_OFFSET UNITYSDK_OFFSET(0x87EE640)
+#define CLASS_1_AC69624123CC196F__CCTOR_OFFSET UNITYSDK_OFFSET(0x87EE770)
+#define CLASS_1_AC69624123CC196F__CTOR_OFFSET UNITYSDK_OFFSET(0x87EE760)
 
-inline static constexpr unsigned int Class_1_AC69624123CC196F_TypeDefinitionIndex = 38466;
+inline static constexpr unsigned int Class_1_AC69624123CC196F_TypeDefinitionIndex = 39446;
 
 class Class_1_AC69624123CC196F : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC69624123CC196F_TypeDefinitionIndex)->GetStaticField(0x47080);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_AC69624123CC196F_Struct_2_88AA0FD3774559B2>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC69624123CC196F_TypeDefinitionIndex)->GetStaticField(0x3BFC0);
 	}
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC69624123CC196F_TypeDefinitionIndex)->GetStaticField(0x10B80);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC69624123CC196F_TypeDefinitionIndex)->GetStaticField(0xF6A0);
 	}
 
 	::System::Void _ctor()
@@ -50,9 +50,9 @@ public:
 		return ((::EnviromentSystem::EnviromentProfile*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AC69624123CC196F_METHOD_1_084F46A2F5C54C00_OFFSET))(a1);
 	}
 
-	static ::Class_0_16E4307DCC419505_260* Method_1_C47FE8990A1CD51C(::System::String* a1)
+	static ::Class_0_16E4307DCC419505_293* Method_1_C47FE8990A1CD51C(::System::String* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_260*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AC69624123CC196F_METHOD_1_C47FE8990A1CD51C_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_293*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AC69624123CC196F_METHOD_1_C47FE8990A1CD51C_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_3F0ECD90682EBE12(::System::String* a1, ::EnviromentSystem::EnviromentProfile* a2)

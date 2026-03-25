@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMODIFIERCONFIG_METHOD_2_24004B55CD1C4B68_OFFSET UNITYSDK_OFFSET(0x16E906C0)
-#define RPG_GAMECORE_ROGUEMODIFIERCONFIG_METHOD_2_C3038A93A49112AD_OFFSET UNITYSDK_OFFSET(0x16E90880)
-#define RPG_GAMECORE_ROGUEMODIFIERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E90890)
-#define RPG_GAMECORE_ROGUEMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E8FED0)
+#define RPG_GAMECORE_ROGUEMODIFIERCONFIG_METHOD_2_24004B55CD1C4B68_OFFSET UNITYSDK_OFFSET(0x17631EE0)
+#define RPG_GAMECORE_ROGUEMODIFIERCONFIG_METHOD_2_C3038A93A49112AD_OFFSET UNITYSDK_OFFSET(0x176320A0)
+#define RPG_GAMECORE_ROGUEMODIFIERCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x176320B0)
+#define RPG_GAMECORE_ROGUEMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17630F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierConfig_TypeDefinitionIndex = 16109;
+	inline static constexpr unsigned int RogueModifierConfig_TypeDefinitionIndex = 16473;
 
 	class RogueModifierConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierConfig*>*>** StaticGet__FromBinary_RogueModifierConfig_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueModifierConfig_TypeDefinitionIndex)->GetStaticField(0x2DB50);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueModifierConfig_TypeDefinitionIndex)->GetStaticField(0x414C0);
 		}
 
 		::System::Void _ctor()

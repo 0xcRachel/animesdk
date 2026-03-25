@@ -7,29 +7,29 @@ namespace RPG::Client { class IFateGameMasterInfoItem; }
 namespace RPG::Client { class IFateGameMasterInfoRealItem; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x91E1B50)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x91E1B90)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETCURPLAYERRIVALMASTER_B__12_0_OFFSET UNITYSDK_OFFSET(0x91E1C10)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETPLAYERMASTER_B__9_0_OFFSET UNITYSDK_OFFSET(0x91E1BA0)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96901C0)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9690200)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETCURPLAYERRIVALMASTER_B__12_0_OFFSET UNITYSDK_OFFSET(0x9690280)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETPLAYERMASTER_B__9_0_OFFSET UNITYSDK_OFFSET(0x9690210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterBattleInfo___c_TypeDefinitionIndex = 50870;
+	inline static constexpr unsigned int FateGameMasterBattleInfo___c_TypeDefinitionIndex = 52005;
 
 	class FateGameMasterBattleInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>** StaticGet___9__12_0()
-		{
-			return (::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterBattleInfo___c_TypeDefinitionIndex)->GetStaticField(0x417D0);
-		}
 		static ::System::Predicate_1<::RPG::Client::IFateGameMasterInfoRealItem*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::IFateGameMasterInfoRealItem*>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterBattleInfo___c_TypeDefinitionIndex)->GetStaticField(0x417D8);
+			return (::System::Predicate_1<::RPG::Client::IFateGameMasterInfoRealItem*>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterBattleInfo___c_TypeDefinitionIndex)->GetStaticField(0x45790);
 		}
 		static ::RPG::Client::FateGameMasterBattleInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateGameMasterBattleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterBattleInfo___c_TypeDefinitionIndex)->GetStaticField(0x417E0);
+			return (::RPG::Client::FateGameMasterBattleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterBattleInfo___c_TypeDefinitionIndex)->GetStaticField(0x45798);
+		}
+		static ::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>** StaticGet___9__12_0()
+		{
+			return (::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterBattleInfo___c_TypeDefinitionIndex)->GetStaticField(0x457A0);
 		}
 
 		static ::System::Void _cctor()

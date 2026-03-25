@@ -8,43 +8,43 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_0581090195E9C81F_OFFSET UNITYSDK_OFFSET(0x9EEFEC0)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_058538FD51DDDDB5_OFFSET UNITYSDK_OFFSET(0x9EEFAF0)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x9EF03E0)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_383D388D53F718F8_OFFSET UNITYSDK_OFFSET(0x9EEF9D0)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_3B1C92869D4A4B5A_OFFSET UNITYSDK_OFFSET(0x9EF0CB0)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x9EEFC60)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_AB603CA7D990D95A_OFFSET UNITYSDK_OFFSET(0x9EF08E0)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x9EEFA60)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_BCD2A4900DEFAE21_OFFSET UNITYSDK_OFFSET(0x9EF0030)
-#define CLASS_1_42A859F1CFE8581B_METHOD_1_E16846F6D6EF4D1B_OFFSET UNITYSDK_OFFSET(0x9EEFDE0)
-#define CLASS_1_42A859F1CFE8581B__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EF1C40)
-#define CLASS_1_42A859F1CFE8581B__CTOR_OFFSET UNITYSDK_OFFSET(0x9EEF6A0)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_0581090195E9C81F_OFFSET UNITYSDK_OFFSET(0x8E14A00)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_058538FD51DDDDB5_OFFSET UNITYSDK_OFFSET(0x8E14630)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x8E14F20)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_383D388D53F718F8_OFFSET UNITYSDK_OFFSET(0x8E14510)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_3B1C92869D4A4B5A_OFFSET UNITYSDK_OFFSET(0x8E15800)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x8E147A0)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_AB603CA7D990D95A_OFFSET UNITYSDK_OFFSET(0x8E15420)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x8E145A0)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_BCD2A4900DEFAE21_OFFSET UNITYSDK_OFFSET(0x8E14B70)
+#define CLASS_1_42A859F1CFE8581B_METHOD_1_E16846F6D6EF4D1B_OFFSET UNITYSDK_OFFSET(0x8E14920)
+#define CLASS_1_42A859F1CFE8581B__CCTOR_OFFSET UNITYSDK_OFFSET(0x8E16790)
+#define CLASS_1_42A859F1CFE8581B__CTOR_OFFSET UNITYSDK_OFFSET(0x8E141E0)
 
-inline static constexpr unsigned int Class_1_42A859F1CFE8581B_TypeDefinitionIndex = 47298;
+inline static constexpr unsigned int Class_1_42A859F1CFE8581B_TypeDefinitionIndex = 48379;
 
 class Class_1_42A859F1CFE8581B : public ::System::Object
 {
 public:
 	static ::RPG::Client::RPGProfilerMarker** StaticGet_Field_1_15()
 	{
-		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_1_42A859F1CFE8581B_TypeDefinitionIndex)->GetStaticField(0x44560);
+		return (::RPG::Client::RPGProfilerMarker**)Il2CppClass::FromTypeDefinitionIndex(Class_1_42A859F1CFE8581B_TypeDefinitionIndex)->GetStaticField(0x1EE20);
 	}
 	// static const ::System::Single Field_1_11; // 0x0
 	// static const ::System::Int32 Field_1_12 = 0x2; // 0x0
 	::System::Collections::Generic::Dictionary_2<::RPG::Client::ListenerDirection, ::System::Single>* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_0; // 0x18
-	::Il2CppArray<::System::Single>* Field_1_2; // 0x20
-	::System::Single Field_1_7; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::Single Field_1_6; // 0x30
-	::System::Single Field_1_13; // 0x34
-	::System::Single Field_1_9; // 0x38
-	::System::Single Field_1_8; // 0x3C
-	::System::Single Field_1_14; // 0x40
-	::System::Int32 Field_1_3; // 0x44
-	::System::Single Field_1_10; // 0x48
-	::System::Single Field_1_5; // 0x4C
+	::Il2CppArray<::System::Single>* Field_1_2; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* Field_1_0; // 0x20
+	::System::Int32 Field_1_3; // 0x28
+	::System::Single Field_1_6; // 0x2C
+	::System::Single Field_1_10; // 0x30
+	::System::Single Field_1_8; // 0x34
+	::System::Single Field_1_5; // 0x38
+	::System::Single Field_1_9; // 0x3C
+	::System::Single Field_1_13; // 0x40
+	::System::Single Field_1_14; // 0x44
+	::System::Single Field_1_4; // 0x48
+	::System::Single Field_1_7; // 0x4C
 
 	::System::Void _ctor()
 	{

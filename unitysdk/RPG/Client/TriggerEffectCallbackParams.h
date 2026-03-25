@@ -8,7 +8,7 @@ namespace RPG::Client { class TriggerEffectParams; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TriggerEffectCallbackParams_TypeDefinitionIndex = 55628;
+	inline static constexpr unsigned int TriggerEffectCallbackParams_TypeDefinitionIndex = 57192;
 
 	struct alignas(8) TriggerEffectCallbackParams
 	{

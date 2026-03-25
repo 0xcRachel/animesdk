@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueBuffShopItemData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEBUFFSHOPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DDD830)
-#define RPG_CLIENT_ROGUEBUFFSHOPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DDD870)
-#define RPG_CLIENT_ROGUEBUFFSHOPDATA___C__SYNCITEM_B__0_0_OFFSET UNITYSDK_OFFSET(0x9DDD880)
+#define RPG_CLIENT_ROGUEBUFFSHOPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA2FEB90)
+#define RPG_CLIENT_ROGUEBUFFSHOPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA2FEBD0)
+#define RPG_CLIENT_ROGUEBUFFSHOPDATA___C__SYNCITEM_B__0_0_OFFSET UNITYSDK_OFFSET(0xA2FEBE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueBuffShopData___c_TypeDefinitionIndex = 53500;
+	inline static constexpr unsigned int RogueBuffShopData___c_TypeDefinitionIndex = 54843;
 
 	class RogueBuffShopData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueBuffShopData___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueBuffShopData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueBuffShopData___c_TypeDefinitionIndex)->GetStaticField(0x459A0);
-		}
 		static ::System::Func_2<::RPG::Client::RogueBuffShopItemData*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueBuffShopItemData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueBuffShopData___c_TypeDefinitionIndex)->GetStaticField(0x459A8);
+			return (::System::Func_2<::RPG::Client::RogueBuffShopItemData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueBuffShopData___c_TypeDefinitionIndex)->GetStaticField(0x1E120);
+		}
+		static ::RPG::Client::RogueBuffShopData___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueBuffShopData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueBuffShopData___c_TypeDefinitionIndex)->GetStaticField(0x1E128);
 		}
 
 		static ::System::Void _cctor()

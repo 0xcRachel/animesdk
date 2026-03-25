@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BaseBindlessArray_TypeDefinitionIndex = 4038;
+	inline static constexpr unsigned int BaseBindlessArray_TypeDefinitionIndex = 4059;
 
 	class BaseBindlessArray : public ::System::Object
 	{

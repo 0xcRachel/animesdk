@@ -8,13 +8,13 @@ namespace System::Runtime::Serialization { class ISerializationSurrogate; }
 namespace System::Runtime::Serialization { class ISurrogateSelector; }
 namespace System::Runtime::Serialization { class SurrogateHashtable; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_ADDSURROGATE_OFFSET UNITYSDK_OFFSET(0x15D42BF0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x15D42CE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15D42B90)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_ADDSURROGATE_OFFSET UNITYSDK_OFFSET(0x1640A450)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x1640A540)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1640A3F0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SurrogateSelector_TypeDefinitionIndex = 1121;
+	inline static constexpr unsigned int SurrogateSelector_TypeDefinitionIndex = 1126;
 
 	class SurrogateSelector : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E51ACFF805209DE9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A29FA0)
-#define CLASS_3_E51ACFF805209DE9__CTOR_OFFSET UNITYSDK_OFFSET(0x8A29F10)
+#define CLASS_3_E51ACFF805209DE9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BDF2D0)
+#define CLASS_3_E51ACFF805209DE9__CTOR_OFFSET UNITYSDK_OFFSET(0x8BDF240)
 
-inline static constexpr unsigned int Class_3_E51ACFF805209DE9_TypeDefinitionIndex = 42838;
+inline static constexpr unsigned int Class_3_E51ACFF805209DE9_TypeDefinitionIndex = 43888;
 
 class Class_3_E51ACFF805209DE9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddWeakness*>
 {

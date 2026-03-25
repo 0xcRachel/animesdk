@@ -3,33 +3,33 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/MiniGameCollectCoinState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_7E8FEE3B70D278FA;
+class Class_1_3440222A86BF3335;
 namespace System { class Action; }
 
-#define CLASS_1_2CF216D11FB56512_CLEAR_OFFSET UNITYSDK_OFFSET(0x161B4880)
-#define CLASS_1_2CF216D11FB56512_GET_STATE_OFFSET UNITYSDK_OFFSET(0x161B4860)
-#define CLASS_1_2CF216D11FB56512_METHOD_1_A1781348F0A89177_OFFSET UNITYSDK_OFFSET(0x161B4930)
-#define CLASS_1_2CF216D11FB56512_ONALLOC_OFFSET UNITYSDK_OFFSET(0x161B49A0)
-#define CLASS_1_2CF216D11FB56512_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x161B4A20)
-#define CLASS_1_2CF216D11FB56512_SET_STATE_OFFSET UNITYSDK_OFFSET(0x161B4870)
-#define CLASS_1_2CF216D11FB56512__CTOR_OFFSET UNITYSDK_OFFSET(0x161B4A60)
+#define CLASS_1_2CF216D11FB56512_CLEAR_OFFSET UNITYSDK_OFFSET(0x1695C1A0)
+#define CLASS_1_2CF216D11FB56512_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1695C180)
+#define CLASS_1_2CF216D11FB56512_METHOD_1_A1781348F0A89177_OFFSET UNITYSDK_OFFSET(0x1695C250)
+#define CLASS_1_2CF216D11FB56512_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1695C2C0)
+#define CLASS_1_2CF216D11FB56512_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1695C340)
+#define CLASS_1_2CF216D11FB56512_SET_STATE_OFFSET UNITYSDK_OFFSET(0x1695C190)
+#define CLASS_1_2CF216D11FB56512__CTOR_OFFSET UNITYSDK_OFFSET(0x1695C380)
 
-inline static constexpr unsigned int Class_1_2CF216D11FB56512_TypeDefinitionIndex = 32498;
+inline static constexpr unsigned int Class_1_2CF216D11FB56512_TypeDefinitionIndex = 33410;
 
 class Class_1_2CF216D11FB56512 : public ::System::Object
 {
 public:
-	::Class_1_7E8FEE3B70D278FA* Field_1_3; // 0x10
-	::System::Action* Field_1_8; // 0x18
-	::Class_1_7E8FEE3B70D278FA* Field_1_4; // 0x20
+	::System::Action* Field_1_8; // 0x10
+	::System::Action* Field_1_9; // 0x18
+	::Class_1_3440222A86BF3335* Field_1_3; // 0x20
 	::System::Action* Field_1_10; // 0x28
-	::System::Action* Field_1_9; // 0x30
+	::Class_1_3440222A86BF3335* Field_1_4; // 0x30
 	::System::UInt32 Field_1_2; // 0x38
-	::RPG::Client::LittleGame::FiveDim::MiniGameCollectCoinState _State_k__BackingField; // 0x3C
-	::System::Single Field_1_7; // 0x40
-	::System::Single Field_1_6; // 0x44
-	::System::Int32 Field_1_1; // 0x48
-	::System::Int32 Field_1_5; // 0x4C
+	::System::Single Field_1_6; // 0x3C
+	::RPG::Client::LittleGame::FiveDim::MiniGameCollectCoinState _State_k__BackingField; // 0x40
+	::System::Int32 Field_1_1; // 0x44
+	::System::Int32 Field_1_5; // 0x48
+	::System::Single Field_1_7; // 0x4C
 
 	::System::Void _ctor()
 	{

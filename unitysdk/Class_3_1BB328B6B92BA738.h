@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ST_Task_1.h"
 
-class Class_2_C14C025AFA60DCA2;
-class Class_2_F32ED1E027A7668B;
+class Class_2_1B29DD4FD6D3A6AB;
+class Class_2_F67FF7EB526BF85C;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ST_Side_LookAtTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1BB328B6B92BA738_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD881720)
-#define CLASS_3_1BB328B6B92BA738_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD881860)
-#define CLASS_3_1BB328B6B92BA738_TICK_OFFSET UNITYSDK_OFFSET(0xD881770)
-#define CLASS_3_1BB328B6B92BA738__CTOR_OFFSET UNITYSDK_OFFSET(0xD881690)
-#define CLASS_3_1BB328B6B92BA738___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xD8818D0)
+#define CLASS_3_1BB328B6B92BA738_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11199290)
+#define CLASS_3_1BB328B6B92BA738_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x111993D0)
+#define CLASS_3_1BB328B6B92BA738_TICK_OFFSET UNITYSDK_OFFSET(0x111992E0)
+#define CLASS_3_1BB328B6B92BA738__CTOR_OFFSET UNITYSDK_OFFSET(0x11199200)
+#define CLASS_3_1BB328B6B92BA738___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x11199440)
 
-inline static constexpr unsigned int Class_3_1BB328B6B92BA738_TypeDefinitionIndex = 41217;
+inline static constexpr unsigned int Class_3_1BB328B6B92BA738_TypeDefinitionIndex = 42260;
 
 class Class_3_1BB328B6B92BA738 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Side_LookAtTarget*>
 {
 public:
-	::Class_2_F32ED1E027A7668B* Field_3_0; // 0x28
-	::RPG::GameCore::GameEntity* Field_3_2; // 0x30
-	::Class_2_C14C025AFA60DCA2* Field_3_1; // 0x38
+	::RPG::GameCore::GameEntity* Field_3_2; // 0x28
+	::Class_2_1B29DD4FD6D3A6AB* Field_3_0; // 0x30
+	::Class_2_F67FF7EB526BF85C* Field_3_1; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_LookAtTarget* a2)
 	{

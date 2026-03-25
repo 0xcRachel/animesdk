@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_XINPUTWINDOWSCHROMEUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x155E26B0)
-#define INCONTROL_UNITYDEVICEPROFILES_XINPUTWINDOWSCHROMEUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x155E3EB0)
+#define INCONTROL_UNITYDEVICEPROFILES_XINPUTWINDOWSCHROMEUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15CFC470)
+#define INCONTROL_UNITYDEVICEPROFILES_XINPUTWINDOWSCHROMEUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CFDC70)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int XInputWindowsChromeUnityProfile_TypeDefinitionIndex = 30767;
+	inline static constexpr unsigned int XInputWindowsChromeUnityProfile_TypeDefinitionIndex = 31642;
 
 	class XInputWindowsChromeUnityProfile : public ::InControl::InputDeviceProfile
 	{

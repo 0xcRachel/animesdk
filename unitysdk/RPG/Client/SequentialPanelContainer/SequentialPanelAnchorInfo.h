@@ -7,21 +7,21 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9F64A80)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA430D30)
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int SequentialPanelAnchorInfo_TypeDefinitionIndex = 59709;
+	inline static constexpr unsigned int SequentialPanelAnchorInfo_TypeDefinitionIndex = 61465;
 
 	class SequentialPanelAnchorInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::RectTransform* AnchorPoint; // 0x10
-		::UnityEngine::Vector2 Offset; // 0x18
+		::RPG::Client::SequentialPanelContainer::AlignmentType Alignment; // 0x18
+		::RPG::Client::SequentialPanelContainer::AlignmentType AnchorPointAlignment; // 0x1C
 		::RPG::Client::SequentialPanelContainer::Direction Direction; // 0x20
 		::System::Single Spacing; // 0x24
-		::RPG::Client::SequentialPanelContainer::AlignmentType Alignment; // 0x28
-		::RPG::Client::SequentialPanelContainer::AlignmentType AnchorPointAlignment; // 0x2C
+		::UnityEngine::Vector2 Offset; // 0x28
 
 		::System::Void _ctor()
 		{

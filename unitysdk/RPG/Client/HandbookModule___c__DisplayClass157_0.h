@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class HandbookModule; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS157_0__ADDROGUESCOREREWARDDATATIMER_B__0_OFFSET UNITYSDK_OFFSET(0x949B740)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS157_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94987A0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS157_0__ADDROGUESCOREREWARDDATATIMER_B__0_OFFSET UNITYSDK_OFFSET(0x991F040)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS157_0__CTOR_OFFSET UNITYSDK_OFFSET(0x991C190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass157_0_TypeDefinitionIndex = 52166;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass157_0_TypeDefinitionIndex = 53302;
 
 	class HandbookModule___c__DisplayClass157_0 : public ::System::Object
 	{

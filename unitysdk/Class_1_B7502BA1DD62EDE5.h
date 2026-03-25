@@ -7,9 +7,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_B7502BA1DD62EDE5_METHOD_1_F66B96B9C0C97E79_OFFSET UNITYSDK_OFFSET(0x10B2F0C0)
+#define CLASS_1_B7502BA1DD62EDE5_METHOD_1_F66B96B9C0C97E79_OFFSET UNITYSDK_OFFSET(0x8DEBAE0)
 
-inline static constexpr unsigned int Class_1_B7502BA1DD62EDE5_TypeDefinitionIndex = 47566;
+inline static constexpr unsigned int Class_1_B7502BA1DD62EDE5_TypeDefinitionIndex = 48647;
 
 class Class_1_B7502BA1DD62EDE5 : public ::System::Object
 {

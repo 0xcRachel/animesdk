@@ -9,21 +9,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NPCMonsterDataRow; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0__CREATENPCMONSTER_B__0_OFFSET UNITYSDK_OFFSET(0x991B6D0)
-#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9914730)
+#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0__CREATENPCMONSTER_B__0_OFFSET UNITYSDK_OFFSET(0x9DFD2C0)
+#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DF6750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCManager___c__DisplayClass3_0_TypeDefinitionIndex = 48055;
+	inline static constexpr unsigned int NPCManager___c__DisplayClass3_0_TypeDefinitionIndex = 49143;
 
 	class NPCManager___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapNpcDef* npcDef; // 0x10
-		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x18
-		::RPG::GameCore::NPCMonsterDataRow* npcMonsterRow; // 0x20
+		::RPG::Client::NPCManager* __4__this; // 0x10
+		::RPG::GameCore::NPCMonsterDataRow* npcMonsterRow; // 0x18
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x20
 		::RPG::Client::AdventurePhase* adventurePhase; // 0x28
-		::RPG::Client::NPCManager* __4__this; // 0x30
+		::RPG::Client::MapNpcDef* npcDef; // 0x30
 
 		::System::Void _ctor()
 		{

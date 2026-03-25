@@ -7,26 +7,26 @@ namespace System::Linq::Expressions::Interpreter { class ExceptionFilter; }
 namespace System::Linq::Expressions::Interpreter { class ExceptionHandler; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_FILTERPASSES_OFFSET UNITYSDK_OFFSET(0x17CFE2E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_GET_ISCATCHBLOCKEXIST_OFFSET UNITYSDK_OFFSET(0x17CFE100)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_GET_ISFINALLYBLOCKEXIST_OFFSET UNITYSDK_OFFSET(0x17CFE0F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_HASHANDLER_OFFSET UNITYSDK_OFFSET(0x17CFE170)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17CFE140)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x17CFE110)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_FILTERPASSES_OFFSET UNITYSDK_OFFSET(0x18515800)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_GET_ISCATCHBLOCKEXIST_OFFSET UNITYSDK_OFFSET(0x18515620)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_GET_ISFINALLYBLOCKEXIST_OFFSET UNITYSDK_OFFSET(0x18515610)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER_HASHANDLER_OFFSET UNITYSDK_OFFSET(0x18515690)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18515660)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_TRYCATCHFINALLYHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18515630)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int TryCatchFinallyHandler_TypeDefinitionIndex = 3454;
+	inline static constexpr unsigned int TryCatchFinallyHandler_TypeDefinitionIndex = 3463;
 
 	class TryCatchFinallyHandler : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Linq::Expressions::Interpreter::ExceptionHandler*>* _handlers; // 0x10
-		::System::Int32 TryEndIndex; // 0x18
-		::System::Int32 FinallyStartIndex; // 0x1C
-		::System::Int32 TryStartIndex; // 0x20
-		::System::Int32 FinallyEndIndex; // 0x24
-		::System::Int32 GotoEndTargetIndex; // 0x28
+		::System::Int32 FinallyEndIndex; // 0x18
+		::System::Int32 TryEndIndex; // 0x1C
+		::System::Int32 FinallyStartIndex; // 0x20
+		::System::Int32 GotoEndTargetIndex; // 0x24
+		::System::Int32 TryStartIndex; // 0x28
 
 		::System::Void _ctor(::System::Int32 tryStart, ::System::Int32 tryEnd, ::System::Int32 gotoEndTargetIndex, ::Il2CppArray<::System::Linq::Expressions::Interpreter::ExceptionHandler*>* handlers)
 		{

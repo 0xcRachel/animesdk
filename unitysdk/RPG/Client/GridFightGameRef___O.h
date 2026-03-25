@@ -8,14 +8,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___O_TypeDefinitionIndex = 51383;
+	inline static constexpr unsigned int GridFightGameRef___O_TypeDefinitionIndex = 52516;
 
 	class GridFightGameRef___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::Class_1_61A00F21DF24BF55*>** StaticGet__0___GetReq()
 		{
-			return (::System::Func_2<::System::String*, ::Class_1_61A00F21DF24BF55*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRef___O_TypeDefinitionIndex)->GetStaticField(0x44A60);
+			return (::System::Func_2<::System::String*, ::Class_1_61A00F21DF24BF55*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRef___O_TypeDefinitionIndex)->GetStaticField(0x1E000);
 		}
 	};
 }

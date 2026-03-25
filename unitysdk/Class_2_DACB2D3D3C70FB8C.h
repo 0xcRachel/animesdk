@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PriorityQueue_1.h"
 
-#define CLASS_2_DACB2D3D3C70FB8C_METHOD_2_D5724FADEFB6F945_OFFSET UNITYSDK_OFFSET(0x109AB500)
-#define CLASS_2_DACB2D3D3C70FB8C__CTOR_OFFSET UNITYSDK_OFFSET(0x109AB4F0)
+#define CLASS_2_DACB2D3D3C70FB8C_METHOD_2_D5724FADEFB6F945_OFFSET UNITYSDK_OFFSET(0x8C19780)
+#define CLASS_2_DACB2D3D3C70FB8C__CTOR_OFFSET UNITYSDK_OFFSET(0x8C19770)
 
-inline static constexpr unsigned int Class_2_DACB2D3D3C70FB8C_TypeDefinitionIndex = 46643;
+inline static constexpr unsigned int Class_2_DACB2D3D3C70FB8C_TypeDefinitionIndex = 47722;
 
 class Class_2_DACB2D3D3C70FB8C : public ::RPG::GameCore::PriorityQueue_1<::System::Boolean>
 {

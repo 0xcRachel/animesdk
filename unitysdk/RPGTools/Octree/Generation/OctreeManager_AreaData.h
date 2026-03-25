@@ -5,11 +5,11 @@
 class Class_1_C84A84118567060F;
 namespace RPGTools::Octree::Generation { class OctreeAreaData; }
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E1950)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB24C20)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeManager_AreaData_TypeDefinitionIndex = 38662;
+	inline static constexpr unsigned int OctreeManager_AreaData_TypeDefinitionIndex = 39642;
 
 	class OctreeManager_AreaData : public ::System::Object
 	{

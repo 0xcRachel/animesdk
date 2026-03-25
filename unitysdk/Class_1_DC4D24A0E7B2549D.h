@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_DC4D24A0E7B2549D__CTOR_OFFSET UNITYSDK_OFFSET(0x10B64150)
+#define CLASS_1_DC4D24A0E7B2549D__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B6A70)
 
-inline static constexpr unsigned int Class_1_DC4D24A0E7B2549D_TypeDefinitionIndex = 44109;
+inline static constexpr unsigned int Class_1_DC4D24A0E7B2549D_TypeDefinitionIndex = 45169;
 
 class Class_1_DC4D24A0E7B2549D : public ::System::Object
 {

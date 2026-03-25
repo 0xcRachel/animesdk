@@ -5,25 +5,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 
-#define RPG_GAMECORE_ACTIVITYPANELCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167A0A40)
-#define RPG_GAMECORE_ACTIVITYPANELCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167A0D60)
+#define RPG_GAMECORE_ACTIVITYPANELCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F17580)
+#define RPG_GAMECORE_ACTIVITYPANELCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F178A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPanelConditionRow_TypeDefinitionIndex = 10416;
+	inline static constexpr unsigned int ActivityPanelConditionRow_TypeDefinitionIndex = 10486;
 
 	class ActivityPanelConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ConditionParam*>* PreConditions; // 0x10
 		::Il2CppArray<::RPG::GameCore::ConditionParam*>* GuideConditions; // 0x18
-		::System::UInt32 GuideTakeMission; // 0x20
+		::System::UInt32 GuideGoto; // 0x20
 		::System::UInt32 PanelID; // 0x24
-		::System::UInt32 GuideGoto; // 0x28
-		::System::Boolean ActivityGotoStoryLineRestore; // 0x2C
-		::System::UInt32 ShopOnlyActivityModule; // 0x30
-		::System::UInt32 ActivityOpenActivityModule; // 0x34
-		::System::UInt32 ActivityGoto; // 0x38
+		::System::UInt32 ActivityOpenActivityModule; // 0x28
+		::System::UInt32 ShopOnlyActivityModule; // 0x2C
+		::System::UInt32 ActivityGoto; // 0x30
+		::System::Boolean ActivityGotoStoryLineRestore; // 0x34
+		::System::UInt32 GuideTakeMission; // 0x38
 
 		::System::Void _ctor()
 		{

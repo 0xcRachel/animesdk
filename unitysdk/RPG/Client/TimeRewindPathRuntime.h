@@ -7,11 +7,11 @@ namespace RPG::Client { class TimeRewindNodeIndexInfo; }
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class TwoKeyDictionary_3; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TIMEREWINDPATHRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA09CA80)
+#define RPG_CLIENT_TIMEREWINDPATHRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C0B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindPathRuntime_TypeDefinitionIndex = 50677;
+	inline static constexpr unsigned int TimeRewindPathRuntime_TypeDefinitionIndex = 51812;
 
 	class TimeRewindPathRuntime : public ::System::Object
 	{

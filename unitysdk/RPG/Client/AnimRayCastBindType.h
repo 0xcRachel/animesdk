@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimRayCastBindType_TypeDefinitionIndex = 48218;
+	inline static constexpr unsigned int AnimRayCastBindType_TypeDefinitionIndex = 49310;
 
 	enum class AnimRayCastBindType : ::System::Int32
 	{

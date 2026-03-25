@@ -7,11 +7,11 @@
 namespace RPG::Client::Subway { class AirlineSubwayWay_MemberRandomConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_BATCHANIMATIONMEMBERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9FDAD60)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_BATCHANIMATIONMEMBERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FDBD0)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationMemberConfig_TypeDefinitionIndex = 62328;
+	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationMemberConfig_TypeDefinitionIndex = 64516;
 
 	class AirlineSubwayWay_BatchAnimationMemberConfig : public ::RPG::Client::Subway::AirlineSubwayWay_MemberConfig
 	{

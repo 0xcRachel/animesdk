@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_70AD061FE2E32537_OFFSET UNITYSDK_OFFSET(0x16891780)
-#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16891F20)
+#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG_METHOD_2_70AD061FE2E32537_OFFSET UNITYSDK_OFFSET(0x16F9F1C0)
+#define RPG_GAMECORE_ATTACKDAMAGETYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F9F960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackDamageTypeConfig_TypeDefinitionIndex = 20732;
+	inline static constexpr unsigned int AttackDamageTypeConfig_TypeDefinitionIndex = 21283;
 
 	class AttackDamageTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

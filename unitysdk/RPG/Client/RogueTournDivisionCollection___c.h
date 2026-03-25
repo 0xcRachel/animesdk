@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournDivisionData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E6B110)
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E6B140)
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C___GENERATEDIVISIONINFO_B__5_0_OFFSET UNITYSDK_OFFSET(0x9E6B150)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA396510)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA396540)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C___GENERATEDIVISIONINFO_B__6_0_OFFSET UNITYSDK_OFFSET(0xA396550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDivisionCollection___c_TypeDefinitionIndex = 53726;
+	inline static constexpr unsigned int RogueTournDivisionCollection___c_TypeDefinitionIndex = 55107;
 
 	class RogueTournDivisionCollection___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0xB430);
-		}
 		static ::RPG::Client::RogueTournDivisionCollection___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournDivisionCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0xB438);
+			return (::RPG::Client::RogueTournDivisionCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0x18690);
+		}
+		static ::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>** StaticGet___9__6_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0x18698);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 __GenerateDivisionInfo_b__5_0(::RPG::Client::RogueTournDivisionData* a, ::RPG::Client::RogueTournDivisionData* b)
+		::System::Int32 __GenerateDivisionInfo_b__6_0(::RPG::Client::RogueTournDivisionData* a, ::RPG::Client::RogueTournDivisionData* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueTournDivisionData*, ::RPG::Client::RogueTournDivisionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C___GENERATEDIVISIONINFO_B__5_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueTournDivisionData*, ::RPG::Client::RogueTournDivisionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C___GENERATEDIVISIONINFO_B__6_0_OFFSET))(this, a, b);
 		}
 	};
 }

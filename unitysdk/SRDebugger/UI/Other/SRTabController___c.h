@@ -5,24 +5,24 @@
 namespace SRDebugger::UI::Other { class SRTab; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C5A580)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C5A5C0)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__SORTTABS_B__21_0_OFFSET UNITYSDK_OFFSET(0x17C5A5D0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18470630)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18470670)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__SORTTABS_B__21_0_OFFSET UNITYSDK_OFFSET(0x18470680)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SRTabController___c_TypeDefinitionIndex = 28784;
+	inline static constexpr unsigned int SRTabController___c_TypeDefinitionIndex = 29659;
 
 	class SRTabController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::SRDebugger::UI::Other::SRTab*>** StaticGet___9__21_0()
-		{
-			return (::System::Comparison_1<::SRDebugger::UI::Other::SRTab*>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController___c_TypeDefinitionIndex)->GetStaticField(0x3D4A0);
-		}
 		static ::SRDebugger::UI::Other::SRTabController___c** StaticGet___9()
 		{
-			return (::SRDebugger::UI::Other::SRTabController___c**)Il2CppClass::FromTypeDefinitionIndex(SRTabController___c_TypeDefinitionIndex)->GetStaticField(0x3D4A8);
+			return (::SRDebugger::UI::Other::SRTabController___c**)Il2CppClass::FromTypeDefinitionIndex(SRTabController___c_TypeDefinitionIndex)->GetStaticField(0x33F00);
+		}
+		static ::System::Comparison_1<::SRDebugger::UI::Other::SRTab*>** StaticGet___9__21_0()
+		{
+			return (::System::Comparison_1<::SRDebugger::UI::Other::SRTab*>**)Il2CppClass::FromTypeDefinitionIndex(SRTabController___c_TypeDefinitionIndex)->GetStaticField(0x33F08);
 		}
 
 		static ::System::Void _cctor()

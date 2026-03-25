@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_277;
+class Class_0_16E4307DCC419505_310;
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10E540A0)
-#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS39_0__SUBMITSTACK_B__0_OFFSET UNITYSDK_OFFSET(0x10E55130)
+#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB4DF80)
+#define CLASS_1_8C728FF5E0D9FC84___C__DISPLAYCLASS39_0__SUBMITSTACK_B__0_OFFSET UNITYSDK_OFFSET(0xCB4F210)
 
-inline static constexpr unsigned int Class_1_8C728FF5E0D9FC84___c__DisplayClass39_0_TypeDefinitionIndex = 39154;
+inline static constexpr unsigned int Class_1_8C728FF5E0D9FC84___c__DisplayClass39_0_TypeDefinitionIndex = 40134;
 
 class Class_1_8C728FF5E0D9FC84___c__DisplayClass39_0 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::Class_0_16E4307DCC419505_277*>* _asyncHandles; // 0x10
+	::RPG::PoolList_1<::Class_0_16E4307DCC419505_310*>* _asyncHandles; // 0x10
 
 	::System::Void _ctor()
 	{

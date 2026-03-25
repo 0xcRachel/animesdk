@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_DISPOSE_OFFSET UNITYSDK_OFFSET(0x97CECF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_6E3C7DCF81428CB3_OFFSET UNITYSDK_OFFSET(0x97CEC10)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_718A8763ABFA070D_OFFSET UNITYSDK_OFFSET(0x97CEAA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064__CTOR_OFFSET UNITYSDK_OFFSET(0x97CA350)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9CB06F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_6E3C7DCF81428CB3_OFFSET UNITYSDK_OFFSET(0x9CB0610)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064_METHOD_1_718A8763ABFA070D_OFFSET UNITYSDK_OFFSET(0x9CB04A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_CLASS_1_0875A0359D7C8064__CTOR_OFFSET UNITYSDK_OFFSET(0x9CABD40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064_TypeDefinitionIndex = 55653;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064_TypeDefinitionIndex = 57217;
 
 	class MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064 : public ::System::Object
 	{
 	public:
-		::System::String* Field_1_5; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_6; // 0x10
 		::UnityEngine::MaterialPropertyBlock* Field_1_2; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_6; // 0x20
+		::System::String* Field_1_5; // 0x20
 		::RPG::GameCore::CharacterReplaceMaterialRender* Field_1_4; // 0x28
 		::Il2CppArray<::System::UInt32>* Field_1_0; // 0x30
 		::Il2CppArray<::UnityEngine::Material*>* Field_1_1; // 0x38

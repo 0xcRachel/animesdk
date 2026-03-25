@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TransitionLoadingType_TypeDefinitionIndex = 15950;
+	inline static constexpr unsigned int TransitionLoadingType_TypeDefinitionIndex = 16227;
 
 	enum class TransitionLoadingType : ::System::Int32
 	{
@@ -22,6 +22,7 @@ namespace RPG::GameCore
 		FramePortalBetweenRotatableRegion = 12,
 		EnterRogueTourn = 13,
 		ExitRogueTourn = 14,
-		ComicPortal = 15,
+		SwitchRogueTourn = 15,
+		ComicPortal = 16,
 	};
 }

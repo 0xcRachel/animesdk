@@ -7,18 +7,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_E8C259E730C95D15_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1648FE80)
-#define CLASS_1_E8C259E730C95D15__CTOR_OFFSET UNITYSDK_OFFSET(0x164900C0)
+#define CLASS_1_E8C259E730C95D15_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x170EFFF0)
+#define CLASS_1_E8C259E730C95D15__CTOR_OFFSET UNITYSDK_OFFSET(0x170F0230)
 
-inline static constexpr unsigned int Class_1_E8C259E730C95D15_TypeDefinitionIndex = 11844;
+inline static constexpr unsigned int Class_1_E8C259E730C95D15_TypeDefinitionIndex = 11914;
 
 class Class_1_E8C259E730C95D15 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FixPoint Field_1_3; // 0x10
-	::RPG::GameCore::FixPoint Field_1_2; // 0x18
-	::RPG::GameCore::HealFormulaType Field_1_0; // 0x20
-	::RPG::GameCore::SkillDamageRange Field_1_1; // 0x24
+	::RPG::GameCore::FixPoint Field_1_2; // 0x10
+	::RPG::GameCore::SkillDamageRange Field_1_1; // 0x18
+	::RPG::GameCore::HealFormulaType Field_1_0; // 0x1C
+	::RPG::GameCore::FixPoint Field_1_3; // 0x20
 
 	::System::Void _ctor()
 	{

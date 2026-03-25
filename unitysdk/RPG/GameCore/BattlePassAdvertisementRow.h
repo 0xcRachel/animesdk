@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168DD660)
-#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168DDD50)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FEE420)
+#define RPG_GAMECORE_BATTLEPASSADVERTISEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FEEB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassAdvertisementRow_TypeDefinitionIndex = 11690;
+	inline static constexpr unsigned int BattlePassAdvertisementRow_TypeDefinitionIndex = 11760;
 
 	class BattlePassAdvertisementRow : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYSTAT_METHOD_2_B1DE72F973BD387C_OFFSET UNITYSDK_OFFSET(0x171087E0)
-#define RPG_GAMECORE_TRAINPARTYSTAT__CTOR_OFFSET UNITYSDK_OFFSET(0x17108940)
+#define RPG_GAMECORE_TRAINPARTYSTAT_METHOD_2_B1DE72F973BD387C_OFFSET UNITYSDK_OFFSET(0x178C47C0)
+#define RPG_GAMECORE_TRAINPARTYSTAT__CTOR_OFFSET UNITYSDK_OFFSET(0x178C4920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStat_TypeDefinitionIndex = 10198;
+	inline static constexpr unsigned int TrainPartyStat_TypeDefinitionIndex = 10202;
 
 	class TrainPartyStat : public ::RPG::GameCore::JsonConfig
 	{

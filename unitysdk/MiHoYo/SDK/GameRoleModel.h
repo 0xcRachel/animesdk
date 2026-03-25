@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x157D3500)
-#define MIHOYO_SDK_GAMEROLEMODEL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1580D6B0)
-#define MIHOYO_SDK_GAMEROLEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1580D790)
+#define MIHOYO_SDK_GAMEROLEMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15EC2460)
+#define MIHOYO_SDK_GAMEROLEMODEL_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15EF3CD0)
+#define MIHOYO_SDK_GAMEROLEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF3DB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 6771;
+	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 6883;
 
 	class GameRoleModel : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::GameRoleModel** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::GameRoleModel**)Il2CppClass::FromTypeDefinitionIndex(GameRoleModel_TypeDefinitionIndex)->GetStaticField(0x16BB0);
+			return (::MiHoYo::SDK::GameRoleModel**)Il2CppClass::FromTypeDefinitionIndex(GameRoleModel_TypeDefinitionIndex)->GetStaticField(0x17040);
 		}
 		::System::String* server_id; // 0x10
 		::System::String* server_name; // 0x18

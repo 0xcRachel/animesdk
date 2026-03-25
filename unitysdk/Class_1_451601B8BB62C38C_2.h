@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_451601B8BB62C38C_2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x11073680)
-#define CLASS_1_451601B8BB62C38C_2__CTOR_OFFSET UNITYSDK_OFFSET(0x110736C0)
+#define CLASS_1_451601B8BB62C38C_2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB8B4530)
+#define CLASS_1_451601B8BB62C38C_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B4570)
 
-inline static constexpr unsigned int Class_1_451601B8BB62C38C_2_TypeDefinitionIndex = 38959;
+inline static constexpr unsigned int Class_1_451601B8BB62C38C_2_TypeDefinitionIndex = 39939;
 
 class Class_1_451601B8BB62C38C_2 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_451601B8BB62C38C_2_TypeDefinitionIndex)->GetStaticField(0x12A60);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_451601B8BB62C38C_2_TypeDefinitionIndex)->GetStaticField(0x130F0);
 	}
 	::System::Int32 Field_1_1; // 0x10
 	::System::Boolean Field_1_0; // 0x14

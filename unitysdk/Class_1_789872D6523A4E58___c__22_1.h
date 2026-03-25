@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 template <typename T> class Class_1_789872D6523A4E58___c__22_1;
 
-inline static constexpr unsigned int Class_1_789872D6523A4E58___c__22_1_TypeDefinitionIndex = 51675;
+inline static constexpr unsigned int Class_1_789872D6523A4E58___c__22_1_TypeDefinitionIndex = 52809;
 
 template <typename T>
 class Class_1_789872D6523A4E58___c__22_1 : public ::System::Object

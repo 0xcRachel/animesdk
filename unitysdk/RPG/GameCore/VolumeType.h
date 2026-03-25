@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VolumeType_TypeDefinitionIndex = 17151;
+	inline static constexpr unsigned int VolumeType_TypeDefinitionIndex = 17556;
 
 	enum class VolumeType : ::System::Int32
 	{

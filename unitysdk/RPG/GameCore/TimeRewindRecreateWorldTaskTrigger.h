@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_TIMEREWINDRECREATEWORLDTASKTRIGGER_METHOD_2_08EF7C74B7F552A7_OFFSET UNITYSDK_OFFSET(0x170F6A30)
-#define RPG_GAMECORE_TIMEREWINDRECREATEWORLDTASKTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x170F6BB0)
+#define RPG_GAMECORE_TIMEREWINDRECREATEWORLDTASKTRIGGER_METHOD_2_08EF7C74B7F552A7_OFFSET UNITYSDK_OFFSET(0x178B4660)
+#define RPG_GAMECORE_TIMEREWINDRECREATEWORLDTASKTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x178B47E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindRecreateWorldTaskTrigger_TypeDefinitionIndex = 18461;
+	inline static constexpr unsigned int TimeRewindRecreateWorldTaskTrigger_TypeDefinitionIndex = 18980;
 
 	class TimeRewindRecreateWorldTaskTrigger : public ::RPG::GameCore::JsonConfig
 	{

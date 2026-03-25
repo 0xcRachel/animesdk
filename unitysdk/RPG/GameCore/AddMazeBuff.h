@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_1F02BE92FA22EFCA_OFFSET UNITYSDK_OFFSET(0x167BB8B0)
-#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_AEBE1A211D5B0CE7_OFFSET UNITYSDK_OFFSET(0x167BB720)
-#define RPG_GAMECORE_ADDMAZEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x167B9210)
+#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_1F02BE92FA22EFCA_OFFSET UNITYSDK_OFFSET(0x16F322E0)
+#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_AEBE1A211D5B0CE7_OFFSET UNITYSDK_OFFSET(0x16F32150)
+#define RPG_GAMECORE_ADDMAZEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2FC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMazeBuff_TypeDefinitionIndex = 18195;
+	inline static constexpr unsigned int AddMazeBuff_TypeDefinitionIndex = 18714;
 
 	class AddMazeBuff : public ::RPG::GameCore::TaskConfig
 	{

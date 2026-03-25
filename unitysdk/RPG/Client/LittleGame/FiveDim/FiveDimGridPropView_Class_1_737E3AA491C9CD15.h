@@ -9,27 +9,27 @@ namespace System { class String; }
 namespace UnityEngine { class BoxCollider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_CLEAR_OFFSET UNITYSDK_OFFSET(0x953FA70)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_AF9F503C79D68F52_OFFSET UNITYSDK_OFFSET(0x953E7A0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_CF8551534BA217CC_OFFSET UNITYSDK_OFFSET(0x953E6C0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15__CTOR_OFFSET UNITYSDK_OFFSET(0x953FB60)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_CLEAR_OFFSET UNITYSDK_OFFSET(0x9A186C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_AF9F503C79D68F52_OFFSET UNITYSDK_OFFSET(0x9A173F0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15_METHOD_1_CF8551534BA217CC_OFFSET UNITYSDK_OFFSET(0x9A17310)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMGRIDPROPVIEW_CLASS_1_737E3AA491C9CD15__CTOR_OFFSET UNITYSDK_OFFSET(0x9A187A0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimGridPropView_Class_1_737E3AA491C9CD15_TypeDefinitionIndex = 60853;
+	inline static constexpr unsigned int FiveDimGridPropView_Class_1_737E3AA491C9CD15_TypeDefinitionIndex = 62851;
 
 	class FiveDimGridPropView_Class_1_737E3AA491C9CD15 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* Field_1_3; // 0x10
+		::System::String* Field_1_5; // 0x10
 		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView* Field_1_6; // 0x18
-		::System::String* Field_1_5; // 0x20
+		::UnityEngine::Transform* Field_1_3; // 0x20
 		::UnityEngine::BoxCollider* Field_1_0; // 0x28
-		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_7; // 0x30
-		::UnityEngine::Vector3 Field_1_2; // 0x34
+		::UnityEngine::Vector3 Field_1_2; // 0x30
+		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_7; // 0x3C
 		::System::Boolean Field_1_4; // 0x40
-		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_8; // 0x44
-		::UnityEngine::Vector3 Field_1_1; // 0x48
+		::UnityEngine::Vector3 Field_1_1; // 0x44
+		::RPG::Client::LittleGame::FiveDim::FiveDimGridPropView_CellWaterReflectionState Field_1_8; // 0x50
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenURLWebViewType_TypeDefinitionIndex = 12103;
+	inline static constexpr unsigned int OpenURLWebViewType_TypeDefinitionIndex = 12173;
 
 	enum class OpenURLWebViewType : ::System::Int32
 	{

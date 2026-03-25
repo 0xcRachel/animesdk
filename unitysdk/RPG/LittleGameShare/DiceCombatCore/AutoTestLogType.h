@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int AutoTestLogType_TypeDefinitionIndex = 27639;
+	inline static constexpr unsigned int AutoTestLogType_TypeDefinitionIndex = 28388;
 
 	enum class AutoTestLogType : ::System::Int32
 	{

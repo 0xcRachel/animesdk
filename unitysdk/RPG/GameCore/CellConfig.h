@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StagePrefabInfo; }
 
-#define RPG_GAMECORE_CELLCONFIG_METHOD_2_E3EF799BDB1156AA_OFFSET UNITYSDK_OFFSET(0x16957D50)
-#define RPG_GAMECORE_CELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16957E20)
+#define RPG_GAMECORE_CELLCONFIG_METHOD_2_E3EF799BDB1156AA_OFFSET UNITYSDK_OFFSET(0x17069500)
+#define RPG_GAMECORE_CELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170695D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CellConfig_TypeDefinitionIndex = 17120;
+	inline static constexpr unsigned int CellConfig_TypeDefinitionIndex = 17525;
 
 	class CellConfig : public ::RPG::GameCore::JsonConfig
 	{

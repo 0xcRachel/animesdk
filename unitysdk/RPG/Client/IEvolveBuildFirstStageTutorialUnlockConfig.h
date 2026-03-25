@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IEvolveBuildFirstStageTutorialUnlockConfig_TypeDefinitionIndex = 50744;
+	inline static constexpr unsigned int IEvolveBuildFirstStageTutorialUnlockConfig_TypeDefinitionIndex = 51879;
 
 	class IEvolveBuildFirstStageTutorialUnlockConfig
 	{

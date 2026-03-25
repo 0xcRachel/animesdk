@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESOURCEDELETIONUSMWHITELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DE8380)
-#define RPG_GAMECORE_RESOURCEDELETIONUSMWHITELISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DE84B0)
+#define RPG_GAMECORE_RESOURCEDELETIONUSMWHITELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175B5510)
+#define RPG_GAMECORE_RESOURCEDELETIONUSMWHITELISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175B5640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResourceDeletionUsmWhitelistRow_TypeDefinitionIndex = 13304;
+	inline static constexpr unsigned int ResourceDeletionUsmWhitelistRow_TypeDefinitionIndex = 13378;
 
 	class ResourceDeletionUsmWhitelistRow : public ::System::Object
 	{

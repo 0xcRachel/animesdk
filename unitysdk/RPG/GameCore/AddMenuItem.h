@@ -9,13 +9,13 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_C86D5AAF1AAF8C66_OFFSET UNITYSDK_OFFSET(0x167BC050)
-#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_E8F5A0D5F47BD219_OFFSET UNITYSDK_OFFSET(0x167BBE90)
-#define RPG_GAMECORE_ADDMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x167BC020)
+#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_C86D5AAF1AAF8C66_OFFSET UNITYSDK_OFFSET(0x16F32A80)
+#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_E8F5A0D5F47BD219_OFFSET UNITYSDK_OFFSET(0x16F328C0)
+#define RPG_GAMECORE_ADDMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16F32A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMenuItem_TypeDefinitionIndex = 18907;
+	inline static constexpr unsigned int AddMenuItem_TypeDefinitionIndex = 19430;
 
 	class AddMenuItem : public ::RPG::GameCore::TaskConfig
 	{

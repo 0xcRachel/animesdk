@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IntervalTree_1_TypeDefinitionIndex = 28987;
+	inline static constexpr unsigned int IntervalTree_1_TypeDefinitionIndex = 29862;
 
 	template <typename T>
 	class IntervalTree_1 : public ::System::Object

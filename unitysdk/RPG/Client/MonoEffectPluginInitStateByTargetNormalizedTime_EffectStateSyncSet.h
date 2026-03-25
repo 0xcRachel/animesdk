@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGININITSTATEBYTARGETNORMALIZEDTIME_EFFECTSTATESYNCSET__CTOR_OFFSET UNITYSDK_OFFSET(0x97FE490)
+#define RPG_CLIENT_MONOEFFECTPLUGININITSTATEBYTARGETNORMALIZEDTIME_EFFECTSTATESYNCSET__CTOR_OFFSET UNITYSDK_OFFSET(0x9CE0950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginInitStateByTargetNormalizedTime_EffectStateSyncSet_TypeDefinitionIndex = 55778;
+	inline static constexpr unsigned int MonoEffectPluginInitStateByTargetNormalizedTime_EffectStateSyncSet_TypeDefinitionIndex = 57343;
 
 	class MonoEffectPluginInitStateByTargetNormalizedTime_EffectStateSyncSet : public ::System::Object
 	{

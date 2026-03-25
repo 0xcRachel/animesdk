@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_9096228DB249994E_METHOD_1_EDD85CC36365D792_OFFSET UNITYSDK_OFFSET(0x8615120)
-#define CLASS_1_9096228DB249994E__CTOR_OFFSET UNITYSDK_OFFSET(0x8615530)
+#define CLASS_1_9096228DB249994E_METHOD_1_EDD85CC36365D792_OFFSET UNITYSDK_OFFSET(0x114598A0)
+#define CLASS_1_9096228DB249994E__CTOR_OFFSET UNITYSDK_OFFSET(0x11459C40)
 
-inline static constexpr unsigned int Class_1_9096228DB249994E_TypeDefinitionIndex = 53855;
+inline static constexpr unsigned int Class_1_9096228DB249994E_TypeDefinitionIndex = 55407;
 
 class Class_1_9096228DB249994E : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9096228DB249994E_TypeDefinitionIndex)->GetStaticField(0x46C80);
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9096228DB249994E_TypeDefinitionIndex)->GetStaticField(0x18ED0);
 	}
 
 	::System::Void _ctor()

@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1689BC90)
-#define RPG_GAMECORE_AVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1689C550)
+#define RPG_GAMECORE_AVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FA96F0)
+#define RPG_GAMECORE_AVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA9FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarBaseTypeRow_TypeDefinitionIndex = 11566;
+	inline static constexpr unsigned int AvatarBaseTypeRow_TypeDefinitionIndex = 11636;
 
 	class AvatarBaseTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* BaseTypeIconSmall; // 0x10
-		::System::String* BaseTypeIcon; // 0x18
-		::System::String* Equipment3DTgaPath; // 0x20
-		::System::String* BgPath; // 0x28
-		::System::String* EquipmentLightMatPath; // 0x30
-		::System::String* BaseTypeIconMiddle; // 0x38
-		::System::String* BaseTypeIconPathTalk; // 0x40
+		::System::String* LightConeCardBackImagePath; // 0x10
+		::System::String* Equipment3DTgaPath; // 0x18
+		::System::String* BgPath; // 0x20
+		::System::String* EquipmentLightMatPath; // 0x28
+		::System::String* BaseTypeIconPathTalk; // 0x30
+		::System::String* BaseTypeIconSmall; // 0x38
+		::System::String* BaseTypeIconMiddle; // 0x40
 		::System::String* FirstWordText; // 0x48
-		::System::String* LightConeCardBackImagePath; // 0x50
-		::RPG::GameCore::AvatarBaseType ID; // 0x58
-		::RPG::Client::TextID BaseTypeText; // 0x60
-		::RPG::Client::TextID BaseTypeDesc; // 0x70
+		::System::String* BaseTypeIcon; // 0x50
+		::RPG::Client::TextID BaseTypeDesc; // 0x58
+		::RPG::Client::TextID BaseTypeText; // 0x68
+		::RPG::GameCore::AvatarBaseType ID; // 0x78
 
 		::System::Void _ctor()
 		{

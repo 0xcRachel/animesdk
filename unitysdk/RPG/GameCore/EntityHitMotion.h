@@ -5,20 +5,20 @@
 
 namespace RPG::GameCore { class HitMotionParams; }
 
-#define RPG_GAMECORE_ENTITYHITMOTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA3B2CB0)
-#define RPG_GAMECORE_ENTITYHITMOTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA3B2C70)
-#define RPG_GAMECORE_ENTITYHITMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA3B2C60)
+#define RPG_GAMECORE_ENTITYHITMOTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA8ED820)
+#define RPG_GAMECORE_ENTITYHITMOTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA8ED7E0)
+#define RPG_GAMECORE_ENTITYHITMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA8ED7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityHitMotion_TypeDefinitionIndex = 44520;
+	inline static constexpr unsigned int EntityHitMotion_TypeDefinitionIndex = 45581;
 
 	class EntityHitMotion : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::HitMotionParams* MotionParams; // 0x10
-		::System::UInt32 _EntityRuntimeID; // 0x18
-		::System::Single FreezeTime; // 0x1C
+		::System::Single FreezeTime; // 0x18
+		::System::UInt32 _EntityRuntimeID; // 0x1C
 		::System::Boolean IgnoreHeightCheck; // 0x20
 
 		::System::Void _ctor(::System::UInt32 nEntityRuntimeID)

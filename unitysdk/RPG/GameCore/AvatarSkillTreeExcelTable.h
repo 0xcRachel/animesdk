@@ -21,80 +21,80 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x168BF150)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_BUILDOVERRIDESKILLLISTV2_OFFSET UNITYSDK_OFFSET(0x168C1380)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_BUILDOVERRIDESKILLLIST_OFFSET UNITYSDK_OFFSET(0x168B58A0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETAVATARSKILLTREEIDLIST_OFFSET UNITYSDK_OFFSET(0x168C0EB0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168BF220)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168BEF30)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x168BEAB0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETPOINTTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x168C0E50)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168BEC80)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168BEEC0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168BF5D0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168BED00)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x168BF810)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x168BEC10)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x168BF2D0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x168C1570)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168BF610)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168C0930)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168C0980)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__ADDROWTOAVATARSKILLTREEIDMAP_OFFSET UNITYSDK_OFFSET(0x168C1150)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168C15B0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168C08D0)
-#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168BF7B0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x16FCCCF0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_BUILDOVERRIDESKILLLISTV2_OFFSET UNITYSDK_OFFSET(0x16FCEEC0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_BUILDOVERRIDESKILLLIST_OFFSET UNITYSDK_OFFSET(0x16FC33E0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETAVATARSKILLTREEIDLIST_OFFSET UNITYSDK_OFFSET(0x16FCEA50)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FCCDC0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FCCAD0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x16FCC650)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GETPOINTTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x16FCE9F0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FCC820)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FCCA60)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FCD170)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FCC8A0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x16FCD3B0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x16FCC7B0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x16FCCE70)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16FCF0B0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FCD1B0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FCE4D0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FCE520)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__ADDROWTOAVATARSKILLTREEIDMAP_OFFSET UNITYSDK_OFFSET(0x16FCECF0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FCF0F0)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FCE470)
+#define RPG_GAMECORE_AVATARSKILLTREEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FCD350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillTreeExcelTable_TypeDefinitionIndex = 11543;
+	inline static constexpr unsigned int AvatarSkillTreeExcelTable_TypeDefinitionIndex = 11613;
 
 	class AvatarSkillTreeExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::RPG::GameCore::AvatarSkillTreePointTriggerKey>** StaticGet_MemoryTriggerKeyList()
 		{
-			return (::Il2CppArray<::RPG::GameCore::AvatarSkillTreePointTriggerKey>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250C0);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250C8);
-		}
-		static ::System::String** StaticGet_srcFileName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250D0);
-		}
-		static ::Class_2_238EB93629797DE5** StaticGet_headers()
-		{
-			return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250D8);
+			return (::Il2CppArray<::RPG::GameCore::AvatarSkillTreePointTriggerKey>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A20);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A28);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet_dataDict_()
+		static ::System::String** StaticGet_srcFileName()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250E8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A30);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250F0);
-		}
-		static ::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet_LRUCache()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x250F8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A38);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarIndex, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>** StaticGet_avatarSkillTreeIdMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarIndex, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x25100);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarIndex, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A40);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A48);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A50);
+		}
+		static ::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet_LRUCache()
+		{
+			return (::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::AvatarSkillTreeExcelTable_IndexKey, ::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A58);
+		}
+		static ::Class_2_238EB93629797DE5** StaticGet_headers()
+		{
+			return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x18A60);
 		}
 		static ::System::Boolean* StaticGet_IsLoadReverseMap()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x7C50);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x94A0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x7C51);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarSkillTreeExcelTable_TypeDefinitionIndex)->GetStaticField(0x94A1);
 		}
 
 		static ::System::Void _cctor()

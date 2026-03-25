@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ICustomMarshaler_TypeDefinitionIndex = 1414;
+	inline static constexpr unsigned int ICustomMarshaler_TypeDefinitionIndex = 1419;
 
 	class ICustomMarshaler
 	{

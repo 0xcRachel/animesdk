@@ -11,7 +11,7 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_REFLECTION_BINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15CB5BE0)
+#define SYSTEM_REFLECTION_BINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1637EBD0)
 
 namespace System::Reflection
 {

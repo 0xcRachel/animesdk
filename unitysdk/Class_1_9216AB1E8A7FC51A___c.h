@@ -6,27 +6,27 @@
 namespace RPGTools::Timeline::Discussion { class SwitchAnchorData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_9216AB1E8A7FC51A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8D41D80)
-#define CLASS_1_9216AB1E8A7FC51A___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8D41DC0)
-#define CLASS_1_9216AB1E8A7FC51A___C__GETCLIPANCHORINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0x8D41DD0)
-#define CLASS_1_9216AB1E8A7FC51A___C__GETCLIPANCHORINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0x8D41DF0)
+#define CLASS_1_9216AB1E8A7FC51A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EE80E0)
+#define CLASS_1_9216AB1E8A7FC51A___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE8120)
+#define CLASS_1_9216AB1E8A7FC51A___C__GETCLIPANCHORINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0x9EE8130)
+#define CLASS_1_9216AB1E8A7FC51A___C__GETCLIPANCHORINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0x9EE8150)
 
-inline static constexpr unsigned int Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex = 38302;
+inline static constexpr unsigned int Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex = 39282;
 
 class Class_1_9216AB1E8A7FC51A___c : public ::System::Object
 {
 public:
 	static ::Class_1_9216AB1E8A7FC51A___c** StaticGet___9()
 	{
-		return (::Class_1_9216AB1E8A7FC51A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex)->GetStaticField(0x3C6F0);
+		return (::Class_1_9216AB1E8A7FC51A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex)->GetStaticField(0x43AA0);
 	}
 	static ::System::Func_2<::RPGTools::Timeline::Discussion::SwitchAnchorData*, ::System::Boolean>** StaticGet___9__12_0()
 	{
-		return (::System::Func_2<::RPGTools::Timeline::Discussion::SwitchAnchorData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex)->GetStaticField(0x3C6F8);
+		return (::System::Func_2<::RPGTools::Timeline::Discussion::SwitchAnchorData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex)->GetStaticField(0x43AA8);
 	}
 	static ::System::Func_2<::RPGTools::Timeline::Discussion::RelativeTransform, ::System::Boolean>** StaticGet___9__12_1()
 	{
-		return (::System::Func_2<::RPGTools::Timeline::Discussion::RelativeTransform, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex)->GetStaticField(0x3C700);
+		return (::System::Func_2<::RPGTools::Timeline::Discussion::RelativeTransform, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A___c_TypeDefinitionIndex)->GetStaticField(0x43AB0);
 	}
 
 	static ::System::Void _cctor()

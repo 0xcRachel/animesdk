@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PINGPONGDROPITEMINFO_METHOD_2_DE6E50B721251AEA_OFFSET UNITYSDK_OFFSET(0x16D3B4A0)
-#define RPG_GAMECORE_PINGPONGDROPITEMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3B640)
+#define RPG_GAMECORE_PINGPONGDROPITEMINFO_METHOD_2_DE6E50B721251AEA_OFFSET UNITYSDK_OFFSET(0x174C32F0)
+#define RPG_GAMECORE_PINGPONGDROPITEMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x174C3490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongDropItemInfo_TypeDefinitionIndex = 15301;
+	inline static constexpr unsigned int PingPongDropItemInfo_TypeDefinitionIndex = 15557;
 
 	class PingPongDropItemInfo : public ::RPG::GameCore::JsonConfig
 	{

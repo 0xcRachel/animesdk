@@ -7,11 +7,11 @@ namespace RPG::Client { class StageHarmonyVelocitySignalBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_STAGEHARMONYVELOCITYSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9FB6C50)
+#define RPG_CLIENT_STAGEHARMONYVELOCITYSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA4D93E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyVelocitySignalMonoPlugin_TypeDefinitionIndex = 56581;
+	inline static constexpr unsigned int StageHarmonyVelocitySignalMonoPlugin_TypeDefinitionIndex = 58166;
 
 	class StageHarmonyVelocitySignalMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyVelocitySignalBehavior*>
 	{

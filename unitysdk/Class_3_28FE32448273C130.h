@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_28FE32448273C130_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1008B050)
-#define CLASS_3_28FE32448273C130__CTOR_OFFSET UNITYSDK_OFFSET(0x1008B020)
+#define CLASS_3_28FE32448273C130_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D991C0)
+#define CLASS_3_28FE32448273C130__CTOR_OFFSET UNITYSDK_OFFSET(0x8D99190)
 
-inline static constexpr unsigned int Class_3_28FE32448273C130_TypeDefinitionIndex = 43233;
+inline static constexpr unsigned int Class_3_28FE32448273C130_TypeDefinitionIndex = 44285;
 
 class Class_3_28FE32448273C130 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetActionDelay*>
 {

@@ -8,7 +8,7 @@ namespace RPG::Client::NavMap { class ICartographerIdentifier; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMapIconTrackSnapshot_TypeDefinitionIndex = 49933;
+	inline static constexpr unsigned int IMapIconTrackSnapshot_TypeDefinitionIndex = 51065;
 
 	class IMapIconTrackSnapshot
 	{

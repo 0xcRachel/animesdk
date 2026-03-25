@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FF220487FAB45279;
+class Class_1_B1FF62FAE312BC49_2;
 
-#define CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA458C10)
-#define CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0___GETPEAKDATA_B__0_OFFSET UNITYSDK_OFFSET(0xA458FA0)
+#define CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118117F0)
+#define CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0___GETPEAKDATA_B__0_OFFSET UNITYSDK_OFFSET(0x11811B80)
 
-inline static constexpr unsigned int Class_1_B1806EDD70E233D6___c__DisplayClass50_0_TypeDefinitionIndex = 50144;
+inline static constexpr unsigned int Class_1_B1806EDD70E233D6___c__DisplayClass50_0_TypeDefinitionIndex = 51277;
 
 class Class_1_B1806EDD70E233D6___c__DisplayClass50_0 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __GetPeakData_b__0(::Class_1_FF220487FAB45279* data)
+	::System::Boolean __GetPeakData_b__0(::Class_1_B1FF62FAE312BC49_2* data)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_FF220487FAB45279*))((::PBYTE)hIl2Cpp + CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0___GETPEAKDATA_B__0_OFFSET))(this, data);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_B1FF62FAE312BC49_2*))((::PBYTE)hIl2Cpp + CLASS_1_B1806EDD70E233D6___C__DISPLAYCLASS50_0___GETPEAKDATA_B__0_OFFSET))(this, data);
 	}
 };

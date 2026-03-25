@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TOKENHASHVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4DCA0)
+#define SYSTEM_GLOBALIZATION_TOKENHASHVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x163160E0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TokenHashValue_TypeDefinitionIndex = 740;
+	inline static constexpr unsigned int TokenHashValue_TypeDefinitionIndex = 741;
 
 	class TokenHashValue : public ::System::Object
 	{

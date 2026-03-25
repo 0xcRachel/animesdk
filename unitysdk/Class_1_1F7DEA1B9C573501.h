@@ -4,20 +4,20 @@
 
 namespace RPG { template <typename T> class PoolHashSet_1; }
 
-#define CLASS_1_1F7DEA1B9C573501_CLEAR_OFFSET UNITYSDK_OFFSET(0x16353010)
-#define CLASS_1_1F7DEA1B9C573501_ONALLOC_OFFSET UNITYSDK_OFFSET(0x16353090)
-#define CLASS_1_1F7DEA1B9C573501_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x16353160)
-#define CLASS_1_1F7DEA1B9C573501__CTOR_OFFSET UNITYSDK_OFFSET(0x163531A0)
+#define CLASS_1_1F7DEA1B9C573501_CLEAR_OFFSET UNITYSDK_OFFSET(0x16A63C50)
+#define CLASS_1_1F7DEA1B9C573501_ONALLOC_OFFSET UNITYSDK_OFFSET(0x16A63CD0)
+#define CLASS_1_1F7DEA1B9C573501_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x16A63DA0)
+#define CLASS_1_1F7DEA1B9C573501__CTOR_OFFSET UNITYSDK_OFFSET(0x16A63DE0)
 
-inline static constexpr unsigned int Class_1_1F7DEA1B9C573501_TypeDefinitionIndex = 32596;
+inline static constexpr unsigned int Class_1_1F7DEA1B9C573501_TypeDefinitionIndex = 33519;
 
 class Class_1_1F7DEA1B9C573501 : public ::System::Object
 {
 public:
-	::RPG::PoolHashSet_1<::System::Int32>* Field_1_2; // 0x10
-	::RPG::PoolHashSet_1<::System::Int32>* Field_1_3; // 0x18
-	::System::Boolean Field_1_0; // 0x20
-	::System::Boolean Field_1_1; // 0x21
+	::RPG::PoolHashSet_1<::System::Int32>* Field_1_3; // 0x10
+	::RPG::PoolHashSet_1<::System::Int32>* Field_1_2; // 0x18
+	::System::Boolean Field_1_1; // 0x20
+	::System::Boolean Field_1_0; // 0x21
 
 	::System::Void _ctor()
 	{

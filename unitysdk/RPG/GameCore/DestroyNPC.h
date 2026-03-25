@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupEntityInfo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DESTROYNPC_METHOD_3_6709E7826F7B1E26_OFFSET UNITYSDK_OFFSET(0x169EC6C0)
-#define RPG_GAMECORE_DESTROYNPC_METHOD_3_83F3940585530C20_OFFSET UNITYSDK_OFFSET(0x169EC740)
-#define RPG_GAMECORE_DESTROYNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x169EC710)
+#define RPG_GAMECORE_DESTROYNPC_METHOD_3_6709E7826F7B1E26_OFFSET UNITYSDK_OFFSET(0x17168650)
+#define RPG_GAMECORE_DESTROYNPC_METHOD_3_B0A4FDDCCE7CE880_OFFSET UNITYSDK_OFFSET(0x171686D0)
+#define RPG_GAMECORE_DESTROYNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x171686A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyNPC_TypeDefinitionIndex = 19590;
+	inline static constexpr unsigned int DestroyNPC_TypeDefinitionIndex = 20118;
 
 	class DestroyNPC : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPC_METHOD_3_6709E7826F7B1E26_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_83F3940585530C20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPC* a2)
+		static ::System::Void Method_3_B0A4FDDCCE7CE880(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPC* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPC_METHOD_3_83F3940585530C20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPC_METHOD_3_B0A4FDDCCE7CE880_OFFSET))(a1, a2);
 		}
 	};
 }

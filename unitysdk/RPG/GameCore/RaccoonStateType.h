@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaccoonStateType_TypeDefinitionIndex = 10604;
+	inline static constexpr unsigned int RaccoonStateType_TypeDefinitionIndex = 10672;
 
 	enum class RaccoonStateType : ::System::Int32
 	{

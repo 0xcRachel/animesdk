@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/LoadingStrategyPriority.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_348;
+class Class_0_16E4307DCC419505_376;
 
-#define CLASS_1_E96962A8A90B759E_CLASS_1_486E6CFC7A35CD34__CTOR_OFFSET UNITYSDK_OFFSET(0x86B0410)
+#define CLASS_1_E96962A8A90B759E_CLASS_1_486E6CFC7A35CD34__CTOR_OFFSET UNITYSDK_OFFSET(0x105E29C0)
 
-inline static constexpr unsigned int Class_1_E96962A8A90B759E_Class_1_486E6CFC7A35CD34_TypeDefinitionIndex = 47877;
+inline static constexpr unsigned int Class_1_E96962A8A90B759E_Class_1_486E6CFC7A35CD34_TypeDefinitionIndex = 48959;
 
 class Class_1_E96962A8A90B759E_Class_1_486E6CFC7A35CD34 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_348* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_376* Field_1_0; // 0x10
 	::RPG::Client::LoadingStrategyPriority Field_1_1; // 0x18
 
 	::System::Void _ctor()

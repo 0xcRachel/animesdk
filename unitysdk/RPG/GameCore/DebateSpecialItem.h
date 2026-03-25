@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEBATESPECIALITEM_METHOD_2_80B1C5B732671A79_OFFSET UNITYSDK_OFFSET(0x169E5430)
-#define RPG_GAMECORE_DEBATESPECIALITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x169E5560)
+#define RPG_GAMECORE_DEBATESPECIALITEM_METHOD_2_80B1C5B732671A79_OFFSET UNITYSDK_OFFSET(0x171612C0)
+#define RPG_GAMECORE_DEBATESPECIALITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x171613F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateSpecialItem_TypeDefinitionIndex = 19570;
+	inline static constexpr unsigned int DebateSpecialItem_TypeDefinitionIndex = 20098;
 
 	class DebateSpecialItem : public ::RPG::GameCore::JsonConfig
 	{

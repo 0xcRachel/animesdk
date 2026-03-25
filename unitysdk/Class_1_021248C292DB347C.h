@@ -8,9 +8,9 @@ class Class_2_3ABA989E5AECB261;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceAbilityConfig; }
 
-#define CLASS_1_021248C292DB347C_METHOD_1_8F0AB521760D8DE1_OFFSET UNITYSDK_OFFSET(0x15EFC730)
+#define CLASS_1_021248C292DB347C_METHOD_1_8F0AB521760D8DE1_OFFSET UNITYSDK_OFFSET(0x1666E7F0)
 
-inline static constexpr unsigned int Class_1_021248C292DB347C_TypeDefinitionIndex = 28139;
+inline static constexpr unsigned int Class_1_021248C292DB347C_TypeDefinitionIndex = 29011;
 
 class Class_1_021248C292DB347C : public ::System::Object
 {

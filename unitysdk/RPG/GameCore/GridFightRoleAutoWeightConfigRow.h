@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B43370)
-#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B43550)
+#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17291A70)
+#define RPG_GAMECORE_GRIDFIGHTROLEAUTOWEIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17291C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleAutoWeightConfigRow_TypeDefinitionIndex = 12300;
+	inline static constexpr unsigned int GridFightRoleAutoWeightConfigRow_TypeDefinitionIndex = 12370;
 
 	class GridFightRoleAutoWeightConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean IsDamageEnhancedByEquip; // 0x10
-		::System::UInt32 RoleID; // 0x14
-		::RPG::GameCore::FixPoint OverWriteDamageCarry; // 0x18
+		::RPG::GameCore::FixPoint OverWriteDamageCarry; // 0x10
+		::System::Boolean IsDamageEnhancedByEquip; // 0x18
+		::System::UInt32 RoleID; // 0x1C
 
 		::System::Void _ctor()
 		{

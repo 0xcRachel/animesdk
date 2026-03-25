@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::P2P { class AddNotifyIncomingPacketQueueFullOpti
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_ADDNOTIFYINCOMINGPACKETQUEUEFULLOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYINCOMINGPACKETQUEUEFULLOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x55B80)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYINCOMINGPACKETQUEUEFULLOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x55D10)
 #define EPIC_ONLINESERVICES_P2P_ADDNOTIFYINCOMINGPACKETQUEUEFULLOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int AddNotifyIncomingPacketQueueFullOptionsInternal_TypeDefinitionIndex = 34936;
+	inline static constexpr unsigned int AddNotifyIncomingPacketQueueFullOptionsInternal_TypeDefinitionIndex = 35870;
 
 	struct alignas(4) AddNotifyIncomingPacketQueueFullOptionsInternal
 	{

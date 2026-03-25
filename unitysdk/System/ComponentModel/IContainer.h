@@ -5,7 +5,7 @@ namespace System::ComponentModel { class IComponent; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IContainer_TypeDefinitionIndex = 2583;
+	inline static constexpr unsigned int IContainer_TypeDefinitionIndex = 2588;
 
 	class IContainer
 	{

@@ -8,16 +8,16 @@ namespace UnityEngine::Playables { class PlayableAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8F57510)
-#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x8F5DFC0)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x99F70C0)
+#define CLASS_2_D533150DA9942A27___C__DISPLAYCLASS4_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x99FDF40)
 
-inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_1_TypeDefinitionIndex = 44257;
+inline static constexpr unsigned int Class_2_D533150DA9942A27___c__DisplayClass4_1_TypeDefinitionIndex = 45317;
 
 class Class_2_D533150DA9942A27___c__DisplayClass4_1 : public ::System::Object
 {
 public:
-	::Class_2_D533150DA9942A27* __4__this; // 0x10
-	::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks; // 0x18
+	::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks; // 0x10
+	::Class_2_D533150DA9942A27* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

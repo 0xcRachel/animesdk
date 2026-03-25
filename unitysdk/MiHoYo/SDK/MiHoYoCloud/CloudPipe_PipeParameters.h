@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_PIPEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1585CA10)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE_PIPEPARAMETERS__CTOR_OFFSET UNITYSDK_OFFSET(0x15F423B0)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe_PipeParameters_TypeDefinitionIndex = 7621;
+	inline static constexpr unsigned int CloudPipe_PipeParameters_TypeDefinitionIndex = 7744;
 
 	class CloudPipe_PipeParameters : public ::System::Object
 	{

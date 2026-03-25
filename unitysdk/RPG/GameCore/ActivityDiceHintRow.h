@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYDICEHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16787F00)
-#define RPG_GAMECORE_ACTIVITYDICEHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16788080)
+#define RPG_GAMECORE_ACTIVITYDICEHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EBDD20)
+#define RPG_GAMECORE_ACTIVITYDICEHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBDEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceHintRow_TypeDefinitionIndex = 10487;
+	inline static constexpr unsigned int ActivityDiceHintRow_TypeDefinitionIndex = 10555;
 
 	class ActivityDiceHintRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::RPG::Client::TextID Content; // 0x18
+		::RPG::Client::TextID Content; // 0x10
+		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()
 		{

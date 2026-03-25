@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Reflection { class Assembly; }
 
-#define RPG_CUSTOMRP_RPUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163D7D50)
-#define RPG_CUSTOMRP_RPUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163D7D90)
-#define RPG_CUSTOMRP_RPUTILITY___C__GETALLASSEMBLYTYPES_B__128_0_OFFSET UNITYSDK_OFFSET(0x163D7DA0)
+#define RPG_CUSTOMRP_RPUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AE69D0)
+#define RPG_CUSTOMRP_RPUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16AE6A10)
+#define RPG_CUSTOMRP_RPUTILITY___C__GETALLASSEMBLYTYPES_B__128_0_OFFSET UNITYSDK_OFFSET(0x16AE6A20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUtility___c_TypeDefinitionIndex = 28624;
+	inline static constexpr unsigned int RPUtility___c_TypeDefinitionIndex = 29499;
 
 	class RPUtility___c : public ::System::Object
 	{
 	public:
 		static ::RPG::CustomRP::RPUtility___c** StaticGet___9()
 		{
-			return (::RPG::CustomRP::RPUtility___c**)Il2CppClass::FromTypeDefinitionIndex(RPUtility___c_TypeDefinitionIndex)->GetStaticField(0x393D0);
+			return (::RPG::CustomRP::RPUtility___c**)Il2CppClass::FromTypeDefinitionIndex(RPUtility___c_TypeDefinitionIndex)->GetStaticField(0x2CF30);
 		}
 		static ::System::Func_2<::System::Reflection::Assembly*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*>** StaticGet___9__128_0()
 		{
-			return (::System::Func_2<::System::Reflection::Assembly*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility___c_TypeDefinitionIndex)->GetStaticField(0x393D8);
+			return (::System::Func_2<::System::Reflection::Assembly*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility___c_TypeDefinitionIndex)->GetStaticField(0x2CF38);
 		}
 
 		static ::System::Void _cctor()

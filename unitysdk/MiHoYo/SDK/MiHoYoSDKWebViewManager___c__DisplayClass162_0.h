@@ -6,23 +6,23 @@ namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__CTOR_OFFSET UNITYSDK_OFFSET(0x81FA550)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__PLAYSHOWWEBANIMATIONFORISR_B__0_OFFSET UNITYSDK_OFFSET(0x8213DB0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__PLAYSHOWWEBANIMATIONFORISR_B__1_OFFSET UNITYSDK_OFFSET(0x8213DF0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__PLAYSHOWWEBANIMATIONFORISR_B__2_OFFSET UNITYSDK_OFFSET(0x82144D0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__CTOR_OFFSET UNITYSDK_OFFSET(0x854C280)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__PLAYSHOWWEBANIMATIONFORISR_B__0_OFFSET UNITYSDK_OFFSET(0x8562FF0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__PLAYSHOWWEBANIMATIONFORISR_B__1_OFFSET UNITYSDK_OFFSET(0x8563030)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS162_0__PLAYSHOWWEBANIMATIONFORISR_B__2_OFFSET UNITYSDK_OFFSET(0x8563710)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass162_0_TypeDefinitionIndex = 36373;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass162_0_TypeDefinitionIndex = 37309;
 
 	class MiHoYoSDKWebViewManager___c__DisplayClass162_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
+		::MiHoYo::SDK::MiHoYoSDKWebViewManager* __4__this; // 0x10
 		::System::String* animationStage2; // 0x18
-		::MiHoYo::SDK::MiHoYoSDKWebViewManager* __4__this; // 0x20
-		::System::Boolean needHideNaviBar; // 0x28
-		::System::Boolean hasStage2; // 0x29
+		::System::Action* __9__2; // 0x20
+		::System::Boolean hasStage2; // 0x28
+		::System::Boolean needHideNaviBar; // 0x29
 
 		::System::Void _ctor()
 		{

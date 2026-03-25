@@ -8,27 +8,27 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAnimState; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_2_DAB8355A2CB27364_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8A245C0)
-#define CLASS_2_DAB8355A2CB27364_METHOD_2_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0x8A25500)
-#define CLASS_2_DAB8355A2CB27364_METHOD_2_F31A78859F2EF3C9_OFFSET UNITYSDK_OFFSET(0x8A25320)
-#define CLASS_2_DAB8355A2CB27364_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A24600)
-#define CLASS_2_DAB8355A2CB27364_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8A25000)
-#define CLASS_2_DAB8355A2CB27364_TICK_OFFSET UNITYSDK_OFFSET(0x8A250C0)
-#define CLASS_2_DAB8355A2CB27364__CTOR_OFFSET UNITYSDK_OFFSET(0x8A24520)
+#define CLASS_2_DAB8355A2CB27364_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99DCA30)
+#define CLASS_2_DAB8355A2CB27364_METHOD_2_123DFB09BD2C9B9E_OFFSET UNITYSDK_OFFSET(0x99DD950)
+#define CLASS_2_DAB8355A2CB27364_METHOD_2_F31A78859F2EF3C9_OFFSET UNITYSDK_OFFSET(0x99DD770)
+#define CLASS_2_DAB8355A2CB27364_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99DCA70)
+#define CLASS_2_DAB8355A2CB27364_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x99DD450)
+#define CLASS_2_DAB8355A2CB27364_TICK_OFFSET UNITYSDK_OFFSET(0x99DD510)
+#define CLASS_2_DAB8355A2CB27364__CTOR_OFFSET UNITYSDK_OFFSET(0x99DC990)
 
-inline static constexpr unsigned int Class_2_DAB8355A2CB27364_TypeDefinitionIndex = 43574;
+inline static constexpr unsigned int Class_2_DAB8355A2CB27364_TypeDefinitionIndex = 44630;
 
 class Class_2_DAB8355A2CB27364 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	::Struct_2_CC45B4503679E14E Field_2_6; // 0x18
-	::UnityEngine::Animator* Field_2_4; // 0x28
-	::RPG::GameCore::TriggerAnimState* Field_2_0; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x38
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x40
-	::System::Int32 Field_2_5; // 0x48
-	::System::UInt32 Field_2_3; // 0x4C
-	::System::Boolean Field_2_7; // 0x50
+	::RPG::GameCore::TriggerAnimState* Field_2_0; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x30
+	::UnityEngine::Animator* Field_2_4; // 0x38
+	::RPG::GameCore::GameEntity* Field_2_2; // 0x40
+	::System::UInt32 Field_2_3; // 0x48
+	::System::Boolean Field_2_7; // 0x4C
+	::System::Int32 Field_2_5; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerAnimState* a2)
 	{

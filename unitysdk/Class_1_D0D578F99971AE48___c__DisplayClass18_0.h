@@ -4,10 +4,10 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define CLASS_1_D0D578F99971AE48___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10531D10)
-#define CLASS_1_D0D578F99971AE48___C__DISPLAYCLASS18_0___WAITFADEIN_B__0_OFFSET UNITYSDK_OFFSET(0x10532350)
+#define CLASS_1_D0D578F99971AE48___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1069BE80)
+#define CLASS_1_D0D578F99971AE48___C__DISPLAYCLASS18_0___WAITFADEIN_B__0_OFFSET UNITYSDK_OFFSET(0x1069C4C0)
 
-inline static constexpr unsigned int Class_1_D0D578F99971AE48___c__DisplayClass18_0_TypeDefinitionIndex = 60235;
+inline static constexpr unsigned int Class_1_D0D578F99971AE48___c__DisplayClass18_0_TypeDefinitionIndex = 62205;
 
 class Class_1_D0D578F99971AE48___c__DisplayClass18_0 : public ::System::Object
 {

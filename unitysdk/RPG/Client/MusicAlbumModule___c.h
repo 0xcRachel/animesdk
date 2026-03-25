@@ -5,24 +5,24 @@
 namespace RPG::Client { class MusicAlbumGroupData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MUSICALBUMMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98F5EE0)
-#define RPG_CLIENT_MUSICALBUMMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98F5F20)
-#define RPG_CLIENT_MUSICALBUMMODULE___C__GETUNLOCKMUSICALBUMGROUPDATAS_B__10_0_OFFSET UNITYSDK_OFFSET(0x98F5F30)
+#define RPG_CLIENT_MUSICALBUMMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DD8220)
+#define RPG_CLIENT_MUSICALBUMMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DD8260)
+#define RPG_CLIENT_MUSICALBUMMODULE___C__GETUNLOCKMUSICALBUMGROUPDATAS_B__10_0_OFFSET UNITYSDK_OFFSET(0x9DD8270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicAlbumModule___c_TypeDefinitionIndex = 52845;
+	inline static constexpr unsigned int MusicAlbumModule___c_TypeDefinitionIndex = 53982;
 
 	class MusicAlbumModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::MusicAlbumGroupData*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MusicAlbumGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(MusicAlbumModule___c_TypeDefinitionIndex)->GetStaticField(0x42120);
+			return (::System::Comparison_1<::RPG::Client::MusicAlbumGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(MusicAlbumModule___c_TypeDefinitionIndex)->GetStaticField(0x466D0);
 		}
 		static ::RPG::Client::MusicAlbumModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::MusicAlbumModule___c**)Il2CppClass::FromTypeDefinitionIndex(MusicAlbumModule___c_TypeDefinitionIndex)->GetStaticField(0x42128);
+			return (::RPG::Client::MusicAlbumModule___c**)Il2CppClass::FromTypeDefinitionIndex(MusicAlbumModule___c_TypeDefinitionIndex)->GetStaticField(0x466D8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureFeatureNormalActiveReason_TypeDefinitionIndex = 44849;
+	inline static constexpr unsigned int AdventureFeatureNormalActiveReason_TypeDefinitionIndex = 45910;
 
 	enum class AdventureFeatureNormalActiveReason : ::System::Int32
 	{

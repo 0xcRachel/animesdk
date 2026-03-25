@@ -5,21 +5,21 @@
 namespace Simplygon { class SimplygonPINVOKE_SWIGStringHelper_SWIGStringDelegate; }
 namespace System { class String; }
 
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x17B66820)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER_SWIGREGISTERSTRINGCALLBACK_SIMPLYGON_OFFSET UNITYSDK_OFFSET(0x17B66790)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B66830)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B5FD10)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER_CREATESTRING_OFFSET UNITYSDK_OFFSET(0x1837EE30)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER_SWIGREGISTERSTRINGCALLBACK_SIMPLYGON_OFFSET UNITYSDK_OFFSET(0x1837EDA0)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1837EE40)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGSTRINGHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x183787B0)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int SimplygonPINVOKE_SWIGStringHelper_TypeDefinitionIndex = 28711;
+	inline static constexpr unsigned int SimplygonPINVOKE_SWIGStringHelper_TypeDefinitionIndex = 29586;
 
 	class SimplygonPINVOKE_SWIGStringHelper : public ::System::Object
 	{
 	public:
 		static ::Simplygon::SimplygonPINVOKE_SWIGStringHelper_SWIGStringDelegate** StaticGet_stringDelegate()
 		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGStringHelper_SWIGStringDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGStringHelper_TypeDefinitionIndex)->GetStaticField(0x3C560);
+			return (::Simplygon::SimplygonPINVOKE_SWIGStringHelper_SWIGStringDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGStringHelper_TypeDefinitionIndex)->GetStaticField(0x2B380);
 		}
 
 		static ::System::Void _cctor()

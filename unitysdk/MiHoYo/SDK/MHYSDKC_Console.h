@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_TypeDefinitionIndex = 35989;
+	inline static constexpr unsigned int MHYSDKC_Console_TypeDefinitionIndex = 36924;
 
 	class MHYSDKC_Console : public ::System::Object
 	{
@@ -99,5 +99,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* KEY_DEFAULT; // 0x0
 		// static const ::System::String* KEY_CANCEL; // 0x0
 		// static const ::System::String* KEY_ERROR_CODE; // 0x0
+		// static const ::System::String* CONSOLE_SWITCH_CONTROL; // 0x0
+		// static const ::System::String* CONSOLE_INPUT_TYPE; // 0x0
 	};
 }

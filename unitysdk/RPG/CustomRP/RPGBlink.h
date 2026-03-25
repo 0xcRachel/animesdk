@@ -6,11 +6,11 @@ namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x163AC7B0)
+#define RPG_CUSTOMRP_RPGBLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABB410)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGBlink_TypeDefinitionIndex = 28518;
+	inline static constexpr unsigned int RPGBlink_TypeDefinitionIndex = 29393;
 
 	class RPGBlink : public ::RPG::CustomRP::CustomVolumeComponent
 	{

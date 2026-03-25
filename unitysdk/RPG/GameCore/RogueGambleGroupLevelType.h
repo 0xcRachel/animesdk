@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGambleGroupLevelType_TypeDefinitionIndex = 13684;
+	inline static constexpr unsigned int RogueGambleGroupLevelType_TypeDefinitionIndex = 13780;
 
 	enum class RogueGambleGroupLevelType : ::System::Int32
 	{

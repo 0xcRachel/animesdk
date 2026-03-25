@@ -13,92 +13,92 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_INIT_OFFSET UNITYSDK_OFFSET(0x97ED2A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UNINIT_OFFSET UNITYSDK_OFFSET(0x97ED6C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x97ED760)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x97EE280)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL__CTOR_OFFSET UNITYSDK_OFFSET(0x97EE1B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x97EE3E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x97EE3F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_INIT_OFFSET UNITYSDK_OFFSET(0x9CCEC60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UNINIT_OFFSET UNITYSDK_OFFSET(0x9CCF080)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x9CCF120)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CCFC40)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL__CTOR_OFFSET UNITYSDK_OFFSET(0x9CCFB70)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x9CCFDA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTENCIL___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x9CCFDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropStencil_TypeDefinitionIndex = 55693;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStencil_TypeDefinitionIndex = 57257;
 
 	class MonoEffectPluginCharaPropStencil : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_6_51()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE070);
-		}
-		static ::System::Int32* StaticGet_Field_6_54()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE074);
-		}
-		static ::System::Int32* StaticGet_Field_6_58()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE078);
-		}
 		static ::System::Int32* StaticGet_Field_6_50()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE07C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE010);
 		}
 		static ::System::Int32* StaticGet_Field_6_56()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE080);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE014);
 		}
-		static ::System::Int32* StaticGet_Field_6_60()
+		static ::System::Int32* StaticGet_Field_6_54()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE084);
-		}
-		static ::System::Int32* StaticGet_Field_6_59()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE088);
-		}
-		static ::System::Int32* StaticGet_Field_6_55()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE08C);
-		}
-		static ::System::Int32* StaticGet_Field_6_49()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE090);
-		}
-		static ::System::Int32* StaticGet_Field_6_62()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE094);
-		}
-		static ::System::Int32* StaticGet_Field_6_63()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE098);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE018);
 		}
 		static ::System::Int32* StaticGet_Field_6_53()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE09C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE01C);
 		}
-		static ::System::Int32* StaticGet_Field_6_64()
+		static ::System::Int32* StaticGet_Field_6_49()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE0A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE020);
 		}
-		static ::System::Int32* StaticGet_Field_6_61()
+		static ::System::Int32* StaticGet_Field_6_60()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE0A4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE024);
 		}
 		static ::System::Int32* StaticGet_Field_6_52()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE0A8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE028);
+		}
+		static ::System::Int32* StaticGet_Field_6_64()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE02C);
+		}
+		static ::System::Int32* StaticGet_Field_6_51()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE030);
+		}
+		static ::System::Int32* StaticGet_Field_6_62()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE034);
+		}
+		static ::System::Int32* StaticGet_Field_6_63()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE038);
+		}
+		static ::System::Int32* StaticGet_Field_6_58()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE03C);
+		}
+		static ::System::Int32* StaticGet_Field_6_59()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE040);
+		}
+		static ::System::Int32* StaticGet_Field_6_61()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE044);
 		}
 		static ::System::Int32* StaticGet_Field_6_48()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE0AC);
-		}
-		static ::System::Int32* StaticGet_Field_6_65()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE0B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE048);
 		}
 		static ::System::Int32* StaticGet_Field_6_57()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE0B4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE04C);
+		}
+		static ::System::Int32* StaticGet_Field_6_55()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE050);
+		}
+		static ::System::Int32* StaticGet_Field_6_65()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginCharaPropStencil_TypeDefinitionIndex)->GetStaticField(0xE054);
 		}
 		::RPG::Client::MonoEffectPluginCharaPropStencil_CharacterShader Global_Shaders; // 0x40
 		::System::Boolean Global_UseGBufferEmission; // 0x44

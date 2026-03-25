@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171083D0)
-#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17108560)
+#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C43B0)
+#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C4540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySkillEffectRow_TypeDefinitionIndex = 13978;
+	inline static constexpr unsigned int TrainPartySkillEffectRow_TypeDefinitionIndex = 14094;
 
 	class TrainPartySkillEffectRow : public ::System::Object
 	{

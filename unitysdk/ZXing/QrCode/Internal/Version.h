@@ -6,30 +6,30 @@ namespace System { class String; }
 namespace ZXing::QrCode::Internal { class ErrorCorrectionLevel; }
 namespace ZXing::QrCode::Internal { class Version_ECBlocks; }
 
-#define ZXING_QRCODE_INTERNAL_VERSION_BUILDVERSIONS_OFFSET UNITYSDK_OFFSET(0x18547050)
-#define ZXING_QRCODE_INTERNAL_VERSION_GETECBLOCKSFORLEVEL_OFFSET UNITYSDK_OFFSET(0x1853DB30)
-#define ZXING_QRCODE_INTERNAL_VERSION_GETVERSIONFORNUMBER_OFFSET UNITYSDK_OFFSET(0x1853D6D0)
-#define ZXING_QRCODE_INTERNAL_VERSION_GET_DIMENSIONFORVERSION_OFFSET UNITYSDK_OFFSET(0x1853ED10)
-#define ZXING_QRCODE_INTERNAL_VERSION_GET_TOTALCODEWORDS_OFFSET UNITYSDK_OFFSET(0x18547030)
-#define ZXING_QRCODE_INTERNAL_VERSION_GET_VERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x18547020)
-#define ZXING_QRCODE_INTERNAL_VERSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18547040)
-#define ZXING_QRCODE_INTERNAL_VERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x185503C0)
-#define ZXING_QRCODE_INTERNAL_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18546F70)
+#define ZXING_QRCODE_INTERNAL_VERSION_BUILDVERSIONS_OFFSET UNITYSDK_OFFSET(0x18D49410)
+#define ZXING_QRCODE_INTERNAL_VERSION_GETECBLOCKSFORLEVEL_OFFSET UNITYSDK_OFFSET(0x18D3FEF0)
+#define ZXING_QRCODE_INTERNAL_VERSION_GETVERSIONFORNUMBER_OFFSET UNITYSDK_OFFSET(0x18D3FA90)
+#define ZXING_QRCODE_INTERNAL_VERSION_GET_DIMENSIONFORVERSION_OFFSET UNITYSDK_OFFSET(0x18D410D0)
+#define ZXING_QRCODE_INTERNAL_VERSION_GET_TOTALCODEWORDS_OFFSET UNITYSDK_OFFSET(0x18D493F0)
+#define ZXING_QRCODE_INTERNAL_VERSION_GET_VERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x18D493E0)
+#define ZXING_QRCODE_INTERNAL_VERSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18D49400)
+#define ZXING_QRCODE_INTERNAL_VERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D52780)
+#define ZXING_QRCODE_INTERNAL_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18D49330)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Version_TypeDefinitionIndex = 5949;
+	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6049;
 
 	class Version : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::ZXing::QrCode::Internal::Version*>** StaticGet_VERSIONS()
-		{
-			return (::Il2CppArray<::ZXing::QrCode::Internal::Version*>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0xB310);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_VERSION_DECODE_INFO()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0xB318);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0x6610);
+		}
+		static ::Il2CppArray<::ZXing::QrCode::Internal::Version*>** StaticGet_VERSIONS()
+		{
+			return (::Il2CppArray<::ZXing::QrCode::Internal::Version*>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0x6618);
 		}
 		::Il2CppArray<::ZXing::QrCode::Internal::Version_ECBlocks*>* ecBlocks; // 0x10
 		::Il2CppArray<::System::Int32>* alignmentPatternCenters; // 0x18

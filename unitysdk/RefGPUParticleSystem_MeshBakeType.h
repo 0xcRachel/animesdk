@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_MeshBakeType_TypeDefinitionIndex = 32923;
+inline static constexpr unsigned int RefGPUParticleSystem_MeshBakeType_TypeDefinitionIndex = 33911;
 
 enum class RefGPUParticleSystem_MeshBakeType : ::System::Int32
 {

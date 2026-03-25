@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSUMMONCHIMERADISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x951D230)
+#define RPG_CLIENT_LITTLEGAME_CHIMERADUEL_CHIMERADUELSUMMONCHIMERADISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x99AD9F0)
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelSummonChimeraDisplayData_TypeDefinitionIndex = 61210;
+	inline static constexpr unsigned int ChimeraDuelSummonChimeraDisplayData_TypeDefinitionIndex = 63209;
 
 	class ChimeraDuelSummonChimeraDisplayData : public ::System::Object
 	{

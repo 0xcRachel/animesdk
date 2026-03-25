@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168C3EB0)
-#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168C44E0)
+#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FD1A80)
+#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD20B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSpecialSkillTreeRow_TypeDefinitionIndex = 11547;
+	inline static constexpr unsigned int AvatarSpecialSkillTreeRow_TypeDefinitionIndex = 11617;
 
 	class AvatarSpecialSkillTreeRow : public ::System::Object
 	{
 	public:
 		::System::String* AvatarImgPath; // 0x10
-		::System::UInt32 ShowSkill; // 0x18
-		::System::UInt32 AvatarID; // 0x1C
-		::RPG::GameCore::AvatarSkillTreeAnchorType AnchorType; // 0x20
+		::RPG::GameCore::AvatarSkillTreeAnchorType AnchorType; // 0x18
+		::System::UInt32 ShowSkill; // 0x1C
+		::System::UInt32 AvatarID; // 0x20
 
 		::System::Void _ctor()
 		{

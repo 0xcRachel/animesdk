@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageConfig___O_TypeDefinitionIndex = 17144;
+	inline static constexpr unsigned int StageConfig___O_TypeDefinitionIndex = 17549;
 
 	class StageConfig___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GraphicQuality>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GraphicQuality>**)Il2CppClass::FromTypeDefinitionIndex(StageConfig___O_TypeDefinitionIndex)->GetStaticField(0x10640);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GraphicQuality>**)Il2CppClass::FromTypeDefinitionIndex(StageConfig___O_TypeDefinitionIndex)->GetStaticField(0x11F00);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ENTITYTIMELINECONTROLNODESINGLETRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9165840)
+#define RPG_CLIENT_ENTITYTIMELINECONTROLNODESINGLETRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9612950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityTimelineControlNodeSingleTransitionInfo_TypeDefinitionIndex = 50680;
+	inline static constexpr unsigned int EntityTimelineControlNodeSingleTransitionInfo_TypeDefinitionIndex = 51815;
 
 	class EntityTimelineControlNodeSingleTransitionInfo : public ::System::Object
 	{

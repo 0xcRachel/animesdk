@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B53440)
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B53480)
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET UNITYSDK_OFFSET(0x8B53490)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F53F70)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F53FB0)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET UNITYSDK_OFFSET(0x8F53FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 48786;
+	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 49920;
 
 	class ActivityHipplenModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x19A10);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x277B0);
 		}
 		static ::RPG::Client::ActivityHipplenModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityHipplenModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x19A18);
+			return (::RPG::Client::ActivityHipplenModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenModule___c_TypeDefinitionIndex)->GetStaticField(0x277B8);
 		}
 
 		static ::System::Void _cctor()

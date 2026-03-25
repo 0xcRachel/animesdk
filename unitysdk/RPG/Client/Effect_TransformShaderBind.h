@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMSHADERBIND_ONENABLE_OFFSET UNITYSDK_OFFSET(0x90EB350)
-#define RPG_CLIENT_EFFECT_TRANSFORMSHADERBIND_UPDATE_OFFSET UNITYSDK_OFFSET(0x90EB420)
-#define RPG_CLIENT_EFFECT_TRANSFORMSHADERBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x90EBDF0)
+#define RPG_CLIENT_EFFECT_TRANSFORMSHADERBIND_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9598440)
+#define RPG_CLIENT_EFFECT_TRANSFORMSHADERBIND_UPDATE_OFFSET UNITYSDK_OFFSET(0x9598510)
+#define RPG_CLIENT_EFFECT_TRANSFORMSHADERBIND__CTOR_OFFSET UNITYSDK_OFFSET(0x9598EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformShaderBind_TypeDefinitionIndex = 56227;
+	inline static constexpr unsigned int Effect_TransformShaderBind_TypeDefinitionIndex = 57798;
 
 	class Effect_TransformShaderBind : public ::UnityEngine::MonoBehaviour
 	{

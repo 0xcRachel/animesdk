@@ -9,24 +9,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8AFC13302DAA04F7_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x10D339B0)
-#define CLASS_1_8AFC13302DAA04F7_METHOD_1_7AEB4305BA171FD4_OFFSET UNITYSDK_OFFSET(0x10D33B10)
-#define CLASS_1_8AFC13302DAA04F7_METHOD_1_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0x10D339D0)
-#define CLASS_1_8AFC13302DAA04F7_METHOD_1_AC2B072F6EDFA2FE_OFFSET UNITYSDK_OFFSET(0x10D33A50)
-#define CLASS_1_8AFC13302DAA04F7_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x10D339C0)
-#define CLASS_1_8AFC13302DAA04F7__CTOR_OFFSET UNITYSDK_OFFSET(0x10D33C80)
+#define CLASS_1_8AFC13302DAA04F7_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x1187AD70)
+#define CLASS_1_8AFC13302DAA04F7_METHOD_1_7AEB4305BA171FD4_OFFSET UNITYSDK_OFFSET(0x1187AED0)
+#define CLASS_1_8AFC13302DAA04F7_METHOD_1_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0x1187AD90)
+#define CLASS_1_8AFC13302DAA04F7_METHOD_1_AC2B072F6EDFA2FE_OFFSET UNITYSDK_OFFSET(0x1187AE10)
+#define CLASS_1_8AFC13302DAA04F7_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x1187AD80)
+#define CLASS_1_8AFC13302DAA04F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1187B040)
 
-inline static constexpr unsigned int Class_1_8AFC13302DAA04F7_TypeDefinitionIndex = 43080;
+inline static constexpr unsigned int Class_1_8AFC13302DAA04F7_TypeDefinitionIndex = 44131;
 
 class Class_1_8AFC13302DAA04F7 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::String* _LockKey_k__BackingField; // 0x18
-	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_2; // 0x20
-	::RPG::GameCore::ActionDelayChangeReasonMask Field_1_1; // 0x22
-	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_4; // 0x24
-	::System::Boolean Field_1_3; // 0x26
+	::System::String* _LockKey_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x18
+	::System::Boolean Field_1_3; // 0x20
+	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_4; // 0x22
+	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_2; // 0x24
+	::RPG::GameCore::ActionDelayChangeReasonMask Field_1_1; // 0x26
 
 	::System::Void _ctor()
 	{

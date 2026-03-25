@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x16399B50)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_READ_OFFSET UNITYSDK_OFFSET(0x16399C30)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_RESET_OFFSET UNITYSDK_OFFSET(0x16399CB0)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_WRITE_OFFSET UNITYSDK_OFFSET(0x16399B90)
-#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG__CTOR_OFFSET UNITYSDK_OFFSET(0x16399CD0)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x16AA8F80)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_READ_OFFSET UNITYSDK_OFFSET(0x16AA9060)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_RESET_OFFSET UNITYSDK_OFFSET(0x16AA90E0)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG_WRITE_OFFSET UNITYSDK_OFFSET(0x16AA8FC0)
+#define RPG_CUSTOMRP_DEBUGSHADERHOTRELOADMSG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA9100)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugShaderHotReloadMsg_TypeDefinitionIndex = 28493;
+	inline static constexpr unsigned int DebugShaderHotReloadMsg_TypeDefinitionIndex = 29368;
 
 	class DebugShaderHotReloadMsg : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* data; // 0x10
-		::System::String* shaderName; // 0x18
+		::System::String* shaderName; // 0x10
+		::Il2CppArray<::System::Byte>* data; // 0x18
 		::RPG::CustomRP::DebugShaderHotReloadMsg_UpdateType updateType; // 0x20
 
 		::System::Void _ctor()

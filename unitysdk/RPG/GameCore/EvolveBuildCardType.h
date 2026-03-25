@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildCardType_TypeDefinitionIndex = 10617;
+	inline static constexpr unsigned int EvolveBuildCardType_TypeDefinitionIndex = 10685;
 
 	enum class EvolveBuildCardType : ::System::Int32
 	{

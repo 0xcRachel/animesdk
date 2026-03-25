@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyActivityElationPower; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6F182BF273919ED8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x86601A0)
-#define CLASS_3_6F182BF273919ED8__CTOR_OFFSET UNITYSDK_OFFSET(0x8660170)
+#define CLASS_3_6F182BF273919ED8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99BEA70)
+#define CLASS_3_6F182BF273919ED8__CTOR_OFFSET UNITYSDK_OFFSET(0x99BEA40)
 
-inline static constexpr unsigned int Class_3_6F182BF273919ED8_TypeDefinitionIndex = 42816;
+inline static constexpr unsigned int Class_3_6F182BF273919ED8_TypeDefinitionIndex = 43866;
 
 class Class_3_6F182BF273919ED8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyActivityElationPower*>
 {

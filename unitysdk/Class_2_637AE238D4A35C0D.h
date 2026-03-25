@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_174.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_178.h"
 #include "unitysdk/RPG/Client/LittleGameShare/MsgRetcode.h"
 
 class Class_1_3F2088DC1442FBF8_1;
 
-#define CLASS_2_637AE238D4A35C0D_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x10F7DD80)
-#define CLASS_2_637AE238D4A35C0D__CTOR_OFFSET UNITYSDK_OFFSET(0x10F7DD90)
+#define CLASS_2_637AE238D4A35C0D_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x11889C70)
+#define CLASS_2_637AE238D4A35C0D__CTOR_OFFSET UNITYSDK_OFFSET(0x11889C80)
 
-inline static constexpr unsigned int Class_2_637AE238D4A35C0D_TypeDefinitionIndex = 61324;
+inline static constexpr unsigned int Class_2_637AE238D4A35C0D_TypeDefinitionIndex = 63511;
 
-class Class_2_637AE238D4A35C0D : public ::Class_1_43BD383C98B4C0C5_174
+class Class_2_637AE238D4A35C0D : public ::Class_1_43BD383C98B4C0C5_178
 {
 public:
 	::RPG::Client::LittleGameShare::MsgRetcode _Retcode_k__BackingField; // 0x10

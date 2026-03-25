@@ -6,23 +6,23 @@ namespace RPG::Client { class CakeRaceBattleItemDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x8E30940)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8E30EB0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_GETBATTLEITEMDATAITEM_OFFSET UNITYSDK_OFFSET(0x8E30F20)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_GET_BATTLEITEMLIST_OFFSET UNITYSDK_OFFSET(0x8E31000)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8E30AF0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E30A50)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO__INITBATTLEITEMDATAITEMS_OFFSET UNITYSDK_OFFSET(0x8E30B40)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x923AE10)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x923B380)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_GETBATTLEITEMDATAITEM_OFFSET UNITYSDK_OFFSET(0x923B3F0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_GET_BATTLEITEMLIST_OFFSET UNITYSDK_OFFSET(0x923B4D0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO_INIT_OFFSET UNITYSDK_OFFSET(0x923AFC0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x923AF20)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO__INITBATTLEITEMDATAITEMS_OFFSET UNITYSDK_OFFSET(0x923B010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemInfo_TypeDefinitionIndex = 49979;
+	inline static constexpr unsigned int CakeRaceBattleItemInfo_TypeDefinitionIndex = 51111;
 
 	class CakeRaceBattleItemInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceBattleItemDataItem*>* _BattleItemList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::CakeRaceBattleItemDataItem*>* _BattleItems; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::CakeRaceBattleItemDataItem*>* _BattleItems; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceBattleItemDataItem*>* _BattleItemList; // 0x18
 
 		::System::Void _ctor()
 		{

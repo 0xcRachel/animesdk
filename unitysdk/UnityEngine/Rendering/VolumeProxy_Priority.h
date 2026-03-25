@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProxy_Priority_TypeDefinitionIndex = 27214;
+	inline static constexpr unsigned int VolumeProxy_Priority_TypeDefinitionIndex = 27950;
 
 	enum class VolumeProxy_Priority : ::System::Int32
 	{

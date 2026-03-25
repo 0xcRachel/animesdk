@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEM_ENVIROGUIFOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0xE4BA5D0)
+#define ENVIROMENTSYSTEM_ENVIROGUIFOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0xFB9BE70)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGUIFolder_TypeDefinitionIndex = 39329;
+	inline static constexpr unsigned int EnviroGUIFolder_TypeDefinitionIndex = 40309;
 
 	class EnviroGUIFolder : public ::EnviromentSystem::EnviroProperty
 	{

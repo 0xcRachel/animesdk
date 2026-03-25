@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B7A8D0)
-#define RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7AFC0)
+#define RPG_GAMECORE_HUDTEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172C9190)
+#define RPG_GAMECORE_HUDTEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172C9880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HudTemplateConfigRow_TypeDefinitionIndex = 12536;
+	inline static constexpr unsigned int HudTemplateConfigRow_TypeDefinitionIndex = 12606;
 
 	class HudTemplateConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* LockInputActionName; // 0x10
-		::Il2CppArray<::RPG::GameCore::HudType>* HideHudUINodeList; // 0x18
-		::Il2CppArray<::RPG::GameCore::GotoType>* LockGotoTypeList; // 0x20
+		::Il2CppArray<::RPG::GameCore::GotoType>* LockGotoTypeList; // 0x18
+		::Il2CppArray<::RPG::GameCore::HudType>* HideHudUINodeList; // 0x20
 		::System::UInt32 ActionOperationSetID; // 0x28
 		::System::UInt32 ID; // 0x2C
 

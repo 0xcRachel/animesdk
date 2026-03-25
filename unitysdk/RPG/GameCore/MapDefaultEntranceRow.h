@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C297F0)
-#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C298E0)
+#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1738E5E0)
+#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1738E6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapDefaultEntranceRow_TypeDefinitionIndex = 12736;
+	inline static constexpr unsigned int MapDefaultEntranceRow_TypeDefinitionIndex = 12807;
 
 	class MapDefaultEntranceRow : public ::System::Object
 	{

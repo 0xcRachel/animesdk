@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_PROBUILDER_PROGRIDSCONDITIONALSNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x180670F0)
+#define UNITYENGINE_PROBUILDER_PROGRIDSCONDITIONALSNAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1888F820)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProGridsConditionalSnapAttribute_TypeDefinitionIndex = 33159;
+	inline static constexpr unsigned int ProGridsConditionalSnapAttribute_TypeDefinitionIndex = 34148;
 
 	class ProGridsConditionalSnapAttribute : public ::System::Attribute
 	{

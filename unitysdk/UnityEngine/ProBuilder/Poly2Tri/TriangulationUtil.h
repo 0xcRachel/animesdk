@@ -5,21 +5,21 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL_INSCANAREA_OFFSET UNITYSDK_OFFSET(0x17F9F970)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL_ORIENT2D_OFFSET UNITYSDK_OFFSET(0x17F9C360)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL_SMARTINCIRCLE_OFFSET UNITYSDK_OFFSET(0x17FA0AF0)
-#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FA41A0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL_INSCANAREA_OFFSET UNITYSDK_OFFSET(0x187C87F0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL_ORIENT2D_OFFSET UNITYSDK_OFFSET(0x187C5200)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL_SMARTINCIRCLE_OFFSET UNITYSDK_OFFSET(0x187C9900)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_TRIANGULATIONUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x187CCFA0)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int TriangulationUtil_TypeDefinitionIndex = 28923;
+	inline static constexpr unsigned int TriangulationUtil_TypeDefinitionIndex = 29798;
 
 	class TriangulationUtil : public ::System::Object
 	{
 	public:
 		static ::System::Double* StaticGet_EPSILON()
 		{
-			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(TriangulationUtil_TypeDefinitionIndex)->GetStaticField(0xBA0);
+			return (::System::Double*)Il2CppClass::FromTypeDefinitionIndex(TriangulationUtil_TypeDefinitionIndex)->GetStaticField(0xB80);
 		}
 
 		static ::System::Void _cctor()

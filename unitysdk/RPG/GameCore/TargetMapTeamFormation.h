@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TARGETMAPTEAMFORMATION_METHOD_3_1A21DD68B97D0FCB_OFFSET UNITYSDK_OFFSET(0x16FE3CE0)
-#define RPG_GAMECORE_TARGETMAPTEAMFORMATION_METHOD_3_A669EBCDD49C8AE6_OFFSET UNITYSDK_OFFSET(0x16FE3C20)
-#define RPG_GAMECORE_TARGETMAPTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE3CC0)
+#define RPG_GAMECORE_TARGETMAPTEAMFORMATION_METHOD_3_1A21DD68B97D0FCB_OFFSET UNITYSDK_OFFSET(0x177D8A80)
+#define RPG_GAMECORE_TARGETMAPTEAMFORMATION_METHOD_3_F1D61DA564E8037D_OFFSET UNITYSDK_OFFSET(0x177D89A0)
+#define RPG_GAMECORE_TARGETMAPTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x177D8A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapTeamFormation_TypeDefinitionIndex = 21669;
+	inline static constexpr unsigned int TargetMapTeamFormation_TypeDefinitionIndex = 22232;
 
 	class TargetMapTeamFormation : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPTEAMFORMATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A669EBCDD49C8AE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapTeamFormation*& a2)
+		static ::System::Void Method_3_F1D61DA564E8037D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapTeamFormation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPTEAMFORMATION_METHOD_3_A669EBCDD49C8AE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPTEAMFORMATION_METHOD_3_F1D61DA564E8037D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1A21DD68B97D0FCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapTeamFormation* a2)

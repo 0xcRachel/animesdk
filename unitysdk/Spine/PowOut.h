@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Pow.h"
 
-#define SPINE_POWOUT_APPLY_OFFSET UNITYSDK_OFFSET(0x17BA1C00)
-#define SPINE_POWOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B99490)
+#define SPINE_POWOUT_APPLY_OFFSET UNITYSDK_OFFSET(0x183BAE90)
+#define SPINE_POWOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x183B2680)
 
 namespace Spine
 {
-	inline static constexpr unsigned int PowOut_TypeDefinitionIndex = 29846;
+	inline static constexpr unsigned int PowOut_TypeDefinitionIndex = 30721;
 
 	class PowOut : public ::Spine::Pow
 	{

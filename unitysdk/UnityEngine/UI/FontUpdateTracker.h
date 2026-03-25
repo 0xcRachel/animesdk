@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class Font; }
 namespace UnityEngine::UI { class Text; }
 
-#define UNITYENGINE_UI_FONTUPDATETRACKER_REBUILDFORFONT_OFFSET UNITYSDK_OFFSET(0x182FC760)
-#define UNITYENGINE_UI_FONTUPDATETRACKER_TRACKTEXT_OFFSET UNITYSDK_OFFSET(0x182FC1F0)
-#define UNITYENGINE_UI_FONTUPDATETRACKER_UNTRACKTEXT_OFFSET UNITYSDK_OFFSET(0x182FC910)
-#define UNITYENGINE_UI_FONTUPDATETRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182FCB70)
+#define UNITYENGINE_UI_FONTUPDATETRACKER_REBUILDFORFONT_OFFSET UNITYSDK_OFFSET(0x18B229A0)
+#define UNITYENGINE_UI_FONTUPDATETRACKER_TRACKTEXT_OFFSET UNITYSDK_OFFSET(0x18B22430)
+#define UNITYENGINE_UI_FONTUPDATETRACKER_UNTRACKTEXT_OFFSET UNITYSDK_OFFSET(0x18B22B50)
+#define UNITYENGINE_UI_FONTUPDATETRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B22DB0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int FontUpdateTracker_TypeDefinitionIndex = 5482;
+	inline static constexpr unsigned int FontUpdateTracker_TypeDefinitionIndex = 5582;
 
 	class FontUpdateTracker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>** StaticGet_m_Tracked()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>**)Il2CppClass::FromTypeDefinitionIndex(FontUpdateTracker_TypeDefinitionIndex)->GetStaticField(0x76C0);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>**)Il2CppClass::FromTypeDefinitionIndex(FontUpdateTracker_TypeDefinitionIndex)->GetStaticField(0x4B00);
 		}
 
 		static ::System::Void _cctor()

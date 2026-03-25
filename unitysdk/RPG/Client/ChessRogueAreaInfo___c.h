@@ -5,34 +5,34 @@
 namespace RPG::Client { class ChessRogueAreaDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8ED0C80)
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8ED0CC0)
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__GETFORMALCHESSROGUEAREADATAITEM_B__18_0_OFFSET UNITYSDK_OFFSET(0x8ED0D10)
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__GETFORMALCHESSROGUENOUSAREADATAITEM_B__23_0_OFFSET UNITYSDK_OFFSET(0x8ED0D50)
-#define RPG_CLIENT_CHESSROGUEAREAINFO___C__GETROGUENOUSACCESSIBLEAREADATALIST_B__16_0_OFFSET UNITYSDK_OFFSET(0x8ED0CD0)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93737F0)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9373830)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__GETFORMALCHESSROGUEAREADATAITEM_B__18_0_OFFSET UNITYSDK_OFFSET(0x9373880)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__GETFORMALCHESSROGUENOUSAREADATAITEM_B__23_0_OFFSET UNITYSDK_OFFSET(0x93738C0)
+#define RPG_CLIENT_CHESSROGUEAREAINFO___C__GETROGUENOUSACCESSIBLEAREADATALIST_B__16_0_OFFSET UNITYSDK_OFFSET(0x9373840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueAreaInfo___c_TypeDefinitionIndex = 53286;
+	inline static constexpr unsigned int ChessRogueAreaInfo___c_TypeDefinitionIndex = 54427;
 
 	class ChessRogueAreaInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x411D0);
-		}
 		static ::RPG::Client::ChessRogueAreaInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChessRogueAreaInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x411D8);
+			return (::RPG::Client::ChessRogueAreaInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x415A0);
 		}
 		static ::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x411E0);
+			return (::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x415A8);
+		}
+		static ::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x415B0);
 		}
 		static ::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x411E8);
+			return (::System::Func_2<::RPG::Client::ChessRogueAreaDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueAreaInfo___c_TypeDefinitionIndex)->GetStaticField(0x415B8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_AIRSHIPCARDETECTACCELTRIGGER_TICK_OFFSET UNITYSDK_OFFSET(0x8C52770)
-#define RPG_CLIENT_AIRSHIPCARDETECTACCELTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x8C52AF0)
+#define RPG_CLIENT_AIRSHIPCARDETECTACCELTRIGGER_TICK_OFFSET UNITYSDK_OFFSET(0x90A3A80)
+#define RPG_CLIENT_AIRSHIPCARDETECTACCELTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x90A3E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipCarDetectAccelTrigger_TypeDefinitionIndex = 47349;
+	inline static constexpr unsigned int AirshipCarDetectAccelTrigger_TypeDefinitionIndex = 48430;
 
 	class AirshipCarDetectAccelTrigger : public ::RPG::Client::AirshipCarDetectTrigger
 	{

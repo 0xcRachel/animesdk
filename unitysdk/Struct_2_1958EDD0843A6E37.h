@@ -4,7 +4,7 @@
 #include "unitysdk/Struct_2_1958EDD0843A6E37_ChunkAccessor_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_1958EDD0843A6E37_METHOD_2_3D78D2E0F9F95F07_OFFSET UNITYSDK_OFFSET(0x1647BC80)
+#define STRUCT_2_1958EDD0843A6E37_METHOD_2_3D78D2E0F9F95F07_OFFSET UNITYSDK_OFFSET(0x16B756B0)
 
 inline static constexpr unsigned int Struct_2_1958EDD0843A6E37_TypeDefinitionIndex = 9904;
 

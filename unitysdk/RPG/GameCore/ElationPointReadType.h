@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationPointReadType_TypeDefinitionIndex = 20427;
+	inline static constexpr unsigned int ElationPointReadType_TypeDefinitionIndex = 20975;
 
 	enum class ElationPointReadType : ::System::Int32
 	{

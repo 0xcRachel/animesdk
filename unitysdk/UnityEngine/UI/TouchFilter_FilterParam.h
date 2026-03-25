@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_TOUCHFILTER_FILTERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x29910)
+#define UNITYENGINE_UI_TOUCHFILTER_FILTERPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x29890)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int TouchFilter_FilterParam_TypeDefinitionIndex = 5640;
+	inline static constexpr unsigned int TouchFilter_FilterParam_TypeDefinitionIndex = 5740;
 
 	struct alignas(4) TouchFilter_FilterParam
 	{

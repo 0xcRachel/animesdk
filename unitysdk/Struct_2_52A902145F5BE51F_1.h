@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE51F_1_TypeDefinitionIndex = 32377;
+inline static constexpr unsigned int Struct_2_52A902145F5BE51F_1_TypeDefinitionIndex = 33287;
 
 struct alignas(4) Struct_2_52A902145F5BE51F_1
 {
@@ -24,4 +24,5 @@ struct alignas(4) Struct_2_52A902145F5BE51F_1
 	::System::Boolean Field_2_14; // 0x2E
 	::System::Boolean Field_2_15; // 0x2F
 	::System::Boolean Field_2_16; // 0x30
+	::System::Boolean Field_2_17; // 0x31
 };

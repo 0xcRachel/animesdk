@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_5_4D2356FA82AFB4F6_OFFSET UNITYSDK_OFFSET(0x16B187D0)
-#define RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_5_911A7013F952A45C_OFFSET UNITYSDK_OFFSET(0x16B17FE0)
-#define RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B17F60)
+#define RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_6_750B81E2167571E9_OFFSET UNITYSDK_OFFSET(0x17264350)
+#define RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_6_8AB297AD2A439022_OFFSET UNITYSDK_OFFSET(0x17264D00)
+#define RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172642B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActionCopyEquipConfig_TypeDefinitionIndex = 17317;
+	inline static constexpr unsigned int GridFightActionCopyEquipConfig_TypeDefinitionIndex = 17722;
 
 	class GridFightActionCopyEquipConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_4D2356FA82AFB4F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionCopyEquipConfig*& a2)
+		static ::System::Void Method_6_8AB297AD2A439022(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionCopyEquipConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionCopyEquipConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_5_4D2356FA82AFB4F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionCopyEquipConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_6_8AB297AD2A439022_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_911A7013F952A45C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionCopyEquipConfig* a2)
+		static ::System::Void Method_6_750B81E2167571E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightActionCopyEquipConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionCopyEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_5_911A7013F952A45C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightActionCopyEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTACTIONCOPYEQUIPCONFIG_METHOD_6_750B81E2167571E9_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E74D50)
-#define RPG_GAMECORE_ROGUEDLCLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E75450)
+#define RPG_GAMECORE_ROGUEDLCLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176142D0)
+#define RPG_GAMECORE_ROGUEDLCLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x176149D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCLayerRow_TypeDefinitionIndex = 13421;
+	inline static constexpr unsigned int RogueDLCLayerRow_TypeDefinitionIndex = 13497;
 
 	class RogueDLCLayerRow : public ::System::Object
 	{
 	public:
 		::System::String* LayerIcon; // 0x10
-		::RPG::Client::TextID LayerNumID; // 0x18
-		::RPG::Client::TextID LayerNameID; // 0x28
+		::RPG::Client::TextID LayerNameID; // 0x18
+		::RPG::Client::TextID LayerNumID; // 0x28
 		::System::UInt32 LayerID; // 0x38
 
 		::System::Void _ctor()

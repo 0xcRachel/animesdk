@@ -8,20 +8,20 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace RPG::GameCore { class DynamicValue; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP_CREATE_OFFSET UNITYSDK_OFFSET(0x8F1F6B0)
-#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP__CREATE_G__LOADPRESETCHIMERAS_3_0_OFFSET UNITYSDK_OFFSET(0x8F1FE50)
-#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x8F1FF90)
+#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP_CREATE_OFFSET UNITYSDK_OFFSET(0x93C3110)
+#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP__CREATE_G__LOADPRESETCHIMERAS_3_0_OFFSET UNITYSDK_OFFSET(0x93C3800)
+#define RPG_CLIENT_CHIMERADUELTOOLS_SHOWCASEBATTLESETUP__CTOR_OFFSET UNITYSDK_OFFSET(0x93C3940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelTools_ShowcaseBattleSetup_TypeDefinitionIndex = 50245;
+	inline static constexpr unsigned int ChimeraDuelTools_ShowcaseBattleSetup_TypeDefinitionIndex = 51380;
 
 	class ChimeraDuelTools_ShowcaseBattleSetup : public ::System::Object
 	{
 	public:
 		::Class_1_85AE2DC43E9AF910* BattleSetup; // 0x10
-		::System::UInt32 EnemyRankLevel; // 0x18
-		::System::UInt32 AllyRankLevel; // 0x1C
+		::System::UInt32 AllyRankLevel; // 0x18
+		::System::UInt32 EnemyRankLevel; // 0x1C
 
 		::System::Void _ctor()
 		{

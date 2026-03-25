@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define TMPRO_COLORTWEEN_COLORTWEENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x180ED330)
+#define TMPRO_COLORTWEEN_COLORTWEENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18915370)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ColorTween_ColorTweenCallback_TypeDefinitionIndex = 33300;
+	inline static constexpr unsigned int ColorTween_ColorTweenCallback_TypeDefinitionIndex = 34289;
 
 	class ColorTween_ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color>
 	{

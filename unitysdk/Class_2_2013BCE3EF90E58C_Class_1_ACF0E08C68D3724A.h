@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_452;
+class Class_0_16E4307DCC419505_480;
 class Class_1_FF115791B3A1D76D;
 class Class_2_2690241A4D35989E;
 namespace System::Collections { class IList; }
 
-#define CLASS_2_2013BCE3EF90E58C_CLASS_1_ACF0E08C68D3724A__CTOR_OFFSET UNITYSDK_OFFSET(0x8D4AD60)
+#define CLASS_2_2013BCE3EF90E58C_CLASS_1_ACF0E08C68D3724A__CTOR_OFFSET UNITYSDK_OFFSET(0x115C29C0)
 
-inline static constexpr unsigned int Class_2_2013BCE3EF90E58C_Class_1_ACF0E08C68D3724A_TypeDefinitionIndex = 47140;
+inline static constexpr unsigned int Class_2_2013BCE3EF90E58C_Class_1_ACF0E08C68D3724A_TypeDefinitionIndex = 48222;
 
 class Class_2_2013BCE3EF90E58C_Class_1_ACF0E08C68D3724A : public ::System::Object
 {
 public:
-	::System::Collections::IList* Field_1_1; // 0x10
-	::Class_0_16E4307DCC419505_452* Field_1_0; // 0x18
+	::Class_0_16E4307DCC419505_480* Field_1_0; // 0x10
+	::System::Collections::IList* Field_1_1; // 0x18
 	::Class_1_FF115791B3A1D76D* Field_1_3; // 0x20
-	::Class_2_2690241A4D35989E* Field_1_4; // 0x28
-	::Class_1_FF115791B3A1D76D* Field_1_2; // 0x30
+	::Class_1_FF115791B3A1D76D* Field_1_2; // 0x28
+	::Class_2_2690241A4D35989E* Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

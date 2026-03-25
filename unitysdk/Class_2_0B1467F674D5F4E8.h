@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
 
-class Class_1_945ACFB1FEBC7A2C_20;
+class Class_1_945ACFB1FEBC7A2C_21;
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_0B1467F674D5F4E8_METHOD_2_955B34203630535A_OFFSET UNITYSDK_OFFSET(0x10FA23F0)
-#define CLASS_2_0B1467F674D5F4E8_METHOD_2_E57CD88B2E873CCA_OFFSET UNITYSDK_OFFSET(0x10FA23A0)
-#define CLASS_2_0B1467F674D5F4E8__CTOR_OFFSET UNITYSDK_OFFSET(0x10FA24D0)
-#define CLASS_2_0B1467F674D5F4E8__ONBIND_OFFSET UNITYSDK_OFFSET(0x10FA2220)
-#define CLASS_2_0B1467F674D5F4E8___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x10FA2500)
+#define CLASS_2_0B1467F674D5F4E8_METHOD_2_955B34203630535A_OFFSET UNITYSDK_OFFSET(0x1051DB00)
+#define CLASS_2_0B1467F674D5F4E8_METHOD_2_E57CD88B2E873CCA_OFFSET UNITYSDK_OFFSET(0x1051DAB0)
+#define CLASS_2_0B1467F674D5F4E8__CTOR_OFFSET UNITYSDK_OFFSET(0x1051DBE0)
+#define CLASS_2_0B1467F674D5F4E8__ONBIND_OFFSET UNITYSDK_OFFSET(0x1051D550)
+#define CLASS_2_0B1467F674D5F4E8___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1051DC10)
 
-inline static constexpr unsigned int Class_2_0B1467F674D5F4E8_TypeDefinitionIndex = 56963;
+inline static constexpr unsigned int Class_2_0B1467F674D5F4E8_TypeDefinitionIndex = 58554;
 
 class Class_2_0B1467F674D5F4E8 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::RPG::Client::RPGAnimationEvent* Field_2_1; // 0x60
-	::UnityEngine::Animation* Field_2_0; // 0x68
+	::UnityEngine::Animation* Field_2_0; // 0x60
+	::RPG::Client::RPGAnimationEvent* Field_2_1; // 0x68
 
 	::System::Void _ctor()
 	{
@@ -36,9 +36,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_0B1467F674D5F4E8_METHOD_2_E57CD88B2E873CCA_OFFSET))(this);
 	}
 
-	::System::Void Method_2_955B34203630535A(::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_20*>* a1)
+	::System::Void Method_2_955B34203630535A(::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_21*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_20*>*))((::PBYTE)hIl2Cpp + CLASS_2_0B1467F674D5F4E8_METHOD_2_955B34203630535A_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_21*>*))((::PBYTE)hIl2Cpp + CLASS_2_0B1467F674D5F4E8_METHOD_2_955B34203630535A_OFFSET))(this, a1);
 	}
 
 	::System::Void __iFixBaseProxy__OnBind()

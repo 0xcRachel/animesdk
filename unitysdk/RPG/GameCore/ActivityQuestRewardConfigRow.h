@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167A5AF0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167A60E0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F1C620)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1CC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 11163;
+	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 11231;
 
 	class ActivityQuestRewardConfigRow : public ::System::Object
 	{

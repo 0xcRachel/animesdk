@@ -10,22 +10,22 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierHint; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_52DF42E136544C98_METHOD_1_53701A90DF3011E8_OFFSET UNITYSDK_OFFSET(0x10D37310)
-#define CLASS_1_52DF42E136544C98_METHOD_1_B751F95C5831C42B_OFFSET UNITYSDK_OFFSET(0x10D37490)
-#define CLASS_1_52DF42E136544C98__CTOR_OFFSET UNITYSDK_OFFSET(0x10D37300)
+#define CLASS_1_52DF42E136544C98_METHOD_1_53701A90DF3011E8_OFFSET UNITYSDK_OFFSET(0x1139BD80)
+#define CLASS_1_52DF42E136544C98_METHOD_1_B751F95C5831C42B_OFFSET UNITYSDK_OFFSET(0x1139BF00)
+#define CLASS_1_52DF42E136544C98__CTOR_OFFSET UNITYSDK_OFFSET(0x1139BD70)
 
-inline static constexpr unsigned int Class_1_52DF42E136544C98_TypeDefinitionIndex = 56859;
+inline static constexpr unsigned int Class_1_52DF42E136544C98_TypeDefinitionIndex = 58448;
 
 class Class_1_52DF42E136544C98 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_4; // 0x10
+	::RPG::GameCore::TurnBasedModifierInstance* Field_1_2; // 0x10
 	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* Field_1_3; // 0x18
-	::RPG::GameCore::TurnBasedModifierInstance* Field_1_2; // 0x20
-	::RPG::GameCore::ModifierHintType Field_1_0; // 0x28
-	::System::Int32 Field_1_5; // 0x2C
-	::System::Int32 Field_1_6; // 0x30
-	::RPG::Client::TextID Field_1_1; // 0x38
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_4; // 0x20
+	::RPG::Client::TextID Field_1_1; // 0x28
+	::System::Int32 Field_1_5; // 0x38
+	::System::Int32 Field_1_6; // 0x3C
+	::RPG::GameCore::ModifierHintType Field_1_0; // 0x40
 
 	::System::Void _ctor()
 	{

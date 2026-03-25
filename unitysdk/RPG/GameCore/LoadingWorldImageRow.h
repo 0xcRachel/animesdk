@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOADINGWORLDIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BD81E0)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD87D0)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1737BC50)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1737C240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingWorldImageRow_TypeDefinitionIndex = 12706;
+	inline static constexpr unsigned int LoadingWorldImageRow_TypeDefinitionIndex = 12777;
 
 	class LoadingWorldImageRow : public ::System::Object
 	{
 	public:
 		::System::String* EffectContainer; // 0x10
-		::System::String* PamuPrefabName; // 0x18
-		::System::String* ImagePath; // 0x20
+		::System::String* ImagePath; // 0x18
+		::System::String* PamuPrefabName; // 0x20
 		::System::UInt32 WorldID; // 0x28
 
 		::System::Void _ctor()

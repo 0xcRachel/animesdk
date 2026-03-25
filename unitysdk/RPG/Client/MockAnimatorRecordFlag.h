@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MockAnimatorRecordFlag_TypeDefinitionIndex = 58441;
+	inline static constexpr unsigned int MockAnimatorRecordFlag_TypeDefinitionIndex = 60096;
 
 	enum class MockAnimatorRecordFlag : ::System::UInt32
 	{

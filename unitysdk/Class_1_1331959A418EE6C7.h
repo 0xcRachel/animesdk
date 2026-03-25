@@ -5,9 +5,9 @@
 namespace RPG::Client { class ElfFarmCellData; }
 namespace System { class String; }
 
-#define CLASS_1_1331959A418EE6C7_METHOD_1_A1FFC38EE3CB4652_OFFSET UNITYSDK_OFFSET(0x85D2350)
+#define CLASS_1_1331959A418EE6C7_METHOD_1_A1FFC38EE3CB4652_OFFSET UNITYSDK_OFFSET(0x117F2D40)
 
-inline static constexpr unsigned int Class_1_1331959A418EE6C7_TypeDefinitionIndex = 54520;
+inline static constexpr unsigned int Class_1_1331959A418EE6C7_TypeDefinitionIndex = 56080;
 
 class Class_1_1331959A418EE6C7 : public ::System::Object
 {

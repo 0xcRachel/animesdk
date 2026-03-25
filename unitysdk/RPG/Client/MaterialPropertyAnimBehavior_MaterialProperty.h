@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertyAnimBehavior_MaterialProperty_TypeDefinitionIndex = 56350;
+	inline static constexpr unsigned int MaterialPropertyAnimBehavior_MaterialProperty_TypeDefinitionIndex = 57921;
 
 	enum class MaterialPropertyAnimBehavior_MaterialProperty : ::System::Int32
 	{

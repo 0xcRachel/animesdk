@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SpikeTrapState_TypeDefinitionIndex = 32570;
+	inline static constexpr unsigned int SpikeTrapState_TypeDefinitionIndex = 33492;
 
 	enum class SpikeTrapState : ::System::Int32
 	{

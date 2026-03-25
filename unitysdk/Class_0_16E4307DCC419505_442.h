@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_AECA2D14AC7B49F5.h"
+#include "unitysdk/UnityEngine/AnimatorUpdateMode.h"
 
-namespace RPG::GameCore { class TaskContext; }
+namespace System { class String; }
+namespace UnityEngine { class RuntimeAnimatorController; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_442_TypeDefinitionIndex = 46742;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_442_TypeDefinitionIndex = 46032;
 
 class Class_0_16E4307DCC419505_442
 {

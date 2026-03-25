@@ -7,9 +7,9 @@ class HipplenBuilderBuffAsset_BuffElementConfig;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERBUFFASSET_BUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1053DEA0)
+#define HIPPLENBUILDERBUFFASSET_BUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x10C2EC70)
 
-inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffConfig_TypeDefinitionIndex = 37172;
+inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffConfig_TypeDefinitionIndex = 38136;
 
 class HipplenBuilderBuffAsset_BuffConfig : public ::System::Object
 {

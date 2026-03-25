@@ -3,26 +3,26 @@
 #include "unitysdk/System/Object.h"
 
 namespace EnviromentSystemV2Space { class EnvProfileV2; }
-namespace RPG::Client::OpenWorld { template <typename T1, typename T2> class LRUCache_2_CacheOperation; }
+namespace RPG::Client { template <typename T1, typename T2> class LRUCache_2_CacheOperation; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define CLASS_2_6A75EA4A76790B33___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA47CC50)
-#define CLASS_2_6A75EA4A76790B33___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA47CC80)
-#define CLASS_2_6A75EA4A76790B33___C__INIT_B__37_0_OFFSET UNITYSDK_OFFSET(0xA47CC90)
+#define CLASS_2_6A75EA4A76790B33___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DBAE40)
+#define CLASS_2_6A75EA4A76790B33___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8DBAE70)
+#define CLASS_2_6A75EA4A76790B33___C__INIT_B__37_0_OFFSET UNITYSDK_OFFSET(0x8DBAE80)
 
-inline static constexpr unsigned int Class_2_6A75EA4A76790B33___c_TypeDefinitionIndex = 39136;
+inline static constexpr unsigned int Class_2_6A75EA4A76790B33___c_TypeDefinitionIndex = 40116;
 
 class Class_2_6A75EA4A76790B33___c : public ::System::Object
 {
 public:
 	static ::Class_2_6A75EA4A76790B33___c** StaticGet___9()
 	{
-		return (::Class_2_6A75EA4A76790B33___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_6A75EA4A76790B33___c_TypeDefinitionIndex)->GetStaticField(0x45D30);
+		return (::Class_2_6A75EA4A76790B33___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_6A75EA4A76790B33___c_TypeDefinitionIndex)->GetStaticField(0x14C10);
 	}
-	static ::RPG::Client::OpenWorld::LRUCache_2_CacheOperation<::System::String*, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*>** StaticGet___9__37_0()
+	static ::RPG::Client::LRUCache_2_CacheOperation<::System::String*, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*>** StaticGet___9__37_0()
 	{
-		return (::RPG::Client::OpenWorld::LRUCache_2_CacheOperation<::System::String*, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_6A75EA4A76790B33___c_TypeDefinitionIndex)->GetStaticField(0x45D38);
+		return (::RPG::Client::LRUCache_2_CacheOperation<::System::String*, ::System::Tuple_2<::System::String*, ::EnviromentSystemV2Space::EnvProfileV2*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_6A75EA4A76790B33___c_TypeDefinitionIndex)->GetStaticField(0x14C18);
 	}
 
 	static ::System::Void _cctor()

@@ -6,10 +6,10 @@
 class Class_1_2F02D0D2C192BA56;
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_1D8DBED385F55542_CLEAR_OFFSET UNITYSDK_OFFSET(0x10354430)
-#define CLASS_1_1D8DBED385F55542__CTOR_OFFSET UNITYSDK_OFFSET(0x10354480)
+#define CLASS_1_1D8DBED385F55542_CLEAR_OFFSET UNITYSDK_OFFSET(0xB27D430)
+#define CLASS_1_1D8DBED385F55542__CTOR_OFFSET UNITYSDK_OFFSET(0xB27D480)
 
-inline static constexpr unsigned int Class_1_1D8DBED385F55542_TypeDefinitionIndex = 55560;
+inline static constexpr unsigned int Class_1_1D8DBED385F55542_TypeDefinitionIndex = 57124;
 
 class Class_1_1D8DBED385F55542 : public ::System::Object
 {

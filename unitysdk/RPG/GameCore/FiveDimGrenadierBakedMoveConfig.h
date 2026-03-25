@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERBAKEDMOVECONFIG_METHOD_3_C377C589DB3527E4_OFFSET UNITYSDK_OFFSET(0x16AC1490)
-#define RPG_GAMECORE_FIVEDIMGRENADIERBAKEDMOVECONFIG_METHOD_3_C92A9C822C9A7F41_OFFSET UNITYSDK_OFFSET(0x16AC14D0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERBAKEDMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC14C0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERBAKEDMOVECONFIG_METHOD_3_C377C589DB3527E4_OFFSET UNITYSDK_OFFSET(0x1720A160)
+#define RPG_GAMECORE_FIVEDIMGRENADIERBAKEDMOVECONFIG_METHOD_3_C92A9C822C9A7F41_OFFSET UNITYSDK_OFFSET(0x1720A1A0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERBAKEDMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1720A190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierBakedMoveConfig_TypeDefinitionIndex = 15036;
+	inline static constexpr unsigned int FiveDimGrenadierBakedMoveConfig_TypeDefinitionIndex = 15289;
 
 	class FiveDimGrenadierBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
@@ -20,6 +20,8 @@ namespace RPG::GameCore
 		::System::Single AttackDistance; // 0x34
 		::RPG::MVector3 CreationOffset; // 0x38
 		::System::Single ParabolaHeightOffset; // 0x44
+		::System::Single AttackDistancePerpendicular; // 0x48
+		::System::Single TraceOffset; // 0x4C
 
 		::System::Void _ctor()
 		{

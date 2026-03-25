@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class VirtualRankChimeraTeam; }
 
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F34FA0)
-#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___C__DISPLAYCLASS5_0___REFRESHVIRTUALTEAMRANK_B__1_OFFSET UNITYSDK_OFFSET(0x8F34FE0)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93D6080)
+#define RPG_CLIENT_CHIMERARANKSWAPCONTROLLER___C__DISPLAYCLASS5_0___REFRESHVIRTUALTEAMRANK_B__1_OFFSET UNITYSDK_OFFSET(0x93D60C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraRankSwapController___c__DisplayClass5_0_TypeDefinitionIndex = 57759;
+	inline static constexpr unsigned int ChimeraRankSwapController___c__DisplayClass5_0_TypeDefinitionIndex = 59387;
 
 	class ChimeraRankSwapController___c__DisplayClass5_0 : public ::System::Object
 	{

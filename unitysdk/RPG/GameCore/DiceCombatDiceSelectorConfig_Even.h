@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN_METHOD_3_29B28A3FA29A9609_OFFSET UNITYSDK_OFFSET(0x16A35760)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN_METHOD_3_32A1FDD8FF2AF40C_OFFSET UNITYSDK_OFFSET(0x16A34C10)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN__CTOR_OFFSET UNITYSDK_OFFSET(0x16A34BB0)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN_METHOD_3_32A1FDD8FF2AF40C_OFFSET UNITYSDK_OFFSET(0x17173900)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN_METHOD_3_7B852DC634D8947E_OFFSET UNITYSDK_OFFSET(0x17174530)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN__CTOR_OFFSET UNITYSDK_OFFSET(0x171738A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Even_TypeDefinitionIndex = 14571;
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Even_TypeDefinitionIndex = 14823;
 
 	class DiceCombatDiceSelectorConfig_Even : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_29B28A3FA29A9609(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Even*& a2)
+		static ::System::Void Method_3_7B852DC634D8947E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Even*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Even*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN_METHOD_3_29B28A3FA29A9609_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Even*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_EVEN_METHOD_3_7B852DC634D8947E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_32A1FDD8FF2AF40C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Even* a2)

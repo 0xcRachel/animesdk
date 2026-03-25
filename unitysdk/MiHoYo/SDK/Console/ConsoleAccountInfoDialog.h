@@ -7,25 +7,25 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15757DF0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x15759E00)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x15759DE0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x15757CE0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15759DA0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x15757D90)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x15757B70)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15759E20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E44C90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x15E46CA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x15E46C80)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x15E44BC0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E46C40)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x15E44C30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x15E44AB0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15E46CC0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleAccountInfoDialog_TypeDefinitionIndex = 7489;
+	inline static constexpr unsigned int ConsoleAccountInfoDialog_TypeDefinitionIndex = 7614;
 
 	class ConsoleAccountInfoDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::Console::ConsoleAccountInfoDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x14110);
+			return (::MiHoYo::SDK::Console::ConsoleAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x12C90);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
@@ -46,13 +46,13 @@ namespace MiHoYo::SDK::Console
 		// static const ::System::String* RoleLevelLabelTextPath; // 0x0
 		// static const ::System::String* RoleLevelValueTextPath; // 0x0
 		// static const ::System::String* EmptyRoleTipPath; // 0x0
-		::System::Action* OnContinueToBind; // 0xB0
-		::System::Action* OnSwitchHoYoAccount; // 0xB8
-		::System::Boolean Interactable; // 0xC0
-		::System::String* ConsoleAccountName; // 0xC8
-		::System::String* HoYoAccountName; // 0xD0
-		::MiHoYo::SDK::Console::UserGameServerInfo* CurrentServerInfo; // 0xD8
-		::MiHoYo::SDK::Console::UserGameServerInfo* OtherServerInfo; // 0xE0
+		::System::Action* OnContinueToBind; // 0xC0
+		::System::Action* OnSwitchHoYoAccount; // 0xC8
+		::System::Boolean Interactable; // 0xD0
+		::System::String* ConsoleAccountName; // 0xD8
+		::System::String* HoYoAccountName; // 0xE0
+		::MiHoYo::SDK::Console::UserGameServerInfo* CurrentServerInfo; // 0xE8
+		::MiHoYo::SDK::Console::UserGameServerInfo* OtherServerInfo; // 0xF0
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvLerpGatheredSpeedToZero; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1545CCDB52A381D8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8637FC0)
-#define CLASS_3_1545CCDB52A381D8__CTOR_OFFSET UNITYSDK_OFFSET(0x8637F90)
+#define CLASS_3_1545CCDB52A381D8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A53BD0)
+#define CLASS_3_1545CCDB52A381D8__CTOR_OFFSET UNITYSDK_OFFSET(0x8A53BA0)
 
-inline static constexpr unsigned int Class_3_1545CCDB52A381D8_TypeDefinitionIndex = 45598;
+inline static constexpr unsigned int Class_3_1545CCDB52A381D8_TypeDefinitionIndex = 46662;
 
 class Class_3_1545CCDB52A381D8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvLerpGatheredSpeedToZero*>
 {

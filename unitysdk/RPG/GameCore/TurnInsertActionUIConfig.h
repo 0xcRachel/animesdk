@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_METHOD_2_48186C6302345339_OFFSET UNITYSDK_OFFSET(0x1712E160)
-#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1712E270)
+#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG_METHOD_2_9BC27D1573993C70_OFFSET UNITYSDK_OFFSET(0x178EA1A0)
+#define RPG_GAMECORE_TURNINSERTACTIONUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178EA270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 20294;
+	inline static constexpr unsigned int TurnInsertActionUIConfig_TypeDefinitionIndex = 20841;
 
 	class TurnInsertActionUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTIONUICONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_48186C6302345339(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertActionUIConfig*& a2)
+		static ::System::Void Method_2_9BC27D1573993C70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertActionUIConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertActionUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTIONUICONFIG_METHOD_2_48186C6302345339_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertActionUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTIONUICONFIG_METHOD_2_9BC27D1573993C70_OFFSET))(a1, a2);
 		}
 	};
 }

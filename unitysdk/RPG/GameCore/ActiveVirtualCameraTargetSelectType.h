@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveVirtualCameraTargetSelectType_TypeDefinitionIndex = 18628;
+	inline static constexpr unsigned int ActiveVirtualCameraTargetSelectType_TypeDefinitionIndex = 19149;
 
 	enum class ActiveVirtualCameraTargetSelectType : ::System::Int32
 	{

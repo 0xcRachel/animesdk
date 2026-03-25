@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManaVideoPlayerPauseReason_TypeDefinitionIndex = 58354;
+	inline static constexpr unsigned int ManaVideoPlayerPauseReason_TypeDefinitionIndex = 60007;
 
 	enum class ManaVideoPlayerPauseReason : ::System::Int32
 	{

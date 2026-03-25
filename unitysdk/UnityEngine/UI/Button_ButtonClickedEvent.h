@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define UNITYENGINE_UI_BUTTON_BUTTONCLICKEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x182E7E80)
+#define UNITYENGINE_UI_BUTTON_BUTTONCLICKEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0E160)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Button_ButtonClickedEvent_TypeDefinitionIndex = 5459;
+	inline static constexpr unsigned int Button_ButtonClickedEvent_TypeDefinitionIndex = 5559;
 
 	class Button_ButtonClickedEvent : public ::UnityEngine::Events::UnityEvent
 	{

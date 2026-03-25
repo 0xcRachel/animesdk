@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class OverseaAccountListConfirm; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A4D970)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15A4D9B0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__SHOW_B__28_0_OFFSET UNITYSDK_OFFSET(0x15A4D9C0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1611C2B0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1611C2F0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLISTCONFIRM___C__SHOW_B__28_0_OFFSET UNITYSDK_OFFSET(0x1611C300)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountListConfirm___c_TypeDefinitionIndex = 7786;
+	inline static constexpr unsigned int OverseaAccountListConfirm___c_TypeDefinitionIndex = 7911;
 
 	class OverseaAccountListConfirm___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>** StaticGet___9__28_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x1BD40);
-		}
 		static ::MiHoYo::SDK::Win::OverseaAccountListConfirm___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x1BD48);
+			return (::MiHoYo::SDK::Win::OverseaAccountListConfirm___c**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x27C30);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>** StaticGet___9__28_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountListConfirm*>**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountListConfirm___c_TypeDefinitionIndex)->GetStaticField(0x27C38);
 		}
 
 		static ::System::Void _cctor()

@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1852F350)
+#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D31900)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 5969;
+	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 6069;
 
 	class MSIReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0xAD20);
-		}
 		static ::System::String** StaticGet_ALPHABET_STRING()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0xAD28);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6230);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6238);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0xAD30);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6240);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0xAD38);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6248);
 		}
 
 		static ::System::Void _cctor()

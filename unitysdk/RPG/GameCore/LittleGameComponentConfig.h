@@ -6,22 +6,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG_METHOD_2_023E3262BB481847_OFFSET UNITYSDK_OFFSET(0x16BC6400)
-#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG_METHOD_2_EEF854FCE3DA42CE_OFFSET UNITYSDK_OFFSET(0x16BC6580)
-#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x16BC65E0)
-#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BC65F0)
-#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16BC4D80)
+#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG_METHOD_2_023E3262BB481847_OFFSET UNITYSDK_OFFSET(0x17369B50)
+#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG_METHOD_2_EEF854FCE3DA42CE_OFFSET UNITYSDK_OFFSET(0x17369CD0)
+#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x17369D30)
+#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x17369D40)
+#define RPG_GAMECORE_LITTLEGAMECOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17368550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameComponentConfig_TypeDefinitionIndex = 16883;
+	inline static constexpr unsigned int LittleGameComponentConfig_TypeDefinitionIndex = 17288;
 
 	class LittleGameComponentConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameComponentConfig*>*>** StaticGet__FromBinary_LittleGameComponentConfig_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameComponentConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(LittleGameComponentConfig_TypeDefinitionIndex)->GetStaticField(0x34550);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameComponentConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(LittleGameComponentConfig_TypeDefinitionIndex)->GetStaticField(0x3F2B0);
 		}
 
 		::System::Void _ctor()

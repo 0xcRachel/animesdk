@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DistanceToScoreWeight; }
 
-#define RPG_GAMECORE_DISTANCETOSCOREWEIGHTMAPPING_METHOD_2_7631C3E72153F352_OFFSET UNITYSDK_OFFSET(0x16A45590)
-#define RPG_GAMECORE_DISTANCETOSCOREWEIGHTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x16A45660)
+#define RPG_GAMECORE_DISTANCETOSCOREWEIGHTMAPPING_METHOD_2_7631C3E72153F352_OFFSET UNITYSDK_OFFSET(0x171880C0)
+#define RPG_GAMECORE_DISTANCETOSCOREWEIGHTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x17188190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistanceToScoreWeightMapping_TypeDefinitionIndex = 14211;
+	inline static constexpr unsigned int DistanceToScoreWeightMapping_TypeDefinitionIndex = 14329;
 
 	class DistanceToScoreWeightMapping : public ::RPG::GameCore::JsonConfig
 	{

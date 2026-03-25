@@ -8,22 +8,22 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x8DE4B80)
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_GET_ELATIONBUFFGROUP_OFFSET UNITYSDK_OFFSET(0x8DE4EF0)
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_GET_NORMALBUFFLIST_OFFSET UNITYSDK_OFFSET(0x8DE4ED0)
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_SET_ELATIONBUFFGROUP_OFFSET UNITYSDK_OFFSET(0x8DE4F00)
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_SET_NORMALBUFFLIST_OFFSET UNITYSDK_OFFSET(0x8DE4EE0)
-#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8DE4C20)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x91EECF0)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_GET_ELATIONBUFFGROUP_OFFSET UNITYSDK_OFFSET(0x91EF020)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_GET_NORMALBUFFLIST_OFFSET UNITYSDK_OFFSET(0x91EF000)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_SET_ELATIONBUFFGROUP_OFFSET UNITYSDK_OFFSET(0x91EF030)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA_SET_NORMALBUFFLIST_OFFSET UNITYSDK_OFFSET(0x91EF010)
+#define RPG_CLIENT_BENEFICIALBUFFVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x91EED90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BeneficialBuffViewData_TypeDefinitionIndex = 56730;
+	inline static constexpr unsigned int BeneficialBuffViewData_TypeDefinitionIndex = 58319;
 
 	class BeneficialBuffViewData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* _NormalBuffList_k__BackingField; // 0x10
-		::RPG::Client::ElationBattleBuffGroupViewData* _ElationBuffGroup_k__BackingField; // 0x18
+		::RPG::Client::ElationBattleBuffGroupViewData* _ElationBuffGroup_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* _NormalBuffList_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* modifiers, ::RPG::GameCore::TurnBasedAbilityComponent* ability, ::RPG::GameCore::ElationCharacterUIConfig* elationUIConfig)
 		{

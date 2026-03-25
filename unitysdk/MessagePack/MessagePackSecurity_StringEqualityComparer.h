@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_STRINGEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15686480)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_STRINGEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x156865B0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_STRINGEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x15686590)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_STRINGEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15D8B870)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_STRINGEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D8B9A0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_STRINGEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D8B980)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_StringEqualityComparer_TypeDefinitionIndex = 9450;
+	inline static constexpr unsigned int MessagePackSecurity_StringEqualityComparer_TypeDefinitionIndex = 9064;
 
 	class MessagePackSecurity_StringEqualityComparer : public ::MessagePack::MessagePackSecurity_CollisionResistantHasher_1<::System::String*>
 	{
 	public:
 		static ::MessagePack::MessagePackSecurity_StringEqualityComparer** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSecurity_StringEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_StringEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x27090);
+			return (::MessagePack::MessagePackSecurity_StringEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_StringEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x1B000);
 		}
 
 		::System::Void _ctor()

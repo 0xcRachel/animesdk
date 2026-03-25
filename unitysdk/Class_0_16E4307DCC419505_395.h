@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ChessMoveStopReason.h"
 
-class Class_0_16E4307DCC419505_394;
+class Class_1_5F51D4049EA87B7B;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_395_TypeDefinitionIndex = 44183;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_395_TypeDefinitionIndex = 43845;
 
 class Class_0_16E4307DCC419505_395
 {

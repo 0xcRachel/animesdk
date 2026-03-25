@@ -1,20 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
+namespace RPG::Client { class IRogueTournGameLevelLayerLinear; }
+namespace RPG::Client { class IRogueTournGameLevelRoomLinear; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF836A50)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF836AC0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28_INVOKE_OFFSET UNITYSDK_OFFSET(0xF836620)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B320)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF60D00)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF60D30)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF607A0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE28__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57BA0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE28_TypeDefinitionIndex = 39459;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE28_TypeDefinitionIndex = 40445;
 
 	class InternalGlobals___GEN_DELEGATE28 : public ::System::MulticastDelegate
 	{
@@ -24,19 +26,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Boolean Invoke(::RPG::GameCore::CakeRaceCellType cellType)
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournGameLevelRoomLinear*>* Invoke(::RPG::Client::IRogueTournGameLevelLayerLinear* layer)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::CakeRaceCellType))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28_INVOKE_OFFSET))(this, cellType);
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournGameLevelRoomLinear*>*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLayerLinear*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28_INVOKE_OFFSET))(this, layer);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::CakeRaceCellType cellType, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournGameLevelLayerLinear* layer, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::CakeRaceCellType, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28_BEGININVOKE_OFFSET))(this, cellType, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLayerLinear*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28_BEGININVOKE_OFFSET))(this, layer, callback, object);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournGameLevelRoomLinear*>* EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournGameLevelRoomLinear*>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE28_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

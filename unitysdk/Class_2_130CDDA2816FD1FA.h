@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TaskTemplateFetchParamSequence; }
 
-#define CLASS_2_130CDDA2816FD1FA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x104ADED0)
-#define CLASS_2_130CDDA2816FD1FA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x104ADF10)
-#define CLASS_2_130CDDA2816FD1FA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x104AE140)
-#define CLASS_2_130CDDA2816FD1FA_TICK_OFFSET UNITYSDK_OFFSET(0x104AE190)
-#define CLASS_2_130CDDA2816FD1FA__CTOR_OFFSET UNITYSDK_OFFSET(0x104ADEC0)
+#define CLASS_2_130CDDA2816FD1FA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x116147E0)
+#define CLASS_2_130CDDA2816FD1FA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11614820)
+#define CLASS_2_130CDDA2816FD1FA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11614A50)
+#define CLASS_2_130CDDA2816FD1FA_TICK_OFFSET UNITYSDK_OFFSET(0x11614AA0)
+#define CLASS_2_130CDDA2816FD1FA__CTOR_OFFSET UNITYSDK_OFFSET(0x116147D0)
 
-inline static constexpr unsigned int Class_2_130CDDA2816FD1FA_TypeDefinitionIndex = 43562;
+inline static constexpr unsigned int Class_2_130CDDA2816FD1FA_TypeDefinitionIndex = 44618;
 
 class Class_2_130CDDA2816FD1FA : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::TaskTemplateFetchParamSequence* Field_2_0; // 0x20
-	::Class_3_BCCE950C2E8DF1F0* Field_2_2; // 0x28
+	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskTemplateFetchParamSequence* Field_2_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TaskTemplateFetchParamSequence* a2)
 	{

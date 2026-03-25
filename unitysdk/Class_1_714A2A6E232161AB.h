@@ -6,10 +6,10 @@ namespace RPG::Client { class GlobalDispatchData_ServerData; }
 namespace System { class Action; }
 namespace System::Collections { class IEnumerator; }
 
-#define CLASS_1_714A2A6E232161AB_METHOD_1_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0xA6DA930)
-#define CLASS_1_714A2A6E232161AB__CTOR_OFFSET UNITYSDK_OFFSET(0xA6DA920)
+#define CLASS_1_714A2A6E232161AB_METHOD_1_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0x1194A270)
+#define CLASS_1_714A2A6E232161AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1194A260)
 
-inline static constexpr unsigned int Class_1_714A2A6E232161AB_TypeDefinitionIndex = 55106;
+inline static constexpr unsigned int Class_1_714A2A6E232161AB_TypeDefinitionIndex = 56669;
 
 class Class_1_714A2A6E232161AB : public ::System::Object
 {

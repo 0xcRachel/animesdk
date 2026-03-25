@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoyoTagEvalType_TypeDefinitionIndex = 15507;
+	inline static constexpr unsigned int HoyoTagEvalType_TypeDefinitionIndex = 15784;
 
 	enum class HoyoTagEvalType : ::System::Int32
 	{

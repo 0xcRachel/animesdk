@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackAsset_Versions_TypeDefinitionIndex = 28964;
+	inline static constexpr unsigned int TrackAsset_Versions_TypeDefinitionIndex = 29839;
 
 	enum class TrackAsset_Versions : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace RPG::Client { class PhotoGraphFilterConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHFILTERCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x9A7BF20)
+#define RPG_CLIENT_PHOTOGRAPHFILTERCONFIGASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x9F4FA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphFilterConfigAsset_TypeDefinitionIndex = 55186;
+	inline static constexpr unsigned int PhotoGraphFilterConfigAsset_TypeDefinitionIndex = 56751;
 
 	class PhotoGraphFilterConfigAsset : public ::UnityEngine::ScriptableObject
 	{

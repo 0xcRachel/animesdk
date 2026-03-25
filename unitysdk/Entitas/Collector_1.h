@@ -13,7 +13,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Collector_1_TypeDefinitionIndex = 9201;
+	inline static constexpr unsigned int Collector_1_TypeDefinitionIndex = 9668;
 
 	template <typename TEntity>
 	class Collector_1 : public ::System::Object

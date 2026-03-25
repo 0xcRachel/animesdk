@@ -7,24 +7,24 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace UnityEngine { class Camera; }
 namespace VLB { class BeamGeometry; }
 
-#define VLB_BEAMGEOMETRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA73B100)
-#define VLB_BEAMGEOMETRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA73B130)
-#define VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET UNITYSDK_OFFSET(0xA73B140)
+#define VLB_BEAMGEOMETRY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC44240)
+#define VLB_BEAMGEOMETRY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAC44270)
+#define VLB_BEAMGEOMETRY___C__GET_ONBEGINCAMERARENDERINGHANDLER_B__29_0_OFFSET UNITYSDK_OFFSET(0xAC44280)
 
 namespace VLB
 {
-	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 38707;
+	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 39687;
 
 	class BeamGeometry___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__29_0()
-		{
-			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x42D20);
-		}
 		static ::VLB::BeamGeometry___c** StaticGet___9()
 		{
-			return (::VLB::BeamGeometry___c**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x42D28);
+			return (::VLB::BeamGeometry___c**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x52F0);
+		}
+		static ::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__29_0()
+		{
+			return (::System::Action_3<::VLB::BeamGeometry*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(BeamGeometry___c_TypeDefinitionIndex)->GetStaticField(0x52F8);
 		}
 
 		static ::System::Void _cctor()

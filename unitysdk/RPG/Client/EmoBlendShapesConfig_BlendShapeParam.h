@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9157A40)
+#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9604B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeParam_TypeDefinitionIndex = 47557;
+	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeParam_TypeDefinitionIndex = 48638;
 
 	class EmoBlendShapesConfig_BlendShapeParam : public ::System::Object
 	{

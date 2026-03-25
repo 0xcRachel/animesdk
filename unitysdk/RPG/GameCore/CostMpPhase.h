@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CostMpPhase_TypeDefinitionIndex = 15809;
+	inline static constexpr unsigned int CostMpPhase_TypeDefinitionIndex = 16086;
 
 	enum class CostMpPhase : ::System::Int32
 	{

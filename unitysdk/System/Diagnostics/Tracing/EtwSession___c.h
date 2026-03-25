@@ -6,24 +6,24 @@ namespace System { template <typename T> class Predicate_1; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C068F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15C06930)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x15C06940)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162CED90)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162CEDD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x162CEDE0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EtwSession___c_TypeDefinitionIndex = 1687;
+	inline static constexpr unsigned int EtwSession___c_TypeDefinitionIndex = 1692;
 
 	class EtwSession___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x83C0);
-		}
 		static ::System::Diagnostics::Tracing::EtwSession___c** StaticGet___9()
 		{
-			return (::System::Diagnostics::Tracing::EtwSession___c**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x83C8);
+			return (::System::Diagnostics::Tracing::EtwSession___c**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x6770);
+		}
+		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0x6778);
 		}
 
 		static ::System::Void _cctor()

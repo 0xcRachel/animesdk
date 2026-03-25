@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLEBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9C44D00)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLEBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D19C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LightRubikCubePuzzleBlockData_TypeDefinitionIndex = 61940;
+	inline static constexpr unsigned int LightRubikCubePuzzleBlockData_TypeDefinitionIndex = 64127;
 
 	class LightRubikCubePuzzleBlockData : public ::System::Object
 	{

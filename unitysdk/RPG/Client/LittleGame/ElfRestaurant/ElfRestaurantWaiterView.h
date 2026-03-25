@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTWAITERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9527FD0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTWAITERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x99B8820)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantWaiterView_TypeDefinitionIndex = 60948;
+	inline static constexpr unsigned int ElfRestaurantWaiterView_TypeDefinitionIndex = 62947;
 
 	class ElfRestaurantWaiterView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantNPCView
 	{

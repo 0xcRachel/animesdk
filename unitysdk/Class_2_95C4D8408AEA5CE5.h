@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0x104D3EF0)
-#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0x104D4500)
-#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_E99336970DAC7BF0_OFFSET UNITYSDK_OFFSET(0x104D4580)
-#define CLASS_2_95C4D8408AEA5CE5__CTOR_OFFSET UNITYSDK_OFFSET(0x104D37B0)
+#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_35942D7A8A374AB0_OFFSET UNITYSDK_OFFSET(0x1061CB20)
+#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0x1061D130)
+#define CLASS_2_95C4D8408AEA5CE5_METHOD_2_E99336970DAC7BF0_OFFSET UNITYSDK_OFFSET(0x1061D1B0)
+#define CLASS_2_95C4D8408AEA5CE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1061C3E0)
 
-inline static constexpr unsigned int Class_2_95C4D8408AEA5CE5_TypeDefinitionIndex = 62421;
+inline static constexpr unsigned int Class_2_95C4D8408AEA5CE5_TypeDefinitionIndex = 64609;
 
 class Class_2_95C4D8408AEA5CE5 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::System::String* Field_2_1; // 0x20
-	::System::String* Field_2_0; // 0x28
+	::System::String* Field_2_0; // 0x20
+	::System::String* Field_2_1; // 0x28
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 	{

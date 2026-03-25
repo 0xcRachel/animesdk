@@ -7,12 +7,12 @@ namespace RPG::Client { class MissionModule; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9745EB0)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__GETMAINMISSIONDATAWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x9752AF0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BEB470)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS333_0__GETMAINMISSIONDATAWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x9BF80E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass333_0_TypeDefinitionIndex = 52640;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass333_0_TypeDefinitionIndex = 53777;
 
 	class MissionModule___c__DisplayClass333_0 : public ::System::Object
 	{

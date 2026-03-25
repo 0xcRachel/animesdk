@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AuthoritySide_TypeDefinitionIndex = 18545;
+	inline static constexpr unsigned int AuthoritySide_TypeDefinitionIndex = 19064;
 
 	enum class AuthoritySide : ::System::Int32
 	{

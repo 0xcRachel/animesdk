@@ -4,24 +4,24 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableFloatProperty.h"
 
-#define CLASS_1_534AF681CC2BD5FD_34_CLASS_1_D6DADDCC7E98AFD3__CCTOR_OFFSET UNITYSDK_OFFSET(0x11029D70)
+#define CLASS_1_534AF681CC2BD5FD_34_CLASS_1_D6DADDCC7E98AFD3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1050F1D0)
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex = 46908;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex = 47987;
 
 class Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3 : public ::System::Object
 {
 public:
+	static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_Field_1_2()
+	{
+		return (::UnityEngine::ConsoleVariableFloatProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex)->GetStaticField(0x17B30);
+	}
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex)->GetStaticField(0x3D8C0);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex)->GetStaticField(0x17B40);
 	}
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex)->GetStaticField(0x3D8D0);
-	}
-	static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_Field_1_2()
-	{
-		return (::UnityEngine::ConsoleVariableFloatProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex)->GetStaticField(0x3D8E0);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_534AF681CC2BD5FD_34_Class_1_D6DADDCC7E98AFD3_TypeDefinitionIndex)->GetStaticField(0x17B50);
 	}
 
 	static ::System::Void _cctor()

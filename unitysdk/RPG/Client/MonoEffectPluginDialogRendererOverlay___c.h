@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDEREROVERLAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97F7630)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDEREROVERLAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97F7670)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDEREROVERLAY___C__GET_DIALOGTARGETRENDERERS_B__27_0_OFFSET UNITYSDK_OFFSET(0x97F7680)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDEREROVERLAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CD9340)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDEREROVERLAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD9380)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDEREROVERLAY___C__GET_DIALOGTARGETRENDERERS_B__27_0_OFFSET UNITYSDK_OFFSET(0x9CD9390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex = 55711;
+	inline static constexpr unsigned int MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex = 57275;
 
 	class MonoEffectPluginDialogRendererOverlay___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex)->GetStaticField(0x39250);
-		}
 		static ::RPG::Client::MonoEffectPluginDialogRendererOverlay___c** StaticGet___9()
 		{
-			return (::RPG::Client::MonoEffectPluginDialogRendererOverlay___c**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex)->GetStaticField(0x39258);
+			return (::RPG::Client::MonoEffectPluginDialogRendererOverlay___c**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex)->GetStaticField(0x3BB00);
+		}
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__27_0()
+		{
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex)->GetStaticField(0x3BB08);
 		}
 
 		static ::System::Void _cctor()

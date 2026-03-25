@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_423695772F3F2AA9;
+#define CLASS_1_43BD383C98B4C0C5_162_POINTERPOSITION_OFFSET UNITYSDK_OFFSET(0x117EC340)
+#define CLASS_1_43BD383C98B4C0C5_162__CTOR_OFFSET UNITYSDK_OFFSET(0x117EC3D0)
 
-#define CLASS_1_43BD383C98B4C0C5_162__CTOR_OFFSET UNITYSDK_OFFSET(0xA45FF00)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_162_TypeDefinitionIndex = 58948;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_162_TypeDefinitionIndex = 59808;
 
 class Class_1_43BD383C98B4C0C5_162 : public ::System::Object
 {
@@ -14,5 +14,10 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_162__CTOR_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 PointerPosition()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_162_POINTERPOSITION_OFFSET))(this);
 	}
 };

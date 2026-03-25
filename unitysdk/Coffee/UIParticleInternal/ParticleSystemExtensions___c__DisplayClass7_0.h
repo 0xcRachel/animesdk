@@ -6,18 +6,18 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1127E730)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__SORTFORRENDERING_B__0_OFFSET UNITYSDK_OFFSET(0x1127EA40)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11A080D0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS___C__DISPLAYCLASS7_0__SORTFORRENDERING_B__0_OFFSET UNITYSDK_OFFSET(0x11A083E0)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ParticleSystemExtensions___c__DisplayClass7_0_TypeDefinitionIndex = 33894;
+	inline static constexpr unsigned int ParticleSystemExtensions___c__DisplayClass7_0_TypeDefinitionIndex = 34883;
 
 	class ParticleSystemExtensions___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* transform; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* self; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* self; // 0x10
+		::UnityEngine::Transform* transform; // 0x18
 		::System::Boolean sortByMaterial; // 0x20
 
 		::System::Void _ctor()

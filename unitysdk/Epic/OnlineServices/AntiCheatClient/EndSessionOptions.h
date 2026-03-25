@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ENDSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x802AC80)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ENDSESSIONOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x838AC60)
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int EndSessionOptions_TypeDefinitionIndex = 35769;
+	inline static constexpr unsigned int EndSessionOptions_TypeDefinitionIndex = 36703;
 
 	class EndSessionOptions : public ::System::Object
 	{

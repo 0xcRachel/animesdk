@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168ED330)
-#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168ED420)
+#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FFE160)
+#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFE250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BookDisplayTypeConfigRow_TypeDefinitionIndex = 11702;
+	inline static constexpr unsigned int BookDisplayTypeConfigRow_TypeDefinitionIndex = 11772;
 
 	class BookDisplayTypeConfigRow : public ::System::Object
 	{

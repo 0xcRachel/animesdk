@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesEventSpineItemType_TypeDefinitionIndex = 52937;
+	inline static constexpr unsigned int PlanetFesEventSpineItemType_TypeDefinitionIndex = 54075;
 
 	enum class PlanetFesEventSpineItemType : ::System::Int32
 	{

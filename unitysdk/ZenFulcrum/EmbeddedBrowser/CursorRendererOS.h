@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/CursorRendererBase.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_CURSORRENDEREROS_CURSORCHANGE_OFFSET UNITYSDK_OFFSET(0x184725F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_CURSORRENDEREROS__CTOR_OFFSET UNITYSDK_OFFSET(0x184726B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_CURSORRENDEREROS_CURSORCHANGE_OFFSET UNITYSDK_OFFSET(0x18C8FAD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_CURSORRENDEREROS__CTOR_OFFSET UNITYSDK_OFFSET(0x18C8FB90)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int CursorRendererOS_TypeDefinitionIndex = 29636;
+	inline static constexpr unsigned int CursorRendererOS_TypeDefinitionIndex = 30511;
 
 	class CursorRendererOS : public ::ZenFulcrum::EmbeddedBrowser::CursorRendererBase
 	{

@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEENDLESSMEGABUFFDESCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E7C8E0)
-#define RPG_GAMECORE_ROGUEENDLESSMEGABUFFDESCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E7D020)
+#define RPG_GAMECORE_ROGUEENDLESSMEGABUFFDESCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1761BF20)
+#define RPG_GAMECORE_ROGUEENDLESSMEGABUFFDESCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1761C660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueEndlessMegaBuffDescRow_TypeDefinitionIndex = 11198;
+	inline static constexpr unsigned int RogueEndlessMegaBuffDescRow_TypeDefinitionIndex = 11266;
 
 	class RogueEndlessMegaBuffDescRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID BuffSimpleDesc; // 0x10
+		::RPG::Client::TextID BuffDesc; // 0x10
 		::System::UInt32 MazeBuffID; // 0x20
-		::RPG::Client::TextID BuffDesc; // 0x28
-		::RPG::Client::TextID BuffPreshowDesc; // 0x38
+		::RPG::Client::TextID BuffPreshowDesc; // 0x28
+		::RPG::Client::TextID BuffSimpleDesc; // 0x38
 
 		::System::Void _ctor()
 		{

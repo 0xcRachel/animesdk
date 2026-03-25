@@ -9,24 +9,24 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_ClothBuffer; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x17F97340)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F97750)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x17F96FB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x17F978D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x187C0510)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187C0920)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x187C0180)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_SKINNEDMESHCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x187C0A80)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_SkinnedMeshCapturer_TypeDefinitionIndex = 34004;
+	inline static constexpr unsigned int AlembicRecorder_SkinnedMeshCapturer_TypeDefinitionIndex = 34938;
 
 	class AlembicRecorder_SkinnedMeshCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:
 		::UnityEngine::Mesh* m_meshSrc; // 0x30
-		::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* m_mbuf; // 0x38
-		::UnityEngine::SkinnedMeshRenderer* m_target; // 0x40
-		::UnityEngine::Formats::Alembic::Util::AlembicRecorder_ClothBuffer* m_cbuf; // 0x48
-		::UnityEngine::Cloth* m_cloth; // 0x50
-		::UnityEngine::Mesh* m_meshBake; // 0x58
+		::UnityEngine::Cloth* m_cloth; // 0x38
+		::UnityEngine::Formats::Alembic::Util::AlembicRecorder_ClothBuffer* m_cbuf; // 0x40
+		::UnityEngine::Mesh* m_meshBake; // 0x48
+		::UnityEngine::SkinnedMeshRenderer* m_target; // 0x50
+		::UnityEngine::Formats::Alembic::Util::AlembicRecorder_MeshBuffer* m_mbuf; // 0x58
 
 		::System::Void _ctor()
 		{

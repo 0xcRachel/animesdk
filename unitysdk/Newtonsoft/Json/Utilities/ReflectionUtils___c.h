@@ -10,39 +10,39 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DF43D0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF4400)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET UNITYSDK_OFFSET(0x15DF44B0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETDEFAULTCONSTRUCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x15DF4410)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETFIELDSANDPROPERTIES_B__29_0_OFFSET UNITYSDK_OFFSET(0x15DF4450)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETMEMBERINFOFROMTYPE_B__37_0_OFFSET UNITYSDK_OFFSET(0x15DF4480)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164BB1E0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164BB210)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET UNITYSDK_OFFSET(0x164BB2C0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETDEFAULTCONSTRUCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x164BB220)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETFIELDSANDPROPERTIES_B__29_0_OFFSET UNITYSDK_OFFSET(0x164BB260)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETMEMBERINFOFROMTYPE_B__37_0_OFFSET UNITYSDK_OFFSET(0x164BB290)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionUtils___c_TypeDefinitionIndex = 8153;
+	inline static constexpr unsigned int ReflectionUtils___c_TypeDefinitionIndex = 8282;
 
 	class ReflectionUtils___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__37_0()
 		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5F0);
-		}
-		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5F8);
-		}
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__29_0()
-		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x600);
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5A0);
 		}
 		static ::Newtonsoft::Json::Utilities::ReflectionUtils___c** StaticGet___9()
 		{
-			return (::Newtonsoft::Json::Utilities::ReflectionUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x608);
+			return (::Newtonsoft::Json::Utilities::ReflectionUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5A8);
+		}
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__29_0()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B0);
 		}
 		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x610);
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5B8);
+		}
+		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x5C0);
 		}
 
 		static ::System::Void _cctor()

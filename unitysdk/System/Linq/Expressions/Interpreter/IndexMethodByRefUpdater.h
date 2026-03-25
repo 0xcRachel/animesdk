@@ -10,13 +10,13 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x17CC8A30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17CC86F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x17CC86D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x184DFD50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x184DFA10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x184DF9F0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int IndexMethodByRefUpdater_TypeDefinitionIndex = 3468;
+	inline static constexpr unsigned int IndexMethodByRefUpdater_TypeDefinitionIndex = 3477;
 
 	class IndexMethodByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{

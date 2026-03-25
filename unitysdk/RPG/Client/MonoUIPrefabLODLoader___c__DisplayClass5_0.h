@@ -6,12 +6,12 @@ namespace RPG::Client { class MonoUIPrefabLODLoader; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOUIPREFABLODLOADER___C__DISPLAYCLASS5_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x9877990)
-#define RPG_CLIENT_MONOUIPREFABLODLOADER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9877840)
+#define RPG_CLIENT_MONOUIPREFABLODLOADER___C__DISPLAYCLASS5_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x9D5A260)
+#define RPG_CLIENT_MONOUIPREFABLODLOADER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9D5A110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIPrefabLODLoader___c__DisplayClass5_0_TypeDefinitionIndex = 54783;
+	inline static constexpr unsigned int MonoUIPrefabLODLoader___c__DisplayClass5_0_TypeDefinitionIndex = 56344;
 
 	class MonoUIPrefabLODLoader___c__DisplayClass5_0 : public ::System::Object
 	{

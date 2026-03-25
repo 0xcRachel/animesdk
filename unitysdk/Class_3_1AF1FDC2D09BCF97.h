@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchCurrentInsertTurnSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_1AF1FDC2D09BCF97_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10C57530)
-#define CLASS_3_1AF1FDC2D09BCF97__CTOR_OFFSET UNITYSDK_OFFSET(0x10C574B0)
+#define CLASS_3_1AF1FDC2D09BCF97_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11918250)
+#define CLASS_3_1AF1FDC2D09BCF97__CTOR_OFFSET UNITYSDK_OFFSET(0x119181D0)
 
-inline static constexpr unsigned int Class_3_1AF1FDC2D09BCF97_TypeDefinitionIndex = 46741;
+inline static constexpr unsigned int Class_3_1AF1FDC2D09BCF97_TypeDefinitionIndex = 47820;
 
 class Class_3_1AF1FDC2D09BCF97 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchCurrentInsertTurnSource*>
 {

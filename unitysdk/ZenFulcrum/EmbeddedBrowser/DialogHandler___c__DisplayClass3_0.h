@@ -7,20 +7,20 @@ namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_DialogCallback; }
 namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_MenuCallback; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER___C__DISPLAYCLASS3_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x184733D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER___C__DISPLAYCLASS3_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x18473B50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184731F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER___C__DISPLAYCLASS3_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x18C908B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER___C__DISPLAYCLASS3_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x18C90E40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C906D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DialogHandler___c__DisplayClass3_0_TypeDefinitionIndex = 29663;
+	inline static constexpr unsigned int DialogHandler___c__DisplayClass3_0_TypeDefinitionIndex = 30538;
 
 	class DialogHandler___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::DialogHandler_MenuCallback* contextCallback; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::DialogHandler* handler; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::DialogHandler_DialogCallback* dialogCallback; // 0x20
+		::ZenFulcrum::EmbeddedBrowser::DialogHandler* handler; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::DialogHandler_DialogCallback* dialogCallback; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::DialogHandler_MenuCallback* contextCallback; // 0x20
 
 		::System::Void _ctor()
 		{

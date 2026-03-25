@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAvatarBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_40FD5A43CC5B5679_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9E91950)
-#define CLASS_3_40FD5A43CC5B5679__CTOR_OFFSET UNITYSDK_OFFSET(0x9E91920)
+#define CLASS_3_40FD5A43CC5B5679_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x119711E0)
+#define CLASS_3_40FD5A43CC5B5679__CTOR_OFFSET UNITYSDK_OFFSET(0x119711B0)
 
-inline static constexpr unsigned int Class_3_40FD5A43CC5B5679_TypeDefinitionIndex = 43316;
+inline static constexpr unsigned int Class_3_40FD5A43CC5B5679_TypeDefinitionIndex = 44371;
 
 class Class_3_40FD5A43CC5B5679 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAvatarBaseType*>
 {

@@ -6,17 +6,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_910822CB5E4FEDEB_CLASS_1_0424B7065E7B9A4F_METHOD_1_0D92A6D99073FCFA_OFFSET UNITYSDK_OFFSET(0x85E1520)
-#define CLASS_1_910822CB5E4FEDEB_CLASS_1_0424B7065E7B9A4F__CTOR_OFFSET UNITYSDK_OFFSET(0x85DFA40)
+#define CLASS_1_910822CB5E4FEDEB_CLASS_1_0424B7065E7B9A4F_METHOD_1_0D92A6D99073FCFA_OFFSET UNITYSDK_OFFSET(0x10BD0450)
+#define CLASS_1_910822CB5E4FEDEB_CLASS_1_0424B7065E7B9A4F__CTOR_OFFSET UNITYSDK_OFFSET(0x10BCE970)
 
-inline static constexpr unsigned int Class_1_910822CB5E4FEDEB_Class_1_0424B7065E7B9A4F_TypeDefinitionIndex = 49353;
+inline static constexpr unsigned int Class_1_910822CB5E4FEDEB_Class_1_0424B7065E7B9A4F_TypeDefinitionIndex = 50486;
 
 class Class_1_910822CB5E4FEDEB_Class_1_0424B7065E7B9A4F : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::Int32>* Field_1_2; // 0x10
-	::UnityEngine::Vector3 Field_1_1; // 0x18
-	::Class_1_910822CB5E4FEDEB_IntersectType Field_1_0; // 0x24
+	::Class_1_910822CB5E4FEDEB_IntersectType Field_1_0; // 0x18
+	::UnityEngine::Vector3 Field_1_1; // 0x1C
 
 	::System::Void _ctor()
 	{

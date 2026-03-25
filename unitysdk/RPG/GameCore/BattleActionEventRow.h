@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEACTIONEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168CEBC0)
-#define RPG_GAMECORE_BATTLEACTIONEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168CF010)
+#define RPG_GAMECORE_BATTLEACTIONEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FDF8A0)
+#define RPG_GAMECORE_BATTLEACTIONEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDFCF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleActionEventRow_TypeDefinitionIndex = 11641;
+	inline static constexpr unsigned int BattleActionEventRow_TypeDefinitionIndex = 11711;
 
 	class BattleActionEventRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::System::String* AbilityName; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::String* AbilityName; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
 		::System::UInt32 Interval; // 0x28
-		::System::UInt32 EventID; // 0x2C
-		::RPG::Client::TextID EventName; // 0x30
-		::RPG::Client::TextID FullDescription; // 0x40
-		::RPG::Client::TextID BriefDescription; // 0x50
-		::System::Boolean ActiveDefault; // 0x60
-		::System::UInt32 InitialInterval; // 0x64
+		::System::UInt32 InitialInterval; // 0x2C
+		::System::Boolean ActiveDefault; // 0x30
+		::System::UInt32 EventID; // 0x34
+		::RPG::Client::TextID EventName; // 0x38
+		::RPG::Client::TextID BriefDescription; // 0x48
+		::RPG::Client::TextID FullDescription; // 0x58
 
 		::System::Void _ctor()
 		{

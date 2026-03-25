@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int EPlaneReflectionMode_TypeDefinitionIndex = 28393;
+	inline static constexpr unsigned int EPlaneReflectionMode_TypeDefinitionIndex = 29268;
 
 	enum class EPlaneReflectionMode : ::System::Int32
 	{

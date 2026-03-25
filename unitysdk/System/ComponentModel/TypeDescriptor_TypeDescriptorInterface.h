@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_TypeDescriptorInterface_TypeDefinitionIndex = 2629;
+	inline static constexpr unsigned int TypeDescriptor_TypeDescriptorInterface_TypeDefinitionIndex = 2634;
 
 	class TypeDescriptor_TypeDescriptorInterface : public ::System::Object
 	{

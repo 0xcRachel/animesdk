@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AvatarUpgradePart.h"
 
-namespace RPG::Client { class ElfEnterNextDayHint; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_579_TypeDefinitionIndex = 50599;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_579_TypeDefinitionIndex = 51006;
 
 class Class_0_16E4307DCC419505_579
 {

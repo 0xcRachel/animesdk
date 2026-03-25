@@ -4,11 +4,11 @@
 
 namespace RPG::Client::ActivityAlley { class AlleyPackShipData; }
 
-#define RPG_CLIENT_ALLEYSPECIALORDERCHECKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x8C78920)
+#define RPG_CLIENT_ALLEYSPECIALORDERCHECKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x90C9B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleySpecialOrderCheckParam_TypeDefinitionIndex = 49442;
+	inline static constexpr unsigned int AlleySpecialOrderCheckParam_TypeDefinitionIndex = 50575;
 
 	class AlleySpecialOrderCheckParam : public ::System::Object
 	{

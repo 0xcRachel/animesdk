@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int TextureFilter_TypeDefinitionIndex = 29811;
+	inline static constexpr unsigned int TextureFilter_TypeDefinitionIndex = 30686;
 
 	enum class TextureFilter : ::System::Int32
 	{

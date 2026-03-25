@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ControlSkillType_TypeDefinitionIndex = 21230;
+	inline static constexpr unsigned int ControlSkillType_TypeDefinitionIndex = 21790;
 
 	enum class ControlSkillType : ::System::Int32
 	{
@@ -11,6 +11,8 @@ namespace RPG::GameCore
 		ControlSkill02 = 1,
 		ControlSkill03 = 2,
 		ControlSkill04 = 3,
-		_Count = 4,
+		ControlSkill11 = 4,
+		ControlSkill21 = 5,
+		_Count = 6,
 	};
 }

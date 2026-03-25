@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MeshBound; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKHEIGHTBLENDCONFIG_METHOD_2_34B419E8AE3045DD_OFFSET UNITYSDK_OFFSET(0x168EBB40)
-#define RPG_GAMECORE_BLOCKHEIGHTBLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168EC200)
+#define RPG_GAMECORE_BLOCKHEIGHTBLENDCONFIG_METHOD_2_34B419E8AE3045DD_OFFSET UNITYSDK_OFFSET(0x16FFC970)
+#define RPG_GAMECORE_BLOCKHEIGHTBLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFD030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockHeightBlendConfig_TypeDefinitionIndex = 17121;
+	inline static constexpr unsigned int BlockHeightBlendConfig_TypeDefinitionIndex = 17526;
 
 	class BlockHeightBlendConfig : public ::RPG::GameCore::JsonConfig
 	{

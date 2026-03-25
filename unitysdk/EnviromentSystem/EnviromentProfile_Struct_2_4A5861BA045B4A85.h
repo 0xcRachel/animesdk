@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentProfile_Struct_2_4A5861BA045B4A85_TypeDefinitionIndex = 39294;
+	inline static constexpr unsigned int EnviromentProfile_Struct_2_4A5861BA045B4A85_TypeDefinitionIndex = 40274;
 
 	struct alignas(8) EnviromentProfile_Struct_2_4A5861BA045B4A85
 	{

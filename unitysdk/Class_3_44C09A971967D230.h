@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckLastBattleSkillDrop; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_44C09A971967D230_EVALUATE_OFFSET UNITYSDK_OFFSET(0x110F3400)
-#define CLASS_3_44C09A971967D230__CTOR_OFFSET UNITYSDK_OFFSET(0x110F33D0)
+#define CLASS_3_44C09A971967D230_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1065FC10)
+#define CLASS_3_44C09A971967D230__CTOR_OFFSET UNITYSDK_OFFSET(0x1065FBE0)
 
-inline static constexpr unsigned int Class_3_44C09A971967D230_TypeDefinitionIndex = 41950;
+inline static constexpr unsigned int Class_3_44C09A971967D230_TypeDefinitionIndex = 42999;
 
 class Class_3_44C09A971967D230 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckLastBattleSkillDrop*>
 {

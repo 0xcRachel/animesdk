@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AOSetting_TypeDefinitionIndex = 4608;
+	inline static constexpr unsigned int AOSetting_TypeDefinitionIndex = 4636;
 
 	struct alignas(4) AOSetting
 	{

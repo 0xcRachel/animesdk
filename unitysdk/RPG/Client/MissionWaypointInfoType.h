@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionWaypointInfoType_TypeDefinitionIndex = 52676;
+	inline static constexpr unsigned int MissionWaypointInfoType_TypeDefinitionIndex = 53813;
 
 	enum class MissionWaypointInfoType : ::System::Int32
 	{

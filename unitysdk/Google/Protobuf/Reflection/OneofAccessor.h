@@ -10,19 +10,19 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15415780)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15415420)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15B2E400)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B2E0A0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 6242;
+	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 6342;
 
 	class OneofAccessor : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Google::Protobuf::IMessage*>* clearDelegate; // 0x10
-		::Google::Protobuf::Reflection::OneofDescriptor* descriptor; // 0x18
-		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Int32>* caseDelegate; // 0x20
+		::Google::Protobuf::Reflection::OneofDescriptor* descriptor; // 0x10
+		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Int32>* caseDelegate; // 0x18
+		::System::Action_1<::Google::Protobuf::IMessage*>* clearDelegate; // 0x20
 
 		::System::Void _ctor(::System::Reflection::PropertyInfo* caseProperty, ::System::Reflection::MethodInfo* clearMethod, ::Google::Protobuf::Reflection::OneofDescriptor* descriptor)
 		{

@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TARGETEVALUATOR_METHOD_3_1A48AD11003A8869_OFFSET UNITYSDK_OFFSET(0x16FB4E70)
-#define RPG_GAMECORE_TARGETEVALUATOR_METHOD_3_BC6C782BC059E53C_OFFSET UNITYSDK_OFFSET(0x16FCD7B0)
-#define RPG_GAMECORE_TARGETEVALUATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FCD810)
-#define RPG_GAMECORE_TARGETEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16FCCDC0)
+#define RPG_GAMECORE_TARGETEVALUATOR_METHOD_3_1A48AD11003A8869_OFFSET UNITYSDK_OFFSET(0x1779F580)
+#define RPG_GAMECORE_TARGETEVALUATOR_METHOD_3_BC6C782BC059E53C_OFFSET UNITYSDK_OFFSET(0x177C1C20)
+#define RPG_GAMECORE_TARGETEVALUATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x177C1C80)
+#define RPG_GAMECORE_TARGETEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x177C1230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetEvaluator_TypeDefinitionIndex = 21456;
+	inline static constexpr unsigned int TargetEvaluator_TypeDefinitionIndex = 22016;
 
 	class TargetEvaluator : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetEvaluator*>*>** StaticGet__FromBinary_TargetEvaluator_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetEvaluator*>*>**)Il2CppClass::FromTypeDefinitionIndex(TargetEvaluator_TypeDefinitionIndex)->GetStaticField(0x15210);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetEvaluator*>*>**)Il2CppClass::FromTypeDefinitionIndex(TargetEvaluator_TypeDefinitionIndex)->GetStaticField(0x15200);
 		}
 
 		::System::Void _ctor()

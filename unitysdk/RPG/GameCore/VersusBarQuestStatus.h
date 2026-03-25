@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VersusBarQuestStatus_TypeDefinitionIndex = 20827;
+	inline static constexpr unsigned int VersusBarQuestStatus_TypeDefinitionIndex = 21380;
 
 	enum class VersusBarQuestStatus : ::System::Int32
 	{

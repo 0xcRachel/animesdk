@@ -4,25 +4,25 @@
 
 namespace System { class Exception; }
 
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION_GET_PENDING_OFFSET UNITYSDK_OFFSET(0x17B5A3B0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION_RETRIEVE_OFFSET UNITYSDK_OFFSET(0x17B5A470)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION_SET_OFFSET UNITYSDK_OFFSET(0x17B64490)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B66750)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION_GET_PENDING_OFFSET UNITYSDK_OFFSET(0x18372E50)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION_RETRIEVE_OFFSET UNITYSDK_OFFSET(0x18372F10)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION_SET_OFFSET UNITYSDK_OFFSET(0x1837CF30)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGPENDINGEXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1837ED60)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int SimplygonPINVOKE_SWIGPendingException_TypeDefinitionIndex = 28710;
+	inline static constexpr unsigned int SimplygonPINVOKE_SWIGPendingException_TypeDefinitionIndex = 29585;
 
 	class SimplygonPINVOKE_SWIGPendingException : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_exceptionsLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGPendingException_TypeDefinitionIndex)->GetStaticField(0x3C540);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGPendingException_TypeDefinitionIndex)->GetStaticField(0x2B370);
 		}
 		static ::System::Int32* StaticGet_numExceptionsPending()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGPendingException_TypeDefinitionIndex)->GetStaticField(0xE730);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGPendingException_TypeDefinitionIndex)->GetStaticField(0xBD10);
 		}
 		static ::System::Exception** StaticGet_pendingException()
 		{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FBE7F0)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FBE640)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FBE310)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FBE5E0)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FBE9C0)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBE390)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBEA00)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FBEBE0)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FBEED0)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FBF230)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FBEB40)
-#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FBEAA0)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x177B2C50)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x177B2AA0)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x177B2770)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x177B2A40)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x177B2E20)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x177B27F0)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x177B2E60)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B3040)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x177B3330)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x177B3690)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x177B2FA0)
+#define RPG_GAMECORE_SWORDTRAININGPARTNEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x177B2F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingPartnerExcelTable_TypeDefinitionIndex = 11298;
+	inline static constexpr unsigned int SwordTrainingPartnerExcelTable_TypeDefinitionIndex = 11366;
 
 	class SwordTrainingPartnerExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SwordTrainingPartnerRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SwordTrainingPartnerRow*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x14930);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x14938);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x14DC0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SwordTrainingPartnerRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SwordTrainingPartnerRow*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x14DC8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x14940);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x4D40);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x14DD0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x4D41);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x6990);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPartnerExcelTable_TypeDefinitionIndex)->GetStaticField(0x6991);
 		}
 
 		static ::System::Void _cctor()

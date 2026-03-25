@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TABehaviorTickMode_TypeDefinitionIndex = 56400;
+	inline static constexpr unsigned int TABehaviorTickMode_TypeDefinitionIndex = 57972;
 
 	enum class TABehaviorTickMode : ::System::Int32
 	{

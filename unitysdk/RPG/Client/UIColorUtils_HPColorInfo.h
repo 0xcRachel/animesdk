@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_UICOLORUTILS_HPCOLORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA1A0940)
+#define RPG_CLIENT_UICOLORUTILS_HPCOLORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA684980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIColorUtils_HPColorInfo_TypeDefinitionIndex = 58325;
+	inline static constexpr unsigned int UIColorUtils_HPColorInfo_TypeDefinitionIndex = 59978;
 
 	class UIColorUtils_HPColorInfo : public ::System::Object
 	{

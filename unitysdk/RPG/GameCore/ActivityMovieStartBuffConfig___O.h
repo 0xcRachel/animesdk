@@ -7,14 +7,14 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityMovieStartBuffConfig___O_TypeDefinitionIndex = 15841;
+	inline static constexpr unsigned int ActivityMovieStartBuffConfig___O_TypeDefinitionIndex = 16118;
 
 	class ActivityMovieStartBuffConfig___O : public ::System::Object
 	{
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ClockParkEffectType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ClockParkEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMovieStartBuffConfig___O_TypeDefinitionIndex)->GetStaticField(0x1B020);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ClockParkEffectType>**)Il2CppClass::FromTypeDefinitionIndex(ActivityMovieStartBuffConfig___O_TypeDefinitionIndex)->GetStaticField(0x160A0);
 		}
 	};
 }

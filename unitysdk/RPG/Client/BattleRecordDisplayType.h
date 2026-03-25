@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleRecordDisplayType_TypeDefinitionIndex = 51038;
+	inline static constexpr unsigned int BattleRecordDisplayType_TypeDefinitionIndex = 52173;
 
 	enum class BattleRecordDisplayType : ::System::Int32
 	{
@@ -12,11 +12,10 @@ namespace RPG::Client
 		ChallengeStory = 2,
 		ChallengeBoss = 3,
 		ChallengePeak = 4,
-		CosmosRogue = 5,
-		TournRogue = 6,
-		ChessRogue = 7,
-		ChessNousRogue = 8,
-		MagicRogue = 9,
-		GridFight = 10,
+		TournRogue = 5,
+		ChessRogue = 6,
+		ChessNousRogue = 7,
+		MagicRogue = 8,
+		GridFight = 9,
 	};
 }

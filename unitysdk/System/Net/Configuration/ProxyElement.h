@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_PROXYELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x17EA2CD0)
-#define SYSTEM_NET_CONFIGURATION_PROXYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA2C90)
+#define SYSTEM_NET_CONFIGURATION_PROXYELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186CBF10)
+#define SYSTEM_NET_CONFIGURATION_PROXYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x186CBED0)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ProxyElement_TypeDefinitionIndex = 3057;
+	inline static constexpr unsigned int ProxyElement_TypeDefinitionIndex = 3066;
 
 	class ProxyElement : public ::System::Configuration::ConfigurationElement
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PSEmitControllerBehavior_ParticleEmitData_TypeDefinitionIndex = 56173;
+	inline static constexpr unsigned int Effect_PSEmitControllerBehavior_ParticleEmitData_TypeDefinitionIndex = 57744;
 
 	struct alignas(4) Effect_PSEmitControllerBehavior_ParticleEmitData
 	{

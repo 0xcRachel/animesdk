@@ -7,96 +7,96 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9760)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETLEGACYDIFFUSE_OFFSET UNITYSDK_OFFSET(0x17FA9E50)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_COLLIDERMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9CB0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9A00)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_EDGEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9B80)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_FACEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9AC0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_GEOMETRYSHADERSSUPPORTED_OFFSET UNITYSDK_OFFSET(0x17FA99A0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_NODRAWMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9D80)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SELECTIONPICKERSHADER_OFFSET UNITYSDK_OFFSET(0x17FA9A60)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SHAPEPREVIEWMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FAA1C0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_TRIGGERMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9BE0)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_UNLITVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x17FAA160)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_VERTEXPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x17FA9B20)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_INIT_OFFSET UNITYSDK_OFFSET(0x17FA8E70)
-#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FAA220)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D2580)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GETLEGACYDIFFUSE_OFFSET UNITYSDK_OFFSET(0x187D2C70)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_COLLIDERMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D2AD0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_DEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D2820)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_EDGEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D29A0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_FACEPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D28E0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_GEOMETRYSHADERSSUPPORTED_OFFSET UNITYSDK_OFFSET(0x187D27C0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_NODRAWMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D2BA0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SELECTIONPICKERSHADER_OFFSET UNITYSDK_OFFSET(0x187D2880)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_SHAPEPREVIEWMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D3010)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_TRIGGERMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D2A00)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_UNLITVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x187D2FB0)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_GET_VERTEXPICKERMATERIAL_OFFSET UNITYSDK_OFFSET(0x187D2940)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS_INIT_OFFSET UNITYSDK_OFFSET(0x187D1C90)
+#define UNITYENGINE_PROBUILDER_BUILTINMATERIALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x187D3070)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BuiltinMaterials_TypeDefinitionIndex = 33087;
+	inline static constexpr unsigned int BuiltinMaterials_TypeDefinitionIndex = 34076;
 
 	class BuiltinMaterials : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_s_DefaultMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFB0);
-		}
 		static ::System::String** StaticGet_k_FacePickerMaterial()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFB8);
-		}
-		static ::UnityEngine::Shader** StaticGet_s_SelectionPickerShader()
-		{
-			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFC0);
-		}
-		static ::System::String** StaticGet_k_VertexPickerMaterial()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFC8);
-		}
-		static ::UnityEngine::Material** StaticGet_s_ShapePreviewMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFD0);
-		}
-		static ::System::String** StaticGet_k_EdgePickerShader()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFD8);
-		}
-		static ::UnityEngine::Material** StaticGet_s_FacePickerMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFE0);
-		}
-		static ::UnityEngine::Material** StaticGet_s_UnlitVertexColorMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFE8);
-		}
-		static ::UnityEngine::Material** StaticGet_s_UnityDefaultDiffuse()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFF0);
-		}
-		static ::UnityEngine::Material** StaticGet_s_VertexPickerMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2BFF8);
-		}
-		static ::System::String** StaticGet_k_EdgePickerMaterial()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2C000);
-		}
-		static ::UnityEngine::Material** StaticGet_s_EdgePickerMaterial()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2C008);
-		}
-		static ::System::String** StaticGet_k_VertexPickerShader()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2C010);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D40);
 		}
 		static ::System::String** StaticGet_k_FacePickerShader()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x2C018);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D48);
 		}
-		static ::System::Boolean* StaticGet_s_IsInitialized()
+		static ::UnityEngine::Material** StaticGet_s_FacePickerMaterial()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0xA0A0);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D50);
 		}
-		static ::System::Boolean* StaticGet_s_GeometryShadersSupported()
+		static ::System::String** StaticGet_k_VertexPickerMaterial()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0xA0A1);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D58);
+		}
+		static ::System::String** StaticGet_k_EdgePickerMaterial()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D60);
+		}
+		static ::UnityEngine::Shader** StaticGet_s_SelectionPickerShader()
+		{
+			return (::UnityEngine::Shader**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D68);
+		}
+		static ::System::String** StaticGet_k_VertexPickerShader()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D70);
+		}
+		static ::UnityEngine::Material** StaticGet_s_UnlitVertexColorMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D78);
+		}
+		static ::UnityEngine::Material** StaticGet_s_VertexPickerMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D80);
+		}
+		static ::System::String** StaticGet_k_EdgePickerShader()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D88);
+		}
+		static ::UnityEngine::Material** StaticGet_s_ShapePreviewMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D90);
+		}
+		static ::UnityEngine::Material** StaticGet_s_DefaultMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38D98);
+		}
+		static ::UnityEngine::Material** StaticGet_s_EdgePickerMaterial()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38DA0);
+		}
+		static ::UnityEngine::Material** StaticGet_s_UnityDefaultDiffuse()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0x38DA8);
 		}
 		static ::UnityEngine::Color* StaticGet_previewColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0xA0A4);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0xE370);
+		}
+		static ::System::Boolean* StaticGet_s_IsInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0xE380);
+		}
+		static ::System::Boolean* StaticGet_s_GeometryShadersSupported()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BuiltinMaterials_TypeDefinitionIndex)->GetStaticField(0xE381);
 		}
 		// static const ::System::String* faceShader; // 0x0
 		// static const ::System::String* lineShader; // 0x0

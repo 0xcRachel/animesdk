@@ -10,22 +10,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3F095C22F41AA332_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8782560)
-#define CLASS_1_3F095C22F41AA332_METHOD_1_1F9AB1861DA68CF4_OFFSET UNITYSDK_OFFSET(0x8781ED0)
-#define CLASS_1_3F095C22F41AA332_METHOD_1_5A2441A394830DFD_OFFSET UNITYSDK_OFFSET(0x87821C0)
-#define CLASS_1_3F095C22F41AA332_METHOD_1_990C6D8F4AAE51EE_OFFSET UNITYSDK_OFFSET(0x8781C70)
-#define CLASS_1_3F095C22F41AA332_METHOD_1_C31AE03A38D9983E_OFFSET UNITYSDK_OFFSET(0x87822E0)
-#define CLASS_1_3F095C22F41AA332__CTOR_OFFSET UNITYSDK_OFFSET(0x8782440)
+#define CLASS_1_3F095C22F41AA332_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1052C560)
+#define CLASS_1_3F095C22F41AA332_METHOD_1_1F9AB1861DA68CF4_OFFSET UNITYSDK_OFFSET(0x1052BFF0)
+#define CLASS_1_3F095C22F41AA332_METHOD_1_5A2441A394830DFD_OFFSET UNITYSDK_OFFSET(0x10521BF0)
+#define CLASS_1_3F095C22F41AA332_METHOD_1_990C6D8F4AAE51EE_OFFSET UNITYSDK_OFFSET(0x1052BD90)
+#define CLASS_1_3F095C22F41AA332_METHOD_1_C31AE03A38D9983E_OFFSET UNITYSDK_OFFSET(0x1052C2E0)
+#define CLASS_1_3F095C22F41AA332__CTOR_OFFSET UNITYSDK_OFFSET(0x1052C440)
 
-inline static constexpr unsigned int Class_1_3F095C22F41AA332_TypeDefinitionIndex = 47974;
+inline static constexpr unsigned int Class_1_3F095C22F41AA332_TypeDefinitionIndex = 49062;
 
 class Class_1_3F095C22F41AA332 : public ::System::Object
 {
 public:
-	::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* Field_1_1; // 0x10
-	::RPG::Client::MapDef* Field_1_0; // 0x18
+	::RPG::Client::MapDef* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* Field_1_2; // 0x18
 	::System::String* Field_1_3; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* Field_1_2; // 0x28
+	::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* Field_1_1; // 0x28
 
 	::System::Void _ctor(::RPG::Client::MapDef* a1)
 	{

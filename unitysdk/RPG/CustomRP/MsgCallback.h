@@ -10,26 +10,26 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_MSGCALLBACK_ADDMSGCREATOR_OFFSET UNITYSDK_OFFSET(0x163A9600)
-#define RPG_CUSTOMRP_MSGCALLBACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x163A9F00)
-#define RPG_CUSTOMRP_MSGCALLBACK_FINDMSGCREATOR_OFFSET UNITYSDK_OFFSET(0x163A9AA0)
-#define RPG_CUSTOMRP_MSGCALLBACK_GET_MSGCB_OFFSET UNITYSDK_OFFSET(0x163A9B50)
-#define RPG_CUSTOMRP_MSGCALLBACK_PROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x163A95F0)
-#define RPG_CUSTOMRP_MSGCALLBACK_PROCESS_OFFSET UNITYSDK_OFFSET(0x163A9830)
-#define RPG_CUSTOMRP_MSGCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x163A9520)
-#define RPG_CUSTOMRP_MSGCALLBACK__ONREADMESSAGE_OFFSET UNITYSDK_OFFSET(0x163A9CC0)
+#define RPG_CUSTOMRP_MSGCALLBACK_ADDMSGCREATOR_OFFSET UNITYSDK_OFFSET(0x16AB8770)
+#define RPG_CUSTOMRP_MSGCALLBACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x16AB8C90)
+#define RPG_CUSTOMRP_MSGCALLBACK_FINDMSGCREATOR_OFFSET UNITYSDK_OFFSET(0x16AB89A0)
+#define RPG_CUSTOMRP_MSGCALLBACK_GET_MSGCB_OFFSET UNITYSDK_OFFSET(0x16AA8730)
+#define RPG_CUSTOMRP_MSGCALLBACK_PROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x16AB8760)
+#define RPG_CUSTOMRP_MSGCALLBACK_PROCESS_OFFSET UNITYSDK_OFFSET(0x16AA8AA0)
+#define RPG_CUSTOMRP_MSGCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB8690)
+#define RPG_CUSTOMRP_MSGCALLBACK__ONREADMESSAGE_OFFSET UNITYSDK_OFFSET(0x16AB8A50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MsgCallback_TypeDefinitionIndex = 28644;
+	inline static constexpr unsigned int MsgCallback_TypeDefinitionIndex = 29519;
 
 	class MsgCallback : public ::System::Object
 	{
 	public:
-		::System::Action_1<::RPG::CustomRP::IRPMessage*>* _msgCb; // 0x10
-		::System::Collections::Generic::List_1<::RPG::CustomRP::IRPMessage*>* _messagesToProcess; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::CustomRP::IRPMsgCreator*>* _messageCreators; // 0x20
-		::RPG::CustomRP::IMsgFactory* _msgFactory; // 0x28
+		::System::Collections::Generic::List_1<::RPG::CustomRP::IRPMessage*>* _messagesToProcess; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::CustomRP::IRPMsgCreator*>* _messageCreators; // 0x18
+		::RPG::CustomRP::IMsgFactory* _msgFactory; // 0x20
+		::System::Action_1<::RPG::CustomRP::IRPMessage*>* _msgCb; // 0x28
 		::System::Boolean _DelayProcess; // 0x30
 
 		::System::Void _ctor(::System::Boolean delayProcess, ::RPG::CustomRP::IMsgFactory* msgFactory)

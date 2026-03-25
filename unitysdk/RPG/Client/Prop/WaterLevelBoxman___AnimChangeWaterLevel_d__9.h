@@ -5,31 +5,31 @@
 
 namespace RPG::Client::Prop { class WaterLevelBoxman; }
 
-#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x9CF89C0)
-#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x9CF8D70)
-#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x9CF8DD0)
-#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x9CF8D80)
-#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9CF89B0)
-#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9__CTOR_OFFSET UNITYSDK_OFFSET(0x9CF6980)
+#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA185270)
+#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA185620)
+#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA185680)
+#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA185630)
+#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA185260)
+#define RPG_CLIENT_PROP_WATERLEVELBOXMAN___ANIMCHANGEWATERLEVEL_D__9__CTOR_OFFSET UNITYSDK_OFFSET(0xA183240)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WaterLevelBoxman___AnimChangeWaterLevel_d__9_TypeDefinitionIndex = 62179;
+	inline static constexpr unsigned int WaterLevelBoxman___AnimChangeWaterLevel_d__9_TypeDefinitionIndex = 64366;
 
 	class WaterLevelBoxman___AnimChangeWaterLevel_d__9 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::RPG::Client::Prop::WaterLevelBoxman* __4__this; // 0x18
-		::System::Int32 oriIndex; // 0x20
-		::System::Single delay; // 0x24
-		::UnityEngine::Vector3 _floatVector_5__5; // 0x28
-		::System::Int32 __1__state; // 0x34
-		::System::Single _singleFinishTime_5__2; // 0x38
-		::System::Single _currentTime_5__4; // 0x3C
-		::System::Single _totalTime_5__3; // 0x40
-		::System::Int32 newIndex; // 0x44
-		::System::Single targetWaterLevelChangeDelay; // 0x48
+		::RPG::Client::Prop::WaterLevelBoxman* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::Int32 __1__state; // 0x20
+		::System::Single targetWaterLevelChangeDelay; // 0x24
+		::System::Single _singleFinishTime_5__2; // 0x28
+		::System::Single _totalTime_5__3; // 0x2C
+		::UnityEngine::Vector3 _floatVector_5__5; // 0x30
+		::System::Single delay; // 0x3C
+		::System::Int32 oriIndex; // 0x40
+		::System::Single _currentTime_5__4; // 0x44
+		::System::Int32 newIndex; // 0x48
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

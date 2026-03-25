@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELDWINDOWS81UNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15593640)
-#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELDWINDOWS81UNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15594E10)
+#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELDWINDOWS81UNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15CAD400)
+#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELDWINDOWS81UNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CAEBD0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int NVidiaShieldWindows81UnityProfile_TypeDefinitionIndex = 30791;
+	inline static constexpr unsigned int NVidiaShieldWindows81UnityProfile_TypeDefinitionIndex = 31666;
 
 	class NVidiaShieldWindows81UnityProfile : public ::InControl::InputDeviceProfile
 	{

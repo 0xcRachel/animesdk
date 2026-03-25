@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticlePlaybackStatus_TypeDefinitionIndex = 55786;
+	inline static constexpr unsigned int ParticlePlaybackStatus_TypeDefinitionIndex = 57351;
 
 	enum class ParticlePlaybackStatus : ::System::Int32
 	{

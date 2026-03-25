@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x8FD8D80)
-#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8FD8DD0)
+#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x9434780)
+#define RPG_CLIENT_CROWDANIMATOR_CLIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x94347D0)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int ClipData_TypeDefinitionIndex = 58697;
+	inline static constexpr unsigned int ClipData_TypeDefinitionIndex = 60443;
 
 	class ClipData : public ::System::Object
 	{

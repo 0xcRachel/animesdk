@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FA3E70)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FA3CC0)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FA3990)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FA3C60)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FA4040)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FA3A10)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FA4080)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FA4260)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FA4430)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FA4790)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FA41C0)
-#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FA4120)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x177980F0)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17797F40)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17797C10)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17797EE0)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x177982C0)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17797C90)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17798300)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x177984E0)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x177986B0)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17798A10)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17798440)
+#define RPG_GAMECORE_STRONGCHALLENGEQUESTGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x177983A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex = 11258;
+	inline static constexpr unsigned int StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex = 11326;
 
 	class StrongChallengeQuestGroupExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StrongChallengeQuestGroupRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StrongChallengeQuestGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x13A50);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x13A58);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StrongChallengeQuestGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x10DC0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x13A60);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x10DC8);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x10DD0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x4980);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C80);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x4981);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StrongChallengeQuestGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C81);
 		}
 
 		static ::System::Void _cctor()

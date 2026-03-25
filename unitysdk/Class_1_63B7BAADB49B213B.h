@@ -3,14 +3,15 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_35B024CC96B837C1;
+class Class_1_7A8B15961058F2F9;
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultData; }
 
-#define CLASS_1_63B7BAADB49B213B_METHOD_1_268EDC1637C255D1_OFFSET UNITYSDK_OFFSET(0xFE85BD0)
-#define CLASS_1_63B7BAADB49B213B_METHOD_1_E864A544A2F8CDBB_OFFSET UNITYSDK_OFFSET(0xFE85B40)
-#define CLASS_1_63B7BAADB49B213B__CTOR_OFFSET UNITYSDK_OFFSET(0xFE85B30)
+#define CLASS_1_63B7BAADB49B213B_METHOD_1_268EDC1637C255D1_OFFSET UNITYSDK_OFFSET(0x8746AC0)
+#define CLASS_1_63B7BAADB49B213B_METHOD_1_AE43239692438BE6_OFFSET UNITYSDK_OFFSET(0x87469F0)
+#define CLASS_1_63B7BAADB49B213B__CTOR_OFFSET UNITYSDK_OFFSET(0x87469E0)
 
-inline static constexpr unsigned int Class_1_63B7BAADB49B213B_TypeDefinitionIndex = 59438;
+inline static constexpr unsigned int Class_1_63B7BAADB49B213B_TypeDefinitionIndex = 61194;
 
 class Class_1_63B7BAADB49B213B : public ::System::Object
 {
@@ -22,9 +23,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_1_35B024CC96B837C1*))((::PBYTE)hIl2Cpp + CLASS_1_63B7BAADB49B213B__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Single Method_1_E864A544A2F8CDBB(::RPG::Client::RelicItemData* a1)
+	::Class_1_7A8B15961058F2F9* Method_1_AE43239692438BE6(::RPG::Client::RelicItemData* a1)
 	{
-		return ((::System::Single(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_1_63B7BAADB49B213B_METHOD_1_E864A544A2F8CDBB_OFFSET))(this, a1);
+		return ((::Class_1_7A8B15961058F2F9*(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + CLASS_1_63B7BAADB49B213B_METHOD_1_AE43239692438BE6_OFFSET))(this, a1);
 	}
 
 	::System::Single Method_1_268EDC1637C255D1(::RPG::Client::RelicItemData* a1)

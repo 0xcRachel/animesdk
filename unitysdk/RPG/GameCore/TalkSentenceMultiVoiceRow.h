@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FCC440)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FCCA30)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177C08B0)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177C0EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkSentenceMultiVoiceRow_TypeDefinitionIndex = 13832;
+	inline static constexpr unsigned int TalkSentenceMultiVoiceRow_TypeDefinitionIndex = 13946;
 
 	class TalkSentenceMultiVoiceRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int EStopCondition_TypeDefinitionIndex = 28668;
+	inline static constexpr unsigned int EStopCondition_TypeDefinitionIndex = 29543;
 
 	enum class EStopCondition : ::System::Int32
 	{

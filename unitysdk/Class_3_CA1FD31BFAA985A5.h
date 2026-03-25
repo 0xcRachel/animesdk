@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class NotifyVersusBarQuestChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CA1FD31BFAA985A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BF0390)
-#define CLASS_3_CA1FD31BFAA985A5__CTOR_OFFSET UNITYSDK_OFFSET(0x10BF0360)
+#define CLASS_3_CA1FD31BFAA985A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D80120)
+#define CLASS_3_CA1FD31BFAA985A5__CTOR_OFFSET UNITYSDK_OFFSET(0x8D800F0)
 
-inline static constexpr unsigned int Class_3_CA1FD31BFAA985A5_TypeDefinitionIndex = 43653;
+inline static constexpr unsigned int Class_3_CA1FD31BFAA985A5_TypeDefinitionIndex = 44709;
 
 class Class_3_CA1FD31BFAA985A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NotifyVersusBarQuestChange*>
 {

@@ -5,21 +5,21 @@
 
 namespace System::Xml::Schema { class BitSet; }
 
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x17D71B80)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x17D71B90)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x17D71BA0)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x17D71BB0)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x185A1950)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x185A1960)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x185A1970)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x185A1980)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int LeafRangeNode_TypeDefinitionIndex = 2061;
+	inline static constexpr unsigned int LeafRangeNode_TypeDefinitionIndex = 2066;
 
 	class LeafRangeNode : public ::System::Xml::Schema::LeafNode
 	{
 	public:
 		::System::Xml::Schema::BitSet* nextIteration; // 0x18
-		::System::Decimal min; // 0x20
-		::System::Decimal max; // 0x30
+		::System::Decimal max; // 0x20
+		::System::Decimal min; // 0x30
 
 		::System::Decimal get_Max()
 		{

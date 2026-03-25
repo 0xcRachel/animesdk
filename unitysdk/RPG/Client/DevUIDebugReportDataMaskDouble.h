@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DEVUIDEBUGREPORTDATAMASKDOUBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x8FFCD00)
+#define RPG_CLIENT_DEVUIDEBUGREPORTDATAMASKDOUBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x94585C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DevUIDebugReportDataMaskDouble_TypeDefinitionIndex = 54223;
+	inline static constexpr unsigned int DevUIDebugReportDataMaskDouble_TypeDefinitionIndex = 55781;
 
 	class DevUIDebugReportDataMaskDouble : public ::System::Object
 	{

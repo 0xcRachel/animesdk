@@ -6,19 +6,19 @@ namespace RPG::Client { class PlanetFesAvatarEffectController; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_5C278319C65FDA09_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8509860)
-#define CLASS_2_5C278319C65FDA09_METHOD_2_3953F10B80B18AED_OFFSET UNITYSDK_OFFSET(0x85098B0)
-#define CLASS_2_5C278319C65FDA09_METHOD_2_D9C1F543795920E3_OFFSET UNITYSDK_OFFSET(0x85097F0)
-#define CLASS_2_5C278319C65FDA09__CTOR_OFFSET UNITYSDK_OFFSET(0x8509920)
+#define CLASS_2_5C278319C65FDA09_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8873C80)
+#define CLASS_2_5C278319C65FDA09_METHOD_2_3953F10B80B18AED_OFFSET UNITYSDK_OFFSET(0x8873CD0)
+#define CLASS_2_5C278319C65FDA09_METHOD_2_D9C1F543795920E3_OFFSET UNITYSDK_OFFSET(0x8873C10)
+#define CLASS_2_5C278319C65FDA09__CTOR_OFFSET UNITYSDK_OFFSET(0x8873D40)
 
-inline static constexpr unsigned int Class_2_5C278319C65FDA09_TypeDefinitionIndex = 53119;
+inline static constexpr unsigned int Class_2_5C278319C65FDA09_TypeDefinitionIndex = 54257;
 
 class Class_2_5C278319C65FDA09 : public ::RPG::GameCore::GameComponentBase
 {
 public:
-	::UnityEngine::Canvas* Field_2_2; // 0x18
-	::UnityEngine::Transform* Field_2_1; // 0x20
-	::RPG::Client::PlanetFesAvatarEffectController* Field_2_0; // 0x28
+	::RPG::Client::PlanetFesAvatarEffectController* Field_2_0; // 0x18
+	::UnityEngine::Canvas* Field_2_2; // 0x20
+	::UnityEngine::Transform* Field_2_1; // 0x28
 
 	::System::Void _ctor()
 	{

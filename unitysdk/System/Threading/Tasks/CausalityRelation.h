@@ -3,7 +3,7 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int CausalityRelation_TypeDefinitionIndex = 880;
+	inline static constexpr unsigned int CausalityRelation_TypeDefinitionIndex = 881;
 
 	enum class CausalityRelation : ::System::Int32
 	{

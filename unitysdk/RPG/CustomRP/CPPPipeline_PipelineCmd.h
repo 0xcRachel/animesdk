@@ -8,7 +8,7 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CPPPipeline_PipelineCmd_TypeDefinitionIndex = 28282;
+	inline static constexpr unsigned int CPPPipeline_PipelineCmd_TypeDefinitionIndex = 29157;
 
 	struct alignas(8) CPPPipeline_PipelineCmd
 	{

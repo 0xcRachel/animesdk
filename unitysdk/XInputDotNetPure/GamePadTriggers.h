@@ -4,11 +4,11 @@
 
 #define XINPUTDOTNETPURE_GAMEPADTRIGGERS_GET_LEFT_OFFSET UNITYSDK_OFFSET(0xCC50)
 #define XINPUTDOTNETPURE_GAMEPADTRIGGERS_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0xCC70)
-#define XINPUTDOTNETPURE_GAMEPADTRIGGERS__CTOR_OFFSET UNITYSDK_OFFSET(0x29910)
+#define XINPUTDOTNETPURE_GAMEPADTRIGGERS__CTOR_OFFSET UNITYSDK_OFFSET(0x29890)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadTriggers_TypeDefinitionIndex = 30494;
+	inline static constexpr unsigned int GamePadTriggers_TypeDefinitionIndex = 31369;
 
 	struct alignas(4) GamePadTriggers
 	{

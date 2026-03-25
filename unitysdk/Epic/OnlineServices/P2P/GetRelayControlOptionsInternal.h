@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::P2P { class GetRelayControlOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57680)
+#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x577F0)
 #define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetRelayControlOptionsInternal_TypeDefinitionIndex = 34960;
+	inline static constexpr unsigned int GetRelayControlOptionsInternal_TypeDefinitionIndex = 35894;
 
 	struct alignas(4) GetRelayControlOptionsInternal
 	{

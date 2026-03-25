@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17CBF730)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CBF770)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x17CBF780)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CBF790)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBF720)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x184D6A70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x184D6AB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x184D6AC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x184D6AD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONFILTERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184D6A60)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int EnterExceptionFilterInstruction_TypeDefinitionIndex = 3309;
+	inline static constexpr unsigned int EnterExceptionFilterInstruction_TypeDefinitionIndex = 3318;
 
 	class EnterExceptionFilterInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction** StaticGet_Instance()
 		{
-			return (::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction**)Il2CppClass::FromTypeDefinitionIndex(EnterExceptionFilterInstruction_TypeDefinitionIndex)->GetStaticField(0x178C0);
+			return (::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction**)Il2CppClass::FromTypeDefinitionIndex(EnterExceptionFilterInstruction_TypeDefinitionIndex)->GetStaticField(0x258E0);
 		}
 
 		::System::Void _ctor()

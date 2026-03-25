@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_2_D5AD64F6FB3109AB;
-class Class_4_0FE2F2FA8B5CD496;
+class Class_2_569DE47525C5FD32;
+class Class_4_25476C0ECCF1BB17;
 namespace RPG::GameCore { class DiceCombatModifierConfig; }
 
-inline static constexpr unsigned int Struct_2_96BCC9D6041DDF7D_TypeDefinitionIndex = 27786;
+inline static constexpr unsigned int Struct_2_96BCC9D6041DDF7D_TypeDefinitionIndex = 28535;
 
 struct alignas(8) Struct_2_96BCC9D6041DDF7D
 {
-	::Class_4_0FE2F2FA8B5CD496* Field_2_0; // 0x10
-	::Class_2_D5AD64F6FB3109AB* Field_2_1; // 0x18
+	::Class_4_25476C0ECCF1BB17* Field_2_0; // 0x10
+	::Class_2_569DE47525C5FD32* Field_2_1; // 0x18
 	::RPG::GameCore::DiceCombatModifierConfig* Field_2_2; // 0x20
 	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_2_3; // 0x28
 	::System::UInt32 Field_2_4; // 0x30

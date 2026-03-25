@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FlappyScrollAgentConfig; }
 
-#define CLASS_1_021E2308708A0F54__CTOR_OFFSET UNITYSDK_OFFSET(0x16079D50)
+#define CLASS_1_021E2308708A0F54__CTOR_OFFSET UNITYSDK_OFFSET(0x168F1230)
 
-inline static constexpr unsigned int Class_1_021E2308708A0F54_TypeDefinitionIndex = 32486;
+inline static constexpr unsigned int Class_1_021E2308708A0F54_TypeDefinitionIndex = 33398;
 
 class Class_1_021E2308708A0F54 : public ::System::Object
 {

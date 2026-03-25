@@ -13,7 +13,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowRuntimeSettings_TypeDefinitionIndex = 4658;
+	inline static constexpr unsigned int ShadowRuntimeSettings_TypeDefinitionIndex = 4688;
 
 	struct alignas(8) ShadowRuntimeSettings
 	{
@@ -22,10 +22,9 @@ namespace UnityEngine::Rendering
 		::System::Boolean m_debugForceDisableShadowCache; // 0x12
 		::System::Int32 m_storyCharacterCount; // 0x14
 		::UnityEngine::GameObject* m_localPlayerGO; // 0x18
-		::System::Boolean m_inDoor; // 0x20
-		::System::Boolean m_enableCSMBlend; // 0x21
-		::System::Boolean m_mainShadowEnable; // 0x22
-		::System::Boolean m_csmTextureArray; // 0x23
+		::System::Boolean m_enableCSMBlend; // 0x20
+		::System::Boolean m_mainShadowEnable; // 0x21
+		::System::Boolean m_csmTextureArray; // 0x22
 		::System::Int32 m_csmCascadeCount; // 0x24
 		::System::Int32 m_csmShadowResolution; // 0x28
 		::UnityEngine::Vector3 m_csmSplitPrecent; // 0x2C
@@ -74,7 +73,8 @@ namespace UnityEngine::Rendering
 		::System::Int32 m_additionalLightUpdateFreq; // 0x14C
 		::System::Boolean m_enableLightCollisionCache; // 0x150
 		::System::Boolean m_onePassShadowOnlyResolve; // 0x151
-		::System::Boolean m_CSMDepthValid; // 0x152
+		::System::Boolean m_indoorShadowDirty; // 0x152
+		::System::Boolean m_CSMDepthValid; // 0x153
 		::System::Int32 m_cameraChangedVersion; // 0x154
 		::System::Single m_rangeCut; // 0x158
 		::System::Single m_lightRangeCut; // 0x15C
@@ -86,5 +86,6 @@ namespace UnityEngine::Rendering
 		::System::Boolean m_enableProbeBlend; // 0x18C
 		::UnityEngine::Rendering::SelfShadowSettings m_selfShadowSettings; // 0x190
 		::System::Boolean m_enableShadow; // 0x19C
+		::System::Boolean m_inDoor; // 0x19D
 	};
 }

@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Billboard/BillboardIdentifier.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client::Billboard { class BillboardIdentifier; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CREATE_OFFSET UNITYSDK_OFFSET(0x8DF3470)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETATTACHTRANS_OFFSET UNITYSDK_OFFSET(0x8DF3740)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETCURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x8DF3550)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x8DF3530)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x8DF3940)
-#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF34F0)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CREATE_OFFSET UNITYSDK_OFFSET(0x91FD720)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETATTACHTRANS_OFFSET UNITYSDK_OFFSET(0x91FD9E0)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GETCURRENTDISTANCE_OFFSET UNITYSDK_OFFSET(0x91FD7F0)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x91FD7E0)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0x91FDBE0)
+#define RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x91FD7A0)
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int EntityTemporaryBillboardHost_TypeDefinitionIndex = 59775;
+	inline static constexpr unsigned int EntityTemporaryBillboardHost_TypeDefinitionIndex = 61531;
 
 	class EntityTemporaryBillboardHost : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* _AttachTrans; // 0x10
 		::RPG::GameCore::GameEntity* _OwnerRef; // 0x18
-		::RPG::Client::Billboard::BillboardIdentifier _Identifier_k__BackingField; // 0x20
+		::RPG::Client::Billboard::BillboardIdentifier* _Identifier_k__BackingField; // 0x20
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* owner)
 		{
@@ -34,9 +34,9 @@ namespace RPG::Client::Billboard
 			return ((::RPG::Client::Billboard::EntityTemporaryBillboardHost*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_CREATE_OFFSET))(owner);
 		}
 
-		::RPG::Client::Billboard::BillboardIdentifier get_Identifier()
+		::RPG::Client::Billboard::BillboardIdentifier* get_Identifier()
 		{
-			return ((::RPG::Client::Billboard::BillboardIdentifier(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GET_IDENTIFIER_OFFSET))(this);
+			return ((::RPG::Client::Billboard::BillboardIdentifier*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_ENTITYTEMPORARYBILLBOARDHOST_GET_IDENTIFIER_OFFSET))(this);
 		}
 
 		::System::Single GetCurrentDistance()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BossPhase_TypeDefinitionIndex = 31871;
+	inline static constexpr unsigned int BossPhase_TypeDefinitionIndex = 32781;
 
 	enum class BossPhase : ::System::Int32
 	{

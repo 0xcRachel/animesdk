@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_PopupDialogElements_TypeDefinitionIndex = 36537;
+	inline static constexpr unsigned int UIConstants_PopupDialogElements_TypeDefinitionIndex = 37474;
 
 	class UIConstants_PopupDialogElements : public ::System::Object
 	{

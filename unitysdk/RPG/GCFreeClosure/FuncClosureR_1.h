@@ -12,7 +12,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int FuncClosureR_1_TypeDefinitionIndex = 8684;
+	inline static constexpr unsigned int FuncClosureR_1_TypeDefinitionIndex = 8813;
 
 	template <typename TReturn>
 	struct FuncClosureR_1

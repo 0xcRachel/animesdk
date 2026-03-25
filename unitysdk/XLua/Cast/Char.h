@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/XLua/Cast/Any_1.h"
 
-#define XLUA_CAST_CHAR__CTOR_OFFSET UNITYSDK_OFFSET(0xF7622A0)
+#define XLUA_CAST_CHAR__CTOR_OFFSET UNITYSDK_OFFSET(0xFE8A0F0)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int Char_TypeDefinitionIndex = 39549;
+	inline static constexpr unsigned int Char_TypeDefinitionIndex = 40565;
 
 	class Char : public ::XLua::Cast::Any_1<::System::Char>
 	{

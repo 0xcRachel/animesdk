@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHAREDENTITYEVENT_METHOD_2_02556C8237EF2802_OFFSET UNITYSDK_OFFSET(0x16F4CD50)
-#define RPG_GAMECORE_SHAREDENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F4CF30)
+#define RPG_GAMECORE_SHAREDENTITYEVENT_METHOD_2_02556C8237EF2802_OFFSET UNITYSDK_OFFSET(0x177021E0)
+#define RPG_GAMECORE_SHAREDENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x177023C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SharedEntityEvent_TypeDefinitionIndex = 16432;
+	inline static constexpr unsigned int SharedEntityEvent_TypeDefinitionIndex = 16806;
 
 	class SharedEntityEvent : public ::RPG::GameCore::JsonConfig
 	{

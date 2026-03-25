@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x17D00A80)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x17D00B40)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x17D00B50)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x17D009F0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x18517F60)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x18518020)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5_REWRITE_OFFSET UNITYSDK_OFFSET(0x18518030)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION5__CTOR_OFFSET UNITYSDK_OFFSET(0x18517ED0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MethodCallExpression5_TypeDefinitionIndex = 3234;
+	inline static constexpr unsigned int MethodCallExpression5_TypeDefinitionIndex = 3243;
 
 	class MethodCallExpression5 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg3; // 0x18
-		::System::Object* _arg0; // 0x20
-		::System::Linq::Expressions::Expression* _arg2; // 0x28
-		::System::Linq::Expressions::Expression* _arg4; // 0x30
+		::System::Object* _arg0; // 0x18
+		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Linq::Expressions::Expression* _arg4; // 0x28
+		::System::Linq::Expressions::Expression* _arg3; // 0x30
 		::System::Linq::Expressions::Expression* _arg1; // 0x38
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4)

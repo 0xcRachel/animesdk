@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORSUBVERSIONPROPERTYDEFAULTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xA294A30)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORSUBVERSIONPROPERTYDEFAULTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7CF4F0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorSubVersionPropertyDefaultValue_TypeDefinitionIndex = 41053;
+	inline static constexpr unsigned int EnvEditorSubVersionPropertyDefaultValue_TypeDefinitionIndex = 42096;
 
 	class EnvEditorSubVersionPropertyDefaultValue : public ::System::Object
 	{

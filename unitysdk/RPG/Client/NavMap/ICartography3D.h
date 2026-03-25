@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ICartography3D_TypeDefinitionIndex = 59495;
+	inline static constexpr unsigned int ICartography3D_TypeDefinitionIndex = 61249;
 
 	class ICartography3D
 	{

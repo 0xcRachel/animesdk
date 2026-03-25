@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Auth { class CopyUserAuthTokenOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_AUTH_COPYUSERAUTHTOKENOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_AUTH_COPYUSERAUTHTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x10150)
+#define EPIC_ONLINESERVICES_AUTH_COPYUSERAUTHTOKENOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x10180)
 #define EPIC_ONLINESERVICES_AUTH_COPYUSERAUTHTOKENOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int CopyUserAuthTokenOptionsInternal_TypeDefinitionIndex = 35602;
+	inline static constexpr unsigned int CopyUserAuthTokenOptionsInternal_TypeDefinitionIndex = 36536;
 
 	struct alignas(4) CopyUserAuthTokenOptionsInternal
 	{

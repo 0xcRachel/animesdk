@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Data/NameID.h"
 
-class Class_1_AF312BD3F30375EA;
-class Class_1_F337A9F92447BC21;
-class Class_2_068B6685ECC07D35;
-class Class_2_49CAB3DE74280C58;
+class Class_1_F19AB08624168191;
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_908_TypeDefinitionIndex = 61096;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_908_TypeDefinitionIndex = 60194;
 
 class Class_0_16E4307DCC419505_908
 {

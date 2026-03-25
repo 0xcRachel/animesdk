@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16CEBBD0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16CEBA20)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16CEB6F0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16CEB9C0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16CEBDA0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16CEB770)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16CEBDE0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CEBFC0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16CEC290)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CEC5F0)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16CEBF20)
-#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16CEBE80)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x174724C0)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17472310)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17471FE0)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x174722B0)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17472690)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17472060)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x174726D0)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x174728B0)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17472B80)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17472EE0)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17472810)
+#define RPG_GAMECORE_MUSEUMAREAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17472770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumAreaExcelTable_TypeDefinitionIndex = 12944;
+	inline static constexpr unsigned int MuseumAreaExcelTable_TypeDefinitionIndex = 13015;
 
 	class MuseumAreaExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MuseumAreaRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MuseumAreaRow*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0x391D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MuseumAreaRow*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0x34D10);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0x391D8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0x34D18);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0x391E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0x34D20);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0xE450);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0xCBF0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0xE451);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MuseumAreaExcelTable_TypeDefinitionIndex)->GetStaticField(0xCBF1);
 		}
 
 		static ::System::Void _cctor()

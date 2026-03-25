@@ -8,20 +8,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_37D832480CB327E1_CLASS_1_60478667B1E88FCB__CTOR_OFFSET UNITYSDK_OFFSET(0x110B2CB0)
+#define CLASS_2_37D832480CB327E1_CLASS_1_60478667B1E88FCB__CTOR_OFFSET UNITYSDK_OFFSET(0x11565B80)
 
-inline static constexpr unsigned int Class_2_37D832480CB327E1_Class_1_60478667B1E88FCB_TypeDefinitionIndex = 45186;
+inline static constexpr unsigned int Class_2_37D832480CB327E1_Class_1_60478667B1E88FCB_TypeDefinitionIndex = 46247;
 
 class Class_2_37D832480CB327E1_Class_1_60478667B1E88FCB : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::System::String* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_0; // 0x20
-	::UnityEngine::Quaternion Field_1_5; // 0x28
-	::UnityEngine::Vector3 Field_1_4; // 0x38
-	::System::Boolean Field_1_6; // 0x44
-	::System::Boolean Field_1_3; // 0x45
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::UnityEngine::Vector3 Field_1_4; // 0x28
+	::UnityEngine::Quaternion Field_1_5; // 0x34
+	::System::Boolean Field_1_3; // 0x44
+	::System::Boolean Field_1_6; // 0x45
 
 	::System::Void _ctor()
 	{

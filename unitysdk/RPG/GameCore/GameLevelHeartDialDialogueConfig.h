@@ -7,12 +7,12 @@ namespace RPG::GameCore { class GameLevelHeartDialPerformance; }
 namespace RPG::GameCore { class LevelDialogInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_METHOD_2_FA865E2343559C67_OFFSET UNITYSDK_OFFSET(0x16B08B10)
-#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B08E60)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG_METHOD_2_FA865E2343559C67_OFFSET UNITYSDK_OFFSET(0x172550A0)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALDIALOGUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172553F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameLevelHeartDialDialogueConfig_TypeDefinitionIndex = 15722;
+	inline static constexpr unsigned int GameLevelHeartDialDialogueConfig_TypeDefinitionIndex = 15999;
 
 	class GameLevelHeartDialDialogueConfig : public ::RPG::GameCore::JsonConfig
 	{

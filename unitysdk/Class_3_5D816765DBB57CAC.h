@@ -4,11 +4,13 @@
 
 namespace RPG::GameCore { class ByContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define CLASS_3_5D816765DBB57CAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x110AABD0)
-#define CLASS_3_5D816765DBB57CAC__CTOR_OFFSET UNITYSDK_OFFSET(0x110AABA0)
+#define CLASS_3_5D816765DBB57CAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x115CAF10)
+#define CLASS_3_5D816765DBB57CAC_METHOD_3_1A1D79A1EFC7E86A_OFFSET UNITYSDK_OFFSET(0x115CB080)
+#define CLASS_3_5D816765DBB57CAC__CTOR_OFFSET UNITYSDK_OFFSET(0x115CAEE0)
 
-inline static constexpr unsigned int Class_3_5D816765DBB57CAC_TypeDefinitionIndex = 42618;
+inline static constexpr unsigned int Class_3_5D816765DBB57CAC_TypeDefinitionIndex = 43668;
 
 class Class_3_5D816765DBB57CAC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByContainBehaviorFlag*>
 {
@@ -21,5 +23,10 @@ public:
 	::System::Boolean Evaluate()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_5D816765DBB57CAC_EVALUATE_OFFSET))(this);
+	}
+
+	::System::Boolean Method_3_1A1D79A1EFC7E86A(::RPG::GameCore::TurnBasedAbilityComponent* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + CLASS_3_5D816765DBB57CAC_METHOD_3_1A1D79A1EFC7E86A_OFFSET))(this, a1);
 	}
 };

@@ -9,28 +9,28 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_CREATECALLBACK_OFFSET UNITYSDK_OFFSET(0x15884B40)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x15883D90)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUTWITHOUTCONFIRM_OFFSET UNITYSDK_OFFSET(0x15883FA0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x15883EB0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_ONLOGIN_OFFSET UNITYSDK_OFFSET(0x158849E0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_REFRESHACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x158847C0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_REQUESTLOGINBYAUTHTICKET_OFFSET UNITYSDK_OFFSET(0x158842C0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_SHOWLOGINSTATEINVALID_OFFSET UNITYSDK_OFFSET(0x15884610)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER_SWITCHROLE_OFFSET UNITYSDK_OFFSET(0x15884090)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15884BC0)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15884BB0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_CREATECALLBACK_OFFSET UNITYSDK_OFFSET(0x15F6BA80)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x15F6ACC0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUTWITHOUTCONFIRM_OFFSET UNITYSDK_OFFSET(0x15F6AED0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x15F6ADE0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_ONLOGIN_OFFSET UNITYSDK_OFFSET(0x15F6B920)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_REFRESHACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x15F6B700)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_REQUESTLOGINBYAUTHTICKET_OFFSET UNITYSDK_OFFSET(0x15F6B1F0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_SHOWLOGINSTATEINVALID_OFFSET UNITYSDK_OFFSET(0x15F6B540)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER_SWITCHROLE_OFFSET UNITYSDK_OFFSET(0x15F6AFC0)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F6BB00)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6BAF0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 7312;
+	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 7437;
 
 	class LoginManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PC::OS::LoginManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PC::OS::LoginManager**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x14CC0);
+			return (::MiHoYo::SDK::PC::OS::LoginManager**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x11F90);
 		}
 		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* loginCallback; // 0x10
 
@@ -69,9 +69,9 @@ namespace MiHoYo::SDK::PC::OS
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_REQUESTLOGINBYAUTHTICKET_OFFSET))(this, authTicket, thirdpartyType, callback);
 		}
 
-		::System::Void ShowLoginStateInvalid(::System::String* message, ::MiHoYo::SDK::ReportType type)
+		::System::Void ShowLoginStateInvalid(::System::String* message, ::MiHoYo::SDK::ReportType type, ::System::Action* callback)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::ReportType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_SHOWLOGINSTATEINVALID_OFFSET))(this, message, type);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::ReportType, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER_SHOWLOGINSTATEINVALID_OFFSET))(this, message, type, callback);
 		}
 
 		::System::Void RefreshAccountInfo(::System::Action* callback)

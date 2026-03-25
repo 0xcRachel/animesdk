@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsTurnOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_525447E08F996D42_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10D23630)
-#define CLASS_3_525447E08F996D42__CTOR_OFFSET UNITYSDK_OFFSET(0x10D23600)
+#define CLASS_3_525447E08F996D42_EVALUATE_OFFSET UNITYSDK_OFFSET(0x874BA10)
+#define CLASS_3_525447E08F996D42__CTOR_OFFSET UNITYSDK_OFFSET(0x874B9E0)
 
-inline static constexpr unsigned int Class_3_525447E08F996D42_TypeDefinitionIndex = 42720;
+inline static constexpr unsigned int Class_3_525447E08F996D42_TypeDefinitionIndex = 43770;
 
 class Class_3_525447E08F996D42 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsTurnOwnerEntity*>
 {

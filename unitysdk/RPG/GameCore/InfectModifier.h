@@ -10,13 +10,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_INFECTMODIFIER_METHOD_3_39EAAC1B854EDF57_OFFSET UNITYSDK_OFFSET(0x16B7F980)
-#define RPG_GAMECORE_INFECTMODIFIER_METHOD_3_CF55E60492C3430D_OFFSET UNITYSDK_OFFSET(0x16B7FAA0)
-#define RPG_GAMECORE_INFECTMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7FA20)
+#define RPG_GAMECORE_INFECTMODIFIER_METHOD_3_38A7FBC0BB43A9CE_OFFSET UNITYSDK_OFFSET(0x172CE280)
+#define RPG_GAMECORE_INFECTMODIFIER_METHOD_3_CF39655F6E714484_OFFSET UNITYSDK_OFFSET(0x172CE3A0)
+#define RPG_GAMECORE_INFECTMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x172CE320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfectModifier_TypeDefinitionIndex = 20728;
+	inline static constexpr unsigned int InfectModifier_TypeDefinitionIndex = 21279;
 
 	class InfectModifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_39EAAC1B854EDF57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfectModifier*& a2)
+		static ::System::Void Method_3_38A7FBC0BB43A9CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfectModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfectModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_METHOD_3_39EAAC1B854EDF57_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfectModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_METHOD_3_38A7FBC0BB43A9CE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CF55E60492C3430D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfectModifier* a2)
+		static ::System::Void Method_3_CF39655F6E714484(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfectModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfectModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_METHOD_3_CF55E60492C3430D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfectModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_METHOD_3_CF39655F6E714484_OFFSET))(a1, a2);
 		}
 	};
 }

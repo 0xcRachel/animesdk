@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightEquipItemData; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9350100)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS4_0__GETROLEEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x9353B00)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x980DF00)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__DISPLAYCLASS4_0__GETROLEEQUIPS_B__0_OFFSET UNITYSDK_OFFSET(0x9811660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass4_0_TypeDefinitionIndex = 51620;
+	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass4_0_TypeDefinitionIndex = 52754;
 
 	class GridFightEquipInfo___c__DisplayClass4_0 : public ::System::Object
 	{

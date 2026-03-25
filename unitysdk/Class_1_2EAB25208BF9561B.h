@@ -7,20 +7,20 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2EAB25208BF9561B_METHOD_1_1B22BAD441DCB63A_OFFSET UNITYSDK_OFFSET(0x10A3EE20)
-#define CLASS_1_2EAB25208BF9561B_METHOD_1_23B573F7FD360F67_OFFSET UNITYSDK_OFFSET(0x10A40D70)
-#define CLASS_1_2EAB25208BF9561B_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x10A40DD0)
-#define CLASS_1_2EAB25208BF9561B__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A40E40)
-#define CLASS_1_2EAB25208BF9561B__CTOR_OFFSET UNITYSDK_OFFSET(0x10A40D60)
+#define CLASS_1_2EAB25208BF9561B_METHOD_1_1B22BAD441DCB63A_OFFSET UNITYSDK_OFFSET(0x10B7D4B0)
+#define CLASS_1_2EAB25208BF9561B_METHOD_1_23B573F7FD360F67_OFFSET UNITYSDK_OFFSET(0x10B7F7C0)
+#define CLASS_1_2EAB25208BF9561B_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x10B7F820)
+#define CLASS_1_2EAB25208BF9561B__CCTOR_OFFSET UNITYSDK_OFFSET(0x10B7F890)
+#define CLASS_1_2EAB25208BF9561B__CTOR_OFFSET UNITYSDK_OFFSET(0x10B7F7B0)
 
-inline static constexpr unsigned int Class_1_2EAB25208BF9561B_TypeDefinitionIndex = 51003;
+inline static constexpr unsigned int Class_1_2EAB25208BF9561B_TypeDefinitionIndex = 52138;
 
 class Class_1_2EAB25208BF9561B : public ::System::Object
 {
 public:
 	static ::System::UInt32* StaticGet_Field_1_1()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2EAB25208BF9561B_TypeDefinitionIndex)->GetStaticField(0xF4D0);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_2EAB25208BF9561B_TypeDefinitionIndex)->GetStaticField(0x12EE0);
 	}
 	::System::Collections::Generic::List_1<::Class_1_4393199F378B6118*>* Field_1_0; // 0x10
 

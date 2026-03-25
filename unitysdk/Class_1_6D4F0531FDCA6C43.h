@@ -5,19 +5,20 @@
 
 namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
 
-#define CLASS_1_6D4F0531FDCA6C43_CLEAR_OFFSET UNITYSDK_OFFSET(0x161A9C40)
-#define CLASS_1_6D4F0531FDCA6C43__CTOR_OFFSET UNITYSDK_OFFSET(0x161A9CB0)
+#define CLASS_1_6D4F0531FDCA6C43_CLEAR_OFFSET UNITYSDK_OFFSET(0x1690B1A0)
+#define CLASS_1_6D4F0531FDCA6C43__CTOR_OFFSET UNITYSDK_OFFSET(0x1690B220)
 
-inline static constexpr unsigned int Class_1_6D4F0531FDCA6C43_TypeDefinitionIndex = 32618;
+inline static constexpr unsigned int Class_1_6D4F0531FDCA6C43_TypeDefinitionIndex = 33546;
 
 class Class_1_6D4F0531FDCA6C43 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimPropSpawnerParam* Field_1_4; // 0x10
-	::Struct_2_EAC1BB0F093534A5 Field_1_3; // 0x18
-	::System::Boolean Field_1_2; // 0x80
-	::System::Boolean Field_1_0; // 0x81
-	::System::Single Field_1_1; // 0x84
+	::RPG::GameCore::FiveDimPropSpawnerParam* Field_1_5; // 0x10
+	::Struct_2_EAC1BB0F093534A5 Field_1_4; // 0x18
+	::Struct_2_EAC1BB0F093534A5 Field_1_3; // 0x80
+	::System::Single Field_1_1; // 0xE8
+	::System::Boolean Field_1_2; // 0xEC
+	::System::Boolean Field_1_0; // 0xED
 
 	::System::Void _ctor()
 	{

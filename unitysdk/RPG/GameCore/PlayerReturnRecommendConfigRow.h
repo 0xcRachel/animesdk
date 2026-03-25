@@ -8,25 +8,25 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERRETURNRECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D76B80)
-#define RPG_GAMECORE_PLAYERRETURNRECOMMENDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D76EC0)
+#define RPG_GAMECORE_PLAYERRETURNRECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174FE700)
+#define RPG_GAMECORE_PLAYERRETURNRECOMMENDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174FEA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnRecommendConfigRow_TypeDefinitionIndex = 13188;
+	inline static constexpr unsigned int PlayerReturnRecommendConfigRow_TypeDefinitionIndex = 13262;
 
 	class PlayerReturnRecommendConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Condition; // 0x10
 		::System::String* ImagePath; // 0x18
-		::RPG::Client::TextID Title; // 0x20
-		::System::UInt32 Weight; // 0x30
-		::System::UInt32 RecommendID; // 0x34
-		::System::UInt32 GotoID; // 0x38
-		::RPG::GameCore::PlayerReturnRecommendType Type; // 0x3C
+		::System::UInt32 Weight; // 0x20
+		::RPG::GameCore::PlayerReturnRecommendType Type; // 0x24
+		::RPG::Client::TextID Title; // 0x28
+		::System::UInt32 RecommendID; // 0x38
+		::System::UInt32 GachaID; // 0x3C
 		::System::UInt32 PanelID; // 0x40
-		::System::UInt32 GachaID; // 0x44
+		::System::UInt32 GotoID; // 0x44
 
 		::System::Void _ctor()
 		{

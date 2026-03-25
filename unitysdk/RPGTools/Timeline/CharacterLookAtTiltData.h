@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA6003C0)
+#define RPGTOOLS_TIMELINE_CHARACTERLOOKATTILTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB454D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterLookAtTiltData_TypeDefinitionIndex = 37867;
+	inline static constexpr unsigned int CharacterLookAtTiltData_TypeDefinitionIndex = 38832;
 
 	class CharacterLookAtTiltData : public ::System::Object
 	{

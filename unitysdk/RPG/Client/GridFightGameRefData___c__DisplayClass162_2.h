@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B;
 class Class_1_7AB88D713F5121B3_45;
+class Class_1_F22B920916A3710A_Class_1_3E75962FCD9FB58B;
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS162_2__CTOR_OFFSET UNITYSDK_OFFSET(0x937E0B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS162_2___COLLECTEQUIPSANDTRAIT_B__2_OFFSET UNITYSDK_OFFSET(0x93835C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS162_2__CTOR_OFFSET UNITYSDK_OFFSET(0x983CAB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS162_2___COLLECTEQUIPSANDTRAIT_B__2_OFFSET UNITYSDK_OFFSET(0x9841320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass162_2_TypeDefinitionIndex = 51414;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass162_2_TypeDefinitionIndex = 52547;
 
 	class GridFightGameRefData___c__DisplayClass162_2 : public ::System::Object
 	{
 	public:
-		::Class_1_76AEB9F7CCE28B4E_Class_1_3E75962FCD9FB58B* finalRole; // 0x10
+		::Class_1_F22B920916A3710A_Class_1_3E75962FCD9FB58B* finalRole; // 0x10
 
 		::System::Void _ctor()
 		{

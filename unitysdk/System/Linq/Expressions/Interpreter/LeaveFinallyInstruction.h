@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CD0D90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17CD0DA0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x17CD0DE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CD0E20)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CD0D80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x184E80D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x184E80E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x184E8120)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x184E8160)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEFINALLYINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184E80C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LeaveFinallyInstruction_TypeDefinitionIndex = 3306;
+	inline static constexpr unsigned int LeaveFinallyInstruction_TypeDefinitionIndex = 3315;
 
 	class LeaveFinallyInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_Instance()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(LeaveFinallyInstruction_TypeDefinitionIndex)->GetStaticField(0x18330);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(LeaveFinallyInstruction_TypeDefinitionIndex)->GetStaticField(0x262C0);
 		}
 
 		::System::Void _ctor()

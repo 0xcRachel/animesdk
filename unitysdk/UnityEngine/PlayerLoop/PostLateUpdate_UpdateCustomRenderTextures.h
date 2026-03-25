@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_UpdateCustomRenderTextures_TypeDefinitionIndex = 4423;
+	inline static constexpr unsigned int PostLateUpdate_UpdateCustomRenderTextures_TypeDefinitionIndex = 4445;
 
 	struct alignas(1) PostLateUpdate_UpdateCustomRenderTextures
 	{

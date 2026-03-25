@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREENODEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E1B50)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREENODEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB254E0)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeNodeData_TypeDefinitionIndex = 38647;
+	inline static constexpr unsigned int OctreeNodeData_TypeDefinitionIndex = 39627;
 
 	class OctreeNodeData : public ::System::Object
 	{

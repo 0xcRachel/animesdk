@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17DAA6F0)
+#define SYSTEM_XML_SERIALIZATION_UNREFERENCEDOBJECTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x185DA020)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int UnreferencedObjectEventArgs_TypeDefinitionIndex = 1971;
+	inline static constexpr unsigned int UnreferencedObjectEventArgs_TypeDefinitionIndex = 1976;
 
 	class UnreferencedObjectEventArgs : public ::System::EventArgs
 	{

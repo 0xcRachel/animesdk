@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MainMissionData; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS323_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9743A10)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS323_0__GETSHOWMAINMISSIONCOUNTBYCHAPTERID_B__0_OFFSET UNITYSDK_OFFSET(0x9752A10)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS323_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9BE8FF0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS323_0__GETSHOWMAINMISSIONCOUNTBYCHAPTERID_B__0_OFFSET UNITYSDK_OFFSET(0x9BF8000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass323_0_TypeDefinitionIndex = 52638;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass323_0_TypeDefinitionIndex = 53775;
 
 	class MissionModule___c__DisplayClass323_0 : public ::System::Object
 	{

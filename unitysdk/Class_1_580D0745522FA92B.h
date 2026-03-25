@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class ModifierBehaviorVisual; }
 
-#define CLASS_1_580D0745522FA92B_METHOD_1_9E682D53C4CBE38E_OFFSET UNITYSDK_OFFSET(0x9EA92C0)
+#define CLASS_1_580D0745522FA92B_METHOD_1_9E682D53C4CBE38E_OFFSET UNITYSDK_OFFSET(0xA441FA0)
 
-inline static constexpr unsigned int Class_1_580D0745522FA92B_TypeDefinitionIndex = 42459;
+inline static constexpr unsigned int Class_1_580D0745522FA92B_TypeDefinitionIndex = 43509;
 
 class Class_1_580D0745522FA92B : public ::System::Object
 {

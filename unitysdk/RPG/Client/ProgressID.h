@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProgressID_TypeDefinitionIndex = 47097;
+	inline static constexpr unsigned int ProgressID_TypeDefinitionIndex = 48179;
 
 	enum class ProgressID : ::System::Int32
 	{

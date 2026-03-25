@@ -6,29 +6,29 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERASTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F407E0)
-#define RPG_CLIENT_CHIMERASTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F40820)
-#define RPG_CLIENT_CHIMERASTATIC___C__GETRESIDENTREWARDQUESTIDS_B__71_0_OFFSET UNITYSDK_OFFSET(0x8F40830)
-#define RPG_CLIENT_CHIMERASTATIC___C__STARTPAUSEGAMEPERFORMANCE_B__73_0_OFFSET UNITYSDK_OFFSET(0x8F40890)
+#define RPG_CLIENT_CHIMERASTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93E2020)
+#define RPG_CLIENT_CHIMERASTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93E2060)
+#define RPG_CLIENT_CHIMERASTATIC___C__GETRESIDENTREWARDQUESTIDS_B__71_0_OFFSET UNITYSDK_OFFSET(0x93E2070)
+#define RPG_CLIENT_CHIMERASTATIC___C__STARTPAUSEGAMEPERFORMANCE_B__73_0_OFFSET UNITYSDK_OFFSET(0x93E20D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraStatic___c_TypeDefinitionIndex = 50353;
+	inline static constexpr unsigned int ChimeraStatic___c_TypeDefinitionIndex = 51488;
 
 	class ChimeraStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__73_0()
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__71_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x42620);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x46B90);
 		}
 		static ::RPG::Client::ChimeraStatic___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraStatic___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x42628);
+			return (::RPG::Client::ChimeraStatic___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x46B98);
 		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__71_0()
+		static ::System::Action** StaticGet___9__73_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x42630);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraStatic___c_TypeDefinitionIndex)->GetStaticField(0x46BA0);
 		}
 
 		static ::System::Void _cctor()

@@ -21,13 +21,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_E18A5679AF820732_OFFSET UNITYSDK_OFFSET(0x168EBD00)
-#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_F505FC2092F2F0F5_OFFSET UNITYSDK_OFFSET(0x168EB1E0)
-#define RPG_GAMECORE_BLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168EBA70)
+#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_E18A5679AF820732_OFFSET UNITYSDK_OFFSET(0x16FFCB30)
+#define RPG_GAMECORE_BLOCKCONFIG_METHOD_2_F505FC2092F2F0F5_OFFSET UNITYSDK_OFFSET(0x16FFC010)
+#define RPG_GAMECORE_BLOCKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFC8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockConfig_TypeDefinitionIndex = 17117;
+	inline static constexpr unsigned int BlockConfig_TypeDefinitionIndex = 17522;
 
 	class BlockConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FC6400)
-#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC6550)
+#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177BA870)
+#define RPG_GAMECORE_SYSTEMDEFAULTLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177BA9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 11478;
+	inline static constexpr unsigned int SystemDefaultLanguageRow_TypeDefinitionIndex = 11546;
 
 	class SystemDefaultLanguageRow : public ::System::Object
 	{
 	public:
-		::System::String* DefaultAudioLanguage; // 0x10
+		::System::String* DefaultTextLanguage; // 0x10
 		::System::String* SystemLanguage; // 0x18
-		::System::String* DefaultTextLanguage; // 0x20
+		::System::String* DefaultAudioLanguage; // 0x20
 
 		::System::Void _ctor()
 		{

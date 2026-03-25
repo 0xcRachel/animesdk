@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168D2720)
-#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168D2E60)
+#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FE3400)
+#define RPG_GAMECORE_BATTLECONDITIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE3B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleConditionConfigRow_TypeDefinitionIndex = 11655;
+	inline static constexpr unsigned int BattleConditionConfigRow_TypeDefinitionIndex = 11725;
 
 	class BattleConditionConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* AbilityName; // 0x10
-		::RPG::Client::TextID ConditionDes; // 0x18
-		::System::UInt32 IsShowProgress; // 0x28
-		::System::UInt32 TargetParam; // 0x2C
-		::System::Boolean WinOrLose; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 IsShowProgress; // 0x18
+		::System::UInt32 TargetParam; // 0x1C
+		::RPG::Client::TextID ConditionDes; // 0x20
+		::System::UInt32 ID; // 0x30
+		::System::Boolean WinOrLose; // 0x34
 
 		::System::Void _ctor()
 		{

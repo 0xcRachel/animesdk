@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_UpdateTextureStreamingManager_TypeDefinitionIndex = 4348;
+	inline static constexpr unsigned int EarlyUpdate_UpdateTextureStreamingManager_TypeDefinitionIndex = 4370;
 
 	struct alignas(1) EarlyUpdate_UpdateTextureStreamingManager
 	{

@@ -4,9 +4,9 @@
 
 class SerializedWarmupPSO;
 
-#define SERIALIZEDWARMUPPSOSET__CTOR_OFFSET UNITYSDK_OFFSET(0xA68AEE0)
+#define SERIALIZEDWARMUPPSOSET__CTOR_OFFSET UNITYSDK_OFFSET(0xABD2910)
 
-inline static constexpr unsigned int SerializedWarmupPSOSet_TypeDefinitionIndex = 37328;
+inline static constexpr unsigned int SerializedWarmupPSOSet_TypeDefinitionIndex = 38292;
 
 class SerializedWarmupPSOSet : public ::UnityEngine::ScriptableObject
 {

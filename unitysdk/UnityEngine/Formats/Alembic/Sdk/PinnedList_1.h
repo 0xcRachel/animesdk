@@ -11,7 +11,7 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int PinnedList_1_TypeDefinitionIndex = 34078;
+	inline static constexpr unsigned int PinnedList_1_TypeDefinitionIndex = 35012;
 
 	template <typename T>
 	class PinnedList_1 : public ::System::Object

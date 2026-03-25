@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSTHRESHOLDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4DF60)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSTHRESHOLDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4E0D0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSTHRESHOLDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729C660)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSTHRESHOLDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729C7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBonusThresholdConfigRow_TypeDefinitionIndex = 12466;
+	inline static constexpr unsigned int GridFightTraitBonusThresholdConfigRow_TypeDefinitionIndex = 12536;
 
 	class GridFightTraitBonusThresholdConfigRow : public ::System::Object
 	{

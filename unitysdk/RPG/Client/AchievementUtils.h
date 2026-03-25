@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACHIEVEMENTUTILS_DOESENTITYCONTAINSMODIFIER_OFFSET UNITYSDK_OFFSET(0x8ADBA30)
+#define RPG_CLIENT_ACHIEVEMENTUTILS_DOESENTITYCONTAINSMODIFIER_OFFSET UNITYSDK_OFFSET(0x8EDC560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AchievementUtils_TypeDefinitionIndex = 48673;
+	inline static constexpr unsigned int AchievementUtils_TypeDefinitionIndex = 49767;
 
 	class AchievementUtils : public ::System::Object
 	{

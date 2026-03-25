@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_BATTLEQTEBASECONFIG_METHOD_2_6A4FB82806DB8594_OFFSET UNITYSDK_OFFSET(0x168E3740)
-#define RPG_GAMECORE_BATTLEQTEBASECONFIG_METHOD_2_D10832EE2EE5CE30_OFFSET UNITYSDK_OFFSET(0x168E2DD0)
-#define RPG_GAMECORE_BATTLEQTEBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168E3980)
+#define RPG_GAMECORE_BATTLEQTEBASECONFIG_METHOD_2_454B3E92A821C610_OFFSET UNITYSDK_OFFSET(0x16FF3B90)
+#define RPG_GAMECORE_BATTLEQTEBASECONFIG_METHOD_2_6A4FB82806DB8594_OFFSET UNITYSDK_OFFSET(0x16FF4540)
+#define RPG_GAMECORE_BATTLEQTEBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF4780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleQTEBaseConfig_TypeDefinitionIndex = 21015;
+	inline static constexpr unsigned int BattleQTEBaseConfig_TypeDefinitionIndex = 21575;
 
 	class BattleQTEBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEQTEBASECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D10832EE2EE5CE30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleQTEBaseConfig*& a2)
+		static ::System::Void Method_2_454B3E92A821C610(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleQTEBaseConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleQTEBaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEQTEBASECONFIG_METHOD_2_D10832EE2EE5CE30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleQTEBaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEQTEBASECONFIG_METHOD_2_454B3E92A821C610_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_6A4FB82806DB8594(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleQTEBaseConfig* a2)

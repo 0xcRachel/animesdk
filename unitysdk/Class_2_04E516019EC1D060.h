@@ -6,21 +6,21 @@
 
 namespace System { class String; }
 
-#define CLASS_2_04E516019EC1D060_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x104ACBA0)
-#define CLASS_2_04E516019EC1D060__CTOR_OFFSET UNITYSDK_OFFSET(0x104ACCB0)
-#define CLASS_2_04E516019EC1D060___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x104ACCC0)
+#define CLASS_2_04E516019EC1D060_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1187E8C0)
+#define CLASS_2_04E516019EC1D060__CTOR_OFFSET UNITYSDK_OFFSET(0x1187E9D0)
+#define CLASS_2_04E516019EC1D060___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1187E9E0)
 
-inline static constexpr unsigned int Class_2_04E516019EC1D060_TypeDefinitionIndex = 38121;
+inline static constexpr unsigned int Class_2_04E516019EC1D060_TypeDefinitionIndex = 39096;
 
 class Class_2_04E516019EC1D060 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
 	::System::String* Field_2_1; // 0x10
 	::System::String* Field_2_0; // 0x18
-	::System::Boolean Field_2_4; // 0x20
-	::System::Int32 Field_2_5; // 0x24
-	::System::Single Field_2_3; // 0x28
-	::System::Single Field_2_2; // 0x2C
+	::System::Single Field_2_2; // 0x20
+	::System::Single Field_2_3; // 0x24
+	::System::Int32 Field_2_5; // 0x28
+	::System::Boolean Field_2_4; // 0x2C
 
 	::System::Void _ctor()
 	{

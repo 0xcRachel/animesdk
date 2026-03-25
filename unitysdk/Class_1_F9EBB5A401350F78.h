@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_173;
-class Class_1_F9FBCC956DFCF137_13;
+class Class_1_43BD383C98B4C0C5_176;
+class Class_1_F9FBCC956DFCF137_14;
 class Class_1_FD611945730E269E;
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F9EBB5A401350F78_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFD253C0)
-#define CLASS_1_F9EBB5A401350F78_METHOD_1_04AF66402B9859B9_OFFSET UNITYSDK_OFFSET(0xFD258F0)
-#define CLASS_1_F9EBB5A401350F78_METHOD_1_301CAF2C32BB6D08_OFFSET UNITYSDK_OFFSET(0xFD256E0)
-#define CLASS_1_F9EBB5A401350F78_METHOD_1_8D595942D57F40CD_OFFSET UNITYSDK_OFFSET(0xFD25590)
-#define CLASS_1_F9EBB5A401350F78_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xFD25520)
-#define CLASS_1_F9EBB5A401350F78__CTOR_OFFSET UNITYSDK_OFFSET(0xFD25260)
+#define CLASS_1_F9EBB5A401350F78_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEA87CE0)
+#define CLASS_1_F9EBB5A401350F78_METHOD_1_04AF66402B9859B9_OFFSET UNITYSDK_OFFSET(0xEA88210)
+#define CLASS_1_F9EBB5A401350F78_METHOD_1_301CAF2C32BB6D08_OFFSET UNITYSDK_OFFSET(0xEA88000)
+#define CLASS_1_F9EBB5A401350F78_METHOD_1_8D595942D57F40CD_OFFSET UNITYSDK_OFFSET(0xEA87EB0)
+#define CLASS_1_F9EBB5A401350F78_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xEA87E40)
+#define CLASS_1_F9EBB5A401350F78__CTOR_OFFSET UNITYSDK_OFFSET(0xEA87B80)
 
-inline static constexpr unsigned int Class_1_F9EBB5A401350F78_TypeDefinitionIndex = 61490;
+inline static constexpr unsigned int Class_1_F9EBB5A401350F78_TypeDefinitionIndex = 63677;
 
 class Class_1_F9EBB5A401350F78 : public ::System::Object
 {
 public:
 	::System::String* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_FD611945730E269E*>* Field_1_3; // 0x18
-	::System::Action* Field_1_0; // 0x20
+	::System::Action* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_FD611945730E269E*>* Field_1_3; // 0x20
 	::System::Boolean Field_1_1; // 0x28
 
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_173*>* a1, ::Class_1_F9FBCC956DFCF137_13* a2, ::System::String* a3)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_176*>* a1, ::Class_1_F9FBCC956DFCF137_14* a2, ::System::String* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_173*>*, ::Class_1_F9FBCC956DFCF137_13*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F9EBB5A401350F78__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_176*>*, ::Class_1_F9FBCC956DFCF137_14*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F9EBB5A401350F78__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Dispose()

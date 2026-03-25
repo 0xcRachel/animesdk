@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int IContributeObjectSink_TypeDefinitionIndex = 1243;
+	inline static constexpr unsigned int IContributeObjectSink_TypeDefinitionIndex = 1248;
 
 	class IContributeObjectSink
 	{

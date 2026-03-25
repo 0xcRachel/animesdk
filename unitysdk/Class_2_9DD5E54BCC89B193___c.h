@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_300255A4917C4300.h"
+#include "unitysdk/Struct_2_4127FF4C06B070D3.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
@@ -12,37 +12,37 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_2_9DD5E54BCC89B193___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x89BF800)
-#define CLASS_2_9DD5E54BCC89B193___C__CTOR_OFFSET UNITYSDK_OFFSET(0x89BF830)
-#define CLASS_2_9DD5E54BCC89B193___C___CREATEINTERACTTRIGGER_B__6_0_OFFSET UNITYSDK_OFFSET(0x89BF840)
-#define CLASS_2_9DD5E54BCC89B193___C___CREATEPROPMOVETRIGGER_B__8_0_OFFSET UNITYSDK_OFFSET(0x89BF860)
-#define CLASS_2_9DD5E54BCC89B193___C___CREATEPROPMOVETRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0x89BF8B0)
-#define CLASS_2_9DD5E54BCC89B193___C___FIREARROWINTERACTEFFECTDELAYED_B__18_0_OFFSET UNITYSDK_OFFSET(0x89BF900)
+#define CLASS_2_9DD5E54BCC89B193___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11534290)
+#define CLASS_2_9DD5E54BCC89B193___C__CTOR_OFFSET UNITYSDK_OFFSET(0x115342C0)
+#define CLASS_2_9DD5E54BCC89B193___C___CREATEINTERACTTRIGGER_B__6_0_OFFSET UNITYSDK_OFFSET(0x115342D0)
+#define CLASS_2_9DD5E54BCC89B193___C___CREATEPROPMOVETRIGGER_B__8_0_OFFSET UNITYSDK_OFFSET(0x115342F0)
+#define CLASS_2_9DD5E54BCC89B193___C___CREATEPROPMOVETRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0x11534340)
+#define CLASS_2_9DD5E54BCC89B193___C___FIREARROWINTERACTEFFECTDELAYED_B__18_0_OFFSET UNITYSDK_OFFSET(0x11534390)
 
-inline static constexpr unsigned int Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex = 60804;
+inline static constexpr unsigned int Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex = 62799;
 
 class Class_2_9DD5E54BCC89B193___c : public ::System::Object
 {
 public:
-	static ::System::Action_2<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*>** StaticGet___9__6_0()
+	static ::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__8_1()
 	{
-		return (::System::Action_2<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x47140);
-	}
-	static ::Class_2_9DD5E54BCC89B193___c** StaticGet___9()
-	{
-		return (::Class_2_9DD5E54BCC89B193___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x47148);
+		return (::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x36B10);
 	}
 	static ::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__8_0()
 	{
-		return (::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x47150);
+		return (::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x36B18);
 	}
-	static ::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__8_1()
+	static ::System::Action_2<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*>** StaticGet___9__6_0()
 	{
-		return (::System::Action_3<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x47158);
+		return (::System::Action_2<::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x36B20);
 	}
-	static ::System::Action_4<::Class_2_9DD5E54BCC89B193*, ::UnityEngine::Vector3, ::Entitas::IEntity*, ::Struct_2_300255A4917C4300>** StaticGet___9__18_0()
+	static ::System::Action_4<::Class_2_9DD5E54BCC89B193*, ::UnityEngine::Vector3, ::Entitas::IEntity*, ::Struct_2_4127FF4C06B070D3>** StaticGet___9__18_0()
 	{
-		return (::System::Action_4<::Class_2_9DD5E54BCC89B193*, ::UnityEngine::Vector3, ::Entitas::IEntity*, ::Struct_2_300255A4917C4300>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x47160);
+		return (::System::Action_4<::Class_2_9DD5E54BCC89B193*, ::UnityEngine::Vector3, ::Entitas::IEntity*, ::Struct_2_4127FF4C06B070D3>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x36B28);
+	}
+	static ::Class_2_9DD5E54BCC89B193___c** StaticGet___9()
+	{
+		return (::Class_2_9DD5E54BCC89B193___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_9DD5E54BCC89B193___c_TypeDefinitionIndex)->GetStaticField(0x36B30);
 	}
 
 	static ::System::Void _cctor()
@@ -70,8 +70,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_9DD5E54BCC89B193*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CLASS_2_9DD5E54BCC89B193___C___CREATEPROPMOVETRIGGER_B__8_1_OFFSET))(this, self, ent, col);
 	}
 
-	::System::Void __FireArrowInteractEffectDelayed_b__18_0(::Class_2_9DD5E54BCC89B193* self, ::UnityEngine::Vector3 pos, ::Entitas::IEntity* ent, ::Struct_2_300255A4917C4300 param)
+	::System::Void __FireArrowInteractEffectDelayed_b__18_0(::Class_2_9DD5E54BCC89B193* self, ::UnityEngine::Vector3 pos, ::Entitas::IEntity* ent, ::Struct_2_4127FF4C06B070D3 param)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_9DD5E54BCC89B193*, ::UnityEngine::Vector3, ::Entitas::IEntity*, ::Struct_2_300255A4917C4300))((::PBYTE)hIl2Cpp + CLASS_2_9DD5E54BCC89B193___C___FIREARROWINTERACTEFFECTDELAYED_B__18_0_OFFSET))(this, self, pos, ent, param);
+		return ((::System::Void(*)(::PVOID, ::Class_2_9DD5E54BCC89B193*, ::UnityEngine::Vector3, ::Entitas::IEntity*, ::Struct_2_4127FF4C06B070D3))((::PBYTE)hIl2Cpp + CLASS_2_9DD5E54BCC89B193___C___FIREARROWINTERACTEFFECTDELAYED_B__18_0_OFFSET))(this, self, pos, ent, param);
 	}
 };

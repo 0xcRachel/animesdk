@@ -3,7 +3,7 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int CleanupMode_TypeDefinitionIndex = 9292;
+	inline static constexpr unsigned int CleanupMode_TypeDefinitionIndex = 9759;
 
 	enum class CleanupMode : ::System::Int32
 	{

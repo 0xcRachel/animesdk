@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1819CE50)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1819CE90)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__SORTNOTIFICATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1819CEA0)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189C5810)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189C5850)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR___C__SORTNOTIFICATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0x189C5860)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeNotificationBehaviour___c_TypeDefinitionIndex = 29020;
+	inline static constexpr unsigned int TimeNotificationBehaviour___c_TypeDefinitionIndex = 29895;
 
 	class TimeNotificationBehaviour___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Timeline::TimeNotificationBehaviour___c** StaticGet___9()
 		{
-			return (::UnityEngine::Timeline::TimeNotificationBehaviour___c**)Il2CppClass::FromTypeDefinitionIndex(TimeNotificationBehaviour___c_TypeDefinitionIndex)->GetStaticField(0x3E0F0);
+			return (::UnityEngine::Timeline::TimeNotificationBehaviour___c**)Il2CppClass::FromTypeDefinitionIndex(TimeNotificationBehaviour___c_TypeDefinitionIndex)->GetStaticField(0x36090);
 		}
 		static ::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry>** StaticGet___9__12_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry>**)Il2CppClass::FromTypeDefinitionIndex(TimeNotificationBehaviour___c_TypeDefinitionIndex)->GetStaticField(0x3E0F8);
+			return (::System::Comparison_1<::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry>**)Il2CppClass::FromTypeDefinitionIndex(TimeNotificationBehaviour___c_TypeDefinitionIndex)->GetStaticField(0x36098);
 		}
 
 		static ::System::Void _cctor()

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_43BD383C98B4C0C5_12;
+class Class_1_43BD383C98B4C0C5_11;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceBasePredicateConfig; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x15F232B0)
-#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15F232F0)
-#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_INVOKE_OFFSET UNITYSDK_OFFSET(0x15F21930)
-#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220__CTOR_OFFSET UNITYSDK_OFFSET(0x15F22990)
+#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x165D15C0)
+#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x165D1600)
+#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_INVOKE_OFFSET UNITYSDK_OFFSET(0x165CFEC0)
+#define CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220__CTOR_OFFSET UNITYSDK_OFFSET(0x165D0CC0)
 
-inline static constexpr unsigned int Class_1_C5DD2C29508792A7_Class_3_AB3DCCDB3276A220_TypeDefinitionIndex = 28189;
+inline static constexpr unsigned int Class_1_C5DD2C29508792A7_Class_3_AB3DCCDB3276A220_TypeDefinitionIndex = 29061;
 
 class Class_1_C5DD2C29508792A7_Class_3_AB3DCCDB3276A220 : public ::System::MulticastDelegate
 {
@@ -24,9 +24,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::Class_1_43BD383C98B4C0C5_12* Invoke(::RPG::GameCore::CakeRaceBasePredicateConfig* a1, ::Class_2_F3C45F1FC7349B6E* a2)
+	::Class_1_43BD383C98B4C0C5_11* Invoke(::RPG::GameCore::CakeRaceBasePredicateConfig* a1, ::Class_2_F3C45F1FC7349B6E* a2)
 	{
-		return ((::Class_1_43BD383C98B4C0C5_12*(*)(::PVOID, ::RPG::GameCore::CakeRaceBasePredicateConfig*, ::Class_2_F3C45F1FC7349B6E*))((::PBYTE)hIl2Cpp + CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_INVOKE_OFFSET))(this, a1, a2);
+		return ((::Class_1_43BD383C98B4C0C5_11*(*)(::PVOID, ::RPG::GameCore::CakeRaceBasePredicateConfig*, ::Class_2_F3C45F1FC7349B6E*))((::PBYTE)hIl2Cpp + CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_INVOKE_OFFSET))(this, a1, a2);
 	}
 
 	::System::IAsyncResult* BeginInvoke(::RPG::GameCore::CakeRaceBasePredicateConfig* a1, ::Class_2_F3C45F1FC7349B6E* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
@@ -34,8 +34,8 @@ public:
 		return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::CakeRaceBasePredicateConfig*, ::Class_2_F3C45F1FC7349B6E*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::Class_1_43BD383C98B4C0C5_12* EndInvoke(::System::IAsyncResult* a1)
+	::Class_1_43BD383C98B4C0C5_11* EndInvoke(::System::IAsyncResult* a1)
 	{
-		return ((::Class_1_43BD383C98B4C0C5_12*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_ENDINVOKE_OFFSET))(this, a1);
+		return ((::Class_1_43BD383C98B4C0C5_11*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLASS_1_C5DD2C29508792A7_CLASS_3_AB3DCCDB3276A220_ENDINVOKE_OFFSET))(this, a1);
 	}
 };

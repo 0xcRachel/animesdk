@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttractEnemySelectMode_TypeDefinitionIndex = 17941;
+	inline static constexpr unsigned int AttractEnemySelectMode_TypeDefinitionIndex = 18458;
 
 	enum class AttractEnemySelectMode : ::System::Int32
 	{

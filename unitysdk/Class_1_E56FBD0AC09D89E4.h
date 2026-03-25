@@ -7,20 +7,20 @@ class Class_1_56FF45D7B2C55655;
 class Class_1_5B228A4605C15E47;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E56FBD0AC09D89E4_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x9ED5140)
-#define CLASS_1_E56FBD0AC09D89E4_METHOD_1_42B8C4AE6883DB3C_OFFSET UNITYSDK_OFFSET(0x9ED5530)
-#define CLASS_1_E56FBD0AC09D89E4_METHOD_1_ECB29EB056B27311_OFFSET UNITYSDK_OFFSET(0x9ED5260)
-#define CLASS_1_E56FBD0AC09D89E4__CTOR_OFFSET UNITYSDK_OFFSET(0x9ED5BB0)
+#define CLASS_1_E56FBD0AC09D89E4_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x10AA9520)
+#define CLASS_1_E56FBD0AC09D89E4_METHOD_1_42B8C4AE6883DB3C_OFFSET UNITYSDK_OFFSET(0x10AA9910)
+#define CLASS_1_E56FBD0AC09D89E4_METHOD_1_ECB29EB056B27311_OFFSET UNITYSDK_OFFSET(0x10AA9640)
+#define CLASS_1_E56FBD0AC09D89E4__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA9F90)
 
-inline static constexpr unsigned int Class_1_E56FBD0AC09D89E4_TypeDefinitionIndex = 58873;
+inline static constexpr unsigned int Class_1_E56FBD0AC09D89E4_TypeDefinitionIndex = 60616;
 
 class Class_1_E56FBD0AC09D89E4 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_1; // 0x10
 	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_4; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_3; // 0x20
-	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_1; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_5B228A4605C15E47*>* Field_1_3; // 0x28
 	::System::Int32 Field_1_0; // 0x30
 
 	::System::Void _ctor()

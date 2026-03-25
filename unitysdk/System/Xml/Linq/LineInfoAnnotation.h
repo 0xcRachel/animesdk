@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_LINQ_LINEINFOANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x17D394B0)
+#define SYSTEM_XML_LINQ_LINEINFOANNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18569430)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int LineInfoAnnotation_TypeDefinitionIndex = 4798;
+	inline static constexpr unsigned int LineInfoAnnotation_TypeDefinitionIndex = 4897;
 
 	class LineInfoAnnotation : public ::System::Object
 	{

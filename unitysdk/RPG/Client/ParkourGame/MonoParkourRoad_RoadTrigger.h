@@ -5,11 +5,11 @@
 
 namespace RPG::Client::ParkourGame { class MonoParkourRoad_TriggerInfo; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_ROADTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9A3D0E0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_ROADTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9F116A0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoad_RoadTrigger_TypeDefinitionIndex = 59063;
+	inline static constexpr unsigned int MonoParkourRoad_RoadTrigger_TypeDefinitionIndex = 60815;
 
 	class MonoParkourRoad_RoadTrigger : public ::System::Object
 	{

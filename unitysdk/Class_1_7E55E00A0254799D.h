@@ -8,9 +8,9 @@ namespace RPG::GameCore::Match3 { class PieceConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7E55E00A0254799D__CTOR_OFFSET UNITYSDK_OFFSET(0x163371D0)
+#define CLASS_1_7E55E00A0254799D__CTOR_OFFSET UNITYSDK_OFFSET(0x1679B300)
 
-inline static constexpr unsigned int Class_1_7E55E00A0254799D_TypeDefinitionIndex = 31791;
+inline static constexpr unsigned int Class_1_7E55E00A0254799D_TypeDefinitionIndex = 32701;
 
 class Class_1_7E55E00A0254799D : public ::System::Object
 {

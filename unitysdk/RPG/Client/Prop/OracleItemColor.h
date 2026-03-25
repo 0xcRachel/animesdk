@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OracleItemColor_TypeDefinitionIndex = 61992;
+	inline static constexpr unsigned int OracleItemColor_TypeDefinitionIndex = 64179;
 
 	enum class OracleItemColor : ::System::Int32
 	{

@@ -6,23 +6,25 @@
 
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
+namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15A1D690)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS108_0__SHOWLOGINSTATEINVALID_B__0_OFFSET UNITYSDK_OFFSET(0x15A234A0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS108_0__SHOWLOGINSTATEINVALID_B__1_OFFSET UNITYSDK_OFFSET(0x15A237C0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160EB1B0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS108_0__SHOWLOGINSTATEINVALID_B__0_OFFSET UNITYSDK_OFFSET(0x160F0DF0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS108_0__SHOWLOGINSTATEINVALID_B__1_OFFSET UNITYSDK_OFFSET(0x160F1120)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass108_0_TypeDefinitionIndex = 7937;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass108_0_TypeDefinitionIndex = 8066;
 
 	class LoginManager___c__DisplayClass108_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x10
 		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* OnLogout; // 0x18
-		::MiHoYo::SDK::ReportType type; // 0x20
+		::System::Action* callback; // 0x20
+		::MiHoYo::SDK::ReportType type; // 0x28
 
 		::System::Void _ctor()
 		{

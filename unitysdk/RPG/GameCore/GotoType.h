@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoType_TypeDefinitionIndex = 12075;
+	inline static constexpr unsigned int GotoType_TypeDefinitionIndex = 12145;
 
 	enum class GotoType : ::System::Int32
 	{

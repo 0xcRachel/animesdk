@@ -11,7 +11,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPDebugAsset_TypeDefinitionIndex = 4599;
+	inline static constexpr unsigned int CRPDebugAsset_TypeDefinitionIndex = 4627;
 
 	struct alignas(8) CRPDebugAsset
 	{
@@ -43,7 +43,8 @@ namespace UnityEngine::Rendering
 		::System::Int32 srpDebugDrawIndex; // 0x1B0
 		::System::Boolean forceUpdateCacheMatrix; // 0x1B4
 		::System::Int32 AOVLocalLightRTIID; // 0x1B8
-		::System::UInt64 _Flag; // 0x1C0
-		::System::Single ClusterVisualizeOpacity; // 0x1C8
+		::System::Single ClusterVisualizeOpacity; // 0x1BC
+		::System::Int32 VoxelDebugPass; // 0x1C0
+		::System::UInt64 _Flag; // 0x1C8
 	};
 }

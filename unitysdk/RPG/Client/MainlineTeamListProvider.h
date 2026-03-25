@@ -5,13 +5,14 @@
 namespace RPG::Client { class TeamData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0x95E6930)
-#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0x95E69A0)
-#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x95E6920)
+#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0x9ACD120)
+#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET UNITYSDK_OFFSET(0x9ACD520)
+#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0x9ACD190)
+#define RPG_CLIENT_MAINLINETEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x9ACD110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainlineTeamListProvider_TypeDefinitionIndex = 54051;
+	inline static constexpr unsigned int MainlineTeamListProvider_TypeDefinitionIndex = 55608;
 
 	class MainlineTeamListProvider : public ::System::Object
 	{
@@ -29,6 +30,11 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::TeamData*>* GetTeams()
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TeamData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::TeamData*>* GetTeamsWithEmpty()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::TeamData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAINLINETEAMLISTPROVIDER_GETTEAMSWITHEMPTY_OFFSET))(this);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineAsset_DurationMode_TypeDefinitionIndex = 28960;
+	inline static constexpr unsigned int TimelineAsset_DurationMode_TypeDefinitionIndex = 29835;
 
 	enum class TimelineAsset_DurationMode : ::System::Int32
 	{

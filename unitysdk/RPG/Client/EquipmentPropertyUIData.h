@@ -5,17 +5,17 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_EQUIPMENTPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9180260)
+#define RPG_CLIENT_EQUIPMENTPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x962D5C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EquipmentPropertyUIData_TypeDefinitionIndex = 52210;
+	inline static constexpr unsigned int EquipmentPropertyUIData_TypeDefinitionIndex = 53346;
 
 	class EquipmentPropertyUIData : public ::System::Object
 	{
 	public:
-		::System::String* BaseNum; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::String* BaseNum; // 0x18
 		::RPG::Client::TextID NameID; // 0x20
 
 		::System::Void _ctor()

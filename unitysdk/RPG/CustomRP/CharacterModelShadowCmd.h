@@ -17,111 +17,111 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ADDEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x1638C5C0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1638C760)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETSINGLECHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x1638D8A0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETTEAMCHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x1638DA40)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x1638AF70)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISHIGHQUALITYEFFECT_OFFSET UNITYSDK_OFFSET(0x1638B590)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x1638B440)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1638C750)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1638B570)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITHIGHQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x1638B460)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITLOWQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x1638BC50)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INIT_OFFSET UNITYSDK_OFFSET(0x1638B5E0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1638C6D0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1638BA70)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1638B8D0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1638B600)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_REMOVEEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x1638C650)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SETMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1638AFA0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x1638AF80)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x1638B450)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1638B580)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_START_OFFSET UNITYSDK_OFFSET(0x1638B5A0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1638DFF0)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x1638DB10)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__DRAWSINGLECHARACTERRENDERERS_OFFSET UNITYSDK_OFFSET(0x1638CB60)
-#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__GETMATERIALSYNCEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1638D0A0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ADDEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x16A9B570)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16A9B710)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETSINGLECHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x16A9C850)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GETTEAMCHARACTERSHADOWDIR_OFFSET UNITYSDK_OFFSET(0x16A9C9F0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x16A99F20)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISHIGHQUALITYEFFECT_OFFSET UNITYSDK_OFFSET(0x16A9A540)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x16A9A3F0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_KEY_OFFSET UNITYSDK_OFFSET(0x16A9B700)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_GET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x16A9A520)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITHIGHQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x16A9A410)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INITLOWQUALITYSHADOW_OFFSET UNITYSDK_OFFSET(0x16A9AC00)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_INIT_OFFSET UNITYSDK_OFFSET(0x16A9A590)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16A9B680)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16A9AA20)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16A9A880)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16A9A5B0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_REMOVEEXTRARENDERERTOSINGLECHARACTER_OFFSET UNITYSDK_OFFSET(0x16A9B600)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SETMATERIALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x16A99F50)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_CHARACTERBODYSIZESHADOW_OFFSET UNITYSDK_OFFSET(0x16A99F30)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_ISNEEDTHREESHADOW_OFFSET UNITYSDK_OFFSET(0x16A9A400)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_SET_TEAMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x16A9A530)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD_START_OFFSET UNITYSDK_OFFSET(0x16A9A550)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9CFA0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9CAC0)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__DRAWSINGLECHARACTERRENDERERS_OFFSET UNITYSDK_OFFSET(0x16A9BB10)
+#define RPG_CUSTOMRP_CHARACTERMODELSHADOWCMD__GETMATERIALSYNCEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0x16A9C050)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CharacterModelShadowCmd_TypeDefinitionIndex = 28350;
+	inline static constexpr unsigned int CharacterModelShadowCmd_TypeDefinitionIndex = 29225;
 
 	class CharacterModelShadowCmd : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::ICmdExecuteCb** StaticGet_current()
 		{
-			return (::ICmdExecuteCb**)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0x37D20);
-		}
-		static ::System::Int32* StaticGet__DissolveMapShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA60);
-		}
-		static ::System::Int32* StaticGet__DissolveSTShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA64);
+			return (::ICmdExecuteCb**)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0x280C0);
 		}
 		static ::System::Int32* StaticGet__ShadowGroundShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA68);
-		}
-		static ::System::Int32* StaticGet__DissolveUVSpeedShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA6C);
-		}
-		static ::System::Int32* StaticGet__DissolveRateShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA70);
-		}
-		static ::System::Int32* StaticGet__ModelShadowColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA74);
-		}
-		static ::System::Int32* StaticGet__UseDitherAlpha()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA78);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB410);
 		}
 		static ::System::Int32* StaticGet__OpacityShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA7C);
-		}
-		static ::System::Int32* StaticGet__DissolveDistortionIntensityShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB414);
 		}
 		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA84);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB418);
 		}
-		static ::System::Int32* StaticGet__ShadowAttenScaleShaderProperty()
+		static ::System::Int32* StaticGet__ModelShadowColorShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA88);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB41C);
+		}
+		static ::System::Int32* StaticGet__DissolveSTShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB420);
+		}
+		static ::System::Int32* StaticGet__UseDitherAlpha()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB424);
 		}
 		static ::System::Int32* StaticGet__DissolveUVShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA8C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB428);
 		}
-		static ::System::Int32* StaticGet__ShadowAttenStartPosShaderProperty()
+		static ::System::Int32* StaticGet__DissolveRateShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA90);
-		}
-		static ::System::Int32* StaticGet__DitherAlpha()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA94);
-		}
-		static ::System::Int32* StaticGet__DissolveMapAddShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA98);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB42C);
 		}
 		static ::System::Int32* StaticGet__DistortionSTShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDA9C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB430);
+		}
+		static ::System::Int32* StaticGet__DissolveMapAddShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB434);
+		}
+		static ::System::Int32* StaticGet__DissolveMapShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB438);
+		}
+		static ::System::Int32* StaticGet__DitherAlpha()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB43C);
+		}
+		static ::System::Int32* StaticGet__ShadowAttenStartPosShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB440);
+		}
+		static ::System::Int32* StaticGet__ShadowAttenScaleShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB444);
+		}
+		static ::System::Int32* StaticGet__DissolveDistortionIntensityShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB448);
 		}
 		static ::System::Int32* StaticGet__ShadowDirAttenShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xDAA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB44C);
+		}
+		static ::System::Int32* StaticGet__DissolveUVSpeedShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterModelShadowCmd_TypeDefinitionIndex)->GetStaticField(0xB450);
 		}
 		::UnityEngine::GameObject* SingleCharacterShadowReceiver; // 0x18
 		::UnityEngine::GameObject* SingleCharacterShadowDrawDepth; // 0x20

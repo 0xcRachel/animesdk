@@ -4,12 +4,12 @@
 
 namespace TapTap::Sdk { class LoginManager_OnLoginResult; }
 
-#define TAPTAP_SDK_LOGINMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F69C70)
-#define TAPTAP_SDK_LOGINMANAGER___C__DISPLAYCLASS5_0__LOGINWITHREADPERMISSIONS_B__0_OFFSET UNITYSDK_OFFSET(0x17F69F30)
+#define TAPTAP_SDK_LOGINMANAGER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x187933E0)
+#define TAPTAP_SDK_LOGINMANAGER___C__DISPLAYCLASS5_0__LOGINWITHREADPERMISSIONS_B__0_OFFSET UNITYSDK_OFFSET(0x187936A0)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass5_0_TypeDefinitionIndex = 6329;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass5_0_TypeDefinitionIndex = 6430;
 
 	class LoginManager___c__DisplayClass5_0 : public ::System::Object
 	{

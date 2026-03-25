@@ -5,12 +5,12 @@
 class Class_1_120319518E6F6581_18;
 namespace RPG::Client { class CakeRaceHandbookCatItem; }
 
-#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8E46C70)
-#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0___SYNCLIST_B__1_OFFSET UNITYSDK_OFFSET(0x8E46DA0)
+#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9250A50)
+#define RPG_CLIENT_CAKERACEHANDBOOKINFO___C__DISPLAYCLASS11_0___SYNCLIST_B__1_OFFSET UNITYSDK_OFFSET(0x9250B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceHandbookInfo___c__DisplayClass11_0_TypeDefinitionIndex = 50028;
+	inline static constexpr unsigned int CakeRaceHandbookInfo___c__DisplayClass11_0_TypeDefinitionIndex = 51160;
 
 	class CakeRaceHandbookInfo___c__DisplayClass11_0 : public ::System::Object
 	{

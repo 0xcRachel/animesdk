@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcMath_MathTypeEnum_TypeDefinitionIndex = 27482;
+	inline static constexpr unsigned int BGCcMath_MathTypeEnum_TypeDefinitionIndex = 28218;
 
 	enum class BGCcMath_MathTypeEnum : ::System::Int32
 	{

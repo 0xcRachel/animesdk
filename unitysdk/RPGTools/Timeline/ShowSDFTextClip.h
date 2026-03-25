@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class ShowSDFTextData; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA666830)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA666820)
-#define RPGTOOLS_TIMELINE_SHOWSDFTEXTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA666A20)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xABACFD0)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xABACFC0)
+#define RPGTOOLS_TIMELINE_SHOWSDFTEXTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xABAD1C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowSDFTextClip_TypeDefinitionIndex = 38115;
+	inline static constexpr unsigned int ShowSDFTextClip_TypeDefinitionIndex = 39090;
 
 	class ShowSDFTextClip : public ::UnityEngine::Playables::PlayableAsset
 	{

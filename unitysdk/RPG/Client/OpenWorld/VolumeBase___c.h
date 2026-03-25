@@ -6,24 +6,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_OPENWORLD_VOLUMEBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A203B0)
-#define RPG_CLIENT_OPENWORLD_VOLUMEBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9A203F0)
-#define RPG_CLIENT_OPENWORLD_VOLUMEBASE___C__WRITEREGIONTOSTAGEVOLUMECONFIGV2_B__2_0_OFFSET UNITYSDK_OFFSET(0x9A20400)
+#define RPG_CLIENT_OPENWORLD_VOLUMEBASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EC0930)
+#define RPG_CLIENT_OPENWORLD_VOLUMEBASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EC0970)
+#define RPG_CLIENT_OPENWORLD_VOLUMEBASE___C__WRITEREGIONTOSTAGEVOLUMECONFIGV2_B__2_0_OFFSET UNITYSDK_OFFSET(0x9EC0980)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int VolumeBase___c_TypeDefinitionIndex = 58903;
+	inline static constexpr unsigned int VolumeBase___c_TypeDefinitionIndex = 60651;
 
 	class VolumeBase___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Vector2, ::RPG::MVector2>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::UnityEngine::Vector2, ::RPG::MVector2>**)Il2CppClass::FromTypeDefinitionIndex(VolumeBase___c_TypeDefinitionIndex)->GetStaticField(0x44620);
-		}
 		static ::RPG::Client::OpenWorld::VolumeBase___c** StaticGet___9()
 		{
-			return (::RPG::Client::OpenWorld::VolumeBase___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeBase___c_TypeDefinitionIndex)->GetStaticField(0x44628);
+			return (::RPG::Client::OpenWorld::VolumeBase___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeBase___c_TypeDefinitionIndex)->GetStaticField(0x48BE0);
+		}
+		static ::System::Func_2<::UnityEngine::Vector2, ::RPG::MVector2>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::UnityEngine::Vector2, ::RPG::MVector2>**)Il2CppClass::FromTypeDefinitionIndex(VolumeBase___c_TypeDefinitionIndex)->GetStaticField(0x48BE8);
 		}
 
 		static ::System::Void _cctor()

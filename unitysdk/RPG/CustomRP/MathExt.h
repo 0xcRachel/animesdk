@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CUSTOMRP_MATHEXT_DIV_OFFSET UNITYSDK_OFFSET(0x163A7150)
-#define RPG_CUSTOMRP_MATHEXT_MAX_OFFSET UNITYSDK_OFFSET(0x163A7110)
-#define RPG_CUSTOMRP_MATHEXT_SQRT_OFFSET UNITYSDK_OFFSET(0x163A7020)
+#define RPG_CUSTOMRP_MATHEXT_DIV_OFFSET UNITYSDK_OFFSET(0x16AB6390)
+#define RPG_CUSTOMRP_MATHEXT_MAX_OFFSET UNITYSDK_OFFSET(0x16AB6350)
+#define RPG_CUSTOMRP_MATHEXT_SQRT_OFFSET UNITYSDK_OFFSET(0x16AB6260)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MathExt_TypeDefinitionIndex = 28378;
+	inline static constexpr unsigned int MathExt_TypeDefinitionIndex = 29253;
 
 	class MathExt : public ::System::Object
 	{

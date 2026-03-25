@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_D0E95F23BFAE913E__CTOR_OFFSET UNITYSDK_OFFSET(0x162A1BF0)
+#define CLASS_1_D0E95F23BFAE913E__CTOR_OFFSET UNITYSDK_OFFSET(0x16932620)
 
-inline static constexpr unsigned int Class_1_D0E95F23BFAE913E_TypeDefinitionIndex = 31346;
+inline static constexpr unsigned int Class_1_D0E95F23BFAE913E_TypeDefinitionIndex = 32250;
 
 class Class_1_D0E95F23BFAE913E : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::Int32>* Field_1_6; // 0x10
 	::System::String* Field_1_1; // 0x18
-	::System::UInt32 Field_1_0; // 0x20
-	::System::Int32 Field_1_4; // 0x24
-	::System::Int32 Field_1_3; // 0x28
-	::System::Int32 Field_1_5; // 0x2C
-	::System::UInt32 Field_1_2; // 0x30
+	::System::Int32 Field_1_3; // 0x20
+	::System::UInt32 Field_1_2; // 0x24
+	::System::Int32 Field_1_5; // 0x28
+	::System::UInt32 Field_1_0; // 0x2C
+	::System::Int32 Field_1_4; // 0x30
 
 	::System::Void _ctor()
 	{

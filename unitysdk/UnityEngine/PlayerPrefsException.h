@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYERPREFSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x182166D0)
+#define UNITYENGINE_PLAYERPREFSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A3F320)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PlayerPrefsException_TypeDefinitionIndex = 4021;
+	inline static constexpr unsigned int PlayerPrefsException_TypeDefinitionIndex = 4042;
 
 	class PlayerPrefsException : public ::System::Exception
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ANIMATIONZONE_METHOD_2_78FCFA180998FFA7_OFFSET UNITYSDK_OFFSET(0x1688A020)
-#define RPG_GAMECORE_ANIMATIONZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1688A240)
+#define RPG_GAMECORE_ANIMATIONZONE_METHOD_2_78FCFA180998FFA7_OFFSET UNITYSDK_OFFSET(0x16F97A30)
+#define RPG_GAMECORE_ANIMATIONZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x16F97C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimationZone_TypeDefinitionIndex = 14691;
+	inline static constexpr unsigned int AnimationZone_TypeDefinitionIndex = 14943;
 
 	class AnimationZone : public ::RPG::GameCore::JsonConfig
 	{

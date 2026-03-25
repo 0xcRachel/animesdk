@@ -5,16 +5,16 @@
 class Class_1_5F116EE492D6A063;
 namespace System { class String; }
 
-#define CLASS_1_5F116EE492D6A063___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x104A6390)
-#define CLASS_1_5F116EE492D6A063___C__DISPLAYCLASS37_0___ONTEXTLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x104AA080)
+#define CLASS_1_5F116EE492D6A063___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8C4E010)
+#define CLASS_1_5F116EE492D6A063___C__DISPLAYCLASS37_0___ONTEXTLOADED_B__0_OFFSET UNITYSDK_OFFSET(0x8C51C40)
 
-inline static constexpr unsigned int Class_1_5F116EE492D6A063___c__DisplayClass37_0_TypeDefinitionIndex = 58737;
+inline static constexpr unsigned int Class_1_5F116EE492D6A063___c__DisplayClass37_0_TypeDefinitionIndex = 60480;
 
 class Class_1_5F116EE492D6A063___c__DisplayClass37_0 : public ::System::Object
 {
 public:
-	::System::String* binaryAssetPath; // 0x10
-	::Class_1_5F116EE492D6A063* __4__this; // 0x18
+	::Class_1_5F116EE492D6A063* __4__this; // 0x10
+	::System::String* binaryAssetPath; // 0x18
 
 	::System::Void _ctor()
 	{

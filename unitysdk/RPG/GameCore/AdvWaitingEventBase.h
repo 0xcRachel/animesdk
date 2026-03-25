@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVWAITINGEVENTBASE_METHOD_3_89027FBB497168C7_OFFSET UNITYSDK_OFFSET(0x1684D810)
-#define RPG_GAMECORE_ADVWAITINGEVENTBASE_METHOD_3_DA370B14F7FBDB2B_OFFSET UNITYSDK_OFFSET(0x1684D650)
-#define RPG_GAMECORE_ADVWAITINGEVENTBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1684D980)
-#define RPG_GAMECORE_ADVWAITINGEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1684D950)
+#define RPG_GAMECORE_ADVWAITINGEVENTBASE_METHOD_3_89027FBB497168C7_OFFSET UNITYSDK_OFFSET(0x16F5AFA0)
+#define RPG_GAMECORE_ADVWAITINGEVENTBASE_METHOD_3_DA370B14F7FBDB2B_OFFSET UNITYSDK_OFFSET(0x16F5ADE0)
+#define RPG_GAMECORE_ADVWAITINGEVENTBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F5B110)
+#define RPG_GAMECORE_ADVWAITINGEVENTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5B0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvWaitingEventBase_TypeDefinitionIndex = 18485;
+	inline static constexpr unsigned int AdvWaitingEventBase_TypeDefinitionIndex = 19004;
 
 	class AdvWaitingEventBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvWaitingEventBase*>*>** StaticGet__FromBinary_AdvWaitingEventBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvWaitingEventBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(AdvWaitingEventBase_TypeDefinitionIndex)->GetStaticField(0x23000);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvWaitingEventBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(AdvWaitingEventBase_TypeDefinitionIndex)->GetStaticField(0x1E240);
 		}
 		::System::Boolean IsLoop; // 0x18
 

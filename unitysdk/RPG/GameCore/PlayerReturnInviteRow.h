@@ -6,18 +6,18 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLAYERRETURNINVITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D745B0)
-#define RPG_GAMECORE_PLAYERRETURNINVITEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D74760)
+#define RPG_GAMECORE_PLAYERRETURNINVITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174FC130)
+#define RPG_GAMECORE_PLAYERRETURNINVITEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174FC2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnInviteRow_TypeDefinitionIndex = 13205;
+	inline static constexpr unsigned int PlayerReturnInviteRow_TypeDefinitionIndex = 13279;
 
 	class PlayerReturnInviteRow : public ::System::Object
 	{
 	public:
-		::System::String* APILabel; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayRewardItems; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayRewardItems; // 0x10
+		::System::String* APILabel; // 0x18
 		::System::UInt32 ID; // 0x20
 		::System::UInt32 ActivityModuleID; // 0x24
 

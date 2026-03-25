@@ -6,7 +6,7 @@ namespace SRF { template <typename T> class SRList_1; }
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRList_1__GetEnumerator_d__15_TypeDefinitionIndex = 26911;
+	inline static constexpr unsigned int SRList_1__GetEnumerator_d__15_TypeDefinitionIndex = 27647;
 
 	template <typename T>
 	class SRList_1__GetEnumerator_d__15 : public ::System::Object

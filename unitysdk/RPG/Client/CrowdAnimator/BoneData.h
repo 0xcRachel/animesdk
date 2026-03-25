@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CROWDANIMATOR_BONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8FD8D60)
+#define RPG_CLIENT_CROWDANIMATOR_BONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9434760)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int BoneData_TypeDefinitionIndex = 58699;
+	inline static constexpr unsigned int BoneData_TypeDefinitionIndex = 60445;
 
 	class BoneData : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class DirectDeliveryNoticeData; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICETOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x90559D0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICETOASTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x94B1F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeToastData_TypeDefinitionIndex = 50495;
+	inline static constexpr unsigned int DirectDeliveryNoticeToastData_TypeDefinitionIndex = 51630;
 
 	class DirectDeliveryNoticeToastData : public ::System::Object
 	{

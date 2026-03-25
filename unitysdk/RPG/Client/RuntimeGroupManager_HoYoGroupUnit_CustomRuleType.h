@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_CustomRuleType_TypeDefinitionIndex = 49261;
+	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_CustomRuleType_TypeDefinitionIndex = 50394;
 
 	enum class RuntimeGroupManager_HoYoGroupUnit_CustomRuleType : ::System::UInt32
 	{

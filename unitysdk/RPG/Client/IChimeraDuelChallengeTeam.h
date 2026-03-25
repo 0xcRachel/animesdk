@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraDuelChallengeTeam_TypeDefinitionIndex = 50235;
+	inline static constexpr unsigned int IChimeraDuelChallengeTeam_TypeDefinitionIndex = 51370;
 
 	class IChimeraDuelChallengeTeam
 	{

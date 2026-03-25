@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3C58D309C7A040F5_6;
+class Class_1_3C58D309C7A040F5_4;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -11,38 +11,38 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_ALLEYPLACINGSHIP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x17A737A0)
-#define PROTO_ALLEYPLACINGSHIP_CLONE_OFFSET UNITYSDK_OFFSET(0x17A73320)
-#define PROTO_ALLEYPLACINGSHIP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17A734C0)
-#define PROTO_ALLEYPLACINGSHIP_EQUALS_OFFSET UNITYSDK_OFFSET(0x17A733A0)
-#define PROTO_ALLEYPLACINGSHIP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17A73570)
-#define PROTO_ALLEYPLACINGSHIP_GET_GOODSLIST_OFFSET UNITYSDK_OFFSET(0x17A73370)
-#define PROTO_ALLEYPLACINGSHIP_GET_SHIPID_OFFSET UNITYSDK_OFFSET(0x17A73380)
-#define PROTO_ALLEYPLACINGSHIP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x17A73970)
-#define PROTO_ALLEYPLACINGSHIP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x17A738D0)
-#define PROTO_ALLEYPLACINGSHIP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17A73200)
-#define PROTO_ALLEYPLACINGSHIP_SET_SHIPID_OFFSET UNITYSDK_OFFSET(0x17A73390)
-#define PROTO_ALLEYPLACINGSHIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17A73660)
-#define PROTO_ALLEYPLACINGSHIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x17A736C0)
-#define PROTO_ALLEYPLACINGSHIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A73A50)
-#define PROTO_ALLEYPLACINGSHIP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A73260)
-#define PROTO_ALLEYPLACINGSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17A73210)
+#define PROTO_ALLEYPLACINGSHIP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x182868D0)
+#define PROTO_ALLEYPLACINGSHIP_CLONE_OFFSET UNITYSDK_OFFSET(0x18286460)
+#define PROTO_ALLEYPLACINGSHIP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18286600)
+#define PROTO_ALLEYPLACINGSHIP_EQUALS_OFFSET UNITYSDK_OFFSET(0x182864E0)
+#define PROTO_ALLEYPLACINGSHIP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x182866B0)
+#define PROTO_ALLEYPLACINGSHIP_GET_GOODSLIST_OFFSET UNITYSDK_OFFSET(0x182864B0)
+#define PROTO_ALLEYPLACINGSHIP_GET_SHIPID_OFFSET UNITYSDK_OFFSET(0x182864C0)
+#define PROTO_ALLEYPLACINGSHIP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18286AA0)
+#define PROTO_ALLEYPLACINGSHIP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x18286A00)
+#define PROTO_ALLEYPLACINGSHIP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18286340)
+#define PROTO_ALLEYPLACINGSHIP_SET_SHIPID_OFFSET UNITYSDK_OFFSET(0x182864D0)
+#define PROTO_ALLEYPLACINGSHIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x182867A0)
+#define PROTO_ALLEYPLACINGSHIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x18286800)
+#define PROTO_ALLEYPLACINGSHIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18286B80)
+#define PROTO_ALLEYPLACINGSHIP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x182863A0)
+#define PROTO_ALLEYPLACINGSHIP__CTOR_OFFSET UNITYSDK_OFFSET(0x18286350)
 
 namespace Proto
 {
-	inline static constexpr unsigned int AlleyPlacingShip_TypeDefinitionIndex = 22800;
+	inline static constexpr unsigned int AlleyPlacingShip_TypeDefinitionIndex = 23372;
 
 	class AlleyPlacingShip : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_3C58D309C7A040F5_6*>** StaticGet__repeated_goodsList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_3C58D309C7A040F5_4*>** StaticGet__repeated_goodsList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_3C58D309C7A040F5_6*>**)Il2CppClass::FromTypeDefinitionIndex(AlleyPlacingShip_TypeDefinitionIndex)->GetStaticField(0x1A460);
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_3C58D309C7A040F5_4*>**)Il2CppClass::FromTypeDefinitionIndex(AlleyPlacingShip_TypeDefinitionIndex)->GetStaticField(0x14870);
 		}
-		// static const ::System::Int32 GoodsListFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 ShipIdFieldNumber = 0x7; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_3C58D309C7A040F5_6*>* goodsList_; // 0x18
+		// static const ::System::Int32 GoodsListFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 ShipIdFieldNumber = 0x8; // 0x0
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_3C58D309C7A040F5_4*>* goodsList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::System::UInt32 shipId_; // 0x20
 
 		::System::Void _ctor()
@@ -70,9 +70,9 @@ namespace Proto
 			return ((::Proto::AlleyPlacingShip*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ALLEYPLACINGSHIP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_3C58D309C7A040F5_6*>* get_GoodsList()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_3C58D309C7A040F5_4*>* get_GoodsList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_3C58D309C7A040F5_6*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ALLEYPLACINGSHIP_GET_GOODSLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_3C58D309C7A040F5_4*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ALLEYPLACINGSHIP_GET_GOODSLIST_OFFSET))(this);
 		}
 
 		::System::UInt32 get_ShipId()

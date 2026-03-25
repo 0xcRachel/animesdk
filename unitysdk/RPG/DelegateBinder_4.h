@@ -4,7 +4,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int DelegateBinder_4_TypeDefinitionIndex = 8529;
+	inline static constexpr unsigned int DelegateBinder_4_TypeDefinitionIndex = 8658;
 
 	template <typename TType, typename TBind, typename TParam, typename TResult>
 	class DelegateBinder_4 : public ::System::Object

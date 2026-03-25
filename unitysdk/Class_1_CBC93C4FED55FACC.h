@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define CLASS_1_CBC93C4FED55FACC_METHOD_1_3139265100F812F5_OFFSET UNITYSDK_OFFSET(0x16145180)
-#define CLASS_1_CBC93C4FED55FACC_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16145380)
-#define CLASS_1_CBC93C4FED55FACC__CTOR_OFFSET UNITYSDK_OFFSET(0x16145400)
+#define CLASS_1_CBC93C4FED55FACC_METHOD_1_3139265100F812F5_OFFSET UNITYSDK_OFFSET(0x168AC3D0)
+#define CLASS_1_CBC93C4FED55FACC_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x168AC5D0)
+#define CLASS_1_CBC93C4FED55FACC__CTOR_OFFSET UNITYSDK_OFFSET(0x168AC650)
 
-inline static constexpr unsigned int Class_1_CBC93C4FED55FACC_TypeDefinitionIndex = 31458;
+inline static constexpr unsigned int Class_1_CBC93C4FED55FACC_TypeDefinitionIndex = 32362;
 
 class Class_1_CBC93C4FED55FACC : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 	::System::String* Field_1_3; // 0x18
 	::RPG::Client::TextID Field_1_2; // 0x20
 	::RPG::GameCore::ElfBehaviorStateType Field_1_4; // 0x30
-	::System::Single Field_1_5; // 0x34
-	::System::Boolean Field_1_0; // 0x38
+	::System::Boolean Field_1_0; // 0x34
+	::System::Single Field_1_5; // 0x38
 
 	::System::Void _ctor()
 	{

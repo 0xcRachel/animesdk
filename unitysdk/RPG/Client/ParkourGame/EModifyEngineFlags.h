@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int EModifyEngineFlags_TypeDefinitionIndex = 59097;
+	inline static constexpr unsigned int EModifyEngineFlags_TypeDefinitionIndex = 60849;
 
 	enum class EModifyEngineFlags : ::System::Int32
 	{

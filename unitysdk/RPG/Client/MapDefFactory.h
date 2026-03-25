@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_14E02E1F6D70E487_1;
-class Class_1_5276F33F494E6073;
-class Class_1_883ED260661378C2;
+class Class_1_4B3840FA4A335823;
+class Class_1_A395DE884E8385B3;
 class Class_1_A9C466B0994F2417;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Proto { class EntitySnapshot; }
@@ -20,45 +20,46 @@ namespace RPG::GameCore { class PerformanceStandalonePlayOverrideConfig; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYCROSSMAP_OFFSET UNITYSDK_OFFSET(0x961CE00)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYOFFLINE_OFFSET UNITYSDK_OFFSET(0x961CF60)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYPERFORMANCESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9619E50)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYSTANDALONEPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x9619C30)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEDISTRICTPDEF_OFFSET UNITYSDK_OFFSET(0x961EEA0)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATENPCDEF_OFFSET UNITYSDK_OFFSET(0x961D6E0)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATENPCMONSTERDEF_OFFSET UNITYSDK_OFFSET(0x961DEF0)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEPROPDEF_1_OFFSET UNITYSDK_OFFSET(0x961E780)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATEPROPDEF_OFFSET UNITYSDK_OFFSET(0x961E620)
-#define RPG_CLIENT_MAPDEFFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x9619280)
-#define RPG_CLIENT_MAPDEFFACTORY__CREATEOVERRIDEGROUPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x961CBB0)
-#define RPG_CLIENT_MAPDEFFACTORY__GETGROUPSNAPSHOTLISTBYGROUPID_OFFSET UNITYSDK_OFFSET(0x961CAD0)
-#define RPG_CLIENT_MAPDEFFACTORY__HANDLEPERFORMANCESNAPSHOTCHEST_OFFSET UNITYSDK_OFFSET(0x961C640)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFBUFFERS_OFFSET UNITYSDK_OFFSET(0x9619730)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_OFFSET UNITYSDK_OFFSET(0x9619570)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x961B180)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_OFFSET UNITYSDK_OFFSET(0x9619AF0)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x961B4B0)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_STANDALONEPERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9619D90)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_OFFSET UNITYSDK_OFFSET(0x9619A50)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x961B9B0)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFGROUPCUSTOMSAVEDATA_OFFSET UNITYSDK_OFFSET(0x9619900)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFLIGHTENSECTIONLIST_OFFSET UNITYSDK_OFFSET(0x96195C0)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFMAZECROSSFLOORCONDITION_OFFSET UNITYSDK_OFFSET(0x9619B80)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_OFFSET UNITYSDK_OFFSET(0x9619440)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x961A910)
-#define RPG_CLIENT_MAPDEFFACTORY__INITMAPOBJECTS_OFFINE_OFFSET UNITYSDK_OFFSET(0x961D120)
-#define RPG_CLIENT_MAPDEFFACTORY__INITOPENEDCHESTS_OFFSET UNITYSDK_OFFSET(0x9619860)
-#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYCUSTOM_OFFSET UNITYSDK_OFFSET(0x961A260)
-#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYTABLE_OFFSET UNITYSDK_OFFSET(0x961A320)
-#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTGROUPBYCUSTOM_OFFSET UNITYSDK_OFFSET(0x961C1C0)
-#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9619FE0)
-#define RPG_CLIENT_MAPDEFFACTORY__TRYADDSINGLEEXTRAACTIVEGROUPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x961BDE0)
-#define RPG_CLIENT_MAPDEFFACTORY__TRYGETGROUPSNAPSHOTBYGROUPID_OFFSET UNITYSDK_OFFSET(0x961C960)
-#define RPG_CLIENT_MAPDEFFACTORY__TRYREMOVESINGLEEXTRAACTIVEGROUPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x961C7F0)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYCROSSMAP_OFFSET UNITYSDK_OFFSET(0x9B02EA0)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYOFFLINE_OFFSET UNITYSDK_OFFSET(0x9B03000)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYPERFORMANCESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9AFFEB0)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEBYSTANDALONEPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x9AFFB70)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEDISTRICTPDEF_OFFSET UNITYSDK_OFFSET(0x9B04C80)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATENPCDEF_OFFSET UNITYSDK_OFFSET(0x9B03780)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATENPCMONSTERDEF_OFFSET UNITYSDK_OFFSET(0x9B03EB0)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEPROPDEF_1_OFFSET UNITYSDK_OFFSET(0x9B04570)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATEPROPDEF_OFFSET UNITYSDK_OFFSET(0x9B044F0)
+#define RPG_CLIENT_MAPDEFFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x9AFF1E0)
+#define RPG_CLIENT_MAPDEFFACTORY__CREATEOVERRIDEGROUPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9B02C40)
+#define RPG_CLIENT_MAPDEFFACTORY__GETGROUPSNAPSHOTLISTBYGROUPID_OFFSET UNITYSDK_OFFSET(0x9B02B60)
+#define RPG_CLIENT_MAPDEFFACTORY__HANDLEPERFORMANCESNAPSHOTCHEST_OFFSET UNITYSDK_OFFSET(0x9B02700)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFBUFFERS_OFFSET UNITYSDK_OFFSET(0x9AFF690)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_OFFSET UNITYSDK_OFFSET(0x9AFF4D0)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9B01200)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_OFFSET UNITYSDK_OFFSET(0x9AFFA20)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9B01530)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_STANDALONEPERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9AFFCD0)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_OFFSET UNITYSDK_OFFSET(0x9AFF980)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9B01A20)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_STANDALONEPERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9AFFD90)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFGROUPCUSTOMSAVEDATA_OFFSET UNITYSDK_OFFSET(0x9AFF860)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFLIGHTENSECTIONLIST_OFFSET UNITYSDK_OFFSET(0x9AFF520)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFMAZECROSSFLOORCONDITION_OFFSET UNITYSDK_OFFSET(0x9AFFAB0)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_OFFSET UNITYSDK_OFFSET(0x9AFF3A0)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_PERFORMANCEREPLAY_OFFSET UNITYSDK_OFFSET(0x9B00980)
+#define RPG_CLIENT_MAPDEFFACTORY__INITMAPOBJECTS_OFFINE_OFFSET UNITYSDK_OFFSET(0x9B031D0)
+#define RPG_CLIENT_MAPDEFFACTORY__INITOPENEDCHESTS_OFFSET UNITYSDK_OFFSET(0x9AFF7C0)
+#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYCUSTOM_OFFSET UNITYSDK_OFFSET(0x9B002D0)
+#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYTABLE_OFFSET UNITYSDK_OFFSET(0x9B00390)
+#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTGROUPBYCUSTOM_OFFSET UNITYSDK_OFFSET(0x9B02260)
+#define RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9B00050)
+#define RPG_CLIENT_MAPDEFFACTORY__TRYADDSINGLEEXTRAACTIVEGROUPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9B01E80)
+#define RPG_CLIENT_MAPDEFFACTORY__TRYGETGROUPSNAPSHOTBYGROUPID_OFFSET UNITYSDK_OFFSET(0x9B02A10)
+#define RPG_CLIENT_MAPDEFFACTORY__TRYREMOVESINGLEEXTRAACTIVEGROUPSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x9B028B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDefFactory_TypeDefinitionIndex = 49298;
+	inline static constexpr unsigned int MapDefFactory_TypeDefinitionIndex = 50431;
 
 	class MapDefFactory : public ::System::Object
 	{
@@ -68,9 +69,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MapDef*(*)(::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY_CREATE_OFFSET))(mapInfo);
 		}
 
-		static ::RPG::Client::MapDef* CreateByStandalonePerformance(::Class_1_883ED260661378C2* snapshot, ::RPG::GameCore::PerformanceStandalonePlayOverrideConfig* overrideConfig)
+		static ::RPG::Client::MapDef* CreateByStandalonePerformance(::Class_1_A395DE884E8385B3* snapshot, ::RPG::GameCore::PerformanceStandalonePlayOverrideConfig* overrideConfig)
 		{
-			return ((::RPG::Client::MapDef*(*)(::Class_1_883ED260661378C2*, ::RPG::GameCore::PerformanceStandalonePlayOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY_CREATEBYSTANDALONEPERFORMANCE_OFFSET))(snapshot, overrideConfig);
+			return ((::RPG::Client::MapDef*(*)(::Class_1_A395DE884E8385B3*, ::RPG::GameCore::PerformanceStandalonePlayOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY_CREATEBYSTANDALONEPERFORMANCE_OFFSET))(snapshot, overrideConfig);
 		}
 
 		static ::RPG::Client::MapDef* CreateByPerformanceSnapshot(::Proto::PerformanceStartSnapshot* snapshot, ::RPG::GameCore::PerformanceBackupConfig* backupConfig)
@@ -78,14 +79,14 @@ namespace RPG::Client
 			return ((::RPG::Client::MapDef*(*)(::Proto::PerformanceStartSnapshot*, ::RPG::GameCore::PerformanceBackupConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY_CREATEBYPERFORMANCESNAPSHOT_OFFSET))(snapshot, backupConfig);
 		}
 
-		static ::System::Void _OverridePerformanceSnapshot(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot, ::RPG::GameCore::PerformanceBackupConfig* backupConfig)
+		static ::System::Void _OverridePerformanceSnapshot(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot, ::RPG::GameCore::PerformanceBackupConfig* backupConfig)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*, ::RPG::GameCore::PerformanceBackupConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOT_OFFSET))(builder, snapshot, backupConfig);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*, ::RPG::GameCore::PerformanceBackupConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOT_OFFSET))(builder, snapshot, backupConfig);
 		}
 
-		static ::System::Void _OverridePerformanceSnapshotByCustom(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot)
+		static ::System::Void _OverridePerformanceSnapshotByCustom(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYCUSTOM_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYCUSTOM_OFFSET))(builder, snapshot);
 		}
 
 		static ::System::Void _OverridePerformanceSnapshotGroupByCustom(::RPG::Client::MapDef* mapDef, ::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* groupSnapshots)
@@ -98,9 +99,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::Proto::EntitySnapshot*, ::RPG::GameCore::RuntimeGroupInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__HANDLEPERFORMANCESNAPSHOTCHEST_OFFSET))(entitySnapshot, runtimeGroupInfo);
 		}
 
-		static ::System::Void _OverridePerformanceSnapshotByTable(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot)
+		static ::System::Void _OverridePerformanceSnapshotByTable(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYTABLE_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__OVERRIDEPERFORMANCESNAPSHOTBYTABLE_OFFSET))(builder, snapshot);
 		}
 
 		static ::Google::Protobuf::Collections::RepeatedField_1<::Proto::GroupSnapshot*>* _GetGroupSnapshotListByGroupID(::RPG::GameCore::RuntimeGroupInfo* runtimeGroupInfo, ::Proto::PerformanceStartSnapshot* snapshot, ::System::UInt32 groupID)
@@ -128,29 +129,34 @@ namespace RPG::Client
 			return ((::Proto::GroupSnapshot*(*)(::RPG::GameCore::RuntimeGroupInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__CREATEOVERRIDEGROUPSNAPSHOT_OFFSET))(runtimeGroupInfo);
 		}
 
-		static ::System::Void _InitMapDefServerPart_PerformanceReplay(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot)
+		static ::System::Void _InitMapDefServerPart_PerformanceReplay(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
 		}
 
-		static ::System::Void _InitMapDefClientPart_PerformanceReplay(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot)
+		static ::System::Void _InitMapDefClientPart_PerformanceReplay(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
 		}
 
-		static ::System::Void _InitMapDefFloorCustomValue_PerformanceReplay(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot)
+		static ::System::Void _InitMapDefFloorCustomValue_PerformanceReplay(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
 		}
 
-		static ::System::Void _InitMapDefFloorSavedValue_PerformanceReplay(::Class_1_5276F33F494E6073* builder, ::Proto::PerformanceStartSnapshot* snapshot)
+		static ::System::Void _InitMapDefFloorSavedValue_PerformanceReplay(::Class_1_4B3840FA4A335823* builder, ::Proto::PerformanceStartSnapshot* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Proto::PerformanceStartSnapshot*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_PERFORMANCEREPLAY_OFFSET))(builder, snapshot);
 		}
 
-		static ::System::Void _InitMapDefFloorCustomValue_StandalonePerformanceReplay(::Class_1_5276F33F494E6073* builder, ::Class_1_883ED260661378C2* snapshot)
+		static ::System::Void _InitMapDefFloorCustomValue_StandalonePerformanceReplay(::Class_1_4B3840FA4A335823* builder, ::Class_1_A395DE884E8385B3* snapshot)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_883ED260661378C2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_STANDALONEPERFORMANCEREPLAY_OFFSET))(builder, snapshot);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_A395DE884E8385B3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_STANDALONEPERFORMANCEREPLAY_OFFSET))(builder, snapshot);
+		}
+
+		static ::System::Void _InitMapDefFloorSavedValue_StandalonePerformanceReplay(::Class_1_4B3840FA4A335823* builder, ::Class_1_A395DE884E8385B3* snapshot)
+		{
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_A395DE884E8385B3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_STANDALONEPERFORMANCEREPLAY_OFFSET))(builder, snapshot);
 		}
 
 		static ::RPG::Client::MapDef* CreateByCrossMap(::System::UInt32 planeID, ::System::UInt32 floorID, ::System::UInt32 dimensionID, ::System::UInt32 storylineID, ::System::UInt32 contentID)
@@ -163,54 +169,54 @@ namespace RPG::Client
 			return ((::RPG::Client::MapDef*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::Google::Protobuf::Collections::RepeatedField_1<::Proto::SceneEntityInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY_CREATEBYOFFLINE_OFFSET))(planeID, floorID, groupID, anchorID, entities);
 		}
 
-		static ::System::Void _InitMapObjects_Offine(::Class_1_5276F33F494E6073* builder)
+		static ::System::Void _InitMapObjects_Offine(::Class_1_4B3840FA4A335823* builder)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPOBJECTS_OFFINE_OFFSET))(builder);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPOBJECTS_OFFINE_OFFSET))(builder);
 		}
 
-		static ::System::Void _InitMapDefServerPart(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefServerPart(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFSERVERPART_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitMapDefClientPart(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefClientPart(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFCLIENTPART_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitMapDefLightenSectionList(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefLightenSectionList(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFLIGHTENSECTIONLIST_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFLIGHTENSECTIONLIST_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitMapDefGroupCustomSaveData(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefGroupCustomSaveData(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFGROUPCUSTOMSAVEDATA_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFGROUPCUSTOMSAVEDATA_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitMapDefFloorSavedValue(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefFloorSavedValue(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORSAVEDVALUE_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitMapDefFloorCustomValue(::Class_1_5276F33F494E6073* builder)
+		static ::System::Void _InitMapDefFloorCustomValue(::Class_1_4B3840FA4A335823* builder)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_OFFSET))(builder);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFFLOORCUSTOMVALUE_OFFSET))(builder);
 		}
 
-		static ::System::Void _InitMapDefBuffers(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefBuffers(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFBUFFERS_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFBUFFERS_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitOpenedChests(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitOpenedChests(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITOPENEDCHESTS_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITOPENEDCHESTS_OFFSET))(builder, mapInfo);
 		}
 
-		static ::System::Void _InitMapDefMazeCrossFloorCondition(::Class_1_5276F33F494E6073* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
+		static ::System::Void _InitMapDefMazeCrossFloorCondition(::Class_1_4B3840FA4A335823* builder, ::Class_1_14E02E1F6D70E487_1* mapInfo)
 		{
-			return ((::System::Void(*)(::Class_1_5276F33F494E6073*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFMAZECROSSFLOORCONDITION_OFFSET))(builder, mapInfo);
+			return ((::System::Void(*)(::Class_1_4B3840FA4A335823*, ::Class_1_14E02E1F6D70E487_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPDEFFACTORY__INITMAPDEFMAZECROSSFLOORCONDITION_OFFSET))(builder, mapInfo);
 		}
 
 		static ::RPG::Client::MapNpcDef* CreateNpcDef(::RPG::Client::MapDef* mapDef, ::Class_1_A9C466B0994F2417* groupDef, ::System::UInt32 groupInstanceID, ::System::UInt32 instanceID, ::System::String* uniqueName)

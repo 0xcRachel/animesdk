@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int AspectRatioMode_TypeDefinitionIndex = 34031;
+	inline static constexpr unsigned int AspectRatioMode_TypeDefinitionIndex = 34965;
 
 	enum class AspectRatioMode : ::System::Int32
 	{

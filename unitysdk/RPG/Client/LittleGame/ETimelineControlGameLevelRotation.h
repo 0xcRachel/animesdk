@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ETimelineControlGameLevelRotation_TypeDefinitionIndex = 32062;
+	inline static constexpr unsigned int ETimelineControlGameLevelRotation_TypeDefinitionIndex = 32972;
 
 	enum class ETimelineControlGameLevelRotation : ::System::Int32
 	{

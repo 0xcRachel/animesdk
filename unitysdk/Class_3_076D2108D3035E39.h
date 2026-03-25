@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEvolveBuildFeature; }
 
-#define CLASS_3_076D2108D3035E39_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x84802B0)
-#define CLASS_3_076D2108D3035E39__CTOR_OFFSET UNITYSDK_OFFSET(0x8480280)
+#define CLASS_3_076D2108D3035E39_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEA6DE20)
+#define CLASS_3_076D2108D3035E39__CTOR_OFFSET UNITYSDK_OFFSET(0xEA6DDF0)
 
-inline static constexpr unsigned int Class_3_076D2108D3035E39_TypeDefinitionIndex = 46383;
+inline static constexpr unsigned int Class_3_076D2108D3035E39_TypeDefinitionIndex = 47461;
 
 class Class_3_076D2108D3035E39 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerEvolveBuildFeature*>
 {

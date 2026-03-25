@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_0AAA29E827EB555D_EIntersectionConnectState_TypeDefinitionIndex = 62317;
+inline static constexpr unsigned int Class_1_0AAA29E827EB555D_EIntersectionConnectState_TypeDefinitionIndex = 64504;
 
 enum class Class_1_0AAA29E827EB555D_EIntersectionConnectState : ::System::Int32
 {

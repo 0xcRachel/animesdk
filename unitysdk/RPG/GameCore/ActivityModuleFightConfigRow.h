@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1679E850)
-#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1679E940)
+#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F153D0)
+#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F154C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityModuleFightConfigRow_TypeDefinitionIndex = 10726;
+	inline static constexpr unsigned int ActivityModuleFightConfigRow_TypeDefinitionIndex = 10794;
 
 	class ActivityModuleFightConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActivityFightGroupID; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x14
+		::System::UInt32 ActivityModuleID; // 0x10
+		::System::UInt32 ActivityFightGroupID; // 0x14
 
 		::System::Void _ctor()
 		{

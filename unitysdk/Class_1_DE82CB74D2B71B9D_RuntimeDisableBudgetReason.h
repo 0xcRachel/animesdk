@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_DE82CB74D2B71B9D_RuntimeDisableBudgetReason_TypeDefinitionIndex = 47640;
+inline static constexpr unsigned int Class_1_DE82CB74D2B71B9D_RuntimeDisableBudgetReason_TypeDefinitionIndex = 48721;
 
 enum class Class_1_DE82CB74D2B71B9D_RuntimeDisableBudgetReason : ::System::Int32
 {

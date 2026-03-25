@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEPROXYENTITYCONFIG_METHOD_2_C198C91929929322_OFFSET UNITYSDK_OFFSET(0x16BD0C90)
-#define RPG_GAMECORE_LITTLEGAMEPROXYENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD0DF0)
+#define RPG_GAMECORE_LITTLEGAMEPROXYENTITYCONFIG_METHOD_2_C198C91929929322_OFFSET UNITYSDK_OFFSET(0x17374700)
+#define RPG_GAMECORE_LITTLEGAMEPROXYENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17374860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameProxyEntityConfig_TypeDefinitionIndex = 16914;
+	inline static constexpr unsigned int LittleGameProxyEntityConfig_TypeDefinitionIndex = 17319;
 
 	class LittleGameProxyEntityConfig : public ::RPG::GameCore::JsonConfig
 	{

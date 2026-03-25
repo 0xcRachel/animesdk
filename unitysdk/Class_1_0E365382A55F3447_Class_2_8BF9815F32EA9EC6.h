@@ -5,9 +5,9 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
-#define CLASS_1_0E365382A55F3447_CLASS_2_8BF9815F32EA9EC6__CTOR_OFFSET UNITYSDK_OFFSET(0x89790D0)
+#define CLASS_1_0E365382A55F3447_CLASS_2_8BF9815F32EA9EC6__CTOR_OFFSET UNITYSDK_OFFSET(0x111BEB80)
 
-inline static constexpr unsigned int Class_1_0E365382A55F3447_Class_2_8BF9815F32EA9EC6_TypeDefinitionIndex = 38842;
+inline static constexpr unsigned int Class_1_0E365382A55F3447_Class_2_8BF9815F32EA9EC6_TypeDefinitionIndex = 39822;
 
 class Class_1_0E365382A55F3447_Class_2_8BF9815F32EA9EC6 : public ::Class_1_0E365382A55F3447_Class_1_90B29E9104B098EB
 {

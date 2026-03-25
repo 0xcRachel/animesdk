@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TakePhoto; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E6036AAB54708AB6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105DF8B0)
-#define CLASS_3_E6036AAB54708AB6__CTOR_OFFSET UNITYSDK_OFFSET(0x105DF880)
+#define CLASS_3_E6036AAB54708AB6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BCC120)
+#define CLASS_3_E6036AAB54708AB6__CTOR_OFFSET UNITYSDK_OFFSET(0x10BCC0F0)
 
-inline static constexpr unsigned int Class_3_E6036AAB54708AB6_TypeDefinitionIndex = 42134;
+inline static constexpr unsigned int Class_3_E6036AAB54708AB6_TypeDefinitionIndex = 43183;
 
 class Class_3_E6036AAB54708AB6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TakePhoto*>
 {

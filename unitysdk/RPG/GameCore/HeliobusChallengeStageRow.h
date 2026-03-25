@@ -5,32 +5,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSCHALLENGESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B64870)
-#define RPG_GAMECORE_HELIOBUSCHALLENGESTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B64DF0)
+#define RPG_GAMECORE_HELIOBUSCHALLENGESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172B3030)
+#define RPG_GAMECORE_HELIOBUSCHALLENGESTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172B35B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusChallengeStageRow_TypeDefinitionIndex = 12525;
+	inline static constexpr unsigned int HeliobusChallengeStageRow_TypeDefinitionIndex = 12595;
 
 	class HeliobusChallengeStageRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* HeliobusSkillRecList; // 0x10
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x18
-		::Il2CppArray<::System::UInt32>* MonsterList; // 0x20
-		::System::UInt32 HeliobusMazeBuff; // 0x28
-		::System::UInt32 EventID; // 0x2C
-		::System::UInt32 BattleAreaGroupID; // 0x30
-		::System::UInt32 FloorID; // 0x34
-		::RPG::Client::TextID ChallengeName; // 0x38
-		::System::UInt32 ChallengeID; // 0x48
-		::System::UInt32 BattleAreaID; // 0x4C
-		::System::UInt32 HeliobusChallengeHard; // 0x50
-		::System::UInt32 PlaneID; // 0x54
-		::RPG::Client::TextID ChallengeDesc; // 0x58
-		::System::UInt32 UnlockPhase; // 0x68
-		::System::UInt32 RewardID; // 0x6C
-		::System::UInt32 PreChallengeID; // 0x70
+		::Il2CppArray<::System::UInt32>* MonsterList; // 0x10
+		::Il2CppArray<::System::UInt32>* HeliobusSkillRecList; // 0x18
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x20
+		::System::UInt32 UnlockPhase; // 0x28
+		::System::UInt32 PlaneID; // 0x2C
+		::System::UInt32 EventID; // 0x30
+		::System::UInt32 PreChallengeID; // 0x34
+		::System::UInt32 ChallengeID; // 0x38
+		::System::UInt32 FloorID; // 0x3C
+		::System::UInt32 RewardID; // 0x40
+		::System::UInt32 HeliobusMazeBuff; // 0x44
+		::System::UInt32 BattleAreaGroupID; // 0x48
+		::RPG::Client::TextID ChallengeDesc; // 0x50
+		::System::UInt32 HeliobusChallengeHard; // 0x60
+		::System::UInt32 BattleAreaID; // 0x64
+		::RPG::Client::TextID ChallengeName; // 0x68
 
 		::System::Void _ctor()
 		{

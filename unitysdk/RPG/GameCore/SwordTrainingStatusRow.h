@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FC18F0)
-#define RPG_GAMECORE_SWORDTRAININGSTATUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FC2060)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B5D60)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B64D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStatusRow_TypeDefinitionIndex = 11286;
+	inline static constexpr unsigned int SwordTrainingStatusRow_TypeDefinitionIndex = 11354;
 
 	class SwordTrainingStatusRow : public ::System::Object
 	{
 	public:
-		::System::String* StatusIcon; // 0x10
-		::System::String* StatusOutLineIcon; // 0x18
-		::System::UInt32 MaximumValue; // 0x20
-		::System::UInt32 InitialValue; // 0x24
-		::RPG::Client::TextID StatusName; // 0x28
-		::System::UInt32 StatusID; // 0x38
+		::System::String* StatusOutLineIcon; // 0x10
+		::System::String* StatusIcon; // 0x18
+		::System::UInt32 StatusID; // 0x20
+		::System::UInt32 MaximumValue; // 0x24
+		::System::UInt32 InitialValue; // 0x28
+		::RPG::Client::TextID StatusName; // 0x30
 
 		::System::Void _ctor()
 		{

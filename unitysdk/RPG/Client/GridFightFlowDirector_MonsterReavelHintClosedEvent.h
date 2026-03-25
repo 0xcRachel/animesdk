@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightFlowDirector_FlowStateEventBase_1.h"
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREAVELHINTCLOSEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9368C00)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_MONSTERREAVELHINTCLOSEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9826710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_MonsterReavelHintClosedEvent_TypeDefinitionIndex = 51339;
+	inline static constexpr unsigned int GridFightFlowDirector_MonsterReavelHintClosedEvent_TypeDefinitionIndex = 52472;
 
 	class GridFightFlowDirector_MonsterReavelHintClosedEvent : public ::RPG::Client::GridFightFlowDirector_FlowStateEventBase_1<::RPG::Client::GridFightFlowDirector_MonsterReavelHintClosedEvent*>
 	{

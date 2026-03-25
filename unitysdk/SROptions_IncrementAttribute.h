@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/IncrementAttribute.h"
 
-#define SROPTIONS_INCREMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x82B2590)
+#define SROPTIONS_INCREMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x8627980)
 
-inline static constexpr unsigned int SROptions_IncrementAttribute_TypeDefinitionIndex = 34159;
+inline static constexpr unsigned int SROptions_IncrementAttribute_TypeDefinitionIndex = 35096;
 
 class SROptions_IncrementAttribute : public ::SRDebugger::IncrementAttribute
 {

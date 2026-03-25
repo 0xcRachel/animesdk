@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::UI::OS { class IAlertDialog; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15810B10)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS20_0__SHOWAGEGATEBLOCKINGDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x15811390)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF7220)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS20_0__SHOWAGEGATEBLOCKINGDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x15EF7AA0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass20_0_TypeDefinitionIndex = 7133;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass20_0_TypeDefinitionIndex = 7258;
 
 	class AgeGateManager___c__DisplayClass20_0 : public ::System::Object
 	{

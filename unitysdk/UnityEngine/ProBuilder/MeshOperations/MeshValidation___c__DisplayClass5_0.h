@@ -5,12 +5,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS5_0__COLLECTFACEGROUPS_B__0_OFFSET UNITYSDK_OFFSET(0x180433F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180428B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS5_0__COLLECTFACEGROUPS_B__0_OFFSET UNITYSDK_OFFSET(0x1886B7A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1886AC80)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshValidation___c__DisplayClass5_0_TypeDefinitionIndex = 33258;
+	inline static constexpr unsigned int MeshValidation___c__DisplayClass5_0_TypeDefinitionIndex = 34247;
 
 	class MeshValidation___c__DisplayClass5_0 : public ::System::Object
 	{

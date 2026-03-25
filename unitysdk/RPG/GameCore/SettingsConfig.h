@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETTINGSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F48290)
-#define RPG_GAMECORE_SETTINGSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F485E0)
+#define RPG_GAMECORE_SETTINGSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176FD720)
+#define RPG_GAMECORE_SETTINGSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x176FDA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SettingsConfig_TypeDefinitionIndex = 21908;
+	inline static constexpr unsigned int SettingsConfig_TypeDefinitionIndex = 22473;
 
 	class SettingsConfig : public ::RPG::GameCore::JsonConfig
 	{

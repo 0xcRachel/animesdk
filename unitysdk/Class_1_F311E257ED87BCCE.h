@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/EAIState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F311E257ED87BCCE__CTOR_OFFSET UNITYSDK_OFFSET(0x16074010)
+#define CLASS_1_F311E257ED87BCCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1666E7E0)
 
-inline static constexpr unsigned int Class_1_F311E257ED87BCCE_TypeDefinitionIndex = 27585;
+inline static constexpr unsigned int Class_1_F311E257ED87BCCE_TypeDefinitionIndex = 28334;
 
 class Class_1_F311E257ED87BCCE : public ::System::Object
 {
 public:
-	::RPG::LittleGameShare::DiceCombatCore::EAIState Field_1_2; // 0x10
-	::System::Single Field_1_1; // 0x14
-	::System::Boolean Field_1_3; // 0x18
+	::System::Single Field_1_1; // 0x10
+	::System::Boolean Field_1_3; // 0x14
+	::RPG::LittleGameShare::DiceCombatCore::EAIState Field_1_2; // 0x18
 	::System::Int32 Field_1_0; // 0x1C
 
 	::System::Void _ctor()

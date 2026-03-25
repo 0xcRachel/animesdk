@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EMOBLENDSHAPEBLINKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x91572A0)
+#define RPG_CLIENT_EMOBLENDSHAPEBLINKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x96043A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapeBlinkConfig_TypeDefinitionIndex = 56693;
+	inline static constexpr unsigned int EmoBlendShapeBlinkConfig_TypeDefinitionIndex = 58282;
 
 	class EmoBlendShapeBlinkConfig : public ::RPG::Client::EmoBlendShapeParamBase
 	{

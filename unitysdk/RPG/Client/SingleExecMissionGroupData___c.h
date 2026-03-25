@@ -5,24 +5,24 @@
 namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET UNITYSDK_OFFSET(0x9F86580)
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F86540)
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F86570)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET UNITYSDK_OFFSET(0xA4A6640)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4A6600)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A6630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SingleExecMissionGroupData___c_TypeDefinitionIndex = 52675;
+	inline static constexpr unsigned int SingleExecMissionGroupData___c_TypeDefinitionIndex = 53812;
 
 	class SingleExecMissionGroupData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x17200);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x37C20);
 		}
 		static ::RPG::Client::SingleExecMissionGroupData___c** StaticGet___9()
 		{
-			return (::RPG::Client::SingleExecMissionGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x17208);
+			return (::RPG::Client::SingleExecMissionGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x37C28);
 		}
 
 		static ::System::Void _cctor()

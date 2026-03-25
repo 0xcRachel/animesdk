@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_0_16E4307DCC419505_347;
-class Class_3_BCCE950C2E8DF1F0;
+class Class_0_16E4307DCC419505_375;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayCollectionMorse; }
 namespace RPG::GameCore { class PlayNPCBubbleTalk; }
@@ -11,38 +11,38 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_FEB317759D5617F4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x109895C0)
-#define CLASS_2_FEB317759D5617F4_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1098A330)
-#define CLASS_2_FEB317759D5617F4_METHOD_2_761453C1386E7BBC_OFFSET UNITYSDK_OFFSET(0x1098A030)
-#define CLASS_2_FEB317759D5617F4_METHOD_2_A1596F65A2679075_OFFSET UNITYSDK_OFFSET(0x1098A230)
-#define CLASS_2_FEB317759D5617F4_METHOD_2_A1C7122184516C18_OFFSET UNITYSDK_OFFSET(0x10989CA0)
-#define CLASS_2_FEB317759D5617F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10989710)
-#define CLASS_2_FEB317759D5617F4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10989960)
-#define CLASS_2_FEB317759D5617F4_TICK_OFFSET UNITYSDK_OFFSET(0x109899B0)
-#define CLASS_2_FEB317759D5617F4__CTOR_OFFSET UNITYSDK_OFFSET(0x109894D0)
+#define CLASS_2_FEB317759D5617F4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1135F500)
+#define CLASS_2_FEB317759D5617F4_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x11360270)
+#define CLASS_2_FEB317759D5617F4_METHOD_2_761453C1386E7BBC_OFFSET UNITYSDK_OFFSET(0x1135FF70)
+#define CLASS_2_FEB317759D5617F4_METHOD_2_A1596F65A2679075_OFFSET UNITYSDK_OFFSET(0x11360170)
+#define CLASS_2_FEB317759D5617F4_METHOD_2_A1C7122184516C18_OFFSET UNITYSDK_OFFSET(0x1135FBE0)
+#define CLASS_2_FEB317759D5617F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1135F650)
+#define CLASS_2_FEB317759D5617F4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1135F8A0)
+#define CLASS_2_FEB317759D5617F4_TICK_OFFSET UNITYSDK_OFFSET(0x1135F8F0)
+#define CLASS_2_FEB317759D5617F4__CTOR_OFFSET UNITYSDK_OFFSET(0x1135F410)
 
-inline static constexpr unsigned int Class_2_FEB317759D5617F4_TypeDefinitionIndex = 45936;
+inline static constexpr unsigned int Class_2_FEB317759D5617F4_TypeDefinitionIndex = 47004;
 
 class Class_2_FEB317759D5617F4 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
 	// static const ::System::String* Field_2_1; // 0x0
-	::System::String* Field_2_11; // 0x18
-	::Class_3_BCCE950C2E8DF1F0* Field_2_16; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x28
-	::RPG::GameCore::PlayCollectionMorse* Field_2_2; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_6; // 0x38
-	::System::String* Field_2_10; // 0x40
-	::Class_3_BCCE950C2E8DF1F0* Field_2_15; // 0x48
-	::RPG::GameCore::PlayNPCBubbleTalk* Field_2_4; // 0x50
-	::System::UInt32 Field_2_14; // 0x58
-	::System::Single Field_2_8; // 0x5C
-	::System::UInt32 Field_2_5; // 0x60
-	::System::Single Field_2_9; // 0x64
-	::System::Boolean Field_2_12; // 0x68
-	::System::Boolean Field_2_13; // 0x69
-	::System::Single Field_2_7; // 0x6C
+	::System::String* Field_2_10; // 0x18
+	::RPG::GameCore::PlayNPCBubbleTalk* Field_2_4; // 0x20
+	::System::String* Field_2_11; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
+	::RPG::GameCore::PlayCollectionMorse* Field_2_2; // 0x38
+	::RPG::GameCore::GameEntity* Field_2_6; // 0x40
+	::Class_3_5775A4FEC79026BC* Field_2_15; // 0x48
+	::Class_3_5775A4FEC79026BC* Field_2_16; // 0x50
+	::System::Single Field_2_8; // 0x58
+	::System::Single Field_2_7; // 0x5C
+	::System::Boolean Field_2_13; // 0x60
+	::System::Boolean Field_2_12; // 0x61
+	::System::UInt32 Field_2_5; // 0x64
+	::System::Single Field_2_9; // 0x68
+	::System::UInt32 Field_2_14; // 0x6C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PlayCollectionMorse* a2)
 	{
@@ -69,9 +69,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_FEB317759D5617F4_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_761453C1386E7BBC(::Class_0_16E4307DCC419505_347* a1)
+	::System::Void Method_2_761453C1386E7BBC(::Class_0_16E4307DCC419505_375* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_347*))((::PBYTE)hIl2Cpp + CLASS_2_FEB317759D5617F4_METHOD_2_761453C1386E7BBC_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_2_FEB317759D5617F4_METHOD_2_761453C1386E7BBC_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_A1596F65A2679075(::System::Object* a1)

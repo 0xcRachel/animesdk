@@ -7,10 +7,10 @@ class Class_2_3ABA989E5AECB261;
 class Class_2_FBC1E64DC5B2C441;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCompareSupportCatRank; }
 
-#define CLASS_3_2C0C6B402804F755_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15F5A850)
-#define CLASS_3_2C0C6B402804F755__CTOR_OFFSET UNITYSDK_OFFSET(0x15F5A780)
+#define CLASS_3_2C0C6B402804F755_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16732540)
+#define CLASS_3_2C0C6B402804F755__CTOR_OFFSET UNITYSDK_OFFSET(0x16732470)
 
-inline static constexpr unsigned int Class_3_2C0C6B402804F755_TypeDefinitionIndex = 27936;
+inline static constexpr unsigned int Class_3_2C0C6B402804F755_TypeDefinitionIndex = 28757;
 
 class Class_3_2C0C6B402804F755 : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_CakeRaceByCompareSupportCatRank*>
 {

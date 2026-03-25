@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTHandleSystem_ResizeMode_TypeDefinitionIndex = 27136;
+	inline static constexpr unsigned int RTHandleSystem_ResizeMode_TypeDefinitionIndex = 27872;
 
 	enum class RTHandleSystem_ResizeMode : ::System::Int32
 	{

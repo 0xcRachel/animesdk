@@ -7,31 +7,31 @@ class Class_1_3745C69C00F04B7D_3;
 class Class_1_3745C69C00F04B7D_4;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4FA70)
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4FF80)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729E170)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729E680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTutorialStageConfigRow_TypeDefinitionIndex = 12409;
+	inline static constexpr unsigned int GridFightTutorialStageConfigRow_TypeDefinitionIndex = 12479;
 
 	class GridFightTutorialStageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Class_1_3745C69C00F04B7D_3*>* ForbiddenSellRoleList; // 0x10
 		::Il2CppArray<::Class_1_3745C69C00F04B7D_4*>* ForbiddenAutoOpenShopNodeList; // 0x18
-		::System::UInt32 ForbiddenBattleFail; // 0x20
-		::System::UInt32 DivisionID; // 0x24
-		::System::UInt32 IsPortal; // 0x28
+		::System::UInt32 ForbiddenSellRoleBeforeSectionId; // 0x20
+		::System::UInt32 IsEquipRecommendShow; // 0x24
+		::System::UInt32 IsAlltrial; // 0x28
 		::System::UInt32 IsEnemyShow; // 0x2C
-		::System::UInt32 ForbiddenSellRoleBeforeChapterId; // 0x30
-		::System::UInt32 IsInitialSupply; // 0x34
-		::System::UInt32 IsAlltrial; // 0x38
-		::System::UInt32 ForbiddenSellRoleBeforeSectionId; // 0x3C
-		::RPG::Client::TextID TutorialStageName; // 0x40
-		::System::UInt32 RewardQuest; // 0x50
-		::System::UInt32 IsEquipRecommendShow; // 0x54
+		::System::UInt32 IsRouteShow; // 0x30
+		::System::UInt32 ForbiddenBattleFail; // 0x34
+		::RPG::Client::TextID TutorialStageName; // 0x38
+		::System::UInt32 DivisionID; // 0x48
+		::System::UInt32 RewardQuest; // 0x4C
+		::System::UInt32 IsInitialSupply; // 0x50
+		::System::UInt32 ForbiddenSellRoleBeforeChapterId; // 0x54
 		::System::UInt32 IsBossToastShow; // 0x58
-		::System::UInt32 IsRouteShow; // 0x5C
+		::System::UInt32 IsPortal; // 0x5C
 
 		::System::Void _ctor()
 		{

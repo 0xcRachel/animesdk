@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D73FD0)
-#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D745A0)
+#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174FBB50)
+#define RPG_GAMECORE_PLAYERRETURNCONSTVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174FC120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnConstValueRow_TypeDefinitionIndex = 13190;
+	inline static constexpr unsigned int PlayerReturnConstValueRow_TypeDefinitionIndex = 13264;
 
 	class PlayerReturnConstValueRow : public ::System::Object
 	{
 	public:
-		::System::String* Value; // 0x10
-		::System::String* PlayerReturnConstValueName; // 0x18
+		::System::String* PlayerReturnConstValueName; // 0x10
+		::System::String* Value; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableRoleTrialChangeLineupLeader; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_95807BE11CF9A3E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFDB9EB0)
-#define CLASS_3_95807BE11CF9A3E2__CTOR_OFFSET UNITYSDK_OFFSET(0xFDB9E80)
+#define CLASS_3_95807BE11CF9A3E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA19E380)
+#define CLASS_3_95807BE11CF9A3E2__CTOR_OFFSET UNITYSDK_OFFSET(0xA19E350)
 
-inline static constexpr unsigned int Class_3_95807BE11CF9A3E2_TypeDefinitionIndex = 45814;
+inline static constexpr unsigned int Class_3_95807BE11CF9A3E2_TypeDefinitionIndex = 46882;
 
 class Class_3_95807BE11CF9A3E2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableRoleTrialChangeLineupLeader*>
 {

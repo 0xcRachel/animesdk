@@ -14,22 +14,22 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 namespace System::Runtime::CompilerServices { class IStrongBox; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_GETBOX_OFFSET UNITYSDK_OFFSET(0x17CF93A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_VISITBLOCK_OFFSET UNITYSDK_OFFSET(0x17CF8DA0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_VISITCATCHBLOCK_OFFSET UNITYSDK_OFFSET(0x17CF8FA0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_VISITPARAMETER_OFFSET UNITYSDK_OFFSET(0x17CF91F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF8D00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_GETBOX_OFFSET UNITYSDK_OFFSET(0x185108A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_VISITBLOCK_OFFSET UNITYSDK_OFFSET(0x185102A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_VISITCATCHBLOCK_OFFSET UNITYSDK_OFFSET(0x185104A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER_VISITPARAMETER_OFFSET UNITYSDK_OFFSET(0x185106F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_QUOTEINSTRUCTION_EXPRESSIONQUOTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18510200)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int QuoteInstruction_ExpressionQuoter_TypeDefinitionIndex = 3635;
+	inline static constexpr unsigned int QuoteInstruction_ExpressionQuoter_TypeDefinitionIndex = 3644;
 
 	class QuoteInstruction_ExpressionQuoter : public ::System::Linq::Expressions::ExpressionVisitor
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _variables; // 0x10
-		::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>* _shadowedVars; // 0x18
-		::System::Linq::Expressions::Interpreter::InterpretedFrame* _frame; // 0x20
+		::System::Linq::Expressions::Interpreter::InterpretedFrame* _frame; // 0x18
+		::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>* _shadowedVars; // 0x20
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables, ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame)
 		{

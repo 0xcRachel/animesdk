@@ -18,7 +18,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int RegisterEventOptionsInternal_TypeDefinitionIndex = 35745;
+	inline static constexpr unsigned int RegisterEventOptionsInternal_TypeDefinitionIndex = 36679;
 
 	struct alignas(8) RegisterEventOptionsInternal
 	{

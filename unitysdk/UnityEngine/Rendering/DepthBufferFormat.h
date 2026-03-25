@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DepthBufferFormat_TypeDefinitionIndex = 27119;
+	inline static constexpr unsigned int DepthBufferFormat_TypeDefinitionIndex = 27855;
 
 	enum class DepthBufferFormat : ::System::Int32
 	{

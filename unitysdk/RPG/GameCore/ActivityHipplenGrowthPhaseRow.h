@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENGROWTHPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1679A290)
-#define RPG_GAMECORE_ACTIVITYHIPPLENGROWTHPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1679A510)
+#define RPG_GAMECORE_ACTIVITYHIPPLENGROWTHPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F10E30)
+#define RPG_GAMECORE_ACTIVITYHIPPLENGROWTHPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F110B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenGrowthPhaseRow_TypeDefinitionIndex = 10802;
+	inline static constexpr unsigned int ActivityHipplenGrowthPhaseRow_TypeDefinitionIndex = 10870;
 
 	class ActivityHipplenGrowthPhaseRow : public ::System::Object
 	{
 	public:
-		::System::Single BodySize; // 0x10
-		::System::UInt32 ID; // 0x14
-		::System::Single SpeedRatioMultiplier; // 0x18
-		::RPG::Client::TextID PhaseTrialTitle; // 0x20
-		::RPG::Client::TextID PhaseTitle; // 0x30
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID PhaseTitle; // 0x18
+		::System::Single SpeedRatioMultiplier; // 0x28
+		::System::Single BodySize; // 0x2C
+		::RPG::Client::TextID PhaseTrialTitle; // 0x30
 
 		::System::Void _ctor()
 		{

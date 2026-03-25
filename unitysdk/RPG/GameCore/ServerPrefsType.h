@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 21905;
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 22470;
 
 	enum class ServerPrefsType : ::System::Int32
 	{
@@ -60,6 +60,7 @@ namespace RPG::GameCore
 		RogueTournIsDivisionAreaUnlockAnimPlayed = 124,
 		RogueTournCurAppliedBuildRefRelatedReportBehaviorGuid = 125,
 		RogueTournCurAppliedBuildRefUnionIndex = 126,
+		RogueTournSeenDivisionInheritMainTournID = 127,
 		WebToolSeen = 105,
 		TarotBookBookletFirstEnterFlag = 3001,
 		TarotBookHasShownReadRewardIDs = 3101,
@@ -114,6 +115,8 @@ namespace RPG::GameCore
 		GridFightUnlockSeenMaxDivisionID = 3716,
 		GridFightUnlockSeenMaxDivisionIDOC = 3717,
 		GridFightSeenMaxSeasonLevel = 3718,
+		GridFightNewTraitQuestReddotMainSeasonID = 3719,
+		GridFightNewTraitQuestReddotSubSeasonID = 3720,
 		ResidentActivityLatestPlayedIndexKey = 3701,
 		SkillQuickLevelUpSwitch = 3702,
 		NewPlayerOutfitHasSeen = 3703,

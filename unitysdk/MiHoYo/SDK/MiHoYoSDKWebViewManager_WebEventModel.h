@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_WEBEVENTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8210270)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_WEBEVENTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x855F680)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager_WebEventModel_TypeDefinitionIndex = 36367;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_WebEventModel_TypeDefinitionIndex = 37303;
 
 	class MiHoYoSDKWebViewManager_WebEventModel : public ::System::Object
 	{

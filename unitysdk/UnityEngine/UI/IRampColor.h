@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IRampColor_TypeDefinitionIndex = 5569;
+	inline static constexpr unsigned int IRampColor_TypeDefinitionIndex = 5669;
 
 	class IRampColor
 	{

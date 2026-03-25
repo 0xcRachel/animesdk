@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B139B98AF2D803D6_12;
+class Class_1_2827A08E633A7795_11;
 
-#define RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x972F2D0)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9BD4E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 52627;
+	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 53764;
 
 	class MissionModule_MissionCustomValueClient : public ::System::Object
 	{
 	public:
-		::Class_1_B139B98AF2D803D6_12* MissionCustomValue; // 0x10
+		::Class_1_2827A08E633A7795_11* MissionCustomValue; // 0x10
 		::System::UInt32 SubMissionID; // 0x18
 
-		::System::Void _ctor(::Class_1_B139B98AF2D803D6_12* customValue, ::System::UInt32 subMissionID)
+		::System::Void _ctor(::Class_1_2827A08E633A7795_11* customValue, ::System::UInt32 subMissionID)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_B139B98AF2D803D6_12*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT__CTOR_OFFSET))(this, customValue, subMissionID);
+			return ((::System::Void(*)(::PVOID, ::Class_1_2827A08E633A7795_11*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT__CTOR_OFFSET))(this, customValue, subMissionID);
 		}
 	};
 }

@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET UNITYSDK_OFFSET(0x168EC420)
-#define RPG_GAMECORE_BLOCKNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168ECAC0)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET UNITYSDK_OFFSET(0x16FFD250)
+#define RPG_GAMECORE_BLOCKNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFD8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 17123;
+	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 17528;
 
 	class BlockNodeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/HipplenInteractLikeType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTSHAKEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x8B44EC0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENINTERACTSHAKEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x8F45C20)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int HipplenInteractShakeParams_TypeDefinitionIndex = 59970;
+	inline static constexpr unsigned int HipplenInteractShakeParams_TypeDefinitionIndex = 61726;
 
 	class HipplenInteractShakeParams : public ::System::Object
 	{

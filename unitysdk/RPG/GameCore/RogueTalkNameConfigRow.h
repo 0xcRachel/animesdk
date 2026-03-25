@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EBC530)
-#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBCBF0)
+#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176713B0)
+#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17671A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 13464;
+	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 13540;
 
 	class RogueTalkNameConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID SubName; // 0x18
-		::System::UInt32 ImageID; // 0x28
-		::System::UInt32 TalkNameID; // 0x2C
+		::System::UInt32 TalkNameID; // 0x18
+		::System::UInt32 ImageID; // 0x1C
+		::RPG::Client::TextID SubName; // 0x20
 		::RPG::Client::TextID Name; // 0x30
 
 		::System::Void _ctor()

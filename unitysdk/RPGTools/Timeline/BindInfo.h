@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_BINDINFO_METHOD_2_8915213097B92E4D_OFFSET UNITYSDK_OFFSET(0xD7C40)
+#define RPGTOOLS_TIMELINE_BINDINFO_METHOD_2_8915213097B92E4D_OFFSET UNITYSDK_OFFSET(0x89180)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 38330;
+	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 39310;
 
 	struct alignas(8) BindInfo
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int jvalue_TypeDefinitionIndex = 5295;
+	inline static constexpr unsigned int jvalue_TypeDefinitionIndex = 5395;
 
 	struct alignas(8) jvalue
 	{

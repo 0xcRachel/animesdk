@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INTVECTOR2_METHOD_2_0DF8757906AEA59C_OFFSET UNITYSDK_OFFSET(0x16B82C00)
-#define RPG_GAMECORE_INTVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x16B82D70)
+#define RPG_GAMECORE_INTVECTOR2_METHOD_2_0DF8757906AEA59C_OFFSET UNITYSDK_OFFSET(0x172D1540)
+#define RPG_GAMECORE_INTVECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x172D16B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IntVector2_TypeDefinitionIndex = 15917;
+	inline static constexpr unsigned int IntVector2_TypeDefinitionIndex = 16194;
 
 	class IntVector2 : public ::RPG::GameCore::JsonConfig
 	{

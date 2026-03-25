@@ -5,7 +5,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowSettings_MainLightShadow_TypeDefinitionIndex = 28317;
+	inline static constexpr unsigned int ShadowSettings_MainLightShadow_TypeDefinitionIndex = 29192;
 
 	struct alignas(8) ShadowSettings_MainLightShadow
 	{

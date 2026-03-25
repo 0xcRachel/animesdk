@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class BaseLobby; }
 
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D75DE0)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__INVITE_B__0_OFFSET UNITYSDK_OFFSET(0x8D78800)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9180EC0)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS9_0__INVITE_B__0_OFFSET UNITYSDK_OFFSET(0x9183900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 52274;
+	inline static constexpr unsigned int BaseLobby___c__DisplayClass9_0_TypeDefinitionIndex = 53410;
 
 	class BaseLobby___c__DisplayClass9_0 : public ::System::Object
 	{

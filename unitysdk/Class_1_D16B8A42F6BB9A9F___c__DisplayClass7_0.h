@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AudioConfig; }
 namespace System { class String; }
 
-#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C9710)
-#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS7_0___SETAUDIOSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xD1C9720)
+#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x111C0AE0)
+#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS7_0___SETAUDIOSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x111DB360)
 
-inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F___c__DisplayClass7_0_TypeDefinitionIndex = 48106;
+inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F___c__DisplayClass7_0_TypeDefinitionIndex = 49197;
 
 class Class_1_D16B8A42F6BB9A9F___c__DisplayClass7_0 : public ::System::Object
 {

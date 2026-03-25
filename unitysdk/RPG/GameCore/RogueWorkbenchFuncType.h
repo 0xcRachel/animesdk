@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWorkbenchFuncType_TypeDefinitionIndex = 10176;
+	inline static constexpr unsigned int RogueWorkbenchFuncType_TypeDefinitionIndex = 10178;
 
 	enum class RogueWorkbenchFuncType : ::System::Int32
 	{
@@ -18,5 +18,6 @@ namespace RPG::GameCore
 		MagicUnitCompose = 8,
 		MagicUnitReforge = 9,
 		MagicScepterLevelUp = 10,
+		HexEquipment = 11,
 	};
 }

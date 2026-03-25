@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EntityLodTemplateName.h"
 #include "unitysdk/RPG/GameCore/LevelLittleGameLoadType.h"
 #include "unitysdk/RPG/GameCore/LittleGameType.h"
 #include "unitysdk/RPG/GameCore/NamedLevelObjectInfo.h"
@@ -10,13 +11,13 @@ namespace RPG::GameCore { class LittleGameNavInfo; }
 namespace RPG::GameCore { class LittleGameRequireMissionInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x16BAAEF0)
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BAAEB0)
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BAAEE0)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1734EC80)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1734EC30)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1734EC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLittleGameInfo_TypeDefinitionIndex = 15645;
+	inline static constexpr unsigned int LevelLittleGameInfo_TypeDefinitionIndex = 15922;
 
 	class LevelLittleGameInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
@@ -30,14 +31,17 @@ namespace RPG::GameCore
 		::System::String* LoadGroupPropertyName; // 0x58
 		::Il2CppArray<::System::Int16>* LoadGroupPropertyValues; // 0x60
 		::RPG::GameCore::LittleGameLevelVarBindingMap* LevelVarBinding; // 0x68
-		::System::String* PuzzleAreaName; // 0x70
-		::System::Boolean AdditiveLoadArea; // 0x78
-		::System::Boolean HideAllEntityOnEnter; // 0x79
-		::Il2CppArray<::System::UInt32>* GroupsToKeepOnEnter; // 0x80
-		::RPG::GameCore::LittleGameNavInfo* NavInfo; // 0x88
-		::System::Boolean IsEnablePVS; // 0x90
-		::RPG::GameCore::LittleGameRequireMissionInfo* RequireMissionInfo; // 0x98
-		::Il2CppArray<::System::UInt32>* MinimapFogIDList; // 0xA0
+		::System::Boolean EnableOverrideLodTemplate; // 0x70
+		::RPG::GameCore::EntityLodTemplateName LodTemplateOverride; // 0x74
+		::System::String* PuzzleAreaName; // 0x78
+		::System::Boolean AdditiveLoadArea; // 0x80
+		::System::Boolean HideAllEntityOnEnter; // 0x81
+		::System::Boolean HideCurrentGroupEntityOnEnter; // 0x82
+		::Il2CppArray<::System::UInt32>* GroupsToKeepOnEnter; // 0x88
+		::RPG::GameCore::LittleGameNavInfo* NavInfo; // 0x90
+		::System::Boolean IsEnablePVS; // 0x98
+		::RPG::GameCore::LittleGameRequireMissionInfo* RequireMissionInfo; // 0xA0
+		::Il2CppArray<::System::UInt32>* MinimapFogIDList; // 0xA8
 
 		::System::Void _ctor()
 		{

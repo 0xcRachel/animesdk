@@ -5,24 +5,24 @@
 namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x921FD10)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x921FD50)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x921FD60)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96958C0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9695900)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x9695910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 50888;
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 52023;
 
 	class FateGameMasterTalkInfoExt___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x41BB0);
-		}
 		static ::RPG::Client::FateGameMasterTalkInfoExt___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateGameMasterTalkInfoExt___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x41BB8);
+			return (::RPG::Client::FateGameMasterTalkInfoExt___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x45990);
+		}
+		static ::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x45998);
 		}
 
 		static ::System::Void _cctor()

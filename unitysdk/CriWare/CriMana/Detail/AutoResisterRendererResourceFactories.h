@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_DETAIL_AUTORESISTERRENDERERRESOURCEFACTORIES_INVOKEAUTOREGISTER_OFFSET UNITYSDK_OFFSET(0x112CD720)
+#define CRIWARE_CRIMANA_DETAIL_AUTORESISTERRENDERERRESOURCEFACTORIES_INVOKEAUTOREGISTER_OFFSET UNITYSDK_OFFSET(0x11A55540)
 
 namespace CriWare::CriMana::Detail
 {
-	inline static constexpr unsigned int AutoResisterRendererResourceFactories_TypeDefinitionIndex = 30368;
+	inline static constexpr unsigned int AutoResisterRendererResourceFactories_TypeDefinitionIndex = 31243;
 
 	class AutoResisterRendererResourceFactories : public ::System::Object
 	{

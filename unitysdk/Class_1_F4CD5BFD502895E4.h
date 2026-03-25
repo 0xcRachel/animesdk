@@ -8,10 +8,10 @@ class Class_1_6A4548AFE753106B;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
 
-#define CLASS_1_F4CD5BFD502895E4_CLEAR_OFFSET UNITYSDK_OFFSET(0x162BD020)
-#define CLASS_1_F4CD5BFD502895E4__CTOR_OFFSET UNITYSDK_OFFSET(0x162BD0A0)
+#define CLASS_1_F4CD5BFD502895E4_CLEAR_OFFSET UNITYSDK_OFFSET(0x167911E0)
+#define CLASS_1_F4CD5BFD502895E4__CTOR_OFFSET UNITYSDK_OFFSET(0x16791260)
 
-inline static constexpr unsigned int Class_1_F4CD5BFD502895E4_TypeDefinitionIndex = 32733;
+inline static constexpr unsigned int Class_1_F4CD5BFD502895E4_TypeDefinitionIndex = 33665;
 
 class Class_1_F4CD5BFD502895E4 : public ::System::Object
 {

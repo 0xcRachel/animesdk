@@ -8,17 +8,17 @@ class Class_1_7D0225C5AD8313DD;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_7D0225C5AD8313DD___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB6D40)
-#define CLASS_1_7D0225C5AD8313DD___C__DISPLAYCLASS73_0__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__0_OFFSET UNITYSDK_OFFSET(0x10BBA220)
+#define CLASS_1_7D0225C5AD8313DD___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99D58C0)
+#define CLASS_1_7D0225C5AD8313DD___C__DISPLAYCLASS73_0__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__0_OFFSET UNITYSDK_OFFSET(0x99D8D20)
 
-inline static constexpr unsigned int Class_1_7D0225C5AD8313DD___c__DisplayClass73_0_TypeDefinitionIndex = 56840;
+inline static constexpr unsigned int Class_1_7D0225C5AD8313DD___c__DisplayClass73_0_TypeDefinitionIndex = 58429;
 
 class Class_1_7D0225C5AD8313DD___c__DisplayClass73_0 : public ::System::Object
 {
 public:
-	::Class_1_02D30900317D93FD* curBarItem; // 0x10
-	::Class_1_7D0225C5AD8313DD* __4__this; // 0x18
-	::RPG::GameCore::GameEntity* pCaster; // 0x20
+	::Class_1_7D0225C5AD8313DD* __4__this; // 0x10
+	::RPG::GameCore::GameEntity* pCaster; // 0x18
+	::Class_1_02D30900317D93FD* curBarItem; // 0x20
 	::RPG::GameCore::GameEntity* curActionEntity; // 0x28
 	::RPG::GameCore::SkillType skillType; // 0x30
 	::System::Int32 priority; // 0x34

@@ -6,23 +6,23 @@
 namespace RPG::Client { class MiniMapZone; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MINIMAPLAYER_ADDZONE_OFFSET UNITYSDK_OFFSET(0x9707A70)
-#define RPG_CLIENT_MINIMAPLAYER_CONTAINS_OFFSET UNITYSDK_OFFSET(0x9707BD0)
-#define RPG_CLIENT_MINIMAPLAYER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9707B20)
-#define RPG_CLIENT_MINIMAPLAYER_GETZONEBYID_OFFSET UNITYSDK_OFFSET(0x9707CB0)
-#define RPG_CLIENT_MINIMAPLAYER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x9707D50)
-#define RPG_CLIENT_MINIMAPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x97079E0)
+#define RPG_CLIENT_MINIMAPLAYER_ADDZONE_OFFSET UNITYSDK_OFFSET(0x9BAE1F0)
+#define RPG_CLIENT_MINIMAPLAYER_CONTAINS_OFFSET UNITYSDK_OFFSET(0x9BAE350)
+#define RPG_CLIENT_MINIMAPLAYER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9BAE2A0)
+#define RPG_CLIENT_MINIMAPLAYER_GETZONEBYID_OFFSET UNITYSDK_OFFSET(0x9BAE430)
+#define RPG_CLIENT_MINIMAPLAYER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x9BAE4D0)
+#define RPG_CLIENT_MINIMAPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x9BAE160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MiniMapLayer_TypeDefinitionIndex = 48045;
+	inline static constexpr unsigned int MiniMapLayer_TypeDefinitionIndex = 49133;
 
 	class MiniMapLayer : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::MiniMapZone*>* Zones; // 0x10
-		::System::Single HeightMin; // 0x18
-		::System::Single HeightMax; // 0x1C
+		::System::Single HeightMax; // 0x18
+		::System::Single HeightMin; // 0x1C
 
 		::System::Void _ctor(::RPG::Client::MiniMapZone* pInitZone)
 		{

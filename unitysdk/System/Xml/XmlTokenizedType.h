@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTokenizedType_TypeDefinitionIndex = 1920;
+	inline static constexpr unsigned int XmlTokenizedType_TypeDefinitionIndex = 1925;
 
 	enum class XmlTokenizedType : ::System::Int32
 	{

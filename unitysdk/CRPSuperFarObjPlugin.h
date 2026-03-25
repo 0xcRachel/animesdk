@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CRPSUPERFAROBJPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x994A450)
-#define CRPSUPERFAROBJPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x994A570)
+#define CRPSUPERFAROBJPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA6DCAA0)
+#define CRPSUPERFAROBJPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA6DCBC0)
 
-inline static constexpr unsigned int CRPSuperFarObjPlugin_TypeDefinitionIndex = 37264;
+inline static constexpr unsigned int CRPSuperFarObjPlugin_TypeDefinitionIndex = 38228;
 
 class CRPSuperFarObjPlugin : public ::UnityEngine::MonoBehaviour
 {

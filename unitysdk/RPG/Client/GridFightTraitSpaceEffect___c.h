@@ -5,29 +5,29 @@
 namespace RPG::Client { class GridFightTraitBonusConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x942B980)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x942B9C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__GET_BONUSTYPECONFIGS_B__44_0_OFFSET UNITYSDK_OFFSET(0x942B9D0)
-#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__GET_ENHANCETYPECONFIGS_B__46_0_OFFSET UNITYSDK_OFFSET(0x942BA00)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98E87D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98E8810)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__GET_BONUSTYPECONFIGS_B__44_0_OFFSET UNITYSDK_OFFSET(0x98E8820)
+#define RPG_CLIENT_GRIDFIGHTTRAITSPACEEFFECT___C__GET_ENHANCETYPECONFIGS_B__46_0_OFFSET UNITYSDK_OFFSET(0x98E8850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitSpaceEffect___c_TypeDefinitionIndex = 51187;
+	inline static constexpr unsigned int GridFightTraitSpaceEffect___c_TypeDefinitionIndex = 52320;
 
 	class GridFightTraitSpaceEffect___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>** StaticGet___9__44_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitSpaceEffect___c_TypeDefinitionIndex)->GetStaticField(0x9D70);
-		}
 		static ::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitSpaceEffect___c_TypeDefinitionIndex)->GetStaticField(0x9D78);
+			return (::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitSpaceEffect___c_TypeDefinitionIndex)->GetStaticField(0x1E0A0);
 		}
 		static ::RPG::Client::GridFightTraitSpaceEffect___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightTraitSpaceEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitSpaceEffect___c_TypeDefinitionIndex)->GetStaticField(0x9D80);
+			return (::RPG::Client::GridFightTraitSpaceEffect___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitSpaceEffect___c_TypeDefinitionIndex)->GetStaticField(0x1E0A8);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>** StaticGet___9__44_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTraitBonusConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitSpaceEffect___c_TypeDefinitionIndex)->GetStaticField(0x1E0B0);
 		}
 
 		static ::System::Void _cctor()

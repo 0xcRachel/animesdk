@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooInteractionCase_TypeDefinitionIndex = 11239;
+	inline static constexpr unsigned int SpaceZooInteractionCase_TypeDefinitionIndex = 11307;
 
 	enum class SpaceZooInteractionCase : ::System::Int32
 	{

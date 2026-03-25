@@ -6,17 +6,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_A0B31AFE63AADD6A_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x10F1A2C0)
-#define CLASS_1_A0B31AFE63AADD6A_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x10F1A270)
-#define CLASS_1_A0B31AFE63AADD6A__CTOR_OFFSET UNITYSDK_OFFSET(0x10F1A310)
+#define CLASS_1_A0B31AFE63AADD6A_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x11147BE0)
+#define CLASS_1_A0B31AFE63AADD6A_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x11147B90)
+#define CLASS_1_A0B31AFE63AADD6A__CTOR_OFFSET UNITYSDK_OFFSET(0x11147C30)
 
-inline static constexpr unsigned int Class_1_A0B31AFE63AADD6A_TypeDefinitionIndex = 44510;
+inline static constexpr unsigned int Class_1_A0B31AFE63AADD6A_TypeDefinitionIndex = 45571;
 
 class Class_1_A0B31AFE63AADD6A : public ::System::Object
 {
 public:
-	::System::Object* Field_1_2; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_1; // 0x10
+	::System::Object* Field_1_2; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x20
 
 	::System::Void _ctor()

@@ -5,9 +5,9 @@
 namespace System { class TimeZoneInfo_AdjustmentRule; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define SYSTEM_TIMEZONEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BB1B00)
-#define SYSTEM_TIMEZONEINFO___C__CREATELOCALUNITY_B__19_0_OFFSET UNITYSDK_OFFSET(0x15BB1B50)
-#define SYSTEM_TIMEZONEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB1B40)
+#define SYSTEM_TIMEZONEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1627AA20)
+#define SYSTEM_TIMEZONEINFO___C__CREATELOCALUNITY_B__19_0_OFFSET UNITYSDK_OFFSET(0x1627AA70)
+#define SYSTEM_TIMEZONEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1627AA60)
 
 namespace System
 {
@@ -16,13 +16,13 @@ namespace System
 	class TimeZoneInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::TimeZoneInfo___c** StaticGet___9()
-		{
-			return (::System::TimeZoneInfo___c**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo___c_TypeDefinitionIndex)->GetStaticField(0x13590);
-		}
 		static ::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo___c_TypeDefinitionIndex)->GetStaticField(0x13598);
+			return (::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo___c_TypeDefinitionIndex)->GetStaticField(0x11930);
+		}
+		static ::System::TimeZoneInfo___c** StaticGet___9()
+		{
+			return (::System::TimeZoneInfo___c**)Il2CppClass::FromTypeDefinitionIndex(TimeZoneInfo___c_TypeDefinitionIndex)->GetStaticField(0x11938);
 		}
 
 		static ::System::Void _cctor()

@@ -14,62 +14,62 @@ namespace Google::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x153F2F60)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_CLONE_OFFSET UNITYSDK_OFFSET(0x153F23F0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x153F2530)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_EQUALS_OFFSET UNITYSDK_OFFSET(0x153F24D0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x153F27A0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x153F1FE0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_HASNAME_OFFSET UNITYSDK_OFFSET(0x153F2490)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_HASOPTIONS_OFFSET UNITYSDK_OFFSET(0x153F2390)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x153F1B50)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x153F24B0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x153F1F80)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x153F24A0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x153F3660)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x153F3210)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x153F2160)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x153F2440)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x153F24C0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x153F2D10)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_WRITETO_OFFSET UNITYSDK_OFFSET(0x153F2D70)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO__CCTOR_OFFSET UNITYSDK_OFFSET(0x153F38B0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x153F2260)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO__CTOR_OFFSET UNITYSDK_OFFSET(0x153F21C0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x15B0B170)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_CLONE_OFFSET UNITYSDK_OFFSET(0x15B0A5E0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x15B0A740)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_EQUALS_OFFSET UNITYSDK_OFFSET(0x15B0A6E0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15B0A9B0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15B0A1D0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_HASNAME_OFFSET UNITYSDK_OFFSET(0x15B0A6A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_HASOPTIONS_OFFSET UNITYSDK_OFFSET(0x15B0A580)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B09D40)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x15B0A6C0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x15B0A170)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15B0A6B0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x15B0B890)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x15B0B420)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15B0A350)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_SET_NAME_OFFSET UNITYSDK_OFFSET(0x15B0A630)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x15B0A6D0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15B0AF20)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO_WRITETO_OFFSET UNITYSDK_OFFSET(0x15B0AF80)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B0BB10)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15B0A450)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTORPROTO__CTOR_OFFSET UNITYSDK_OFFSET(0x15B0A3B0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptorProto_TypeDefinitionIndex = 6164;
+	inline static constexpr unsigned int EnumDescriptorProto_TypeDefinitionIndex = 6264;
 
 	class EnumDescriptorProto : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_NameDefaultValue()
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>** StaticGet__parser()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0xC260);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0x7410);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange*>** StaticGet__repeated_reservedRange_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0xC268);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0x7418);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_reservedName_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0xC270);
-		}
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0xC278);
+			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0x7420);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>** StaticGet__repeated_value_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0xC280);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0x7428);
 		}
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange*>* reservedRange_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* reservedName_; // 0x18
-		::Google::Protobuf::Reflection::EnumOptions* options_; // 0x20
-		::System::String* name_; // 0x28
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>* value_; // 0x30
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x38
+		static ::System::String** StaticGet_NameDefaultValue()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(EnumDescriptorProto_TypeDefinitionIndex)->GetStaticField(0x7430);
+		}
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumValueDescriptorProto*>* value_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::EnumDescriptorProto_Types_EnumReservedRange*>* reservedRange_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* reservedName_; // 0x28
+		::System::String* name_; // 0x30
+		::Google::Protobuf::Reflection::EnumOptions* options_; // 0x38
 
 		::System::Void _ctor()
 		{

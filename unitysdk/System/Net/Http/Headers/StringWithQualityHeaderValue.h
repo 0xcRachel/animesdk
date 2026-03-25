@@ -1,0 +1,88 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Net/Http/Headers/Token.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Net::Http::Headers { class Lexer; }
+
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x18543BB0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18543C50)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_QUALITY_OFFSET UNITYSDK_OFFSET(0x18543AD0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18543AF0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_QUALITY_OFFSET UNITYSDK_OFFSET(0x18543AE0)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18543B00)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x18543B10)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18544150)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x18543E00)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x18543D80)
+#define SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x18543AC0)
+
+namespace System::Net::Http::Headers
+{
+	inline static constexpr unsigned int StringWithQualityHeaderValue_TypeDefinitionIndex = 4838;
+
+	class StringWithQualityHeaderValue : public ::System::Object
+	{
+	public:
+		::System::String* _Value_k__BackingField; // 0x10
+		::System::Nullable_1<::System::Double> _Quality_k__BackingField; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE__CTOR_OFFSET))(this);
+		}
+
+		::System::Nullable_1<::System::Double> get_Quality()
+		{
+			return ((::System::Nullable_1<::System::Double>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_QUALITY_OFFSET))(this);
+		}
+
+		::System::Void set_Quality(::System::Nullable_1<::System::Double> value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Double>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_QUALITY_OFFSET))(this, value);
+		}
+
+		::System::String* get_Value()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GET_VALUE_OFFSET))(this);
+		}
+
+		::System::Void set_Value(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SET_VALUE_OFFSET))(this, value);
+		}
+
+		::System::Object* System_ICloneable_Clone()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::System::Object* obj)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_EQUALS_OFFSET))(this, obj);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_GETHASHCODE_OFFSET))(this);
+		}
+
+		static ::System::Boolean TryParse(::System::String* input, ::System::Int32 minimalCount, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*& result)
+		{
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSE_OFFSET))(input, minimalCount, result);
+		}
+
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::System::Net::Http::Headers::StringWithQualityHeaderValue*& parsedValue, ::System::Net::Http::Headers::Token& t)
+		{
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::StringWithQualityHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TRYPARSEELEMENT_OFFSET))(lexer, parsedValue, t);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_STRINGWITHQUALITYHEADERVALUE_TOSTRING_OFFSET))(this);
+		}
+	};
+}

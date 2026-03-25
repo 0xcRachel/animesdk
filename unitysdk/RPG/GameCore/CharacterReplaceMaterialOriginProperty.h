@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY_METHOD_2_3D5246C2ACE76D4A_OFFSET UNITYSDK_OFFSET(0x16974AA0)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x16974CA0)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY_METHOD_2_3D5246C2ACE76D4A_OFFSET UNITYSDK_OFFSET(0x17086120)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x17086320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialOriginProperty_TypeDefinitionIndex = 15745;
+	inline static constexpr unsigned int CharacterReplaceMaterialOriginProperty_TypeDefinitionIndex = 16022;
 
 	class CharacterReplaceMaterialOriginProperty : public ::RPG::GameCore::JsonConfig
 	{

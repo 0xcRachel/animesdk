@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREETEXTDIALOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x161572C0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREETEXTDIALOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16865350)
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int MatchThreeTextDialogInfo_TypeDefinitionIndex = 32189;
+	inline static constexpr unsigned int MatchThreeTextDialogInfo_TypeDefinitionIndex = 33099;
 
 	class MatchThreeTextDialogInfo : public ::System::Object
 	{

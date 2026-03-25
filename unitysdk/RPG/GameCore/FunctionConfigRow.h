@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C_7;
 
-#define RPG_GAMECORE_FUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16AED240)
-#define RPG_GAMECORE_FUNCTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16AED450)
+#define RPG_GAMECORE_FUNCTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17238AE0)
+#define RPG_GAMECORE_FUNCTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17238CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionConfigRow_TypeDefinitionIndex = 12087;
+	inline static constexpr unsigned int FunctionConfigRow_TypeDefinitionIndex = 12157;
 
 	class FunctionConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_7*>* OverrideUnlockID; // 0x10
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_7*>* OverrideGotoID; // 0x18
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_7*>* OverrideGotoID; // 0x10
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_7*>* OverrideUnlockID; // 0x18
 		::System::UInt32 ID; // 0x20
-		::System::UInt32 GotoID; // 0x24
-		::System::UInt32 UnlockID; // 0x28
+		::System::UInt32 UnlockID; // 0x24
+		::System::UInt32 GotoID; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int IChannelDataStore_TypeDefinitionIndex = 1255;
+	inline static constexpr unsigned int IChannelDataStore_TypeDefinitionIndex = 1260;
 
 	class IChannelDataStore
 	{

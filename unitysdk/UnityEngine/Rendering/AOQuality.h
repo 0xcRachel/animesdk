@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AOQuality_TypeDefinitionIndex = 4607;
+	inline static constexpr unsigned int AOQuality_TypeDefinitionIndex = 4635;
 
 	enum class AOQuality : ::System::Int32
 	{

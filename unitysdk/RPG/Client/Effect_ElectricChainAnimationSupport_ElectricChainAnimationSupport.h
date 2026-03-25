@@ -10,7 +10,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport_TypeDefinitionIndex = 56119;
+	inline static constexpr unsigned int Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport_TypeDefinitionIndex = 57690;
 
 	struct alignas(8) Effect_ElectricChainAnimationSupport_ElectricChainAnimationSupport
 	{

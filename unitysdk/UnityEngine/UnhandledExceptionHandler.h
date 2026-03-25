@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER_REGISTERUECATCHER_OFFSET UNITYSDK_OFFSET(0x18245280)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER_REGISTERUECATCHER_OFFSET UNITYSDK_OFFSET(0x18A6D7A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UnhandledExceptionHandler_TypeDefinitionIndex = 4142;
+	inline static constexpr unsigned int UnhandledExceptionHandler_TypeDefinitionIndex = 4164;
 
 	class UnhandledExceptionHandler : public ::System::Object
 	{

@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace System { class String; }
-namespace UnityEngine { class GameObject; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_415_TypeDefinitionIndex = 44961;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_415_TypeDefinitionIndex = 46429;
 
 class Class_0_16E4307DCC419505_415
 {

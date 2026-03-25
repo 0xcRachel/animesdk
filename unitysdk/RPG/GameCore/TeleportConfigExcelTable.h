@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x170ECDE0)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x170ECC30)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x170EC900)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x170ECBD0)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x170ECF60)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x170EC980)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x170ECFA0)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x170ED180)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x170ED400)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x170ED710)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x170ED0E0)
-#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x170ED040)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x178AC180)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x178ABFD0)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x178ABCA0)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x178ABF70)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x178AC300)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x178ABD20)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x178AC340)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x178AC520)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x178AC7A0)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178ACAB0)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x178AC480)
+#define RPG_GAMECORE_TELEPORTCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x178AC3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeleportConfigExcelTable_TypeDefinitionIndex = 11407;
+	inline static constexpr unsigned int TeleportConfigExcelTable_TypeDefinitionIndex = 11475;
 
 	class TeleportConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x24DE0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TeleportConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TeleportConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x24DE8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TeleportConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x18B80);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x24DF0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x18B88);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x18B90);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7980);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9560);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7981);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TeleportConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9561);
 		}
 
 		static ::System::Void _cctor()

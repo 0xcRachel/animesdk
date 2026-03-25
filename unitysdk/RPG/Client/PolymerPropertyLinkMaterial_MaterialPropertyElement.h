@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9B2D540)
-#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9B2D670)
+#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9FFEE00)
+#define RPG_CLIENT_POLYMERPROPERTYLINKMATERIAL_MATERIALPROPERTYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9FFEF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PolymerPropertyLinkMaterial_MaterialPropertyElement_TypeDefinitionIndex = 55983;
+	inline static constexpr unsigned int PolymerPropertyLinkMaterial_MaterialPropertyElement_TypeDefinitionIndex = 57545;
 
 	class PolymerPropertyLinkMaterial_MaterialPropertyElement : public ::System::Object
 	{

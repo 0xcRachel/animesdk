@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int Match3PVP1v1GameResult_TypeDefinitionIndex = 32174;
+	inline static constexpr unsigned int Match3PVP1v1GameResult_TypeDefinitionIndex = 33084;
 
 	enum class Match3PVP1v1GameResult : ::System::Int32
 	{

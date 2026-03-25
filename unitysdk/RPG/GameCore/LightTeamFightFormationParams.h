@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationZOffsetList; }
 
-#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS_METHOD_2_55837DDA0AC506F9_OFFSET UNITYSDK_OFFSET(0x16BBE700)
-#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x16BBEB40)
+#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS_METHOD_2_55837DDA0AC506F9_OFFSET UNITYSDK_OFFSET(0x17361C80)
+#define RPG_GAMECORE_LIGHTTEAMFIGHTFORMATIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x173620C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightTeamFightFormationParams_TypeDefinitionIndex = 14928;
+	inline static constexpr unsigned int LightTeamFightFormationParams_TypeDefinitionIndex = 15180;
 
 	class LightTeamFightFormationParams : public ::RPG::GameCore::JsonConfig
 	{

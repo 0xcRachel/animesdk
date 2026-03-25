@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_786B812390913964_CLASS_1_F3CCBC66478148CC_METHOD_1_D28500EB5034807C_OFFSET UNITYSDK_OFFSET(0x10BCE570)
-#define CLASS_1_786B812390913964_CLASS_1_F3CCBC66478148CC__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BCE830)
-#define CLASS_1_786B812390913964_CLASS_1_F3CCBC66478148CC__CTOR_OFFSET UNITYSDK_OFFSET(0x10BCE0E0)
+#define CLASS_1_786B812390913964_CLASS_1_F3CCBC66478148CC_METHOD_1_D28500EB5034807C_OFFSET UNITYSDK_OFFSET(0x11712330)
+#define CLASS_1_786B812390913964_CLASS_1_F3CCBC66478148CC__CCTOR_OFFSET UNITYSDK_OFFSET(0x117125F0)
+#define CLASS_1_786B812390913964_CLASS_1_F3CCBC66478148CC__CTOR_OFFSET UNITYSDK_OFFSET(0x11711EA0)
 
-inline static constexpr unsigned int Class_1_786B812390913964_Class_1_F3CCBC66478148CC_TypeDefinitionIndex = 39384;
+inline static constexpr unsigned int Class_1_786B812390913964_Class_1_F3CCBC66478148CC_TypeDefinitionIndex = 40370;
 
 class Class_1_786B812390913964_Class_1_F3CCBC66478148CC : public ::System::Object
 {
 public:
 	static ::System::Text::StringBuilder** StaticGet_Field_1_0()
 	{
-		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_Class_1_F3CCBC66478148CC_TypeDefinitionIndex)->GetStaticField(0x46070);
+		return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_Class_1_F3CCBC66478148CC_TypeDefinitionIndex)->GetStaticField(0x33EF0);
 	}
 	::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>* Field_1_1; // 0x10
 

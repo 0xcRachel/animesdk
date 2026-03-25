@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_SectionAnimInstance_TypeDefinitionIndex = 54866;
+	inline static constexpr unsigned int UIAdventureMinimap_SectionAnimInstance_TypeDefinitionIndex = 56427;
 
 	struct alignas(4) UIAdventureMinimap_SectionAnimInstance
 	{

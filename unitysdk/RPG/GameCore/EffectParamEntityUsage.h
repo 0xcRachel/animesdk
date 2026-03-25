@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectParamEntityUsage_TypeDefinitionIndex = 18033;
+	inline static constexpr unsigned int EffectParamEntityUsage_TypeDefinitionIndex = 18551;
 
 	enum class EffectParamEntityUsage : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_FIVEDIMKILLPLAYERONTOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x927CDD0)
+#define RPG_CLIENT_FIVEDIMKILLPLAYERONTOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x96F2920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimKillPlayerOnTouch_TypeDefinitionIndex = 47826;
+	inline static constexpr unsigned int FiveDimKillPlayerOnTouch_TypeDefinitionIndex = 48907;
 
 	class FiveDimKillPlayerOnTouch : public ::UnityEngine::MonoBehaviour
 	{

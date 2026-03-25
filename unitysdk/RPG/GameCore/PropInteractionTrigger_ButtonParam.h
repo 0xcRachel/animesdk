@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_425;
+class Class_0_16E4307DCC419505_453;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xA4E7750)
-#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xA4E8930)
-#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0xA4E89E0)
-#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E8920)
+#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xAA281D0)
+#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xAA293B0)
+#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0xAA29460)
+#define RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xAA293A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInteractionTrigger_ButtonParam_TypeDefinitionIndex = 45288;
+	inline static constexpr unsigned int PropInteractionTrigger_ButtonParam_TypeDefinitionIndex = 46349;
 
 	class PropInteractionTrigger_ButtonParam : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_425* _Info; // 0x10
+		::Class_0_16E4307DCC419505_453* _Info; // 0x10
 		::System::UInt32 HostRuntimeID; // 0x18
 
 		::System::Void _ctor()
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::GameCore::PropInteractionTrigger_ButtonParam* Create(::Class_0_16E4307DCC419505_425* info)
+		static ::RPG::GameCore::PropInteractionTrigger_ButtonParam* Create(::Class_0_16E4307DCC419505_453* info)
 		{
-			return ((::RPG::GameCore::PropInteractionTrigger_ButtonParam*(*)(::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_CREATE_OFFSET))(info);
+			return ((::RPG::GameCore::PropInteractionTrigger_ButtonParam*(*)(::Class_0_16E4307DCC419505_453*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINTERACTIONTRIGGER_BUTTONPARAM_CREATE_OFFSET))(info);
 		}
 
 		::System::String* get_IconPath()

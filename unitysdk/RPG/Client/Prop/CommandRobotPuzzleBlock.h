@@ -8,47 +8,47 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_3F07804D8892197E_1_OFFSET UNITYSDK_OFFSET(0x9BA85F0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_3F07804D8892197E_OFFSET UNITYSDK_OFFSET(0x9BA89C0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_66D1CC6071325C2F_OFFSET UNITYSDK_OFFSET(0x9BA86B0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_C714235EE2C7684D_OFFSET UNITYSDK_OFFSET(0x9BA8BD0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKENTER_OFFSET UNITYSDK_OFFSET(0x9BA81E0)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKEXIT_OFFSET UNITYSDK_OFFSET(0x9BA8780)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKINIT_OFFSET UNITYSDK_OFFSET(0x9BA8A90)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKRESET_OFFSET UNITYSDK_OFFSET(0x9BA8880)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x9BA8C50)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9BA8C40)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_3F07804D8892197E_1_OFFSET UNITYSDK_OFFSET(0xA07A190)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_3F07804D8892197E_OFFSET UNITYSDK_OFFSET(0xA07A560)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_66D1CC6071325C2F_OFFSET UNITYSDK_OFFSET(0xA07A250)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_METHOD_5_C714235EE2C7684D_OFFSET UNITYSDK_OFFSET(0xA07A770)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKENTER_OFFSET UNITYSDK_OFFSET(0xA079D80)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKEXIT_OFFSET UNITYSDK_OFFSET(0xA07A320)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKINIT_OFFSET UNITYSDK_OFFSET(0xA07A630)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK_ONBLOCKRESET_OFFSET UNITYSDK_OFFSET(0xA07A420)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0xA07A7F0)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA07A7E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CommandRobotPuzzleBlock_TypeDefinitionIndex = 61773;
+	inline static constexpr unsigned int CommandRobotPuzzleBlock_TypeDefinitionIndex = 63960;
 
 	class CommandRobotPuzzleBlock : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_5_4()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0xF0F0);
-		}
-		static ::System::Int32* StaticGet_Field_5_6()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0xF0F4);
-		}
-		static ::System::Int32* StaticGet_Field_5_3()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0xF0F8);
-		}
-		static ::System::Int32* StaticGet_Field_5_5()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0xF0FC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0x12850);
 		}
 		static ::System::Int32* StaticGet_Field_5_13()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0xF100);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0x12854);
 		}
 		static ::System::Int32* StaticGet_Field_5_12()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0xF104);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0x12858);
+		}
+		static ::System::Int32* StaticGet_Field_5_3()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0x1285C);
+		}
+		static ::System::Int32* StaticGet_Field_5_6()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0x12860);
+		}
+		static ::System::Int32* StaticGet_Field_5_5()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CommandRobotPuzzleBlock_TypeDefinitionIndex)->GetStaticField(0x12864);
 		}
 		// static const ::System::String* Field_5_7; // 0x0
 		// static const ::System::String* Field_5_8; // 0x0

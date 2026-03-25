@@ -4,12 +4,12 @@
 
 namespace HedgehogTeam::EasyTouch { class Finger; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_STOP_OFFSET UNITYSDK_OFFSET(0x112F40E0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP__CTOR_OFFSET UNITYSDK_OFFSET(0x112EB240)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP_STOP_OFFSET UNITYSDK_OFFSET(0x11A7AF40)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DOUBLETAP__CTOR_OFFSET UNITYSDK_OFFSET(0x11A72190)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_DoubleTap_TypeDefinitionIndex = 30428;
+	inline static constexpr unsigned int EasyTouch_DoubleTap_TypeDefinitionIndex = 31303;
 
 	class EasyTouch_DoubleTap : public ::System::Object
 	{

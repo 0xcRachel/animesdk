@@ -5,24 +5,24 @@
 namespace RPG::Client { class ActivityTelevisionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8BD7AE0)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8BD7B10)
-#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C___INITMODULERELATEDMISSIONDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0x8BD7B20)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9027040)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9027070)
+#define RPG_CLIENT_ACTIVITYTELEVISIONMODULE___C___INITMODULERELATEDMISSIONDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0x9027080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionModule___c_TypeDefinitionIndex = 49201;
+	inline static constexpr unsigned int ActivityTelevisionModule___c_TypeDefinitionIndex = 50334;
 
 	class ActivityTelevisionModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityTelevisionModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityTelevisionModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x26860);
-		}
 		static ::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x26868);
+			return (::System::Func_2<::RPG::Client::ActivityTelevisionData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x2B8B0);
+		}
+		static ::RPG::Client::ActivityTelevisionModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityTelevisionModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionModule___c_TypeDefinitionIndex)->GetStaticField(0x2B8B8);
 		}
 
 		static ::System::Void _cctor()

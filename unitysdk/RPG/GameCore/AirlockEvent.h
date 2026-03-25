@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AirlockEvent_TypeDefinitionIndex = 45263;
+	inline static constexpr unsigned int AirlockEvent_TypeDefinitionIndex = 46324;
 
 	enum class AirlockEvent : ::System::Int32
 	{

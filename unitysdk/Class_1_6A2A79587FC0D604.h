@@ -7,11 +7,11 @@ namespace RPG::Client { class PlanetFesSkillPhase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6A2A79587FC0D604_METHOD_1_92C6D5BD32ADBDED_OFFSET UNITYSDK_OFFSET(0x9212620)
-#define CLASS_1_6A2A79587FC0D604_METHOD_1_A9F929263783B0A7_OFFSET UNITYSDK_OFFSET(0x9211DD0)
-#define CLASS_1_6A2A79587FC0D604__CTOR_OFFSET UNITYSDK_OFFSET(0x92129F0)
+#define CLASS_1_6A2A79587FC0D604_METHOD_1_92C6D5BD32ADBDED_OFFSET UNITYSDK_OFFSET(0x99DAEB0)
+#define CLASS_1_6A2A79587FC0D604_METHOD_1_A9F929263783B0A7_OFFSET UNITYSDK_OFFSET(0x99DA660)
+#define CLASS_1_6A2A79587FC0D604__CTOR_OFFSET UNITYSDK_OFFSET(0x99DB280)
 
-inline static constexpr unsigned int Class_1_6A2A79587FC0D604_TypeDefinitionIndex = 53091;
+inline static constexpr unsigned int Class_1_6A2A79587FC0D604_TypeDefinitionIndex = 54229;
 
 class Class_1_6A2A79587FC0D604 : public ::System::Object
 {

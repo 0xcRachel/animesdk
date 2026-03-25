@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMiniGameCharacterType_TypeDefinitionIndex = 15119;
+	inline static constexpr unsigned int HipplenMiniGameCharacterType_TypeDefinitionIndex = 15375;
 
 	enum class HipplenMiniGameCharacterType : ::System::Int32
 	{

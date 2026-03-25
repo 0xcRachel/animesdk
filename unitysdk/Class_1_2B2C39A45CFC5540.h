@@ -7,20 +7,20 @@ class Class_1_BB505CFCA176BF03;
 namespace RPG::GameCore { class StageMonsterWave; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2B2C39A45CFC5540_METHOD_1_29EEB1B5E4A8BD14_OFFSET UNITYSDK_OFFSET(0x9462CE0)
-#define CLASS_1_2B2C39A45CFC5540_METHOD_1_6EE541EDC1E173FB_OFFSET UNITYSDK_OFFSET(0x9462AC0)
-#define CLASS_1_2B2C39A45CFC5540_METHOD_1_A26BD4F5F85AAFF9_OFFSET UNITYSDK_OFFSET(0x94629B0)
-#define CLASS_1_2B2C39A45CFC5540__CTOR_OFFSET UNITYSDK_OFFSET(0x9462CA0)
+#define CLASS_1_2B2C39A45CFC5540_METHOD_1_6EE541EDC1E173FB_OFFSET UNITYSDK_OFFSET(0x1054DA60)
+#define CLASS_1_2B2C39A45CFC5540_METHOD_1_A26BD4F5F85AAFF9_OFFSET UNITYSDK_OFFSET(0x1054D950)
+#define CLASS_1_2B2C39A45CFC5540_METHOD_1_F888D3DBBA4A1060_OFFSET UNITYSDK_OFFSET(0x1054DC80)
+#define CLASS_1_2B2C39A45CFC5540__CTOR_OFFSET UNITYSDK_OFFSET(0x1054DC40)
 
-inline static constexpr unsigned int Class_1_2B2C39A45CFC5540_TypeDefinitionIndex = 44078;
+inline static constexpr unsigned int Class_1_2B2C39A45CFC5540_TypeDefinitionIndex = 45138;
 
 class Class_1_2B2C39A45CFC5540 : public ::System::Object
 {
 public:
-	::Class_1_9AD7EC315F99B05E* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_BB505CFCA176BF03*>* Field_1_0; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
+	::System::Collections::Generic::List_1<::Class_1_BB505CFCA176BF03*>* Field_1_0; // 0x10
+	::Class_1_9AD7EC315F99B05E* Field_1_1; // 0x18
+	::System::UInt32 Field_1_3; // 0x20
+	::System::UInt32 Field_1_2; // 0x24
 
 	::System::Void _ctor()
 	{
@@ -37,8 +37,8 @@ public:
 		return ((::Class_1_2B2C39A45CFC5540*(*)(::RPG::GameCore::StageMonsterWave*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2B2C39A45CFC5540_METHOD_1_6EE541EDC1E173FB_OFFSET))(a1, a2);
 	}
 
-	static ::Il2CppArray<::Class_1_2B2C39A45CFC5540*>* Method_1_29EEB1B5E4A8BD14(::Il2CppArray<::RPG::GameCore::StageMonsterWave*>* a1)
+	static ::Il2CppArray<::Class_1_2B2C39A45CFC5540*>* Method_1_F888D3DBBA4A1060(::Il2CppArray<::RPG::GameCore::StageMonsterWave*>* a1)
 	{
-		return ((::Il2CppArray<::Class_1_2B2C39A45CFC5540*>*(*)(::Il2CppArray<::RPG::GameCore::StageMonsterWave*>*))((::PBYTE)hIl2Cpp + CLASS_1_2B2C39A45CFC5540_METHOD_1_29EEB1B5E4A8BD14_OFFSET))(a1);
+		return ((::Il2CppArray<::Class_1_2B2C39A45CFC5540*>*(*)(::Il2CppArray<::RPG::GameCore::StageMonsterWave*>*))((::PBYTE)hIl2Cpp + CLASS_1_2B2C39A45CFC5540_METHOD_1_F888D3DBBA4A1060_OFFSET))(a1);
 	}
 };

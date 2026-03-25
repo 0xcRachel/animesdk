@@ -6,17 +6,17 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define CLASS_1_58C07D56FC57643C__CTOR_OFFSET UNITYSDK_OFFSET(0x84D2DE0)
+#define CLASS_1_58C07D56FC57643C__CTOR_OFFSET UNITYSDK_OFFSET(0x10988D20)
 
-inline static constexpr unsigned int Class_1_58C07D56FC57643C_TypeDefinitionIndex = 55501;
+inline static constexpr unsigned int Class_1_58C07D56FC57643C_TypeDefinitionIndex = 57066;
 
 class Class_1_58C07D56FC57643C : public ::System::Object
 {
 public:
 	::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* Field_1_3; // 0x10
 	::EnviromentSystem::EnviromentProfile* Field_1_0; // 0x18
-	::RPG::GameCore::EnviromentControlPriority Field_1_1; // 0x20
-	::System::Int32 Field_1_2; // 0x24
+	::System::Int32 Field_1_2; // 0x20
+	::RPG::GameCore::EnviromentControlPriority Field_1_1; // 0x24
 
 	::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1, ::RPG::GameCore::EnviromentControlPriority a2, ::System::Int32 a3, ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* a4)
 	{

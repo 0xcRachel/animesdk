@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_59664D23FCBEAD63_DownloadType_TypeDefinitionIndex = 47023;
+inline static constexpr unsigned int Class_2_59664D23FCBEAD63_DownloadType_TypeDefinitionIndex = 48104;
 
 enum class Class_2_59664D23FCBEAD63_DownloadType : ::System::Int32
 {

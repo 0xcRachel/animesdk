@@ -5,30 +5,30 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x17CEF220)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CEF1B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17CEF1D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CEF1C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CEF210)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x185067E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x18506770)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x18506790)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x18506780)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATECHECKEDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x185067D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NegateCheckedInstruction_TypeDefinitionIndex = 3529;
+	inline static constexpr unsigned int NegateCheckedInstruction_TypeDefinitionIndex = 3538;
 
 	class NegateCheckedInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int64()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NegateCheckedInstruction_TypeDefinitionIndex)->GetStaticField(0x18E10);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NegateCheckedInstruction_TypeDefinitionIndex)->GetStaticField(0x2AEC0);
 		}
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int32()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NegateCheckedInstruction_TypeDefinitionIndex)->GetStaticField(0x18E18);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NegateCheckedInstruction_TypeDefinitionIndex)->GetStaticField(0x2AEC8);
 		}
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int16()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NegateCheckedInstruction_TypeDefinitionIndex)->GetStaticField(0x18E20);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(NegateCheckedInstruction_TypeDefinitionIndex)->GetStaticField(0x2AED0);
 		}
 
 		::System::Void _ctor()

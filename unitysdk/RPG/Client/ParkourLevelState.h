@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourLevelState_TypeDefinitionIndex = 49072;
+	inline static constexpr unsigned int ParkourLevelState_TypeDefinitionIndex = 50207;
 
 	enum class ParkourLevelState : ::System::Int32
 	{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16DEF4B0)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16DEF330)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16DEF000)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16DEF2D0)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16DEF680)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16DEF080)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16DEF6C0)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DEF8A0)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16DEFC80)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16DEFF90)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16DEF800)
-#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16DEF760)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x175BC640)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x175BC4C0)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x175BC190)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x175BC460)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x175BC810)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x175BC210)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x175BC850)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x175BCA30)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x175BCE10)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x175BD120)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x175BC990)
+#define RPG_GAMECORE_RESTAURANTRECIPEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x175BC8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantRecipeExcelTable_TypeDefinitionIndex = 10517;
+	inline static constexpr unsigned int RestaurantRecipeExcelTable_TypeDefinitionIndex = 10585;
 
 	class RestaurantRecipeExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantRecipeRow*>** StaticGet_dataDict_()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantRecipeRow*>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2ADC0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x17580);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2ADC8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x17588);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantRecipeRow*>** StaticGet_dataDict_()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x2ADD0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x9960);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantRecipeRow*>**)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x17590);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x9961);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x91C0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RestaurantRecipeExcelTable_TypeDefinitionIndex)->GetStaticField(0x91C1);
 		}
 
 		static ::System::Void _cctor()

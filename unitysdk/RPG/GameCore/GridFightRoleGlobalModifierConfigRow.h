@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B44C00)
-#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B44D90)
+#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17293300)
+#define RPG_GAMECORE_GRIDFIGHTROLEGLOBALMODIFIERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17293490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleGlobalModifierConfigRow_TypeDefinitionIndex = 12332;
+	inline static constexpr unsigned int GridFightRoleGlobalModifierConfigRow_TypeDefinitionIndex = 12402;
 
 	class GridFightRoleGlobalModifierConfigRow : public ::System::Object
 	{

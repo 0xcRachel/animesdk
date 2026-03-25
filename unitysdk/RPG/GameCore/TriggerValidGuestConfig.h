@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TriggerValidGuestSingleTargetConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TRIGGERVALIDGUESTCONFIG_METHOD_2_2F05C136FAF6EF53_OFFSET UNITYSDK_OFFSET(0x17128700)
-#define RPG_GAMECORE_TRIGGERVALIDGUESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17128A30)
+#define RPG_GAMECORE_TRIGGERVALIDGUESTCONFIG_METHOD_2_2F05C136FAF6EF53_OFFSET UNITYSDK_OFFSET(0x178E46E0)
+#define RPG_GAMECORE_TRIGGERVALIDGUESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178E4A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerValidGuestConfig_TypeDefinitionIndex = 21600;
+	inline static constexpr unsigned int TriggerValidGuestConfig_TypeDefinitionIndex = 22162;
 
 	class TriggerValidGuestConfig : public ::RPG::GameCore::JsonConfig
 	{

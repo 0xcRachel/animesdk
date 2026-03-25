@@ -7,21 +7,21 @@ namespace RPG::GameCore { class MonsterDieCheck; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_C3EF1B3232186692_DISPOSE_OFFSET UNITYSDK_OFFSET(0x111C3CE0)
-#define CLASS_2_C3EF1B3232186692_METHOD_2_A47BB82463F77F6E_OFFSET UNITYSDK_OFFSET(0x111C3ED0)
-#define CLASS_2_C3EF1B3232186692_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x111C3D20)
-#define CLASS_2_C3EF1B3232186692_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x111C4140)
-#define CLASS_2_C3EF1B3232186692_TICK_OFFSET UNITYSDK_OFFSET(0x111C41C0)
-#define CLASS_2_C3EF1B3232186692__CTOR_OFFSET UNITYSDK_OFFSET(0x111C3C90)
+#define CLASS_2_C3EF1B3232186692_DISPOSE_OFFSET UNITYSDK_OFFSET(0x113B2C90)
+#define CLASS_2_C3EF1B3232186692_METHOD_2_A47BB82463F77F6E_OFFSET UNITYSDK_OFFSET(0x113B2E80)
+#define CLASS_2_C3EF1B3232186692_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113B2CD0)
+#define CLASS_2_C3EF1B3232186692_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x113B30F0)
+#define CLASS_2_C3EF1B3232186692_TICK_OFFSET UNITYSDK_OFFSET(0x113B3170)
+#define CLASS_2_C3EF1B3232186692__CTOR_OFFSET UNITYSDK_OFFSET(0x113B2C40)
 
-inline static constexpr unsigned int Class_2_C3EF1B3232186692_TypeDefinitionIndex = 45901;
+inline static constexpr unsigned int Class_2_C3EF1B3232186692_TypeDefinitionIndex = 46969;
 
 class Class_2_C3EF1B3232186692 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_2; // 0x18
-	::RPG::GameCore::MonsterDieCheck* Field_2_0; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
+	::RPG::GameCore::MonsterDieCheck* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonsterDieCheck* a2)
 	{

@@ -10,27 +10,27 @@
 namespace RPG::Client::ActivityAlley { class AlleyPackAnchor; }
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 
-#define CLASS_1_AE54088C838A17D2_METHOD_1_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0xD202B00)
-#define CLASS_1_AE54088C838A17D2_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xD202CB0)
-#define CLASS_1_AE54088C838A17D2_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xD202CF0)
-#define CLASS_1_AE54088C838A17D2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD202C70)
-#define CLASS_1_AE54088C838A17D2_METHOD_1_D15708DF941619D4_OFFSET UNITYSDK_OFFSET(0xD202B30)
-#define CLASS_1_AE54088C838A17D2_ONSELECT_OFFSET UNITYSDK_OFFSET(0xD202C30)
-#define CLASS_1_AE54088C838A17D2__CTOR_OFFSET UNITYSDK_OFFSET(0xD202D30)
+#define CLASS_1_AE54088C838A17D2_METHOD_1_7DFB4B9C80198D98_OFFSET UNITYSDK_OFFSET(0x1149D860)
+#define CLASS_1_AE54088C838A17D2_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1149DA10)
+#define CLASS_1_AE54088C838A17D2_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x1149DA50)
+#define CLASS_1_AE54088C838A17D2_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1149D9D0)
+#define CLASS_1_AE54088C838A17D2_METHOD_1_D15708DF941619D4_OFFSET UNITYSDK_OFFSET(0x1149D890)
+#define CLASS_1_AE54088C838A17D2_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1149D990)
+#define CLASS_1_AE54088C838A17D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1149DA90)
 
-inline static constexpr unsigned int Class_1_AE54088C838A17D2_TypeDefinitionIndex = 59005;
+inline static constexpr unsigned int Class_1_AE54088C838A17D2_TypeDefinitionIndex = 60757;
 
 class Class_1_AE54088C838A17D2 : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityAlley::AlleyPackGoodData* Field_1_4; // 0x10
-	::RPG::Client::ActivityAlley::AlleyPackAnchor* Field_1_3; // 0x18
-	::UnityEngine::Vector3 Field_1_7; // 0x20
-	::System::UInt32 Field_1_2; // 0x2C
-	::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> Field_1_6; // 0x30
-	::RPG::GameCore::AlleyPackAnchorType Field_1_0; // 0x3C
-	::RPG::Client::ActivityAlley::AlleyPackAnchorState Field_1_5; // 0x40
-	::RPG::Client::ActivityAlley::AlleyPackAnchorDirType Field_1_1; // 0x44
+	::RPG::Client::ActivityAlley::AlleyPackAnchor* Field_1_3; // 0x10
+	::RPG::Client::ActivityAlley::AlleyPackGoodData* Field_1_4; // 0x18
+	::System::UInt32 Field_1_2; // 0x20
+	::UnityEngine::Vector3 Field_1_7; // 0x24
+	::RPG::Client::ActivityAlley::AlleyPackAnchorState Field_1_5; // 0x30
+	::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> Field_1_6; // 0x34
+	::RPG::Client::ActivityAlley::AlleyPackAnchorDirType Field_1_1; // 0x40
+	::RPG::GameCore::AlleyPackAnchorType Field_1_0; // 0x44
 
 	::System::Void _ctor()
 	{

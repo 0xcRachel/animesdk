@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTrainVisitorIsMeet; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_940DF6661243DDC3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10C503A0)
-#define CLASS_3_940DF6661243DDC3__CTOR_OFFSET UNITYSDK_OFFSET(0x10C50370)
+#define CLASS_3_940DF6661243DDC3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10686D60)
+#define CLASS_3_940DF6661243DDC3__CTOR_OFFSET UNITYSDK_OFFSET(0x10686D30)
 
-inline static constexpr unsigned int Class_3_940DF6661243DDC3_TypeDefinitionIndex = 41988;
+inline static constexpr unsigned int Class_3_940DF6661243DDC3_TypeDefinitionIndex = 43037;
 
 class Class_3_940DF6661243DDC3 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTrainVisitorIsMeet*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RhythmType_TypeDefinitionIndex = 11632;
+	inline static constexpr unsigned int RhythmType_TypeDefinitionIndex = 11702;
 
 	enum class RhythmType : ::System::Int32
 	{

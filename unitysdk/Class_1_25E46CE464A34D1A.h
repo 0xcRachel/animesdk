@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_25E46CE464A34D1A__CTOR_OFFSET UNITYSDK_OFFSET(0x1619EAB0)
+#define CLASS_1_25E46CE464A34D1A__CTOR_OFFSET UNITYSDK_OFFSET(0x16784A40)
 
-inline static constexpr unsigned int Class_1_25E46CE464A34D1A_TypeDefinitionIndex = 31805;
+inline static constexpr unsigned int Class_1_25E46CE464A34D1A_TypeDefinitionIndex = 32715;
 
 class Class_1_25E46CE464A34D1A : public ::System::Object
 {

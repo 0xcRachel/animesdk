@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OpticalIllusionSetFinalPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C9C719E3533F67DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFE3B9B0)
-#define CLASS_3_C9C719E3533F67DA__CTOR_OFFSET UNITYSDK_OFFSET(0xFE3B980)
+#define CLASS_3_C9C719E3533F67DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1EB310)
+#define CLASS_3_C9C719E3533F67DA__CTOR_OFFSET UNITYSDK_OFFSET(0xA1EB2E0)
 
-inline static constexpr unsigned int Class_3_C9C719E3533F67DA_TypeDefinitionIndex = 41882;
+inline static constexpr unsigned int Class_3_C9C719E3533F67DA_TypeDefinitionIndex = 42931;
 
 class Class_3_C9C719E3533F67DA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OpticalIllusionSetFinalPoint*>
 {

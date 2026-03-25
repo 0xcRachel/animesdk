@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_STAGEHARMONYCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA79C0)
+#define RPG_CLIENT_STAGEHARMONYCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C7E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 56558;
+	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 58143;
 
 	class StageHarmonyCurve : public ::System::Object
 	{

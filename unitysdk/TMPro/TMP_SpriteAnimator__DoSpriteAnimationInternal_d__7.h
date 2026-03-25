@@ -7,36 +7,36 @@
 namespace TMPro { class TMP_SpriteAnimator; }
 namespace TMPro { class TMP_SpriteAsset; }
 
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1812AB00)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1812B6F0)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1812B750)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1812B700)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1812AAB0)
-#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7__CTOR_OFFSET UNITYSDK_OFFSET(0x1812AA60)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18952CA0)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x189538B0)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18953910)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x189538C0)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18952C50)
+#define TMPRO_TMP_SPRITEANIMATOR__DOSPRITEANIMATIONINTERNAL_D__7__CTOR_OFFSET UNITYSDK_OFFSET(0x18952C00)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7_TypeDefinitionIndex = 33381;
+	inline static constexpr unsigned int TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7_TypeDefinitionIndex = 34370;
 
 	class TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 : public ::System::Object
 	{
 	public:
-		::TMPro::TMP_SpriteAsset* spriteAsset; // 0x10
-		::System::Object* __2__current; // 0x18
-		::TMPro::TMP_CharacterInfo _charInfo_5__3; // 0x20
-		::TMPro::TMP_SpriteAnimator* __4__this; // 0x198
-		::TMPro::TMP_MeshInfo _meshInfo_5__6; // 0x1A0
-		::System::Int32 __1__state; // 0x1F0
-		::System::Int32 start; // 0x1F4
-		::System::Int32 _currentFrame_5__2; // 0x1F8
-		::System::Int32 _vertexIndex_5__5; // 0x1FC
-		::System::Single _baseSpriteScale_5__7; // 0x200
-		::System::Int32 framerate; // 0x204
-		::System::Int32 end; // 0x208
-		::System::Int32 _materialIndex_5__4; // 0x20C
-		::System::Single _elapsedTime_5__8; // 0x210
-		::System::Int32 currentCharacter; // 0x214
-		::System::Single _targetTime_5__9; // 0x218
+		::TMPro::TMP_CharacterInfo _charInfo_5__3; // 0x10
+		::TMPro::TMP_SpriteAsset* spriteAsset; // 0x188
+		::TMPro::TMP_MeshInfo _meshInfo_5__6; // 0x190
+		::System::Object* __2__current; // 0x1E0
+		::TMPro::TMP_SpriteAnimator* __4__this; // 0x1E8
+		::System::Single _targetTime_5__9; // 0x1F0
+		::System::Int32 _currentFrame_5__2; // 0x1F4
+		::System::Int32 currentCharacter; // 0x1F8
+		::System::Int32 __1__state; // 0x1FC
+		::System::Int32 framerate; // 0x200
+		::System::Single _baseSpriteScale_5__7; // 0x204
+		::System::Int32 _vertexIndex_5__5; // 0x208
+		::System::Single _elapsedTime_5__8; // 0x20C
+		::System::Int32 start; // 0x210
+		::System::Int32 end; // 0x214
+		::System::Int32 _materialIndex_5__4; // 0x218
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

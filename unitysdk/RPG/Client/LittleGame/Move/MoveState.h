@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Move
 {
-	inline static constexpr unsigned int MoveState_TypeDefinitionIndex = 32737;
+	inline static constexpr unsigned int MoveState_TypeDefinitionIndex = 33669;
 
 	enum class MoveState : ::System::Int32
 	{
@@ -45,10 +45,12 @@ namespace RPG::Client::LittleGame::Move
 		PendingResetProtection = 35,
 		PendingTeleportProtection = 36,
 		TeleportProtection = 37,
-		FRVReset = 38,
-		FRVWorldRotate = 39,
-		FRVCrushToDeath = 40,
-		FRVCrossTunnel = 41,
-		FRVResetProtected = 42,
+		DashPrepare = 38,
+		Dash = 39,
+		FRVReset = 40,
+		FRVWorldRotate = 41,
+		FRVCrushToDeath = 42,
+		FRVCrossTunnel = 43,
+		FRVResetProtected = 44,
 	};
 }

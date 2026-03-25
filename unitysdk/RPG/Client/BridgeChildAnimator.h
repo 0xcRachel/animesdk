@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_BRIDGECHILDANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x8E0F7C0)
+#define RPG_CLIENT_BRIDGECHILDANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9219540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BridgeChildAnimator_TypeDefinitionIndex = 55962;
+	inline static constexpr unsigned int BridgeChildAnimator_TypeDefinitionIndex = 57524;
 
 	class BridgeChildAnimator : public ::System::Object
 	{

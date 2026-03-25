@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_9100C4ECB2108214;
-class Class_1_9100C4ECB2108214_Class_1_084C324841B5505D;
+class Class_1_92B1BD6FC8375724;
+class Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D;
 class Class_1_DDB796240B07BA45;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9372E30)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__0_OFFSET UNITYSDK_OFFSET(0x9377E80)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__1_OFFSET UNITYSDK_OFFSET(0x9377EA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0x9377ED0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98307F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__0_OFFSET UNITYSDK_OFFSET(0x9836D10)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__1_OFFSET UNITYSDK_OFFSET(0x9836D30)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS12_0___SENDGAMEREFHTTPREQ_B__2_OFFSET UNITYSDK_OFFSET(0x9836D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass12_0_TypeDefinitionIndex = 51386;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass12_0_TypeDefinitionIndex = 52519;
 
 	class GridFightGameRef___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::Class_1_9100C4ECB2108214* req; // 0x10
-		::System::Func_2<::System::String*, ::System::Object*>* getJsonBody; // 0x18
-		::System::Action_1<::Class_1_DDB796240B07BA45*>* onResponce; // 0x20
-		::Class_1_9100C4ECB2108214_Class_1_084C324841B5505D* sendParams; // 0x28
+		::System::Func_2<::System::String*, ::System::Object*>* getJsonBody; // 0x10
+		::System::Action_1<::Class_1_DDB796240B07BA45*>* onResponce; // 0x18
+		::Class_1_92B1BD6FC8375724* req; // 0x20
+		::Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D* sendParams; // 0x28
 
 		::System::Void _ctor()
 		{

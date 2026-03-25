@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_17_TypeDefinitionIndex = 56251;
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_17_TypeDefinitionIndex = 57822;
 
 	class Effect_InstanceArrayBehavior_Class_0_16E7307DCC43CB2C_17
 	{

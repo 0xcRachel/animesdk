@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_CHARACTERDIRECTDISSOLVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA5FCBB0)
+#define RPGTOOLS_TIMELINE_CHARACTERDIRECTDISSOLVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xAB41DF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterDirectDissolveTrack_TypeDefinitionIndex = 37841;
+	inline static constexpr unsigned int CharacterDirectDissolveTrack_TypeDefinitionIndex = 38806;
 
 	class CharacterDirectDissolveTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

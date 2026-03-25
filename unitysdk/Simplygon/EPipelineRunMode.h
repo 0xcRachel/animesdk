@@ -3,7 +3,7 @@
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int EPipelineRunMode_TypeDefinitionIndex = 28672;
+	inline static constexpr unsigned int EPipelineRunMode_TypeDefinitionIndex = 29547;
 
 	enum class EPipelineRunMode : ::System::Int32
 	{

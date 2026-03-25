@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG_METHOD_2_70A216BBA3C8541A_OFFSET UNITYSDK_OFFSET(0x169D9500)
-#define RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x169D9740)
+#define RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG_METHOD_2_6F3AD86B8E198763_OFFSET UNITYSDK_OFFSET(0x17155590)
+#define RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17155800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomMazeBattleTransitionConfig_TypeDefinitionIndex = 15923;
+	inline static constexpr unsigned int CustomMazeBattleTransitionConfig_TypeDefinitionIndex = 16200;
 
 	class CustomMazeBattleTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_70A216BBA3C8541A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomMazeBattleTransitionConfig*& a2)
+		static ::System::Void Method_2_6F3AD86B8E198763(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomMazeBattleTransitionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomMazeBattleTransitionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG_METHOD_2_70A216BBA3C8541A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomMazeBattleTransitionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMMAZEBATTLETRANSITIONCONFIG_METHOD_2_6F3AD86B8E198763_OFFSET))(a1, a2);
 		}
 	};
 }

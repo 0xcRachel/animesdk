@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MISSIONCHRONICLEFINISHCONCLUSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CAD8F0)
-#define RPG_GAMECORE_MISSIONCHRONICLEFINISHCONCLUSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CADA50)
+#define RPG_GAMECORE_MISSIONCHRONICLEFINISHCONCLUSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17434440)
+#define RPG_GAMECORE_MISSIONCHRONICLEFINISHCONCLUSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174345A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionChronicleFinishConclusionRow_TypeDefinitionIndex = 12845;
+	inline static constexpr unsigned int MissionChronicleFinishConclusionRow_TypeDefinitionIndex = 12916;
 
 	class MissionChronicleFinishConclusionRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID MissionConclusion; // 0x10
-		::System::UInt32 MissionID; // 0x20
+		::System::UInt32 MissionID; // 0x10
+		::RPG::Client::TextID MissionConclusion; // 0x18
 
 		::System::Void _ctor()
 		{

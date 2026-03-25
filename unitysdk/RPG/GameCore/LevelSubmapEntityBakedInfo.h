@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BBDE20)
-#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BBDF60)
+#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173613A0)
+#define RPG_GAMECORE_LEVELSUBMAPENTITYBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173614E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSubmapEntityBakedInfo_TypeDefinitionIndex = 15456;
+	inline static constexpr unsigned int LevelSubmapEntityBakedInfo_TypeDefinitionIndex = 15733;
 
 	class LevelSubmapEntityBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

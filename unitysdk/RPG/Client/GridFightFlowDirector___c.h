@@ -8,69 +8,69 @@ namespace RPG::Client { class GridFightFlowDirector_SettleResultEvent; }
 namespace RPG::Client { class GridFightFlowDirector_StageHintClosedEvent; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93671F0)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9367220)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_0_OFFSET UNITYSDK_OFFSET(0x9367230)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_1_OFFSET UNITYSDK_OFFSET(0x9367470)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_2_OFFSET UNITYSDK_OFFSET(0x93675C0)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_3_OFFSET UNITYSDK_OFFSET(0x9367600)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_4_OFFSET UNITYSDK_OFFSET(0x9367640)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_5_OFFSET UNITYSDK_OFFSET(0x9367720)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_6_OFFSET UNITYSDK_OFFSET(0x9367820)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_7_OFFSET UNITYSDK_OFFSET(0x9367840)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_8_OFFSET UNITYSDK_OFFSET(0x9367A30)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_9_OFFSET UNITYSDK_OFFSET(0x9367B90)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9824CD0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9824D00)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_0_OFFSET UNITYSDK_OFFSET(0x9824D10)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_1_OFFSET UNITYSDK_OFFSET(0x9824F60)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_2_OFFSET UNITYSDK_OFFSET(0x98250C0)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_3_OFFSET UNITYSDK_OFFSET(0x9825100)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_4_OFFSET UNITYSDK_OFFSET(0x9825140)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_5_OFFSET UNITYSDK_OFFSET(0x9825230)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_6_OFFSET UNITYSDK_OFFSET(0x9825330)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_7_OFFSET UNITYSDK_OFFSET(0x9825350)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_8_OFFSET UNITYSDK_OFFSET(0x9825540)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C___INITSTATES_B__42_9_OFFSET UNITYSDK_OFFSET(0x98256A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector___c_TypeDefinitionIndex = 51368;
+	inline static constexpr unsigned int GridFightFlowDirector___c_TypeDefinitionIndex = 52501;
 
 	class GridFightFlowDirector___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_2()
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_SettleResultEvent*>** StaticGet___9__42_9()
 		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448B0);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>** StaticGet___9__42_8()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448B8);
-		}
-		static ::RPG::Client::GridFightFlowDirector___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightFlowDirector___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448C0);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_1()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448C8);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448D0);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>** StaticGet___9__42_7()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448D8);
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_SettleResultEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFA0);
 		}
 		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>** StaticGet___9__42_5()
 		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448E0);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>** StaticGet___9__42_6()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448E8);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_3()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448F0);
-		}
-		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_SettleResultEvent*>** StaticGet___9__42_9()
-		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_SettleResultEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x448F8);
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFA8);
 		}
 		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_4()
 		{
-			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x44900);
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFB0);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>** StaticGet___9__42_7()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFB8);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>** StaticGet___9__42_8()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_BattleResultClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFC0);
+		}
+		static ::RPG::Client::GridFightFlowDirector___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightFlowDirector___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFC8);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFD0);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFD8);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_3()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFE0);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>** StaticGet___9__42_6()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_StageHintClosedEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFE8);
+		}
+		static ::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>** StaticGet___9__42_2()
+		{
+			return (::System::Predicate_1<::RPG::Client::GridFightFlowDirector_PendingActionUpdateEvent*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector___c_TypeDefinitionIndex)->GetStaticField(0x1AFF0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectAudioEmitterType_TypeDefinitionIndex = 55738;
+	inline static constexpr unsigned int MonoEffectAudioEmitterType_TypeDefinitionIndex = 57303;
 
 	enum class MonoEffectAudioEmitterType : ::System::Int32
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_2_9C972AC88E9A3A3E_CLASS_1_A956623F6B00A1D9__CTOR_OFFSET UNITYSDK_OFFSET(0x11155BA0)
+#define CLASS_2_9C972AC88E9A3A3E_CLASS_1_A956623F6B00A1D9__CTOR_OFFSET UNITYSDK_OFFSET(0xF3612E0)
 
-inline static constexpr unsigned int Class_2_9C972AC88E9A3A3E_Class_1_A956623F6B00A1D9_TypeDefinitionIndex = 57293;
+inline static constexpr unsigned int Class_2_9C972AC88E9A3A3E_Class_1_A956623F6B00A1D9_TypeDefinitionIndex = 58892;
 
 class Class_2_9C972AC88E9A3A3E_Class_1_A956623F6B00A1D9 : public ::System::Object
 {

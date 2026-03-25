@@ -7,37 +7,37 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Serialization { class TypeData; }
 
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_FINDPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x17DAA500)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETARRAYNAME_OFFSET UNITYSDK_OFFSET(0x17DA4FA0)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x17DAA2E0)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x17DAA280)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x17DA9600)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_OFFSET UNITYSDK_OFFSET(0x17DA49E0)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_PARSEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x17DAA5C0)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DA6CF0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_FINDPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x185D9E30)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETARRAYNAME_OFFSET UNITYSDK_OFFSET(0x185D48E0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x185D9C10)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x185D9BB0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x185D8F30)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_OFFSET UNITYSDK_OFFSET(0x185D4320)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_PARSEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x185D9EF0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x185D6620)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int TypeTranslator_TypeDefinitionIndex = 1978;
+	inline static constexpr unsigned int TypeTranslator_TypeDefinitionIndex = 1983;
 
 	class TypeTranslator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Hashtable** StaticGet_nameCache()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0xFF80);
-		}
-		static ::System::Collections::Hashtable** StaticGet_primitiveTypes()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0xFF88);
-		}
 		static ::System::Collections::Hashtable** StaticGet_nullableTypes()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0xFF90);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0x16B30);
+		}
+		static ::System::Collections::Hashtable** StaticGet_nameCache()
+		{
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0x16B38);
 		}
 		static ::System::Collections::Hashtable** StaticGet_primitiveArrayTypes()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0xFF98);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0x16B40);
+		}
+		static ::System::Collections::Hashtable** StaticGet_primitiveTypes()
+		{
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(TypeTranslator_TypeDefinitionIndex)->GetStaticField(0x16B48);
 		}
 
 		static ::System::Void _cctor()

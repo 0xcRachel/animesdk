@@ -6,13 +6,13 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_ANIMATIONEXTENSIONS_RESETCLIPS_OFFSET UNITYSDK_OFFSET(0x8C7EFA0)
-#define RPG_CLIENT_ANIMATIONEXTENSIONS_WAITANIMATIONEND_OFFSET UNITYSDK_OFFSET(0x8C7ED80)
-#define RPG_CLIENT_ANIMATIONEXTENSIONS_WAITANIMENDCOROUTINE_OFFSET UNITYSDK_OFFSET(0x8C7EF00)
+#define RPG_CLIENT_ANIMATIONEXTENSIONS_RESETCLIPS_OFFSET UNITYSDK_OFFSET(0x90D01A0)
+#define RPG_CLIENT_ANIMATIONEXTENSIONS_WAITANIMATIONEND_OFFSET UNITYSDK_OFFSET(0x90CFF80)
+#define RPG_CLIENT_ANIMATIONEXTENSIONS_WAITANIMENDCOROUTINE_OFFSET UNITYSDK_OFFSET(0x90D0100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationExtensions_TypeDefinitionIndex = 58009;
+	inline static constexpr unsigned int AnimationExtensions_TypeDefinitionIndex = 59636;
 
 	class AnimationExtensions : public ::System::Object
 	{

@@ -18,16 +18,16 @@ namespace UnityChan { class SpringManager; }
 namespace UnityChan { class SpringManager_Class_1_44494F1EF855DA72; }
 namespace UnityEngine { class Transform; }
 
-#define STRUCT_2_9FC3BF6B16C6AFE6_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD7240)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_407EB359E868CD78_OFFSET UNITYSDK_OFFSET(0xD7220)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_86214CC42818EBDF_OFFSET UNITYSDK_OFFSET(0xD7210)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_9BC4F885A8B30EA4_OFFSET UNITYSDK_OFFSET(0xD7250)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_A3483E2A2F86CB58_OFFSET UNITYSDK_OFFSET(0xD71F0)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_F3B476A9B34DD7D8_OFFSET UNITYSDK_OFFSET(0xD71E0)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_F67A31532E1BAD4C_OFFSET UNITYSDK_OFFSET(0xD7230)
-#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0xD7200)
+#define STRUCT_2_9FC3BF6B16C6AFE6_EXECUTE_OFFSET UNITYSDK_OFFSET(0x149BBA0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_61909647484BF836_OFFSET UNITYSDK_OFFSET(0x149BB80)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_86214CC42818EBDF_OFFSET UNITYSDK_OFFSET(0x149BB70)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_9BC4F885A8B30EA4_OFFSET UNITYSDK_OFFSET(0x149BBB0)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_A3483E2A2F86CB58_OFFSET UNITYSDK_OFFSET(0x149BB50)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_F3B476A9B34DD7D8_OFFSET UNITYSDK_OFFSET(0x149BB40)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_F67A31532E1BAD4C_OFFSET UNITYSDK_OFFSET(0x149BB90)
+#define STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0x149BB60)
 
-inline static constexpr unsigned int Struct_2_9FC3BF6B16C6AFE6_TypeDefinitionIndex = 37586;
+inline static constexpr unsigned int Struct_2_9FC3BF6B16C6AFE6_TypeDefinitionIndex = 38550;
 
 struct alignas(8) Struct_2_9FC3BF6B16C6AFE6
 {
@@ -40,12 +40,13 @@ struct alignas(8) Struct_2_9FC3BF6B16C6AFE6
 	::UnityEngine::Vector3 Field_2_6; // 0x70
 	::UnityEngine::Vector3 Field_2_7; // 0x7C
 	::UnityEngine::Vector3 Field_2_8; // 0x88
-	::System::Single Field_2_9; // 0x94
-	::System::Single Field_2_10; // 0x98
-	::System::Boolean Field_2_11; // 0x9C
-	::System::Boolean Field_2_12; // 0x9D
-	::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* Field_2_13; // 0xA0
-	::System::Boolean Field_2_14; // 0xA8
+	::UnityEngine::Vector3 Field_2_9; // 0x94
+	::System::Single Field_2_10; // 0xA0
+	::System::Single Field_2_11; // 0xA4
+	::System::Boolean Field_2_12; // 0xA8
+	::System::Boolean Field_2_13; // 0xA9
+	::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* Field_2_14; // 0xB0
+	::System::Boolean Field_2_15; // 0xB8
 
 	::System::Void Method_2_F3B476A9B34DD7D8(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a1)
 	{
@@ -67,9 +68,9 @@ struct alignas(8) Struct_2_9FC3BF6B16C6AFE6
 		return ((::System::Void(*)(::PVOID, ::UnityChan::SpringManager*, ::System::Collections::Generic::List_1<::UnityChan::SpringCollider*>*, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_86214CC42818EBDF_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_2_407EB359E868CD78(::UnityChan::SpringManager* a1, ::System::Collections::Generic::List_1<::UnityChan::SpringCollider*>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a3)
+	::System::Void Method_2_61909647484BF836(::UnityChan::SpringManager* a1, ::System::Collections::Generic::List_1<::UnityChan::SpringCollider*>* a2, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityChan::SpringManager*, ::System::Collections::Generic::List_1<::UnityChan::SpringCollider*>*, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_407EB359E868CD78_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::UnityChan::SpringManager*, ::System::Collections::Generic::List_1<::UnityChan::SpringCollider*>*, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + STRUCT_2_9FC3BF6B16C6AFE6_METHOD_2_61909647484BF836_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_2_F67A31532E1BAD4C(::UnityChan::SpringManager* a1, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* a2)

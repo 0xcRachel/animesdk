@@ -19,57 +19,57 @@ namespace UnityEngine::UI { class RuntimeAtlasManager_FontTex; }
 namespace UnityEngine::UI { class RuntimeAtlasManager_PackedAtlas; }
 namespace UnityEngine::UI { class RuntimeAtlasManager_RuntimeAtlas; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASEIMPL_OFFSET UNITYSDK_OFFSET(0x18341950)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASE_OFFSET UNITYSDK_OFFSET(0x18310660)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x18345690)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERTIMPL_OFFSET UNITYSDK_OFFSET(0x18341010)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERT_OFFSET UNITYSDK_OFFSET(0x18310A70)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x18341C10)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEX_OFFSET UNITYSDK_OFFSET(0x18341B80)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RELEASE_OFFSET UNITYSDK_OFFSET(0x183441A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x18342090)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFO_OFFSET UNITYSDK_OFFSET(0x18341FE0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x183416A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFO_OFFSET UNITYSDK_OFFSET(0x18311410)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEX_OFFSET UNITYSDK_OFFSET(0x18308ED0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UNLOADUNUSED_OFFSET UNITYSDK_OFFSET(0x18344A30)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLEIMPL_OFFSET UNITYSDK_OFFSET(0x18344A40)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x18344FA0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x183459D0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x183452A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18345C30)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18342250)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASEIMPL_OFFSET UNITYSDK_OFFSET(0x18B66D50)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_ERASE_OFFSET UNITYSDK_OFFSET(0x18B36800)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x18B6AA80)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERTIMPL_OFFSET UNITYSDK_OFFSET(0x18B66410)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_INSERT_OFFSET UNITYSDK_OFFSET(0x18B36C10)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x18B67010)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_REGISTERFONTTEX_OFFSET UNITYSDK_OFFSET(0x18B66F80)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RELEASE_OFFSET UNITYSDK_OFFSET(0x18B69590)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x18B67490)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETFONTTEXINFO_OFFSET UNITYSDK_OFFSET(0x18B673E0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFOIMPL_OFFSET UNITYSDK_OFFSET(0x18B66AA0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEXINFO_OFFSET UNITYSDK_OFFSET(0x18B375B0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_TRYGETTEX_OFFSET UNITYSDK_OFFSET(0x18B2F070)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UNLOADUNUSED_OFFSET UNITYSDK_OFFSET(0x18B69E20)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLEIMPL_OFFSET UNITYSDK_OFFSET(0x18B69E30)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x18B6A390)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPDATEFONTTEXIMPL_OFFSET UNITYSDK_OFFSET(0x18B6ADC0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_UPLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x18B6A690)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B6B020)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B67650)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_TypeDefinitionIndex = 5579;
+	inline static constexpr unsigned int RuntimeAtlasManager_TypeDefinitionIndex = 5679;
 
 	class RuntimeAtlasManager : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::RuntimeAtlasManager** StaticGet_s_Instance()
+		static ::UnityEngine::Sprite** StaticGet_defaultSprite()
 		{
-			return (::UnityEngine::UI::RuntimeAtlasManager**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x86B0);
+			return (::UnityEngine::Sprite**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x5520);
 		}
 		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x86B8);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x5528);
 		}
-		static ::UnityEngine::Sprite** StaticGet_defaultSprite()
+		static ::UnityEngine::UI::RuntimeAtlasManager** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::Sprite**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x86C0);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UploadTexMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x2BC0);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_QueryMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x2BC8);
+			return (::UnityEngine::UI::RuntimeAtlasManager**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x5530);
 		}
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_InsertMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x2BD0);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x2E30);
+		}
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UploadTexMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x2E38);
+		}
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_QueryMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_TypeDefinitionIndex)->GetStaticField(0x2E40);
 		}
 		// static const ::System::Int32 k_UpdateInterval = 0x12C; // 0x0
 		// static const ::System::Int32 k_RuntimeAtlasCount = 0x2; // 0x0

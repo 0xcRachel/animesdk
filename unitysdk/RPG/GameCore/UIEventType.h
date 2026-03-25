@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIEventType_TypeDefinitionIndex = 19345;
+	inline static constexpr unsigned int UIEventType_TypeDefinitionIndex = 19871;
 
 	enum class UIEventType : ::System::Int32
 	{

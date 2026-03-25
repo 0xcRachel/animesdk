@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int IPromiseInfo_TypeDefinitionIndex = 29709;
+	inline static constexpr unsigned int IPromiseInfo_TypeDefinitionIndex = 30584;
 
 	class IPromiseInfo
 	{

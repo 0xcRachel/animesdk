@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_COROUTINETWEEN_FLOATTWEEN_FLOATTWEENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x182EF710)
+#define UNITYENGINE_UI_COROUTINETWEEN_FLOATTWEEN_FLOATTWEENCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18B159F0)
 
 namespace UnityEngine::UI::CoroutineTween
 {
-	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 5667;
+	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 5767;
 
 	class FloatTween_FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::System::Single>
 	{

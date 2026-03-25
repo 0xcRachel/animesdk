@@ -4,19 +4,17 @@
 #include "unitysdk/System/Memory_1.h"
 #include "unitysdk/System/Object.h"
 
-namespace MessagePack { class SequencePool; }
-namespace MessagePack { template <typename T> class Utilities_GetWriterBytesAction_1; }
 namespace System { class String; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::Collections { class IDictionary; }
 
-#define MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET UNITYSDK_OFFSET(0x156AB180)
-#define MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET UNITYSDK_OFFSET(0x156AAF40)
-#define MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET UNITYSDK_OFFSET(0x156AB130)
+#define MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET UNITYSDK_OFFSET(0x15D9FAA0)
+#define MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET UNITYSDK_OFFSET(0x15D9F840)
+#define MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET UNITYSDK_OFFSET(0x15D9FA50)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 9501;
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 9101;
 
 	class Utilities : public ::System::Object
 	{

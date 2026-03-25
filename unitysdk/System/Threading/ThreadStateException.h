@@ -6,13 +6,13 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_THREADSTATEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15B985A0)
-#define SYSTEM_THREADING_THREADSTATEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15B9BB10)
-#define SYSTEM_THREADING_THREADSTATEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9BA70)
+#define SYSTEM_THREADING_THREADSTATEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16261D90)
+#define SYSTEM_THREADING_THREADSTATEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x16265170)
+#define SYSTEM_THREADING_THREADSTATEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x162650D0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadStateException_TypeDefinitionIndex = 863;
+	inline static constexpr unsigned int ThreadStateException_TypeDefinitionIndex = 864;
 
 	class ThreadStateException : public ::System::SystemException
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_56221E821F588017__CTOR_OFFSET UNITYSDK_OFFSET(0xAC9B7D0)
+#define CLASS_1_56221E821F588017__CTOR_OFFSET UNITYSDK_OFFSET(0x8A796F0)
 
-inline static constexpr unsigned int Class_1_56221E821F588017_TypeDefinitionIndex = 45171;
+inline static constexpr unsigned int Class_1_56221E821F588017_TypeDefinitionIndex = 46232;
 
 class Class_1_56221E821F588017 : public ::System::Object
 {
 public:
 	::UnityEngine::Transform* Field_1_1; // 0x10
 	::UnityEngine::Collider* Field_1_0; // 0x18
-	::Class_3_BCCE950C2E8DF1F0* Field_1_2; // 0x20
+	::Class_3_5775A4FEC79026BC* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

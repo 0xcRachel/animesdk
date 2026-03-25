@@ -1,16 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_9C2AD9A3E720F0F7.h"
-#include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/Enum_3_63BCB6C405BA8A1D_1.h"
 
-namespace RPG::Client { template <typename T1, typename T2> class AimEvaluator_2; }
-namespace RootMotion::IKJob { class IKThreadProxyContext; }
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class Transform; }
+class Class_0_16E4307DCC419505_700;
+class Class_1_BC389B37BA981479;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_704_TypeDefinitionIndex = 54243;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_704_TypeDefinitionIndex = 54604;
 
 class Class_0_16E4307DCC419505_704
 {

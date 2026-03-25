@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_THREADSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15B79C80)
+#define SYSTEM_THREADSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16243A70)
 
 namespace System
 {

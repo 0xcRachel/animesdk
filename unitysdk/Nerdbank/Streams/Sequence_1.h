@@ -3,26 +3,22 @@
 #include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
 #include "unitysdk/System/Memory_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlyMemory_1.h"
-#include "unitysdk/System/SequencePosition.h"
 #include "unitysdk/System/Span_1.h"
 
 namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 namespace Nerdbank::Streams { template <typename T> class Sequence_1_SequenceSegment; }
-namespace System { class String; }
 namespace System::Buffers { template <typename T> class ArrayPool_1; }
 namespace System::Buffers { template <typename T> class MemoryPool_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Sequence_1_TypeDefinitionIndex = 9387;
+	inline static constexpr unsigned int Sequence_1_TypeDefinitionIndex = 9009;
 
 	template <typename T>
 	class Sequence_1 : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 MaximumAutoGrowSize = 0x8000; // 0x0
 		static ::System::Int32* StaticGet_DefaultLengthFromArrayPool()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Sequence_1_TypeDefinitionIndex)->GetStaticField(0x0);

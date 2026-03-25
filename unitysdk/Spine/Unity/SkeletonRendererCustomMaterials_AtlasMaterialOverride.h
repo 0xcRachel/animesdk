@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_ATLASMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x202C550)
+#define SPINE_UNITY_SKELETONRENDERERCUSTOMMATERIALS_ATLASMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2102970)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererCustomMaterials_AtlasMaterialOverride_TypeDefinitionIndex = 33802;
+	inline static constexpr unsigned int SkeletonRendererCustomMaterials_AtlasMaterialOverride_TypeDefinitionIndex = 34791;
 
 	struct alignas(8) SkeletonRendererCustomMaterials_AtlasMaterialOverride
 	{

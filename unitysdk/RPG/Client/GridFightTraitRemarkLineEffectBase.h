@@ -10,21 +10,21 @@ namespace RPG::Client { class GridFightTraitRemarkLineConfig; }
 namespace RPG::Client { class IGridFightTraitRemarkLineStateParser; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_GET_STATEPARSER_OFFSET UNITYSDK_OFFSET(0x9425850)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0x9425800)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_GET_TEXTPARAMLIST_OFFSET UNITYSDK_OFFSET(0x9425830)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_SET_STATEPARSER_OFFSET UNITYSDK_OFFSET(0x9425860)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x94253F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_GET_STATEPARSER_OFFSET UNITYSDK_OFFSET(0x98E25F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_GET_TEXTID_OFFSET UNITYSDK_OFFSET(0x98E25A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_GET_TEXTPARAMLIST_OFFSET UNITYSDK_OFFSET(0x98E25D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE_SET_STATEPARSER_OFFSET UNITYSDK_OFFSET(0x98E2600)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x98E2190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEffectBase_TypeDefinitionIndex = 52009;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEffectBase_TypeDefinitionIndex = 53143;
 
 	class GridFightTraitRemarkLineEffectBase : public ::System::Object
 	{
 	public:
-		::RPG::Client::IGridFightTraitRemarkLineStateParser* _StateParser_k__BackingField; // 0x10
-		::RPG::Client::GridFightTraitRemarkLineConfig* Config; // 0x18
+		::RPG::Client::GridFightTraitRemarkLineConfig* Config; // 0x10
+		::RPG::Client::IGridFightTraitRemarkLineStateParser* _StateParser_k__BackingField; // 0x18
 
 		::System::Void _ctor(::RPG::Client::GridFightTrait* trait, ::RPG::GameCore::GridFightTraitRemarkRow* row)
 		{

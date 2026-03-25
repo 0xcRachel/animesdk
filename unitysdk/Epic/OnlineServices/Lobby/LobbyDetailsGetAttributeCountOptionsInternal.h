@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Lobby { class LobbyDetailsGetAttributeCountOptio
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETATTRIBUTECOUNTOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETATTRIBUTECOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4AE30)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETATTRIBUTECOUNTOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4AFC0)
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETATTRIBUTECOUNTOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyDetailsGetAttributeCountOptionsInternal_TypeDefinitionIndex = 35122;
+	inline static constexpr unsigned int LobbyDetailsGetAttributeCountOptionsInternal_TypeDefinitionIndex = 36056;
 
 	struct alignas(4) LobbyDetailsGetAttributeCountOptionsInternal
 	{

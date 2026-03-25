@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitLogSwitch_TypeDefinitionIndex = 59408;
+	inline static constexpr unsigned int RelicSmartSuitLogSwitch_TypeDefinitionIndex = 61161;
 
 	enum class RelicSmartSuitLogSwitch : ::System::Int32
 	{

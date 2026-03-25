@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define TMPRO_FACEINFO_LEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x180ED5F0)
+#define TMPRO_FACEINFO_LEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x18915630)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 33319;
+	inline static constexpr unsigned int FaceInfo_Legacy_TypeDefinitionIndex = 34308;
 
 	class FaceInfo_Legacy : public ::System::Object
 	{

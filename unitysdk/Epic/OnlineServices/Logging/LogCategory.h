@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Logging
 {
-	inline static constexpr unsigned int LogCategory_TypeDefinitionIndex = 35044;
+	inline static constexpr unsigned int LogCategory_TypeDefinitionIndex = 35978;
 
 	enum class LogCategory : ::System::Int32
 	{
@@ -28,7 +28,7 @@ namespace Epic::OnlineServices::Logging
 		Lobby = 18,
 		Leaderboards = 19,
 		Keychain = 20,
-		IdentityProvider = 21,
+		IntegratedPlatform = 21,
 		TitleStorage = 22,
 		Mods = 23,
 		AntiCheat = 24,
@@ -38,9 +38,7 @@ namespace Epic::OnlineServices::Logging
 		Kws = 28,
 		Rtc = 29,
 		RTCAdmin = 30,
-		Inventory = 31,
-		ReceiptValidator = 32,
-		CustomInvites = 33,
+		CustomInvites = 31,
 		AllCategories = 2147483647,
 	};
 }

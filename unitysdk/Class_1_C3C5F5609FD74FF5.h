@@ -7,26 +7,26 @@ namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_C3C5F5609FD74FF5_GET_FINISH_OFFSET UNITYSDK_OFFSET(0xFF10920)
-#define CLASS_1_C3C5F5609FD74FF5_METHOD_1_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0xFF105F0)
-#define CLASS_1_C3C5F5609FD74FF5_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xFF10930)
-#define CLASS_1_C3C5F5609FD74FF5__CTOR_OFFSET UNITYSDK_OFFSET(0xFF10940)
+#define CLASS_1_C3C5F5609FD74FF5_GET_FINISH_OFFSET UNITYSDK_OFFSET(0x8A702C0)
+#define CLASS_1_C3C5F5609FD74FF5_METHOD_1_AF53AC45ED2466EB_OFFSET UNITYSDK_OFFSET(0x8A6FF90)
+#define CLASS_1_C3C5F5609FD74FF5_SET_FINISH_OFFSET UNITYSDK_OFFSET(0x8A702D0)
+#define CLASS_1_C3C5F5609FD74FF5__CTOR_OFFSET UNITYSDK_OFFSET(0x8A702E0)
 
-inline static constexpr unsigned int Class_1_C3C5F5609FD74FF5_TypeDefinitionIndex = 61790;
+inline static constexpr unsigned int Class_1_C3C5F5609FD74FF5_TypeDefinitionIndex = 63977;
 
 class Class_1_C3C5F5609FD74FF5 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::RPG::Client::Prop::DeployPuzzleBoard* Field_1_8; // 0x18
-	::System::Action* Field_1_7; // 0x20
-	::UnityEngine::AnimationCurve* Field_1_5; // 0x28
-	::UnityEngine::AnimationCurve* Field_1_4; // 0x30
+	::System::Action* Field_1_7; // 0x10
+	::UnityEngine::AnimationCurve* Field_1_4; // 0x18
+	::UnityEngine::Transform* Field_1_0; // 0x20
+	::RPG::Client::Prop::DeployPuzzleBoard* Field_1_8; // 0x28
+	::UnityEngine::AnimationCurve* Field_1_5; // 0x30
 	::System::Single Field_1_9; // 0x38
-	::System::Boolean Field_1_2; // 0x3C
-	::System::Boolean Field_1_6; // 0x3D
-	::System::Boolean _Finish_k__BackingField; // 0x3E
-	::System::Single Field_1_3; // 0x40
+	::System::Single Field_1_3; // 0x3C
+	::System::Boolean _Finish_k__BackingField; // 0x40
+	::System::Boolean Field_1_6; // 0x41
+	::System::Boolean Field_1_2; // 0x42
 	::System::UInt32 Field_1_1; // 0x44
 
 	::System::Void _ctor()

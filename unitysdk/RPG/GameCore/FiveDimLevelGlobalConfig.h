@@ -7,12 +7,12 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class WaterReflectionFoamShaderParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_METHOD_2_E0E1BFE4574389C7_OFFSET UNITYSDK_OFFSET(0x16ABEB10)
-#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC44E0)
+#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_METHOD_2_E0E1BFE4574389C7_OFFSET UNITYSDK_OFFSET(0x17207C30)
+#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1720CCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelGlobalConfig_TypeDefinitionIndex = 15054;
+	inline static constexpr unsigned int FiveDimLevelGlobalConfig_TypeDefinitionIndex = 15310;
 
 	class FiveDimLevelGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,6 +27,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::WaterReflectionFoamShaderParam*>* FoamParams; // 0x48
 		::RPG::GameCore::HoyoTagContainer* NoArrowAttachTag; // 0x50
 		::RPG::GameCore::HoyoTagContainer* UnloadOnEnterGroupTag; // 0x58
+		::RPG::GameCore::HoyoTagContainer* KeepMoveOnHitTag; // 0x60
+		::RPG::GameCore::HoyoTagContainer* DestroyOnOtherStandTag; // 0x68
 
 		::System::Void _ctor()
 		{

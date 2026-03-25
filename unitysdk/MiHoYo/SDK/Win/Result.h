@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int Result_TypeDefinitionIndex = 7744;
+	inline static constexpr unsigned int Result_TypeDefinitionIndex = 7867;
 
 	enum class Result : ::System::Int32
 	{
@@ -102,6 +102,7 @@ namespace MiHoYo::SDK::Win
 		EcomCatalogItemStale = 4002,
 		EcomCatalogOfferPriceInvalid = 4003,
 		EcomCheckoutLoadError = 4004,
+		EcomPurchaseProcessing = 4005,
 		SessionsSessionInProgress = 5000,
 		SessionsTooManyPlayers = 5001,
 		SessionsNoPermission = 5002,

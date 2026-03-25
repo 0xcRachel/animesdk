@@ -7,7 +7,7 @@ class Class_1_40118813D113D3D1;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_1_F729CFDFA293E297___c__DisplayClass3_0_TypeDefinitionIndex = 49775;
+inline static constexpr unsigned int Class_1_F729CFDFA293E297___c__DisplayClass3_0_TypeDefinitionIndex = 50897;
 
 struct alignas(8) Class_1_F729CFDFA293E297___c__DisplayClass3_0
 {

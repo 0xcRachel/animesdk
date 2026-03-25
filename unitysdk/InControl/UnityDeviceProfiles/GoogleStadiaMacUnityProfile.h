@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_GOOGLESTADIAMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x155510A0)
-#define INCONTROL_UNITYDEVICEPROFILES_GOOGLESTADIAMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15552790)
+#define INCONTROL_UNITYDEVICEPROFILES_GOOGLESTADIAMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C6AE60)
+#define INCONTROL_UNITYDEVICEPROFILES_GOOGLESTADIAMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C6C550)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int GoogleStadiaMacUnityProfile_TypeDefinitionIndex = 30723;
+	inline static constexpr unsigned int GoogleStadiaMacUnityProfile_TypeDefinitionIndex = 31598;
 
 	class GoogleStadiaMacUnityProfile : public ::InControl::InputDeviceProfile
 	{

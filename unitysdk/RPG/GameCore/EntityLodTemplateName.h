@@ -94,6 +94,7 @@ namespace RPG::GameCore
 		Prop_12_Chap04_M = 117,
 		Prop_15_Chap04_M = 118,
 		Prop_20_Chap04_M = 119,
+		FiveDim_AlwaysShow = 149,
 		FiveDim_Default = 150,
 		PropV2_0P5_L = 151,
 		PropV2_0P5_M = 152,

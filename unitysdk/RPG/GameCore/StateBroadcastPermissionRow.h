@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F979E0)
-#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F97B30)
+#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1778B520)
+#define RPG_GAMECORE_STATEBROADCASTPERMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1778B670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateBroadcastPermissionRow_TypeDefinitionIndex = 12144;
+	inline static constexpr unsigned int StateBroadcastPermissionRow_TypeDefinitionIndex = 12214;
 
 	class StateBroadcastPermissionRow : public ::System::Object
 	{
 	public:
-		::System::String* PackageName; // 0x10
-		::Il2CppArray<::System::UInt32>* InfoList; // 0x18
+		::Il2CppArray<::System::UInt32>* InfoList; // 0x10
+		::System::String* PackageName; // 0x18
 
 		::System::Void _ctor()
 		{

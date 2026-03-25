@@ -4,27 +4,27 @@
 #include "unitysdk/RPG/Client/LockSource.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_262;
+class Class_0_16E4307DCC419505_295;
 namespace RPG::Client { class GameplayLockModuleConfigList; }
 namespace RPG::Client { class LockTargetParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4212B74265B11DAC_METHOD_1_45AA665480CD72A0_OFFSET UNITYSDK_OFFSET(0x8A72BA0)
-#define CLASS_1_4212B74265B11DAC_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8A72B50)
-#define CLASS_1_4212B74265B11DAC_METHOD_1_C67E0B0D70277E71_OFFSET UNITYSDK_OFFSET(0x8A72E00)
-#define CLASS_1_4212B74265B11DAC_METHOD_1_E6B5D0754F98FE05_OFFSET UNITYSDK_OFFSET(0x8A72FB0)
-#define CLASS_1_4212B74265B11DAC_METHOD_1_E95FAFDD938CDF8D_OFFSET UNITYSDK_OFFSET(0x8A72D10)
-#define CLASS_1_4212B74265B11DAC_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x8A72AB0)
-#define CLASS_1_4212B74265B11DAC__CTOR_OFFSET UNITYSDK_OFFSET(0x8A73020)
+#define CLASS_1_4212B74265B11DAC_METHOD_1_45AA665480CD72A0_OFFSET UNITYSDK_OFFSET(0x8C62EB0)
+#define CLASS_1_4212B74265B11DAC_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8C62E60)
+#define CLASS_1_4212B74265B11DAC_METHOD_1_79BFA6338781DABE_OFFSET UNITYSDK_OFFSET(0x8C632C0)
+#define CLASS_1_4212B74265B11DAC_METHOD_1_C67E0B0D70277E71_OFFSET UNITYSDK_OFFSET(0x8C63110)
+#define CLASS_1_4212B74265B11DAC_METHOD_1_E95FAFDD938CDF8D_OFFSET UNITYSDK_OFFSET(0x8C63020)
+#define CLASS_1_4212B74265B11DAC_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x8C62DC0)
+#define CLASS_1_4212B74265B11DAC__CTOR_OFFSET UNITYSDK_OFFSET(0x8C63360)
 
-inline static constexpr unsigned int Class_1_4212B74265B11DAC_TypeDefinitionIndex = 37620;
+inline static constexpr unsigned int Class_1_4212B74265B11DAC_TypeDefinitionIndex = 38584;
 
 class Class_1_4212B74265B11DAC : public ::System::Object
 {
 public:
 	static ::RPG::Client::GameplayLockModuleConfigList** StaticGet_Field_1_0()
 	{
-		return (::RPG::Client::GameplayLockModuleConfigList**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4212B74265B11DAC_TypeDefinitionIndex)->GetStaticField(0x10200);
+		return (::RPG::Client::GameplayLockModuleConfigList**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4212B74265B11DAC_TypeDefinitionIndex)->GetStaticField(0x4440);
 	}
 
 	::System::Void _ctor()
@@ -42,14 +42,14 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_5790A55946AA509D_OFFSET))();
 	}
 
-	static ::Class_0_16E4307DCC419505_262* Method_1_45AA665480CD72A0(::RPG::Client::LockSource a1)
+	static ::Class_0_16E4307DCC419505_295* Method_1_45AA665480CD72A0(::RPG::Client::LockSource a1)
 	{
-		return ((::Class_0_16E4307DCC419505_262*(*)(::RPG::Client::LockSource))((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_45AA665480CD72A0_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_295*(*)(::RPG::Client::LockSource))((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_45AA665480CD72A0_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_262*>* Method_1_E95FAFDD938CDF8D()
+	static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>* Method_1_E95FAFDD938CDF8D()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_262*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_E95FAFDD938CDF8D_OFFSET))();
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_E95FAFDD938CDF8D_OFFSET))();
 	}
 
 	static ::System::Collections::Generic::List_1<::RPG::Client::GamePlayLockTarget>* Method_1_C67E0B0D70277E71(::RPG::Client::LockSource a1)
@@ -57,8 +57,8 @@ public:
 		return ((::System::Collections::Generic::List_1<::RPG::Client::GamePlayLockTarget>*(*)(::RPG::Client::LockSource))((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_C67E0B0D70277E71_OFFSET))(a1);
 	}
 
-	static ::RPG::Client::LockTargetParam* Method_1_E6B5D0754F98FE05(::RPG::Client::GamePlayLockTarget a1)
+	static ::RPG::Client::LockTargetParam* Method_1_79BFA6338781DABE(::RPG::Client::GamePlayLockTarget a1)
 	{
-		return ((::RPG::Client::LockTargetParam*(*)(::RPG::Client::GamePlayLockTarget))((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_E6B5D0754F98FE05_OFFSET))(a1);
+		return ((::RPG::Client::LockTargetParam*(*)(::RPG::Client::GamePlayLockTarget))((::PBYTE)hIl2Cpp + CLASS_1_4212B74265B11DAC_METHOD_1_79BFA6338781DABE_OFFSET))(a1);
 	}
 };

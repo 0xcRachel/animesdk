@@ -4,7 +4,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _Type_TypeDefinitionIndex = 1438;
+	inline static constexpr unsigned int _Type_TypeDefinitionIndex = 1443;
 
 	class _Type
 	{

@@ -3,50 +3,50 @@
 #include "unitysdk/RPG/Client/ActivityPanelTemplate.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_505;
+class Class_0_16E4307DCC419505_534;
 namespace RPG::Client { class ActivityData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_21750C05AD544A90_METHOD_1_459130C9530E0D60_OFFSET UNITYSDK_OFFSET(0x10270440)
-#define CLASS_1_21750C05AD544A90__CCTOR_OFFSET UNITYSDK_OFFSET(0x102706C0)
-#define CLASS_1_21750C05AD544A90__CTOR_OFFSET UNITYSDK_OFFSET(0x102706B0)
+#define CLASS_1_21750C05AD544A90_METHOD_1_459130C9530E0D60_OFFSET UNITYSDK_OFFSET(0x8DD9E00)
+#define CLASS_1_21750C05AD544A90__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DDA080)
+#define CLASS_1_21750C05AD544A90__CTOR_OFFSET UNITYSDK_OFFSET(0x8DDA070)
 
-inline static constexpr unsigned int Class_1_21750C05AD544A90_TypeDefinitionIndex = 48940;
+inline static constexpr unsigned int Class_1_21750C05AD544A90_TypeDefinitionIndex = 50075;
 
 class Class_1_21750C05AD544A90 : public ::System::Object
 {
 public:
-	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::Class_0_16E4307DCC419505_534*, ::RPG::Client::ActivityPanelTemplate>** StaticGet_Field_1_7()
 	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x29310);
-	}
-	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_1()
-	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x29330);
-	}
-	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_5()
-	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x29350);
-	}
-	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_3()
-	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x29370);
+		return (::System::Collections::Generic::Dictionary_2<::Class_0_16E4307DCC419505_534*, ::RPG::Client::ActivityPanelTemplate>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x18270);
 	}
 	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_6()
 	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x29390);
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x18278);
 	}
-	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_4()
+	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_1()
 	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x293B0);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::Class_0_16E4307DCC419505_505*, ::RPG::Client::ActivityPanelTemplate>** StaticGet_Field_1_7()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::Class_0_16E4307DCC419505_505*, ::RPG::Client::ActivityPanelTemplate>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x293D0);
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x18298);
 	}
 	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_2()
 	{
-		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x293D8);
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x182B8);
+	}
+	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_4()
+	{
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x182D8);
+	}
+	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_0()
+	{
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x182F8);
+	}
+	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_3()
+	{
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x18318);
+	}
+	static ::RPG::Client::ActivityPanelTemplate* StaticGet_Field_1_5()
+	{
+		return (::RPG::Client::ActivityPanelTemplate*)Il2CppClass::FromTypeDefinitionIndex(Class_1_21750C05AD544A90_TypeDefinitionIndex)->GetStaticField(0x18338);
 	}
 
 	::System::Void _ctor()

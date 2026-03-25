@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_GETVALUES_OFFSET UNITYSDK_OFFSET(0x15DEC3E0)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_INITIALIZEENUMTYPE_OFFSET UNITYSDK_OFFSET(0x15DEBFD0)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_PARSEENUMNAME_OFFSET UNITYSDK_OFFSET(0x15DEC870)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_RESOLVEDENUMNAME_OFFSET UNITYSDK_OFFSET(0x15DECC60)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_TOENUMNAME_OFFSET UNITYSDK_OFFSET(0x15DECCE0)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DECF90)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_GETVALUES_OFFSET UNITYSDK_OFFSET(0x164B3050)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_INITIALIZEENUMTYPE_OFFSET UNITYSDK_OFFSET(0x164B2C40)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_PARSEENUMNAME_OFFSET UNITYSDK_OFFSET(0x164B34E0)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_RESOLVEDENUMNAME_OFFSET UNITYSDK_OFFSET(0x164B38D0)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS_TOENUMNAME_OFFSET UNITYSDK_OFFSET(0x164B3950)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x164B3C00)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int EnumUtils_TypeDefinitionIndex = 8141;
+	inline static constexpr unsigned int EnumUtils_TypeDefinitionIndex = 8270;
 
 	class EnumUtils : public ::System::Object
 	{
 	public:
 		static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::System::String*, ::System::String*>*>** StaticGet_EnumMemberNamesPerType()
 		{
-			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(EnumUtils_TypeDefinitionIndex)->GetStaticField(0x272F0);
+			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::System::String*, ::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(EnumUtils_TypeDefinitionIndex)->GetStaticField(0x3AAC0);
 		}
 
 		static ::System::Void _cctor()

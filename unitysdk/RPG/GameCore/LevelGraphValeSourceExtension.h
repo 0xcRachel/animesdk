@@ -5,11 +5,11 @@
 class Class_2_90C3FAB661E5C263;
 namespace RPG::GameCore { class LevelGraphValueSource; }
 
-#define RPG_GAMECORE_LEVELGRAPHVALESOURCEEXTENSION_WRITETOCUSTOMDATA_OFFSET UNITYSDK_OFFSET(0xA4A7060)
+#define RPG_GAMECORE_LEVELGRAPHVALESOURCEEXTENSION_WRITETOCUSTOMDATA_OFFSET UNITYSDK_OFFSET(0xA997C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphValeSourceExtension_TypeDefinitionIndex = 45515;
+	inline static constexpr unsigned int LevelGraphValeSourceExtension_TypeDefinitionIndex = 46578;
 
 	class LevelGraphValeSourceExtension : public ::System::Object
 	{

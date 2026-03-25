@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMSOUNDEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CF7630)
-#define RPG_GAMECORE_MUSICRHYTHMSOUNDEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CF7760)
+#define RPG_GAMECORE_MUSICRHYTHMSOUNDEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1747DE50)
+#define RPG_GAMECORE_MUSICRHYTHMSOUNDEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1747DF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmSoundEffectRow_TypeDefinitionIndex = 12994;
+	inline static constexpr unsigned int MusicRhythmSoundEffectRow_TypeDefinitionIndex = 13065;
 
 	class MusicRhythmSoundEffectRow : public ::System::Object
 	{

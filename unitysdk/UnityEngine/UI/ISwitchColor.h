@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ISwitchColor_TypeDefinitionIndex = 5494;
+	inline static constexpr unsigned int ISwitchColor_TypeDefinitionIndex = 5594;
 
 	class ISwitchColor
 	{

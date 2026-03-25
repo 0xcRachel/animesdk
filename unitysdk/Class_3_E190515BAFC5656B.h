@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RA_ByDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E190515BAFC5656B_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFE1AB80)
-#define CLASS_3_E190515BAFC5656B__CTOR_OFFSET UNITYSDK_OFFSET(0xFE1AB50)
+#define CLASS_3_E190515BAFC5656B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11935A20)
+#define CLASS_3_E190515BAFC5656B__CTOR_OFFSET UNITYSDK_OFFSET(0x119359F0)
 
-inline static constexpr unsigned int Class_3_E190515BAFC5656B_TypeDefinitionIndex = 41076;
+inline static constexpr unsigned int Class_3_E190515BAFC5656B_TypeDefinitionIndex = 42119;
 
 class Class_3_E190515BAFC5656B : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::RA_ByDistance*>
 {

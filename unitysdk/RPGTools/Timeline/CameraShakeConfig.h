@@ -7,12 +7,12 @@
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG_METHOD_1_5EEAA1A5ACD5A572_OFFSET UNITYSDK_OFFSET(0xA5F90D0)
-#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA5F9450)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG_METHOD_1_5EEAA1A5ACD5A572_OFFSET UNITYSDK_OFFSET(0xAB3E4C0)
+#define RPGTOOLS_TIMELINE_CAMERASHAKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB3E840)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CameraShakeConfig_TypeDefinitionIndex = 37719;
+	inline static constexpr unsigned int CameraShakeConfig_TypeDefinitionIndex = 38681;
 
 	class CameraShakeConfig : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELAREACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B9F3E0)
-#define RPG_GAMECORE_LEVELAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B9F420)
+#define RPG_GAMECORE_LEVELAREACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17342970)
+#define RPG_GAMECORE_LEVELAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173429B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAreaConfig_TypeDefinitionIndex = 16443;
+	inline static constexpr unsigned int LevelAreaConfig_TypeDefinitionIndex = 16817;
 
 	class LevelAreaConfig : public ::RPG::GameCore::JsonConfig
 	{

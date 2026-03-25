@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8FF4130)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8FF4160)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__3_0_OFFSET UNITYSDK_OFFSET(0x8FF4170)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x944F9D0)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x944FA00)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__3_0_OFFSET UNITYSDK_OFFSET(0x944FA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 48848;
+	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 49983;
 
 	class DailyLoginRewardActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DailyLoginRewardActivityData___c** StaticGet___9()
-		{
-			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x437B0);
-		}
 		static ::System::Func_2<::RPG::Client::DailyLoginRewardActivityData_RewardStatus, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::DailyLoginRewardActivityData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x437B8);
+			return (::System::Func_2<::RPG::Client::DailyLoginRewardActivityData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x48270);
+		}
+		static ::RPG::Client::DailyLoginRewardActivityData___c** StaticGet___9()
+		{
+			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x48278);
 		}
 
 		static ::System::Void _cctor()

@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C252C0)
-#define RPG_GAMECORE_MAINMISSIONSCHEDULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C25940)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1738A0B0)
+#define RPG_GAMECORE_MAINMISSIONSCHEDULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1738A730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionScheduleRow_TypeDefinitionIndex = 12879;
+	inline static constexpr unsigned int MainMissionScheduleRow_TypeDefinitionIndex = 12950;
 
 	class MainMissionScheduleRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 MainMissionID; // 0x10
-		::System::Boolean IsNotDelete; // 0x14
-		::System::Boolean HideRemainTime; // 0x15
-		::System::UInt32 ScheduleDataID; // 0x18
-		::System::UInt32 ActivityModuleID; // 0x1C
+		::System::UInt32 ActivityModuleID; // 0x14
+		::System::Boolean IsNotDelete; // 0x18
+		::System::Boolean HideRemainTime; // 0x19
+		::System::UInt32 ScheduleDataID; // 0x1C
 
 		::System::Void _ctor()
 		{

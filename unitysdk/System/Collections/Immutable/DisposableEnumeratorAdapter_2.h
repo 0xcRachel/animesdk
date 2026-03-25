@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int DisposableEnumeratorAdapter_2_TypeDefinitionIndex = 9113;
+	inline static constexpr unsigned int DisposableEnumeratorAdapter_2_TypeDefinitionIndex = 8901;
 
 	template <typename T, typename TEnumerator>
 	struct DisposableEnumeratorAdapter_2

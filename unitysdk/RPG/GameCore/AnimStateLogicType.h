@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimStateLogicType_TypeDefinitionIndex = 14650;
+	inline static constexpr unsigned int AnimStateLogicType_TypeDefinitionIndex = 14902;
 
 	enum class AnimStateLogicType : ::System::Int32
 	{

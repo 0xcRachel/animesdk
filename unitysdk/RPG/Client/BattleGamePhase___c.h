@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DBAD30)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8DBAD60)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C__PRECESSQUITBATTLE_B__57_0_OFFSET UNITYSDK_OFFSET(0x8DBAE50)
-#define RPG_CLIENT_BATTLEGAMEPHASE___C___INITAUDIO_B__9_0_OFFSET UNITYSDK_OFFSET(0x8DBAD70)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x91C50F0)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x91C5120)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C__PRECESSQUITBATTLE_B__57_0_OFFSET UNITYSDK_OFFSET(0x91C5210)
+#define RPG_CLIENT_BATTLEGAMEPHASE___C___INITAUDIO_B__9_0_OFFSET UNITYSDK_OFFSET(0x91C5130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePhase___c_TypeDefinitionIndex = 48334;
+	inline static constexpr unsigned int BattleGamePhase___c_TypeDefinitionIndex = 49427;
 
 	class BattleGamePhase___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__57_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x36240);
-		}
 		static ::System::Action** StaticGet___9__9_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x36248);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x481B0);
 		}
 		static ::RPG::Client::BattleGamePhase___c** StaticGet___9()
 		{
-			return (::RPG::Client::BattleGamePhase___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x36250);
+			return (::RPG::Client::BattleGamePhase___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x481B8);
+		}
+		static ::System::Action** StaticGet___9__57_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x481C0);
 		}
 
 		static ::System::Void _cctor()

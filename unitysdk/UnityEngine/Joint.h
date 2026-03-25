@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Joint_TypeDefinitionIndex = 5122;
+	inline static constexpr unsigned int Joint_TypeDefinitionIndex = 5222;
 
 	class Joint : public ::UnityEngine::Component
 	{

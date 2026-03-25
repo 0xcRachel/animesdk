@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_PERFORMERMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xA6453E0)
+#define RPGTOOLS_TIMELINE_PERFORMERMETA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB8B680)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformerMeta_TypeDefinitionIndex = 38288;
+	inline static constexpr unsigned int PerformerMeta_TypeDefinitionIndex = 39268;
 
 	class PerformerMeta : public ::UnityEngine::Timeline::CustomGroupTrackDataBase
 	{

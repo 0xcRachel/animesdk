@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ABILITYPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16774DD0)
-#define RPG_GAMECORE_ABILITYPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x16774F20)
+#define RPG_GAMECORE_ABILITYPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EA95D0)
+#define RPG_GAMECORE_ABILITYPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA9720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyValue_TypeDefinitionIndex = 11575;
+	inline static constexpr unsigned int AbilityPropertyValue_TypeDefinitionIndex = 11645;
 
 	class AbilityPropertyValue : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AbilityProperty PropertyType; // 0x10
-		::RPG::GameCore::FixPoint Value; // 0x18
+		::RPG::GameCore::FixPoint Value; // 0x10
+		::RPG::GameCore::AbilityProperty PropertyType; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15C57CD0)
-#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15C57C80)
+#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16320110)
+#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x163200C0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int EraInfo_TypeDefinitionIndex = 747;
+	inline static constexpr unsigned int EraInfo_TypeDefinitionIndex = 748;
 
 	class EraInfo : public ::System::Object
 	{
 	public:
 		::System::String* englishEraName; // 0x10
-		::System::String* eraName; // 0x18
-		::System::String* abbrevEraName; // 0x20
-		::System::Int32 yearOffset; // 0x28
-		::System::Int32 era; // 0x2C
-		::System::Int32 maxEraYear; // 0x30
+		::System::String* abbrevEraName; // 0x18
+		::System::String* eraName; // 0x20
+		::System::Int64 ticks; // 0x28
+		::System::Int32 yearOffset; // 0x30
 		::System::Int32 minEraYear; // 0x34
-		::System::Int64 ticks; // 0x38
+		::System::Int32 era; // 0x38
+		::System::Int32 maxEraYear; // 0x3C
 
 		::System::Void _ctor(::System::Int32 era, ::System::Int32 startYear, ::System::Int32 startMonth, ::System::Int32 startDay, ::System::Int32 yearOffset, ::System::Int32 minEraYear, ::System::Int32 maxEraYear)
 		{

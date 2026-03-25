@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_252;
+class Class_1_FA4F4A67B1C04320_275;
 namespace RPG::Client { class FateBuffData; }
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x91D5D00)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0__SYNCBUFFUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x91D83F0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9682CA0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0__SYNCBUFFUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x96853C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_0_TypeDefinitionIndex = 50784;
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_0_TypeDefinitionIndex = 51919;
 
 	class FateBuffTraitInfo___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::Class_1_FA4F4A67B1C04320_252* protoBuff; // 0x10
+		::Class_1_FA4F4A67B1C04320_275* protoBuff; // 0x10
 
 		::System::Void _ctor()
 		{

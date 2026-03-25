@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_49CAB3DE74280C58;
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_919_TypeDefinitionIndex = 61131;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_919_TypeDefinitionIndex = 60544;
 
 class Class_0_16E4307DCC419505_919
 {

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FateTraitData; }
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x91D7070)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS10_0__GETTRAITDATA_B__0_OFFSET UNITYSDK_OFFSET(0x91D83D0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9684040)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS10_0__GETTRAITDATA_B__0_OFFSET UNITYSDK_OFFSET(0x96853A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass10_0_TypeDefinitionIndex = 50783;
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass10_0_TypeDefinitionIndex = 51918;
 
 	class FateBuffTraitInfo___c__DisplayClass10_0 : public ::System::Object
 	{

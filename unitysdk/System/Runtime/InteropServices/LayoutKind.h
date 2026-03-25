@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int LayoutKind_TypeDefinitionIndex = 1415;
+	inline static constexpr unsigned int LayoutKind_TypeDefinitionIndex = 1420;
 
 	enum class LayoutKind : ::System::Int32
 	{

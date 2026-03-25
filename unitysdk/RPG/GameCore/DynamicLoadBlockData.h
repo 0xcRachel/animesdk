@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA_METHOD_2_D477584FCFBBF876_OFFSET UNITYSDK_OFFSET(0x16A56AC0)
-#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16A56B70)
+#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA_METHOD_2_D477584FCFBBF876_OFFSET UNITYSDK_OFFSET(0x17199660)
+#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17199710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicLoadBlockData_TypeDefinitionIndex = 17163;
+	inline static constexpr unsigned int DynamicLoadBlockData_TypeDefinitionIndex = 17568;
 
 	class DynamicLoadBlockData : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,25 +8,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A53F40)
-#define RPG_GAMECORE_DRINKMAKERTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A54710)
+#define RPG_GAMECORE_DRINKMAKERTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17196A70)
+#define RPG_GAMECORE_DRINKMAKERTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17197240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerTagRow_TypeDefinitionIndex = 11933;
+	inline static constexpr unsigned int DrinkMakerTagRow_TypeDefinitionIndex = 12003;
 
 	class DrinkMakerTagRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MixParam; // 0x10
-		::System::Boolean IsShow; // 0x18
-		::RPG::GameCore::DrinkMakerTagMixType MixType; // 0x1C
-		::System::UInt32 TagID; // 0x20
-		::RPG::Client::TextID TagName; // 0x28
-		::RPG::GameCore::DrinkMakerTagSourceType SourceType; // 0x38
-		::RPG::GameCore::DrinkMakerTagType Type; // 0x3C
-		::System::UInt32 CounterTag; // 0x40
-		::System::UInt32 Priority; // 0x44
+		::RPG::Client::TextID TagName; // 0x18
+		::System::UInt32 CounterTag; // 0x28
+		::System::UInt32 TagID; // 0x2C
+		::RPG::GameCore::DrinkMakerTagType Type; // 0x30
+		::System::UInt32 Priority; // 0x34
+		::System::Boolean IsShow; // 0x38
+		::RPG::GameCore::DrinkMakerTagMixType MixType; // 0x3C
+		::RPG::GameCore::DrinkMakerTagSourceType SourceType; // 0x40
 
 		::System::Void _ctor()
 		{

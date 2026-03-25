@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1803DFB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__MERGEPAIRS_B__0_OFFSET UNITYSDK_OFFSET(0x1803ECD0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18866510)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS___C__DISPLAYCLASS0_0__MERGEPAIRS_B__0_OFFSET UNITYSDK_OFFSET(0x188671E0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MergeElements___c__DisplayClass0_0_TypeDefinitionIndex = 33250;
+	inline static constexpr unsigned int MergeElements___c__DisplayClass0_0_TypeDefinitionIndex = 34239;
 
 	class MergeElements___c__DisplayClass0_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomType_TypeDefinitionIndex = 19930;
+	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomType_TypeDefinitionIndex = 20469;
 
 	enum class RogueDLC1Dot3AdventureRoomType : ::System::Int32
 	{

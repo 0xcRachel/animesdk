@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0FE760)
-#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xA0FE770)
+#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA623D20)
+#define RPG_CLIENT_TRANSFERUTILS___C__DISPLAYCLASS0_0__TRANSFERCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xA623D30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferUtils___c__DisplayClass0_0_TypeDefinitionIndex = 54098;
+	inline static constexpr unsigned int TransferUtils___c__DisplayClass0_0_TypeDefinitionIndex = 55656;
 
 	class TransferUtils___c__DisplayClass0_0 : public ::System::Object
 	{

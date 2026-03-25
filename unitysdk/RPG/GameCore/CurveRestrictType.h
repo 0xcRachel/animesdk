@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CurveRestrictType_TypeDefinitionIndex = 42333;
+	inline static constexpr unsigned int CurveRestrictType_TypeDefinitionIndex = 43382;
 
 	enum class CurveRestrictType : ::System::Int32
 	{

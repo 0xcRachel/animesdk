@@ -6,11 +6,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CLIPINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x17C18420)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_CLIPINFOS__CTOR_OFFSET UNITYSDK_OFFSET(0x184304C0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_ClipInfos_TypeDefinitionIndex = 33786;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_ClipInfos_TypeDefinitionIndex = 34775;
 
 	class SkeletonMecanim_MecanimTranslator_ClipInfos : public ::System::Object
 	{
@@ -18,15 +18,15 @@ namespace Spine::Unity
 		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* clipInfos; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* nextClipInfos; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::AnimatorClipInfo>* interruptingClipInfos; // 0x20
-		::UnityEngine::AnimatorStateInfo nextStateInfo; // 0x28
+		::UnityEngine::AnimatorStateInfo interruptingStateInfo; // 0x28
 		::System::Int32 nextClipInfoCount; // 0x4C
-		::UnityEngine::AnimatorStateInfo stateInfo; // 0x50
-		::System::Int32 interruptingClipInfoCount; // 0x74
-		::System::Single interruptingClipTimeAddition; // 0x78
-		::System::Boolean isInterruptionActive; // 0x7C
-		::System::Boolean isLastFrameOfInterruption; // 0x7D
-		::System::Int32 clipInfoCount; // 0x80
-		::UnityEngine::AnimatorStateInfo interruptingStateInfo; // 0x84
+		::UnityEngine::AnimatorStateInfo nextStateInfo; // 0x50
+		::System::Int32 clipInfoCount; // 0x74
+		::System::Int32 interruptingClipInfoCount; // 0x78
+		::System::Single interruptingClipTimeAddition; // 0x7C
+		::UnityEngine::AnimatorStateInfo stateInfo; // 0x80
+		::System::Boolean isInterruptionActive; // 0xA4
+		::System::Boolean isLastFrameOfInterruption; // 0xA5
 
 		::System::Void _ctor()
 		{

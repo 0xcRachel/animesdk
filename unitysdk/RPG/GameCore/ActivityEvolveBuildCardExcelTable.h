@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16789D20)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16789BA0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16789870)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16789B40)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16789EA0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x167898F0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16789EE0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1678A0C0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1678A480)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1678A790)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1678A020)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16789F80)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16EBFB80)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16EBFA00)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16EBF6D0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16EBF9A0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16EBFD00)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16EBF750)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16EBFD40)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EBFF20)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16EC02E0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EC05F0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16EBFE80)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16EBFDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex = 10620;
+	inline static constexpr unsigned int ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex = 10688;
 
 	class ActivityEvolveBuildCardExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x19EB0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x137A0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEvolveBuildCardRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEvolveBuildCardRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x19EB8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEvolveBuildCardRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x137A8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x19EC0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x60D0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x137B0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x60D1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x6750);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildCardExcelTable_TypeDefinitionIndex)->GetStaticField(0x6751);
 		}
 
 		static ::System::Void _cctor()

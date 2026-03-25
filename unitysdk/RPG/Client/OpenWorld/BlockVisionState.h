@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int BlockVisionState_TypeDefinitionIndex = 58857;
+	inline static constexpr unsigned int BlockVisionState_TypeDefinitionIndex = 60600;
 
 	enum class BlockVisionState : ::System::Int32
 	{

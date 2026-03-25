@@ -10,28 +10,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C66F90)
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C67500)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173CC930)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173CCEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 10923;
+	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 10991;
 
 	class MatchThreeV2PVPScoreRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* FixedScoreMap; // 0x10
-		::Il2CppArray<::RPG::GameCore::MultiPlayerGameMode>* GameModeList; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* ParamMap; // 0x20
-		::System::UInt32 ScoreID; // 0x28
-		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x2C
-		::RPG::Client::TextID Title; // 0x30
-		::RPG::Client::TextID Desc; // 0x40
-		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x50
-		::System::Int32 Param; // 0x54
-		::RPG::Client::TextID Title2; // 0x58
-		::RPG::GameCore::MatchThreeScoreType Type; // 0x68
-		::System::UInt32 ActivityID; // 0x6C
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* ParamMap; // 0x18
+		::Il2CppArray<::RPG::GameCore::MultiPlayerGameMode>* GameModeList; // 0x20
+		::System::UInt32 ActivityID; // 0x28
+		::RPG::GameCore::MatchThreeScoreType Type; // 0x2C
+		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x30
+		::System::UInt32 ScoreID; // 0x34
+		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x38
+		::System::Int32 Param; // 0x3C
+		::RPG::Client::TextID Title; // 0x40
+		::RPG::Client::TextID Desc; // 0x50
+		::RPG::Client::TextID Title2; // 0x60
 
 		::System::Void _ctor()
 		{

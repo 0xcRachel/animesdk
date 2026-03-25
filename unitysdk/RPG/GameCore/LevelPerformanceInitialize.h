@@ -8,19 +8,20 @@ namespace RPG::GameCore { class AudioStateConfig; }
 namespace RPG::GameCore { class CreateCharacter; }
 namespace RPG::GameCore { class EntityVisiableInfo; }
 namespace RPG::GameCore { class PerformanceCaptureNPC; }
+namespace RPG::GameCore { class PerformanceOverrideCharacterOutfit; }
 namespace RPG::GameCore { class PerformancePropVisiableInfo; }
 namespace RPG::GameCore { class StageItemAlias; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_2185171878718EA4_OFFSET UNITYSDK_OFFSET(0x16BBAE00)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_928E03256D5FF253_OFFSET UNITYSDK_OFFSET(0x16BBA3D0)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_AE01D50A68947F72_OFFSET UNITYSDK_OFFSET(0x16BBA490)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0x16BBAE10)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x16BBA440)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_2185171878718EA4_OFFSET UNITYSDK_OFFSET(0x1735E970)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_928E03256D5FF253_OFFSET UNITYSDK_OFFSET(0x1735DEE0)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_AE01D50A68947F72_OFFSET UNITYSDK_OFFSET(0x1735DFA0)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0x1735E980)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1735DF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPerformanceInitialize_TypeDefinitionIndex = 19498;
+	inline static constexpr unsigned int LevelPerformanceInitialize_TypeDefinitionIndex = 20025;
 
 	class LevelPerformanceInitialize : public ::RPG::GameCore::TaskConfig
 	{
@@ -49,6 +50,7 @@ namespace RPG::GameCore
 		::System::Boolean ResetEnvironment; // 0x90
 		::System::Boolean ResetMonster; // 0x91
 		::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* AudioStateList; // 0x98
+		::Il2CppArray<::RPG::GameCore::PerformanceOverrideCharacterOutfit*>* OverrideCharacterOutfits; // 0xA0
 
 		::System::Void _ctor()
 		{

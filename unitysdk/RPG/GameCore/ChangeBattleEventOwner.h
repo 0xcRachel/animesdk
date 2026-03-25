@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHANGEBATTLEEVENTOWNER_METHOD_3_4F04724771C5CE71_OFFSET UNITYSDK_OFFSET(0x169630E0)
-#define RPG_GAMECORE_CHANGEBATTLEEVENTOWNER_METHOD_3_5FDF0E278A9CB5DA_OFFSET UNITYSDK_OFFSET(0x16963060)
-#define RPG_GAMECORE_CHANGEBATTLEEVENTOWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x169630B0)
+#define RPG_GAMECORE_CHANGEBATTLEEVENTOWNER_METHOD_3_4F04724771C5CE71_OFFSET UNITYSDK_OFFSET(0x17074830)
+#define RPG_GAMECORE_CHANGEBATTLEEVENTOWNER_METHOD_3_5FDF0E278A9CB5DA_OFFSET UNITYSDK_OFFSET(0x170747B0)
+#define RPG_GAMECORE_CHANGEBATTLEEVENTOWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x17074800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeBattleEventOwner_TypeDefinitionIndex = 20632;
+	inline static constexpr unsigned int ChangeBattleEventOwner_TypeDefinitionIndex = 21182;
 
 	class ChangeBattleEventOwner : public ::RPG::GameCore::TaskConfig
 	{

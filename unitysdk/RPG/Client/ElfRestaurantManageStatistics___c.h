@@ -6,54 +6,54 @@
 namespace RPG::Client { class ElfRestaurantRecipeData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x913D010)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x913D050)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTPRODUCINGPRODUCTIDS_B__21_0_OFFSET UNITYSDK_OFFSET(0x913D1E0)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTPRODUCINGPRODUCTIDS_B__21_1_OFFSET UNITYSDK_OFFSET(0x913D1F0)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTSELLINGRECIPEIDS_B__16_0_OFFSET UNITYSDK_OFFSET(0x913D060)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTSELLINGRECIPEIDS_B__16_1_OFFSET UNITYSDK_OFFSET(0x913D070)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETHIGHESTSELLPRICERECIPEIDS_B__19_0_OFFSET UNITYSDK_OFFSET(0x913D1C0)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETHIGHESTSELLPRICERECIPEIDS_B__19_1_OFFSET UNITYSDK_OFFSET(0x913D1D0)
-#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETTOTALRECIPECOUNT_B__17_0_OFFSET UNITYSDK_OFFSET(0x913D080)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x95ED8A0)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x95ED8E0)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTPRODUCINGPRODUCTIDS_B__21_0_OFFSET UNITYSDK_OFFSET(0x95ED950)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTPRODUCINGPRODUCTIDS_B__21_1_OFFSET UNITYSDK_OFFSET(0x95ED960)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTSELLINGRECIPEIDS_B__16_0_OFFSET UNITYSDK_OFFSET(0x95ED8F0)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETBESTSELLINGRECIPEIDS_B__16_1_OFFSET UNITYSDK_OFFSET(0x95ED900)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETHIGHESTSELLPRICERECIPEIDS_B__19_0_OFFSET UNITYSDK_OFFSET(0x95ED930)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETHIGHESTSELLPRICERECIPEIDS_B__19_1_OFFSET UNITYSDK_OFFSET(0x95ED940)
+#define RPG_CLIENT_ELFRESTAURANTMANAGESTATISTICS___C__GETTOTALRECIPECOUNT_B__17_0_OFFSET UNITYSDK_OFFSET(0x95ED910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantManageStatistics___c_TypeDefinitionIndex = 50656;
+	inline static constexpr unsigned int ElfRestaurantManageStatistics___c_TypeDefinitionIndex = 51791;
 
 	class ElfRestaurantManageStatistics___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__21_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46120);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46128);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44360);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__16_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46130);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__21_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46138);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44368);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__19_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46140);
-		}
-		static ::RPG::Client::ElfRestaurantManageStatistics___c** StaticGet___9()
-		{
-			return (::RPG::Client::ElfRestaurantManageStatistics___c**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46148);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeData*>, ::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46150);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44370);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x46158);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44378);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeData*>, ::System::Boolean>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ElfRestaurantRecipeData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44380);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__21_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44388);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__21_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44390);
+		}
+		static ::RPG::Client::ElfRestaurantManageStatistics___c** StaticGet___9()
+		{
+			return (::RPG::Client::ElfRestaurantManageStatistics___c**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantManageStatistics___c_TypeDefinitionIndex)->GetStaticField(0x44398);
 		}
 
 		static ::System::Void _cctor()

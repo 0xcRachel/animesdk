@@ -13,7 +13,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int AddExternalIntegrityCatalogOptionsInternal_TypeDefinitionIndex = 35755;
+	inline static constexpr unsigned int AddExternalIntegrityCatalogOptionsInternal_TypeDefinitionIndex = 36689;
 
 	struct alignas(8) AddExternalIntegrityCatalogOptionsInternal
 	{

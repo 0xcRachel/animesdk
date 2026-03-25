@@ -8,12 +8,12 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define UNITYENGINE_UI_AUIPROGRESSBAR_RESET_OFFSET UNITYSDK_OFFSET(0xA733BF0)
-#define UNITYENGINE_UI_AUIPROGRESSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0xA733C10)
+#define UNITYENGINE_UI_AUIPROGRESSBAR_RESET_OFFSET UNITYSDK_OFFSET(0xAC3D120)
+#define UNITYENGINE_UI_AUIPROGRESSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0xAC3D140)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int AUiProgressBar_TypeDefinitionIndex = 37644;
+	inline static constexpr unsigned int AUiProgressBar_TypeDefinitionIndex = 38608;
 
 	class AUiProgressBar : public ::UnityEngine::EventSystems::UIBehaviour
 	{

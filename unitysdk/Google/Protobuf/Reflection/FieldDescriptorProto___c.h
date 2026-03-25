@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class FieldDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x153FE170)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x153FE1B0)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C___CCTOR_B__111_0_OFFSET UNITYSDK_OFFSET(0x153FE1C0)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B16630)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B16670)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDDESCRIPTORPROTO___C___CCTOR_B__111_0_OFFSET UNITYSDK_OFFSET(0x15B16680)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldDescriptorProto___c_TypeDefinitionIndex = 6161;
+	inline static constexpr unsigned int FieldDescriptorProto___c_TypeDefinitionIndex = 6261;
 
 	class FieldDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FieldDescriptorProto___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::FieldDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(FieldDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0xFAF0);
+			return (::Google::Protobuf::Reflection::FieldDescriptorProto___c**)Il2CppClass::FromTypeDefinitionIndex(FieldDescriptorProto___c_TypeDefinitionIndex)->GetStaticField(0x7870);
 		}
 
 		static ::System::Void _cctor()

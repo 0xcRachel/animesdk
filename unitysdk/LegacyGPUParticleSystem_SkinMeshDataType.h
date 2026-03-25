@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LegacyGPUParticleSystem_SkinMeshDataType_TypeDefinitionIndex = 32921;
+inline static constexpr unsigned int LegacyGPUParticleSystem_SkinMeshDataType_TypeDefinitionIndex = 33909;
 
 enum class LegacyGPUParticleSystem_SkinMeshDataType : ::System::Int32
 {

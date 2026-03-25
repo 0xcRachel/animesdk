@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournMarkType_TypeDefinitionIndex = 10173;
+	inline static constexpr unsigned int RogueTournMarkType_TypeDefinitionIndex = 10175;
 
 	enum class RogueTournMarkType : ::System::Int32
 	{

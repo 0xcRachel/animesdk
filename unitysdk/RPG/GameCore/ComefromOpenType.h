@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComefromOpenType_TypeDefinitionIndex = 12603;
+	inline static constexpr unsigned int ComefromOpenType_TypeDefinitionIndex = 12673;
 
 	enum class ComefromOpenType : ::System::Int32
 	{

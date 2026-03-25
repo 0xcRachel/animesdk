@@ -6,10 +6,10 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define HEU_SCRIPTMESHINPUTUVLAYOUTEXAMPLE_APPLYUVLAYOUTTO_OFFSET UNITYSDK_OFFSET(0x8098720)
-#define HEU_SCRIPTMESHINPUTUVLAYOUTEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x8099070)
+#define HEU_SCRIPTMESHINPUTUVLAYOUTEXAMPLE_APPLYUVLAYOUTTO_OFFSET UNITYSDK_OFFSET(0x83F24F0)
+#define HEU_SCRIPTMESHINPUTUVLAYOUTEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x83F2E40)
 
-inline static constexpr unsigned int HEU_ScriptMeshInputUVLayoutExample_TypeDefinitionIndex = 34153;
+inline static constexpr unsigned int HEU_ScriptMeshInputUVLayoutExample_TypeDefinitionIndex = 35090;
 
 class HEU_ScriptMeshInputUVLayoutExample : public ::System::Object
 {

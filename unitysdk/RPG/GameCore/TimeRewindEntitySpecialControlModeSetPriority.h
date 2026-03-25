@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEntitySpecialControlModeSetPriority_TypeDefinitionIndex = 45242;
+	inline static constexpr unsigned int TimeRewindEntitySpecialControlModeSetPriority_TypeDefinitionIndex = 46303;
 
 	enum class TimeRewindEntitySpecialControlModeSetPriority : ::System::Int32
 	{

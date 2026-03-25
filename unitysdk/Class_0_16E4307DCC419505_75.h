@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/RPG/Client/CachedAssetLogicType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_75_TypeDefinitionIndex = 31409;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_75_TypeDefinitionIndex = 32043;
 
 class Class_0_16E4307DCC419505_75
 {

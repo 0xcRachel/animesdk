@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15807AA0)
+#define MIHOYO_SDK_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15EEF3E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 6765;
+	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 6877;
 
 	class DeviceInfo : public ::System::Object
 	{
@@ -27,6 +27,7 @@ namespace MiHoYo::SDK
 		::System::String* channel_id; // 0x68
 		::System::String* channel_subid; // 0x70
 		::System::String* network_type; // 0x78
+		::System::Int32 channel_subid_int; // 0x80
 
 		::System::Void _ctor()
 		{

@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define STAGEBUDGETTOOL_VOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xA69F1F0)
+#define STAGEBUDGETTOOL_VOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xABE6D90)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 37636;
+	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 38600;
 
 	class Volume : public ::System::Object
 	{

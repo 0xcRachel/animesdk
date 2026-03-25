@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace RPG::GameCore { class JsonConfig; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_800_TypeDefinitionIndex = 57633;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_800_TypeDefinitionIndex = 56949;
 
 class Class_0_16E4307DCC419505_800
 {

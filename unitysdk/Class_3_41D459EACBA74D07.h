@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClockParkTakePhotoReport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_41D459EACBA74D07_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEEA8060)
-#define CLASS_3_41D459EACBA74D07__CTOR_OFFSET UNITYSDK_OFFSET(0xEEA8030)
+#define CLASS_3_41D459EACBA74D07_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1157ADB0)
+#define CLASS_3_41D459EACBA74D07__CTOR_OFFSET UNITYSDK_OFFSET(0x1157AD80)
 
-inline static constexpr unsigned int Class_3_41D459EACBA74D07_TypeDefinitionIndex = 41602;
+inline static constexpr unsigned int Class_3_41D459EACBA74D07_TypeDefinitionIndex = 42648;
 
 class Class_3_41D459EACBA74D07 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClockParkTakePhotoReport*>
 {

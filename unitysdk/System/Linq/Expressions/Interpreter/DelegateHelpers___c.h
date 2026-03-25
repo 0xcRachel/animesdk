@@ -5,24 +5,24 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CBE240)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBE280)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__MAKEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x17CBE290)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184D5580)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184D55C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__MAKEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x184D55D0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DelegateHelpers___c_TypeDefinitionIndex = 3637;
+	inline static constexpr unsigned int DelegateHelpers___c_TypeDefinitionIndex = 3646;
 
 	class DelegateHelpers___c : public ::System::Object
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::DelegateHelpers___c** StaticGet___9()
 		{
-			return (::System::Linq::Expressions::Interpreter::DelegateHelpers___c**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x177D0);
+			return (::System::Linq::Expressions::Interpreter::DelegateHelpers___c**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x25790);
 		}
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x177D8);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x25798);
 		}
 
 		static ::System::Void _cctor()

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
 
-class Class_2_6BFAFA494F2D1E4B;
+class Class_2_9D4DD2F4235F8658;
 namespace RPG::GameCore { class ST_ByInAIStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E12D0674A675E296_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8578320)
-#define CLASS_3_E12D0674A675E296__CTOR_OFFSET UNITYSDK_OFFSET(0x85782C0)
+#define CLASS_3_E12D0674A675E296_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10529850)
+#define CLASS_3_E12D0674A675E296__CTOR_OFFSET UNITYSDK_OFFSET(0x105297F0)
 
-inline static constexpr unsigned int Class_3_E12D0674A675E296_TypeDefinitionIndex = 41171;
+inline static constexpr unsigned int Class_3_E12D0674A675E296_TypeDefinitionIndex = 42214;
 
 class Class_3_E12D0674A675E296 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByInAIStatus*>
 {
 public:
-	::Class_2_6BFAFA494F2D1E4B* Field_3_0; // 0x28
+	::Class_2_9D4DD2F4235F8658* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_ByInAIStatus* a2)
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D46030)
-#define RPG_GAMECORE_PLANETFESCARDTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D46230)
+#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CDE80)
+#define RPG_GAMECORE_PLANETFESCARDTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CE080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesCardThemeRow_TypeDefinitionIndex = 11069;
+	inline static constexpr unsigned int PlanetFesCardThemeRow_TypeDefinitionIndex = 11137;
 
 	class PlanetFesCardThemeRow : public ::System::Object
 	{

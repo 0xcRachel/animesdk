@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_TIMELINE_NOTKEYABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18197570)
+#define UNITYENGINE_TIMELINE_NOTKEYABLEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189BFE20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int NotKeyableAttribute_TypeDefinitionIndex = 29025;
+	inline static constexpr unsigned int NotKeyableAttribute_TypeDefinitionIndex = 29900;
 
 	class NotKeyableAttribute : public ::System::Attribute
 	{

@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::P2P { class GetPortRangeOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_P2P_GETPORTRANGEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_P2P_GETPORTRANGEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57610)
+#define EPIC_ONLINESERVICES_P2P_GETPORTRANGEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x57780)
 #define EPIC_ONLINESERVICES_P2P_GETPORTRANGEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetPortRangeOptionsInternal_TypeDefinitionIndex = 34958;
+	inline static constexpr unsigned int GetPortRangeOptionsInternal_TypeDefinitionIndex = 35892;
 
 	struct alignas(4) GetPortRangeOptionsInternal
 	{

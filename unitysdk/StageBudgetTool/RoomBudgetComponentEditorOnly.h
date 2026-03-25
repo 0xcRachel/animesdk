@@ -4,11 +4,11 @@
 
 namespace StageBudgetTool { class Room; }
 
-#define STAGEBUDGETTOOL_ROOMBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0xA69F1D0)
+#define STAGEBUDGETTOOL_ROOMBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0xABE6D70)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int RoomBudgetComponentEditorOnly_TypeDefinitionIndex = 37629;
+	inline static constexpr unsigned int RoomBudgetComponentEditorOnly_TypeDefinitionIndex = 38593;
 
 	class RoomBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{

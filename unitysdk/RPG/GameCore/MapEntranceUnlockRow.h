@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C298F0)
-#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C299F0)
+#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1738E6E0)
+#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1738E7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapEntranceUnlockRow_TypeDefinitionIndex = 12786;
+	inline static constexpr unsigned int MapEntranceUnlockRow_TypeDefinitionIndex = 12857;
 
 	class MapEntranceUnlockRow : public ::System::Object
 	{

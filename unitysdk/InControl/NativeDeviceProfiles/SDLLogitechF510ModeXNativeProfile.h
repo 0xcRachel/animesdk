@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/SDLControllerNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_SDLLOGITECHF510MODEXNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x154C8750)
-#define INCONTROL_NATIVEDEVICEPROFILES_SDLLOGITECHF510MODEXNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x154C9D90)
+#define INCONTROL_NATIVEDEVICEPROFILES_SDLLOGITECHF510MODEXNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BE2550)
+#define INCONTROL_NATIVEDEVICEPROFILES_SDLLOGITECHF510MODEXNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE3B90)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLLogitechF510ModeXNativeProfile_TypeDefinitionIndex = 30991;
+	inline static constexpr unsigned int SDLLogitechF510ModeXNativeProfile_TypeDefinitionIndex = 31866;
 
 	class SDLLogitechF510ModeXNativeProfile : public ::InControl::NativeDeviceProfiles::SDLControllerNativeProfile
 	{

@@ -6,12 +6,12 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_STAGEHARMONYEMOTIONOPERATORBEHAVIOR_TRANSFORMOPERATOR_GET_RELIVEINGDURATION_OFFSET UNITYSDK_OFFSET(0x9FA91D0)
-#define RPG_CLIENT_STAGEHARMONYEMOTIONOPERATORBEHAVIOR_TRANSFORMOPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA9FB0)
+#define RPG_CLIENT_STAGEHARMONYEMOTIONOPERATORBEHAVIOR_TRANSFORMOPERATOR_GET_RELIVEINGDURATION_OFFSET UNITYSDK_OFFSET(0xA4C9660)
+#define RPG_CLIENT_STAGEHARMONYEMOTIONOPERATORBEHAVIOR_TRANSFORMOPERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA4CA460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyEmotionOperatorBehavior_TransformOperator_TypeDefinitionIndex = 56545;
+	inline static constexpr unsigned int StageHarmonyEmotionOperatorBehavior_TransformOperator_TypeDefinitionIndex = 58126;
 
 	class StageHarmonyEmotionOperatorBehavior_TransformOperator : public ::System::Object
 	{

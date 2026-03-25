@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F02980)
-#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F02B90)
+#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176B7E10)
+#define RPG_GAMECORE_SERVERINTERACTVERIFICATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x176B8020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerInteractVerificationRow_TypeDefinitionIndex = 13716;
+	inline static constexpr unsigned int ServerInteractVerificationRow_TypeDefinitionIndex = 13830;
 
 	class ServerInteractVerificationRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* InteractTypeConfig; // 0x10
-		::System::UInt32 WorldLevelRequire; // 0x18
-		::System::UInt32 MissionRequire; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::RPG::GameCore::InteractType InteractType; // 0x24
+		::RPG::GameCore::InteractType InteractType; // 0x18
+		::System::UInt32 WorldLevelRequire; // 0x1C
+		::System::UInt32 MissionRequire; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

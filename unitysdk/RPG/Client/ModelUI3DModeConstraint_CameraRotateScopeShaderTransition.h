@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_CAMERAROTATESCOPESHADERTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9772050)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_CAMERAROTATESCOPESHADERTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9C17860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModelUI3DModeConstraint_CameraRotateScopeShaderTransition_TypeDefinitionIndex = 54381;
+	inline static constexpr unsigned int ModelUI3DModeConstraint_CameraRotateScopeShaderTransition_TypeDefinitionIndex = 55940;
 
 	class ModelUI3DModeConstraint_CameraRotateScopeShaderTransition : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmptyModelControlMask_TypeDefinitionIndex = 44991;
+	inline static constexpr unsigned int EmptyModelControlMask_TypeDefinitionIndex = 46052;
 
 	enum class EmptyModelControlMask : ::System::Int32
 	{

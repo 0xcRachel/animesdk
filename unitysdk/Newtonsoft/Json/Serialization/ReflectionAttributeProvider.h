@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONATTRIBUTEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x15DBD490)
+#define NEWTONSOFT_JSON_SERIALIZATION_REFLECTIONATTRIBUTEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x16484E60)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int ReflectionAttributeProvider_TypeDefinitionIndex = 8166;
+	inline static constexpr unsigned int ReflectionAttributeProvider_TypeDefinitionIndex = 8295;
 
 	class ReflectionAttributeProvider : public ::System::Object
 	{

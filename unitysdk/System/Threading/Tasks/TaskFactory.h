@@ -6,29 +6,27 @@
 #include "unitysdk/System/Threading/Tasks/TaskCreationOptions.h"
 
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x15B954D0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x15B95620)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x15B95400)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x15B92E10)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET UNITYSDK_OFFSET(0x15B95520)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15B95390)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x15B93360)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1625EE80)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1625EED0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1625EDB0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1625C7D0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1625ED40)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1625CD20)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 918;
+	inline static constexpr unsigned int TaskFactory_TypeDefinitionIndex = 922;
 
 	class TaskFactory : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x10
-		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x18
+		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x10
+		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x18
 		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x20
 		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x24
 
@@ -45,11 +43,6 @@ namespace System::Threading::Tasks
 		static ::System::Void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions)
 		{
 			return ((::System::Void(*)(::System::Threading::Tasks::TaskCreationOptions))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET))(creationOptions);
-		}
-
-		::System::Threading::Tasks::Task* StartNew(::System::Action_1<::System::Object*>* action, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler)
-		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::CancellationToken, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET))(this, action, state, cancellationToken, creationOptions, scheduler);
 		}
 
 		static ::System::Void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Boolean hasBeginMethod)

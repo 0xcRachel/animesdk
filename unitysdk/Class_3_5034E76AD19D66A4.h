@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyGlobalVisionParams; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5034E76AD19D66A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10FBDB90)
-#define CLASS_3_5034E76AD19D66A4__CTOR_OFFSET UNITYSDK_OFFSET(0x10FBDB60)
+#define CLASS_3_5034E76AD19D66A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8B82E40)
+#define CLASS_3_5034E76AD19D66A4__CTOR_OFFSET UNITYSDK_OFFSET(0x8B82E10)
 
-inline static constexpr unsigned int Class_3_5034E76AD19D66A4_TypeDefinitionIndex = 41866;
+inline static constexpr unsigned int Class_3_5034E76AD19D66A4_TypeDefinitionIndex = 42915;
 
 class Class_3_5034E76AD19D66A4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyGlobalVisionParams*>
 {

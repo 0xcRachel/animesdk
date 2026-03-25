@@ -9,32 +9,32 @@ namespace System::Xml::Schema { class XmlSchemaElement; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x17D948F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x17D94940)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x17D94950)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x17D94960)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x17D94990)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x17D94980)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x17D94970)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x17D94930)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17D94910)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17D948D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x185C4410)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x185C4460)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x185C4470)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x185C4480)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x185C44B0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x185C44A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x185C4490)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x185C4450)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x185C4430)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185C43F0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaInfo_TypeDefinitionIndex = 2186;
+	inline static constexpr unsigned int XmlSchemaInfo_TypeDefinitionIndex = 2191;
 
 	class XmlSchemaInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaElement* schemaElement; // 0x10
-		::System::Xml::Schema::XmlSchemaSimpleType* memberType; // 0x18
-		::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute; // 0x20
-		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x28
-		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x30
-		::System::Xml::Schema::XmlSchemaValidity validity; // 0x34
-		::System::Boolean isNil; // 0x38
-		::System::Boolean isDefault; // 0x39
+		::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute; // 0x10
+		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x18
+		::System::Xml::Schema::XmlSchemaSimpleType* memberType; // 0x20
+		::System::Xml::Schema::XmlSchemaElement* schemaElement; // 0x28
+		::System::Boolean isDefault; // 0x30
+		::System::Boolean isNil; // 0x31
+		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x34
+		::System::Xml::Schema::XmlSchemaValidity validity; // 0x38
 
 		::System::Void _ctor()
 		{

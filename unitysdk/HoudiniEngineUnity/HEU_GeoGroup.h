@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_GEOGROUP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x80E6230)
-#define HOUDINIENGINEUNITY_HEU_GEOGROUP_SETUPNORMALINDICES_OFFSET UNITYSDK_OFFSET(0x80E2830)
-#define HOUDINIENGINEUNITY_HEU_GEOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x80E27A0)
+#define HOUDINIENGINEUNITY_HEU_GEOGROUP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x843DB40)
+#define HOUDINIENGINEUNITY_HEU_GEOGROUP_SETUPNORMALINDICES_OFFSET UNITYSDK_OFFSET(0x843A160)
+#define HOUDINIENGINEUNITY_HEU_GEOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x843A0D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeoGroup_TypeDefinitionIndex = 36882;
+	inline static constexpr unsigned int HEU_GeoGroup_TypeDefinitionIndex = 37819;
 
 	class HEU_GeoGroup : public ::System::Object
 	{
 	public:
-		::System::String* _groupName; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_MeshData*>* _subMeshesMap; // 0x10
 		::Il2CppArray<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry*>*>* _sharedNormalIndices; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_MeshData*>* _subMeshesMap; // 0x20
+		::System::String* _groupName; // 0x20
 
 		::System::Void _ctor()
 		{

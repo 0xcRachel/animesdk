@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 
-#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_METHOD_2_E2DC8A86042EB6DC_OFFSET UNITYSDK_OFFSET(0x16A33F00)
-#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A34020)
+#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_METHOD_2_2C577D685A1BB893_OFFSET UNITYSDK_OFFSET(0x17172B50)
+#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17172CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatColorfulDiceSkillConfig_TypeDefinitionIndex = 14555;
+	inline static constexpr unsigned int DiceCombatColorfulDiceSkillConfig_TypeDefinitionIndex = 14807;
 
 	class DiceCombatColorfulDiceSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E2DC8A86042EB6DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatColorfulDiceSkillConfig*& a2)
+		static ::System::Void Method_2_2C577D685A1BB893(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatColorfulDiceSkillConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatColorfulDiceSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_METHOD_2_E2DC8A86042EB6DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatColorfulDiceSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_METHOD_2_2C577D685A1BB893_OFFSET))(a1, a2);
 		}
 	};
 }

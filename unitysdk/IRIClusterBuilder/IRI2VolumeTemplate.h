@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define IRICLUSTERBUILDER_IRI2VOLUMETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x10AD4080)
+#define IRICLUSTERBUILDER_IRI2VOLUMETEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x111E9850)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRI2VolumeTemplate_TypeDefinitionIndex = 37657;
+	inline static constexpr unsigned int IRI2VolumeTemplate_TypeDefinitionIndex = 38619;
 
 	class IRI2VolumeTemplate : public ::UnityEngine::ScriptableObject
 	{

@@ -8,24 +8,24 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
 namespace RPG::Client { class CameraFightStateUseSkillPerformConfig; }
 
-#define CLASS_1_0A04CB5E2D43E41C_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0xBF1AC30)
-#define CLASS_1_0A04CB5E2D43E41C_INIT_OFFSET UNITYSDK_OFFSET(0xBF19390)
-#define CLASS_1_0A04CB5E2D43E41C_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xBF1A090)
-#define CLASS_1_0A04CB5E2D43E41C_REFRESH_OFFSET UNITYSDK_OFFSET(0xBF194D0)
-#define CLASS_1_0A04CB5E2D43E41C_RESET_OFFSET UNITYSDK_OFFSET(0xBF19430)
-#define CLASS_1_0A04CB5E2D43E41C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF1AC70)
+#define CLASS_1_0A04CB5E2D43E41C_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0xD7D0D80)
+#define CLASS_1_0A04CB5E2D43E41C_INIT_OFFSET UNITYSDK_OFFSET(0xD7CF4C0)
+#define CLASS_1_0A04CB5E2D43E41C_METHOD_1_B877181B6123B7F6_OFFSET UNITYSDK_OFFSET(0xD7D01E0)
+#define CLASS_1_0A04CB5E2D43E41C_REFRESH_OFFSET UNITYSDK_OFFSET(0xD7CF600)
+#define CLASS_1_0A04CB5E2D43E41C_RESET_OFFSET UNITYSDK_OFFSET(0xD7CF560)
+#define CLASS_1_0A04CB5E2D43E41C__CTOR_OFFSET UNITYSDK_OFFSET(0xD7D0DC0)
 
-inline static constexpr unsigned int Class_1_0A04CB5E2D43E41C_TypeDefinitionIndex = 55336;
+inline static constexpr unsigned int Class_1_0A04CB5E2D43E41C_TypeDefinitionIndex = 56901;
 
 class Class_1_0A04CB5E2D43E41C : public ::System::Object
 {
 public:
-	::RPG::Client::CameraDataAndFlags* Field_1_1; // 0x10
+	::RPG::Client::CameraFightStateUseSkillPerformConfig* Field_1_2; // 0x10
 	::Class_2_5D178EC982C80153* Field_1_0; // 0x18
-	::RPG::Client::CameraFightStateUseSkillPerformConfig* Field_1_2; // 0x20
-	::UnityEngine::Vector3 Field_1_5; // 0x28
-	::UnityEngine::Vector3 Field_1_4; // 0x34
-	::System::Boolean Field_1_3; // 0x40
+	::RPG::Client::CameraDataAndFlags* Field_1_1; // 0x20
+	::System::Boolean Field_1_3; // 0x28
+	::UnityEngine::Vector3 Field_1_5; // 0x2C
+	::UnityEngine::Vector3 Field_1_4; // 0x38
 
 	::System::Void _ctor()
 	{

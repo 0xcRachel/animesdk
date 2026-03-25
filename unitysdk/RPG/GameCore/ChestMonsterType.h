@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChestMonsterType_TypeDefinitionIndex = 13109;
+	inline static constexpr unsigned int ChestMonsterType_TypeDefinitionIndex = 13180;
 
 	enum class ChestMonsterType : ::System::Int32
 	{

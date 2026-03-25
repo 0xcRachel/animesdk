@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetLoopHitFeatureParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E588A4F5D6E93D01_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xACB0870)
-#define CLASS_3_E588A4F5D6E93D01__CTOR_OFFSET UNITYSDK_OFFSET(0xACB0840)
+#define CLASS_3_E588A4F5D6E93D01_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BFEA10)
+#define CLASS_3_E588A4F5D6E93D01__CTOR_OFFSET UNITYSDK_OFFSET(0x10BFE9E0)
 
-inline static constexpr unsigned int Class_3_E588A4F5D6E93D01_TypeDefinitionIndex = 41466;
+inline static constexpr unsigned int Class_3_E588A4F5D6E93D01_TypeDefinitionIndex = 42510;
 
 class Class_3_E588A4F5D6E93D01 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetLoopHitFeatureParam*>
 {

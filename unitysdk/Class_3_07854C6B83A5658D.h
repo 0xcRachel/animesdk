@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartySwitchEnvironment; }
 
-#define CLASS_3_07854C6B83A5658D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8949A30)
-#define CLASS_3_07854C6B83A5658D__CTOR_OFFSET UNITYSDK_OFFSET(0x8949A00)
+#define CLASS_3_07854C6B83A5658D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B7F8D0)
+#define CLASS_3_07854C6B83A5658D__CTOR_OFFSET UNITYSDK_OFFSET(0x10B7F8A0)
 
-inline static constexpr unsigned int Class_3_07854C6B83A5658D_TypeDefinitionIndex = 42214;
+inline static constexpr unsigned int Class_3_07854C6B83A5658D_TypeDefinitionIndex = 43263;
 
 class Class_3_07854C6B83A5658D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TrainPartySwitchEnvironment*>
 {

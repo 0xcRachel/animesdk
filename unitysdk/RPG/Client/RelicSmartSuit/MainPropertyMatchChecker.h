@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_855;
-namespace RPG::Client { class AvatarData; }
+class Class_0_16E4307DCC419505_929;
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class RelicItemData; }
 namespace RPG::Client { class RelicRecommendData; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_CREATE_OFFSET UNITYSDK_OFFSET(0x9D98550)
-#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_1_OFFSET UNITYSDK_OFFSET(0x9D98630)
-#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_2_OFFSET UNITYSDK_OFFSET(0x9D98810)
-#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_OFFSET UNITYSDK_OFFSET(0x9D985D0)
-#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x9D985C0)
+#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_CREATE_OFFSET UNITYSDK_OFFSET(0xA2B9270)
+#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_1_OFFSET UNITYSDK_OFFSET(0xA2B9350)
+#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_2_OFFSET UNITYSDK_OFFSET(0xA2B9530)
+#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_OFFSET UNITYSDK_OFFSET(0xA2B92F0)
+#define RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0xA2B92E0)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int MainPropertyMatchChecker_TypeDefinitionIndex = 59407;
+	inline static constexpr unsigned int MainPropertyMatchChecker_TypeDefinitionIndex = 61160;
 
 	class MainPropertyMatchChecker : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_855* _DataSource; // 0x10
+		::Class_0_16E4307DCC419505_929* _DataSource; // 0x10
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_855* dataSource)
+		::System::Void _ctor(::Class_0_16E4307DCC419505_929* dataSource)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_855*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER__CTOR_OFFSET))(this, dataSource);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_929*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER__CTOR_OFFSET))(this, dataSource);
 		}
 
-		static ::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker* Create(::Class_0_16E4307DCC419505_855* dataSource)
+		static ::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker* Create(::Class_0_16E4307DCC419505_929* dataSource)
 		{
-			return ((::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker*(*)(::Class_0_16E4307DCC419505_855*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_CREATE_OFFSET))(dataSource);
+			return ((::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker*(*)(::Class_0_16E4307DCC419505_929*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_CREATE_OFFSET))(dataSource);
 		}
 
 		::System::Boolean IsMainPropertyMatch(::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo* relicInfo)
@@ -43,9 +43,9 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::RelicItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_1_OFFSET))(this, relicData);
 		}
 
-		static ::System::Boolean IsMainPropertyMatch_2(::RPG::Client::RelicItemData* relicData, ::RPG::Client::RelicRecommendData* recommendData, ::RPG::Client::AvatarData* avatarData)
+		static ::System::Boolean IsMainPropertyMatch_2(::RPG::Client::RelicItemData* relicData, ::RPG::Client::RelicRecommendData* recommendData, ::RPG::Client::IAvatarInfoProvider* avatar)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_2_OFFSET))(relicData, recommendData, avatarData);
+			return ((::System::Boolean(*)(::RPG::Client::RelicItemData*, ::RPG::Client::RelicRecommendData*, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_MAINPROPERTYMATCHCHECKER_ISMAINPROPERTYMATCH_2_OFFSET))(relicData, recommendData, avatar);
 		}
 	};
 }

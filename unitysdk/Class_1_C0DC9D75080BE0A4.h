@@ -9,28 +9,28 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_C0DC9D75080BE0A4_METHOD_1_5A14130134742A76_OFFSET UNITYSDK_OFFSET(0x105CCCD0)
-#define CLASS_1_C0DC9D75080BE0A4_METHOD_1_5C8B80D3D5F605B1_OFFSET UNITYSDK_OFFSET(0x105CD330)
-#define CLASS_1_C0DC9D75080BE0A4_METHOD_1_C53E684655FC29AE_OFFSET UNITYSDK_OFFSET(0x105CD090)
-#define CLASS_1_C0DC9D75080BE0A4__CCTOR_OFFSET UNITYSDK_OFFSET(0x105CD5A0)
-#define CLASS_1_C0DC9D75080BE0A4__CTOR_OFFSET UNITYSDK_OFFSET(0x105CCE80)
+#define CLASS_1_C0DC9D75080BE0A4_METHOD_1_5A14130134742A76_OFFSET UNITYSDK_OFFSET(0x1069A3D0)
+#define CLASS_1_C0DC9D75080BE0A4_METHOD_1_5C8B80D3D5F605B1_OFFSET UNITYSDK_OFFSET(0x1069AA30)
+#define CLASS_1_C0DC9D75080BE0A4_METHOD_1_C53E684655FC29AE_OFFSET UNITYSDK_OFFSET(0x1069A790)
+#define CLASS_1_C0DC9D75080BE0A4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1069ACA0)
+#define CLASS_1_C0DC9D75080BE0A4__CTOR_OFFSET UNITYSDK_OFFSET(0x1069A580)
 
-inline static constexpr unsigned int Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex = 43762;
+inline static constexpr unsigned int Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex = 44819;
 
 class Class_1_C0DC9D75080BE0A4 : public ::System::Object
 {
 public:
+	static ::Il2CppArray<::System::Type*>** StaticGet_Field_1_1()
+	{
+		return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex)->GetStaticField(0x1F770);
+	}
 	static ::Il2CppArray<::System::Type*>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex)->GetStaticField(0x45C80);
+		return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex)->GetStaticField(0x1F778);
 	}
 	static ::Il2CppArray<::System::Collections::Generic::HashSet_1<::System::Type*>*>** StaticGet_Field_1_2()
 	{
-		return (::Il2CppArray<::System::Collections::Generic::HashSet_1<::System::Type*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex)->GetStaticField(0x45C88);
-	}
-	static ::Il2CppArray<::System::Type*>** StaticGet_Field_1_1()
-	{
-		return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex)->GetStaticField(0x45C90);
+		return (::Il2CppArray<::System::Collections::Generic::HashSet_1<::System::Type*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C0DC9D75080BE0A4_TypeDefinitionIndex)->GetStaticField(0x1F780);
 	}
 	::System::Collections::Generic::HashSet_1<::Class_1_5F51D4049EA87B7B*>* Field_1_5; // 0x10
 	::Il2CppArray<::System::Collections::Generic::Queue_1<::Class_1_5F51D4049EA87B7B*>*>* Field_1_4; // 0x18

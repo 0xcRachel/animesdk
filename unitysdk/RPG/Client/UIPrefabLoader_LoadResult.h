@@ -5,18 +5,18 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0xA1FAC70)
-#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FA4C0)
+#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0xA734E60)
+#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xA734550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader_LoadResult_TypeDefinitionIndex = 58254;
+	inline static constexpr unsigned int UIPrefabLoader_LoadResult_TypeDefinitionIndex = 59904;
 
 	class UIPrefabLoader_LoadResult : public ::System::Object
 	{
 	public:
-		::UnityEngine::Object* Asset; // 0x10
-		::UnityEngine::GameObject* Instantiated; // 0x18
+		::UnityEngine::GameObject* Instantiated; // 0x10
+		::UnityEngine::Object* Asset; // 0x18
 		::System::Boolean IsLoadFromCache; // 0x20
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActiveActivityBenefitData; }
 
-#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8ADC630)
-#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS38_0__SYNCFROM_B__0_OFFSET UNITYSDK_OFFSET(0x8ADC870)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8EDD170)
+#define RPG_CLIENT_ACTIVEACTIVITYDATA___C__DISPLAYCLASS38_0__SYNCFROM_B__0_OFFSET UNITYSDK_OFFSET(0x8EDD3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActiveActivityData___c__DisplayClass38_0_TypeDefinitionIndex = 48686;
+	inline static constexpr unsigned int ActiveActivityData___c__DisplayClass38_0_TypeDefinitionIndex = 49780;
 
 	class ActiveActivityData___c__DisplayClass38_0 : public ::System::Object
 	{

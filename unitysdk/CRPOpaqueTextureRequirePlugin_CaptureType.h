@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_CaptureType_TypeDefinitionIndex = 37262;
+inline static constexpr unsigned int CRPOpaqueTextureRequirePlugin_CaptureType_TypeDefinitionIndex = 38226;
 
 enum class CRPOpaqueTextureRequirePlugin_CaptureType : ::System::Int32
 {

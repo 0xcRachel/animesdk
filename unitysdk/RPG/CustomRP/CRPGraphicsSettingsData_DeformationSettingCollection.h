@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/DeformationQuality.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_DEFORMATIONSETTINGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16375140)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_DEFORMATIONSETTINGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16A84780)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_DeformationSettingCollection_TypeDefinitionIndex = 28420;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_DeformationSettingCollection_TypeDefinitionIndex = 29295;
 
 	class CRPGraphicsSettingsData_DeformationSettingCollection : public ::System::Object
 	{

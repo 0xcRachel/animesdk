@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_SCOPEDREFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x156AD3B0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_SCOPEDREFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA01E0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ScopedRefAttribute_TypeDefinitionIndex = 9385;
+	inline static constexpr unsigned int ScopedRefAttribute_TypeDefinitionIndex = 9007;
 
 	class ScopedRefAttribute : public ::System::Attribute
 	{

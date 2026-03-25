@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SOTaskConfig; }
 
-#define RPG_GAMECORE_LEVELSMARTOBJECTPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BBD560)
-#define RPG_GAMECORE_LEVELSMARTOBJECTPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BBD770)
+#define RPG_GAMECORE_LEVELSMARTOBJECTPOINTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17360BE0)
+#define RPG_GAMECORE_LEVELSMARTOBJECTPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17360E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSmartObjectPointInfo_TypeDefinitionIndex = 15674;
+	inline static constexpr unsigned int LevelSmartObjectPointInfo_TypeDefinitionIndex = 15951;
 
 	class LevelSmartObjectPointInfo : public ::RPG::GameCore::JsonConfig
 	{

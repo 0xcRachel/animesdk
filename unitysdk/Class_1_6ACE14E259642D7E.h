@@ -7,19 +7,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6ACE14E259642D7E_METHOD_1_ADD5B0D73457FFB0_OFFSET UNITYSDK_OFFSET(0xFEAFFA0)
-#define CLASS_1_6ACE14E259642D7E_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xFEAFEE0)
-#define CLASS_1_6ACE14E259642D7E_METHOD_1_DD24CC0767F5726A_OFFSET UNITYSDK_OFFSET(0xFEAFF20)
-#define CLASS_1_6ACE14E259642D7E__CTOR_OFFSET UNITYSDK_OFFSET(0xFEAFA00)
+#define CLASS_1_6ACE14E259642D7E_METHOD_1_ADD5B0D73457FFB0_OFFSET UNITYSDK_OFFSET(0x8CACE00)
+#define CLASS_1_6ACE14E259642D7E_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x8CACD40)
+#define CLASS_1_6ACE14E259642D7E_METHOD_1_DD24CC0767F5726A_OFFSET UNITYSDK_OFFSET(0x8CACD80)
+#define CLASS_1_6ACE14E259642D7E__CTOR_OFFSET UNITYSDK_OFFSET(0x8CAC860)
 
-inline static constexpr unsigned int Class_1_6ACE14E259642D7E_TypeDefinitionIndex = 50311;
+inline static constexpr unsigned int Class_1_6ACE14E259642D7E_TypeDefinitionIndex = 51446;
 
 class Class_1_6ACE14E259642D7E : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelMasterRecommendationData*>* Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>*>* Field_1_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelMasterRecommendationData*>* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

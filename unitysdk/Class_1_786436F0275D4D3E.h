@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_DAC119B051861C6D;
-class Class_2_D5AD64F6FB3109AB;
+class Class_1_895EBA3389065493;
+class Class_2_569DE47525C5FD32;
 namespace RPG::GameCore { class DiceCombatInsertAbilityConfig; }
 
-#define CLASS_1_786436F0275D4D3E__CTOR_OFFSET UNITYSDK_OFFSET(0x1606D4B0)
+#define CLASS_1_786436F0275D4D3E__CTOR_OFFSET UNITYSDK_OFFSET(0x1664F030)
 
-inline static constexpr unsigned int Class_1_786436F0275D4D3E_TypeDefinitionIndex = 27782;
+inline static constexpr unsigned int Class_1_786436F0275D4D3E_TypeDefinitionIndex = 28531;
 
 class Class_1_786436F0275D4D3E : public ::System::Object
 {
 public:
-	::Class_1_DAC119B051861C6D* Field_1_2; // 0x10
-	::RPG::GameCore::DiceCombatInsertAbilityConfig* Field_1_3; // 0x18
-	::Class_2_D5AD64F6FB3109AB* Field_1_0; // 0x20
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_1; // 0x28
+	::Class_2_569DE47525C5FD32* Field_1_0; // 0x10
+	::Class_1_895EBA3389065493* Field_1_2; // 0x18
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_1; // 0x20
+	::RPG::GameCore::DiceCombatInsertAbilityConfig* Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

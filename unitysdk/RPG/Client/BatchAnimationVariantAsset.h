@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/BAVariantKey.h"
 
-class Class_1_9B8D6DA11DB1F3D3;
+class Class_1_246D6195E2FBAEBC;
 namespace RPG::Client { class BAPartVariantArray; }
 namespace RPG::Client { class BAPartVariantRef; }
 namespace RPG::Client { class BAPartVariantRes; }
-namespace RPG::Client { class BatchAnimationVariantAsset_Class_1_04A718CFB2B0DB18_1; }
+namespace RPG::Client { class BatchAnimationVariantAsset_Class_1_04A718CFB2B0DB18; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace System { class String; }
@@ -20,20 +20,20 @@ namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 namespace UnityEngine::Rendering { class BatchAnimationMeshVariant; }
 
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x8D7EA60)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x8D7F020)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_98BDAE1210E561CF_OFFSET UNITYSDK_OFFSET(0x8D7F0F0)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_E05CA2D09FC152A8_OFFSET UNITYSDK_OFFSET(0x8D7F310)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_F442AFF05DE66386_OFFSET UNITYSDK_OFFSET(0x8D7E560)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8D7E860)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_RELEASEVARIANTRES_OFFSET UNITYSDK_OFFSET(0x8D7E4D0)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_REQUESTVARIANTRES_OFFSET UNITYSDK_OFFSET(0x8D7E3E0)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_SETPARTVARIANT_OFFSET UNITYSDK_OFFSET(0x8D63820)
-#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x8D7F560)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9189AD0)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_70589F89E4D22649_OFFSET UNITYSDK_OFFSET(0x918A090)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_98BDAE1210E561CF_OFFSET UNITYSDK_OFFSET(0x918A160)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_E05CA2D09FC152A8_OFFSET UNITYSDK_OFFSET(0x918A380)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_F442AFF05DE66386_OFFSET UNITYSDK_OFFSET(0x91895D0)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x91898D0)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_RELEASEVARIANTRES_OFFSET UNITYSDK_OFFSET(0x9189540)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_REQUESTVARIANTRES_OFFSET UNITYSDK_OFFSET(0x9189450)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET_SETPARTVARIANT_OFFSET UNITYSDK_OFFSET(0x916E7D0)
+#define RPG_CLIENT_BATCHANIMATIONVARIANTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x918A5D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationVariantAsset_TypeDefinitionIndex = 55259;
+	inline static constexpr unsigned int BatchAnimationVariantAsset_TypeDefinitionIndex = 56824;
 
 	class BatchAnimationVariantAsset : public ::UnityEngine::MonoBehaviour
 	{
@@ -58,9 +58,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BAPartVariantRes*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHANIMATIONVARIANTASSET_RELEASEVARIANTRES_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPartVariant(::UnityEngine::Rendering::BatchAnimation* a1, ::Class_1_9B8D6DA11DB1F3D3* a2)
+		::System::Void SetPartVariant(::UnityEngine::Rendering::BatchAnimation* a1, ::Class_1_246D6195E2FBAEBC* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::Class_1_9B8D6DA11DB1F3D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHANIMATIONVARIANTASSET_SETPARTVARIANT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::BatchAnimation*, ::Class_1_246D6195E2FBAEBC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHANIMATIONVARIANTASSET_SETPARTVARIANT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnDestroy()
@@ -83,9 +83,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_70589F89E4D22649_OFFSET))(this);
 		}
 
-		::System::Void Method_5_98BDAE1210E561CF(::RPG::Client::BatchAnimationVariantAsset_Class_1_04A718CFB2B0DB18_1* a1, ::UnityEngine::Object* a2, ::System::Type* a3)
+		::System::Void Method_5_98BDAE1210E561CF(::RPG::Client::BatchAnimationVariantAsset_Class_1_04A718CFB2B0DB18* a1, ::UnityEngine::Object* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::BatchAnimationVariantAsset_Class_1_04A718CFB2B0DB18_1*, ::UnityEngine::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_98BDAE1210E561CF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::BatchAnimationVariantAsset_Class_1_04A718CFB2B0DB18*, ::UnityEngine::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATCHANIMATIONVARIANTASSET_METHOD_5_98BDAE1210E561CF_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean Method_5_E05CA2D09FC152A8(::RPG::Client::IAssetOperation* a1)

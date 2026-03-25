@@ -5,11 +5,11 @@
 namespace RPG::Client::LittleGame::PingPong { class PingPongCameraView; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGBOARDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x956B650)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGBOARDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A462D0)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongBoardView_TypeDefinitionIndex = 60453;
+	inline static constexpr unsigned int PingPongBoardView_TypeDefinitionIndex = 62431;
 
 	class PingPongBoardView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{

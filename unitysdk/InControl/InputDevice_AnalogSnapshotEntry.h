@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define INCONTROL_INPUTDEVICE_ANALOGSNAPSHOTENTRY_TRACKMINMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1FF6350)
+#define INCONTROL_INPUTDEVICE_ANALOGSNAPSHOTENTRY_TRACKMINMAXVALUE_OFFSET UNITYSDK_OFFSET(0x20CC640)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDevice_AnalogSnapshotEntry_TypeDefinitionIndex = 30545;
+	inline static constexpr unsigned int InputDevice_AnalogSnapshotEntry_TypeDefinitionIndex = 31420;
 
 	struct alignas(4) InputDevice_AnalogSnapshotEntry
 	{

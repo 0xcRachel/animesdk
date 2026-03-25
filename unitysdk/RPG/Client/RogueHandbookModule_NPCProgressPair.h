@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueHandbookModule_NPCProgressPair_TypeDefinitionIndex = 53542;
+	inline static constexpr unsigned int RogueHandbookModule_NPCProgressPair_TypeDefinitionIndex = 54889;
 
 	struct alignas(4) RogueHandbookModule_NPCProgressPair
 	{

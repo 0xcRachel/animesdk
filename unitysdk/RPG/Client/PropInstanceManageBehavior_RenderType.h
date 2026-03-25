@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceManageBehavior_RenderType_TypeDefinitionIndex = 56380;
+	inline static constexpr unsigned int PropInstanceManageBehavior_RenderType_TypeDefinitionIndex = 57951;
 
 	enum class PropInstanceManageBehavior_RenderType : ::System::Int32
 	{

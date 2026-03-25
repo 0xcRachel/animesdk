@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusSNSPostPhase_TypeDefinitionIndex = 52200;
+	inline static constexpr unsigned int HeliobusSNSPostPhase_TypeDefinitionIndex = 53336;
 
 	enum class HeliobusSNSPostPhase : ::System::Int32
 	{

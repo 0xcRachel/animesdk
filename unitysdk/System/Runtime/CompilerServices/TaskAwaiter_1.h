@@ -7,7 +7,7 @@ namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int TaskAwaiter_1_TypeDefinitionIndex = 1354;
+	inline static constexpr unsigned int TaskAwaiter_1_TypeDefinitionIndex = 1359;
 
 	template <typename TResult>
 	struct TaskAwaiter_1

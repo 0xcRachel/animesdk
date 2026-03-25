@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Xml::Serialization { class XmlReflectionMember; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DB9350)
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DB9390)
-#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__IMPORTCLASSMAPPING_B__28_0_OFFSET UNITYSDK_OFFSET(0x17DB93A0)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185E8230)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185E8270)
+#define SYSTEM_XML_SERIALIZATION_XMLREFLECTIONIMPORTER___C__IMPORTCLASSMAPPING_B__28_0_OFFSET UNITYSDK_OFFSET(0x185E8280)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlReflectionImporter___c_TypeDefinitionIndex = 2002;
+	inline static constexpr unsigned int XmlReflectionImporter___c_TypeDefinitionIndex = 2007;
 
 	class XmlReflectionImporter___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>** StaticGet___9__28_0()
-		{
-			return (::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>**)Il2CppClass::FromTypeDefinitionIndex(XmlReflectionImporter___c_TypeDefinitionIndex)->GetStaticField(0x107A0);
-		}
 		static ::System::Xml::Serialization::XmlReflectionImporter___c** StaticGet___9()
 		{
-			return (::System::Xml::Serialization::XmlReflectionImporter___c**)Il2CppClass::FromTypeDefinitionIndex(XmlReflectionImporter___c_TypeDefinitionIndex)->GetStaticField(0x107A8);
+			return (::System::Xml::Serialization::XmlReflectionImporter___c**)Il2CppClass::FromTypeDefinitionIndex(XmlReflectionImporter___c_TypeDefinitionIndex)->GetStaticField(0x175C0);
+		}
+		static ::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>** StaticGet___9__28_0()
+		{
+			return (::System::Comparison_1<::System::Xml::Serialization::XmlReflectionMember*>**)Il2CppClass::FromTypeDefinitionIndex(XmlReflectionImporter___c_TypeDefinitionIndex)->GetStaticField(0x175C8);
 		}
 
 		static ::System::Void _cctor()

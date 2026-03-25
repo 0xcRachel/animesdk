@@ -5,9 +5,9 @@
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_31C88AF1FF67094B_CLASS_1_DCFAECE867B6648C__CTOR_OFFSET UNITYSDK_OFFSET(0xF5695A0)
+#define CLASS_2_31C88AF1FF67094B_CLASS_1_DCFAECE867B6648C__CTOR_OFFSET UNITYSDK_OFFSET(0x11916E30)
 
-inline static constexpr unsigned int Class_2_31C88AF1FF67094B_Class_1_DCFAECE867B6648C_TypeDefinitionIndex = 57196;
+inline static constexpr unsigned int Class_2_31C88AF1FF67094B_Class_1_DCFAECE867B6648C_TypeDefinitionIndex = 58799;
 
 class Class_2_31C88AF1FF67094B_Class_1_DCFAECE867B6648C : public ::System::Object
 {

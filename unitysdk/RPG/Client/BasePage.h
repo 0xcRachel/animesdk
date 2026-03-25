@@ -4,11 +4,11 @@
 
 class Class_1_89D8044AB73F8F6D;
 
-#define RPG_CLIENT_BASEPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x8D78FB0)
+#define RPG_CLIENT_BASEPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x91840B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePage_TypeDefinitionIndex = 56890;
+	inline static constexpr unsigned int BasePage_TypeDefinitionIndex = 58479;
 
 	class BasePage : public ::RPG::Client::UIController
 	{

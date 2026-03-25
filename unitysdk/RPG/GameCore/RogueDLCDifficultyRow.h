@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCDIFFICULTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E72EE0)
-#define RPG_GAMECORE_ROGUEDLCDIFFICULTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E73080)
+#define RPG_GAMECORE_ROGUEDLCDIFFICULTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17612460)
+#define RPG_GAMECORE_ROGUEDLCDIFFICULTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17612600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCDifficultyRow_TypeDefinitionIndex = 13419;
+	inline static constexpr unsigned int RogueDLCDifficultyRow_TypeDefinitionIndex = 13495;
 
 	class RogueDLCDifficultyRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* LevelList; // 0x10
-		::Il2CppArray<::System::UInt32>* DifficultyCutList; // 0x18
+		::Il2CppArray<::System::UInt32>* DifficultyCutList; // 0x10
+		::Il2CppArray<::System::UInt32>* LevelList; // 0x18
 		::System::UInt32 DifficultyID; // 0x20
 
 		::System::Void _ctor()

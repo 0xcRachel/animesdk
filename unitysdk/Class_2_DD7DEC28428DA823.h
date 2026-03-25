@@ -8,18 +8,18 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_DD7DEC28428DA823_METHOD_2_2F9D2A700A35779B_OFFSET UNITYSDK_OFFSET(0x10D3D340)
-#define CLASS_2_DD7DEC28428DA823_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10D3D410)
-#define CLASS_2_DD7DEC28428DA823_METHOD_2_E484621534821291_OFFSET UNITYSDK_OFFSET(0x10D3D460)
-#define CLASS_2_DD7DEC28428DA823__CTOR_OFFSET UNITYSDK_OFFSET(0x10D3D520)
+#define CLASS_2_DD7DEC28428DA823_METHOD_2_2F9D2A700A35779B_OFFSET UNITYSDK_OFFSET(0x116B3C60)
+#define CLASS_2_DD7DEC28428DA823_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x116B3D30)
+#define CLASS_2_DD7DEC28428DA823_METHOD_2_E484621534821291_OFFSET UNITYSDK_OFFSET(0x116B3D80)
+#define CLASS_2_DD7DEC28428DA823__CTOR_OFFSET UNITYSDK_OFFSET(0x116B3E40)
 
-inline static constexpr unsigned int Class_2_DD7DEC28428DA823_TypeDefinitionIndex = 56914;
+inline static constexpr unsigned int Class_2_DD7DEC28428DA823_TypeDefinitionIndex = 58503;
 
 class Class_2_DD7DEC28428DA823 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::ParticleSystem* Field_2_2; // 0x60
-	::UnityEngine::Transform* Field_2_0; // 0x68
+	::UnityEngine::Transform* Field_2_0; // 0x60
+	::UnityEngine::ParticleSystem* Field_2_2; // 0x68
 	::UnityEngine::ParticleSystem* Field_2_1; // 0x70
 	::UnityEngine::Vector3 Field_2_3; // 0x78
 

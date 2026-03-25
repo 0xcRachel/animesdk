@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSourceSettings_TypeDefinitionIndex = 1672;
+	inline static constexpr unsigned int EventSourceSettings_TypeDefinitionIndex = 1677;
 
 	enum class EventSourceSettings : ::System::Int32
 	{

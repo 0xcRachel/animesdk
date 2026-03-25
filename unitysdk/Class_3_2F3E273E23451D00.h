@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RA_SetAIVariableBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F3E273E23451D00_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105E8350)
-#define CLASS_3_2F3E273E23451D00__CTOR_OFFSET UNITYSDK_OFFSET(0x105E8320)
+#define CLASS_3_2F3E273E23451D00_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11684C50)
+#define CLASS_3_2F3E273E23451D00__CTOR_OFFSET UNITYSDK_OFFSET(0x11684C20)
 
-inline static constexpr unsigned int Class_3_2F3E273E23451D00_TypeDefinitionIndex = 41081;
+inline static constexpr unsigned int Class_3_2F3E273E23451D00_TypeDefinitionIndex = 42124;
 
 class Class_3_2F3E273E23451D00 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RA_SetAIVariableBool*>
 {

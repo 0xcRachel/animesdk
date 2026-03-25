@@ -8,30 +8,30 @@ class Class_2_51C91B76FE3F65C1;
 class Class_2_C2931749A417D97F;
 namespace RPG::Client::Prop { class ChimeraDuelNpcModelView; }
 
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x10A1A430)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0x10A1A490)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x10A19BD0)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET UNITYSDK_OFFSET(0x10A19DB0)
-#define CLASS_2_63052BAB61EF0BCD__CCTOR_OFFSET UNITYSDK_OFFSET(0x10A1A3D0)
-#define CLASS_2_63052BAB61EF0BCD__CTOR_OFFSET UNITYSDK_OFFSET(0x10A19BC0)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x10CD9990)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_793FFA9A76FE6840_OFFSET UNITYSDK_OFFSET(0x10CD99F0)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x10CD9130)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET UNITYSDK_OFFSET(0x10CD9310)
+#define CLASS_2_63052BAB61EF0BCD__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CD9930)
+#define CLASS_2_63052BAB61EF0BCD__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD9120)
 
-inline static constexpr unsigned int Class_2_63052BAB61EF0BCD_TypeDefinitionIndex = 61519;
+inline static constexpr unsigned int Class_2_63052BAB61EF0BCD_TypeDefinitionIndex = 63706;
 
 class Class_2_63052BAB61EF0BCD : public ::Class_1_FD611945730E269E
 {
 public:
 	static ::System::Int32* StaticGet_Field_2_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0xF1F0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0x12430);
 	}
-	::Class_2_C2931749A417D97F* Field_2_2; // 0x18
-	::RPG::Client::Prop::ChimeraDuelNpcModelView* Field_2_3; // 0x20
+	::RPG::Client::Prop::ChimeraDuelNpcModelView* Field_2_3; // 0x18
+	::Class_2_C2931749A417D97F* Field_2_2; // 0x20
 	::Class_2_51C91B76FE3F65C1* Field_2_1; // 0x28
-	::UnityEngine::Vector3 Field_2_4; // 0x30
-	::System::Single Field_2_6; // 0x3C
-	::UnityEngine::Quaternion Field_2_5; // 0x40
-	::System::Boolean Field_2_7; // 0x50
-	::System::Single Field_2_8; // 0x54
+	::System::Boolean Field_2_7; // 0x30
+	::UnityEngine::Quaternion Field_2_5; // 0x34
+	::System::Single Field_2_8; // 0x44
+	::System::Single Field_2_6; // 0x48
+	::UnityEngine::Vector3 Field_2_4; // 0x4C
 
 	::System::Void _ctor(::Class_2_51C91B76FE3F65C1* a1, ::Class_2_C2931749A417D97F* a2)
 	{

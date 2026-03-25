@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetLoader_LoadOption_TypeDefinitionIndex = 54271;
+	inline static constexpr unsigned int ComponentAssetLoader_LoadOption_TypeDefinitionIndex = 55829;
 
 	enum class ComponentAssetLoader_LoadOption : ::System::Int32
 	{
@@ -11,6 +11,6 @@ namespace RPG::Client
 		LoadOnEnable = 2,
 		UnloadOnDisable = 4,
 		UnloadOnDespawn = 8,
-		ResetZeroOnDespawn = 16,
+		ResetDefaultOnDespawn = 16,
 	};
 }

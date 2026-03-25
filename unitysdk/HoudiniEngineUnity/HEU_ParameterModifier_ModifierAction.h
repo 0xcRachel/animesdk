@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ParameterModifier_ModifierAction_TypeDefinitionIndex = 36821;
+	inline static constexpr unsigned int HEU_ParameterModifier_ModifierAction_TypeDefinitionIndex = 37758;
 
 	enum class HEU_ParameterModifier_ModifierAction : ::System::Int32
 	{

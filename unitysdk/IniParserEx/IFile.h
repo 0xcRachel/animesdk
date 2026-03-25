@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IFile_TypeDefinitionIndex = 3727;
+	inline static constexpr unsigned int IFile_TypeDefinitionIndex = 3736;
 
 	class IFile
 	{

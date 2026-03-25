@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int AsnDecodeStatus_TypeDefinitionIndex = 2662;
+	inline static constexpr unsigned int AsnDecodeStatus_TypeDefinitionIndex = 2667;
 
 	enum class AsnDecodeStatus : ::System::Int32
 	{

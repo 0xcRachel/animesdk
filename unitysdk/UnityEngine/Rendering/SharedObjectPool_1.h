@@ -8,7 +8,7 @@ namespace UnityEngine::Rendering { template <typename T> class SharedObjectPool_
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SharedObjectPool_1_TypeDefinitionIndex = 27057;
+	inline static constexpr unsigned int SharedObjectPool_1_TypeDefinitionIndex = 27793;
 
 	template <typename T>
 	class SharedObjectPool_1 : public ::System::Object

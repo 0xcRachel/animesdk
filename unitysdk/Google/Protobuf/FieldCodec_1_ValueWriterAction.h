@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_ValueWriterAction_TypeDefinitionIndex = 6075;
+	inline static constexpr unsigned int FieldCodec_1_ValueWriterAction_TypeDefinitionIndex = 6175;
 
 	template <typename T>
 	class FieldCodec_1_ValueWriterAction : public ::System::MulticastDelegate

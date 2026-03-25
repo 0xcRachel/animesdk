@@ -4,7 +4,7 @@
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int ReverseEndianessHelperSimpleRepeat_1_TypeDefinitionIndex = 33956;
+	inline static constexpr unsigned int ReverseEndianessHelperSimpleRepeat_1_TypeDefinitionIndex = 9887;
 
 	template <typename T>
 	struct ReverseEndianessHelperSimpleRepeat_1

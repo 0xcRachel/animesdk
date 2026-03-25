@@ -11,11 +11,11 @@ class SkirtIK_HairIKClass;
 class SkirtIK_SkirtIKClass;
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SKIRTIKCONFIG_RUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x9F8B420)
+#define RPG_CLIENT_SKIRTIKCONFIG_RUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xA4ABDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkirtIKConfig_Runtime_TypeDefinitionIndex = 54256;
+	inline static constexpr unsigned int SkirtIKConfig_Runtime_TypeDefinitionIndex = 55814;
 
 	class SkirtIKConfig_Runtime : public ::UnityEngine::ScriptableObject
 	{

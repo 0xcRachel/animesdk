@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Lobby { class LobbyDetailsCopyInfoOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSCOPYINFOOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSCOPYINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4A840)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSCOPYINFOOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4A9D0)
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSCOPYINFOOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyDetailsCopyInfoOptionsInternal_TypeDefinitionIndex = 35116;
+	inline static constexpr unsigned int LobbyDetailsCopyInfoOptionsInternal_TypeDefinitionIndex = 36050;
 
 	struct alignas(4) LobbyDetailsCopyInfoOptionsInternal
 	{

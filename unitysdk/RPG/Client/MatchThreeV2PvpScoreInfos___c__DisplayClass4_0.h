@@ -5,18 +5,18 @@
 
 namespace RPG::Client { class MatchThreeV2PvpScoreData; }
 
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9690DD0)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS4_0__GETSCOREDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9691A80)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B766D0)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS4_0__GETSCOREDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9B77380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c__DisplayClass4_0_TypeDefinitionIndex = 52536;
+	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c__DisplayClass4_0_TypeDefinitionIndex = 53672;
 
 	class MatchThreeV2PvpScoreInfos___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::MatchThreeScoreType scoreType; // 0x10
-		::System::UInt32 finalRank; // 0x14
+		::System::UInt32 finalRank; // 0x10
+		::RPG::GameCore::MatchThreeScoreType scoreType; // 0x14
 
 		::System::Void _ctor()
 		{

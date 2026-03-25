@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_DELAYENABLEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x8FFC0A0)
+#define RPG_CLIENT_DELAYENABLEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9457930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DelayEnableGameObject_TypeDefinitionIndex = 55759;
+	inline static constexpr unsigned int DelayEnableGameObject_TypeDefinitionIndex = 57324;
 
 	class DelayEnableGameObject : public ::System::Object
 	{

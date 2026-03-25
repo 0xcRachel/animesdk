@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetDatabase_HEU_ImportAssetOptions_TypeDefinitionIndex = 36720;
+	inline static constexpr unsigned int HEU_AssetDatabase_HEU_ImportAssetOptions_TypeDefinitionIndex = 37657;
 
 	enum class HEU_AssetDatabase_HEU_ImportAssetOptions : ::System::Int32
 	{

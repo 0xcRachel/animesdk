@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LegacyGPUParticleSystem_VertexInputType_TypeDefinitionIndex = 32920;
+inline static constexpr unsigned int LegacyGPUParticleSystem_VertexInputType_TypeDefinitionIndex = 33908;
 
 enum class LegacyGPUParticleSystem_VertexInputType : ::System::Int32
 {

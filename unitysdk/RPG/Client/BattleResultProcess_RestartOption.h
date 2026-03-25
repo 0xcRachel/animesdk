@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleResultProcess_RestartOption_TypeDefinitionIndex = 48367;
+	inline static constexpr unsigned int BattleResultProcess_RestartOption_TypeDefinitionIndex = 49460;
 
 	enum class BattleResultProcess_RestartOption : ::System::Int32
 	{

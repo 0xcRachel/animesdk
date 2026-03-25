@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_4_C161BC2AC009B608_METHOD_4_259F537D2FEF1912_OFFSET UNITYSDK_OFFSET(0x943A860)
-#define CLASS_4_C161BC2AC009B608_METHOD_4_4C27EF85256A8DCC_OFFSET UNITYSDK_OFFSET(0x943ACC0)
-#define CLASS_4_C161BC2AC009B608_METHOD_4_BA72140EE922A8FE_OFFSET UNITYSDK_OFFSET(0x943ACD0)
-#define CLASS_4_C161BC2AC009B608_METHOD_4_C4E6DEC94273F7E9_OFFSET UNITYSDK_OFFSET(0x943ABE0)
-#define CLASS_4_C161BC2AC009B608__CTOR_OFFSET UNITYSDK_OFFSET(0x943A7E0)
-#define CLASS_4_C161BC2AC009B608__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0x943AC60)
+#define CLASS_4_C161BC2AC009B608_METHOD_4_259F537D2FEF1912_OFFSET UNITYSDK_OFFSET(0x10BB35D0)
+#define CLASS_4_C161BC2AC009B608_METHOD_4_4C27EF85256A8DCC_OFFSET UNITYSDK_OFFSET(0x10BB3A30)
+#define CLASS_4_C161BC2AC009B608_METHOD_4_BA72140EE922A8FE_OFFSET UNITYSDK_OFFSET(0x10BB3A40)
+#define CLASS_4_C161BC2AC009B608_METHOD_4_C4E6DEC94273F7E9_OFFSET UNITYSDK_OFFSET(0x10BB3950)
+#define CLASS_4_C161BC2AC009B608__CTOR_OFFSET UNITYSDK_OFFSET(0x10BB3550)
+#define CLASS_4_C161BC2AC009B608__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0x10BB39D0)
 
-inline static constexpr unsigned int Class_4_C161BC2AC009B608_TypeDefinitionIndex = 61187;
+inline static constexpr unsigned int Class_4_C161BC2AC009B608_TypeDefinitionIndex = 63186;
 
 class Class_4_C161BC2AC009B608 : public ::Class_3_0693CD0AFBBF2A3B
 {
 public:
 	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_4_1; // 0x30
-	::System::Collections::Generic::Queue_1<::Class_2_DCFF4DF692D90D03*>* Field_4_2; // 0x38
-	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_4_0; // 0x40
+	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_4_0; // 0x38
+	::System::Collections::Generic::Queue_1<::Class_2_DCFF4DF692D90D03*>* Field_4_2; // 0x40
 
 	::System::Void _ctor()
 	{

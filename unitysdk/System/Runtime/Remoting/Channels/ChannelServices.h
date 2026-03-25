@@ -14,46 +14,46 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 namespace System::Runtime::Remoting::Messaging { class ReturnMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKINCOMINGMESSAGE_OFFSET UNITYSDK_OFFSET(0x15CE8220)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKRETURNMESSAGE_OFFSET UNITYSDK_OFFSET(0x15CE84F0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_1_OFFSET UNITYSDK_OFFSET(0x15CE6230)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_OFFSET UNITYSDK_OFFSET(0x15CE5680)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATEPROVIDER_OFFSET UNITYSDK_OFFSET(0x15CE7E10)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GETCURRENTCHANNELINFO_OFFSET UNITYSDK_OFFSET(0x15CE4CC0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GET_CROSSCONTEXTCHANNEL_OFFSET UNITYSDK_OFFSET(0x15CE5620)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_ISLOCALCALL_OFFSET UNITYSDK_OFFSET(0x15CE8B30)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNELCONFIG_OFFSET UNITYSDK_OFFSET(0x15CE6B40)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_1_OFFSET UNITYSDK_OFFSET(0x15CE6570)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_OFFSET UNITYSDK_OFFSET(0x15CE63D0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_SYNCDISPATCHMESSAGE_OFFSET UNITYSDK_OFFSET(0x15CE8150)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CE8C10)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKINCOMINGMESSAGE_OFFSET UNITYSDK_OFFSET(0x163B0620)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKRETURNMESSAGE_OFFSET UNITYSDK_OFFSET(0x163B08F0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_1_OFFSET UNITYSDK_OFFSET(0x163AE630)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_OFFSET UNITYSDK_OFFSET(0x163ADA80)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATEPROVIDER_OFFSET UNITYSDK_OFFSET(0x163B0210)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GETCURRENTCHANNELINFO_OFFSET UNITYSDK_OFFSET(0x163AD0F0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GET_CROSSCONTEXTCHANNEL_OFFSET UNITYSDK_OFFSET(0x163ADA20)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_ISLOCALCALL_OFFSET UNITYSDK_OFFSET(0x163B0F30)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNELCONFIG_OFFSET UNITYSDK_OFFSET(0x163AEF40)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_1_OFFSET UNITYSDK_OFFSET(0x163AE970)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_OFFSET UNITYSDK_OFFSET(0x163AE7D0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_SYNCDISPATCHMESSAGE_OFFSET UNITYSDK_OFFSET(0x163B0550)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x163B1010)
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int ChannelServices_TypeDefinitionIndex = 1247;
+	inline static constexpr unsigned int ChannelServices_TypeDefinitionIndex = 1252;
 
 	class ChannelServices : public ::System::Object
 	{
 	public:
-		static ::System::Runtime::Remoting::Contexts::CrossContextChannel** StaticGet__crossContextSink()
+		static ::System::Collections::ArrayList** StaticGet_delayedClientChannels()
 		{
-			return (::System::Runtime::Remoting::Contexts::CrossContextChannel**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0x9040);
+			return (::System::Collections::ArrayList**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0xEE00);
 		}
 		static ::System::String** StaticGet_CrossContextUrl()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0x9048);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0xEE08);
 		}
-		static ::System::Collections::ArrayList** StaticGet_registeredChannels()
+		static ::System::Runtime::Remoting::Contexts::CrossContextChannel** StaticGet__crossContextSink()
 		{
-			return (::System::Collections::ArrayList**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0x9050);
-		}
-		static ::System::Collections::ArrayList** StaticGet_delayedClientChannels()
-		{
-			return (::System::Collections::ArrayList**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0x9058);
+			return (::System::Runtime::Remoting::Contexts::CrossContextChannel**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0xEE10);
 		}
 		static ::System::Collections::IList** StaticGet_oldStartModeTypes()
 		{
-			return (::System::Collections::IList**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0x9060);
+			return (::System::Collections::IList**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0xEE18);
+		}
+		static ::System::Collections::ArrayList** StaticGet_registeredChannels()
+		{
+			return (::System::Collections::ArrayList**)Il2CppClass::FromTypeDefinitionIndex(ChannelServices_TypeDefinitionIndex)->GetStaticField(0xEE20);
 		}
 
 		static ::System::Void _cctor()

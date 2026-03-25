@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17E064F0)
+#define SYSTEM_XML_XMLNAMETABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18634A70)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNameTable_TypeDefinitionIndex = 1946;
+	inline static constexpr unsigned int XmlNameTable_TypeDefinitionIndex = 1951;
 
 	class XmlNameTable : public ::System::Object
 	{

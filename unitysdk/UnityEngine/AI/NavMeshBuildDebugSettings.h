@@ -4,7 +4,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshBuildDebugSettings_TypeDefinitionIndex = 5275;
+	inline static constexpr unsigned int NavMeshBuildDebugSettings_TypeDefinitionIndex = 5375;
 
 	struct alignas(1) NavMeshBuildDebugSettings
 	{

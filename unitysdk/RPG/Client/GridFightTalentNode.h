@@ -8,23 +8,23 @@ namespace RPG::Client { class GridFightTalentTree; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_ISOCEFFECTIVE_OFFSET UNITYSDK_OFFSET(0x9405860)
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x94058B0)
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_NEXTNODES_OFFSET UNITYSDK_OFFSET(0x9405870)
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_PREVNODES_OFFSET UNITYSDK_OFFSET(0x9405890)
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE_SET_NEXTNODES_OFFSET UNITYSDK_OFFSET(0x9405880)
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE_SET_PREVNODES_OFFSET UNITYSDK_OFFSET(0x94058A0)
-#define RPG_CLIENT_GRIDFIGHTTALENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x9405930)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_ISOCEFFECTIVE_OFFSET UNITYSDK_OFFSET(0x98C3280)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0x98C32D0)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_NEXTNODES_OFFSET UNITYSDK_OFFSET(0x98C3290)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE_GET_PREVNODES_OFFSET UNITYSDK_OFFSET(0x98C32B0)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE_SET_NEXTNODES_OFFSET UNITYSDK_OFFSET(0x98C32A0)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE_SET_PREVNODES_OFFSET UNITYSDK_OFFSET(0x98C32C0)
+#define RPG_CLIENT_GRIDFIGHTTALENTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x98B0520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTalentNode_TypeDefinitionIndex = 51863;
+	inline static constexpr unsigned int GridFightTalentNode_TypeDefinitionIndex = 52997;
 
 	class GridFightTalentNode : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTalentNode*>* _PrevNodes_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTalentNode*>* _NextNodes_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightTalentNode*>* _NextNodes_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightTalentNode*>* _PrevNodes_k__BackingField; // 0x18
 		::System::Boolean _IsOCEffective_k__BackingField; // 0x20
 
 		::System::Void _ctor()

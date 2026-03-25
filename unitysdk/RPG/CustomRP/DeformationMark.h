@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_DEFORMATIONMARK_APPLYSETTINGS_OFFSET UNITYSDK_OFFSET(0x1639D460)
-#define RPG_CUSTOMRP_DEFORMATIONMARK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1639D620)
-#define RPG_CUSTOMRP_DEFORMATIONMARK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1639D450)
-#define RPG_CUSTOMRP_DEFORMATIONMARK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1639D630)
-#define RPG_CUSTOMRP_DEFORMATIONMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x1639D430)
+#define RPG_CUSTOMRP_DEFORMATIONMARK_APPLYSETTINGS_OFFSET UNITYSDK_OFFSET(0x16AAC6A0)
+#define RPG_CUSTOMRP_DEFORMATIONMARK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16AAC860)
+#define RPG_CUSTOMRP_DEFORMATIONMARK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16AAC690)
+#define RPG_CUSTOMRP_DEFORMATIONMARK__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AAC870)
+#define RPG_CUSTOMRP_DEFORMATIONMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x16AAC670)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DeformationMark_TypeDefinitionIndex = 28462;
+	inline static constexpr unsigned int DeformationMark_TypeDefinitionIndex = 29337;
 
 	class DeformationMark : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_HeightScaleId()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeformationMark_TypeDefinitionIndex)->GetStaticField(0xE030);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeformationMark_TypeDefinitionIndex)->GetStaticField(0xBD20);
 		}
 		::System::Boolean CastDeformation; // 0x18
 		::System::Boolean ReceiveDeformation; // 0x19

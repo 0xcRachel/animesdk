@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B7E9C0)
-#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7EF80)
+#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172CD2C0)
+#define RPG_GAMECORE_INCONTROLMOUSETYPEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172CD880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InControlMouseTypeInfoRow_TypeDefinitionIndex = 12553;
+	inline static constexpr unsigned int InControlMouseTypeInfoRow_TypeDefinitionIndex = 12623;
 
 	class InControlMouseTypeInfoRow : public ::System::Object
 	{
 	public:
-		::System::String* iconForMouse; // 0x10
-		::System::String* controlType; // 0x18
+		::System::String* controlType; // 0x10
+		::System::String* iconForMouse; // 0x18
 		::System::Boolean isSettingMouseType; // 0x20
 
 		::System::Void _ctor()

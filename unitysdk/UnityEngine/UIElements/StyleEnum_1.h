@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleEnum_1_TypeDefinitionIndex = 5865;
+	inline static constexpr unsigned int StyleEnum_1_TypeDefinitionIndex = 5965;
 
 	template <typename T>
 	struct StyleEnum_1

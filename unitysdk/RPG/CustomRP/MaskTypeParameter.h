@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/MaskType.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_MASKTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x163A6870)
+#define RPG_CUSTOMRP_MASKTYPEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB5AB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaskTypeParameter_TypeDefinitionIndex = 28549;
+	inline static constexpr unsigned int MaskTypeParameter_TypeDefinitionIndex = 29424;
 
 	class MaskTypeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::MaskType>
 	{

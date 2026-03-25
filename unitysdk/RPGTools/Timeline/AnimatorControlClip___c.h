@@ -6,24 +6,24 @@ namespace RPGTools::Timeline { class AniamtorControlConfig; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5E7370)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E73B0)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_B__6_0_OFFSET UNITYSDK_OFFSET(0xA5E73C0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB2ADD0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB2AE10)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLCLIP___C__UNITYENGINE_TIMELINE_ICUSTOMTIMELINECLIPGUI_OVERRIDEDISPLAYNAME_B__6_0_OFFSET UNITYSDK_OFFSET(0xAB2AE20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlClip___c_TypeDefinitionIndex = 37751;
+	inline static constexpr unsigned int AnimatorControlClip___c_TypeDefinitionIndex = 38713;
 
 	class AnimatorControlClip___c : public ::System::Object
 	{
 	public:
-		static ::RPGTools::Timeline::AnimatorControlClip___c** StaticGet___9()
-		{
-			return (::RPGTools::Timeline::AnimatorControlClip___c**)Il2CppClass::FromTypeDefinitionIndex(AnimatorControlClip___c_TypeDefinitionIndex)->GetStaticField(0x46620);
-		}
 		static ::System::Func_2<::RPGTools::Timeline::AniamtorControlConfig*, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPGTools::Timeline::AniamtorControlConfig*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorControlClip___c_TypeDefinitionIndex)->GetStaticField(0x46628);
+			return (::System::Func_2<::RPGTools::Timeline::AniamtorControlConfig*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AnimatorControlClip___c_TypeDefinitionIndex)->GetStaticField(0x470E0);
+		}
+		static ::RPGTools::Timeline::AnimatorControlClip___c** StaticGet___9()
+		{
+			return (::RPGTools::Timeline::AnimatorControlClip___c**)Il2CppClass::FromTypeDefinitionIndex(AnimatorControlClip___c_TypeDefinitionIndex)->GetStaticField(0x470E8);
 		}
 
 		static ::System::Void _cctor()

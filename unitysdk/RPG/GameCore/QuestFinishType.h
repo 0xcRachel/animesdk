@@ -845,5 +845,14 @@ namespace RPG::GameCore
 		LimaoNewsFinishInteractEntity = 400034,
 		OfferingLevelProgress = 400035,
 		FinishQuestAndTakeOptionalReward = 400036,
+		ChenLingBattleReachConquerLevel = 410000,
+		ChenLingBattleFinishStage = 410001,
+		RogueTournPersonaFinishWithStyleIDCnt = 410002,
+		RogueTournPersonaFinishWithRoomCardNumAndLevelCnt = 410003,
+		RogueTournPersonaFinishWithRoomAttributeCnt = 410004,
+		ChenLingBattleFinalStageWinWaveCnt = 410005,
+		ChenLingBattleActivatedPrivilegeCnt = 410006,
+		RogueTournPersonaHandBookUnlockedGiftCnt = 410007,
+		ChenLingBattleFinalStagePassWaveCnt = 410008,
 	};
 }

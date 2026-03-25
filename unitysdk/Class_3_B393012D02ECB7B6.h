@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPartnerAnimSync; }
 
-#define CLASS_3_B393012D02ECB7B6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109C9360)
-#define CLASS_3_B393012D02ECB7B6__CTOR_OFFSET UNITYSDK_OFFSET(0x109C9330)
+#define CLASS_3_B393012D02ECB7B6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117C2B80)
+#define CLASS_3_B393012D02ECB7B6__CTOR_OFFSET UNITYSDK_OFFSET(0x117C2B50)
 
-inline static constexpr unsigned int Class_3_B393012D02ECB7B6_TypeDefinitionIndex = 43613;
+inline static constexpr unsigned int Class_3_B393012D02ECB7B6_TypeDefinitionIndex = 44669;
 
 class Class_3_B393012D02ECB7B6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerPartnerAnimSync*>
 {

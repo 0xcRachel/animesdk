@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1584BB00)
+#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15F312D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 6772;
+	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 6884;
 
 	class KibanaBaseModel : public ::System::Object
 	{

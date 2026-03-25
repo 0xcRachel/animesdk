@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ST_Chess_ByInAttackRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1F00962010AB03AB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x84F8490)
-#define CLASS_3_1F00962010AB03AB__CTOR_OFFSET UNITYSDK_OFFSET(0x84F8460)
+#define CLASS_3_1F00962010AB03AB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB294110)
+#define CLASS_3_1F00962010AB03AB__CTOR_OFFSET UNITYSDK_OFFSET(0xB2940E0)
 
-inline static constexpr unsigned int Class_3_1F00962010AB03AB_TypeDefinitionIndex = 44119;
+inline static constexpr unsigned int Class_3_1F00962010AB03AB_TypeDefinitionIndex = 45179;
 
 class Class_3_1F00962010AB03AB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_Chess_ByInAttackRange*>
 {

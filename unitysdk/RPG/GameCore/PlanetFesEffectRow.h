@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D46240)
-#define RPG_GAMECORE_PLANETFESEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D46430)
+#define RPG_GAMECORE_PLANETFESEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CE090)
+#define RPG_GAMECORE_PLANETFESEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CE280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesEffectRow_TypeDefinitionIndex = 11057;
+	inline static constexpr unsigned int PlanetFesEffectRow_TypeDefinitionIndex = 11125;
 
 	class PlanetFesEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParam; // 0x10
-		::RPG::GameCore::PlanetFesEffectType Type; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::System::UInt32 SourceID; // 0x20
-		::System::UInt32 Duration; // 0x24
+		::System::UInt32 SourceID; // 0x18
+		::RPG::GameCore::PlanetFesEffectType Type; // 0x1C
+		::System::UInt32 Duration; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

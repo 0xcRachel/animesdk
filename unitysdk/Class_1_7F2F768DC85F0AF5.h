@@ -5,17 +5,17 @@
 class Class_1_41D874CCDF2CE0C9_1;
 namespace RPG::GameCore { class CakeRacePickupItemConfig; }
 
-#define CLASS_1_7F2F768DC85F0AF5_METHOD_1_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x15EF8D10)
-#define CLASS_1_7F2F768DC85F0AF5__CTOR_OFFSET UNITYSDK_OFFSET(0x15EF8DC0)
+#define CLASS_1_7F2F768DC85F0AF5_METHOD_1_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x1662BC30)
+#define CLASS_1_7F2F768DC85F0AF5__CTOR_OFFSET UNITYSDK_OFFSET(0x1662BCF0)
 
-inline static constexpr unsigned int Class_1_7F2F768DC85F0AF5_TypeDefinitionIndex = 28037;
+inline static constexpr unsigned int Class_1_7F2F768DC85F0AF5_TypeDefinitionIndex = 28909;
 
 class Class_1_7F2F768DC85F0AF5 : public ::System::Object
 {
 public:
 	::RPG::GameCore::CakeRacePickupItemConfig* Field_1_0; // 0x10
-	::System::Int32 Field_1_2; // 0x18
-	::System::UInt32 Field_1_3; // 0x1C
+	::System::UInt32 Field_1_3; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
 	::System::UInt32 Field_1_1; // 0x20
 	::System::UInt64 Field_1_4; // 0x28
 

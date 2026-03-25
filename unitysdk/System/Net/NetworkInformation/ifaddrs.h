@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int ifaddrs_TypeDefinitionIndex = 2925;
+	inline static constexpr unsigned int ifaddrs_TypeDefinitionIndex = 2934;
 
 	struct alignas(8) ifaddrs
 	{

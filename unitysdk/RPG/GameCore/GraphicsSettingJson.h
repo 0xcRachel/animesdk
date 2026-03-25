@@ -10,12 +10,12 @@ namespace RPG::GameCore { class TempFixDevice; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GRAPHICSSETTINGJSON_METHOD_2_D94226E9315D5A96_OFFSET UNITYSDK_OFFSET(0x16B14AB0)
-#define RPG_GAMECORE_GRAPHICSSETTINGJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x16B14CD0)
+#define RPG_GAMECORE_GRAPHICSSETTINGJSON_METHOD_2_D94226E9315D5A96_OFFSET UNITYSDK_OFFSET(0x172606D0)
+#define RPG_GAMECORE_GRAPHICSSETTINGJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x172608F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GraphicsSettingJson_TypeDefinitionIndex = 16397;
+	inline static constexpr unsigned int GraphicsSettingJson_TypeDefinitionIndex = 16771;
 
 	class GraphicsSettingJson : public ::RPG::GameCore::JsonConfig
 	{

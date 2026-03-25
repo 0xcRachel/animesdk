@@ -7,17 +7,19 @@
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+namespace RPGTools::Timeline { class CharacterStoryMoveData_BezierPathPoint; }
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA66D870)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA66D860)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA66DA60)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xABB4AD0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xABB4AC0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xABB4C90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropMoveClip_TypeDefinitionIndex = 38194;
+	inline static constexpr unsigned int StoryPropMoveClip_TypeDefinitionIndex = 39173;
 
 	class StoryPropMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -26,18 +28,21 @@ namespace RPGTools::Timeline
 		::RPGTools::Timeline::StoryPropMoveClip_ESpeedMode SpeedMode; // 0x20
 		::System::Single Speed; // 0x24
 		::System::Single Duration; // 0x28
-		::System::String* TargetAreaName; // 0x30
-		::System::String* TargetAnchorName; // 0x38
-		::System::Boolean MoveUseCustomCurve; // 0x40
-		::UnityEngine::AnimationCurve* MoveCustomCurve; // 0x48
-		::System::Boolean ChangeScale; // 0x50
-		::UnityEngine::Vector3 TargetScale; // 0x54
-		::System::Boolean ScaleUseCustomCurve; // 0x60
-		::UnityEngine::AnimationCurve* ScaleCustomCurve; // 0x68
-		::System::Boolean ChangeRotation; // 0x70
-		::UnityEngine::Vector3 TargetRotation; // 0x74
-		::System::Boolean RotationUseCustomCurve; // 0x80
-		::UnityEngine::AnimationCurve* RotationCustomCurve; // 0x88
+		::System::Boolean MoveUseCustomCurve; // 0x2C
+		::UnityEngine::AnimationCurve* MoveCustomCurve; // 0x30
+		::System::Boolean UseBezierPath; // 0x38
+		::System::Collections::Generic::List_1<::RPGTools::Timeline::CharacterStoryMoveData_BezierPathPoint*>* BezierPathPoints; // 0x40
+		::System::Boolean OverrideRotationByBezierPath; // 0x48
+		::System::String* TargetAreaName; // 0x50
+		::System::String* TargetAnchorName; // 0x58
+		::System::Boolean ChangeScale; // 0x60
+		::UnityEngine::Vector3 TargetScale; // 0x64
+		::System::Boolean ScaleUseCustomCurve; // 0x70
+		::UnityEngine::AnimationCurve* ScaleCustomCurve; // 0x78
+		::System::Boolean ChangeRotation; // 0x80
+		::UnityEngine::Vector3 TargetRotation; // 0x84
+		::System::Boolean RotationUseCustomCurve; // 0x90
+		::UnityEngine::AnimationCurve* RotationCustomCurve; // 0x98
 
 		::System::Void _ctor()
 		{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define CHESSMODEFLOATTEXTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x9955090)
+#define CHESSMODEFLOATTEXTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0xA6E76A0)
 
-inline static constexpr unsigned int ChessModeFloatTextContainer_TypeDefinitionIndex = 37112;
+inline static constexpr unsigned int ChessModeFloatTextContainer_TypeDefinitionIndex = 38074;
 
 class ChessModeFloatTextContainer : public ::UnityEngine::MonoBehaviour
 {

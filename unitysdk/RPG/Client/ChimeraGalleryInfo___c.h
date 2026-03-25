@@ -7,29 +7,29 @@ namespace RPG::Client { class ChimeraGalleryGroupedTalkData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F26A20)
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F26A50)
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C__GETGALLERYTALKS_B__6_1_OFFSET UNITYSDK_OFFSET(0x8F26BD0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0x8F26A60)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93CA3E0)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93CA410)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C__GETGALLERYTALKS_B__6_1_OFFSET UNITYSDK_OFFSET(0x93CA590)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0x93CA420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryInfo___c_TypeDefinitionIndex = 50361;
+	inline static constexpr unsigned int ChimeraGalleryInfo___c_TypeDefinitionIndex = 51496;
 
 	class ChimeraGalleryInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryInfo___c_TypeDefinitionIndex)->GetStaticField(0x42390);
-		}
 		static ::System::Func_2<::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Single>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryInfo___c_TypeDefinitionIndex)->GetStaticField(0x42398);
+			return (::System::Func_2<::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryInfo___c_TypeDefinitionIndex)->GetStaticField(0x45E40);
 		}
 		static ::RPG::Client::ChimeraGalleryInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraGalleryInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryInfo___c_TypeDefinitionIndex)->GetStaticField(0x423A0);
+			return (::RPG::Client::ChimeraGalleryInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryInfo___c_TypeDefinitionIndex)->GetStaticField(0x45E48);
+		}
+		static ::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryInfo___c_TypeDefinitionIndex)->GetStaticField(0x45E50);
 		}
 
 		static ::System::Void _cctor()

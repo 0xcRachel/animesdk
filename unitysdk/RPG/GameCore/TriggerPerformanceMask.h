@@ -7,12 +7,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERPERFORMANCEMASK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17124EE0)
-#define RPG_GAMECORE_TRIGGERPERFORMANCEMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17125220)
+#define RPG_GAMECORE_TRIGGERPERFORMANCEMASK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178E0EC0)
+#define RPG_GAMECORE_TRIGGERPERFORMANCEMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x178E1200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPerformanceMask_TypeDefinitionIndex = 18067;
+	inline static constexpr unsigned int TriggerPerformanceMask_TypeDefinitionIndex = 18585;
 
 	class TriggerPerformanceMask : public ::RPG::GameCore::JsonConfig
 	{

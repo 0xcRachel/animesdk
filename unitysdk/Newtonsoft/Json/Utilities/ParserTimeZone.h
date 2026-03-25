@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ParserTimeZone_TypeDefinitionIndex = 8102;
+	inline static constexpr unsigned int ParserTimeZone_TypeDefinitionIndex = 8231;
 
 	enum class ParserTimeZone : ::System::Int32
 	{

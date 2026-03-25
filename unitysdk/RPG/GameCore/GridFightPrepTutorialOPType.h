@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialOPType_TypeDefinitionIndex = 17717;
+	inline static constexpr unsigned int GridFightPrepTutorialOPType_TypeDefinitionIndex = 18234;
 
 	enum class GridFightPrepTutorialOPType : ::System::Int32
 	{

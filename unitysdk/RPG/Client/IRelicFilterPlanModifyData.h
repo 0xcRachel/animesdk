@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRelicFilterPlanModifyData_TypeDefinitionIndex = 53268;
+	inline static constexpr unsigned int IRelicFilterPlanModifyData_TypeDefinitionIndex = 54409;
 
 	class IRelicFilterPlanModifyData
 	{

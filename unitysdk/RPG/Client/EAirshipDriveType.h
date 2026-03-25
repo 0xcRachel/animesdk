@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EAirshipDriveType_TypeDefinitionIndex = 47319;
+	inline static constexpr unsigned int EAirshipDriveType_TypeDefinitionIndex = 48400;
 
 	enum class EAirshipDriveType : ::System::Int32
 	{

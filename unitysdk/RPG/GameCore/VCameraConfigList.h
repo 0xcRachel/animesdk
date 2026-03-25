@@ -7,12 +7,12 @@ namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_VCAMERACONFIGLIST_METHOD_2_025058B3BA67D86D_OFFSET UNITYSDK_OFFSET(0x171451F0)
-#define RPG_GAMECORE_VCAMERACONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x171452C0)
+#define RPG_GAMECORE_VCAMERACONFIGLIST_METHOD_2_025058B3BA67D86D_OFFSET UNITYSDK_OFFSET(0x17901410)
+#define RPG_GAMECORE_VCAMERACONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x179014E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraConfigList_TypeDefinitionIndex = 14801;
+	inline static constexpr unsigned int VCameraConfigList_TypeDefinitionIndex = 15053;
 
 	class VCameraConfigList : public ::RPG::GameCore::JsonConfig
 	{

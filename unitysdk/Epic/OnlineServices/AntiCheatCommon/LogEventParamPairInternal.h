@@ -15,7 +15,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogEventParamPairInternal_TypeDefinitionIndex = 35713;
+	inline static constexpr unsigned int LogEventParamPairInternal_TypeDefinitionIndex = 36647;
 
 	struct alignas(8) LogEventParamPairInternal
 	{

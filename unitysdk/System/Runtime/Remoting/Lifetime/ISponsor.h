@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting::Lifetime { class ILease; }
 
 namespace System::Runtime::Remoting::Lifetime
 {
-	inline static constexpr unsigned int ISponsor_TypeDefinitionIndex = 1224;
+	inline static constexpr unsigned int ISponsor_TypeDefinitionIndex = 1229;
 
 	class ISponsor
 	{

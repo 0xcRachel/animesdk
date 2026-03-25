@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARLINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168A8820)
-#define RPG_GAMECORE_AVATARLINKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168A8940)
+#define RPG_GAMECORE_AVATARLINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FB6360)
+#define RPG_GAMECORE_AVATARLINKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB6480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarLinkRow_TypeDefinitionIndex = 11613;
+	inline static constexpr unsigned int AvatarLinkRow_TypeDefinitionIndex = 11683;
 
 	class AvatarLinkRow : public ::System::Object
 	{

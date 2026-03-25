@@ -5,7 +5,7 @@
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcSweep2D_PositionWithU_TypeDefinitionIndex = 27491;
+	inline static constexpr unsigned int BGCcSweep2D_PositionWithU_TypeDefinitionIndex = 28227;
 
 	struct alignas(4) BGCcSweep2D_PositionWithU
 	{

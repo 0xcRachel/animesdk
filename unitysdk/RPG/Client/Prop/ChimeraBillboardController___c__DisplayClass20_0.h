@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B76E90)
-#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__SETTARGETPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0x9B76F90)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA048C40)
+#define RPG_CLIENT_PROP_CHIMERABILLBOARDCONTROLLER___C__DISPLAYCLASS20_0__SETTARGETPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0xA048D40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBillboardController___c__DisplayClass20_0_TypeDefinitionIndex = 61733;
+	inline static constexpr unsigned int ChimeraBillboardController___c__DisplayClass20_0_TypeDefinitionIndex = 63920;
 
 	class ChimeraBillboardController___c__DisplayClass20_0 : public ::System::Object
 	{

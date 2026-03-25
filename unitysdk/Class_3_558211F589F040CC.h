@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/OpenWorld/StreamingLightEnum.h"
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 
-#define CLASS_3_558211F589F040CC__CTOR_OFFSET UNITYSDK_OFFSET(0x8A42C90)
+#define CLASS_3_558211F589F040CC__CTOR_OFFSET UNITYSDK_OFFSET(0x1182B8B0)
 
-inline static constexpr unsigned int Class_3_558211F589F040CC_TypeDefinitionIndex = 58945;
+inline static constexpr unsigned int Class_3_558211F589F040CC_TypeDefinitionIndex = 60693;
 
 class Class_3_558211F589F040CC : public ::RPG::Client::OpenWorld::VolumeParameter_1<::RPG::Client::OpenWorld::StreamingLightEnum>
 {

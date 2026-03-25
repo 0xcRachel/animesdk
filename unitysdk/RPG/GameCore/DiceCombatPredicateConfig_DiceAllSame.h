@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_35332195882581C1_OFFSET UNITYSDK_OFFSET(0x16A3B120)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_49F8711FC386593E_OFFSET UNITYSDK_OFFSET(0x16A38DA0)
-#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME__CTOR_OFFSET UNITYSDK_OFFSET(0x16A38D80)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_7449FD6F01B224C7_OFFSET UNITYSDK_OFFSET(0x171785A0)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_8C9C89AF06B16838_OFFSET UNITYSDK_OFFSET(0x1717B170)
+#define RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME__CTOR_OFFSET UNITYSDK_OFFSET(0x17178550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPredicateConfig_DiceAllSame_TypeDefinitionIndex = 14533;
+	inline static constexpr unsigned int DiceCombatPredicateConfig_DiceAllSame_TypeDefinitionIndex = 14785;
 
 	class DiceCombatPredicateConfig_DiceAllSame : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_35332195882581C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame*& a2)
+		static ::System::Void Method_4_8C9C89AF06B16838(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_35332195882581C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_8C9C89AF06B16838_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_49F8711FC386593E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame* a2)
+		static ::System::Void Method_4_7449FD6F01B224C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_49F8711FC386593E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatPredicateConfig_DiceAllSame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATPREDICATECONFIG_DICEALLSAME_METHOD_4_7449FD6F01B224C7_OFFSET))(a1, a2);
 		}
 	};
 }

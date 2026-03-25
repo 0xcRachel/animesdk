@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_1C6C9469F4EFF6B9_OFFSET UNITYSDK_OFFSET(0x16929750)
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_82EAAF9CE54C4EF7_OFFSET UNITYSDK_OFFSET(0x16929830)
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x169297D0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_7016A51C6654DFF0_OFFSET UNITYSDK_OFFSET(0x1703AAF0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_D90FFB197462FFEE_OFFSET UNITYSDK_OFFSET(0x1703ABD0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1703AB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHaveInsertUltraWait_TypeDefinitionIndex = 21219;
+	inline static constexpr unsigned int ByHaveInsertUltraWait_TypeDefinitionIndex = 21779;
 
 	class ByHaveInsertUltraWait : public ::RPG::GameCore::PredicateConfig
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_1C6C9469F4EFF6B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait*& a2)
+		static ::System::Void Method_4_7016A51C6654DFF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_1C6C9469F4EFF6B9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_7016A51C6654DFF0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_82EAAF9CE54C4EF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait* a2)
+		static ::System::Void Method_4_D90FFB197462FFEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_82EAAF9CE54C4EF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_D90FFB197462FFEE_OFFSET))(a1, a2);
 		}
 	};
 }

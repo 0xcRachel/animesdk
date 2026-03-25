@@ -5,29 +5,31 @@
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
+namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15760F80)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x157620A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x15760D70)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15762610)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15762100)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x15760F20)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x15760B00)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x15762110)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x15762180)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15762650)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x15E4F270)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15E4DF20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_CHECKSCROLLBARVISIBILITY_OFFSET UNITYSDK_OFFSET(0x15E4F820)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x15E4DD60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15E4FF60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15E4F880)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x15E4DEC0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x15E4DB30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_START_OFFSET UNITYSDK_OFFSET(0x15E4F890)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x15E4F900)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x15E4FFA0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUGCAgreementDialog_TypeDefinitionIndex = 7452;
+	inline static constexpr unsigned int ConsoleUGCAgreementDialog_TypeDefinitionIndex = 7577;
 
 	class ConsoleUGCAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
 		static ::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x143F0);
+			return (::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x13180);
 		}
 		// static const ::System::String* PrefabNameCN; // 0x0
 		// static const ::System::String* PrefabNameOS; // 0x0
@@ -35,15 +37,21 @@ namespace MiHoYo::SDK::Console
 		// static const ::System::String* ContentTextScrollRectPath; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
 		// static const ::System::String* ViewUserAgreementTextPath; // 0x0
+		// static const ::System::String* ViewUserAgreementImagePath; // 0x0
 		// static const ::System::String* ViewPrivacyPolicyTextPath; // 0x0
 		// static const ::System::String* ScrollBtnPath; // 0x0
+		// static const ::System::String* ScrollBtnimagePath; // 0x0
 		// static const ::System::String* ScrollBtnTextPath; // 0x0
 		// static const ::System::String* ScrollBarPath; // 0x0
-		::System::Action* OnUserAgreementClicked; // 0xB0
-		::System::Action* OnPrivacyPolicyClicked; // 0xB8
-		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xC0
-		::System::Boolean isScrollbarVisible; // 0xC8
-		::System::Boolean Interactable; // 0xC9
+		// static const ::System::Int32 xcloud_squre_button_width = 0x20; // 0x0
+		// static const ::System::Int32 xcloud_wide_button_width = 0x2C; // 0x0
+		::System::Action* OnUserAgreementClicked; // 0xC0
+		::System::Action* OnPrivacyPolicyClicked; // 0xC8
+		::UnityEngine::GameObject* AgreementImageObj; // 0xD0
+		::UnityEngine::GameObject* ScrolllBtnImageObj; // 0xD8
+		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xE0
+		::System::Boolean isScrollbarVisible; // 0xE8
+		::System::Boolean Interactable; // 0xE9
 
 		::System::Void _ctor()
 		{
@@ -93,6 +101,11 @@ namespace MiHoYo::SDK::Console
 		::System::Void OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void AdjustButtonSizeOnXcloud()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG_ADJUSTBUTTONSIZEONXCLOUD_OFFSET))(this);
 		}
 	};
 }

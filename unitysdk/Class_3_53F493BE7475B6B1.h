@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DebateReturnTestimony; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_53F493BE7475B6B1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x899C8E0)
-#define CLASS_3_53F493BE7475B6B1__CTOR_OFFSET UNITYSDK_OFFSET(0x899C8B0)
+#define CLASS_3_53F493BE7475B6B1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114164A0)
+#define CLASS_3_53F493BE7475B6B1__CTOR_OFFSET UNITYSDK_OFFSET(0x11416470)
 
-inline static constexpr unsigned int Class_3_53F493BE7475B6B1_TypeDefinitionIndex = 41632;
+inline static constexpr unsigned int Class_3_53F493BE7475B6B1_TypeDefinitionIndex = 42678;
 
 class Class_3_53F493BE7475B6B1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DebateReturnTestimony*>
 {

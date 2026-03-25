@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ITerrainLayer_TypeDefinitionIndex = 5136;
+	inline static constexpr unsigned int ITerrainLayer_TypeDefinitionIndex = 5236;
 
 	class ITerrainLayer
 	{

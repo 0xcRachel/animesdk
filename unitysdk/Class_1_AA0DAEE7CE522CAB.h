@@ -7,26 +7,26 @@ namespace RPG::Client { class IBundleUpdatePostFileOpItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_3D331EE37B20AAC1_OFFSET UNITYSDK_OFFSET(0xB2D1B00)
-#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_423DC5E63D621D3F_OFFSET UNITYSDK_OFFSET(0xB2D1550)
-#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C0A8D327571D1A01_OFFSET UNITYSDK_OFFSET(0xB2D1600)
-#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C63532391AADCEE7_OFFSET UNITYSDK_OFFSET(0xB2D1BC0)
-#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C782C60E11964C7F_OFFSET UNITYSDK_OFFSET(0xB2D1D60)
-#define CLASS_1_AA0DAEE7CE522CAB__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2D2230)
-#define CLASS_1_AA0DAEE7CE522CAB__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D2220)
+#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_3D331EE37B20AAC1_OFFSET UNITYSDK_OFFSET(0x8C34BD0)
+#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_423DC5E63D621D3F_OFFSET UNITYSDK_OFFSET(0x8C34600)
+#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C0A8D327571D1A01_OFFSET UNITYSDK_OFFSET(0x8C346D0)
+#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C63532391AADCEE7_OFFSET UNITYSDK_OFFSET(0x8C34C90)
+#define CLASS_1_AA0DAEE7CE522CAB_METHOD_1_E693A0026D178D8E_OFFSET UNITYSDK_OFFSET(0x8C34E30)
+#define CLASS_1_AA0DAEE7CE522CAB__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C35240)
+#define CLASS_1_AA0DAEE7CE522CAB__CTOR_OFFSET UNITYSDK_OFFSET(0x8C35230)
 
-inline static constexpr unsigned int Class_1_AA0DAEE7CE522CAB_TypeDefinitionIndex = 48554;
+inline static constexpr unsigned int Class_1_AA0DAEE7CE522CAB_TypeDefinitionIndex = 49648;
 
 class Class_1_AA0DAEE7CE522CAB : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA0DAEE7CE522CAB_TypeDefinitionIndex)->GetStaticField(0x46A00);
+		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA0DAEE7CE522CAB_TypeDefinitionIndex)->GetStaticField(0x464D0);
 	}
 	static ::System::Object** StaticGet_Field_1_0()
 	{
-		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA0DAEE7CE522CAB_TypeDefinitionIndex)->GetStaticField(0x46A08);
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AA0DAEE7CE522CAB_TypeDefinitionIndex)->GetStaticField(0x464D8);
 	}
 	// static const ::System::String* Field_1_2; // 0x0
 	// static const ::System::String* Field_1_3; // 0x0
@@ -62,8 +62,8 @@ public:
 		return ((::RPG::Client::BundleUpdatePostFileOpItem*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C63532391AADCEE7_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_C782C60E11964C7F()
+	static ::System::Void Method_1_E693A0026D178D8E()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_AA0DAEE7CE522CAB_METHOD_1_C782C60E11964C7F_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_AA0DAEE7CE522CAB_METHOD_1_E693A0026D178D8E_OFFSET))();
 	}
 };

@@ -6,21 +6,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x156290C0)
-#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15628FD0)
-#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x156292B0)
-#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15628FC0)
+#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D42870)
+#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D42740)
+#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D42A60)
+#define MESSAGEPACK_FORMATTERS_DOUBLEARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D42730)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DoubleArrayFormatter_TypeDefinitionIndex = 9789;
+	inline static constexpr unsigned int DoubleArrayFormatter_TypeDefinitionIndex = 9321;
 
 	class DoubleArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::DoubleArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::DoubleArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(DoubleArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x23A60);
+			return (::MessagePack::Formatters::DoubleArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(DoubleArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x19540);
 		}
 
 		::System::Void _ctor()

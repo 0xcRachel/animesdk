@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93801E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__ISROLEMAIN_B__0_OFFSET UNITYSDK_OFFSET(0x9383840)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__CTOR_OFFSET UNITYSDK_OFFSET(0x983EB10)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS175_0__ISROLEMAIN_B__0_OFFSET UNITYSDK_OFFSET(0x98415A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass175_0_TypeDefinitionIndex = 51419;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass175_0_TypeDefinitionIndex = 52552;
 
 	class GridFightGameRefData___c__DisplayClass175_0 : public ::System::Object
 	{

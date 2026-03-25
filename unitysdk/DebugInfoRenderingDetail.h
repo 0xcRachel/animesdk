@@ -4,16 +4,16 @@
 
 namespace UnityEngine::UI { class Text; }
 
-#define DEBUGINFORENDERINGDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BD3D0)
+#define DEBUGINFORENDERINGDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB530A0)
 
-inline static constexpr unsigned int DebugInfoRenderingDetail_TypeDefinitionIndex = 37479;
+inline static constexpr unsigned int DebugInfoRenderingDetail_TypeDefinitionIndex = 38443;
 
 class DebugInfoRenderingDetail : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet_showMode()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DebugInfoRenderingDetail_TypeDefinitionIndex)->GetStaticField(0x12B40);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DebugInfoRenderingDetail_TypeDefinitionIndex)->GetStaticField(0x131D0);
 	}
 	::System::Boolean Field_5_1; // 0x18
 	::System::Boolean Field_5_2; // 0x19

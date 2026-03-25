@@ -7,29 +7,29 @@ namespace Epic::OnlineServices::Auth { class OnLoginStatusChangedCallback; }
 namespace Epic::OnlineServices::Logging { class LogMessage; }
 namespace Epic::OnlineServices::Logging { class LogMessageFunc; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x81C93A0)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x81C93E0)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__INITSDK_B__28_0_OFFSET UNITYSDK_OFFSET(0x81C93F0)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__INITSDK_B__28_1_OFFSET UNITYSDK_OFFSET(0x81C96E0)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x851AD10)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x851AD50)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__INITSDK_B__29_0_OFFSET UNITYSDK_OFFSET(0x851B050)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__SETEPICLOGGING_B__28_0_OFFSET UNITYSDK_OFFSET(0x851AD60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c_TypeDefinitionIndex = 36129;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c_TypeDefinitionIndex = 37065;
 
 	class MiHoYoSDKEOSInterface___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::MiHoYoSDKEOSInterface___c** StaticGet___9()
+		static ::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback** StaticGet___9__29_0()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKEOSInterface___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKEOSInterface___c_TypeDefinitionIndex)->GetStaticField(0x412C0);
-		}
-		static ::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback** StaticGet___9__28_1()
-		{
-			return (::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKEOSInterface___c_TypeDefinitionIndex)->GetStaticField(0x412C8);
+			return (::Epic::OnlineServices::Auth::OnLoginStatusChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKEOSInterface___c_TypeDefinitionIndex)->GetStaticField(0x10BF0);
 		}
 		static ::Epic::OnlineServices::Logging::LogMessageFunc** StaticGet___9__28_0()
 		{
-			return (::Epic::OnlineServices::Logging::LogMessageFunc**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKEOSInterface___c_TypeDefinitionIndex)->GetStaticField(0x412D0);
+			return (::Epic::OnlineServices::Logging::LogMessageFunc**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKEOSInterface___c_TypeDefinitionIndex)->GetStaticField(0x10BF8);
+		}
+		static ::MiHoYo::SDK::MiHoYoSDKEOSInterface___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDKEOSInterface___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKEOSInterface___c_TypeDefinitionIndex)->GetStaticField(0x10C00);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _InitSDK_b__28_0(::Epic::OnlineServices::Logging::LogMessage* logMessage)
+		::System::Void _SetEpicLogging_b__28_0(::Epic::OnlineServices::Logging::LogMessage* logMessage)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Logging::LogMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__INITSDK_B__28_0_OFFSET))(this, logMessage);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Logging::LogMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__SETEPICLOGGING_B__28_0_OFFSET))(this, logMessage);
 		}
 
-		::System::Void _InitSDK_b__28_1(::Epic::OnlineServices::Auth::LoginStatusChangedCallbackInfo* info)
+		::System::Void _InitSDK_b__29_0(::Epic::OnlineServices::Auth::LoginStatusChangedCallbackInfo* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LoginStatusChangedCallbackInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__INITSDK_B__28_1_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Epic::OnlineServices::Auth::LoginStatusChangedCallbackInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__INITSDK_B__29_0_OFFSET))(this, info);
 		}
 	};
 }

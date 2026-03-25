@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SwordTrainingSetDynamicValueByHPMultiplier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A77383813923A5C7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFDE54D0)
-#define CLASS_3_A77383813923A5C7__CTOR_OFFSET UNITYSDK_OFFSET(0xFDE53F0)
+#define CLASS_3_A77383813923A5C7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11515C50)
+#define CLASS_3_A77383813923A5C7__CTOR_OFFSET UNITYSDK_OFFSET(0x11515B70)
 
-inline static constexpr unsigned int Class_3_A77383813923A5C7_TypeDefinitionIndex = 43560;
+inline static constexpr unsigned int Class_3_A77383813923A5C7_TypeDefinitionIndex = 44616;
 
 class Class_3_A77383813923A5C7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwordTrainingSetDynamicValueByHPMultiplier*>
 {

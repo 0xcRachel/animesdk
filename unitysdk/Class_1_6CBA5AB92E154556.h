@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelCellTrigger.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6CBA5AB92E154556__CTOR_OFFSET UNITYSDK_OFFSET(0x161D50E0)
+#define CLASS_1_6CBA5AB92E154556__CTOR_OFFSET UNITYSDK_OFFSET(0x16A32B30)
 
-inline static constexpr unsigned int Class_1_6CBA5AB92E154556_TypeDefinitionIndex = 32061;
+inline static constexpr unsigned int Class_1_6CBA5AB92E154556_TypeDefinitionIndex = 32971;
 
 class Class_1_6CBA5AB92E154556 : public ::System::Object
 {

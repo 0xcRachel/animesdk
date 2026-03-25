@@ -26,7 +26,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4631;
+	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4661;
 
 	struct alignas(8) CRPipelineAsset
 	{
@@ -166,19 +166,19 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::AmbientVolumneData ambientData; // 0x534
 		::UnityEngine::Rendering::ClusterLightingSettings clusterSettings; // 0x5A4
 		::UnityEngine::Rendering::VoxelIrradianceCacheSettings voxelIrradianceCacheSettings; // 0x5C4
-		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5C8
-		::UnityEngine::Rendering::DLSSData dlssData; // 0x5D8
-		::UnityEngine::Rendering::DepthCopyFlag forwardDepthCopyFlag; // 0x608
-		::System::Int32 minInstanceCountAsyncFill; // 0x60C
-		::System::Single geometryShadowFadeRatio; // 0x610
-		::System::Int32 geometryShadowQuality; // 0x614
-		::System::Byte defaultSplitScreenStencilMask; // 0x618
-		::System::Boolean enableMetalVrr; // 0x619
-		::System::Boolean shouldSkipDrawWhenLoading; // 0x61A
-		::System::Int32 skipFrameDelay; // 0x61C
-		::System::Int32 particleTrailSmoothness; // 0x620
-		::System::UInt64 _Flag; // 0x628
-		::System::UInt32 _GPUDrivenFlag; // 0x630
-		::System::UInt32 _PlatformFlag; // 0x634
+		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5D4
+		::UnityEngine::Rendering::DLSSData dlssData; // 0x5E0
+		::UnityEngine::Rendering::DepthCopyFlag forwardDepthCopyFlag; // 0x610
+		::System::Int32 minInstanceCountAsyncFill; // 0x614
+		::System::Single geometryShadowFadeRatio; // 0x618
+		::System::Int32 geometryShadowQuality; // 0x61C
+		::System::Byte defaultSplitScreenStencilMask; // 0x620
+		::System::Boolean enableMetalVrr; // 0x621
+		::System::Boolean shouldSkipDrawWhenLoading; // 0x622
+		::System::Int32 skipFrameDelay; // 0x624
+		::System::Int32 particleTrailSmoothness; // 0x628
+		::System::UInt64 _Flag; // 0x630
+		::System::UInt32 _GPUDrivenFlag; // 0x638
+		::System::UInt32 _PlatformFlag; // 0x63C
 	};
 }

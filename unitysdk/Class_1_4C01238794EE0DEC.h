@@ -5,27 +5,27 @@
 
 namespace System { class String; }
 
-#define CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB2D2530)
-#define CLASS_1_4C01238794EE0DEC__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D25A0)
-#define CLASS_1_4C01238794EE0DEC___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB2D25B0)
+#define CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10B8AA60)
+#define CLASS_1_4C01238794EE0DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x10B8AAD0)
+#define CLASS_1_4C01238794EE0DEC___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10B8AAE0)
 
-inline static constexpr unsigned int Class_1_4C01238794EE0DEC_TypeDefinitionIndex = 62371;
+inline static constexpr unsigned int Class_1_4C01238794EE0DEC_TypeDefinitionIndex = 64559;
 
 class Class_1_4C01238794EE0DEC : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::System::String* Field_1_9; // 0x18
+	::System::String* Field_1_2; // 0x10
+	::System::String* Field_1_1; // 0x18
 	::System::String* Field_1_5; // 0x20
-	::System::String* Field_1_8; // 0x28
-	::System::String* Field_1_2; // 0x30
-	::System::UInt64 Field_1_3; // 0x38
-	::RPG::Client::Patch::PatchType Field_1_0; // 0x40
-	::System::UInt64 Field_1_4; // 0x48
-	::System::UInt64 Field_1_10; // 0x50
-	::System::UInt64 Field_1_11; // 0x58
-	::System::UInt64 Field_1_6; // 0x60
-	::System::UInt64 Field_1_7; // 0x68
+	::System::String* Field_1_9; // 0x28
+	::System::String* Field_1_8; // 0x30
+	::System::UInt64 Field_1_4; // 0x38
+	::System::UInt64 Field_1_10; // 0x40
+	::System::UInt64 Field_1_3; // 0x48
+	::System::UInt64 Field_1_11; // 0x50
+	::System::UInt64 Field_1_7; // 0x58
+	::RPG::Client::Patch::PatchType Field_1_0; // 0x60
+	::System::UInt64 Field_1_6; // 0x68
 
 	::System::Void _ctor()
 	{

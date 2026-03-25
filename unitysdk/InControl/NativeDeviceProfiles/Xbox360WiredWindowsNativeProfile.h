@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_XBOX360WIREDWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x154E04A0)
-#define INCONTROL_NATIVEDEVICEPROFILES_XBOX360WIREDWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x154E18E0)
+#define INCONTROL_NATIVEDEVICEPROFILES_XBOX360WIREDWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BFA2A0)
+#define INCONTROL_NATIVEDEVICEPROFILES_XBOX360WIREDWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BFB6E0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int Xbox360WiredWindowsNativeProfile_TypeDefinitionIndex = 31035;
+	inline static constexpr unsigned int Xbox360WiredWindowsNativeProfile_TypeDefinitionIndex = 31910;
 
 	class Xbox360WiredWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

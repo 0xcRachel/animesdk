@@ -13,21 +13,21 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY_CREATEPARAMETERIZEDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x15DBC840)
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x15DEE820)
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DEE880)
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x15DEE860)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY_CREATEPARAMETERIZEDCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x16484210)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x164B5490)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x164B54F0)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x164B54D0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int LateBoundReflectionDelegateFactory_TypeDefinitionIndex = 8109;
+	inline static constexpr unsigned int LateBoundReflectionDelegateFactory_TypeDefinitionIndex = 8238;
 
 	class LateBoundReflectionDelegateFactory : public ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory
 	{
 	public:
 		static ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory** StaticGet__instance()
 		{
-			return (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory**)Il2CppClass::FromTypeDefinitionIndex(LateBoundReflectionDelegateFactory_TypeDefinitionIndex)->GetStaticField(0x27320);
+			return (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory**)Il2CppClass::FromTypeDefinitionIndex(LateBoundReflectionDelegateFactory_TypeDefinitionIndex)->GetStaticField(0x3ABD0);
 		}
 
 		::System::Void _ctor()

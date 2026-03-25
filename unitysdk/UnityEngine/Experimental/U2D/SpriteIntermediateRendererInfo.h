@@ -7,7 +7,7 @@
 
 namespace UnityEngine::Experimental::U2D
 {
-	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 4695;
+	inline static constexpr unsigned int SpriteIntermediateRendererInfo_TypeDefinitionIndex = 4725;
 
 	struct alignas(8) SpriteIntermediateRendererInfo
 	{

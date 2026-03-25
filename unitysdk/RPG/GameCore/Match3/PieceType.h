@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int PieceType_TypeDefinitionIndex = 22127;
+	inline static constexpr unsigned int PieceType_TypeDefinitionIndex = 22692;
 
 	enum class PieceType : ::System::Int32
 	{

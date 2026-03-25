@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_PuzzlePhase_TypeDefinitionIndex = 61966;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_PuzzlePhase_TypeDefinitionIndex = 64153;
 
 	enum class OpticalIllusionPuzzleBoard_PuzzlePhase : ::System::Int32
 	{

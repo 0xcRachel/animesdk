@@ -7,18 +7,18 @@ namespace MiHoYo::SDK::Win { class BindManager___c__DisplayClass18_0; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x159A3D50)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS18_1__SHOWOVERSEAVERIFYPHONEPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x159A4430)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS18_1__CTOR_OFFSET UNITYSDK_OFFSET(0x160723A0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS18_1__SHOWOVERSEAVERIFYPHONEPLUGINUI_B__4_OFFSET UNITYSDK_OFFSET(0x16072A50)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass18_1_TypeDefinitionIndex = 7862;
+	inline static constexpr unsigned int BindManager___c__DisplayClass18_1_TypeDefinitionIndex = 7989;
 
 	class BindManager___c__DisplayClass18_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::BindManager___c__DisplayClass18_0* CS___8__locals1; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::Win::BindManager___c__DisplayClass18_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

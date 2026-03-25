@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B89690)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B896C0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x15B896D0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16252F10)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16252F40)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION___C___CCTOR_B__7_0_OFFSET UNITYSDK_OFFSET(0x16252F50)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int SynchronizationContextAwaitTaskContinuation___c_TypeDefinitionIndex = 912;
+	inline static constexpr unsigned int SynchronizationContextAwaitTaskContinuation___c_TypeDefinitionIndex = 916;
 
 	class SynchronizationContextAwaitTaskContinuation___c : public ::System::Object
 	{
 	public:
 		static ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c** StaticGet___9()
 		{
-			return (::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x10930);
+			return (::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0xFF30);
 		}
 
 		static ::System::Void _cctor()

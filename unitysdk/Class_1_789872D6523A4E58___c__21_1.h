@@ -6,7 +6,7 @@ namespace RPG::Client { class GridFightGameModifier; }
 namespace System { template <typename T> class Predicate_1; }
 template <typename T> class Class_1_789872D6523A4E58___c__21_1;
 
-inline static constexpr unsigned int Class_1_789872D6523A4E58___c__21_1_TypeDefinitionIndex = 51674;
+inline static constexpr unsigned int Class_1_789872D6523A4E58___c__21_1_TypeDefinitionIndex = 52808;
 
 template <typename T>
 class Class_1_789872D6523A4E58___c__21_1 : public ::System::Object

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CircleDetectDirection_TypeDefinitionIndex = 56663;
+	inline static constexpr unsigned int CircleDetectDirection_TypeDefinitionIndex = 58252;
 
 	enum class CircleDetectDirection : ::System::Int32
 	{

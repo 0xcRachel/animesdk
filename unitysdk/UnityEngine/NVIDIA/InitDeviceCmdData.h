@@ -8,7 +8,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int InitDeviceCmdData_TypeDefinitionIndex = 5063;
+	inline static constexpr unsigned int InitDeviceCmdData_TypeDefinitionIndex = 5163;
 
 	struct alignas(8) InitDeviceCmdData
 	{

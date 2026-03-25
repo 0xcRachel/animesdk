@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PipelineQueryType_TypeDefinitionIndex = 28280;
+	inline static constexpr unsigned int PipelineQueryType_TypeDefinitionIndex = 29155;
 
 	enum class PipelineQueryType : ::System::Int32
 	{

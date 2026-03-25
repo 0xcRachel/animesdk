@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int AcquireFiveDimPlayerRebornReason_TypeDefinitionIndex = 32540;
+	inline static constexpr unsigned int AcquireFiveDimPlayerRebornReason_TypeDefinitionIndex = 33462;
 
 	enum class AcquireFiveDimPlayerRebornReason : ::System::Int32
 	{
@@ -19,5 +19,6 @@ namespace RPG::Client::LittleGame::FiveDim
 		Spike = 512,
 		Missile = 1024,
 		MiniGameFail = 2048,
+		Lightning = 4096,
 	};
 }

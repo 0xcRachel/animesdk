@@ -4,12 +4,12 @@
 
 namespace RPG::Client::NavMap::FiveDim { class Face; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9927D80)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS27_0___GETFACEBYID_B__0_OFFSET UNITYSDK_OFFSET(0x9928C50)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E099C0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS27_0___GETFACEBYID_B__0_OFFSET UNITYSDK_OFFSET(0x9E0A870)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass27_0_TypeDefinitionIndex = 59620;
+	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass27_0_TypeDefinitionIndex = 61374;
 
 	class CartographyFiveDim___c__DisplayClass27_0 : public ::System::Object
 	{

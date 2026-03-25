@@ -5,13 +5,13 @@
 namespace System::Collections { class IEnumerator; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_XMLCHILDNODES_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17DBFF60)
-#define SYSTEM_XML_XMLCHILDNODES_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x17DBFF00)
-#define SYSTEM_XML_XMLCHILDNODES__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE3B50)
+#define SYSTEM_XML_XMLCHILDNODES_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x185EE960)
+#define SYSTEM_XML_XMLCHILDNODES_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x185EE900)
+#define SYSTEM_XML_XMLCHILDNODES__CTOR_OFFSET UNITYSDK_OFFSET(0x18612320)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlChildNodes_TypeDefinitionIndex = 1879;
+	inline static constexpr unsigned int XmlChildNodes_TypeDefinitionIndex = 1884;
 
 	class XmlChildNodes : public ::System::Xml::XmlNodeList
 	{

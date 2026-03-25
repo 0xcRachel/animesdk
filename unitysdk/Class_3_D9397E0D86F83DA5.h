@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareUnusedUltraSkillCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D9397E0D86F83DA5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10EA97E0)
-#define CLASS_3_D9397E0D86F83DA5__CTOR_OFFSET UNITYSDK_OFFSET(0x10EA97B0)
+#define CLASS_3_D9397E0D86F83DA5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8754DC0)
+#define CLASS_3_D9397E0D86F83DA5__CTOR_OFFSET UNITYSDK_OFFSET(0x8754D90)
 
-inline static constexpr unsigned int Class_3_D9397E0D86F83DA5_TypeDefinitionIndex = 42615;
+inline static constexpr unsigned int Class_3_D9397E0D86F83DA5_TypeDefinitionIndex = 43665;
 
 class Class_3_D9397E0D86F83DA5 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareUnusedUltraSkillCount*>
 {

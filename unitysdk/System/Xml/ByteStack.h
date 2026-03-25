@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BYTESTACK_POP_OFFSET UNITYSDK_OFFSET(0x17D47670)
-#define SYSTEM_XML_BYTESTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x17D475E0)
-#define SYSTEM_XML_BYTESTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17D475A0)
+#define SYSTEM_XML_BYTESTACK_POP_OFFSET UNITYSDK_OFFSET(0x18577680)
+#define SYSTEM_XML_BYTESTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x185775F0)
+#define SYSTEM_XML_BYTESTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x185775B0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ByteStack_TypeDefinitionIndex = 1777;
+	inline static constexpr unsigned int ByteStack_TypeDefinitionIndex = 1782;
 
 	class ByteStack : public ::System::Object
 	{

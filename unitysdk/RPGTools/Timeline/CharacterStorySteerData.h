@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA608170)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4D230)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStorySteerData_TypeDefinitionIndex = 37908;
+	inline static constexpr unsigned int CharacterStorySteerData_TypeDefinitionIndex = 38873;
 
 	class CharacterStorySteerData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int DllImportSearchPath_TypeDefinitionIndex = 1402;
+	inline static constexpr unsigned int DllImportSearchPath_TypeDefinitionIndex = 1407;
 
 	enum class DllImportSearchPath : ::System::Int32
 	{

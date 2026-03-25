@@ -4,20 +4,20 @@
 
 namespace RPG::GameCore { class CharacterPhaseSkillInfoMappingConfig; }
 
-#define RPG_CLIENT_CHARACTERPHASESKILLINFOMAPPINGJSONTABLE_GETMONSTERMAPPING_OFFSET UNITYSDK_OFFSET(0x8EB3B00)
-#define RPG_CLIENT_CHARACTERPHASESKILLINFOMAPPINGJSONTABLE_LOADCONFIG_OFFSET UNITYSDK_OFFSET(0x8EB3A10)
-#define RPG_CLIENT_CHARACTERPHASESKILLINFOMAPPINGJSONTABLE_UNLOADCONFIG_OFFSET UNITYSDK_OFFSET(0x8EB3AB0)
+#define RPG_CLIENT_CHARACTERPHASESKILLINFOMAPPINGJSONTABLE_GETMONSTERMAPPING_OFFSET UNITYSDK_OFFSET(0x93182B0)
+#define RPG_CLIENT_CHARACTERPHASESKILLINFOMAPPINGJSONTABLE_LOADCONFIG_OFFSET UNITYSDK_OFFSET(0x93181C0)
+#define RPG_CLIENT_CHARACTERPHASESKILLINFOMAPPINGJSONTABLE_UNLOADCONFIG_OFFSET UNITYSDK_OFFSET(0x9318260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterPhaseSkillInfoMappingJsonTable_TypeDefinitionIndex = 58409;
+	inline static constexpr unsigned int CharacterPhaseSkillInfoMappingJsonTable_TypeDefinitionIndex = 60064;
 
 	class CharacterPhaseSkillInfoMappingJsonTable : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::CharacterPhaseSkillInfoMappingConfig** StaticGet__ConfigMap()
 		{
-			return (::RPG::GameCore::CharacterPhaseSkillInfoMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(CharacterPhaseSkillInfoMappingJsonTable_TypeDefinitionIndex)->GetStaticField(0x40950);
+			return (::RPG::GameCore::CharacterPhaseSkillInfoMappingConfig**)Il2CppClass::FromTypeDefinitionIndex(CharacterPhaseSkillInfoMappingJsonTable_TypeDefinitionIndex)->GetStaticField(0x3A6E0);
 		}
 
 		static ::System::Void LoadConfig()

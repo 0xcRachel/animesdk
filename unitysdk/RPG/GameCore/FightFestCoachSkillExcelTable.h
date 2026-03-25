@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16A9F110)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16A9EF90)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16A9EC60)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16A9EF30)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16A9F2E0)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16A9ECE0)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16A9F320)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A9F500)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16A9F8E0)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A9FBF0)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16A9F460)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16A9F3C0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171E44F0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171E4370)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171E4040)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171E4310)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171E46C0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x171E40C0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171E4700)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171E48E0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171E4CC0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171E4FD0)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x171E4840)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171E47A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestCoachSkillExcelTable_TypeDefinitionIndex = 12058;
+	inline static constexpr unsigned int FightFestCoachSkillExcelTable_TypeDefinitionIndex = 12128;
 
 	class FightFestCoachSkillExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x29F90);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestCoachSkillRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestCoachSkillRow*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x29F98);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CB80);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x29FA0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CB88);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestCoachSkillRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FightFestCoachSkillRow*>**)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CB90);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x9360);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0xFA00);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x9361);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FightFestCoachSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0xFA01);
 		}
 
 		static ::System::Void _cctor()

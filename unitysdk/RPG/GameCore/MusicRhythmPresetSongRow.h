@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CF6DE0)
-#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CF7020)
+#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1747D600)
+#define RPG_GAMECORE_MUSICRHYTHMPRESETSONGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1747D840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmPresetSongRow_TypeDefinitionIndex = 13000;
+	inline static constexpr unsigned int MusicRhythmPresetSongRow_TypeDefinitionIndex = 13071;
 
 	class MusicRhythmPresetSongRow : public ::System::Object
 	{

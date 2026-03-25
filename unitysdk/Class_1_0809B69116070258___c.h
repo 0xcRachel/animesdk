@@ -6,22 +6,22 @@ class Class_1_0809B69116070258;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define CLASS_1_0809B69116070258___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10E379E0)
-#define CLASS_1_0809B69116070258___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10E37A10)
-#define CLASS_1_0809B69116070258___C___LISTENLEVELVAR_B__18_0_OFFSET UNITYSDK_OFFSET(0x10E37A20)
+#define CLASS_1_0809B69116070258___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x87F8C50)
+#define CLASS_1_0809B69116070258___C__CTOR_OFFSET UNITYSDK_OFFSET(0x87F8C80)
+#define CLASS_1_0809B69116070258___C___LISTENLEVELVAR_B__18_0_OFFSET UNITYSDK_OFFSET(0x87F8C90)
 
-inline static constexpr unsigned int Class_1_0809B69116070258___c_TypeDefinitionIndex = 60780;
+inline static constexpr unsigned int Class_1_0809B69116070258___c_TypeDefinitionIndex = 62772;
 
 class Class_1_0809B69116070258___c : public ::System::Object
 {
 public:
-	static ::Class_1_0809B69116070258___c** StaticGet___9()
-	{
-		return (::Class_1_0809B69116070258___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0809B69116070258___c_TypeDefinitionIndex)->GetStaticField(0x2C0F0);
-	}
 	static ::System::Action_3<::Class_1_0809B69116070258*, ::System::Int32, ::System::String*>** StaticGet___9__18_0()
 	{
-		return (::System::Action_3<::Class_1_0809B69116070258*, ::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0809B69116070258___c_TypeDefinitionIndex)->GetStaticField(0x2C0F8);
+		return (::System::Action_3<::Class_1_0809B69116070258*, ::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0809B69116070258___c_TypeDefinitionIndex)->GetStaticField(0x3C3C0);
+	}
+	static ::Class_1_0809B69116070258___c** StaticGet___9()
+	{
+		return (::Class_1_0809B69116070258___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0809B69116070258___c_TypeDefinitionIndex)->GetStaticField(0x3C3C8);
 	}
 
 	static ::System::Void _cctor()

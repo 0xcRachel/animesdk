@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UILayer_TypeDefinitionIndex = 58214;
+	inline static constexpr unsigned int UILayer_TypeDefinitionIndex = 59864;
 
 	enum class UILayer : ::System::Int32
 	{

@@ -8,13 +8,13 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x904E420)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS59_0__UPDATEFRIENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x904FF40)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS59_0__UPDATEFRIENDDATA_B__1_OFFSET UNITYSDK_OFFSET(0x904FF80)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS59_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94AAA30)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS59_0__UPDATEFRIENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x94AC4F0)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS59_0__UPDATEFRIENDDATA_B__1_OFFSET UNITYSDK_OFFSET(0x94AC530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass59_0_TypeDefinitionIndex = 50473;
+	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass59_0_TypeDefinitionIndex = 51608;
 
 	class DiceCombatModule___c__DisplayClass59_0 : public ::System::Object
 	{

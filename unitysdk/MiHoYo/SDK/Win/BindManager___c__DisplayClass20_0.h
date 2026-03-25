@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Win { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1599AD00)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS20_0__REQUESTMAILCODE_B__0_OFFSET UNITYSDK_OFFSET(0x159A4F30)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160698D0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__DISPLAYCLASS20_0__REQUESTMAILCODE_B__0_OFFSET UNITYSDK_OFFSET(0x160736A0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass20_0_TypeDefinitionIndex = 7864;
+	inline static constexpr unsigned int BindManager___c__DisplayClass20_0_TypeDefinitionIndex = 7991;
 
 	class BindManager___c__DisplayClass20_0 : public ::System::Object
 	{

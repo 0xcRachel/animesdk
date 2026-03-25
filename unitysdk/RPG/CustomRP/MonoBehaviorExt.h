@@ -8,7 +8,7 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MonoBehaviorExt_TypeDefinitionIndex = 28387;
+	inline static constexpr unsigned int MonoBehaviorExt_TypeDefinitionIndex = 29262;
 
 	class MonoBehaviorExt : public ::System::Object
 	{

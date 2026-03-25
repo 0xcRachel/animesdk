@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E80E90)
-#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E810B0)
+#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17620650)
+#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17620870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHandBookMiracleRow_TypeDefinitionIndex = 13488;
+	inline static constexpr unsigned int RogueHandBookMiracleRow_TypeDefinitionIndex = 13566;
 
 	class RogueHandBookMiracleRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MiracleTypeList; // 0x10
-		::System::UInt32 MiracleReward; // 0x18
-		::System::UInt32 MiracleEffectDisplayID; // 0x1C
-		::System::UInt32 Order; // 0x20
+		::System::UInt32 MiracleEffectDisplayID; // 0x18
+		::System::UInt32 MiracleHandbookID; // 0x1C
+		::System::UInt32 MiracleReward; // 0x20
 		::System::UInt32 MiracleDisplayID; // 0x24
-		::System::UInt32 MiracleHandbookID; // 0x28
+		::System::UInt32 Order; // 0x28
 
 		::System::Void _ctor()
 		{

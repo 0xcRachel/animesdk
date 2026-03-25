@@ -9,46 +9,46 @@ namespace RPG::Client { class RPGProfilerMarkerWithStringData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKERWITHINTDATA_OFFSET UNITYSDK_OFFSET(0x17AD7010)
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKERWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x17AD7030)
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKERWITHSTRINGDATA_OFFSET UNITYSDK_OFFSET(0x17AD7020)
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKER_OFFSET UNITYSDK_OFFSET(0x17AD7000)
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_PROFILELEVEL_OFFSET UNITYSDK_OFFSET(0x17AD7040)
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_SETPROFILELEVEL_OFFSET UNITYSDK_OFFSET(0x17AD7080)
-#define RPG_CLIENT_RPGPROFILERMARKERUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x17AD70A0)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKERWITHINTDATA_OFFSET UNITYSDK_OFFSET(0x182F0FB0)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKERWITHOBJECT_OFFSET UNITYSDK_OFFSET(0x182F0FD0)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKERWITHSTRINGDATA_OFFSET UNITYSDK_OFFSET(0x182F0FC0)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_GETMARKER_OFFSET UNITYSDK_OFFSET(0x182F0FA0)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_PROFILELEVEL_OFFSET UNITYSDK_OFFSET(0x182F0FE0)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY_SETPROFILELEVEL_OFFSET UNITYSDK_OFFSET(0x182F1020)
+#define RPG_CLIENT_RPGPROFILERMARKERUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x182F1040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGProfilerMarkerUtility_TypeDefinitionIndex = 26892;
+	inline static constexpr unsigned int RPGProfilerMarkerUtility_TypeDefinitionIndex = 27628;
 
 	class RPGProfilerMarkerUtility : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarker*>** StaticGet_s_RPGProfilerMarkers()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarker*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x2950);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarker*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x880);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithObject*>** StaticGet_s_RPGProfilerMarkersWithObject()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithObject*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x2958);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithObject*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x888);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithIntData*>** StaticGet_s_RPGProfilerMarkersWithIntData()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithIntData*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x2960);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithIntData*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x890);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithStringData*>** StaticGet_s_RPGProfilerMarkerWithStringData()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithStringData*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x2968);
-		}
-		static ::System::Int32* StaticGet_s_SetProfileLevelInFrameCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x520);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::RPGProfilerMarkerWithStringData*>**)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x898);
 		}
 		static ::System::Int32* StaticGet_s_SetProfileLevelCache()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x524);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x520);
 		}
 		static ::System::Int32* StaticGet_s_ProfileLevel()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x524);
+		}
+		static ::System::Int32* StaticGet_s_SetProfileLevelInFrameCount()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGProfilerMarkerUtility_TypeDefinitionIndex)->GetStaticField(0x528);
 		}

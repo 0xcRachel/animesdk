@@ -7,39 +7,39 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x159E5CC0)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__CHECKENTITLEMENTS_B__13_0_OFFSET UNITYSDK_OFFSET(0x159E5E20)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__CHECKENTITLEMENTS_B__13_1_OFFSET UNITYSDK_OFFSET(0x159E6200)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x159E5D00)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__INIT_B__4_0_OFFSET UNITYSDK_OFFSET(0x159E5D10)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__INIT_B__4_1_OFFSET UNITYSDK_OFFSET(0x159E5E10)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x160B19B0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__CHECKENTITLEMENTS_B__13_0_OFFSET UNITYSDK_OFFSET(0x160B1B10)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__CHECKENTITLEMENTS_B__13_1_OFFSET UNITYSDK_OFFSET(0x160B1EF0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x160B19F0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__INIT_B__4_0_OFFSET UNITYSDK_OFFSET(0x160B1A00)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__INIT_B__4_1_OFFSET UNITYSDK_OFFSET(0x160B1B00)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int EOSManager___c_TypeDefinitionIndex = 7800;
+	inline static constexpr unsigned int EOSManager___c_TypeDefinitionIndex = 7925;
 
 	class EOSManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__4_1()
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__13_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1A180);
-		}
-		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1A188);
-		}
-		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__13_0()
-		{
-			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1A190);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1F3D0);
 		}
 		static ::MiHoYo::SDK::Win::EOSManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::EOSManager___c**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1A198);
+			return (::MiHoYo::SDK::Win::EOSManager___c**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1F3D8);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__13_1()
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__13_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1A1A0);
+			return (::System::Action_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1F3E0);
+		}
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__4_1()
+		{
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1F3E8);
+		}
+		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EOSManager___c_TypeDefinitionIndex)->GetStaticField(0x1F3F0);
 		}
 
 		static ::System::Void _cctor()

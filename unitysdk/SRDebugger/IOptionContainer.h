@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int IOptionContainer_TypeDefinitionIndex = 28720;
+	inline static constexpr unsigned int IOptionContainer_TypeDefinitionIndex = 29595;
 
 	class IOptionContainer
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SimpleTalkStyle; }
 
-#define RPG_GAMECORE_BACKGROUNDTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168C8AA0)
-#define RPG_GAMECORE_BACKGROUNDTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x168C8C80)
+#define RPG_GAMECORE_BACKGROUNDTALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FD6660)
+#define RPG_GAMECORE_BACKGROUNDTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD6840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackgroundTalkInfo_TypeDefinitionIndex = 21045;
+	inline static constexpr unsigned int BackgroundTalkInfo_TypeDefinitionIndex = 21605;
 
 	class BackgroundTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

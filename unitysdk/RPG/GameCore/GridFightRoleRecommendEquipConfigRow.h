@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTROLERECOMMENDEQUIPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B45520)
-#define RPG_GAMECORE_GRIDFIGHTROLERECOMMENDEQUIPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B456F0)
+#define RPG_GAMECORE_GRIDFIGHTROLERECOMMENDEQUIPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17293C20)
+#define RPG_GAMECORE_GRIDFIGHTROLERECOMMENDEQUIPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17293DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleRecommendEquipConfigRow_TypeDefinitionIndex = 12293;
+	inline static constexpr unsigned int GridFightRoleRecommendEquipConfigRow_TypeDefinitionIndex = 12363;
 
 	class GridFightRoleRecommendEquipConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SecondRecommendEquipList; // 0x10
 		::Il2CppArray<::System::UInt32>* FirstRecommendEquipList; // 0x18
-		::RPG::GameCore::GridFightPreset FrontBackType; // 0x20
-		::System::UInt32 RoleID; // 0x24
+		::System::UInt32 RoleID; // 0x20
+		::RPG::GameCore::GridFightPreset FrontBackType; // 0x24
 
 		::System::Void _ctor()
 		{

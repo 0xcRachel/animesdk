@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlStandalone_TypeDefinitionIndex = 1871;
+	inline static constexpr unsigned int XmlStandalone_TypeDefinitionIndex = 1876;
 
 	enum class XmlStandalone : ::System::Int32
 	{

@@ -7,32 +7,32 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_GET_ISSEALED_OFFSET UNITYSDK_OFFSET(0x15D1FF00)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_GET_NINAME_OFFSET UNITYSDK_OFFSET(0x15D1FF50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x15D1FEE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_SET_NINAME_OFFSET UNITYSDK_OFFSET(0x15D1FF90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15D1FED0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_GET_ISSEALED_OFFSET UNITYSDK_OFFSET(0x163E7B60)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_GET_NINAME_OFFSET UNITYSDK_OFFSET(0x163E7BB0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x163E7B40)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO_SET_NINAME_OFFSET UNITYSDK_OFFSET(0x163E7BF0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x163E7B30)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1184;
+	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1189;
 
 	class NameInfo : public ::System::Object
 	{
 	public:
 		::System::Type* NItype; // 0x10
 		::System::String* NIFullName; // 0x18
-		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum; // 0x20
-		::System::Boolean NItransmitTypeOnObject; // 0x24
-		::System::Boolean NIisSealed; // 0x25
-		::System::Boolean NIsealedStatusChecked; // 0x26
+		::System::Int64 NIobjectId; // 0x20
 		::System::Int64 NIassemId; // 0x28
-		::System::Boolean NIisArray; // 0x30
-		::System::Boolean NIisArrayItem; // 0x31
-		::System::Boolean NIisParentTypeOnObject; // 0x32
-		::System::Boolean NItransmitTypeOnMember; // 0x33
+		::System::Boolean NIisSealed; // 0x30
+		::System::Boolean NItransmitTypeOnMember; // 0x31
+		::System::Boolean NIisArray; // 0x32
+		::System::Boolean NIisArrayItem; // 0x33
 		::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum; // 0x34
-		::System::Int64 NIobjectId; // 0x38
+		::System::Boolean NIsealedStatusChecked; // 0x38
+		::System::Boolean NItransmitTypeOnObject; // 0x39
+		::System::Boolean NIisParentTypeOnObject; // 0x3A
+		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -11,30 +11,30 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioConfig___O_TypeDefinitionIndex = 14739;
+	inline static constexpr unsigned int AudioConfig___O_TypeDefinitionIndex = 14991;
 
 	class AudioConfig___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::UIAudioStage>** StaticGet__1___FromBinary()
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>** StaticGet__2___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::UIAudioStage>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x235D0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x16220);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PlaneType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PlaneType>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x235D8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PlaneType>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x16228);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureCharacterVOType>** StaticGet__3___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureCharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x235E0);
-		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>** StaticGet__2___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::CharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x235E8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureCharacterVOType>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x16230);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AudioGameState>** StaticGet__4___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AudioGameState>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x235F0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AudioGameState>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x16238);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::UIAudioStage>** StaticGet__1___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::UIAudioStage>**)Il2CppClass::FromTypeDefinitionIndex(AudioConfig___O_TypeDefinitionIndex)->GetStaticField(0x16240);
 		}
 	};
 }

@@ -8,30 +8,30 @@ namespace System::Text { class StringBuilder; }
 namespace UnityEngine::UI { class CaculateNodeData; }
 namespace UnityEngine::UI { class TextScanner; }
 
-#define UNITYENGINE_UI_CACULATENODEREBUILD_MERGETOPOPERATOR_OFFSET UNITYSDK_OFFSET(0x182E9EB0)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_PROCESS_OFFSET UNITYSDK_OFFSET(0x182E9450)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READCACULATENODE_OFFSET UNITYSDK_OFFSET(0x182E92E0)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READDIGITS_OFFSET UNITYSDK_OFFSET(0x182EA400)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READNUMBER_OFFSET UNITYSDK_OFFSET(0x182EA050)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READOBJECT_OFFSET UNITYSDK_OFFSET(0x182E9F70)
-#define UNITYENGINE_UI_CACULATENODEREBUILD_READOPERATOR_OFFSET UNITYSDK_OFFSET(0x182E9D80)
-#define UNITYENGINE_UI_CACULATENODEREBUILD__CCTOR_OFFSET UNITYSDK_OFFSET(0x182EA860)
-#define UNITYENGINE_UI_CACULATENODEREBUILD__CTOR_OFFSET UNITYSDK_OFFSET(0x182EA710)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_MERGETOPOPERATOR_OFFSET UNITYSDK_OFFSET(0x18B10190)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_PROCESS_OFFSET UNITYSDK_OFFSET(0x18B0F730)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READCACULATENODE_OFFSET UNITYSDK_OFFSET(0x18B0F5C0)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READDIGITS_OFFSET UNITYSDK_OFFSET(0x18B106E0)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READNUMBER_OFFSET UNITYSDK_OFFSET(0x18B10330)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READOBJECT_OFFSET UNITYSDK_OFFSET(0x18B10250)
+#define UNITYENGINE_UI_CACULATENODEREBUILD_READOPERATOR_OFFSET UNITYSDK_OFFSET(0x18B10060)
+#define UNITYENGINE_UI_CACULATENODEREBUILD__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B10B40)
+#define UNITYENGINE_UI_CACULATENODEREBUILD__CTOR_OFFSET UNITYSDK_OFFSET(0x18B109F0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CaculateNodeRebuild_TypeDefinitionIndex = 5523;
+	inline static constexpr unsigned int CaculateNodeRebuild_TypeDefinitionIndex = 5623;
 
 	class CaculateNodeRebuild : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UI::CaculateNodeRebuild** StaticGet_NodeBuilder()
-		{
-			return (::UnityEngine::UI::CaculateNodeRebuild**)Il2CppClass::FromTypeDefinitionIndex(CaculateNodeRebuild_TypeDefinitionIndex)->GetStaticField(0x7090);
-		}
 		static ::UnityEngine::UI::TextScanner** StaticGet_scanner()
 		{
-			return (::UnityEngine::UI::TextScanner**)Il2CppClass::FromTypeDefinitionIndex(CaculateNodeRebuild_TypeDefinitionIndex)->GetStaticField(0x7098);
+			return (::UnityEngine::UI::TextScanner**)Il2CppClass::FromTypeDefinitionIndex(CaculateNodeRebuild_TypeDefinitionIndex)->GetStaticField(0x46C0);
+		}
+		static ::UnityEngine::UI::CaculateNodeRebuild** StaticGet_NodeBuilder()
+		{
+			return (::UnityEngine::UI::CaculateNodeRebuild**)Il2CppClass::FromTypeDefinitionIndex(CaculateNodeRebuild_TypeDefinitionIndex)->GetStaticField(0x46C8);
 		}
 		::System::Text::StringBuilder* builder; // 0x10
 		::System::Collections::Generic::Stack_1<::System::Int32>* mBrackets; // 0x18

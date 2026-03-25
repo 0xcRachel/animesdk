@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENTITYSPAWNCONFIG_METHOD_2_4804E50858EF8AB8_OFFSET UNITYSDK_OFFSET(0x16A72760)
-#define RPG_GAMECORE_ENTITYSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A73CF0)
+#define RPG_GAMECORE_ENTITYSPAWNCONFIG_METHOD_2_4804E50858EF8AB8_OFFSET UNITYSDK_OFFSET(0x171B5530)
+#define RPG_GAMECORE_ENTITYSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171B6AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntitySpawnConfig_TypeDefinitionIndex = 17237;
+	inline static constexpr unsigned int EntitySpawnConfig_TypeDefinitionIndex = 17642;
 
 	class EntitySpawnConfig : public ::RPG::GameCore::JsonConfig
 	{

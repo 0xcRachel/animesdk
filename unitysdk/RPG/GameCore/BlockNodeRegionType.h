@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockNodeRegionType_TypeDefinitionIndex = 17122;
+	inline static constexpr unsigned int BlockNodeRegionType_TypeDefinitionIndex = 17527;
 
 	enum class BlockNodeRegionType : ::System::Int32
 	{

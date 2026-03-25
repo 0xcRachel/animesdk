@@ -6,12 +6,12 @@ namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_GET_TARGETROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0x934B580)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION__CTOR_OFFSET UNITYSDK_OFFSET(0x934B770)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_GET_TARGETROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0x9809500)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION__CTOR_OFFSET UNITYSDK_OFFSET(0x98096F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 51272;
+	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 52405;
 
 	class GridFightEquipCraftCombination : public ::System::Object
 	{

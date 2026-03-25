@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_617;
-namespace RPG::Client { class AvatarData; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_539;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_622_TypeDefinitionIndex = 52138;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_622_TypeDefinitionIndex = 52250;
 
 class Class_0_16E4307DCC419505_622
 {

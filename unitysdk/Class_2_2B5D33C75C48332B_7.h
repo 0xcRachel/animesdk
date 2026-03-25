@@ -4,23 +4,29 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_7_METHOD_2_A99467CE9479C990_OFFSET UNITYSDK_OFFSET(0x848DAC0)
-#define CLASS_2_2B5D33C75C48332B_7__CTOR_OFFSET UNITYSDK_OFFSET(0x848DAB0)
+#define CLASS_2_2B5D33C75C48332B_7_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0xB283A00)
+#define CLASS_2_2B5D33C75C48332B_7_SET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0xB283A10)
+#define CLASS_2_2B5D33C75C48332B_7__CTOR_OFFSET UNITYSDK_OFFSET(0xB283A20)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_7_TypeDefinitionIndex = 39224;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_7_TypeDefinitionIndex = 40021;
 
 class Class_2_2B5D33C75C48332B_7 : public ::System::Attribute
 {
 public:
-	::System::Type* Field_2_0; // 0x10
+	::System::Type* _TargetType_k__BackingField; // 0x10
 
 	::System::Void _ctor(::System::Type* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_7__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Type* Method_2_A99467CE9479C990()
+	::System::Type* get_TargetType()
 	{
-		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_7_METHOD_2_A99467CE9479C990_OFFSET))(this);
+		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_7_GET_TARGETTYPE_OFFSET))(this);
+	}
+
+	::System::Void set_TargetType(::System::Type* value)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_7_SET_TARGETTYPE_OFFSET))(this, value);
 	}
 };

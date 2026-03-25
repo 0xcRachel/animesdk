@@ -7,11 +7,11 @@ namespace MiHoYo::SDK { class IKCPChannel; }
 namespace System { class String; }
 namespace System::Net { class IPEndPoint; }
 
-#define MIHOYO_SDK_IKCPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x81A7C20)
+#define MIHOYO_SDK_IKCPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x84FAE20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 35968;
+	inline static constexpr unsigned int IKCPClient_TypeDefinitionIndex = 36903;
 
 	class IKCPClient : public ::System::Object
 	{

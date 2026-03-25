@@ -6,24 +6,24 @@ namespace RPG::Client { class MonoLightRandomCoontrol; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CLASS_2_237D836A4F61924C_METHOD_2_90D019D81149A8BA_OFFSET UNITYSDK_OFFSET(0x111BA2B0)
-#define CLASS_2_237D836A4F61924C_METHOD_2_9831E62807E98936_OFFSET UNITYSDK_OFFSET(0x111B98C0)
-#define CLASS_2_237D836A4F61924C_METHOD_2_9E6654DF9D55E389_OFFSET UNITYSDK_OFFSET(0x111B9C30)
-#define CLASS_2_237D836A4F61924C_METHOD_2_F53BAAE38A584428_OFFSET UNITYSDK_OFFSET(0x111B9CA0)
-#define CLASS_2_237D836A4F61924C__CTOR_OFFSET UNITYSDK_OFFSET(0x111BA280)
+#define CLASS_2_237D836A4F61924C_METHOD_2_90D019D81149A8BA_OFFSET UNITYSDK_OFFSET(0x105FB5E0)
+#define CLASS_2_237D836A4F61924C_METHOD_2_9831E62807E98936_OFFSET UNITYSDK_OFFSET(0x105FABF0)
+#define CLASS_2_237D836A4F61924C_METHOD_2_9E6654DF9D55E389_OFFSET UNITYSDK_OFFSET(0x105FAF60)
+#define CLASS_2_237D836A4F61924C_METHOD_2_F53BAAE38A584428_OFFSET UNITYSDK_OFFSET(0x105FAFD0)
+#define CLASS_2_237D836A4F61924C__CTOR_OFFSET UNITYSDK_OFFSET(0x105FB5B0)
 
-inline static constexpr unsigned int Class_2_237D836A4F61924C_TypeDefinitionIndex = 56050;
+inline static constexpr unsigned int Class_2_237D836A4F61924C_TypeDefinitionIndex = 57612;
 
 class Class_2_237D836A4F61924C : public ::RPG::Client::BehaviorBase
 {
 public:
 	::UnityEngine::Light* Field_2_0; // 0x18
-	::System::Single Field_2_5; // 0x20
+	::System::Int32 Field_2_6; // 0x20
 	::System::Single Field_2_1; // 0x24
-	::System::Int32 Field_2_6; // 0x28
-	::System::Single Field_2_4; // 0x2C
-	::System::Single Field_2_3; // 0x30
-	::System::Int32 Field_2_7; // 0x34
+	::System::Single Field_2_3; // 0x28
+	::System::Int32 Field_2_7; // 0x2C
+	::System::Single Field_2_4; // 0x30
+	::System::Single Field_2_5; // 0x34
 	::System::Single Field_2_2; // 0x38
 
 	::System::Void _ctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePostureType_TypeDefinitionIndex = 15925;
+	inline static constexpr unsigned int BattlePostureType_TypeDefinitionIndex = 16202;
 
 	enum class BattlePostureType : ::System::Int32
 	{

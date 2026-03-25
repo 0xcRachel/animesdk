@@ -5,9 +5,9 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_43BD383C98B4C0C5_97__CTOR_OFFSET UNITYSDK_OFFSET(0x89B50A0)
+#define CLASS_1_43BD383C98B4C0C5_97__CTOR_OFFSET UNITYSDK_OFFSET(0x1093C030)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_97_TypeDefinitionIndex = 37521;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_97_TypeDefinitionIndex = 38485;
 
 class Class_1_43BD383C98B4C0C5_97 : public ::System::Object
 {

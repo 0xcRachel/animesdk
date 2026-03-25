@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChessStageUnitInfo; }
 
-#define RPG_GAMECORE_CHESSSTAGESPAWNGROUPCONFIG_METHOD_2_F788DC1BF162A8D7_OFFSET UNITYSDK_OFFSET(0x16980580)
-#define RPG_GAMECORE_CHESSSTAGESPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16980810)
+#define RPG_GAMECORE_CHESSSTAGESPAWNGROUPCONFIG_METHOD_2_F788DC1BF162A8D7_OFFSET UNITYSDK_OFFSET(0x170A2970)
+#define RPG_GAMECORE_CHESSSTAGESPAWNGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170A2C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessStageSpawnGroupConfig_TypeDefinitionIndex = 15919;
+	inline static constexpr unsigned int ChessStageSpawnGroupConfig_TypeDefinitionIndex = 16196;
 
 	class ChessStageSpawnGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

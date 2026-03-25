@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_POSTURETYPETASKSCONFIG_METHOD_2_D196DDAD021EA795_OFFSET UNITYSDK_OFFSET(0x16D7A260)
-#define RPG_GAMECORE_POSTURETYPETASKSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D7A390)
+#define RPG_GAMECORE_POSTURETYPETASKSCONFIG_METHOD_2_D196DDAD021EA795_OFFSET UNITYSDK_OFFSET(0x17501DB0)
+#define RPG_GAMECORE_POSTURETYPETASKSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17501EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PostureTypeTasksConfig_TypeDefinitionIndex = 15929;
+	inline static constexpr unsigned int PostureTypeTasksConfig_TypeDefinitionIndex = 16206;
 
 	class PostureTypeTasksConfig : public ::RPG::GameCore::JsonConfig
 	{

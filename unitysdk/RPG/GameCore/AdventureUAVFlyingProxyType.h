@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureUAVFlyingProxyType_TypeDefinitionIndex = 44914;
+	inline static constexpr unsigned int AdventureUAVFlyingProxyType_TypeDefinitionIndex = 45975;
 
 	enum class AdventureUAVFlyingProxyType : ::System::Int32
 	{

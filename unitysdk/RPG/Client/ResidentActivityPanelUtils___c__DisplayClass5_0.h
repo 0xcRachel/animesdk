@@ -5,12 +5,12 @@
 
 namespace RPG::GameCore { class RogueActivityResidentConfigRow; }
 
-#define RPG_CLIENT_RESIDENTACTIVITYPANELUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DC7BD0)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELUTILS___C__DISPLAYCLASS5_0___SETROGUEASLATESTPLAYED_B__0_OFFSET UNITYSDK_OFFSET(0x9DC7FB0)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E8840)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELUTILS___C__DISPLAYCLASS5_0___SETROGUEASLATESTPLAYED_B__0_OFFSET UNITYSDK_OFFSET(0xA2E8C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentActivityPanelUtils___c__DisplayClass5_0_TypeDefinitionIndex = 48998;
+	inline static constexpr unsigned int ResidentActivityPanelUtils___c__DisplayClass5_0_TypeDefinitionIndex = 50133;
 
 	class ResidentActivityPanelUtils___c__DisplayClass5_0 : public ::System::Object
 	{

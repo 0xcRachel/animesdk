@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class BattleGridFightTeamTraitData; }
 
-#define RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9325C10)
-#define RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS47_0___CREATETRAITS_B__0_OFFSET UNITYSDK_OFFSET(0x9327E20)
+#define RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x97E3D20)
+#define RPG_CLIENT_GRIDFIGHTBATTLEGAMECONTEXT___C__DISPLAYCLASS47_0___CREATETRAITS_B__0_OFFSET UNITYSDK_OFFSET(0x97E5F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleGameContext___c__DisplayClass47_0_TypeDefinitionIndex = 51174;
+	inline static constexpr unsigned int GridFightBattleGameContext___c__DisplayClass47_0_TypeDefinitionIndex = 52307;
 
 	class GridFightBattleGameContext___c__DisplayClass47_0 : public ::System::Object
 	{

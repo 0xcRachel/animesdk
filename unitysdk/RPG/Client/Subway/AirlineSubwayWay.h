@@ -1,20 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Airline.h"
+#include "unitysdk/RPG/Client/Subway/AirlineSubwayWay_DoorSide.h"
 
 namespace RPG::Client::Subway { class AirlineSubwayWay_MemberConfig; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x9FDAC90)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0x9FDAC70)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0x9FDAC80)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x9FDACF0)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x9FDAD50)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0xA4FDB00)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0xA4FDAE0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0xA4FDAF0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY__CTOR_OFFSET UNITYSDK_OFFSET(0xA4FDB60)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xA4FDBC0)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_TypeDefinitionIndex = 62326;
+	inline static constexpr unsigned int AirlineSubwayWay_TypeDefinitionIndex = 64513;
 
 	class AirlineSubwayWay : public ::RPG::Client::Airline
 	{
@@ -29,11 +30,12 @@ namespace RPG::Client::Subway
 		::System::Single pedestrianMotionDuration; // 0x58
 		::System::String* subwayStationName; // 0x60
 		::System::String* subwayDoorSignName; // 0x68
-		::System::String* arrivalAudioEvent; // 0x70
-		::System::String* exitAudioEvent; // 0x78
-		::Il2CppArray<::RPG::Client::Subway::AirlineSubwayWay_MemberConfig*>* memberConfigs; // 0x80
-		::System::String* FCVName_Waitting; // 0x88
-		::System::Single _StopDistance_k__BackingField; // 0x90
+		::RPG::Client::Subway::AirlineSubwayWay_DoorSide OpenDoorSide; // 0x70
+		::System::String* arrivalAudioEvent; // 0x78
+		::System::String* exitAudioEvent; // 0x80
+		::Il2CppArray<::RPG::Client::Subway::AirlineSubwayWay_MemberConfig*>* memberConfigs; // 0x88
+		::System::String* FCVName_Waitting; // 0x90
+		::System::Single _StopDistance_k__BackingField; // 0x98
 
 		::System::Void _ctor()
 		{

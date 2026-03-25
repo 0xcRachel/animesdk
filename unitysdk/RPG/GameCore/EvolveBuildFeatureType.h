@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildFeatureType_TypeDefinitionIndex = 20162;
+	inline static constexpr unsigned int EvolveBuildFeatureType_TypeDefinitionIndex = 20706;
 
 	enum class EvolveBuildFeatureType : ::System::Int32
 	{

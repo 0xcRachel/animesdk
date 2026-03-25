@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterShowSummonUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_204953272A15A95B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B217A0)
-#define CLASS_3_204953272A15A95B__CTOR_OFFSET UNITYSDK_OFFSET(0x10B21770)
+#define CLASS_3_204953272A15A95B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x115B8220)
+#define CLASS_3_204953272A15A95B__CTOR_OFFSET UNITYSDK_OFFSET(0x115B81F0)
 
-inline static constexpr unsigned int Class_3_204953272A15A95B_TypeDefinitionIndex = 46153;
+inline static constexpr unsigned int Class_3_204953272A15A95B_TypeDefinitionIndex = 47227;
 
 class Class_3_204953272A15A95B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterShowSummonUI*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_RenderHideType_TypeDefinitionIndex = 55654;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_RenderHideType_TypeDefinitionIndex = 57218;
 
 	enum class MonoEffectPluginCharaEffectBase_RenderHideType : ::System::Int32
 	{

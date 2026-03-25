@@ -4,15 +4,15 @@
 
 class AkCallbackManager_BGMCallback;
 
-#define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x183871F0)
+#define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BAC3F0)
 
-inline static constexpr unsigned int AkCallbackManager_BGMCallbackPackage_TypeDefinitionIndex = 33576;
+inline static constexpr unsigned int AkCallbackManager_BGMCallbackPackage_TypeDefinitionIndex = 34565;
 
 class AkCallbackManager_BGMCallbackPackage : public ::System::Object
 {
 public:
-	::System::Object* m_Cookie; // 0x10
-	::AkCallbackManager_BGMCallback* m_Callback; // 0x18
+	::AkCallbackManager_BGMCallback* m_Callback; // 0x10
+	::System::Object* m_Cookie; // 0x18
 
 	::System::Void _ctor()
 	{

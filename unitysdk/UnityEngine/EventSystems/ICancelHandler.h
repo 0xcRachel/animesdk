@@ -5,7 +5,7 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ICancelHandler_TypeDefinitionIndex = 5694;
+	inline static constexpr unsigned int ICancelHandler_TypeDefinitionIndex = 5794;
 
 	class ICancelHandler
 	{

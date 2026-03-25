@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDF5D0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A79A0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ComImportAttribute_TypeDefinitionIndex = 1396;
+	inline static constexpr unsigned int ComImportAttribute_TypeDefinitionIndex = 1401;
 
 	class ComImportAttribute : public ::System::Attribute
 	{

@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_NOTIFYMANAGER_DELAYPACKET__CTOR_OFFSET UNITYSDK_OFFSET(0x99F5E70)
+#define RPG_CLIENT_NOTIFYMANAGER_DELAYPACKET__CTOR_OFFSET UNITYSDK_OFFSET(0x9E97020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyManager_DelayPacket_TypeDefinitionIndex = 46857;
+	inline static constexpr unsigned int NotifyManager_DelayPacket_TypeDefinitionIndex = 47937;
 
 	class NotifyManager_DelayPacket : public ::System::Object
 	{
 	public:
 		::System::Object* Rsp; // 0x10
-		::System::UInt32 RetCode; // 0x18
-		::System::UInt16 CmdID; // 0x1C
+		::System::UInt16 CmdID; // 0x18
+		::System::UInt32 RetCode; // 0x1C
 
 		::System::Void _ctor(::System::UInt16 cmdID, ::System::UInt32 retcode, ::System::Object* rsp)
 		{

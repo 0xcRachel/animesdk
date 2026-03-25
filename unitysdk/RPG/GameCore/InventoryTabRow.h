@@ -11,28 +11,28 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INVENTORYTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B86970)
-#define RPG_GAMECORE_INVENTORYTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B872C0)
+#define RPG_GAMECORE_INVENTORYTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172D51E0)
+#define RPG_GAMECORE_INVENTORYTABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172D5B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InventoryTabRow_TypeDefinitionIndex = 12568;
+	inline static constexpr unsigned int InventoryTabRow_TypeDefinitionIndex = 12638;
 
 	class InventoryTabRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemSubType>* DisplayItemSubType; // 0x10
-		::System::String* IconImagePath; // 0x18
-		::RPG::GameCore::ConditionParam* UnlockCondition; // 0x20
-		::Il2CppArray<::RPG::GameCore::InventorySortType>* ItemSortTypeList; // 0x28
-		::RPG::Client::TextID TabName; // 0x30
-		::System::UInt32 ID; // 0x40
-		::RPG::GameCore::InventoryType DisplayInventoryType; // 0x44
-		::System::UInt32 DisplayCapacityLimit; // 0x48
-		::RPG::GameCore::ItemSellType SellType; // 0x4C
-		::System::UInt32 TabSortWeight; // 0x50
-		::System::UInt32 InventoryDisplayTag; // 0x54
-		::System::Boolean NotDisplayPileLimit; // 0x58
+		::RPG::GameCore::ConditionParam* UnlockCondition; // 0x10
+		::Il2CppArray<::RPG::GameCore::InventorySortType>* ItemSortTypeList; // 0x18
+		::System::String* IconImagePath; // 0x20
+		::Il2CppArray<::RPG::GameCore::ItemSubType>* DisplayItemSubType; // 0x28
+		::System::UInt32 ID; // 0x30
+		::System::Boolean NotDisplayPileLimit; // 0x34
+		::RPG::GameCore::InventoryType DisplayInventoryType; // 0x38
+		::RPG::GameCore::ItemSellType SellType; // 0x3C
+		::System::UInt32 InventoryDisplayTag; // 0x40
+		::System::UInt32 DisplayCapacityLimit; // 0x44
+		::RPG::Client::TextID TabName; // 0x48
+		::System::UInt32 TabSortWeight; // 0x58
 
 		::System::Void _ctor()
 		{

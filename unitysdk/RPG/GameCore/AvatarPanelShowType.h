@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPanelShowType_TypeDefinitionIndex = 20464;
+	inline static constexpr unsigned int AvatarPanelShowType_TypeDefinitionIndex = 21012;
 
 	enum class AvatarPanelShowType : ::System::Int32
 	{

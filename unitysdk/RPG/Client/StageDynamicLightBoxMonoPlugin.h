@@ -7,13 +7,13 @@ namespace RPG::Client { class StageDynamicLightBoxBehavior_DynamicLightBoxTempla
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9FA7900)
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA7950)
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9FA7970)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA4C7DA0)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C7DF0)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xA4C7E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageDynamicLightBoxMonoPlugin_TypeDefinitionIndex = 56538;
+	inline static constexpr unsigned int StageDynamicLightBoxMonoPlugin_TypeDefinitionIndex = 58119;
 
 	class StageDynamicLightBoxMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageDynamicLightBoxBehavior*>
 	{

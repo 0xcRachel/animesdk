@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HPBarType_TypeDefinitionIndex = 14871;
+	inline static constexpr unsigned int HPBarType_TypeDefinitionIndex = 15123;
 
 	enum class HPBarType : ::System::Int32
 	{

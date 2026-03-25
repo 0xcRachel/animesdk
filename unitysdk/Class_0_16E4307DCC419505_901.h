@@ -1,7 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_901_TypeDefinitionIndex = 60058;
+class Class_0_16E4307DCC419505_891;
+namespace System { class Object; }
+namespace System::Reflection { class MethodInfo; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_901_TypeDefinitionIndex = 59963;
 
 class Class_0_16E4307DCC419505_901
 {

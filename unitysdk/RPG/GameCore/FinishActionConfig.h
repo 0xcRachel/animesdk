@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_22670B67281000AB_OFFSET UNITYSDK_OFFSET(0x16AA6380)
-#define RPG_GAMECORE_FINISHACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA6510)
+#define RPG_GAMECORE_FINISHACTIONCONFIG_METHOD_2_22670B67281000AB_OFFSET UNITYSDK_OFFSET(0x171EB800)
+#define RPG_GAMECORE_FINISHACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171EB990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 17023;
+	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 17428;
 
 	class FinishActionConfig : public ::RPG::GameCore::JsonConfig
 	{

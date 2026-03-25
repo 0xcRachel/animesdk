@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByChimeraDuelIsMasterSelected; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_943338A5424EA094_EVALUATE_OFFSET UNITYSDK_OFFSET(0x103794D0)
-#define CLASS_3_943338A5424EA094__CTOR_OFFSET UNITYSDK_OFFSET(0x103794A0)
+#define CLASS_3_943338A5424EA094_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8BA6860)
+#define CLASS_3_943338A5424EA094__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA6830)
 
-inline static constexpr unsigned int Class_3_943338A5424EA094_TypeDefinitionIndex = 41951;
+inline static constexpr unsigned int Class_3_943338A5424EA094_TypeDefinitionIndex = 43000;
 
 class Class_3_943338A5424EA094 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByChimeraDuelIsMasterSelected*>
 {

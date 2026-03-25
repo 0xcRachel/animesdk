@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleDeactiveTag_TypeDefinitionIndex = 45167;
+	inline static constexpr unsigned int PuzzleDeactiveTag_TypeDefinitionIndex = 46228;
 
 	enum class PuzzleDeactiveTag : ::System::Byte
 	{

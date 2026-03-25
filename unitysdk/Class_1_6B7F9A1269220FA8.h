@@ -7,21 +7,21 @@ namespace RPG::Client { class AudiencePrefabSpecialTag_Blink; }
 namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6B7F9A1269220FA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10FEFA90)
-#define CLASS_1_6B7F9A1269220FA8_METHOD_1_2779D76E9C9FA4B9_OFFSET UNITYSDK_OFFSET(0x10FEF720)
-#define CLASS_1_6B7F9A1269220FA8_METHOD_1_5B2CAD1A0582F9BB_OFFSET UNITYSDK_OFFSET(0x10FEFAE0)
-#define CLASS_1_6B7F9A1269220FA8_METHOD_1_640514F2FC7A7607_OFFSET UNITYSDK_OFFSET(0x10FEF900)
-#define CLASS_1_6B7F9A1269220FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x10FEF690)
+#define CLASS_1_6B7F9A1269220FA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x111A1A40)
+#define CLASS_1_6B7F9A1269220FA8_METHOD_1_2779D76E9C9FA4B9_OFFSET UNITYSDK_OFFSET(0x111A15F0)
+#define CLASS_1_6B7F9A1269220FA8_METHOD_1_5B2CAD1A0582F9BB_OFFSET UNITYSDK_OFFSET(0x111A1A90)
+#define CLASS_1_6B7F9A1269220FA8_METHOD_1_EDBC885B6838D667_OFFSET UNITYSDK_OFFSET(0x111A17D0)
+#define CLASS_1_6B7F9A1269220FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x111A1560)
 
-inline static constexpr unsigned int Class_1_6B7F9A1269220FA8_TypeDefinitionIndex = 54935;
+inline static constexpr unsigned int Class_1_6B7F9A1269220FA8_TypeDefinitionIndex = 56497;
 
 class Class_1_6B7F9A1269220FA8 : public ::System::Object
 {
 public:
-	::RPG::Client::AudiencePrefabSpecialTag_Blink* Field_1_1; // 0x10
+	::Class_1_52DD9E5E2B969CDC* Field_1_0; // 0x10
 	::RPG::GameCore::CharacterAtlasFaceSet* Field_1_2; // 0x18
 	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x20
-	::Class_1_52DD9E5E2B969CDC* Field_1_0; // 0x28
+	::RPG::Client::AudiencePrefabSpecialTag_Blink* Field_1_1; // 0x28
 	::System::Single Field_1_5; // 0x30
 	::System::Single Field_1_4; // 0x34
 
@@ -45,8 +45,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6B7F9A1269220FA8_METHOD_1_5B2CAD1A0582F9BB_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_640514F2FC7A7607(::System::Int32 a1)
+	::System::Void Method_1_EDBC885B6838D667(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6B7F9A1269220FA8_METHOD_1_640514F2FC7A7607_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_6B7F9A1269220FA8_METHOD_1_EDBC885B6838D667_OFFSET))(this, a1);
 	}
 };

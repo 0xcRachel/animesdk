@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x9A38540)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x9A38590)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x9F0CB00)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x9F0CB50)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 59060;
+	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 60812;
 
 	class MonoParkourProjectile : public ::UnityEngine::MonoBehaviour
 	{

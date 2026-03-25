@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebugPaths_TypeDefinitionIndex = 28876;
+	inline static constexpr unsigned int SRDebugPaths_TypeDefinitionIndex = 29751;
 
 	class SRDebugPaths : public ::System::Object
 	{

@@ -4,13 +4,13 @@
 
 class AkCallbackManager_EventCallback;
 
-inline static constexpr unsigned int AkAudioInputManager___O_TypeDefinitionIndex = 33562;
+inline static constexpr unsigned int AkAudioInputManager___O_TypeDefinitionIndex = 34551;
 
 class AkAudioInputManager___O : public ::System::Object
 {
 public:
 	static ::AkCallbackManager_EventCallback** StaticGet__0___EventCallback()
 	{
-		return (::AkCallbackManager_EventCallback**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager___O_TypeDefinitionIndex)->GetStaticField(0x344C0);
+		return (::AkCallbackManager_EventCallback**)Il2CppClass::FromTypeDefinitionIndex(AkAudioInputManager___O_TypeDefinitionIndex)->GetStaticField(0x28540);
 	}
 };

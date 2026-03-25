@@ -11,27 +11,27 @@ namespace System::Linq::Expressions { class ExpressionVisitor; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x17D01860)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x17D01690)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x17D01770)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x17D01650)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_CONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x17D01640)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x17D01850)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x17D01630)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x17D01600)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x17D01890)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17D01590)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x18518D70)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x18518BA0)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x18518C80)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_ARGUMENTS_OFFSET UNITYSDK_OFFSET(0x18518B60)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_CONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x18518B50)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x18518D60)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x18518B40)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18518B10)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION_UPDATE_OFFSET UNITYSDK_OFFSET(0x18518DA0)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18518AA0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int NewExpression_TypeDefinitionIndex = 3242;
+	inline static constexpr unsigned int NewExpression_TypeDefinitionIndex = 3251;
 
 	class NewExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Reflection::ConstructorInfo* _Constructor_k__BackingField; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Reflection::MemberInfo*>* _Members_k__BackingField; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments; // 0x10
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Reflection::MemberInfo*>* _Members_k__BackingField; // 0x18
+		::System::Reflection::ConstructorInfo* _Constructor_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::Reflection::ConstructorInfo* constructor, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Reflection::MemberInfo*>* members)
 		{

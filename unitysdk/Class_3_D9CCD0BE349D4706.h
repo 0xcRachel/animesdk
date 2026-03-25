@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PinballPuzzleLaunch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D9CCD0BE349D4706_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B50A10)
-#define CLASS_3_D9CCD0BE349D4706__CTOR_OFFSET UNITYSDK_OFFSET(0x10B509E0)
+#define CLASS_3_D9CCD0BE349D4706_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BBBDE0)
+#define CLASS_3_D9CCD0BE349D4706__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBBDB0)
 
-inline static constexpr unsigned int Class_3_D9CCD0BE349D4706_TypeDefinitionIndex = 45927;
+inline static constexpr unsigned int Class_3_D9CCD0BE349D4706_TypeDefinitionIndex = 46995;
 
 class Class_3_D9CCD0BE349D4706 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PinballPuzzleLaunch*>
 {

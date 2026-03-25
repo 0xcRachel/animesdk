@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1131EE80)
+#define ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x11AA0330)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int GameObjectDestroyExtension_TypeDefinitionIndex = 9288;
+	inline static constexpr unsigned int GameObjectDestroyExtension_TypeDefinitionIndex = 9755;
 
 	class GameObjectDestroyExtension : public ::System::Object
 	{

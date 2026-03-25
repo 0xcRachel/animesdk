@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/AmbientOcclusioMethod.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_AMIBENTOCCLUSIOMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x163608A0)
+#define RPG_CUSTOMRP_AMIBENTOCCLUSIOMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6FF50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AmibentOcclusioMethodParameter_TypeDefinitionIndex = 28516;
+	inline static constexpr unsigned int AmibentOcclusioMethodParameter_TypeDefinitionIndex = 29391;
 
 	class AmibentOcclusioMethodParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::AmbientOcclusioMethod>
 	{

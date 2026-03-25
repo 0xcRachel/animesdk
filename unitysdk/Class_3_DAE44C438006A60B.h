@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ST_Task_1.h"
 
-class Class_2_6BFAFA494F2D1E4B;
+class Class_2_9D4DD2F4235F8658;
 namespace RPG::GameCore { class ST_Main_HangUpByLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DAE44C438006A60B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105C07C0)
-#define CLASS_3_DAE44C438006A60B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105C0850)
-#define CLASS_3_DAE44C438006A60B__CTOR_OFFSET UNITYSDK_OFFSET(0x105C0760)
+#define CLASS_3_DAE44C438006A60B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117E1430)
+#define CLASS_3_DAE44C438006A60B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x117E1510)
+#define CLASS_3_DAE44C438006A60B__CTOR_OFFSET UNITYSDK_OFFSET(0x117E13D0)
 
-inline static constexpr unsigned int Class_3_DAE44C438006A60B_TypeDefinitionIndex = 41193;
+inline static constexpr unsigned int Class_3_DAE44C438006A60B_TypeDefinitionIndex = 42236;
 
 class Class_3_DAE44C438006A60B : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_HangUpByLevel*>
 {
 public:
-	::Class_2_6BFAFA494F2D1E4B* Field_3_0; // 0x28
+	::Class_2_9D4DD2F4235F8658* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_HangUpByLevel* a2)
 	{

@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_813743369E0E31B2_3;
+class Class_1_813743369E0E31B2_2;
 namespace RPG::Client::NavMap::FiveDim { class CartographyFiveDim; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0EAC16EB5D95EF4C_1_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x91F1AE0)
-#define CLASS_1_0EAC16EB5D95EF4C_1_METHOD_1_4389275F4099DE36_OFFSET UNITYSDK_OFFSET(0x91F18E0)
-#define CLASS_1_0EAC16EB5D95EF4C_1_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x91F1A90)
-#define CLASS_1_0EAC16EB5D95EF4C_1_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0x91F1AF0)
-#define CLASS_1_0EAC16EB5D95EF4C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x91F1450)
+#define CLASS_1_0EAC16EB5D95EF4C_1_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDE3BD80)
+#define CLASS_1_0EAC16EB5D95EF4C_1_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xDE3BD30)
+#define CLASS_1_0EAC16EB5D95EF4C_1_METHOD_1_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0xDE3BBC0)
+#define CLASS_1_0EAC16EB5D95EF4C_1_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDE3BD90)
+#define CLASS_1_0EAC16EB5D95EF4C_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDE3B740)
 
-inline static constexpr unsigned int Class_1_0EAC16EB5D95EF4C_1_TypeDefinitionIndex = 59630;
+inline static constexpr unsigned int Class_1_0EAC16EB5D95EF4C_1_TypeDefinitionIndex = 61384;
 
 class Class_1_0EAC16EB5D95EF4C_1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_3*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_813743369E0E31B2_2*>* Field_1_1; // 0x10
 	::RPG::Client::NavMap::FiveDim::CartographyFiveDim* Field_1_2; // 0x18
 	::System::Int32 _Current_k__BackingField; // 0x20
 
@@ -26,9 +26,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::NavMap::FiveDim::CartographyFiveDim*))((::PBYTE)hIl2Cpp + CLASS_1_0EAC16EB5D95EF4C_1__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_4389275F4099DE36()
+	::System::Void Method_1_BBA49FAB086F388D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0EAC16EB5D95EF4C_1_METHOD_1_4389275F4099DE36_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0EAC16EB5D95EF4C_1_METHOD_1_BBA49FAB086F388D_OFFSET))(this);
 	}
 
 	::System::Int32 Method_1_95780ED94B90ED36()

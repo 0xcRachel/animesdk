@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERATEAMTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1699E7C0)
-#define RPG_GAMECORE_CHIMERATEAMTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1699E970)
+#define RPG_GAMECORE_CHIMERATEAMTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170C0910)
+#define RPG_GAMECORE_CHIMERATEAMTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170C0AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTeamTalkRow_TypeDefinitionIndex = 11815;
+	inline static constexpr unsigned int ChimeraTeamTalkRow_TypeDefinitionIndex = 11885;
 
 	class ChimeraTeamTalkRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID TalkContent; // 0x10
-		::System::UInt32 TalkID; // 0x20
-		::RPG::GameCore::ChimeraTeamTalkEffectType Effect; // 0x24
+		::RPG::GameCore::ChimeraTeamTalkEffectType Effect; // 0x10
+		::System::UInt32 TalkID; // 0x14
+		::RPG::Client::TextID TalkContent; // 0x18
 
 		::System::Void _ctor()
 		{

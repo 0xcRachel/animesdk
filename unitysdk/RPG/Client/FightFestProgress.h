@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_FIGHTFESTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x74250)
+#define RPG_CLIENT_FIGHTFESTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x72F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestProgress_TypeDefinitionIndex = 50976;
+	inline static constexpr unsigned int FightFestProgress_TypeDefinitionIndex = 52111;
 
 	struct alignas(4) FightFestProgress
 	{

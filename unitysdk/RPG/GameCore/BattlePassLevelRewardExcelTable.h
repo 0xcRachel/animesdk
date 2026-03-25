@@ -12,62 +12,62 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETBPOPTIONITEMIDS_OFFSET UNITYSDK_OFFSET(0x168DF750)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETBPPAIDREWARDIDS_OFFSET UNITYSDK_OFFSET(0x168DF180)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168DE770)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168DE5C0)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168DE290)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168DE560)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168DE940)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168DE310)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x168DF790)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168DE980)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168DEB60)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168DEE20)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168DF8A0)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168DEAC0)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168DEA20)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__SAFEGETVALUE_OFFSET UNITYSDK_OFFSET(0x168DF610)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x168DF1C0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETBPOPTIONITEMIDS_OFFSET UNITYSDK_OFFSET(0x16FF0510)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETBPPAIDREWARDIDS_OFFSET UNITYSDK_OFFSET(0x16FEFF40)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FEF530)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FEF380)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FEF050)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FEF320)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FEF700)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FEF0D0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16FF0550)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FEF740)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FEF920)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FEFBE0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FF0660)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FEF880)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FEF7E0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__SAFEGETVALUE_OFFSET UNITYSDK_OFFSET(0x16FF03D0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x16FEFF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassLevelRewardExcelTable_TypeDefinitionIndex = 11683;
+	inline static constexpr unsigned int BattlePassLevelRewardExcelTable_TypeDefinitionIndex = 11753;
 
 	class BattlePassLevelRewardExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet__TotalPaidRewardIDs()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x27270);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassLevelRewardRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassLevelRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x27278);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x27280);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1E030);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet__TotalOptionItemIDs()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet__TotalPaidRewardIDs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x27288);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1E038);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x27290);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1E040);
 		}
-		static ::System::Boolean* StaticGet__IsInitialized()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassLevelRewardRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x84B0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassLevelRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1E048);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>** StaticGet__TotalOptionItemIDs()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x84B1);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>**)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1E050);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x84B2);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0xA1B0);
+		}
+		static ::System::Boolean* StaticGet__IsInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0xA1B1);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(BattlePassLevelRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0xA1B2);
 		}
 
 		static ::System::Void _cctor()

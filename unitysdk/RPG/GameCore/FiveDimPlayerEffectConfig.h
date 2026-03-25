@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEffectItem; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_METHOD_2_924B91AF104B9E87_OFFSET UNITYSDK_OFFSET(0x16ACC8B0)
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16ACCE00)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_METHOD_2_924B91AF104B9E87_OFFSET UNITYSDK_OFFSET(0x17216A90)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17217040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 15016;
+	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 15269;
 
 	class FiveDimPlayerEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -23,11 +23,12 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* DirectionDissolveEffects; // 0x38
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* TeleportFadeOutEffects; // 0x40
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* TeleportFadeInEffects; // 0x48
-		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* AvatarDeadEffects; // 0x50
-		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* AvatarResetEffects; // 0x58
-		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* RunSmokeEffects; // 0x60
-		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* RunBrakeEffects; // 0x68
-		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MascotEffects; // 0x70
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* AvatarInvincibleEffects; // 0x50
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* AvatarDeadEffects; // 0x58
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* AvatarResetEffects; // 0x60
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* RunSmokeEffects; // 0x68
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* RunBrakeEffects; // 0x70
+		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MascotEffects; // 0x78
 
 		::System::Void _ctor()
 		{

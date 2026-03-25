@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOADINGIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16BD6F30)
-#define RPG_GAMECORE_LOADINGIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD7480)
+#define RPG_GAMECORE_LOADINGIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1737A9A0)
+#define RPG_GAMECORE_LOADINGIMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1737AEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingImageRow_TypeDefinitionIndex = 12704;
+	inline static constexpr unsigned int LoadingImageRow_TypeDefinitionIndex = 12775;
 
 	class LoadingImageRow : public ::System::Object
 	{

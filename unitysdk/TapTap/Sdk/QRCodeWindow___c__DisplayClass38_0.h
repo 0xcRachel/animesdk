@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace TapTap::Sdk { class QRCodeWindow; }
 
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS38_0__AUTOCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x17F70670)
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS38_0__AUTOCHECK_B__1_OFFSET UNITYSDK_OFFSET(0x17F70CE0)
-#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F70660)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS38_0__AUTOCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x18799BF0)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS38_0__AUTOCHECK_B__1_OFFSET UNITYSDK_OFFSET(0x1879A260)
+#define TAPTAP_SDK_QRCODEWINDOW___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18799BE0)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int QRCodeWindow___c__DisplayClass38_0_TypeDefinitionIndex = 6307;
+	inline static constexpr unsigned int QRCodeWindow___c__DisplayClass38_0_TypeDefinitionIndex = 6408;
 
 	class QRCodeWindow___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::TapTap::Sdk::QRCodeWindow* __4__this; // 0x10
-		::System::Boolean wait; // 0x18
-		::System::Boolean stop; // 0x19
+		::System::Boolean stop; // 0x18
+		::System::Boolean wait; // 0x19
 
 		::System::Void _ctor()
 		{

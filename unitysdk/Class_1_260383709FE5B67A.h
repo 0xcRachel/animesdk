@@ -8,11 +8,11 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEntitiesExclusionSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_260383709FE5B67A_METHOD_1_4C272737A3654756_OFFSET UNITYSDK_OFFSET(0x854F8E0)
-#define CLASS_1_260383709FE5B67A_METHOD_1_4F5F426383CC91C3_OFFSET UNITYSDK_OFFSET(0x854F830)
-#define CLASS_1_260383709FE5B67A__CTOR_OFFSET UNITYSDK_OFFSET(0x854FB50)
+#define CLASS_1_260383709FE5B67A_METHOD_1_4C272737A3654756_OFFSET UNITYSDK_OFFSET(0x10A15210)
+#define CLASS_1_260383709FE5B67A_METHOD_1_4F5F426383CC91C3_OFFSET UNITYSDK_OFFSET(0x10A15160)
+#define CLASS_1_260383709FE5B67A__CTOR_OFFSET UNITYSDK_OFFSET(0x10A15480)
 
-inline static constexpr unsigned int Class_1_260383709FE5B67A_TypeDefinitionIndex = 61064;
+inline static constexpr unsigned int Class_1_260383709FE5B67A_TypeDefinitionIndex = 63063;
 
 class Class_1_260383709FE5B67A : public ::System::Object
 {

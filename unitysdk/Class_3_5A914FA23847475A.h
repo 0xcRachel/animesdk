@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_3_5A914FA23847475A_METHOD_3_92AC418AB3CED05A_OFFSET UNITYSDK_OFFSET(0x166BDB80)
-#define CLASS_3_5A914FA23847475A_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x166BDB00)
-#define CLASS_3_5A914FA23847475A__CTOR_OFFSET UNITYSDK_OFFSET(0x166BDB50)
+#define CLASS_3_5A914FA23847475A_METHOD_3_92AC418AB3CED05A_OFFSET UNITYSDK_OFFSET(0x16BC2F30)
+#define CLASS_3_5A914FA23847475A_METHOD_3_C6C799B3DFBE236B_OFFSET UNITYSDK_OFFSET(0x16BC2EB0)
+#define CLASS_3_5A914FA23847475A__CTOR_OFFSET UNITYSDK_OFFSET(0x16BC2F00)
 
-inline static constexpr unsigned int Class_3_5A914FA23847475A_TypeDefinitionIndex = 18797;
+inline static constexpr unsigned int Class_3_5A914FA23847475A_TypeDefinitionIndex = 19319;
 
 class Class_3_5A914FA23847475A : public ::RPG::GameCore::TaskConfig
 {
 public:
 	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_0; // 0x18
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_1; // 0x20
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_2; // 0x28
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_2; // 0x20
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_3_1; // 0x28
 
 	::System::Void _ctor()
 	{

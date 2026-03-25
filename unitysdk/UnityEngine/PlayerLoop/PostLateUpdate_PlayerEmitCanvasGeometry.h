@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_PlayerEmitCanvasGeometry_TypeDefinitionIndex = 4432;
+	inline static constexpr unsigned int PostLateUpdate_PlayerEmitCanvasGeometry_TypeDefinitionIndex = 4454;
 
 	struct alignas(1) PostLateUpdate_PlayerEmitCanvasGeometry
 	{

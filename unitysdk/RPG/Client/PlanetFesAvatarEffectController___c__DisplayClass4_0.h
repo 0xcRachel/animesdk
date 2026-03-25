@@ -5,12 +5,12 @@
 namespace RPG::Client { class PlanetFesAvatarEffect; }
 namespace RPG::Client { class PlanetFesAvatarEffectController; }
 
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9ABA270)
-#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__SHOWAVATARGENBUFFEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9ABA930)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F8E090)
+#define RPG_CLIENT_PLANETFESAVATAREFFECTCONTROLLER___C__DISPLAYCLASS4_0__SHOWAVATARGENBUFFEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9F8E750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarEffectController___c__DisplayClass4_0_TypeDefinitionIndex = 52933;
+	inline static constexpr unsigned int PlanetFesAvatarEffectController___c__DisplayClass4_0_TypeDefinitionIndex = 54071;
 
 	class PlanetFesAvatarEffectController___c__DisplayClass4_0 : public ::System::Object
 	{

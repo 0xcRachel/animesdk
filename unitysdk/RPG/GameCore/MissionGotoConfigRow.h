@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MISSIONGOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CAF060)
-#define RPG_GAMECORE_MISSIONGOTOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CAF680)
+#define RPG_GAMECORE_MISSIONGOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17435B60)
+#define RPG_GAMECORE_MISSIONGOTOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17436110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionGotoConfigRow_TypeDefinitionIndex = 12885;
+	inline static constexpr unsigned int MissionGotoConfigRow_TypeDefinitionIndex = 12956;
 
 	class MissionGotoConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 GotoID; // 0x10
-		::RPG::Client::TextID Desc; // 0x18
+		::RPG::Client::TextID Desc; // 0x10
+		::System::UInt32 GotoID; // 0x20
 
 		::System::Void _ctor()
 		{

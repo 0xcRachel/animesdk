@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CONVINCEANCHORCONFIG_ANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8FD6BE0)
+#define RPG_CLIENT_CONVINCEANCHORCONFIG_ANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x94323A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceAnchorConfig_AnchorData_TypeDefinitionIndex = 48065;
+	inline static constexpr unsigned int ConvinceAnchorConfig_AnchorData_TypeDefinitionIndex = 49153;
 
 	class ConvinceAnchorConfig_AnchorData : public ::System::Object
 	{

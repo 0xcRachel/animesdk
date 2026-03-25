@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefHttpRspBody_1_TypeDefinitionIndex = 51458;
+	inline static constexpr unsigned int GridFightGameRefHttpRspBody_1_TypeDefinitionIndex = 52591;
 
 	template <typename T>
 	class GridFightGameRefHttpRspBody_1 : public ::System::Object

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_GETCURRENTMETHODRID_OFFSET UNITYSDK_OFFSET(0x154603F0)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_UNLIKELY_OFFSET UNITYSDK_OFFSET(0x154603E0)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_GETCURRENTMETHODRID_OFFSET UNITYSDK_OFFSET(0x15B7A110)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_UNLIKELY_OFFSET UNITYSDK_OFFSET(0x15B7A100)
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppIntrinsics_TypeDefinitionIndex = 9337;
+	inline static constexpr unsigned int Il2CppIntrinsics_TypeDefinitionIndex = 9804;
 
 	class Il2CppIntrinsics : public ::System::Object
 	{

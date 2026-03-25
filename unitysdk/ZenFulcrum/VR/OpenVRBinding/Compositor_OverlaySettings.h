@@ -5,7 +5,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int Compositor_OverlaySettings_TypeDefinitionIndex = 29475;
+	inline static constexpr unsigned int Compositor_OverlaySettings_TypeDefinitionIndex = 30350;
 
 	struct alignas(4) Compositor_OverlaySettings
 	{

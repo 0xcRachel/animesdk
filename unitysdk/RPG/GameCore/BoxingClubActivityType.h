@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubActivityType_TypeDefinitionIndex = 11712;
+	inline static constexpr unsigned int BoxingClubActivityType_TypeDefinitionIndex = 11782;
 
 	enum class BoxingClubActivityType : ::System::Int32
 	{

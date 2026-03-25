@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYDYNAMICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17103940)
-#define RPG_GAMECORE_TRAINPARTYDYNAMICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17103BB0)
+#define RPG_GAMECORE_TRAINPARTYDYNAMICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178BF920)
+#define RPG_GAMECORE_TRAINPARTYDYNAMICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178BFB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyDynamicConfigRow_TypeDefinitionIndex = 13963;
+	inline static constexpr unsigned int TrainPartyDynamicConfigRow_TypeDefinitionIndex = 14079;
 
 	class TrainPartyDynamicConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* PrefabPath; // 0x10
-		::Il2CppArray<::System::UInt32>* Taglist; // 0x18
-		::System::String* IconPath; // 0x20
-		::System::UInt32 IsActivity; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::System::Boolean UseLowLight; // 0x30
+		::Il2CppArray<::System::UInt32>* Taglist; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* PrefabPath; // 0x20
+		::System::Boolean UseLowLight; // 0x28
+		::System::UInt32 IsActivity; // 0x2C
+		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()
 		{

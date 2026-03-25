@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MENUITEMNAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C7DEB0)
-#define RPG_GAMECORE_MENUITEMNAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C7E030)
+#define RPG_GAMECORE_MENUITEMNAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173E37A0)
+#define RPG_GAMECORE_MENUITEMNAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173E3920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MenuItemNameRow_TypeDefinitionIndex = 11907;
+	inline static constexpr unsigned int MenuItemNameRow_TypeDefinitionIndex = 11977;
 
 	class MenuItemNameRow : public ::System::Object
 	{

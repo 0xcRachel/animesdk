@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/GridFightTalentType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTTALENTUPDATENOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x9406000)
+#define RPG_CLIENT_GRIDFIGHTTALENTUPDATENOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x98C3910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTalentUpdateNotify_TypeDefinitionIndex = 51862;
+	inline static constexpr unsigned int GridFightTalentUpdateNotify_TypeDefinitionIndex = 52996;
 
 	class GridFightTalentUpdateNotify : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::RPG::Client::GridFightTalentType TalentType; // 0x14
+		::RPG::Client::GridFightTalentType TalentType; // 0x10
+		::System::UInt32 UnlockID; // 0x14
 
 		::System::Void _ctor()
 		{

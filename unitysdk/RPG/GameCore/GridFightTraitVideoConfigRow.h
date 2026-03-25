@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITVIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4F8A0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITVIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4FA60)
+#define RPG_GAMECORE_GRIDFIGHTTRAITVIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729DFA0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITVIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729E160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitVideoConfigRow_TypeDefinitionIndex = 12468;
+	inline static constexpr unsigned int GridFightTraitVideoConfigRow_TypeDefinitionIndex = 12538;
 
 	class GridFightTraitVideoConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Description; // 0x10
-		::System::UInt32 VideoID; // 0x20
-		::System::UInt32 TraitID; // 0x24
+		::System::UInt32 TraitID; // 0x10
+		::System::UInt32 VideoID; // 0x14
+		::RPG::Client::TextID Description; // 0x18
 
 		::System::Void _ctor()
 		{

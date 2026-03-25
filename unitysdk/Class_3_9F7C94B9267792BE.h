@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class InterruptSkillExecution; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9F7C94B9267792BE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C7E9C0)
-#define CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C7EA50)
-#define CLASS_3_9F7C94B9267792BE__CTOR_OFFSET UNITYSDK_OFFSET(0x10C7E8B0)
-#define CLASS_3_9F7C94B9267792BE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C7EB10)
+#define CLASS_3_9F7C94B9267792BE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x111049A0)
+#define CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11104A30)
+#define CLASS_3_9F7C94B9267792BE__CTOR_OFFSET UNITYSDK_OFFSET(0x11104890)
+#define CLASS_3_9F7C94B9267792BE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11104AE0)
 
-inline static constexpr unsigned int Class_3_9F7C94B9267792BE_TypeDefinitionIndex = 43070;
+inline static constexpr unsigned int Class_3_9F7C94B9267792BE_TypeDefinitionIndex = 44121;
 
 class Class_3_9F7C94B9267792BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InterruptSkillExecution*>
 {
 public:
-	::Class_3_BCCE950C2E8DF1F0* Field_3_1; // 0x28
-	::Class_3_BCCE950C2E8DF1F0* Field_3_0; // 0x30
+	::Class_3_5775A4FEC79026BC* Field_3_0; // 0x28
+	::Class_3_5775A4FEC79026BC* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InterruptSkillExecution* a2)
 	{

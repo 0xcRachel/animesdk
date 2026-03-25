@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define LOCALFOGSPHEREINSTANCE_EXTRAEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11016640)
+#define LOCALFOGSPHEREINSTANCE_EXTRAEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x11904AB0)
 
-inline static constexpr unsigned int LocalFogSphereInstance_ExtraExportData_TypeDefinitionIndex = 37370;
+inline static constexpr unsigned int LocalFogSphereInstance_ExtraExportData_TypeDefinitionIndex = 38334;
 
 class LocalFogSphereInstance_ExtraExportData : public ::System::Object
 {

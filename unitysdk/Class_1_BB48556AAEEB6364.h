@@ -6,20 +6,20 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_163BC896CFB0B295_OFFSET UNITYSDK_OFFSET(0xA16F6F0)
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0xA16F400)
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0xA16F340)
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_B81D1D7769661C60_OFFSET UNITYSDK_OFFSET(0xA16F5F0)
-#define CLASS_1_BB48556AAEEB6364__CCTOR_OFFSET UNITYSDK_OFFSET(0xA16F880)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_163BC896CFB0B295_OFFSET UNITYSDK_OFFSET(0xEA7AAB0)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0xEA7A7C0)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0xEA7A700)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_B81D1D7769661C60_OFFSET UNITYSDK_OFFSET(0xEA7A9B0)
+#define CLASS_1_BB48556AAEEB6364__CCTOR_OFFSET UNITYSDK_OFFSET(0xEA7AC40)
 
-inline static constexpr unsigned int Class_1_BB48556AAEEB6364_TypeDefinitionIndex = 50977;
+inline static constexpr unsigned int Class_1_BB48556AAEEB6364_TypeDefinitionIndex = 52112;
 
 class Class_1_BB48556AAEEB6364 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_15, ::RPG::GameCore::ActivityRank>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_15, ::RPG::GameCore::ActivityRank>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BB48556AAEEB6364_TypeDefinitionIndex)->GetStaticField(0x45680);
+		return (::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_15, ::RPG::GameCore::ActivityRank>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BB48556AAEEB6364_TypeDefinitionIndex)->GetStaticField(0x49C0);
 	}
 
 	static ::System::Void _cctor()

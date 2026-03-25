@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_CANVASHIERARCHYDIMBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x8E5F180)
+#define RPG_CLIENT_CANVASHIERARCHYDIMBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9268F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CanvasHierarchyDimBlock_TypeDefinitionIndex = 54750;
+	inline static constexpr unsigned int CanvasHierarchyDimBlock_TypeDefinitionIndex = 56310;
 
 	class CanvasHierarchyDimBlock : public ::UnityEngine::MonoBehaviour
 	{

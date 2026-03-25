@@ -8,12 +8,12 @@ namespace MiHoYo::SDK::Win { class GooglePCManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159E9CC0)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x159EC9D0)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160B5C80)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS21_0__GETPRODUCTLIST_B__0_OFFSET UNITYSDK_OFFSET(0x160B88F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass21_0_TypeDefinitionIndex = 7821;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass21_0_TypeDefinitionIndex = 7946;
 
 	class GooglePCManager___c__DisplayClass21_0 : public ::System::Object
 	{

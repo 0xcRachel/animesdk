@@ -5,11 +5,11 @@
 
 namespace System { class Object; }
 
-#define RPG_GAMECORE_AVATARROWWRAPPEREXTRAPARAM_CREATEGRIDFIGHTDEFAULTPARAM_OFFSET UNITYSDK_OFFSET(0x168B2880)
+#define RPG_GAMECORE_AVATARROWWRAPPEREXTRAPARAM_CREATEGRIDFIGHTDEFAULTPARAM_OFFSET UNITYSDK_OFFSET(0x16FC03C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarRowWrapperExtraParam_TypeDefinitionIndex = 22080;
+	inline static constexpr unsigned int AvatarRowWrapperExtraParam_TypeDefinitionIndex = 22645;
 
 	struct alignas(8) AvatarRowWrapperExtraParam
 	{

@@ -7,18 +7,18 @@ namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17D72FB0)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x185A2D80)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2065;
+	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2070;
 
 	class NfaContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:
 		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x18
-		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x20
-		::System::Xml::Schema::Positions* positions; // 0x28
+		::System::Xml::Schema::Positions* positions; // 0x20
+		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x28
 		::System::Xml::Schema::BitSet* firstpos; // 0x30
 		::System::Int32 endMarkerPos; // 0x38
 

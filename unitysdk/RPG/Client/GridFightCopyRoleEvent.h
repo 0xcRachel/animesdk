@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTCOPYROLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x933D330)
+#define RPG_CLIENT_GRIDFIGHTCOPYROLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x97FB6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightCopyRoleEvent_TypeDefinitionIndex = 51794;
+	inline static constexpr unsigned int GridFightCopyRoleEvent_TypeDefinitionIndex = 52928;
 
 	class GridFightCopyRoleEvent : public ::System::Object
 	{

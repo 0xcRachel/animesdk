@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimGameInstance_CreateLevelPhase_TypeDefinitionIndex = 47819;
+	inline static constexpr unsigned int FiveDimGameInstance_CreateLevelPhase_TypeDefinitionIndex = 48900;
 
 	enum class FiveDimGameInstance_CreateLevelPhase : ::System::Int32
 	{

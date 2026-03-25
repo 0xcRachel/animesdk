@@ -7,11 +7,11 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_PROPSELECTIONMATERIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9D1F9C0)
+#define RPG_CLIENT_PROPSELECTIONMATERIALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA240F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropSelectionMaterialConfig_TypeDefinitionIndex = 47714;
+	inline static constexpr unsigned int PropSelectionMaterialConfig_TypeDefinitionIndex = 48795;
 
 	class PropSelectionMaterialConfig : public ::System::Object
 	{

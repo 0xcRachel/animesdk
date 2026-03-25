@@ -9,73 +9,73 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x980D1D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x980D410)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_775B6D644F07B554_OFFSET UNITYSDK_OFFSET(0x980D120)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x980C6D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x980D190)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_D9EF75A2D048B8A1_OFFSET UNITYSDK_OFFSET(0x980CA20)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_DAEB67F34AF80609_OFFSET UNITYSDK_OFFSET(0x980C9A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_DDA8A2337932DF10_OFFSET UNITYSDK_OFFSET(0x980C720)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x980D490)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x980D400)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE__CCTOR_OFFSET UNITYSDK_OFFSET(0x980D2F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE__CTOR_OFFSET UNITYSDK_OFFSET(0x980D2A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0x9CEF7D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x9CEFA10)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_775B6D644F07B554_OFFSET UNITYSDK_OFFSET(0x9CEF720)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x9CEECD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9CEF790)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_D9EF75A2D048B8A1_OFFSET UNITYSDK_OFFSET(0x9CEF020)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_DAEB67F34AF80609_OFFSET UNITYSDK_OFFSET(0x9CEEFA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_DDA8A2337932DF10_OFFSET UNITYSDK_OFFSET(0x9CEED20)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_F4ADC37B63F4E9EF_OFFSET UNITYSDK_OFFSET(0x9CEFA90)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE_METHOD_8_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x9CEFA00)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CEF8F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINVERTEXCOLLAPSE__CTOR_OFFSET UNITYSDK_OFFSET(0x9CEF8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginVertexCollapse_TypeDefinitionIndex = 55726;
+	inline static constexpr unsigned int MonoEffectPluginVertexCollapse_TypeDefinitionIndex = 57291;
 
 	class MonoEffectPluginVertexCollapse : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_8_28()
+		static ::System::Int32* StaticGet_Field_8_27()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE660);
-		}
-		static ::System::Int32* StaticGet_Field_8_19()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE664);
-		}
-		static ::System::Int32* StaticGet_Field_8_20()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE668);
-		}
-		static ::System::Int32* StaticGet_Field_8_22()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE66C);
-		}
-		static ::System::Int32* StaticGet_Field_8_26()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE670);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF830);
 		}
 		static ::System::Int32* StaticGet_Field_8_25()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE674);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF834);
 		}
-		static ::System::Int32* StaticGet_Field_8_24()
+		static ::System::Int32* StaticGet_Field_8_28()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE678);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF838);
 		}
-		static ::System::Int32* StaticGet_Field_8_17()
+		static ::System::Int32* StaticGet_Field_8_20()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE67C);
-		}
-		static ::System::Int32* StaticGet_Field_8_27()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE680);
-		}
-		static ::System::Int32* StaticGet_Field_8_21()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE684);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF83C);
 		}
 		static ::System::Int32* StaticGet_Field_8_18()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE688);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF840);
+		}
+		static ::System::Int32* StaticGet_Field_8_22()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF844);
+		}
+		static ::System::Int32* StaticGet_Field_8_19()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF848);
+		}
+		static ::System::Int32* StaticGet_Field_8_17()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF84C);
+		}
+		static ::System::Int32* StaticGet_Field_8_21()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF850);
+		}
+		static ::System::Int32* StaticGet_Field_8_26()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF854);
+		}
+		static ::System::Int32* StaticGet_Field_8_24()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF858);
 		}
 		static ::System::Int32* StaticGet_Field_8_23()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xE68C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginVertexCollapse_TypeDefinitionIndex)->GetStaticField(0xF85C);
 		}
 		::UnityEngine::Color Color; // 0x168
 		::UnityEngine::Texture2D* ColorRamp; // 0x178

@@ -2,49 +2,62 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class ChimeraEndlessWorkRoundRow; }
+namespace RPG::GameCore { class ChenLingEnchantLevelRow; }
 
-#define CLASS_1_1B7044A592B17773_1_GET_ROUNDID_OFFSET UNITYSDK_OFFSET(0x109B0130)
-#define CLASS_1_1B7044A592B17773_1_METHOD_1_5135E99239DDCA8C_OFFSET UNITYSDK_OFFSET(0x109B0150)
-#define CLASS_1_1B7044A592B17773_1_METHOD_1_86627C0462DD34E7_OFFSET UNITYSDK_OFFSET(0x109B01F0)
-#define CLASS_1_1B7044A592B17773_1_METHOD_1_B8FF86B5386F944C_OFFSET UNITYSDK_OFFSET(0x109B00C0)
-#define CLASS_1_1B7044A592B17773_1_SET_ROUNDID_OFFSET UNITYSDK_OFFSET(0x109B0140)
-#define CLASS_1_1B7044A592B17773_1__CTOR_OFFSET UNITYSDK_OFFSET(0x109B0120)
+#define CLASS_1_1B7044A592B17773_1_GET_ENCHANTID_OFFSET UNITYSDK_OFFSET(0x8CCD2E0)
+#define CLASS_1_1B7044A592B17773_1_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x8CCD300)
+#define CLASS_1_1B7044A592B17773_1_METHOD_1_B488B746B35B6CBB_OFFSET UNITYSDK_OFFSET(0x8CCD320)
+#define CLASS_1_1B7044A592B17773_1_METHOD_1_E2ACF3FF064F9810_1_OFFSET UNITYSDK_OFFSET(0x8CCD410)
+#define CLASS_1_1B7044A592B17773_1_METHOD_1_E2ACF3FF064F9810_OFFSET UNITYSDK_OFFSET(0x8CCD390)
+#define CLASS_1_1B7044A592B17773_1_SET_ENCHANTID_OFFSET UNITYSDK_OFFSET(0x8CCD2F0)
+#define CLASS_1_1B7044A592B17773_1_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x8CCD310)
+#define CLASS_1_1B7044A592B17773_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8CCD2C0)
 
-inline static constexpr unsigned int Class_1_1B7044A592B17773_1_TypeDefinitionIndex = 50357;
+inline static constexpr unsigned int Class_1_1B7044A592B17773_1_TypeDefinitionIndex = 49834;
 
 class Class_1_1B7044A592B17773_1 : public ::System::Object
 {
 public:
-	::System::UInt32 _RoundID_k__BackingField; // 0x10
+	::System::UInt32 _EnchantID_k__BackingField; // 0x10
+	::System::UInt32 _Level_k__BackingField; // 0x14
 
-	::System::Void _ctor()
+	::System::Void _ctor(::RPG::GameCore::ChenLingEnchantLevelRow* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingEnchantLevelRow*))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1__CTOR_OFFSET))(this, a1);
 	}
 
-	static ::Class_1_1B7044A592B17773_1* Method_1_B8FF86B5386F944C(::System::UInt32 a1)
+	::System::UInt32 get_EnchantID()
 	{
-		return ((::Class_1_1B7044A592B17773_1*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_METHOD_1_B8FF86B5386F944C_OFFSET))(a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_GET_ENCHANTID_OFFSET))(this);
 	}
 
-	::System::UInt32 get_RoundID()
+	::System::Void set_EnchantID(::System::UInt32 value)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_GET_ROUNDID_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_SET_ENCHANTID_OFFSET))(this, value);
 	}
 
-	::System::Void set_RoundID(::System::UInt32 value)
+	::System::UInt32 get_Level()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_SET_ROUNDID_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_GET_LEVEL_OFFSET))(this);
 	}
 
-	::Il2CppArray<::System::UInt32>* Method_1_5135E99239DDCA8C()
+	::System::Void set_Level(::System::UInt32 value)
 	{
-		return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_METHOD_1_5135E99239DDCA8C_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_SET_LEVEL_OFFSET))(this, value);
 	}
 
-	::RPG::GameCore::ChimeraEndlessWorkRoundRow* Method_1_86627C0462DD34E7()
+	::RPG::GameCore::ChenLingEnchantLevelRow* Method_1_B488B746B35B6CBB()
 	{
-		return ((::RPG::GameCore::ChimeraEndlessWorkRoundRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_METHOD_1_86627C0462DD34E7_OFFSET))(this);
+		return ((::RPG::GameCore::ChenLingEnchantLevelRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_METHOD_1_B488B746B35B6CBB_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_E2ACF3FF064F9810()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_METHOD_1_E2ACF3FF064F9810_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_E2ACF3FF064F9810_1()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_1_METHOD_1_E2ACF3FF064F9810_1_OFFSET))(this);
 	}
 };

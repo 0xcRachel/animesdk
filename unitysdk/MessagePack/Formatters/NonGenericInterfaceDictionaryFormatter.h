@@ -8,21 +8,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections { class IDictionary; }
 
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15632FA0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15632A90)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15633450)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15632A80)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D49960)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D49420)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D49E10)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACEDICTIONARYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D49410)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex = 9701;
+	inline static constexpr unsigned int NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex = 9259;
 
 	class NonGenericInterfaceDictionaryFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IDictionary*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IDictionary*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex)->GetStaticField(0x23F20);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::IDictionary*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceDictionaryFormatter_TypeDefinitionIndex)->GetStaticField(0x19640);
 		}
 
 		::System::Void _ctor()

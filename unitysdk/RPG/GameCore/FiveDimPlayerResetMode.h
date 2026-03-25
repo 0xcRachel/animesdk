@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerResetMode_TypeDefinitionIndex = 16632;
+	inline static constexpr unsigned int FiveDimPlayerResetMode_TypeDefinitionIndex = 17006;
 
 	enum class FiveDimPlayerResetMode : ::System::Int32
 	{

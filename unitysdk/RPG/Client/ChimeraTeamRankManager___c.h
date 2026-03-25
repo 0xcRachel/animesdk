@@ -5,29 +5,29 @@
 namespace RPG::Client { class ChimeraTeamData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F42C90)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F42CC0)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__GET_PLAYERFINISHWORKCNT_B__19_0_OFFSET UNITYSDK_OFFSET(0x8F42CF0)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__SYNCPLAYERFINISHWORKCNT_B__5_0_OFFSET UNITYSDK_OFFSET(0x8F42CD0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93E4850)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93E4880)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__GET_PLAYERFINISHWORKCNT_B__19_0_OFFSET UNITYSDK_OFFSET(0x93E48B0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__SYNCPLAYERFINISHWORKCNT_B__5_0_OFFSET UNITYSDK_OFFSET(0x93E4890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c_TypeDefinitionIndex = 50373;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c_TypeDefinitionIndex = 51508;
 
 	class ChimeraTeamRankManager___c : public ::System::Object
 	{
 	public:
+		static ::System::Predicate_1<::RPG::Client::ChimeraTeamData*>** StaticGet___9__19_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTeamRankManager___c_TypeDefinitionIndex)->GetStaticField(0x46C70);
+		}
 		static ::System::Predicate_1<::RPG::Client::ChimeraTeamData*>** StaticGet___9__5_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTeamRankManager___c_TypeDefinitionIndex)->GetStaticField(0x42680);
+			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTeamRankManager___c_TypeDefinitionIndex)->GetStaticField(0x46C78);
 		}
 		static ::RPG::Client::ChimeraTeamRankManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraTeamRankManager___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTeamRankManager___c_TypeDefinitionIndex)->GetStaticField(0x42688);
-		}
-		static ::System::Predicate_1<::RPG::Client::ChimeraTeamData*>** StaticGet___9__19_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTeamRankManager___c_TypeDefinitionIndex)->GetStaticField(0x42690);
+			return (::RPG::Client::ChimeraTeamRankManager___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTeamRankManager___c_TypeDefinitionIndex)->GetStaticField(0x46C80);
 		}
 
 		static ::System::Void _cctor()

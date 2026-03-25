@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PARTICLESYSTEMPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8A86570)
+#define PARTICLESYSTEMPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x8EC7AA0)
 
-inline static constexpr unsigned int ParticleSystemPanel_TypeDefinitionIndex = 37221;
+inline static constexpr unsigned int ParticleSystemPanel_TypeDefinitionIndex = 38185;
 
 class ParticleSystemPanel : public ::UnityEngine::MonoBehaviour
 {

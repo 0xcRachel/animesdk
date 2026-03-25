@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI_BaseWallCustomData.h"
 
-#define IRI_CURVEWALLCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10ADAE20)
+#define IRI_CURVEWALLCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x111F05E0)
 
-inline static constexpr unsigned int IRI_CurveWallCustomData_TypeDefinitionIndex = 37120;
+inline static constexpr unsigned int IRI_CurveWallCustomData_TypeDefinitionIndex = 38083;
 
 class IRI_CurveWallCustomData : public ::IRI_BaseWallCustomData
 {

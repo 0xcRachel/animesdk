@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_90004CE4E42993BC_OFFSET UNITYSDK_OFFSET(0x16F62830)
-#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_D47EFD32632604FE_OFFSET UNITYSDK_OFFSET(0x16F627B0)
-#define RPG_GAMECORE_SHOWSKILLCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x16F62800)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_60847421BF38722E_OFFSET UNITYSDK_OFFSET(0x17717D70)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_EB89798D293D6F73_OFFSET UNITYSDK_OFFSET(0x17717CF0)
+#define RPG_GAMECORE_SHOWSKILLCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17717D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 20607;
+	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 21157;
 
 	class ShowSkillCutIn : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,14 +31,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D47EFD32632604FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn*& a2)
+		static ::System::Void Method_3_EB89798D293D6F73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillCutIn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_D47EFD32632604FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillCutIn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_EB89798D293D6F73_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_90004CE4E42993BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn* a2)
+		static ::System::Void Method_3_60847421BF38722E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillCutIn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_90004CE4E42993BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillCutIn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_60847421BF38722E_OFFSET))(a1, a2);
 		}
 	};
 }

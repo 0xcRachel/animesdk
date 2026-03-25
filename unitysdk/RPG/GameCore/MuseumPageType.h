@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumPageType_TypeDefinitionIndex = 18707;
+	inline static constexpr unsigned int MuseumPageType_TypeDefinitionIndex = 19229;
 
 	enum class MuseumPageType : ::System::Int32
 	{

@@ -5,24 +5,24 @@
 class Class_1_352A8B3482C80E7D_9;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDBOSSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B18C00)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDBOSSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9B18C40)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDBOSSDATA___C___SYNCLINEUP_B__49_0_OFFSET UNITYSDK_OFFSET(0x9B18C50)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDBOSSDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9FEC4D0)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDBOSSDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9FEC510)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDBOSSDATA___C___SYNCLINEUP_B__49_0_OFFSET UNITYSDK_OFFSET(0x9FEC520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex = 51045;
+	inline static constexpr unsigned int PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex = 52180;
 
 	class PlayerChallengePeakRecordBossData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_352A8B3482C80E7D_9*>** StaticGet___9__49_0()
-		{
-			return (::System::Comparison_1<::Class_1_352A8B3482C80E7D_9*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex)->GetStaticField(0x46690);
-		}
 		static ::RPG::Client::PlayerChallengePeakRecordBossData___c** StaticGet___9()
 		{
-			return (::RPG::Client::PlayerChallengePeakRecordBossData___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex)->GetStaticField(0x46698);
+			return (::RPG::Client::PlayerChallengePeakRecordBossData___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex)->GetStaticField(0x43820);
+		}
+		static ::System::Comparison_1<::Class_1_352A8B3482C80E7D_9*>** StaticGet___9__49_0()
+		{
+			return (::System::Comparison_1<::Class_1_352A8B3482C80E7D_9*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerChallengePeakRecordBossData___c_TypeDefinitionIndex)->GetStaticField(0x43828);
 		}
 
 		static ::System::Void _cctor()

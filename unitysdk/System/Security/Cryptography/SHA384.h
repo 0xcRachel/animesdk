@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CREATE_OFFSET UNITYSDK_OFFSET(0x15B298D0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384__CTOR_OFFSET UNITYSDK_OFFSET(0x15B298C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CREATE_OFFSET UNITYSDK_OFFSET(0x161F3430)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384__CTOR_OFFSET UNITYSDK_OFFSET(0x161F3420)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int SHA384_TypeDefinitionIndex = 1044;
+	inline static constexpr unsigned int SHA384_TypeDefinitionIndex = 1049;
 
 	class SHA384 : public ::System::Security::Cryptography::HashAlgorithm
 	{

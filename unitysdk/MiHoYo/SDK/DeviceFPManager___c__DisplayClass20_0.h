@@ -7,20 +7,20 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_DEVICEFPMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x818A3E0)
-#define MIHOYO_SDK_DEVICEFPMANAGER___C__DISPLAYCLASS20_0__REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x818CAE0)
-#define MIHOYO_SDK_DEVICEFPMANAGER___C__DISPLAYCLASS20_0__REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x818D4B0)
+#define MIHOYO_SDK_DEVICEFPMANAGER___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x84DE0A0)
+#define MIHOYO_SDK_DEVICEFPMANAGER___C__DISPLAYCLASS20_0__REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x84E0760)
+#define MIHOYO_SDK_DEVICEFPMANAGER___C__DISPLAYCLASS20_0__REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x84E1130)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceFPManager___c__DisplayClass20_0_TypeDefinitionIndex = 36103;
+	inline static constexpr unsigned int DeviceFPManager___c__DisplayClass20_0_TypeDefinitionIndex = 37039;
 
 	class DeviceFPManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::DeviceFPManager* __4__this; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetDeviceFP; // 0x20
+		::MiHoYo::SDK::DeviceFPManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnGetDeviceFP; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x20
 
 		::System::Void _ctor()
 		{

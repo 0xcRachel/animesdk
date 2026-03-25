@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchBossHeadEffType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5629EB978387B245_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BA61D0)
-#define CLASS_3_5629EB978387B245__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA61A0)
+#define CLASS_3_5629EB978387B245_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1164A000)
+#define CLASS_3_5629EB978387B245__CTOR_OFFSET UNITYSDK_OFFSET(0x11649FD0)
 
-inline static constexpr unsigned int Class_3_5629EB978387B245_TypeDefinitionIndex = 43541;
+inline static constexpr unsigned int Class_3_5629EB978387B245_TypeDefinitionIndex = 44597;
 
 class Class_3_5629EB978387B245 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchBossHeadEffType*>
 {

@@ -5,7 +5,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollector_1_TypeDefinitionIndex = 6287;
+	inline static constexpr unsigned int ReferencePool_AutoReleaseReferenceObjectCollector_1_TypeDefinitionIndex = 6387;
 
 	template <typename T>
 	class ReferencePool_AutoReleaseReferenceObjectCollector_1 : public ::System::Object

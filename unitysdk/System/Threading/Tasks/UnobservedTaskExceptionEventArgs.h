@@ -4,11 +4,11 @@
 
 namespace System { class AggregateException; }
 
-#define SYSTEM_THREADING_TASKS_UNOBSERVEDTASKEXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x15B948F0)
+#define SYSTEM_THREADING_TASKS_UNOBSERVEDTASKEXCEPTIONEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1625E2A0)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int UnobservedTaskExceptionEventArgs_TypeDefinitionIndex = 921;
+	inline static constexpr unsigned int UnobservedTaskExceptionEventArgs_TypeDefinitionIndex = 925;
 
 	class UnobservedTaskExceptionEventArgs : public ::System::EventArgs
 	{

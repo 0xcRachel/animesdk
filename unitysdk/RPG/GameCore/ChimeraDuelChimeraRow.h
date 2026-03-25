@@ -11,31 +11,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELCHIMERAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1698AC50)
-#define RPG_GAMECORE_CHIMERADUELCHIMERAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1698B190)
+#define RPG_GAMECORE_CHIMERADUELCHIMERAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170AC770)
+#define RPG_GAMECORE_CHIMERADUELCHIMERAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170ACCB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraRow_TypeDefinitionIndex = 10321;
+	inline static constexpr unsigned int ChimeraDuelChimeraRow_TypeDefinitionIndex = 10391;
 
 	class ChimeraDuelChimeraRow : public ::System::Object
 	{
 	public:
-		::System::String* EmojiPath; // 0x10
-		::System::String* ModelItemMatOverride; // 0x18
-		::System::String* ChimeraHeadIconPath; // 0x20
-		::System::String* ChimeraIconPath; // 0x28
+		::System::String* ModelItemMatOverride; // 0x10
+		::System::String* ChimeraHeadIconPath; // 0x18
+		::System::String* ChimeraIconPath; // 0x20
+		::System::String* EmojiPath; // 0x28
 		::System::UInt32 Price; // 0x30
-		::RPG::GameCore::ChimeraTailPartType ModelTail; // 0x34
-		::RPG::GameCore::ChimeraWingsPartType ModelWing; // 0x38
-		::RPG::GameCore::ChimeraMaterialType ModelBody; // 0x3C
-		::System::UInt32 Rarity; // 0x40
-		::System::Int32 BaseHp; // 0x44
+		::RPG::GameCore::ChimeraEyeDetailType ModelEye; // 0x34
+		::System::UInt32 ChimeraID; // 0x38
+		::RPG::GameCore::ChimeraTailPartType ModelTail; // 0x3C
+		::RPG::GameCore::ChimeraMaterialType ModelBody; // 0x40
+		::System::UInt32 Rarity; // 0x44
 		::RPG::Client::TextID ChimeraName; // 0x48
-		::RPG::GameCore::ChimeraHornsPartType ModelHorn; // 0x58
-		::RPG::GameCore::ChimeraEyeDetailType ModelEye; // 0x5C
-		::System::UInt32 ChimeraID; // 0x60
-		::System::Int32 BaseAttack; // 0x64
+		::System::Int32 BaseAttack; // 0x58
+		::RPG::GameCore::ChimeraWingsPartType ModelWing; // 0x5C
+		::RPG::GameCore::ChimeraHornsPartType ModelHorn; // 0x60
+		::System::Int32 BaseHp; // 0x64
 
 		::System::Void _ctor()
 		{

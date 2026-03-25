@@ -6,27 +6,27 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net::Sockets { class Socket; }
 
-#define CLASS_1_22664499479190F5___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172DC740)
-#define CLASS_1_22664499479190F5___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172DC780)
-#define CLASS_1_22664499479190F5___C__PINGBYUDPSYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x172DC790)
-#define CLASS_1_22664499479190F5___C__PINGBYUDPSYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x172DC7A0)
+#define CLASS_1_22664499479190F5___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A854F0)
+#define CLASS_1_22664499479190F5___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A85530)
+#define CLASS_1_22664499479190F5___C__PINGBYUDPSYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x17A85540)
+#define CLASS_1_22664499479190F5___C__PINGBYUDPSYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x17A85550)
 
-inline static constexpr unsigned int Class_1_22664499479190F5___c_TypeDefinitionIndex = 32890;
+inline static constexpr unsigned int Class_1_22664499479190F5___c_TypeDefinitionIndex = 33878;
 
 class Class_1_22664499479190F5___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>** StaticGet___9__2_0()
+	static ::Class_1_22664499479190F5___c** StaticGet___9()
 	{
-		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_22664499479190F5___c_TypeDefinitionIndex)->GetStaticField(0x296E0);
+		return (::Class_1_22664499479190F5___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_22664499479190F5___c_TypeDefinitionIndex)->GetStaticField(0x2AD50);
 	}
 	static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Net::Sockets::Socket*>** StaticGet___9__2_1()
 	{
-		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Net::Sockets::Socket*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_22664499479190F5___c_TypeDefinitionIndex)->GetStaticField(0x296E8);
+		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Net::Sockets::Socket*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_22664499479190F5___c_TypeDefinitionIndex)->GetStaticField(0x2AD58);
 	}
-	static ::Class_1_22664499479190F5___c** StaticGet___9()
+	static ::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>** StaticGet___9__2_0()
 	{
-		return (::Class_1_22664499479190F5___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_22664499479190F5___c_TypeDefinitionIndex)->GetStaticField(0x296F0);
+		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_22664499479190F5___c_TypeDefinitionIndex)->GetStaticField(0x2AD60);
 	}
 
 	static ::System::Void _cctor()

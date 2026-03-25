@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAnimSplitFrameEventType_TypeDefinitionIndex = 43761;
+	inline static constexpr unsigned int EAnimSplitFrameEventType_TypeDefinitionIndex = 44818;
 
 	enum class EAnimSplitFrameEventType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemCostState_TypeDefinitionIndex = 52223;
+	inline static constexpr unsigned int ItemCostState_TypeDefinitionIndex = 53359;
 
 	enum class ItemCostState : ::System::Int32
 	{

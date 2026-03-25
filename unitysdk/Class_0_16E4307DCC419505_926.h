@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_926_TypeDefinitionIndex = 61213;
+namespace System { template <typename T1, typename T2> class Tuple_2; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_926_TypeDefinitionIndex = 60755;
 
 class Class_0_16E4307DCC419505_926
 {

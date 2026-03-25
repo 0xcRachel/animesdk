@@ -6,28 +6,28 @@
 namespace RPG::CustomRP { class CaptureScene; }
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x163847D0)
-#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16385130)
-#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16385190)
-#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16385140)
-#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x163847B0)
-#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0x16383400)
+#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16A938A0)
+#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16A94200)
+#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16A94260)
+#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16A94210)
+#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A93880)
+#define RPG_CUSTOMRP_CAPTURESCENE___CAPTURECOROUTINE_D__18__CTOR_OFFSET UNITYSDK_OFFSET(0x16A924D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene___CaptureCoroutine_d__18_TypeDefinitionIndex = 28347;
+	inline static constexpr unsigned int CaptureScene___CaptureCoroutine_d__18_TypeDefinitionIndex = 29222;
 
 	class CaptureScene___CaptureCoroutine_d__18 : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::CaptureScene* __4__this; // 0x10
-		::System::String* _param_str_5__5; // 0x18
-		::System::Object* __2__current; // 0x20
-		::System::String* _png_path_5__3; // 0x28
-		::System::String* _txt_path_5__4; // 0x30
-		::System::String* _folder_5__2; // 0x38
-		::RPG::CustomRP::FramePassCapturer_CaptureTarget target; // 0x40
-		::System::Int32 __1__state; // 0x44
+		::System::Object* __2__current; // 0x10
+		::System::String* _folder_5__2; // 0x18
+		::System::String* _param_str_5__5; // 0x20
+		::System::String* _txt_path_5__4; // 0x28
+		::System::String* _png_path_5__3; // 0x30
+		::RPG::CustomRP::CaptureScene* __4__this; // 0x38
+		::System::Int32 __1__state; // 0x40
+		::RPG::CustomRP::FramePassCapturer_CaptureTarget target; // 0x44
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

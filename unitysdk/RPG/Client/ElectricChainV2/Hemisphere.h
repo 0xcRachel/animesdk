@@ -6,12 +6,12 @@
 
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_METHOD_2_0CFE5F25BEFC2C07_OFFSET UNITYSDK_OFFSET(0x90F7F20)
-#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x90F82C0)
+#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_METHOD_2_0CFE5F25BEFC2C07_OFFSET UNITYSDK_OFFSET(0x95A5110)
+#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x95A54B0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 58597;
+	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 60317;
 
 	class Hemisphere : public ::RPG::Client::ElectricChainV2::Shape
 	{

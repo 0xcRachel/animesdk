@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x90F2A90)
-#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x90F2B10)
+#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x959FC20)
+#define RPG_CLIENT_ELECTRICCHAINV2_ANIMATIONCURVECONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x959FCA0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int AnimationCurveConstraint_TypeDefinitionIndex = 58606;
+	inline static constexpr unsigned int AnimationCurveConstraint_TypeDefinitionIndex = 60326;
 
 	class AnimationCurveConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{

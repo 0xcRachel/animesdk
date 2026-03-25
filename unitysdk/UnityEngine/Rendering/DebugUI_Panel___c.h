@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugUI_Panel; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_PANEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x180CCC30)
-#define UNITYENGINE_RENDERING_DEBUGUI_PANEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x180CCC70)
-#define UNITYENGINE_RENDERING_DEBUGUI_PANEL___C___CTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x180CCC80)
+#define UNITYENGINE_RENDERING_DEBUGUI_PANEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188F50F0)
+#define UNITYENGINE_RENDERING_DEBUGUI_PANEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188F5130)
+#define UNITYENGINE_RENDERING_DEBUGUI_PANEL___C___CTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x188F5140)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Panel___c_TypeDefinitionIndex = 27095;
+	inline static constexpr unsigned int DebugUI_Panel___c_TypeDefinitionIndex = 27831;
 
 	class DebugUI_Panel___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::DebugUI_Panel___c** StaticGet___9()
-		{
-			return (::UnityEngine::Rendering::DebugUI_Panel___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_Panel___c_TypeDefinitionIndex)->GetStaticField(0x25B80);
-		}
 		static ::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_Panel___c_TypeDefinitionIndex)->GetStaticField(0x25B88);
+			return (::System::Action_1<::UnityEngine::Rendering::DebugUI_Panel*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_Panel___c_TypeDefinitionIndex)->GetStaticField(0x27100);
+		}
+		static ::UnityEngine::Rendering::DebugUI_Panel___c** StaticGet___9()
+		{
+			return (::UnityEngine::Rendering::DebugUI_Panel___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_Panel___c_TypeDefinitionIndex)->GetStaticField(0x27108);
 		}
 
 		static ::System::Void _cctor()

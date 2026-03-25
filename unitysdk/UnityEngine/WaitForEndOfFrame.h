@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/YieldInstruction.h"
 
-#define UNITYENGINE_WAITFORENDOFFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1824B5C0)
+#define UNITYENGINE_WAITFORENDOFFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18A73B60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WaitForEndOfFrame_TypeDefinitionIndex = 4150;
+	inline static constexpr unsigned int WaitForEndOfFrame_TypeDefinitionIndex = 4172;
 
 	class WaitForEndOfFrame : public ::UnityEngine::YieldInstruction
 	{

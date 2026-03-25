@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class CharacterConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TargetAlias; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEntityColliderCameraConfig; }
 
-#define CLASS_2_573BC4FA547671E4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFD3A940)
-#define CLASS_2_573BC4FA547671E4_METHOD_2_7892395233F7417A_OFFSET UNITYSDK_OFFSET(0xFD3B1B0)
-#define CLASS_2_573BC4FA547671E4_METHOD_2_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xFD3A9F0)
-#define CLASS_2_573BC4FA547671E4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFD3AA80)
-#define CLASS_2_573BC4FA547671E4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFD3B270)
-#define CLASS_2_573BC4FA547671E4_TICK_OFFSET UNITYSDK_OFFSET(0xFD3B320)
-#define CLASS_2_573BC4FA547671E4__CTOR_OFFSET UNITYSDK_OFFSET(0xFD3A930)
+#define CLASS_2_573BC4FA547671E4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD7E3020)
+#define CLASS_2_573BC4FA547671E4_METHOD_2_7892395233F7417A_OFFSET UNITYSDK_OFFSET(0xD7E3890)
+#define CLASS_2_573BC4FA547671E4_METHOD_2_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xD7E30D0)
+#define CLASS_2_573BC4FA547671E4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7E3160)
+#define CLASS_2_573BC4FA547671E4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD7E3950)
+#define CLASS_2_573BC4FA547671E4_TICK_OFFSET UNITYSDK_OFFSET(0xD7E3A00)
+#define CLASS_2_573BC4FA547671E4__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E3010)
 
-inline static constexpr unsigned int Class_2_573BC4FA547671E4_TypeDefinitionIndex = 43590;
+inline static constexpr unsigned int Class_2_573BC4FA547671E4_TypeDefinitionIndex = 44646;
 
 class Class_2_573BC4FA547671E4 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::Class_3_BCCE950C2E8DF1F0* Field_2_2; // 0x20
-	::RPG::GameCore::TargetAlias* Field_2_3; // 0x28
-	::RPG::GameCore::TriggerEntityColliderCameraConfig* Field_2_0; // 0x30
+	::RPG::GameCore::TriggerEntityColliderCameraConfig* Field_2_0; // 0x18
+	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
+	::RPG::GameCore::TargetAlias* Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerEntityColliderCameraConfig* a2)
 	{

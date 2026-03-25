@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightInteractableOrb; }
 namespace RPG::Client { class OrbSpawnConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93C3820)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__REGENPENDINGSPHERES_B__0_OFFSET UNITYSDK_OFFSET(0x93C4F90)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9880B60)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS31_0__REGENPENDINGSPHERES_B__0_OFFSET UNITYSDK_OFFSET(0x9882360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass31_0_TypeDefinitionIndex = 51230;
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass31_0_TypeDefinitionIndex = 52363;
 
 	class GridFightOrbManager___c__DisplayClass31_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerResetSweepDirection_TypeDefinitionIndex = 16633;
+	inline static constexpr unsigned int FiveDimPlayerResetSweepDirection_TypeDefinitionIndex = 17007;
 
 	enum class FiveDimPlayerResetSweepDirection : ::System::Int32
 	{

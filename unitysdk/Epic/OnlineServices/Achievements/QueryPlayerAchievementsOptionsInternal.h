@@ -14,7 +14,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int QueryPlayerAchievementsOptionsInternal_TypeDefinitionIndex = 35880;
+	inline static constexpr unsigned int QueryPlayerAchievementsOptionsInternal_TypeDefinitionIndex = 36814;
 
 	struct alignas(8) QueryPlayerAchievementsOptionsInternal
 	{

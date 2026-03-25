@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD_METHOD_3_5DF76D3352CD9BED_OFFSET UNITYSDK_OFFSET(0x16A34FA0)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD_METHOD_3_B6A2F959064F9960_OFFSET UNITYSDK_OFFSET(0x16A35A40)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD__CTOR_OFFSET UNITYSDK_OFFSET(0x16A34F40)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD_METHOD_3_00DFEBB5F93D3727_OFFSET UNITYSDK_OFFSET(0x17174850)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD_METHOD_3_5DF76D3352CD9BED_OFFSET UNITYSDK_OFFSET(0x17173CC0)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD__CTOR_OFFSET UNITYSDK_OFFSET(0x17173C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Odd_TypeDefinitionIndex = 14572;
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Odd_TypeDefinitionIndex = 14824;
 
 	class DiceCombatDiceSelectorConfig_Odd : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B6A2F959064F9960(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Odd*& a2)
+		static ::System::Void Method_3_00DFEBB5F93D3727(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Odd*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Odd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD_METHOD_3_B6A2F959064F9960_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Odd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_ODD_METHOD_3_00DFEBB5F93D3727_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5DF76D3352CD9BED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Odd* a2)

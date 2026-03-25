@@ -5,10 +5,10 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA47A0B0)
-#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS60_0__PRELOADPROPERTYRESOURCESWITHHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0xA47D5E0)
+#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS60_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8DB82C0)
+#define CLASS_2_6A75EA4A76790B33___C__DISPLAYCLASS60_0__PRELOADPROPERTYRESOURCESWITHHANDLE_B__0_OFFSET UNITYSDK_OFFSET(0x8DBB7D0)
 
-inline static constexpr unsigned int Class_2_6A75EA4A76790B33___c__DisplayClass60_0_TypeDefinitionIndex = 39143;
+inline static constexpr unsigned int Class_2_6A75EA4A76790B33___c__DisplayClass60_0_TypeDefinitionIndex = 40123;
 
 class Class_2_6A75EA4A76790B33___c__DisplayClass60_0 : public ::System::Object
 {

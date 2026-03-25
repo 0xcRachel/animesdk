@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BundleType_TypeDefinitionIndex = 31100;
+	inline static constexpr unsigned int BundleType_TypeDefinitionIndex = 31975;
 
 	enum class BundleType : ::System::Int32
 	{

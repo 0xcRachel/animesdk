@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCharacterAnchorFindTargetPosResult_TypeDefinitionIndex = 46344;
+	inline static constexpr unsigned int SwitchCharacterAnchorFindTargetPosResult_TypeDefinitionIndex = 47422;
 
 	enum class SwitchCharacterAnchorFindTargetPosResult : ::System::Int32
 	{

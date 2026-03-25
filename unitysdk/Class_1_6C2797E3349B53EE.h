@@ -5,14 +5,14 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_6C2797E3349B53EE_CLEAR_OFFSET UNITYSDK_OFFSET(0x85F27F0)
-#define CLASS_1_6C2797E3349B53EE_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x85F27D0)
-#define CLASS_1_6C2797E3349B53EE_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x85F27B0)
-#define CLASS_1_6C2797E3349B53EE_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x85F27E0)
-#define CLASS_1_6C2797E3349B53EE_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x85F27C0)
-#define CLASS_1_6C2797E3349B53EE__CTOR_OFFSET UNITYSDK_OFFSET(0x85F2850)
+#define CLASS_1_6C2797E3349B53EE_CLEAR_OFFSET UNITYSDK_OFFSET(0x8CEA920)
+#define CLASS_1_6C2797E3349B53EE_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x8CEA900)
+#define CLASS_1_6C2797E3349B53EE_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x8CEA8E0)
+#define CLASS_1_6C2797E3349B53EE_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x8CEA910)
+#define CLASS_1_6C2797E3349B53EE_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x8CEA8F0)
+#define CLASS_1_6C2797E3349B53EE__CTOR_OFFSET UNITYSDK_OFFSET(0x8CEA980)
 
-inline static constexpr unsigned int Class_1_6C2797E3349B53EE_TypeDefinitionIndex = 42958;
+inline static constexpr unsigned int Class_1_6C2797E3349B53EE_TypeDefinitionIndex = 44009;
 
 class Class_1_6C2797E3349B53EE : public ::System::Object
 {
@@ -20,14 +20,14 @@ public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
 	::RPG::GameCore::GameEntity* Field_1_2; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_1; // 0x20
-	::System::Boolean Field_1_6; // 0x28
-	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x29
-	::System::Boolean _LockDamageZero_k__BackingField; // 0x2A
-	::System::Boolean Field_1_3; // 0x2B
-	::System::Boolean Field_1_7; // 0x2C
-	::System::Boolean Field_1_8; // 0x2D
+	::RPG::GameCore::FixPoint Field_1_4; // 0x28
 	::RPG::GameCore::FixPoint Field_1_5; // 0x30
-	::RPG::GameCore::FixPoint Field_1_4; // 0x38
+	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x38
+	::System::Boolean _LockDamageZero_k__BackingField; // 0x39
+	::System::Boolean Field_1_3; // 0x3A
+	::System::Boolean Field_1_8; // 0x3B
+	::System::Boolean Field_1_6; // 0x3C
+	::System::Boolean Field_1_7; // 0x3D
 
 	::System::Void _ctor()
 	{

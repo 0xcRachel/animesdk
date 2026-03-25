@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_89FD99B9A3F420CD_OFFSET UNITYSDK_OFFSET(0x168E3280)
-#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_A0028489062B2031_OFFSET UNITYSDK_OFFSET(0x168E6DE0)
-#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168E3220)
+#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_47CE543323C29D08_OFFSET UNITYSDK_OFFSET(0x16FF7C20)
+#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_89FD99B9A3F420CD_OFFSET UNITYSDK_OFFSET(0x16FF4080)
+#define RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF4020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleVersusClickQTEConfig_TypeDefinitionIndex = 21017;
+	inline static constexpr unsigned int BattleVersusClickQTEConfig_TypeDefinitionIndex = 21577;
 
 	class BattleVersusClickQTEConfig : public ::RPG::GameCore::BattleQTEBaseConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0028489062B2031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig*& a2)
+		static ::System::Void Method_3_47CE543323C29D08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleVersusClickQTEConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_A0028489062B2031_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleVersusClickQTEConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEVERSUSCLICKQTECONFIG_METHOD_3_47CE543323C29D08_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_89FD99B9A3F420CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleVersusClickQTEConfig* a2)

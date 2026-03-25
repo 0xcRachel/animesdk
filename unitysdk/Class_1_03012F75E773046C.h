@@ -2,14 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_459992294D008A3E;
+class Class_1_5DC1C6CD93AE2511;
+class Class_1_E750E5E5D854E770;
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_03012F75E773046C_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x10F3B120)
-#define CLASS_1_03012F75E773046C_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10F3B1A0)
-#define CLASS_1_03012F75E773046C__CTOR_OFFSET UNITYSDK_OFFSET(0x10F3B2A0)
-#define CLASS_1_03012F75E773046C___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10F3B2B0)
+#define CLASS_1_03012F75E773046C_TOSTRING_OFFSET UNITYSDK_OFFSET(0x165BB690)
+#define CLASS_1_03012F75E773046C__CTOR_OFFSET UNITYSDK_OFFSET(0x165BB720)
+#define CLASS_1_03012F75E773046C___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x165BB730)
 
-inline static constexpr unsigned int Class_1_03012F75E773046C_TypeDefinitionIndex = 46848;
+inline static constexpr unsigned int Class_1_03012F75E773046C_TypeDefinitionIndex = 32191;
 
 class Class_1_03012F75E773046C : public ::System::Object
 {
@@ -17,11 +20,6 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03012F75E773046C__CTOR_OFFSET))(this);
-	}
-
-	::System::Boolean Method_1_1808E1CF7A125519()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_03012F75E773046C_METHOD_1_1808E1CF7A125519_OFFSET))(this);
 	}
 
 	::System::String* ToString()

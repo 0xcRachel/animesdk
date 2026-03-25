@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SmoothMask_Type_TypeDefinitionIndex = 5615;
+	inline static constexpr unsigned int SmoothMask_Type_TypeDefinitionIndex = 5715;
 
 	enum class SmoothMask_Type : ::System::Int32
 	{

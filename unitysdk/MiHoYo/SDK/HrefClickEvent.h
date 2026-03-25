@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HREFCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15842100)
+#define MIHOYO_SDK_HREFCLICKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15F27C60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 6897;
+	inline static constexpr unsigned int HrefClickEvent_TypeDefinitionIndex = 7015;
 
 	class HrefClickEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
 	{

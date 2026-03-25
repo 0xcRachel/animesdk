@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PAYMENTCNBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x158D0870)
+#define MIHOYO_SDK_PAYMENTCNBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15FB13A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PaymentCNBoxConfig_TypeDefinitionIndex = 6803;
+	inline static constexpr unsigned int PaymentCNBoxConfig_TypeDefinitionIndex = 6915;
 
 	class PaymentCNBoxConfig : public ::System::Object
 	{

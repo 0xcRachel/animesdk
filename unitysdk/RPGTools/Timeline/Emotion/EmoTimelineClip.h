@@ -11,13 +11,13 @@ namespace RPG::Client { class MonoEmoPlayableGraph; }
 namespace RPGTools::Timeline::Emotion { class PoseData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA628BA0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA628B90)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA628E90)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB6E900)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB6E8F0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB6EBF0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoTimelineClip_TypeDefinitionIndex = 38539;
+	inline static constexpr unsigned int EmoTimelineClip_TypeDefinitionIndex = 39519;
 
 	class EmoTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{

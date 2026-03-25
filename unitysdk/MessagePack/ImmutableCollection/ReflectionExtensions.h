@@ -4,11 +4,11 @@
 
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_IMMUTABLECOLLECTION_REFLECTIONEXTENSIONS_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x15641960)
+#define MESSAGEPACK_IMMUTABLECOLLECTION_REFLECTIONEXTENSIONS_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x15D52620)
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ReflectionExtensions_TypeDefinitionIndex = 9665;
+	inline static constexpr unsigned int ReflectionExtensions_TypeDefinitionIndex = 9225;
 
 	class ReflectionExtensions : public ::System::Object
 	{

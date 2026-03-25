@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x17E43D20)
-#define MONO_NET_CFURL_CREATE_OFFSET UNITYSDK_OFFSET(0x17E3E910)
-#define MONO_NET_CFURL__CTOR_OFFSET UNITYSDK_OFFSET(0x17E43C90)
+#define MONO_NET_CFURL_CFURLCREATEWITHSTRING_OFFSET UNITYSDK_OFFSET(0x18671A10)
+#define MONO_NET_CFURL_CREATE_OFFSET UNITYSDK_OFFSET(0x1866C750)
+#define MONO_NET_CFURL__CTOR_OFFSET UNITYSDK_OFFSET(0x18671980)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFUrl_TypeDefinitionIndex = 2395;
+	inline static constexpr unsigned int CFUrl_TypeDefinitionIndex = 2400;
 
 	class CFUrl : public ::Mono::Net::CFObject
 	{

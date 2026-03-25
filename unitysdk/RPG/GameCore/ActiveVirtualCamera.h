@@ -12,14 +12,14 @@ namespace RPG::GameCore { class VCameraBlend; }
 namespace RPG::GameCore { class VirtualCameraModeDynamicParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_68DE2B2E790B38E5_OFFSET UNITYSDK_OFFSET(0x16780210)
-#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_B1559056ADA042F3_OFFSET UNITYSDK_OFFSET(0x16780D30)
-#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_C22DDB0159E33BD3_OFFSET UNITYSDK_OFFSET(0x16780040)
-#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1677F210)
+#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_68DE2B2E790B38E5_OFFSET UNITYSDK_OFFSET(0x16EB5C80)
+#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_A5678D081AE08358_OFFSET UNITYSDK_OFFSET(0x16EB67A0)
+#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_C22DDB0159E33BD3_OFFSET UNITYSDK_OFFSET(0x16EB5AB0)
+#define RPG_GAMECORE_ACTIVEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB4CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveVirtualCamera_TypeDefinitionIndex = 18639;
+	inline static constexpr unsigned int ActiveVirtualCamera_TypeDefinitionIndex = 19160;
 
 	class ActiveVirtualCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -75,9 +75,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveVirtualCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_68DE2B2E790B38E5_OFFSET))(a1, a2);
 		}
 
-		::RPG::GameCore::ActiveVirtualCamera_PerformanceTransition* Method_3_B1559056ADA042F3(::System::Boolean a1)
+		::RPG::GameCore::ActiveVirtualCamera_PerformanceTransition* Method_3_A5678D081AE08358(::System::Boolean a1)
 		{
-			return ((::RPG::GameCore::ActiveVirtualCamera_PerformanceTransition*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_B1559056ADA042F3_OFFSET))(this, a1);
+			return ((::RPG::GameCore::ActiveVirtualCamera_PerformanceTransition*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEVIRTUALCAMERA_METHOD_3_A5678D081AE08358_OFFSET))(this, a1);
 		}
 	};
 }

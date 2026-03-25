@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickBase_AffectedAxesAction_TypeDefinitionIndex = 30394;
+	inline static constexpr unsigned int QuickBase_AffectedAxesAction_TypeDefinitionIndex = 31269;
 
 	enum class QuickBase_AffectedAxesAction : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK::Windows::OS { class AgeGateManager; }
 
-#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157CF1A0)
-#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS34_0__TRYLOADTICKET_B__3_OFFSET UNITYSDK_OFFSET(0x157CFA50)
+#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBE220)
+#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS34_0__TRYLOADTICKET_B__3_OFFSET UNITYSDK_OFFSET(0x15EBEAC0)
 
 namespace MiHoYo::SDK::Windows::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass34_0_TypeDefinitionIndex = 7211;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass34_0_TypeDefinitionIndex = 7336;
 
 	class AgeGateManager___c__DisplayClass34_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class ShotAnimMovementData; }
 
-#define RPG_CLIENT_SHOTANIMMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x9F71D30)
-#define RPG_CLIENT_SHOTANIMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9F71D80)
+#define RPG_CLIENT_SHOTANIMMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA4870D0)
+#define RPG_CLIENT_SHOTANIMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA487120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShotAnimModuleConfig_TypeDefinitionIndex = 55413;
+	inline static constexpr unsigned int ShotAnimModuleConfig_TypeDefinitionIndex = 56978;
 
 	class ShotAnimModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

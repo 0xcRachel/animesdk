@@ -7,28 +7,28 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15875610)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15875700)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15875760)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15875710)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15875600)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22__CTOR_OFFSET UNITYSDK_OFFSET(0x1586EB20)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15F5B750)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15F5B840)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15F5B8A0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15F5B850)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F5B740)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__22__CTOR_OFFSET UNITYSDK_OFFSET(0x15F54E30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Post_d__22_TypeDefinitionIndex = 7019;
+	inline static constexpr unsigned int NetworkManager__Post_d__22_TypeDefinitionIndex = 7144;
 
 	class NetworkManager__Post_d__22 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::String* requestUrl; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::System::String* bodyString; // 0x28
-		::System::Object* __2__current; // 0x30
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x38
-		::System::Single timeoutSecond; // 0x40
-		::System::Int32 __1__state; // 0x44
+		::System::String* bodyString; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::String* requestUrl; // 0x20
+		::System::Action* timeoutCallback; // 0x28
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x38
+		::System::Int32 __1__state; // 0x40
+		::System::Single timeoutSecond; // 0x44
 		::System::Int32 retryTime; // 0x48
 
 		::System::Void _ctor(::System::Int32 __1__state)

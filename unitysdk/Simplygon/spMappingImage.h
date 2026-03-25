@@ -3,13 +3,13 @@
 #include "unitysdk/Simplygon/spObject.h"
 #include "unitysdk/System/Runtime/InteropServices/HandleRef.h"
 
-#define SIMPLYGON_SPMAPPINGIMAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B69D30)
-#define SIMPLYGON_SPMAPPINGIMAGE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x17B68890)
-#define SIMPLYGON_SPMAPPINGIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B69C30)
+#define SIMPLYGON_SPMAPPINGIMAGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18382160)
+#define SIMPLYGON_SPMAPPINGIMAGE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x18380CC0)
+#define SIMPLYGON_SPMAPPINGIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18382060)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int spMappingImage_TypeDefinitionIndex = 28679;
+	inline static constexpr unsigned int spMappingImage_TypeDefinitionIndex = 29554;
 
 	class spMappingImage : public ::Simplygon::spObject
 	{

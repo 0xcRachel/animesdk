@@ -7,32 +7,32 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define UTILITIES_MATERIALQUALITYUTILITIES_FROMINDEX_OFFSET UNITYSDK_OFFSET(0x180ECBC0)
-#define UTILITIES_MATERIALQUALITYUTILITIES_GETCLOSESTQUALITY_OFFSET UNITYSDK_OFFSET(0x180EC950)
-#define UTILITIES_MATERIALQUALITYUTILITIES_GETHIGHESTQUALITY_OFFSET UNITYSDK_OFFSET(0x180EC8B0)
-#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_1_OFFSET UNITYSDK_OFFSET(0x180ECD30)
-#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x180ECBD0)
-#define UTILITIES_MATERIALQUALITYUTILITIES_TOFIRSTINDEX_OFFSET UNITYSDK_OFFSET(0x180ECAD0)
-#define UTILITIES_MATERIALQUALITYUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x180ECEB0)
+#define UTILITIES_MATERIALQUALITYUTILITIES_FROMINDEX_OFFSET UNITYSDK_OFFSET(0x18914C20)
+#define UTILITIES_MATERIALQUALITYUTILITIES_GETCLOSESTQUALITY_OFFSET UNITYSDK_OFFSET(0x189149B0)
+#define UTILITIES_MATERIALQUALITYUTILITIES_GETHIGHESTQUALITY_OFFSET UNITYSDK_OFFSET(0x18914910)
+#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_1_OFFSET UNITYSDK_OFFSET(0x18914D90)
+#define UTILITIES_MATERIALQUALITYUTILITIES_SETGLOBALSHADERKEYWORDS_OFFSET UNITYSDK_OFFSET(0x18914C30)
+#define UTILITIES_MATERIALQUALITYUTILITIES_TOFIRSTINDEX_OFFSET UNITYSDK_OFFSET(0x18914B30)
+#define UTILITIES_MATERIALQUALITYUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x18914F10)
 
 namespace Utilities
 {
-	inline static constexpr unsigned int MaterialQualityUtilities_TypeDefinitionIndex = 26994;
+	inline static constexpr unsigned int MaterialQualityUtilities_TypeDefinitionIndex = 27730;
 
 	class MaterialQualityUtilities : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_EnumNames()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x27A80);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_KeywordNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x27A88);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x253D0);
 		}
 		static ::Il2CppArray<::UnityEngine::Rendering::ShaderKeyword>** StaticGet_Keywords()
 		{
-			return (::Il2CppArray<::UnityEngine::Rendering::ShaderKeyword>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x27A90);
+			return (::Il2CppArray<::UnityEngine::Rendering::ShaderKeyword>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x253D8);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_EnumNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialQualityUtilities_TypeDefinitionIndex)->GetStaticField(0x253E0);
 		}
 
 		static ::System::Void _cctor()

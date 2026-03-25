@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MoveTeam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0CE9A3CE4376C501_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x88F4C00)
-#define CLASS_3_0CE9A3CE4376C501__CTOR_OFFSET UNITYSDK_OFFSET(0x88F4BD0)
+#define CLASS_3_0CE9A3CE4376C501_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6D45C0)
+#define CLASS_3_0CE9A3CE4376C501__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D4590)
 
-inline static constexpr unsigned int Class_3_0CE9A3CE4376C501_TypeDefinitionIndex = 43156;
+inline static constexpr unsigned int Class_3_0CE9A3CE4376C501_TypeDefinitionIndex = 44207;
 
 class Class_3_0CE9A3CE4376C501 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MoveTeam*>
 {

@@ -7,28 +7,28 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x81EA060)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x81EA130)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x81EA190)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x81EA140)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x81EA050)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x81E8E70)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x8538DE0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8538EB0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x8538F10)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x8538EC0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8538DD0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__POST_D__19__CTOR_OFFSET UNITYSDK_OFFSET(0x8537BF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUploader__Post_d__19_TypeDefinitionIndex = 36295;
+	inline static constexpr unsigned int MiHoYoSDKUploader__Post_d__19_TypeDefinitionIndex = 37231;
 
 	class MiHoYoSDKUploader__Post_d__19 : public ::System::Object
 	{
 	public:
-		::System::Action* timeoutCallback; // 0x10
+		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x10
 		::System::String* bodyString; // 0x18
-		::MiHoYo::SDK::MiHoYoSDKUploader* __4__this; // 0x20
-		::System::Object* __2__current; // 0x28
-		::System::Action_1<::System::String*>* callback; // 0x30
-		::System::String* requestUrl; // 0x38
-		::System::Int32 retryTime; // 0x40
-		::System::Single timeoutSecond; // 0x44
+		::System::Object* __2__current; // 0x20
+		::System::Action* timeoutCallback; // 0x28
+		::System::String* requestUrl; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x38
+		::System::Single timeoutSecond; // 0x40
+		::System::Int32 retryTime; // 0x44
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void _ctor(::System::Int32 __1__state)

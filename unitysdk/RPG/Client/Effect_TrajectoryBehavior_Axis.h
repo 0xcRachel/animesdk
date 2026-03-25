@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TrajectoryBehavior_Axis_TypeDefinitionIndex = 56219;
+	inline static constexpr unsigned int Effect_TrajectoryBehavior_Axis_TypeDefinitionIndex = 57790;
 
 	enum class Effect_TrajectoryBehavior_Axis : ::System::Int32
 	{

@@ -4,10 +4,10 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_C2402B82A82704DB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x20100E0)
-#define STRUCT_2_C2402B82A82704DB__CTOR_OFFSET UNITYSDK_OFFSET(0x2010080)
+#define STRUCT_2_C2402B82A82704DB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x20E6280)
+#define STRUCT_2_C2402B82A82704DB__CTOR_OFFSET UNITYSDK_OFFSET(0x20E6220)
 
-inline static constexpr unsigned int Struct_2_C2402B82A82704DB_TypeDefinitionIndex = 27886;
+inline static constexpr unsigned int Struct_2_C2402B82A82704DB_TypeDefinitionIndex = 28666;
 
 struct alignas(8) Struct_2_C2402B82A82704DB
 {

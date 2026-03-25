@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MVVM::ViewModel
 {
-	inline static constexpr unsigned int LimaoNewsCommentAnimationFlag_TypeDefinitionIndex = 59184;
+	inline static constexpr unsigned int LimaoNewsCommentAnimationFlag_TypeDefinitionIndex = 60936;
 
 	enum class LimaoNewsCommentAnimationFlag : ::System::Int32
 	{

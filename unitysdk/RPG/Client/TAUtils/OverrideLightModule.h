@@ -10,161 +10,161 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_08578B1018557C57_OFFSET UNITYSDK_OFFSET(0xD3BE0)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_26AED0B8DC5C71C6_OFFSET UNITYSDK_OFFSET(0xD3BC0)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_59098C0B26327A20_OFFSET UNITYSDK_OFFSET(0xD3BD0)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_FE23AD31C8423269_OFFSET UNITYSDK_OFFSET(0xD3B20)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xA020130)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_08578B1018557C57_OFFSET UNITYSDK_OFFSET(0x84680)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_26AED0B8DC5C71C6_OFFSET UNITYSDK_OFFSET(0x84660)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_59098C0B26327A20_OFFSET UNITYSDK_OFFSET(0x84670)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_METHOD_2_FE23AD31C8423269_OFFSET UNITYSDK_OFFSET(0x845C0)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xA541B20)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int OverrideLightModule_TypeDefinitionIndex = 58617;
+	inline static constexpr unsigned int OverrideLightModule_TypeDefinitionIndex = 60329;
 
 	struct alignas(8) OverrideLightModule
 	{
 		static ::RPG::Client::TAUtils::OverrideLightModule* StaticGet_Default()
 		{
-			return (::RPG::Client::TAUtils::OverrideLightModule*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x231B0);
-		}
-		static ::System::Int32* StaticGet__SceneLightColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7160);
-		}
-		static ::System::Int32* StaticGet__CharacterLocalMainLightColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7164);
-		}
-		static ::System::Int32* StaticGet__ESHeightLerpTopShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7168);
-		}
-		static ::System::Int32* StaticGet__ESLevelSkinShadowColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x716C);
-		}
-		static ::System::Int32* StaticGet__ESLevelShadowShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7170);
-		}
-		static ::System::Int32* StaticGet__CharacterLocalMainLightColor2ShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7174);
-		}
-		static ::System::Int32* StaticGet__ESRimLightAddModeShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7178);
-		}
-		static ::System::Int32* StaticGet__CharacterLocalMainLightColor1ShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x717C);
-		}
-		static ::System::Int32* StaticGet__ESLevelShadowColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7180);
-		}
-		static ::System::Int32* StaticGet__ESHeightLerpBottomShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7184);
-		}
-		static ::System::Int32* StaticGet__MainLightColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7188);
-		}
-		static ::System::Int32* StaticGet__ESRimShadowColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x718C);
-		}
-		static ::System::Int32* StaticGet__ESEffCustomLightPositionShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7190);
-		}
-		static ::System::Int32* StaticGet__ESRimShadowIntensityShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7194);
-		}
-		static ::System::Int32* StaticGet__ESLevelSkinLightColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x7198);
-		}
-		static ::System::Int32* StaticGet__CharacterWorldSpaceOffsetShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x719C);
-		}
-		static ::System::Int32* StaticGet__ESHeightLerpBottomColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71A0);
-		}
-		static ::System::Int32* StaticGet__ESLevelAdjustOnShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71A4);
-		}
-		static ::System::Int32* StaticGet__ESRimLightOffsetShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71A8);
-		}
-		static ::System::Int32* StaticGet__MainLightPositionShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71AC);
-		}
-		static ::System::Int32* StaticGet__ESLevelEyeShadowIntensityShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71B0);
-		}
-		static ::System::Int32* StaticGet__ESEffCustomLightDirShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71B4);
-		}
-		static ::System::Int32* StaticGet__ESRimLightIntensityShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71B8);
-		}
-		static ::System::Int32* StaticGet__SceneLightPositionShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71BC);
+			return (::RPG::Client::TAUtils::OverrideLightModule*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x37890);
 		}
 		static ::System::Int32* StaticGet__CustomMainLightDirShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDCF0);
 		}
-		static ::System::Int32* StaticGet__CharacterLocalMainLightPositionShaderProperty()
+		static ::System::Int32* StaticGet__ESHeightLerpTopShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDCF4);
+		}
+		static ::System::Int32* StaticGet__ESRimLightIntensityShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDCF8);
+		}
+		static ::System::Int32* StaticGet__MainLightPositionShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDCFC);
 		}
 		static ::System::Int32* StaticGet__ESHeightLerpMiddleColorShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71C8);
-		}
-		static ::System::Int32* StaticGet__ESRimLightColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71CC);
-		}
-		static ::System::Int32* StaticGet__ESHeightLerpTopColorShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD00);
 		}
 		static ::System::Int32* StaticGet__ESCharacterShadowFactorShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD04);
 		}
 		static ::System::Int32* StaticGet__ESLevelMidShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD08);
 		}
-		static ::System::Int32* StaticGet__ESAddColorShaderProperty()
+		static ::System::Int32* StaticGet__SceneLightColorShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71DC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD0C);
 		}
-		static ::System::Int32* StaticGet__ESRimLightWidthShaderProperty()
+		static ::System::Int32* StaticGet__ESLevelSkinLightColorShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD10);
+		}
+		static ::System::Int32* StaticGet__ESHeightLerpTopColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD14);
+		}
+		static ::System::Int32* StaticGet__ESRimLightOffsetShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD18);
+		}
+		static ::System::Int32* StaticGet__ESLevelSkinShadowColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD1C);
+		}
+		static ::System::Int32* StaticGet__MainLightColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD20);
+		}
+		static ::System::Int32* StaticGet__ESHeightLerpBottomShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD24);
+		}
+		static ::System::Int32* StaticGet__ESLevelShadowColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD28);
+		}
+		static ::System::Int32* StaticGet__SceneLightPositionShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD2C);
 		}
 		static ::System::Int32* StaticGet__ESLevelHighLightShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71E4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD30);
+		}
+		static ::System::Int32* StaticGet__ESEffCustomLightPositionShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD34);
 		}
 		static ::System::Int32* StaticGet__ESLevelHighLightColorShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0x71E8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD38);
+		}
+		static ::System::Int32* StaticGet__ESLevelShadowShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD3C);
+		}
+		static ::System::Int32* StaticGet__ESRimShadowIntensityShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD40);
+		}
+		static ::System::Int32* StaticGet__CharacterLocalMainLightPositionShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD44);
+		}
+		static ::System::Int32* StaticGet__CharacterLocalMainLightColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD48);
+		}
+		static ::System::Int32* StaticGet__ESLevelAdjustOnShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD4C);
+		}
+		static ::System::Int32* StaticGet__CharacterWorldSpaceOffsetShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD50);
+		}
+		static ::System::Int32* StaticGet__ESRimLightAddModeShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD54);
+		}
+		static ::System::Int32* StaticGet__ESHeightLerpBottomColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD58);
+		}
+		static ::System::Int32* StaticGet__ESRimLightWidthShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD5C);
+		}
+		static ::System::Int32* StaticGet__ESRimLightColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD60);
+		}
+		static ::System::Int32* StaticGet__CharacterLocalMainLightColor1ShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD64);
+		}
+		static ::System::Int32* StaticGet__ESAddColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD68);
+		}
+		static ::System::Int32* StaticGet__ESEffCustomLightDirShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD6C);
+		}
+		static ::System::Int32* StaticGet__ESLevelEyeShadowIntensityShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD70);
+		}
+		static ::System::Int32* StaticGet__CharacterLocalMainLightColor2ShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD74);
+		}
+		static ::System::Int32* StaticGet__ESRimShadowColorShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OverrideLightModule_TypeDefinitionIndex)->GetStaticField(0xDD78);
 		}
 		::RPG::Client::TAUtils::OverrideLightType OverrideLightType; // 0x10
 		::UnityEngine::Vector4 OverrideLightPosition; // 0x14

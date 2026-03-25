@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddGridFightTargetEquip; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_93B3A14EF41F6F3C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105617D0)
-#define CLASS_3_93B3A14EF41F6F3C__CTOR_OFFSET UNITYSDK_OFFSET(0x105617A0)
+#define CLASS_3_93B3A14EF41F6F3C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED2DD0)
+#define CLASS_3_93B3A14EF41F6F3C__CTOR_OFFSET UNITYSDK_OFFSET(0xBED2DA0)
 
-inline static constexpr unsigned int Class_3_93B3A14EF41F6F3C_TypeDefinitionIndex = 42824;
+inline static constexpr unsigned int Class_3_93B3A14EF41F6F3C_TypeDefinitionIndex = 43874;
 
 class Class_3_93B3A14EF41F6F3C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddGridFightTargetEquip*>
 {

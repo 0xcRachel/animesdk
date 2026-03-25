@@ -8,34 +8,34 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9D74480)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9D744B0)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_0_OFFSET UNITYSDK_OFFSET(0x9D744C0)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_1_OFFSET UNITYSDK_OFFSET(0x9D744E0)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C___CTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x9D74500)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA295430)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA295460)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_0_OFFSET UNITYSDK_OFFSET(0xA295470)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_1_OFFSET UNITYSDK_OFFSET(0xA295490)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C___CTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0xA2954B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeGiftData___c_TypeDefinitionIndex = 53204;
+	inline static constexpr unsigned int RechargeGiftData___c_TypeDefinitionIndex = 54345;
 
 	class RechargeGiftData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>** StaticGet___9__48_0()
-		{
-			return (::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x44680);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>** StaticGet___9__22_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x44688);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x13BF0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x44690);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x13BF8);
+		}
+		static ::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>** StaticGet___9__48_0()
+		{
+			return (::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x13C00);
 		}
 		static ::RPG::Client::RechargeGiftData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RechargeGiftData___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x44698);
+			return (::RPG::Client::RechargeGiftData___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x13C08);
 		}
 
 		static ::System::Void _cctor()

@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16999A00)
-#define RPG_GAMECORE_CHIMERADUELTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16999C20)
+#define RPG_GAMECORE_CHIMERADUELTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170BB910)
+#define RPG_GAMECORE_CHIMERADUELTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170BBB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelTalkRow_TypeDefinitionIndex = 10359;
+	inline static constexpr unsigned int ChimeraDuelTalkRow_TypeDefinitionIndex = 10429;
 
 	class ChimeraDuelTalkRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID ChimeraDuelTalkText; // 0x10
-		::RPG::GameCore::ChimeraDuelTalkType Type; // 0x20
-		::System::UInt32 TriggerEventID; // 0x24
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 TalkID; // 0x2C
+		::System::UInt32 TriggerEventID; // 0x10
+		::System::UInt32 ID; // 0x14
+		::RPG::Client::TextID ChimeraDuelTalkText; // 0x18
+		::System::UInt32 TalkID; // 0x28
+		::RPG::GameCore::ChimeraDuelTalkType Type; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightBackRankConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93E15B0)
-#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS2_0__GETBACKRANKCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x93E3450)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x989EA90)
+#define RPG_CLIENT_GRIDFIGHTROLECONFIG___C__DISPLAYCLASS2_0__GETBACKRANKCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x98A0580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleConfig___c__DisplayClass2_0_TypeDefinitionIndex = 51736;
+	inline static constexpr unsigned int GridFightRoleConfig___c__DisplayClass2_0_TypeDefinitionIndex = 52870;
 
 	class GridFightRoleConfig___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_DataViewRestoreData_TypeDefinitionIndex = 45453;
+	inline static constexpr unsigned int TeamFormationComponent_DataViewRestoreData_TypeDefinitionIndex = 46516;
 
 	struct alignas(4) TeamFormationComponent_DataViewRestoreData
 	{

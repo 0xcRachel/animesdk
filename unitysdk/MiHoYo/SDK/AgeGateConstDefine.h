@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_AGEGATECONSTDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x156FAFD0)
+#define MIHOYO_SDK_AGEGATECONSTDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DEC420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AgeGateConstDefine_TypeDefinitionIndex = 6452;
+	inline static constexpr unsigned int AgeGateConstDefine_TypeDefinitionIndex = 6569;
 
 	class AgeGateConstDefine : public ::System::Object
 	{

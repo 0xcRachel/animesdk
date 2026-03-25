@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_ARTVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8C93F40)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_ARTVARIANTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x90E5540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_ArtVariantInfo_TypeDefinitionIndex = 55026;
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_ArtVariantInfo_TypeDefinitionIndex = 56589;
 
 	class ArtNPCPedestrianAssetConfig_ArtVariantInfo : public ::System::Object
 	{

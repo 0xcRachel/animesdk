@@ -7,12 +7,12 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGroupData; }
 namespace RPG::Client::ActivityAlley { class AlleyPackShipData; }
 namespace RPG::Client::ActivityAlley { class ClientAlleyPlacingShip; }
 
-#define CLASS_1_89373989FB90C35F_METHOD_1_1C0ADF1E5ED92315_OFFSET UNITYSDK_OFFSET(0x8A4F600)
-#define CLASS_1_89373989FB90C35F_METHOD_1_7338D2E09ECF5FAD_OFFSET UNITYSDK_OFFSET(0x8A4FF30)
-#define CLASS_1_89373989FB90C35F_METHOD_1_A4EE0BB5AF797A37_OFFSET UNITYSDK_OFFSET(0x8A50050)
-#define CLASS_1_89373989FB90C35F_METHOD_1_EAB675F5C0DC88DE_OFFSET UNITYSDK_OFFSET(0x8A4E5E0)
+#define CLASS_1_89373989FB90C35F_METHOD_1_1C67AE34DDCA79E1_OFFSET UNITYSDK_OFFSET(0x1051F050)
+#define CLASS_1_89373989FB90C35F_METHOD_1_7338D2E09ECF5FAD_OFFSET UNITYSDK_OFFSET(0x1051F910)
+#define CLASS_1_89373989FB90C35F_METHOD_1_A4EE0BB5AF797A37_OFFSET UNITYSDK_OFFSET(0x1051FA40)
+#define CLASS_1_89373989FB90C35F_METHOD_1_EAB675F5C0DC88DE_OFFSET UNITYSDK_OFFSET(0x1051E070)
 
-inline static constexpr unsigned int Class_1_89373989FB90C35F_TypeDefinitionIndex = 59017;
+inline static constexpr unsigned int Class_1_89373989FB90C35F_TypeDefinitionIndex = 60769;
 
 class Class_1_89373989FB90C35F : public ::System::Object
 {
@@ -22,9 +22,9 @@ public:
 		return ((::RPG::Client::ActivityAlley::ClientAlleyPlacingShip*(*)(::RPG::Client::ActivityAlley::AlleyPackShipData*))((::PBYTE)hIl2Cpp + CLASS_1_89373989FB90C35F_METHOD_1_EAB675F5C0DC88DE_OFFSET))(a1);
 	}
 
-	static ::RPG::Client::ActivityAlley::AlleyPackGroupData* Method_1_1C0ADF1E5ED92315(::RPG::Client::ActivityAlley::AlleyPackGoodData* a1)
+	static ::RPG::Client::ActivityAlley::AlleyPackGroupData* Method_1_1C67AE34DDCA79E1(::RPG::Client::ActivityAlley::AlleyPackGoodData* a1)
 	{
-		return ((::RPG::Client::ActivityAlley::AlleyPackGroupData*(*)(::RPG::Client::ActivityAlley::AlleyPackGoodData*))((::PBYTE)hIl2Cpp + CLASS_1_89373989FB90C35F_METHOD_1_1C0ADF1E5ED92315_OFFSET))(a1);
+		return ((::RPG::Client::ActivityAlley::AlleyPackGroupData*(*)(::RPG::Client::ActivityAlley::AlleyPackGoodData*))((::PBYTE)hIl2Cpp + CLASS_1_89373989FB90C35F_METHOD_1_1C67AE34DDCA79E1_OFFSET))(a1);
 	}
 
 	static ::System::Boolean Method_1_7338D2E09ECF5FAD(::RPG::Client::ActivityAlley::AlleyPackGoodData* a1, ::RPG::Client::ActivityAlley::AlleyPackGoodData* a2)

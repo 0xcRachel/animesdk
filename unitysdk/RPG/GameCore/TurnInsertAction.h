@@ -14,13 +14,13 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_CE08C9E45E05BD78_OFFSET UNITYSDK_OFFSET(0x1712D4D0)
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_DF10E169EE4E4A5C_OFFSET UNITYSDK_OFFSET(0x1712D5D0)
-#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1712D510)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_CE08C9E45E05BD78_OFFSET UNITYSDK_OFFSET(0x178E9510)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_DF10E169EE4E4A5C_OFFSET UNITYSDK_OFFSET(0x178E9610)
+#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x178E9550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 20292;
+	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 20839;
 
 	class TurnInsertAction : public ::RPG::GameCore::TaskConfig
 	{

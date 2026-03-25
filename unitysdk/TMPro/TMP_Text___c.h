@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace TMPro { class TMP_TextInfo; }
 
-#define TMPRO_TMP_TEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1814EC80)
-#define TMPRO_TMP_TEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1814ECB0)
-#define TMPRO_TMP_TEXT___C___CTOR_B__622_0_OFFSET UNITYSDK_OFFSET(0x1814ECC0)
+#define TMPRO_TMP_TEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18976FC0)
+#define TMPRO_TMP_TEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18976FF0)
+#define TMPRO_TMP_TEXT___C___CTOR_B__622_0_OFFSET UNITYSDK_OFFSET(0x18977000)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 33408;
+	inline static constexpr unsigned int TMP_Text___c_TypeDefinitionIndex = 34397;
 
 	class TMP_Text___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::TMPro::TMP_TextInfo*>** StaticGet___9__622_0()
-		{
-			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x32E90);
-		}
 		static ::TMPro::TMP_Text___c** StaticGet___9()
 		{
-			return (::TMPro::TMP_Text___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x32E98);
+			return (::TMPro::TMP_Text___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x43E50);
+		}
+		static ::System::Action_1<::TMPro::TMP_TextInfo*>** StaticGet___9__622_0()
+		{
+			return (::System::Action_1<::TMPro::TMP_TextInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TMP_Text___c_TypeDefinitionIndex)->GetStaticField(0x43E58);
 		}
 
 		static ::System::Void _cctor()

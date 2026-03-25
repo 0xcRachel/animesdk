@@ -3,13 +3,13 @@
 #include "unitysdk/Simplygon/spObject.h"
 #include "unitysdk/System/Runtime/InteropServices/HandleRef.h"
 
-#define SIMPLYGON_SPSHADINGNODE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B72F30)
-#define SIMPLYGON_SPSHADINGNODE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x17B6BFE0)
-#define SIMPLYGON_SPSHADINGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B72E30)
+#define SIMPLYGON_SPSHADINGNODE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1838B360)
+#define SIMPLYGON_SPSHADINGNODE_GETCPTR_OFFSET UNITYSDK_OFFSET(0x18384410)
+#define SIMPLYGON_SPSHADINGNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1838B260)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int spShadingNode_TypeDefinitionIndex = 28699;
+	inline static constexpr unsigned int spShadingNode_TypeDefinitionIndex = 29574;
 
 	class spShadingNode : public ::Simplygon::spObject
 	{

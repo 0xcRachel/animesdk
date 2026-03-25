@@ -7,12 +7,12 @@ namespace RPG::GameCore { class BaseRogueMagicUltraUnitSpecialFactor; }
 namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG_METHOD_2_1202B961702931B8_OFFSET UNITYSDK_OFFSET(0x16E87AB0)
-#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E87CF0)
+#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG_METHOD_2_1202B961702931B8_OFFSET UNITYSDK_OFFSET(0x17628920)
+#define RPG_GAMECORE_ROGUEMAGICPOWERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17628B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicPowerConfig_TypeDefinitionIndex = 16106;
+	inline static constexpr unsigned int RogueMagicPowerConfig_TypeDefinitionIndex = 16470;
 
 	class RogueMagicPowerConfig : public ::RPG::GameCore::JsonConfig
 	{

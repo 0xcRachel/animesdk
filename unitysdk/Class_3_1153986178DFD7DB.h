@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareIsWolfBroBulletActivated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1153986178DFD7DB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2D2320)
-#define CLASS_3_1153986178DFD7DB__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D22F0)
+#define CLASS_3_1153986178DFD7DB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF37B400)
+#define CLASS_3_1153986178DFD7DB__CTOR_OFFSET UNITYSDK_OFFSET(0xF37B3D0)
 
-inline static constexpr unsigned int Class_3_1153986178DFD7DB_TypeDefinitionIndex = 41533;
+inline static constexpr unsigned int Class_3_1153986178DFD7DB_TypeDefinitionIndex = 42578;
 
 class Class_3_1153986178DFD7DB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareIsWolfBroBulletActivated*>
 {

@@ -7,19 +7,19 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_EFC68C140505275B_METHOD_1_1B87CDF9B47D68E9_OFFSET UNITYSDK_OFFSET(0x10AAB3E0)
-#define CLASS_1_EFC68C140505275B_METHOD_1_99F2776D9050706A_OFFSET UNITYSDK_OFFSET(0x10AAB5F0)
-#define CLASS_1_EFC68C140505275B_METHOD_1_9A0AE83FC6A1E9C1_OFFSET UNITYSDK_OFFSET(0x10AABA60)
-#define CLASS_1_EFC68C140505275B_METHOD_1_A713278935EAC498_OFFSET UNITYSDK_OFFSET(0x10AAB280)
-#define CLASS_1_EFC68C140505275B__CTOR_OFFSET UNITYSDK_OFFSET(0x10AAB980)
+#define CLASS_1_EFC68C140505275B_METHOD_1_1B87CDF9B47D68E9_OFFSET UNITYSDK_OFFSET(0x10B31C00)
+#define CLASS_1_EFC68C140505275B_METHOD_1_99F2776D9050706A_OFFSET UNITYSDK_OFFSET(0x10B31E10)
+#define CLASS_1_EFC68C140505275B_METHOD_1_9A0AE83FC6A1E9C1_OFFSET UNITYSDK_OFFSET(0x10B32280)
+#define CLASS_1_EFC68C140505275B_METHOD_1_A713278935EAC498_OFFSET UNITYSDK_OFFSET(0x10B31AA0)
+#define CLASS_1_EFC68C140505275B__CTOR_OFFSET UNITYSDK_OFFSET(0x10B321A0)
 
-inline static constexpr unsigned int Class_1_EFC68C140505275B_TypeDefinitionIndex = 49792;
+inline static constexpr unsigned int Class_1_EFC68C140505275B_TypeDefinitionIndex = 50914;
 
 class Class_1_EFC68C140505275B : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::System::UInt32>*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarSkillTreeAnchorType>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarSkillTreeAnchorType>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::System::UInt32>*>* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

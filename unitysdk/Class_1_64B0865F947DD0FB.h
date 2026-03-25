@@ -7,16 +7,16 @@ namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Text { class Encoding; }
 
-#define CLASS_1_64B0865F947DD0FB__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8D22D0)
+#define CLASS_1_64B0865F947DD0FB__CCTOR_OFFSET UNITYSDK_OFFSET(0x11485E90)
 
-inline static constexpr unsigned int Class_1_64B0865F947DD0FB_TypeDefinitionIndex = 48548;
+inline static constexpr unsigned int Class_1_64B0865F947DD0FB_TypeDefinitionIndex = 49642;
 
 class Class_1_64B0865F947DD0FB : public ::System::Object
 {
 public:
 	static ::Class_1_64B0865F947DD0FB_Class_1_03CFDA324E856C87** StaticGet_Field_1_0()
 	{
-		return (::Class_1_64B0865F947DD0FB_Class_1_03CFDA324E856C87**)Il2CppClass::FromTypeDefinitionIndex(Class_1_64B0865F947DD0FB_TypeDefinitionIndex)->GetStaticField(0x46B90);
+		return (::Class_1_64B0865F947DD0FB_Class_1_03CFDA324E856C87**)Il2CppClass::FromTypeDefinitionIndex(Class_1_64B0865F947DD0FB_TypeDefinitionIndex)->GetStaticField(0x1F170);
 	}
 
 	static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8323800)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x866DA50)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int QueryAgeGateOptions_TypeDefinitionIndex = 35322;
+	inline static constexpr unsigned int QueryAgeGateOptions_TypeDefinitionIndex = 36256;
 
 	class QueryAgeGateOptions : public ::System::Object
 	{

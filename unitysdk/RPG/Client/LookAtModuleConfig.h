@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
-#define RPG_CLIENT_LOOKATMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x959ADB0)
-#define RPG_CLIENT_LOOKATMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x959AE00)
+#define RPG_CLIENT_LOOKATMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x9A75660)
+#define RPG_CLIENT_LOOKATMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9A756B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtModuleConfig_TypeDefinitionIndex = 55408;
+	inline static constexpr unsigned int LookAtModuleConfig_TypeDefinitionIndex = 56973;
 
 	class LookAtModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

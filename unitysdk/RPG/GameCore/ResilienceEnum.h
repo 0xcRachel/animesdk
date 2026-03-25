@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResilienceEnum_TypeDefinitionIndex = 14859;
+	inline static constexpr unsigned int ResilienceEnum_TypeDefinitionIndex = 15111;
 
 	enum class ResilienceEnum : ::System::Int32
 	{

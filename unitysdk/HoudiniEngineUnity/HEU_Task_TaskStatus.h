@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Task_TaskStatus_TypeDefinitionIndex = 36846;
+	inline static constexpr unsigned int HEU_Task_TaskStatus_TypeDefinitionIndex = 37783;
 
 	enum class HEU_Task_TaskStatus : ::System::Int32
 	{

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class BaseScrollGameConfig; }
 
-#define CLASS_1_AF19506C4C6F1C66__CTOR_OFFSET UNITYSDK_OFFSET(0x16087370)
+#define CLASS_1_AF19506C4C6F1C66__CTOR_OFFSET UNITYSDK_OFFSET(0x1681DDA0)
 
-inline static constexpr unsigned int Class_1_AF19506C4C6F1C66_TypeDefinitionIndex = 32505;
+inline static constexpr unsigned int Class_1_AF19506C4C6F1C66_TypeDefinitionIndex = 33417;
 
 class Class_1_AF19506C4C6F1C66 : public ::System::Object
 {

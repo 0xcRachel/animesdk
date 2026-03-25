@@ -3,13 +3,13 @@
 #include "unitysdk/Simplygon/spSettingsObject.h"
 #include "unitysdk/System/Runtime/InteropServices/HandleRef.h"
 
-#define SIMPLYGON_SPREMESHINGSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B71350)
-#define SIMPLYGON_SPREMESHINGSETTINGS_SETONSCREENSIZE_OFFSET UNITYSDK_OFFSET(0x17B714E0)
-#define SIMPLYGON_SPREMESHINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17B70F40)
+#define SIMPLYGON_SPREMESHINGSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18389780)
+#define SIMPLYGON_SPREMESHINGSETTINGS_SETONSCREENSIZE_OFFSET UNITYSDK_OFFSET(0x18389910)
+#define SIMPLYGON_SPREMESHINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18389370)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int spRemeshingSettings_TypeDefinitionIndex = 28692;
+	inline static constexpr unsigned int spRemeshingSettings_TypeDefinitionIndex = 29567;
 
 	class spRemeshingSettings : public ::Simplygon::spSettingsObject
 	{

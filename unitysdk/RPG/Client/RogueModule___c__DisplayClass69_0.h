@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class RogueBuffData; }
 
-#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E29A10)
-#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS69_0__ISBUFFACHIVEDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x9E330B0)
+#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA34BDB0)
+#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS69_0__ISBUFFACHIVEDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xA355580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueModule___c__DisplayClass69_0_TypeDefinitionIndex = 53610;
+	inline static constexpr unsigned int RogueModule___c__DisplayClass69_0_TypeDefinitionIndex = 54967;
 
 	class RogueModule___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 buffLevel; // 0x10
-		::System::UInt32 buffID; // 0x14
+		::System::UInt32 buffID; // 0x10
+		::System::UInt32 buffLevel; // 0x14
 
 		::System::Void _ctor()
 		{

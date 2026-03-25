@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/PostProcessing/RaindropParameter.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xA655D70)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xAB9C3C0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RaindropTimelineBehaviour_TypeDefinitionIndex = 38427;
+	inline static constexpr unsigned int RaindropTimelineBehaviour_TypeDefinitionIndex = 39407;
 
 	class RaindropTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

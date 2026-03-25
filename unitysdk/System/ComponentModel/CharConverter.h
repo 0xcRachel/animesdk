@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int CharConverter_TypeDefinitionIndex = 2551;
+	inline static constexpr unsigned int CharConverter_TypeDefinitionIndex = 2556;
 
 	class CharConverter : public ::System::ComponentModel::TypeConverter
 	{

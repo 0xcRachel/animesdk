@@ -3,7 +3,7 @@
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int ETexcoordGeneratorType_TypeDefinitionIndex = 28670;
+	inline static constexpr unsigned int ETexcoordGeneratorType_TypeDefinitionIndex = 29545;
 
 	enum class ETexcoordGeneratorType : ::System::Int32
 	{

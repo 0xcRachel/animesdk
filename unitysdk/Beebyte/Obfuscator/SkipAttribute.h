@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEEBYTE_OBFUSCATOR_SKIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x8007060)
+#define BEEBYTE_OBFUSCATOR_SKIPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x8366060)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int SkipAttribute_TypeDefinitionIndex = 37013;
+	inline static constexpr unsigned int SkipAttribute_TypeDefinitionIndex = 37973;
 
 	class SkipAttribute : public ::System::Attribute
 	{

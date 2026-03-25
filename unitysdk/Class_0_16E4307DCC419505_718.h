@@ -1,8 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/RPG/GameCore/RogueBuffAeonType.h"
+#include "unitysdk/RPG/GameCore/RogueBuffCategory.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 54737;
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_718_TypeDefinitionIndex = 54714;
 
 class Class_0_16E4307DCC419505_718
 {

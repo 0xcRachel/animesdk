@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0x9FA0130)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0x9FA02D0)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9FA0470)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0xA4C0230)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0xA4C03D0)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA4C0570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 54827;
+	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 56388;
 
 	class SpritePresetController : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OICubeType_TypeDefinitionIndex = 61976;
+	inline static constexpr unsigned int OICubeType_TypeDefinitionIndex = 64163;
 
 	enum class OICubeType : ::System::UInt32
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_MINIMALCRPVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1820F480)
+#define UNITYENGINE_MINIMALCRPVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A38240)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MinimalCrpVersionAttribute_TypeDefinitionIndex = 4098;
+	inline static constexpr unsigned int MinimalCrpVersionAttribute_TypeDefinitionIndex = 4120;
 
 	class MinimalCrpVersionAttribute : public ::System::Attribute
 	{

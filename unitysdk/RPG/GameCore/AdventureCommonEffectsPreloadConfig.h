@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItem; }
 
-#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_METHOD_2_60FAAF47FC7E6D09_OFFSET UNITYSDK_OFFSET(0x1685A210)
-#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1685A340)
+#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_METHOD_2_60FAAF47FC7E6D09_OFFSET UNITYSDK_OFFSET(0x16F67AE0)
+#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F67C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCommonEffectsPreloadConfig_TypeDefinitionIndex = 14727;
+	inline static constexpr unsigned int AdventureCommonEffectsPreloadConfig_TypeDefinitionIndex = 14979;
 
 	class AdventureCommonEffectsPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

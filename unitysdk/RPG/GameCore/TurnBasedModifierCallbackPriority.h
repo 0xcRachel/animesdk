@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_METHOD_2_7B92CA125B902AE2_OFFSET UNITYSDK_OFFSET(0x1712B2D0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1712B470)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY_METHOD_2_7B92CA125B902AE2_OFFSET UNITYSDK_OFFSET(0x178E7310)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x178E74B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierCallbackPriority_TypeDefinitionIndex = 16360;
+	inline static constexpr unsigned int TurnBasedModifierCallbackPriority_TypeDefinitionIndex = 16734;
 
 	class TurnBasedModifierCallbackPriority : public ::RPG::GameCore::JsonConfig
 	{

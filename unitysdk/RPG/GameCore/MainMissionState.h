@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionState_TypeDefinitionIndex = 18081;
+	inline static constexpr unsigned int MainMissionState_TypeDefinitionIndex = 18599;
 
 	enum class MainMissionState : ::System::Int32
 	{

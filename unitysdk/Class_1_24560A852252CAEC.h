@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_361;
-class Class_0_16E4307DCC419505_384;
+class Class_0_16E4307DCC419505_389;
+class Class_0_16E4307DCC419505_412;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_24560A852252CAEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x109B66F0)
-#define CLASS_1_24560A852252CAEC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x109B6660)
-#define CLASS_1_24560A852252CAEC__CTOR_OFFSET UNITYSDK_OFFSET(0x109B6650)
+#define CLASS_1_24560A852252CAEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x109DC250)
+#define CLASS_1_24560A852252CAEC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x109DC1C0)
+#define CLASS_1_24560A852252CAEC__CTOR_OFFSET UNITYSDK_OFFSET(0x109DC1B0)
 
-inline static constexpr unsigned int Class_1_24560A852252CAEC_TypeDefinitionIndex = 46662;
+inline static constexpr unsigned int Class_1_24560A852252CAEC_TypeDefinitionIndex = 47741;
 
 class Class_1_24560A852252CAEC : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_384* Field_1_1; // 0x10
-	::Class_0_16E4307DCC419505_361* Field_1_0; // 0x18
+	::Class_0_16E4307DCC419505_389* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_412* Field_1_1; // 0x18
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_361* a1, ::Class_0_16E4307DCC419505_384* a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_389* a1, ::Class_0_16E4307DCC419505_412* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_361*, ::Class_0_16E4307DCC419505_384*))((::PBYTE)hIl2Cpp + CLASS_1_24560A852252CAEC__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_389*, ::Class_0_16E4307DCC419505_412*))((::PBYTE)hIl2Cpp + CLASS_1_24560A852252CAEC__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Transform(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

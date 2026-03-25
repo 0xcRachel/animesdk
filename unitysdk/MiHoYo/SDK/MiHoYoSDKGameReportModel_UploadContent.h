@@ -7,11 +7,11 @@ namespace MiHoYo::SDK { class MiHoYoSDKGameReportModel_LogInfo; }
 namespace MiHoYo::SDK { class MiHoYoSDKGameReportModel_UserInfo; }
 namespace MiHoYo::SDK { class MiHoYoSDKGameReportModel_VersionInfo; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_UPLOADCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x81CCC60)
+#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_UPLOADCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x851DBF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameReportModel_UploadContent_TypeDefinitionIndex = 36168;
+	inline static constexpr unsigned int MiHoYoSDKGameReportModel_UploadContent_TypeDefinitionIndex = 37104;
 
 	class MiHoYoSDKGameReportModel_UploadContent : public ::System::Object
 	{

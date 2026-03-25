@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16759CF0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16787270)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EBCE50)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPGOODSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBD070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatShopGoodsRow_TypeDefinitionIndex = 10459;
+	inline static constexpr unsigned int ActivityDiceCombatShopGoodsRow_TypeDefinitionIndex = 10527;
 
 	class ActivityDiceCombatShopGoodsRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCost; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockCondition; // 0x18
-		::System::UInt32 GoodsSortID; // 0x20
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockCondition; // 0x10
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCost; // 0x18
+		::System::UInt32 DiceShopGoodsID; // 0x20
 		::System::UInt32 ItemID; // 0x24
-		::System::UInt32 DiceShopGoodsID; // 0x28
+		::System::UInt32 GoodsSortID; // 0x28
 
 		::System::Void _ctor()
 		{

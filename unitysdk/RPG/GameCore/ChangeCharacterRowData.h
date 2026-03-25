@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ChangeCharacterSkillRowDataItem; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_612B80EB52FC3219_OFFSET UNITYSDK_OFFSET(0x16964370)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET UNITYSDK_OFFSET(0x16964280)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16964310)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_D9589E00203CC88E_OFFSET UNITYSDK_OFFSET(0x17075AC0)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET UNITYSDK_OFFSET(0x170759D0)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17075A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 21367;
+	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 21927;
 
 	class ChangeCharacterRowData : public ::RPG::GameCore::TaskConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterRowData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_612B80EB52FC3219(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterRowData* a2)
+		static ::System::Void Method_3_D9589E00203CC88E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterRowData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_612B80EB52FC3219_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_D9589E00203CC88E_OFFSET))(a1, a2);
 		}
 	};
 }

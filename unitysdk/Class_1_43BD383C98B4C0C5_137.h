@@ -6,9 +6,9 @@
 namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightGridData; }
 
-#define CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET UNITYSDK_OFFSET(0x103523F0)
+#define CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET UNITYSDK_OFFSET(0x8C340E0)
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_137_TypeDefinitionIndex = 51500;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_137_TypeDefinitionIndex = 52633;
 
 class Class_1_43BD383C98B4C0C5_137 : public ::System::Object
 {

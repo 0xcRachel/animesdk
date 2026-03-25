@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByRegionEraState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F6BE0142BC8509EF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFE969F0)
-#define CLASS_3_F6BE0142BC8509EF__CTOR_OFFSET UNITYSDK_OFFSET(0xFE969C0)
+#define CLASS_3_F6BE0142BC8509EF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x89E7960)
+#define CLASS_3_F6BE0142BC8509EF__CTOR_OFFSET UNITYSDK_OFFSET(0x89E6CD0)
 
-inline static constexpr unsigned int Class_3_F6BE0142BC8509EF_TypeDefinitionIndex = 41664;
+inline static constexpr unsigned int Class_3_F6BE0142BC8509EF_TypeDefinitionIndex = 42710;
 
 class Class_3_F6BE0142BC8509EF : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByRegionEraState*>
 {

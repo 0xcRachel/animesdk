@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x97AB040)
-#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x97AB300)
+#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x9C8BE60)
+#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x9C8C120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectLightCoreLightingControl_TypeDefinitionIndex = 54841;
+	inline static constexpr unsigned int MonoEffectLightCoreLightingControl_TypeDefinitionIndex = 56402;
 
 	class MonoEffectLightCoreLightingControl : public ::UnityEngine::MonoBehaviour
 	{

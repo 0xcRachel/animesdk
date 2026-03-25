@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int EProbeRenderMode_TypeDefinitionIndex = 28582;
+	inline static constexpr unsigned int EProbeRenderMode_TypeDefinitionIndex = 29457;
 
 	enum class EProbeRenderMode : ::System::Int32
 	{

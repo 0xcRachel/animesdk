@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_SET_WRITABLESELF_OFFSET UNITYSDK_OFFSET(0x182A3280)
-#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x182A3290)
+#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_SET_WRITABLESELF_OFFSET UNITYSDK_OFFSET(0x18ACA390)
+#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACA3A0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeWritableSelfAttribute_TypeDefinitionIndex = 3692;
+	inline static constexpr unsigned int NativeWritableSelfAttribute_TypeDefinitionIndex = 3701;
 
 	class NativeWritableSelfAttribute : public ::System::Attribute
 	{

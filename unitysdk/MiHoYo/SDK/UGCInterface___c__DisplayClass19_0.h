@@ -11,31 +11,31 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x825BE20)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x82607E0)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x8260B30)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x8260910)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__3_OFFSET UNITYSDK_OFFSET(0x8260990)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x85A9D60)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x85AE650)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__1_OFFSET UNITYSDK_OFFSET(0x85AE9A0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__2_OFFSET UNITYSDK_OFFSET(0x85AE780)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS19_0__HTTPPOSTBINARYCARRYTOKENIMPL_B__3_OFFSET UNITYSDK_OFFSET(0x85AE800)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass19_0_TypeDefinitionIndex = 36270;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass19_0_TypeDefinitionIndex = 37206;
 
 	class UGCInterface___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::String* strRegion; // 0x10
-		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* __9__2; // 0x18
-		::System::String* strTaskId; // 0x20
-		::System::String* strUId; // 0x28
-		::Il2CppArray<::System::Byte>* body; // 0x30
-		::System::String* strContentType; // 0x38
-		::System::Action* __9__3; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x48
-		::System::String* strUrl; // 0x50
-		::MiHoYo::SDK::UGCInterface* __4__this; // 0x58
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x60
-		::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback; // 0x68
+		::System::Action_3<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::Il2CppArray<::System::Byte>*, ::System::String*>* __9__2; // 0x10
+		::System::String* strUrl; // 0x18
+		::MiHoYo::SDK::UGCInterface* __4__this; // 0x20
+		::System::String* strContentType; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x30
+		::System::String* strUId; // 0x38
+		::System::String* strRegion; // 0x40
+		::System::Action_1<::MiHoYo::SDK::UGCInterface_UgcBinaryResponseModel*>* callback; // 0x48
+		::System::Action* __9__3; // 0x50
+		::System::String* strTaskId; // 0x58
+		::Il2CppArray<::System::Byte>* body; // 0x60
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* tokenFailedCallback; // 0x68
 		::System::Single nTimeoutSeconds; // 0x70
 		::System::Int32 nRetryCount; // 0x74
 

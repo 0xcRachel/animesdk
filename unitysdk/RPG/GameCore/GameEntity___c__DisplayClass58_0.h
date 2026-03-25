@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_302;
+class Class_0_16E4307DCC419505_336;
 
-#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA41D470)
-#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__DEATHRATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xA41EF60)
+#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA959900)
+#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__DEATHRATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xA959910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntity___c__DisplayClass58_0_TypeDefinitionIndex = 42291;
+	inline static constexpr unsigned int GameEntity___c__DisplayClass58_0_TypeDefinitionIndex = 43340;
 
 	class GameEntity___c__DisplayClass58_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _Deathrattle_b__0(::Class_0_16E4307DCC419505_302* pModifierInst)
+		::System::Boolean _Deathrattle_b__0(::Class_0_16E4307DCC419505_336* pModifierInst)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_302*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__DEATHRATTLE_B__0_OFFSET))(this, pModifierInst);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_336*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__DEATHRATTLE_B__0_OFFSET))(this, pModifierInst);
 		}
 	};
 }

@@ -3,18 +3,17 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_4_77E9A57BF479B8FD;
+class Class_4_417C7B46A4074E8A;
 namespace EnviromentSystemV2Space { class ImageCurveAsset; }
 namespace UnityEngine { class Texture; }
 
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE50D930)
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_ONGUI_OFFSET UNITYSDK_OFFSET(0xE50DA50)
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xE50DA00)
-#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE50DDA0)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x103816E0)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x103817B0)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x10381800)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ImageCurveTestBehavior_TypeDefinitionIndex = 39193;
+	inline static constexpr unsigned int ImageCurveTestBehavior_TypeDefinitionIndex = 40173;
 
 	class ImageCurveTestBehavior : public ::UnityEngine::MonoBehaviour
 	{
@@ -23,10 +22,8 @@ namespace EnviromentSystemV2Space
 		::System::Single currentTime; // 0x20
 		::UnityEngine::Vector2 previewSize; // 0x24
 		::System::Boolean showSegmentInfo; // 0x2C
-		::Class_4_77E9A57BF479B8FD* Field_5_4; // 0x30
-		::System::Int32 Field_5_5; // 0x38
-		::UnityEngine::Texture* Field_5_6; // 0x40
-		::System::Boolean Field_5_7; // 0x48
+		::Class_4_417C7B46A4074E8A* Field_5_4; // 0x30
+		::UnityEngine::Texture* Field_5_5; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -41,11 +38,6 @@ namespace EnviromentSystemV2Space
 		::System::Void SetTexture(::UnityEngine::Texture* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_SETTEXTURE_OFFSET))(this, a1);
-		}
-
-		::System::Void OnGUI()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_IMAGECURVETESTBEHAVIOR_ONGUI_OFFSET))(this);
 		}
 	};
 }

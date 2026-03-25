@@ -5,12 +5,12 @@
 class Class_1_F381659723E3F143_1;
 namespace RPG::Client { class FriendRankingInfo; }
 
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98D4E30)
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__UPDATESELFRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x98D5490)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB7420)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__DISPLAYCLASS8_0__UPDATESELFRANKINGINFO_B__0_OFFSET UNITYSDK_OFFSET(0x9DB7A80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 52792;
+	inline static constexpr unsigned int MultiplayerCareerData___c__DisplayClass8_0_TypeDefinitionIndex = 53929;
 
 	class MultiplayerCareerData___c__DisplayClass8_0 : public ::System::Object
 	{

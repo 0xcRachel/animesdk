@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_301;
+class Class_0_16E4307DCC419505_335;
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_3B36CE63D36E9917_1___c__DisplayClass2_0_1_TypeDefinitionIndex = 60109;
+inline static constexpr unsigned int Class_1_3B36CE63D36E9917_1___c__DisplayClass2_0_1_TypeDefinitionIndex = 61890;
 
 template <typename TEvent>
 class Class_1_3B36CE63D36E9917_1___c__DisplayClass2_0_1 : public ::System::Object

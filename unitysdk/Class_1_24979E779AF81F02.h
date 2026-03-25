@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F9FBCC956DFCF137_13;
+class Class_1_F9FBCC956DFCF137_14;
 class Class_2_6AA7CA7493367EF4;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_24979E779AF81F02_EXECUTE_OFFSET UNITYSDK_OFFSET(0x103547C0)
-#define CLASS_1_24979E779AF81F02_GET_ALLCHIMERAS_OFFSET UNITYSDK_OFFSET(0x10354B90)
-#define CLASS_1_24979E779AF81F02_TICK_OFFSET UNITYSDK_OFFSET(0x10354B30)
-#define CLASS_1_24979E779AF81F02__CTOR_OFFSET UNITYSDK_OFFSET(0x10354560)
+#define CLASS_1_24979E779AF81F02_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11744350)
+#define CLASS_1_24979E779AF81F02_GET_ALLCHIMERAS_OFFSET UNITYSDK_OFFSET(0x11744720)
+#define CLASS_1_24979E779AF81F02_TICK_OFFSET UNITYSDK_OFFSET(0x117446C0)
+#define CLASS_1_24979E779AF81F02__CTOR_OFFSET UNITYSDK_OFFSET(0x117440F0)
 
-inline static constexpr unsigned int Class_1_24979E779AF81F02_TypeDefinitionIndex = 61196;
+inline static constexpr unsigned int Class_1_24979E779AF81F02_TypeDefinitionIndex = 63195;
 
 class Class_1_24979E779AF81F02 : public ::System::Object
 {
@@ -25,9 +25,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Class_2_6AA7CA7493367EF4*))((::PBYTE)hIl2Cpp + CLASS_1_24979E779AF81F02__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_13* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_14* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_13*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_24979E779AF81F02_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_14*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_24979E779AF81F02_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)

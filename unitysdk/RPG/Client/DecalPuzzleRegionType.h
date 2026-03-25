@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DecalPuzzleRegionType_TypeDefinitionIndex = 54514;
+	inline static constexpr unsigned int DecalPuzzleRegionType_TypeDefinitionIndex = 56074;
 
 	enum class DecalPuzzleRegionType : ::System::Int32
 	{

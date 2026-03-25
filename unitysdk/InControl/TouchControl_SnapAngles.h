@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchControl_SnapAngles_TypeDefinitionIndex = 30594;
+	inline static constexpr unsigned int TouchControl_SnapAngles_TypeDefinitionIndex = 31469;
 
 	enum class TouchControl_SnapAngles : ::System::Int32
 	{

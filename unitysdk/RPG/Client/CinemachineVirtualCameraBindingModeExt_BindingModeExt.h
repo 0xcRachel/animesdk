@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraBindingModeExt_BindingModeExt_TypeDefinitionIndex = 54214;
+	inline static constexpr unsigned int CinemachineVirtualCameraBindingModeExt_BindingModeExt_TypeDefinitionIndex = 55772;
 
 	enum class CinemachineVirtualCameraBindingModeExt_BindingModeExt : ::System::Int32
 	{

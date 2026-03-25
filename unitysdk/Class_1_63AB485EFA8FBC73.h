@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x86D72E0)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_006FE46C1CBA320C_OFFSET UNITYSDK_OFFSET(0x86D7B60)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_1_OFFSET UNITYSDK_OFFSET(0x86D7740)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0x86D7320)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x86D7230)
-#define CLASS_1_63AB485EFA8FBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x86D8040)
+#define CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x89F8300)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_006FE46C1CBA320C_OFFSET UNITYSDK_OFFSET(0x89F8B80)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_1_OFFSET UNITYSDK_OFFSET(0x89F8760)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0x89F8340)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x89F8250)
+#define CLASS_1_63AB485EFA8FBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x89F9060)
 
-inline static constexpr unsigned int Class_1_63AB485EFA8FBC73_TypeDefinitionIndex = 47655;
+inline static constexpr unsigned int Class_1_63AB485EFA8FBC73_TypeDefinitionIndex = 48736;
 
 class Class_1_63AB485EFA8FBC73 : public ::System::Object
 {
 public:
-	::RPG::Client::AchievementData* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_5; // 0x18
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_5; // 0x10
+	::RPG::Client::AchievementData* Field_1_0; // 0x18
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Field_1_6; // 0x20
 	::RPG::Client::AchievementData* Field_1_1; // 0x28
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x30

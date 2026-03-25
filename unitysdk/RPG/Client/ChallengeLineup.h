@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D8EAED2BCF3F4D39_8;
+class Class_1_D8EAED2BCF3F4D39_14;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGELINEUP_GETBUFFID_OFFSET UNITYSDK_OFFSET(0x8E73570)
-#define RPG_CLIENT_CHALLENGELINEUP_GETLINEUPAVATARIDS_OFFSET UNITYSDK_OFFSET(0x8E735E0)
-#define RPG_CLIENT_CHALLENGELINEUP_UPDATEBYCHALLENGERECOMMENDLINEUPINFO_OFFSET UNITYSDK_OFFSET(0x8E72E50)
-#define RPG_CLIENT_CHALLENGELINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x8E72CE0)
+#define RPG_CLIENT_CHALLENGELINEUP_GETBUFFID_OFFSET UNITYSDK_OFFSET(0x92D85D0)
+#define RPG_CLIENT_CHALLENGELINEUP_GETLINEUPAVATARIDS_OFFSET UNITYSDK_OFFSET(0x92D8640)
+#define RPG_CLIENT_CHALLENGELINEUP_UPDATEBYCHALLENGERECOMMENDLINEUPINFO_OFFSET UNITYSDK_OFFSET(0x92D7EB0)
+#define RPG_CLIENT_CHALLENGELINEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x92D7D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeLineup_TypeDefinitionIndex = 50087;
+	inline static constexpr unsigned int ChallengeLineup_TypeDefinitionIndex = 51220;
 
 	class ChallengeLineup : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUP__CTOR_OFFSET))(this);
 		}
 
-		::System::Void UpdateByChallengeRecommendLineupInfo(::Class_1_D8EAED2BCF3F4D39_8* info)
+		::System::Void UpdateByChallengeRecommendLineupInfo(::Class_1_D8EAED2BCF3F4D39_14* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D8EAED2BCF3F4D39_8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUP_UPDATEBYCHALLENGERECOMMENDLINEUPINFO_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D8EAED2BCF3F4D39_14*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGELINEUP_UPDATEBYCHALLENGERECOMMENDLINEUPINFO_OFFSET))(this, info);
 		}
 
 		::System::UInt32 GetBuffID(::System::Int32 index)

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/SDFVisualizeMethod.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GLOBALSDFSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x16375180)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GLOBALSDFSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x16A847C0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_GlobalSDFSettings_TypeDefinitionIndex = 28418;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_GlobalSDFSettings_TypeDefinitionIndex = 29293;
 
 	class CRPGraphicsSettingsData_GlobalSDFSettings : public ::System::Object
 	{

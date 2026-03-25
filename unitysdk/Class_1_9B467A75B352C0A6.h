@@ -16,20 +16,20 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CLASS_1_9B467A75B352C0A6__CTOR_OFFSET UNITYSDK_OFFSET(0x162A5BA0)
+#define CLASS_1_9B467A75B352C0A6__CTOR_OFFSET UNITYSDK_OFFSET(0x16790710)
 
-inline static constexpr unsigned int Class_1_9B467A75B352C0A6_TypeDefinitionIndex = 32329;
+inline static constexpr unsigned int Class_1_9B467A75B352C0A6_TypeDefinitionIndex = 33239;
 
 class Class_1_9B467A75B352C0A6 : public ::System::Object
 {
 public:
-	::UnityEngine::Material* Field_1_5; // 0x10
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Tuple_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion>*>* Field_1_0; // 0x18
-	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_9C2F1FCEC1A75FFD*>*>*>* Field_1_4; // 0x20
-	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::System::Collections::Generic::HashSet_1<::Class_2_9C2F1FCEC1A75FFD*>*>* Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::System::Collections::Generic::HashSet_1<::Class_2_9C2F1FCEC1A75FFD*>*>* Field_1_3; // 0x18
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::Class_2_9C2F1FCEC1A75FFD*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_9C2F1FCEC1A75FFD*>*>*>* Field_1_4; // 0x28
 	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_7; // 0x30
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::Class_2_9C2F1FCEC1A75FFD*>* Field_1_2; // 0x38
-	::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>* Field_1_1; // 0x40
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Tuple_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion>*>* Field_1_0; // 0x38
+	::UnityEngine::Material* Field_1_5; // 0x40
 	::System::Int32 Field_1_6; // 0x48
 
 	::System::Void _ctor()

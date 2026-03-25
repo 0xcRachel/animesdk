@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class ITerrainLayer; }
 
-#define UNITYENGINE_TERRAINADDITIONALCOMPONENT_GETACTIVELAYERS_OFFSET UNITYSDK_OFFSET(0x182A92B0)
-#define UNITYENGINE_TERRAINADDITIONALCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x182A9380)
+#define UNITYENGINE_TERRAINADDITIONALCOMPONENT_GETACTIVELAYERS_OFFSET UNITYSDK_OFFSET(0x18ACFB20)
+#define UNITYENGINE_TERRAINADDITIONALCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACFBF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainAdditionalComponent_TypeDefinitionIndex = 5129;
+	inline static constexpr unsigned int TerrainAdditionalComponent_TypeDefinitionIndex = 5229;
 
 	class TerrainAdditionalComponent : public ::UnityEngine::MonoBehaviour
 	{

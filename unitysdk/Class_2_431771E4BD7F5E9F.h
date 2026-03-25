@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CLASS_2_431771E4BD7F5E9F_METHOD_2_9133398E73B9D974_1_OFFSET UNITYSDK_OFFSET(0x15F00120)
-#define CLASS_2_431771E4BD7F5E9F_METHOD_2_9133398E73B9D974_OFFSET UNITYSDK_OFFSET(0x15F00070)
-#define CLASS_2_431771E4BD7F5E9F__CTOR_OFFSET UNITYSDK_OFFSET(0x15F00060)
+#define CLASS_2_431771E4BD7F5E9F_METHOD_2_B153DBF66F2B9EE2_OFFSET UNITYSDK_OFFSET(0x1666C590)
+#define CLASS_2_431771E4BD7F5E9F_METHOD_2_F07840BBC25636A7_OFFSET UNITYSDK_OFFSET(0x1666C640)
+#define CLASS_2_431771E4BD7F5E9F__CTOR_OFFSET UNITYSDK_OFFSET(0x1666C580)
 
-inline static constexpr unsigned int Class_2_431771E4BD7F5E9F_TypeDefinitionIndex = 27919;
+inline static constexpr unsigned int Class_2_431771E4BD7F5E9F_TypeDefinitionIndex = 28740;
 
 class Class_2_431771E4BD7F5E9F : public ::Class_1_25654F9F148092E5
 {
@@ -20,13 +20,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_431771E4BD7F5E9F__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_9133398E73B9D974(::System::Single a1)
+	::System::Void Method_2_B153DBF66F2B9EE2(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_431771E4BD7F5E9F_METHOD_2_9133398E73B9D974_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_431771E4BD7F5E9F_METHOD_2_B153DBF66F2B9EE2_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_9133398E73B9D974_1(::System::Single a1)
+	::System::Void Method_2_F07840BBC25636A7(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_431771E4BD7F5E9F_METHOD_2_9133398E73B9D974_1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_431771E4BD7F5E9F_METHOD_2_F07840BBC25636A7_OFFSET))(this, a1);
 	}
 };

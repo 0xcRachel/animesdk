@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_3_6FDB7310593A8BB6_OFFSET UNITYSDK_OFFSET(0x16D16990)
-#define RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_3_DD714B9F989275A7_OFFSET UNITYSDK_OFFSET(0x16D168B0)
-#define RPG_GAMECORE_PARAMROUNDINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D16940)
+#define RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_4_8513F566F2E95B1F_OFFSET UNITYSDK_OFFSET(0x1749E180)
+#define RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_4_C672F52FED544892_OFFSET UNITYSDK_OFFSET(0x1749E040)
+#define RPG_GAMECORE_PARAMROUNDINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1749E100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamRoundingConfig_TypeDefinitionIndex = 15379;
+	inline static constexpr unsigned int ParamRoundingConfig_TypeDefinitionIndex = 15653;
 
 	class ParamRoundingConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMROUNDINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DD714B9F989275A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamRoundingConfig*& a2)
+		static ::System::Void Method_4_C672F52FED544892(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamRoundingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamRoundingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_3_DD714B9F989275A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamRoundingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_4_C672F52FED544892_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6FDB7310593A8BB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamRoundingConfig* a2)
+		static ::System::Void Method_4_8513F566F2E95B1F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamRoundingConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamRoundingConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_3_6FDB7310593A8BB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamRoundingConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMROUNDINGCONFIG_METHOD_4_8513F566F2E95B1F_OFFSET))(a1, a2);
 		}
 	};
 }

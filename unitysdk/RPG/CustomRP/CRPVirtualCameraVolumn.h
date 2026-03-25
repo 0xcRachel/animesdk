@@ -11,30 +11,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_DISABLEDYNAMICRES_TEMPFIXPS5_OFFSET UNITYSDK_OFFSET(0x1637EE30)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_GET_DISABLEHIZOC_OFFSET UNITYSDK_OFFSET(0x1637EF10)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_HASVCCAMERA_OFFSET UNITYSDK_OFFSET(0x1637EE40)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1637EEB0)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1637EE50)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_RESETVC_OFFSET UNITYSDK_OFFSET(0x1637EDD0)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_UPDATEACTIVEVC_OFFSET UNITYSDK_OFFSET(0x1637E2C0)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1637EFD0)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN__CTOR_OFFSET UNITYSDK_OFFSET(0x1637EF30)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_DISABLEDYNAMICRES_TEMPFIXPS5_OFFSET UNITYSDK_OFFSET(0x16A8E190)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_GET_DISABLEHIZOC_OFFSET UNITYSDK_OFFSET(0x16A8E300)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_HASVCCAMERA_OFFSET UNITYSDK_OFFSET(0x16A8E1A0)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16A8E210)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16A8E1B0)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_RESETVC_OFFSET UNITYSDK_OFFSET(0x16A8E130)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN_UPDATEACTIVEVC_OFFSET UNITYSDK_OFFSET(0x16A8D8A0)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A8E3C0)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERAVOLUMN__CTOR_OFFSET UNITYSDK_OFFSET(0x16A8E320)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPVirtualCameraVolumn_TypeDefinitionIndex = 28439;
+	inline static constexpr unsigned int CRPVirtualCameraVolumn_TypeDefinitionIndex = 29314;
 
 	class CRPVirtualCameraVolumn : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::CRPVirtualCameraVolumn*>** StaticGet_s_CurrentVCVolumn()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::CRPVirtualCameraVolumn*>**)Il2CppClass::FromTypeDefinitionIndex(CRPVirtualCameraVolumn_TypeDefinitionIndex)->GetStaticField(0x37980);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::CRPVirtualCameraVolumn*>**)Il2CppClass::FromTypeDefinitionIndex(CRPVirtualCameraVolumn_TypeDefinitionIndex)->GetStaticField(0x27DB0);
 		}
 		static ::System::Boolean* StaticGet_lastVCCameraEnable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CRPVirtualCameraVolumn_TypeDefinitionIndex)->GetStaticField(0xD970);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CRPVirtualCameraVolumn_TypeDefinitionIndex)->GetStaticField(0xB330);
 		}
 		::Il2CppArray<::UnityEngine::Rendering::CRPVirtualCamera*>* virtualCameras; // 0x18
 		::Il2CppArray<::RPG::CustomRP::CRPVirtualCameraCmd*>* virtualCameraCmds; // 0x20

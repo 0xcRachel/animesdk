@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/Context_1.h"
 
-class Class_2_10C41C9489C692F4;
+class Class_2_569DE47525C5FD32;
 
-#define CLASS_2_099B78418029B3B1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16070AE0)
+#define CLASS_2_099B78418029B3B1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x166D9410)
 
-inline static constexpr unsigned int Class_2_099B78418029B3B1_1_TypeDefinitionIndex = 27982;
+inline static constexpr unsigned int Class_2_099B78418029B3B1_1_TypeDefinitionIndex = 28801;
 
-class Class_2_099B78418029B3B1_1 : public ::Entitas::Context_1<::Class_2_10C41C9489C692F4*>
+class Class_2_099B78418029B3B1_1 : public ::Entitas::Context_1<::Class_2_569DE47525C5FD32*>
 {
 public:
 	::System::Void _ctor()

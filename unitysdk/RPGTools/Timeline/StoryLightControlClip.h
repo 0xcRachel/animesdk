@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/StoryLightCharacterGroup.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
@@ -7,15 +8,16 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPGTools::Timeline { class StoryLightControlBehaviour; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA66BE50)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA66C050)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA66C060)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xABB2BF0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xABB2E00)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xABB2E10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightControlClip_TypeDefinitionIndex = 38189;
+	inline static constexpr unsigned int StoryLightControlClip_TypeDefinitionIndex = 39166;
 
 	class StoryLightControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -24,7 +26,9 @@ namespace RPGTools::Timeline
 		::System::Boolean EnableRotation; // 0x19
 		::UnityEngine::Vector3 Rotation; // 0x1C
 		::RPGTools::Timeline::StoryLightControlBehaviour* template_; // 0x28
-		::System::Boolean AutoReset; // 0x30
+		::System::Boolean EnableCharacterGroup; // 0x30
+		::System::Collections::Generic::List_1<::RPGTools::Timeline::StoryLightCharacterGroup>* CharacterGroupList; // 0x38
+		::System::Boolean AutoReset; // 0x40
 
 		::System::Void _ctor()
 		{

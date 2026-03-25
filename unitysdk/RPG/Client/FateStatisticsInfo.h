@@ -5,55 +5,55 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_10526515FFAD6598_1;
-class Class_1_78AC4D2A7319AFB4;
-class Class_1_F1F83A16E5B8B459;
+class Class_1_1D320FBC9EF918D4;
+class Class_1_F1F83A16E5B8B459_1;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
-namespace RPG::Client { class AvatarData; }
 namespace RPG::Client { class FateStatisticsDifficultyDataItem; }
 namespace RPG::Client { class FateStatisticsGameSettleDataItem; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATESTATISTICSINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x922D750)
-#define RPG_CLIENT_FATESTATISTICSINFO_GET_DIFFDATALIST_OFFSET UNITYSDK_OFFSET(0x923AC20)
-#define RPG_CLIENT_FATESTATISTICSINFO_GET_LASTSETTLEAREATYPE_OFFSET UNITYSDK_OFFSET(0x923AC50)
-#define RPG_CLIENT_FATESTATISTICSINFO_GET_LASTSETTLETEAMAVATARLIST_OFFSET UNITYSDK_OFFSET(0x923AC40)
-#define RPG_CLIENT_FATESTATISTICSINFO_GET_MAXPASSEDDIFF_OFFSET UNITYSDK_OFFSET(0x923ABE0)
-#define RPG_CLIENT_FATESTATISTICSINFO_GET_PLAYERTITLE_OFFSET UNITYSDK_OFFSET(0x923AC00)
-#define RPG_CLIENT_FATESTATISTICSINFO_GET_SETTLEDATALIST_OFFSET UNITYSDK_OFFSET(0x923AC30)
-#define RPG_CLIENT_FATESTATISTICSINFO_SET_MAXPASSEDDIFF_OFFSET UNITYSDK_OFFSET(0x923ABF0)
-#define RPG_CLIENT_FATESTATISTICSINFO_SET_PLAYERTITLE_OFFSET UNITYSDK_OFFSET(0x923AC10)
-#define RPG_CLIENT_FATESTATISTICSINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x92328E0)
-#define RPG_CLIENT_FATESTATISTICSINFO__CREATEDIFFICULTYDATAITEM_OFFSET UNITYSDK_OFFSET(0x923A8B0)
-#define RPG_CLIENT_FATESTATISTICSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x922D100)
-#define RPG_CLIENT_FATESTATISTICSINFO__GETTRAINAREANAME_OFFSET UNITYSDK_OFFSET(0x923A9E0)
-#define RPG_CLIENT_FATESTATISTICSINFO__SYNCDIFFICULTYINFO_OFFSET UNITYSDK_OFFSET(0x923A380)
-#define RPG_CLIENT_FATESTATISTICSINFO__SYNCSETTLEINFO_OFFSET UNITYSDK_OFFSET(0x9239E40)
-#define RPG_CLIENT_FATESTATISTICSINFO___SYNCDIFFICULTYINFO_B__4_1_OFFSET UNITYSDK_OFFSET(0x923AC60)
+#define RPG_CLIENT_FATESTATISTICSINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x96AD780)
+#define RPG_CLIENT_FATESTATISTICSINFO_GET_DIFFDATALIST_OFFSET UNITYSDK_OFFSET(0x96ADB20)
+#define RPG_CLIENT_FATESTATISTICSINFO_GET_LASTSETTLEAREATYPE_OFFSET UNITYSDK_OFFSET(0x96ADB50)
+#define RPG_CLIENT_FATESTATISTICSINFO_GET_LASTSETTLETEAMAVATARLIST_OFFSET UNITYSDK_OFFSET(0x96ADB40)
+#define RPG_CLIENT_FATESTATISTICSINFO_GET_MAXPASSEDDIFF_OFFSET UNITYSDK_OFFSET(0x96ADAE0)
+#define RPG_CLIENT_FATESTATISTICSINFO_GET_PLAYERTITLE_OFFSET UNITYSDK_OFFSET(0x96ADB00)
+#define RPG_CLIENT_FATESTATISTICSINFO_GET_SETTLEDATALIST_OFFSET UNITYSDK_OFFSET(0x96ADB30)
+#define RPG_CLIENT_FATESTATISTICSINFO_SET_MAXPASSEDDIFF_OFFSET UNITYSDK_OFFSET(0x96ADAF0)
+#define RPG_CLIENT_FATESTATISTICSINFO_SET_PLAYERTITLE_OFFSET UNITYSDK_OFFSET(0x96ADB10)
+#define RPG_CLIENT_FATESTATISTICSINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x96ACCA0)
+#define RPG_CLIENT_FATESTATISTICSINFO__CREATEDIFFICULTYDATAITEM_OFFSET UNITYSDK_OFFSET(0x96AD820)
+#define RPG_CLIENT_FATESTATISTICSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x96ACC90)
+#define RPG_CLIENT_FATESTATISTICSINFO__GETTRAINAREANAME_OFFSET UNITYSDK_OFFSET(0x96AD960)
+#define RPG_CLIENT_FATESTATISTICSINFO__SYNCDIFFICULTYINFO_OFFSET UNITYSDK_OFFSET(0x96AD250)
+#define RPG_CLIENT_FATESTATISTICSINFO__SYNCSETTLEINFO_OFFSET UNITYSDK_OFFSET(0x96ACD10)
+#define RPG_CLIENT_FATESTATISTICSINFO___SYNCDIFFICULTYINFO_B__4_1_OFFSET UNITYSDK_OFFSET(0x96ADB60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsInfo_TypeDefinitionIndex = 50913;
+	inline static constexpr unsigned int FateStatisticsInfo_TypeDefinitionIndex = 52048;
 
 	class FateStatisticsInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::FateStatisticsGameSettleDataItem*>* _SettleDataList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* _LastSettleTeamAvatarList; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::FateStatisticsDifficultyDataItem*>* _DiffDataList; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::AvatarData*>* _LastSettleTeamAvatarList; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::FateStatisticsGameSettleDataItem*>* _SettleDataList; // 0x20
 		::RPG::Client::TextID _PlayerTitle_k__BackingField; // 0x28
-		::System::UInt32 _MaxPassedDiff_k__BackingField; // 0x38
-		::RPG::GameCore::FateAreaType _LastSettleAreaType; // 0x3C
+		::RPG::GameCore::FateAreaType _LastSettleAreaType; // 0x38
+		::System::UInt32 _MaxPassedDiff_k__BackingField; // 0x3C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_78AC4D2A7319AFB4* proto)
+		::System::Void Sync(::Class_1_1D320FBC9EF918D4* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_78AC4D2A7319AFB4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO_SYNC_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_1D320FBC9EF918D4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO_SYNC_OFFSET))(this, proto);
 		}
 
 		::System::Void Dispose()
@@ -61,14 +61,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void _SyncSettleInfo(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_F1F83A16E5B8B459*>* protoList)
+		::System::Void _SyncSettleInfo(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_F1F83A16E5B8B459_1*>* protoList)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_F1F83A16E5B8B459*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO__SYNCSETTLEINFO_OFFSET))(this, protoList);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_F1F83A16E5B8B459_1*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO__SYNCSETTLEINFO_OFFSET))(this, protoList);
 		}
 
-		::System::Void _SyncDifficultyInfo(::Class_1_78AC4D2A7319AFB4* proto)
+		::System::Void _SyncDifficultyInfo(::Class_1_1D320FBC9EF918D4* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_78AC4D2A7319AFB4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO__SYNCDIFFICULTYINFO_OFFSET))(this, proto);
+			return ((::System::Void(*)(::PVOID, ::Class_1_1D320FBC9EF918D4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO__SYNCDIFFICULTYINFO_OFFSET))(this, proto);
 		}
 
 		::System::Void _CreateDifficultyDataItem(::Class_1_10526515FFAD6598_1* proto, ::System::Func_1<::System::String*>* dropDownTitleGetter)
@@ -111,9 +111,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::FateStatisticsGameSettleDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO_GET_SETTLEDATALIST_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::AvatarData*>* get_LastSettleTeamAvatarList()
+		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* get_LastSettleTeamAvatarList()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::AvatarData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO_GET_LASTSETTLETEAMAVATARLIST_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSINFO_GET_LASTSETTLETEAMAVATARLIST_OFFSET))(this);
 		}
 
 		::RPG::GameCore::FateAreaType get_LastSettleAreaType()

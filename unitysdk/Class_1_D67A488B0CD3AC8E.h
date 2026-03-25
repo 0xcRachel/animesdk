@@ -6,28 +6,28 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_078D85152011B919_OFFSET UNITYSDK_OFFSET(0x8718B10)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0x87188C0)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x8718AD0)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_62165C025F5C0B19_OFFSET UNITYSDK_OFFSET(0x8718860)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_9D1D78F50D8E3CB3_1_OFFSET UNITYSDK_OFFSET(0x8718270)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_9D1D78F50D8E3CB3_OFFSET UNITYSDK_OFFSET(0x8718240)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_A94298E832E62344_OFFSET UNITYSDK_OFFSET(0x87182A0)
-#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_E5660A7203F26516_OFFSET UNITYSDK_OFFSET(0x8718A10)
-#define CLASS_1_D67A488B0CD3AC8E__CCTOR_OFFSET UNITYSDK_OFFSET(0x8718B70)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_078D85152011B919_OFFSET UNITYSDK_OFFSET(0xA9C5AE0)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_0868EF727040C390_OFFSET UNITYSDK_OFFSET(0xA9C5890)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA9C5AA0)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_62165C025F5C0B19_OFFSET UNITYSDK_OFFSET(0xA9C5830)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_9D1D78F50D8E3CB3_1_OFFSET UNITYSDK_OFFSET(0xA9C5240)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_9D1D78F50D8E3CB3_OFFSET UNITYSDK_OFFSET(0xA9C5210)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_A94298E832E62344_OFFSET UNITYSDK_OFFSET(0xA9C5270)
+#define CLASS_1_D67A488B0CD3AC8E_METHOD_1_E5660A7203F26516_OFFSET UNITYSDK_OFFSET(0xA9C59E0)
+#define CLASS_1_D67A488B0CD3AC8E__CCTOR_OFFSET UNITYSDK_OFFSET(0xA9C5B40)
 
-inline static constexpr unsigned int Class_1_D67A488B0CD3AC8E_TypeDefinitionIndex = 43978;
+inline static constexpr unsigned int Class_1_D67A488B0CD3AC8E_TypeDefinitionIndex = 45038;
 
 class Class_1_D67A488B0CD3AC8E : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet_Field_1_1()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D67A488B0CD3AC8E_TypeDefinitionIndex)->GetStaticField(0x8410);
-	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D67A488B0CD3AC8E_TypeDefinitionIndex)->GetStaticField(0x8418);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D67A488B0CD3AC8E_TypeDefinitionIndex)->GetStaticField(0x45050);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet_Field_1_1()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D67A488B0CD3AC8E_TypeDefinitionIndex)->GetStaticField(0x45058);
 	}
 
 	static ::System::Void _cctor()

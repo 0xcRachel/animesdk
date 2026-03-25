@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::KWS { class QueryAgeGateOptions; }
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_KWS_QUERYAGEGATEOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x41850)
+#define EPIC_ONLINESERVICES_KWS_QUERYAGEGATEOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x419E0)
 #define EPIC_ONLINESERVICES_KWS_QUERYAGEGATEOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int QueryAgeGateOptionsInternal_TypeDefinitionIndex = 35323;
+	inline static constexpr unsigned int QueryAgeGateOptionsInternal_TypeDefinitionIndex = 36257;
 
 	struct alignas(4) QueryAgeGateOptionsInternal
 	{

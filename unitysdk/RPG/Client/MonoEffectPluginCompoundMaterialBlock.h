@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCOMPOUNDMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x97EF810)
+#define RPG_CLIENT_MONOEFFECTPLUGINCOMPOUNDMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD11D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCompoundMaterialBlock_TypeDefinitionIndex = 55642;
+	inline static constexpr unsigned int MonoEffectPluginCompoundMaterialBlock_TypeDefinitionIndex = 57206;
 
 	class MonoEffectPluginCompoundMaterialBlock : public ::UnityEngine::MonoBehaviour
 	{

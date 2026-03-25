@@ -7,12 +7,12 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_83012166322D6A92_METHOD_2_1F9DB45F7550A899_OFFSET UNITYSDK_OFFSET(0xD1F4780)
-#define CLASS_2_83012166322D6A92_METHOD_2_2A9BBC2CFBF6934B_OFFSET UNITYSDK_OFFSET(0xD1F4860)
-#define CLASS_2_83012166322D6A92_METHOD_2_B6FFB7B36687C2C6_OFFSET UNITYSDK_OFFSET(0xD1F4FE0)
-#define CLASS_2_83012166322D6A92__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F5130)
+#define CLASS_2_83012166322D6A92_METHOD_2_1F9DB45F7550A899_OFFSET UNITYSDK_OFFSET(0x1149DBA0)
+#define CLASS_2_83012166322D6A92_METHOD_2_2C3248B1DE7DDE82_OFFSET UNITYSDK_OFFSET(0x1149DC80)
+#define CLASS_2_83012166322D6A92_METHOD_2_B6FFB7B36687C2C6_OFFSET UNITYSDK_OFFSET(0x1149E470)
+#define CLASS_2_83012166322D6A92__CTOR_OFFSET UNITYSDK_OFFSET(0x1149E5C0)
 
-inline static constexpr unsigned int Class_2_83012166322D6A92_TypeDefinitionIndex = 54169;
+inline static constexpr unsigned int Class_2_83012166322D6A92_TypeDefinitionIndex = 55727;
 
 class Class_2_83012166322D6A92 : public ::RPG::Client::BaseModule
 {
@@ -27,9 +27,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_83012166322D6A92_METHOD_2_1F9DB45F7550A899_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Method_2_2A9BBC2CFBF6934B(::RPG::GameCore::GameEntity* a1)
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Method_2_2C3248B1DE7DDE82(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_83012166322D6A92_METHOD_2_2A9BBC2CFBF6934B_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_83012166322D6A92_METHOD_2_2C3248B1DE7DDE82_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_B6FFB7B36687C2C6(::RPG::GameCore::GameEntity* a1, ::Class_2_83012166322D6A92_InteractType a2)

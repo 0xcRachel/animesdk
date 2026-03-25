@@ -4,11 +4,11 @@
 
 class Class_3_8FE15D155B05EF4E_2;
 
-#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_FLOATINGMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x907DCA0)
+#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_FLOATINGMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x9529C10)
 
 namespace RPG::Client::DynamicFloatingObject
 {
-	inline static constexpr unsigned int FloatingMaterial_TypeDefinitionIndex = 58575;
+	inline static constexpr unsigned int FloatingMaterial_TypeDefinitionIndex = 60295;
 
 	class FloatingMaterial : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8FE15D155B05EF4E_2*>
 	{

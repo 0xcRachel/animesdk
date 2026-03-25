@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_16F410D309DC331F__CCTOR_OFFSET UNITYSDK_OFFSET(0x161B0BE0)
+#define STRUCT_2_16F410D309DC331F__CCTOR_OFFSET UNITYSDK_OFFSET(0x167C0670)
 
-inline static constexpr unsigned int Struct_2_16F410D309DC331F_TypeDefinitionIndex = 31380;
+inline static constexpr unsigned int Struct_2_16F410D309DC331F_TypeDefinitionIndex = 32284;
 
 struct alignas(8) Struct_2_16F410D309DC331F
 {
 	static ::Struct_2_16F410D309DC331F* StaticGet_Field_2_7()
 	{
-		return (::Struct_2_16F410D309DC331F*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_16F410D309DC331F_TypeDefinitionIndex)->GetStaticField(0x96C0);
+		return (::Struct_2_16F410D309DC331F*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_16F410D309DC331F_TypeDefinitionIndex)->GetStaticField(0xC4B0);
 	}
 	::System::Boolean Field_2_0; // 0x10
 	::System::String* Field_2_1; // 0x18

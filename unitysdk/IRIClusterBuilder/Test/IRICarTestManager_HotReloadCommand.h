@@ -3,7 +3,7 @@
 
 namespace IRIClusterBuilder::Test
 {
-	inline static constexpr unsigned int IRICarTestManager_HotReloadCommand_TypeDefinitionIndex = 37675;
+	inline static constexpr unsigned int IRICarTestManager_HotReloadCommand_TypeDefinitionIndex = 38637;
 
 	enum class IRICarTestManager_HotReloadCommand : ::System::Int32
 	{

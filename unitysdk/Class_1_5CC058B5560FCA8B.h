@@ -7,23 +7,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TutorialTriggerParam; }
 
-#define CLASS_1_5CC058B5560FCA8B_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x171EB900)
-#define CLASS_1_5CC058B5560FCA8B__CTOR_OFFSET UNITYSDK_OFFSET(0x171EBCA0)
+#define CLASS_1_5CC058B5560FCA8B_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x17957190)
+#define CLASS_1_5CC058B5560FCA8B__CTOR_OFFSET UNITYSDK_OFFSET(0x17957530)
 
-inline static constexpr unsigned int Class_1_5CC058B5560FCA8B_TypeDefinitionIndex = 14021;
+inline static constexpr unsigned int Class_1_5CC058B5560FCA8B_TypeDefinitionIndex = 14137;
 
 class Class_1_5CC058B5560FCA8B : public ::System::Object
 {
 public:
 	::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* Field_1_5; // 0x10
-	::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* Field_1_6; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
-	::System::Boolean Field_1_1; // 0x28
-	::System::UInt32 Field_1_8; // 0x2C
-	::System::UInt32 Field_1_0; // 0x30
-	::System::UInt32 Field_1_4; // 0x34
-	::RPG::GameCore::TutorialGuideShowType Field_1_3; // 0x38
-	::RPG::Client::TextID Field_1_7; // 0x40
+	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x18
+	::Il2CppArray<::RPG::GameCore::TutorialTriggerParam*>* Field_1_6; // 0x20
+	::System::UInt32 Field_1_8; // 0x28
+	::System::UInt32 Field_1_0; // 0x2C
+	::RPG::Client::TextID Field_1_7; // 0x30
+	::RPG::GameCore::TutorialGuideShowType Field_1_3; // 0x40
+	::System::Boolean Field_1_1; // 0x44
+	::System::UInt32 Field_1_4; // 0x48
 
 	::System::Void _ctor()
 	{

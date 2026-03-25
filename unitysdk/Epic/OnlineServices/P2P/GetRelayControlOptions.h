@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x836CFA0)
+#define EPIC_ONLINESERVICES_P2P_GETRELAYCONTROLOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x86B2120)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int GetRelayControlOptions_TypeDefinitionIndex = 34959;
+	inline static constexpr unsigned int GetRelayControlOptions_TypeDefinitionIndex = 35893;
 
 	class GetRelayControlOptions : public ::System::Object
 	{

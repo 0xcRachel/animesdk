@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimPropSpawnerConfig; }
 
-#define CLASS_1_357145762631B1AD__CTOR_OFFSET UNITYSDK_OFFSET(0x162BAEB0)
+#define CLASS_1_357145762631B1AD__CTOR_OFFSET UNITYSDK_OFFSET(0x16A53820)
 
-inline static constexpr unsigned int Class_1_357145762631B1AD_TypeDefinitionIndex = 32588;
+inline static constexpr unsigned int Class_1_357145762631B1AD_TypeDefinitionIndex = 33511;
 
 class Class_1_357145762631B1AD : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimPropSpawnerConfig* Field_1_0; // 0x10
-	::Struct_2_842EEDFBF72D5ED5 Field_1_1; // 0x18
+	::Struct_2_842EEDFBF72D5ED5 Field_1_1; // 0x10
+	::RPG::GameCore::FiveDimPropSpawnerConfig* Field_1_0; // 0x38
 
 	::System::Void _ctor()
 	{

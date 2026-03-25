@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class AdvWaitTickValueFinish; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_B09B81ABAB67AFEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x872B390)
-#define CLASS_2_B09B81ABAB67AFEB_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x872B700)
-#define CLASS_2_B09B81ABAB67AFEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x872B500)
-#define CLASS_2_B09B81ABAB67AFEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x872B440)
-#define CLASS_2_B09B81ABAB67AFEB_TICK_OFFSET UNITYSDK_OFFSET(0x872B620)
-#define CLASS_2_B09B81ABAB67AFEB__CTOR_OFFSET UNITYSDK_OFFSET(0x872B310)
+#define CLASS_2_B09B81ABAB67AFEB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEC0750)
+#define CLASS_2_B09B81ABAB67AFEB_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0xBEC0AC0)
+#define CLASS_2_B09B81ABAB67AFEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEC08C0)
+#define CLASS_2_B09B81ABAB67AFEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEC0800)
+#define CLASS_2_B09B81ABAB67AFEB_TICK_OFFSET UNITYSDK_OFFSET(0xBEC09E0)
+#define CLASS_2_B09B81ABAB67AFEB__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC06D0)
 
-inline static constexpr unsigned int Class_2_B09B81ABAB67AFEB_TypeDefinitionIndex = 45615;
+inline static constexpr unsigned int Class_2_B09B81ABAB67AFEB_TypeDefinitionIndex = 46679;
 
 class Class_2_B09B81ABAB67AFEB : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::AdvWaitTickValueFinish* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
-	::System::String* Field_2_4; // 0x28
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x30
-	::Class_3_BCCE950C2E8DF1F0* Field_2_2; // 0x38
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x18
+	::RPG::GameCore::AdvWaitTickValueFinish* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
+	::System::String* Field_2_4; // 0x30
+	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvWaitTickValueFinish* a2)
 	{

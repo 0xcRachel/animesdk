@@ -6,7 +6,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int ISerializable_TypeDefinitionIndex = 1089;
+	inline static constexpr unsigned int ISerializable_TypeDefinitionIndex = 1094;
 
 	class ISerializable
 	{

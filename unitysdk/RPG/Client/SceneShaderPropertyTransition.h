@@ -5,21 +5,21 @@
 
 class Class_1_9CBC71DC5240DC00;
 
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_METHOD_5_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0x9F58120)
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_SETSCENESHADOWCOLOR_OFFSET UNITYSDK_OFFSET(0x9F581C0)
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F582B0)
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x9F582A0)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_METHOD_5_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0xA423F10)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_SETSCENESHADOWCOLOR_OFFSET UNITYSDK_OFFSET(0xA423FB0)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4240A0)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xA424090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneShaderPropertyTransition_TypeDefinitionIndex = 54718;
+	inline static constexpr unsigned int SceneShaderPropertyTransition_TypeDefinitionIndex = 56278;
 
 	class SceneShaderPropertyTransition : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneShaderPropertyTransition_TypeDefinitionIndex)->GetStaticField(0x4F20);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SceneShaderPropertyTransition_TypeDefinitionIndex)->GetStaticField(0xC3A0);
 		}
 		::Class_1_9CBC71DC5240DC00* Field_5_0; // 0x18
 

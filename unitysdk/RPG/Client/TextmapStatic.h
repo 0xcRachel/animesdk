@@ -1,13 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/Struct_2_4C8453486C91E3A1_6.h"
+#include "unitysdk/Struct_2_4C8453486C91E3A1_7.h"
+#include "unitysdk/Struct_2_A0005A7419DEF7CE.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_1_896583BE596CCB59_1;
+class Class_0_16E4307DCC419505_715;
+class Class_1_1A781135C1474CFC;
+class Class_1_22FD04463B24D28E;
 namespace RPG::Client { class TextIcons; }
-namespace RPG::Client { class TextmapStatic_TextCompileContext; }
 namespace System { class IFormatProvider; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -15,210 +17,212 @@ namespace System::Text::RegularExpressions { class Regex; }
 namespace UnityEngine { class TextGenerator; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILEACTIVITYNAME_OFFSET UNITYSDK_OFFSET(0xA081F20)
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILELOCALIZEDTIME_OFFSET UNITYSDK_OFFSET(0xA082040)
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILEMOTIONRUBY_OFFSET UNITYSDK_OFFSET(0xA07D790)
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILEREPEATUNIT_OFFSET UNITYSDK_OFFSET(0xA081E70)
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILERUBY_OFFSET UNITYSDK_OFFSET(0xA07CF70)
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILETEXTICONS_OFFSET UNITYSDK_OFFSET(0xA07F4B0)
-#define RPG_CLIENT_TEXTMAPSTATIC_COMPILETEXT_OFFSET UNITYSDK_OFFSET(0xA0813F0)
-#define RPG_CLIENT_TEXTMAPSTATIC_CREATEDEFAULTNONEPARAMPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA0804D0)
-#define RPG_CLIENT_TEXTMAPSTATIC_CREATEDEFAULTPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA07FED0)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETFLOATFORMATSTR_OFFSET UNITYSDK_OFFSET(0xA081250)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETNUMBERDECIMALSEPARATOR_OFFSET UNITYSDK_OFFSET(0xA0812E0)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETPERCENTSYMBOLSTR_OFFSET UNITYSDK_OFFSET(0xA081120)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETRUBYNBSPTEXT_OFFSET UNITYSDK_OFFSET(0xA07DE20)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETSIMPLETEXT_OFFSET UNITYSDK_OFFSET(0xA0806D0)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETTEXTWITHCUSTOMSELECTPATTERN_OFFSET UNITYSDK_OFFSET(0xA06F220)
-#define RPG_CLIENT_TEXTMAPSTATIC_GETTEXT_OFFSET UNITYSDK_OFFSET(0xA0653F0)
-#define RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTNONEPARAMPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA080430)
-#define RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA07FE30)
-#define RPG_CLIENT_TEXTMAPSTATIC_HASRUBY_OFFSET UNITYSDK_OFFSET(0xA07DD50)
-#define RPG_CLIENT_TEXTMAPSTATIC_HASTEXTICON_OFFSET UNITYSDK_OFFSET(0xA07FD60)
-#define RPG_CLIENT_TEXTMAPSTATIC_PROCESSMETRICPREFIX_OFFSET UNITYSDK_OFFSET(0xA0814F0)
-#define RPG_CLIENT_TEXTMAPSTATIC_REMOVERUBY_OFFSET UNITYSDK_OFFSET(0xA07D4A0)
-#define RPG_CLIENT_TEXTMAPSTATIC_REMOVETEXTICONS_OFFSET UNITYSDK_OFFSET(0xA07FCA0)
-#define RPG_CLIENT_TEXTMAPSTATIC__CALCULATETEXTWIDTH_OFFSET UNITYSDK_OFFSET(0xA07F010)
-#define RPG_CLIENT_TEXTMAPSTATIC__CALCULATEWHITESPACETWIDTH_OFFSET UNITYSDK_OFFSET(0xA07DEB0)
-#define RPG_CLIENT_TEXTMAPSTATIC__CCTOR_OFFSET UNITYSDK_OFFSET(0xA082160)
-#define RPG_CLIENT_TEXTMAPSTATIC__COMPILERUBYPATTERNINTERNAL_OFFSET UNITYSDK_OFFSET(0xA07E0C0)
-#define RPG_CLIENT_TEXTMAPSTATIC__COMPILERUBYPATTERN_OFFSET UNITYSDK_OFFSET(0xA07D010)
-#define RPG_CLIENT_TEXTMAPSTATIC__COMPILETEXTICONSPATTERN_OFFSET UNITYSDK_OFFSET(0xA07F530)
-#define RPG_CLIENT_TEXTMAPSTATIC__DOSELECTPATTERNPROCESS_OFFSET UNITYSDK_OFFSET(0xA07D540)
-#define RPG_CLIENT_TEXTMAPSTATIC__GENERATERUBYRESULT_OFFSET UNITYSDK_OFFSET(0xA07E3E0)
-#define RPG_CLIENT_TEXTMAPSTATIC__PROCESSCUSTOMSELECTPATTERN_OFFSET UNITYSDK_OFFSET(0xA081DF0)
-#define RPG_CLIENT_TEXTMAPSTATIC__PROCESSCUSTOMSELECTTEXT_OFFSET UNITYSDK_OFFSET(0xA080890)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILEACTIVITYNAME_OFFSET UNITYSDK_OFFSET(0xA5A65B0)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILELOCALIZEDTIME_OFFSET UNITYSDK_OFFSET(0xA5A6920)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILEMOTIONRUBY_OFFSET UNITYSDK_OFFSET(0xA5A1710)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILEREPEATUNIT_OFFSET UNITYSDK_OFFSET(0xA5A62C0)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILERUBY_OFFSET UNITYSDK_OFFSET(0xA5A0EF0)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILETEXTICONS_OFFSET UNITYSDK_OFFSET(0xA5A3430)
+#define RPG_CLIENT_TEXTMAPSTATIC_COMPILETEXT_OFFSET UNITYSDK_OFFSET(0xA5A5810)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETANDCOMPILETEXT_OFFSET UNITYSDK_OFFSET(0xA5A5140)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETFLOATFORMATSTR_OFFSET UNITYSDK_OFFSET(0xA5A5670)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETNUMBERDECIMALSEPARATOR_OFFSET UNITYSDK_OFFSET(0xA5A5700)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETPERCENTSYMBOLSTR_OFFSET UNITYSDK_OFFSET(0xA5A5540)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETRUBYNBSPTEXT_OFFSET UNITYSDK_OFFSET(0xA5A1DA0)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETSIMPLETEXT_OFFSET UNITYSDK_OFFSET(0xA5A4690)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETTEXTWITHCUSTOMSELECTPATTERN_OFFSET UNITYSDK_OFFSET(0xA592DD0)
+#define RPG_CLIENT_TEXTMAPSTATIC_GETTEXT_OFFSET UNITYSDK_OFFSET(0xA587550)
+#define RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTNONEPARAMPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA5A43F0)
+#define RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA5A3E60)
+#define RPG_CLIENT_TEXTMAPSTATIC_HASRUBY_OFFSET UNITYSDK_OFFSET(0xA5A1CD0)
+#define RPG_CLIENT_TEXTMAPSTATIC_HASTEXTICON_OFFSET UNITYSDK_OFFSET(0xA5A3D90)
+#define RPG_CLIENT_TEXTMAPSTATIC_PROCESSMETRICPREFIX_OFFSET UNITYSDK_OFFSET(0xA5A58C0)
+#define RPG_CLIENT_TEXTMAPSTATIC_REMOVERUBY_OFFSET UNITYSDK_OFFSET(0xA5A1420)
+#define RPG_CLIENT_TEXTMAPSTATIC_REMOVETEXTICONS_OFFSET UNITYSDK_OFFSET(0xA5A3CA0)
+#define RPG_CLIENT_TEXTMAPSTATIC__CALCULATETEXTWIDTH_OFFSET UNITYSDK_OFFSET(0xA5A2F90)
+#define RPG_CLIENT_TEXTMAPSTATIC__CALCULATEWHITESPACETWIDTH_OFFSET UNITYSDK_OFFSET(0xA5A1E30)
+#define RPG_CLIENT_TEXTMAPSTATIC__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5A6C90)
+#define RPG_CLIENT_TEXTMAPSTATIC__COMPILERUBYPATTERNINTERNAL_OFFSET UNITYSDK_OFFSET(0xA5A2040)
+#define RPG_CLIENT_TEXTMAPSTATIC__COMPILERUBYPATTERN_OFFSET UNITYSDK_OFFSET(0xA5A0F90)
+#define RPG_CLIENT_TEXTMAPSTATIC__COMPILETEXTICONSPATTERN_OFFSET UNITYSDK_OFFSET(0xA5A34B0)
+#define RPG_CLIENT_TEXTMAPSTATIC__COMPILE_OFFSET UNITYSDK_OFFSET(0xA5A53B0)
+#define RPG_CLIENT_TEXTMAPSTATIC__CREATEDEFAULTNONEPARAMPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA5A4490)
+#define RPG_CLIENT_TEXTMAPSTATIC__CREATEDEFAULTPROCESSORMANAGER_OFFSET UNITYSDK_OFFSET(0xA5A3F00)
+#define RPG_CLIENT_TEXTMAPSTATIC__DOSELECTPATTERNPROCESS_OFFSET UNITYSDK_OFFSET(0xA5A14C0)
+#define RPG_CLIENT_TEXTMAPSTATIC__GENERATERUBYRESULT_OFFSET UNITYSDK_OFFSET(0xA5A2360)
+#define RPG_CLIENT_TEXTMAPSTATIC__PROCESSCUSTOMSELECTPATTERN_OFFSET UNITYSDK_OFFSET(0xA5A6240)
+#define RPG_CLIENT_TEXTMAPSTATIC__PROCESSCUSTOMSELECTTEXT_OFFSET UNITYSDK_OFFSET(0xA5A48B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapStatic_TypeDefinitionIndex = 58147;
+	inline static constexpr unsigned int TextmapStatic_TypeDefinitionIndex = 59800;
 
 	class TextmapStatic : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet__RegexSpritesPattern()
+		static ::Class_1_22FD04463B24D28E** StaticGet__DefaultProcessorManager()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23370);
-		}
-		static ::System::String** StaticGet_UNBREAK_RUNTIME_TAG_END()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23378);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet__RegexMotion()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23380);
-		}
-		static ::System::String** StaticGet__PattenBtmStrEnd()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23388);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_TEXT_CUSTOM_START()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23390);
-		}
-		static ::System::String** StaticGet__AnnoEnd()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23398);
+			return (::Class_1_22FD04463B24D28E**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190A0);
 		}
 		static ::System::String** StaticGet__RegexPatten()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233A0);
-		}
-		static ::Class_1_896583BE596CCB59_1** StaticGet__defaultNoneParamProcessorManager()
-		{
-			return (::Class_1_896583BE596CCB59_1**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233A8);
-		}
-		static ::System::String** StaticGet__PatternRubyEndAp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233B0);
-		}
-		static ::System::String** StaticGet__PatternRubyBegin()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233B8);
-		}
-		static ::System::String** StaticGet__PattenRubyEnd()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190A8);
 		}
 		static ::System::String** StaticGet__PattenTopStrBegin()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233C8);
-		}
-		static ::System::String** StaticGet_BirthDate()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233D0);
-		}
-		static ::System::String** StaticGet__PatternRubyEnd()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233D8);
-		}
-		static ::System::String** StaticGet__RegexRubyPatten()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233E0);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet__RegexRuby()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233E8);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_TEXT_ALL_CUSTOM_START()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233F0);
-		}
-		static ::System::String** StaticGet_UNBREAK_RUNTIME_TAG_BEGIN()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x233F8);
-		}
-		static ::System::String** StaticGet__PattenRubyBegin()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23400);
-		}
-		static ::Class_1_896583BE596CCB59_1** StaticGet__defaultProcessorManager()
-		{
-			return (::Class_1_896583BE596CCB59_1**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23408);
-		}
-		static ::System::String** StaticGet__PatternApRubyEnd()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23410);
-		}
-		static ::System::String** StaticGet_NickName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23418);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190B0);
 		}
 		static ::System::IFormatProvider** StaticGet_cultureProvider()
 		{
-			return (::System::IFormatProvider**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23420);
+			return (::System::IFormatProvider**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190B8);
+		}
+		static ::System::String** StaticGet__PatternApRubyEnd()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190C0);
+		}
+		static ::System::String** StaticGet_BirthDate()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190C8);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet__RegexRuby()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190D0);
+		}
+		static ::System::String** StaticGet__PatternRubyEnd()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190D8);
+		}
+		static ::System::String** StaticGet__AnnoEnd()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190E0);
+		}
+		static ::System::String** StaticGet__PatternRubyEndAp()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190E8);
+		}
+		static ::Class_1_22FD04463B24D28E** StaticGet__DefaultNoneParamProcessorManager()
+		{
+			return (::Class_1_22FD04463B24D28E**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190F0);
+		}
+		static ::System::String** StaticGet__RegexSpritesPattern()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x190F8);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_TEXT_ALL_CUSTOM_START()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19100);
+		}
+		static ::System::String** StaticGet__PatternRubyBegin()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19108);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet__RegexSprites()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x23428);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19110);
 		}
-		static ::System::Int32* StaticGet__Length_PattenRubyBegin()
+		static ::System::String** StaticGet__PattenBtmStrEnd()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7200);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19118);
 		}
-		static ::System::Int32* StaticGet__Length_PattenBtmStrEnd()
+		static ::System::String** StaticGet_UNBREAK_RUNTIME_TAG_BEGIN()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7204);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19120);
 		}
-		static ::RPG::Client::TextID* StaticGet_params2ID()
+		static ::System::String** StaticGet__PattenRubyBegin()
 		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7208);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19128);
 		}
-		static ::System::Boolean* StaticGet__AddAddtionalTag()
+		static ::System::String** StaticGet__PattenRubyEnd()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7218);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19130);
 		}
-		static ::System::Boolean* StaticGet__CalculateWidthWithResetScaleFactor()
+		static ::System::String** StaticGet_UNBREAK_RUNTIME_TAG_END()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7219);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19138);
 		}
-		static ::System::Boolean* StaticGet_SimpleMode()
+		static ::System::Text::RegularExpressions::Regex** StaticGet__RegexMotion()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x721A);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19140);
 		}
-		static ::System::Boolean* StaticGet_IsFemale()
+		static ::System::Text::RegularExpressions::Regex** StaticGet_TEXT_CUSTOM_START()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x721B);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19148);
 		}
-		static ::System::Boolean* StaticGet__HoldSpaceForLongTopStr()
+		static ::System::String** StaticGet__RegexRubyPatten()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x721C);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19150);
 		}
-		static ::System::Single* StaticGet__WhiteSpaceWidth()
+		static ::System::String** StaticGet_NickName()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7220);
-		}
-		static ::System::Int32* StaticGet__BottomStrFontSize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7224);
-		}
-		static ::RPG::Client::TextID* StaticGet_params1ID()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7228);
-		}
-		static ::RPG::Client::TextID* StaticGet_params3ID()
-		{
-			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7238);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x19158);
 		}
 		static ::System::Single* StaticGet__TopStrFontSizeRatio()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7248);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96B0);
 		}
-		static ::System::Int32* StaticGet__Length_PattenTopStrBegin()
+		static ::System::Single* StaticGet__WhiteSpaceWidth()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x724C);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96B4);
 		}
-		static ::UnityEngine::Vector2* StaticGet__SettingSize()
+		static ::System::Int32* StaticGet__BottomStrFontSize()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7250);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96B8);
 		}
-		static ::System::Int32* StaticGet__RubyFloatRoundDigits()
+		static ::System::Boolean* StaticGet__AddAddtionalTag()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x7258);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96BC);
+		}
+		static ::System::Boolean* StaticGet__HoldSpaceForLongTopStr()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96BD);
+		}
+		static ::RPG::Client::TextID* StaticGet_params2ID()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96C0);
+		}
+		static ::System::Boolean* StaticGet__CalculateWidthWithResetScaleFactor()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96D0);
+		}
+		static ::System::Boolean* StaticGet_IsFemale()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96D1);
+		}
+		static ::System::Boolean* StaticGet_SimpleMode()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96D2);
+		}
+		static ::System::Int32* StaticGet__Length_PattenBtmStrEnd()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96D4);
 		}
 		static ::System::Int32* StaticGet__Length_AnnoEnd()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x725C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96D8);
+		}
+		static ::System::Int32* StaticGet__RubyFloatRoundDigits()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96DC);
+		}
+		static ::RPG::Client::TextID* StaticGet_params1ID()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96E0);
+		}
+		static ::UnityEngine::Vector2* StaticGet__SettingSize()
+		{
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96F0);
+		}
+		static ::RPG::Client::TextID* StaticGet_params3ID()
+		{
+			return (::RPG::Client::TextID*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x96F8);
+		}
+		static ::System::Int32* StaticGet__Length_PattenRubyBegin()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x9708);
+		}
+		static ::System::Int32* StaticGet__Length_PattenTopStrBegin()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic_TypeDefinitionIndex)->GetStaticField(0x970C);
 		}
 		// static const ::System::String* CUSTOM_START_FORMAT; // 0x0
 		// static const ::System::String* NO_BREAK_SPACE_STR; // 0x0
@@ -244,9 +248,9 @@ namespace RPG::Client
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_REMOVERUBY_OFFSET))(textOrigin);
 		}
 
-		static ::System::String* CompileMotionRuby(::System::String* textOrigin, ::UnityEngine::UI::Text* textCmpt, ::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_6>*& rubyDatas, ::System::Boolean holdTopStrSpace, ::System::Single topStrSizeRatio)
+		static ::System::String* CompileMotionRuby(::System::String* textOrigin, ::UnityEngine::UI::Text* textCmpt, ::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_7>*& rubyDatas, ::System::Boolean holdTopStrSpace, ::System::Single topStrSizeRatio)
 		{
-			return ((::System::String*(*)(::System::String*, ::UnityEngine::UI::Text*, ::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_6>*&, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_COMPILEMOTIONRUBY_OFFSET))(textOrigin, textCmpt, rubyDatas, holdTopStrSpace, topStrSizeRatio);
+			return ((::System::String*(*)(::System::String*, ::UnityEngine::UI::Text*, ::System::Collections::Generic::List_1<::Struct_2_4C8453486C91E3A1_7>*&, ::System::Boolean, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_COMPILEMOTIONRUBY_OFFSET))(textOrigin, textCmpt, rubyDatas, holdTopStrSpace, topStrSizeRatio);
 		}
 
 		static ::System::Boolean HasRuby(::System::String* textOrigin)
@@ -304,29 +308,24 @@ namespace RPG::Client
 			return ((::System::String*(*)(::System::String*, ::RPG::Client::TextIcons*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC__COMPILETEXTICONSPATTERN_OFFSET))(text, textIconsCmpt);
 		}
 
-		static ::Class_1_896583BE596CCB59_1* get_DefaultProcessorManager()
+		static ::Class_1_22FD04463B24D28E* get_DefaultProcessorManager()
 		{
-			return ((::Class_1_896583BE596CCB59_1*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTPROCESSORMANAGER_OFFSET))();
+			return ((::Class_1_22FD04463B24D28E*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTPROCESSORMANAGER_OFFSET))();
 		}
 
-		static ::Class_1_896583BE596CCB59_1* get_DefaultNoneParamProcessorManager()
+		static ::Class_1_22FD04463B24D28E* get_DefaultNoneParamProcessorManager()
 		{
-			return ((::Class_1_896583BE596CCB59_1*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTNONEPARAMPROCESSORMANAGER_OFFSET))();
+			return ((::Class_1_22FD04463B24D28E*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GET_DEFAULTNONEPARAMPROCESSORMANAGER_OFFSET))();
 		}
 
-		static ::Class_1_896583BE596CCB59_1* CreateDefaultProcessorManager()
+		static ::Class_1_22FD04463B24D28E* _CreateDefaultProcessorManager()
 		{
-			return ((::Class_1_896583BE596CCB59_1*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_CREATEDEFAULTPROCESSORMANAGER_OFFSET))();
+			return ((::Class_1_22FD04463B24D28E*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC__CREATEDEFAULTPROCESSORMANAGER_OFFSET))();
 		}
 
-		static ::Class_1_896583BE596CCB59_1* CreateDefaultNoneParamProcessorManager()
+		static ::Class_1_22FD04463B24D28E* _CreateDefaultNoneParamProcessorManager()
 		{
-			return ((::Class_1_896583BE596CCB59_1*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_CREATEDEFAULTNONEPARAMPROCESSORMANAGER_OFFSET))();
-		}
-
-		static ::System::String* GetText(::RPG::Client::TextID id, ::Il2CppArray<::System::Object*>* replaceParams)
-		{
-			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GETTEXT_OFFSET))(id, replaceParams);
+			return ((::Class_1_22FD04463B24D28E*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC__CREATEDEFAULTNONEPARAMPROCESSORMANAGER_OFFSET))();
 		}
 
 		static ::System::String* GetSimpleText(::RPG::Client::TextID id, ::Il2CppArray<::System::Object*>* replaceParams)
@@ -334,9 +333,19 @@ namespace RPG::Client
 			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GETSIMPLETEXT_OFFSET))(id, replaceParams);
 		}
 
-		static ::System::String* GetTextWithCustomSelectPattern(::RPG::Client::TextID id, ::System::Collections::Generic::List_1<::System::Boolean>* customSelect, ::RPG::Client::TextmapStatic_TextCompileContext* compileContext, ::Il2CppArray<::System::Object*>* replaceParams)
+		static ::System::String* GetTextWithCustomSelectPattern(::RPG::Client::TextID id, ::System::Collections::Generic::List_1<::System::Boolean>* customSelect, ::Class_1_1A781135C1474CFC* compileMetadata, ::Il2CppArray<::System::Object*>* replaceParams)
 		{
-			return ((::System::String*(*)(::RPG::Client::TextID, ::System::Collections::Generic::List_1<::System::Boolean>*, ::RPG::Client::TextmapStatic_TextCompileContext*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GETTEXTWITHCUSTOMSELECTPATTERN_OFFSET))(id, customSelect, compileContext, replaceParams);
+			return ((::System::String*(*)(::RPG::Client::TextID, ::System::Collections::Generic::List_1<::System::Boolean>*, ::Class_1_1A781135C1474CFC*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GETTEXTWITHCUSTOMSELECTPATTERN_OFFSET))(id, customSelect, compileMetadata, replaceParams);
+		}
+
+		static ::System::String* GetText(::RPG::Client::TextID id, ::Il2CppArray<::System::Object*>* replaceParams)
+		{
+			return ((::System::String*(*)(::RPG::Client::TextID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GETTEXT_OFFSET))(id, replaceParams);
+		}
+
+		static ::System::String* GetAndCompileText(::RPG::Client::TextID id, ::Class_1_1A781135C1474CFC* compileMetadata, ::Class_1_22FD04463B24D28E* textProcessorManager, ::Class_0_16E4307DCC419505_715* contextProvider)
+		{
+			return ((::System::String*(*)(::RPG::Client::TextID, ::Class_1_1A781135C1474CFC*, ::Class_1_22FD04463B24D28E*, ::Class_0_16E4307DCC419505_715*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_GETANDCOMPILETEXT_OFFSET))(id, compileMetadata, textProcessorManager, contextProvider);
 		}
 
 		static ::System::String* GetPercentSymbolStr()
@@ -362,6 +371,11 @@ namespace RPG::Client
 		static ::System::String* ProcessMetricPrefix(::System::Single value, ::System::String* strDigit)
 		{
 			return ((::System::String*(*)(::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC_PROCESSMETRICPREFIX_OFFSET))(value, strDigit);
+		}
+
+		static ::System::String* _Compile(::System::String* text, ::Struct_2_A0005A7419DEF7CE sourceInfo, ::System::Boolean hasParam, ::Class_0_16E4307DCC419505_715* contextProvider, ::Class_1_1A781135C1474CFC* compileMetadata, ::Class_1_22FD04463B24D28E* textProcessorManager)
+		{
+			return ((::System::String*(*)(::System::String*, ::Struct_2_A0005A7419DEF7CE, ::System::Boolean, ::Class_0_16E4307DCC419505_715*, ::Class_1_1A781135C1474CFC*, ::Class_1_22FD04463B24D28E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTMAPSTATIC__COMPILE_OFFSET))(text, sourceInfo, hasParam, contextProvider, compileMetadata, textProcessorManager);
 		}
 
 		static ::System::String* _ProcessCustomSelectText(::System::String* text, ::System::Collections::Generic::List_1<::System::Boolean>* customSelect)

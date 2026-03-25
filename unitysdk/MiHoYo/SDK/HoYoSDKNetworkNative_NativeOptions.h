@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_NATIVEOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x81A1480)
+#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_NATIVEOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x84F46F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkNative_NativeOptions_TypeDefinitionIndex = 35964;
+	inline static constexpr unsigned int HoYoSDKNetworkNative_NativeOptions_TypeDefinitionIndex = 36899;
 
 	class HoYoSDKNetworkNative_NativeOptions : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_NETWORK_CONNECTION_LIMIT_OPTION()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HoYoSDKNetworkNative_NativeOptions_TypeDefinitionIndex)->GetStaticField(0x40930);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(HoYoSDKNetworkNative_NativeOptions_TypeDefinitionIndex)->GetStaticField(0x108A0);
 		}
 
 		static ::System::Void _cctor()

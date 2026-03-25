@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiVoiceSelectType_TypeDefinitionIndex = 18902;
+	inline static constexpr unsigned int MultiVoiceSelectType_TypeDefinitionIndex = 19425;
 
 	enum class MultiVoiceSelectType : ::System::Int32
 	{

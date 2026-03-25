@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StackStatusProbability; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_55CB16E25C1DD213_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E67890)
-#define CLASS_3_55CB16E25C1DD213__CTOR_OFFSET UNITYSDK_OFFSET(0x10E67860)
+#define CLASS_3_55CB16E25C1DD213_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB1D9F0)
+#define CLASS_3_55CB16E25C1DD213__CTOR_OFFSET UNITYSDK_OFFSET(0xCB1D9C0)
 
-inline static constexpr unsigned int Class_3_55CB16E25C1DD213_TypeDefinitionIndex = 43522;
+inline static constexpr unsigned int Class_3_55CB16E25C1DD213_TypeDefinitionIndex = 44578;
 
 class Class_3_55CB16E25C1DD213 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackStatusProbability*>
 {

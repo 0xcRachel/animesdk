@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16AA9EF0)
-#define RPG_GAMECORE_FIRSTPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA9FB0)
+#define RPG_GAMECORE_FIRSTPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171EFFE0)
+#define RPG_GAMECORE_FIRSTPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171F00A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 11915;
+	inline static constexpr unsigned int FirstPerformanceRow_TypeDefinitionIndex = 11985;
 
 	class FirstPerformanceRow : public ::System::Object
 	{

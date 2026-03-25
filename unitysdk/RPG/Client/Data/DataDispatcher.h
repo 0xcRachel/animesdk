@@ -11,25 +11,25 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DATA_DATADISPATCHER_REGISETERLISTENER_OFFSET UNITYSDK_OFFSET(0x8FF52F0)
-#define RPG_CLIENT_DATA_DATADISPATCHER_REGISTERSCHEMA_OFFSET UNITYSDK_OFFSET(0x8FF58D0)
-#define RPG_CLIENT_DATA_DATADISPATCHER_TRIGGEREVENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x8FF6690)
-#define RPG_CLIENT_DATA_DATADISPATCHER_TRIGGEREVENT_OFFSET UNITYSDK_OFFSET(0x8FF60C0)
-#define RPG_CLIENT_DATA_DATADISPATCHER_UNREGISTERLISTNER_OFFSET UNITYSDK_OFFSET(0x8FF5C30)
-#define RPG_CLIENT_DATA_DATADISPATCHER_UNREGISTERSCHEMA_OFFSET UNITYSDK_OFFSET(0x8FF5E30)
-#define RPG_CLIENT_DATA_DATADISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x8FF6B50)
+#define RPG_CLIENT_DATA_DATADISPATCHER_REGISETERLISTENER_OFFSET UNITYSDK_OFFSET(0x9450B90)
+#define RPG_CLIENT_DATA_DATADISPATCHER_REGISTERSCHEMA_OFFSET UNITYSDK_OFFSET(0x9451170)
+#define RPG_CLIENT_DATA_DATADISPATCHER_TRIGGEREVENTBYINDEX_OFFSET UNITYSDK_OFFSET(0x9451F20)
+#define RPG_CLIENT_DATA_DATADISPATCHER_TRIGGEREVENT_OFFSET UNITYSDK_OFFSET(0x9451960)
+#define RPG_CLIENT_DATA_DATADISPATCHER_UNREGISTERLISTNER_OFFSET UNITYSDK_OFFSET(0x94514D0)
+#define RPG_CLIENT_DATA_DATADISPATCHER_UNREGISTERSCHEMA_OFFSET UNITYSDK_OFFSET(0x94516D0)
+#define RPG_CLIENT_DATA_DATADISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x94523E0)
 
 namespace RPG::Client::Data
 {
-	inline static constexpr unsigned int DataDispatcher_TypeDefinitionIndex = 58470;
+	inline static constexpr unsigned int DataDispatcher_TypeDefinitionIndex = 60190;
 
 	class DataDispatcher : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Collections::Generic::Dictionary_2<::RPG::Client::Data::EventIndex, ::System::Int32>*>* mSchemas; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Class_2_FDDF7323404C5AC2*>* listener; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::RPG::Client::Data::EventIndex, ::System::Int32>>* reverseMap; // 0x20
-		::System::Collections::Generic::List_1<::System::ValueTuple_4<::RPG::Client::Data::EventIndex, ::System::Int32, ::System::Action_2<::RPG::Client::Data::EventIndex, ::Class_1_F19AB08624168191*>*, ::System::Boolean>>* pendingRegster; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple_4<::RPG::Client::Data::EventIndex, ::System::Int32, ::System::Action_2<::RPG::Client::Data::EventIndex, ::Class_1_F19AB08624168191*>*, ::System::Boolean>>* pendingRegster; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::RPG::Client::Data::EventIndex, ::System::Int32>>* reverseMap; // 0x28
 		::System::Boolean InTrigger; // 0x30
 
 		::System::Void _ctor()

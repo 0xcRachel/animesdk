@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEmoState_TypeDefinitionIndex = 46616;
+	inline static constexpr unsigned int CharacterEmoState_TypeDefinitionIndex = 47695;
 
 	enum class CharacterEmoState : ::System::Int32
 	{

@@ -3,20 +3,20 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x203F100)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1465FE0)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x181BFB10)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x203EFE0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2115270)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1495E80)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x189E8100)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPOSEPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2115150)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPosePlayable_TypeDefinitionIndex = 4975;
+	inline static constexpr unsigned int AnimationPosePlayable_TypeDefinitionIndex = 5075;
 
 	struct alignas(8) AnimationPosePlayable
 	{
 		static ::UnityEngine::Animations::AnimationPosePlayable* StaticGet_m_NullPlayable()
 		{
-			return (::UnityEngine::Animations::AnimationPosePlayable*)Il2CppClass::FromTypeDefinitionIndex(AnimationPosePlayable_TypeDefinitionIndex)->GetStaticField(0x6B10);
+			return (::UnityEngine::Animations::AnimationPosePlayable*)Il2CppClass::FromTypeDefinitionIndex(AnimationPosePlayable_TypeDefinitionIndex)->GetStaticField(0xC6E0);
 		}
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10
 

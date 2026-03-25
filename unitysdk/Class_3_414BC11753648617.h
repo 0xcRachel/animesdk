@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetupModifierExtraMaxLayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_414BC11753648617_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1112FDD0)
-#define CLASS_3_414BC11753648617__CTOR_OFFSET UNITYSDK_OFFSET(0x1112FDA0)
+#define CLASS_3_414BC11753648617_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDE46860)
+#define CLASS_3_414BC11753648617__CTOR_OFFSET UNITYSDK_OFFSET(0xDE46830)
 
-inline static constexpr unsigned int Class_3_414BC11753648617_TypeDefinitionIndex = 43475;
+inline static constexpr unsigned int Class_3_414BC11753648617_TypeDefinitionIndex = 44531;
 
 class Class_3_414BC11753648617 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetupModifierExtraMaxLayer*>
 {

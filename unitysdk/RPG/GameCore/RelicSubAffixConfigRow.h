@@ -6,22 +6,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICSUBAFFIXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DDC9E0)
-#define RPG_GAMECORE_RELICSUBAFFIXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DDD110)
+#define RPG_GAMECORE_RELICSUBAFFIXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175A9B50)
+#define RPG_GAMECORE_RELICSUBAFFIXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175AA280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSubAffixConfigRow_TypeDefinitionIndex = 13282;
+	inline static constexpr unsigned int RelicSubAffixConfigRow_TypeDefinitionIndex = 13356;
 
 	class RelicSubAffixConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint BaseValue; // 0x10
-		::RPG::GameCore::FixPoint StepValue; // 0x18
-		::System::UInt32 GroupID; // 0x20
-		::System::UInt32 AffixID; // 0x24
-		::System::UInt32 StepNum; // 0x28
-		::RPG::GameCore::AvatarPropertyType Property; // 0x2C
+		::RPG::GameCore::FixPoint StepValue; // 0x10
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 StepNum; // 0x1C
+		::RPG::GameCore::FixPoint BaseValue; // 0x20
+		::RPG::GameCore::AvatarPropertyType Property; // 0x28
+		::System::UInt32 AffixID; // 0x2C
 
 		::System::Void _ctor()
 		{

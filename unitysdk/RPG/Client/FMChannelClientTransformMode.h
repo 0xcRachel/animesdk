@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMChannelClientTransformMode_TypeDefinitionIndex = 55969;
+	inline static constexpr unsigned int FMChannelClientTransformMode_TypeDefinitionIndex = 57531;
 
 	enum class FMChannelClientTransformMode : ::System::Int32
 	{

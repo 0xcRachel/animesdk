@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_B55037134F9E6688.h"
 
-class Class_2_053DD8E4EC1165EB;
+class Class_2_843468DEB2C89684;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackDamage; }
 
-#define CLASS_2_E2986E99AE3C1EA7_METHOD_2_289F28027FF47717_OFFSET UNITYSDK_OFFSET(0x15EFA300)
-#define CLASS_2_E2986E99AE3C1EA7__CTOR_OFFSET UNITYSDK_OFFSET(0x15EFA2F0)
+#define CLASS_2_E2986E99AE3C1EA7_METHOD_2_289F28027FF47717_OFFSET UNITYSDK_OFFSET(0x1666ECF0)
+#define CLASS_2_E2986E99AE3C1EA7__CTOR_OFFSET UNITYSDK_OFFSET(0x1666ECE0)
 
-inline static constexpr unsigned int Class_2_E2986E99AE3C1EA7_TypeDefinitionIndex = 27679;
+inline static constexpr unsigned int Class_2_E2986E99AE3C1EA7_TypeDefinitionIndex = 28428;
 
 class Class_2_E2986E99AE3C1EA7 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_053DD8E4EC1165EB* Field_2_1; // 0x18
+	::Class_2_843468DEB2C89684* Field_2_1; // 0x18
 	::RPG::GameCore::DiceCombatTaskConfig_AttackDamage* Field_2_0; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackDamage* a1, ::Class_2_053DD8E4EC1165EB* a2)
+	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_AttackDamage* a1, ::Class_2_843468DEB2C89684* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage*, ::Class_2_053DD8E4EC1165EB*))((::PBYTE)hIl2Cpp + CLASS_2_E2986E99AE3C1EA7__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage*, ::Class_2_843468DEB2C89684*))((::PBYTE)hIl2Cpp + CLASS_2_E2986E99AE3C1EA7__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_289F28027FF47717()

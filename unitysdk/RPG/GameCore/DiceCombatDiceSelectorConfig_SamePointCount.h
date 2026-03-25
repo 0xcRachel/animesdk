@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_6E766019A94C4F0D_OFFSET UNITYSDK_OFFSET(0x16A35380)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_FD4B64A8AFA12B4E_OFFSET UNITYSDK_OFFSET(0x16A35D20)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A35370)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_6E59DF7484FA5084_OFFSET UNITYSDK_OFFSET(0x171740E0)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_94AD829DAD8BD88C_OFFSET UNITYSDK_OFFSET(0x17174BB0)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x171740D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_SamePointCount_TypeDefinitionIndex = 14567;
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_SamePointCount_TypeDefinitionIndex = 14819;
 
 	class DiceCombatDiceSelectorConfig_SamePointCount : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FD4B64A8AFA12B4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount*& a2)
+		static ::System::Void Method_3_94AD829DAD8BD88C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_FD4B64A8AFA12B4E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_94AD829DAD8BD88C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6E766019A94C4F0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount* a2)
+		static ::System::Void Method_3_6E59DF7484FA5084(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_6E766019A94C4F0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_SAMEPOINTCOUNT_METHOD_3_6E59DF7484FA5084_OFFSET))(a1, a2);
 		}
 	};
 }

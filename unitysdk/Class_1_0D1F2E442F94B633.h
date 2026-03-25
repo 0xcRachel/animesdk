@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class IAvatarSkillCommonRowWrap; }
 
-#define CLASS_1_0D1F2E442F94B633_METHOD_1_E2903559EF2FBF1C_OFFSET UNITYSDK_OFFSET(0x84D8740)
+#define CLASS_1_0D1F2E442F94B633_METHOD_1_E2903559EF2FBF1C_OFFSET UNITYSDK_OFFSET(0x87F3CE0)
 
-inline static constexpr unsigned int Class_1_0D1F2E442F94B633_TypeDefinitionIndex = 49789;
+inline static constexpr unsigned int Class_1_0D1F2E442F94B633_TypeDefinitionIndex = 50911;
 
 class Class_1_0D1F2E442F94B633 : public ::System::Object
 {

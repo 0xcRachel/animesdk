@@ -3,32 +3,32 @@
 #include "unitysdk/RPG/Client/PacketStatus.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_223;
+class Class_0_16E4307DCC419505_256;
 namespace RPG::Client { class NetPacket; }
 namespace System::IO { class MemoryStream; }
 
-#define CLASS_1_98BCEC496153DD4C_METHOD_1_5280BB276524983C_OFFSET UNITYSDK_OFFSET(0x172CA4B0)
-#define CLASS_1_98BCEC496153DD4C_METHOD_1_7DAF5B3ADF494895_OFFSET UNITYSDK_OFFSET(0x172C9C10)
-#define CLASS_1_98BCEC496153DD4C_METHOD_1_C139B9210301839F_OFFSET UNITYSDK_OFFSET(0x172C9C20)
-#define CLASS_1_98BCEC496153DD4C__CTOR_OFFSET UNITYSDK_OFFSET(0x172CAD40)
+#define CLASS_1_98BCEC496153DD4C_METHOD_1_5280BB276524983C_OFFSET UNITYSDK_OFFSET(0x17A85950)
+#define CLASS_1_98BCEC496153DD4C_METHOD_1_7DAF5B3ADF494895_OFFSET UNITYSDK_OFFSET(0x17A8FA40)
+#define CLASS_1_98BCEC496153DD4C_METHOD_1_C139B9210301839F_OFFSET UNITYSDK_OFFSET(0x17A87020)
+#define CLASS_1_98BCEC496153DD4C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A868F0)
 
-inline static constexpr unsigned int Class_1_98BCEC496153DD4C_TypeDefinitionIndex = 32887;
+inline static constexpr unsigned int Class_1_98BCEC496153DD4C_TypeDefinitionIndex = 33875;
 
 class Class_1_98BCEC496153DD4C : public ::System::Object
 {
 public:
-	::System::IO::MemoryStream* Field_1_2; // 0x10
-	::Class_0_16E4307DCC419505_223* Field_1_0; // 0x18
-	::System::IO::MemoryStream* Field_1_1; // 0x20
+	::System::IO::MemoryStream* Field_1_1; // 0x10
+	::System::IO::MemoryStream* Field_1_2; // 0x18
+	::Class_0_16E4307DCC419505_256* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_98BCEC496153DD4C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_7DAF5B3ADF494895(::Class_0_16E4307DCC419505_223* a1)
+	::System::Void Method_1_7DAF5B3ADF494895(::Class_0_16E4307DCC419505_256* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_223*))((::PBYTE)hIl2Cpp + CLASS_1_98BCEC496153DD4C_METHOD_1_7DAF5B3ADF494895_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_256*))((::PBYTE)hIl2Cpp + CLASS_1_98BCEC496153DD4C_METHOD_1_7DAF5B3ADF494895_OFFSET))(this, a1);
 	}
 
 	::System::IO::MemoryStream* Method_1_C139B9210301839F(::RPG::Client::NetPacket* a1)

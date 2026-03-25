@@ -5,27 +5,27 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CBF820)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17CBF7E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CBF830)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x17CBF840)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CBF850)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBF7D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x184D6B60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x184D6B20)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x184D6B70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x184D6B80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x184D6B90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ENTEREXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x184D6B10)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int EnterExceptionHandlerInstruction_TypeDefinitionIndex = 3311;
+	inline static constexpr unsigned int EnterExceptionHandlerInstruction_TypeDefinitionIndex = 3320;
 
 	class EnterExceptionHandlerInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		static ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction** StaticGet_Void()
-		{
-			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)Il2CppClass::FromTypeDefinitionIndex(EnterExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x178D0);
-		}
 		static ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction** StaticGet_NonVoid()
 		{
-			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)Il2CppClass::FromTypeDefinitionIndex(EnterExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x178D8);
+			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)Il2CppClass::FromTypeDefinitionIndex(EnterExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x258F0);
+		}
+		static ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction** StaticGet_Void()
+		{
+			return (::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction**)Il2CppClass::FromTypeDefinitionIndex(EnterExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x258F8);
 		}
 		::System::Boolean _hasValue; // 0x10
 

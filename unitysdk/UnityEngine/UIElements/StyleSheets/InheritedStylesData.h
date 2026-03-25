@@ -6,22 +6,22 @@
 #include "unitysdk/UnityEngine/UIElements/StyleInt.h"
 #include "unitysdk/UnityEngine/UIElements/StyleLength.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x182C9340)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x182C91E0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x182C93B0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x182C9580)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x182C9010)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18AEFA50)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x18AEF8F0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18AEFAC0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AEFC90)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18AEF720)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 5875;
+	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 5975;
 
 	class InheritedStylesData : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::StyleSheets::InheritedStylesData** StaticGet_none()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::InheritedStylesData**)Il2CppClass::FromTypeDefinitionIndex(InheritedStylesData_TypeDefinitionIndex)->GetStaticField(0xA300);
+			return (::UnityEngine::UIElements::StyleSheets::InheritedStylesData**)Il2CppClass::FromTypeDefinitionIndex(InheritedStylesData_TypeDefinitionIndex)->GetStaticField(0x7300);
 		}
 		::UnityEngine::UIElements::StyleColor color; // 0x10
 		::UnityEngine::UIElements::StyleFont font; // 0x28

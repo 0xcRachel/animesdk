@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_CINEMACHINEBLENDDEFINITIONPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11223710)
+#define CINEMACHINE_CINEMACHINEBLENDDEFINITIONPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x119AEA00)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlendDefinitionPropertyAttribute_TypeDefinitionIndex = 29993;
+	inline static constexpr unsigned int CinemachineBlendDefinitionPropertyAttribute_TypeDefinitionIndex = 30868;
 
 	class CinemachineBlendDefinitionPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17104A60)
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17104C80)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C0A40)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C0C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 13919;
+	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 14035;
 
 	class TrainPartyGridTypeConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID GridTypeTipInfo; // 0x10
+		::RPG::Client::TextID GridTypeName; // 0x10
 		::RPG::GameCore::TrainPartyGridType GridType; // 0x20
-		::RPG::Client::TextID GridTypeName; // 0x28
+		::RPG::Client::TextID GridTypeTipInfo; // 0x28
 
 		::System::Void _ctor()
 		{

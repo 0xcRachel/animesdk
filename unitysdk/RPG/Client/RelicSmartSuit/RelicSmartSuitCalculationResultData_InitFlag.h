@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitCalculationResultData_InitFlag_TypeDefinitionIndex = 59422;
+	inline static constexpr unsigned int RelicSmartSuitCalculationResultData_InitFlag_TypeDefinitionIndex = 61175;
 
 	enum class RelicSmartSuitCalculationResultData_InitFlag : ::System::Int32
 	{

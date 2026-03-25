@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_0_16E4307DCC419505_802;
-class Class_0_16E4307DCC419505_803;
+class Class_0_16E4307DCC419505_871;
+class Class_0_16E4307DCC419505_872;
 namespace RPG::Client { class IBookletView; }
 namespace RPG::GameCore::Booklet { class ElementConfig; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BOOKLETPAGEVIEW_ACCEPT_OFFSET UNITYSDK_OFFSET(0x8DFDB20)
-#define RPG_CLIENT_BOOKLETPAGEVIEW_DESTROY_OFFSET UNITYSDK_OFFSET(0x8DFD200)
-#define RPG_CLIENT_BOOKLETPAGEVIEW_INIT_OFFSET UNITYSDK_OFFSET(0x8DFD1B0)
-#define RPG_CLIENT_BOOKLETPAGEVIEW_LOAD_OFFSET UNITYSDK_OFFSET(0x8DFD9F0)
-#define RPG_CLIENT_BOOKLETPAGEVIEW_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x8DFDC30)
-#define RPG_CLIENT_BOOKLETPAGEVIEW_UNLOAD_OFFSET UNITYSDK_OFFSET(0x8DFDAB0)
-#define RPG_CLIENT_BOOKLETPAGEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x8DFDD30)
+#define RPG_CLIENT_BOOKLETPAGEVIEW_ACCEPT_OFFSET UNITYSDK_OFFSET(0x9207890)
+#define RPG_CLIENT_BOOKLETPAGEVIEW_DESTROY_OFFSET UNITYSDK_OFFSET(0x9206F70)
+#define RPG_CLIENT_BOOKLETPAGEVIEW_INIT_OFFSET UNITYSDK_OFFSET(0x9206F20)
+#define RPG_CLIENT_BOOKLETPAGEVIEW_LOAD_OFFSET UNITYSDK_OFFSET(0x9207760)
+#define RPG_CLIENT_BOOKLETPAGEVIEW_REFRESHVIEW_OFFSET UNITYSDK_OFFSET(0x92079A0)
+#define RPG_CLIENT_BOOKLETPAGEVIEW_UNLOAD_OFFSET UNITYSDK_OFFSET(0x9207820)
+#define RPG_CLIENT_BOOKLETPAGEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9207AA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletPageView_TypeDefinitionIndex = 57680;
+	inline static constexpr unsigned int BookletPageView_TypeDefinitionIndex = 59300;
 
 	class BookletPageView : public ::UnityEngine::MonoBehaviour
 	{
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::UnityEngine::Transform* Content; // 0x18
 		::System::Boolean _IsLive; // 0x20
 		::RPG::Client::IBookletView* _View; // 0x28
-		::Class_0_16E4307DCC419505_802* _Element; // 0x30
+		::Class_0_16E4307DCC419505_871* _Element; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -43,9 +43,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::Booklet::ElementConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETPAGEVIEW_LOAD_OFFSET))(this, config);
 		}
 
-		::System::Void Accept(::Class_0_16E4307DCC419505_803* visitor)
+		::System::Void Accept(::Class_0_16E4307DCC419505_872* visitor)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_803*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETPAGEVIEW_ACCEPT_OFFSET))(this, visitor);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_872*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BOOKLETPAGEVIEW_ACCEPT_OFFSET))(this, visitor);
 		}
 
 		::System::Void RefreshView()

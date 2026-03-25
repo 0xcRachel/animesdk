@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RedirectActionDelayChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A8DBD935062589FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E32920)
-#define CLASS_3_A8DBD935062589FE__CTOR_OFFSET UNITYSDK_OFFSET(0x10E328F0)
+#define CLASS_3_A8DBD935062589FE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9EFB710)
+#define CLASS_3_A8DBD935062589FE__CTOR_OFFSET UNITYSDK_OFFSET(0x9EFB6E0)
 
-inline static constexpr unsigned int Class_3_A8DBD935062589FE_TypeDefinitionIndex = 43206;
+inline static constexpr unsigned int Class_3_A8DBD935062589FE_TypeDefinitionIndex = 44258;
 
 class Class_3_A8DBD935062589FE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RedirectActionDelayChange*>
 {

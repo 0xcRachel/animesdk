@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_POSTPROCESSINITIALIZER_INITVOLUMEMANAGER_OFFSET UNITYSDK_OFFSET(0x163AB360)
-#define RPG_CUSTOMRP_POSTPROCESSINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x163AB8D0)
+#define RPG_CUSTOMRP_POSTPROCESSINITIALIZER_INITVOLUMEMANAGER_OFFSET UNITYSDK_OFFSET(0x16AB9FC0)
+#define RPG_CUSTOMRP_POSTPROCESSINITIALIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABA530)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PostProcessInitializer_TypeDefinitionIndex = 28508;
+	inline static constexpr unsigned int PostProcessInitializer_TypeDefinitionIndex = 29383;
 
 	class PostProcessInitializer : public ::System::Object
 	{

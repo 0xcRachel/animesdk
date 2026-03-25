@@ -3,52 +3,52 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_41E54E2C718CF27F_Class_1_3BCCFFF8A20DFE8D;
+class Class_1_FB2019EA7B00D7B3_Class_1_3BCCFFF8A20DFE8D;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define CLASS_1_E38D48D6A33D0614___C__AUTOBETALLREMAINPLAYER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1600BC10)
-#define CLASS_1_E38D48D6A33D0614___C__AUTOBETALLREMAINPLAYER_B__11_1_OFFSET UNITYSDK_OFFSET(0x1600BC70)
-#define CLASS_1_E38D48D6A33D0614___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1600BBA0)
-#define CLASS_1_E38D48D6A33D0614___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1600BBE0)
-#define CLASS_1_E38D48D6A33D0614___C__ONENTERFIELDSHOW_B__7_0_OFFSET UNITYSDK_OFFSET(0x1600BBF0)
-#define CLASS_1_E38D48D6A33D0614___C__ONENTERFIGHTENDSHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x1600BD30)
-#define CLASS_1_E38D48D6A33D0614___C__ONENTERFIGHTENDSHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x1600BD40)
-#define CLASS_1_E38D48D6A33D0614___C___TRYADDSPECIALEFFECTFORVOTE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1600BCD0)
+#define CLASS_1_E38D48D6A33D0614___C__AUTOBETALLREMAINPLAYER_B__11_0_OFFSET UNITYSDK_OFFSET(0x166FEA90)
+#define CLASS_1_E38D48D6A33D0614___C__AUTOBETALLREMAINPLAYER_B__11_1_OFFSET UNITYSDK_OFFSET(0x166FEAF0)
+#define CLASS_1_E38D48D6A33D0614___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166FEA20)
+#define CLASS_1_E38D48D6A33D0614___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166FEA60)
+#define CLASS_1_E38D48D6A33D0614___C__ONENTERFIELDSHOW_B__7_0_OFFSET UNITYSDK_OFFSET(0x166FEA70)
+#define CLASS_1_E38D48D6A33D0614___C__ONENTERFIGHTENDSHOW_B__24_0_OFFSET UNITYSDK_OFFSET(0x166FEBB0)
+#define CLASS_1_E38D48D6A33D0614___C__ONENTERFIGHTENDSHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x166FEBC0)
+#define CLASS_1_E38D48D6A33D0614___C___TRYADDSPECIALEFFECTFORVOTE_B__15_0_OFFSET UNITYSDK_OFFSET(0x166FEB50)
 
-inline static constexpr unsigned int Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex = 28098;
+inline static constexpr unsigned int Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex = 28970;
 
 class Class_1_E38D48D6A33D0614___c : public ::System::Object
 {
 public:
-	static ::Class_1_E38D48D6A33D0614___c** StaticGet___9()
-	{
-		return (::Class_1_E38D48D6A33D0614___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34730);
-	}
-	static ::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>** StaticGet___9__11_1()
-	{
-		return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34738);
-	}
 	static ::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>** StaticGet___9__11_0()
 	{
-		return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34740);
-	}
-	static ::System::Func_2<::Class_1_41E54E2C718CF27F_Class_1_3BCCFFF8A20DFE8D*, ::System::UInt32>** StaticGet___9__7_0()
-	{
-		return (::System::Func_2<::Class_1_41E54E2C718CF27F_Class_1_3BCCFFF8A20DFE8D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34748);
-	}
-	static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__15_0()
-	{
-		return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34750);
+		return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D50);
 	}
 	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>** StaticGet___9__24_1()
 	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34758);
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D58);
+	}
+	static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__15_0()
+	{
+		return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D60);
+	}
+	static ::System::Func_2<::Class_1_FB2019EA7B00D7B3_Class_1_3BCCFFF8A20DFE8D*, ::System::UInt32>** StaticGet___9__7_0()
+	{
+		return (::System::Func_2<::Class_1_FB2019EA7B00D7B3_Class_1_3BCCFFF8A20DFE8D*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D68);
 	}
 	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>** StaticGet___9__24_0()
 	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x34760);
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D70);
+	}
+	static ::Class_1_E38D48D6A33D0614___c** StaticGet___9()
+	{
+		return (::Class_1_E38D48D6A33D0614___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D78);
+	}
+	static ::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>** StaticGet___9__11_1()
+	{
+		return (::System::Func_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E38D48D6A33D0614___c_TypeDefinitionIndex)->GetStaticField(0x44D80);
 	}
 
 	static ::System::Void _cctor()
@@ -61,9 +61,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E38D48D6A33D0614___C__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 _OnEnterFieldShow_b__7_0(::Class_1_41E54E2C718CF27F_Class_1_3BCCFFF8A20DFE8D* info)
+	::System::UInt32 _OnEnterFieldShow_b__7_0(::Class_1_FB2019EA7B00D7B3_Class_1_3BCCFFF8A20DFE8D* info)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::Class_1_41E54E2C718CF27F_Class_1_3BCCFFF8A20DFE8D*))((::PBYTE)hIl2Cpp + CLASS_1_E38D48D6A33D0614___C__ONENTERFIELDSHOW_B__7_0_OFFSET))(this, info);
+		return ((::System::UInt32(*)(::PVOID, ::Class_1_FB2019EA7B00D7B3_Class_1_3BCCFFF8A20DFE8D*))((::PBYTE)hIl2Cpp + CLASS_1_E38D48D6A33D0614___C__ONENTERFIELDSHOW_B__7_0_OFFSET))(this, info);
 	}
 
 	::System::Tuple_2<::System::UInt32, ::System::Boolean>* _AutoBetAllRemainPlayer_b__11_0(::System::UInt32 playerUid)

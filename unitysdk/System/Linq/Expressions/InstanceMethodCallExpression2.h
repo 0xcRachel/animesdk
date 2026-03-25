@@ -8,20 +8,20 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class MethodCallExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x17CB3D50)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x17CB3DE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2_REWRITE_OFFSET UNITYSDK_OFFSET(0x17CB3DF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA8360)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x184CB040)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x184CB0D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2_REWRITE_OFFSET UNITYSDK_OFFSET(0x184CB0E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION2__CTOR_OFFSET UNITYSDK_OFFSET(0x184BF3A0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int InstanceMethodCallExpression2_TypeDefinitionIndex = 3237;
+	inline static constexpr unsigned int InstanceMethodCallExpression2_TypeDefinitionIndex = 3246;
 
 	class InstanceMethodCallExpression2 : public ::System::Linq::Expressions::InstanceMethodCallExpression
 	{
 	public:
-		::System::Object* _arg0; // 0x20
-		::System::Linq::Expressions::Expression* _arg1; // 0x28
+		::System::Linq::Expressions::Expression* _arg1; // 0x20
+		::System::Object* _arg0; // 0x28
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1)
 		{

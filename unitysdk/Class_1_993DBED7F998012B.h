@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_993DBED7F998012B_METHOD_1_014B8F2BBB4CB85C_OFFSET UNITYSDK_OFFSET(0x10EDE050)
-#define CLASS_1_993DBED7F998012B_METHOD_1_4CAE3B8C68B822CF_OFFSET UNITYSDK_OFFSET(0x10EDE1B0)
-#define CLASS_1_993DBED7F998012B_METHOD_1_A32DDC747A180616_OFFSET UNITYSDK_OFFSET(0x10EDDAB0)
-#define CLASS_1_993DBED7F998012B_METHOD_1_BC4B412F7582CAFC_OFFSET UNITYSDK_OFFSET(0x10EDE300)
-#define CLASS_1_993DBED7F998012B__CCTOR_OFFSET UNITYSDK_OFFSET(0x10EDE890)
-#define CLASS_1_993DBED7F998012B__CTOR_OFFSET UNITYSDK_OFFSET(0x10EDE880)
+#define CLASS_1_993DBED7F998012B_METHOD_1_014B8F2BBB4CB85C_OFFSET UNITYSDK_OFFSET(0xF37BB90)
+#define CLASS_1_993DBED7F998012B_METHOD_1_4CAE3B8C68B822CF_OFFSET UNITYSDK_OFFSET(0xF37BCF0)
+#define CLASS_1_993DBED7F998012B_METHOD_1_A32DDC747A180616_OFFSET UNITYSDK_OFFSET(0xF37B5F0)
+#define CLASS_1_993DBED7F998012B_METHOD_1_BC4B412F7582CAFC_OFFSET UNITYSDK_OFFSET(0xF37BE40)
+#define CLASS_1_993DBED7F998012B__CCTOR_OFFSET UNITYSDK_OFFSET(0xF37C3D0)
+#define CLASS_1_993DBED7F998012B__CTOR_OFFSET UNITYSDK_OFFSET(0xF37C3C0)
 
-inline static constexpr unsigned int Class_1_993DBED7F998012B_TypeDefinitionIndex = 51907;
+inline static constexpr unsigned int Class_1_993DBED7F998012B_TypeDefinitionIndex = 53041;
 
 class Class_1_993DBED7F998012B : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_993DBED7F998012B_TypeDefinitionIndex)->GetStaticField(0x33940);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_993DBED7F998012B_TypeDefinitionIndex)->GetStaticField(0x75F0);
 	}
 
 	::System::Void _ctor()

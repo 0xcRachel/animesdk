@@ -12,56 +12,56 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GETALLGACHAIDS_OFFSET UNITYSDK_OFFSET(0x16A90260)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16A8F790)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16A8F610)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16A8F2E0)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16A8F5B0)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16A8F960)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16A8F360)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16A907F0)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16A8F9A0)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A8FB80)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16A8FF50)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A90850)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16A8FAE0)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16A8FA40)
-#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x16A902A0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GETALLGACHAIDS_OFFSET UNITYSDK_OFFSET(0x171D3DF0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171D3320)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171D31A0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171D2E70)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171D3140)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171D34F0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x171D2EF0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x171D43A0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171D3530)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D3710)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171D3AE0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171D4400)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x171D3670)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171D35D0)
+#define RPG_GAMECORE_FARMSTAGEUNLOCKCONFIGEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x171D3E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FarmStageUnlockConfigExcelTable_TypeDefinitionIndex = 11391;
+	inline static constexpr unsigned int FarmStageUnlockConfigExcelTable_TypeDefinitionIndex = 11459;
 
 	class FarmStageUnlockConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FarmStageUnlockConfigRow*>** StaticGet_dataDict_()
+		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__AllGachaIDs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FarmStageUnlockConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29BA0);
+			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x156B0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29BA8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x156B8);
 		}
-		static ::System::Collections::Generic::List_1<::System::UInt32>** StaticGet__AllGachaIDs()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FarmStageUnlockConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29BB0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FarmStageUnlockConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x156C0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29BB8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x156C8);
 		}
 		static ::System::Boolean* StaticGet__IsInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x91B0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x91B1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B20);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x91B2);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B21);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FarmStageUnlockConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B22);
 		}
 
 		static ::System::Void _cctor()

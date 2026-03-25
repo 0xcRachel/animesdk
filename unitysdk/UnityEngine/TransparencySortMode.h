@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TransparencySortMode_TypeDefinitionIndex = 3937;
+	inline static constexpr unsigned int TransparencySortMode_TypeDefinitionIndex = 3958;
 
 	enum class TransparencySortMode : ::System::Int32
 	{

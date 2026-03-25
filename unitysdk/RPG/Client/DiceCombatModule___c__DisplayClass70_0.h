@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0x904FA70)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS70_0___GENSHOWADDITEMDIALOGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x904FFA0)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94AC020)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS70_0___GENSHOWADDITEMDIALOGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x94AC550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass70_0_TypeDefinitionIndex = 50474;
+	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass70_0_TypeDefinitionIndex = 51609;
 
 	class DiceCombatModule___c__DisplayClass70_0 : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::Client { class ActivityGuessTheSilhouetteRedDotFilter; }
 namespace RPG::Client { class MainMissionData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B1C6D0)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS6_0__UPDATECANTAKEREWARDREDDOT_B__0_OFFSET UNITYSDK_OFFSET(0x8B1D400)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F1D840)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEREDDOTFILTER___C__DISPLAYCLASS6_0__UPDATECANTAKEREWARDREDDOT_B__0_OFFSET UNITYSDK_OFFSET(0x8F1E570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass6_0_TypeDefinitionIndex = 53228;
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass6_0_TypeDefinitionIndex = 54369;
 
 	class ActivityGuessTheSilhouetteRedDotFilter___c__DisplayClass6_0 : public ::System::Object
 	{

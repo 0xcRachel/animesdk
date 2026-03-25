@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PreFlag_TypeDefinitionIndex = 28265;
+	inline static constexpr unsigned int PreFlag_TypeDefinitionIndex = 29140;
 
 	enum class PreFlag : ::System::Int32
 	{
@@ -36,5 +36,6 @@ namespace UnityEngine::Rendering
 		kTAAValid_Placeholder = 67108864,
 		kDisableShadow = 134217728,
 		kEnableMultiDraw = 268435456,
+		InDoor = 536870912,
 	};
 }

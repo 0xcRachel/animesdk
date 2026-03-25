@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class ComboManager___c__DisplayClass16_0; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x159D62A0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__ONMDKORAUTHTICKETLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x159D68F0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__CTOR_OFFSET UNITYSDK_OFFSET(0x160A2440)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS16_1__ONMDKORAUTHTICKETLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x160A2A90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass16_1_TypeDefinitionIndex = 7892;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass16_1_TypeDefinitionIndex = 8021;
 
 	class ComboManager___c__DisplayClass16_1 : public ::System::Object
 	{

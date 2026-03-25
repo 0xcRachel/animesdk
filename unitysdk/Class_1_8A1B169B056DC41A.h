@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_B45F4FB71C436DD9;
+class Class_1_4FE0A7F4356B7F01;
 namespace RPG::Client::CrowdAnimator { class CrowdPrototype; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_8A1B169B056DC41A_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xFD38FE0)
-#define CLASS_1_8A1B169B056DC41A_METHOD_1_6279B2A89754B8E7_OFFSET UNITYSDK_OFFSET(0xFD38D30)
-#define CLASS_1_8A1B169B056DC41A_METHOD_1_6DFEF4918C679AF0_OFFSET UNITYSDK_OFFSET(0xFD38E60)
-#define CLASS_1_8A1B169B056DC41A_METHOD_1_E83C86A203FAF2A6_OFFSET UNITYSDK_OFFSET(0xFD38F50)
-#define CLASS_1_8A1B169B056DC41A__CTOR_OFFSET UNITYSDK_OFFSET(0xFD39080)
+#define CLASS_1_8A1B169B056DC41A_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x8C1AE90)
+#define CLASS_1_8A1B169B056DC41A_METHOD_1_6279B2A89754B8E7_OFFSET UNITYSDK_OFFSET(0x8C1ABE0)
+#define CLASS_1_8A1B169B056DC41A_METHOD_1_6DFEF4918C679AF0_OFFSET UNITYSDK_OFFSET(0x8C1AD10)
+#define CLASS_1_8A1B169B056DC41A_METHOD_1_E83C86A203FAF2A6_OFFSET UNITYSDK_OFFSET(0x8C1AE00)
+#define CLASS_1_8A1B169B056DC41A__CTOR_OFFSET UNITYSDK_OFFSET(0x8C1AF30)
 
-inline static constexpr unsigned int Class_1_8A1B169B056DC41A_TypeDefinitionIndex = 58706;
+inline static constexpr unsigned int Class_1_8A1B169B056DC41A_TypeDefinitionIndex = 60452;
 
 class Class_1_8A1B169B056DC41A : public ::System::Object
 {
 public:
-	::RPG::Client::CrowdAnimator::CrowdPrototype* Field_1_3; // 0x10
-	::UnityEngine::Material* Field_1_4; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_B45F4FB71C436DD9*>* Field_1_8; // 0x20
+	::UnityEngine::Material* Field_1_4; // 0x10
+	::UnityEngine::Material* Field_1_2; // 0x18
+	::UnityEngine::Mesh* Field_1_0; // 0x20
 	::UnityEngine::Texture2D* Field_1_5; // 0x28
-	::UnityEngine::Mesh* Field_1_0; // 0x30
-	::UnityEngine::Material* Field_1_2; // 0x38
-	::System::Int32 Field_1_7; // 0x40
-	::System::Int32 Field_1_6; // 0x44
-	::System::Int32 Field_1_1; // 0x48
+	::System::Collections::Generic::List_1<::Class_1_4FE0A7F4356B7F01*>* Field_1_8; // 0x30
+	::RPG::Client::CrowdAnimator::CrowdPrototype* Field_1_3; // 0x38
+	::System::Int32 Field_1_6; // 0x40
+	::System::Int32 Field_1_1; // 0x44
+	::System::Int32 Field_1_7; // 0x48
 
 	::System::Void _ctor()
 	{
@@ -40,14 +40,14 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Mesh*, ::System::Int32, ::UnityEngine::Material*, ::RPG::Client::CrowdAnimator::CrowdPrototype*))((::PBYTE)hIl2Cpp + CLASS_1_8A1B169B056DC41A_METHOD_1_6279B2A89754B8E7_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void Method_1_6DFEF4918C679AF0(::Class_1_B45F4FB71C436DD9* a1)
+	::System::Void Method_1_6DFEF4918C679AF0(::Class_1_4FE0A7F4356B7F01* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B45F4FB71C436DD9*))((::PBYTE)hIl2Cpp + CLASS_1_8A1B169B056DC41A_METHOD_1_6DFEF4918C679AF0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_4FE0A7F4356B7F01*))((::PBYTE)hIl2Cpp + CLASS_1_8A1B169B056DC41A_METHOD_1_6DFEF4918C679AF0_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_E83C86A203FAF2A6(::Class_1_B45F4FB71C436DD9* a1)
+	::System::Void Method_1_E83C86A203FAF2A6(::Class_1_4FE0A7F4356B7F01* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B45F4FB71C436DD9*))((::PBYTE)hIl2Cpp + CLASS_1_8A1B169B056DC41A_METHOD_1_E83C86A203FAF2A6_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_4FE0A7F4356B7F01*))((::PBYTE)hIl2Cpp + CLASS_1_8A1B169B056DC41A_METHOD_1_E83C86A203FAF2A6_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_30D1209326FA87FC()

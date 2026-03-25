@@ -2,9 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_494BD190B553B399;
+class Class_0_16E4307DCC419505_834;
+namespace RPG::Client { template <typename T> class IBattleReusablePanel_1; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_44_TypeDefinitionIndex = 58841;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_44_TypeDefinitionIndex = 59216;
 
 class Class_1_534AF681CC2BD5FD_44 : public ::System::Object
 {

@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17C08C10)
+#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18421750)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 33752;
+	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 34741;
 
 	class SkeletonDataCompatibility_VersionInfo : public ::System::Object
 	{

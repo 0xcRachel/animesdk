@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class RebuildPipeConfig; }
 
-#define CLASS_1_8619BBC4B68DDD2B__CTOR_OFFSET UNITYSDK_OFFSET(0x162D6B30)
+#define CLASS_1_8619BBC4B68DDD2B__CTOR_OFFSET UNITYSDK_OFFSET(0x16770AE0)
 
-inline static constexpr unsigned int Class_1_8619BBC4B68DDD2B_TypeDefinitionIndex = 32602;
+inline static constexpr unsigned int Class_1_8619BBC4B68DDD2B_TypeDefinitionIndex = 33526;
 
 class Class_1_8619BBC4B68DDD2B : public ::System::Object
 {

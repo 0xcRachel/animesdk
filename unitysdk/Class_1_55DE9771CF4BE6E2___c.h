@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_774;
+class Class_0_16E4307DCC419505_841;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_55DE9771CF4BE6E2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x110AA6A0)
-#define CLASS_1_55DE9771CF4BE6E2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x110AA6D0)
-#define CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_0_OFFSET UNITYSDK_OFFSET(0x110AA6E0)
-#define CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_1_OFFSET UNITYSDK_OFFSET(0x110AA790)
+#define CLASS_1_55DE9771CF4BE6E2___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x106073C0)
+#define CLASS_1_55DE9771CF4BE6E2___C__CTOR_OFFSET UNITYSDK_OFFSET(0x106073F0)
+#define CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_0_OFFSET UNITYSDK_OFFSET(0x10607400)
+#define CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_1_OFFSET UNITYSDK_OFFSET(0x106074B0)
 
-inline static constexpr unsigned int Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex = 57059;
+inline static constexpr unsigned int Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex = 58651;
 
 class Class_1_55DE9771CF4BE6E2___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_0_16E4307DCC419505_774*, ::System::UInt32>** StaticGet___9__0_0()
-	{
-		return (::System::Func_2<::Class_0_16E4307DCC419505_774*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex)->GetStaticField(0x417B0);
-	}
-	static ::System::Func_2<::Class_0_16E4307DCC419505_774*, ::Class_0_16E4307DCC419505_774*>** StaticGet___9__0_1()
-	{
-		return (::System::Func_2<::Class_0_16E4307DCC419505_774*, ::Class_0_16E4307DCC419505_774*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex)->GetStaticField(0x417B8);
-	}
 	static ::Class_1_55DE9771CF4BE6E2___c** StaticGet___9()
 	{
-		return (::Class_1_55DE9771CF4BE6E2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex)->GetStaticField(0x417C0);
+		return (::Class_1_55DE9771CF4BE6E2___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex)->GetStaticField(0x12BA0);
+	}
+	static ::System::Func_2<::Class_0_16E4307DCC419505_841*, ::Class_0_16E4307DCC419505_841*>** StaticGet___9__0_1()
+	{
+		return (::System::Func_2<::Class_0_16E4307DCC419505_841*, ::Class_0_16E4307DCC419505_841*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex)->GetStaticField(0x12BA8);
+	}
+	static ::System::Func_2<::Class_0_16E4307DCC419505_841*, ::System::UInt32>** StaticGet___9__0_0()
+	{
+		return (::System::Func_2<::Class_0_16E4307DCC419505_841*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_55DE9771CF4BE6E2___c_TypeDefinitionIndex)->GetStaticField(0x12BB0);
 	}
 
 	static ::System::Void _cctor()
@@ -38,13 +38,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_55DE9771CF4BE6E2___C__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 _GetCrosshairConfigs_b__0_0(::Class_0_16E4307DCC419505_774* config)
+	::System::UInt32 _GetCrosshairConfigs_b__0_0(::Class_0_16E4307DCC419505_841* config)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::Class_0_16E4307DCC419505_774*))((::PBYTE)hIl2Cpp + CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_0_OFFSET))(this, config);
+		return ((::System::UInt32(*)(::PVOID, ::Class_0_16E4307DCC419505_841*))((::PBYTE)hIl2Cpp + CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_0_OFFSET))(this, config);
 	}
 
-	::Class_0_16E4307DCC419505_774* _GetCrosshairConfigs_b__0_1(::Class_0_16E4307DCC419505_774* config)
+	::Class_0_16E4307DCC419505_841* _GetCrosshairConfigs_b__0_1(::Class_0_16E4307DCC419505_841* config)
 	{
-		return ((::Class_0_16E4307DCC419505_774*(*)(::PVOID, ::Class_0_16E4307DCC419505_774*))((::PBYTE)hIl2Cpp + CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_1_OFFSET))(this, config);
+		return ((::Class_0_16E4307DCC419505_841*(*)(::PVOID, ::Class_0_16E4307DCC419505_841*))((::PBYTE)hIl2Cpp + CLASS_1_55DE9771CF4BE6E2___C__GETCROSSHAIRCONFIGS_B__0_1_OFFSET))(this, config);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceEventType_TypeDefinitionIndex = 61312;
+	inline static constexpr unsigned int CakeRaceEventType_TypeDefinitionIndex = 63499;
 
 	enum class CakeRaceEventType : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddHitByTimeRewindListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D497416AD1BFE064_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10DBF5E0)
-#define CLASS_3_D497416AD1BFE064__CTOR_OFFSET UNITYSDK_OFFSET(0x10DBF5B0)
+#define CLASS_3_D497416AD1BFE064_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BBA9D0)
+#define CLASS_3_D497416AD1BFE064__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBA9A0)
 
-inline static constexpr unsigned int Class_3_D497416AD1BFE064_TypeDefinitionIndex = 42143;
+inline static constexpr unsigned int Class_3_D497416AD1BFE064_TypeDefinitionIndex = 43192;
 
 class Class_3_D497416AD1BFE064 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddHitByTimeRewindListener*>
 {

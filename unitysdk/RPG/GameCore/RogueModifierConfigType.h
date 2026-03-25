@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierConfigType_TypeDefinitionIndex = 10154;
+	inline static constexpr unsigned int RogueModifierConfigType_TypeDefinitionIndex = 10156;
 
 	enum class RogueModifierConfigType : ::System::Int32
 	{
@@ -36,5 +36,8 @@ namespace RPG::GameCore
 		Layer = 26,
 		MagicTalent = 27,
 		TitanBless = 28,
+		RoomAttribute = 29,
+		PersonaStyle = 30,
+		RegionTag = 99999,
 	};
 }

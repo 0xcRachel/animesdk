@@ -5,27 +5,27 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-namespace RPG::Client { class AvatarData; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::GameCore { class ServantRowData; }
 namespace System { class String; }
 
-#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_081B82FB494CD83F_OFFSET UNITYSDK_OFFSET(0x1105FA30)
-#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_34A82700F46F269B_OFFSET UNITYSDK_OFFSET(0x1105F410)
-#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_5DF0BEF00847060A_OFFSET UNITYSDK_OFFSET(0x1105F160)
-#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_84077680ADCC03A0_OFFSET UNITYSDK_OFFSET(0x1105F870)
-#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_86D4F832745D4A47_OFFSET UNITYSDK_OFFSET(0x1105F760)
-#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_F3E072974F507E27_OFFSET UNITYSDK_OFFSET(0x1105EFC0)
-#define CLASS_1_1DB2E9E79963A9A0__CCTOR_OFFSET UNITYSDK_OFFSET(0x1105FBA0)
-#define CLASS_1_1DB2E9E79963A9A0__CTOR_OFFSET UNITYSDK_OFFSET(0x1105FB90)
+#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_081B82FB494CD83F_OFFSET UNITYSDK_OFFSET(0x87BB420)
+#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_34A82700F46F269B_OFFSET UNITYSDK_OFFSET(0x87BAE20)
+#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_5DF0BEF00847060A_OFFSET UNITYSDK_OFFSET(0x87BAB70)
+#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_86D4F832745D4A47_OFFSET UNITYSDK_OFFSET(0x87BB170)
+#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_B3ADBC2B20B02A45_OFFSET UNITYSDK_OFFSET(0x87BB280)
+#define CLASS_1_1DB2E9E79963A9A0_METHOD_1_F3E072974F507E27_OFFSET UNITYSDK_OFFSET(0x87BA9D0)
+#define CLASS_1_1DB2E9E79963A9A0__CCTOR_OFFSET UNITYSDK_OFFSET(0x87BB590)
+#define CLASS_1_1DB2E9E79963A9A0__CTOR_OFFSET UNITYSDK_OFFSET(0x87BB580)
 
-inline static constexpr unsigned int Class_1_1DB2E9E79963A9A0_TypeDefinitionIndex = 46651;
+inline static constexpr unsigned int Class_1_1DB2E9E79963A9A0_TypeDefinitionIndex = 47730;
 
 class Class_1_1DB2E9E79963A9A0 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DB2E9E79963A9A0_TypeDefinitionIndex)->GetStaticField(0x40940);
+		return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DB2E9E79963A9A0_TypeDefinitionIndex)->GetStaticField(0x3CD80);
 	}
 
 	::System::Void _ctor()
@@ -48,9 +48,9 @@ public:
 		return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::GameCore::ServantRowData*))((::PBYTE)hIl2Cpp + CLASS_1_1DB2E9E79963A9A0_METHOD_1_34A82700F46F269B_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> Method_1_84077680ADCC03A0(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::Client::AvatarData* a4)
+	static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> Method_1_B3ADBC2B20B02A45(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::Client::IAvatarInfoProvider* a4)
 	{
-		return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::Client::AvatarData*))((::PBYTE)hIl2Cpp + CLASS_1_1DB2E9E79963A9A0_METHOD_1_84077680ADCC03A0_OFFSET))(a1, a2, a3, a4);
+		return ((::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::Client::IAvatarInfoProvider*))((::PBYTE)hIl2Cpp + CLASS_1_1DB2E9E79963A9A0_METHOD_1_B3ADBC2B20B02A45_OFFSET))(a1, a2, a3, a4);
 	}
 
 	static ::System::ValueTuple_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint> Method_1_081B82FB494CD83F(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4)

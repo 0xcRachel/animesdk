@@ -3,7 +3,7 @@
 
 namespace Mirrorment
 {
-	inline static constexpr unsigned int MirrormentTool_NodeType_TypeDefinitionIndex = 37683;
+	inline static constexpr unsigned int MirrormentTool_NodeType_TypeDefinitionIndex = 38645;
 
 	enum class MirrormentTool_NodeType : ::System::Int32
 	{

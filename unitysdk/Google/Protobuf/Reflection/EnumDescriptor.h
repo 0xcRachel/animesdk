@@ -11,22 +11,22 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x153F1D80)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x153F1D10)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x153F1DF0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x153F1950)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x15B09F70)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B09F00)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x15B09FE0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B09B40)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 6219;
+	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 6319;
 
 	class EnumDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::System::Type* clrType; // 0x28
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumValueDescriptor*>* values; // 0x30
-		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x38
-		::Google::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x40
+		::Google::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x28
+		::System::Type* clrType; // 0x30
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumValueDescriptor*>* values; // 0x38
+		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::EnumDescriptorProto* proto, ::Google::Protobuf::Reflection::FileDescriptor* file, ::Google::Protobuf::Reflection::MessageDescriptor* parent, ::System::Int32 index, ::System::Type* clrType)
 		{

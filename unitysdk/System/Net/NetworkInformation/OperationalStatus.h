@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int OperationalStatus_TypeDefinitionIndex = 2913;
+	inline static constexpr unsigned int OperationalStatus_TypeDefinitionIndex = 2922;
 
 	enum class OperationalStatus : ::System::Int32
 	{

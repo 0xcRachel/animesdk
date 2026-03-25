@@ -9,25 +9,25 @@
 
 namespace System { class String; }
 
-#define CLASS_1_D16B8A42F6BB9A9F_CLASS_1_41B104475EBB8850__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C9920)
+#define CLASS_1_D16B8A42F6BB9A9F_CLASS_1_41B104475EBB8850__CTOR_OFFSET UNITYSDK_OFFSET(0x111C5290)
 
-inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F_Class_1_41B104475EBB8850_TypeDefinitionIndex = 48100;
+inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F_Class_1_41B104475EBB8850_TypeDefinitionIndex = 49191;
 
 class Class_1_D16B8A42F6BB9A9F_Class_1_41B104475EBB8850 : public ::System::Object
 {
 public:
-	::System::Nullable_1<::Struct_2_4C8316D252AABDF5> Field_1_3; // 0x10
-	::System::String* Field_1_6; // 0x38
-	::System::Nullable_1<::Struct_2_127EAB4936C75FCC> Field_1_2; // 0x40
-	::System::String* Field_1_4; // 0x58
-	::UnityEngine::Vector3 Field_1_0; // 0x60
-	::System::Boolean Field_1_10; // 0x6C
-	::System::Boolean Field_1_9; // 0x6D
-	::System::Boolean Field_1_5; // 0x6E
-	::System::Boolean Field_1_8; // 0x6F
-	::UnityEngine::Quaternion Field_1_1; // 0x70
-	::System::Boolean Field_1_7; // 0x80
-	::System::Boolean Field_1_11; // 0x81
+	::System::String* Field_1_4; // 0x10
+	::System::String* Field_1_6; // 0x18
+	::System::Nullable_1<::Struct_2_4C8316D252AABDF5> Field_1_3; // 0x20
+	::System::Nullable_1<::Struct_2_127EAB4936C75FCC> Field_1_2; // 0x48
+	::System::Boolean Field_1_5; // 0x60
+	::System::Boolean Field_1_8; // 0x61
+	::System::Boolean Field_1_7; // 0x62
+	::System::Boolean Field_1_11; // 0x63
+	::System::Boolean Field_1_10; // 0x64
+	::System::Boolean Field_1_9; // 0x65
+	::UnityEngine::Vector3 Field_1_0; // 0x68
+	::UnityEngine::Quaternion Field_1_1; // 0x74
 
 	::System::Void _ctor()
 	{

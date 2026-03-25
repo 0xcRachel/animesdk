@@ -8,10 +8,10 @@ namespace RPG::GameCore { class SetModifierDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_DFB89ACB6A734F19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A4C980)
-#define CLASS_3_DFB89ACB6A734F19__CTOR_OFFSET UNITYSDK_OFFSET(0x8A4C950)
+#define CLASS_3_DFB89ACB6A734F19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6D3CD0)
+#define CLASS_3_DFB89ACB6A734F19__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D3CA0)
 
-inline static constexpr unsigned int Class_3_DFB89ACB6A734F19_TypeDefinitionIndex = 43419;
+inline static constexpr unsigned int Class_3_DFB89ACB6A734F19_TypeDefinitionIndex = 44475;
 
 class Class_3_DFB89ACB6A734F19 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetModifierDynamicValue*>
 {

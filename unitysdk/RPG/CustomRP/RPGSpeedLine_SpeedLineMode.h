@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSpeedLine_SpeedLineMode_TypeDefinitionIndex = 28575;
+	inline static constexpr unsigned int RPGSpeedLine_SpeedLineMode_TypeDefinitionIndex = 29450;
 
 	enum class RPGSpeedLine_SpeedLineMode : ::System::Int32
 	{

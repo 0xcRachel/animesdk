@@ -13,113 +13,113 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0xE4F4660)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0xE4F52C0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F3DB0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0xE4F3E70)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0xE4F3CD0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0xE4F5230)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0xE4F3F30)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xE4F5DF0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE4F5DB0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_APPLY_OFFSET UNITYSDK_OFFSET(0xE4F60F0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xE4F6180)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F5FF0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0xE4F6040)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_ONFADING_OFFSET UNITYSDK_OFFSET(0xE4F5F90)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_RELEASE_OFFSET UNITYSDK_OFFSET(0xE4F6140)
-#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xE4F6090)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x103681C0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x10368E20)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x10367910)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x103679D0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x10367830)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x10368D90)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x10367A90)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x10369950)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10369910)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_APPLY_OFFSET UNITYSDK_OFFSET(0x10369C50)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x10369CE0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x10369B50)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x10369BA0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_ONFADING_OFFSET UNITYSDK_OFFSET(0x10369AF0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_RELEASE_OFFSET UNITYSDK_OFFSET(0x10369CA0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_GPUPARTICLECOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x10369BF0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ES_GPUParticleComponent_TypeDefinitionIndex = 39010;
+	inline static constexpr unsigned int ES_GPUParticleComponent_TypeDefinitionIndex = 39990;
 
 	class ES_GPUParticleComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_6_32()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10050);
-		}
-		static ::System::Int32* StaticGet_Field_6_29()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10054);
-		}
-		static ::System::Int32* StaticGet_Field_6_28()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10058);
-		}
-		static ::System::Int32* StaticGet_Field_6_35()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x1005C);
-		}
-		static ::System::Int32* StaticGet_Field_6_24()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10060);
-		}
-		static ::System::Int32* StaticGet_Field_6_27()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10064);
-		}
-		static ::System::Int32* StaticGet_Field_6_37()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10068);
-		}
-		static ::System::Int32* StaticGet_Field_6_30()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x1006C);
-		}
-		static ::System::Int32* StaticGet_Field_6_23()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10070);
-		}
-		static ::System::Int32* StaticGet_Field_6_25()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10074);
-		}
-		static ::System::Int32* StaticGet_Field_6_21()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10078);
-		}
-		static ::System::Int32* StaticGet_Field_6_22()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x1007C);
-		}
-		static ::System::Int32* StaticGet_Field_6_34()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10080);
-		}
-		static ::System::Int32* StaticGet_Field_6_26()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10084);
-		}
-		static ::System::Int32* StaticGet_IsTransitionTargetID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10088);
-		}
-		static ::System::Int32* StaticGet_Field_6_38()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x1008C);
-		}
-		static ::System::Int32* StaticGet_Field_6_19()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10090);
-		}
 		static ::System::Int32* StaticGet_Field_6_31()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10094);
-		}
-		static ::System::Int32* StaticGet_Field_6_33()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x10098);
-		}
-		static ::System::Int32* StaticGet_Field_6_20()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x1009C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5C90);
 		}
 		static ::System::Int32* StaticGet_Field_6_36()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x100A0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5C94);
+		}
+		static ::System::Int32* StaticGet_Field_6_30()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5C98);
+		}
+		static ::System::Int32* StaticGet_Field_6_34()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5C9C);
+		}
+		static ::System::Int32* StaticGet_Field_6_25()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CA0);
+		}
+		static ::System::Int32* StaticGet_Field_6_24()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CA4);
+		}
+		static ::System::Int32* StaticGet_IsTransitionTargetID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CA8);
+		}
+		static ::System::Int32* StaticGet_Field_6_21()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CAC);
+		}
+		static ::System::Int32* StaticGet_Field_6_27()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CB0);
+		}
+		static ::System::Int32* StaticGet_Field_6_28()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CB4);
+		}
+		static ::System::Int32* StaticGet_Field_6_29()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CB8);
+		}
+		static ::System::Int32* StaticGet_Field_6_38()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CBC);
+		}
+		static ::System::Int32* StaticGet_Field_6_37()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CC0);
+		}
+		static ::System::Int32* StaticGet_Field_6_32()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CC4);
+		}
+		static ::System::Int32* StaticGet_Field_6_35()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CC8);
+		}
+		static ::System::Int32* StaticGet_Field_6_20()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CCC);
+		}
+		static ::System::Int32* StaticGet_Field_6_33()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CD0);
+		}
+		static ::System::Int32* StaticGet_Field_6_26()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CD4);
+		}
+		static ::System::Int32* StaticGet_Field_6_22()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CD8);
+		}
+		static ::System::Int32* StaticGet_Field_6_19()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CDC);
+		}
+		static ::System::Int32* StaticGet_Field_6_23()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_GPUParticleComponent_TypeDefinitionIndex)->GetStaticField(0x5CE0);
 		}
 		::EnviromentSystemV2Space::ES_GPUParticleComponent_ParticleSimulationType m_GpuSimType; // 0x18
 		::UnityEngine::Vector3 m_SimulationRange; // 0x1C

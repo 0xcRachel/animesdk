@@ -6,70 +6,70 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_88EB724A07E2A9A9_OFFSET UNITYSDK_OFFSET(0x97C2360)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x97C1F70)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x97C27B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x97C2530)
-#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x97C2460)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_88EB724A07E2A9A9_OFFSET UNITYSDK_OFFSET(0x9CA3BB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x9CA37C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE_METHOD_8_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x9CA4000)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CA3D80)
+#define RPG_CLIENT_MONOEFFECTPLUGINAURAOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x9CA3CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginAuraOutline_TypeDefinitionIndex = 55647;
+	inline static constexpr unsigned int MonoEffectPluginAuraOutline_TypeDefinitionIndex = 57211;
 
 	class MonoEffectPluginAuraOutline : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_Field_8_32()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x37490);
-		}
-		static ::System::Int32* StaticGet_Field_8_27()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD730);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0x37D20);
 		}
 		static ::System::Int32* StaticGet_Field_8_22()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD734);
-		}
-		static ::System::Int32* StaticGet_Field_8_31()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD738);
-		}
-		static ::System::Int32* StaticGet_Field_8_25()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD73C);
-		}
-		static ::System::Int32* StaticGet_Field_8_26()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD740);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE80);
 		}
 		static ::System::Int32* StaticGet_Field_8_23()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD744);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE84);
 		}
-		static ::System::Int32* StaticGet_Field_8_28()
+		static ::System::Int32* StaticGet_Field_8_31()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD748);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE88);
 		}
-		static ::System::Int32* StaticGet_Field_8_24()
+		static ::System::Int32* StaticGet_Field_8_25()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD74C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE8C);
 		}
-		static ::System::Int32* StaticGet_Field_8_30()
+		static ::System::Int32* StaticGet_Field_8_26()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD750);
-		}
-		static ::System::Int32* StaticGet_Field_8_21()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD754);
-		}
-		static ::System::Int32* StaticGet_Field_8_29()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD758);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE90);
 		}
 		static ::System::Int32* StaticGet_Field_8_20()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xD75C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE94);
+		}
+		static ::System::Int32* StaticGet_Field_8_28()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE98);
+		}
+		static ::System::Int32* StaticGet_Field_8_29()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDE9C);
+		}
+		static ::System::Int32* StaticGet_Field_8_24()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDEA0);
+		}
+		static ::System::Int32* StaticGet_Field_8_30()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDEA4);
+		}
+		static ::System::Int32* StaticGet_Field_8_21()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDEA8);
+		}
+		static ::System::Int32* StaticGet_Field_8_27()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginAuraOutline_TypeDefinitionIndex)->GetStaticField(0xDEAC);
 		}
 		::System::Single AuraScrPosScale; // 0x218
 		::System::Single OutlineAuraWidth; // 0x21C

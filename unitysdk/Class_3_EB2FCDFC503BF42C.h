@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnterFlipperLightDeviceControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EB2FCDFC503BF42C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x92096A0)
-#define CLASS_3_EB2FCDFC503BF42C__CTOR_OFFSET UNITYSDK_OFFSET(0x9209670)
+#define CLASS_3_EB2FCDFC503BF42C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110632C0)
+#define CLASS_3_EB2FCDFC503BF42C__CTOR_OFFSET UNITYSDK_OFFSET(0x11063290)
 
-inline static constexpr unsigned int Class_3_EB2FCDFC503BF42C_TypeDefinitionIndex = 41665;
+inline static constexpr unsigned int Class_3_EB2FCDFC503BF42C_TypeDefinitionIndex = 42711;
 
 class Class_3_EB2FCDFC503BF42C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnterFlipperLightDeviceControl*>
 {

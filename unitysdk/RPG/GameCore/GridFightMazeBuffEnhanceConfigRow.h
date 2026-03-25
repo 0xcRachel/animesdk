@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTMAZEBUFFENHANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B272C0)
-#define RPG_GAMECORE_GRIDFIGHTMAZEBUFFENHANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B27600)
+#define RPG_GAMECORE_GRIDFIGHTMAZEBUFFENHANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17273DE0)
+#define RPG_GAMECORE_GRIDFIGHTMAZEBUFFENHANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17274120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightMazeBuffEnhanceConfigRow_TypeDefinitionIndex = 12430;
+	inline static constexpr unsigned int GridFightMazeBuffEnhanceConfigRow_TypeDefinitionIndex = 12500;
 
 	class GridFightMazeBuffEnhanceConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
 		::System::String* AbilityName; // 0x18
-		::RPG::Client::TextID EnhanceName; // 0x20
+		::RPG::Client::TextID EnhanceSimpleDesc; // 0x20
 		::System::UInt32 ID; // 0x30
-		::RPG::Client::TextID EnhanceDesc; // 0x38
-		::RPG::Client::TextID EnhanceSimpleDesc; // 0x48
+		::RPG::Client::TextID EnhanceName; // 0x38
+		::RPG::Client::TextID EnhanceDesc; // 0x48
 
 		::System::Void _ctor()
 		{

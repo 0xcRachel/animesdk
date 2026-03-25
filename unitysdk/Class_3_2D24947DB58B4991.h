@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class AttachAvatarChange; }
 namespace RPG::GameCore { class AvatarChangeTemplate; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_3_2D24947DB58B4991_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10984390)
-#define CLASS_3_2D24947DB58B4991_METHOD_3_6A4ED1FCC0ADD2AB_OFFSET UNITYSDK_OFFSET(0x10985200)
-#define CLASS_3_2D24947DB58B4991_METHOD_3_D8A7A5265A7DC1FF_OFFSET UNITYSDK_OFFSET(0x10985100)
-#define CLASS_3_2D24947DB58B4991_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x109844D0)
-#define CLASS_3_2D24947DB58B4991__CTOR_OFFSET UNITYSDK_OFFSET(0x10983F40)
-#define CLASS_3_2D24947DB58B4991___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x109856F0)
+#define CLASS_3_2D24947DB58B4991_DISPOSE_OFFSET UNITYSDK_OFFSET(0x87E4EB0)
+#define CLASS_3_2D24947DB58B4991_METHOD_3_6A4ED1FCC0ADD2AB_OFFSET UNITYSDK_OFFSET(0x87E5D30)
+#define CLASS_3_2D24947DB58B4991_METHOD_3_8EB5F47953521201_OFFSET UNITYSDK_OFFSET(0x87E5C30)
+#define CLASS_3_2D24947DB58B4991_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87E4FF0)
+#define CLASS_3_2D24947DB58B4991__CTOR_OFFSET UNITYSDK_OFFSET(0x87E4A60)
+#define CLASS_3_2D24947DB58B4991___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x87E6230)
 
-inline static constexpr unsigned int Class_3_2D24947DB58B4991_TypeDefinitionIndex = 42849;
+inline static constexpr unsigned int Class_3_2D24947DB58B4991_TypeDefinitionIndex = 43899;
 
 class Class_3_2D24947DB58B4991 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachAvatarChange*>
 {
 public:
-	::Class_3_BCCE950C2E8DF1F0* Field_3_8; // 0x28
-	::Class_3_BCCE950C2E8DF1F0* Field_3_3; // 0x30
-	::Class_3_BCCE950C2E8DF1F0* Field_3_7; // 0x38
-	::Class_3_BCCE950C2E8DF1F0* Field_3_2; // 0x40
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_3_1; // 0x48
-	::Class_3_BCCE950C2E8DF1F0* Field_3_5; // 0x50
+	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_3_4; // 0x28
+	::Class_3_5775A4FEC79026BC* Field_3_6; // 0x30
+	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_3_1; // 0x38
+	::Class_3_5775A4FEC79026BC* Field_3_3; // 0x40
+	::Class_3_5775A4FEC79026BC* Field_3_5; // 0x48
+	::Class_3_5775A4FEC79026BC* Field_3_2; // 0x50
 	::RPG::GameCore::AvatarChangeTemplate* Field_3_0; // 0x58
-	::Class_3_BCCE950C2E8DF1F0* Field_3_6; // 0x60
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_3_4; // 0x68
+	::Class_3_5775A4FEC79026BC* Field_3_8; // 0x60
+	::Class_3_5775A4FEC79026BC* Field_3_7; // 0x68
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AttachAvatarChange* a2)
 	{
@@ -46,9 +46,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2D24947DB58B4991_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_D8A7A5265A7DC1FF(::RPG::GameCore::GameEntity* a1)
+	::System::Void Method_3_8EB5F47953521201(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_2D24947DB58B4991_METHOD_3_D8A7A5265A7DC1FF_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_2D24947DB58B4991_METHOD_3_8EB5F47953521201_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_3_6A4ED1FCC0ADD2AB(::RPG::GameCore::GameEntity* a1)

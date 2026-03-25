@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveOffsetCoordType_TypeDefinitionIndex = 20106;
+	inline static constexpr unsigned int MoveOffsetCoordType_TypeDefinitionIndex = 20645;
 
 	enum class MoveOffsetCoordType : ::System::Int32
 	{

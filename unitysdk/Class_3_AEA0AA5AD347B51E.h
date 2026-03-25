@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ConvinceHpChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AEA0AA5AD347B51E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10985730)
-#define CLASS_3_AEA0AA5AD347B51E__CTOR_OFFSET UNITYSDK_OFFSET(0x10985700)
+#define CLASS_3_AEA0AA5AD347B51E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C9ED90)
+#define CLASS_3_AEA0AA5AD347B51E__CTOR_OFFSET UNITYSDK_OFFSET(0x10C9ED60)
 
-inline static constexpr unsigned int Class_3_AEA0AA5AD347B51E_TypeDefinitionIndex = 41610;
+inline static constexpr unsigned int Class_3_AEA0AA5AD347B51E_TypeDefinitionIndex = 42656;
 
 class Class_3_AEA0AA5AD347B51E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ConvinceHpChange*>
 {

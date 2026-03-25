@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEPASSQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168DFAF0)
-#define RPG_GAMECORE_BATTLEPASSQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x168DFC10)
+#define RPG_GAMECORE_BATTLEPASSQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FF08B0)
+#define RPG_GAMECORE_BATTLEPASSQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF09D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassQuestRow_TypeDefinitionIndex = 11684;
+	inline static constexpr unsigned int BattlePassQuestRow_TypeDefinitionIndex = 11754;
 
 	class BattlePassQuestRow : public ::System::Object
 	{

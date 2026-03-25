@@ -3,31 +3,31 @@
 #include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/Xml/Linq/XObjectChange.h"
 
-#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D43D60)
-#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17D43D30)
+#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18573CE0)
+#define SYSTEM_XML_LINQ_XOBJECTCHANGEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18573CB0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XObjectChangeEventArgs_TypeDefinitionIndex = 4802;
+	inline static constexpr unsigned int XObjectChangeEventArgs_TypeDefinitionIndex = 4901;
 
 	class XObjectChangeEventArgs : public ::System::EventArgs
 	{
 	public:
 		static ::System::Xml::Linq::XObjectChangeEventArgs** StaticGet_Remove()
 		{
-			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x1E0);
+			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x190);
 		}
 		static ::System::Xml::Linq::XObjectChangeEventArgs** StaticGet_Add()
 		{
-			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x1E8);
+			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x198);
 		}
 		static ::System::Xml::Linq::XObjectChangeEventArgs** StaticGet_Name()
 		{
-			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x1F0);
+			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x1A0);
 		}
 		static ::System::Xml::Linq::XObjectChangeEventArgs** StaticGet_Value()
 		{
-			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x1F8);
+			return (::System::Xml::Linq::XObjectChangeEventArgs**)Il2CppClass::FromTypeDefinitionIndex(XObjectChangeEventArgs_TypeDefinitionIndex)->GetStaticField(0x1A8);
 		}
 		::System::Xml::Linq::XObjectChange objectChange; // 0x10
 

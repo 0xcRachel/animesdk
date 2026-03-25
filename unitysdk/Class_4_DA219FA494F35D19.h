@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define CLASS_4_DA219FA494F35D19_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x16C1C2F0)
-#define CLASS_4_DA219FA494F35D19_METHOD_4_FE72CD80F88EC4C9_OFFSET UNITYSDK_OFFSET(0x16C1C3C0)
-#define CLASS_4_DA219FA494F35D19__CTOR_OFFSET UNITYSDK_OFFSET(0x16C1C370)
+#define CLASS_4_DA219FA494F35D19_METHOD_4_637CBE131CC2826D_OFFSET UNITYSDK_OFFSET(0x16EF1290)
+#define CLASS_4_DA219FA494F35D19_METHOD_4_FE72CD80F88EC4C9_OFFSET UNITYSDK_OFFSET(0x16EF1360)
+#define CLASS_4_DA219FA494F35D19__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF1310)
 
-inline static constexpr unsigned int Class_4_DA219FA494F35D19_TypeDefinitionIndex = 20431;
+inline static constexpr unsigned int Class_4_DA219FA494F35D19_TypeDefinitionIndex = 20979;
 
 class Class_4_DA219FA494F35D19 : public ::RPG::GameCore::PredicateConfig
 {
 public:
 	::RPG::GameCore::DynamicFloat* Field_4_1; // 0x20
-	::RPG::GameCore::ElationPointReadType Field_4_2; // 0x28
-	::RPG::GameCore::CompareType Field_4_0; // 0x2C
+	::RPG::GameCore::CompareType Field_4_0; // 0x28
+	::RPG::GameCore::ElationPointReadType Field_4_2; // 0x2C
 
 	::System::Void _ctor()
 	{

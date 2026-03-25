@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_EventId_TypeDefinitionIndex = 7145;
+	inline static constexpr unsigned int HoYoPassSDK_EventId_TypeDefinitionIndex = 7270;
 
 	enum class HoYoPassSDK_EventId : ::System::Int32
 	{

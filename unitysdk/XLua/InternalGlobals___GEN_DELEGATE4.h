@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace RPG::Client { class RogueTournBuildRefTeamData; }
+namespace RPG::Client { class IRogueMiracle; }
+namespace RPG::Client { class IRogueMiracleWithCategory; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
-namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF838130)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF838160)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4_INVOKE_OFFSET UNITYSDK_OFFSET(0xF8379F0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B020)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF65380)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF653B0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF64E20)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE4__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57880)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE4_TypeDefinitionIndex = 39435;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE4_TypeDefinitionIndex = 40421;
 
 	class InternalGlobals___GEN_DELEGATE4 : public ::System::MulticastDelegate
 	{
@@ -25,19 +25,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::System::Collections::Generic::ICollection_1<::RPG::Client::RogueTournBuildRefTeamData*>* teams)
+		::RPG::Client::IRogueMiracleWithCategory* Invoke(::RPG::Client::IRogueMiracle* miracle)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::RPG::Client::RogueTournBuildRefTeamData*>*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4_INVOKE_OFFSET))(this, teams);
+			return ((::RPG::Client::IRogueMiracleWithCategory*(*)(::PVOID, ::RPG::Client::IRogueMiracle*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4_INVOKE_OFFSET))(this, miracle);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::ICollection_1<::RPG::Client::RogueTournBuildRefTeamData*>* teams, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueMiracle* miracle, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::RPG::Client::RogueTournBuildRefTeamData*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4_BEGININVOKE_OFFSET))(this, teams, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueMiracle*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4_BEGININVOKE_OFFSET))(this, miracle, callback, object);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* result)
+		::RPG::Client::IRogueMiracleWithCategory* EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4_ENDINVOKE_OFFSET))(this, result);
+			return ((::RPG::Client::IRogueMiracleWithCategory*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE4_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

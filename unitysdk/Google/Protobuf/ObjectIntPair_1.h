@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ObjectIntPair_1_TypeDefinitionIndex = 6098;
+	inline static constexpr unsigned int ObjectIntPair_1_TypeDefinitionIndex = 6198;
 
 	template <typename T>
 	struct ObjectIntPair_1

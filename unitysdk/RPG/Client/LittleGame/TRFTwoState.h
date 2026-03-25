@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TRFTwoState_TypeDefinitionIndex = 31988;
+	inline static constexpr unsigned int TRFTwoState_TypeDefinitionIndex = 32898;
 
 	enum class TRFTwoState : ::System::Int32
 	{

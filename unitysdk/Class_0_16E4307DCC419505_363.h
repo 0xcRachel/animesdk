@@ -1,7 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_363_TypeDefinitionIndex = 42791;
+class Class_0_16E4307DCC419505_355;
+class Class_0_16E4307DCC419505_360;
+class Class_0_16E4307DCC419505_361;
+class Class_0_16E4307DCC419505_362;
+namespace RPG::AvatarSystem { class AvatarServant; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_363_TypeDefinitionIndex = 41969;
 
 class Class_0_16E4307DCC419505_363
 {

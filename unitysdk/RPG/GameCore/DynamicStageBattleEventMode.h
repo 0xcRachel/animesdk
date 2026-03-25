@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicStageBattleEventMode_TypeDefinitionIndex = 20387;
+	inline static constexpr unsigned int DynamicStageBattleEventMode_TypeDefinitionIndex = 20935;
 
 	enum class DynamicStageBattleEventMode : ::System::Int32
 	{

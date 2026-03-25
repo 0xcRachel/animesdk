@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
 namespace System::Threading { class Thread; }
 
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_REGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x17EF7CA0)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x17EF7420)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x17EF8070)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EF82F0)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EF7320)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_REGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x18721050)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x187207E0)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x187213F0)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18721640)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x187206E0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SafeSocketHandle_TypeDefinitionIndex = 2896;
+	inline static constexpr unsigned int SafeSocketHandle_TypeDefinitionIndex = 2905;
 
 	class SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:
 		static ::System::Boolean* StaticGet_THROW_ON_ABORT_RETRIES()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SafeSocketHandle_TypeDefinitionIndex)->GetStaticField(0x4D10);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SafeSocketHandle_TypeDefinitionIndex)->GetStaticField(0x8D70);
 		}
 		::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces; // 0x28

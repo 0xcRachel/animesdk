@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_LinuxOutput_TypeDefinitionIndex = 30302;
+	inline static constexpr unsigned int CriAtomConfig_LinuxOutput_TypeDefinitionIndex = 31177;
 
 	enum class CriAtomConfig_LinuxOutput : ::System::Int32
 	{

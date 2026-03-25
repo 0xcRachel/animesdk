@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D57D30)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1641F550)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int DSASignatureDeformatter_TypeDefinitionIndex = 1007;
+	inline static constexpr unsigned int DSASignatureDeformatter_TypeDefinitionIndex = 1012;
 
 	class DSASignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter
 	{

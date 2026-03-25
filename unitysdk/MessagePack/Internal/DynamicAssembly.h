@@ -11,25 +11,23 @@ namespace System::Reflection::Emit { class AssemblyBuilder; }
 namespace System::Reflection::Emit { class ModuleBuilder; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1564C6A0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_2_OFFSET UNITYSDK_OFFSET(0x1564C6C0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1564C680)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1564C6F0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1564C630)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x15D5ADC0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D5ADF0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CTOR_OFFSET UNITYSDK_OFFSET(0x15D5AD70)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 9587;
+	inline static constexpr unsigned int DynamicAssembly_TypeDefinitionIndex = 9144;
 
 	class DynamicAssembly : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_AvoidDynamicCode()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicAssembly_TypeDefinitionIndex)->GetStaticField(0x7880);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DynamicAssembly_TypeDefinitionIndex)->GetStaticField(0x9880);
 		}
-		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x10
-		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x18
+		::System::Reflection::Emit::AssemblyBuilder* assemblyBuilder; // 0x10
+		::System::Reflection::Emit::ModuleBuilder* moduleBuilder; // 0x18
 
 		::System::Void _ctor(::System::String* moduleName, ::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>* skipVisibilityChecksTo)
 		{
@@ -41,19 +39,9 @@ namespace MessagePack::Internal
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY__CCTOR_OFFSET))();
 		}
 
-		::System::Reflection::Emit::TypeBuilder* DefineType(::System::String* name, ::System::Reflection::TypeAttributes attr)
+		::System::Reflection::Emit::TypeBuilder* DefineType(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent, ::Il2CppArray<::System::Type*>* interfaces)
 		{
-			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET))(this, name, attr);
-		}
-
-		::System::Reflection::Emit::TypeBuilder* DefineType_1(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent)
-		{
-			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_1_OFFSET))(this, name, attr, parent);
-		}
-
-		::System::Reflection::Emit::TypeBuilder* DefineType_2(::System::String* name, ::System::Reflection::TypeAttributes attr, ::System::Type* parent, ::Il2CppArray<::System::Type*>* interfaces)
-		{
-			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_2_OFFSET))(this, name, attr, parent, interfaces);
+			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICASSEMBLY_DEFINETYPE_OFFSET))(this, name, attr, parent, interfaces);
 		}
 	};
 }

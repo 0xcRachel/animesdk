@@ -4,18 +4,18 @@
 
 class Class_1_3745C69C00F04B7D_4;
 
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG___C__DISPLAYCLASS5_0__CANAUTOOPENSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x946A5B0)
-#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x946A4D0)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG___C__DISPLAYCLASS5_0__CANAUTOOPENSHOP_B__0_OFFSET UNITYSDK_OFFSET(0x98EDE60)
+#define RPG_CLIENT_GRIDFIGHTTUTORIALSTAGECONFIG___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98EDD80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTutorialStageConfig___c__DisplayClass5_0_TypeDefinitionIndex = 52056;
+	inline static constexpr unsigned int GridFightTutorialStageConfig___c__DisplayClass5_0_TypeDefinitionIndex = 53190;
 
 	class GridFightTutorialStageConfig___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 sectionID; // 0x10
-		::System::UInt32 chapterID; // 0x14
+		::System::UInt32 chapterID; // 0x10
+		::System::UInt32 sectionID; // 0x14
 
 		::System::Void _ctor()
 		{

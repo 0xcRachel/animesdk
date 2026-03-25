@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_MouseCornerPositionType_TypeDefinitionIndex = 49983;
+	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_MouseCornerPositionType_TypeDefinitionIndex = 51115;
 
 	enum class CakeRaceBattleItemUIHandler_MouseCornerPositionType : ::System::Int32
 	{

@@ -4,31 +4,31 @@
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_399;
-class Class_0_16E4307DCC419505_400;
+class Class_0_16E4307DCC419505_427;
+class Class_0_16E4307DCC419505_428;
 class Class_1_2C7816CF4E9F7398;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_98133438BFCB56ED_CLEAR_OFFSET UNITYSDK_OFFSET(0x10FEF4B0)
-#define CLASS_1_98133438BFCB56ED_METHOD_1_0F8EFB6D63ADB169_1_OFFSET UNITYSDK_OFFSET(0x10FEF5D0)
-#define CLASS_1_98133438BFCB56ED_METHOD_1_0F8EFB6D63ADB169_OFFSET UNITYSDK_OFFSET(0x10FEF580)
-#define CLASS_1_98133438BFCB56ED_METHOD_1_4D7F2CC1DBA24BC8_OFFSET UNITYSDK_OFFSET(0x10FEF530)
-#define CLASS_1_98133438BFCB56ED__CTOR_OFFSET UNITYSDK_OFFSET(0x10FEF620)
+#define CLASS_1_98133438BFCB56ED_CLEAR_OFFSET UNITYSDK_OFFSET(0x89C8600)
+#define CLASS_1_98133438BFCB56ED_METHOD_1_0F8EFB6D63ADB169_1_OFFSET UNITYSDK_OFFSET(0x89C8720)
+#define CLASS_1_98133438BFCB56ED_METHOD_1_0F8EFB6D63ADB169_OFFSET UNITYSDK_OFFSET(0x89C86D0)
+#define CLASS_1_98133438BFCB56ED_METHOD_1_4D7F2CC1DBA24BC8_OFFSET UNITYSDK_OFFSET(0x89C8680)
+#define CLASS_1_98133438BFCB56ED__CTOR_OFFSET UNITYSDK_OFFSET(0x89C8770)
 
-inline static constexpr unsigned int Class_1_98133438BFCB56ED_TypeDefinitionIndex = 44208;
+inline static constexpr unsigned int Class_1_98133438BFCB56ED_TypeDefinitionIndex = 45268;
 
 class Class_1_98133438BFCB56ED : public ::System::Object
 {
 public:
-	::System::Object* Field_1_0; // 0x10
-	::Class_0_16E4307DCC419505_399* Field_1_4; // 0x18
+	::Class_0_16E4307DCC419505_427* Field_1_4; // 0x10
+	::System::Object* Field_1_0; // 0x18
 	::System::Collections::Generic::List_1<::Class_1_2C7816CF4E9F7398*>* Field_1_8; // 0x20
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_400*>* Field_1_7; // 0x28
-	::RPG::GameCore::FixVec2 Field_1_3; // 0x30
-	::RPG::GameCore::CollisionDataFlag Field_1_5; // 0x40
-	::System::UInt32 Field_1_1; // 0x44
-	::RPG::GameCore::FixVec2 Field_1_6; // 0x48
-	::RPG::GameCore::FixVec2 Field_1_2; // 0x58
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_428*>* Field_1_7; // 0x28
+	::RPG::GameCore::FixVec2 Field_1_6; // 0x30
+	::RPG::GameCore::FixVec2 Field_1_3; // 0x40
+	::RPG::GameCore::FixVec2 Field_1_2; // 0x50
+	::System::UInt32 Field_1_1; // 0x60
+	::RPG::GameCore::CollisionDataFlag Field_1_5; // 0x64
 
 	::System::Void _ctor()
 	{

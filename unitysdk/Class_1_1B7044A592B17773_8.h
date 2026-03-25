@@ -1,72 +1,77 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/LimaoNewsInterviewContentType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_120319518E6F6581_117;
-namespace RPG::GameCore { class TrainPartySkillConfigRow; }
+class Class_1_A10B52E49B18C483;
 namespace System { class String; }
 
-#define CLASS_1_1B7044A592B17773_8_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x10DCACB0)
-#define CLASS_1_1B7044A592B17773_8_GET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0x10DCACD0)
-#define CLASS_1_1B7044A592B17773_8_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0x10DCAC90)
-#define CLASS_1_1B7044A592B17773_8_METHOD_1_74111764BB87DBB6_OFFSET UNITYSDK_OFFSET(0x10DCAC30)
-#define CLASS_1_1B7044A592B17773_8_METHOD_1_B7EDD769B79C6563_OFFSET UNITYSDK_OFFSET(0x10DCA9D0)
-#define CLASS_1_1B7044A592B17773_8_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x10DCACC0)
-#define CLASS_1_1B7044A592B17773_8_SET_MAXLEVEL_OFFSET UNITYSDK_OFFSET(0x10DCACE0)
-#define CLASS_1_1B7044A592B17773_8_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x10DCACA0)
-#define CLASS_1_1B7044A592B17773_8__CTOR_OFFSET UNITYSDK_OFFSET(0x10DCA9A0)
+#define CLASS_1_1B7044A592B17773_8_GET_INTERVIEWCONTENTID_OFFSET UNITYSDK_OFFSET(0x115C7C60)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x115C7A10)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_39D78A8EB32A5315_OFFSET UNITYSDK_OFFSET(0x115C7A80)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_3F2742B0A4846020_OFFSET UNITYSDK_OFFSET(0x115C7930)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_4B3A2073C249C48E_OFFSET UNITYSDK_OFFSET(0x115C78C0)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_63D1770D8D097315_OFFSET UNITYSDK_OFFSET(0x115C7830)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_A40738130934C79F_OFFSET UNITYSDK_OFFSET(0x115C7990)
+#define CLASS_1_1B7044A592B17773_8_METHOD_1_A957F695E7113877_OFFSET UNITYSDK_OFFSET(0x115C7BB0)
+#define CLASS_1_1B7044A592B17773_8_SET_INTERVIEWCONTENTID_OFFSET UNITYSDK_OFFSET(0x115C7C70)
+#define CLASS_1_1B7044A592B17773_8__CTOR_OFFSET UNITYSDK_OFFSET(0x115C78B0)
 
-inline static constexpr unsigned int Class_1_1B7044A592B17773_8_TypeDefinitionIndex = 59378;
+inline static constexpr unsigned int Class_1_1B7044A592B17773_8_TypeDefinitionIndex = 61055;
 
 class Class_1_1B7044A592B17773_8 : public ::System::Object
 {
 public:
-	::System::UInt32 _Level_k__BackingField; // 0x10
-	::System::UInt32 _SkillID_k__BackingField; // 0x14
-	::System::UInt32 _MaxLevel_k__BackingField; // 0x18
+	::System::UInt32 _InterviewContentID_k__BackingField; // 0x10
 
-	::System::Void _ctor(::Class_1_120319518E6F6581_117* a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_120319518E6F6581_117*))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8__CTOR_OFFSET))(this);
 	}
 
-	::System::String* Method_1_B7EDD769B79C6563()
+	static ::Class_1_1B7044A592B17773_8* Method_1_63D1770D8D097315(::System::UInt32 a1)
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_B7EDD769B79C6563_OFFSET))(this);
+		return ((::Class_1_1B7044A592B17773_8*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_63D1770D8D097315_OFFSET))(a1);
 	}
 
-	::System::UInt32 get_SkillID()
+	::RPG::GameCore::LimaoNewsInterviewContentType Method_1_4B3A2073C249C48E()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_GET_SKILLID_OFFSET))(this);
+		return ((::RPG::GameCore::LimaoNewsInterviewContentType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_4B3A2073C249C48E_OFFSET))(this);
 	}
 
-	::System::Void set_SkillID(::System::UInt32 value)
+	::RPG::Client::TextID Method_1_A40738130934C79F()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_SET_SKILLID_OFFSET))(this, value);
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_A40738130934C79F_OFFSET))(this);
 	}
 
-	::System::UInt32 get_Level()
+	::System::Boolean Method_1_1808E1CF7A125519()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_GET_LEVEL_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_1808E1CF7A125519_OFFSET))(this);
 	}
 
-	::System::Void set_Level(::System::UInt32 value)
+	::System::Boolean Method_1_39D78A8EB32A5315()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_SET_LEVEL_OFFSET))(this, value);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_39D78A8EB32A5315_OFFSET))(this);
 	}
 
-	::System::UInt32 get_MaxLevel()
+	::System::String* Method_1_A957F695E7113877()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_GET_MAXLEVEL_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_A957F695E7113877_OFFSET))(this);
 	}
 
-	::System::Void set_MaxLevel(::System::UInt32 value)
+	::System::UInt32 get_InterviewContentID()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_SET_MAXLEVEL_OFFSET))(this, value);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_GET_INTERVIEWCONTENTID_OFFSET))(this);
 	}
 
-	::RPG::GameCore::TrainPartySkillConfigRow* Method_1_74111764BB87DBB6()
+	::System::Void set_InterviewContentID(::System::UInt32 value)
 	{
-		return ((::RPG::GameCore::TrainPartySkillConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_74111764BB87DBB6_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_SET_INTERVIEWCONTENTID_OFFSET))(this, value);
+	}
+
+	::Class_1_A10B52E49B18C483* Method_1_3F2742B0A4846020()
+	{
+		return ((::Class_1_A10B52E49B18C483*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_8_METHOD_1_3F2742B0A4846020_OFFSET))(this);
 	}
 };

@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcTrs_CursorChangeModeEnum_TypeDefinitionIndex = 27496;
+	inline static constexpr unsigned int BGCcTrs_CursorChangeModeEnum_TypeDefinitionIndex = 28232;
 
 	enum class BGCcTrs_CursorChangeModeEnum : ::System::Int32
 	{

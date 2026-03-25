@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGDYNAMICBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x956B700)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGDYNAMICBONE__CTOR_OFFSET UNITYSDK_OFFSET(0x9A46380)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongDynamicBone_TypeDefinitionIndex = 60458;
+	inline static constexpr unsigned int PingPongDynamicBone_TypeDefinitionIndex = 62436;
 
 	class PingPongDynamicBone : public ::UnityEngine::MonoBehaviour
 	{

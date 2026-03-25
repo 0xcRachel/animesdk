@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_Transform_RotateType_TypeDefinitionIndex = 56225;
+	inline static constexpr unsigned int Effect_Transform_RotateType_TypeDefinitionIndex = 57796;
 
 	enum class Effect_Transform_RotateType : ::System::Int32
 	{

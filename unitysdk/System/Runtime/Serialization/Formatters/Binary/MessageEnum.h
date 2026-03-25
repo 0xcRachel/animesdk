@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int MessageEnum_TypeDefinitionIndex = 1162;
+	inline static constexpr unsigned int MessageEnum_TypeDefinitionIndex = 1167;
 
 	enum class MessageEnum : ::System::Int32
 	{

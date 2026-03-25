@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D07790)
-#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D07910)
+#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1748E050)
+#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1748E1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 13021;
+	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 13092;
 
 	class OfferingLevelUnlockConfigRow : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_629;
+class Class_0_16E4307DCC419505_660;
 namespace RPG::Client { class IMissionChroniclePathUnlockConditionData; }
 namespace RPG::Client { class MissionChronicleBasePathData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
@@ -10,13 +10,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER_COLLECTUNLOCKCONDITIONS_OFFSET UNITYSDK_OFFSET(0x9727120)
-#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER_GETLOCATIONTEXT_OFFSET UNITYSDK_OFFSET(0x97249C0)
-#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER__INITUNLOCKCONDITIONCOLLECTORS_OFFSET UNITYSDK_OFFSET(0x9727900)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER_COLLECTUNLOCKCONDITIONS_OFFSET UNITYSDK_OFFSET(0x9BCCBE0)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER_GETLOCATIONTEXT_OFFSET UNITYSDK_OFFSET(0x9BCA9A0)
+#define RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER__INITUNLOCKCONDITIONCOLLECTORS_OFFSET UNITYSDK_OFFSET(0x9BCD3C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionChroniclePathUnlockConditionHelper_TypeDefinitionIndex = 52610;
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionHelper_TypeDefinitionIndex = 53747;
 
 	class MissionChroniclePathUnlockConditionHelper : public ::System::Object
 	{
@@ -26,9 +26,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Promises::IPromise_1<::System::Collections::Generic::List_1<::RPG::Client::IMissionChroniclePathUnlockConditionData*>*>*(*)(::RPG::Client::MissionChronicleBasePathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER_COLLECTUNLOCKCONDITIONS_OFFSET))(pathData);
 		}
 
-		static ::System::Void _InitUnlockConditionCollectors(::RPG::Client::MissionChronicleBasePathData* pathData, ::System::Collections::Generic::ICollection_1<::Class_0_16E4307DCC419505_629*>* outCollectors)
+		static ::System::Void _InitUnlockConditionCollectors(::RPG::Client::MissionChronicleBasePathData* pathData, ::System::Collections::Generic::ICollection_1<::Class_0_16E4307DCC419505_660*>* outCollectors)
 		{
-			return ((::System::Void(*)(::RPG::Client::MissionChronicleBasePathData*, ::System::Collections::Generic::ICollection_1<::Class_0_16E4307DCC419505_629*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER__INITUNLOCKCONDITIONCOLLECTORS_OFFSET))(pathData, outCollectors);
+			return ((::System::Void(*)(::RPG::Client::MissionChronicleBasePathData*, ::System::Collections::Generic::ICollection_1<::Class_0_16E4307DCC419505_660*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONCHRONICLEPATHUNLOCKCONDITIONHELPER__INITUNLOCKCONDITIONCOLLECTORS_OFFSET))(pathData, outCollectors);
 		}
 
 		static ::System::String* GetLocationText(::System::UInt32 floorID)

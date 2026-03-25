@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EventType_TypeDefinitionIndex = 44529;
+	inline static constexpr unsigned int EventType_TypeDefinitionIndex = 45590;
 
 	enum class EventType : ::System::Int32
 	{

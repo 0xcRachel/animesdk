@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_36_TypeDefinitionIndex = 47603;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_36_TypeDefinitionIndex = 48684;
 
 class Class_1_534AF681CC2BD5FD_36 : public ::System::Object
 {

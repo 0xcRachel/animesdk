@@ -8,11 +8,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x17D19830)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MEMORYMARSHAL_TRYGETSTRING_OFFSET UNITYSDK_OFFSET(0x18530C10)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4884;
+	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4983;
 
 	class MemoryMarshal : public ::System::Object
 	{

@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_BB4B99DE4C2501EC_3;
-class Class_1_F3CA30716D4FAF92_2;
+class Class_1_F3CA30716D4FAF92_4;
 
-#define RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8CF9230)
-#define RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__0_OFFSET UNITYSDK_OFFSET(0x8D02AF0)
-#define RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__1_OFFSET UNITYSDK_OFFSET(0x8D02B10)
+#define RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9150AA0)
+#define RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__0_OFFSET UNITYSDK_OFFSET(0x9159470)
+#define RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__1_OFFSET UNITYSDK_OFFSET(0x9159490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarModule___c__DisplayClass27_0_TypeDefinitionIndex = 49622;
+	inline static constexpr unsigned int AvatarModule___c__DisplayClass27_0_TypeDefinitionIndex = 50757;
 
 	class AvatarModule___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 baseID; // 0x10
-		::System::UInt32 realID; // 0x14
+		::System::UInt32 realID; // 0x10
+		::System::UInt32 baseID; // 0x14
 
 		::System::Void _ctor()
 		{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::Class_1_BB4B99DE4C2501EC_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__0_OFFSET))(this, data);
 		}
 
-		::System::Boolean __SyncFormalMultiPathAvatars_b__1(::Class_1_F3CA30716D4FAF92_2* data)
+		::System::Boolean __SyncFormalMultiPathAvatars_b__1(::Class_1_F3CA30716D4FAF92_4* data)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_F3CA30716D4FAF92_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__1_OFFSET))(this, data);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_F3CA30716D4FAF92_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARMODULE___C__DISPLAYCLASS27_0___SYNCFORMALMULTIPATHAVATARS_B__1_OFFSET))(this, data);
 		}
 	};
 }

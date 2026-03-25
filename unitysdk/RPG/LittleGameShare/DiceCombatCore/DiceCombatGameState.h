@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatGameState_TypeDefinitionIndex = 27596;
+	inline static constexpr unsigned int DiceCombatGameState_TypeDefinitionIndex = 28345;
 
 	enum class DiceCombatGameState : ::System::Byte
 	{

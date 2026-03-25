@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FollowVisibilityType_TypeDefinitionIndex = 55771;
+	inline static constexpr unsigned int FollowVisibilityType_TypeDefinitionIndex = 57336;
 
 	enum class FollowVisibilityType : ::System::Int32
 	{

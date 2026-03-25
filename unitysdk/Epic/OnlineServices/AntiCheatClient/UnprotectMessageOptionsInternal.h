@@ -13,7 +13,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int UnprotectMessageOptionsInternal_TypeDefinitionIndex = 35794;
+	inline static constexpr unsigned int UnprotectMessageOptionsInternal_TypeDefinitionIndex = 36728;
 
 	struct alignas(8) UnprotectMessageOptionsInternal
 	{

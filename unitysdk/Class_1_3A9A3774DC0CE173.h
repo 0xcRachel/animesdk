@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define CLASS_1_3A9A3774DC0CE173_CLEAR_OFFSET UNITYSDK_OFFSET(0x16344740)
-#define CLASS_1_3A9A3774DC0CE173__CTOR_OFFSET UNITYSDK_OFFSET(0x16344790)
+#define CLASS_1_3A9A3774DC0CE173_CLEAR_OFFSET UNITYSDK_OFFSET(0x168673F0)
+#define CLASS_1_3A9A3774DC0CE173__CTOR_OFFSET UNITYSDK_OFFSET(0x16867440)
 
-inline static constexpr unsigned int Class_1_3A9A3774DC0CE173_TypeDefinitionIndex = 32511;
+inline static constexpr unsigned int Class_1_3A9A3774DC0CE173_TypeDefinitionIndex = 33423;
 
 class Class_1_3A9A3774DC0CE173 : public ::System::Object
 {

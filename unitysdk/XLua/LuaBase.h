@@ -4,24 +4,24 @@
 
 namespace XLua { class LuaEnv; }
 
-#define XLUA_LUABASE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0xF83AA40)
-#define XLUA_LUABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF83A9F0)
-#define XLUA_LUABASE_EQUALS_OFFSET UNITYSDK_OFFSET(0xF83ACB0)
-#define XLUA_LUABASE_FINALIZE_OFFSET UNITYSDK_OFFSET(0xF83A980)
-#define XLUA_LUABASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF83B0F0)
-#define XLUA_LUABASE_PUSH_OFFSET UNITYSDK_OFFSET(0xF83B480)
-#define XLUA_LUABASE__CTOR_OFFSET UNITYSDK_OFFSET(0xF8278A0)
+#define XLUA_LUABASE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0xFF6E300)
+#define XLUA_LUABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFF6E2B0)
+#define XLUA_LUABASE_EQUALS_OFFSET UNITYSDK_OFFSET(0xFF6E5C0)
+#define XLUA_LUABASE_FINALIZE_OFFSET UNITYSDK_OFFSET(0xFF6E240)
+#define XLUA_LUABASE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xFF6EBB0)
+#define XLUA_LUABASE_PUSH_OFFSET UNITYSDK_OFFSET(0xFF6EF40)
+#define XLUA_LUABASE__CTOR_OFFSET UNITYSDK_OFFSET(0xFF6E230)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 39466;
+	inline static constexpr unsigned int LuaBase_TypeDefinitionIndex = 40482;
 
 	class LuaBase : public ::System::Object
 	{
 	public:
 		::XLua::LuaEnv* luaEnv; // 0x10
-		::System::Boolean disposed; // 0x18
-		::System::Int32 luaReference; // 0x1C
+		::System::Int32 luaReference; // 0x18
+		::System::Boolean disposed; // 0x1C
 
 		::System::Void _ctor(::System::Int32 reference, ::XLua::LuaEnv* luaenv)
 		{

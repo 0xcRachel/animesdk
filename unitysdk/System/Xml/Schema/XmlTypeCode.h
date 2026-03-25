@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlTypeCode_TypeDefinitionIndex = 2203;
+	inline static constexpr unsigned int XmlTypeCode_TypeDefinitionIndex = 2208;
 
 	enum class XmlTypeCode : ::System::Int32
 	{

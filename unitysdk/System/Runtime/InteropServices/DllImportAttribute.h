@@ -7,28 +7,28 @@
 namespace System { class String; }
 namespace System::Reflection { class RuntimeMethodInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x15CDF610)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15CDF790)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x15CDF750)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15CDF780)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CDF700)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x163A79E0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x163A7B60)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x163A7B20)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x163A7B50)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A7AD0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int DllImportAttribute_TypeDefinitionIndex = 1404;
+	inline static constexpr unsigned int DllImportAttribute_TypeDefinitionIndex = 1409;
 
 	class DllImportAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* EntryPoint; // 0x10
-		::System::String* _val; // 0x18
-		::System::Boolean SetLastError; // 0x20
-		::System::Boolean ThrowOnUnmappableChar; // 0x21
-		::System::Boolean PreserveSig; // 0x22
-		::System::Boolean ExactSpelling; // 0x23
-		::System::Runtime::InteropServices::CharSet CharSet; // 0x24
-		::System::Boolean BestFitMapping; // 0x28
-		::System::Runtime::InteropServices::CallingConvention CallingConvention; // 0x2C
+		::System::String* _val; // 0x10
+		::System::String* EntryPoint; // 0x18
+		::System::Runtime::InteropServices::CallingConvention CallingConvention; // 0x20
+		::System::Boolean SetLastError; // 0x24
+		::System::Boolean BestFitMapping; // 0x25
+		::System::Runtime::InteropServices::CharSet CharSet; // 0x28
+		::System::Boolean ThrowOnUnmappableChar; // 0x2C
+		::System::Boolean PreserveSig; // 0x2D
+		::System::Boolean ExactSpelling; // 0x2E
 
 		::System::Void _ctor(::System::String* dllName, ::System::String* entryPoint, ::System::Runtime::InteropServices::CharSet charSet, ::System::Boolean exactSpelling, ::System::Boolean setLastError, ::System::Boolean preserveSig, ::System::Runtime::InteropServices::CallingConvention callingConvention, ::System::Boolean bestFitMapping, ::System::Boolean throwOnUnmappableChar)
 		{

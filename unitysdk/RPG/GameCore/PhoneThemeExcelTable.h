@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16D30EC0)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16D30D10)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16D309E0)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16D30CB0)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16D31090)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D30A60)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16D310D0)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D312B0)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16D31540)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D318A0)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16D31210)
-#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D31170)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x174B8EF0)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x174B8D40)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x174B8A10)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x174B8CE0)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x174B90C0)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x174B8A90)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x174B9100)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B92E0)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x174B9570)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174B98D0)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x174B9240)
+#define RPG_GAMECORE_PHONETHEMEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x174B91A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhoneThemeExcelTable_TypeDefinitionIndex = 13150;
+	inline static constexpr unsigned int PhoneThemeExcelTable_TypeDefinitionIndex = 13224;
 
 	class PhoneThemeExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D4D0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhoneThemeRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhoneThemeRow*>**)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D4D8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PhoneThemeRow*>**)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0x39CC0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D4E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0x39CC8);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0x39CD0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9A0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0xE860);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0xE9A1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PhoneThemeExcelTable_TypeDefinitionIndex)->GetStaticField(0xE861);
 		}
 
 		static ::System::Void _cctor()

@@ -6,19 +6,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER_GET_OFFSET UNITYSDK_OFFSET(0x8E1AA60)
-#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x8E1C280)
+#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER_GET_OFFSET UNITYSDK_OFFSET(0x9224DC0)
+#define RPG_CLIENT_CACHEDASSETLOADER_CACHEDLOGICTYPEGETTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x9226720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex = 47003;
+	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex = 48084;
 
 	class CachedAssetLoader_CachedLogicTypeGetter : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::CachedAssetLogicType>** StaticGet__CachedAssetLogicTypeMapping()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::CachedAssetLogicType>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex)->GetStaticField(0x39010);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::CachedAssetLogicType>**)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_CachedLogicTypeGetter_TypeDefinitionIndex)->GetStaticField(0x2D4C0);
 		}
 
 		static ::System::Void _cctor()

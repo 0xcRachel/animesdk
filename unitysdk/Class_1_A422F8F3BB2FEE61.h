@@ -6,30 +6,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_A422F8F3BB2FEE61_METHOD_1_92A43999FC3FD92F_OFFSET UNITYSDK_OFFSET(0x1671D170)
-#define CLASS_1_A422F8F3BB2FEE61__CTOR_OFFSET UNITYSDK_OFFSET(0x1671D710)
+#define CLASS_1_A422F8F3BB2FEE61_METHOD_1_92A43999FC3FD92F_OFFSET UNITYSDK_OFFSET(0x16D6FEA0)
+#define CLASS_1_A422F8F3BB2FEE61__CTOR_OFFSET UNITYSDK_OFFSET(0x16D70440)
 
-inline static constexpr unsigned int Class_1_A422F8F3BB2FEE61_TypeDefinitionIndex = 12668;
+inline static constexpr unsigned int Class_1_A422F8F3BB2FEE61_TypeDefinitionIndex = 12738;
 
 class Class_1_A422F8F3BB2FEE61 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_10; // 0x10
 	::Il2CppArray<::System::UInt32>* Field_1_12; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_9; // 0x20
-	::Il2CppArray<::System::UInt32>* Field_1_10; // 0x28
-	::Il2CppArray<::System::UInt32>* Field_1_4; // 0x30
-	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x38
-	::Il2CppArray<::System::UInt32>* Field_1_11; // 0x40
+	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x20
+	::Il2CppArray<::System::UInt32>* Field_1_4; // 0x28
+	::Il2CppArray<::System::UInt32>* Field_1_11; // 0x30
+	::System::String* Field_1_15; // 0x38
+	::System::String* Field_1_14; // 0x40
 	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x48
-	::System::String* Field_1_15; // 0x50
-	::System::String* Field_1_14; // 0x58
-	::System::UInt32 Field_1_7; // 0x60
-	::System::Boolean Field_1_8; // 0x64
-	::System::UInt32 Field_1_3; // 0x68
-	::RPG::GameCore::LimaoNewsOfficeSurveyType Field_1_1; // 0x6C
-	::System::UInt32 Field_1_0; // 0x70
-	::System::UInt32 Field_1_13; // 0x74
+	::Il2CppArray<::System::UInt32>* Field_1_9; // 0x50
+	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x58
+	::System::UInt32 Field_1_0; // 0x60
+	::System::UInt32 Field_1_3; // 0x64
+	::System::UInt32 Field_1_7; // 0x68
+	::System::UInt32 Field_1_13; // 0x6C
+	::System::Boolean Field_1_8; // 0x70
+	::RPG::GameCore::LimaoNewsOfficeSurveyType Field_1_1; // 0x74
 
 	::System::Void _ctor()
 	{

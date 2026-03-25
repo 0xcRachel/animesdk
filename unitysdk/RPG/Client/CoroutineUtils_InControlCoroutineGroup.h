@@ -6,11 +6,11 @@ namespace RPG::Client { class ICoroutineGroupController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define RPG_CLIENT_COROUTINEUTILS_INCONTROLCOROUTINEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17B38CE0)
+#define RPG_CLIENT_COROUTINEUTILS_INCONTROLCOROUTINEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18352B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils_InControlCoroutineGroup_TypeDefinitionIndex = 8889;
+	inline static constexpr unsigned int CoroutineUtils_InControlCoroutineGroup_TypeDefinitionIndex = 9457;
 
 	class CoroutineUtils_InControlCoroutineGroup : public ::System::Object
 	{

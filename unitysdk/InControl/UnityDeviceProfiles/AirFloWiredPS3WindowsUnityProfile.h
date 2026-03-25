@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_AIRFLOWIREDPS3WINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15511B50)
-#define INCONTROL_UNITYDEVICEPROFILES_AIRFLOWIREDPS3WINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15513230)
+#define INCONTROL_UNITYDEVICEPROFILES_AIRFLOWIREDPS3WINDOWSUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C2B910)
+#define INCONTROL_UNITYDEVICEPROFILES_AIRFLOWIREDPS3WINDOWSUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C2CFF0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int AirFloWiredPS3WindowsUnityProfile_TypeDefinitionIndex = 30769;
+	inline static constexpr unsigned int AirFloWiredPS3WindowsUnityProfile_TypeDefinitionIndex = 31644;
 
 	class AirFloWiredPS3WindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{

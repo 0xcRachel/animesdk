@@ -9,29 +9,29 @@ namespace RPG::GameCore { class EntityLodLoadingArtData; }
 namespace RPG::GameCore { class EntityRuntimeReplaceArtPrefabConfig; }
 namespace System { class String; }
 
-#define CLASS_1_A86E27211D54741A_METHOD_1_647B4F46E7C98930_OFFSET UNITYSDK_OFFSET(0x91FE290)
-#define CLASS_1_A86E27211D54741A_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x91FD940)
-#define CLASS_1_A86E27211D54741A_METHOD_1_AB87AA9F40D3796C_OFFSET UNITYSDK_OFFSET(0x91FE000)
-#define CLASS_1_A86E27211D54741A_METHOD_1_B1693D7758162EE0_OFFSET UNITYSDK_OFFSET(0x91FDA00)
-#define CLASS_1_A86E27211D54741A_METHOD_1_B85C288F4D6EB0E9_OFFSET UNITYSDK_OFFSET(0x91FDD40)
-#define CLASS_1_A86E27211D54741A__CCTOR_OFFSET UNITYSDK_OFFSET(0x91FE4C0)
+#define CLASS_1_A86E27211D54741A_METHOD_1_647B4F46E7C98930_OFFSET UNITYSDK_OFFSET(0x8A3B2C0)
+#define CLASS_1_A86E27211D54741A_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x8A3A970)
+#define CLASS_1_A86E27211D54741A_METHOD_1_AB87AA9F40D3796C_OFFSET UNITYSDK_OFFSET(0x8A3B030)
+#define CLASS_1_A86E27211D54741A_METHOD_1_B1693D7758162EE0_OFFSET UNITYSDK_OFFSET(0x8A3AA30)
+#define CLASS_1_A86E27211D54741A_METHOD_1_B85C288F4D6EB0E9_OFFSET UNITYSDK_OFFSET(0x8A3AD70)
+#define CLASS_1_A86E27211D54741A__CCTOR_OFFSET UNITYSDK_OFFSET(0x8A3B4F0)
 
-inline static constexpr unsigned int Class_1_A86E27211D54741A_TypeDefinitionIndex = 55480;
+inline static constexpr unsigned int Class_1_A86E27211D54741A_TypeDefinitionIndex = 57045;
 
 class Class_1_A86E27211D54741A : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::CharacterLodConfig** StaticGet_Field_1_2()
-	{
-		return (::RPG::GameCore::CharacterLodConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A86E27211D54741A_TypeDefinitionIndex)->GetStaticField(0x40FB0);
-	}
 	static ::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig** StaticGet_Field_1_4()
 	{
-		return (::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A86E27211D54741A_TypeDefinitionIndex)->GetStaticField(0x40FB8);
+		return (::RPG::GameCore::EntityRuntimeReplaceArtPrefabConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A86E27211D54741A_TypeDefinitionIndex)->GetStaticField(0x43BF0);
+	}
+	static ::RPG::GameCore::CharacterLodConfig** StaticGet_Field_1_2()
+	{
+		return (::RPG::GameCore::CharacterLodConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A86E27211D54741A_TypeDefinitionIndex)->GetStaticField(0x43BF8);
 	}
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A86E27211D54741A_TypeDefinitionIndex)->GetStaticField(0xEFB0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_A86E27211D54741A_TypeDefinitionIndex)->GetStaticField(0x11790);
 	}
 	// static const ::System::String* Field_1_1; // 0x0
 	// static const ::System::String* Field_1_3; // 0x0

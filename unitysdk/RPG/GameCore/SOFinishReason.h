@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SOFinishReason_TypeDefinitionIndex = 44695;
+	inline static constexpr unsigned int SOFinishReason_TypeDefinitionIndex = 45756;
 
 	enum class SOFinishReason : ::System::Int32
 	{

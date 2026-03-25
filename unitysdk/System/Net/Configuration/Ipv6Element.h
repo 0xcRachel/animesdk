@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_IPV6ELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x17EA2B90)
-#define SYSTEM_NET_CONFIGURATION_IPV6ELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA2B50)
+#define SYSTEM_NET_CONFIGURATION_IPV6ELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186CBDD0)
+#define SYSTEM_NET_CONFIGURATION_IPV6ELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x186CBD90)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int Ipv6Element_TypeDefinitionIndex = 3059;
+	inline static constexpr unsigned int Ipv6Element_TypeDefinitionIndex = 3068;
 
 	class Ipv6Element : public ::System::Configuration::ConfigurationElement
 	{

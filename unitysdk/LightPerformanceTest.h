@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define LIGHTPERFORMANCETEST_METHOD_5_291D463BB1648C58_OFFSET UNITYSDK_OFFSET(0x11011A10)
-#define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0x11011600)
-#define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x11011EA0)
-#define LIGHTPERFORMANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x11011F30)
+#define LIGHTPERFORMANCETEST_METHOD_5_291D463BB1648C58_OFFSET UNITYSDK_OFFSET(0x118FFE30)
+#define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0x118FFA20)
+#define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x119002C0)
+#define LIGHTPERFORMANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x11900350)
 
-inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 37257;
+inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 38221;
 
 class LightPerformanceTest : public ::UnityEngine::MonoBehaviour
 {

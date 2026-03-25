@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ChessModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHESSABILITYCONFIGLIST_METHOD_2_E37B7D933146EB6F_OFFSET UNITYSDK_OFFSET(0x1697C390)
-#define RPG_GAMECORE_CHESSABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1697C500)
+#define RPG_GAMECORE_CHESSABILITYCONFIGLIST_METHOD_2_E37B7D933146EB6F_OFFSET UNITYSDK_OFFSET(0x1709E820)
+#define RPG_GAMECORE_CHESSABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1709E990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessAbilityConfigList_TypeDefinitionIndex = 15903;
+	inline static constexpr unsigned int ChessAbilityConfigList_TypeDefinitionIndex = 16180;
 
 	class ChessAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{

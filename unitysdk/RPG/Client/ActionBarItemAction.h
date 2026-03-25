@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionBarItemAction_TypeDefinitionIndex = 56739;
+	inline static constexpr unsigned int ActionBarItemAction_TypeDefinitionIndex = 58328;
 
 	enum class ActionBarItemAction : ::System::Int32
 	{

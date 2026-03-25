@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureState_TypeDefinitionIndex = 28361;
+	inline static constexpr unsigned int CaptureState_TypeDefinitionIndex = 29236;
 
 	enum class CaptureState : ::System::Int32
 	{

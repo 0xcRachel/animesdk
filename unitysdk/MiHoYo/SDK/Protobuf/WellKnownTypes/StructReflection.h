@@ -4,19 +4,19 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x156E9720)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x156EAA90)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15DD9F00)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_STRUCTREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DDB270)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int StructReflection_TypeDefinitionIndex = 27296;
+	inline static constexpr unsigned int StructReflection_TypeDefinitionIndex = 28032;
 
 	class StructReflection : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor**)Il2CppClass::FromTypeDefinitionIndex(StructReflection_TypeDefinitionIndex)->GetStaticField(0x2AE0);
+			return (::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor**)Il2CppClass::FromTypeDefinitionIndex(StructReflection_TypeDefinitionIndex)->GetStaticField(0xA10);
 		}
 
 		static ::System::Void _cctor()

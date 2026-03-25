@@ -4,19 +4,19 @@
 
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x154334E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x15433540)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15B4D330)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPEREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B4D390)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int TypeReflection_TypeDefinitionIndex = 6128;
+	inline static constexpr unsigned int TypeReflection_TypeDefinitionIndex = 6228;
 
 	class TypeReflection : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor**)Il2CppClass::FromTypeDefinitionIndex(TypeReflection_TypeDefinitionIndex)->GetStaticField(0xC050);
+			return (::Google::Protobuf::Reflection::FileDescriptor**)Il2CppClass::FromTypeDefinitionIndex(TypeReflection_TypeDefinitionIndex)->GetStaticField(0xDA40);
 		}
 
 		static ::System::Void _cctor()

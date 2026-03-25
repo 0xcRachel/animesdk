@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRASSDATA_METHOD_2_4614DD3BAE43EF0A_OFFSET UNITYSDK_OFFSET(0x16B14E10)
-#define RPG_GAMECORE_GRASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16B15100)
+#define RPG_GAMECORE_GRASSDATA_METHOD_2_4614DD3BAE43EF0A_OFFSET UNITYSDK_OFFSET(0x17260A30)
+#define RPG_GAMECORE_GRASSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17260D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 17111;
+	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 17516;
 
 	class GrassData : public ::RPG::GameCore::JsonConfig
 	{

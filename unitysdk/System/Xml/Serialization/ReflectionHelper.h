@@ -8,27 +8,27 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET UNITYSDK_OFFSET(0x17DA46D0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET UNITYSDK_OFFSET(0x17DA45E0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x17DA4470)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET UNITYSDK_OFFSET(0x17DA4510)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x17DA43F0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DA4AF0)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17DA4A40)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET UNITYSDK_OFFSET(0x185D4010)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET UNITYSDK_OFFSET(0x185D3F20)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x185D3DB0)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET UNITYSDK_OFFSET(0x185D3E50)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x185D3D30)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x185D4430)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x185D4380)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int ReflectionHelper_TypeDefinitionIndex = 1973;
+	inline static constexpr unsigned int ReflectionHelper_TypeDefinitionIndex = 1978;
 
 	class ReflectionHelper : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Reflection::ParameterModifier>** StaticGet_empty_modifiers()
 		{
-			return (::Il2CppArray<::System::Reflection::ParameterModifier>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionHelper_TypeDefinitionIndex)->GetStaticField(0xFEB0);
+			return (::Il2CppArray<::System::Reflection::ParameterModifier>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionHelper_TypeDefinitionIndex)->GetStaticField(0x169D0);
 		}
-		::System::Collections::Hashtable* _clrTypes; // 0x10
-		::System::Collections::Hashtable* _schemaTypes; // 0x18
+		::System::Collections::Hashtable* _schemaTypes; // 0x10
+		::System::Collections::Hashtable* _clrTypes; // 0x18
 
 		::System::Void _ctor()
 		{

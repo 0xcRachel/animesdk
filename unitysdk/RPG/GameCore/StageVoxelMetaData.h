@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class StageVoxelDataIndex; }
 
-#define RPG_GAMECORE_STAGEVOXELMETADATA_METHOD_2_C045FBDEA22B9527_OFFSET UNITYSDK_OFFSET(0x16F8FBA0)
-#define RPG_GAMECORE_STAGEVOXELMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8FC30)
+#define RPG_GAMECORE_STAGEVOXELMETADATA_METHOD_2_431A80A56364731E_OFFSET UNITYSDK_OFFSET(0x177836D0)
+#define RPG_GAMECORE_STAGEVOXELMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17783780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVoxelMetaData_TypeDefinitionIndex = 17158;
+	inline static constexpr unsigned int StageVoxelMetaData_TypeDefinitionIndex = 17563;
 
 	class StageVoxelMetaData : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C045FBDEA22B9527(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelMetaData*& a2)
+		static ::System::Void Method_2_431A80A56364731E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelMetaData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelMetaData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA_METHOD_2_C045FBDEA22B9527_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelMetaData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA_METHOD_2_431A80A56364731E_OFFSET))(a1, a2);
 		}
 	};
 }

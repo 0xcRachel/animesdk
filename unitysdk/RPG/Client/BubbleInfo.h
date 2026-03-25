@@ -1,46 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Billboard/BillboardIdentifier.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client::Billboard { class BillboardIdentifier; }
 namespace RPG::GameCore { class BubbleTalkInfo; }
 namespace RPG::GameCore { class FiveDimActionBubbleTalkInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BUBBLEINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x8E11FF0)
-#define RPG_CLIENT_BUBBLEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x8E11F40)
-#define RPG_CLIENT_BUBBLEINFO_GETBUBBLEINFO_OFFSET UNITYSDK_OFFSET(0x8E120B0)
-#define RPG_CLIENT_BUBBLEINFO_GET_AUTOSKIPTIME_OFFSET UNITYSDK_OFFSET(0x8E12120)
-#define RPG_CLIENT_BUBBLEINFO_GET_BILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x8E120F0)
-#define RPG_CLIENT_BUBBLEINFO_GET_DIALOGUETEXTMAPID_OFFSET UNITYSDK_OFFSET(0x8E12140)
-#define RPG_CLIENT_BUBBLEINFO_GET_ENABLEVOICE_OFFSET UNITYSDK_OFFSET(0x8E121C0)
-#define RPG_CLIENT_BUBBLEINFO_GET_REPLACEPARAM_OFFSET UNITYSDK_OFFSET(0x8E12180)
-#define RPG_CLIENT_BUBBLEINFO_GET_SHOWTEXT_OFFSET UNITYSDK_OFFSET(0x8E121A0)
-#define RPG_CLIENT_BUBBLEINFO_GET_TALKSENTENCEID_OFFSET UNITYSDK_OFFSET(0x8E12160)
-#define RPG_CLIENT_BUBBLEINFO_SET_AUTOSKIPTIME_OFFSET UNITYSDK_OFFSET(0x8E12130)
-#define RPG_CLIENT_BUBBLEINFO_SET_BILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x8E12110)
-#define RPG_CLIENT_BUBBLEINFO_SET_DIALOGUETEXTMAPID_OFFSET UNITYSDK_OFFSET(0x8E12150)
-#define RPG_CLIENT_BUBBLEINFO_SET_ENABLEVOICE_OFFSET UNITYSDK_OFFSET(0x8E121D0)
-#define RPG_CLIENT_BUBBLEINFO_SET_REPLACEPARAM_OFFSET UNITYSDK_OFFSET(0x8E12190)
-#define RPG_CLIENT_BUBBLEINFO_SET_SHOWTEXT_OFFSET UNITYSDK_OFFSET(0x8E121B0)
-#define RPG_CLIENT_BUBBLEINFO_SET_TALKSENTENCEID_OFFSET UNITYSDK_OFFSET(0x8E12170)
-#define RPG_CLIENT_BUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8E11FE0)
+#define RPG_CLIENT_BUBBLEINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x921BD50)
+#define RPG_CLIENT_BUBBLEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x921BC90)
+#define RPG_CLIENT_BUBBLEINFO_GETBUBBLEINFO_OFFSET UNITYSDK_OFFSET(0x921BE00)
+#define RPG_CLIENT_BUBBLEINFO_GET_AUTOSKIPTIME_OFFSET UNITYSDK_OFFSET(0x921BE60)
+#define RPG_CLIENT_BUBBLEINFO_GET_BILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x921BE40)
+#define RPG_CLIENT_BUBBLEINFO_GET_DIALOGUETEXTMAPID_OFFSET UNITYSDK_OFFSET(0x921BE80)
+#define RPG_CLIENT_BUBBLEINFO_GET_ENABLEVOICE_OFFSET UNITYSDK_OFFSET(0x921BF00)
+#define RPG_CLIENT_BUBBLEINFO_GET_REPLACEPARAM_OFFSET UNITYSDK_OFFSET(0x921BEC0)
+#define RPG_CLIENT_BUBBLEINFO_GET_SHOWTEXT_OFFSET UNITYSDK_OFFSET(0x921BEE0)
+#define RPG_CLIENT_BUBBLEINFO_GET_TALKSENTENCEID_OFFSET UNITYSDK_OFFSET(0x921BEA0)
+#define RPG_CLIENT_BUBBLEINFO_SET_AUTOSKIPTIME_OFFSET UNITYSDK_OFFSET(0x921BE70)
+#define RPG_CLIENT_BUBBLEINFO_SET_BILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x921BE50)
+#define RPG_CLIENT_BUBBLEINFO_SET_DIALOGUETEXTMAPID_OFFSET UNITYSDK_OFFSET(0x921BE90)
+#define RPG_CLIENT_BUBBLEINFO_SET_ENABLEVOICE_OFFSET UNITYSDK_OFFSET(0x921BF10)
+#define RPG_CLIENT_BUBBLEINFO_SET_REPLACEPARAM_OFFSET UNITYSDK_OFFSET(0x921BED0)
+#define RPG_CLIENT_BUBBLEINFO_SET_SHOWTEXT_OFFSET UNITYSDK_OFFSET(0x921BEF0)
+#define RPG_CLIENT_BUBBLEINFO_SET_TALKSENTENCEID_OFFSET UNITYSDK_OFFSET(0x921BEB0)
+#define RPG_CLIENT_BUBBLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x921BD40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BubbleInfo_TypeDefinitionIndex = 49956;
+	inline static constexpr unsigned int BubbleInfo_TypeDefinitionIndex = 51088;
 
 	class BubbleInfo : public ::System::Object
 	{
 	public:
-		::System::String* _ReplaceParam_k__BackingField; // 0x10
-		::System::String* _ShowText_k__BackingField; // 0x18
-		::System::Single _AutoSkipTime_k__BackingField; // 0x20
-		::System::UInt32 _TalkSentenceID_k__BackingField; // 0x24
-		::RPG::Client::Billboard::BillboardIdentifier _BillboardIdentifier_k__BackingField; // 0x28
-		::System::Boolean _EnableVoice_k__BackingField; // 0x3C
-		::RPG::Client::TextID _DialogueTextmapID_k__BackingField; // 0x40
+		::RPG::Client::Billboard::BillboardIdentifier* _BillboardIdentifier_k__BackingField; // 0x10
+		::System::String* _ReplaceParam_k__BackingField; // 0x18
+		::System::String* _ShowText_k__BackingField; // 0x20
+		::System::UInt32 _TalkSentenceID_k__BackingField; // 0x28
+		::System::Single _AutoSkipTime_k__BackingField; // 0x2C
+		::System::Boolean _EnableVoice_k__BackingField; // 0x30
+		::RPG::Client::TextID _DialogueTextmapID_k__BackingField; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -52,9 +52,9 @@ namespace RPG::Client
 			return ((::RPG::Client::BubbleInfo*(*)(::RPG::GameCore::BubbleTalkInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_CREATE_OFFSET))(bubbleTalkInfo);
 		}
 
-		static ::RPG::Client::BubbleInfo* Create_1(::RPG::Client::Billboard::BillboardIdentifier billboardIdentifier, ::RPG::GameCore::FiveDimActionBubbleTalkInfo* bubbleTalkInfo)
+		static ::RPG::Client::BubbleInfo* Create_1(::RPG::Client::Billboard::BillboardIdentifier* billboardIdentifier, ::RPG::GameCore::FiveDimActionBubbleTalkInfo* bubbleTalkInfo)
 		{
-			return ((::RPG::Client::BubbleInfo*(*)(::RPG::Client::Billboard::BillboardIdentifier, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_CREATE_1_OFFSET))(billboardIdentifier, bubbleTalkInfo);
+			return ((::RPG::Client::BubbleInfo*(*)(::RPG::Client::Billboard::BillboardIdentifier*, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_CREATE_1_OFFSET))(billboardIdentifier, bubbleTalkInfo);
 		}
 
 		::RPG::Client::BubbleInfo* GetBubbleInfo()
@@ -62,14 +62,14 @@ namespace RPG::Client
 			return ((::RPG::Client::BubbleInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_GETBUBBLEINFO_OFFSET))(this);
 		}
 
-		::RPG::Client::Billboard::BillboardIdentifier get_BillboardIdentifier()
+		::RPG::Client::Billboard::BillboardIdentifier* get_BillboardIdentifier()
 		{
-			return ((::RPG::Client::Billboard::BillboardIdentifier(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_GET_BILLBOARDIDENTIFIER_OFFSET))(this);
+			return ((::RPG::Client::Billboard::BillboardIdentifier*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_GET_BILLBOARDIDENTIFIER_OFFSET))(this);
 		}
 
-		::System::Void set_BillboardIdentifier(::RPG::Client::Billboard::BillboardIdentifier value)
+		::System::Void set_BillboardIdentifier(::RPG::Client::Billboard::BillboardIdentifier* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_SET_BILLBOARDIDENTIFIER_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Billboard::BillboardIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFO_SET_BILLBOARDIDENTIFIER_OFFSET))(this, value);
 		}
 
 		::System::Single get_AutoSkipTime()

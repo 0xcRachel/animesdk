@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IRPData_TypeDefinitionIndex = 27039;
+	inline static constexpr unsigned int IRPData_TypeDefinitionIndex = 27775;
 
 	class IRPData
 	{

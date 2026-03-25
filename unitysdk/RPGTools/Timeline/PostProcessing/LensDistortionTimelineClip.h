@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class LensDistortionTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA652D30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB99460)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LensDistortionTimelineClip_TypeDefinitionIndex = 38401;
+	inline static constexpr unsigned int LensDistortionTimelineClip_TypeDefinitionIndex = 39381;
 
 	class LensDistortionTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::LensDistortionTimelineBehaviour*>
 	{

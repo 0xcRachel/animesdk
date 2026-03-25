@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int GridTag_TypeDefinitionIndex = 22129;
+	inline static constexpr unsigned int GridTag_TypeDefinitionIndex = 22694;
 
 	enum class GridTag : ::System::Int32
 	{

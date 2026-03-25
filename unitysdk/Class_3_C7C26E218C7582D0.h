@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerGridFightWaveSettle; }
 
-#define CLASS_3_C7C26E218C7582D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10E4A600)
-#define CLASS_3_C7C26E218C7582D0__CTOR_OFFSET UNITYSDK_OFFSET(0x10E4A5D0)
+#define CLASS_3_C7C26E218C7582D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x97A4CE0)
+#define CLASS_3_C7C26E218C7582D0__CTOR_OFFSET UNITYSDK_OFFSET(0x97A4CB0)
 
-inline static constexpr unsigned int Class_3_C7C26E218C7582D0_TypeDefinitionIndex = 43591;
+inline static constexpr unsigned int Class_3_C7C26E218C7582D0_TypeDefinitionIndex = 44647;
 
 class Class_3_C7C26E218C7582D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerGridFightWaveSettle*>
 {

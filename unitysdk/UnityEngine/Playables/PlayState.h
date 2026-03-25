@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayState_TypeDefinitionIndex = 4685;
+	inline static constexpr unsigned int PlayState_TypeDefinitionIndex = 4715;
 
 	enum class PlayState : ::System::Int32
 	{

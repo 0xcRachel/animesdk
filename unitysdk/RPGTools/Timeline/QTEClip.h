@@ -8,13 +8,13 @@
 namespace RPGTools::Timeline { class QTEData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_QTECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA65C920)
-#define RPGTOOLS_TIMELINE_QTECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA65CB10)
-#define RPGTOOLS_TIMELINE_QTECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA65CB20)
+#define RPGTOOLS_TIMELINE_QTECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xABA3140)
+#define RPGTOOLS_TIMELINE_QTECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xABA3330)
+#define RPGTOOLS_TIMELINE_QTECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xABA3340)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEClip_TypeDefinitionIndex = 38124;
+	inline static constexpr unsigned int QTEClip_TypeDefinitionIndex = 39099;
 
 	class QTEClip : public ::UnityEngine::Playables::PlayableAsset
 	{

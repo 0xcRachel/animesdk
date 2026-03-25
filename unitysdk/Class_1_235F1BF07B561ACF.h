@@ -4,9 +4,9 @@
 
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 
-#define CLASS_1_235F1BF07B561ACF__CTOR_OFFSET UNITYSDK_OFFSET(0x16234480)
+#define CLASS_1_235F1BF07B561ACF__CTOR_OFFSET UNITYSDK_OFFSET(0x1690B230)
 
-inline static constexpr unsigned int Class_1_235F1BF07B561ACF_TypeDefinitionIndex = 31902;
+inline static constexpr unsigned int Class_1_235F1BF07B561ACF_TypeDefinitionIndex = 32812;
 
 class Class_1_235F1BF07B561ACF : public ::System::Object
 {

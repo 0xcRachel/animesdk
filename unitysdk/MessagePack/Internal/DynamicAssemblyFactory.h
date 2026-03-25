@@ -8,20 +8,20 @@ namespace System { class Type; }
 namespace System::Collections::Immutable { template <typename T> class ImmutableHashSet_1; }
 namespace System::Reflection { class AssemblyName; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY_GETDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1564C7D0)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1564C700)
-#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__GETDYNAMICASSEMBLY_G__NEWASSEMBLY_4_0_OFFSET UNITYSDK_OFFSET(0x1564CB30)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY_GETDYNAMICASSEMBLY_OFFSET UNITYSDK_OFFSET(0x15D5AED0)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x15D5AE00)
+#define MESSAGEPACK_INTERNAL_DYNAMICASSEMBLYFACTORY__GETDYNAMICASSEMBLY_G__NEWASSEMBLY_4_0_OFFSET UNITYSDK_OFFSET(0x15D5B230)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicAssemblyFactory_TypeDefinitionIndex = 9588;
+	inline static constexpr unsigned int DynamicAssemblyFactory_TypeDefinitionIndex = 9145;
 
 	class DynamicAssemblyFactory : public ::System::Object
 	{
 	public:
-		::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>* lastCreatedDynamicAssemblySkipVisibilityChecks; // 0x10
+		::System::String* moduleName; // 0x10
 		::MessagePack::Internal::DynamicAssembly* singletonAssembly; // 0x18
-		::System::String* moduleName; // 0x20
+		::System::Collections::Immutable::ImmutableHashSet_1<::System::Reflection::AssemblyName*>* lastCreatedDynamicAssemblySkipVisibilityChecks; // 0x20
 
 		::System::Void _ctor(::System::String* moduleName)
 		{

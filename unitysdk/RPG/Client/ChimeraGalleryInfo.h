@@ -13,23 +13,23 @@ namespace RPG::Client { class ChimeraGalleryTalkGroupEntry; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYINFO_GETGALLERYTALKS_OFFSET UNITYSDK_OFFSET(0x8F25BF0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO_GET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x8F25710)
-#define RPG_CLIENT_CHIMERAGALLERYINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8F25730)
-#define RPG_CLIENT_CHIMERAGALLERYINFO_SET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x8F25720)
-#define RPG_CLIENT_CHIMERAGALLERYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8F269A0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO__GETGALLERYTALKS_B__6_0_OFFSET UNITYSDK_OFFSET(0x8F269B0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO__TRYGETTALKTEXT_OFFSET UNITYSDK_OFFSET(0x8F268A0)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_GETGALLERYTALKS_OFFSET UNITYSDK_OFFSET(0x93C95D0)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_GET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x93C90F0)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_INIT_OFFSET UNITYSDK_OFFSET(0x93C9110)
+#define RPG_CLIENT_CHIMERAGALLERYINFO_SET_ACTSDATA_OFFSET UNITYSDK_OFFSET(0x93C9100)
+#define RPG_CLIENT_CHIMERAGALLERYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x93CA360)
+#define RPG_CLIENT_CHIMERAGALLERYINFO__GETGALLERYTALKS_B__6_0_OFFSET UNITYSDK_OFFSET(0x93CA370)
+#define RPG_CLIENT_CHIMERAGALLERYINFO__TRYGETTALKTEXT_OFFSET UNITYSDK_OFFSET(0x93CA270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryInfo_TypeDefinitionIndex = 50360;
+	inline static constexpr unsigned int ChimeraGalleryInfo_TypeDefinitionIndex = 51495;
 
 	class ChimeraGalleryInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>* _ActsData_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraTalkConditionType, ::RPG::Client::ChimeraGalleryTalkGroupEntry*>* _TalkGroupEntries; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraTalkConditionType, ::RPG::Client::ChimeraGalleryTalkGroupEntry*>* _TalkGroupEntries; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraGalleryActData*>* _ActsData_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F2B920)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F2B960)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C___PUSHINITCOMMANDS_B__29_0_OFFSET UNITYSDK_OFFSET(0x8F2B970)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93CE750)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93CE790)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C___PUSHINITCOMMANDS_B__29_0_OFFSET UNITYSDK_OFFSET(0x93CE7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGameInstance___c_TypeDefinitionIndex = 47869;
+	inline static constexpr unsigned int ChimeraGameInstance___c_TypeDefinitionIndex = 48951;
 
 	class ChimeraGameInstance___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraGameInstance___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraGameInstance___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x42410);
+			return (::RPG::Client::ChimeraGameInstance___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x45EB0);
 		}
 		static ::System::Action** StaticGet___9__29_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x42418);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGameInstance___c_TypeDefinitionIndex)->GetStaticField(0x45EB8);
 		}
 
 		static ::System::Void _cctor()

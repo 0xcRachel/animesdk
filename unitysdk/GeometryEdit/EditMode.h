@@ -3,7 +3,7 @@
 
 namespace GeometryEdit
 {
-	inline static constexpr unsigned int EditMode_TypeDefinitionIndex = 38897;
+	inline static constexpr unsigned int EditMode_TypeDefinitionIndex = 39877;
 
 	enum class EditMode : ::System::Int32
 	{

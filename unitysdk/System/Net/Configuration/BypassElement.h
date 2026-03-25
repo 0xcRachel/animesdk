@@ -4,7 +4,7 @@
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int BypassElement_TypeDefinitionIndex = 3051;
+	inline static constexpr unsigned int BypassElement_TypeDefinitionIndex = 3060;
 
 	class BypassElement : public ::System::Configuration::ConfigurationElement
 	{

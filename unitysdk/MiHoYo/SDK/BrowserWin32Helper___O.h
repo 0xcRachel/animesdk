@@ -7,18 +7,18 @@ namespace MiHoYo::SDK { class BrowserWin32Helper_WndProcDelegate; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper___O_TypeDefinitionIndex = 36362;
+	inline static constexpr unsigned int BrowserWin32Helper___O_TypeDefinitionIndex = 37298;
 
 	class BrowserWin32Helper___O : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc** StaticGet__1___EnumThreadWindowsProc()
 		{
-			return (::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper___O_TypeDefinitionIndex)->GetStaticField(0x3D590);
+			return (::MiHoYo::SDK::BrowserWin32Helper_EnumWindowsProc**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper___O_TypeDefinitionIndex)->GetStaticField(0xCEE0);
 		}
 		static ::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate** StaticGet__0___wndProc()
 		{
-			return (::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper___O_TypeDefinitionIndex)->GetStaticField(0x3D598);
+			return (::MiHoYo::SDK::BrowserWin32Helper_WndProcDelegate**)Il2CppClass::FromTypeDefinitionIndex(BrowserWin32Helper___O_TypeDefinitionIndex)->GetStaticField(0xCEE8);
 		}
 	};
 }

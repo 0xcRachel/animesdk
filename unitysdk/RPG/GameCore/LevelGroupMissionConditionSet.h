@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupMissionCondition; }
 
-#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET_METHOD_2_9D5084BB1905644E_OFFSET UNITYSDK_OFFSET(0x16BA2900)
-#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x16BAA840)
+#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET_METHOD_2_9D5084BB1905644E_OFFSET UNITYSDK_OFFSET(0x17345E90)
+#define RPG_GAMECORE_LEVELGROUPMISSIONCONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1734E470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupMissionConditionSet_TypeDefinitionIndex = 15524;
+	inline static constexpr unsigned int LevelGroupMissionConditionSet_TypeDefinitionIndex = 15801;
 
 	class LevelGroupMissionConditionSet : public ::RPG::GameCore::JsonConfig
 	{

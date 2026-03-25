@@ -6,7 +6,7 @@
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChainCollection_TypeDefinitionIndex = 58584;
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior_SubChainCollection_TypeDefinitionIndex = 60304;
 
 	struct alignas(4) Effect_ElectricChainV2Behavior_SubChainCollection
 	{

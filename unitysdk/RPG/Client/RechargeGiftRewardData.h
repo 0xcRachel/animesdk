@@ -9,22 +9,22 @@ namespace RPG::GameCore { class RechargeGiftConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET UNITYSDK_OFFSET(0x9D73880)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x9D74520)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x9D74540)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x9D74530)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D74550)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET UNITYSDK_OFFSET(0xA294840)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xA2954D0)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xA2954F0)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xA2954E0)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA295500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeGiftRewardData_TypeDefinitionIndex = 53206;
+	inline static constexpr unsigned int RechargeGiftRewardData_TypeDefinitionIndex = 54347;
 
 	class RechargeGiftRewardData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _Items_k__BackingField; // 0x10
-		::RPG::Client::RechargeGiftRewardStatus _Status_k__BackingField; // 0x18
-		::System::UInt32 _ID_k__BackingField; // 0x1C
+		::System::UInt32 _ID_k__BackingField; // 0x18
+		::RPG::Client::RechargeGiftRewardStatus _Status_k__BackingField; // 0x1C
 
 		::System::Void _ctor(::System::UInt32 dataID, ::RPG::Client::RechargeGiftRewardStatus status, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* rewardIDs, ::System::UInt32 mcoin)
 		{

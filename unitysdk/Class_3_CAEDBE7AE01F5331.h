@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_3_CAEDBE7AE01F5331_METHOD_3_2166CB70112347ED_OFFSET UNITYSDK_OFFSET(0x1640F7C0)
-#define CLASS_3_CAEDBE7AE01F5331_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x1640F860)
-#define CLASS_3_CAEDBE7AE01F5331__CTOR_OFFSET UNITYSDK_OFFSET(0x1640F820)
+#define CLASS_3_CAEDBE7AE01F5331_METHOD_3_2166CB70112347ED_OFFSET UNITYSDK_OFFSET(0x16DC90D0)
+#define CLASS_3_CAEDBE7AE01F5331_METHOD_3_7F22A781A9156478_OFFSET UNITYSDK_OFFSET(0x16DC9170)
+#define CLASS_3_CAEDBE7AE01F5331__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC9130)
 
-inline static constexpr unsigned int Class_3_CAEDBE7AE01F5331_TypeDefinitionIndex = 19146;
+inline static constexpr unsigned int Class_3_CAEDBE7AE01F5331_TypeDefinitionIndex = 19672;
 
 class Class_3_CAEDBE7AE01F5331 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::Single Field_3_2; // 0x18
-	::RPG::GameCore::FiveDimPlayerResetSweepDirection Field_3_1; // 0x1C
-	::System::Single Field_3_3; // 0x20
-	::RPG::GameCore::FiveDimPlayerResetMode Field_3_0; // 0x24
+	::System::Single Field_3_3; // 0x18
+	::System::Single Field_3_2; // 0x1C
+	::RPG::GameCore::FiveDimPlayerResetMode Field_3_0; // 0x20
+	::RPG::GameCore::FiveDimPlayerResetSweepDirection Field_3_1; // 0x24
 
 	::System::Void _ctor()
 	{

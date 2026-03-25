@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournSaveUseModeType_TypeDefinitionIndex = 13597;
+	inline static constexpr unsigned int RogueTournSaveUseModeType_TypeDefinitionIndex = 13675;
 
 	enum class RogueTournSaveUseModeType : ::System::Int32
 	{

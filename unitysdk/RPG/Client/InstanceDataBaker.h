@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_INSTANCEDATABAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x94D7200)
+#define RPG_CLIENT_INSTANCEDATABAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x995A900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InstanceDataBaker_TypeDefinitionIndex = 56711;
+	inline static constexpr unsigned int InstanceDataBaker_TypeDefinitionIndex = 58300;
 
 	class InstanceDataBaker : public ::UnityEngine::MonoBehaviour
 	{

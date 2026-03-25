@@ -7,10 +7,10 @@ class Class_2_921296CE04546AF9;
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_4F5BD18B1E642C11___C__DISPLAYCLASS11_0__CREATEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x8F859D0)
-#define CLASS_2_4F5BD18B1E642C11___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8F80C00)
+#define CLASS_2_4F5BD18B1E642C11___C__DISPLAYCLASS11_0__CREATEBOARD_B__0_OFFSET UNITYSDK_OFFSET(0x1183EFD0)
+#define CLASS_2_4F5BD18B1E642C11___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1183A200)
 
-inline static constexpr unsigned int Class_2_4F5BD18B1E642C11___c__DisplayClass11_0_TypeDefinitionIndex = 60438;
+inline static constexpr unsigned int Class_2_4F5BD18B1E642C11___c__DisplayClass11_0_TypeDefinitionIndex = 62416;
 
 class Class_2_4F5BD18B1E642C11___c__DisplayClass11_0 : public ::System::Object
 {

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int ExportScope_TypeDefinitionIndex = 33986;
+	inline static constexpr unsigned int ExportScope_TypeDefinitionIndex = 34920;
 
 	enum class ExportScope : ::System::Int32
 	{

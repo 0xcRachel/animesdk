@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int PropertyType_TypeDefinitionIndex = 39219;
+	inline static constexpr unsigned int PropertyType_TypeDefinitionIndex = 40199;
 
 	enum class PropertyType : ::System::Int32
 	{

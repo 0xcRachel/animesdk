@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAdventureNavigationAccuratelyMode_TypeDefinitionIndex = 44930;
+	inline static constexpr unsigned int EAdventureNavigationAccuratelyMode_TypeDefinitionIndex = 45991;
 
 	enum class EAdventureNavigationAccuratelyMode : ::System::Int32
 	{

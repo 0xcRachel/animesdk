@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DOCUMENTARYPHASEQUESTPANELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A45E90)
-#define RPG_GAMECORE_DOCUMENTARYPHASEQUESTPANELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A46150)
+#define RPG_GAMECORE_DOCUMENTARYPHASEQUESTPANELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171889C0)
+#define RPG_GAMECORE_DOCUMENTARYPHASEQUESTPANELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17188C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DocumentaryPhaseQuestPanelRow_TypeDefinitionIndex = 10426;
+	inline static constexpr unsigned int DocumentaryPhaseQuestPanelRow_TypeDefinitionIndex = 10496;
 
 	class DocumentaryPhaseQuestPanelRow : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
 		::System::UInt32 NextPhase; // 0x18
 		::System::UInt32 PhaseID; // 0x1C
-		::System::UInt32 ExtraQuest; // 0x20
-		::RPG::Client::TextID PanelDesc; // 0x28
+		::RPG::Client::TextID PanelDesc; // 0x20
+		::System::UInt32 ExtraQuest; // 0x30
 		::RPG::Client::TextID PanelTitle; // 0x38
 
 		::System::Void _ctor()

@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Console { class ConsoleUGCAgreementDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157626A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157626E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__SHOW_B__16_0_OFFSET UNITYSDK_OFFSET(0x157626F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E4FFF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E50030)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__SHOW_B__22_0_OFFSET UNITYSDK_OFFSET(0x15E50040)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUGCAgreementDialog___c_TypeDefinitionIndex = 7453;
+	inline static constexpr unsigned int ConsoleUGCAgreementDialog___c_TypeDefinitionIndex = 7578;
 
 	class ConsoleUGCAgreementDialog___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog___c_TypeDefinitionIndex)->GetStaticField(0x143E0);
+			return (::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog___c_TypeDefinitionIndex)->GetStaticField(0x13130);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>** StaticGet___9__16_0()
+		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>** StaticGet___9__22_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog___c_TypeDefinitionIndex)->GetStaticField(0x143E8);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUGCAgreementDialog___c_TypeDefinitionIndex)->GetStaticField(0x13138);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__16_0(::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog* dialog)
+		::System::Void _Show_b__22_0(::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog* dialog)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__SHOW_B__16_0_OFFSET))(this, dialog);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__SHOW_B__22_0_OFFSET))(this, dialog);
 		}
 	};
 }

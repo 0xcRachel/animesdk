@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SAVECHECKCONFIG_METHOD_2_26B894EAF3325B5D_OFFSET UNITYSDK_OFFSET(0x16EF96D0)
-#define RPG_GAMECORE_SAVECHECKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF9710)
+#define RPG_GAMECORE_SAVECHECKCONFIG_METHOD_2_26B894EAF3325B5D_OFFSET UNITYSDK_OFFSET(0x176AEA60)
+#define RPG_GAMECORE_SAVECHECKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x176AEAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SaveCheckConfig_TypeDefinitionIndex = 14807;
+	inline static constexpr unsigned int SaveCheckConfig_TypeDefinitionIndex = 15059;
 
 	class SaveCheckConfig : public ::RPG::GameCore::JsonConfig
 	{

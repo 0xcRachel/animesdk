@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GPUDrivenFlag_TypeDefinitionIndex = 28268;
+	inline static constexpr unsigned int GPUDrivenFlag_TypeDefinitionIndex = 29143;
 
 	enum class GPUDrivenFlag : ::System::Int32
 	{

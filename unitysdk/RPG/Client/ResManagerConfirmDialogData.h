@@ -5,22 +5,22 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RESMANAGERCONFIRMDIALOGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DC6130)
+#define RPG_CLIENT_RESMANAGERCONFIRMDIALOGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E6E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResManagerConfirmDialogData_TypeDefinitionIndex = 57974;
+	inline static constexpr unsigned int ResManagerConfirmDialogData_TypeDefinitionIndex = 59601;
 
 	class ResManagerConfirmDialogData : public ::System::Object
 	{
 	public:
 		::System::Action_1<::System::Boolean>* Callback; // 0x10
-		::System::Int64 DetailSize; // 0x18
-		::RPG::Client::TextID OKBtnLabel; // 0x20
-		::RPG::Client::TextID Desc; // 0x30
+		::RPG::Client::TextID CancelBtnLabel; // 0x18
+		::RPG::Client::TextID Title; // 0x28
+		::System::Int64 DetailSize; // 0x38
 		::RPG::Client::TextID Detail; // 0x40
-		::RPG::Client::TextID CancelBtnLabel; // 0x50
-		::RPG::Client::TextID Title; // 0x60
+		::RPG::Client::TextID OKBtnLabel; // 0x50
+		::RPG::Client::TextID Desc; // 0x60
 
 		::System::Void _ctor()
 		{

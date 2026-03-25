@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CommonSkillPool; }
 
-#define RPG_GAMECORE_COMMONSKILLPOOLLIST_METHOD_2_61DF7A557AD3FE7D_OFFSET UNITYSDK_OFFSET(0x169BA2C0)
-#define RPG_GAMECORE_COMMONSKILLPOOLLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x169BA3C0)
+#define RPG_GAMECORE_COMMONSKILLPOOLLIST_METHOD_2_61DF7A557AD3FE7D_OFFSET UNITYSDK_OFFSET(0x17135BB0)
+#define RPG_GAMECORE_COMMONSKILLPOOLLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x17135CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommonSkillPoolList_TypeDefinitionIndex = 16284;
+	inline static constexpr unsigned int CommonSkillPoolList_TypeDefinitionIndex = 16658;
 
 	class CommonSkillPoolList : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_WAYPOINTMATERIAL_METHOD_2_958208537EAC1625_OFFSET UNITYSDK_OFFSET(0x17161790)
-#define RPG_GAMECORE_WAYPOINTMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x17161920)
+#define RPG_GAMECORE_WAYPOINTMATERIAL_METHOD_2_958208537EAC1625_OFFSET UNITYSDK_OFFSET(0x1791DCB0)
+#define RPG_GAMECORE_WAYPOINTMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1791DE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaypointMaterial_TypeDefinitionIndex = 16971;
+	inline static constexpr unsigned int WaypointMaterial_TypeDefinitionIndex = 17376;
 
 	class WaypointMaterial : public ::RPG::GameCore::JsonConfig
 	{

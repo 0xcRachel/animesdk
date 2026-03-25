@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreCharacterStatus_TypeDefinitionIndex = 52171;
+	inline static constexpr unsigned int PreCharacterStatus_TypeDefinitionIndex = 53307;
 
 	enum class PreCharacterStatus : ::System::UInt32
 	{

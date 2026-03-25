@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/Prop/JigsawItemDirection.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_JIGSAWITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9C2E240)
+#define RPG_CLIENT_PROP_JIGSAWITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0BAEA0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawItemData_TypeDefinitionIndex = 61910;
+	inline static constexpr unsigned int JigsawItemData_TypeDefinitionIndex = 64097;
 
 	class JigsawItemData : public ::System::Object
 	{

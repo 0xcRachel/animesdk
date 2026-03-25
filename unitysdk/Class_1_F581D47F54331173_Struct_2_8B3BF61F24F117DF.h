@@ -3,9 +3,9 @@
 #include "unitysdk/System/ValueTuple_2.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_1_F581D47F54331173_STRUCT_2_8B3BF61F24F117DF_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x76570)
+#define CLASS_1_F581D47F54331173_STRUCT_2_8B3BF61F24F117DF_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x73910)
 
-inline static constexpr unsigned int Class_1_F581D47F54331173_Struct_2_8B3BF61F24F117DF_TypeDefinitionIndex = 60376;
+inline static constexpr unsigned int Class_1_F581D47F54331173_Struct_2_8B3BF61F24F117DF_TypeDefinitionIndex = 62354;
 
 struct alignas(4) Class_1_F581D47F54331173_Struct_2_8B3BF61F24F117DF
 {

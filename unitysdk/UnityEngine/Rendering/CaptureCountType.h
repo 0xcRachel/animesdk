@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CaptureCountType_TypeDefinitionIndex = 28274;
+	inline static constexpr unsigned int CaptureCountType_TypeDefinitionIndex = 29149;
 
 	enum class CaptureCountType : ::System::Int32
 	{

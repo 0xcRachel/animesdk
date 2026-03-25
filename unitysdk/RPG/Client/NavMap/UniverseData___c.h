@@ -5,24 +5,24 @@
 namespace RPG::Client::NavMap { class WorldData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x999F850)
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x999F890)
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__34_0_OFFSET UNITYSDK_OFFSET(0x999F8A0)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E3C750)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E3C790)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__34_0_OFFSET UNITYSDK_OFFSET(0x9E3C7A0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int UniverseData___c_TypeDefinitionIndex = 59611;
+	inline static constexpr unsigned int UniverseData___c_TypeDefinitionIndex = 61365;
 
 	class UniverseData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>** StaticGet___9__34_0()
-		{
-			return (::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x43010);
-		}
 		static ::RPG::Client::NavMap::UniverseData___c** StaticGet___9()
 		{
-			return (::RPG::Client::NavMap::UniverseData___c**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x43018);
+			return (::RPG::Client::NavMap::UniverseData___c**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x48030);
+		}
+		static ::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>** StaticGet___9__34_0()
+		{
+			return (::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x48038);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
-#define RPG_CLIENT_TOPVIEWMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA0C9ED0)
-#define RPG_CLIENT_TOPVIEWMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA0C9F20)
+#define RPG_CLIENT_TOPVIEWMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA5EFF30)
+#define RPG_CLIENT_TOPVIEWMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA5EFF80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TopViewModuleConfig_TypeDefinitionIndex = 55415;
+	inline static constexpr unsigned int TopViewModuleConfig_TypeDefinitionIndex = 56980;
 
 	class TopViewModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

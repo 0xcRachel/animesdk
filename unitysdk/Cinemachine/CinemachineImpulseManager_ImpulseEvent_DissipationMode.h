@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseManager_ImpulseEvent_DissipationMode_TypeDefinitionIndex = 30043;
+	inline static constexpr unsigned int CinemachineImpulseManager_ImpulseEvent_DissipationMode_TypeDefinitionIndex = 30918;
 
 	enum class CinemachineImpulseManager_ImpulseEvent_DissipationMode : ::System::Int32
 	{

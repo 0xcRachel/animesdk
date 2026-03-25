@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHESSUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16981080)
-#define RPG_GAMECORE_CHESSUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16981700)
+#define RPG_GAMECORE_CHESSUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170A3470)
+#define RPG_GAMECORE_CHESSUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170A3AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessUnitRow_TypeDefinitionIndex = 15910;
+	inline static constexpr unsigned int ChessUnitRow_TypeDefinitionIndex = 16187;
 
 	class ChessUnitRow : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int IExtenderProvider_TypeDefinitionIndex = 2585;
+	inline static constexpr unsigned int IExtenderProvider_TypeDefinitionIndex = 2590;
 
 	class IExtenderProvider
 	{

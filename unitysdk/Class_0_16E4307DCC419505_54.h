@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_7179D0DED6D3E44A;
-class Class_1_AD0B53B56535FBAD;
+class Class_0_16E4307DCC419505_28;
+class Class_1_0A5A201A288986C6;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_54_TypeDefinitionIndex = 31220;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_54_TypeDefinitionIndex = 28792;
 
 class Class_0_16E4307DCC419505_54
 {

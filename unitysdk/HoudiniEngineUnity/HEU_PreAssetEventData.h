@@ -5,11 +5,11 @@
 
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 
-#define HOUDINIENGINEUNITY_HEU_PREASSETEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x80F3480)
+#define HOUDINIENGINEUNITY_HEU_PREASSETEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8496670)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PreAssetEventData_TypeDefinitionIndex = 36657;
+	inline static constexpr unsigned int HEU_PreAssetEventData_TypeDefinitionIndex = 37594;
 
 	class HEU_PreAssetEventData : public ::System::Object
 	{

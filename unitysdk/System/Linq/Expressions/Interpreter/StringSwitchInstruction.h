@@ -7,20 +7,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Runtime::CompilerServices { template <typename T> class StrongBox_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CFB210)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17CFB1D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x17CFB220)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CFB1C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x185126F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x185126B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x18512700)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x185126A0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3315;
+	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3324;
 
 	class StringSwitchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x10
-		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x18
+		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x18
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* cases, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* nullCase)
 		{

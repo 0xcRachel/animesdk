@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoUIMarquee_MarqueeType_TypeDefinitionIndex = 58546;
+	inline static constexpr unsigned int MonoUIMarquee_MarqueeType_TypeDefinitionIndex = 60266;
 
 	enum class MonoUIMarquee_MarqueeType : ::System::Int32
 	{

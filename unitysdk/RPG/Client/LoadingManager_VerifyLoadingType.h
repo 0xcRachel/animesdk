@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingManager_VerifyLoadingType_TypeDefinitionIndex = 47972;
+	inline static constexpr unsigned int LoadingManager_VerifyLoadingType_TypeDefinitionIndex = 49060;
 
 	enum class LoadingManager_VerifyLoadingType : ::System::Int32
 	{

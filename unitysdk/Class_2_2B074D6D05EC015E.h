@@ -7,34 +7,34 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_2B074D6D05EC015E_METHOD_2_8422ABC65E83BF12_OFFSET UNITYSDK_OFFSET(0x10ED1AD0)
-#define CLASS_2_2B074D6D05EC015E_METHOD_2_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x10ED1D50)
-#define CLASS_2_2B074D6D05EC015E_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x10ED1CB0)
-#define CLASS_2_2B074D6D05EC015E__CCTOR_OFFSET UNITYSDK_OFFSET(0x10ED1E20)
-#define CLASS_2_2B074D6D05EC015E__CTOR_OFFSET UNITYSDK_OFFSET(0x10ED1DF0)
-#define CLASS_2_2B074D6D05EC015E__ONBIND_OFFSET UNITYSDK_OFFSET(0x10ED1950)
-#define CLASS_2_2B074D6D05EC015E___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x10ED1E90)
+#define CLASS_2_2B074D6D05EC015E_METHOD_2_8422ABC65E83BF12_OFFSET UNITYSDK_OFFSET(0x1159C2A0)
+#define CLASS_2_2B074D6D05EC015E_METHOD_2_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x1159C520)
+#define CLASS_2_2B074D6D05EC015E_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1159C480)
+#define CLASS_2_2B074D6D05EC015E__CCTOR_OFFSET UNITYSDK_OFFSET(0x1159C5F0)
+#define CLASS_2_2B074D6D05EC015E__CTOR_OFFSET UNITYSDK_OFFSET(0x1159C5C0)
+#define CLASS_2_2B074D6D05EC015E__ONBIND_OFFSET UNITYSDK_OFFSET(0x1159BEF0)
+#define CLASS_2_2B074D6D05EC015E___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1159C660)
 
-inline static constexpr unsigned int Class_2_2B074D6D05EC015E_TypeDefinitionIndex = 57045;
+inline static constexpr unsigned int Class_2_2B074D6D05EC015E_TypeDefinitionIndex = 58637;
 
 class Class_2_2B074D6D05EC015E : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_9()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2B074D6D05EC015E_TypeDefinitionIndex)->GetStaticField(0xC310);
-	}
 	static ::System::Int32* StaticGet_Field_2_8()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2B074D6D05EC015E_TypeDefinitionIndex)->GetStaticField(0xC314);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2B074D6D05EC015E_TypeDefinitionIndex)->GetStaticField(0xAC80);
+	}
+	static ::System::Int32* StaticGet_Field_2_9()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2B074D6D05EC015E_TypeDefinitionIndex)->GetStaticField(0xAC84);
 	}
 	::UnityEngine::UI::Text* Field_2_0; // 0x60
-	::UnityEngine::Animator* Field_2_5; // 0x68
-	::UnityEngine::UI::Text* Field_2_3; // 0x70
-	::UnityEngine::Transform* Field_2_6; // 0x78
-	::UnityEngine::UI::Text* Field_2_2; // 0x80
-	::UnityEngine::UI::Text* Field_2_4; // 0x88
-	::UnityEngine::UI::Text* Field_2_1; // 0x90
+	::UnityEngine::Transform* Field_2_6; // 0x68
+	::UnityEngine::UI::Text* Field_2_1; // 0x70
+	::UnityEngine::UI::Text* Field_2_2; // 0x78
+	::UnityEngine::Animator* Field_2_5; // 0x80
+	::UnityEngine::UI::Text* Field_2_3; // 0x88
+	::UnityEngine::UI::Text* Field_2_4; // 0x90
 	::System::UInt32 Field_2_7; // 0x98
 
 	::System::Void _ctor()

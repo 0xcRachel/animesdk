@@ -7,30 +7,30 @@
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define CLASS_1_5666342303A8A894_METHOD_1_0BD8EBDA38930A84_OFFSET UNITYSDK_OFFSET(0x17B27700)
-#define CLASS_1_5666342303A8A894_METHOD_1_3BE8746B4F8EAD03_OFFSET UNITYSDK_OFFSET(0x17B278E0)
-#define CLASS_1_5666342303A8A894_METHOD_1_55A9422564A5ED54_OFFSET UNITYSDK_OFFSET(0x17B274C0)
-#define CLASS_1_5666342303A8A894_METHOD_1_63AE89E11132430B_OFFSET UNITYSDK_OFFSET(0x17B27740)
-#define CLASS_1_5666342303A8A894_METHOD_1_C76D6B62F0E14986_OFFSET UNITYSDK_OFFSET(0x17B279E0)
-#define CLASS_1_5666342303A8A894_METHOD_1_D747B26DD8037254_OFFSET UNITYSDK_OFFSET(0x17B279A0)
-#define CLASS_1_5666342303A8A894__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B27A20)
+#define CLASS_1_5666342303A8A894_METHOD_1_0BD8EBDA38930A84_OFFSET UNITYSDK_OFFSET(0x1832AF60)
+#define CLASS_1_5666342303A8A894_METHOD_1_3BE8746B4F8EAD03_OFFSET UNITYSDK_OFFSET(0x1832B440)
+#define CLASS_1_5666342303A8A894_METHOD_1_55A9422564A5ED54_OFFSET UNITYSDK_OFFSET(0x1832AB50)
+#define CLASS_1_5666342303A8A894_METHOD_1_63AE89E11132430B_OFFSET UNITYSDK_OFFSET(0x1832AFA0)
+#define CLASS_1_5666342303A8A894_METHOD_1_C76D6B62F0E14986_OFFSET UNITYSDK_OFFSET(0x1832B970)
+#define CLASS_1_5666342303A8A894_METHOD_1_D747B26DD8037254_OFFSET UNITYSDK_OFFSET(0x1832B7B0)
+#define CLASS_1_5666342303A8A894__CCTOR_OFFSET UNITYSDK_OFFSET(0x1832B9B0)
 
-inline static constexpr unsigned int Class_1_5666342303A8A894_TypeDefinitionIndex = 8934;
+inline static constexpr unsigned int Class_1_5666342303A8A894_TypeDefinitionIndex = 9502;
 
 class Class_1_5666342303A8A894 : public ::System::Object
 {
 public:
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5666342303A8A894_TypeDefinitionIndex)->GetStaticField(0x72F0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5666342303A8A894_TypeDefinitionIndex)->GetStaticField(0x2120);
 	}
 	static ::System::String** StaticGet_Field_1_1()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5666342303A8A894_TypeDefinitionIndex)->GetStaticField(0x72F8);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5666342303A8A894_TypeDefinitionIndex)->GetStaticField(0x2128);
 	}
 	static ::RPG::Client::FileVisitorPosMode* StaticGet_Field_1_2()
 	{
-		return (::RPG::Client::FileVisitorPosMode*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5666342303A8A894_TypeDefinitionIndex)->GetStaticField(0x2660);
+		return (::RPG::Client::FileVisitorPosMode*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5666342303A8A894_TypeDefinitionIndex)->GetStaticField(0x24B0);
 	}
 
 	static ::System::Void _cctor()

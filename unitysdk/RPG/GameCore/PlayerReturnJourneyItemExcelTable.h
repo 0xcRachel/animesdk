@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16D74C50)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16D74AA0)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16D74770)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16D74A40)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16D74E20)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D747F0)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16D74E60)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D75040)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16D754A0)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D75800)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16D74FA0)
-#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16D74F00)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x174FC7D0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x174FC620)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x174FC2F0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x174FC5C0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x174FC9A0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x174FC370)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x174FC9E0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x174FCBC0)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x174FD020)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174FD380)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x174FCB20)
+#define RPG_GAMECORE_PLAYERRETURNJOURNEYITEMEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x174FCA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex = 13204;
+	inline static constexpr unsigned int PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex = 13278;
 
 	class PlayerReturnJourneyItemExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x25C00);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x19380);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerReturnJourneyItemRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerReturnJourneyItemRow*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x25C08);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerReturnJourneyItemRow*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x19388);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x25C10);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x19390);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x7F80);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x9830);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x7F81);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(PlayerReturnJourneyItemExcelTable_TypeDefinitionIndex)->GetStaticField(0x9831);
 		}
 
 		static ::System::Void _cctor()

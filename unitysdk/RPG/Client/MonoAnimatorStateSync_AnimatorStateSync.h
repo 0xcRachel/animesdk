@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSync_AnimatorStateSync_TypeDefinitionIndex = 54388;
+	inline static constexpr unsigned int MonoAnimatorStateSync_AnimatorStateSync_TypeDefinitionIndex = 55947;
 
 	struct alignas(8) MonoAnimatorStateSync_AnimatorStateSync
 	{

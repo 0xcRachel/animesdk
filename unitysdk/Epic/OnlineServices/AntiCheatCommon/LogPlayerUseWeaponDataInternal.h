@@ -26,7 +26,7 @@ namespace System { class String; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerUseWeaponDataInternal_TypeDefinitionIndex = 35733;
+	inline static constexpr unsigned int LogPlayerUseWeaponDataInternal_TypeDefinitionIndex = 36667;
 
 	struct alignas(8) LogPlayerUseWeaponDataInternal
 	{

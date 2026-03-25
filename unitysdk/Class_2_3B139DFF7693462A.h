@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitEnterBattleTransitionFinish; }
 
-#define CLASS_2_3B139DFF7693462A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8AB72D0)
-#define CLASS_2_3B139DFF7693462A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8AB7360)
-#define CLASS_2_3B139DFF7693462A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8AB7310)
-#define CLASS_2_3B139DFF7693462A_TICK_OFFSET UNITYSDK_OFFSET(0x8AB74E0)
-#define CLASS_2_3B139DFF7693462A__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB72C0)
+#define CLASS_2_3B139DFF7693462A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA46E3F0)
+#define CLASS_2_3B139DFF7693462A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA46E480)
+#define CLASS_2_3B139DFF7693462A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA46E430)
+#define CLASS_2_3B139DFF7693462A_TICK_OFFSET UNITYSDK_OFFSET(0xA46E600)
+#define CLASS_2_3B139DFF7693462A__CTOR_OFFSET UNITYSDK_OFFSET(0xA46E3E0)
 
-inline static constexpr unsigned int Class_2_3B139DFF7693462A_TypeDefinitionIndex = 43658;
+inline static constexpr unsigned int Class_2_3B139DFF7693462A_TypeDefinitionIndex = 44714;
 
 class Class_2_3B139DFF7693462A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::WaitEnterBattleTransitionFinish* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::WaitEnterBattleTransitionFinish* Field_2_0; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitEnterBattleTransitionFinish* a2)
 	{

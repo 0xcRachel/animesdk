@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Initialization_AsyncUploadTimeSlicedUpdate_TypeDefinitionIndex = 4329;
+	inline static constexpr unsigned int Initialization_AsyncUploadTimeSlicedUpdate_TypeDefinitionIndex = 4351;
 
 	struct alignas(1) Initialization_AsyncUploadTimeSlicedUpdate
 	{

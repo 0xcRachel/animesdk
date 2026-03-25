@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeDisableContainerSafetyRestrictionAttribute_TypeDefinitionIndex = 3803;
+	inline static constexpr unsigned int NativeDisableContainerSafetyRestrictionAttribute_TypeDefinitionIndex = 3812;
 
 	class NativeDisableContainerSafetyRestrictionAttribute : public ::System::Attribute
 	{

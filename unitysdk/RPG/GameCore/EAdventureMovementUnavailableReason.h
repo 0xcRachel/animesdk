@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAdventureMovementUnavailableReason_TypeDefinitionIndex = 44902;
+	inline static constexpr unsigned int EAdventureMovementUnavailableReason_TypeDefinitionIndex = 45963;
 
 	enum class EAdventureMovementUnavailableReason : ::System::Int32
 	{

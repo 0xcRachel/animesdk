@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x94717B0)
-#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x94717A0)
+#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x98F5070)
+#define RPG_CLIENT_GRIDFIGHTVICTORYCOUNTRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x98F5060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 51707;
+	inline static constexpr unsigned int GridFightVictoryCountRule_TypeDefinitionIndex = 52841;
 
 	class GridFightVictoryCountRule : public ::System::Object
 	{

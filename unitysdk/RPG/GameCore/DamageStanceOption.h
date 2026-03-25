@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageStanceOption_TypeDefinitionIndex = 20733;
+	inline static constexpr unsigned int DamageStanceOption_TypeDefinitionIndex = 21284;
 
 	enum class DamageStanceOption : ::System::UInt32
 	{

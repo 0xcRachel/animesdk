@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG_METHOD_2_DDBFF7E8308B032C_OFFSET UNITYSDK_OFFSET(0x16F869A0)
-#define RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F86C00)
+#define RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG_METHOD_2_20B62182595CC99C_OFFSET UNITYSDK_OFFSET(0x1777BC10)
+#define RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1777BEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageGrassOverrideConfig_TypeDefinitionIndex = 17136;
+	inline static constexpr unsigned int StageGrassOverrideConfig_TypeDefinitionIndex = 17541;
 
 	class StageGrassOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DDBFF7E8308B032C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageGrassOverrideConfig*& a2)
+		static ::System::Void Method_2_20B62182595CC99C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageGrassOverrideConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageGrassOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG_METHOD_2_DDBFF7E8308B032C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageGrassOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEGRASSOVERRIDECONFIG_METHOD_2_20B62182595CC99C_OFFSET))(a1, a2);
 		}
 	};
 }

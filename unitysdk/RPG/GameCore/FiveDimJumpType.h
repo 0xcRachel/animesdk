@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimJumpType_TypeDefinitionIndex = 15012;
+	inline static constexpr unsigned int FiveDimJumpType_TypeDefinitionIndex = 15265;
 
 	enum class FiveDimJumpType : ::System::UInt32
 	{

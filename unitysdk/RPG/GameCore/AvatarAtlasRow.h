@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1689ABA0)
-#define RPG_GAMECORE_AVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1689B3A0)
+#define RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FA8600)
+#define RPG_GAMECORE_AVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA8E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAtlasRow_TypeDefinitionIndex = 11516;
+	inline static constexpr unsigned int AvatarAtlasRow_TypeDefinitionIndex = 11586;
 
 	class AvatarAtlasRow : public ::System::Object
 	{
 	public:
-		::System::Boolean DefaultUnlock; // 0x10
-		::RPG::Client::TextID CV_JP; // 0x18
-		::RPG::Client::TextID CV_KR; // 0x28
-		::RPG::Client::TextID CV_EN; // 0x38
-		::System::UInt32 AvatarID; // 0x48
-		::System::UInt32 CampID; // 0x4C
+		::System::UInt32 CampID; // 0x10
+		::RPG::Client::TextID CV_KR; // 0x18
+		::RPG::Client::TextID CV_JP; // 0x28
+		::System::UInt32 AvatarID; // 0x38
+		::System::Boolean DefaultUnlock; // 0x3C
+		::RPG::Client::TextID CV_EN; // 0x40
 		::RPG::Client::TextID CV_CN; // 0x50
 
 		::System::Void _ctor()

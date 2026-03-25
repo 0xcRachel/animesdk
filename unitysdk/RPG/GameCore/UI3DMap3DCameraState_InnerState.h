@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DMap3DCameraState_InnerState_TypeDefinitionIndex = 45313;
+	inline static constexpr unsigned int UI3DMap3DCameraState_InnerState_TypeDefinitionIndex = 46374;
 
 	enum class UI3DMap3DCameraState_InnerState : ::System::Int32
 	{

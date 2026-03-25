@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Console::OS { class AgeGateManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1577C180)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS38_0__ONRESENDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1577D7C0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6A690)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS38_0__ONRESENDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x15E6BCD0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass38_0_TypeDefinitionIndex = 7548;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass38_0_TypeDefinitionIndex = 7673;
 
 	class AgeGateManager___c__DisplayClass38_0 : public ::System::Object
 	{

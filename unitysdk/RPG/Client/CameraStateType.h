@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraStateType_TypeDefinitionIndex = 55453;
+	inline static constexpr unsigned int CameraStateType_TypeDefinitionIndex = 57018;
 
 	enum class CameraStateType : ::System::Int32
 	{

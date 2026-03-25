@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PETINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9A6DC10)
-#define RPG_CLIENT_PETINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9A6DC40)
-#define RPG_CLIENT_PETINSTANCE___C__TRYCREATEPETENTITY_B__4_0_OFFSET UNITYSDK_OFFSET(0x9A6DC60)
-#define RPG_CLIENT_PETINSTANCE___C__TRYDESTROYPETENTITY_B__3_0_OFFSET UNITYSDK_OFFSET(0x9A6DC50)
+#define RPG_CLIENT_PETINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F41A00)
+#define RPG_CLIENT_PETINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F41A30)
+#define RPG_CLIENT_PETINSTANCE___C__TRYCREATEPETENTITY_B__4_0_OFFSET UNITYSDK_OFFSET(0x9F41A50)
+#define RPG_CLIENT_PETINSTANCE___C__TRYDESTROYPETENTITY_B__3_0_OFFSET UNITYSDK_OFFSET(0x9F41A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetInstance___c_TypeDefinitionIndex = 52910;
+	inline static constexpr unsigned int PetInstance___c_TypeDefinitionIndex = 54048;
 
 	class PetInstance___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PetInstance___c** StaticGet___9()
 		{
-			return (::RPG::Client::PetInstance___c**)Il2CppClass::FromTypeDefinitionIndex(PetInstance___c_TypeDefinitionIndex)->GetStaticField(0x45750);
-		}
-		static ::System::Action** StaticGet___9__3_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PetInstance___c_TypeDefinitionIndex)->GetStaticField(0x45758);
+			return (::RPG::Client::PetInstance___c**)Il2CppClass::FromTypeDefinitionIndex(PetInstance___c_TypeDefinitionIndex)->GetStaticField(0x442B0);
 		}
 		static ::System::Action** StaticGet___9__4_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PetInstance___c_TypeDefinitionIndex)->GetStaticField(0x45760);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PetInstance___c_TypeDefinitionIndex)->GetStaticField(0x442B8);
+		}
+		static ::System::Action** StaticGet___9__3_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PetInstance___c_TypeDefinitionIndex)->GetStaticField(0x442C0);
 		}
 
 		static ::System::Void _cctor()

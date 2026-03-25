@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/DiceCombatValueCompare.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_31B0621ED9123203_METHOD_1_FFCB224AF9B758E1_OFFSET UNITYSDK_OFFSET(0x15F49020)
-#define CLASS_1_31B0621ED9123203__CTOR_OFFSET UNITYSDK_OFFSET(0x15F77890)
+#define CLASS_1_31B0621ED9123203_METHOD_1_FFCB224AF9B758E1_OFFSET UNITYSDK_OFFSET(0x1672B270)
+#define CLASS_1_31B0621ED9123203__CTOR_OFFSET UNITYSDK_OFFSET(0x1672B310)
 
-inline static constexpr unsigned int Class_1_31B0621ED9123203_TypeDefinitionIndex = 27699;
+inline static constexpr unsigned int Class_1_31B0621ED9123203_TypeDefinitionIndex = 28448;
 
 class Class_1_31B0621ED9123203 : public ::System::Object
 {

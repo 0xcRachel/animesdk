@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsInterviewContentType_TypeDefinitionIndex = 12652;
+	inline static constexpr unsigned int LimaoNewsInterviewContentType_TypeDefinitionIndex = 12722;
 
 	enum class LimaoNewsInterviewContentType : ::System::Int32
 	{

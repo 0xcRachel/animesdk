@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Toggle_ToggleTransition_TypeDefinitionIndex = 5633;
+	inline static constexpr unsigned int Toggle_ToggleTransition_TypeDefinitionIndex = 5733;
 
 	enum class Toggle_ToggleTransition : ::System::Int32
 	{

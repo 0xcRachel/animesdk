@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int DoActionSource_TypeDefinitionIndex = 32438;
+	inline static constexpr unsigned int DoActionSource_TypeDefinitionIndex = 33348;
 
 	enum class DoActionSource : ::System::Int32
 	{

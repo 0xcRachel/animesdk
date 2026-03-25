@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_POWERASPECTRAILLUMINATEDCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x154C01C0)
-#define INCONTROL_NATIVEDEVICEPROFILES_POWERASPECTRAILLUMINATEDCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x154C0250)
+#define INCONTROL_NATIVEDEVICEPROFILES_POWERASPECTRAILLUMINATEDCONTROLLERMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BD9FC0)
+#define INCONTROL_NATIVEDEVICEPROFILES_POWERASPECTRAILLUMINATEDCONTROLLERMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BDA050)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int PowerASpectraIlluminatedControllerMacNativeProfile_TypeDefinitionIndex = 30925;
+	inline static constexpr unsigned int PowerASpectraIlluminatedControllerMacNativeProfile_TypeDefinitionIndex = 31800;
 
 	class PowerASpectraIlluminatedControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

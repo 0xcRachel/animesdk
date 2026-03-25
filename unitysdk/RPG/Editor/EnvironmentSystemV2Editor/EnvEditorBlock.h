@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA2947E0)
+#define RPG_EDITOR_ENVIRONMENTSYSTEMV2EDITOR_ENVEDITORBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xA7CF2A0)
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
-	inline static constexpr unsigned int EnvEditorBlock_TypeDefinitionIndex = 41051;
+	inline static constexpr unsigned int EnvEditorBlock_TypeDefinitionIndex = 42094;
 
 	class EnvEditorBlock : public ::System::Object
 	{

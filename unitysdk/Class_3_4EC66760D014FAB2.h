@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveStageAbilityByName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4EC66760D014FAB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFF06470)
-#define CLASS_3_4EC66760D014FAB2__CTOR_OFFSET UNITYSDK_OFFSET(0xFF06440)
+#define CLASS_3_4EC66760D014FAB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1174B270)
+#define CLASS_3_4EC66760D014FAB2__CTOR_OFFSET UNITYSDK_OFFSET(0x1174B240)
 
-inline static constexpr unsigned int Class_3_4EC66760D014FAB2_TypeDefinitionIndex = 43232;
+inline static constexpr unsigned int Class_3_4EC66760D014FAB2_TypeDefinitionIndex = 44284;
 
 class Class_3_4EC66760D014FAB2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveStageAbilityByName*>
 {

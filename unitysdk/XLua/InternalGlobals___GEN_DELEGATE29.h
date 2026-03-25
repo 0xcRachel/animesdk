@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace RPG::Client::LittleGame { class LittleGameRuntimeButton; }
-namespace RPG::GameCore { class PropButtonConfig; }
+namespace RPG::Client { class IRogueTournGameLevelLayerLinear; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF837230)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF837260)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29_INVOKE_OFFSET UNITYSDK_OFFSET(0xF836AF0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29__CTOR_OFFSET UNITYSDK_OFFSET(0xF82B340)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF612A0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF612D0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF60D40)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE29__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57BC0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE29_TypeDefinitionIndex = 39460;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE29_TypeDefinitionIndex = 40446;
 
 	class InternalGlobals___GEN_DELEGATE29 : public ::System::MulticastDelegate
 	{
@@ -25,19 +24,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29__CTOR_OFFSET))(this, object, method);
 		}
 
-		::RPG::Client::LittleGame::LittleGameRuntimeButton* Invoke(::RPG::GameCore::PropButtonConfig* buttonConfig)
+		::System::UInt32 Invoke(::RPG::Client::IRogueTournGameLevelLayerLinear* layer)
 		{
-			return ((::RPG::Client::LittleGame::LittleGameRuntimeButton*(*)(::PVOID, ::RPG::GameCore::PropButtonConfig*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29_INVOKE_OFFSET))(this, buttonConfig);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLayerLinear*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29_INVOKE_OFFSET))(this, layer);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::PropButtonConfig* buttonConfig, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::RPG::Client::IRogueTournGameLevelLayerLinear* layer, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::PropButtonConfig*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29_BEGININVOKE_OFFSET))(this, buttonConfig, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::Client::IRogueTournGameLevelLayerLinear*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29_BEGININVOKE_OFFSET))(this, layer, callback, object);
 		}
 
-		::RPG::Client::LittleGame::LittleGameRuntimeButton* EndInvoke(::System::IAsyncResult* result)
+		::System::UInt32 EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::RPG::Client::LittleGame::LittleGameRuntimeButton*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE29_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

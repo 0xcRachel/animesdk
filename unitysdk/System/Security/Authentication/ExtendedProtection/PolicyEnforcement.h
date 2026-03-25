@@ -3,7 +3,7 @@
 
 namespace System::Security::Authentication::ExtendedProtection
 {
-	inline static constexpr unsigned int PolicyEnforcement_TypeDefinitionIndex = 2656;
+	inline static constexpr unsigned int PolicyEnforcement_TypeDefinitionIndex = 2661;
 
 	enum class PolicyEnforcement : ::System::Int32
 	{

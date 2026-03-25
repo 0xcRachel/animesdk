@@ -6,23 +6,23 @@ class Class_1_0E117AC86D8E5BCA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINRECOMMENDEDDICELIST_OFFSET UNITYSDK_OFFSET(0x16079AD0)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINSKILLDICELIST_OFFSET UNITYSDK_OFFSET(0x160799A0)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16079C00)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINRECOMMENDEDDICELIST_OFFSET UNITYSDK_OFFSET(0x16767C90)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINSKILLDICELIST_OFFSET UNITYSDK_OFFSET(0x16767B30)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16767DF0)
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatPreviewInfo_TypeDefinitionIndex = 27829;
+	inline static constexpr unsigned int DiceCombatPreviewInfo_TypeDefinitionIndex = 28578;
 
 	class DiceCombatPreviewInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* RecommendedDiceList; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* SkillDiceList; // 0x18
+		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* SkillDiceList; // 0x10
+		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* RecommendedDiceList; // 0x18
 		::System::String* SkillDiceIconPath; // 0x20
-		::System::Int32 AdditivePoint; // 0x28
-		::System::Boolean WeatherTriggered; // 0x2C
-		::System::Int32 BasePoint; // 0x30
+		::System::Int32 BasePoint; // 0x28
+		::System::Int32 AdditivePoint; // 0x2C
+		::System::Boolean WeatherTriggered; // 0x30
 
 		::System::Void _ctor()
 		{

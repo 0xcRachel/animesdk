@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_PHOTOGRAPHFILTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9A7BF10)
+#define RPG_CLIENT_PHOTOGRAPHFILTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9F4FA70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphFilterConfig_TypeDefinitionIndex = 55185;
+	inline static constexpr unsigned int PhotoGraphFilterConfig_TypeDefinitionIndex = 56750;
 
 	class PhotoGraphFilterConfig : public ::System::Object
 	{

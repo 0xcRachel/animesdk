@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int OnMessageToClientCallbackInfoInternal_TypeDefinitionIndex = 35741;
+	inline static constexpr unsigned int OnMessageToClientCallbackInfoInternal_TypeDefinitionIndex = 36675;
 
 	struct alignas(8) OnMessageToClientCallbackInfoInternal
 	{

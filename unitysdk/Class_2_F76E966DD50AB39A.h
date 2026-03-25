@@ -7,12 +7,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_F76E966DD50AB39A_METHOD_2_A9A17872BEDA287B_OFFSET UNITYSDK_OFFSET(0x9BD57F0)
-#define CLASS_2_F76E966DD50AB39A__CTOR_OFFSET UNITYSDK_OFFSET(0x9BD5990)
-#define CLASS_2_F76E966DD50AB39A__ONBIND_OFFSET UNITYSDK_OFFSET(0x9BD5680)
-#define CLASS_2_F76E966DD50AB39A___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x9BD59C0)
+#define CLASS_2_F76E966DD50AB39A_METHOD_2_A9A17872BEDA287B_OFFSET UNITYSDK_OFFSET(0x88446C0)
+#define CLASS_2_F76E966DD50AB39A__CTOR_OFFSET UNITYSDK_OFFSET(0x8844860)
+#define CLASS_2_F76E966DD50AB39A__ONBIND_OFFSET UNITYSDK_OFFSET(0x8844430)
+#define CLASS_2_F76E966DD50AB39A___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x8844890)
 
-inline static constexpr unsigned int Class_2_F76E966DD50AB39A_TypeDefinitionIndex = 56736;
+inline static constexpr unsigned int Class_2_F76E966DD50AB39A_TypeDefinitionIndex = 58325;
 
 class Class_2_F76E966DD50AB39A : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -20,8 +20,8 @@ public:
 	::UnityEngine::Transform* Field_2_4; // 0x60
 	::UnityEngine::Transform* Field_2_2; // 0x68
 	::UnityEngine::UI::Text* Field_2_3; // 0x70
-	::UnityEngine::UI::Text* Field_2_0; // 0x78
-	::UnityEngine::UI::Text* Field_2_1; // 0x80
+	::UnityEngine::UI::Text* Field_2_1; // 0x78
+	::UnityEngine::UI::Text* Field_2_0; // 0x80
 
 	::System::Void _ctor()
 	{

@@ -17,41 +17,41 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_82B09E39D0F93215_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0x8A76AB0)
-#define CLASS_1_82B09E39D0F93215_METHOD_1_7D0A1610D6B7C9C3_OFFSET UNITYSDK_OFFSET(0x8A76640)
-#define CLASS_1_82B09E39D0F93215_METHOD_1_999FD699E769A460_OFFSET UNITYSDK_OFFSET(0x8A76B20)
-#define CLASS_1_82B09E39D0F93215_METHOD_1_EB5CCB7D9F905B04_OFFSET UNITYSDK_OFFSET(0x8A76820)
-#define CLASS_1_82B09E39D0F93215__CTOR_OFFSET UNITYSDK_OFFSET(0x8A77720)
+#define CLASS_1_82B09E39D0F93215_METHOD_1_2372762F4122DEB8_OFFSET UNITYSDK_OFFSET(0xA1FE660)
+#define CLASS_1_82B09E39D0F93215_METHOD_1_7D0A1610D6B7C9C3_OFFSET UNITYSDK_OFFSET(0xA1FE1F0)
+#define CLASS_1_82B09E39D0F93215_METHOD_1_999FD699E769A460_OFFSET UNITYSDK_OFFSET(0xA1FE6D0)
+#define CLASS_1_82B09E39D0F93215_METHOD_1_EB5CCB7D9F905B04_OFFSET UNITYSDK_OFFSET(0xA1FE3D0)
+#define CLASS_1_82B09E39D0F93215__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FF2D0)
 
-inline static constexpr unsigned int Class_1_82B09E39D0F93215_TypeDefinitionIndex = 44065;
+inline static constexpr unsigned int Class_1_82B09E39D0F93215_TypeDefinitionIndex = 45125;
 
 class Class_1_82B09E39D0F93215 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5*>* Field_1_6; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_120319518E6F6581_6*>* Field_1_8; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_2; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_20; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_6EA152E8ED858D74*>* Field_1_4; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_1; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5_1*>* Field_1_7; // 0x28
 	::System::Collections::Generic::List_1<::RPG::GameCore::LineUpCharacter*>* Field_1_5; // 0x30
-	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5_1*>* Field_1_7; // 0x38
-	::Class_1_2AEC7C4C0F203579* Field_1_23; // 0x40
-	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* Field_1_3; // 0x48
-	::Class_1_12ABE890CAA92AB9* Field_1_21; // 0x50
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_20; // 0x58
-	::System::Collections::Generic::List_1<::Class_1_6EA152E8ED858D74*>* Field_1_4; // 0x60
-	::System::UInt32 Field_1_18; // 0x68
+	::Class_1_2AEC7C4C0F203579* Field_1_23; // 0x38
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightTeamTraitData*>* Field_1_2; // 0x40
+	::System::Collections::Generic::List_1<::Class_1_9015B34004B876E5*>* Field_1_6; // 0x48
+	::System::Collections::Generic::List_1<::Class_1_120319518E6F6581_6*>* Field_1_8; // 0x50
+	::System::Collections::Generic::List_1<::RPG::GameCore::BattleGridFightAvatarData*>* Field_1_3; // 0x58
+	::Class_1_12ABE890CAA92AB9* Field_1_21; // 0x60
+	::System::UInt32 Field_1_16; // 0x68
 	::System::UInt32 Field_1_12; // 0x6C
-	::System::UInt32 Field_1_11; // 0x70
-	::System::UInt32 Field_1_19; // 0x74
-	::System::UInt32 Field_1_14; // 0x78
-	::System::UInt32 Field_1_9; // 0x7C
-	::System::Boolean Field_1_22; // 0x80
-	::System::UInt32 Field_1_0; // 0x84
-	::System::UInt32 Field_1_16; // 0x88
-	::System::UInt32 Field_1_13; // 0x8C
+	::System::UInt32 Field_1_13; // 0x70
+	::System::UInt32 Field_1_11; // 0x74
+	::System::UInt32 Field_1_18; // 0x78
+	::System::UInt32 Field_1_15; // 0x7C
+	::System::UInt32 Field_1_17; // 0x80
+	::System::Boolean Field_1_22; // 0x84
+	::System::UInt32 Field_1_9; // 0x88
+	::System::UInt32 Field_1_0; // 0x8C
 	::RPG::GameCore::FixPoint Field_1_10; // 0x90
-	::System::UInt32 Field_1_17; // 0x98
-	::System::UInt32 Field_1_15; // 0x9C
+	::System::UInt32 Field_1_14; // 0x98
+	::System::UInt32 Field_1_19; // 0x9C
 
 	::System::Void _ctor()
 	{

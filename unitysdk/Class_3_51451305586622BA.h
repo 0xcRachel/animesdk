@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FateBattleShowArcherUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_51451305586622BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEED0A80)
-#define CLASS_3_51451305586622BA__CTOR_OFFSET UNITYSDK_OFFSET(0xEED0A50)
+#define CLASS_3_51451305586622BA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114D09B0)
+#define CLASS_3_51451305586622BA__CTOR_OFFSET UNITYSDK_OFFSET(0x114D0980)
 
-inline static constexpr unsigned int Class_3_51451305586622BA_TypeDefinitionIndex = 43008;
+inline static constexpr unsigned int Class_3_51451305586622BA_TypeDefinitionIndex = 44059;
 
 class Class_3_51451305586622BA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::FateBattleShowArcherUI*>
 {

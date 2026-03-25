@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Protocol::Ntlm
 {
-	inline static constexpr unsigned int NtlmFlags_TypeDefinitionIndex = 2259;
+	inline static constexpr unsigned int NtlmFlags_TypeDefinitionIndex = 2264;
 
 	enum class NtlmFlags : ::System::Int32
 	{

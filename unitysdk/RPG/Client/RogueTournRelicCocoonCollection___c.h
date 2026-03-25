@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournRelicCocoonData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E8D030)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E8D060)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET UNITYSDK_OFFSET(0x9E8D070)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA3D90B0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA3D90E0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET UNITYSDK_OFFSET(0xA3D90F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c_TypeDefinitionIndex = 53760;
+	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c_TypeDefinitionIndex = 55272;
 
 	class RogueTournRelicCocoonCollection___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournRelicCocoonCollection___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournRelicCocoonCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0xFC90);
+			return (::RPG::Client::RogueTournRelicCocoonCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x26B60);
 		}
 		static ::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>** StaticGet___9__17_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0xFC98);
+			return (::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x26B68);
 		}
 
 		static ::System::Void _cctor()

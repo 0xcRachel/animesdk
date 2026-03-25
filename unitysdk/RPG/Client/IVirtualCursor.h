@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/VirtualCursorStatus.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_835;
+class Class_0_16E4307DCC419505_902;
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IVirtualCursor_TypeDefinitionIndex = 58378;
+	inline static constexpr unsigned int IVirtualCursor_TypeDefinitionIndex = 60031;
 
 	class IVirtualCursor
 	{

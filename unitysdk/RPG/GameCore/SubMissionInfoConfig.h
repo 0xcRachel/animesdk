@@ -20,13 +20,13 @@ namespace RPG::GameCore { class MissionItemConfig; }
 namespace RPG::GameCore { class MissionWaypointDataPack; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FA8CB0)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET UNITYSDK_OFFSET(0x16FAA2F0)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FAA2E0)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1779D0D0)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET UNITYSDK_OFFSET(0x1779E710)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1779E700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionInfoConfig_TypeDefinitionIndex = 17029;
+	inline static constexpr unsigned int SubMissionInfoConfig_TypeDefinitionIndex = 17434;
 
 	class SubMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{

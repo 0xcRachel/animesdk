@@ -3,7 +3,7 @@
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int EImageOutputFormat_TypeDefinitionIndex = 28669;
+	inline static constexpr unsigned int EImageOutputFormat_TypeDefinitionIndex = 29544;
 
 	enum class EImageOutputFormat : ::System::Int32
 	{

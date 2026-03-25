@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MiniGameCollectCoinState_TypeDefinitionIndex = 32496;
+	inline static constexpr unsigned int MiniGameCollectCoinState_TypeDefinitionIndex = 33408;
 
 	enum class MiniGameCollectCoinState : ::System::Int32
 	{

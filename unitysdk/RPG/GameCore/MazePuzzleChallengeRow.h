@@ -4,28 +4,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C73B50)
-#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C74430)
+#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173D94C0)
+#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173D9DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleChallengeRow_TypeDefinitionIndex = 12749;
+	inline static constexpr unsigned int MazePuzzleChallengeRow_TypeDefinitionIndex = 12820;
 
 	class MazePuzzleChallengeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ProgressList; // 0x10
-		::System::UInt32 MazePuzzleID; // 0x18
-		::System::UInt32 SpecialModeID; // 0x1C
-		::System::UInt32 LimitTime; // 0x20
-		::System::Boolean IsShowWaypoint; // 0x24
-		::System::Boolean IsShowToast; // 0x25
-		::System::Boolean IsTopPriority; // 0x26
+		::System::UInt32 TutorialID; // 0x18
+		::System::UInt32 MazePuzzleID; // 0x1C
+		::System::UInt32 RemainingStep; // 0x20
+		::System::UInt32 NormalModeID; // 0x24
 		::System::UInt32 IsBeginPrepare; // 0x28
-		::System::UInt32 NormalModeID; // 0x2C
-		::System::UInt32 RemainingStep; // 0x30
+		::System::UInt32 SpecialModeID; // 0x2C
+		::System::Boolean IsTopPriority; // 0x30
+		::System::Boolean IsShowToast; // 0x31
+		::System::Boolean IsShowWaypoint; // 0x32
 		::System::UInt32 IsResetable; // 0x34
-		::System::UInt32 TutorialID; // 0x38
+		::System::UInt32 LimitTime; // 0x38
 
 		::System::Void _ctor()
 		{

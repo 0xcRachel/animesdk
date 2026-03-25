@@ -3,7 +3,7 @@
 
 namespace UnityEngine::SceneManagement
 {
-	inline static constexpr unsigned int UnloadSceneOptions_TypeDefinitionIndex = 4297;
+	inline static constexpr unsigned int UnloadSceneOptions_TypeDefinitionIndex = 4319;
 
 	enum class UnloadSceneOptions : ::System::Int32
 	{

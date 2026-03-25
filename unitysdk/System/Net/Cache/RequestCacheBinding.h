@@ -5,18 +5,18 @@
 namespace System::Net::Cache { class RequestCache; }
 namespace System::Net::Cache { class RequestCacheValidator; }
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEBINDING_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x17EA14C0)
-#define SYSTEM_NET_CACHE_REQUESTCACHEBINDING_GET_VALIDATOR_OFFSET UNITYSDK_OFFSET(0x17EA14D0)
+#define SYSTEM_NET_CACHE_REQUESTCACHEBINDING_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x186CA710)
+#define SYSTEM_NET_CACHE_REQUESTCACHEBINDING_GET_VALIDATOR_OFFSET UNITYSDK_OFFSET(0x186CA720)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCacheBinding_TypeDefinitionIndex = 2961;
+	inline static constexpr unsigned int RequestCacheBinding_TypeDefinitionIndex = 2970;
 
 	class RequestCacheBinding : public ::System::Object
 	{
 	public:
-		::System::Net::Cache::RequestCache* m_RequestCache; // 0x10
-		::System::Net::Cache::RequestCacheValidator* m_CacheValidator; // 0x18
+		::System::Net::Cache::RequestCacheValidator* m_CacheValidator; // 0x10
+		::System::Net::Cache::RequestCache* m_RequestCache; // 0x18
 
 		::System::Net::Cache::RequestCache* get_Cache()
 		{

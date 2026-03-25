@@ -6,11 +6,11 @@ namespace RPG::GameCore { class ColliderGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GROUPEDCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA443160)
+#define RPG_GAMECORE_GROUPEDCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA97E1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupedColliderConfig_TypeDefinitionIndex = 45024;
+	inline static constexpr unsigned int GroupedColliderConfig_TypeDefinitionIndex = 46085;
 
 	class GroupedColliderConfig : public ::UnityEngine::MonoBehaviour
 	{

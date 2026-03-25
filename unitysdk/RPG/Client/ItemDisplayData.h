@@ -7,25 +7,25 @@
 
 namespace RPG::Client { class ItemDisplayDataExtraInfo; }
 
-#define RPG_CLIENT_ITEMDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x94F85C0)
-#define RPG_CLIENT_ITEMDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x94F8640)
+#define RPG_CLIENT_ITEMDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x997C510)
+#define RPG_CLIENT_ITEMDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x996BE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemDisplayData_TypeDefinitionIndex = 52237;
+	inline static constexpr unsigned int ItemDisplayData_TypeDefinitionIndex = 53373;
 
 	class ItemDisplayData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ItemDisplayDataExtraInfo* ExtraInfo; // 0x10
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 UID; // 0x1C
-		::System::UInt32 Count; // 0x20
-		::System::UInt32 ConfigID; // 0x24
-		::RPG::GameCore::ItemMainType ItemMainType; // 0x28
-		::System::UInt32 Rank; // 0x2C
-		::RPG::GameCore::ItemRarity Rarity; // 0x30
-		::RPG::GameCore::ItemSubType ItemSubType; // 0x34
+		::System::UInt32 Rank; // 0x18
+		::RPG::GameCore::ItemSubType ItemSubType; // 0x1C
+		::System::UInt32 ConfigID; // 0x20
+		::RPG::GameCore::ItemMainType ItemMainType; // 0x24
+		::System::UInt32 UID; // 0x28
+		::System::UInt32 Count; // 0x2C
+		::System::UInt32 Level; // 0x30
+		::RPG::GameCore::ItemRarity Rarity; // 0x34
 
 		::System::Void _ctor()
 		{

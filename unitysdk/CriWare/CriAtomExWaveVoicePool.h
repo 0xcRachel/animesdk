@@ -3,12 +3,12 @@
 #include "unitysdk/CriWare/CriAtomExVoicePool.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool_VoicePoolConfig.h"
 
-#define CRIWARE_CRIATOMEXWAVEVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATEWAVEVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x112B3930)
-#define CRIWARE_CRIATOMEXWAVEVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x112B37B0)
+#define CRIWARE_CRIATOMEXWAVEVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATEWAVEVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x11A3C840)
+#define CRIWARE_CRIATOMEXWAVEVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x11A3C6C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExWaveVoicePool_TypeDefinitionIndex = 30231;
+	inline static constexpr unsigned int CriAtomExWaveVoicePool_TypeDefinitionIndex = 31106;
 
 	class CriAtomExWaveVoicePool : public ::CriWare::CriAtomExVoicePool
 	{

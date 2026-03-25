@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DA38F0)
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA3930)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1646AC30)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1646AC70)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 8239;
+	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 8368;
 
 	class Extensions___c : public ::System::Object
 	{
 	public:
 		static ::Newtonsoft::Json::Linq::Extensions___c** StaticGet___9()
 		{
-			return (::Newtonsoft::Json::Linq::Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x25750);
+			return (::Newtonsoft::Json::Linq::Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x35EC0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UriKind_TypeDefinitionIndex = 2452;
+	inline static constexpr unsigned int UriKind_TypeDefinitionIndex = 2457;
 
 	enum class UriKind : ::System::Int32
 	{

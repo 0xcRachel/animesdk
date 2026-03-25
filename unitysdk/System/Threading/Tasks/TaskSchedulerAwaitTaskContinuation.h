@@ -7,12 +7,12 @@ namespace System { class Action; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x15B96120)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x15B8E420)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1625F9B0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x16257E10)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskSchedulerAwaitTaskContinuation_TypeDefinitionIndex = 913;
+	inline static constexpr unsigned int TaskSchedulerAwaitTaskContinuation_TypeDefinitionIndex = 917;
 
 	class TaskSchedulerAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation
 	{

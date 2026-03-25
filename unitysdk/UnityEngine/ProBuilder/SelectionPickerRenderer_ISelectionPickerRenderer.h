@@ -8,7 +8,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer_ISelectionPickerRenderer_TypeDefinitionIndex = 33168;
+	inline static constexpr unsigned int SelectionPickerRenderer_ISelectionPickerRenderer_TypeDefinitionIndex = 34157;
 
 	class SelectionPickerRenderer_ISelectionPickerRenderer
 	{

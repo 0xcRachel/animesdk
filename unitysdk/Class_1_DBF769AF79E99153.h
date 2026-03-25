@@ -9,25 +9,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace XLua { class LuaTable; }
 
-#define CLASS_1_DBF769AF79E99153_METHOD_1_1AD3CAF2B0982C3F_OFFSET UNITYSDK_OFFSET(0xFE42690)
-#define CLASS_1_DBF769AF79E99153_METHOD_1_38D7ED5B78AEB8EC_OFFSET UNITYSDK_OFFSET(0xFE41640)
-#define CLASS_1_DBF769AF79E99153_METHOD_1_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0xFE41F70)
-#define CLASS_1_DBF769AF79E99153_METHOD_1_83CECA629B8CD9E8_OFFSET UNITYSDK_OFFSET(0xFE41A20)
-#define CLASS_1_DBF769AF79E99153_METHOD_1_D5C3A10CA60641C4_OFFSET UNITYSDK_OFFSET(0xFE412F0)
-#define CLASS_1_DBF769AF79E99153__CTOR_OFFSET UNITYSDK_OFFSET(0xFE42A90)
+#define CLASS_1_DBF769AF79E99153_METHOD_1_1AD3CAF2B0982C3F_OFFSET UNITYSDK_OFFSET(0x10B4EE40)
+#define CLASS_1_DBF769AF79E99153_METHOD_1_38D7ED5B78AEB8EC_OFFSET UNITYSDK_OFFSET(0x10B4DDE0)
+#define CLASS_1_DBF769AF79E99153_METHOD_1_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0x10B4E710)
+#define CLASS_1_DBF769AF79E99153_METHOD_1_83CECA629B8CD9E8_OFFSET UNITYSDK_OFFSET(0x10B4E1C0)
+#define CLASS_1_DBF769AF79E99153_METHOD_1_D5C3A10CA60641C4_OFFSET UNITYSDK_OFFSET(0x10B4DA90)
+#define CLASS_1_DBF769AF79E99153__CTOR_OFFSET UNITYSDK_OFFSET(0x10B4F240)
 
-inline static constexpr unsigned int Class_1_DBF769AF79E99153_TypeDefinitionIndex = 47532;
+inline static constexpr unsigned int Class_1_DBF769AF79E99153_TypeDefinitionIndex = 48613;
 
 class Class_1_DBF769AF79E99153 : public ::System::Object
 {
 public:
-	::RPG::Client::RPGProfilerMarker* Field_1_5; // 0x10
-	::RPG::Client::RPGProfilerMarker* Field_1_3; // 0x18
-	::RPG::Client::RPGProfilerMarker* Field_1_7; // 0x20
+	::RPG::Client::RPGProfilerMarker* Field_1_3; // 0x10
+	::RPG::Client::RPGProfilerMarker* Field_1_5; // 0x18
+	::RPG::Client::RPGProfilerMarker* Field_1_6; // 0x20
 	::RPG::Client::RPGProfilerMarker* Field_1_2; // 0x28
-	::HoudiniEngineUnity::JSONObject* Field_1_1; // 0x30
-	::System::String* Field_1_0; // 0x38
-	::RPG::Client::RPGProfilerMarker* Field_1_6; // 0x40
+	::RPG::Client::RPGProfilerMarker* Field_1_7; // 0x30
+	::HoudiniEngineUnity::JSONObject* Field_1_1; // 0x38
+	::System::String* Field_1_0; // 0x40
 	::RPG::Client::RPGProfilerMarker* Field_1_4; // 0x48
 
 	::System::Void _ctor()

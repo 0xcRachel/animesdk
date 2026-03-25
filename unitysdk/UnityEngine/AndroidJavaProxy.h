@@ -7,29 +7,29 @@ namespace UnityEngine { class AndroidJavaClass; }
 namespace UnityEngine { class AndroidJavaObject; }
 namespace UnityEngine { class GlobalJavaObjectRef; }
 
-#define UNITYENGINE_ANDROIDJAVAPROXY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x181B6F00)
-#define UNITYENGINE_ANDROIDJAVAPROXY_GETPROXYOBJECT_OFFSET UNITYSDK_OFFSET(0x181B8BC0)
-#define UNITYENGINE_ANDROIDJAVAPROXY_GETRAWPROXY_OFFSET UNITYSDK_OFFSET(0x181B82C0)
-#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_1_OFFSET UNITYSDK_OFFSET(0x181B84C0)
-#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_OFFSET UNITYSDK_OFFSET(0x181B6F70)
-#define UNITYENGINE_ANDROIDJAVAPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x181B8CC0)
-#define UNITYENGINE_ANDROIDJAVAPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x181B6EF0)
-#define UNITYENGINE_ANDROIDJAVAPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x181B6E90)
+#define UNITYENGINE_ANDROIDJAVAPROXY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x189DF660)
+#define UNITYENGINE_ANDROIDJAVAPROXY_GETPROXYOBJECT_OFFSET UNITYSDK_OFFSET(0x189E1320)
+#define UNITYENGINE_ANDROIDJAVAPROXY_GETRAWPROXY_OFFSET UNITYSDK_OFFSET(0x189E0A20)
+#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_1_OFFSET UNITYSDK_OFFSET(0x189E0C20)
+#define UNITYENGINE_ANDROIDJAVAPROXY_INVOKE_OFFSET UNITYSDK_OFFSET(0x189DF6D0)
+#define UNITYENGINE_ANDROIDJAVAPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x189E1420)
+#define UNITYENGINE_ANDROIDJAVAPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x189DF650)
+#define UNITYENGINE_ANDROIDJAVAPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x189DF5F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AndroidJavaProxy_TypeDefinitionIndex = 5290;
+	inline static constexpr unsigned int AndroidJavaProxy_TypeDefinitionIndex = 5390;
 
 	class AndroidJavaProxy : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::GlobalJavaObjectRef** StaticGet_s_JavaLangSystemClass()
 		{
-			return (::UnityEngine::GlobalJavaObjectRef**)Il2CppClass::FromTypeDefinitionIndex(AndroidJavaProxy_TypeDefinitionIndex)->GetStaticField(0x420);
+			return (::UnityEngine::GlobalJavaObjectRef**)Il2CppClass::FromTypeDefinitionIndex(AndroidJavaProxy_TypeDefinitionIndex)->GetStaticField(0x3D0);
 		}
 		static ::System::IntPtr* StaticGet_s_HashCodeMethodID()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidJavaProxy_TypeDefinitionIndex)->GetStaticField(0x290);
+			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidJavaProxy_TypeDefinitionIndex)->GetStaticField(0x2D0);
 		}
 		::UnityEngine::AndroidJavaClass* javaInterface; // 0x10
 		::System::IntPtr proxyObject; // 0x18

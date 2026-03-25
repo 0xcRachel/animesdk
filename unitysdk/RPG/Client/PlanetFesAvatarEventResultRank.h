@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarEventResultRank_TypeDefinitionIndex = 53002;
+	inline static constexpr unsigned int PlanetFesAvatarEventResultRank_TypeDefinitionIndex = 54140;
 
 	enum class PlanetFesAvatarEventResultRank : ::System::Int32
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/Simplygon/spSettingsObject.h"
 #include "unitysdk/System/Runtime/InteropServices/HandleRef.h"
 
-#define SIMPLYGON_SPMATERIALCASTERSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B69690)
-#define SIMPLYGON_SPMATERIALCASTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17B69330)
+#define SIMPLYGON_SPMATERIALCASTERSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18381AC0)
+#define SIMPLYGON_SPMATERIALCASTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18381760)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int spMaterialCasterSettings_TypeDefinitionIndex = 28683;
+	inline static constexpr unsigned int spMaterialCasterSettings_TypeDefinitionIndex = 29558;
 
 	class spMaterialCasterSettings : public ::Simplygon::spSettingsObject
 	{

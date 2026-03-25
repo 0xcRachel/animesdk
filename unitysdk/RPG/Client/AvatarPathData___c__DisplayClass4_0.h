@@ -4,12 +4,12 @@
 
 class Class_1_FA4F4A67B1C04320_11;
 
-#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D09170)
-#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__GETSKILLTREEPOINTLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x8D092F0)
+#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x915FAF0)
+#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__GETSKILLTREEPOINTLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x915FC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathData___c__DisplayClass4_0_TypeDefinitionIndex = 52779;
+	inline static constexpr unsigned int AvatarPathData___c__DisplayClass4_0_TypeDefinitionIndex = 53916;
 
 	class AvatarPathData___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -7,24 +7,24 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-class Class_1_65ECD476422B13F6;
+class Class_1_1BEA1E49225DA2AF;
 
-#define CLASS_1_F31115D5F56C5F10_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1622CAB0)
-#define CLASS_1_F31115D5F56C5F10__CTOR_OFFSET UNITYSDK_OFFSET(0x1622CAF0)
+#define CLASS_1_F31115D5F56C5F10_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x16A23A60)
+#define CLASS_1_F31115D5F56C5F10__CTOR_OFFSET UNITYSDK_OFFSET(0x16A23AA0)
 
-inline static constexpr unsigned int Class_1_F31115D5F56C5F10_TypeDefinitionIndex = 32055;
+inline static constexpr unsigned int Class_1_F31115D5F56C5F10_TypeDefinitionIndex = 32965;
 
 class Class_1_F31115D5F56C5F10 : public ::System::Object
 {
 public:
-	::Class_1_65ECD476422B13F6* Field_1_0; // 0x10
-	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell Field_1_1; // 0x18
-	::UnityEngine::Vector2Int Field_1_7; // 0x38
-	::System::Single Field_1_6; // 0x40
-	::UnityEngine::Vector3Int Field_1_4; // 0x44
-	::UnityEngine::Vector3Int Field_1_5; // 0x50
-	::RPG::Client::LittleGame::ETimelineControlGameLevelFloor Field_1_2; // 0x5C
-	::RPG::Client::LittleGame::ETimelineControlGameLevelRotation Field_1_3; // 0x60
+	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell Field_1_1; // 0x10
+	::Class_1_1BEA1E49225DA2AF* Field_1_0; // 0x30
+	::System::Single Field_1_6; // 0x38
+	::UnityEngine::Vector3Int Field_1_5; // 0x3C
+	::UnityEngine::Vector2Int Field_1_7; // 0x48
+	::UnityEngine::Vector3Int Field_1_4; // 0x50
+	::RPG::Client::LittleGame::ETimelineControlGameLevelRotation Field_1_3; // 0x5C
+	::RPG::Client::LittleGame::ETimelineControlGameLevelFloor Field_1_2; // 0x60
 
 	::System::Void _ctor()
 	{

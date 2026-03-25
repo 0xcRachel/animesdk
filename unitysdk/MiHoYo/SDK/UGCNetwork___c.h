@@ -6,29 +6,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_UGCNETWORK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8262370)
-#define MIHOYO_SDK_UGCNETWORK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x82623B0)
-#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_0_OFFSET UNITYSDK_OFFSET(0x82623C0)
-#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_1_OFFSET UNITYSDK_OFFSET(0x82623E0)
+#define MIHOYO_SDK_UGCNETWORK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x85B01D0)
+#define MIHOYO_SDK_UGCNETWORK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x85B0210)
+#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_0_OFFSET UNITYSDK_OFFSET(0x85B0220)
+#define MIHOYO_SDK_UGCNETWORK___C__PERFORMHTTPREQUESTBINARY_B__6_1_OFFSET UNITYSDK_OFFSET(0x85B0240)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork___c_TypeDefinitionIndex = 36280;
+	inline static constexpr unsigned int UGCNetwork___c_TypeDefinitionIndex = 37216;
 
 	class UGCNetwork___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x9DD0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x17FE0);
 		}
 		static ::MiHoYo::SDK::UGCNetwork___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UGCNetwork___c**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x9DD8);
+			return (::MiHoYo::SDK::UGCNetwork___c**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x17FE8);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x9DE0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UGCNetwork___c_TypeDefinitionIndex)->GetStaticField(0x17FF0);
 		}
 
 		static ::System::Void _cctor()

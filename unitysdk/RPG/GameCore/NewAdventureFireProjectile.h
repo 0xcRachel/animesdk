@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AdventureFireProjectile.h"
+#include "unitysdk/RPG/GameCore/AdventureFireProjectileBase.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class NewProjectileConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_41C2FA3B57765CCC_OFFSET UNITYSDK_OFFSET(0x16CFEBD0)
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_EC3D5EE410FFD801_OFFSET UNITYSDK_OFFSET(0x16CFEB50)
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x16CFEBA0)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_41C2FA3B57765CCC_OFFSET UNITYSDK_OFFSET(0x17485530)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_METHOD_4_EC3D5EE410FFD801_OFFSET UNITYSDK_OFFSET(0x174854B0)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17485500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 17976;
+	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 18494;
 
-	class NewAdventureFireProjectile : public ::RPG::GameCore::AdventureFireProjectile
+	class NewAdventureFireProjectile : public ::RPG::GameCore::AdventureFireProjectileBase
 	{
 	public:
-		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x48
-		::RPG::GameCore::TargetEvaluator* CustomAnchorTarget; // 0x50
+		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x40
+		::RPG::GameCore::TargetEvaluator* CustomAnchorTarget; // 0x48
 
 		::System::Void _ctor()
 		{

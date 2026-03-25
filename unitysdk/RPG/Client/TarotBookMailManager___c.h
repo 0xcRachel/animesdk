@@ -5,24 +5,24 @@
 namespace RPG::Client { class TarotMailData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_TAROTBOOKMAILMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA039DC0)
-#define RPG_CLIENT_TAROTBOOKMAILMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA039E00)
-#define RPG_CLIENT_TAROTBOOKMAILMANAGER___C__MARKSEENANDGETALLDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xA039E10)
+#define RPG_CLIENT_TAROTBOOKMAILMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA55B890)
+#define RPG_CLIENT_TAROTBOOKMAILMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA55B8D0)
+#define RPG_CLIENT_TAROTBOOKMAILMANAGER___C__MARKSEENANDGETALLDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xA55B8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookMailManager___c_TypeDefinitionIndex = 53987;
+	inline static constexpr unsigned int TarotBookMailManager___c_TypeDefinitionIndex = 55539;
 
 	class TarotBookMailManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::TarotMailData*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::TarotMailData*>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookMailManager___c_TypeDefinitionIndex)->GetStaticField(0x243A0);
+			return (::System::Comparison_1<::RPG::Client::TarotMailData*>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookMailManager___c_TypeDefinitionIndex)->GetStaticField(0x3A470);
 		}
 		static ::RPG::Client::TarotBookMailManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::TarotBookMailManager___c**)Il2CppClass::FromTypeDefinitionIndex(TarotBookMailManager___c_TypeDefinitionIndex)->GetStaticField(0x243A8);
+			return (::RPG::Client::TarotBookMailManager___c**)Il2CppClass::FromTypeDefinitionIndex(TarotBookMailManager___c_TypeDefinitionIndex)->GetStaticField(0x3A478);
 		}
 
 		static ::System::Void _cctor()

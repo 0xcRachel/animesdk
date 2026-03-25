@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x91569A0)
+#define RPG_CLIENT_ELFSKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9603B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfSkillData_TypeDefinitionIndex = 50661;
+	inline static constexpr unsigned int ElfSkillData_TypeDefinitionIndex = 51796;
 
 	class ElfSkillData : public ::System::Object
 	{

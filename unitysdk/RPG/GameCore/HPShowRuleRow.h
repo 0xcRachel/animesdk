@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HPSHOWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B587D0)
-#define RPG_GAMECORE_HPSHOWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B58E90)
+#define RPG_GAMECORE_HPSHOWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A6EF0)
+#define RPG_GAMECORE_HPSHOWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172A7570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HPShowRuleRow_TypeDefinitionIndex = 12474;
+	inline static constexpr unsigned int HPShowRuleRow_TypeDefinitionIndex = 12544;
 
 	class HPShowRuleRow : public ::System::Object
 	{

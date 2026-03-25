@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::HoYoUI { class ColorValueMap; }
 namespace MiHoYo::SDK::HoYoUI { class FontSizeValueMap; }
 
-#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x81A39F0)
+#define MIHOYO_SDK_HOYOUI_HOYOLOCALSKINASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x84F6C60)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int HoYoLocalSkinAsset_TypeDefinitionIndex = 36469;
+	inline static constexpr unsigned int HoYoLocalSkinAsset_TypeDefinitionIndex = 37405;
 
 	class HoYoLocalSkinAsset : public ::UnityEngine::ScriptableObject
 	{

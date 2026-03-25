@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MsaaQuality_TypeDefinitionIndex = 28291;
+	inline static constexpr unsigned int MsaaQuality_TypeDefinitionIndex = 29166;
 
 	enum class MsaaQuality : ::System::Int32
 	{

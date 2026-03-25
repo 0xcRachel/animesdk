@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_A24B772C358FD678_ButtonState_TypeDefinitionIndex = 57041;
+inline static constexpr unsigned int Class_2_A24B772C358FD678_ButtonState_TypeDefinitionIndex = 58633;
 
 enum class Class_2_A24B772C358FD678_ButtonState : ::System::Int32
 {

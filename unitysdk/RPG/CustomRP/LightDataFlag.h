@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LightDataFlag_TypeDefinitionIndex = 28450;
+	inline static constexpr unsigned int LightDataFlag_TypeDefinitionIndex = 29325;
 
 	enum class LightDataFlag : ::System::Int32
 	{
@@ -27,6 +27,7 @@ namespace RPG::CustomRP
 		kEnableDistanceFade = 131072,
 		kEnableTSC = 262144,
 		kTSCState = 524288,
+		kForceCharacterAffect = 1048576,
 		DrawStencilDelegate = 1048576,
 		DebugColorPercent = 2097152,
 		DebugIntensityFalloff = 4194304,

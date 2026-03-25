@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ActiveFMChannelSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0614730AA3CFB724_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF566170)
-#define CLASS_3_0614730AA3CFB724__CTOR_OFFSET UNITYSDK_OFFSET(0xF566140)
+#define CLASS_3_0614730AA3CFB724_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D818F0)
+#define CLASS_3_0614730AA3CFB724__CTOR_OFFSET UNITYSDK_OFFSET(0x8D818C0)
 
-inline static constexpr unsigned int Class_3_0614730AA3CFB724_TypeDefinitionIndex = 41248;
+inline static constexpr unsigned int Class_3_0614730AA3CFB724_TypeDefinitionIndex = 42291;
 
 class Class_3_0614730AA3CFB724 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActiveFMChannelSource*>
 {

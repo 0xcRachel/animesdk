@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LGAMEENTITYREF_METHOD_2_5472FF12F81F7231_OFFSET UNITYSDK_OFFSET(0x16B9D270)
-#define RPG_GAMECORE_LGAMEENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x16B9D3B0)
+#define RPG_GAMECORE_LGAMEENTITYREF_METHOD_2_5472FF12F81F7231_OFFSET UNITYSDK_OFFSET(0x17340800)
+#define RPG_GAMECORE_LGAMEENTITYREF__CTOR_OFFSET UNITYSDK_OFFSET(0x17340940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LGameEntityRef_TypeDefinitionIndex = 16928;
+	inline static constexpr unsigned int LGameEntityRef_TypeDefinitionIndex = 17333;
 
 	class LGameEntityRef : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREEEMOJIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16157290)
+#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREEEMOJIINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16865320)
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int MatchThreeEmojiInfo_TypeDefinitionIndex = 32190;
+	inline static constexpr unsigned int MatchThreeEmojiInfo_TypeDefinitionIndex = 33100;
 
 	class MatchThreeEmojiInfo : public ::System::Object
 	{

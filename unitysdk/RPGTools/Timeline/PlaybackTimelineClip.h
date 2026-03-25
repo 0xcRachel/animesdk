@@ -6,19 +6,19 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
-class Class_2_9BE17B1876EBB2C2;
+class Class_2_65AA2967EDFC1C6A;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA649EA0)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA649E80)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_METHOD_4_82EEA22421A23CFF_OFFSET UNITYSDK_OFFSET(0xA64A100)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xA649E90)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA64A180)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB90170)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB90150)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_METHOD_4_82EEA22421A23CFF_OFFSET UNITYSDK_OFFSET(0xAB903D0)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB90160)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB90450)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaybackTimelineClip_TypeDefinitionIndex = 38290;
+	inline static constexpr unsigned int PlaybackTimelineClip_TypeDefinitionIndex = 39270;
 
 	class PlaybackTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -28,7 +28,7 @@ namespace RPGTools::Timeline
 		::System::String* MarkerName; // 0x20
 		::System::Double TargetTime; // 0x28
 		::Il2CppArray<::System::String*>* JumpPredicates; // 0x30
-		::Class_2_9BE17B1876EBB2C2* template_; // 0x38
+		::Class_2_65AA2967EDFC1C6A* template_; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -50,9 +50,9 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_82EEA22421A23CFF(::UnityEngine::Playables::PlayableGraph a1, ::Class_2_9BE17B1876EBB2C2* a2)
+		::System::Void Method_4_82EEA22421A23CFF(::UnityEngine::Playables::PlayableGraph a1, ::Class_2_65AA2967EDFC1C6A* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::Class_2_9BE17B1876EBB2C2*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_METHOD_4_82EEA22421A23CFF_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::Class_2_65AA2967EDFC1C6A*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYBACKTIMELINECLIP_METHOD_4_82EEA22421A23CFF_OFFSET))(this, a1, a2);
 		}
 	};
 }

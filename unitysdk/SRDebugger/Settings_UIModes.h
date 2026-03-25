@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings_UIModes_TypeDefinitionIndex = 28748;
+	inline static constexpr unsigned int Settings_UIModes_TypeDefinitionIndex = 29623;
 
 	enum class Settings_UIModes : ::System::Int32
 	{

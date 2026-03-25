@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PS5ActivityEndType_TypeDefinitionIndex = 6987;
+	inline static constexpr unsigned int PS5ActivityEndType_TypeDefinitionIndex = 7111;
 
 	enum class PS5ActivityEndType : ::System::Int32
 	{

@@ -5,37 +5,37 @@
 
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define CLASS_1_65301186DB244773___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFD9D9F0)
-#define CLASS_1_65301186DB244773___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFD9DA30)
-#define CLASS_1_65301186DB244773___C___APPLYCYRENESKILLPARAMETERMODIFICATIONSFORAVATARSKILL_B__60_0_OFFSET UNITYSDK_OFFSET(0xFD9DA40)
-#define CLASS_1_65301186DB244773___C___APPLYCYRENESKILLPARAMETERMODIFICATIONSFORBATTLEEVENTSKILL_B__61_0_OFFSET UNITYSDK_OFFSET(0xFD9DA80)
-#define CLASS_1_65301186DB244773___C___APPLYCYRENESKILLPARAMETERMODIFICATIONSFORSERVANTSKILL_B__62_0_OFFSET UNITYSDK_OFFSET(0xFD9DAD0)
-#define CLASS_1_65301186DB244773___C___APPLYRANKSKILLPARAMETERMODIFICATIONSFORBATTLEEVENTSKILL_B__63_0_OFFSET UNITYSDK_OFFSET(0xFD9DB10)
+#define CLASS_1_65301186DB244773___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x118BE320)
+#define CLASS_1_65301186DB244773___C__CTOR_OFFSET UNITYSDK_OFFSET(0x118BE360)
+#define CLASS_1_65301186DB244773___C___APPLYCYRENESKILLPARAMETERMODIFICATIONSFORAVATARSKILL_B__60_0_OFFSET UNITYSDK_OFFSET(0x118BE370)
+#define CLASS_1_65301186DB244773___C___APPLYCYRENESKILLPARAMETERMODIFICATIONSFORBATTLEEVENTSKILL_B__61_0_OFFSET UNITYSDK_OFFSET(0x118BE3B0)
+#define CLASS_1_65301186DB244773___C___APPLYCYRENESKILLPARAMETERMODIFICATIONSFORSERVANTSKILL_B__62_0_OFFSET UNITYSDK_OFFSET(0x118BE400)
+#define CLASS_1_65301186DB244773___C___APPLYRANKSKILLPARAMETERMODIFICATIONSFORBATTLEEVENTSKILL_B__63_0_OFFSET UNITYSDK_OFFSET(0x118BE440)
 
-inline static constexpr unsigned int Class_1_65301186DB244773___c_TypeDefinitionIndex = 46648;
+inline static constexpr unsigned int Class_1_65301186DB244773___c_TypeDefinitionIndex = 47727;
 
 class Class_1_65301186DB244773___c : public ::System::Object
 {
 public:
 	static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__60_0()
 	{
-		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x7FE0);
-	}
-	static ::Class_1_65301186DB244773___c** StaticGet___9()
-	{
-		return (::Class_1_65301186DB244773___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x7FE8);
-	}
-	static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__62_0()
-	{
-		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x7FF0);
-	}
-	static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__63_0()
-	{
-		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x7FF8);
+		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x48170);
 	}
 	static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__61_0()
 	{
-		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x8000);
+		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x48178);
+	}
+	static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__63_0()
+	{
+		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x48180);
+	}
+	static ::Class_1_65301186DB244773___c** StaticGet___9()
+	{
+		return (::Class_1_65301186DB244773___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x48188);
+	}
+	static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__62_0()
+	{
+		return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_65301186DB244773___c_TypeDefinitionIndex)->GetStaticField(0x48190);
 	}
 
 	static ::System::Void _cctor()

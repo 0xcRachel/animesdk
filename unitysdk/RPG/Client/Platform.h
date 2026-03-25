@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Platform_TypeDefinitionIndex = 53874;
+	inline static constexpr unsigned int Platform_TypeDefinitionIndex = 55426;
 
 	enum class Platform : ::System::Int32
 	{

@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_1FD1B042898FC142_RF_RPGDemoBallComponent.h"
+#include "unitysdk/RPG/Client/LittleGameShare/ReplicationFlag.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_26;
+class Class_0_16E4307DCC419505_27;
+
+#define CLASS_1_1FD1B042898FC142_METHOD_1_19CCC07C980409E4_OFFSET UNITYSDK_OFFSET(0x165C27C0)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x165C2A50)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_479759059E440327_OFFSET UNITYSDK_OFFSET(0x165C2740)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x165C2730)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_BF1FC09B12F334FC_OFFSET UNITYSDK_OFFSET(0x165C2820)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x165C26F0)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_EF7FF4D68C8A0DF5_OFFSET UNITYSDK_OFFSET(0x165C2950)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0x165C27B0)
+#define CLASS_1_1FD1B042898FC142_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x165C26E0)
+#define CLASS_1_1FD1B042898FC142__CTOR_OFFSET UNITYSDK_OFFSET(0x165C2AA0)
+
+inline static constexpr unsigned int Class_1_1FD1B042898FC142_TypeDefinitionIndex = 28833;
+
+class Class_1_1FD1B042898FC142 : public ::System::Object
+{
+public:
+	::Class_1_1FD1B042898FC142_RF_RPGDemoBallComponent Field_1_2; // 0x10
+	::System::Boolean Field_1_1; // 0x11
+	::System::Single Field_1_0; // 0x14
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Single Method_1_5323F2DF46A044DA()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_5323F2DF46A044DA_OFFSET))(this);
+	}
+
+	::System::Void Method_1_479759059E440327(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_479759059E440327_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_F0088C88851A7DFB_1()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_F0088C88851A7DFB_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_19CCC07C980409E4(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_19CCC07C980409E4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_BF1FC09B12F334FC(::Class_0_16E4307DCC419505_26* a1, ::RPG::Client::LittleGameShare::ReplicationFlag a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_26*, ::RPG::Client::LittleGameShare::ReplicationFlag))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_BF1FC09B12F334FC_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_EF7FF4D68C8A0DF5(::Class_0_16E4307DCC419505_27* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_27*))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_EF7FF4D68C8A0DF5_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_391A84BCD9F51317()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1FD1B042898FC142_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+	}
+};

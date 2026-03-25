@@ -8,12 +8,12 @@ namespace RPG::GameCore { class HipplenRequireGoodsConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENPICKINGGOODSNPCCONFIG_METHOD_2_7B5C471D8F0190AE_OFFSET UNITYSDK_OFFSET(0x16B765D0)
-#define RPG_GAMECORE_HIPPLENPICKINGGOODSNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B76940)
+#define RPG_GAMECORE_HIPPLENPICKINGGOODSNPCCONFIG_METHOD_2_7B5C471D8F0190AE_OFFSET UNITYSDK_OFFSET(0x172C4E90)
+#define RPG_GAMECORE_HIPPLENPICKINGGOODSNPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172C5200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenPickingGoodsNPCConfig_TypeDefinitionIndex = 15127;
+	inline static constexpr unsigned int HipplenPickingGoodsNPCConfig_TypeDefinitionIndex = 15383;
 
 	class HipplenPickingGoodsNPCConfig : public ::RPG::GameCore::JsonConfig
 	{

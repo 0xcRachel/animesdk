@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/AlleyTransportRouteState.h"
 #include "unitysdk/RPG/Client/LuaEvent_1.h"
 
-#define CLASS_2_EACB9DC136EDA31F__CTOR_OFFSET UNITYSDK_OFFSET(0x10E8F4B0)
+#define CLASS_2_EACB9DC136EDA31F__CTOR_OFFSET UNITYSDK_OFFSET(0x10B31A60)
 
-inline static constexpr unsigned int Class_2_EACB9DC136EDA31F_TypeDefinitionIndex = 49545;
+inline static constexpr unsigned int Class_2_EACB9DC136EDA31F_TypeDefinitionIndex = 50678;
 
 class Class_2_EACB9DC136EDA31F : public ::RPG::Client::LuaEvent_1<::RPG::Client::AlleyTransportRouteState>
 {

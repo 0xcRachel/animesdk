@@ -13,7 +13,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerUseWeaponOptionsInternal_TypeDefinitionIndex = 35735;
+	inline static constexpr unsigned int LogPlayerUseWeaponOptionsInternal_TypeDefinitionIndex = 36669;
 
 	struct alignas(8) LogPlayerUseWeaponOptionsInternal
 	{

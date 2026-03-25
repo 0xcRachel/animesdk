@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_TOPWORKRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x814AEE0)
+#define HOUDINIENGINEUNITY_HEU_TOPWORKRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x84A1190)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TOPWorkResult_TypeDefinitionIndex = 36815;
+	inline static constexpr unsigned int HEU_TOPWorkResult_TypeDefinitionIndex = 37752;
 
 	class HEU_TOPWorkResult : public ::System::Object
 	{

@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16CEA480)
-#define RPG_GAMECORE_MUSEUMACTIVITYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16CEA630)
+#define RPG_GAMECORE_MUSEUMACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17470D70)
+#define RPG_GAMECORE_MUSEUMACTIVITYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17470F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumActivityQuestConfigRow_TypeDefinitionIndex = 12975;
+	inline static constexpr unsigned int MuseumActivityQuestConfigRow_TypeDefinitionIndex = 13046;
 
 	class MuseumActivityQuestConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::System::String* QuestIconPath; // 0x18
-		::Il2CppArray<::System::UInt32>* QuestList; // 0x20
+		::System::String* QuestIconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
+		::System::String* Name; // 0x20
 		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()

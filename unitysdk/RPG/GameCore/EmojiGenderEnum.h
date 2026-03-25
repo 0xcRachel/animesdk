@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiGenderEnum_TypeDefinitionIndex = 11999;
+	inline static constexpr unsigned int EmojiGenderEnum_TypeDefinitionIndex = 12069;
 
 	enum class EmojiGenderEnum : ::System::Int32
 	{

@@ -7,20 +7,20 @@ class Class_1_3745C69C00F04B7D;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D17FC0)
-#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D181F0)
+#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1749FDF0)
+#define RPG_GAMECORE_PARKOURRANKINGLISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174A0020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourRankingListConfigRow_TypeDefinitionIndex = 11020;
+	inline static constexpr unsigned int ParkourRankingListConfigRow_TypeDefinitionIndex = 11088;
 
 	class ParkourRankingListConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_3745C69C00F04B7D*>* LevelBestRecordList; // 0x10
-		::System::String* NPCIconPath; // 0x18
-		::RPG::Client::TextID NPCName; // 0x20
-		::System::UInt32 RailBallID; // 0x30
+		::System::String* NPCIconPath; // 0x10
+		::Il2CppArray<::Class_1_3745C69C00F04B7D*>* LevelBestRecordList; // 0x18
+		::System::UInt32 RailBallID; // 0x20
+		::RPG::Client::TextID NPCName; // 0x28
 
 		::System::Void _ctor()
 		{

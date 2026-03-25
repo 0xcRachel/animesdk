@@ -7,26 +7,26 @@
 class Class_1_43BD383C98B4C0C5_105;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELHEALHP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA4A92D0)
-#define RPG_GAMECORE_LEVELHEALHP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA4A9280)
-#define RPG_GAMECORE_LEVELHEALHP__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A9230)
+#define RPG_GAMECORE_LEVELHEALHP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA999F00)
+#define RPG_GAMECORE_LEVELHEALHP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA999EB0)
+#define RPG_GAMECORE_LEVELHEALHP__CTOR_OFFSET UNITYSDK_OFFSET(0xA999E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelHealHP_TypeDefinitionIndex = 44577;
+	inline static constexpr unsigned int LevelHealHP_TypeDefinitionIndex = 45638;
 
 	class LevelHealHP : public ::System::Object
 	{
 	public:
 		::Class_1_43BD383C98B4C0C5_105* HealDataRef; // 0x10
 		::System::String* AbilityID; // 0x18
-		::System::UInt32 SourceHealerID; // 0x20
-		::System::UInt32 HealerID; // 0x24
+		::RPG::GameCore::FixPoint PostHP; // 0x20
 		::System::UInt32 TargetID; // 0x28
-		::RPG::GameCore::FixPoint PostHP; // 0x30
+		::RPG::GameCore::FixPoint HealValue; // 0x30
 		::RPG::GameCore::FixPoint PreHP; // 0x38
-		::RPG::GameCore::FixPoint HealPercentage; // 0x40
-		::RPG::GameCore::FixPoint HealValue; // 0x48
+		::System::UInt32 HealerID; // 0x40
+		::System::UInt32 SourceHealerID; // 0x44
+		::RPG::GameCore::FixPoint HealPercentage; // 0x48
 		::RPG::GameCore::FixPoint ActualHealValue; // 0x50
 
 		::System::Void _ctor(::System::UInt32 healerId, ::System::UInt32 sourceHealerID, ::System::UInt32 targetId, ::RPG::GameCore::FixPoint healPercentage, ::RPG::GameCore::FixPoint healValue, ::RPG::GameCore::FixPoint actualHealValue, ::RPG::GameCore::FixPoint preHp, ::RPG::GameCore::FixPoint postHp, ::Class_1_43BD383C98B4C0C5_105* pHealData, ::System::String* sAbilityID)

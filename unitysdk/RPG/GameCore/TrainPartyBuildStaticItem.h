@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TrainPartyBuildItemDynamicBindValue; }
 namespace RPG::GameCore { class TrainPartyBuildItemSlot; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYBUILDSTATICITEM_METHOD_2_DD28E2FD2CC4B5D9_OFFSET UNITYSDK_OFFSET(0x17101B30)
-#define RPG_GAMECORE_TRAINPARTYBUILDSTATICITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17101EA0)
+#define RPG_GAMECORE_TRAINPARTYBUILDSTATICITEM_METHOD_2_DD28E2FD2CC4B5D9_OFFSET UNITYSDK_OFFSET(0x178BD7F0)
+#define RPG_GAMECORE_TRAINPARTYBUILDSTATICITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x178BDB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyBuildStaticItem_TypeDefinitionIndex = 14635;
+	inline static constexpr unsigned int TrainPartyBuildStaticItem_TypeDefinitionIndex = 14887;
 
 	class TrainPartyBuildStaticItem : public ::RPG::GameCore::JsonConfig
 	{

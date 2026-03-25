@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int StackingType_TypeDefinitionIndex = 31481;
+	inline static constexpr unsigned int StackingType_TypeDefinitionIndex = 32385;
 
 	enum class StackingType : ::System::Int32
 	{

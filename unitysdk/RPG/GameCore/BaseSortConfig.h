@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BASESORTCONFIG_METHOD_2_22CBCE4877AEB33A_OFFSET UNITYSDK_OFFSET(0x168CE760)
-#define RPG_GAMECORE_BASESORTCONFIG_METHOD_2_A1CF2FC45BEE0081_OFFSET UNITYSDK_OFFSET(0x168CE600)
-#define RPG_GAMECORE_BASESORTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168CE7C0)
+#define RPG_GAMECORE_BASESORTCONFIG_METHOD_2_22CBCE4877AEB33A_OFFSET UNITYSDK_OFFSET(0x16FDF440)
+#define RPG_GAMECORE_BASESORTCONFIG_METHOD_2_78081F4A01165F58_OFFSET UNITYSDK_OFFSET(0x16FDF2B0)
+#define RPG_GAMECORE_BASESORTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDF4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseSortConfig_TypeDefinitionIndex = 20813;
+	inline static constexpr unsigned int BaseSortConfig_TypeDefinitionIndex = 21366;
 
 	class BaseSortConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESORTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A1CF2FC45BEE0081(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseSortConfig*& a2)
+		static ::System::Void Method_2_78081F4A01165F58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseSortConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseSortConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESORTCONFIG_METHOD_2_A1CF2FC45BEE0081_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseSortConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESORTCONFIG_METHOD_2_78081F4A01165F58_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_22CBCE4877AEB33A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseSortConfig* a2)

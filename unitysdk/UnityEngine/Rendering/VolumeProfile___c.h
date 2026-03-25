@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x180EB690)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x180EB6C0)
-#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__ONENABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x180EB6D0)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189136F0)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18913720)
+#define UNITYENGINE_RENDERING_VOLUMEPROFILE___C__ONENABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0x18913730)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeProfile___c_TypeDefinitionIndex = 27212;
+	inline static constexpr unsigned int VolumeProfile___c_TypeDefinitionIndex = 27948;
 
 	class VolumeProfile___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile___c_TypeDefinitionIndex)->GetStaticField(0x27850);
-		}
 		static ::UnityEngine::Rendering::VolumeProfile___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::VolumeProfile___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile___c_TypeDefinitionIndex)->GetStaticField(0x27858);
+			return (::UnityEngine::Rendering::VolumeProfile___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile___c_TypeDefinitionIndex)->GetStaticField(0x253B0);
+		}
+		static ::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::UnityEngine::Rendering::VolumeComponent*>**)Il2CppClass::FromTypeDefinitionIndex(VolumeProfile___c_TypeDefinitionIndex)->GetStaticField(0x253B8);
 		}
 
 		static ::System::Void _cctor()

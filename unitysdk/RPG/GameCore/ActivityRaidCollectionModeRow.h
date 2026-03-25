@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x167AC0F0)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x167AC740)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F22C40)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F23290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 11180;
+	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 11248;
 
 	class ActivityRaidCollectionModeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RaidCollectionGroupList; // 0x10
-		::RPG::Client::TextID RaidCollectionTabName; // 0x18
-		::System::UInt32 RaidCollectionTabID; // 0x28
-		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x2C
+		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x18
+		::System::UInt32 RaidCollectionTabID; // 0x1C
+		::RPG::Client::TextID RaidCollectionTabName; // 0x20
 
 		::System::Void _ctor()
 		{

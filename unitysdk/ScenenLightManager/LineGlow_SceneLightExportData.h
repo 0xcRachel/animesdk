@@ -5,12 +5,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class LineGlow_ExportData; }
 
-#define SCENENLIGHTMANAGER_LINEGLOW_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xA6880E0)
-#define SCENENLIGHTMANAGER_LINEGLOW_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA6880F0)
+#define SCENENLIGHTMANAGER_LINEGLOW_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xABCFAC0)
+#define SCENENLIGHTMANAGER_LINEGLOW_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABCFAD0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LineGlow_SceneLightExportData_TypeDefinitionIndex = 38769;
+	inline static constexpr unsigned int LineGlow_SceneLightExportData_TypeDefinitionIndex = 39749;
 
 	class LineGlow_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

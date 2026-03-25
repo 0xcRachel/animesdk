@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEffectType_TypeDefinitionIndex = 14427;
+	inline static constexpr unsigned int ChimeraDuelEffectType_TypeDefinitionIndex = 14679;
 
 	enum class ChimeraDuelEffectType : ::System::Int32
 	{

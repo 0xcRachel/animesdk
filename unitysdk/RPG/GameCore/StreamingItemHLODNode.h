@@ -9,12 +9,12 @@ namespace RPG::GameCore { class StreamingItemHLODExpandCondition; }
 namespace RPG::GameCore { class StreamingItemHLODResource; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STREAMINGITEMHLODNODE_METHOD_2_B8181376C3841D78_OFFSET UNITYSDK_OFFSET(0x16FA2650)
-#define RPG_GAMECORE_STREAMINGITEMHLODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA2A40)
+#define RPG_GAMECORE_STREAMINGITEMHLODNODE_METHOD_2_B8181376C3841D78_OFFSET UNITYSDK_OFFSET(0x17796540)
+#define RPG_GAMECORE_STREAMINGITEMHLODNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x17796930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingItemHLODNode_TypeDefinitionIndex = 17116;
+	inline static constexpr unsigned int StreamingItemHLODNode_TypeDefinitionIndex = 17521;
 
 	class StreamingItemHLODNode : public ::RPG::GameCore::JsonConfig
 	{

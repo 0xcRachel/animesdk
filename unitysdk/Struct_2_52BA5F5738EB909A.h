@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define STRUCT_2_52BA5F5738EB909A_TOSTRING_OFFSET UNITYSDK_OFFSET(0x76C90)
-#define STRUCT_2_52BA5F5738EB909A___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x76CA0)
+#define STRUCT_2_52BA5F5738EB909A_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7F480)
+#define STRUCT_2_52BA5F5738EB909A___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x7F490)
 
-inline static constexpr unsigned int Struct_2_52BA5F5738EB909A_TypeDefinitionIndex = 38984;
+inline static constexpr unsigned int Struct_2_52BA5F5738EB909A_TypeDefinitionIndex = 39964;
 
 struct alignas(8) Struct_2_52BA5F5738EB909A
 {

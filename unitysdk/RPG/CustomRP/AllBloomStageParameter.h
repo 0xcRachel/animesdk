@@ -4,11 +4,11 @@
 
 namespace RPG::CustomRP { class AllBloomStage; }
 
-#define RPG_CUSTOMRP_ALLBLOOMSTAGEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16360820)
+#define RPG_CUSTOMRP_ALLBLOOMSTAGEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6FED0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AllBloomStageParameter_TypeDefinitionIndex = 28521;
+	inline static constexpr unsigned int AllBloomStageParameter_TypeDefinitionIndex = 29396;
 
 	class AllBloomStageParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::AllBloomStage*>
 	{

@@ -9,12 +9,12 @@ class Class_1_A64CC8A9B1CC56C5;
 class Class_2_1DB6C02CA182EEBA;
 namespace RPG::GameCore { class FateBattleManager; }
 
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA413DB0)
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xA413DC0)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA94D250)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xA94F050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 43874;
+	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 44934;
 
 	class FateBattleManager___c__DisplayClass32_0 : public ::System::Object
 	{

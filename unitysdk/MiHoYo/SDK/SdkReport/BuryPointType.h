@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::SdkReport
 {
-	inline static constexpr unsigned int BuryPointType_TypeDefinitionIndex = 36380;
+	inline static constexpr unsigned int BuryPointType_TypeDefinitionIndex = 37316;
 
 	enum class BuryPointType : ::System::Int32
 	{

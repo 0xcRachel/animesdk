@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideMonsterRankScore; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_ECEE5207E644AC20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9BE84D0)
-#define CLASS_3_ECEE5207E644AC20__CTOR_OFFSET UNITYSDK_OFFSET(0x9BE84A0)
+#define CLASS_3_ECEE5207E644AC20_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE46B610)
+#define CLASS_3_ECEE5207E644AC20__CTOR_OFFSET UNITYSDK_OFFSET(0xE46B5E0)
 
-inline static constexpr unsigned int Class_3_ECEE5207E644AC20_TypeDefinitionIndex = 43169;
+inline static constexpr unsigned int Class_3_ECEE5207E644AC20_TypeDefinitionIndex = 44220;
 
 class Class_3_ECEE5207E644AC20 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideMonsterRankScore*>
 {

@@ -5,7 +5,7 @@ namespace UnityEngine::UIElements { class IPointerEvent; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IMouseEventInternal_TypeDefinitionIndex = 5823;
+	inline static constexpr unsigned int IMouseEventInternal_TypeDefinitionIndex = 5923;
 
 	class IMouseEventInternal
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCustomLocationConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2887727CEB8CD3F5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B29F80)
-#define CLASS_3_2887727CEB8CD3F5__CTOR_OFFSET UNITYSDK_OFFSET(0x10B29F50)
+#define CLASS_3_2887727CEB8CD3F5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C1C660)
+#define CLASS_3_2887727CEB8CD3F5__CTOR_OFFSET UNITYSDK_OFFSET(0x8C1C630)
 
-inline static constexpr unsigned int Class_3_2887727CEB8CD3F5_TypeDefinitionIndex = 44280;
+inline static constexpr unsigned int Class_3_2887727CEB8CD3F5_TypeDefinitionIndex = 45341;
 
 class Class_3_2887727CEB8CD3F5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCustomLocationConfig*>
 {

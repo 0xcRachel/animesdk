@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_CF025126BE358084__CTOR_OFFSET UNITYSDK_OFFSET(0x1461280)
+#define STRUCT_2_CF025126BE358084__CTOR_OFFSET UNITYSDK_OFFSET(0x1496F50)
 
-inline static constexpr unsigned int Struct_2_CF025126BE358084_TypeDefinitionIndex = 58561;
+inline static constexpr unsigned int Struct_2_CF025126BE358084_TypeDefinitionIndex = 60281;
 
 struct alignas(8) Struct_2_CF025126BE358084
 {

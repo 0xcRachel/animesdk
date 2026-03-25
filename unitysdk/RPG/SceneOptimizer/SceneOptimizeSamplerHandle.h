@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_SCENEOPTIMIZER_SCENEOPTIMIZESAMPLERHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA5CE1B0)
+#define RPG_SCENEOPTIMIZER_SCENEOPTIMIZESAMPLERHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xAB11D90)
 
 namespace RPG::SceneOptimizer
 {
-	inline static constexpr unsigned int SceneOptimizeSamplerHandle_TypeDefinitionIndex = 40792;
+	inline static constexpr unsigned int SceneOptimizeSamplerHandle_TypeDefinitionIndex = 41840;
 
 	class SceneOptimizeSamplerHandle : public ::UnityEngine::MonoBehaviour
 	{

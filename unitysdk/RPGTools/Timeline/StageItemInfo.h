@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StageItemInfo_TypeDefinitionIndex = 38239;
+	inline static constexpr unsigned int StageItemInfo_TypeDefinitionIndex = 39219;
 
 	struct alignas(8) StageItemInfo
 	{

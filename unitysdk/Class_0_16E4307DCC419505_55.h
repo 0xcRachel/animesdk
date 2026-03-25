@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/SectionType.h"
 
-namespace System::IO { class BinaryWriter; }
+class Class_1_187EF9A26BFF97DE;
+namespace RPG::GameCore { class LittleGameEntityConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_55_TypeDefinitionIndex = 31237;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_55_TypeDefinitionIndex = 28793;
 
 class Class_0_16E4307DCC419505_55
 {

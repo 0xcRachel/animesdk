@@ -4,21 +4,21 @@
 
 namespace System::IO { class TextWriter; }
 
-#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x15DE3520)
-#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x15DE38F0)
-#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x15DE38C0)
-#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE34B0)
+#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x164AA190)
+#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER_FLUSH_OFFSET UNITYSDK_OFFSET(0x164AA560)
+#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER_WRITECHARS_OFFSET UNITYSDK_OFFSET(0x164AA530)
+#define NEWTONSOFT_JSON_UTILITIES_BASE64ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x164AA120)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int Base64Encoder_TypeDefinitionIndex = 8104;
+	inline static constexpr unsigned int Base64Encoder_TypeDefinitionIndex = 8233;
 
 	class Base64Encoder : public ::System::Object
 	{
 	public:
 		::System::IO::TextWriter* _writer; // 0x10
-		::Il2CppArray<::System::Char>* _charsLine; // 0x18
-		::Il2CppArray<::System::Byte>* _leftOverBytes; // 0x20
+		::Il2CppArray<::System::Byte>* _leftOverBytes; // 0x18
+		::Il2CppArray<::System::Char>* _charsLine; // 0x20
 		::System::Int32 _leftOverBytesCount; // 0x28
 
 		::System::Void _ctor(::System::IO::TextWriter* writer)

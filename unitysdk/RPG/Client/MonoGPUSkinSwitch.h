@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOGPUSKINSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0x982ECB0)
-#define RPG_CLIENT_MONOGPUSKINSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x982F000)
+#define RPG_CLIENT_MONOGPUSKINSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0x9D11280)
+#define RPG_CLIENT_MONOGPUSKINSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x9D115D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoGPUSkinSwitch_TypeDefinitionIndex = 54465;
+	inline static constexpr unsigned int MonoGPUSkinSwitch_TypeDefinitionIndex = 56025;
 
 	class MonoGPUSkinSwitch : public ::UnityEngine::MonoBehaviour
 	{

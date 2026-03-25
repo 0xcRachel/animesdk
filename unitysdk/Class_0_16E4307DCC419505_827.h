@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client::Promises { class Promise; }
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_827_TypeDefinitionIndex = 58272;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_827_TypeDefinitionIndex = 58433;
 
 class Class_0_16E4307DCC419505_827
 {

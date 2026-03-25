@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_144075C1871C33A9__CTOR_OFFSET UNITYSDK_OFFSET(0x969BAC0)
+#define CLASS_1_144075C1871C33A9__CTOR_OFFSET UNITYSDK_OFFSET(0x8CFE2F0)
 
-inline static constexpr unsigned int Class_1_144075C1871C33A9_TypeDefinitionIndex = 61569;
+inline static constexpr unsigned int Class_1_144075C1871C33A9_TypeDefinitionIndex = 63756;
 
 class Class_1_144075C1871C33A9 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::UnityEngine::GameObject* Field_1_3; // 0x18
-	::Class_1_6F8359E734E4FA98* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType, ::UnityEngine::GameObject*>* Field_1_1; // 0x28
+	::UnityEngine::GameObject* Field_1_3; // 0x10
+	::UnityEngine::Transform* Field_1_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType, ::UnityEngine::GameObject*>* Field_1_1; // 0x20
+	::Class_1_6F8359E734E4FA98* Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTriggerConditionType_TypeDefinitionIndex = 10311;
+	inline static constexpr unsigned int CakeRaceTriggerConditionType_TypeDefinitionIndex = 10315;
 
 	enum class CakeRaceTriggerConditionType : ::System::Int32
 	{

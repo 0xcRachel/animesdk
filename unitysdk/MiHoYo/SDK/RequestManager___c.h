@@ -7,34 +7,34 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15911D10)
-#define MIHOYO_SDK_REQUESTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15911D50)
-#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__28_0_OFFSET UNITYSDK_OFFSET(0x15911D60)
-#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__28_1_OFFSET UNITYSDK_OFFSET(0x15911D70)
-#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTPAYDIALOGABTESTCN_B__29_0_OFFSET UNITYSDK_OFFSET(0x15911D90)
+#define MIHOYO_SDK_REQUESTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15FF3BB0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF3BF0)
+#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__28_0_OFFSET UNITYSDK_OFFSET(0x15FF3C00)
+#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTABTEST_B__28_1_OFFSET UNITYSDK_OFFSET(0x15FF3C10)
+#define MIHOYO_SDK_REQUESTMANAGER___C__REQUESTPAYDIALOGABTESTCN_B__29_0_OFFSET UNITYSDK_OFFSET(0x15FF3C30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager___c_TypeDefinitionIndex = 6939;
+	inline static constexpr unsigned int RequestManager___c_TypeDefinitionIndex = 7061;
 
 	class RequestManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__28_0()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x17970);
-		}
 		static ::MiHoYo::SDK::RequestManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::RequestManager___c**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x17978);
+			return (::MiHoYo::SDK::RequestManager___c**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x15DF0);
 		}
-		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__28_1()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x17980);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x15DF8);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x17988);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x15E00);
+		}
+		static ::System::Func_2<::System::Int32, ::System::String*>** StaticGet___9__28_1()
+		{
+			return (::System::Func_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RequestManager___c_TypeDefinitionIndex)->GetStaticField(0x15E08);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_2D85C3C5517A2A08_TransitionCameraRotateMode_TypeDefinitionIndex = 55360;
+inline static constexpr unsigned int Class_2_2D85C3C5517A2A08_TransitionCameraRotateMode_TypeDefinitionIndex = 56925;
 
 enum class Class_2_2D85C3C5517A2A08_TransitionCameraRotateMode : ::System::Int32
 {

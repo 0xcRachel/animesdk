@@ -5,13 +5,13 @@
 namespace RPG::Client { class AirlineVariableSpeedRange; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AIRLINECARWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x8C463B0)
-#define RPG_CLIENT_AIRLINECARWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x8C466C0)
-#define RPG_CLIENT_AIRLINECARWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x8C46700)
+#define RPG_CLIENT_AIRLINECARWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x9097690)
+#define RPG_CLIENT_AIRLINECARWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x90979A0)
+#define RPG_CLIENT_AIRLINECARWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x90979E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineCarWay_TypeDefinitionIndex = 47344;
+	inline static constexpr unsigned int AirlineCarWay_TypeDefinitionIndex = 48425;
 
 	class AirlineCarWay : public ::RPG::Client::Airline
 	{

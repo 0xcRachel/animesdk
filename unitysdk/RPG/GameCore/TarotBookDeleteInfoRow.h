@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FF44F0)
-#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF4860)
+#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177E9730)
+#define RPG_GAMECORE_TAROTBOOKDELETEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177E9AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookDeleteInfoRow_TypeDefinitionIndex = 13880;
+	inline static constexpr unsigned int TarotBookDeleteInfoRow_TypeDefinitionIndex = 13994;
 
 	class TarotBookDeleteInfoRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID SentenceTextmapID; // 0x10
-		::RPG::Client::TextID ProgressDesc; // 0x20
-		::RPG::Client::TextID SentenceName; // 0x30
-		::System::UInt32 ID; // 0x40
-		::System::Single ProgressGapTime; // 0x44
-		::System::UInt32 ProgressEnd; // 0x48
-		::System::Single FadeInTime; // 0x4C
+		::RPG::Client::TextID ProgressDesc; // 0x10
+		::System::UInt32 ID; // 0x20
+		::System::Single FadeInTime; // 0x24
+		::RPG::Client::TextID SentenceName; // 0x28
+		::System::Single ProgressGapTime; // 0x38
+		::System::UInt32 ProgressEnd; // 0x3C
+		::RPG::Client::TextID SentenceTextmapID; // 0x40
 
 		::System::Void _ctor()
 		{

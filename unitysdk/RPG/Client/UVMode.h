@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UVMode_TypeDefinitionIndex = 56240;
+	inline static constexpr unsigned int UVMode_TypeDefinitionIndex = 57811;
 
 	enum class UVMode : ::System::Int32
 	{

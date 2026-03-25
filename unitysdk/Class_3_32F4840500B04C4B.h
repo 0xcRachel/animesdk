@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ST_Chess_ByHasLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_32F4840500B04C4B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1055AD30)
-#define CLASS_3_32F4840500B04C4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1055AD00)
+#define CLASS_3_32F4840500B04C4B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1195D7C0)
+#define CLASS_3_32F4840500B04C4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1195D790)
 
-inline static constexpr unsigned int Class_3_32F4840500B04C4B_TypeDefinitionIndex = 44116;
+inline static constexpr unsigned int Class_3_32F4840500B04C4B_TypeDefinitionIndex = 45176;
 
 class Class_3_32F4840500B04C4B : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_Chess_ByHasLockTarget*>
 {

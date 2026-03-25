@@ -7,29 +7,29 @@ namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlotView; }
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B8E7E0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9B8E820)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__ONENTER_B__19_0_OFFSET UNITYSDK_OFFSET(0x9B8E830)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__ONENTER_B__19_1_OFFSET UNITYSDK_OFFSET(0x9B8E930)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0601F0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA060230)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__ONENTER_B__19_0_OFFSET UNITYSDK_OFFSET(0xA060240)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__ONENTER_B__19_1_OFFSET UNITYSDK_OFFSET(0xA060340)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex = 61650;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex = 63837;
 
 	class ChimeraDuelMainPuzzleShopState___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState___c** StaticGet___9()
-		{
-			return (::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex)->GetStaticField(0x411B0);
-		}
 		static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView*, ::RPG::Client::Prop::ChimeraDuelTeamMemberSlot*>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView*, ::RPG::Client::Prop::ChimeraDuelTeamMemberSlot*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex)->GetStaticField(0x411B8);
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelTeamMemberSlotView*, ::RPG::Client::Prop::ChimeraDuelTeamMemberSlot*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex)->GetStaticField(0x470C0);
 		}
 		static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelTeamMemberSlot*, ::RPG::Client::Prop::DuelChimeraProxy*>** StaticGet___9__19_1()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelTeamMemberSlot*, ::RPG::Client::Prop::DuelChimeraProxy*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex)->GetStaticField(0x411C0);
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelTeamMemberSlot*, ::RPG::Client::Prop::DuelChimeraProxy*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex)->GetStaticField(0x470C8);
+		}
+		static ::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState___c** StaticGet___9()
+		{
+			return (::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMainPuzzleShopState___c_TypeDefinitionIndex)->GetStaticField(0x470D0);
 		}
 
 		static ::System::Void _cctor()

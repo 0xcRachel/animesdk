@@ -1,60 +1,85 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/RogueTournAreaGroupID.h"
-#include "unitysdk/RPG/GameCore/RogueTournDifficultyType.h"
 #include "unitysdk/RPG/GameCore/RogueTournMode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4CF8088A158DCE25_83;
+class Class_1_4CF8088A158DCE25_87;
+class Class_1_A30F847E93AD8C60;
+namespace RPG::Client { class IRogueTournDifficulty; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class MonsterData; }
-namespace RPG::GameCore { class RogueTournAreaRow; }
+namespace RPG::Client { class RogueTournAreaGroupData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_CLEARALLPLAYEDAREAUNLOCKANIM_OFFSET UNITYSDK_OFFSET(0x9E53650)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_CREATE_OFFSET UNITYSDK_OFFSET(0x9E52390)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GETAVAILROGUESCORE_OFFSET UNITYSDK_OFFSET(0x9E52450)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GETAVAILTOURNEXP_OFFSET UNITYSDK_OFFSET(0x9E525B0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GETFIRSTREWARDITEMS_OFFSET UNITYSDK_OFFSET(0x9E52710)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GETMONSTERDROPITEMS_OFFSET UNITYSDK_OFFSET(0x9E52780)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAGROUPID_OFFSET UNITYSDK_OFFSET(0x9E51630)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x9E52420)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREANAMEID_OFFSET UNITYSDK_OFFSET(0x9E537C0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_DIFFICULTYTYPE_OFFSET UNITYSDK_OFFSET(0x9E51FB0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_DIVISIONLEVEL_OFFSET UNITYSDK_OFFSET(0x9E51990)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISFIRSTPASSED_OFFSET UNITYSDK_OFFSET(0x9E538E0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISFIRSTREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x9E53900)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISHARD_OFFSET UNITYSDK_OFFSET(0x9E537F0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E538C0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_LOCKEDHINT_OFFSET UNITYSDK_OFFSET(0x9E53810)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_TOURNMODE_OFFSET UNITYSDK_OFFSET(0x9E51650)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_WORLDLEVELLIMIT_OFFSET UNITYSDK_OFFSET(0x9E52850)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_ISNEEDPLAYUNLOCKANIM_OFFSET UNITYSDK_OFFSET(0x9E53190)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_ISREACHWORLDLEVELLIMIT_OFFSET UNITYSDK_OFFSET(0x9E527E0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_REWRITEMONSTERLEVELBYAREA_OFFSET UNITYSDK_OFFSET(0x9E52870)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SETAREAUNLOCKANIMPLAYED_OFFSET UNITYSDK_OFFSET(0x9E533B0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_ISFIRSTPASSED_OFFSET UNITYSDK_OFFSET(0x9E538F0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_ISFIRSTREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0x9E53910)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x9E538D0)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0x9E51370)
-#define RPG_CLIENT_ROGUETOURNAREADATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E52440)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_CLEARALLPLAYEDAREAUNLOCKANIM_OFFSET UNITYSDK_OFFSET(0xA377700)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xA375CF0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GETTOURNMODEBYAREA_OFFSET UNITYSDK_OFFSET(0xA376720)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAGROUP_OFFSET UNITYSDK_OFFSET(0xA377A50)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAID_OFFSET UNITYSDK_OFFSET(0xA377A10)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AVAILROGUESCORE_OFFSET UNITYSDK_OFFSET(0xA377AF0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AVAILTOURNEXP_OFFSET UNITYSDK_OFFSET(0xA377B10)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_DIFFICULTY_OFFSET UNITYSDK_OFFSET(0xA377A70)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_FIRSTREWARDITEMS_OFFSET UNITYSDK_OFFSET(0xA377B30)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISFIRSTPASSED_OFFSET UNITYSDK_OFFSET(0xA377B90)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISFIRSTREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0xA377BB0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA377B70)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_LOCKEDHINT_OFFSET UNITYSDK_OFFSET(0xA377AD0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_MONSTERDROPITEMS_OFFSET UNITYSDK_OFFSET(0xA377B50)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_NAME_OFFSET UNITYSDK_OFFSET(0xA377AB0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_TOURNMODE_OFFSET UNITYSDK_OFFSET(0xA377A30)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_WORLDLEVELLIMIT_OFFSET UNITYSDK_OFFSET(0xA377A90)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_ISNEEDPLAYUNLOCKANIM_OFFSET UNITYSDK_OFFSET(0xA377090)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_ISREACHWORLDLEVELLIMIT_OFFSET UNITYSDK_OFFSET(0xA3767A0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_REWRITEMONSTERLEVELBYAREA_OFFSET UNITYSDK_OFFSET(0xA376800)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SETAREAUNLOCKANIMPLAYED_OFFSET UNITYSDK_OFFSET(0xA377310)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AREAGROUP_OFFSET UNITYSDK_OFFSET(0xA377A60)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AREAID_OFFSET UNITYSDK_OFFSET(0xA377A20)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AVAILROGUESCORE_OFFSET UNITYSDK_OFFSET(0xA377B00)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AVAILTOURNEXP_OFFSET UNITYSDK_OFFSET(0xA377B20)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_DIFFICULTY_OFFSET UNITYSDK_OFFSET(0xA377A80)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_FIRSTREWARDITEMS_OFFSET UNITYSDK_OFFSET(0xA377B40)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_ISFIRSTPASSED_OFFSET UNITYSDK_OFFSET(0xA377BA0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_ISFIRSTREWARDTAKEN_OFFSET UNITYSDK_OFFSET(0xA377BC0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA377B80)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_LOCKEDHINT_OFFSET UNITYSDK_OFFSET(0xA377AE0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_MONSTERDROPITEMS_OFFSET UNITYSDK_OFFSET(0xA377B60)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_NAME_OFFSET UNITYSDK_OFFSET(0xA377AC0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_TOURNMODE_OFFSET UNITYSDK_OFFSET(0xA377A40)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_WORLDLEVELLIMIT_OFFSET UNITYSDK_OFFSET(0xA377AA0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM_SYNC_OFFSET UNITYSDK_OFFSET(0xA3743F0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA3764A0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM__GETDIFFICULTYBYAREAROW_CLASSIC_OFFSET UNITYSDK_OFFSET(0xA377870)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM__GETDIFFICULTYBYAREAROW_DIVISION_OFFSET UNITYSDK_OFFSET(0xA3778E0)
+#define RPG_CLIENT_ROGUETOURNAREADATAITEM__GETDIFFICULTYBYAREAROW_OFFSET UNITYSDK_OFFSET(0xA376570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAreaDataItem_TypeDefinitionIndex = 53652;
+	inline static constexpr unsigned int RogueTournAreaDataItem_TypeDefinitionIndex = 55010;
 
 	class RogueTournAreaDataItem : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueTournAreaRow* _Row; // 0x10
-		::System::Boolean _IsFirstPassed_k__BackingField; // 0x18
-		::System::Boolean _IsUnlocked_k__BackingField; // 0x19
-		::System::Boolean _IsFirstRewardTaken_k__BackingField; // 0x1A
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>* _FirstRewardItems_k__BackingField; // 0x10
+		::RPG::Client::IRogueTournDifficulty* _Difficulty_k__BackingField; // 0x18
+		::Il2CppArray<::System::UInt32>* _DifficultyIDs; // 0x20
+		::RPG::Client::RogueTournAreaGroupData* _AreaGroup_k__BackingField; // 0x28
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>* _MonsterDropItems_k__BackingField; // 0x30
+		::RPG::GameCore::RogueTournMode _TournMode_k__BackingField; // 0x38
+		::System::Boolean _IsFirstPassed_k__BackingField; // 0x3C
+		::System::Boolean _IsUnlocked_k__BackingField; // 0x3D
+		::System::Boolean _IsFirstRewardTaken_k__BackingField; // 0x3E
+		::System::UInt32 _AvailTournExp_k__BackingField; // 0x40
+		::System::UInt32 _AreaID_k__BackingField; // 0x44
+		::RPG::Client::TextID _Name_k__BackingField; // 0x48
+		::RPG::Client::TextID _LockedHint_k__BackingField; // 0x58
+		::System::UInt32 _AvailRogueScore_k__BackingField; // 0x68
+		::System::UInt32 _WorldLevelLimit_k__BackingField; // 0x6C
 
-		::System::Void _ctor(::RPG::GameCore::RogueTournAreaRow* row)
+		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournAreaRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM__CTOR_OFFSET))(this, row);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM__CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::RogueTournAreaDataItem* Create(::System::UInt32 areaID)
@@ -62,29 +87,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RogueTournAreaDataItem*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_CREATE_OFFSET))(areaID);
 		}
 
-		::System::Void Sync(::Class_1_4CF8088A158DCE25_83* proto)
+		static ::RPG::GameCore::RogueTournMode GetTournModeByArea(::System::UInt32 areaID)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4CF8088A158DCE25_83*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SYNC_OFFSET))(this, proto);
+			return ((::RPG::GameCore::RogueTournMode(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GETTOURNMODEBYAREA_OFFSET))(areaID);
 		}
 
-		::System::UInt32 GetAvailRogueScore()
+		::System::Void Sync(::Class_1_4CF8088A158DCE25_87* proto)
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GETAVAILROGUESCORE_OFFSET))(this);
-		}
-
-		::System::UInt32 GetAvailTournExp()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GETAVAILTOURNEXP_OFFSET))(this);
-		}
-
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* GetFirstRewardItems()
-		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GETFIRSTREWARDITEMS_OFFSET))(this);
-		}
-
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* GetMonsterDropItems()
-		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GETMONSTERDROPITEMS_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_1_4CF8088A158DCE25_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SYNC_OFFSET))(this, proto);
 		}
 
 		::System::Boolean IsReachWorldLevelLimit(::System::UInt32 worldLevel)
@@ -112,9 +122,29 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_CLEARALLPLAYEDAREAUNLOCKANIM_OFFSET))();
 		}
 
+		static ::RPG::Client::IRogueTournDifficulty* _GetDifficultyByAreaRow(::Class_1_A30F847E93AD8C60* areaRow)
+		{
+			return ((::RPG::Client::IRogueTournDifficulty*(*)(::Class_1_A30F847E93AD8C60*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM__GETDIFFICULTYBYAREAROW_OFFSET))(areaRow);
+		}
+
+		static ::RPG::Client::IRogueTournDifficulty* _GetDifficultyByAreaRow_Classic(::Class_1_A30F847E93AD8C60* areaRow)
+		{
+			return ((::RPG::Client::IRogueTournDifficulty*(*)(::Class_1_A30F847E93AD8C60*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM__GETDIFFICULTYBYAREAROW_CLASSIC_OFFSET))(areaRow);
+		}
+
+		static ::RPG::Client::IRogueTournDifficulty* _GetDifficultyByAreaRow_Division(::Class_1_A30F847E93AD8C60* areaRow)
+		{
+			return ((::RPG::Client::IRogueTournDifficulty*(*)(::Class_1_A30F847E93AD8C60*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM__GETDIFFICULTYBYAREAROW_DIVISION_OFFSET))(areaRow);
+		}
+
 		::System::UInt32 get_AreaID()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAID_OFFSET))(this);
+		}
+
+		::System::Void set_AreaID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AREAID_OFFSET))(this, value);
 		}
 
 		::RPG::GameCore::RogueTournMode get_TournMode()
@@ -122,19 +152,29 @@ namespace RPG::Client
 			return ((::RPG::GameCore::RogueTournMode(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_TOURNMODE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_DivisionLevel()
+		::System::Void set_TournMode(::RPG::GameCore::RogueTournMode value)
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_DIVISIONLEVEL_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RogueTournMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_TOURNMODE_OFFSET))(this, value);
 		}
 
-		::RPG::GameCore::RogueTournAreaGroupID get_AreaGroupID()
+		::RPG::Client::RogueTournAreaGroupData* get_AreaGroup()
 		{
-			return ((::RPG::GameCore::RogueTournAreaGroupID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAGROUPID_OFFSET))(this);
+			return ((::RPG::Client::RogueTournAreaGroupData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREAGROUP_OFFSET))(this);
 		}
 
-		::RPG::GameCore::RogueTournDifficultyType get_DifficultyType()
+		::System::Void set_AreaGroup(::RPG::Client::RogueTournAreaGroupData* value)
 		{
-			return ((::RPG::GameCore::RogueTournDifficultyType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_DIFFICULTYTYPE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::RogueTournAreaGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AREAGROUP_OFFSET))(this, value);
+		}
+
+		::RPG::Client::IRogueTournDifficulty* get_Difficulty()
+		{
+			return ((::RPG::Client::IRogueTournDifficulty*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_DIFFICULTY_OFFSET))(this);
+		}
+
+		::System::Void set_Difficulty(::RPG::Client::IRogueTournDifficulty* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRogueTournDifficulty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_DIFFICULTY_OFFSET))(this, value);
 		}
 
 		::System::UInt32 get_WorldLevelLimit()
@@ -142,19 +182,69 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_WORLDLEVELLIMIT_OFFSET))(this);
 		}
 
-		::RPG::Client::TextID get_AreaNameID()
+		::System::Void set_WorldLevelLimit(::System::UInt32 value)
 		{
-			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AREANAMEID_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_WORLDLEVELLIMIT_OFFSET))(this, value);
 		}
 
-		::System::Boolean get_IsHard()
+		::RPG::Client::TextID get_Name()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_ISHARD_OFFSET))(this);
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_NAME_OFFSET))(this, value);
 		}
 
 		::RPG::Client::TextID get_LockedHint()
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_LOCKEDHINT_OFFSET))(this);
+		}
+
+		::System::Void set_LockedHint(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_LOCKEDHINT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AvailRogueScore()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AVAILROGUESCORE_OFFSET))(this);
+		}
+
+		::System::Void set_AvailRogueScore(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AVAILROGUESCORE_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AvailTournExp()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_AVAILTOURNEXP_OFFSET))(this);
+		}
+
+		::System::Void set_AvailTournExp(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_AVAILTOURNEXP_OFFSET))(this, value);
+		}
+
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>* get_FirstRewardItems()
+		{
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_FIRSTREWARDITEMS_OFFSET))(this);
+		}
+
+		::System::Void set_FirstRewardItems(::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_FIRSTREWARDITEMS_OFFSET))(this, value);
+		}
+
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>* get_MonsterDropItems()
+		{
+			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_GET_MONSTERDROPITEMS_OFFSET))(this);
+		}
+
+		::System::Void set_MonsterDropItems(::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ItemDisplayData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNAREADATAITEM_SET_MONSTERDROPITEMS_OFFSET))(this, value);
 		}
 
 		::System::Boolean get_IsUnlocked()

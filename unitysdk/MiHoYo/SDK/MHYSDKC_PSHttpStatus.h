@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PSHttpStatus_TypeDefinitionIndex = 36068;
+	inline static constexpr unsigned int MHYSDKC_PSHttpStatus_TypeDefinitionIndex = 37003;
 
 	class MHYSDKC_PSHttpStatus : public ::System::Object
 	{

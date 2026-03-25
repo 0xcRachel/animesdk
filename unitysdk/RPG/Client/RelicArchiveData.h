@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ArchiveData.h"
 
-class Class_1_973F1F5DEEACFA6C_1;
+class Class_1_973F1F5DEEACFA6C;
 namespace RPG::Client { class RelicArchiveEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICARCHIVEDATA_GETRELICARCHIVEENTRIES_OFFSET UNITYSDK_OFFSET(0x9D84930)
-#define RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x9D84FF0)
-#define RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9D84BE0)
-#define RPG_CLIENT_RELICARCHIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D84760)
-#define RPG_CLIENT_RELICARCHIVEDATA__INITALLRELICENTRIES_OFFSET UNITYSDK_OFFSET(0x9D84770)
-#define RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_REFRESH_OFFSET UNITYSDK_OFFSET(0x9D85280)
-#define RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_SYNC_OFFSET UNITYSDK_OFFSET(0x9D85210)
+#define RPG_CLIENT_RELICARCHIVEDATA_GETRELICARCHIVEENTRIES_OFFSET UNITYSDK_OFFSET(0xA2A5840)
+#define RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0xA2A5E30)
+#define RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xA2A5AF0)
+#define RPG_CLIENT_RELICARCHIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2A5670)
+#define RPG_CLIENT_RELICARCHIVEDATA__INITALLRELICENTRIES_OFFSET UNITYSDK_OFFSET(0xA2A5680)
+#define RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_REFRESH_OFFSET UNITYSDK_OFFSET(0xA2A6060)
+#define RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_SYNC_OFFSET UNITYSDK_OFFSET(0xA2A5FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicArchiveData_TypeDefinitionIndex = 49594;
+	inline static constexpr unsigned int RelicArchiveData_TypeDefinitionIndex = 50727;
 
 	class RelicArchiveData : public ::RPG::Client::ArchiveData
 	{
@@ -31,14 +31,14 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicArchiveEntry*>*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_GETRELICARCHIVEENTRIES_OFFSET))(this, isPlanarSuit);
 		}
 
-		::System::Void Sync(::Class_1_973F1F5DEEACFA6C_1* data)
+		::System::Void Sync(::Class_1_973F1F5DEEACFA6C* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_SYNC_OFFSET))(this, data);
 		}
 
-		::System::Void Refresh(::Class_1_973F1F5DEEACFA6C_1* data)
+		::System::Void Refresh(::Class_1_973F1F5DEEACFA6C* data)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET))(this, data);
+			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA_REFRESH_OFFSET))(this, data);
 		}
 
 		::System::Void _InitAllRelicEntries()
@@ -46,14 +46,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA__INITALLRELICENTRIES_OFFSET))(this);
 		}
 
-		::System::Void __iFixBaseProxy_Sync(::Class_1_973F1F5DEEACFA6C_1* P0)
+		::System::Void __iFixBaseProxy_Sync(::Class_1_973F1F5DEEACFA6C* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_SYNC_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_SYNC_OFFSET))(this, P0);
 		}
 
-		::System::Void __iFixBaseProxy_Refresh(::Class_1_973F1F5DEEACFA6C_1* P0)
+		::System::Void __iFixBaseProxy_Refresh(::Class_1_973F1F5DEEACFA6C* P0)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_REFRESH_OFFSET))(this, P0);
+			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICARCHIVEDATA___IFIXBASEPROXY_REFRESH_OFFSET))(this, P0);
 		}
 	};
 }

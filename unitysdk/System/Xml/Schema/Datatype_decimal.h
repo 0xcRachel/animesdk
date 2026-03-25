@@ -14,35 +14,35 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_COMPARE_OFFSET UNITYSDK_OFFSET(0x17D6B650)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x17D6B4C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x17D6B640)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x17D6B510)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x17D6B5E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x17D6B570)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x17D6B580)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x17D6B6E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D6B870)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL__CTOR_OFFSET UNITYSDK_OFFSET(0x17D634E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_COMPARE_OFFSET UNITYSDK_OFFSET(0x1859B420)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1859B290)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1859B410)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1859B2E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1859B3B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1859B340)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1859B350)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1859B4B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1859B640)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DECIMAL__CTOR_OFFSET UNITYSDK_OFFSET(0x185932B0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_decimal_TypeDefinitionIndex = 2083;
+	inline static constexpr unsigned int Datatype_decimal_TypeDefinitionIndex = 2088;
 
 	class Datatype_decimal : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_decimal_TypeDefinitionIndex)->GetStaticField(0x142B0);
+		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_decimal_TypeDefinitionIndex)->GetStaticField(0x14140);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_decimal_TypeDefinitionIndex)->GetStaticField(0x142B8);
 		}
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_decimal_TypeDefinitionIndex)->GetStaticField(0x14148);
-		}
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_decimal_TypeDefinitionIndex)->GetStaticField(0x14150);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_decimal_TypeDefinitionIndex)->GetStaticField(0x142C0);
 		}
 
 		::System::Void _ctor()

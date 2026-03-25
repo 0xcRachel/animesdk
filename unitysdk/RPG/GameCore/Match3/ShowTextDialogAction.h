@@ -5,32 +5,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_4_3DED73C48B7E7DC9_OFFSET UNITYSDK_OFFSET(0x16C55C20)
-#define RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_4_DB88F524040EAA3E_OFFSET UNITYSDK_OFFSET(0x16C5BBA0)
-#define RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16C55BD0)
+#define RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_5_94CCC5794815341A_OFFSET UNITYSDK_OFFSET(0x173BB1F0)
+#define RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_5_BE4EA39764BA794F_OFFSET UNITYSDK_OFFSET(0x173C1060)
+#define RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x173BB180)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int ShowTextDialogAction_TypeDefinitionIndex = 22170;
+	inline static constexpr unsigned int ShowTextDialogAction_TypeDefinitionIndex = 22735;
 
 	class ShowTextDialogAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:
-		::RPG::Client::TextID TextID; // 0x10
+		::RPG::Client::TextID TextID; // 0x18
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DB88F524040EAA3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowTextDialogAction*& a2)
+		static ::System::Void Method_5_BE4EA39764BA794F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowTextDialogAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ShowTextDialogAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_4_DB88F524040EAA3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ShowTextDialogAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_5_BE4EA39764BA794F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3DED73C48B7E7DC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowTextDialogAction* a2)
+		static ::System::Void Method_5_94CCC5794815341A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowTextDialogAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ShowTextDialogAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_4_3DED73C48B7E7DC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ShowTextDialogAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWTEXTDIALOGACTION_METHOD_5_94CCC5794815341A_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_F8D5510034DC751D_OFFSET UNITYSDK_OFFSET(0x16A42F10)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_FCB9C4CA8D9ADE54_OFFSET UNITYSDK_OFFSET(0x16A408B0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A40890)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_B1F4071340E9592F_OFFSET UNITYSDK_OFFSET(0x17182050)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_ECCF2F50A5E8DF45_OFFSET UNITYSDK_OFFSET(0x17185580)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x17182000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_RemoveModifier_TypeDefinitionIndex = 14503;
+	inline static constexpr unsigned int DiceCombatTaskConfig_RemoveModifier_TypeDefinitionIndex = 14755;
 
 	class DiceCombatTaskConfig_RemoveModifier : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F8D5510034DC751D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*& a2)
+		static ::System::Void Method_3_ECCF2F50A5E8DF45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_F8D5510034DC751D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_ECCF2F50A5E8DF45_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FCB9C4CA8D9ADE54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier* a2)
+		static ::System::Void Method_3_B1F4071340E9592F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_FCB9C4CA8D9ADE54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_RemoveModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_REMOVEMODIFIER_METHOD_3_B1F4071340E9592F_OFFSET))(a1, a2);
 		}
 	};
 }

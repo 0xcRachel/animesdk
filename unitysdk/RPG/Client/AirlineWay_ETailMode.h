@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineWay_ETailMode_TypeDefinitionIndex = 47315;
+	inline static constexpr unsigned int AirlineWay_ETailMode_TypeDefinitionIndex = 48396;
 
 	enum class AirlineWay_ETailMode : ::System::Int32
 	{

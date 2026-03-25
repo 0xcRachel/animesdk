@@ -2,34 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3301DE64BF05426F;
+class Class_1_8E541422F89D76B8;
 namespace System { class String; }
 
-#define CLASS_1_A0243775BF9F3850_METHOD_1_7625247F5256FA8B_OFFSET UNITYSDK_OFFSET(0x17B4C6E0)
-#define CLASS_1_A0243775BF9F3850_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x17B4C650)
-#define CLASS_1_A0243775BF9F3850_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x17B4C630)
-#define CLASS_1_A0243775BF9F3850_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17B4C670)
-#define CLASS_1_A0243775BF9F3850__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17B477E0)
-#define CLASS_1_A0243775BF9F3850__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4C4B0)
+#define CLASS_1_A0243775BF9F3850_METHOD_1_7625247F5256FA8B_OFFSET UNITYSDK_OFFSET(0x183664B0)
+#define CLASS_1_A0243775BF9F3850_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x18366420)
+#define CLASS_1_A0243775BF9F3850_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x18366400)
+#define CLASS_1_A0243775BF9F3850_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18366440)
+#define CLASS_1_A0243775BF9F3850__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18362080)
+#define CLASS_1_A0243775BF9F3850__CTOR_OFFSET UNITYSDK_OFFSET(0x18366380)
 
-inline static constexpr unsigned int Class_1_A0243775BF9F3850_TypeDefinitionIndex = 32961;
+inline static constexpr unsigned int Class_1_A0243775BF9F3850_TypeDefinitionIndex = 33949;
 
 class Class_1_A0243775BF9F3850 : public ::System::Object
 {
 public:
-	::Class_1_3301DE64BF05426F* Field_1_1; // 0x10
-	::System::Boolean Field_1_0; // 0x18
-	::System::Boolean Field_1_3; // 0x19
-	::System::Boolean Field_1_2; // 0x1A
+	::Class_1_8E541422F89D76B8* Field_1_1; // 0x10
+	::System::Boolean Field_1_3; // 0x18
+	::System::Boolean Field_1_2; // 0x19
+	::System::Boolean Field_1_0; // 0x1A
 
-	::System::Void _ctor(::Class_1_3301DE64BF05426F* a1)
+	::System::Void _ctor(::Class_1_8E541422F89D76B8* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_3301DE64BF05426F*))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_8E541422F89D76B8*))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void _ctor_1(::Class_1_3301DE64BF05426F* a1, ::System::Boolean a2)
+	::System::Void _ctor_1(::Class_1_8E541422F89D76B8* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_3301DE64BF05426F*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850__CTOR_1_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_8E541422F89D76B8*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850__CTOR_1_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_1_CE34EA208837238D()
@@ -47,8 +47,8 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850_TOSTRING_OFFSET))(this);
 	}
 
-	::System::Void Method_1_7625247F5256FA8B(::Class_1_3301DE64BF05426F* a1, ::System::Boolean a2)
+	::System::Void Method_1_7625247F5256FA8B(::Class_1_8E541422F89D76B8* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_3301DE64BF05426F*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850_METHOD_1_7625247F5256FA8B_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_8E541422F89D76B8*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A0243775BF9F3850_METHOD_1_7625247F5256FA8B_OFFSET))(this, a1, a2);
 	}
 };

@@ -5,12 +5,12 @@
 
 namespace RPG::CustomRP { class CaptureScene; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16383E90)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x16383EA0)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A92F60)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x16A92F70)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 28346;
+	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 29221;
 
 	class CaptureScene___c__DisplayClass13_0 : public ::System::Object
 	{

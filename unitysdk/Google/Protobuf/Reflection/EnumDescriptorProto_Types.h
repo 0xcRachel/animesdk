@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptorProto_Types_TypeDefinitionIndex = 6165;
+	inline static constexpr unsigned int EnumDescriptorProto_Types_TypeDefinitionIndex = 6265;
 
 	class EnumDescriptorProto_Types : public ::System::Object
 	{

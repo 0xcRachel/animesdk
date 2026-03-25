@@ -7,27 +7,27 @@ namespace UnityEngine { class WaitForEndOfFrame; }
 namespace UnityEngine { class WaitForFixedUpdate; }
 namespace UnityEngine { class WaitForSeconds; }
 
-#define CLASS_1_ABCBA089712699AA_METHOD_1_D445EB0D4A48B246_OFFSET UNITYSDK_OFFSET(0x17B371B0)
-#define CLASS_1_ABCBA089712699AA_METHOD_1_DF8EB249A74DFDAE_OFFSET UNITYSDK_OFFSET(0x17B371E0)
-#define CLASS_1_ABCBA089712699AA_METHOD_1_FA7EC0D9A8DFB2E9_OFFSET UNITYSDK_OFFSET(0x17B37210)
-#define CLASS_1_ABCBA089712699AA__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B37390)
+#define CLASS_1_ABCBA089712699AA_METHOD_1_D445EB0D4A48B246_OFFSET UNITYSDK_OFFSET(0x18329B00)
+#define CLASS_1_ABCBA089712699AA_METHOD_1_DF8EB249A74DFDAE_OFFSET UNITYSDK_OFFSET(0x18329B30)
+#define CLASS_1_ABCBA089712699AA_METHOD_1_FA7EC0D9A8DFB2E9_OFFSET UNITYSDK_OFFSET(0x18329B60)
+#define CLASS_1_ABCBA089712699AA__CCTOR_OFFSET UNITYSDK_OFFSET(0x18329CE0)
 
-inline static constexpr unsigned int Class_1_ABCBA089712699AA_TypeDefinitionIndex = 8838;
+inline static constexpr unsigned int Class_1_ABCBA089712699AA_TypeDefinitionIndex = 9406;
 
 class Class_1_ABCBA089712699AA : public ::System::Object
 {
 public:
 	static ::UnityEngine::WaitForEndOfFrame** StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::WaitForEndOfFrame**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ABCBA089712699AA_TypeDefinitionIndex)->GetStaticField(0x16130);
+		return (::UnityEngine::WaitForEndOfFrame**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ABCBA089712699AA_TypeDefinitionIndex)->GetStaticField(0x191D0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::Single, ::UnityEngine::WaitForSeconds*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Single, ::UnityEngine::WaitForSeconds*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ABCBA089712699AA_TypeDefinitionIndex)->GetStaticField(0x16138);
+		return (::System::Collections::Generic::Dictionary_2<::System::Single, ::UnityEngine::WaitForSeconds*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ABCBA089712699AA_TypeDefinitionIndex)->GetStaticField(0x191D8);
 	}
 	static ::UnityEngine::WaitForFixedUpdate** StaticGet_Field_1_2()
 	{
-		return (::UnityEngine::WaitForFixedUpdate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ABCBA089712699AA_TypeDefinitionIndex)->GetStaticField(0x16140);
+		return (::UnityEngine::WaitForFixedUpdate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_ABCBA089712699AA_TypeDefinitionIndex)->GetStaticField(0x191E0);
 	}
 
 	static ::System::Void _cctor()

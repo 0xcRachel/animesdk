@@ -5,29 +5,29 @@
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DA4300)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DA4340)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C___PINSELECTEDRELIC_B__58_1_OFFSET UNITYSDK_OFFSET(0x9DA4350)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C___UNPINSELECTEDRELIC_B__59_1_OFFSET UNITYSDK_OFFSET(0x9DA4380)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA2C4EA0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA2C4EE0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C___PINSELECTEDRELIC_B__58_1_OFFSET UNITYSDK_OFFSET(0xA2C4EF0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCOMPAREVIEWMODEL___C___UNPINSELECTEDRELIC_B__59_1_OFFSET UNITYSDK_OFFSET(0xA2C4F20)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex = 59448;
+	inline static constexpr unsigned int RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex = 61202;
 
 	class RelicSmartSuitCompareViewModel___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__59_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex)->GetStaticField(0x177B0);
+		}
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__58_1()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex)->GetStaticField(0x451F0);
+			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex)->GetStaticField(0x177B8);
 		}
 		static ::RPG::Client::RelicSmartSuit::RelicSmartSuitCompareViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::RelicSmartSuit::RelicSmartSuitCompareViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex)->GetStaticField(0x451F8);
-		}
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__59_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex)->GetStaticField(0x45200);
+			return (::RPG::Client::RelicSmartSuit::RelicSmartSuitCompareViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicSmartSuitCompareViewModel___c_TypeDefinitionIndex)->GetStaticField(0x177C0);
 		}
 
 		static ::System::Void _cctor()

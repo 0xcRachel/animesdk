@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimSwitchPlatformConfig; }
 
-#define CLASS_1_BD39CB5FF05B0BB5__CTOR_OFFSET UNITYSDK_OFFSET(0x16123860)
+#define CLASS_1_BD39CB5FF05B0BB5__CTOR_OFFSET UNITYSDK_OFFSET(0x167AAB10)
 
-inline static constexpr unsigned int Class_1_BD39CB5FF05B0BB5_TypeDefinitionIndex = 32569;
+inline static constexpr unsigned int Class_1_BD39CB5FF05B0BB5_TypeDefinitionIndex = 33491;
 
 class Class_1_BD39CB5FF05B0BB5 : public ::System::Object
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CharacterEmoConfig; }
 namespace System { class String; }
 
-#define CLASS_2_9429EF1C44E7EE6D___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x102660F0)
-#define CLASS_2_9429EF1C44E7EE6D___C__DISPLAYCLASS29_0__REPLACECHARACTEREMOTION_B__0_OFFSET UNITYSDK_OFFSET(0x102699B0)
+#define CLASS_2_9429EF1C44E7EE6D___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11930160)
+#define CLASS_2_9429EF1C44E7EE6D___C__DISPLAYCLASS29_0__REPLACECHARACTEREMOTION_B__0_OFFSET UNITYSDK_OFFSET(0x119339C0)
 
-inline static constexpr unsigned int Class_2_9429EF1C44E7EE6D___c__DisplayClass29_0_TypeDefinitionIndex = 45034;
+inline static constexpr unsigned int Class_2_9429EF1C44E7EE6D___c__DisplayClass29_0_TypeDefinitionIndex = 46095;
 
 class Class_2_9429EF1C44E7EE6D___c__DisplayClass29_0 : public ::System::Object
 {

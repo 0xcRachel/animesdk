@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/MonopolyMapMoveType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_99BD961747420BEB_38;
+class Class_1_99BD961747420BEB_40;
 class Class_1_A4F0FA6F81B0B135;
-class Class_1_B33C6EDD7227DE6C_1;
+class Class_1_B33C6EDD7227DE6C_2;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x98967A0)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_GET_PATHLIST_OFFSET UNITYSDK_OFFSET(0x98A02F0)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_SET_PATHLIST_OFFSET UNITYSDK_OFFSET(0x98A0300)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x98A0070)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__GETMOVETYPE_OFFSET UNITYSDK_OFFSET(0x98A0080)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9D78F00)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_GET_PATHLIST_OFFSET UNITYSDK_OFFSET(0x9D82A80)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_SET_PATHLIST_OFFSET UNITYSDK_OFFSET(0x9D82A90)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D82800)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__GETMOVETYPE_OFFSET UNITYSDK_OFFSET(0x9D82810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyMovePathData_TypeDefinitionIndex = 52758;
+	inline static constexpr unsigned int MonopolyMovePathData_TypeDefinitionIndex = 53895;
 
 	class MonopolyMovePathData : public ::System::Object
 	{
@@ -28,14 +28,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MonopolyMovePathData* Create(::Class_1_99BD961747420BEB_38* rsp)
+		static ::RPG::Client::MonopolyMovePathData* Create(::Class_1_99BD961747420BEB_40* rsp)
 		{
-			return ((::RPG::Client::MonopolyMovePathData*(*)(::Class_1_99BD961747420BEB_38*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET))(rsp);
+			return ((::RPG::Client::MonopolyMovePathData*(*)(::Class_1_99BD961747420BEB_40*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET))(rsp);
 		}
 
-		static ::RPG::GameCore::MonopolyMapMoveType _GetMoveType(::Class_1_B33C6EDD7227DE6C_1* prev, ::Class_1_B33C6EDD7227DE6C_1* next)
+		static ::RPG::GameCore::MonopolyMapMoveType _GetMoveType(::Class_1_B33C6EDD7227DE6C_2* prev, ::Class_1_B33C6EDD7227DE6C_2* next)
 		{
-			return ((::RPG::GameCore::MonopolyMapMoveType(*)(::Class_1_B33C6EDD7227DE6C_1*, ::Class_1_B33C6EDD7227DE6C_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA__GETMOVETYPE_OFFSET))(prev, next);
+			return ((::RPG::GameCore::MonopolyMapMoveType(*)(::Class_1_B33C6EDD7227DE6C_2*, ::Class_1_B33C6EDD7227DE6C_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA__GETMOVETYPE_OFFSET))(prev, next);
 		}
 
 		::System::Collections::Generic::List_1<::Class_1_A4F0FA6F81B0B135*>* get_PathList()

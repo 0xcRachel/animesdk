@@ -6,10 +6,12 @@ class Class_1_5F51D4049EA87B7B;
 class Class_3_E3850E343081E9E1;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8BDB4B05E7EB8F85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA469820)
-#define CLASS_3_8BDB4B05E7EB8F85__CTOR_OFFSET UNITYSDK_OFFSET(0xA469760)
+#define CLASS_3_8BDB4B05E7EB8F85_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99FE670)
+#define CLASS_3_8BDB4B05E7EB8F85_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99FE6E0)
+#define CLASS_3_8BDB4B05E7EB8F85__CTOR_OFFSET UNITYSDK_OFFSET(0x99FE5B0)
+#define CLASS_3_8BDB4B05E7EB8F85___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99FEFE0)
 
-inline static constexpr unsigned int Class_3_8BDB4B05E7EB8F85_TypeDefinitionIndex = 43207;
+inline static constexpr unsigned int Class_3_8BDB4B05E7EB8F85_TypeDefinitionIndex = 44259;
 
 class Class_3_8BDB4B05E7EB8F85 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_E3850E343081E9E1*>
 {
@@ -21,8 +23,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_E3850E343081E9E1*))((::PBYTE)hIl2Cpp + CLASS_3_8BDB4B05E7EB8F85__CTOR_OFFSET))(this, a1, a2);
 	}
 
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8BDB4B05E7EB8F85_DISPOSE_OFFSET))(this);
+	}
+
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8BDB4B05E7EB8F85_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_8BDB4B05E7EB8F85___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

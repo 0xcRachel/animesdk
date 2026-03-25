@@ -3,26 +3,26 @@
 #include "unitysdk/RPG/GameCore/EnviromentControlPriority.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_260;
-class Class_0_16E4307DCC419505_277;
+class Class_0_16E4307DCC419505_293;
+class Class_0_16E4307DCC419505_310;
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace System { template <typename T> class Action_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE509E40)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0xE50CE40)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0xE50D130)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1037DBD0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x10380C00)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS54_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0x10380EF0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass54_0_TypeDefinitionIndex = 39179;
+	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass54_0_TypeDefinitionIndex = 40159;
 
 	class EnvironmentSystemV2___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* __9__2; // 0x10
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x18
-		::Class_0_16E4307DCC419505_260* targetProfile; // 0x20
-		::Class_0_16E4307DCC419505_277* h; // 0x28
+		::Class_0_16E4307DCC419505_310* h; // 0x10
+		::System::Action_1<::System::Boolean>* __9__2; // 0x18
+		::Class_0_16E4307DCC419505_293* targetProfile; // 0x20
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x28
 		::RPG::GameCore::EnviromentControlPriority priority; // 0x30
 
 		::System::Void _ctor()

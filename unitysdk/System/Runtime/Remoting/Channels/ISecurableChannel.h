@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int ISecurableChannel_TypeDefinitionIndex = 1259;
+	inline static constexpr unsigned int ISecurableChannel_TypeDefinitionIndex = 1264;
 
 	class ISecurableChannel
 	{

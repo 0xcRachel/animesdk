@@ -12,41 +12,41 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_1_OFFSET UNITYSDK_OFFSET(0x203D550)
-#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_2_OFFSET UNITYSDK_OFFSET(0x203D580)
-#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_OFFSET UNITYSDK_OFFSET(0x203D510)
-#define TMPRO_TMP_MESHINFO_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x203D500)
-#define TMPRO_TMP_MESHINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x203D380)
-#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_1_OFFSET UNITYSDK_OFFSET(0x203D370)
-#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_OFFSET UNITYSDK_OFFSET(0x203D360)
-#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_1_OFFSET UNITYSDK_OFFSET(0x203D770)
-#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_OFFSET UNITYSDK_OFFSET(0x203D700)
-#define TMPRO_TMP_MESHINFO_SWAPVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x203D780)
-#define TMPRO_TMP_MESHINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x18128970)
-#define TMPRO_TMP_MESHINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x203D350)
-#define TMPRO_TMP_MESHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x203D340)
+#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_1_OFFSET UNITYSDK_OFFSET(0x21136C0)
+#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_2_OFFSET UNITYSDK_OFFSET(0x21136F0)
+#define TMPRO_TMP_MESHINFO_CLEARUNUSEDVERTICES_OFFSET UNITYSDK_OFFSET(0x2113680)
+#define TMPRO_TMP_MESHINFO_CLEAR_1_OFFSET UNITYSDK_OFFSET(0x2113670)
+#define TMPRO_TMP_MESHINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x21134F0)
+#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_1_OFFSET UNITYSDK_OFFSET(0x21134E0)
+#define TMPRO_TMP_MESHINFO_RESIZEMESHINFO_OFFSET UNITYSDK_OFFSET(0x21134D0)
+#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_1_OFFSET UNITYSDK_OFFSET(0x21138E0)
+#define TMPRO_TMP_MESHINFO_SORTGEOMETRY_OFFSET UNITYSDK_OFFSET(0x2113870)
+#define TMPRO_TMP_MESHINFO_SWAPVERTEXDATA_OFFSET UNITYSDK_OFFSET(0x21138F0)
+#define TMPRO_TMP_MESHINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x18950BE0)
+#define TMPRO_TMP_MESHINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x21134C0)
+#define TMPRO_TMP_MESHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x21134B0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_MeshInfo_TypeDefinitionIndex = 33367;
+	inline static constexpr unsigned int TMP_MeshInfo_TypeDefinitionIndex = 34356;
 
 	struct alignas(8) TMP_MeshInfo
 	{
-		static ::UnityEngine::Color32* StaticGet_s_DefaultColor()
-		{
-			return (::UnityEngine::Color32*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xB980);
-		}
 		static ::UnityEngine::Vector4* StaticGet_s_DefaultTangent()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xB984);
-		}
-		static ::UnityEngine::Bounds* StaticGet_s_DefaultBounds()
-		{
-			return (::UnityEngine::Bounds*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xB994);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x10EE0);
 		}
 		static ::UnityEngine::Vector3* StaticGet_s_DefaultNormal()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0xB9AC);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x10EF0);
+		}
+		static ::UnityEngine::Bounds* StaticGet_s_DefaultBounds()
+		{
+			return (::UnityEngine::Bounds*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x10EFC);
+		}
+		static ::UnityEngine::Color32* StaticGet_s_DefaultColor()
+		{
+			return (::UnityEngine::Color32*)Il2CppClass::FromTypeDefinitionIndex(TMP_MeshInfo_TypeDefinitionIndex)->GetStaticField(0x10F14);
 		}
 		::UnityEngine::Mesh* mesh; // 0x10
 		::System::Int32 vertexCount; // 0x18

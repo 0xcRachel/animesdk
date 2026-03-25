@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D6A320)
-#define RPG_GAMECORE_PLAYERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D6A970)
+#define RPG_GAMECORE_PLAYERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174F1B20)
+#define RPG_GAMECORE_PLAYERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174F2170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerLevelRow_TypeDefinitionIndex = 13164;
+	inline static constexpr unsigned int PlayerLevelRow_TypeDefinitionIndex = 13238;
 
 	class PlayerLevelRow : public ::System::Object
 	{

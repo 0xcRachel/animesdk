@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define XLUA_LUACALLBACKS_INITARRAYGET_OFFSET UNITYSDK_OFFSET(0xF83B530)
-#define XLUA_LUACALLBACKS__CTOR_OFFSET UNITYSDK_OFFSET(0xF83B540)
+#define XLUA_LUACALLBACKS_INITARRAYGET_OFFSET UNITYSDK_OFFSET(0xFF6EFF0)
+#define XLUA_LUACALLBACKS__CTOR_OFFSET UNITYSDK_OFFSET(0xFF6F000)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaCallbacks_TypeDefinitionIndex = 39521;
+	inline static constexpr unsigned int LuaCallbacks_TypeDefinitionIndex = 40537;
 
 	class LuaCallbacks : public ::System::Object
 	{

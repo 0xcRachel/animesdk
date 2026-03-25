@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CakeRaceBanDragCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_28781F8B8AC38B60_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9EA0D90)
-#define CLASS_3_28781F8B8AC38B60__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA0D60)
+#define CLASS_3_28781F8B8AC38B60_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8B05020)
+#define CLASS_3_28781F8B8AC38B60__CTOR_OFFSET UNITYSDK_OFFSET(0x8B04FF0)
 
-inline static constexpr unsigned int Class_3_28781F8B8AC38B60_TypeDefinitionIndex = 41565;
+inline static constexpr unsigned int Class_3_28781F8B8AC38B60_TypeDefinitionIndex = 42610;
 
 class Class_3_28781F8B8AC38B60 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CakeRaceBanDragCamera*>
 {

@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define CLASS_1_C0F9055BB6E95366__CTOR_OFFSET UNITYSDK_OFFSET(0x162D6B20)
+#define CLASS_1_C0F9055BB6E95366__CTOR_OFFSET UNITYSDK_OFFSET(0x16837FC0)
 
-inline static constexpr unsigned int Class_1_C0F9055BB6E95366_TypeDefinitionIndex = 32429;
+inline static constexpr unsigned int Class_1_C0F9055BB6E95366_TypeDefinitionIndex = 33339;
 
 class Class_1_C0F9055BB6E95366 : public ::System::Object
 {
 public:
-	::UnityEngine::Bounds Field_1_0; // 0x10
-	::UnityEngine::Bounds Field_1_1; // 0x28
+	::UnityEngine::Bounds Field_1_1; // 0x10
+	::UnityEngine::Bounds Field_1_0; // 0x28
 
 	::System::Void _ctor()
 	{

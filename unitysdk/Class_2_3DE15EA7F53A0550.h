@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 
-class Class_0_16E4307DCC419505_248;
+class Class_0_16E4307DCC419505_281;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_3DE15EA7F53A0550_METHOD_2_257ECBFCD7339AFF_OFFSET UNITYSDK_OFFSET(0x17B758E0)
-#define CLASS_2_3DE15EA7F53A0550__CTOR_OFFSET UNITYSDK_OFFSET(0x17B75AB0)
+#define CLASS_2_3DE15EA7F53A0550_METHOD_2_257ECBFCD7339AFF_OFFSET UNITYSDK_OFFSET(0x1839D000)
+#define CLASS_2_3DE15EA7F53A0550__CTOR_OFFSET UNITYSDK_OFFSET(0x1839D080)
 
-inline static constexpr unsigned int Class_2_3DE15EA7F53A0550_TypeDefinitionIndex = 33013;
+inline static constexpr unsigned int Class_2_3DE15EA7F53A0550_TypeDefinitionIndex = 34001;
 
 class Class_2_3DE15EA7F53A0550 : public ::Sofa::Core::ObservableObject
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3DE15EA7F53A0550__CTOR_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_248* Method_2_257ECBFCD7339AFF()
+	::Class_0_16E4307DCC419505_281* Method_2_257ECBFCD7339AFF()
 	{
-		return ((::Class_0_16E4307DCC419505_248*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3DE15EA7F53A0550_METHOD_2_257ECBFCD7339AFF_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_281*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3DE15EA7F53A0550_METHOD_2_257ECBFCD7339AFF_OFFSET))(this);
 	}
 };

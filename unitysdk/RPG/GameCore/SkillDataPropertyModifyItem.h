@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SKILLDATAPROPERTYMODIFYITEM_METHOD_2_D12DABBD4987F806_OFFSET UNITYSDK_OFFSET(0x16F6D5B0)
-#define RPG_GAMECORE_SKILLDATAPROPERTYMODIFYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6D7A0)
+#define RPG_GAMECORE_SKILLDATAPROPERTYMODIFYITEM_METHOD_2_D12DABBD4987F806_OFFSET UNITYSDK_OFFSET(0x17722B10)
+#define RPG_GAMECORE_SKILLDATAPROPERTYMODIFYITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17722D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillDataPropertyModifyItem_TypeDefinitionIndex = 21228;
+	inline static constexpr unsigned int SkillDataPropertyModifyItem_TypeDefinitionIndex = 21788;
 
 	class SkillDataPropertyModifyItem : public ::RPG::GameCore::JsonConfig
 	{

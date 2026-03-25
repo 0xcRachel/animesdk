@@ -6,10 +6,10 @@ class Class_2_9C9B343BAD38C7E4;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4BD56C05450EB359___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA0170)
-#define CLASS_2_4BD56C05450EB359___C__DISPLAYCLASS8_0___SETUPBUFFLIST_B__0_OFFSET UNITYSDK_OFFSET(0x10BA0470)
+#define CLASS_2_4BD56C05450EB359___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A42850)
+#define CLASS_2_4BD56C05450EB359___C__DISPLAYCLASS8_0___SETUPBUFFLIST_B__0_OFFSET UNITYSDK_OFFSET(0x10A42B60)
 
-inline static constexpr unsigned int Class_2_4BD56C05450EB359___c__DisplayClass8_0_TypeDefinitionIndex = 56738;
+inline static constexpr unsigned int Class_2_4BD56C05450EB359___c__DisplayClass8_0_TypeDefinitionIndex = 58327;
 
 class Class_2_4BD56C05450EB359___c__DisplayClass8_0 : public ::System::Object
 {

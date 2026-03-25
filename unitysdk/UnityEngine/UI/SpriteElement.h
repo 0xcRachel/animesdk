@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SpriteElement_TypeDefinitionIndex = 5578;
+	inline static constexpr unsigned int SpriteElement_TypeDefinitionIndex = 5678;
 
 	struct alignas(4) SpriteElement
 	{

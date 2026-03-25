@@ -1,9 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AlleyOrderStatus.h"
-#include "unitysdk/RPG/Client/AlleyOrderType.h"
+#include "unitysdk/RPG/Client/MiniMapIconType.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_516_TypeDefinitionIndex = 49434;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_516_TypeDefinitionIndex = 49120;
 
 class Class_0_16E4307DCC419505_516
 {

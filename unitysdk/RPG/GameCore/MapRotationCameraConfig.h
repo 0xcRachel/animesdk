@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_METHOD_2_FE2972EEAE53C97D_OFFSET UNITYSDK_OFFSET(0x16C2ED10)
-#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2EE60)
+#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_METHOD_2_FE2972EEAE53C97D_OFFSET UNITYSDK_OFFSET(0x17393B40)
+#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17393C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationCameraConfig_TypeDefinitionIndex = 15342;
+	inline static constexpr unsigned int MapRotationCameraConfig_TypeDefinitionIndex = 15598;
 
 	class MapRotationCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

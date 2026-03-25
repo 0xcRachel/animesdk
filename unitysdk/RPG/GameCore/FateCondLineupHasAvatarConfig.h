@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_5_3E93115F7536C659_OFFSET UNITYSDK_OFFSET(0x16A94620)
-#define RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_5_54083CF38BAAF452_OFFSET UNITYSDK_OFFSET(0x16A944B0)
-#define RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A94580)
+#define RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_6_087072B9C70D5828_OFFSET UNITYSDK_OFFSET(0x171D8BA0)
+#define RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_6_820B1F3CB77484CC_OFFSET UNITYSDK_OFFSET(0x171D8D60)
+#define RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171D8CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateCondLineupHasAvatarConfig_TypeDefinitionIndex = 17270;
+	inline static constexpr unsigned int FateCondLineupHasAvatarConfig_TypeDefinitionIndex = 17675;
 
 	class FateCondLineupHasAvatarConfig : public ::RPG::GameCore::FateConditionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_54083CF38BAAF452(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondLineupHasAvatarConfig*& a2)
+		static ::System::Void Method_6_087072B9C70D5828(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondLineupHasAvatarConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondLineupHasAvatarConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_5_54083CF38BAAF452_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondLineupHasAvatarConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_6_087072B9C70D5828_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_3E93115F7536C659(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondLineupHasAvatarConfig* a2)
+		static ::System::Void Method_6_820B1F3CB77484CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondLineupHasAvatarConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondLineupHasAvatarConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_5_3E93115F7536C659_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondLineupHasAvatarConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDLINEUPHASAVATARCONFIG_METHOD_6_820B1F3CB77484CC_OFFSET))(a1, a2);
 		}
 	};
 }

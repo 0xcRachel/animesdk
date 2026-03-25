@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int Result_TypeDefinitionIndex = 34331;
+	inline static constexpr unsigned int Result_TypeDefinitionIndex = 35265;
 
 	enum class Result : ::System::Int32
 	{
@@ -102,6 +102,7 @@ namespace Epic::OnlineServices
 		EcomCatalogItemStale = 4002,
 		EcomCatalogOfferPriceInvalid = 4003,
 		EcomCheckoutLoadError = 4004,
+		EcomPurchaseProcessing = 4005,
 		SessionsSessionInProgress = 5000,
 		SessionsTooManyPlayers = 5001,
 		SessionsNoPermission = 5002,

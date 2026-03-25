@@ -3,7 +3,7 @@
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int IPriorityStackItem_TypeDefinitionIndex = 34189;
+	inline static constexpr unsigned int IPriorityStackItem_TypeDefinitionIndex = 35126;
 
 	class IPriorityStackItem
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_HYPERKINX91MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15496360)
-#define INCONTROL_NATIVEDEVICEPROFILES_HYPERKINX91MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x154963F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_HYPERKINX91MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BB0160)
+#define INCONTROL_NATIVEDEVICEPROFILES_HYPERKINX91MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BB01F0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int HyperkinX91MacNativeProfile_TypeDefinitionIndex = 30857;
+	inline static constexpr unsigned int HyperkinX91MacNativeProfile_TypeDefinitionIndex = 31732;
 
 	class HyperkinX91MacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16C87070)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16C86EC0)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16C86B90)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16C86E60)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16C871F0)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16C86C10)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16C87230)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C87410)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16C876C0)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C879D0)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16C87370)
-#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16C872D0)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x173EC9A0)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x173EC7F0)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x173EC4C0)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x173EC790)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x173ECB20)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x173EC540)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x173ECB60)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x173ECD40)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x173ECFF0)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x173ED300)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x173ECCA0)
+#define RPG_GAMECORE_MESSAGELINKEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x173ECC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageLinkExcelTable_TypeDefinitionIndex = 13136;
+	inline static constexpr unsigned int MessageLinkExcelTable_TypeDefinitionIndex = 13208;
 
 	class MessageLinkExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x37920);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x45C30);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageLinkRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageLinkRow*>**)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x37928);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MessageLinkRow*>**)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x45C38);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x37930);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0xD960);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x45C40);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0xD961);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x12010);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageLinkExcelTable_TypeDefinitionIndex)->GetStaticField(0x12011);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_RENDERING_RELOADGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x180D6450)
+#define UNITYENGINE_RENDERING_RELOADGROUPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x188FE470)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReloadGroupAttribute_TypeDefinitionIndex = 27160;
+	inline static constexpr unsigned int ReloadGroupAttribute_TypeDefinitionIndex = 27896;
 
 	class ReloadGroupAttribute : public ::System::Attribute
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TRFCubeType_TypeDefinitionIndex = 16938;
+	inline static constexpr unsigned int TRFCubeType_TypeDefinitionIndex = 17343;
 
 	enum class TRFCubeType : ::System::Int32
 	{

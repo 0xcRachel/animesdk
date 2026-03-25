@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartyEventCharacterTriggerEmotion; }
 
-#define CLASS_3_04E9EB2BA69C93D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x893C4B0)
-#define CLASS_3_04E9EB2BA69C93D1__CTOR_OFFSET UNITYSDK_OFFSET(0x893C480)
+#define CLASS_3_04E9EB2BA69C93D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87D93C0)
+#define CLASS_3_04E9EB2BA69C93D1__CTOR_OFFSET UNITYSDK_OFFSET(0x87D9390)
 
-inline static constexpr unsigned int Class_3_04E9EB2BA69C93D1_TypeDefinitionIndex = 42207;
+inline static constexpr unsigned int Class_3_04E9EB2BA69C93D1_TypeDefinitionIndex = 43256;
 
 class Class_3_04E9EB2BA69C93D1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TrainPartyEventCharacterTriggerEmotion*>
 {

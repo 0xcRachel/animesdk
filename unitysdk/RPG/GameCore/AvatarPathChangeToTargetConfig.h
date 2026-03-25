@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARPATHCHANGETOTARGETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x168A8F30)
-#define RPG_GAMECORE_AVATARPATHCHANGETOTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168A9130)
+#define RPG_GAMECORE_AVATARPATHCHANGETOTARGETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FB6A70)
+#define RPG_GAMECORE_AVATARPATHCHANGETOTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB6C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPathChangeToTargetConfig_TypeDefinitionIndex = 21888;
+	inline static constexpr unsigned int AvatarPathChangeToTargetConfig_TypeDefinitionIndex = 22453;
 
 	class AvatarPathChangeToTargetConfig : public ::RPG::GameCore::JsonConfig
 	{

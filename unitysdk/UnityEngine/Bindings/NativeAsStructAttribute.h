@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_NATIVEASSTRUCTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x182A2DD0)
+#define UNITYENGINE_BINDINGS_NATIVEASSTRUCTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC9EE0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeAsStructAttribute_TypeDefinitionIndex = 3697;
+	inline static constexpr unsigned int NativeAsStructAttribute_TypeDefinitionIndex = 3706;
 
 	class NativeAsStructAttribute : public ::System::Attribute
 	{

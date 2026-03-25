@@ -1,9 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class StageSceneItemSerializationData; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_844_TypeDefinitionIndex = 58765;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_844_TypeDefinitionIndex = 58728;
 
 class Class_0_16E4307DCC419505_844
 {

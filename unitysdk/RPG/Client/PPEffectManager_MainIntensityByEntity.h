@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_PPEFFECTMANAGER_MAININTENSITYBYENTITY_EQUALS_OFFSET UNITYSDK_OFFSET(0xD1AE0)
+#define RPG_CLIENT_PPEFFECTMANAGER_MAININTENSITYBYENTITY_EQUALS_OFFSET UNITYSDK_OFFSET(0x81F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PPEffectManager_MainIntensityByEntity_TypeDefinitionIndex = 55491;
+	inline static constexpr unsigned int PPEffectManager_MainIntensityByEntity_TypeDefinitionIndex = 57056;
 
 	struct alignas(8) PPEffectManager_MainIntensityByEntity
 	{

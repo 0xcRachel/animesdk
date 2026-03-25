@@ -3,20 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class String; }
 
-#define RPG_CLIENT_SHOWATTACKTIMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9F71DB0)
+#define RPG_CLIENT_SHOWATTACKTIMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA487150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShowAttackTimeParam_TypeDefinitionIndex = 58402;
+	inline static constexpr unsigned int ShowAttackTimeParam_TypeDefinitionIndex = 60055;
 
 	class ShowAttackTimeParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::System::Boolean IsShow; // 0x18
-		::System::Int32 EnhancedAttackTime; // 0x1C
+		::System::String* IconPath; // 0x18
 		::System::Int32 BaseAttackTime; // 0x20
+		::System::Int32 EnhancedAttackTime; // 0x24
+		::System::Boolean ShowInActionMode; // 0x28
+		::System::Boolean IsShow; // 0x29
 
 		::System::Void _ctor()
 		{

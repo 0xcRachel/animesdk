@@ -8,29 +8,29 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_07C3B1107261C1CD_CLEAR_OFFSET UNITYSDK_OFFSET(0xD1D0EA0)
-#define CLASS_1_07C3B1107261C1CD_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xD1D15E0)
-#define CLASS_1_07C3B1107261C1CD_METHOD_1_1B0C48F07D24F4A3_OFFSET UNITYSDK_OFFSET(0xD1D0F20)
-#define CLASS_1_07C3B1107261C1CD_METHOD_1_9785A036174B57AE_OFFSET UNITYSDK_OFFSET(0xD1D0B10)
-#define CLASS_1_07C3B1107261C1CD_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xD1D15F0)
-#define CLASS_1_07C3B1107261C1CD__CTOR_OFFSET UNITYSDK_OFFSET(0xD1D1600)
+#define CLASS_1_07C3B1107261C1CD_CLEAR_OFFSET UNITYSDK_OFFSET(0x10B84E40)
+#define CLASS_1_07C3B1107261C1CD_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x10B855A0)
+#define CLASS_1_07C3B1107261C1CD_METHOD_1_1B0C48F07D24F4A3_OFFSET UNITYSDK_OFFSET(0x10B84ED0)
+#define CLASS_1_07C3B1107261C1CD_METHOD_1_9785A036174B57AE_OFFSET UNITYSDK_OFFSET(0x10B84AA0)
+#define CLASS_1_07C3B1107261C1CD_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x10B855B0)
+#define CLASS_1_07C3B1107261C1CD__CTOR_OFFSET UNITYSDK_OFFSET(0x10B855C0)
 
-inline static constexpr unsigned int Class_1_07C3B1107261C1CD_TypeDefinitionIndex = 44893;
+inline static constexpr unsigned int Class_1_07C3B1107261C1CD_TypeDefinitionIndex = 45954;
 
 class Class_1_07C3B1107261C1CD : public ::System::Object
 {
 public:
-	::Il2CppArray<::UnityEngine::Vector3>* Field_1_4; // 0x10
-	::UnityEngine::Transform* Field_1_10; // 0x18
-	::RPG::GameCore::GameEntity* Field_1_9; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_9; // 0x10
+	::Il2CppArray<::UnityEngine::Vector3>* Field_1_4; // 0x18
+	::UnityEngine::Transform* Field_1_10; // 0x20
 	::Il2CppArray<::System::Single>* Field_1_6; // 0x28
-	::System::Single Field_1_3; // 0x30
-	::System::Boolean _IsActive_k__BackingField; // 0x34
-	::UnityEngine::Vector3 Field_1_1; // 0x38
+	::System::Boolean _IsActive_k__BackingField; // 0x30
+	::UnityEngine::Vector3 Field_1_1; // 0x34
+	::System::Single Field_1_7; // 0x40
 	::System::Single Field_1_2; // 0x44
-	::System::Single Field_1_5; // 0x48
-	::System::Single Field_1_7; // 0x4C
-	::RPG::GameCore::AdventureMoveOnNavMeshFaceToType Field_1_8; // 0x50
+	::RPG::GameCore::AdventureMoveOnNavMeshFaceToType Field_1_8; // 0x48
+	::System::Single Field_1_5; // 0x4C
+	::System::Single Field_1_3; // 0x50
 
 	::System::Void _ctor()
 	{

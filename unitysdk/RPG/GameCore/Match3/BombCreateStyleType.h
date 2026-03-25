@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BombCreateStyleType_TypeDefinitionIndex = 22131;
+	inline static constexpr unsigned int BombCreateStyleType_TypeDefinitionIndex = 22696;
 
 	enum class BombCreateStyleType : ::System::Int32
 	{

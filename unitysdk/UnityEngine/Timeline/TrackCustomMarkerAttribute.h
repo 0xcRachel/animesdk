@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKCUSTOMMARKERATTRIBUTE_SUPPORTTRACKTYPE_OFFSET UNITYSDK_OFFSET(0x181AE9B0)
-#define UNITYENGINE_TIMELINE_TRACKCUSTOMMARKERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x181AE9A0)
+#define UNITYENGINE_TIMELINE_TRACKCUSTOMMARKERATTRIBUTE_SUPPORTTRACKTYPE_OFFSET UNITYSDK_OFFSET(0x189D73A0)
+#define UNITYENGINE_TIMELINE_TRACKCUSTOMMARKERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189D7390)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackCustomMarkerAttribute_TypeDefinitionIndex = 28970;
+	inline static constexpr unsigned int TrackCustomMarkerAttribute_TypeDefinitionIndex = 29845;
 
 	class TrackCustomMarkerAttribute : public ::System::Attribute
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_TOUCHABLEUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x113153D0)
+#define HEDGEHOGTEAM_EASYTOUCH_TOUCHABLEUIELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x11A97890)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int TouchableUIElement_TypeDefinitionIndex = 30483;
+	inline static constexpr unsigned int TouchableUIElement_TypeDefinitionIndex = 31358;
 
 	class TouchableUIElement : public ::UnityEngine::MonoBehaviour
 	{

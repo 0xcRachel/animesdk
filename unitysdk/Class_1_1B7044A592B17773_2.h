@@ -1,50 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class ChimeraEvaluationGroupRow; }
+namespace RPG::GameCore { class ChenLingSkillRow; }
+namespace System { class String; }
 
-#define CLASS_1_1B7044A592B17773_2_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x10C5BD20)
-#define CLASS_1_1B7044A592B17773_2_METHOD_1_259B533085E399D3_OFFSET UNITYSDK_OFFSET(0x10C5BD40)
-#define CLASS_1_1B7044A592B17773_2_METHOD_1_70E5406330FA29B7_OFFSET UNITYSDK_OFFSET(0x10C5BDB0)
-#define CLASS_1_1B7044A592B17773_2_METHOD_1_B8FF86B5386F944C_OFFSET UNITYSDK_OFFSET(0x10C5BCB0)
-#define CLASS_1_1B7044A592B17773_2_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x10C5BD30)
-#define CLASS_1_1B7044A592B17773_2__CTOR_OFFSET UNITYSDK_OFFSET(0x10C5BD10)
+#define CLASS_1_1B7044A592B17773_2_GET_ID_OFFSET UNITYSDK_OFFSET(0x117A28E0)
+#define CLASS_1_1B7044A592B17773_2_METHOD_1_2F2F834C19C446FE_OFFSET UNITYSDK_OFFSET(0x117A2900)
+#define CLASS_1_1B7044A592B17773_2_METHOD_1_35EA095E1AFDD9C8_OFFSET UNITYSDK_OFFSET(0x117A29D0)
+#define CLASS_1_1B7044A592B17773_2_METHOD_1_A1EA7A32F3914B21_OFFSET UNITYSDK_OFFSET(0x117A2960)
+#define CLASS_1_1B7044A592B17773_2_SET_ID_OFFSET UNITYSDK_OFFSET(0x117A28F0)
+#define CLASS_1_1B7044A592B17773_2__CTOR_OFFSET UNITYSDK_OFFSET(0x117A28C0)
 
-inline static constexpr unsigned int Class_1_1B7044A592B17773_2_TypeDefinitionIndex = 50424;
+inline static constexpr unsigned int Class_1_1B7044A592B17773_2_TypeDefinitionIndex = 49851;
 
 class Class_1_1B7044A592B17773_2 : public ::System::Object
 {
 public:
-	::System::UInt32 _GroupID_k__BackingField; // 0x10
+	::System::UInt32 _ID_k__BackingField; // 0x10
 
-	::System::Void _ctor()
+	::System::Void _ctor(::RPG::GameCore::ChenLingSkillRow* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingSkillRow*))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2__CTOR_OFFSET))(this, a1);
 	}
 
-	static ::Class_1_1B7044A592B17773_2* Method_1_B8FF86B5386F944C(::System::UInt32 a1)
+	::System::UInt32 get_ID()
 	{
-		return ((::Class_1_1B7044A592B17773_2*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_METHOD_1_B8FF86B5386F944C_OFFSET))(a1);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_GET_ID_OFFSET))(this);
 	}
 
-	::System::UInt32 get_GroupID()
+	::System::Void set_ID(::System::UInt32 value)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_GET_GROUPID_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_SET_ID_OFFSET))(this, value);
 	}
 
-	::System::Void set_GroupID(::System::UInt32 value)
+	::RPG::GameCore::ChenLingSkillRow* Method_1_2F2F834C19C446FE()
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_SET_GROUPID_OFFSET))(this, value);
+		return ((::RPG::GameCore::ChenLingSkillRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_METHOD_1_2F2F834C19C446FE_OFFSET))(this);
 	}
 
-	::System::UInt32 Method_1_259B533085E399D3()
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Method_1_A1EA7A32F3914B21()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_METHOD_1_259B533085E399D3_OFFSET))(this);
+		return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_METHOD_1_A1EA7A32F3914B21_OFFSET))(this);
 	}
 
-	::RPG::GameCore::ChimeraEvaluationGroupRow* Method_1_70E5406330FA29B7()
+	::System::String* Method_1_35EA095E1AFDD9C8()
 	{
-		return ((::RPG::GameCore::ChimeraEvaluationGroupRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_METHOD_1_70E5406330FA29B7_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_2_METHOD_1_35EA095E1AFDD9C8_OFFSET))(this);
 	}
 };

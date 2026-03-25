@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17167040)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17166EC0)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17166B90)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17166E60)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171671C0)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17166C10)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17167200)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171673E0)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17167730)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17167A40)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17167340)
-#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171672A0)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17923560)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x179233E0)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x179230B0)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17923380)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x179236E0)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17923130)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17923720)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17923900)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17923C50)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17923F60)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17923860)
+#define RPG_GAMECORE_WORLDLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x179237C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldLevelExcelTable_TypeDefinitionIndex = 13167;
+	inline static constexpr unsigned int WorldLevelExcelTable_TypeDefinitionIndex = 13241;
 
 	class WorldLevelExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x2830);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x2838);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x26A00);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x2840);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x26A08);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::WorldLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x26A10);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x500);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xAEC0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x501);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(WorldLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xAEC1);
 		}
 
 		static ::System::Void _cctor()

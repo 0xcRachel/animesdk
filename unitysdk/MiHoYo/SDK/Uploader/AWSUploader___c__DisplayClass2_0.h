@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Uploader { class AWSUploader; }
 namespace MiHoYo::SDK::Uploader { class Task; }
 
-#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8263AE0)
-#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__INTERNALUPLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x8263AF0)
+#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x85B1950)
+#define MIHOYO_SDK_UPLOADER_AWSUPLOADER___C__DISPLAYCLASS2_0__INTERNALUPLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x85B1960)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int AWSUploader___c__DisplayClass2_0_TypeDefinitionIndex = 36418;
+	inline static constexpr unsigned int AWSUploader___c__DisplayClass2_0_TypeDefinitionIndex = 37354;
 
 	class AWSUploader___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -6,11 +6,11 @@
 namespace RPG::Client::Prop { class LightRubikCubePuzzleConditionObjData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9C48BC0)
+#define RPG_CLIENT_PROP_LIGHTRUBIKCUBEPUZZLECONDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA0D58A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LightRubikCubePuzzleConditionGroupData_TypeDefinitionIndex = 61943;
+	inline static constexpr unsigned int LightRubikCubePuzzleConditionGroupData_TypeDefinitionIndex = 64130;
 
 	class LightRubikCubePuzzleConditionGroupData : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESEQUENCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA606A70)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESEQUENCEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAB4BA50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveSequenceData_TypeDefinitionIndex = 37896;
+	inline static constexpr unsigned int CharacterStoryMoveSequenceData_TypeDefinitionIndex = 38861;
 
 	class CharacterStoryMoveSequenceData : public ::RPGTools::Timeline::CharacterStoryMoveStepData
 	{

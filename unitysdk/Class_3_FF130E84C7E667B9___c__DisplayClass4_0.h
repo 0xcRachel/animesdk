@@ -6,16 +6,16 @@
 class Class_2_0C58AD91B0F4D809;
 class Class_3_FF130E84C7E667B9;
 
-#define CLASS_3_FF130E84C7E667B9___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A1FE90)
-#define CLASS_3_FF130E84C7E667B9___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x10A20330)
+#define CLASS_3_FF130E84C7E667B9___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x115F5BD0)
+#define CLASS_3_FF130E84C7E667B9___C__DISPLAYCLASS4_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x115F6070)
 
-inline static constexpr unsigned int Class_3_FF130E84C7E667B9___c__DisplayClass4_0_TypeDefinitionIndex = 60528;
+inline static constexpr unsigned int Class_3_FF130E84C7E667B9___c__DisplayClass4_0_TypeDefinitionIndex = 62506;
 
 class Class_3_FF130E84C7E667B9___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_2_0C58AD91B0F4D809* player; // 0x10
-	::Class_3_FF130E84C7E667B9* __4__this; // 0x18
+	::Class_3_FF130E84C7E667B9* __4__this; // 0x10
+	::Class_2_0C58AD91B0F4D809* player; // 0x18
 	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord targetCoord; // 0x20
 
 	::System::Void _ctor()

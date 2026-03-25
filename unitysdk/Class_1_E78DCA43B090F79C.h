@@ -7,10 +7,10 @@ namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class ServantSkillRowData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_E78DCA43B090F79C_METHOD_1_1CAFA51EA2F8AA3A_OFFSET UNITYSDK_OFFSET(0x111A3150)
-#define CLASS_1_E78DCA43B090F79C__CTOR_OFFSET UNITYSDK_OFFSET(0x111A3390)
+#define CLASS_1_E78DCA43B090F79C_METHOD_1_1CAFA51EA2F8AA3A_OFFSET UNITYSDK_OFFSET(0x104F3590)
+#define CLASS_1_E78DCA43B090F79C__CTOR_OFFSET UNITYSDK_OFFSET(0x104F37D0)
 
-inline static constexpr unsigned int Class_1_E78DCA43B090F79C_TypeDefinitionIndex = 49785;
+inline static constexpr unsigned int Class_1_E78DCA43B090F79C_TypeDefinitionIndex = 50907;
 
 class Class_1_E78DCA43B090F79C : public ::System::Object
 {

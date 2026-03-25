@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ZOOMMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA279FA0)
-#define RPG_CLIENT_ZOOMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA279FF0)
+#define RPG_CLIENT_ZOOMMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA7B4AB0)
+#define RPG_CLIENT_ZOOMMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA7B4B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ZoomModuleConfig_TypeDefinitionIndex = 55416;
+	inline static constexpr unsigned int ZoomModuleConfig_TypeDefinitionIndex = 56981;
 
 	class ZoomModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

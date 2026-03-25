@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class RogueTournHandbookEventDataItem; }
 
-#define RPG_CLIENT_ROGUETOURNHANDBOOKRANDOMEVENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9E74D20)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKRANDOMEVENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA3A48D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookRandomEventCollection_TypeDefinitionIndex = 53751;
+	inline static constexpr unsigned int RogueTournHandbookRandomEventCollection_TypeDefinitionIndex = 55172;
 
 	class RogueTournHandbookRandomEventCollection : public ::RPG::Client::RogueTournHandbookDataCollection_2<::System::UInt32, ::RPG::Client::RogueTournHandbookEventDataItem*>
 	{

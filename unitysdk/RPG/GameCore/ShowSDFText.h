@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_1608696199732EF0_OFFSET UNITYSDK_OFFSET(0x16F61CF0)
-#define RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_8BF15A1BA16E6B4C_OFFSET UNITYSDK_OFFSET(0x16F61B90)
-#define RPG_GAMECORE_SHOWSDFTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x16F61C50)
+#define RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_1608696199732EF0_OFFSET UNITYSDK_OFFSET(0x17717260)
+#define RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_469CF65C7F3DB525_OFFSET UNITYSDK_OFFSET(0x17717130)
+#define RPG_GAMECORE_SHOWSDFTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x177171E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 18717;
+	inline static constexpr unsigned int ShowSDFText_TypeDefinitionIndex = 19239;
 
 	class ShowSDFText : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8BF15A1BA16E6B4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSDFText*& a2)
+		static ::System::Void Method_3_469CF65C7F3DB525(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSDFText*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSDFText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_8BF15A1BA16E6B4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSDFText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSDFTEXT_METHOD_3_469CF65C7F3DB525_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1608696199732EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSDFText* a2)

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ST_Chess_ByInAlertRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0AF4004F2E4974F7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8661FA0)
-#define CLASS_3_0AF4004F2E4974F7__CTOR_OFFSET UNITYSDK_OFFSET(0x8661F70)
+#define CLASS_3_0AF4004F2E4974F7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x88CD490)
+#define CLASS_3_0AF4004F2E4974F7__CTOR_OFFSET UNITYSDK_OFFSET(0x88CD460)
 
-inline static constexpr unsigned int Class_3_0AF4004F2E4974F7_TypeDefinitionIndex = 44118;
+inline static constexpr unsigned int Class_3_0AF4004F2E4974F7_TypeDefinitionIndex = 45178;
 
 class Class_3_0AF4004F2E4974F7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_Chess_ByInAlertRange*>
 {

@@ -5,7 +5,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int AsyncNavMeshAgent_MotionSnapshot_TypeDefinitionIndex = 5280;
+	inline static constexpr unsigned int AsyncNavMeshAgent_MotionSnapshot_TypeDefinitionIndex = 5380;
 
 	struct alignas(4) AsyncNavMeshAgent_MotionSnapshot
 	{

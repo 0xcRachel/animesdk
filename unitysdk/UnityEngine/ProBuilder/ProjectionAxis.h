@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProjectionAxis_TypeDefinitionIndex = 33139;
+	inline static constexpr unsigned int ProjectionAxis_TypeDefinitionIndex = 34128;
 
 	enum class ProjectionAxis : ::System::Int32
 	{

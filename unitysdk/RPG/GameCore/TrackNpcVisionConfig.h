@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKNPCVISIONCONFIG_METHOD_2_5AF98F108809A282_OFFSET UNITYSDK_OFFSET(0x170FCF00)
-#define RPG_GAMECORE_TRACKNPCVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170FD290)
+#define RPG_GAMECORE_TRACKNPCVISIONCONFIG_METHOD_2_5AF98F108809A282_OFFSET UNITYSDK_OFFSET(0x178B8640)
+#define RPG_GAMECORE_TRACKNPCVISIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178B89D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcVisionConfig_TypeDefinitionIndex = 14645;
+	inline static constexpr unsigned int TrackNpcVisionConfig_TypeDefinitionIndex = 14897;
 
 	class TrackNpcVisionConfig : public ::RPG::GameCore::JsonConfig
 	{

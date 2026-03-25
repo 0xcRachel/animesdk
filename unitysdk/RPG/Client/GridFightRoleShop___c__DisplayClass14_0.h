@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightShopRole; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93E7480)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS14_0__GETROLELEVELUP_B__0_OFFSET UNITYSDK_OFFSET(0x93EA320)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98A4160)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP___C__DISPLAYCLASS14_0__GETROLELEVELUP_B__0_OFFSET UNITYSDK_OFFSET(0x98A69E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleShop___c__DisplayClass14_0_TypeDefinitionIndex = 51837;
+	inline static constexpr unsigned int GridFightRoleShop___c__DisplayClass14_0_TypeDefinitionIndex = 52971;
 
 	class GridFightRoleShop___c__DisplayClass14_0 : public ::System::Object
 	{

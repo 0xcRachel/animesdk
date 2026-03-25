@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueUtil_IDialogueConfiguration_TypeDefinitionIndex = 44883;
+	inline static constexpr unsigned int DialogueUtil_IDialogueConfiguration_TypeDefinitionIndex = 45944;
 
 	class DialogueUtil_IDialogueConfiguration
 	{

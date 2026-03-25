@@ -5,34 +5,34 @@
 namespace RPG::Client { class GridFightTalentNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9406040)
-#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9406080)
-#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__GET_FIRSTARRIVEDNODE_B__17_0_OFFSET UNITYSDK_OFFSET(0x9406090)
-#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__GET_HASTALENTCANUNLOCK_B__19_0_OFFSET UNITYSDK_OFFSET(0x94060E0)
-#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__GET_UNLOCKCNT_B__21_0_OFFSET UNITYSDK_OFFSET(0x9406240)
+#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98C3940)
+#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98C3980)
+#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__GET_FIRSTARRIVEDNODE_B__17_0_OFFSET UNITYSDK_OFFSET(0x98C3990)
+#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__GET_HASTALENTCANUNLOCK_B__19_0_OFFSET UNITYSDK_OFFSET(0x98C39E0)
+#define RPG_CLIENT_GRIDFIGHTTALENTTREE___C__GET_UNLOCKCNT_B__21_0_OFFSET UNITYSDK_OFFSET(0x98C3B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTalentTree___c_TypeDefinitionIndex = 51865;
+	inline static constexpr unsigned int GridFightTalentTree___c_TypeDefinitionIndex = 52999;
 
 	class GridFightTalentTree___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x9510);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__21_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x9518);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x9520);
+			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x175D0);
 		}
 		static ::RPG::Client::GridFightTalentTree___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightTalentTree___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x9528);
+			return (::RPG::Client::GridFightTalentTree___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x175D8);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x175E0);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>** StaticGet___9__21_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTalentNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTalentTree___c_TypeDefinitionIndex)->GetStaticField(0x175E8);
 		}
 
 		static ::System::Void _cctor()

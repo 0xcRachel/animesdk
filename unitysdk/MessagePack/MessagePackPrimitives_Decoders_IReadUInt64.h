@@ -5,7 +5,7 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_Decoders_IReadUInt64_TypeDefinitionIndex = 9416;
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_IReadUInt64_TypeDefinitionIndex = 9030;
 
 	class MessagePackPrimitives_Decoders_IReadUInt64
 	{

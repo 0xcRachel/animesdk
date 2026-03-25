@@ -4,7 +4,7 @@
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromArray_1_TypeDefinitionIndex = 6384;
+	inline static constexpr unsigned int FromArray_1_TypeDefinitionIndex = 6485;
 
 	template <typename T>
 	struct FromArray_1

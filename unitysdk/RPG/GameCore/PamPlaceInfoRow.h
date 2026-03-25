@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D15260)
-#define RPG_GAMECORE_PAMPLACEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D15400)
+#define RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1749BB60)
+#define RPG_GAMECORE_PAMPLACEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1749BD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 13030;
+	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 13101;
 
 	class PamPlaceInfoRow : public ::System::Object
 	{

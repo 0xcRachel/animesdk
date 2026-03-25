@@ -6,16 +6,16 @@ class Class_2_1DF845F074911800;
 class Class_2_CBDF63BA2C3715C3;
 namespace UnityEngine { class Object; }
 
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EB35F0)
-#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS83_0___LOADERRENDERSTUBINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0x9EB4AC0)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEE1660)
+#define CLASS_2_1DF845F074911800___C__DISPLAYCLASS83_0___LOADERRENDERSTUBINTERNAL_B__0_OFFSET UNITYSDK_OFFSET(0xBEE2B90)
 
-inline static constexpr unsigned int Class_2_1DF845F074911800___c__DisplayClass83_0_TypeDefinitionIndex = 58823;
+inline static constexpr unsigned int Class_2_1DF845F074911800___c__DisplayClass83_0_TypeDefinitionIndex = 60566;
 
 class Class_2_1DF845F074911800___c__DisplayClass83_0 : public ::System::Object
 {
 public:
-	::Class_2_CBDF63BA2C3715C3* data; // 0x10
-	::Class_2_1DF845F074911800* __4__this; // 0x18
+	::Class_2_1DF845F074911800* __4__this; // 0x10
+	::Class_2_CBDF63BA2C3715C3* data; // 0x18
 
 	::System::Void _ctor()
 	{

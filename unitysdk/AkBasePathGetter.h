@@ -4,50 +4,50 @@
 
 namespace System { class String; }
 
-#define AKBASEPATHGETTER_EVALUATEGAMEPATHS_OFFSET UNITYSDK_OFFSET(0x18384FD0)
-#define AKBASEPATHGETTER_GETPLATFORMBASEPATH_OFFSET UNITYSDK_OFFSET(0x18384E60)
-#define AKBASEPATHGETTER_GETPLATFORMNAME_OFFSET UNITYSDK_OFFSET(0x18384D70)
-#define AKBASEPATHGETTER_GET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x183853C0)
-#define AKBASEPATHGETTER_GET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x18384DF0)
-#define AKBASEPATHGETTER_GET_OFFSET UNITYSDK_OFFSET(0x183844F0)
-#define AKBASEPATHGETTER_GET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x183853A0)
-#define AKBASEPATHGETTER_GET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x18385380)
-#define AKBASEPATHGETTER_SET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x183853D0)
-#define AKBASEPATHGETTER_SET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x18384E30)
-#define AKBASEPATHGETTER_SET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x183853B0)
-#define AKBASEPATHGETTER_SET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x18385390)
-#define AKBASEPATHGETTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183853E0)
-#define AKBASEPATHGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18384FC0)
+#define AKBASEPATHGETTER_EVALUATEGAMEPATHS_OFFSET UNITYSDK_OFFSET(0x18BAA1D0)
+#define AKBASEPATHGETTER_GETPLATFORMBASEPATH_OFFSET UNITYSDK_OFFSET(0x18BAA060)
+#define AKBASEPATHGETTER_GETPLATFORMNAME_OFFSET UNITYSDK_OFFSET(0x18BA9F70)
+#define AKBASEPATHGETTER_GET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x18BAA5C0)
+#define AKBASEPATHGETTER_GET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x18BA9FF0)
+#define AKBASEPATHGETTER_GET_OFFSET UNITYSDK_OFFSET(0x18BA96F0)
+#define AKBASEPATHGETTER_GET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x18BAA5A0)
+#define AKBASEPATHGETTER_GET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x18BAA580)
+#define AKBASEPATHGETTER_SET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x18BAA5D0)
+#define AKBASEPATHGETTER_SET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x18BAA030)
+#define AKBASEPATHGETTER_SET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x18BAA5B0)
+#define AKBASEPATHGETTER_SET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x18BAA590)
+#define AKBASEPATHGETTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BAA5E0)
+#define AKBASEPATHGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BAA1C0)
 
-inline static constexpr unsigned int AkBasePathGetter_TypeDefinitionIndex = 33568;
+inline static constexpr unsigned int AkBasePathGetter_TypeDefinitionIndex = 34557;
 
 class AkBasePathGetter : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_DefaultBasePath()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x34930);
-	}
 	static ::System::String** StaticGet_DefaultPlatformName()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x34938);
-	}
-	static ::System::String** StaticGet_DefaultPersistentDataPath()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x34940);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x285C0);
 	}
 	static ::AkBasePathGetter** StaticGet_Instance()
 	{
-		return (::AkBasePathGetter**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x34948);
+		return (::AkBasePathGetter**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x285C8);
+	}
+	static ::System::String** StaticGet_DefaultPersistentDataPath()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x285D0);
+	}
+	static ::System::String** StaticGet_DefaultBasePath()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0x285D8);
 	}
 	static ::System::Boolean* StaticGet_LogWarnings_Internal()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0xCA90);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AkBasePathGetter_TypeDefinitionIndex)->GetStaticField(0xB870);
 	}
 	// static const ::System::String* DecodedBankFolder; // 0x0
-	::System::String* _SoundBankBasePath_k__BackingField; // 0x10
-	::System::String* _PersistentDataPath_k__BackingField; // 0x18
-	::System::String* _DecodedBankFullPath_k__BackingField; // 0x20
+	::System::String* _DecodedBankFullPath_k__BackingField; // 0x10
+	::System::String* _SoundBankBasePath_k__BackingField; // 0x18
+	::System::String* _PersistentDataPath_k__BackingField; // 0x20
 
 	::System::Void _ctor()
 	{

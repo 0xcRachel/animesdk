@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETUTIL_RESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15869950)
+#define MIHOYO_SDK_NETUTIL_RESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4FF90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil_ResponseModel_TypeDefinitionIndex = 7055;
+	inline static constexpr unsigned int NetUtil_ResponseModel_TypeDefinitionIndex = 7180;
 
 	class NetUtil_ResponseModel : public ::System::Object
 	{

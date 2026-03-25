@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HAPIImportsPDG_TypeDefinitionIndex = 36802;
+	inline static constexpr unsigned int HEU_HAPIImportsPDG_TypeDefinitionIndex = 37739;
 
 	class HEU_HAPIImportsPDG : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShieldModifyFormulaType_TypeDefinitionIndex = 20789;
+	inline static constexpr unsigned int ShieldModifyFormulaType_TypeDefinitionIndex = 21342;
 
 	enum class ShieldModifyFormulaType : ::System::Int32
 	{

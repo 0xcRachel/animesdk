@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNPCDirectionDissolve_DissolveSpace_TypeDefinitionIndex = 55852;
+	inline static constexpr unsigned int MonoNPCDirectionDissolve_DissolveSpace_TypeDefinitionIndex = 57417;
 
 	enum class MonoNPCDirectionDissolve_DissolveSpace : ::System::Int32
 	{

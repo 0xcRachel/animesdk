@@ -5,43 +5,43 @@
 namespace System { class String; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATEGETVALUE_OFFSET UNITYSDK_OFFSET(0x17CF4450)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x17CF40D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CF4060)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17CF4080)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x17CF4070)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF40C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATEGETVALUE_OFFSET UNITYSDK_OFFSET(0x1850B9A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1850B620)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1850B5B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1850B5D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1850B5C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1850B610)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NullableMethodCallInstruction_TypeDefinitionIndex = 3619;
+	inline static constexpr unsigned int NullableMethodCallInstruction_TypeDefinitionIndex = 3628;
 
 	class NullableMethodCallInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_value()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x190E0);
-		}
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getValueOrDefault1()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x190E8);
-		}
 		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_toString()
 		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x190F0);
-		}
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_hasValue()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x190F8);
-		}
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getHashCode()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x19100);
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x2B230);
 		}
 		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_equals()
 		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x19108);
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x2B238);
+		}
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getValueOrDefault1()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x2B240);
+		}
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getHashCode()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x2B248);
+		}
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_value()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x2B250);
+		}
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_hasValue()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)Il2CppClass::FromTypeDefinitionIndex(NullableMethodCallInstruction_TypeDefinitionIndex)->GetStaticField(0x2B258);
 		}
 
 		::System::Void _ctor()

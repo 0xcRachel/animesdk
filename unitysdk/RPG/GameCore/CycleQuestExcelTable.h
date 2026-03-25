@@ -11,56 +11,56 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GETCYCLEIDBYQUESTID_OFFSET UNITYSDK_OFFSET(0x169DBC30)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x169DB1D0)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x169DB020)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x169DACF0)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x169DAFC0)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x169DB350)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x169DAD70)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x169DC100)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x169DB390)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x169DB570)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x169DB920)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x169DC1A0)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x169DB4D0)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x169DB430)
-#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x169DBCC0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GETCYCLEIDBYQUESTID_OFFSET UNITYSDK_OFFSET(0x17157CF0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17157290)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171570E0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17156DB0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x17157080)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17157410)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x17156E30)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x171581C0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x17157450)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17157630)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171579E0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17158260)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17157590)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171574F0)
+#define RPG_GAMECORE_CYCLEQUESTEXCELTABLE__SAFEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x17157D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CycleQuestExcelTable_TypeDefinitionIndex = 13227;
+	inline static constexpr unsigned int CycleQuestExcelTable_TypeDefinitionIndex = 13301;
 
 	class CycleQuestExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A9E0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CycleQuestRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CycleQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A9E8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CycleQuestRow*>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CB20);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A9F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CB28);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>** StaticGet__QuestToCycle()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A9F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CB30);
 		}
-		static ::System::Boolean* StaticGet__IsInitialized()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x9790);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CB38);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x9791);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xC2E0);
+		}
+		static ::System::Boolean* StaticGet__IsInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xC2E1);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0x9792);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CycleQuestExcelTable_TypeDefinitionIndex)->GetStaticField(0xC2E2);
 		}
 
 		static ::System::Void _cctor()

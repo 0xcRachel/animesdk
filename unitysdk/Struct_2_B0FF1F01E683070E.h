@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/CakeRaceProperty.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_B0FF1F01E683070E_TypeDefinitionIndex = 61313;
+inline static constexpr unsigned int Struct_2_B0FF1F01E683070E_TypeDefinitionIndex = 63500;
 
 struct alignas(4) Struct_2_B0FF1F01E683070E
 {

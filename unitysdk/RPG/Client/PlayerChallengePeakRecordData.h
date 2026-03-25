@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/Client/BattleRecordDisplayType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_99BD961747420BEB_25;
+class Class_1_99BD961747420BEB_27;
 namespace RPG::Client { class PlayerChallengePeakRecordGroupData; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9B18C90)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_GETCURRECORDGROUPDATA_OFFSET UNITYSDK_OFFSET(0x9B194E0)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_GET_DISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0x9B19660)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_GET_GROUPDATALIST_OFFSET UNITYSDK_OFFSET(0x9B19640)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_SET_GROUPDATALIST_OFFSET UNITYSDK_OFFSET(0x9B19650)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9B18D30)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B18D20)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9FEC560)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_GETCURRECORDGROUPDATA_OFFSET UNITYSDK_OFFSET(0x9FECD90)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_GET_DISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0x9FECF10)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_GET_GROUPDATALIST_OFFSET UNITYSDK_OFFSET(0x9FECEF0)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_SET_GROUPDATALIST_OFFSET UNITYSDK_OFFSET(0x9FECF00)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x9FEC600)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FEC5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerChallengePeakRecordData_TypeDefinitionIndex = 51046;
+	inline static constexpr unsigned int PlayerChallengePeakRecordData_TypeDefinitionIndex = 52181;
 
 	class PlayerChallengePeakRecordData : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::PlayerChallengePeakRecordData* Create(::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_25*>* protoList)
+		static ::RPG::Client::PlayerChallengePeakRecordData* Create(::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_27*>* protoList)
 		{
-			return ((::RPG::Client::PlayerChallengePeakRecordData*(*)(::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_25*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_CREATE_OFFSET))(protoList);
+			return ((::RPG::Client::PlayerChallengePeakRecordData*(*)(::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_27*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_CREATE_OFFSET))(protoList);
 		}
 
-		::System::Void Sync(::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_25*>* protoList)
+		::System::Void Sync(::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_27*>* protoList)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_25*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_SYNC_OFFSET))(this, protoList);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::Class_1_99BD961747420BEB_27*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDDATA_SYNC_OFFSET))(this, protoList);
 		}
 
 		::RPG::Client::PlayerChallengePeakRecordGroupData* GetCurRecordGroupData()

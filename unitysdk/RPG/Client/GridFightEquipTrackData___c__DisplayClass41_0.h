@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightEquipTrackQuickDressParam; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x935FF80)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS41_0___UPDATEQUICKDRESSANDCRAFTPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x93607A0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x981D1E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS41_0___UPDATEQUICKDRESSANDCRAFTPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x981DD90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass41_0_TypeDefinitionIndex = 51927;
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass41_0_TypeDefinitionIndex = 53061;
 
 	class GridFightEquipTrackData___c__DisplayClass41_0 : public ::System::Object
 	{

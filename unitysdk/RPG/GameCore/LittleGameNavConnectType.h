@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameNavConnectType_TypeDefinitionIndex = 15640;
+	inline static constexpr unsigned int LittleGameNavConnectType_TypeDefinitionIndex = 15917;
 
 	enum class LittleGameNavConnectType : ::System::Int32
 	{

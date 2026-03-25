@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_EXPORTER_ALEMBICEXPORTERANALYTICS_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x17F78D30)
-#define UNITYENGINE_FORMATS_ALEMBIC_EXPORTER_ALEMBICEXPORTERANALYTICS_SENDANALYTICS_OFFSET UNITYSDK_OFFSET(0x17F77AC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_EXPORTER_ALEMBICEXPORTERANALYTICS_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x187A2270)
+#define UNITYENGINE_FORMATS_ALEMBIC_EXPORTER_ALEMBICEXPORTERANALYTICS_SENDANALYTICS_OFFSET UNITYSDK_OFFSET(0x187A1000)
 
 namespace UnityEngine::Formats::Alembic::Exporter
 {
-	inline static constexpr unsigned int AlembicExporterAnalytics_TypeDefinitionIndex = 34121;
+	inline static constexpr unsigned int AlembicExporterAnalytics_TypeDefinitionIndex = 35055;
 
 	class AlembicExporterAnalytics : public ::System::Object
 	{

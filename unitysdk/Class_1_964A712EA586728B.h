@@ -4,16 +4,16 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_964A712EA586728B__CTOR_OFFSET UNITYSDK_OFFSET(0x162DDF00)
+#define CLASS_1_964A712EA586728B__CTOR_OFFSET UNITYSDK_OFFSET(0x16784A30)
 
-inline static constexpr unsigned int Class_1_964A712EA586728B_TypeDefinitionIndex = 31436;
+inline static constexpr unsigned int Class_1_964A712EA586728B_TypeDefinitionIndex = 32340;
 
 class Class_1_964A712EA586728B : public ::System::Object
 {
 public:
 	::UnityEngine::Quaternion Field_1_1; // 0x10
-	::UnityEngine::Vector3 Field_1_2; // 0x20
-	::UnityEngine::Vector3 Field_1_0; // 0x2C
+	::UnityEngine::Vector3 Field_1_0; // 0x20
+	::UnityEngine::Vector3 Field_1_2; // 0x2C
 
 	::System::Void _ctor()
 	{

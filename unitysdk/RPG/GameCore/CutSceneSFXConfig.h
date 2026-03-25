@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CutSceneSFXItem; }
 
-#define RPG_GAMECORE_CUTSCENESFXCONFIG_METHOD_2_F6D2761B470AC1B4_OFFSET UNITYSDK_OFFSET(0x169DA650)
-#define RPG_GAMECORE_CUTSCENESFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x169DA750)
+#define RPG_GAMECORE_CUTSCENESFXCONFIG_METHOD_2_F6D2761B470AC1B4_OFFSET UNITYSDK_OFFSET(0x17156710)
+#define RPG_GAMECORE_CUTSCENESFXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17156810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CutSceneSFXConfig_TypeDefinitionIndex = 15327;
+	inline static constexpr unsigned int CutSceneSFXConfig_TypeDefinitionIndex = 15583;
 
 	class CutSceneSFXConfig : public ::RPG::GameCore::JsonConfig
 	{

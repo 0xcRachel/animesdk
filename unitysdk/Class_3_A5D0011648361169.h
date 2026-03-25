@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetupFreeStyleSupport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A5D0011648361169_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10FD3F00)
-#define CLASS_3_A5D0011648361169__CTOR_OFFSET UNITYSDK_OFFSET(0x10FD3ED0)
+#define CLASS_3_A5D0011648361169_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8866BE0)
+#define CLASS_3_A5D0011648361169__CTOR_OFFSET UNITYSDK_OFFSET(0x8866BB0)
 
-inline static constexpr unsigned int Class_3_A5D0011648361169_TypeDefinitionIndex = 45721;
+inline static constexpr unsigned int Class_3_A5D0011648361169_TypeDefinitionIndex = 46789;
 
 class Class_3_A5D0011648361169 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetupFreeStyleSupport*>
 {

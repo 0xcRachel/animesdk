@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD_POWERCOUNTERSIZECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x96594A0)
+#define RPG_CLIENT_MATCHTHREEBOARD_POWERCOUNTERSIZECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B3F610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex = 52387;
+	inline static constexpr unsigned int MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex = 53523;
 
 	struct alignas(8) MatchThreeBoard_PowerCounterSizeConfig
 	{
-		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_S()
-		{
-			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x2C250);
-		}
 		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_M()
 		{
-			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x2C260);
+			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x41490);
 		}
 		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_L()
 		{
-			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x2C270);
+			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x414A0);
+		}
+		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_S()
+		{
+			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x414B0);
 		}
 		::System::Int32 FontSize; // 0x10
 		::System::Single ShadowOffset; // 0x14

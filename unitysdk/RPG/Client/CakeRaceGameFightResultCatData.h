@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_99BD961747420BEB_18;
+class Class_1_99BD961747420BEB_19;
 namespace RPG::Client { class CakeRaceCatDataItem; }
 namespace RPG::Client { class CakeRaceGameFightResultParticipantData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x8E3B6E0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_CATCONFIGID_OFFSET UNITYSDK_OFFSET(0x8E3B5C0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_CATDATAITEM_OFFSET UNITYSDK_OFFSET(0x8E3B5A0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_FIGHTRESULTPARTICIPANTDATALIST_OFFSET UNITYSDK_OFFSET(0x8E3B610)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_ODDS_OFFSET UNITYSDK_OFFSET(0x8E3B620)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0x8E3B6C0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_SPECIALODDS_OFFSET UNITYSDK_OFFSET(0x8E3B670)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SETRANK_OFFSET UNITYSDK_OFFSET(0x8E3B960)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SET_CATDATAITEM_OFFSET UNITYSDK_OFFSET(0x8E3B5B0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SET_RANK_OFFSET UNITYSDK_OFFSET(0x8E3B6D0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8E3B7C0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__INITPARTICIPANTDATALIST_OFFSET UNITYSDK_OFFSET(0x8E3B9B0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__INIT_OFFSET UNITYSDK_OFFSET(0x8E3B820)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x92454D0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_CATCONFIGID_OFFSET UNITYSDK_OFFSET(0x92453B0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_CATDATAITEM_OFFSET UNITYSDK_OFFSET(0x9245390)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_FIGHTRESULTPARTICIPANTDATALIST_OFFSET UNITYSDK_OFFSET(0x9245400)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_ODDS_OFFSET UNITYSDK_OFFSET(0x9245410)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_RANK_OFFSET UNITYSDK_OFFSET(0x92454B0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_GET_SPECIALODDS_OFFSET UNITYSDK_OFFSET(0x9245460)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SETRANK_OFFSET UNITYSDK_OFFSET(0x9245750)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SET_CATDATAITEM_OFFSET UNITYSDK_OFFSET(0x92453A0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SET_RANK_OFFSET UNITYSDK_OFFSET(0x92454C0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x92455B0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__INITPARTICIPANTDATALIST_OFFSET UNITYSDK_OFFSET(0x92457A0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__INIT_OFFSET UNITYSDK_OFFSET(0x9245610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameFightResultCatData_TypeDefinitionIndex = 50004;
+	inline static constexpr unsigned int CakeRaceGameFightResultCatData_TypeDefinitionIndex = 51136;
 
 	class CakeRaceGameFightResultCatData : public ::System::Object
 	{
 	public:
-		::Class_1_99BD961747420BEB_18* _FightResultCatData; // 0x10
-		::RPG::Client::CakeRaceCatDataItem* _CatDataItem_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceGameFightResultParticipantData*>* _FightResultParticipantDataList; // 0x20
+		::Class_1_99BD961747420BEB_19* _FightResultCatData; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::CakeRaceGameFightResultParticipantData*>* _FightResultParticipantDataList; // 0x18
+		::RPG::Client::CakeRaceCatDataItem* _CatDataItem_k__BackingField; // 0x20
 		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*>* _ParticipantMap; // 0x28
 		::System::UInt32 _Rank_k__BackingField; // 0x30
 
-		::System::Void _ctor(::Class_1_99BD961747420BEB_18* fightResultCatData)
+		::System::Void _ctor(::Class_1_99BD961747420BEB_19* fightResultCatData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_18*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__CTOR_OFFSET))(this, fightResultCatData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_99BD961747420BEB_19*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA__CTOR_OFFSET))(this, fightResultCatData);
 		}
 
 		::RPG::Client::CakeRaceCatDataItem* get_CatDataItem()
@@ -81,9 +81,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_SET_RANK_OFFSET))(this, value);
 		}
 
-		static ::RPG::Client::CakeRaceGameFightResultCatData* Create(::Class_1_99BD961747420BEB_18* fightResultCatData, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*>* participantMap)
+		static ::RPG::Client::CakeRaceGameFightResultCatData* Create(::Class_1_99BD961747420BEB_19* fightResultCatData, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*>* participantMap)
 		{
-			return ((::RPG::Client::CakeRaceGameFightResultCatData*(*)(::Class_1_99BD961747420BEB_18*, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_CREATE_OFFSET))(fightResultCatData, participantMap);
+			return ((::RPG::Client::CakeRaceGameFightResultCatData*(*)(::Class_1_99BD961747420BEB_19*, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceGameFightResultParticipantData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA_CREATE_OFFSET))(fightResultCatData, participantMap);
 		}
 
 		::System::Void SetRank(::System::UInt32 rank)

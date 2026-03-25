@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessRogueCabinetType_TypeDefinitionIndex = 13387;
+	inline static constexpr unsigned int ChessRogueCabinetType_TypeDefinitionIndex = 13463;
 
 	enum class ChessRogueCabinetType : ::System::Int32
 	{

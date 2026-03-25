@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/ChimeraTurnBasedStage.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B683CEF09BDB0F39__CTOR_OFFSET UNITYSDK_OFFSET(0x1619F340)
+#define CLASS_1_B683CEF09BDB0F39__CTOR_OFFSET UNITYSDK_OFFSET(0x1679B2F0)
 
-inline static constexpr unsigned int Class_1_B683CEF09BDB0F39_TypeDefinitionIndex = 31361;
+inline static constexpr unsigned int Class_1_B683CEF09BDB0F39_TypeDefinitionIndex = 32265;
 
 class Class_1_B683CEF09BDB0F39 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraTurnBasedStage Field_1_5; // 0x10
-	::RPG::Client::LittleGame::ChimeraGameStage Field_1_0; // 0x14
-	::System::UInt32 Field_1_1; // 0x18
+	::System::UInt32 Field_1_3; // 0x10
+	::System::UInt32 Field_1_1; // 0x14
+	::System::Boolean Field_1_4; // 0x18
 	::System::UInt32 Field_1_6; // 0x1C
-	::System::UInt32 Field_1_2; // 0x20
-	::System::Boolean Field_1_4; // 0x24
-	::System::UInt32 Field_1_3; // 0x28
+	::RPG::Client::LittleGame::ChimeraGameStage Field_1_0; // 0x20
+	::RPG::GameCore::ChimeraTurnBasedStage Field_1_5; // 0x24
+	::System::UInt32 Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

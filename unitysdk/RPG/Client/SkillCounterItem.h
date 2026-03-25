@@ -5,13 +5,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_SKILLCOUNTERITEM_BINDVIEW_OFFSET UNITYSDK_OFFSET(0x9F87170)
-#define RPG_CLIENT_SKILLCOUNTERITEM_SETSHOWSTATE_OFFSET UNITYSDK_OFFSET(0x9F873F0)
-#define RPG_CLIENT_SKILLCOUNTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9F875C0)
+#define RPG_CLIENT_SKILLCOUNTERITEM_BINDVIEW_OFFSET UNITYSDK_OFFSET(0xA4A7220)
+#define RPG_CLIENT_SKILLCOUNTERITEM_SETSHOWSTATE_OFFSET UNITYSDK_OFFSET(0xA4A74A0)
+#define RPG_CLIENT_SKILLCOUNTERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A7670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillCounterItem_TypeDefinitionIndex = 57666;
+	inline static constexpr unsigned int SkillCounterItem_TypeDefinitionIndex = 59285;
 
 	class SkillCounterItem : public ::UnityEngine::MonoBehaviour
 	{

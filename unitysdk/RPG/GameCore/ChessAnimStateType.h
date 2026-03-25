@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessAnimStateType_TypeDefinitionIndex = 15907;
+	inline static constexpr unsigned int ChessAnimStateType_TypeDefinitionIndex = 16184;
 
 	enum class ChessAnimStateType : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHaveLockTargetInCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_722D0F9F7C0CEE75_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10596B60)
-#define CLASS_3_722D0F9F7C0CEE75__CTOR_OFFSET UNITYSDK_OFFSET(0x10596B30)
+#define CLASS_3_722D0F9F7C0CEE75_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA45E2E0)
+#define CLASS_3_722D0F9F7C0CEE75__CTOR_OFFSET UNITYSDK_OFFSET(0xA45E2B0)
 
-inline static constexpr unsigned int Class_3_722D0F9F7C0CEE75_TypeDefinitionIndex = 42653;
+inline static constexpr unsigned int Class_3_722D0F9F7C0CEE75_TypeDefinitionIndex = 43703;
 
 class Class_3_722D0F9F7C0CEE75 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHaveLockTargetInCamera*>
 {

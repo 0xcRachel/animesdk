@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/UINavigation/UINavigationArea_StartCorner.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_UINAVIGATION_UINAVIGATIONAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D26A0)
+#define RPG_UINAVIGATION_UINAVIGATIONAREACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB16290)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationAreaConfig_TypeDefinitionIndex = 40780;
+	inline static constexpr unsigned int UINavigationAreaConfig_TypeDefinitionIndex = 41828;
 
 	class UINavigationAreaConfig : public ::System::Object
 	{

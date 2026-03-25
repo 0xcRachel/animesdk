@@ -20,12 +20,12 @@ namespace RPG::GameCore { class TriggerEffect; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET UNITYSDK_OFFSET(0x16DA3D60)
-#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16DA47D0)
+#define RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET UNITYSDK_OFFSET(0x1752AEB0)
+#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1752B920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 15873;
+	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 16150;
 
 	class PropConfig : public ::RPG::GameCore::JsonConfig
 	{

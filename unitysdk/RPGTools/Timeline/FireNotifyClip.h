@@ -7,12 +7,12 @@
 namespace RPGTools::Timeline { class FireNotifyBehavior; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_FIRENOTIFYCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xA62F290)
-#define RPGTOOLS_TIMELINE_FIRENOTIFYCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xA62F490)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB74AE0)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB74CE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FireNotifyClip_TypeDefinitionIndex = 38236;
+	inline static constexpr unsigned int FireNotifyClip_TypeDefinitionIndex = 39216;
 
 	class FireNotifyClip : public ::RPGTools::Timeline::CustomEventClip
 	{

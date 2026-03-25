@@ -4,27 +4,27 @@
 #include "unitysdk/UnityEngine/Plane.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_77D77BC5957EDBB1_CLASS_1_0768C4BEC10E6AAD__CTOR_OFFSET UNITYSDK_OFFSET(0x10E01990)
+#define CLASS_1_77D77BC5957EDBB1_CLASS_1_0768C4BEC10E6AAD__CTOR_OFFSET UNITYSDK_OFFSET(0x105288E0)
 
-inline static constexpr unsigned int Class_1_77D77BC5957EDBB1_Class_1_0768C4BEC10E6AAD_TypeDefinitionIndex = 55331;
+inline static constexpr unsigned int Class_1_77D77BC5957EDBB1_Class_1_0768C4BEC10E6AAD_TypeDefinitionIndex = 56896;
 
 class Class_1_77D77BC5957EDBB1_Class_1_0768C4BEC10E6AAD : public ::System::Object
 {
 public:
 	::Il2CppArray<::UnityEngine::Plane>* Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_9; // 0x18
-	::System::Single Field_1_11; // 0x24
-	::UnityEngine::Vector3 Field_1_4; // 0x28
-	::UnityEngine::Vector3 Field_1_10; // 0x34
-	::System::Single Field_1_12; // 0x40
-	::UnityEngine::Vector3 Field_1_5; // 0x44
-	::UnityEngine::Vector3 Field_1_8; // 0x50
-	::UnityEngine::Vector3 Field_1_1; // 0x5C
-	::UnityEngine::Vector3 Field_1_7; // 0x68
-	::UnityEngine::Vector3 Field_1_3; // 0x74
-	::UnityEngine::Vector3 Field_1_6; // 0x80
-	::System::Boolean Field_1_13; // 0x8C
-	::UnityEngine::Vector3 Field_1_2; // 0x90
+	::UnityEngine::Vector3 Field_1_2; // 0x18
+	::UnityEngine::Vector3 Field_1_5; // 0x24
+	::UnityEngine::Vector3 Field_1_8; // 0x30
+	::System::Single Field_1_12; // 0x3C
+	::UnityEngine::Vector3 Field_1_3; // 0x40
+	::UnityEngine::Vector3 Field_1_4; // 0x4C
+	::UnityEngine::Vector3 Field_1_7; // 0x58
+	::UnityEngine::Vector3 Field_1_1; // 0x64
+	::System::Boolean Field_1_13; // 0x70
+	::UnityEngine::Vector3 Field_1_10; // 0x74
+	::UnityEngine::Vector3 Field_1_9; // 0x80
+	::System::Single Field_1_11; // 0x8C
+	::UnityEngine::Vector3 Field_1_6; // 0x90
 
 	::System::Void _ctor()
 	{

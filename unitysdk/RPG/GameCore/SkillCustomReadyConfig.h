@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SkillCustomFormationConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLCUSTOMREADYCONFIG_METHOD_2_7A8790F7015E19A2_OFFSET UNITYSDK_OFFSET(0x16F6D130)
-#define RPG_GAMECORE_SKILLCUSTOMREADYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6D400)
+#define RPG_GAMECORE_SKILLCUSTOMREADYCONFIG_METHOD_2_7A8790F7015E19A2_OFFSET UNITYSDK_OFFSET(0x17722690)
+#define RPG_GAMECORE_SKILLCUSTOMREADYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17722960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillCustomReadyConfig_TypeDefinitionIndex = 16312;
+	inline static constexpr unsigned int SkillCustomReadyConfig_TypeDefinitionIndex = 16686;
 
 	class SkillCustomReadyConfig : public ::RPG::GameCore::JsonConfig
 	{

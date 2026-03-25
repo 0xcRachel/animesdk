@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolvePeriodType_TypeDefinitionIndex = 10607;
+	inline static constexpr unsigned int EvolvePeriodType_TypeDefinitionIndex = 10675;
 
 	enum class EvolvePeriodType : ::System::Int32
 	{

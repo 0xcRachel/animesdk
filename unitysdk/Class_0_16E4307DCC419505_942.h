@@ -1,7 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/NavMap/NavSpaceType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_942_TypeDefinitionIndex = 62285;
+class Class_0_16E4307DCC419505_940;
+class Class_0_16E4307DCC419505_943;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_942_TypeDefinitionIndex = 61287;
 
 class Class_0_16E4307DCC419505_942
 {

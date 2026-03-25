@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class TravelBrochureConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1710DC60)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1710DC90)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C___SAFEINITIALIZE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1710DCA0)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x178C9C60)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x178C9C90)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C___SAFEINITIALIZE_B__20_0_OFFSET UNITYSDK_OFFSET(0x178C9CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 13991;
+	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 14107;
 
 	class TravelBrochureConfigExcelTable___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>** StaticGet___9__20_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0x25D30);
-		}
 		static ::RPG::GameCore::TravelBrochureConfigExcelTable___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::TravelBrochureConfigExcelTable___c**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0x25D38);
+			return (::RPG::GameCore::TravelBrochureConfigExcelTable___c**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0x1D8C0);
+		}
+		static ::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>** StaticGet___9__20_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0x1D8C8);
 		}
 
 		static ::System::Void _cctor()

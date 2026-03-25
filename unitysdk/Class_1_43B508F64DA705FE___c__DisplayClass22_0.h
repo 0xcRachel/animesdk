@@ -6,10 +6,10 @@ class Class_1_8AA12367DC523613;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD246AA0)
-#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0xD247620)
+#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8749940)
+#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x874A4C0)
 
-inline static constexpr unsigned int Class_1_43B508F64DA705FE___c__DisplayClass22_0_TypeDefinitionIndex = 56882;
+inline static constexpr unsigned int Class_1_43B508F64DA705FE___c__DisplayClass22_0_TypeDefinitionIndex = 58471;
 
 class Class_1_43B508F64DA705FE___c__DisplayClass22_0 : public ::System::Object
 {

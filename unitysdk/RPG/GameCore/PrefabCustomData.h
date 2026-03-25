@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PREFABCUSTOMDATA_METHOD_2_779A929D7759169F_OFFSET UNITYSDK_OFFSET(0x16D9E1E0)
-#define RPG_GAMECORE_PREFABCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16D9E340)
+#define RPG_GAMECORE_PREFABCUSTOMDATA_METHOD_2_779A929D7759169F_OFFSET UNITYSDK_OFFSET(0x175252F0)
+#define RPG_GAMECORE_PREFABCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17525450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PrefabCustomData_TypeDefinitionIndex = 17099;
+	inline static constexpr unsigned int PrefabCustomData_TypeDefinitionIndex = 17504;
 
 	class PrefabCustomData : public ::RPG::GameCore::JsonConfig
 	{

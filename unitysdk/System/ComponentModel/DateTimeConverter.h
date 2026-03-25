@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DateTimeConverter_TypeDefinitionIndex = 2557;
+	inline static constexpr unsigned int DateTimeConverter_TypeDefinitionIndex = 2562;
 
 	class DateTimeConverter : public ::System::ComponentModel::TypeConverter
 	{

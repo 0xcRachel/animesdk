@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RenderingGlobalVars_capsuleConst_TypeDefinitionIndex = 28391;
+	inline static constexpr unsigned int RenderingGlobalVars_capsuleConst_TypeDefinitionIndex = 29266;
 
 	enum class RenderingGlobalVars_capsuleConst : ::System::Int32
 	{

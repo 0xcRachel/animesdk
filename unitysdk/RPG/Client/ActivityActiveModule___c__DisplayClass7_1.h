@@ -5,12 +5,12 @@
 class Class_1_0A1329B6B19F70B0;
 namespace RPG::Client { class ActiveActivityData; }
 
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8ADDC10)
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1___SYNCACTIVEACTIVITYDATALIST_B__1_OFFSET UNITYSDK_OFFSET(0x8ADE1B0)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8EDE6E0)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1___SYNCACTIVEACTIVITYDATALIST_B__1_OFFSET UNITYSDK_OFFSET(0x8EDEC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_1_TypeDefinitionIndex = 48692;
+	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_1_TypeDefinitionIndex = 49786;
 
 	class ActivityActiveModule___c__DisplayClass7_1 : public ::System::Object
 	{

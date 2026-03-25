@@ -6,18 +6,18 @@
 namespace System { class Exception; }
 namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18483870)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS32_0__INVOKEREJECTHANDLERS_B__0_OFFSET UNITYSDK_OFFSET(0x18485270)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA0980)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS32_0__INVOKEREJECTHANDLERS_B__0_OFFSET UNITYSDK_OFFSET(0x18CA2390)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass32_0_TypeDefinitionIndex = 29716;
+	inline static constexpr unsigned int Promise___c__DisplayClass32_0_TypeDefinitionIndex = 30591;
 
 	class Promise___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::System::Exception* ex; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::Promise* __4__this; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::Promise* __4__this; // 0x10
+		::System::Exception* ex; // 0x18
 
 		::System::Void _ctor()
 		{

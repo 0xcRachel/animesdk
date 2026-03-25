@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolLoadMode_TypeDefinitionIndex = 21962;
+	inline static constexpr unsigned int ConfigDataPoolLoadMode_TypeDefinitionIndex = 22527;
 
 	enum class ConfigDataPoolLoadMode : ::System::Int32
 	{

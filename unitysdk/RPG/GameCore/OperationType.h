@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OperationType_TypeDefinitionIndex = 46592;
+	inline static constexpr unsigned int OperationType_TypeDefinitionIndex = 47671;
 
 	enum class OperationType : ::System::Int32
 	{

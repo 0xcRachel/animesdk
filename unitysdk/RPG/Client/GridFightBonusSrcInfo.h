@@ -6,11 +6,11 @@
 namespace RPG::Client { class GridFightAugmentConfig; }
 namespace RPG::Client { class GridFightPortalData; }
 
-#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x931DC00)
+#define RPG_CLIENT_GRIDFIGHTBONUSSRCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x97F59A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 51158;
+	inline static constexpr unsigned int GridFightBonusSrcInfo_TypeDefinitionIndex = 52291;
 
 	class GridFightBonusSrcInfo : public ::System::Object
 	{

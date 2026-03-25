@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArchiveRedDotType_TypeDefinitionIndex = 49569;
+	inline static constexpr unsigned int ArchiveRedDotType_TypeDefinitionIndex = 50702;
 
 	enum class ArchiveRedDotType : ::System::Int32
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define SPINESKELETONFLIPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x17BEB1A0)
+#define SPINESKELETONFLIPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x184040D0)
 
-inline static constexpr unsigned int SpineSkeletonFlipBehaviour_TypeDefinitionIndex = 34132;
+inline static constexpr unsigned int SpineSkeletonFlipBehaviour_TypeDefinitionIndex = 35066;
 
 class SpineSkeletonFlipBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 {

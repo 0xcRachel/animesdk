@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharaEyeBlinkStateType_TypeDefinitionIndex = 54249;
+	inline static constexpr unsigned int CharaEyeBlinkStateType_TypeDefinitionIndex = 55807;
 
 	enum class CharaEyeBlinkStateType : ::System::Int32
 	{

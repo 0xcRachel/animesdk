@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int HmdColor_t_TypeDefinitionIndex = 29439;
+	inline static constexpr unsigned int HmdColor_t_TypeDefinitionIndex = 30314;
 
 	struct alignas(4) HmdColor_t
 	{

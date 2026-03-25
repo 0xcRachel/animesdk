@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsContainAdventureModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E7AF1FB00D4CEAB1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10C4C760)
-#define CLASS_3_E7AF1FB00D4CEAB1__CTOR_OFFSET UNITYSDK_OFFSET(0x10C4C730)
+#define CLASS_3_E7AF1FB00D4CEAB1_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4E7CA0)
+#define CLASS_3_E7AF1FB00D4CEAB1__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E7C70)
 
-inline static constexpr unsigned int Class_3_E7AF1FB00D4CEAB1_TypeDefinitionIndex = 42667;
+inline static constexpr unsigned int Class_3_E7AF1FB00D4CEAB1_TypeDefinitionIndex = 43717;
 
 class Class_3_E7AF1FB00D4CEAB1 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsContainAdventureModifier*>
 {

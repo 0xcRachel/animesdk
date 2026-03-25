@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_F80BFD5B986D5503_4.h"
+#include "unitysdk/Enum_3_F80BFD5B986D5503_3.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
 namespace RPG::Client { class LobbyModule; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x967AFF0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0x967B240)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__3_OFFSET UNITYSDK_OFFSET(0x967B2E0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0x967B100)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9679690)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0x9B60770)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0x9B609C0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__3_OFFSET UNITYSDK_OFFSET(0x9B60A60)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0x9B60880)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B5EF20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass2_0_TypeDefinitionIndex = 52466;
+	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass2_0_TypeDefinitionIndex = 53602;
 
 	class MatchThreeUtils___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
-		::RPG::Client::LobbyModule* lobbyModule; // 0x18
+		::RPG::Client::LobbyModule* lobbyModule; // 0x10
+		::System::Action* __9__3; // 0x18
 		::System::Action* __9__2; // 0x20
 		::System::UInt32 birdID; // 0x28
 
@@ -30,9 +30,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _CreateAndOpenLobby_b__0(::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_4> param)
+		::System::Void _CreateAndOpenLobby_b__0(::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_3> param)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_4>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__0_OFFSET))(this, param);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_2<::System::Boolean, ::Enum_3_F80BFD5B986D5503_3>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__0_OFFSET))(this, param);
 		}
 
 		::System::Void _CreateAndOpenLobby_b__2()

@@ -2,79 +2,79 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0A1329B6B19F70B0_7;
-class Class_1_352A8B3482C80E7D_45;
-class Class_1_FA4F4A67B1C04320_693;
-class Class_1_FB0633E85BD6CF8E_2;
+class Class_1_0A1329B6B19F70B0_5;
+class Class_1_352A8B3482C80E7D_46;
+class Class_1_FA4F4A67B1C04320_716;
+class Class_1_FB0633E85BD6CF8E_10;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Proto { class ItemList; }
 namespace RPG::Client { class AddNewAvatarInfo; }
-namespace RPG::Client { class AvatarData; }
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class RogueBuffData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEFINISHINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9DE5710)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_AREAFIRSTPASSSCORE_OFFSET UNITYSDK_OFFSET(0x9DE5B90)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_AVATARREWARDS_OFFSET UNITYSDK_OFFSET(0x9DE5C30)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_FIRSTREWARDS_OFFSET UNITYSDK_OFFSET(0x9DE5C10)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x9DE5AF0)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_PASSROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x9DE5B30)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_REACHROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x9DE5B50)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDAVATARDATAS_OFFSET UNITYSDK_OFFSET(0x9DE5C90)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDBUFFDATAS_OFFSET UNITYSDK_OFFSET(0x9DE5C50)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDMIRACLEIDS_OFFSET UNITYSDK_OFFSET(0x9DE5C70)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_ROGUEAREAID_OFFSET UNITYSDK_OFFSET(0x9DE5B10)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_ROOMSCORE_OFFSET UNITYSDK_OFFSET(0x9DE5BB0)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_TALENTCOIN_OFFSET UNITYSDK_OFFSET(0x9DE5BF0)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_TOTALROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x9DE5B70)
-#define RPG_CLIENT_ROGUEFINISHINFO_GET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x9DE5BD0)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_AREAFIRSTPASSSCORE_OFFSET UNITYSDK_OFFSET(0x9DE5BA0)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_AVATARREWARDS_OFFSET UNITYSDK_OFFSET(0x9DE5C40)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_FIRSTREWARDS_OFFSET UNITYSDK_OFFSET(0x9DE5C20)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x9DE5B00)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_PASSROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x9DE5B40)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_REACHROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x9DE5B60)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_RECORDBUFFDATAS_OFFSET UNITYSDK_OFFSET(0x9DE5C60)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_RECORDMIRACLEIDS_OFFSET UNITYSDK_OFFSET(0x9DE5C80)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_ROGUEAREAID_OFFSET UNITYSDK_OFFSET(0x9DE5B20)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_ROOMSCORE_OFFSET UNITYSDK_OFFSET(0x9DE5BC0)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_TALENTCOIN_OFFSET UNITYSDK_OFFSET(0x9DE5C00)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_TOTALROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x9DE5B80)
-#define RPG_CLIENT_ROGUEFINISHINFO_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0x9DE5BE0)
-#define RPG_CLIENT_ROGUEFINISHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9DE5340)
-#define RPG_CLIENT_ROGUEFINISHINFO__INITBASEINFO_OFFSET UNITYSDK_OFFSET(0x9DE53E0)
-#define RPG_CLIENT_ROGUEFINISHINFO__INITFIRSTREWARDS_OFFSET UNITYSDK_OFFSET(0x9DE55E0)
-#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDAVATARS_OFFSET UNITYSDK_OFFSET(0x9DE5A00)
-#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDBUFFS_OFFSET UNITYSDK_OFFSET(0x9DE5840)
-#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDINFO_OFFSET UNITYSDK_OFFSET(0x9DE5560)
-#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDMIRACLES_OFFSET UNITYSDK_OFFSET(0x9DE5940)
+#define RPG_CLIENT_ROGUEFINISHINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA306C90)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_AREAFIRSTPASSSCORE_OFFSET UNITYSDK_OFFSET(0xA307110)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_AVATARREWARDS_OFFSET UNITYSDK_OFFSET(0xA3071B0)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_FIRSTREWARDS_OFFSET UNITYSDK_OFFSET(0xA307190)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0xA307070)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_PASSROOMCOUNT_OFFSET UNITYSDK_OFFSET(0xA3070B0)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_REACHROOMCOUNT_OFFSET UNITYSDK_OFFSET(0xA3070D0)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDAVATARS_OFFSET UNITYSDK_OFFSET(0xA307210)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDBUFFDATAS_OFFSET UNITYSDK_OFFSET(0xA3071D0)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDMIRACLEIDS_OFFSET UNITYSDK_OFFSET(0xA3071F0)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_ROGUEAREAID_OFFSET UNITYSDK_OFFSET(0xA307090)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_ROOMSCORE_OFFSET UNITYSDK_OFFSET(0xA307130)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_TALENTCOIN_OFFSET UNITYSDK_OFFSET(0xA307170)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_TOTALROOMCOUNT_OFFSET UNITYSDK_OFFSET(0xA3070F0)
+#define RPG_CLIENT_ROGUEFINISHINFO_GET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0xA307150)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_AREAFIRSTPASSSCORE_OFFSET UNITYSDK_OFFSET(0xA307120)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_AVATARREWARDS_OFFSET UNITYSDK_OFFSET(0xA3071C0)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_FIRSTREWARDS_OFFSET UNITYSDK_OFFSET(0xA3071A0)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xA307080)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_PASSROOMCOUNT_OFFSET UNITYSDK_OFFSET(0xA3070C0)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_REACHROOMCOUNT_OFFSET UNITYSDK_OFFSET(0xA3070E0)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_RECORDBUFFDATAS_OFFSET UNITYSDK_OFFSET(0xA3071E0)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_RECORDMIRACLEIDS_OFFSET UNITYSDK_OFFSET(0xA307200)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_ROGUEAREAID_OFFSET UNITYSDK_OFFSET(0xA3070A0)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_ROOMSCORE_OFFSET UNITYSDK_OFFSET(0xA307140)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_TALENTCOIN_OFFSET UNITYSDK_OFFSET(0xA307180)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_TOTALROOMCOUNT_OFFSET UNITYSDK_OFFSET(0xA307100)
+#define RPG_CLIENT_ROGUEFINISHINFO_SET_TOTALSCORE_OFFSET UNITYSDK_OFFSET(0xA307160)
+#define RPG_CLIENT_ROGUEFINISHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA3068C0)
+#define RPG_CLIENT_ROGUEFINISHINFO__INITBASEINFO_OFFSET UNITYSDK_OFFSET(0xA306960)
+#define RPG_CLIENT_ROGUEFINISHINFO__INITFIRSTREWARDS_OFFSET UNITYSDK_OFFSET(0xA306B60)
+#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDAVATARS_OFFSET UNITYSDK_OFFSET(0xA306F80)
+#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDBUFFS_OFFSET UNITYSDK_OFFSET(0xA306DC0)
+#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDINFO_OFFSET UNITYSDK_OFFSET(0xA306AE0)
+#define RPG_CLIENT_ROGUEFINISHINFO__INITRECORDMIRACLES_OFFSET UNITYSDK_OFFSET(0xA306EC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFinishInfo_TypeDefinitionIndex = 53613;
+	inline static constexpr unsigned int RogueFinishInfo_TypeDefinitionIndex = 54970;
 
 	class RogueFinishInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_1_352A8B3482C80E7D_45*>* _RecordAvatars; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _FirstRewards_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _RecordMiracleIDs_k__BackingField; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::RogueBuffData*>* _RecordBuffDatas_k__BackingField; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>* _AvatarRewards_k__BackingField; // 0x30
-		::System::UInt32 _TotalScore_k__BackingField; // 0x38
-		::System::UInt32 _PassRoomCount_k__BackingField; // 0x3C
-		::System::UInt32 _AreaFirstPassScore_k__BackingField; // 0x40
-		::System::UInt32 _TalentCoin_k__BackingField; // 0x44
-		::System::UInt32 _RogueAreaID_k__BackingField; // 0x48
-		::System::Boolean _IsWin_k__BackingField; // 0x4C
-		::System::UInt32 _TotalRoomCount_k__BackingField; // 0x50
-		::System::UInt32 _ReachRoomCount_k__BackingField; // 0x54
-		::System::UInt32 _RoomScore_k__BackingField; // 0x58
+		::System::Collections::Generic::List_1<::Class_1_352A8B3482C80E7D_46*>* _RecordAvatars; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>* _AvatarRewards_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::RogueBuffData*>* _RecordBuffDatas_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _RecordMiracleIDs_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _FirstRewards_k__BackingField; // 0x30
+		::System::Boolean _IsWin_k__BackingField; // 0x38
+		::System::UInt32 _TalentCoin_k__BackingField; // 0x3C
+		::System::UInt32 _TotalScore_k__BackingField; // 0x40
+		::System::UInt32 _TotalRoomCount_k__BackingField; // 0x44
+		::System::UInt32 _PassRoomCount_k__BackingField; // 0x48
+		::System::UInt32 _RoomScore_k__BackingField; // 0x4C
+		::System::UInt32 _ReachRoomCount_k__BackingField; // 0x50
+		::System::UInt32 _AreaFirstPassScore_k__BackingField; // 0x54
+		::System::UInt32 _RogueAreaID_k__BackingField; // 0x58
 
-		::System::Void _ctor(::Class_1_FB0633E85BD6CF8E_2* finishInfo, ::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>* avatarRewardInfo)
+		::System::Void _ctor(::Class_1_FB0633E85BD6CF8E_10* finishInfo, ::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>* avatarRewardInfo)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FB0633E85BD6CF8E_2*, ::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__CTOR_OFFSET))(this, finishInfo, avatarRewardInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FB0633E85BD6CF8E_10*, ::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__CTOR_OFFSET))(this, finishInfo, avatarRewardInfo);
 		}
 
 		::System::Void Dispose()
@@ -82,9 +82,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void _InitBaseInfo(::Class_1_FB0633E85BD6CF8E_2* finishInfo)
+		::System::Void _InitBaseInfo(::Class_1_FB0633E85BD6CF8E_10* finishInfo)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FB0633E85BD6CF8E_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITBASEINFO_OFFSET))(this, finishInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FB0633E85BD6CF8E_10*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITBASEINFO_OFFSET))(this, finishInfo);
 		}
 
 		::System::Void _InitFirstRewards(::Proto::ItemList* firstReward, ::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>* avatarRewardInfo)
@@ -92,14 +92,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*, ::System::Collections::Generic::List_1<::RPG::Client::AddNewAvatarInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITFIRSTREWARDS_OFFSET))(this, firstReward, avatarRewardInfo);
 		}
 
-		::System::Void _InitRecordInfo(::Class_1_0A1329B6B19F70B0_7* recordInfo)
+		::System::Void _InitRecordInfo(::Class_1_0A1329B6B19F70B0_5* recordInfo)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_0A1329B6B19F70B0_7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDINFO_OFFSET))(this, recordInfo);
+			return ((::System::Void(*)(::PVOID, ::Class_1_0A1329B6B19F70B0_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDINFO_OFFSET))(this, recordInfo);
 		}
 
-		::System::Void _InitRecordBuffs(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_693*>* buffs)
+		::System::Void _InitRecordBuffs(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_716*>* buffs)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_693*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDBUFFS_OFFSET))(this, buffs);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_716*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDBUFFS_OFFSET))(this, buffs);
 		}
 
 		::System::Void _InitRecordMiracles(::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* miracleIDs)
@@ -107,9 +107,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDMIRACLES_OFFSET))(this, miracleIDs);
 		}
 
-		::System::Void _InitRecordAvatars(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_352A8B3482C80E7D_45*>* avatars)
+		::System::Void _InitRecordAvatars(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_352A8B3482C80E7D_46*>* avatars)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_352A8B3482C80E7D_45*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDAVATARS_OFFSET))(this, avatars);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_352A8B3482C80E7D_46*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO__INITRECORDAVATARS_OFFSET))(this, avatars);
 		}
 
 		::System::Boolean get_IsWin()
@@ -242,9 +242,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO_SET_RECORDMIRACLEIDS_OFFSET))(this, value);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::AvatarData*>* get_RecordAvatarDatas()
+		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* get_RecordAvatars()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::AvatarData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDAVATARDATAS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEFINISHINFO_GET_RECORDAVATARS_OFFSET))(this);
 		}
 	};
 }

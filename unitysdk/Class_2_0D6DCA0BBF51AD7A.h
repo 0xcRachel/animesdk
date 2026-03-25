@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_2_0D6DCA0BBF51AD7A_METHOD_2_8771FA9A58612F46_OFFSET UNITYSDK_OFFSET(0x16692A80)
-#define CLASS_2_0D6DCA0BBF51AD7A__CTOR_OFFSET UNITYSDK_OFFSET(0x16692C50)
+#define CLASS_2_0D6DCA0BBF51AD7A_METHOD_2_8771FA9A58612F46_OFFSET UNITYSDK_OFFSET(0x16C0A180)
+#define CLASS_2_0D6DCA0BBF51AD7A__CTOR_OFFSET UNITYSDK_OFFSET(0x16C0A350)
 
-inline static constexpr unsigned int Class_2_0D6DCA0BBF51AD7A_TypeDefinitionIndex = 20520;
+inline static constexpr unsigned int Class_2_0D6DCA0BBF51AD7A_TypeDefinitionIndex = 21068;
 
 class Class_2_0D6DCA0BBF51AD7A : public ::RPG::GameCore::JsonConfig
 {
 public:
 	::System::String* Field_2_3; // 0x10
-	::System::Single Field_2_2; // 0x18
-	::RPG::MVector3 Field_2_0; // 0x1C
-	::RPG::MVector3 Field_2_1; // 0x28
+	::RPG::MVector3 Field_2_1; // 0x18
+	::RPG::MVector3 Field_2_0; // 0x24
+	::System::Single Field_2_2; // 0x30
 
 	::System::Void _ctor()
 	{

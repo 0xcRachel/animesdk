@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define CLASS_1_19D01C62D4162984_METHOD_1_ED0DB36404E5A689_OFFSET UNITYSDK_OFFSET(0x10B2F210)
-#define CLASS_1_19D01C62D4162984__CTOR_OFFSET UNITYSDK_OFFSET(0x10B2F2C0)
+#define CLASS_1_19D01C62D4162984_METHOD_1_ED0DB36404E5A689_OFFSET UNITYSDK_OFFSET(0x99E8510)
+#define CLASS_1_19D01C62D4162984__CTOR_OFFSET UNITYSDK_OFFSET(0x99E85C0)
 
-inline static constexpr unsigned int Class_1_19D01C62D4162984_TypeDefinitionIndex = 43474;
+inline static constexpr unsigned int Class_1_19D01C62D4162984_TypeDefinitionIndex = 44530;
 
 class Class_1_19D01C62D4162984 : public ::System::Object
 {
 public:
 	::System::String* Field_1_1; // 0x10
-	::System::Int32 Field_1_2; // 0x18
+	::System::UInt32 Field_1_3; // 0x18
 	::System::UInt32 Field_1_0; // 0x1C
-	::System::UInt32 Field_1_3; // 0x20
+	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

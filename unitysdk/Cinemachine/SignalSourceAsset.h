@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_SIGNALSOURCEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x11266040)
+#define CINEMACHINE_SIGNALSOURCEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x119F01D0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int SignalSourceAsset_TypeDefinitionIndex = 30012;
+	inline static constexpr unsigned int SignalSourceAsset_TypeDefinitionIndex = 30887;
 
 	class SignalSourceAsset : public ::UnityEngine::ScriptableObject
 	{

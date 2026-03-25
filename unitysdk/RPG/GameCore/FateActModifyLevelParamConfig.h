@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_5_98573C6DA48511BC_OFFSET UNITYSDK_OFFSET(0x16A92230)
-#define RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_5_ED2BD8C129614B56_OFFSET UNITYSDK_OFFSET(0x16A92100)
-#define RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A921B0)
+#define RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_6_51C134C2E14D8C49_OFFSET UNITYSDK_OFFSET(0x171D62C0)
+#define RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_6_611D252F3AEA0502_OFFSET UNITYSDK_OFFSET(0x171D6150)
+#define RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171D6220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateActModifyLevelParamConfig_TypeDefinitionIndex = 17251;
+	inline static constexpr unsigned int FateActModifyLevelParamConfig_TypeDefinitionIndex = 17656;
 
 	class FateActModifyLevelParamConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_ED2BD8C129614B56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActModifyLevelParamConfig*& a2)
+		static ::System::Void Method_6_611D252F3AEA0502(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActModifyLevelParamConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActModifyLevelParamConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_5_ED2BD8C129614B56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActModifyLevelParamConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_6_611D252F3AEA0502_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_98573C6DA48511BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActModifyLevelParamConfig* a2)
+		static ::System::Void Method_6_51C134C2E14D8C49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActModifyLevelParamConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActModifyLevelParamConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_5_98573C6DA48511BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActModifyLevelParamConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTMODIFYLEVELPARAMCONFIG_METHOD_6_51C134C2E14D8C49_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class MonopolyCheckHasFinishedQuiz; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_D111A823E33F12EE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x105BE0E0)
-#define CLASS_2_D111A823E33F12EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105BDE70)
-#define CLASS_2_D111A823E33F12EE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105BE090)
-#define CLASS_2_D111A823E33F12EE_TICK_OFFSET UNITYSDK_OFFSET(0x105BE180)
-#define CLASS_2_D111A823E33F12EE__CTOR_OFFSET UNITYSDK_OFFSET(0x105BDD70)
+#define CLASS_2_D111A823E33F12EE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x114391B0)
+#define CLASS_2_D111A823E33F12EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11438F40)
+#define CLASS_2_D111A823E33F12EE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11439160)
+#define CLASS_2_D111A823E33F12EE_TICK_OFFSET UNITYSDK_OFFSET(0x11439250)
+#define CLASS_2_D111A823E33F12EE__CTOR_OFFSET UNITYSDK_OFFSET(0x11438E40)
 
-inline static constexpr unsigned int Class_2_D111A823E33F12EE_TypeDefinitionIndex = 45888;
+inline static constexpr unsigned int Class_2_D111A823E33F12EE_TypeDefinitionIndex = 46956;
 
 class Class_2_D111A823E33F12EE : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::Class_3_BCCE950C2E8DF1F0* Field_2_2; // 0x20
-	::RPG::GameCore::MonopolyCheckHasFinishedQuiz* Field_2_1; // 0x28
-	::Class_3_BCCE950C2E8DF1F0* Field_2_3; // 0x30
+	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x18
+	::RPG::GameCore::MonopolyCheckHasFinishedQuiz* Field_2_1; // 0x20
+	::Class_3_5775A4FEC79026BC* Field_2_3; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyCheckHasFinishedQuiz* a2)
 	{

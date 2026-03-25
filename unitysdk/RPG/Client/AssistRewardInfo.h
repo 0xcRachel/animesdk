@@ -7,21 +7,21 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class SupportData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSISTREWARDINFO_GET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0x8C99E70)
-#define RPG_CLIENT_ASSISTREWARDINFO_GET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0x8C99E90)
-#define RPG_CLIENT_ASSISTREWARDINFO_SET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0x8C99E80)
-#define RPG_CLIENT_ASSISTREWARDINFO_SET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0x8C99EA0)
-#define RPG_CLIENT_ASSISTREWARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x8C99C90)
+#define RPG_CLIENT_ASSISTREWARDINFO_GET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0x90EB3D0)
+#define RPG_CLIENT_ASSISTREWARDINFO_GET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0x90EB3F0)
+#define RPG_CLIENT_ASSISTREWARDINFO_SET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0x90EB3E0)
+#define RPG_CLIENT_ASSISTREWARDINFO_SET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0x90EB400)
+#define RPG_CLIENT_ASSISTREWARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x90EB280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssistRewardInfo_TypeDefinitionIndex = 51035;
+	inline static constexpr unsigned int AssistRewardInfo_TypeDefinitionIndex = 52170;
 
 	class AssistRewardInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::ItemDisplayData* _TotalReward_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::SupportData*>* _SupportDataList_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::SupportData*>* _SupportDataList_k__BackingField; // 0x10
+		::RPG::Client::ItemDisplayData* _TotalReward_k__BackingField; // 0x18
 
 		::System::Void _ctor(::Class_1_5636525BB18EF8A9_1* serverInfo)
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LittleGameSpeedLineEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_24F1A0D31B281AD5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11109050)
-#define CLASS_3_24F1A0D31B281AD5__CTOR_OFFSET UNITYSDK_OFFSET(0x11109020)
+#define CLASS_3_24F1A0D31B281AD5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1062F6E0)
+#define CLASS_3_24F1A0D31B281AD5__CTOR_OFFSET UNITYSDK_OFFSET(0x1062F6B0)
 
-inline static constexpr unsigned int Class_3_24F1A0D31B281AD5_TypeDefinitionIndex = 41819;
+inline static constexpr unsigned int Class_3_24F1A0D31B281AD5_TypeDefinitionIndex = 42868;
 
 class Class_3_24F1A0D31B281AD5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LittleGameSpeedLineEffect*>
 {

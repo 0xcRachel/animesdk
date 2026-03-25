@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-inline static constexpr unsigned int Struct_2_B3CFB45E7E960210_TypeDefinitionIndex = 54728;
+inline static constexpr unsigned int Struct_2_B3CFB45E7E960210_TypeDefinitionIndex = 56288;
 
 struct alignas(8) Struct_2_B3CFB45E7E960210
 {

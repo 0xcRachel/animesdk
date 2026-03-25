@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueGambleGroupData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DEF520)
-#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DEF550)
-#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C___SORTGROUPDATALIST_B__12_0_OFFSET UNITYSDK_OFFSET(0x9DEF560)
+#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA310A00)
+#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA310A40)
+#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C___SORTGROUPDATALIST_B__12_0_OFFSET UNITYSDK_OFFSET(0xA310A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueGambleBaseFunc___c_TypeDefinitionIndex = 53431;
+	inline static constexpr unsigned int RogueGambleBaseFunc___c_TypeDefinitionIndex = 54747;
 
 	class RogueGambleBaseFunc___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::RogueGambleGroupData*>** StaticGet___9__12_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueGambleGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueGambleBaseFunc___c_TypeDefinitionIndex)->GetStaticField(0x45BA0);
+			return (::System::Comparison_1<::RPG::Client::RogueGambleGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueGambleBaseFunc___c_TypeDefinitionIndex)->GetStaticField(0x1F2A0);
 		}
 		static ::RPG::Client::RogueGambleBaseFunc___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueGambleBaseFunc___c**)Il2CppClass::FromTypeDefinitionIndex(RogueGambleBaseFunc___c_TypeDefinitionIndex)->GetStaticField(0x45BA8);
+			return (::RPG::Client::RogueGambleBaseFunc___c**)Il2CppClass::FromTypeDefinitionIndex(RogueGambleBaseFunc___c_TypeDefinitionIndex)->GetStaticField(0x1F2A8);
 		}
 
 		static ::System::Void _cctor()

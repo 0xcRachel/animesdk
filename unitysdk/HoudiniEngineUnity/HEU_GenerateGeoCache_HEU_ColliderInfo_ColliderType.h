@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderType_TypeDefinitionIndex = 36879;
+	inline static constexpr unsigned int HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderType_TypeDefinitionIndex = 37816;
 
 	enum class HEU_GenerateGeoCache_HEU_ColliderInfo_ColliderType : ::System::Int32
 	{

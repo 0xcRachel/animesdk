@@ -8,22 +8,22 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelStruct
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_DB1CA1392BE6F152_CLASS_1_222A701F7C5EBAAC_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xEEC95B0)
-#define CLASS_1_DB1CA1392BE6F152_CLASS_1_222A701F7C5EBAAC__CTOR_OFFSET UNITYSDK_OFFSET(0xEEC9B30)
+#define CLASS_1_DB1CA1392BE6F152_CLASS_1_222A701F7C5EBAAC_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10BA8AF0)
+#define CLASS_1_DB1CA1392BE6F152_CLASS_1_222A701F7C5EBAAC__CTOR_OFFSET UNITYSDK_OFFSET(0x10BA9070)
 
-inline static constexpr unsigned int Class_1_DB1CA1392BE6F152_Class_1_222A701F7C5EBAAC_TypeDefinitionIndex = 60537;
+inline static constexpr unsigned int Class_1_DB1CA1392BE6F152_Class_1_222A701F7C5EBAAC_TypeDefinitionIndex = 62515;
 
 class Class_1_DB1CA1392BE6F152_Class_1_222A701F7C5EBAAC : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Single>* Field_1_1; // 0x10
-	::UnityEngine::Transform* Field_1_6; // 0x18
+	::UnityEngine::Transform* Field_1_6; // 0x10
+	::System::Collections::Generic::List_1<::System::Single>* Field_1_1; // 0x18
 	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* Field_1_0; // 0x20
-	::UnityEngine::Quaternion Field_1_5; // 0x28
-	::System::Single Field_1_3; // 0x38
+	::System::Single Field_1_3; // 0x28
+	::UnityEngine::Quaternion Field_1_5; // 0x2C
 	::UnityEngine::Vector3 Field_1_4; // 0x3C
-	::System::Boolean Field_1_7; // 0x48
-	::System::Single Field_1_2; // 0x4C
+	::System::Single Field_1_2; // 0x48
+	::System::Boolean Field_1_7; // 0x4C
 
 	::System::Void _ctor()
 	{

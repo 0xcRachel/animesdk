@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_BufferInfo_TypeDefinitionIndex = 3890;
+	inline static constexpr unsigned int AstraFXResource_BufferInfo_TypeDefinitionIndex = 3899;
 
 	struct alignas(4) AstraFXResource_BufferInfo
 	{

@@ -4,7 +4,7 @@
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int DeallocateOnJobCompletionAttribute_TypeDefinitionIndex = 3782;
+	inline static constexpr unsigned int DeallocateOnJobCompletionAttribute_TypeDefinitionIndex = 3791;
 
 	class DeallocateOnJobCompletionAttribute : public ::System::Attribute
 	{

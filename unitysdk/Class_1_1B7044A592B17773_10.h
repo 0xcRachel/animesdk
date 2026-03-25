@@ -2,55 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1B7044A592B17773_10_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1058DBB0)
-#define CLASS_1_1B7044A592B17773_10_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1058DBD0)
-#define CLASS_1_1B7044A592B17773_10_GET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x1058DBF0)
-#define CLASS_1_1B7044A592B17773_10_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1058DBC0)
-#define CLASS_1_1B7044A592B17773_10_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x1058DBE0)
-#define CLASS_1_1B7044A592B17773_10_SET_LITTLEGAMEENTITYID_OFFSET UNITYSDK_OFFSET(0x1058DC00)
-#define CLASS_1_1B7044A592B17773_10__CTOR_OFFSET UNITYSDK_OFFSET(0x1058DC10)
+#define CLASS_1_1B7044A592B17773_10_GET_SPONSORID_OFFSET UNITYSDK_OFFSET(0x87A2490)
+#define CLASS_1_1B7044A592B17773_10_GET_STATEID_OFFSET UNITYSDK_OFFSET(0x87A24B0)
+#define CLASS_1_1B7044A592B17773_10_METHOD_1_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0x87A2440)
+#define CLASS_1_1B7044A592B17773_10_METHOD_1_B8FF86B5386F944C_OFFSET UNITYSDK_OFFSET(0x87A23D0)
+#define CLASS_1_1B7044A592B17773_10_SET_SPONSORID_OFFSET UNITYSDK_OFFSET(0x87A24A0)
+#define CLASS_1_1B7044A592B17773_10_SET_STATEID_OFFSET UNITYSDK_OFFSET(0x87A24C0)
+#define CLASS_1_1B7044A592B17773_10__CTOR_OFFSET UNITYSDK_OFFSET(0x87A2430)
 
-inline static constexpr unsigned int Class_1_1B7044A592B17773_10_TypeDefinitionIndex = 59571;
+inline static constexpr unsigned int Class_1_1B7044A592B17773_10_TypeDefinitionIndex = 61070;
 
 class Class_1_1B7044A592B17773_10 : public ::System::Object
 {
 public:
-	::System::UInt32 _GroupID_k__BackingField; // 0x10
-	::System::UInt32 _LittleGameEntityID_k__BackingField; // 0x14
-	::System::UInt32 _InstanceID_k__BackingField; // 0x18
+	::System::UInt32 _StateID_k__BackingField; // 0x10
+	::System::UInt32 _SponsorID_k__BackingField; // 0x14
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 get_GroupID()
+	static ::Class_1_1B7044A592B17773_10* Method_1_B8FF86B5386F944C(::System::UInt32 a1)
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_GET_GROUPID_OFFSET))(this);
+		return ((::Class_1_1B7044A592B17773_10*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_METHOD_1_B8FF86B5386F944C_OFFSET))(a1);
 	}
 
-	::System::Void set_GroupID(::System::UInt32 value)
+	::System::Void Method_1_6E57D3559C10FFA9(::System::UInt32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_SET_GROUPID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_METHOD_1_6E57D3559C10FFA9_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 get_InstanceID()
+	::System::UInt32 get_SponsorID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_GET_INSTANCEID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_GET_SPONSORID_OFFSET))(this);
 	}
 
-	::System::Void set_InstanceID(::System::UInt32 value)
+	::System::Void set_SponsorID(::System::UInt32 value)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_SET_INSTANCEID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_SET_SPONSORID_OFFSET))(this, value);
 	}
 
-	::System::UInt32 get_LittleGameEntityID()
+	::System::UInt32 get_StateID()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_GET_LITTLEGAMEENTITYID_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_GET_STATEID_OFFSET))(this);
 	}
 
-	::System::Void set_LittleGameEntityID(::System::UInt32 value)
+	::System::Void set_StateID(::System::UInt32 value)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_SET_LITTLEGAMEENTITYID_OFFSET))(this, value);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_1B7044A592B17773_10_SET_STATEID_OFFSET))(this, value);
 	}
 };

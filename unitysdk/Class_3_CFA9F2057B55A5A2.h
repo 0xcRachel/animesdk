@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByPlantFesIsInSpineAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CFA9F2057B55A5A2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x893E180)
-#define CLASS_3_CFA9F2057B55A5A2__CTOR_OFFSET UNITYSDK_OFFSET(0x893E150)
+#define CLASS_3_CFA9F2057B55A5A2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8DF14F0)
+#define CLASS_3_CFA9F2057B55A5A2__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF14C0)
 
-inline static constexpr unsigned int Class_3_CFA9F2057B55A5A2_TypeDefinitionIndex = 45700;
+inline static constexpr unsigned int Class_3_CFA9F2057B55A5A2_TypeDefinitionIndex = 46768;
 
 class Class_3_CFA9F2057B55A5A2 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByPlantFesIsInSpineAnim*>
 {

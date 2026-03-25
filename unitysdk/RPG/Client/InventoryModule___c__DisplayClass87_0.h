@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ConvertibleItemData; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS87_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94E9E40)
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS87_0__GETCONVERTIBLEITEMDATABYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0x94E9E50)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS87_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9965690)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS87_0__GETCONVERTIBLEITEMDATABYITEMID_B__0_OFFSET UNITYSDK_OFFSET(0x996E2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c__DisplayClass87_0_TypeDefinitionIndex = 52220;
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass87_0_TypeDefinitionIndex = 53356;
 
 	class InventoryModule___c__DisplayClass87_0 : public ::System::Object
 	{

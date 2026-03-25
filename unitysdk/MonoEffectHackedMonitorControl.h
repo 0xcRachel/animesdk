@@ -4,10 +4,10 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define MONOEFFECTHACKEDMONITORCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x111FFAC0)
-#define MONOEFFECTHACKEDMONITORCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x111FFBC0)
+#define MONOEFFECTHACKEDMONITORCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x88CA1B0)
+#define MONOEFFECTHACKEDMONITORCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x88CA2B0)
 
-inline static constexpr unsigned int MonoEffectHackedMonitorControl_TypeDefinitionIndex = 37360;
+inline static constexpr unsigned int MonoEffectHackedMonitorControl_TypeDefinitionIndex = 38324;
 
 class MonoEffectHackedMonitorControl : public ::UnityEngine::MonoBehaviour
 {

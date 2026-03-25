@@ -4,29 +4,29 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x17F06AB0)
-#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x17F06AA0)
-#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x17F03980)
-#define SYSTEM_NET_VALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F06AC0)
+#define SYSTEM_NET_VALIDATIONHELPER_ISBLANKSTRING_OFFSET UNITYSDK_OFFSET(0x1872EF60)
+#define SYSTEM_NET_VALIDATIONHELPER_MAKESTRINGNULL_OFFSET UNITYSDK_OFFSET(0x1872EF50)
+#define SYSTEM_NET_VALIDATIONHELPER_VALIDATETCPPORT_OFFSET UNITYSDK_OFFSET(0x1872C220)
+#define SYSTEM_NET_VALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1872EF70)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 2732;
+	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 2737;
 
 	class ValidationHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_EmptyArray()
+		static ::Il2CppArray<::System::Char>** StaticGet_InvalidParamChars()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x14A10);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x16430);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_InvalidMethodChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x14A18);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x16438);
 		}
-		static ::Il2CppArray<::System::Char>** StaticGet_InvalidParamChars()
+		static ::Il2CppArray<::System::String*>** StaticGet_EmptyArray()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x14A20);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ValidationHelper_TypeDefinitionIndex)->GetStaticField(0x16440);
 		}
 
 		static ::System::Void _cctor()

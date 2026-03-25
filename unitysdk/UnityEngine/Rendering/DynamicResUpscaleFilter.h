@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DynamicResUpscaleFilter_TypeDefinitionIndex = 27037;
+	inline static constexpr unsigned int DynamicResUpscaleFilter_TypeDefinitionIndex = 27773;
 
 	enum class DynamicResUpscaleFilter : ::System::Byte
 	{

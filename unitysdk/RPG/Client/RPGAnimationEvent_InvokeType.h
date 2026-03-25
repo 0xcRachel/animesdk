@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGAnimationEvent_InvokeType_TypeDefinitionIndex = 58095;
+	inline static constexpr unsigned int RPGAnimationEvent_InvokeType_TypeDefinitionIndex = 59722;
 
 	enum class RPGAnimationEvent_InvokeType : ::System::Int32
 	{

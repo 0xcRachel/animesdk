@@ -6,18 +6,18 @@ namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSPOSTINFOROWCONTROL___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x95CF200)
-#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSPOSTINFOROWCONTROL___C__DISPLAYCLASS7_0___PLAYANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x95CF330)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSPOSTINFOROWCONTROL___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9AB05E0)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSPOSTINFOROWCONTROL___C__DISPLAYCLASS7_0___PLAYANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x9AB0710)
 
 namespace RPG::Client::MVVM::View
 {
-	inline static constexpr unsigned int LimaoNewsPostInfoRowControl___c__DisplayClass7_0_TypeDefinitionIndex = 59260;
+	inline static constexpr unsigned int LimaoNewsPostInfoRowControl___c__DisplayClass7_0_TypeDefinitionIndex = 61013;
 
 	class LimaoNewsPostInfoRowControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
-		::System::String* animationName; // 0x18
+		::System::String* animationName; // 0x10
+		::RPG::Client::Promises::Promise* promise; // 0x18
 		::RPG::Client::RPGAnimationEvent* animationEvent; // 0x20
 
 		::System::Void _ctor()

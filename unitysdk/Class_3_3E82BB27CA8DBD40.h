@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StackRedirectSkillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10D64C80)
-#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0x10D65080)
-#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10D64CF0)
-#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0x10D64BE0)
-#define CLASS_3_3E82BB27CA8DBD40___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10D652E0)
+#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAC73F10)
+#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0xAC74270)
+#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC73F80)
+#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0xAC73E70)
+#define CLASS_3_3E82BB27CA8DBD40___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAC744D0)
 
-inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 43517;
+inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 44573;
 
 class Class_3_3E82BB27CA8DBD40 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackRedirectSkillTarget*>
 {
 public:
 	::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* Field_3_0; // 0x28
-	::Class_3_BCCE950C2E8DF1F0* Field_3_1; // 0x30
+	::Class_3_5775A4FEC79026BC* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackRedirectSkillTarget* a2)
 	{

@@ -5,11 +5,11 @@
 namespace RPG::Client { class AssemNPCRandomCombinationCollection_AssemNPCRandomCombinationConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSEMNPCRANDOMCOMBINATIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x8C96BF0)
+#define RPG_CLIENT_ASSEMNPCRANDOMCOMBINATIONCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x90E81F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCRandomCombinationCollection_TypeDefinitionIndex = 47543;
+	inline static constexpr unsigned int AssemNPCRandomCombinationCollection_TypeDefinitionIndex = 48624;
 
 	class AssemNPCRandomCombinationCollection : public ::UnityEngine::ScriptableObject
 	{

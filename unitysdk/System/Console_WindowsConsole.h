@@ -4,12 +4,12 @@
 
 namespace System { class Console_WindowsConsole_WindowsCancelHandler; }
 
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_DOWINDOWSCONSOLECANCELEVENT_OFFSET UNITYSDK_OFFSET(0x15BC7F30)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLECP_OFFSET UNITYSDK_OFFSET(0x15BC7E30)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLEOUTPUTCP_OFFSET UNITYSDK_OFFSET(0x15BC7EB0)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETINPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x15BC6100)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETOUTPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x15BC61A0)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BC7F70)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_DOWINDOWSCONSOLECANCELEVENT_OFFSET UNITYSDK_OFFSET(0x16290650)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLECP_OFFSET UNITYSDK_OFFSET(0x16290550)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLEOUTPUTCP_OFFSET UNITYSDK_OFFSET(0x162905D0)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETINPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1628EBF0)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETOUTPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1628EC90)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16290690)
 
 namespace System
 {
@@ -20,11 +20,11 @@ namespace System
 	public:
 		static ::System::Console_WindowsConsole_WindowsCancelHandler** StaticGet_cancelHandler()
 		{
-			return (::System::Console_WindowsConsole_WindowsCancelHandler**)Il2CppClass::FromTypeDefinitionIndex(Console_WindowsConsole_TypeDefinitionIndex)->GetStaticField(0x73C0);
+			return (::System::Console_WindowsConsole_WindowsCancelHandler**)Il2CppClass::FromTypeDefinitionIndex(Console_WindowsConsole_TypeDefinitionIndex)->GetStaticField(0x56C0);
 		}
 		static ::System::Boolean* StaticGet_ctrlHandlerAdded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Console_WindowsConsole_TypeDefinitionIndex)->GetStaticField(0x26D0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Console_WindowsConsole_TypeDefinitionIndex)->GetStaticField(0x2EC0);
 		}
 
 		static ::System::Void _cctor()

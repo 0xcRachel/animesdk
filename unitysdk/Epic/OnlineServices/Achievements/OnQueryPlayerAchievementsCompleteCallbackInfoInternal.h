@@ -13,7 +13,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int OnQueryPlayerAchievementsCompleteCallbackInfoInternal_TypeDefinitionIndex = 35868;
+	inline static constexpr unsigned int OnQueryPlayerAchievementsCompleteCallbackInfoInternal_TypeDefinitionIndex = 36802;
 
 	struct alignas(8) OnQueryPlayerAchievementsCompleteCallbackInfoInternal
 	{

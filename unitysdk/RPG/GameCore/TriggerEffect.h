@@ -13,13 +13,13 @@ namespace RPG::GameCore { class EffectModifyData; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_7349B1777BF91C92_OFFSET UNITYSDK_OFFSET(0x1711A660)
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET UNITYSDK_OFFSET(0x1711A970)
-#define RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1711A900)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_7349B1777BF91C92_OFFSET UNITYSDK_OFFSET(0x178D6660)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET UNITYSDK_OFFSET(0x178D6970)
+#define RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x178D6900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 18035;
+	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 18553;
 
 	class TriggerEffect : public ::RPG::GameCore::TaskConfig
 	{

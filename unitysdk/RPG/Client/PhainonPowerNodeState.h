@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhainonPowerNodeState_TypeDefinitionIndex = 57308;
+	inline static constexpr unsigned int PhainonPowerNodeState_TypeDefinitionIndex = 58907;
 
 	enum class PhainonPowerNodeState : ::System::Int32
 	{

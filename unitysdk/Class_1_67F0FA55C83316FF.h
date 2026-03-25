@@ -8,21 +8,21 @@ namespace RPG::GameCore { class LevelEntityActionDelayExceed; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_67F0FA55C83316FF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFDBC790)
-#define CLASS_1_67F0FA55C83316FF_METHOD_1_8D281EC6ABB5DF48_OFFSET UNITYSDK_OFFSET(0xFDBC940)
-#define CLASS_1_67F0FA55C83316FF_METHOD_1_8E261F51A50A8595_OFFSET UNITYSDK_OFFSET(0xFDBC870)
-#define CLASS_1_67F0FA55C83316FF_METHOD_1_FCAE09E5575618A8_OFFSET UNITYSDK_OFFSET(0xFDBCF70)
-#define CLASS_1_67F0FA55C83316FF__CTOR_OFFSET UNITYSDK_OFFSET(0xFDBC6F0)
+#define CLASS_1_67F0FA55C83316FF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x88D2720)
+#define CLASS_1_67F0FA55C83316FF_METHOD_1_8D281EC6ABB5DF48_OFFSET UNITYSDK_OFFSET(0x88D28D0)
+#define CLASS_1_67F0FA55C83316FF_METHOD_1_8E261F51A50A8595_OFFSET UNITYSDK_OFFSET(0x88D2800)
+#define CLASS_1_67F0FA55C83316FF_METHOD_1_FCAE09E5575618A8_OFFSET UNITYSDK_OFFSET(0x88D2F00)
+#define CLASS_1_67F0FA55C83316FF__CTOR_OFFSET UNITYSDK_OFFSET(0x88D2680)
 
-inline static constexpr unsigned int Class_1_67F0FA55C83316FF_TypeDefinitionIndex = 43802;
+inline static constexpr unsigned int Class_1_67F0FA55C83316FF_TypeDefinitionIndex = 44859;
 
 class Class_1_67F0FA55C83316FF : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_2; // 0x10
-	::RPG::GameCore::LevelEntityActionDelayExceed* Field_1_4; // 0x18
-	::RPG::GameCore::TurnBasedGameMode* Field_1_0; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_3; // 0x28
+	::RPG::GameCore::LevelEntityActionDelayExceed* Field_1_4; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_2; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_3; // 0x20
+	::RPG::GameCore::TurnBasedGameMode* Field_1_0; // 0x28
 	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)

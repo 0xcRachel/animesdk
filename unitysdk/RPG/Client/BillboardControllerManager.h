@@ -5,22 +5,22 @@
 namespace RPG::Client { class BillboardController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x8DF55E0)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_REGIST_OFFSET UNITYSDK_OFFSET(0x8DF5670)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UNREGIST_OFFSET UNITYSDK_OFFSET(0x8DF5770)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x8DF55A0)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF5830)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x91FF750)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_REGIST_OFFSET UNITYSDK_OFFSET(0x91FF7E0)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UNREGIST_OFFSET UNITYSDK_OFFSET(0x91FF8E0)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x91FF710)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x91FF9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardControllerManager_TypeDefinitionIndex = 56064;
+	inline static constexpr unsigned int BillboardControllerManager_TypeDefinitionIndex = 57626;
 
 	class BillboardControllerManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::BillboardController*>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::BillboardController*>**)Il2CppClass::FromTypeDefinitionIndex(BillboardControllerManager_TypeDefinitionIndex)->GetStaticField(0x383C0);
+			return (::System::Collections::Generic::List_1<::RPG::Client::BillboardController*>**)Il2CppClass::FromTypeDefinitionIndex(BillboardControllerManager_TypeDefinitionIndex)->GetStaticField(0x48820);
 		}
 
 		::System::Void _ctor()

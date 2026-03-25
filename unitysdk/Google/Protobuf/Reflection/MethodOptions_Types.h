@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodOptions_Types_TypeDefinitionIndex = 6195;
+	inline static constexpr unsigned int MethodOptions_Types_TypeDefinitionIndex = 6295;
 
 	class MethodOptions_Types : public ::System::Object
 	{

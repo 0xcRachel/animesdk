@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RechargeShopModule___c__DisplayClass31_0; }
 
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS31_1__BUYGIFT_B__1_OFFSET UNITYSDK_OFFSET(0x9D77B00)
-#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS31_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9D77AF0)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS31_1__BUYGIFT_B__1_OFFSET UNITYSDK_OFFSET(0xA298A40)
+#define RPG_CLIENT_RECHARGESHOPMODULE___C__DISPLAYCLASS31_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA298A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass31_1_TypeDefinitionIndex = 53211;
+	inline static constexpr unsigned int RechargeShopModule___c__DisplayClass31_1_TypeDefinitionIndex = 54352;
 
 	class RechargeShopModule___c__DisplayClass31_1 : public ::System::Object
 	{

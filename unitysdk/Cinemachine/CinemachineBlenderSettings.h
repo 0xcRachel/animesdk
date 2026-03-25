@@ -6,12 +6,12 @@
 
 namespace System { class String; }
 
-#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS_GETBLENDFORVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x11225A30)
-#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x11225D80)
+#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS_GETBLENDFORVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x119B0D00)
+#define CINEMACHINE_CINEMACHINEBLENDERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x119B1050)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBlenderSettings_TypeDefinitionIndex = 29974;
+	inline static constexpr unsigned int CinemachineBlenderSettings_TypeDefinitionIndex = 30849;
 
 	class CinemachineBlenderSettings : public ::UnityEngine::ScriptableObject
 	{

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16971180)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16970FD0)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16970CA0)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16970F70)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16971300)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16970D20)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16971340)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16971520)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x169716C0)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x169719D0)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16971480)
-#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x169713E0)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x17082800)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x17082650)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x17082320)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x170825F0)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x17082980)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x170823A0)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x170829C0)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x17082BA0)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x17082D40)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17083050)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x17082B00)
+#define RPG_GAMECORE_CHARACTERNATUREEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x17082A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterNatureExcelTable_TypeDefinitionIndex = 11781;
+	inline static constexpr unsigned int CharacterNatureExcelTable_TypeDefinitionIndex = 11851;
 
 	class CharacterNatureExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CharacterNatureRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CharacterNatureRow*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x25D70);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CharacterNatureRow*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x227C0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x25D78);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x227C8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x25D80);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x227D0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x7FF0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0xA7D0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0x7FF1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CharacterNatureExcelTable_TypeDefinitionIndex)->GetStaticField(0xA7D1);
 		}
 
 		static ::System::Void _cctor()

@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D978E2CF43110520;
+class Class_1_A3C62CC0DC4BD2F1;
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9928B40)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__GETLEVELINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x9928C80)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9E0A760)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__GETLEVELINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x9E0A8A0)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass66_0_TypeDefinitionIndex = 59621;
+	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass66_0_TypeDefinitionIndex = 61375;
 
 	class CartographyFiveDim___c__DisplayClass66_0 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client::NavMap::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetLevelInstance_b__0(::Class_1_D978E2CF43110520* x)
+		::System::Boolean _GetLevelInstance_b__0(::Class_1_A3C62CC0DC4BD2F1* x)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_D978E2CF43110520*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__GETLEVELINSTANCE_B__0_OFFSET))(this, x);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_A3C62CC0DC4BD2F1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS66_0__GETLEVELINSTANCE_B__0_OFFSET))(this, x);
 		}
 	};
 }

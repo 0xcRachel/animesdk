@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class PropSetupAbilityTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5A7D3BCB784BBE9B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x110C3990)
-#define CLASS_3_5A7D3BCB784BBE9B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110C3A00)
-#define CLASS_3_5A7D3BCB784BBE9B__CTOR_OFFSET UNITYSDK_OFFSET(0x110C3900)
-#define CLASS_3_5A7D3BCB784BBE9B___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x110C3EE0)
+#define CLASS_3_5A7D3BCB784BBE9B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10598790)
+#define CLASS_3_5A7D3BCB784BBE9B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10598800)
+#define CLASS_3_5A7D3BCB784BBE9B__CTOR_OFFSET UNITYSDK_OFFSET(0x10598700)
+#define CLASS_3_5A7D3BCB784BBE9B___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10598CD0)
 
-inline static constexpr unsigned int Class_3_5A7D3BCB784BBE9B_TypeDefinitionIndex = 46019;
+inline static constexpr unsigned int Class_3_5A7D3BCB784BBE9B_TypeDefinitionIndex = 47087;
 
 class Class_3_5A7D3BCB784BBE9B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetupAbilityTrigger*>
 {
 public:
-	::Class_3_BCCE950C2E8DF1F0* Field_3_0; // 0x28
+	::Class_3_5775A4FEC79026BC* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropSetupAbilityTrigger* a2)
 	{

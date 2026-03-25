@@ -5,11 +5,11 @@
 namespace RPG::Client::Prop { class OraclePuzzleSolutionItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLESOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9C84330)
+#define RPG_CLIENT_PROP_ORACLEPUZZLESOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA110B30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzleSolution_TypeDefinitionIndex = 61997;
+	inline static constexpr unsigned int OraclePuzzleSolution_TypeDefinitionIndex = 64184;
 
 	class OraclePuzzleSolution : public ::System::Object
 	{

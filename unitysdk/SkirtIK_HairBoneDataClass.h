@@ -6,9 +6,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define SKIRTIK_HAIRBONEDATACLASS__CTOR_OFFSET UNITYSDK_OFFSET(0xA695460)
+#define SKIRTIK_HAIRBONEDATACLASS__CTOR_OFFSET UNITYSDK_OFFSET(0xABDCE70)
 
-inline static constexpr unsigned int SkirtIK_HairBoneDataClass_TypeDefinitionIndex = 37200;
+inline static constexpr unsigned int SkirtIK_HairBoneDataClass_TypeDefinitionIndex = 38164;
 
 class SkirtIK_HairBoneDataClass : public ::System::Object
 {

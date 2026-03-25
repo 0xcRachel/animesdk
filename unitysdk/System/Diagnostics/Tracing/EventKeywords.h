@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventKeywords_TypeDefinitionIndex = 1701;
+	inline static constexpr unsigned int EventKeywords_TypeDefinitionIndex = 1706;
 
 	enum class EventKeywords : ::System::Int64
 	{

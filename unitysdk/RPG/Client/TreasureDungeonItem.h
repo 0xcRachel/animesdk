@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_933;
+class Class_1_FA4F4A67B1C04320_960;
 namespace RPG::GameCore { class TreasureDungeonItemConfigRow; }
 
-#define RPG_CLIENT_TREASUREDUNGEONITEM_CLEAR_OFFSET UNITYSDK_OFFSET(0xA116D80)
-#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0xA116EC0)
-#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_KILLLEVEL_OFFSET UNITYSDK_OFFSET(0xA116E40)
-#define RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET UNITYSDK_OFFSET(0xA116DD0)
-#define RPG_CLIENT_TREASUREDUNGEONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA116F30)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_CLEAR_OFFSET UNITYSDK_OFFSET(0xA63AA20)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0xA63AB60)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_GET_KILLLEVEL_OFFSET UNITYSDK_OFFSET(0xA63AAE0)
+#define RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET UNITYSDK_OFFSET(0xA63AA70)
+#define RPG_CLIENT_TREASUREDUNGEONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA63ABD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureDungeonItem_TypeDefinitionIndex = 54113;
+	inline static constexpr unsigned int TreasureDungeonItem_TypeDefinitionIndex = 55671;
 
 	class TreasureDungeonItem : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEM_CLEAR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_FA4F4A67B1C04320_933* serverItemdata)
+		::System::Void Sync(::Class_1_FA4F4A67B1C04320_960* serverItemdata)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_933*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET))(this, serverItemdata);
+			return ((::System::Void(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_960*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEM_SYNC_OFFSET))(this, serverItemdata);
 		}
 
 		::System::UInt32 get_KillLevel()

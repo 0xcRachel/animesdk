@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_UIDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1595CEC0)
+#define MIHOYO_SDK_UIDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x16035140)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UIDefine_TypeDefinitionIndex = 7083;
+	inline static constexpr unsigned int UIDefine_TypeDefinitionIndex = 7207;
 
 	class UIDefine : public ::System::Object
 	{

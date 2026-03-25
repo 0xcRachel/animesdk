@@ -9,29 +9,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1852F570)
-#define ZXING_ONED_MSIWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1852F4C0)
-#define ZXING_ONED_MSIWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1852F890)
-#define ZXING_ONED_MSIWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18523110)
+#define ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x18D31B20)
+#define ZXING_ONED_MSIWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x18D31A70)
+#define ZXING_ONED_MSIWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D31E40)
+#define ZXING_ONED_MSIWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x18D25710)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIWriter_TypeDefinitionIndex = 5968;
+	inline static constexpr unsigned int MSIWriter_TypeDefinitionIndex = 6068;
 
 	class MSIWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_startWidths()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0xAD50);
-		}
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0xAD58);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0x6260);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_startWidths()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0x6268);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_endWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0xAD60);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0x6270);
 		}
 
 		::System::Void _ctor()

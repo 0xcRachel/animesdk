@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_TAMONOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA019FD0)
+#define RPG_CLIENT_TAMONOBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xA53B9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAMonoBase_TypeDefinitionIndex = 56399;
+	inline static constexpr unsigned int TAMonoBase_TypeDefinitionIndex = 57971;
 
 	class TAMonoBase : public ::UnityEngine::MonoBehaviour
 	{

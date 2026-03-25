@@ -5,24 +5,24 @@
 class Class_1_5CF1DDAFE12F0E87_6;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E19F70)
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET UNITYSDK_OFFSET(0x9E19FC0)
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E19FB0)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA33B9B0)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xA33BA00)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA33B9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicSettleData___c_TypeDefinitionIndex = 53557;
+	inline static constexpr unsigned int RogueMagicSettleData___c_TypeDefinitionIndex = 54912;
 
 	class RogueMagicSettleData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueMagicSettleData___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueMagicSettleData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x7200);
-		}
 		static ::System::Comparison_1<::Class_1_5CF1DDAFE12F0E87_6*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::Class_1_5CF1DDAFE12F0E87_6*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x7208);
+			return (::System::Comparison_1<::Class_1_5CF1DDAFE12F0E87_6*>**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x27B30);
+		}
+		static ::RPG::Client::RogueMagicSettleData___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueMagicSettleData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueMagicSettleData___c_TypeDefinitionIndex)->GetStaticField(0x27B38);
 		}
 
 		static ::System::Void _cctor()

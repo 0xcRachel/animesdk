@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TextElementType_TypeDefinitionIndex = 33409;
+	inline static constexpr unsigned int TextElementType_TypeDefinitionIndex = 34398;
 
 	enum class TextElementType : ::System::Byte
 	{

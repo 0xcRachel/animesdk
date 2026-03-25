@@ -6,24 +6,24 @@ namespace RPG::Client::AssetSystem { class InstanceLoader; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EA2100)
-#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15EA2130)
-#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C___CTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x15EA2140)
+#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1656A2D0)
+#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1656A300)
+#define RPG_CLIENT_ASSETSYSTEM_INSTANCELOADER___C___CTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1656A310)
 
 namespace RPG::Client::AssetSystem
 {
-	inline static constexpr unsigned int InstanceLoader___c_TypeDefinitionIndex = 31261;
+	inline static constexpr unsigned int InstanceLoader___c_TypeDefinitionIndex = 32136;
 
 	class InstanceLoader___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::RPG::Client::AssetSystem::InstanceLoader*, ::UnityEngine::AsyncOperation*>** StaticGet___9__46_0()
 		{
-			return (::System::Action_2<::RPG::Client::AssetSystem::InstanceLoader*, ::UnityEngine::AsyncOperation*>**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0x2D70);
+			return (::System::Action_2<::RPG::Client::AssetSystem::InstanceLoader*, ::UnityEngine::AsyncOperation*>**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0xC70);
 		}
 		static ::RPG::Client::AssetSystem::InstanceLoader___c** StaticGet___9()
 		{
-			return (::RPG::Client::AssetSystem::InstanceLoader___c**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0x2D78);
+			return (::RPG::Client::AssetSystem::InstanceLoader___c**)Il2CppClass::FromTypeDefinitionIndex(InstanceLoader___c_TypeDefinitionIndex)->GetStaticField(0xC78);
 		}
 
 		static ::System::Void _cctor()

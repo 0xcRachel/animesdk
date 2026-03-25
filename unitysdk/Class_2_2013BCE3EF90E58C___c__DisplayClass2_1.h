@@ -6,10 +6,10 @@ class Class_2_2013BCE3EF90E58C_Class_1_ACF0E08C68D3724A;
 class Class_2_2013BCE3EF90E58C___c__DisplayClass2_0;
 namespace System { class String; }
 
-#define CLASS_2_2013BCE3EF90E58C___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8D49B70)
-#define CLASS_2_2013BCE3EF90E58C___C__DISPLAYCLASS2_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0x8D4B620)
+#define CLASS_2_2013BCE3EF90E58C___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0x115C17D0)
+#define CLASS_2_2013BCE3EF90E58C___C__DISPLAYCLASS2_1___DOACTION_B__0_OFFSET UNITYSDK_OFFSET(0x115C3280)
 
-inline static constexpr unsigned int Class_2_2013BCE3EF90E58C___c__DisplayClass2_1_TypeDefinitionIndex = 47142;
+inline static constexpr unsigned int Class_2_2013BCE3EF90E58C___c__DisplayClass2_1_TypeDefinitionIndex = 48224;
 
 class Class_2_2013BCE3EF90E58C___c__DisplayClass2_1 : public ::System::Object
 {

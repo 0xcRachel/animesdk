@@ -6,10 +6,10 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class ST_ByOnHit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3BF34243A268A134_EVALUATE_OFFSET UNITYSDK_OFFSET(0x862AB70)
-#define CLASS_3_3BF34243A268A134__CTOR_OFFSET UNITYSDK_OFFSET(0x862AB10)
+#define CLASS_3_3BF34243A268A134_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE45CB50)
+#define CLASS_3_3BF34243A268A134__CTOR_OFFSET UNITYSDK_OFFSET(0xE45CAF0)
 
-inline static constexpr unsigned int Class_3_3BF34243A268A134_TypeDefinitionIndex = 41174;
+inline static constexpr unsigned int Class_3_3BF34243A268A134_TypeDefinitionIndex = 42217;
 
 class Class_3_3BF34243A268A134 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByOnHit*>
 {

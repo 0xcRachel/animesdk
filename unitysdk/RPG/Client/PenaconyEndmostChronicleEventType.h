@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleEventType_TypeDefinitionIndex = 52581;
+	inline static constexpr unsigned int PenaconyEndmostChronicleEventType_TypeDefinitionIndex = 53718;
 
 	enum class PenaconyEndmostChronicleEventType : ::System::Int32
 	{

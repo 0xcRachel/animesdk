@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class AttachGlobalShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_164163E187B755A6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11213B00)
-#define CLASS_3_164163E187B755A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11213670)
-#define CLASS_3_164163E187B755A6__CTOR_OFFSET UNITYSDK_OFFSET(0x11213580)
-#define CLASS_3_164163E187B755A6___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11213B90)
+#define CLASS_3_164163E187B755A6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x105090B0)
+#define CLASS_3_164163E187B755A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10508C20)
+#define CLASS_3_164163E187B755A6__CTOR_OFFSET UNITYSDK_OFFSET(0x10508B30)
+#define CLASS_3_164163E187B755A6___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10509140)
 
-inline static constexpr unsigned int Class_3_164163E187B755A6_TypeDefinitionIndex = 42857;
+inline static constexpr unsigned int Class_3_164163E187B755A6_TypeDefinitionIndex = 43907;
 
 class Class_3_164163E187B755A6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachGlobalShield*>
 {
 public:
-	::Class_3_BCCE950C2E8DF1F0* Field_3_1; // 0x28
-	::Class_3_BCCE950C2E8DF1F0* Field_3_0; // 0x30
+	::Class_3_5775A4FEC79026BC* Field_3_0; // 0x28
+	::Class_3_5775A4FEC79026BC* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AttachGlobalShield* a2)
 	{

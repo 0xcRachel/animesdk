@@ -15,50 +15,50 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_172EFD00F0BC7D2B_OFFSET UNITYSDK_OFFSET(0x8D3F250)
-#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_4C4938F725C5A1E4_OFFSET UNITYSDK_OFFSET(0x8D417F0)
-#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_57EC6FEA99EAE95A_OFFSET UNITYSDK_OFFSET(0x8D40980)
-#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_5C1CE42193F4319E_OFFSET UNITYSDK_OFFSET(0x8D41880)
-#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_661DC7A341391D97_OFFSET UNITYSDK_OFFSET(0x8D3F460)
-#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_BA904CAFF6C7217F_OFFSET UNITYSDK_OFFSET(0x8D3F100)
-#define CLASS_1_9216AB1E8A7FC51A__CCTOR_OFFSET UNITYSDK_OFFSET(0x8D41B70)
+#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_4C4938F725C5A1E4_OFFSET UNITYSDK_OFFSET(0x9EE7B50)
+#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_57EC6FEA99EAE95A_OFFSET UNITYSDK_OFFSET(0x9EE6CE0)
+#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_5C1CE42193F4319E_OFFSET UNITYSDK_OFFSET(0x9EE7BE0)
+#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_661DC7A341391D97_OFFSET UNITYSDK_OFFSET(0x9EE57C0)
+#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_6D83098847431DE2_OFFSET UNITYSDK_OFFSET(0x9EE5590)
+#define CLASS_1_9216AB1E8A7FC51A_METHOD_1_BA904CAFF6C7217F_OFFSET UNITYSDK_OFFSET(0x9EE5440)
+#define CLASS_1_9216AB1E8A7FC51A__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EE7ED0)
 
-inline static constexpr unsigned int Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex = 38301;
+inline static constexpr unsigned int Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex = 39281;
 
 class Class_1_9216AB1E8A7FC51A : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_Field_1_3()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C650);
-	}
-	static ::System::String** StaticGet_Field_1_7()
-	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C658);
-	}
-	static ::UnityEngine::Transform** StaticGet_Field_1_5()
-	{
-		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C660);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_Field_1_2()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C668);
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x439D0);
 	}
 	static ::System::String** StaticGet_Field_1_6()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C670);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x439D8);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_Field_1_2()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x439E0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C678);
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x439E8);
+	}
+	static ::UnityEngine::Transform** StaticGet_Field_1_5()
+	{
+		return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x439F0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x3C680);
+		return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x439F8);
+	}
+	static ::System::String** StaticGet_Field_1_7()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x43A00);
 	}
 	static ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>* StaticGet_Field_1_4()
 	{
-		return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0xE750);
+		return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9216AB1E8A7FC51A_TypeDefinitionIndex)->GetStaticField(0x11720);
 	}
 
 	static ::System::Void _cctor()
@@ -71,9 +71,9 @@ public:
 		return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_9216AB1E8A7FC51A_METHOD_1_BA904CAFF6C7217F_OFFSET))(a1);
 	}
 
-	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>* Method_1_172EFD00F0BC7D2B(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>* a1)
+	static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>* Method_1_6D83098847431DE2(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>* a1)
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>*(*)(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + CLASS_1_9216AB1E8A7FC51A_METHOD_1_172EFD00F0BC7D2B_OFFSET))(a1);
+		return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>*(*)(::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + CLASS_1_9216AB1E8A7FC51A_METHOD_1_6D83098847431DE2_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_661DC7A341391D97(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineAsset*>* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Playables::PlayableDirector* a3)

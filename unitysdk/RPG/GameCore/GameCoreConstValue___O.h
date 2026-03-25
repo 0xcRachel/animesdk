@@ -14,42 +14,42 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConstValue___O_TypeDefinitionIndex = 15404;
+	inline static constexpr unsigned int GameCoreConstValue___O_TypeDefinitionIndex = 15683;
 
 	class GameCoreConstValue___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__3___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDC0);
-		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackType>** StaticGet__2___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDC8);
-		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>** StaticGet__4___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDD0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::StageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B60);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>** StaticGet__5___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDD8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackDamageType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B68);
 		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>** StaticGet__1___FromBinary()
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__3___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDE0);
-		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::TurnBasedModifierEvent>** StaticGet__7___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::TurnBasedModifierEvent>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDE8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B70);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AbilityProperty>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDF0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AbilityProperty>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B78);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>** StaticGet__1___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::SkillEffect>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B80);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackType>** StaticGet__2___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AttackType>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B88);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::MonsterRank>** StaticGet__6___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x2DDF8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::MonsterRank>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B90);
+		}
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::TurnBasedModifierEvent>** StaticGet__7___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::TurnBasedModifierEvent>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConstValue___O_TypeDefinitionIndex)->GetStaticField(0x44B98);
 		}
 	};
 }

@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x17D053F0)
-#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D05400)
+#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1851C900)
+#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1851C910)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SymbolDocumentInfo_TypeDefinitionIndex = 3253;
+	inline static constexpr unsigned int SymbolDocumentInfo_TypeDefinitionIndex = 3262;
 
 	class SymbolDocumentInfo : public ::System::Object
 	{
 	public:
 		static ::System::Guid* StaticGet_DocumentType_Text()
 		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(SymbolDocumentInfo_TypeDefinitionIndex)->GetStaticField(0x5E80);
+			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(SymbolDocumentInfo_TypeDefinitionIndex)->GetStaticField(0xBF10);
 		}
 		::System::String* _FileName_k__BackingField; // 0x10
 

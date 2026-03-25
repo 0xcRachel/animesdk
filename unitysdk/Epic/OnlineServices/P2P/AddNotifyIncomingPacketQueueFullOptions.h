@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYINCOMINGPACKETQUEUEFULLOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x836A340)
+#define EPIC_ONLINESERVICES_P2P_ADDNOTIFYINCOMINGPACKETQUEUEFULLOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x86AF4E0)
 
 namespace Epic::OnlineServices::P2P
 {
-	inline static constexpr unsigned int AddNotifyIncomingPacketQueueFullOptions_TypeDefinitionIndex = 34935;
+	inline static constexpr unsigned int AddNotifyIncomingPacketQueueFullOptions_TypeDefinitionIndex = 35869;
 
 	class AddNotifyIncomingPacketQueueFullOptions : public ::System::Object
 	{

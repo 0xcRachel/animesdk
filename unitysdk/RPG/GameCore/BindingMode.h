@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindingMode_TypeDefinitionIndex = 14798;
+	inline static constexpr unsigned int BindingMode_TypeDefinitionIndex = 15050;
 
 	enum class BindingMode : ::System::Int32
 	{

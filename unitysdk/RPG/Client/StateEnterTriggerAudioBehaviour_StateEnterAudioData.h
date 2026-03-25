@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_STATEENTERTRIGGERAUDIOBEHAVIOUR_STATEENTERAUDIODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9FC1630)
+#define RPG_CLIENT_STATEENTERTRIGGERAUDIOBEHAVIOUR_STATEENTERAUDIODATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E4520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateEnterTriggerAudioBehaviour_StateEnterAudioData_TypeDefinitionIndex = 54831;
+	inline static constexpr unsigned int StateEnterTriggerAudioBehaviour_StateEnterAudioData_TypeDefinitionIndex = 56392;
 
 	class StateEnterTriggerAudioBehaviour_StateEnterAudioData : public ::System::Object
 	{

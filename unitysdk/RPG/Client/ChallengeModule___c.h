@@ -6,84 +6,84 @@ namespace RPG::Client { class ChallengeGroupData; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8E816B0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8E816E0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__GETAVAILABLEBOSSGROUPDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0x8E816F0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__GETAVAILABLESTORYGROUPDATA_B__50_0_OFFSET UNITYSDK_OFFSET(0x8E81980)
-#define RPG_CLIENT_CHALLENGEMODULE___C__GETINSCHEDULEGROUPDATASBYTYPE_B__73_0_OFFSET UNITYSDK_OFFSET(0x8E81BD0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__GETINSCHEDULEGROUPDATAS_B__72_0_OFFSET UNITYSDK_OFFSET(0x8E81B60)
-#define RPG_CLIENT_CHALLENGEMODULE___C__GETNONESCHEDULECHALLENGEGROUPDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x8E818D0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__HASBOSSREWARDNOTTAKEN_B__7_0_OFFSET UNITYSDK_OFFSET(0x8E818B0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__HASMEMORYREWARDNOTTAKEN_B__23_0_OFFSET UNITYSDK_OFFSET(0x8E81900)
-#define RPG_CLIENT_CHALLENGEMODULE___C__HASNEWBOSSCHALLENGEGROUP_B__6_0_OFFSET UNITYSDK_OFFSET(0x8E81760)
-#define RPG_CLIENT_CHALLENGEMODULE___C__HASNEWSTORYCHALLENGEGROUP_B__53_0_OFFSET UNITYSDK_OFFSET(0x8E819F0)
-#define RPG_CLIENT_CHALLENGEMODULE___C__HASSTORYREWARDNOTTAKEN_B__54_0_OFFSET UNITYSDK_OFFSET(0x8E81B40)
-#define RPG_CLIENT_CHALLENGEMODULE___C___CONTINUECHALLENGE_B__113_0_OFFSET UNITYSDK_OFFSET(0x8E81C40)
-#define RPG_CLIENT_CHALLENGEMODULE___C___CONTINUECHALLENGE_B__113_1_OFFSET UNITYSDK_OFFSET(0x8E81CB0)
-#define RPG_CLIENT_CHALLENGEMODULE___C___CONTINUECHALLENGE_B__113_2_OFFSET UNITYSDK_OFFSET(0x8E81D20)
+#define RPG_CLIENT_CHALLENGEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x92E6600)
+#define RPG_CLIENT_CHALLENGEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x92E6630)
+#define RPG_CLIENT_CHALLENGEMODULE___C__GETAVAILABLEBOSSGROUPDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0x92E6640)
+#define RPG_CLIENT_CHALLENGEMODULE___C__GETAVAILABLESTORYGROUPDATA_B__50_0_OFFSET UNITYSDK_OFFSET(0x92E68D0)
+#define RPG_CLIENT_CHALLENGEMODULE___C__GETINSCHEDULEGROUPDATASBYTYPE_B__73_0_OFFSET UNITYSDK_OFFSET(0x92E6B20)
+#define RPG_CLIENT_CHALLENGEMODULE___C__GETINSCHEDULEGROUPDATAS_B__72_0_OFFSET UNITYSDK_OFFSET(0x92E6AB0)
+#define RPG_CLIENT_CHALLENGEMODULE___C__GETNONESCHEDULECHALLENGEGROUPDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x92E6820)
+#define RPG_CLIENT_CHALLENGEMODULE___C__HASBOSSREWARDNOTTAKEN_B__7_0_OFFSET UNITYSDK_OFFSET(0x92E6800)
+#define RPG_CLIENT_CHALLENGEMODULE___C__HASMEMORYREWARDNOTTAKEN_B__23_0_OFFSET UNITYSDK_OFFSET(0x92E6850)
+#define RPG_CLIENT_CHALLENGEMODULE___C__HASNEWBOSSCHALLENGEGROUP_B__6_0_OFFSET UNITYSDK_OFFSET(0x92E66B0)
+#define RPG_CLIENT_CHALLENGEMODULE___C__HASNEWSTORYCHALLENGEGROUP_B__53_0_OFFSET UNITYSDK_OFFSET(0x92E6940)
+#define RPG_CLIENT_CHALLENGEMODULE___C__HASSTORYREWARDNOTTAKEN_B__54_0_OFFSET UNITYSDK_OFFSET(0x92E6A90)
+#define RPG_CLIENT_CHALLENGEMODULE___C___CONTINUECHALLENGE_B__113_0_OFFSET UNITYSDK_OFFSET(0x92E6B90)
+#define RPG_CLIENT_CHALLENGEMODULE___C___CONTINUECHALLENGE_B__113_1_OFFSET UNITYSDK_OFFSET(0x92E6C00)
+#define RPG_CLIENT_CHALLENGEMODULE___C___CONTINUECHALLENGE_B__113_2_OFFSET UNITYSDK_OFFSET(0x92E6C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeModule___c_TypeDefinitionIndex = 50066;
+	inline static constexpr unsigned int ChallengeModule___c_TypeDefinitionIndex = 51198;
 
 	class ChallengeModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__2_0()
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3DFE0);
-		}
-		static ::RPG::Client::ChallengeModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChallengeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3DFE8);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::UInt32>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3DFF0);
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0C0);
 		}
 		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__73_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3DFF8);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E000);
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0C8);
 		}
 		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__50_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E008);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E010);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__53_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E018);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__72_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E020);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E028);
-		}
-		static ::System::Action** StaticGet___9__113_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E030);
-		}
-		static ::System::Action** StaticGet___9__113_2()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E038);
-		}
-		static ::System::Action** StaticGet___9__113_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E040);
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0D0);
 		}
 		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__54_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3E048);
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0D8);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__53_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0E0);
+		}
+		static ::System::Action** StaticGet___9__113_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0E8);
+		}
+		static ::System::Action** StaticGet___9__113_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0F0);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C0F8);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C100);
+		}
+		static ::RPG::Client::ChallengeModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChallengeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C108);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C110);
+		}
+		static ::System::Action** StaticGet___9__113_2()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C118);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::UInt32>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C120);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__72_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C128);
 		}
 
 		static ::System::Void _cctor()

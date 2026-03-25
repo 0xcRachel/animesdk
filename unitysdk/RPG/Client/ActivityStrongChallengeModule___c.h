@@ -5,34 +5,34 @@
 namespace RPG::Client { class ActivityStrongChallengeStageData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8BBFE30)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8BBFE60)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C___REFRESHFINISHEDQUESTIDS_B__16_0_OFFSET UNITYSDK_OFFSET(0x8BBFE70)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C___REFRESHFINISHEDQUESTIDS_B__16_1_OFFSET UNITYSDK_OFFSET(0x8BBFFD0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C___REFRESHFINISHEDQUESTIDS_B__16_2_OFFSET UNITYSDK_OFFSET(0x8BBFF50)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8FC0B60)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8FC0B90)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C___REFRESHFINISHEDQUESTIDS_B__16_0_OFFSET UNITYSDK_OFFSET(0x8FC0BA0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C___REFRESHFINISHEDQUESTIDS_B__16_1_OFFSET UNITYSDK_OFFSET(0x8FC0D00)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C___REFRESHFINISHEDQUESTIDS_B__16_2_OFFSET UNITYSDK_OFFSET(0x8FC0C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeModule___c_TypeDefinitionIndex = 49109;
+	inline static constexpr unsigned int ActivityStrongChallengeModule___c_TypeDefinitionIndex = 50245;
 
 	class ActivityStrongChallengeModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::UInt32>** StaticGet___9__16_1()
+		static ::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x24870);
+			return (::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x37300);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__16_2()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x24878);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x37308);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::UInt32>** StaticGet___9__16_1()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x37310);
 		}
 		static ::RPG::Client::ActivityStrongChallengeModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityStrongChallengeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x24880);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::Boolean>** StaticGet___9__16_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityStrongChallengeStageData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x24888);
+			return (::RPG::Client::ActivityStrongChallengeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityStrongChallengeModule___c_TypeDefinitionIndex)->GetStaticField(0x37318);
 		}
 
 		static ::System::Void _cctor()

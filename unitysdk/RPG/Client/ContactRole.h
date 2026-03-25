@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ContactRole_TypeDefinitionIndex = 50180;
+	inline static constexpr unsigned int ContactRole_TypeDefinitionIndex = 51313;
 
 	enum class ContactRole : ::System::Int32
 	{

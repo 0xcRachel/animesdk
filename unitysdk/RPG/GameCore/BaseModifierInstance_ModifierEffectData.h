@@ -8,23 +8,23 @@
 namespace RPG::Client { class TriggerEffectParams; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIEREFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA34D620)
+#define RPG_GAMECORE_BASEMODIFIERINSTANCE_MODIFIEREFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA8883A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseModifierInstance_ModifierEffectData_TypeDefinitionIndex = 42462;
+	inline static constexpr unsigned int BaseModifierInstance_ModifierEffectData_TypeDefinitionIndex = 43512;
 
 	class BaseModifierInstance_ModifierEffectData : public ::System::Object
 	{
 	public:
-		::System::String* EffectPath; // 0x10
-		::Struct_2_0B84ADD7815498A2 EffectInst; // 0x18
-		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flag; // 0x28
+		::RPG::Client::TriggerEffectParams* EffectParam; // 0x10
+		::Il2CppArray<::RPG::GameCore::MonoEffectFlag>* Flag; // 0x18
+		::Struct_2_0B84ADD7815498A2 EffectInst; // 0x20
 		::System::String* DynamicAttach; // 0x30
 		::System::String* UniqueName; // 0x38
-		::RPG::Client::TriggerEffectParams* EffectParam; // 0x40
-		::RPG::MVector3 PositionOffset; // 0x48
-		::System::Boolean AutoHideInSkill; // 0x54
+		::System::String* EffectPath; // 0x40
+		::System::Boolean AutoHideInSkill; // 0x48
+		::RPG::MVector3 PositionOffset; // 0x4C
 		::System::Int32 ReuseRefCount; // 0x58
 
 		::System::Void _ctor()

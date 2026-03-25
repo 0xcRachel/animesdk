@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_INCONTROLICONPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x94D1080)
+#define RPG_CLIENT_INCONTROLICONPATHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9954AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InControlIconPathConfig_TypeDefinitionIndex = 48656;
+	inline static constexpr unsigned int InControlIconPathConfig_TypeDefinitionIndex = 49750;
 
 	class InControlIconPathConfig : public ::System::Object
 	{

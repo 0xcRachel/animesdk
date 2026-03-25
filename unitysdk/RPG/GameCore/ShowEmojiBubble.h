@@ -3,16 +3,17 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class EmojiIconInfo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x16F57840)
-#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F577A0)
-#define RPG_GAMECORE_SHOWEMOJIBUBBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x16F57800)
+#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1770CD60)
+#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1770CCC0)
+#define RPG_GAMECORE_SHOWEMOJIBUBBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1770CD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEmojiBubble_TypeDefinitionIndex = 18185;
+	inline static constexpr unsigned int ShowEmojiBubble_TypeDefinitionIndex = 18704;
 
 	class ShowEmojiBubble : public ::RPG::GameCore::TaskConfig
 	{
@@ -21,7 +22,7 @@ namespace RPG::GameCore
 		::System::Boolean IsVertical; // 0x20
 		::System::String* BubbleBGPath; // 0x28
 		::System::UInt32 PositionIndex; // 0x30
-		::Il2CppArray<::System::String*>* EmojiIconPaths; // 0x38
+		::Il2CppArray<::RPG::GameCore::EmojiIconInfo*>* EmojiIconInfos; // 0x38
 		::System::Single Duration; // 0x40
 
 		::System::Void _ctor()

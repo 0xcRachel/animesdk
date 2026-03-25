@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B351B0)
-#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B35400)
+#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17281CD0)
+#define RPG_GAMECORE_GRIDFIGHTNODETEMPLATECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17281F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightNodeTemplateConfigRow_TypeDefinitionIndex = 12379;
+	inline static constexpr unsigned int GridFightNodeTemplateConfigRow_TypeDefinitionIndex = 12449;
 
 	class GridFightNodeTemplateConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
 		::RPG::GameCore::GridFightNodeType NodeType; // 0x18
-		::System::UInt32 NodeTemplateID; // 0x1C
-		::System::UInt32 BasicGoldRewardNum; // 0x20
-		::System::UInt32 IsAugment; // 0x24
-		::System::UInt32 PenaltyBonusRuleID; // 0x28
+		::System::UInt32 PenaltyBonusRuleID; // 0x1C
+		::System::UInt32 IsAugment; // 0x20
+		::System::UInt32 NodeTemplateID; // 0x24
+		::System::UInt32 BasicGoldRewardNum; // 0x28
 
 		::System::Void _ctor()
 		{

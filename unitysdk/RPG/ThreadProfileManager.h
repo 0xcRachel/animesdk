@@ -8,33 +8,33 @@ namespace System { class String; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentBag_1; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 
-#define RPG_THREADPROFILEMANAGER_ADDPROFILER_OFFSET UNITYSDK_OFFSET(0x17ADB940)
-#define RPG_THREADPROFILEMANAGER_COLLECTINFOS_OFFSET UNITYSDK_OFFSET(0x17ADB9D0)
-#define RPG_THREADPROFILEMANAGER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x17AD7ED0)
-#define RPG_THREADPROFILEMANAGER_EXPORTTHREADTIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x17ADBDC0)
-#define RPG_THREADPROFILEMANAGER_GETMARKERNAMESSTR_OFFSET UNITYSDK_OFFSET(0x17ADBB90)
-#define RPG_THREADPROFILEMANAGER_GETPROFILELIST_OFFSET UNITYSDK_OFFSET(0x17ADB7A0)
-#define RPG_THREADPROFILEMANAGER_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17ADB9E0)
-#define RPG_THREADPROFILEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17ADCD20)
+#define RPG_THREADPROFILEMANAGER_ADDPROFILER_OFFSET UNITYSDK_OFFSET(0x182F5910)
+#define RPG_THREADPROFILEMANAGER_COLLECTINFOS_OFFSET UNITYSDK_OFFSET(0x182F59A0)
+#define RPG_THREADPROFILEMANAGER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x182F1E70)
+#define RPG_THREADPROFILEMANAGER_EXPORTTHREADTIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x182F5D90)
+#define RPG_THREADPROFILEMANAGER_GETMARKERNAMESSTR_OFFSET UNITYSDK_OFFSET(0x182F5B60)
+#define RPG_THREADPROFILEMANAGER_GETPROFILELIST_OFFSET UNITYSDK_OFFSET(0x182F5770)
+#define RPG_THREADPROFILEMANAGER_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x182F59B0)
+#define RPG_THREADPROFILEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182F6CF0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ThreadProfileManager_TypeDefinitionIndex = 26886;
+	inline static constexpr unsigned int ThreadProfileManager_TypeDefinitionIndex = 27622;
 
 	class ThreadProfileManager : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::RPG::ThreadStatProfiler*>** StaticGet_ProfileListTemp()
 		{
-			return (::Il2CppArray<::RPG::ThreadStatProfiler*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileManager_TypeDefinitionIndex)->GetStaticField(0x29E0);
+			return (::Il2CppArray<::RPG::ThreadStatProfiler*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileManager_TypeDefinitionIndex)->GetStaticField(0x910);
 		}
 		static ::System::Collections::Concurrent::ConcurrentBag_1<::RPG::ThreadStatProfiler*>** StaticGet_AllProfilers()
 		{
-			return (::System::Collections::Concurrent::ConcurrentBag_1<::RPG::ThreadStatProfiler*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileManager_TypeDefinitionIndex)->GetStaticField(0x29E8);
+			return (::System::Collections::Concurrent::ConcurrentBag_1<::RPG::ThreadStatProfiler*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileManager_TypeDefinitionIndex)->GetStaticField(0x918);
 		}
 		static ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>** StaticGet_MainThreadCmdQueue()
 		{
-			return (::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileManager_TypeDefinitionIndex)->GetStaticField(0x29F0);
+			return (::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileManager_TypeDefinitionIndex)->GetStaticField(0x920);
 		}
 		static ::System::Boolean* StaticGet_bEnableProfile()
 		{

@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENHANCEDAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A6EAD0)
-#define RPG_GAMECORE_ENHANCEDAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6F5C0)
+#define RPG_GAMECORE_ENHANCEDAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171B14B0)
+#define RPG_GAMECORE_ENHANCEDAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171B1FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnhancedAvatarRow_TypeDefinitionIndex = 11526;
+	inline static constexpr unsigned int EnhancedAvatarRow_TypeDefinitionIndex = 11596;
 
 	class EnhancedAvatarRow : public ::System::Object
 	{
 	public:
-		::System::String* JsonPath; // 0x10
-		::Il2CppArray<::System::UInt32>* RankIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* RankIDList; // 0x10
+		::System::String* JsonPath; // 0x18
 		::Il2CppArray<::System::UInt32>* SkillList; // 0x20
 		::System::UInt32 AvatarID; // 0x28
 		::System::UInt32 EnhancedID; // 0x2C

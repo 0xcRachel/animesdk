@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FOLLOWROTATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x92A1DA0)
+#define RPG_CLIENT_FOLLOWROTATEGAMEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9717540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FollowRotateGameObject_TypeDefinitionIndex = 54302;
+	inline static constexpr unsigned int FollowRotateGameObject_TypeDefinitionIndex = 55860;
 
 	class FollowRotateGameObject : public ::System::Object
 	{

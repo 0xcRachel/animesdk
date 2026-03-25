@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/VersusBarQuestStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E54220BE5BFB3B20__CTOR_OFFSET UNITYSDK_OFFSET(0x89CAD60)
+#define CLASS_1_E54220BE5BFB3B20__CTOR_OFFSET UNITYSDK_OFFSET(0x11639B50)
 
-inline static constexpr unsigned int Class_1_E54220BE5BFB3B20_TypeDefinitionIndex = 43463;
+inline static constexpr unsigned int Class_1_E54220BE5BFB3B20_TypeDefinitionIndex = 44519;
 
 class Class_1_E54220BE5BFB3B20 : public ::System::Object
 {

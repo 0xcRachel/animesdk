@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Buffers/ReadOnlySequenceSegment_1.h"
 #include "unitysdk/System/Memory_1.h"
-#include "unitysdk/System/ReadOnlyMemory_1.h"
 #include "unitysdk/System/Span_1.h"
 
 namespace Nerdbank::Streams { template <typename T> class Sequence_1_SequenceSegment; }
@@ -11,7 +10,7 @@ namespace System::Buffers { template <typename T> class IMemoryOwner_1; }
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Sequence_1_SequenceSegment_TypeDefinitionIndex = 9388;
+	inline static constexpr unsigned int Sequence_1_SequenceSegment_TypeDefinitionIndex = 9010;
 
 	template <typename T>
 	class Sequence_1_SequenceSegment : public ::System::Buffers::ReadOnlySequenceSegment_1<T>

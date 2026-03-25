@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9333A60)
-#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9333AA0)
-#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__POPUPEXPERTROLE_B__15_0_OFFSET UNITYSDK_OFFSET(0x9333AB0)
+#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97F1DF0)
+#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97F1E30)
+#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__POPUPEXPERTROLE_B__15_0_OFFSET UNITYSDK_OFFSET(0x97F1E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBonusResultData___c_TypeDefinitionIndex = 51193;
+	inline static constexpr unsigned int GridFightBonusResultData___c_TypeDefinitionIndex = 52326;
 
 	class GridFightBonusResultData___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::GridFightRole*>** StaticGet___9__15_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::GridFightRole*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightBonusResultData___c_TypeDefinitionIndex)->GetStaticField(0x440B0);
+			return (::System::Predicate_1<::RPG::Client::GridFightRole*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightBonusResultData___c_TypeDefinitionIndex)->GetStaticField(0x14B40);
 		}
 		static ::RPG::Client::GridFightBonusResultData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightBonusResultData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightBonusResultData___c_TypeDefinitionIndex)->GetStaticField(0x440B8);
+			return (::RPG::Client::GridFightBonusResultData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightBonusResultData___c_TypeDefinitionIndex)->GetStaticField(0x14B48);
 		}
 
 		static ::System::Void _cctor()

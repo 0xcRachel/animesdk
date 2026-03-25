@@ -4,28 +4,28 @@
 #include "unitysdk/SuperScrollView/SnapStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2_SNAPDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xA702510)
-#define SUPERSCROLLVIEW_LOOPLISTVIEW2_SNAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA718F20)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2_SNAPDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xAC0A7A0)
+#define SUPERSCROLLVIEW_LOOPLISTVIEW2_SNAPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAC224E0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopListView2_SnapData_TypeDefinitionIndex = 37561;
+	inline static constexpr unsigned int LoopListView2_SnapData_TypeDefinitionIndex = 38525;
 
 	class LoopListView2_SnapData : public ::System::Object
 	{
 	public:
-		::System::Boolean mIsTempTarget; // 0x10
-		::System::Boolean mIsSnapWithPredict; // 0x11
-		::System::Boolean mIsFinishCallbackDone; // 0x12
-		::System::Boolean mIsForceSnapTo; // 0x13
-		::System::Int32 mIsSnapDirect; // 0x14
-		::SuperScrollView::SnapStatus mSnapStatus; // 0x18
-		::System::Int32 mSnapTargetIndex; // 0x1C
-		::System::Single mCurSnapVal; // 0x20
-		::System::Single mTargetSnapVal; // 0x24
+		::System::Int32 mSnapTargetIndex; // 0x10
+		::System::Single mCurSnapVal; // 0x14
+		::System::Boolean mIsFinishCallbackDone; // 0x18
+		::System::Boolean mIsSnapWithPredict; // 0x19
+		::System::Boolean mIsTempTarget; // 0x1A
+		::System::Boolean mIsForceSnapTo; // 0x1B
+		::System::Int32 mTempTargetIndex; // 0x1C
+		::SuperScrollView::SnapStatus mSnapStatus; // 0x20
+		::System::Int32 mIsSnapDirect; // 0x24
 		::SuperScrollView::LoopListView2_PredictSnapValue predictSnapValue; // 0x28
-		::System::Int32 mTempTargetIndex; // 0x3C
-		::System::Single mMoveMaxAbsVec; // 0x40
+		::System::Single mMoveMaxAbsVec; // 0x3C
+		::System::Single mTargetSnapVal; // 0x40
 
 		::System::Void _ctor()
 		{

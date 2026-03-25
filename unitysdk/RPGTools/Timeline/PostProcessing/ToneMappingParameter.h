@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0xD9530)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x8AF10)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ToneMappingParameter_TypeDefinitionIndex = 38443;
+	inline static constexpr unsigned int ToneMappingParameter_TypeDefinitionIndex = 39423;
 
 	struct alignas(4) ToneMappingParameter
 	{

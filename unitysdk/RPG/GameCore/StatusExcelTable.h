@@ -16,71 +16,71 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STATUSEXCELTABLE_GETBYMODIFIERNAME_OFFSET UNITYSDK_OFFSET(0x16F9B3A0)
-#define RPG_GAMECORE_STATUSEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16F99E40)
-#define RPG_GAMECORE_STATUSEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16F99C20)
-#define RPG_GAMECORE_STATUSEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x16F997A0)
-#define RPG_GAMECORE_STATUSEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16F99970)
-#define RPG_GAMECORE_STATUSEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16F99BB0)
-#define RPG_GAMECORE_STATUSEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16F9A150)
-#define RPG_GAMECORE_STATUSEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F999F0)
-#define RPG_GAMECORE_STATUSEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x16F9A390)
-#define RPG_GAMECORE_STATUSEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x16F99900)
-#define RPG_GAMECORE_STATUSEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x16F99ED0)
-#define RPG_GAMECORE_STATUSEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16F9B700)
-#define RPG_GAMECORE_STATUSEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16F9A190)
-#define RPG_GAMECORE_STATUSEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F9AED0)
-#define RPG_GAMECORE_STATUSEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16F9AF20)
-#define RPG_GAMECORE_STATUSEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F9B740)
-#define RPG_GAMECORE_STATUSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16F9AE70)
-#define RPG_GAMECORE_STATUSEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16F9A330)
+#define RPG_GAMECORE_STATUSEXCELTABLE_GETBYMODIFIERNAME_OFFSET UNITYSDK_OFFSET(0x1778EEE0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1778D980)
+#define RPG_GAMECORE_STATUSEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1778D760)
+#define RPG_GAMECORE_STATUSEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1778D2E0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1778D4B0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1778D6F0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1778DC90)
+#define RPG_GAMECORE_STATUSEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1778D530)
+#define RPG_GAMECORE_STATUSEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1778DED0)
+#define RPG_GAMECORE_STATUSEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1778D440)
+#define RPG_GAMECORE_STATUSEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1778DA10)
+#define RPG_GAMECORE_STATUSEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x1778F240)
+#define RPG_GAMECORE_STATUSEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1778DCD0)
+#define RPG_GAMECORE_STATUSEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1778EA10)
+#define RPG_GAMECORE_STATUSEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1778EA60)
+#define RPG_GAMECORE_STATUSEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1778F280)
+#define RPG_GAMECORE_STATUSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1778E9B0)
+#define RPG_GAMECORE_STATUSEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1778DE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatusExcelTable_TypeDefinitionIndex = 13797;
+	inline static constexpr unsigned int StatusExcelTable_TypeDefinitionIndex = 13911;
 
 	class StatusExcelTable : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>** StaticGet_LRUCache()
+		static ::Class_2_238EB93629797DE5** StaticGet_headers()
 		{
-			return (::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x13780);
+			return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12360);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x13788);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12368);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>** StaticGet_LRUCache()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x13790);
-		}
-		static ::System::String** StaticGet_srcFileName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x13798);
-		}
-		static ::Class_2_238EB93629797DE5** StaticGet_headers()
-		{
-			return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x137A0);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x137A8);
+			return (::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12370);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet__ModifierToStatusMapping()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x137B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12378);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12380);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12388);
+		}
+		static ::System::String** StaticGet_srcFileName()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12390);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x137B8);
-		}
-		static ::System::Boolean* StaticGet_IsLoadReverseMap()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x4820);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StatusExcelTable_IndexKey, ::RPG::GameCore::StatusRow*>**)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x12398);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x4821);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x61E0);
+		}
+		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StatusExcelTable_TypeDefinitionIndex)->GetStaticField(0x61E1);
 		}
 
 		static ::System::Void _cctor()

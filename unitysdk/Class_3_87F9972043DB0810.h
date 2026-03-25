@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeMonsterHeadIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_87F9972043DB0810_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B300B0)
-#define CLASS_3_87F9972043DB0810__CTOR_OFFSET UNITYSDK_OFFSET(0x10B30080)
+#define CLASS_3_87F9972043DB0810_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA70B5B0)
+#define CLASS_3_87F9972043DB0810__CTOR_OFFSET UNITYSDK_OFFSET(0xA70B580)
 
-inline static constexpr unsigned int Class_3_87F9972043DB0810_TypeDefinitionIndex = 42911;
+inline static constexpr unsigned int Class_3_87F9972043DB0810_TypeDefinitionIndex = 43961;
 
 class Class_3_87F9972043DB0810 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeMonsterHeadIcon*>
 {

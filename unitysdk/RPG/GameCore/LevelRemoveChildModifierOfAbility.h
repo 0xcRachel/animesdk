@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_304;
+class Class_0_16E4307DCC419505_338;
 
-#define RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA4AB6C0)
-#define RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA4AB670)
-#define RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xA4AB660)
+#define RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA99C2F0)
+#define RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA99C2A0)
+#define RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xA99C290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRemoveChildModifierOfAbility_TypeDefinitionIndex = 44673;
+	inline static constexpr unsigned int LevelRemoveChildModifierOfAbility_TypeDefinitionIndex = 45734;
 
 	class LevelRemoveChildModifierOfAbility : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_304* AbilityInstance; // 0x10
+		::Class_0_16E4307DCC419505_338* AbilityInstance; // 0x10
 
-		::System::Void _ctor(::Class_0_16E4307DCC419505_304* abilityInstance)
+		::System::Void _ctor(::Class_0_16E4307DCC419505_338* abilityInstance)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_304*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY__CTOR_OFFSET))(this, abilityInstance);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_338*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREMOVECHILDMODIFIEROFABILITY__CTOR_OFFSET))(this, abilityInstance);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

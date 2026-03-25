@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Data
 {
-	inline static constexpr unsigned int DataAction_TypeDefinitionIndex = 58468;
+	inline static constexpr unsigned int DataAction_TypeDefinitionIndex = 60188;
 
 	class DataAction : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_FlashLoginActionParam_TypeDefinitionIndex = 36549;
+	inline static constexpr unsigned int UIConstants_FlashLoginActionParam_TypeDefinitionIndex = 37486;
 
 	class UIConstants_FlashLoginActionParam : public ::System::Object
 	{

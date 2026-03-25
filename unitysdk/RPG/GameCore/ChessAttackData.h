@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHESSATTACKDATA_METHOD_2_70121D438E6C24D6_OFFSET UNITYSDK_OFFSET(0x1697C6D0)
-#define RPG_GAMECORE_CHESSATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1697C760)
+#define RPG_GAMECORE_CHESSATTACKDATA_METHOD_2_70121D438E6C24D6_OFFSET UNITYSDK_OFFSET(0x1709EB60)
+#define RPG_GAMECORE_CHESSATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1709EBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChessAttackData_TypeDefinitionIndex = 21433;
+	inline static constexpr unsigned int ChessAttackData_TypeDefinitionIndex = 21993;
 
 	class ChessAttackData : public ::RPG::GameCore::JsonConfig
 	{

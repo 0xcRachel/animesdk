@@ -3,11 +3,11 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17F4A950)
+#define SYSTEM_TIMERS_ELAPSEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18774190)
 
 namespace System::Timers
 {
-	inline static constexpr unsigned int ElapsedEventArgs_TypeDefinitionIndex = 2479;
+	inline static constexpr unsigned int ElapsedEventArgs_TypeDefinitionIndex = 2484;
 
 	class ElapsedEventArgs : public ::System::EventArgs
 	{

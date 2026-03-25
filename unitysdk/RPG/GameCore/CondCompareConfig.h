@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_3_54284A8FEBFE0CA6_OFFSET UNITYSDK_OFFSET(0x169C2F10)
-#define RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_3_E0FF3CDF5B2AC9AF_OFFSET UNITYSDK_OFFSET(0x169C3010)
-#define RPG_GAMECORE_CONDCOMPARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x169C2FB0)
+#define RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_4_0A19E3E33F9B618D_OFFSET UNITYSDK_OFFSET(0x1713E830)
+#define RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_4_17813D1BD9475150_OFFSET UNITYSDK_OFFSET(0x1713E990)
+#define RPG_GAMECORE_CONDCOMPARECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1713E900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CondCompareConfig_TypeDefinitionIndex = 15369;
+	inline static constexpr unsigned int CondCompareConfig_TypeDefinitionIndex = 15643;
 
 	class CondCompareConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDCOMPARECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_54284A8FEBFE0CA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondCompareConfig*& a2)
+		static ::System::Void Method_4_0A19E3E33F9B618D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondCompareConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondCompareConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_3_54284A8FEBFE0CA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondCompareConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_4_0A19E3E33F9B618D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E0FF3CDF5B2AC9AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondCompareConfig* a2)
+		static ::System::Void Method_4_17813D1BD9475150(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondCompareConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondCompareConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_3_E0FF3CDF5B2AC9AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondCompareConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDCOMPARECONFIG_METHOD_4_17813D1BD9475150_OFFSET))(a1, a2);
 		}
 	};
 }

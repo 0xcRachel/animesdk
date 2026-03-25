@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PropMoveState_TypeDefinitionIndex = 32613;
+	inline static constexpr unsigned int PropMoveState_TypeDefinitionIndex = 33541;
 
 	enum class PropMoveState : ::System::Int32
 	{
@@ -11,27 +11,32 @@ namespace RPG::Client::LittleGame::FiveDim
 		Arrow = 1,
 		ArrowSwitchSurface = 2,
 		CleanerBotGround = 3,
-		CleanerBotFall = 4,
-		GeckoGround = 5,
-		GeckoFall = 6,
-		GeckoLand = 7,
-		FloatingSpiritMove = 8,
-		FloatingSpiritStun = 9,
-		FloatingSpiritMoveOnBeat = 10,
-		GarbageBinIdle = 11,
-		GarbageBinStun = 12,
-		GarbageBinGroundMove = 13,
-		GarbageBinFall = 14,
-		MissileMove = 15,
-		DragonDogIdle = 16,
-		DragonDogGroundMove = 17,
-		DragonDogBeatBack = 18,
-		DragonDogTrampolineJump = 19,
-		DragonDogFall = 20,
-		DragonDogStun = 21,
-		GrenadierPatrol = 22,
-		GrenadierTrace = 23,
-		SimpleProjectileMove = 24,
-		Dying = 25,
+		CleanerBotLowFall = 4,
+		CleanerBotFall = 5,
+		CleanerBotLand = 6,
+		CleanerBotIdle = 7,
+		GeckoGround = 8,
+		GeckoFall = 9,
+		GeckoLand = 10,
+		FloatingSpiritMove = 11,
+		FloatingSpiritStun = 12,
+		FloatingSpiritMoveOnBeat = 13,
+		GarbageBinIdle = 14,
+		GarbageBinStun = 15,
+		GarbageBinGroundMove = 16,
+		GarbageBinFall = 17,
+		MissileMove = 18,
+		DragonDogIdle = 19,
+		DragonDogGroundMove = 20,
+		DragonDogBeatBack = 21,
+		DragonDogTrampolineJump = 22,
+		DragonDogFall = 23,
+		DragonDogLand = 24,
+		DragonDogStun = 25,
+		GrenadierPatrol = 26,
+		GrenadierTrace = 27,
+		GrenadierStun = 28,
+		SimpleProjectileMove = 29,
+		Dying = 30,
 	};
 }

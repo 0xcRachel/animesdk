@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupMissionConditionOperation_TypeDefinitionIndex = 15494;
+	inline static constexpr unsigned int LevelGroupMissionConditionOperation_TypeDefinitionIndex = 15771;
 
 	enum class LevelGroupMissionConditionOperation : ::System::Int32
 	{

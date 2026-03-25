@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FBF3B0)
-#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FBF530)
+#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B3810)
+#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B3990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingPartnerGroupRow_TypeDefinitionIndex = 11299;
+	inline static constexpr unsigned int SwordTrainingPartnerGroupRow_TypeDefinitionIndex = 11367;
 
 	class SwordTrainingPartnerGroupRow : public ::System::Object
 	{

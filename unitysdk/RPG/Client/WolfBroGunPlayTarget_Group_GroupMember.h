@@ -8,7 +8,7 @@ namespace RPG::Client { class WolfBroGunPlayTarget; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_Group_GroupMember_TypeDefinitionIndex = 54566;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_Group_GroupMember_TypeDefinitionIndex = 56126;
 
 	struct alignas(8) WolfBroGunPlayTarget_Group_GroupMember
 	{

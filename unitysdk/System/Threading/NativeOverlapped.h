@@ -4,7 +4,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int NativeOverlapped_TypeDefinitionIndex = 870;
+	inline static constexpr unsigned int NativeOverlapped_TypeDefinitionIndex = 871;
 
 	struct alignas(8) NativeOverlapped
 	{

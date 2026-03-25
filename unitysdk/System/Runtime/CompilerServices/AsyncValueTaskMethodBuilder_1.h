@@ -3,12 +3,9 @@
 #include "unitysdk/System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class Exception; }
-namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
-
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncValueTaskMethodBuilder_1_TypeDefinitionIndex = 8766;
+	inline static constexpr unsigned int AsyncValueTaskMethodBuilder_1_TypeDefinitionIndex = 8992;
 
 	template <typename TResult>
 	struct AsyncValueTaskMethodBuilder_1

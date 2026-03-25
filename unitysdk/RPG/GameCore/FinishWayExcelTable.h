@@ -11,52 +11,52 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16AA7B80)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16AA79D0)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GETMISSIONIDBYSTRPARAM_OFFSET UNITYSDK_OFFSET(0x16AA8750)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16AA76A0)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16AA88D0)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16AA7970)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16AA7D00)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16AA7720)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16AA8710)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16AA7D40)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16AA7F20)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16AA8400)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AA8D70)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16AA7E80)
-#define RPG_GAMECORE_FINISHWAYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16AA7DE0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x171ED000)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x171ECE50)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GETMISSIONIDBYSTRPARAM_OFFSET UNITYSDK_OFFSET(0x171EDBD0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x171ECB20)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x171EDD50)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x171ECDF0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x171ED180)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x171ECBA0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x171EDB90)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x171ED1C0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x171ED3A0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x171ED880)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x171EE1F0)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x171ED300)
+#define RPG_GAMECORE_FINISHWAYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x171ED260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishWayExcelTable_TypeDefinitionIndex = 13230;
+	inline static constexpr unsigned int FinishWayExcelTable_TypeDefinitionIndex = 13304;
 
 	class FinishWayExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A260);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FinishWayRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FinishWayRow*>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A268);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A270);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FinishWayRow*>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D400);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>** StaticGet__cahceDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2A278);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D408);
 		}
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x9460);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D410);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D418);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0x9461);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0xFC30);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FinishWayExcelTable_TypeDefinitionIndex)->GetStaticField(0xFC31);
 		}
 
 		static ::System::Void _cctor()

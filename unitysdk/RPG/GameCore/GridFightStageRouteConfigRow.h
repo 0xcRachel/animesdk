@@ -5,27 +5,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4BEE0)
-#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4C7B0)
+#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729A5E0)
+#define RPG_GAMECORE_GRIDFIGHTSTAGEROUTECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729AEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightStageRouteConfigRow_TypeDefinitionIndex = 12377;
+	inline static constexpr unsigned int GridFightStageRouteConfigRow_TypeDefinitionIndex = 12447;
 
 	class GridFightStageRouteConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PenaltyBonusRuleIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* IntensifyBuffPoolIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* IntensifyBuffPoolIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* PenaltyBonusRuleIDList; // 0x18
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x20
-		::System::UInt32 IsAugment; // 0x28
+		::System::UInt32 StageID; // 0x28
 		::System::UInt32 ChapterID; // 0x2C
-		::System::UInt32 SectionID; // 0x30
-		::System::UInt32 StageID; // 0x34
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 NodeTemplateID; // 0x3C
-		::RPG::GameCore::GridFightNodeType NodeType; // 0x40
-		::System::UInt32 BasicGoldRewardNum; // 0x44
+		::System::UInt32 BasicGoldRewardNum; // 0x30
+		::System::UInt32 SectionID; // 0x34
+		::System::UInt32 NodeTemplateID; // 0x38
+		::System::UInt32 IsAugment; // 0x3C
+		::System::UInt32 ID; // 0x40
+		::RPG::GameCore::GridFightNodeType NodeType; // 0x44
 
 		::System::Void _ctor()
 		{

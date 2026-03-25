@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimStatisticPlayerActionType_TypeDefinitionIndex = 32647;
+	inline static constexpr unsigned int FiveDimStatisticPlayerActionType_TypeDefinitionIndex = 33576;
 
 	enum class FiveDimStatisticPlayerActionType : ::System::Int32
 	{

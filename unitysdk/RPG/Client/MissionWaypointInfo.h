@@ -7,7 +7,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionWaypointInfo_TypeDefinitionIndex = 52677;
+	inline static constexpr unsigned int MissionWaypointInfo_TypeDefinitionIndex = 53814;
 
 	struct alignas(4) MissionWaypointInfo
 	{

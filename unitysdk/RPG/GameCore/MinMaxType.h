@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MinMaxType_TypeDefinitionIndex = 14810;
+	inline static constexpr unsigned int MinMaxType_TypeDefinitionIndex = 15062;
 
 	enum class MinMaxType : ::System::Int32
 	{

@@ -6,10 +6,10 @@ class Class_2_9A097580DF02CED3;
 namespace RPG::GameCore { class ST_ByHasBornSmartObject; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4AA8B94BFA9BE8FA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8D99E0)
-#define CLASS_3_4AA8B94BFA9BE8FA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D9980)
+#define CLASS_3_4AA8B94BFA9BE8FA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11495D70)
+#define CLASS_3_4AA8B94BFA9BE8FA__CTOR_OFFSET UNITYSDK_OFFSET(0x11495D10)
 
-inline static constexpr unsigned int Class_3_4AA8B94BFA9BE8FA_TypeDefinitionIndex = 41168;
+inline static constexpr unsigned int Class_3_4AA8B94BFA9BE8FA_TypeDefinitionIndex = 42211;
 
 class Class_3_4AA8B94BFA9BE8FA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByHasBornSmartObject*>
 {

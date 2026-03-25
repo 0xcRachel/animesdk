@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByBattleMissionTalkFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4F010C80E3DB5DB6_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF57D810)
-#define CLASS_3_4F010C80E3DB5DB6__CTOR_OFFSET UNITYSDK_OFFSET(0xF57D7E0)
+#define CLASS_3_4F010C80E3DB5DB6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1106F580)
+#define CLASS_3_4F010C80E3DB5DB6__CTOR_OFFSET UNITYSDK_OFFSET(0x1106F550)
 
-inline static constexpr unsigned int Class_3_4F010C80E3DB5DB6_TypeDefinitionIndex = 45676;
+inline static constexpr unsigned int Class_3_4F010C80E3DB5DB6_TypeDefinitionIndex = 46740;
 
 class Class_3_4F010C80E3DB5DB6 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByBattleMissionTalkFinish*>
 {

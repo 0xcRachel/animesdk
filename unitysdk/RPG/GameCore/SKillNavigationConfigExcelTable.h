@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16ED9CA0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16ED9AF0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16ED97C0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16ED9A90)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16ED9EB0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16ED9840)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16ED9EF0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EDA0D0)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16EDA350)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EDA700)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16EDA030)
-#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16ED9F90)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1768E330)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1768E180)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1768DE50)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1768E120)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1768E540)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1768DED0)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1768E580)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1768E760)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1768E9E0)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1768ED90)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1768E6C0)
+#define RPG_GAMECORE_SKILLNAVIGATIONCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1768E620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SKillNavigationConfigExcelTable_TypeDefinitionIndex = 12558;
+	inline static constexpr unsigned int SKillNavigationConfigExcelTable_TypeDefinitionIndex = 12628;
 
 	class SKillNavigationConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7410);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7418);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xCFF0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SKillNavigationConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SKillNavigationConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7420);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SKillNavigationConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xCFF8);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x26F0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xD000);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x26F1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x46D0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SKillNavigationConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x46D1);
 		}
 
 		static ::System::Void _cctor()

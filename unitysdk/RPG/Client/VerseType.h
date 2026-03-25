@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VerseType_TypeDefinitionIndex = 52809;
+	inline static constexpr unsigned int VerseType_TypeDefinitionIndex = 53946;
 
 	enum class VerseType : ::System::Int32
 	{

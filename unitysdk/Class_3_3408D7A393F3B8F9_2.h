@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchUnstageTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_3408D7A393F3B8F9_2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x105CDD90)
-#define CLASS_3_3408D7A393F3B8F9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x105CDD10)
+#define CLASS_3_3408D7A393F3B8F9_2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8A6EA90)
+#define CLASS_3_3408D7A393F3B8F9_2__CTOR_OFFSET UNITYSDK_OFFSET(0x8A6EA10)
 
-inline static constexpr unsigned int Class_3_3408D7A393F3B8F9_2_TypeDefinitionIndex = 46761;
+inline static constexpr unsigned int Class_3_3408D7A393F3B8F9_2_TypeDefinitionIndex = 47840;
 
 class Class_3_3408D7A393F3B8F9_2 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchUnstageTarget*>
 {

@@ -3,12 +3,12 @@
 #include "unitysdk/Simplygon/spArray.h"
 #include "unitysdk/System/Runtime/InteropServices/HandleRef.h"
 
-#define SIMPLYGON_SPVALUEARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B739B0)
-#define SIMPLYGON_SPVALUEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x17B73650)
+#define SIMPLYGON_SPVALUEARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1838BDE0)
+#define SIMPLYGON_SPVALUEARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1838BA80)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int spValueArray_TypeDefinitionIndex = 28675;
+	inline static constexpr unsigned int spValueArray_TypeDefinitionIndex = 29550;
 
 	class spValueArray : public ::Simplygon::spArray
 	{

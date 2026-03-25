@@ -6,29 +6,29 @@
 
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1639E570)
-#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1639EA50)
+#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x16AAD7B0)
+#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x16AADC90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_TypeDefinitionIndex = 28464;
+	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_TypeDefinitionIndex = 29339;
 
 	class DynamicResolutionHeuristicProxy : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_LastCPUTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionHeuristicProxy_TypeDefinitionIndex)->GetStaticField(0xE050);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionHeuristicProxy_TypeDefinitionIndex)->GetStaticField(0xBD40);
 		}
 		static ::System::Single* StaticGet_LastGPUTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionHeuristicProxy_TypeDefinitionIndex)->GetStaticField(0xE054);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionHeuristicProxy_TypeDefinitionIndex)->GetStaticField(0xBD44);
 		}
-		::Il2CppArray<::RPG::CustomRP::DynamicResolutionHeuristicProxy_FrameTimeInfo>* _FrameList; // 0x10
-		::Il2CppArray<::UnityEngine::FrameTiming>* _TmpFrameTimings; // 0x18
-		::System::Single _CurFrameRenderScale; // 0x20
+		::Il2CppArray<::UnityEngine::FrameTiming>* _TmpFrameTimings; // 0x10
+		::Il2CppArray<::RPG::CustomRP::DynamicResolutionHeuristicProxy_FrameTimeInfo>* _FrameList; // 0x18
+		::System::Int32 _FrameCount; // 0x20
 		::System::Int32 _TailIndex; // 0x24
-		::System::Int32 _FrameCount; // 0x28
+		::System::Single _CurFrameRenderScale; // 0x28
 
 		::System::Void _ctor()
 		{

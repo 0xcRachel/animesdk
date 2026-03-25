@@ -4,19 +4,19 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8EEEAC0)
-#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x8EEF090)
+#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9392490)
+#define RPG_CLIENT_CHESSROGUEUTILS___C__DISPLAYCLASS23_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x9392A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueUtils___c__DisplayClass23_0_TypeDefinitionIndex = 53315;
+	inline static constexpr unsigned int ChessRogueUtils___c__DisplayClass23_0_TypeDefinitionIndex = 54456;
 
 	class ChessRogueUtils___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
 		::System::Action* preTeleportCallback; // 0x10
-		::System::UInt32 mappingInfoID; // 0x18
-		::System::UInt32 entranceID; // 0x1C
+		::System::UInt32 entranceID; // 0x18
+		::System::UInt32 mappingInfoID; // 0x1C
 
 		::System::Void _ctor()
 		{

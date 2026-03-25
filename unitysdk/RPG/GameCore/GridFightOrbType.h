@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightOrbType_TypeDefinitionIndex = 12189;
+	inline static constexpr unsigned int GridFightOrbType_TypeDefinitionIndex = 12259;
 
 	enum class GridFightOrbType : ::System::Int32
 	{

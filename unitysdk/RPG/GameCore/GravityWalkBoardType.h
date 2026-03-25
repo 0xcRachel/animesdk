@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityWalkBoardType_TypeDefinitionIndex = 16667;
+	inline static constexpr unsigned int GravityWalkBoardType_TypeDefinitionIndex = 17041;
 
 	enum class GravityWalkBoardType : ::System::Int32
 	{

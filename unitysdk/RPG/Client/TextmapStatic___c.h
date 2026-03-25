@@ -6,24 +6,24 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_TEXTMAPSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA0826A0)
-#define RPG_CLIENT_TEXTMAPSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA0826D0)
-#define RPG_CLIENT_TEXTMAPSTATIC___C___COMPILETEXTICONSPATTERN_B__38_0_OFFSET UNITYSDK_OFFSET(0xA0826E0)
+#define RPG_CLIENT_TEXTMAPSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA5A71B0)
+#define RPG_CLIENT_TEXTMAPSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5A71F0)
+#define RPG_CLIENT_TEXTMAPSTATIC___C___COMPILETEXTICONSPATTERN_B__38_0_OFFSET UNITYSDK_OFFSET(0xA5A7200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapStatic___c_TypeDefinitionIndex = 58151;
+	inline static constexpr unsigned int TextmapStatic___c_TypeDefinitionIndex = 59801;
 
 	class TextmapStatic___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::TextmapStatic___c** StaticGet___9()
 		{
-			return (::RPG::Client::TextmapStatic___c**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x277B0);
+			return (::RPG::Client::TextmapStatic___c**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x3E5A0);
 		}
 		static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>** StaticGet___9__38_0()
 		{
-			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x277B8);
+			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x3E5A8);
 		}
 
 		static ::System::Void _cctor()

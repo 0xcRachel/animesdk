@@ -5,17 +5,17 @@
 namespace System { class Action; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define CLASS_3_A7957C59AD913633___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x848C2D0)
-#define CLASS_3_A7957C59AD913633___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0x848C350)
-#define CLASS_3_A7957C59AD913633___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0x848C3D0)
+#define CLASS_3_A7957C59AD913633___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10B5F620)
+#define CLASS_3_A7957C59AD913633___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0x10B5F6A0)
+#define CLASS_3_A7957C59AD913633___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0x10B5F720)
 
-inline static constexpr unsigned int Class_3_A7957C59AD913633___c__DisplayClass0_0_TypeDefinitionIndex = 48440;
+inline static constexpr unsigned int Class_3_A7957C59AD913633___c__DisplayClass0_0_TypeDefinitionIndex = 49533;
 
 class Class_3_A7957C59AD913633___c__DisplayClass0_0 : public ::System::Object
 {
 public:
-	::System::Diagnostics::Stopwatch* stopwatch; // 0x10
-	::System::Action* __9__1; // 0x18
+	::System::Action* __9__1; // 0x10
+	::System::Diagnostics::Stopwatch* stopwatch; // 0x18
 
 	::System::Void _ctor()
 	{

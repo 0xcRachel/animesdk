@@ -14,7 +14,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int LogPlayerSpawnOptionsInternal_TypeDefinitionIndex = 35725;
+	inline static constexpr unsigned int LogPlayerSpawnOptionsInternal_TypeDefinitionIndex = 36659;
 
 	struct alignas(8) LogPlayerSpawnOptionsInternal
 	{

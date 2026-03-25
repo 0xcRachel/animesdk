@@ -7,7 +7,7 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRMonoBehaviourEx_FieldInfo_TypeDefinitionIndex = 26916;
+	inline static constexpr unsigned int SRMonoBehaviourEx_FieldInfo_TypeDefinitionIndex = 27652;
 
 	struct alignas(8) SRMonoBehaviourEx_FieldInfo
 	{

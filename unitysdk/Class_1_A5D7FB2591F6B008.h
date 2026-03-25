@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_A5D7FB2591F6B008_METHOD_1_AA8CB4D4CAC6C0C6_OFFSET UNITYSDK_OFFSET(0x86FC710)
-#define CLASS_1_A5D7FB2591F6B008__CCTOR_OFFSET UNITYSDK_OFFSET(0x86FC900)
-#define CLASS_1_A5D7FB2591F6B008__CTOR_OFFSET UNITYSDK_OFFSET(0x86FC8F0)
+#define CLASS_1_A5D7FB2591F6B008_METHOD_1_AA8CB4D4CAC6C0C6_OFFSET UNITYSDK_OFFSET(0x1164A060)
+#define CLASS_1_A5D7FB2591F6B008__CCTOR_OFFSET UNITYSDK_OFFSET(0x1164A250)
+#define CLASS_1_A5D7FB2591F6B008__CTOR_OFFSET UNITYSDK_OFFSET(0x1164A240)
 
-inline static constexpr unsigned int Class_1_A5D7FB2591F6B008_TypeDefinitionIndex = 58838;
+inline static constexpr unsigned int Class_1_A5D7FB2591F6B008_TypeDefinitionIndex = 60581;
 
 class Class_1_A5D7FB2591F6B008 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A5D7FB2591F6B008_TypeDefinitionIndex)->GetStaticField(0x41050);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A5D7FB2591F6B008_TypeDefinitionIndex)->GetStaticField(0x37C00);
 	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A5D7FB2591F6B008_TypeDefinitionIndex)->GetStaticField(0x41058);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A5D7FB2591F6B008_TypeDefinitionIndex)->GetStaticField(0x37C08);
 	}
 
 	::System::Void _ctor()

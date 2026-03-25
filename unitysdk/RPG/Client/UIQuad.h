@@ -9,29 +9,29 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xA1FBAB0)
-#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xA1FC8B0)
-#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA1FBB70)
-#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xA1FCA40)
-#define RPG_CLIENT_UIQUAD__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1FCE60)
-#define RPG_CLIENT_UIQUAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FCBC0)
-#define RPG_CLIENT_UIQUAD___IFIXBASEPROXY_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xA1FCEC0)
-#define RPG_CLIENT_UIQUAD___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA1FCEB0)
+#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xA735CF0)
+#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xA736AF0)
+#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA735DB0)
+#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xA736C80)
+#define RPG_CLIENT_UIQUAD__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7370A0)
+#define RPG_CLIENT_UIQUAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA736E00)
+#define RPG_CLIENT_UIQUAD___IFIXBASEPROXY_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xA737100)
+#define RPG_CLIENT_UIQUAD___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xA7370F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 57957;
+	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 59584;
 
 	class UIQuad : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::UnityEngine::Vector4* StaticGet_UITangent()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xC9D0);
-		}
 		static ::UnityEngine::Vector3* StaticGet_UINormal()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xC9E0);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xE140);
+		}
+		static ::UnityEngine::Vector4* StaticGet_UITangent()
+		{
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xE14C);
 		}
 		::UnityEngine::Sprite* sprite; // 0xF0
 		::System::Single StartValue; // 0xF8

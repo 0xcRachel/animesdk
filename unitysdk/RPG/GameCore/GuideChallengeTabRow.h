@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDECHALLENGETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B545D0)
-#define RPG_GAMECORE_GUIDECHALLENGETABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B54F80)
+#define RPG_GAMECORE_GUIDECHALLENGETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A2CD0)
+#define RPG_GAMECORE_GUIDECHALLENGETABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172A3680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideChallengeTabRow_TypeDefinitionIndex = 12156;
+	inline static constexpr unsigned int GuideChallengeTabRow_TypeDefinitionIndex = 12226;
 
 	class GuideChallengeTabRow : public ::System::Object
 	{
@@ -20,11 +20,11 @@ namespace RPG::GameCore
 		::System::String* ResBarKey; // 0x10
 		::System::String* IconPath; // 0x18
 		::RPG::Client::TextID Name; // 0x20
-		::RPG::GameCore::GuideChallengeType GuideType; // 0x30
-		::System::UInt32 IntroDataID; // 0x34
-		::RPG::Client::TextID Desc; // 0x38
-		::System::UInt32 ID; // 0x48
-		::System::UInt32 Priority; // 0x4C
+		::RPG::Client::TextID Desc; // 0x30
+		::System::UInt32 IntroDataID; // 0x40
+		::RPG::GameCore::GuideChallengeType GuideType; // 0x44
+		::System::UInt32 Priority; // 0x48
+		::System::UInt32 ID; // 0x4C
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_MahJongAutoLayout_ItemVisibleMode_TypeDefinitionIndex = 55731;
+	inline static constexpr unsigned int Effect_MahJongAutoLayout_ItemVisibleMode_TypeDefinitionIndex = 57296;
 
 	enum class Effect_MahJongAutoLayout_ItemVisibleMode : ::System::Int32
 	{

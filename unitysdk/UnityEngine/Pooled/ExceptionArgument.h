@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int ExceptionArgument_TypeDefinitionIndex = 4320;
+	inline static constexpr unsigned int ExceptionArgument_TypeDefinitionIndex = 4342;
 
 	enum class ExceptionArgument : ::System::Int32
 	{

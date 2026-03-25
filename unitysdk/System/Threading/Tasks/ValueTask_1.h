@@ -4,12 +4,10 @@
 
 namespace System { class Object; }
 namespace System { class String; }
-namespace System::Threading::Tasks { template <typename T> class Task_1; }
-namespace System::Threading::Tasks::Sources { template <typename T> class IValueTaskSource_1; }
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int ValueTask_1_TypeDefinitionIndex = 8759;
+	inline static constexpr unsigned int ValueTask_1_TypeDefinitionIndex = 8988;
 
 	template <typename TResult>
 	struct ValueTask_1

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/IntParameter.h"
 
-#define UNITYENGINE_RENDERING_MININTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x180D16B0)
-#define UNITYENGINE_RENDERING_MININTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x180D16C0)
-#define UNITYENGINE_RENDERING_MININTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x180D16D0)
+#define UNITYENGINE_RENDERING_MININTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x188F9810)
+#define UNITYENGINE_RENDERING_MININTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x188F9820)
+#define UNITYENGINE_RENDERING_MININTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188F9830)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MinIntParameter_TypeDefinitionIndex = 27178;
+	inline static constexpr unsigned int MinIntParameter_TypeDefinitionIndex = 27914;
 
 	class MinIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{

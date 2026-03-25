@@ -6,12 +6,12 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18484710)
-#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS52_0__THENSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x18485810)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS52_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA1830)
+#define ZENFULCRUM_EMBEDDEDBROWSER_PROMISE___C__DISPLAYCLASS52_0__THENSEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0x18CA2930)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass52_0_TypeDefinitionIndex = 29724;
+	inline static constexpr unsigned int Promise___c__DisplayClass52_0_TypeDefinitionIndex = 30599;
 
 	class Promise___c__DisplayClass52_0 : public ::System::Object
 	{

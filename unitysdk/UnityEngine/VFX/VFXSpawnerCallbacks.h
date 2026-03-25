@@ -6,11 +6,11 @@ namespace UnityEngine::VFX { class VFXExpressionValues; }
 namespace UnityEngine::VFX { class VFXSpawnerState; }
 namespace UnityEngine::VFX { class VisualEffect; }
 
-#define UNITYENGINE_VFX_VFXSPAWNERCALLBACKS__CTOR_OFFSET UNITYSDK_OFFSET(0x18370570)
+#define UNITYENGINE_VFX_VFXSPAWNERCALLBACKS__CTOR_OFFSET UNITYSDK_OFFSET(0x18B967B0)
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXSpawnerCallbacks_TypeDefinitionIndex = 5894;
+	inline static constexpr unsigned int VFXSpawnerCallbacks_TypeDefinitionIndex = 5994;
 
 	class VFXSpawnerCallbacks : public ::UnityEngine::ScriptableObject
 	{

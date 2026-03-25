@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueImageType_TypeDefinitionIndex = 13460;
+	inline static constexpr unsigned int RogueImageType_TypeDefinitionIndex = 13536;
 
 	enum class RogueImageType : ::System::Int32
 	{

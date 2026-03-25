@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemData_ItemFlag_TypeDefinitionIndex = 52235;
+	inline static constexpr unsigned int ItemData_ItemFlag_TypeDefinitionIndex = 53371;
 
 	enum class ItemData_ItemFlag : ::System::Int32
 	{

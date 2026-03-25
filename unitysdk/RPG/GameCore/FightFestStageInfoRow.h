@@ -6,28 +6,28 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIGHTFESTSTAGEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16AA4010)
-#define RPG_GAMECORE_FIGHTFESTSTAGEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA49E0)
+#define RPG_GAMECORE_FIGHTFESTSTAGEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171E9470)
+#define RPG_GAMECORE_FIGHTFESTSTAGEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171E9E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestStageInfoRow_TypeDefinitionIndex = 12053;
+	inline static constexpr unsigned int FightFestStageInfoRow_TypeDefinitionIndex = 12123;
 
 	class FightFestStageInfoRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommadNature; // 0x10
+		::Il2CppArray<::System::UInt32>* RecommadCoachID; // 0x10
 		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x18
 		::Il2CppArray<::System::UInt32>* PreviewMonsterList; // 0x20
-		::Il2CppArray<::System::UInt32>* RecommadCoachID; // 0x28
-		::RPG::Client::TextID EnvironmentBuffDes; // 0x30
-		::RPG::Client::TextID EnvironmentBuffName; // 0x40
-		::RPG::Client::TextID ChallengeName; // 0x50
-		::System::UInt32 EnvironmentBuffID; // 0x60
-		::System::UInt32 UIEnterBattleAreaID; // 0x64
-		::System::UInt32 EventID; // 0x68
-		::System::UInt32 TutorialID; // 0x6C
-		::RPG::Client::TextID HighLightDesc; // 0x70
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommadNature; // 0x28
+		::RPG::Client::TextID HighLightDesc; // 0x30
+		::System::UInt32 EnvironmentBuffID; // 0x40
+		::System::UInt32 UIEnterBattleAreaID; // 0x44
+		::RPG::Client::TextID EnvironmentBuffDes; // 0x48
+		::System::UInt32 TutorialID; // 0x58
+		::System::UInt32 EventID; // 0x5C
+		::RPG::Client::TextID ChallengeName; // 0x60
+		::RPG::Client::TextID EnvironmentBuffName; // 0x70
 
 		::System::Void _ctor()
 		{

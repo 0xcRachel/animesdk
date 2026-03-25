@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FrameCaptureManager; }
 
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0x92A21D0)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT__CTOR_OFFSET UNITYSDK_OFFSET(0x92A1E00)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT_ONBLENDINGEND_OFFSET UNITYSDK_OFFSET(0x9717970)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_FRAMEBLENDINGENDOPDEFAULT__CTOR_OFFSET UNITYSDK_OFFSET(0x97175A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameCaptureManager_FrameBlendingEndOPDefault_TypeDefinitionIndex = 55487;
+	inline static constexpr unsigned int FrameCaptureManager_FrameBlendingEndOPDefault_TypeDefinitionIndex = 57052;
 
 	class FrameCaptureManager_FrameBlendingEndOPDefault : public ::System::Object
 	{

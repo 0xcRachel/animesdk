@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPPROGRESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16C2D390)
-#define RPG_GAMECORE_MAPPROGRESSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16C2D980)
+#define RPG_GAMECORE_MAPPROGRESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17392180)
+#define RPG_GAMECORE_MAPPROGRESSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17392770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapProgressConfigRow_TypeDefinitionIndex = 12717;
+	inline static constexpr unsigned int MapProgressConfigRow_TypeDefinitionIndex = 12788;
 
 	class MapProgressConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID ProgressName; // 0x18
-		::RPG::GameCore::MapPregressShowType ID; // 0x28
+		::RPG::GameCore::MapPregressShowType ID; // 0x18
+		::RPG::Client::TextID ProgressName; // 0x20
 
 		::System::Void _ctor()
 		{

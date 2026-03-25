@@ -7,39 +7,39 @@ namespace RPG::Client { class ChimeraDuelGameSessionShopChimera; }
 namespace RPG::Client { class ChimeraDuelGameSessionShopItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F11FC0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F12000)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x8F12010)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_1_OFFSET UNITYSDK_OFFSET(0x8F12020)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_2_OFFSET UNITYSDK_OFFSET(0x8F120B0)
-#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_3_OFFSET UNITYSDK_OFFSET(0x8F120C0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x93B47E0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x93B4820)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_0_OFFSET UNITYSDK_OFFSET(0x93B4830)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_1_OFFSET UNITYSDK_OFFSET(0x93B4840)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_2_OFFSET UNITYSDK_OFFSET(0x93B48D0)
+#define RPG_CLIENT_CHIMERADUELGAMESHOPSTALLDATA___C___CTOR_B__6_3_OFFSET UNITYSDK_OFFSET(0x93B48E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameShopStallData___c_TypeDefinitionIndex = 50267;
+	inline static constexpr unsigned int ChimeraDuelGameShopStallData___c_TypeDefinitionIndex = 51402;
 
 	class ChimeraDuelGameShopStallData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChimeraDuelGameShopStallData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChimeraDuelGameShopStallData___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x41EC0);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::System::UInt32>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x41EC8);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>, ::RPG::Client::ChimeraDuelGameSessionShopItem*>** StaticGet___9__6_3()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>, ::RPG::Client::ChimeraDuelGameSessionShopItem*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x41ED0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>, ::RPG::Client::ChimeraDuelGameSessionShopItem*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x456D0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>, ::System::UInt32>** StaticGet___9__6_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x41ED8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopItem*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x456D8);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::System::UInt32>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x456E0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x41EE0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>, ::RPG::Client::ChimeraDuelGameSessionShopChimera*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x456E8);
+		}
+		static ::RPG::Client::ChimeraDuelGameShopStallData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChimeraDuelGameShopStallData___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameShopStallData___c_TypeDefinitionIndex)->GetStaticField(0x456F0);
 		}
 
 		static ::System::Void _cctor()

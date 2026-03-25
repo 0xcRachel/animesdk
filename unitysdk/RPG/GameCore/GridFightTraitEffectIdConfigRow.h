@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B4E0E0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTIDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B4E340)
+#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729C7E0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTIDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729CA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitEffectIdConfigRow_TypeDefinitionIndex = 12441;
+	inline static constexpr unsigned int GridFightTraitEffectIdConfigRow_TypeDefinitionIndex = 12511;
 
 	class GridFightTraitEffectIdConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* TraitEffectIconPath; // 0x10
 		::System::String* TraitEffectJson; // 0x18
-		::RPG::GameCore::GridFightTraitEffectType TraitEffectType; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::Client::TextID TraitEffectDesc; // 0x28
+		::RPG::Client::TextID TraitEffectDesc; // 0x20
+		::RPG::GameCore::GridFightTraitEffectType TraitEffectType; // 0x30
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

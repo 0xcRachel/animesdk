@@ -8,7 +8,7 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Coroutine_1_TypeDefinitionIndex = 28385;
+	inline static constexpr unsigned int Coroutine_1_TypeDefinitionIndex = 29260;
 
 	template <typename T>
 	class Coroutine_1 : public ::System::Object

@@ -13,22 +13,22 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class OneofDescriptor; }
 namespace Google::Protobuf::Reflection { class OneofDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1540E9E0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1540F440)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1540F4F0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1540F5A0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1540F650)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B27400)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x15B27E20)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x15B27ED0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x15B27F80)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x15B28030)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 6240;
+	inline static constexpr unsigned int MessageDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 6340;
 
 	class MessageDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x10
+		::Google::Protobuf::Reflection::MessageDescriptor* __4__this; // 0x10
 		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x18
-		::Google::Protobuf::Reflection::MessageDescriptor* __4__this; // 0x20
+		::Google::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int MulticastOption_TypeDefinitionIndex = 2877;
+	inline static constexpr unsigned int MulticastOption_TypeDefinitionIndex = 2886;
 
 	class MulticastOption : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace UnityEngine { class EnumInfo; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DiagnosticSwitch_TypeDefinitionIndex = 3873;
+	inline static constexpr unsigned int DiagnosticSwitch_TypeDefinitionIndex = 3882;
 
 	struct alignas(8) DiagnosticSwitch
 	{

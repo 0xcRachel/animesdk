@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelAppendKeyType_TypeDefinitionIndex = 14430;
+	inline static constexpr unsigned int ChimeraDuelAppendKeyType_TypeDefinitionIndex = 14682;
 
 	enum class ChimeraDuelAppendKeyType : ::System::Int32
 	{

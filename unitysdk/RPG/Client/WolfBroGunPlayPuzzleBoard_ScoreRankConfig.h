@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYPUZZLEBOARD_SCORERANKCONFIG_GETRANKSTR_OFFSET UNITYSDK_OFFSET(0xD5340)
-#define RPG_CLIENT_WOLFBROGUNPLAYPUZZLEBOARD_SCORERANKCONFIG_GETRANK_OFFSET UNITYSDK_OFFSET(0xD52C0)
+#define RPG_CLIENT_WOLFBROGUNPLAYPUZZLEBOARD_SCORERANKCONFIG_GETRANKSTR_OFFSET UNITYSDK_OFFSET(0x86630)
+#define RPG_CLIENT_WOLFBROGUNPLAYPUZZLEBOARD_SCORERANKCONFIG_GETRANK_OFFSET UNITYSDK_OFFSET(0x865B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_ScoreRankConfig_TypeDefinitionIndex = 54586;
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleBoard_ScoreRankConfig_TypeDefinitionIndex = 56146;
 
 	struct alignas(4) WolfBroGunPlayPuzzleBoard_ScoreRankConfig
 	{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueTournBuildRefMatchFormulaRateConfig; }
 namespace RPG::GameCore { class RogueTournBuildRefMatchHexMiracleRateConfig; }
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHCONFIG_METHOD_2_5C25481F10944A53_OFFSET UNITYSDK_OFFSET(0x16EC1510)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC1690)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHCONFIG_METHOD_2_5C25481F10944A53_OFFSET UNITYSDK_OFFSET(0x176753D0)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFMATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17675550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefMatchConfig_TypeDefinitionIndex = 15954;
+	inline static constexpr unsigned int RogueTournBuildRefMatchConfig_TypeDefinitionIndex = 16231;
 
 	class RogueTournBuildRefMatchConfig : public ::RPG::GameCore::JsonConfig
 	{

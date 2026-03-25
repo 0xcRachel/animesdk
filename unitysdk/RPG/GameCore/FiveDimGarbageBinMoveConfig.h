@@ -1,18 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FiveDimGarbageBinOnRollToAnother.h"
+#include "unitysdk/RPG/GameCore/FiveDimGarbageBinRollDirection.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropMoveConfig.h"
 #include "unitysdk/RPG/MVector3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_D0BF5458EADABA7D_OFFSET UNITYSDK_OFFSET(0x16ABF620)
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_E4EADD494EFB2538_OFFSET UNITYSDK_OFFSET(0x16ABF5D0)
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABF610)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_D0BF5458EADABA7D_OFFSET UNITYSDK_OFFSET(0x17208370)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_E4EADD494EFB2538_OFFSET UNITYSDK_OFFSET(0x17208320)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17208360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGarbageBinMoveConfig_TypeDefinitionIndex = 15045;
+	inline static constexpr unsigned int FiveDimGarbageBinMoveConfig_TypeDefinitionIndex = 15300;
 
 	class FiveDimGarbageBinMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
@@ -21,17 +23,21 @@ namespace RPG::GameCore
 		::System::Single ColliderSizeXSmall; // 0x4C
 		::System::Single ColliderSizeYSmall; // 0x50
 		::RPG::MVector3 ColliderCenterSmall; // 0x54
-		::System::Boolean OverrideJumpParams; // 0x60
-		::System::Single TrampolineJumpHeight; // 0x64
-		::System::Single FallGravity; // 0x68
-		::System::Single MaxFallSpeed; // 0x6C
-		::System::Int32 MaxHitWallCount; // 0x70
-		::System::String* FirstStepOnEvent; // 0x78
-		::System::String* SecondStepOnEvent; // 0x80
-		::System::String* RemovalEvent; // 0x88
-		::System::String* HitPlayerEvent; // 0x90
-		::System::String* StepOnEffectPath; // 0x98
-		::System::String* HitPlayerEffectPath; // 0xA0
+		::RPG::GameCore::FiveDimGarbageBinRollDirection RollDirection; // 0x60
+		::RPG::GameCore::FiveDimGarbageBinOnRollToAnother OnRollToAnother; // 0x64
+		::System::Boolean OverrideJumpParams; // 0x68
+		::System::Single TrampolineJumpHeight; // 0x6C
+		::System::Single FallGravity; // 0x70
+		::System::Single MaxFallSpeed; // 0x74
+		::System::Int32 MaxHitWallCount; // 0x78
+		::System::String* FirstStepOnEvent; // 0x80
+		::System::String* SecondStepOnEvent; // 0x88
+		::System::String* RemovalEvent; // 0x90
+		::System::String* HitPlayerEvent; // 0x98
+		::System::String* HitWithInvinciblePlayerEvent; // 0xA0
+		::System::String* StepOnEffectPath; // 0xA8
+		::System::String* HitPlayerEffectPath; // 0xB0
+		::System::String* HitWithInvinciblePlayerEffectPath; // 0xB8
 
 		::System::Void _ctor()
 		{

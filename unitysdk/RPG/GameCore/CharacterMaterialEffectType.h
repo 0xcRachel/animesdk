@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterMaterialEffectType_TypeDefinitionIndex = 16338;
+	inline static constexpr unsigned int CharacterMaterialEffectType_TypeDefinitionIndex = 16712;
 
 	enum class CharacterMaterialEffectType : ::System::Int32
 	{

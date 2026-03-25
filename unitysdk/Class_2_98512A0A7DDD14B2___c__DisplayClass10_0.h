@@ -6,10 +6,10 @@ class Class_2_98512A0A7DDD14B2;
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 
-#define CLASS_2_98512A0A7DDD14B2___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF56C650)
-#define CLASS_2_98512A0A7DDD14B2___C__DISPLAYCLASS10_0___DICEAPPEAR_B__1_OFFSET UNITYSDK_OFFSET(0xF56D900)
+#define CLASS_2_98512A0A7DDD14B2___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x106529D0)
+#define CLASS_2_98512A0A7DDD14B2___C__DISPLAYCLASS10_0___DICEAPPEAR_B__1_OFFSET UNITYSDK_OFFSET(0x10653C80)
 
-inline static constexpr unsigned int Class_2_98512A0A7DDD14B2___c__DisplayClass10_0_TypeDefinitionIndex = 46088;
+inline static constexpr unsigned int Class_2_98512A0A7DDD14B2___c__DisplayClass10_0_TypeDefinitionIndex = 47156;
 
 class Class_2_98512A0A7DDD14B2___c__DisplayClass10_0 : public ::System::Object
 {

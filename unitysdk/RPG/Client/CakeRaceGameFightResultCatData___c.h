@@ -5,24 +5,24 @@
 namespace RPG::Client { class CakeRaceGameFightResultParticipantData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8E3BED0)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8E3BF10)
-#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA___C___INITPARTICIPANTDATALIST_B__23_0_OFFSET UNITYSDK_OFFSET(0x8E3BF20)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9245CC0)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9245D00)
+#define RPG_CLIENT_CAKERACEGAMEFIGHTRESULTCATDATA___C___INITPARTICIPANTDATALIST_B__23_0_OFFSET UNITYSDK_OFFSET(0x9245D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameFightResultCatData___c_TypeDefinitionIndex = 50005;
+	inline static constexpr unsigned int CakeRaceGameFightResultCatData___c_TypeDefinitionIndex = 51137;
 
 	class CakeRaceGameFightResultCatData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::CakeRaceGameFightResultCatData___c** StaticGet___9()
-		{
-			return (::RPG::Client::CakeRaceGameFightResultCatData___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFightResultCatData___c_TypeDefinitionIndex)->GetStaticField(0x3C5D0);
-		}
 		static ::System::Comparison_1<::RPG::Client::CakeRaceGameFightResultParticipantData*>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::CakeRaceGameFightResultParticipantData*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFightResultCatData___c_TypeDefinitionIndex)->GetStaticField(0x3C5D8);
+			return (::System::Comparison_1<::RPG::Client::CakeRaceGameFightResultParticipantData*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFightResultCatData___c_TypeDefinitionIndex)->GetStaticField(0x362A0);
+		}
+		static ::RPG::Client::CakeRaceGameFightResultCatData___c** StaticGet___9()
+		{
+			return (::RPG::Client::CakeRaceGameFightResultCatData___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceGameFightResultCatData___c_TypeDefinitionIndex)->GetStaticField(0x362A8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,21 +3,21 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x203E9E0)
-#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1465FE0)
-#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE_SETHANDLE_OFFSET UNITYSDK_OFFSET(0x203F4D0)
-#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x181C07F0)
-#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x203F460)
+#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2114B50)
+#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x1495E80)
+#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE_SETHANDLE_OFFSET UNITYSDK_OFFSET(0x2115640)
+#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x189E8DE0)
+#define UNITYENGINE_ANIMATIONS_ANIMATORCONTROLLERPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x21155D0)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimatorControllerPlayable_TypeDefinitionIndex = 4979;
+	inline static constexpr unsigned int AnimatorControllerPlayable_TypeDefinitionIndex = 5079;
 
 	struct alignas(8) AnimatorControllerPlayable
 	{
 		static ::UnityEngine::Animations::AnimatorControllerPlayable* StaticGet_m_NullPlayable()
 		{
-			return (::UnityEngine::Animations::AnimatorControllerPlayable*)Il2CppClass::FromTypeDefinitionIndex(AnimatorControllerPlayable_TypeDefinitionIndex)->GetStaticField(0x6B50);
+			return (::UnityEngine::Animations::AnimatorControllerPlayable*)Il2CppClass::FromTypeDefinitionIndex(AnimatorControllerPlayable_TypeDefinitionIndex)->GetStaticField(0xC710);
 		}
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10
 

@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_Struct_2_C47CDE3E3ECCA1DF_TypeDefinitionIndex = 56331;
+	inline static constexpr unsigned int PlaneSlice_Struct_2_C47CDE3E3ECCA1DF_TypeDefinitionIndex = 57902;
 
 	struct alignas(8) PlaneSlice_Struct_2_C47CDE3E3ECCA1DF
 	{

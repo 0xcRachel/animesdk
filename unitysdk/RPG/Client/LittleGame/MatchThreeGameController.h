@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-class Class_1_A5CBD6EBD02154CA;
+class Class_1_DC55B9E766BF1C8D;
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client::LittleGame { class MatchThreeTimelineBattleField; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET UNITYSDK_OFFSET(0x9560970)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x95605C0)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_TRYSTARTGAME_OFFSET UNITYSDK_OFFSET(0x9560740)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9560A60)
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x9560A00)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_DESTROYGAME_OFFSET UNITYSDK_OFFSET(0x9A3B5B0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x9A3B200)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER_TRYSTARTGAME_OFFSET UNITYSDK_OFFSET(0x9A3B380)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9A3B6A0)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEGAMECONTROLLER__ONSCREENSIZECHANGED_OFFSET UNITYSDK_OFFSET(0x9A3B640)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 60341;
+	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 62319;
 
 	class MatchThreeGameController : public ::UnityEngine::MonoBehaviour
 	{
@@ -25,7 +25,7 @@ namespace RPG::Client::LittleGame
 		// static const ::System::UInt32 COLUMN_COUNT = 0x7; // 0x0
 		::RPG::Client::MatchThreeBoard* ChessBoardView; // 0x18
 		::Il2CppArray<::UnityEngine::RectTransform*>* BirdAdaptivePositions; // 0x20
-		::Class_1_A5CBD6EBD02154CA* _EcsInstance; // 0x28
+		::Class_1_DC55B9E766BF1C8D* _EcsInstance; // 0x28
 		::RPG::Client::LittleGame::MatchThreeTimelineBattleField* _BattleField; // 0x30
 
 		::System::Void _ctor()

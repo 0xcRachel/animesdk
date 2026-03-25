@@ -8,7 +8,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IPinnedUIService_TypeDefinitionIndex = 28838;
+	inline static constexpr unsigned int IPinnedUIService_TypeDefinitionIndex = 29713;
 
 	class IPinnedUIService
 	{

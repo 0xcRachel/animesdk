@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchType_TypeDefinitionIndex = 30603;
+	inline static constexpr unsigned int TouchType_TypeDefinitionIndex = 31478;
 
 	enum class TouchType : ::System::Int32
 	{

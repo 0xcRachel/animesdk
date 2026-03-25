@@ -6,19 +6,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_5534CCC822EB6D42_OFFSET UNITYSDK_OFFSET(0x103024A0)
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_74D959A721F20D0E_OFFSET UNITYSDK_OFFSET(0x10302750)
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_C35E6B16983C67FF_OFFSET UNITYSDK_OFFSET(0x103024F0)
-#define CLASS_1_FBD3E8AC73450E0D__CCTOR_OFFSET UNITYSDK_OFFSET(0x10302B90)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_5534CCC822EB6D42_OFFSET UNITYSDK_OFFSET(0x111377E0)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_74D959A721F20D0E_OFFSET UNITYSDK_OFFSET(0x11137A90)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_8340EF9CF434CC7C_OFFSET UNITYSDK_OFFSET(0x11137ED0)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_C35E6B16983C67FF_OFFSET UNITYSDK_OFFSET(0x11137830)
+#define CLASS_1_FBD3E8AC73450E0D__CCTOR_OFFSET UNITYSDK_OFFSET(0x11137F30)
 
-inline static constexpr unsigned int Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex = 58319;
+inline static constexpr unsigned int Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex = 59972;
 
 class Class_1_FBD3E8AC73450E0D : public ::System::Object
 {
 public:
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex)->GetStaticField(0x46EF0);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex)->GetStaticField(0x48690);
 	}
 
 	static ::System::Void _cctor()
@@ -39,5 +40,10 @@ public:
 	static ::System::Boolean Method_1_74D959A721F20D0E(::System::String* a1, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextFormatFlag>* a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Boolean& a5)
 	{
 		return ((::System::Boolean(*)(::System::String*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextFormatFlag>*, ::System::Int32, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + CLASS_1_FBD3E8AC73450E0D_METHOD_1_74D959A721F20D0E_OFFSET))(a1, a2, a3, a4, a5);
+	}
+
+	static ::System::String* Method_1_8340EF9CF434CC7C(::System::String* a1)
+	{
+		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_FBD3E8AC73450E0D_METHOD_1_8340EF9CF434CC7C_OFFSET))(a1);
 	}
 };

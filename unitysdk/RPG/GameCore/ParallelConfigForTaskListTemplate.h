@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_METHOD_2_257AB60BE9A7BF05_OFFSET UNITYSDK_OFFSET(0x16D15C90)
-#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D15FD0)
+#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_METHOD_2_1DE9AE923D7B4BEA_OFFSET UNITYSDK_OFFSET(0x1749C5B0)
+#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1749C8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 20988;
+	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 21542;
 
 	class ParallelConfigForTaskListTemplate : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_257AB60BE9A7BF05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelConfigForTaskListTemplate*& a2)
+		static ::System::Void Method_2_1DE9AE923D7B4BEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelConfigForTaskListTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParallelConfigForTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_METHOD_2_257AB60BE9A7BF05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParallelConfigForTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_METHOD_2_1DE9AE923D7B4BEA_OFFSET))(a1, a2);
 		}
 	};
 }

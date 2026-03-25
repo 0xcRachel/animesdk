@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQueryFilter_TypeDefinitionIndex = 49830;
+	inline static constexpr unsigned int AvatarQueryFilter_TypeDefinitionIndex = 50959;
 
 	enum class AvatarQueryFilter : ::System::Int32
 	{

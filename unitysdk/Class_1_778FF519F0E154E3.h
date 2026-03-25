@@ -6,9 +6,9 @@ class Class_2_269711125C25EF66;
 namespace RPG::GameCore { class ChessSkillConfig; }
 namespace System { class String; }
 
-#define CLASS_1_778FF519F0E154E3__CTOR_OFFSET UNITYSDK_OFFSET(0x9F06170)
+#define CLASS_1_778FF519F0E154E3__CTOR_OFFSET UNITYSDK_OFFSET(0x10B2BA30)
 
-inline static constexpr unsigned int Class_1_778FF519F0E154E3_TypeDefinitionIndex = 44186;
+inline static constexpr unsigned int Class_1_778FF519F0E154E3_TypeDefinitionIndex = 45246;
 
 class Class_1_778FF519F0E154E3 : public ::System::Object
 {

@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/BaseMonoGenericView.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_47EE63CB5C4DC8FC_5;
 class Class_2_9DD8A46984F1AFFD;
@@ -10,14 +12,15 @@ namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_GETENTITY_OFFSET UNITYSDK_OFFSET(0x9545F30)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x9545F70)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0x9546040)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x95460B0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CREATEATTACHPOINT_OFFSET UNITYSDK_OFFSET(0x9A1E9E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_GETENTITY_OFFSET UNITYSDK_OFFSET(0x9A1E860)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x9A1E8A0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0x9A1E970)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A1EC10)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimUnscaledEmptyView_TypeDefinitionIndex = 60861;
+	inline static constexpr unsigned int FiveDimUnscaledEmptyView_TypeDefinitionIndex = 62859;
 
 	class FiveDimUnscaledEmptyView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
@@ -44,6 +47,11 @@ namespace RPG::Client::LittleGame::FiveDim
 		::System::Void Release(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_RELEASE_OFFSET))(this, a1);
+		}
+
+		::System::Void CreateAttachPoint(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Vector3 a3, ::System::String* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMUNSCALEDEMPTYVIEW_CREATEATTACHPOINT_OFFSET))(this, a1, a2, a3, a4);
 		}
 	};
 }

@@ -11,41 +11,41 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16B56AC0)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16B56940)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16B56620)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16B568E0)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16B56C10)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B566A0)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16B56C50)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B56E30)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16B571C0)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B57610)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16B56D90)
-#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16B56CF0)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x172A51C0)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x172A5040)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x172A4D20)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x172A4FE0)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x172A5310)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x172A4DA0)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x172A5350)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A5530)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x172A58C0)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x172A5D10)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x172A5490)
+#define RPG_GAMECORE_GUIDEROGUETABEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x172A53F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideRogueTabExcelTable_TypeDefinitionIndex = 12164;
+	inline static constexpr unsigned int GuideRogueTabExcelTable_TypeDefinitionIndex = 12234;
 
 	class GuideRogueTabExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x30000);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x367C0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GuideRogueTabExcelTable_IndexKey, ::RPG::GameCore::GuideRogueTabRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GuideRogueTabExcelTable_IndexKey, ::RPG::GameCore::GuideRogueTabRow*>**)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x30008);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GuideRogueTabExcelTable_IndexKey, ::RPG::GameCore::GuideRogueTabRow*>**)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x367C8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x30010);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0x367D0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0xB6D0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GuideRogueTabExcelTable_TypeDefinitionIndex)->GetStaticField(0xD6A0);
 		}
 
 		static ::System::Void _cctor()

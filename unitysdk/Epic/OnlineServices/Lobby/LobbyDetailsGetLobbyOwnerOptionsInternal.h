@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::Lobby { class LobbyDetailsGetLobbyOwnerOptions; 
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETLOBBYOWNEROPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETLOBBYOWNEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4AEA0)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETLOBBYOWNEROPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x4B030)
 #define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETLOBBYOWNEROPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyDetailsGetLobbyOwnerOptionsInternal_TypeDefinitionIndex = 35124;
+	inline static constexpr unsigned int LobbyDetailsGetLobbyOwnerOptionsInternal_TypeDefinitionIndex = 36058;
 
 	struct alignas(4) LobbyDetailsGetLobbyOwnerOptionsInternal
 	{

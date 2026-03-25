@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16790940)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x167907C0)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16790490)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16790760)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16790B10)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16790510)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16790B50)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16790D30)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16791440)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16791750)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16790C90)
-#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16790BF0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16EC7BE0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16EC7A60)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16EC7730)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16EC7A00)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16EC7D60)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16EC77B0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16EC7DA0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EC7F80)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16EC8690)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16EC89A0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16EC7EE0)
+#define RPG_GAMECORE_ACTIVITYFARMMULTIPLEDROPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16EC7E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex = 10653;
+	inline static constexpr unsigned int ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex = 10721;
 
 	class ActivityFarmMultipleDropExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFarmMultipleDropRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFarmMultipleDropRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x14070);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AD40);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x14078);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AD48);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFarmMultipleDropRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFarmMultipleDropRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AD50);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x65A0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x14080);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x65A1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x67E0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityFarmMultipleDropExcelTable_TypeDefinitionIndex)->GetStaticField(0x67E1);
 		}
 
 		static ::System::Void _cctor()

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-namespace System { class String; }
+class Class_0_16E4307DCC419505_573;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_577_TypeDefinitionIndex = 50370;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_577_TypeDefinitionIndex = 50834;
 
 class Class_0_16E4307DCC419505_577
 {

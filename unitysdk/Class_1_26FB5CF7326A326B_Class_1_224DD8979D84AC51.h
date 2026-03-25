@@ -7,17 +7,17 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_26FB5CF7326A326B_CLASS_1_224DD8979D84AC51__CTOR_OFFSET UNITYSDK_OFFSET(0xFEC3B50)
+#define CLASS_1_26FB5CF7326A326B_CLASS_1_224DD8979D84AC51__CTOR_OFFSET UNITYSDK_OFFSET(0x8A08E80)
 
-inline static constexpr unsigned int Class_1_26FB5CF7326A326B_Class_1_224DD8979D84AC51_TypeDefinitionIndex = 49532;
+inline static constexpr unsigned int Class_1_26FB5CF7326A326B_Class_1_224DD8979D84AC51_TypeDefinitionIndex = 50665;
 
 class Class_1_26FB5CF7326A326B_Class_1_224DD8979D84AC51 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_1; // 0x10
-	::Class_1_26FB5CF7326A326B_MeasureAction Field_1_0; // 0x18
-	::System::Single Field_1_2; // 0x1C
-	::Class_1_9F74B70AEC19180E_FailureReason Field_1_3; // 0x20
+	::System::Single Field_1_2; // 0x18
+	::Class_1_9F74B70AEC19180E_FailureReason Field_1_3; // 0x1C
+	::Class_1_26FB5CF7326A326B_MeasureAction Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

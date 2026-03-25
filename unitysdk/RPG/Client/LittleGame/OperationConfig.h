@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_OPERATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16157340)
+#define RPG_CLIENT_LITTLEGAME_OPERATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168653D0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int OperationConfig_TypeDefinitionIndex = 31883;
+	inline static constexpr unsigned int OperationConfig_TypeDefinitionIndex = 32793;
 
 	class OperationConfig : public ::System::Object
 	{

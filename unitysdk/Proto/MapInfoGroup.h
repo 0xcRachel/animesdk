@@ -12,54 +12,54 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_MAPINFOGROUP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x17A8AA80)
-#define PROTO_MAPINFOGROUP_CLONE_OFFSET UNITYSDK_OFFSET(0x17A8A530)
-#define PROTO_MAPINFOGROUP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17A8A610)
-#define PROTO_MAPINFOGROUP_EQUALS_OFFSET UNITYSDK_OFFSET(0x17A8A5E0)
-#define PROTO_MAPINFOGROUP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17A8A720)
-#define PROTO_MAPINFOGROUP_GET_DESTORYMONSTERCONFIGIDLIST_OFFSET UNITYSDK_OFFSET(0x17A8A5B0)
-#define PROTO_MAPINFOGROUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x17A8A590)
-#define PROTO_MAPINFOGROUP_GET_ISNEEDREFRESH_OFFSET UNITYSDK_OFFSET(0x17A8A560)
-#define PROTO_MAPINFOGROUP_GET_MODIFYTIME_OFFSET UNITYSDK_OFFSET(0x17A8A5C0)
-#define PROTO_MAPINFOGROUP_GET_PROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x17A8A580)
-#define PROTO_MAPINFOGROUP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x17A8AD70)
-#define PROTO_MAPINFOGROUP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x17A8ACC0)
-#define PROTO_MAPINFOGROUP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x17A8A3A0)
-#define PROTO_MAPINFOGROUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x17A8A5A0)
-#define PROTO_MAPINFOGROUP_SET_ISNEEDREFRESH_OFFSET UNITYSDK_OFFSET(0x17A8A570)
-#define PROTO_MAPINFOGROUP_SET_MODIFYTIME_OFFSET UNITYSDK_OFFSET(0x17A8A5D0)
-#define PROTO_MAPINFOGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17A8A8A0)
-#define PROTO_MAPINFOGROUP_WRITETO_OFFSET UNITYSDK_OFFSET(0x17A8A900)
-#define PROTO_MAPINFOGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A8AED0)
-#define PROTO_MAPINFOGROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17A8A420)
-#define PROTO_MAPINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17A8A3B0)
+#define PROTO_MAPINFOGROUP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1829E2E0)
+#define PROTO_MAPINFOGROUP_CLONE_OFFSET UNITYSDK_OFFSET(0x1829DDB0)
+#define PROTO_MAPINFOGROUP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1829DE90)
+#define PROTO_MAPINFOGROUP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1829DE60)
+#define PROTO_MAPINFOGROUP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1829DF90)
+#define PROTO_MAPINFOGROUP_GET_DESTORYMONSTERCONFIGIDLIST_OFFSET UNITYSDK_OFFSET(0x1829DDE0)
+#define PROTO_MAPINFOGROUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1829DE10)
+#define PROTO_MAPINFOGROUP_GET_ISNEEDREFRESH_OFFSET UNITYSDK_OFFSET(0x1829DE40)
+#define PROTO_MAPINFOGROUP_GET_MODIFYTIME_OFFSET UNITYSDK_OFFSET(0x1829DDF0)
+#define PROTO_MAPINFOGROUP_GET_PROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x1829DE30)
+#define PROTO_MAPINFOGROUP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1829E5E0)
+#define PROTO_MAPINFOGROUP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1829E530)
+#define PROTO_MAPINFOGROUP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1829DC20)
+#define PROTO_MAPINFOGROUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1829DE20)
+#define PROTO_MAPINFOGROUP_SET_ISNEEDREFRESH_OFFSET UNITYSDK_OFFSET(0x1829DE50)
+#define PROTO_MAPINFOGROUP_SET_MODIFYTIME_OFFSET UNITYSDK_OFFSET(0x1829DE00)
+#define PROTO_MAPINFOGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1829E100)
+#define PROTO_MAPINFOGROUP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1829E160)
+#define PROTO_MAPINFOGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1829E750)
+#define PROTO_MAPINFOGROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1829DCA0)
+#define PROTO_MAPINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1829DC30)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MapInfoGroup_TypeDefinitionIndex = 26361;
+	inline static constexpr unsigned int MapInfoGroup_TypeDefinitionIndex = 27097;
 
 	class MapInfoGroup : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>** StaticGet__map_propertyMap_codec()
 		{
-			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MapInfoGroup_TypeDefinitionIndex)->GetStaticField(0x1B840);
+			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MapInfoGroup_TypeDefinitionIndex)->GetStaticField(0x16000);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_destoryMonsterConfigIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MapInfoGroup_TypeDefinitionIndex)->GetStaticField(0x1B848);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MapInfoGroup_TypeDefinitionIndex)->GetStaticField(0x16008);
 		}
+		// static const ::System::Int32 DestoryMonsterConfigIdListFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 ModifyTimeFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 GroupIdFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 PropertyMapFieldNumber = 0xE; // 0x0
 		// static const ::System::Int32 IsNeedRefreshFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 PropertyMapFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 GroupIdFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 DestoryMonsterConfigIdListFieldNumber = 0xA; // 0x0
-		// static const ::System::Int32 ModifyTimeFieldNumber = 0x8; // 0x0
 		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* propertyMap_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* destoryMonsterConfigIdList_; // 0x20
-		::System::Boolean isNeedRefresh_; // 0x28
-		::System::UInt32 groupId_; // 0x2C
-		::System::Int64 modifyTime_; // 0x30
+		::System::Int64 modifyTime_; // 0x28
+		::System::Boolean isNeedRefresh_; // 0x30
+		::System::UInt32 groupId_; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -86,31 +86,6 @@ namespace Proto
 			return ((::Proto::MapInfoGroup*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_CLONE_OFFSET))(this);
 		}
 
-		::System::Boolean get_IsNeedRefresh()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_ISNEEDREFRESH_OFFSET))(this);
-		}
-
-		::System::Void set_IsNeedRefresh(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_SET_ISNEEDREFRESH_OFFSET))(this, value);
-		}
-
-		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* get_PropertyMap()
-		{
-			return ((::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_PROPERTYMAP_OFFSET))(this);
-		}
-
-		::System::UInt32 get_GroupId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_GROUPID_OFFSET))(this);
-		}
-
-		::System::Void set_GroupId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_SET_GROUPID_OFFSET))(this, value);
-		}
-
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_DestoryMonsterConfigIdList()
 		{
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_DESTORYMONSTERCONFIGIDLIST_OFFSET))(this);
@@ -124,6 +99,31 @@ namespace Proto
 		::System::Void set_ModifyTime(::System::Int64 value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_SET_MODIFYTIME_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_GroupId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_GROUPID_OFFSET))(this);
+		}
+
+		::System::Void set_GroupId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_SET_GROUPID_OFFSET))(this, value);
+		}
+
+		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* get_PropertyMap()
+		{
+			return ((::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_PROPERTYMAP_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNeedRefresh()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_GET_ISNEEDREFRESH_OFFSET))(this);
+		}
+
+		::System::Void set_IsNeedRefresh(::System::Boolean value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_MAPINFOGROUP_SET_ISNEEDREFRESH_OFFSET))(this, value);
 		}
 
 		::System::Boolean Equals(::System::Object* other)

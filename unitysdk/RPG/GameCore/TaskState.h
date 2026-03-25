@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TaskState_TypeDefinitionIndex = 42787;
+	inline static constexpr unsigned int TaskState_TypeDefinitionIndex = 43837;
 
 	enum class TaskState : ::System::Int32
 	{

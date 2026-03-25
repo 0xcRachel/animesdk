@@ -9,12 +9,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x955C8F0)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x955CB30)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0x9A374E0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9A37720)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGlobalData_TypeDefinitionIndex = 60576;
+	inline static constexpr unsigned int FourRotateVoxelGlobalData_TypeDefinitionIndex = 62554;
 
 	class FourRotateVoxelGlobalData : public ::UnityEngine::MonoBehaviour
 	{

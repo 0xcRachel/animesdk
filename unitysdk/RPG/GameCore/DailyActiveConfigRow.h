@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DAILYACTIVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x169DD220)
-#define RPG_GAMECORE_DAILYACTIVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x169DD840)
+#define RPG_GAMECORE_DAILYACTIVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17159300)
+#define RPG_GAMECORE_DAILYACTIVECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17159920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyActiveConfigRow_TypeDefinitionIndex = 11888;
+	inline static constexpr unsigned int DailyActiveConfigRow_TypeDefinitionIndex = 11958;
 
 	class DailyActiveConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 WorldLevel; // 0x10
+		::System::UInt32 DailyActiveReward; // 0x10
 		::System::UInt32 DailyActivePoint; // 0x14
 		::System::UInt32 Level; // 0x18
-		::System::UInt32 DailyActiveReward; // 0x1C
+		::System::UInt32 WorldLevel; // 0x1C
 
 		::System::Void _ctor()
 		{

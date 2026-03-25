@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ColliderConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCROWDMEMBERBAKEDINFO_METHOD_2_EDAB2FB5B6EED135_OFFSET UNITYSDK_OFFSET(0x16BA1A00)
-#define RPG_GAMECORE_LEVELCROWDMEMBERBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA1B20)
+#define RPG_GAMECORE_LEVELCROWDMEMBERBAKEDINFO_METHOD_2_EDAB2FB5B6EED135_OFFSET UNITYSDK_OFFSET(0x17344F90)
+#define RPG_GAMECORE_LEVELCROWDMEMBERBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173450B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCrowdMemberBakedInfo_TypeDefinitionIndex = 15452;
+	inline static constexpr unsigned int LevelCrowdMemberBakedInfo_TypeDefinitionIndex = 15729;
 
 	class LevelCrowdMemberBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,19 +5,19 @@
 namespace SRDebugger::UI::Tabs { class OptionsTabController; }
 namespace SRDebugger::UI::Tabs { class OptionsTabController_CategoryInstance; }
 
-#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__1_OFFSET UNITYSDK_OFFSET(0x17C642F0)
-#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__2_OFFSET UNITYSDK_OFFSET(0x17C64320)
-#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17C62E10)
+#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__1_OFFSET UNITYSDK_OFFSET(0x1847A280)
+#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CREATECATEGORY_B__2_OFFSET UNITYSDK_OFFSET(0x1847A2B0)
+#define SRDEBUGGER_UI_TABS_OPTIONSTABCONTROLLER___C__DISPLAYCLASS51_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18478DA0)
 
 namespace SRDebugger::UI::Tabs
 {
-	inline static constexpr unsigned int OptionsTabController___c__DisplayClass51_0_TypeDefinitionIndex = 28764;
+	inline static constexpr unsigned int OptionsTabController___c__DisplayClass51_0_TypeDefinitionIndex = 29639;
 
 	class OptionsTabController___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:
-		::SRDebugger::UI::Tabs::OptionsTabController_CategoryInstance* categoryInstance; // 0x10
-		::SRDebugger::UI::Tabs::OptionsTabController* __4__this; // 0x18
+		::SRDebugger::UI::Tabs::OptionsTabController* __4__this; // 0x10
+		::SRDebugger::UI::Tabs::OptionsTabController_CategoryInstance* categoryInstance; // 0x18
 
 		::System::Void _ctor()
 		{

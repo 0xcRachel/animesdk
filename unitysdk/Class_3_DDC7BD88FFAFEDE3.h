@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class HipplenGameTriggerEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DDC7BD88FFAFEDE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA464360)
-#define CLASS_3_DDC7BD88FFAFEDE3__CTOR_OFFSET UNITYSDK_OFFSET(0xA464330)
+#define CLASS_3_DDC7BD88FFAFEDE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11163D80)
+#define CLASS_3_DDC7BD88FFAFEDE3__CTOR_OFFSET UNITYSDK_OFFSET(0x11163D50)
 
-inline static constexpr unsigned int Class_3_DDC7BD88FFAFEDE3_TypeDefinitionIndex = 41256;
+inline static constexpr unsigned int Class_3_DDC7BD88FFAFEDE3_TypeDefinitionIndex = 42299;
 
 class Class_3_DDC7BD88FFAFEDE3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HipplenGameTriggerEvent*>
 {

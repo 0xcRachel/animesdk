@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFogVolume_LevelType_TypeDefinitionIndex = 56423;
+	inline static constexpr unsigned int MonoFogVolume_LevelType_TypeDefinitionIndex = 57995;
 
 	enum class MonoFogVolume_LevelType : ::System::Int32
 	{

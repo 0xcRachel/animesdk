@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET UNITYSDK_OFFSET(0x15C8BBB0)
-#define SYSTEM_IO_PATHINTERNAL_ISPARTIALLYQUALIFIED_OFFSET UNITYSDK_OFFSET(0x15C8BE20)
+#define SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET UNITYSDK_OFFSET(0x16353DC0)
+#define SYSTEM_IO_PATHINTERNAL_ISPARTIALLYQUALIFIED_OFFSET UNITYSDK_OFFSET(0x16354030)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int PathInternal_TypeDefinitionIndex = 704;
+	inline static constexpr unsigned int PathInternal_TypeDefinitionIndex = 705;
 
 	class PathInternal : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int ITweenValue_TypeDefinitionIndex = 33297;
+	inline static constexpr unsigned int ITweenValue_TypeDefinitionIndex = 34286;
 
 	class ITweenValue
 	{

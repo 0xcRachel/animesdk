@@ -5,19 +5,19 @@
 namespace RPG::Client::MVVM::View { class LimaoNewsIssueControl; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x95C8870)
-#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__0_OFFSET UNITYSDK_OFFSET(0x95C89A0)
-#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET UNITYSDK_OFFSET(0x95C8B30)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9AA90F0)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__0_OFFSET UNITYSDK_OFFSET(0x9AA9220)
+#define RPG_CLIENT_MVVM_VIEW_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET UNITYSDK_OFFSET(0x9AA9440)
 
 namespace RPG::Client::MVVM::View
 {
-	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 59254;
+	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 61006;
 
 	class LimaoNewsIssueControl___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::RPG::Client::MVVM::View::LimaoNewsIssueControl* __4__this; // 0x18
+		::RPG::Client::MVVM::View::LimaoNewsIssueControl* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::UInt32 blockID; // 0x20
 
 		::System::Void _ctor()

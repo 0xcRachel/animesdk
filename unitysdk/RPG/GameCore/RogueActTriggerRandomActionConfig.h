@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_5_DEB28F8F2AB68794_OFFSET UNITYSDK_OFFSET(0x16E02680)
-#define RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_5_ECFF1FFACEFF2710_OFFSET UNITYSDK_OFFSET(0x16E02840)
-#define RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E02780)
+#define RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_6_A8F42528B73E2780_OFFSET UNITYSDK_OFFSET(0x175DE7F0)
+#define RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_6_AA4437C85AD419DD_OFFSET UNITYSDK_OFFSET(0x175DEA10)
+#define RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x175DE930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActTriggerRandomActionConfig_TypeDefinitionIndex = 17648;
+	inline static constexpr unsigned int RogueActTriggerRandomActionConfig_TypeDefinitionIndex = 18056;
 
 	class RogueActTriggerRandomActionConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_DEB28F8F2AB68794(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRandomActionConfig*& a2)
+		static ::System::Void Method_6_A8F42528B73E2780(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRandomActionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRandomActionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_5_DEB28F8F2AB68794_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRandomActionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_6_A8F42528B73E2780_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_ECFF1FFACEFF2710(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRandomActionConfig* a2)
+		static ::System::Void Method_6_AA4437C85AD419DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRandomActionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRandomActionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_5_ECFF1FFACEFF2710_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRandomActionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERRANDOMACTIONCONFIG_METHOD_6_AA4437C85AD419DD_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16E1FE70)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16E20520)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175FD370)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175FDA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCaptureMonsterConfigRow_TypeDefinitionIndex = 13321;
+	inline static constexpr unsigned int RogueCaptureMonsterConfigRow_TypeDefinitionIndex = 13395;
 
 	class RogueCaptureMonsterConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ScoreRange; // 0x10
-		::System::UInt32 PrepareTime; // 0x18
-		::System::UInt32 GameTime; // 0x1C
-		::System::UInt32 ParamGroupID; // 0x20
+		::System::UInt32 ParamGroupID; // 0x18
+		::System::UInt32 PrepareTime; // 0x1C
+		::System::UInt32 GameTime; // 0x20
 		::System::UInt32 MonsterNum; // 0x24
 
 		::System::Void _ctor()

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchAllUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_4CC1ACD3EC8294B1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10ABC480)
-#define CLASS_3_4CC1ACD3EC8294B1__CTOR_OFFSET UNITYSDK_OFFSET(0x10ABC400)
+#define CLASS_3_4CC1ACD3EC8294B1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1090DF80)
+#define CLASS_3_4CC1ACD3EC8294B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1090DF00)
 
-inline static constexpr unsigned int Class_3_4CC1ACD3EC8294B1_TypeDefinitionIndex = 46725;
+inline static constexpr unsigned int Class_3_4CC1ACD3EC8294B1_TypeDefinitionIndex = 47804;
 
 class Class_3_4CC1ACD3EC8294B1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAllUnselectable*>
 {

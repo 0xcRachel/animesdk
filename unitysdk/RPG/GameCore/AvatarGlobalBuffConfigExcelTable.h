@@ -11,51 +11,51 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GETBYMAZEBUFFID_OFFSET UNITYSDK_OFFSET(0x168A7940)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x168A6A80)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x168A6900)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x168A65D0)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x168A68A0)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x168A6C90)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x168A6650)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x168A7C90)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x168A6CD0)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x168A6EB0)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x168A75E0)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x168A7CD0)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x168A6E10)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x168A6D70)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GETBYMAZEBUFFID_OFFSET UNITYSDK_OFFSET(0x16FB5470)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x16FB45B0)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16FB4430)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x16FB4100)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x16FB43D0)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x16FB47C0)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FB4180)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x16FB57D0)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x16FB4800)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FB49E0)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x16FB5110)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FB5810)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x16FB4940)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x16FB48A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex = 11612;
+	inline static constexpr unsigned int AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex = 11682;
 
 	class AvatarGlobalBuffConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x23EA0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16F10);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarGlobalBuffConfigRow*>** StaticGet__MazeBuffIDToConfigMapping()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarGlobalBuffConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x23EA8);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x23EB0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::AvatarGlobalBuffConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16F18);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarGlobalBuffConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarGlobalBuffConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x23EB8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarGlobalBuffConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16F20);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16F28);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7530);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9110);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7531);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AvatarGlobalBuffConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9111);
 		}
 
 		static ::System::Void _cctor()

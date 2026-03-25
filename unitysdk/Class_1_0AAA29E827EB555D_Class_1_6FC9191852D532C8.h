@@ -11,7 +11,7 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 
 class Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692;
-class Class_1_0AAA29E827EB555D_Class_1_E767D651C2809599;
+class Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A;
 namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 namespace RPG::Client::CityCarFlow { class MonoCityCarIRI; }
 namespace System { class String; }
@@ -20,42 +20,42 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RPGInstancedItemClusterVolumeManager; }
 
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8713A40)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_0E3B5B9C3CF9E9C6_OFFSET UNITYSDK_OFFSET(0x8714F30)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_19561A6D289184B5_OFFSET UNITYSDK_OFFSET(0x8716280)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_1DE5133A0A6F1CCB_OFFSET UNITYSDK_OFFSET(0x8716450)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_4F5A815C01557BC4_OFFSET UNITYSDK_OFFSET(0x8717830)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_5318FE7241FDA798_OFFSET UNITYSDK_OFFSET(0x87169C0)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_5C549BF7442375BC_OFFSET UNITYSDK_OFFSET(0x87139C0)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_7206DC8F66A4D2A8_1_OFFSET UNITYSDK_OFFSET(0x8716690)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_7206DC8F66A4D2A8_OFFSET UNITYSDK_OFFSET(0x8716570)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_8C37834551CDAFC7_OFFSET UNITYSDK_OFFSET(0x8715940)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_D691739096F9B5FF_OFFSET UNITYSDK_OFFSET(0x8715FD0)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_E3F450A9E0E6DA1F_OFFSET UNITYSDK_OFFSET(0x870E800)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_EA0873A91045DF73_OFFSET UNITYSDK_OFFSET(0x8716340)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_FF3AA5CCDC99D357_OFFSET UNITYSDK_OFFSET(0x87167B0)
-#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8__CTOR_OFFSET UNITYSDK_OFFSET(0x8713190)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5039D0)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_0E3B5B9C3CF9E9C6_OFFSET UNITYSDK_OFFSET(0xC50DDF0)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_19561A6D289184B5_OFFSET UNITYSDK_OFFSET(0xC5068B0)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_1DE5133A0A6F1CCB_OFFSET UNITYSDK_OFFSET(0xC50C7A0)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_4F5A815C01557BC4_OFFSET UNITYSDK_OFFSET(0xC510220)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_5318FE7241FDA798_OFFSET UNITYSDK_OFFSET(0xC50F3B0)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_5C549BF7442375BC_OFFSET UNITYSDK_OFFSET(0xC50DD70)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_64E3CB38D81E89EB_OFFSET UNITYSDK_OFFSET(0xC50F140)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_7206DC8F66A4D2A8_1_OFFSET UNITYSDK_OFFSET(0xC505D60)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_7206DC8F66A4D2A8_OFFSET UNITYSDK_OFFSET(0xC5060F0)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_8C37834551CDAFC7_OFFSET UNITYSDK_OFFSET(0xC50E800)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_D691739096F9B5FF_OFFSET UNITYSDK_OFFSET(0xC50EE90)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_E3F450A9E0E6DA1F_OFFSET UNITYSDK_OFFSET(0xC50A630)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_EA0873A91045DF73_OFFSET UNITYSDK_OFFSET(0xC506970)
+#define CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8__CTOR_OFFSET UNITYSDK_OFFSET(0xC502080)
 
-inline static constexpr unsigned int Class_1_0AAA29E827EB555D_Class_1_6FC9191852D532C8_TypeDefinitionIndex = 62308;
+inline static constexpr unsigned int Class_1_0AAA29E827EB555D_Class_1_6FC9191852D532C8_TypeDefinitionIndex = 64495;
 
 class Class_1_0AAA29E827EB555D_Class_1_6FC9191852D532C8 : public ::System::Object
 {
 public:
 	// static const ::System::String* Field_1_12; // 0x0
 	// static const ::System::String* Field_1_13; // 0x0
-	::Struct_2_0B4DDB75CE25594A_7 Field_1_14; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::System::UInt32>>* Field_1_8; // 0x20
-	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* Field_1_3; // 0x28
-	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* Field_1_5; // 0x30
-	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>* Field_1_1; // 0x38
-	::UnityEngine::RPGInstancedItemClusterVolumeManager* Field_1_0; // 0x40
-	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>* Field_1_9; // 0x48
-	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* Field_1_11; // 0x50
-	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::HashSet_1<::System::UInt64>*>* Field_1_10; // 0x58
-	::System::Collections::Generic::Dictionary_2<::Class_1_0AAA29E827EB555D_Class_1_E767D651C2809599*, ::Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692*>* Field_1_2; // 0x60
-	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::MeshClusterInfo>>* Field_1_7; // 0x68
-	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* Field_1_4; // 0x70
-	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::UnityEngine::ClusterMeshLodInfo>* Field_1_6; // 0x78
+	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::System::UInt32>>* Field_1_8; // 0x10
+	::UnityEngine::RPGInstancedItemClusterVolumeManager* Field_1_0; // 0x18
+	::Struct_2_0B4DDB75CE25594A_7 Field_1_14; // 0x20
+	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::Unity::Collections::NativeArray_1<::UnityEngine::ClusterIRIType>>* Field_1_3; // 0x30
+	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::HashSet_1<::System::UInt64>*>* Field_1_10; // 0x38
+	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::ClusterMeshLodInfo>>*>* Field_1_5; // 0x40
+	::System::Collections::Generic::Dictionary_2<::Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A*, ::Class_1_0AAA29E827EB555D_Class_1_4452B3A96D121692*>* Field_1_2; // 0x48
+	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::UnityEngine::ClusterMeshLodInfo>* Field_1_6; // 0x50
+	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>*>* Field_1_4; // 0x58
+	::System::Collections::Generic::Dictionary_2<::IRIClusterBuilder::IRI2VolumeTemplate*, ::UnityEngine::IRIClusterVolumeInfo>* Field_1_1; // 0x60
+	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>>* Field_1_9; // 0x68
+	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::Unity::Collections::NativeArray_1<::UnityEngine::MeshClusterInfo>>* Field_1_7; // 0x70
+	::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::Int32>* Field_1_11; // 0x78
 
 	::System::Void _ctor(::RPG::Client::CityCarFlow::MonoCityCarIRI* a1)
 	{
@@ -82,14 +82,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::IRIClusterBuilder::IRI2VolumeTemplate*))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_8C37834551CDAFC7_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_19561A6D289184B5(::Class_1_0AAA29E827EB555D_Class_1_E767D651C2809599* a1)
+	::System::Void Method_1_19561A6D289184B5(::Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_0AAA29E827EB555D_Class_1_E767D651C2809599*))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_19561A6D289184B5_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A*))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_19561A6D289184B5_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_EA0873A91045DF73(::Class_1_0AAA29E827EB555D_Class_1_E767D651C2809599* a1)
+	::System::Void Method_1_EA0873A91045DF73(::Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_0AAA29E827EB555D_Class_1_E767D651C2809599*))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_EA0873A91045DF73_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_0AAA29E827EB555D_Class_1_8E7B41901C628A4A*))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_EA0873A91045DF73_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_1DE5133A0A6F1CCB(::IRIClusterBuilder::IRI2VolumeTemplate* a1, ::UnityEngine::IRIClusterVolumeInfo& a2)
@@ -107,9 +107,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_7206DC8F66A4D2A8_1_OFFSET))(this);
 	}
 
-	::System::Void Method_1_FF3AA5CCDC99D357(::IRIClusterBuilder::IRI2VolumeTemplate* a1, ::System::UInt64 a2)
+	::System::Void Method_1_64E3CB38D81E89EB(::IRIClusterBuilder::IRI2VolumeTemplate* a1, ::System::UInt64 a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_FF3AA5CCDC99D357_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::IRIClusterBuilder::IRI2VolumeTemplate*, ::System::UInt64))((::PBYTE)hIl2Cpp + CLASS_1_0AAA29E827EB555D_CLASS_1_6FC9191852D532C8_METHOD_1_64E3CB38D81E89EB_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_D691739096F9B5FF(::System::UInt64 a1)

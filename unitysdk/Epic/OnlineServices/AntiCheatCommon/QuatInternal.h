@@ -19,7 +19,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int QuatInternal_TypeDefinitionIndex = 35743;
+	inline static constexpr unsigned int QuatInternal_TypeDefinitionIndex = 36677;
 
 	struct alignas(4) QuatInternal
 	{

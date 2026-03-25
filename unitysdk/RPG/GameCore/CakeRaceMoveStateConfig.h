@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEMOVESTATECONFIG_METHOD_2_E87AF73473763774_OFFSET UNITYSDK_OFFSET(0x16950570)
-#define RPG_GAMECORE_CAKERACEMOVESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16950850)
+#define RPG_GAMECORE_CAKERACEMOVESTATECONFIG_METHOD_2_E87AF73473763774_OFFSET UNITYSDK_OFFSET(0x17061870)
+#define RPG_GAMECORE_CAKERACEMOVESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17061B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceMoveStateConfig_TypeDefinitionIndex = 16539;
+	inline static constexpr unsigned int CakeRaceMoveStateConfig_TypeDefinitionIndex = 16913;
 
 	class CakeRaceMoveStateConfig : public ::RPG::GameCore::JsonConfig
 	{

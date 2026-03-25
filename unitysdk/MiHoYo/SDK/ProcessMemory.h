@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PROCESSMEMORY_GETPROCESSMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0x158D0F30)
-#define MIHOYO_SDK_PROCESSMEMORY__CTOR_OFFSET UNITYSDK_OFFSET(0x158F26D0)
+#define MIHOYO_SDK_PROCESSMEMORY_GETPROCESSMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0x15FB1A50)
+#define MIHOYO_SDK_PROCESSMEMORY__CTOR_OFFSET UNITYSDK_OFFSET(0x15FD2750)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProcessMemory_TypeDefinitionIndex = 6832;
+	inline static constexpr unsigned int ProcessMemory_TypeDefinitionIndex = 6945;
 
 	class ProcessMemory : public ::System::Object
 	{

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_AE183AB1ABCC95C3.h"
 
-class Class_1_EBD0163BEBBE5C56;
-namespace RPG::GameCore { class FiveDimLeverSwitchConfig; }
+class Class_0_16E4307DCC419505_94;
+class Class_1_47EE63CB5C4DC8FC_3;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_127_TypeDefinitionIndex = 31531;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_127_TypeDefinitionIndex = 32411;
 
 class Class_0_16E4307DCC419505_127
 {

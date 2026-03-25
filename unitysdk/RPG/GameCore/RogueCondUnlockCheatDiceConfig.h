@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_5_267F3BEEFD8E7D9D_OFFSET UNITYSDK_OFFSET(0x16E62450)
-#define RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_5_F219777B437E7F7E_OFFSET UNITYSDK_OFFSET(0x16E622E0)
-#define RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E623B0)
+#define RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_6_08FB3B53EC41AB54_OFFSET UNITYSDK_OFFSET(0x176012C0)
+#define RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_6_8D344480ECB54AD0_OFFSET UNITYSDK_OFFSET(0x17601480)
+#define RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x176013C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCondUnlockCheatDiceConfig_TypeDefinitionIndex = 17666;
+	inline static constexpr unsigned int RogueCondUnlockCheatDiceConfig_TypeDefinitionIndex = 18145;
 
 	class RogueCondUnlockCheatDiceConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
@@ -20,14 +20,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_F219777B437E7F7E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig*& a2)
+		static ::System::Void Method_6_08FB3B53EC41AB54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_5_F219777B437E7F7E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_6_08FB3B53EC41AB54_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_267F3BEEFD8E7D9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig* a2)
+		static ::System::Void Method_6_8D344480ECB54AD0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_5_267F3BEEFD8E7D9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondUnlockCheatDiceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDUNLOCKCHEATDICECONFIG_METHOD_6_8D344480ECB54AD0_OFFSET))(a1, a2);
 		}
 	};
 }

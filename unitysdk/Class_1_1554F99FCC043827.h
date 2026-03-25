@@ -6,18 +6,18 @@
 
 namespace System { class String; }
 
-#define CLASS_1_1554F99FCC043827__CTOR_OFFSET UNITYSDK_OFFSET(0x8542440)
+#define CLASS_1_1554F99FCC043827__CTOR_OFFSET UNITYSDK_OFFSET(0x886DC20)
 
-inline static constexpr unsigned int Class_1_1554F99FCC043827_TypeDefinitionIndex = 37599;
+inline static constexpr unsigned int Class_1_1554F99FCC043827_TypeDefinitionIndex = 38563;
 
 class Class_1_1554F99FCC043827 : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::System::String* Field_1_3; // 0x18
-	::RPG::Client::UIController_TransitionStyle Field_1_2; // 0x20
-	::RPG::Client::UILayer Field_1_0; // 0x24
-	::System::Boolean Field_1_4; // 0x28
+	::System::String* Field_1_3; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::RPG::Client::UILayer Field_1_0; // 0x20
+	::System::Boolean Field_1_4; // 0x24
+	::RPG::Client::UIController_TransitionStyle Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

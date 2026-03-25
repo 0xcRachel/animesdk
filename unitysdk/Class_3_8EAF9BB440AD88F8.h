@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunPlayPuzzleModifyEnergy; }
 
-#define CLASS_3_8EAF9BB440AD88F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8F532D0)
-#define CLASS_3_8EAF9BB440AD88F8__CTOR_OFFSET UNITYSDK_OFFSET(0x8F532A0)
+#define CLASS_3_8EAF9BB440AD88F8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A861D0)
+#define CLASS_3_8EAF9BB440AD88F8__CTOR_OFFSET UNITYSDK_OFFSET(0x10A861A0)
 
-inline static constexpr unsigned int Class_3_8EAF9BB440AD88F8_TypeDefinitionIndex = 46545;
+inline static constexpr unsigned int Class_3_8EAF9BB440AD88F8_TypeDefinitionIndex = 47624;
 
 class Class_3_8EAF9BB440AD88F8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroGunPlayPuzzleModifyEnergy*>
 {

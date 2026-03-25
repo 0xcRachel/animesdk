@@ -4,9 +4,9 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_1DBF01015A93DAF5_METHOD_2_69607B7E4783C654_OFFSET UNITYSDK_OFFSET(0x74540)
+#define STRUCT_2_1DBF01015A93DAF5_METHOD_2_69607B7E4783C654_OFFSET UNITYSDK_OFFSET(0x2658F0)
 
-inline static constexpr unsigned int Struct_2_1DBF01015A93DAF5_TypeDefinitionIndex = 45426;
+inline static constexpr unsigned int Struct_2_1DBF01015A93DAF5_TypeDefinitionIndex = 46489;
 
 struct alignas(8) Struct_2_1DBF01015A93DAF5
 {

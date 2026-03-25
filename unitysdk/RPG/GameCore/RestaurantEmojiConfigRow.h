@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16DEB670)
-#define RPG_GAMECORE_RESTAURANTEMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16DEB7B0)
+#define RPG_GAMECORE_RESTAURANTEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175B8800)
+#define RPG_GAMECORE_RESTAURANTEMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175B8940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantEmojiConfigRow_TypeDefinitionIndex = 10565;
+	inline static constexpr unsigned int RestaurantEmojiConfigRow_TypeDefinitionIndex = 10633;
 
 	class RestaurantEmojiConfigRow : public ::System::Object
 	{

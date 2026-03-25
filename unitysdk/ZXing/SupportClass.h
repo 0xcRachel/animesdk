@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ZXING_SUPPORTCLASS_TOBINARYSTRING_OFFSET UNITYSDK_OFFSET(0x18510D10)
+#define ZXING_SUPPORTCLASS_TOBINARYSTRING_OFFSET UNITYSDK_OFFSET(0x18D13030)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int SupportClass_TypeDefinitionIndex = 5937;
+	inline static constexpr unsigned int SupportClass_TypeDefinitionIndex = 6037;
 
 	class SupportClass : public ::System::Object
 	{

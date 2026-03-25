@@ -13,21 +13,21 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class OneofDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class OneofDescriptorProto; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x156DB2B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x156DBF10)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x156DC090)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x156DC150)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x156DC210)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCBAD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x15DCC730)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x15DCC8B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x15DCC970)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x15DCCA30)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 27391;
+	inline static constexpr unsigned int MessageDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 28127;
 
 	class MessageDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x10
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* __4__this; // 0x18
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* __4__this; // 0x10
+		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x18
 		::MiHoYo::SDK::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x20
 
 		::System::Void _ctor()

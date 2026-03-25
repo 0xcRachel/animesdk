@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueLogTag_TypeDefinitionIndex = 53648;
+	inline static constexpr unsigned int RogueLogTag_TypeDefinitionIndex = 55005;
 
 	enum class RogueLogTag : ::System::Int32
 	{
@@ -16,20 +16,25 @@ namespace RPG::Client
 		Arcade = 6,
 		Magic = 7,
 		RelicCocoon = 8,
-		RogueCoin = 9,
-		Buff = 10,
-		Miracle = 11,
-		Formula = 12,
-		Scepter = 13,
-		Dialogue = 14,
-		Workbench = 15,
-		Handbook = 16,
-		Monster = 17,
-		GM = 18,
-		AdvRoom = 19,
-		TitanBless = 20,
-		TournBuildRef = 21,
-		Exhibition = 22,
-		Collection = 23,
+		Scene = 9,
+		RogueCoin = 10,
+		Buff = 11,
+		Miracle = 12,
+		Hex = 13,
+		Formula = 14,
+		Scepter = 15,
+		Dialogue = 16,
+		Workbench = 17,
+		Handbook = 18,
+		Monster = 19,
+		GM = 20,
+		AdvRoom = 21,
+		TitanBless = 22,
+		TournBuildRef = 23,
+		Exhibition = 24,
+		Collection = 25,
+		Blackboard = 26,
+		ActionQueue = 27,
+		Keyword = 28,
 	};
 }

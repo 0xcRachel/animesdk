@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/ParkourGame/EModifyEngineFlags.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int Class_1_60E68713ABBD21D4_ValueStack_1_TypeDefinitionIndex = 59100;
+inline static constexpr unsigned int Class_1_60E68713ABBD21D4_ValueStack_1_TypeDefinitionIndex = 60852;
 
 template <typename T>
 class Class_1_60E68713ABBD21D4_ValueStack_1 : public ::System::Object

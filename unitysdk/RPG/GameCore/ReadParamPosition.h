@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReadParamPosition_TypeDefinitionIndex = 16296;
+	inline static constexpr unsigned int ReadParamPosition_TypeDefinitionIndex = 16670;
 
 	enum class ReadParamPosition : ::System::Int32
 	{

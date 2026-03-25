@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IEnumeratorRow_TypeDefinitionIndex = 22044;
+	inline static constexpr unsigned int IEnumeratorRow_TypeDefinitionIndex = 22609;
 
 	class IEnumeratorRow
 	{

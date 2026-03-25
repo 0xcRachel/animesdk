@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/LittleGameShare/LittleGameNetMode.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_57B0727320B17159__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8E5F0)
+#define CLASS_1_57B0727320B17159__CTOR_OFFSET UNITYSDK_OFFSET(0x166350D0)
 
-inline static constexpr unsigned int Class_1_57B0727320B17159_TypeDefinitionIndex = 27876;
+inline static constexpr unsigned int Class_1_57B0727320B17159_TypeDefinitionIndex = 28641;
 
 class Class_1_57B0727320B17159 : public ::System::Object
 {

@@ -5,24 +5,24 @@
 namespace RPG::Client { class ActivityLocalLegendLevelData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8B5D120)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8B5D160)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__GET_SHOWREDDOT_B__33_0_OFFSET UNITYSDK_OFFSET(0x8B5D170)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F5E610)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F5E650)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__GET_SHOWREDDOT_B__33_0_OFFSET UNITYSDK_OFFSET(0x8F5E660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendData___c_TypeDefinitionIndex = 48800;
+	inline static constexpr unsigned int ActivityLocalLegendData___c_TypeDefinitionIndex = 49934;
 
 	class ActivityLocalLegendData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>** StaticGet___9__33_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x19EE0);
-		}
 		static ::RPG::Client::ActivityLocalLegendData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityLocalLegendData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x19EE8);
+			return (::RPG::Client::ActivityLocalLegendData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x27C80);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>** StaticGet___9__33_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x27C88);
 		}
 
 		static ::System::Void _cctor()

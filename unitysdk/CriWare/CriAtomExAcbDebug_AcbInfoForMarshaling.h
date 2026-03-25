@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomEx_CharacterEncoding.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x1467560)
+#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x14F4F60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 30336;
+	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 31211;
 
 	struct alignas(8) CriAtomExAcbDebug_AcbInfoForMarshaling
 	{

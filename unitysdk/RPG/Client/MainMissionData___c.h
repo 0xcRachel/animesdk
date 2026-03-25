@@ -7,39 +7,39 @@ namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MAINMISSIONDATA___C__ADDSUBMISSION_B__106_0_OFFSET UNITYSDK_OFFSET(0x95E5F00)
-#define RPG_CLIENT_MAINMISSIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x95E5EC0)
-#define RPG_CLIENT_MAINMISSIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x95E5EF0)
-#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_0_OFFSET UNITYSDK_OFFSET(0x95E6180)
-#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_1_OFFSET UNITYSDK_OFFSET(0x95E6360)
-#define RPG_CLIENT_MAINMISSIONDATA___C__INITMISSIONDATA_B__107_0_OFFSET UNITYSDK_OFFSET(0x95E6040)
+#define RPG_CLIENT_MAINMISSIONDATA___C__ADDSUBMISSION_B__106_0_OFFSET UNITYSDK_OFFSET(0x9ACC6F0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9ACC6B0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9ACC6E0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_0_OFFSET UNITYSDK_OFFSET(0x9ACC970)
+#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_1_OFFSET UNITYSDK_OFFSET(0x9ACCB50)
+#define RPG_CLIENT_MAINMISSIONDATA___C__INITMISSIONDATA_B__107_0_OFFSET UNITYSDK_OFFSET(0x9ACC830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 52615;
+	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 53752;
 
 	class MainMissionData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__106_0()
+		static ::RPG::Client::MainMissionData___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x27470);
+			return (::RPG::Client::MainMissionData___c**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x3AB80);
 		}
 		static ::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>** StaticGet___9__108_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x27478);
-		}
-		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__107_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x27480);
+			return (::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x3AB88);
 		}
 		static ::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>** StaticGet___9__108_0()
 		{
-			return (::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x27488);
+			return (::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x3AB90);
 		}
-		static ::RPG::Client::MainMissionData___c** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__106_0()
 		{
-			return (::RPG::Client::MainMissionData___c**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x27490);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x3AB98);
+		}
+		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__107_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(MainMissionData___c_TypeDefinitionIndex)->GetStaticField(0x3ABA0);
 		}
 
 		static ::System::Void _cctor()

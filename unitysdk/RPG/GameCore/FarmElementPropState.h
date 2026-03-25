@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FarmElementPropState_TypeDefinitionIndex = 44933;
+	inline static constexpr unsigned int FarmElementPropState_TypeDefinitionIndex = 45994;
 
 	enum class FarmElementPropState : ::System::Int32
 	{

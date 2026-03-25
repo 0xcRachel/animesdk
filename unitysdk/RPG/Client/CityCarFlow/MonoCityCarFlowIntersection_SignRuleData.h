@@ -4,7 +4,7 @@
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowIntersection_SignRuleData_TypeDefinitionIndex = 62363;
+	inline static constexpr unsigned int MonoCityCarFlowIntersection_SignRuleData_TypeDefinitionIndex = 64551;
 
 	struct alignas(4) MonoCityCarFlowIntersection_SignRuleData
 	{

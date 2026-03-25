@@ -6,21 +6,21 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA_RESET_OFFSET UNITYSDK_OFFSET(0xA31CA10)
-#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA31CC10)
+#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA_RESET_OFFSET UNITYSDK_OFFSET(0xA858620)
+#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA858820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData_TypeDefinitionIndex = 44693;
+	inline static constexpr unsigned int AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData_TypeDefinitionIndex = 45754;
 
 	class AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Target; // 0x10
 		::RPG::GameCore::GameEntity* Caster; // 0x18
-		::System::Int32 SkillIndex; // 0x20
-		::RPG::GameCore::AdventureSkillAbortReason AbortReason; // 0x24
-		::RPG::GameCore::AdventureSkillType Slot; // 0x28
+		::RPG::GameCore::AdventureSkillType Slot; // 0x20
+		::System::Int32 SkillIndex; // 0x24
+		::RPG::GameCore::AdventureSkillAbortReason AbortReason; // 0x28
 
 		::System::Void _ctor()
 		{

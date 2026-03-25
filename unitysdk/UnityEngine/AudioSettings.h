@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class AudioSettings_AudioConfigurationChangeHandler; }
 
-#define UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET UNITYSDK_OFFSET(0x181CA400)
+#define UNITYENGINE_AUDIOSETTINGS_INVOKEONAUDIOCONFIGURATIONCHANGED_OFFSET UNITYSDK_OFFSET(0x189F3CD0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 4983;
+	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 5083;
 
 	class AudioSettings : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler** StaticGet_OnAudioConfigurationChanged()
 		{
-			return (::UnityEngine::AudioSettings_AudioConfigurationChangeHandler**)Il2CppClass::FromTypeDefinitionIndex(AudioSettings_TypeDefinitionIndex)->GetStaticField(0x2A0);
+			return (::UnityEngine::AudioSettings_AudioConfigurationChangeHandler**)Il2CppClass::FromTypeDefinitionIndex(AudioSettings_TypeDefinitionIndex)->GetStaticField(0x250);
 		}
 
 		static ::System::Void InvokeOnAudioConfigurationChanged(::System::Boolean deviceWasChanged)

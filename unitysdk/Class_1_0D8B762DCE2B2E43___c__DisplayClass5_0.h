@@ -5,16 +5,16 @@
 
 class Class_1_92B0B8C84327961B;
 
-#define CLASS_1_0D8B762DCE2B2E43___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF6B50)
-#define CLASS_1_0D8B762DCE2B2E43___C__DISPLAYCLASS5_0__GETCAKERACECORECYCLEABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x15FF8AE0)
+#define CLASS_1_0D8B762DCE2B2E43___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16670800)
+#define CLASS_1_0D8B762DCE2B2E43___C__DISPLAYCLASS5_0__GETCAKERACECORECYCLEABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x16673040)
 
-inline static constexpr unsigned int Class_1_0D8B762DCE2B2E43___c__DisplayClass5_0_TypeDefinitionIndex = 28067;
+inline static constexpr unsigned int Class_1_0D8B762DCE2B2E43___c__DisplayClass5_0_TypeDefinitionIndex = 28939;
 
 class Class_1_0D8B762DCE2B2E43___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::System::Int32 entityRuntimeID; // 0x10
-	::RPG::GameCore::CakeRaceAbilityName abilityType; // 0x14
+	::RPG::GameCore::CakeRaceAbilityName abilityType; // 0x10
+	::System::Int32 entityRuntimeID; // 0x14
 
 	::System::Void _ctor()
 	{

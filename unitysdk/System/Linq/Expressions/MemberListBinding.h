@@ -5,11 +5,11 @@
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class ElementInit; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERLISTBINDING_GET_INITIALIZERS_OFFSET UNITYSDK_OFFSET(0x17CFF8C0)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERLISTBINDING_GET_INITIALIZERS_OFFSET UNITYSDK_OFFSET(0x18516DA0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberListBinding_TypeDefinitionIndex = 3223;
+	inline static constexpr unsigned int MemberListBinding_TypeDefinitionIndex = 3232;
 
 	class MemberListBinding : public ::System::Linq::Expressions::MemberBinding
 	{

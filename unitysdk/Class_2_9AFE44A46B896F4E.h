@@ -8,18 +8,18 @@ namespace RPG::GameCore { class AIDecisionBaseConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9AFE44A46B896F4E_METHOD_2_ACB98172DAE54CD6_OFFSET UNITYSDK_OFFSET(0x8A3C730)
-#define CLASS_2_9AFE44A46B896F4E_METHOD_2_B3FDD3B1AE56BD97_OFFSET UNITYSDK_OFFSET(0x8A3C490)
-#define CLASS_2_9AFE44A46B896F4E__CTOR_OFFSET UNITYSDK_OFFSET(0x8A3C360)
+#define CLASS_2_9AFE44A46B896F4E_METHOD_2_ACB98172DAE54CD6_OFFSET UNITYSDK_OFFSET(0xD7CDEC0)
+#define CLASS_2_9AFE44A46B896F4E_METHOD_2_B3FDD3B1AE56BD97_OFFSET UNITYSDK_OFFSET(0xD7CDC20)
+#define CLASS_2_9AFE44A46B896F4E__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CDAF0)
 
-inline static constexpr unsigned int Class_2_9AFE44A46B896F4E_TypeDefinitionIndex = 42421;
+inline static constexpr unsigned int Class_2_9AFE44A46B896F4E_TypeDefinitionIndex = 43471;
 
 class Class_2_9AFE44A46B896F4E : public ::Class_1_43BD383C98B4C0C5_104
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_F9FBCC956DFCF137_2*>* Field_2_2; // 0x10
 	::RPG::GameCore::AIDecisionBaseConfig* Field_2_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_F9FBCC956DFCF137_2*>* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::AIDecisionBaseConfig* a1, ::RPG::GameCore::TaskContext* a2)
 	{

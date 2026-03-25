@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATELIGHTTEAMDOLLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x8E5D100)
+#define RPG_CLIENT_CAMERAFIGHTSTATELIGHTTEAMDOLLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9266EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateLightTeamDollyConfig_TypeDefinitionIndex = 55310;
+	inline static constexpr unsigned int CameraFightStateLightTeamDollyConfig_TypeDefinitionIndex = 56875;
 
 	class CameraFightStateLightTeamDollyConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

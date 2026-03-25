@@ -6,11 +6,12 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VsmSettings_TypeDefinitionIndex = 4657;
+	inline static constexpr unsigned int VsmSettings_TypeDefinitionIndex = 4687;
 
 	struct alignas(8) VsmSettings
 	{
 		::System::Boolean enable; // 0x10
+		::System::Boolean resetVsm; // 0x11
 		::System::UInt32 physicTextureSize; // 0x14
 		::System::UInt32 textureDepthCount; // 0x18
 		::System::UInt32 overrideLayerMask; // 0x1C

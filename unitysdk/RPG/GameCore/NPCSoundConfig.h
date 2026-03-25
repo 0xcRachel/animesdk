@@ -7,12 +7,12 @@ namespace RPG::GameCore { class NPCTriggerSound; }
 namespace RPG::GameCore { class PropSoundAttenuation; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCSOUNDCONFIG_METHOD_2_82A2F31922F23748_OFFSET UNITYSDK_OFFSET(0x16CFB540)
-#define RPG_GAMECORE_NPCSOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16CFB720)
+#define RPG_GAMECORE_NPCSOUNDCONFIG_METHOD_2_82A2F31922F23748_OFFSET UNITYSDK_OFFSET(0x17481D20)
+#define RPG_GAMECORE_NPCSOUNDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17481F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCSoundConfig_TypeDefinitionIndex = 15774;
+	inline static constexpr unsigned int NPCSoundConfig_TypeDefinitionIndex = 16051;
 
 	class NPCSoundConfig : public ::RPG::GameCore::JsonConfig
 	{

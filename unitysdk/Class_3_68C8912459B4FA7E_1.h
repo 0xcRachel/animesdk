@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchChessSkillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_68C8912459B4FA7E_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x945D540)
-#define CLASS_3_68C8912459B4FA7E_1__CTOR_OFFSET UNITYSDK_OFFSET(0x945D4C0)
+#define CLASS_3_68C8912459B4FA7E_1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x118C1920)
+#define CLASS_3_68C8912459B4FA7E_1__CTOR_OFFSET UNITYSDK_OFFSET(0x118C18A0)
 
-inline static constexpr unsigned int Class_3_68C8912459B4FA7E_1_TypeDefinitionIndex = 44128;
+inline static constexpr unsigned int Class_3_68C8912459B4FA7E_1_TypeDefinitionIndex = 45188;
 
 class Class_3_68C8912459B4FA7E_1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchChessSkillTarget*>
 {

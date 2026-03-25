@@ -4,7 +4,7 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int OneWayAttribute_TypeDefinitionIndex = 1314;
+	inline static constexpr unsigned int OneWayAttribute_TypeDefinitionIndex = 1319;
 
 	class OneWayAttribute : public ::System::Attribute
 	{

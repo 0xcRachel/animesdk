@@ -5,11 +5,11 @@
 namespace RPG::Client { class SingleVCameraFreelook3rdConfigTemplate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_VCAMERAFREELOOK3RDCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA236A40)
+#define RPG_CLIENT_VCAMERAFREELOOK3RDCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xA7701C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 55475;
+	inline static constexpr unsigned int VCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 57040;
 
 	class VCameraFreelook3rdConfigTemplate : public ::UnityEngine::ScriptableObject
 	{

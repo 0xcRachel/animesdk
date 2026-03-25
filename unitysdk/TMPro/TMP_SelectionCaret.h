@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 
-#define TMPRO_TMP_SELECTIONCARET_CULL_OFFSET UNITYSDK_OFFSET(0x18129440)
-#define TMPRO_TMP_SELECTIONCARET_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x181294F0)
-#define TMPRO_TMP_SELECTIONCARET__CTOR_OFFSET UNITYSDK_OFFSET(0x18129500)
+#define TMPRO_TMP_SELECTIONCARET_CULL_OFFSET UNITYSDK_OFFSET(0x189516B0)
+#define TMPRO_TMP_SELECTIONCARET_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x18951760)
+#define TMPRO_TMP_SELECTIONCARET__CTOR_OFFSET UNITYSDK_OFFSET(0x18951770)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SelectionCaret_TypeDefinitionIndex = 33375;
+	inline static constexpr unsigned int TMP_SelectionCaret_TypeDefinitionIndex = 34364;
 
 	class TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic
 	{

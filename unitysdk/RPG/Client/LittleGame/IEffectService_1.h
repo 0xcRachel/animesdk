@@ -16,7 +16,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEffectService_1_TypeDefinitionIndex = 31962;
+	inline static constexpr unsigned int IEffectService_1_TypeDefinitionIndex = 32872;
 
 	template <typename TEntity>
 	class IEffectService_1

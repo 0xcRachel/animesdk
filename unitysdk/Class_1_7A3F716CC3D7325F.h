@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_7A3F716CC3D7325F_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x16E27350)
-#define CLASS_1_7A3F716CC3D7325F__CTOR_OFFSET UNITYSDK_OFFSET(0x16E27540)
+#define CLASS_1_7A3F716CC3D7325F_METHOD_1_9A97CC9BA4751B18_OFFSET UNITYSDK_OFFSET(0x16CD78A0)
+#define CLASS_1_7A3F716CC3D7325F__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD7A90)
 
-inline static constexpr unsigned int Class_1_7A3F716CC3D7325F_TypeDefinitionIndex = 10686;
+inline static constexpr unsigned int Class_1_7A3F716CC3D7325F_TypeDefinitionIndex = 10754;
 
 class Class_1_7A3F716CC3D7325F : public ::System::Object
 {
 public:
-	::RPG::GameCore::FateBuffSlotType Field_1_1; // 0x10
+	::System::UInt32 Field_1_4; // 0x10
 	::System::UInt32 Field_1_2; // 0x14
-	::System::UInt32 Field_1_3; // 0x18
-	::System::UInt32 Field_1_0; // 0x1C
-	::System::UInt32 Field_1_4; // 0x20
+	::System::UInt32 Field_1_0; // 0x18
+	::RPG::GameCore::FateBuffSlotType Field_1_1; // 0x1C
+	::System::UInt32 Field_1_3; // 0x20
 
 	::System::Void _ctor()
 	{

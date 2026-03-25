@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class ChimeraDuelPuzzleVirtualCameraConfig; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMONOSTATEVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9B8D0A0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMONOSTATEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9B8D0E0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMONOSTATEVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA05DAF0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMONOSTATEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xA05DA90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleMonoStateView_TypeDefinitionIndex = 61647;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleMonoStateView_TypeDefinitionIndex = 63834;
 
 	class ChimeraDuelMainPuzzleMonoStateView : public ::UnityEngine::MonoBehaviour
 	{

@@ -8,29 +8,29 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1710CBB0)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1710DCD0)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C8BB0)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C9CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureConfigRow_TypeDefinitionIndex = 13989;
+	inline static constexpr unsigned int TravelBrochureConfigRow_TypeDefinitionIndex = 14105;
 
 	class TravelBrochureConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* BackgroundPrefab; // 0x10
-		::System::String* PasterAchievementPic; // 0x18
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x20
+		::System::String* PasterAchievementPic; // 0x10
+		::System::String* PicPath; // 0x18
+		::System::String* BackgroundPrefab; // 0x20
 		::System::String* FrontPrefab; // 0x28
-		::System::String* PicPath; // 0x30
-		::RPG::Client::TextID DirectoryName; // 0x38
-		::System::UInt32 FinishQuestID; // 0x48
-		::System::Boolean ShowInDirectory; // 0x4C
-		::System::Boolean ShowUnlockToast; // 0x4D
-		::RPG::GameCore::TravelBrochureType Type; // 0x50
-		::System::UInt32 DiaryGroupID; // 0x54
-		::System::UInt32 Sort; // 0x58
-		::System::UInt32 ID; // 0x5C
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x30
+		::System::UInt32 Sort; // 0x38
+		::System::UInt32 ID; // 0x3C
+		::RPG::Client::TextID DirectoryName; // 0x40
+		::System::Boolean ShowUnlockToast; // 0x50
+		::System::Boolean ShowInDirectory; // 0x51
+		::System::UInt32 FinishQuestID; // 0x54
+		::RPG::GameCore::TravelBrochureType Type; // 0x58
+		::System::UInt32 DiaryGroupID; // 0x5C
 
 		::System::Void _ctor()
 		{

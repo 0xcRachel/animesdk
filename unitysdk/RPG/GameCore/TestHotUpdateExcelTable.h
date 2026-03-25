@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x170EE720)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x170EE570)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x170EE240)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x170EE510)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x170EE8F0)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x170EE2C0)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x170EE930)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x170EEB10)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x170EEC90)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x170EEFF0)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x170EEA70)
-#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x170EE9D0)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x178AD5C0)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x178AD410)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x178AD0E0)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x178AD3B0)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x178AD790)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x178AD160)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x178AD7D0)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x178AD9B0)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x178ADB30)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x178ADE90)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x178AD910)
+#define RPG_GAMECORE_TESTHOTUPDATEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x178AD870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TestHotUpdateExcelTable_TypeDefinitionIndex = 13889;
+	inline static constexpr unsigned int TestHotUpdateExcelTable_TypeDefinitionIndex = 14005;
 
 	class TestHotUpdateExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x24ED0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x18BF0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TestHotUpdateRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TestHotUpdateRow*>**)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x24ED8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TestHotUpdateRow*>**)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x18BF8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x24EE0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x79A0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x18C00);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x79A1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x95A0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TestHotUpdateExcelTable_TypeDefinitionIndex)->GetStaticField(0x95A1);
 		}
 
 		static ::System::Void _cctor()

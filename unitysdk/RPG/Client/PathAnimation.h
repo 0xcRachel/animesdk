@@ -7,13 +7,13 @@ namespace RPG::Client { class BezierCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PATHANIMATION_INIT_OFFSET UNITYSDK_OFFSET(0x9A52990)
-#define RPG_CLIENT_PATHANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9A52D00)
-#define RPG_CLIENT_PATHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x9A534D0)
+#define RPG_CLIENT_PATHANIMATION_INIT_OFFSET UNITYSDK_OFFSET(0x9F26A50)
+#define RPG_CLIENT_PATHANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9F26DC0)
+#define RPG_CLIENT_PATHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x9F27590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PathAnimation_TypeDefinitionIndex = 56325;
+	inline static constexpr unsigned int PathAnimation_TypeDefinitionIndex = 57896;
 
 	class PathAnimation : public ::UnityEngine::MonoBehaviour
 	{

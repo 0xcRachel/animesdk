@@ -3,15 +3,17 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class NotImplementedException; }
+namespace System { class NotSupportedException; }
 namespace System::Net { class WebException; }
 
-#define SYSTEM_NET_EXCEPTIONHELPER_GET_METHODNOTIMPLEMENTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17EB4AA0)
-#define SYSTEM_NET_EXCEPTIONHELPER_GET_PROPERTYNOTIMPLEMENTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17EB49B0)
-#define SYSTEM_NET_EXCEPTIONHELPER_GET_REQUESTABORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17EB9850)
+#define SYSTEM_NET_EXCEPTIONHELPER_GET_METHODNOTIMPLEMENTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186DD860)
+#define SYSTEM_NET_EXCEPTIONHELPER_GET_PROPERTYNOTIMPLEMENTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186DD770)
+#define SYSTEM_NET_EXCEPTIONHELPER_GET_PROPERTYNOTSUPPORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186E2630)
+#define SYSTEM_NET_EXCEPTIONHELPER_GET_REQUESTABORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x186E26D0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ExceptionHelper_TypeDefinitionIndex = 2733;
+	inline static constexpr unsigned int ExceptionHelper_TypeDefinitionIndex = 2738;
 
 	class ExceptionHelper : public ::System::Object
 	{
@@ -24,6 +26,11 @@ namespace System::Net
 		static ::System::NotImplementedException* get_PropertyNotImplementedException()
 		{
 			return ((::System::NotImplementedException*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_EXCEPTIONHELPER_GET_PROPERTYNOTIMPLEMENTEDEXCEPTION_OFFSET))();
+		}
+
+		static ::System::NotSupportedException* get_PropertyNotSupportedException()
+		{
+			return ((::System::NotSupportedException*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_EXCEPTIONHELPER_GET_PROPERTYNOTSUPPORTEDEXCEPTION_OFFSET))();
 		}
 
 		static ::System::Net::WebException* get_RequestAbortedException()

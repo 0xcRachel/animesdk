@@ -6,18 +6,18 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4279F0)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS14_0__PRECHECKSKILLFORCESTANCEDAMAGE_B__0_OFFSET UNITYSDK_OFFSET(0xA432AB0)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA962420)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__DISPLAYCLASS14_0__PRECHECKSKILLFORCESTANCEDAMAGE_B__0_OFFSET UNITYSDK_OFFSET(0xA96D550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass14_0_TypeDefinitionIndex = 46640;
+	inline static constexpr unsigned int GamePlayStatic___c__DisplayClass14_0_TypeDefinitionIndex = 47719;
 
 	class GamePlayStatic___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::SkillConfig* pSkillJsonConfig; // 0x10
-		::RPG::GameCore::TurnBasedAbilityComponent* pAttackerTurnBasedAbility; // 0x18
+		::RPG::GameCore::TurnBasedAbilityComponent* pAttackerTurnBasedAbility; // 0x10
+		::RPG::GameCore::SkillConfig* pSkillJsonConfig; // 0x18
 		::RPG::GameCore::TurnBasedAbilityComponent* pTargetTurnBasedAbility; // 0x20
 		::System::Boolean forceStanceDamage; // 0x28
 

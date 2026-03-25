@@ -5,48 +5,48 @@
 namespace System { class String; }
 namespace System::IO { class StreamWriter; }
 
-#define CLASS_1_CCD2D94FACBF1F26_GET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x15E12CB0)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_4D2A473556700CDC_OFFSET UNITYSDK_OFFSET(0x15E11F80)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_51AC7912135C5E23_OFFSET UNITYSDK_OFFSET(0x15E11EE0)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_7EFD9243A4663D30_OFFSET UNITYSDK_OFFSET(0x15E12400)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_811F6F5A1FA49F02_OFFSET UNITYSDK_OFFSET(0x15E124B0)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_A07174E71208F831_OFFSET UNITYSDK_OFFSET(0x15E127B0)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_AD3D94FE6025851F_OFFSET UNITYSDK_OFFSET(0x15E12860)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x15E122D0)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_F24A112B56A2E4B4_1_OFFSET UNITYSDK_OFFSET(0x15E12BF0)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_F24A112B56A2E4B4_2_OFFSET UNITYSDK_OFFSET(0x15E12C50)
-#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_F24A112B56A2E4B4_OFFSET UNITYSDK_OFFSET(0x15E12B90)
-#define CLASS_1_CCD2D94FACBF1F26_SET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x15E12CF0)
-#define CLASS_1_CCD2D94FACBF1F26__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E12D20)
+#define CLASS_1_CCD2D94FACBF1F26_GET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1655D600)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_7EFD9243A4663D30_OFFSET UNITYSDK_OFFSET(0x1655CD50)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_811F6F5A1FA49F02_OFFSET UNITYSDK_OFFSET(0x1655CE00)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_A07174E71208F831_OFFSET UNITYSDK_OFFSET(0x1655D100)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_AD3D94FE6025851F_OFFSET UNITYSDK_OFFSET(0x1655D1B0)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_BF5E2DCAE0BF038A_OFFSET UNITYSDK_OFFSET(0x1655C840)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x1655CC20)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_EAC2737A96E071C9_OFFSET UNITYSDK_OFFSET(0x1655C7A0)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_F24A112B56A2E4B4_1_OFFSET UNITYSDK_OFFSET(0x1655D540)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_F24A112B56A2E4B4_2_OFFSET UNITYSDK_OFFSET(0x1655D5A0)
+#define CLASS_1_CCD2D94FACBF1F26_METHOD_1_F24A112B56A2E4B4_OFFSET UNITYSDK_OFFSET(0x1655D4E0)
+#define CLASS_1_CCD2D94FACBF1F26_SET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1655D640)
+#define CLASS_1_CCD2D94FACBF1F26__CCTOR_OFFSET UNITYSDK_OFFSET(0x1655D670)
 
-inline static constexpr unsigned int Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex = 31074;
+inline static constexpr unsigned int Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex = 31949;
 
 class Class_1_CCD2D94FACBF1F26 : public ::System::Object
 {
 public:
-	static ::System::String** StaticGet_Field_1_1()
+	static ::System::IO::StreamWriter** StaticGet_Field_1_3()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x37020);
+		return (::System::IO::StreamWriter**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x5120);
 	}
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x37028);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x5128);
 	}
-	static ::System::IO::StreamWriter** StaticGet_Field_1_3()
+	static ::System::String** StaticGet_Field_1_1()
 	{
-		return (::System::IO::StreamWriter**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x37030);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x5130);
 	}
 	static ::System::String** StaticGet_Field_1_2()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x37038);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x5138);
 	}
 	static ::System::Int32* StaticGet_Field_1_4()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0xD510);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x2C00);
 	}
 	static ::System::Boolean* StaticGet__EnableAssetLoadRecord_k__BackingField()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0xD514);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CCD2D94FACBF1F26_TypeDefinitionIndex)->GetStaticField(0x2C04);
 	}
 	// static const ::System::Int32 Field_1_5 = 0x3; // 0x0
 
@@ -55,14 +55,14 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CCD2D94FACBF1F26__CCTOR_OFFSET))();
 	}
 
-	static ::System::Void Method_1_51AC7912135C5E23()
+	static ::System::Void Method_1_EAC2737A96E071C9()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CCD2D94FACBF1F26_METHOD_1_51AC7912135C5E23_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CCD2D94FACBF1F26_METHOD_1_EAC2737A96E071C9_OFFSET))();
 	}
 
-	static ::System::Void Method_1_4D2A473556700CDC()
+	static ::System::Void Method_1_BF5E2DCAE0BF038A()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CCD2D94FACBF1F26_METHOD_1_4D2A473556700CDC_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_CCD2D94FACBF1F26_METHOD_1_BF5E2DCAE0BF038A_OFFSET))();
 	}
 
 	static ::System::Void Method_1_D0BD1377F2594D33()

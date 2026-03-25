@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERADYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x8E5CF00)
+#define RPG_CLIENT_CAMERADYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x9266CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDynamicOffset_TypeDefinitionIndex = 55443;
+	inline static constexpr unsigned int CameraDynamicOffset_TypeDefinitionIndex = 57008;
 
 	class CameraDynamicOffset : public ::System::Object
 	{

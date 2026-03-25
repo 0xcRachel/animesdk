@@ -5,12 +5,12 @@
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreeEnergyFadeEffect; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9653FB0)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS41_0__DOENERGYFADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x96592F0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B3A100)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS41_0__DOENERGYFADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9B3F460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass41_0_TypeDefinitionIndex = 52405;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass41_0_TypeDefinitionIndex = 53541;
 
 	class MatchThreeBoard___c__DisplayClass41_0 : public ::System::Object
 	{

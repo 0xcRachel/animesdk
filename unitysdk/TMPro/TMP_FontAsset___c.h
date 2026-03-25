@@ -9,34 +9,34 @@ namespace System::Text::RegularExpressions { class MatchEvaluator; }
 namespace TMPro { class TMP_Character; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define TMPRO_TMP_FONTASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18108D70)
-#define TMPRO_TMP_FONTASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18108DB0)
-#define TMPRO_TMP_FONTASSET___C__RENDERCHARACTERTOTEXTURE_B__180_0_OFFSET UNITYSDK_OFFSET(0x18108E00)
-#define TMPRO_TMP_FONTASSET___C__SORTCHARACTERTABLE_B__129_0_OFFSET UNITYSDK_OFFSET(0x18108DC0)
-#define TMPRO_TMP_FONTASSET___C__SORTGLYPHTABLE_B__130_0_OFFSET UNITYSDK_OFFSET(0x18108DE0)
+#define TMPRO_TMP_FONTASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18931070)
+#define TMPRO_TMP_FONTASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189310B0)
+#define TMPRO_TMP_FONTASSET___C__RENDERCHARACTERTOTEXTURE_B__180_0_OFFSET UNITYSDK_OFFSET(0x18931100)
+#define TMPRO_TMP_FONTASSET___C__SORTCHARACTERTABLE_B__129_0_OFFSET UNITYSDK_OFFSET(0x189310C0)
+#define TMPRO_TMP_FONTASSET___C__SORTGLYPHTABLE_B__130_0_OFFSET UNITYSDK_OFFSET(0x189310E0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontAsset___c_TypeDefinitionIndex = 33316;
+	inline static constexpr unsigned int TMP_FontAsset___c_TypeDefinitionIndex = 34305;
 
 	class TMP_FontAsset___c : public ::System::Object
 	{
 	public:
-		static ::System::Text::RegularExpressions::MatchEvaluator** StaticGet___9__180_0()
-		{
-			return (::System::Text::RegularExpressions::MatchEvaluator**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x2FC10);
-		}
-		static ::TMPro::TMP_FontAsset___c** StaticGet___9()
-		{
-			return (::TMPro::TMP_FontAsset___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x2FC18);
-		}
 		static ::System::Func_2<::TMPro::TMP_Character*, ::System::UInt32>** StaticGet___9__129_0()
 		{
-			return (::System::Func_2<::TMPro::TMP_Character*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x2FC20);
+			return (::System::Func_2<::TMPro::TMP_Character*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x3FB70);
+		}
+		static ::System::Text::RegularExpressions::MatchEvaluator** StaticGet___9__180_0()
+		{
+			return (::System::Text::RegularExpressions::MatchEvaluator**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x3FB78);
 		}
 		static ::System::Func_2<::UnityEngine::TextCore::Glyph*, ::System::UInt32>** StaticGet___9__130_0()
 		{
-			return (::System::Func_2<::UnityEngine::TextCore::Glyph*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x2FC28);
+			return (::System::Func_2<::UnityEngine::TextCore::Glyph*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x3FB80);
+		}
+		static ::TMPro::TMP_FontAsset___c** StaticGet___9()
+		{
+			return (::TMPro::TMP_FontAsset___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset___c_TypeDefinitionIndex)->GetStaticField(0x3FB88);
 		}
 
 		static ::System::Void _cctor()

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_A306605762AA5A6A_OFFSET UNITYSDK_OFFSET(0x16A6FB20)
-#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_D47FCF29810D6ADB_OFFSET UNITYSDK_OFFSET(0x16A6FBA0)
-#define RPG_GAMECORE_ENTERGAMEFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x16A6FB70)
+#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_A306605762AA5A6A_OFFSET UNITYSDK_OFFSET(0x171B28F0)
+#define RPG_GAMECORE_ENTERGAMEFLOW_METHOD_3_D47FCF29810D6ADB_OFFSET UNITYSDK_OFFSET(0x171B2970)
+#define RPG_GAMECORE_ENTERGAMEFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x171B2940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterGameFlow_TypeDefinitionIndex = 21746;
+	inline static constexpr unsigned int EnterGameFlow_TypeDefinitionIndex = 22309;
 
 	class EnterGameFlow : public ::RPG::GameCore::TaskConfig
 	{

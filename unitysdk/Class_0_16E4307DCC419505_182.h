@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/Match3/MatchThreeOpponentLiveState.h"
 
-class Class_1_D3CC73B16B410533;
-namespace UnityEngine { class Collider; }
+class Class_2_536CC4186B095618;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_182_TypeDefinitionIndex = 32725;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_182_TypeDefinitionIndex = 32490;
 
 class Class_0_16E4307DCC419505_182
 {

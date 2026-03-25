@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameMasterInfoItem_TypeDefinitionIndex = 50880;
+	inline static constexpr unsigned int IFateGameMasterInfoItem_TypeDefinitionIndex = 52015;
 
 	class IFateGameMasterInfoItem
 	{

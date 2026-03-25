@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONAUGMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16B472A0)
-#define RPG_GAMECORE_GRIDFIGHTSEASONAUGMENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16B473C0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONAUGMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172959A0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONAUGMENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17295AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonAugmentConfigRow_TypeDefinitionIndex = 12178;
+	inline static constexpr unsigned int GridFightSeasonAugmentConfigRow_TypeDefinitionIndex = 12248;
 
 	class GridFightSeasonAugmentConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SeasonID; // 0x10
-		::System::UInt32 AugmentID; // 0x14
+		::System::UInt32 AugmentID; // 0x10
+		::System::UInt32 SeasonID; // 0x14
 
 		::System::Void _ctor()
 		{

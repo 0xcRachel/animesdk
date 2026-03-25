@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_NEXUSPLAYERMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x155996D0)
-#define INCONTROL_UNITYDEVICEPROFILES_NEXUSPLAYERMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1559AC20)
+#define INCONTROL_UNITYDEVICEPROFILES_NEXUSPLAYERMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15CB3490)
+#define INCONTROL_UNITYDEVICEPROFILES_NEXUSPLAYERMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15CB49E0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int NexusPlayerMacUnityProfile_TypeDefinitionIndex = 30730;
+	inline static constexpr unsigned int NexusPlayerMacUnityProfile_TypeDefinitionIndex = 31605;
 
 	class NexusPlayerMacUnityProfile : public ::InControl::InputDeviceProfile
 	{

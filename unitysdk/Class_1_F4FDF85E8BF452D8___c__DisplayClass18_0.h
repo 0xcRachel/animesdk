@@ -6,16 +6,16 @@ class Class_1_4D4B66C45A742EF1;
 class Class_1_F4FDF85E8BF452D8;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1617E9C0)
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0___MAKECHOICE_B__1_OFFSET UNITYSDK_OFFSET(0x1617F910)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1680A480)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0___MAKECHOICE_B__1_OFFSET UNITYSDK_OFFSET(0x1680BA10)
 
-inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0_TypeDefinitionIndex = 32207;
+inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0_TypeDefinitionIndex = 33117;
 
 class Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0 : public ::System::Object
 {
 public:
-	::Class_1_F4FDF85E8BF452D8* __4__this; // 0x10
-	::System::Comparison_1<::Class_1_4D4B66C45A742EF1*>* __9__1; // 0x18
+	::System::Comparison_1<::Class_1_4D4B66C45A742EF1*>* __9__1; // 0x10
+	::Class_1_F4FDF85E8BF452D8* __4__this; // 0x18
 	::System::Int32 priority; // 0x20
 
 	::System::Void _ctor()

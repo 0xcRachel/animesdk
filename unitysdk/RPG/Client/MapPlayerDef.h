@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MAPPLAYERDEF__CTOR_OFFSET UNITYSDK_OFFSET(0x962BCE0)
+#define RPG_CLIENT_MAPPLAYERDEF__CTOR_OFFSET UNITYSDK_OFFSET(0x9B11920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapPlayerDef_TypeDefinitionIndex = 49335;
+	inline static constexpr unsigned int MapPlayerDef_TypeDefinitionIndex = 50468;
 
 	class MapPlayerDef : public ::RPG::Client::MapEntityDef
 	{

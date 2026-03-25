@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x17D46D60)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET UNITYSDK_OFFSET(0x17D46C00)
-#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x17D46A30)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x18576D70)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_2_OFFSET UNITYSDK_OFFSET(0x18576C10)
+#define SYSTEM_XML_BINHEXENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x18576A40)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinHexEncoder_TypeDefinitionIndex = 1774;
+	inline static constexpr unsigned int BinHexEncoder_TypeDefinitionIndex = 1779;
 
 	class BinHexEncoder : public ::System::Object
 	{

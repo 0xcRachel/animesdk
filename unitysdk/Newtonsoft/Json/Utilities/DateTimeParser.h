@@ -3,77 +3,77 @@
 #include "unitysdk/Newtonsoft/Json/Utilities/ParserTimeZone.h"
 #include "unitysdk/System/ValueType.h"
 
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE2DIGIT_OFFSET UNITYSDK_OFFSET(0x200D7C0)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE4DIGIT_OFFSET UNITYSDK_OFFSET(0x200D7B0)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSECHAR_OFFSET UNITYSDK_OFFSET(0x200D7D0)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEDATE_OFFSET UNITYSDK_OFFSET(0x200D740)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x200D750)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x200D790)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEZONE_OFFSET UNITYSDK_OFFSET(0x200D7A0)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x200D730)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DE7FE0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE2DIGIT_OFFSET UNITYSDK_OFFSET(0x20E3050)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE4DIGIT_OFFSET UNITYSDK_OFFSET(0x20E3040)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSECHAR_OFFSET UNITYSDK_OFFSET(0x20E3060)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEDATE_OFFSET UNITYSDK_OFFSET(0x20E2FD0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x20E2FE0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x20E3020)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEZONE_OFFSET UNITYSDK_OFFSET(0x20E3030)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x20E2FC0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x164AEC50)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int DateTimeParser_TypeDefinitionIndex = 8103;
+	inline static constexpr unsigned int DateTimeParser_TypeDefinitionIndex = 8232;
 
 	struct alignas(8) DateTimeParser
 	{
 		static ::Il2CppArray<::System::Int32>** StaticGet_Power10()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x27240);
-		}
-		static ::System::Int32* StaticGet_Lz_()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8460);
-		}
-		static ::System::Int32* StaticGet_LzHH_mm()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8464);
-		}
-		static ::System::Int32* StaticGet_Lzyyyy_()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8468);
-		}
-		static ::System::Int32* StaticGet_Lzyyyy()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x846C);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x3A930);
 		}
 		static ::System::Int32* StaticGet_Lzyyyy_MM_()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8470);
-		}
-		static ::System::Int32* StaticGet_LzHH()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8474);
-		}
-		static ::System::Int32* StaticGet_Lzyyyy_MM_dd()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8478);
-		}
-		static ::System::Int32* StaticGet_LzHH_()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x847C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED70);
 		}
 		static ::System::Int32* StaticGet_Lzyyyy_MM_ddT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8480);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED74);
 		}
-		static ::System::Int32* StaticGet_Lz_zz()
+		static ::System::Int32* StaticGet_Lzyyyy()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8484);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED78);
+		}
+		static ::System::Int32* StaticGet_LzHH()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED7C);
+		}
+		static ::System::Int32* StaticGet_Lzyyyy_MM_dd()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED80);
 		}
 		static ::System::Int32* StaticGet_LzHH_mm_()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8488);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED84);
+		}
+		static ::System::Int32* StaticGet_Lz_zz()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED88);
+		}
+		static ::System::Int32* StaticGet_LzHH_()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED8C);
+		}
+		static ::System::Int32* StaticGet_Lzyyyy_()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED90);
+		}
+		static ::System::Int32* StaticGet_LzHH_mm()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED94);
 		}
 		static ::System::Int32* StaticGet_Lzyyyy_MM()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x848C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED98);
+		}
+		static ::System::Int32* StaticGet_Lz_()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xED9C);
 		}
 		static ::System::Int32* StaticGet_LzHH_mm_ss()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0x8490);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DateTimeParser_TypeDefinitionIndex)->GetStaticField(0xEDA0);
 		}
 		::System::Int32 Year; // 0x10
 		::System::Int32 Month; // 0x14

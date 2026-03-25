@@ -6,26 +6,26 @@ namespace System { class Delegate; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_THREADING_THREADHELPER_SETEXECUTIONCONTEXTHELPER_OFFSET UNITYSDK_OFFSET(0x15B98730)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x15B98C90)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x15B98740)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x15B98BC0)
-#define SYSTEM_THREADING_THREADHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B986F0)
-#define SYSTEM_THREADING_THREADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B976B0)
+#define SYSTEM_THREADING_THREADHELPER_SETEXECUTIONCONTEXTHELPER_OFFSET UNITYSDK_OFFSET(0x16261F20)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x162622F0)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x16261F30)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x16262250)
+#define SYSTEM_THREADING_THREADHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16261EE0)
+#define SYSTEM_THREADING_THREADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x16260EA0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 843;
+	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 844;
 
 	class ThreadHelper : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet__ccb()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x131A0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x116F0);
 		}
-		::System::Object* _startArg; // 0x10
-		::System::Delegate* _start; // 0x18
+		::System::Delegate* _start; // 0x10
+		::System::Object* _startArg; // 0x18
 		::System::Threading::ExecutionContext* _executionContext; // 0x20
 
 		static ::System::Void _cctor()

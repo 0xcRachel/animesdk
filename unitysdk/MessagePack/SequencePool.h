@@ -5,30 +5,25 @@
 
 namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 namespace System::Buffers { template <typename T> class ArrayPool_1; }
-namespace System::Buffers { template <typename T> class MemoryPool_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define MESSAGEPACK_SEQUENCEPOOL_CLEAR_OFFSET UNITYSDK_OFFSET(0x156A6970)
-#define MESSAGEPACK_SEQUENCEPOOL_RENT_OFFSET UNITYSDK_OFFSET(0x156899E0)
-#define MESSAGEPACK_SEQUENCEPOOL_RETURN_OFFSET UNITYSDK_OFFSET(0x156A6A70)
-#define MESSAGEPACK_SEQUENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x156A6BB0)
-#define MESSAGEPACK_SEQUENCEPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x156A6870)
-#define MESSAGEPACK_SEQUENCEPOOL__CTOR_2_OFFSET UNITYSDK_OFFSET(0x156A6800)
-#define MESSAGEPACK_SEQUENCEPOOL__CTOR_3_OFFSET UNITYSDK_OFFSET(0x156A6900)
-#define MESSAGEPACK_SEQUENCEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x156A6750)
+#define MESSAGEPACK_SEQUENCEPOOL_RENT_OFFSET UNITYSDK_OFFSET(0x15D9DB50)
+#define MESSAGEPACK_SEQUENCEPOOL_RETURN_OFFSET UNITYSDK_OFFSET(0x15D9DF20)
+#define MESSAGEPACK_SEQUENCEPOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D9E050)
+#define MESSAGEPACK_SEQUENCEPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15D9DAE0)
+#define MESSAGEPACK_SEQUENCEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x15D9DA30)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 9492;
+	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 9095;
 
 	class SequencePool : public ::System::Object
 	{
 	public:
 		static ::MessagePack::SequencePool** StaticGet_Shared()
 		{
-			return (::MessagePack::SequencePool**)Il2CppClass::FromTypeDefinitionIndex(SequencePool_TypeDefinitionIndex)->GetStaticField(0x27360);
+			return (::MessagePack::SequencePool**)Il2CppClass::FromTypeDefinitionIndex(SequencePool_TypeDefinitionIndex)->GetStaticField(0x1D810);
 		}
-		// static const ::System::Int32 MinimumSpanLength = 0x8000; // 0x0
 		::System::Collections::Generic::Stack_1<::Nerdbank::Streams::Sequence_1<::System::Byte>*>* pool; // 0x10
 		::System::Object* arrayPoolOrMemoryPool; // 0x18
 		::System::Int32 maxSize; // 0x20
@@ -38,29 +33,14 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Int32 maxSize)
+		::System::Void _ctor_1(::System::Int32 maxSize, ::System::Buffers::ArrayPool_1<::System::Byte>* arrayPool)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL__CTOR_1_OFFSET))(this, maxSize);
-		}
-
-		::System::Void _ctor_2(::System::Int32 maxSize, ::System::Buffers::ArrayPool_1<::System::Byte>* arrayPool)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Buffers::ArrayPool_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL__CTOR_2_OFFSET))(this, maxSize, arrayPool);
-		}
-
-		::System::Void _ctor_3(::System::Int32 maxSize, ::System::Buffers::MemoryPool_1<::System::Byte>* memoryPool)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Buffers::MemoryPool_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL__CTOR_3_OFFSET))(this, maxSize, memoryPool);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Buffers::ArrayPool_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL__CTOR_1_OFFSET))(this, maxSize, arrayPool);
 		}
 
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL__CCTOR_OFFSET))();
-		}
-
-		::System::Void Clear()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_SEQUENCEPOOL_CLEAR_OFFSET))(this);
 		}
 
 		::MessagePack::SequencePool_Rental Rent()

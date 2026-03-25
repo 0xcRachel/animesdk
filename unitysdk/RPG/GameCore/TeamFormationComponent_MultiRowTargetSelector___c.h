@@ -5,24 +5,24 @@
 class Class_2_BF927CBEA754F6BE;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA53D720)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA53D750)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__PREPARE_B__8_0_OFFSET UNITYSDK_OFFSET(0xA53D760)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAA82080)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAA820B0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__PREPARE_B__8_0_OFFSET UNITYSDK_OFFSET(0xAA820C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex = 45448;
+	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex = 46511;
 
 	class TeamFormationComponent_MultiRowTargetSelector___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_2_BF927CBEA754F6BE*>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::Class_2_BF927CBEA754F6BE*>**)Il2CppClass::FromTypeDefinitionIndex(TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex)->GetStaticField(0x453F0);
-		}
 		static ::RPG::GameCore::TeamFormationComponent_MultiRowTargetSelector___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::TeamFormationComponent_MultiRowTargetSelector___c**)Il2CppClass::FromTypeDefinitionIndex(TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex)->GetStaticField(0x453F8);
+			return (::RPG::GameCore::TeamFormationComponent_MultiRowTargetSelector___c**)Il2CppClass::FromTypeDefinitionIndex(TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex)->GetStaticField(0x41F80);
+		}
+		static ::System::Comparison_1<::Class_2_BF927CBEA754F6BE*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::Class_2_BF927CBEA754F6BE*>**)Il2CppClass::FromTypeDefinitionIndex(TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex)->GetStaticField(0x41F88);
 		}
 
 		static ::System::Void _cctor()

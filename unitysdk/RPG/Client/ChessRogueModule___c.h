@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHESSROGUEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8EE8860)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8EE8890)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x8EE88A0)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__ONLOGINFINISH_B__2_0_OFFSET UNITYSDK_OFFSET(0x8EE8940)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x938BAC0)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x938BAF0)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x938BB00)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__ONLOGINFINISH_B__2_0_OFFSET UNITYSDK_OFFSET(0x938BBA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueModule___c_TypeDefinitionIndex = 53311;
+	inline static constexpr unsigned int ChessRogueModule___c_TypeDefinitionIndex = 54452;
 
 	class ChessRogueModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__1_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x415B0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x44550);
 		}
 		static ::RPG::Client::ChessRogueModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChessRogueModule___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x415B8);
+			return (::RPG::Client::ChessRogueModule___c**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x44558);
 		}
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x415C0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChessRogueModule___c_TypeDefinitionIndex)->GetStaticField(0x44560);
 		}
 
 		static ::System::Void _cctor()

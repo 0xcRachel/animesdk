@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_1_5920B33BD610F975;
+class Class_1_C03F4DDB5A53142C;
 class Class_1_F9FBCC956DFCF137;
 namespace RPG::GameCore { class MarbleTaskConfig; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16233CD0)
-#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16233D10)
-#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_INVOKE_OFFSET UNITYSDK_OFFSET(0x1622ED20)
-#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0__CTOR_OFFSET UNITYSDK_OFFSET(0x16233CB0)
+#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16A5F700)
+#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16A5F740)
+#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_INVOKE_OFFSET UNITYSDK_OFFSET(0x16A5A9A0)
+#define CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5F6E0)
 
-inline static constexpr unsigned int Class_1_41E172AFC0380B0D_Class_3_5E93CC2AF84237E0_TypeDefinitionIndex = 32311;
+inline static constexpr unsigned int Class_1_41E172AFC0380B0D_Class_3_5E93CC2AF84237E0_TypeDefinitionIndex = 33221;
 
 class Class_1_41E172AFC0380B0D_Class_3_5E93CC2AF84237E0 : public ::System::MulticastDelegate
 {
@@ -24,14 +24,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::Class_1_F9FBCC956DFCF137* Invoke(::RPG::GameCore::MarbleTaskConfig* a1, ::Class_1_5920B33BD610F975* a2)
+	::Class_1_F9FBCC956DFCF137* Invoke(::RPG::GameCore::MarbleTaskConfig* a1, ::Class_1_C03F4DDB5A53142C* a2)
 	{
-		return ((::Class_1_F9FBCC956DFCF137*(*)(::PVOID, ::RPG::GameCore::MarbleTaskConfig*, ::Class_1_5920B33BD610F975*))((::PBYTE)hIl2Cpp + CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_INVOKE_OFFSET))(this, a1, a2);
+		return ((::Class_1_F9FBCC956DFCF137*(*)(::PVOID, ::RPG::GameCore::MarbleTaskConfig*, ::Class_1_C03F4DDB5A53142C*))((::PBYTE)hIl2Cpp + CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_INVOKE_OFFSET))(this, a1, a2);
 	}
 
-	::System::IAsyncResult* BeginInvoke(::RPG::GameCore::MarbleTaskConfig* a1, ::Class_1_5920B33BD610F975* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+	::System::IAsyncResult* BeginInvoke(::RPG::GameCore::MarbleTaskConfig* a1, ::Class_1_C03F4DDB5A53142C* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 	{
-		return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::MarbleTaskConfig*, ::Class_1_5920B33BD610F975*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::MarbleTaskConfig*, ::Class_1_C03F4DDB5A53142C*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_41E172AFC0380B0D_CLASS_3_5E93CC2AF84237E0_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::Class_1_F9FBCC956DFCF137* EndInvoke(::System::IAsyncResult* a1)

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FORMATIONSLOTCONFIG_METHOD_2_0103188E41323BB3_OFFSET UNITYSDK_OFFSET(0x16AE22A0)
-#define RPG_GAMECORE_FORMATIONSLOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AE23D0)
+#define RPG_GAMECORE_FORMATIONSLOTCONFIG_METHOD_2_0103188E41323BB3_OFFSET UNITYSDK_OFFSET(0x1722DA30)
+#define RPG_GAMECORE_FORMATIONSLOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1722DB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationSlotConfig_TypeDefinitionIndex = 14196;
+	inline static constexpr unsigned int FormationSlotConfig_TypeDefinitionIndex = 14314;
 
 	class FormationSlotConfig : public ::RPG::GameCore::JsonConfig
 	{

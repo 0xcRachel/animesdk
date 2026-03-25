@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/SDLControllerNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_SDLNINTENDOSWITCHNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x154CB5B0)
-#define INCONTROL_NATIVEDEVICEPROFILES_SDLNINTENDOSWITCHNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x154CD750)
+#define INCONTROL_NATIVEDEVICEPROFILES_SDLNINTENDOSWITCHNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15BE53B0)
+#define INCONTROL_NATIVEDEVICEPROFILES_SDLNINTENDOSWITCHNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE7550)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SDLNintendoSwitchNativeProfile_TypeDefinitionIndex = 30993;
+	inline static constexpr unsigned int SDLNintendoSwitchNativeProfile_TypeDefinitionIndex = 31868;
 
 	class SDLNintendoSwitchNativeProfile : public ::InControl::NativeDeviceProfiles::SDLControllerNativeProfile
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SyncAnimWithBgm; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D6CD0CE38AD08EE5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C5C020)
-#define CLASS_3_D6CD0CE38AD08EE5__CTOR_OFFSET UNITYSDK_OFFSET(0x10C5BFF0)
+#define CLASS_3_D6CD0CE38AD08EE5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x117EC410)
+#define CLASS_3_D6CD0CE38AD08EE5__CTOR_OFFSET UNITYSDK_OFFSET(0x117EC3E0)
 
-inline static constexpr unsigned int Class_3_D6CD0CE38AD08EE5_TypeDefinitionIndex = 44338;
+inline static constexpr unsigned int Class_3_D6CD0CE38AD08EE5_TypeDefinitionIndex = 45399;
 
 class Class_3_D6CD0CE38AD08EE5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SyncAnimWithBgm*>
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockHPStrength_TypeDefinitionIndex = 21296;
+	inline static constexpr unsigned int LockHPStrength_TypeDefinitionIndex = 21856;
 
 	enum class LockHPStrength : ::System::Int32
 	{

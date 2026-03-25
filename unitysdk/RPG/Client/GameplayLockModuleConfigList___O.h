@@ -16,15 +16,15 @@ namespace RPG::Client
 	public:
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::GamePlayLockTarget>** StaticGet__2___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::GamePlayLockTarget>**)Il2CppClass::FromTypeDefinitionIndex(GameplayLockModuleConfigList___O_TypeDefinitionIndex)->GetStaticField(0x1A4B0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::GamePlayLockTarget>**)Il2CppClass::FromTypeDefinitionIndex(GameplayLockModuleConfigList___O_TypeDefinitionIndex)->GetStaticField(0x129C0);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::LockSource>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::LockSource>**)Il2CppClass::FromTypeDefinitionIndex(GameplayLockModuleConfigList___O_TypeDefinitionIndex)->GetStaticField(0x1A4B8);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::LockSource>**)Il2CppClass::FromTypeDefinitionIndex(GameplayLockModuleConfigList___O_TypeDefinitionIndex)->GetStaticField(0x129C8);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::LockFlagType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::LockFlagType>**)Il2CppClass::FromTypeDefinitionIndex(GameplayLockModuleConfigList___O_TypeDefinitionIndex)->GetStaticField(0x1A4C0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::Client::LockFlagType>**)Il2CppClass::FromTypeDefinitionIndex(GameplayLockModuleConfigList___O_TypeDefinitionIndex)->GetStaticField(0x129D0);
 		}
 	};
 }

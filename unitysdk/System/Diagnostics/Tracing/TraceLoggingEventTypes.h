@@ -12,18 +12,18 @@ namespace System::Diagnostics::Tracing { class NameInfo; }
 namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_GETNAMEINFO_OFFSET UNITYSDK_OFFSET(0x15C0D270)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15C2A940)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x15C2A950)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_MAKEARRAY_1_OFFSET UNITYSDK_OFFSET(0x15C2A190)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_MAKEARRAY_OFFSET UNITYSDK_OFFSET(0x15C2A5F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15C12B00)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES__CTOR_2_OFFSET UNITYSDK_OFFSET(0x15C2A370)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x15C17330)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_GETNAMEINFO_OFFSET UNITYSDK_OFFSET(0x162D57A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_GET_NAME_OFFSET UNITYSDK_OFFSET(0x162F3050)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x162F3060)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_MAKEARRAY_1_OFFSET UNITYSDK_OFFSET(0x162F28A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES_MAKEARRAY_OFFSET UNITYSDK_OFFSET(0x162F2D00)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES__CTOR_1_OFFSET UNITYSDK_OFFSET(0x162DB180)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES__CTOR_2_OFFSET UNITYSDK_OFFSET(0x162F2A80)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGEVENTTYPES__CTOR_OFFSET UNITYSDK_OFFSET(0x162DF9F0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TraceLoggingEventTypes_TypeDefinitionIndex = 1653;
+	inline static constexpr unsigned int TraceLoggingEventTypes_TypeDefinitionIndex = 1658;
 
 	class TraceLoggingEventTypes : public ::System::Object
 	{
@@ -32,13 +32,13 @@ namespace System::Diagnostics::Tracing
 		::Il2CppArray<::System::Byte>* typeMetadata; // 0x18
 		::Il2CppArray<::System::Diagnostics::Tracing::TraceLoggingTypeInfo*>* typeInfos; // 0x20
 		::System::String* name; // 0x28
-		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x30
-		::System::Byte level; // 0x38
-		::System::Byte opcode; // 0x39
-		::System::Diagnostics::Tracing::EventTags tags; // 0x3C
-		::System::Int32 pinCount; // 0x40
-		::System::Int32 scratchSize; // 0x44
-		::System::Int32 dataCount; // 0x48
+		::System::Int32 scratchSize; // 0x30
+		::System::Int32 dataCount; // 0x34
+		::System::Diagnostics::Tracing::EventTags tags; // 0x38
+		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x40
+		::System::Byte level; // 0x48
+		::System::Byte opcode; // 0x49
+		::System::Int32 pinCount; // 0x4C
 
 		::System::Void _ctor(::System::String* name, ::System::Diagnostics::Tracing::EventTags tags, ::Il2CppArray<::System::Type*>* types)
 		{

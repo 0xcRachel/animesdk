@@ -6,87 +6,87 @@ namespace Simplygon { class SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgume
 namespace Simplygon { class SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate; }
 namespace System { class String; }
 
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGAPPLICATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B643B0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64F80)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B65070)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B651A0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARITHMETICEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B646C0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGDIVIDEBYZEROEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B647A0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGINDEXOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64880)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGINVALIDCASTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64960)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64A40)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGIOEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64B20)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGNULLREFERENCEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64C00)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGOUTOFMEMORYEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64CE0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGOVERFLOWEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64DC0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGSYSTEMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x17B64EA0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SWIGREGISTEREXCEPTIONCALLBACKSARGUMENT_SIMPLYGON_OFFSET UNITYSDK_OFFSET(0x17B64300)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SWIGREGISTEREXCEPTIONCALLBACKS_SIMPLYGON_OFFSET UNITYSDK_OFFSET(0x17B64180)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B652D0)
-#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B5FD00)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGAPPLICATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837CE50)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARGUMENTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837DA20)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARGUMENTNULLEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837DB10)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARGUMENTOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837DC40)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGARITHMETICEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D160)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGDIVIDEBYZEROEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D240)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGINDEXOUTOFRANGEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D320)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGINVALIDCASTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D400)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D4E0)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGIOEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D5C0)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGNULLREFERENCEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D6A0)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGOUTOFMEMORYEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D780)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGOVERFLOWEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D860)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SETPENDINGSYSTEMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1837D940)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SWIGREGISTEREXCEPTIONCALLBACKSARGUMENT_SIMPLYGON_OFFSET UNITYSDK_OFFSET(0x1837CDA0)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER_SWIGREGISTEREXCEPTIONCALLBACKS_SIMPLYGON_OFFSET UNITYSDK_OFFSET(0x1837CC20)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1837DD70)
+#define SIMPLYGON_SIMPLYGONPINVOKE_SWIGEXCEPTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x183787A0)
 
 namespace Simplygon
 {
-	inline static constexpr unsigned int SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex = 28707;
+	inline static constexpr unsigned int SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex = 29582;
 
 	class SimplygonPINVOKE_SWIGExceptionHelper : public ::System::Object
 	{
 	public:
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_nullReferenceDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4B0);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_ioDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4B8);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate** StaticGet_argumentNullDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4C0);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_systemDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4C8);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_outOfMemoryDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4D0);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_indexOutOfRangeDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4D8);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_divideByZeroDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4E0);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_arithmeticDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4E8);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_invalidOperationDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4F0);
-		}
-		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate** StaticGet_argumentDelegate()
-		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C4F8);
-		}
 		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_applicationDelegate()
 		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C500);
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B2E0);
 		}
 		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate** StaticGet_argumentOutOfRangeDelegate()
 		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C508);
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B2E8);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_divideByZeroDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B2F0);
 		}
 		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_invalidCastDelegate()
 		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C510);
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B2F8);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_ioDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B300);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_systemDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B308);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate** StaticGet_argumentNullDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B310);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate** StaticGet_argumentDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionArgumentDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B318);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_indexOutOfRangeDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B320);
 		}
 		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_overflowDelegate()
 		{
-			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x3C518);
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B328);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_nullReferenceDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B330);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_arithmeticDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B338);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_outOfMemoryDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B340);
+		}
+		static ::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate** StaticGet_invalidOperationDelegate()
+		{
+			return (::Simplygon::SimplygonPINVOKE_SWIGExceptionHelper_ExceptionDelegate**)Il2CppClass::FromTypeDefinitionIndex(SimplygonPINVOKE_SWIGExceptionHelper_TypeDefinitionIndex)->GetStaticField(0x2B348);
 		}
 
 		static ::System::Void _cctor()

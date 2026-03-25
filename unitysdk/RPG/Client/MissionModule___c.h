@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9752620)
-#define RPG_CLIENT_MISSIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9752650)
-#define RPG_CLIENT_MISSIONMODULE___C___INITFUNCENTRYMISSIONANDSUBMISSION_B__122_0_OFFSET UNITYSDK_OFFSET(0x97526D0)
-#define RPG_CLIENT_MISSIONMODULE___C___INITUNLOCKDATAMAINMISSIONANDSUBMISSION_B__119_0_OFFSET UNITYSDK_OFFSET(0x9752660)
+#define RPG_CLIENT_MISSIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9BF7C10)
+#define RPG_CLIENT_MISSIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9BF7C40)
+#define RPG_CLIENT_MISSIONMODULE___C___INITFUNCENTRYMISSIONANDSUBMISSION_B__122_0_OFFSET UNITYSDK_OFFSET(0x9BF7CC0)
+#define RPG_CLIENT_MISSIONMODULE___C___INITUNLOCKDATAMAINMISSIONANDSUBMISSION_B__119_0_OFFSET UNITYSDK_OFFSET(0x9BF7C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c_TypeDefinitionIndex = 52630;
+	inline static constexpr unsigned int MissionModule___c_TypeDefinitionIndex = 53767;
 
 	class MissionModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MissionModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::MissionModule___c**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x330F0);
-		}
 		static ::System::Action** StaticGet___9__122_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x330F8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x47780);
 		}
 		static ::System::Action** StaticGet___9__119_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x33100);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x47788);
+		}
+		static ::RPG::Client::MissionModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::MissionModule___c**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x47790);
 		}
 
 		static ::System::Void _cctor()

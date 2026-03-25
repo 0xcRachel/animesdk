@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System::Collections::Generic { template <typename T> class ICollection_1; }
+namespace RPG::Client { class ArchiveData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_568_TypeDefinitionIndex = 50162;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_568_TypeDefinitionIndex = 50711;
 
 class Class_0_16E4307DCC419505_568
 {

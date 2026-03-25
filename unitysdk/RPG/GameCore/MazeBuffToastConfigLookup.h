@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SingleMazeBuffToastConfig; }
 
-#define RPG_GAMECORE_MAZEBUFFTOASTCONFIGLOOKUP_METHOD_2_7A320DFE27F0DCED_OFFSET UNITYSDK_OFFSET(0x16C6CDD0)
-#define RPG_GAMECORE_MAZEBUFFTOASTCONFIGLOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C6CEA0)
+#define RPG_GAMECORE_MAZEBUFFTOASTCONFIGLOOKUP_METHOD_2_7A320DFE27F0DCED_OFFSET UNITYSDK_OFFSET(0x173D2780)
+#define RPG_GAMECORE_MAZEBUFFTOASTCONFIGLOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x173D2850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffToastConfigLookup_TypeDefinitionIndex = 15948;
+	inline static constexpr unsigned int MazeBuffToastConfigLookup_TypeDefinitionIndex = 16225;
 
 	class MazeBuffToastConfigLookup : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoYoGroupType_TypeDefinitionIndex = 15637;
+	inline static constexpr unsigned int HoYoGroupType_TypeDefinitionIndex = 15914;
 
 	enum class HoYoGroupType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ProbeBlendFlag_TypeDefinitionIndex = 28427;
+	inline static constexpr unsigned int ProbeBlendFlag_TypeDefinitionIndex = 29302;
 
 	enum class ProbeBlendFlag : ::System::Int32
 	{

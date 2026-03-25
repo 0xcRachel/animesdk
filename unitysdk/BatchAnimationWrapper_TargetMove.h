@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int BatchAnimationWrapper_TargetMove_TypeDefinitionIndex = 28247;
+inline static constexpr unsigned int BatchAnimationWrapper_TargetMove_TypeDefinitionIndex = 29122;
 
 struct alignas(4) BatchAnimationWrapper_TargetMove
 {

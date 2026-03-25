@@ -5,17 +5,17 @@
 
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define CLASS_1_4194FD1D0EB8BE87__CTOR_OFFSET UNITYSDK_OFFSET(0x11199570)
+#define CLASS_1_4194FD1D0EB8BE87__CTOR_OFFSET UNITYSDK_OFFSET(0x10C46D50)
 
-inline static constexpr unsigned int Class_1_4194FD1D0EB8BE87_TypeDefinitionIndex = 55373;
+inline static constexpr unsigned int Class_1_4194FD1D0EB8BE87_TypeDefinitionIndex = 56938;
 
 class Class_1_4194FD1D0EB8BE87 : public ::System::Object
 {
 public:
 	::RPG::Client::CameraBlendCurve* Field_1_0; // 0x10
 	::UnityEngine::Vector3 Field_1_2; // 0x18
-	::UnityEngine::Vector3 Field_1_3; // 0x24
-	::System::Single Field_1_1; // 0x30
+	::System::Single Field_1_1; // 0x24
+	::UnityEngine::Vector3 Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

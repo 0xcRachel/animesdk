@@ -12,7 +12,7 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int IMonoSslStream_TypeDefinitionIndex = 2272;
+	inline static constexpr unsigned int IMonoSslStream_TypeDefinitionIndex = 2277;
 
 	class IMonoSslStream
 	{

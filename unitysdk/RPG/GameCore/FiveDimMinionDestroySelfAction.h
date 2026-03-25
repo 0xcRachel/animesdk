@@ -4,30 +4,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_6445E9E6455A662C_OFFSET UNITYSDK_OFFSET(0x16AC6430)
-#define RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_8EA00D9F4F5D4775_OFFSET UNITYSDK_OFFSET(0x16AC6370)
-#define RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16AC6410)
+#define RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_E97EF847F4168D35_OFFSET UNITYSDK_OFFSET(0x1720F340)
+#define RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_FEA35B265E4F72A1_OFFSET UNITYSDK_OFFSET(0x1720F210)
+#define RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1720F320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMinionDestroySelfAction_TypeDefinitionIndex = 16810;
+	inline static constexpr unsigned int FiveDimMinionDestroySelfAction_TypeDefinitionIndex = 17205;
 
 	class FiveDimMinionDestroySelfAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
+		::System::Boolean WithDither; // 0x10
+
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8EA00D9F4F5D4775(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMinionDestroySelfAction*& a2)
+		static ::System::Void Method_3_FEA35B265E4F72A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMinionDestroySelfAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMinionDestroySelfAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_8EA00D9F4F5D4775_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMinionDestroySelfAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_FEA35B265E4F72A1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6445E9E6455A662C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMinionDestroySelfAction* a2)
+		static ::System::Void Method_3_E97EF847F4168D35(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMinionDestroySelfAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMinionDestroySelfAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_6445E9E6455A662C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMinionDestroySelfAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMINIONDESTROYSELFACTION_METHOD_3_E97EF847F4168D35_OFFSET))(a1, a2);
 		}
 	};
 }

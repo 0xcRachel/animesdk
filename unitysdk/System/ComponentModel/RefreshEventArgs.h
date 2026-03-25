@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7C490)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x186A6500)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int RefreshEventArgs_TypeDefinitionIndex = 2606;
+	inline static constexpr unsigned int RefreshEventArgs_TypeDefinitionIndex = 2611;
 
 	class RefreshEventArgs : public ::System::EventArgs
 	{

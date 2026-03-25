@@ -10,7 +10,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_ReflectionHelper_2_TypeDefinitionIndex = 6249;
+	inline static constexpr unsigned int ReflectionUtil_ReflectionHelper_2_TypeDefinitionIndex = 6349;
 
 	template <typename T1, typename T2>
 	class ReflectionUtil_ReflectionHelper_2 : public ::System::Object

@@ -6,11 +6,11 @@
 namespace RPG::CustomRP { class CRPTerrainLayer; }
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_CRPTERRAINLAYERGROUP_GET_LAYERS_OFFSET UNITYSDK_OFFSET(0x20182C0)
+#define RPG_CUSTOMRP_CRPTERRAINLAYERGROUP_GET_LAYERS_OFFSET UNITYSDK_OFFSET(0x20EE710)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrainLayerGroup_TypeDefinitionIndex = 28470;
+	inline static constexpr unsigned int CRPTerrainLayerGroup_TypeDefinitionIndex = 29345;
 
 	struct alignas(8) CRPTerrainLayerGroup
 	{

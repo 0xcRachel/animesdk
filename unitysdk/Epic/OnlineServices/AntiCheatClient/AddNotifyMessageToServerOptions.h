@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ADDNOTIFYMESSAGETOSERVEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8027000)
+#define EPIC_ONLINESERVICES_ANTICHEATCLIENT_ADDNOTIFYMESSAGETOSERVEROPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8387E80)
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int AddNotifyMessageToServerOptions_TypeDefinitionIndex = 35758;
+	inline static constexpr unsigned int AddNotifyMessageToServerOptions_TypeDefinitionIndex = 36692;
 
 	class AddNotifyMessageToServerOptions : public ::System::Object
 	{

@@ -5,9 +5,9 @@
 
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 
-#define CLASS_1_C2AB710A7A08881E__CTOR_OFFSET UNITYSDK_OFFSET(0x1630A2A0)
+#define CLASS_1_C2AB710A7A08881E__CTOR_OFFSET UNITYSDK_OFFSET(0x16771380)
 
-inline static constexpr unsigned int Class_1_C2AB710A7A08881E_TypeDefinitionIndex = 31469;
+inline static constexpr unsigned int Class_1_C2AB710A7A08881E_TypeDefinitionIndex = 32373;
 
 class Class_1_C2AB710A7A08881E : public ::System::Object
 {

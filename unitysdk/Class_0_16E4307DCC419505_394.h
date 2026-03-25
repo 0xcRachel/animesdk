@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ChessMoveStopReason.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/FixVec2.h"
 
-namespace RPG::GameCore { class GameEntity; }
+class Class_1_5F51D4049EA87B7B;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_394_TypeDefinitionIndex = 44182;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_394_TypeDefinitionIndex = 43844;
 
 class Class_0_16E4307DCC419505_394
 {

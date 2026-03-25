@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_19EADCA9FC374987_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x9EA0910)
-#define CLASS_2_19EADCA9FC374987_1__CTOR_OFFSET UNITYSDK_OFFSET(0x9EA0900)
+#define CLASS_2_19EADCA9FC374987_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BC0C90)
+#define CLASS_2_19EADCA9FC374987_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10BC0C80)
 
-inline static constexpr unsigned int Class_2_19EADCA9FC374987_1_TypeDefinitionIndex = 55932;
+inline static constexpr unsigned int Class_2_19EADCA9FC374987_1_TypeDefinitionIndex = 57494;
 
 class Class_2_19EADCA9FC374987_1 : public ::System::Attribute
 {
 public:
 	static ::System::Boolean* StaticGet_Field_2_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_19EADCA9FC374987_1_TypeDefinitionIndex)->GetStaticField(0x5E30);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_19EADCA9FC374987_1_TypeDefinitionIndex)->GetStaticField(0xDB00);
 	}
 
 	::System::Void _ctor()

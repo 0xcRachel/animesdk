@@ -5,16 +5,16 @@
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace System { class String; }
 
-#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__BUILDCATLOCKFOODCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x10CFECE0)
-#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10CFDA40)
+#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__BUILDCATLOCKFOODCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x11876EE0)
+#define CLASS_1_A9010BD7FDF68FFC___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11875C40)
 
-inline static constexpr unsigned int Class_1_A9010BD7FDF68FFC___c__DisplayClass7_0_TypeDefinitionIndex = 60223;
+inline static constexpr unsigned int Class_1_A9010BD7FDF68FFC___c__DisplayClass7_0_TypeDefinitionIndex = 62193;
 
 class Class_1_A9010BD7FDF68FFC___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::System::String* foodIconPath; // 0x10
-	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* catView; // 0x18
+	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* catView; // 0x10
+	::System::String* foodIconPath; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ECurveEdgePoint_TypeDefinitionIndex = 54423;
+	inline static constexpr unsigned int ECurveEdgePoint_TypeDefinitionIndex = 55983;
 
 	enum class ECurveEdgePoint : ::System::Int32
 	{

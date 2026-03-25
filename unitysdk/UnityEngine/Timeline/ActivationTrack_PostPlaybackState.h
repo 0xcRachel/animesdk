@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ActivationTrack_PostPlaybackState_TypeDefinitionIndex = 28934;
+	inline static constexpr unsigned int ActivationTrack_PostPlaybackState_TypeDefinitionIndex = 29809;
 
 	enum class ActivationTrack_PostPlaybackState : ::System::Int32
 	{

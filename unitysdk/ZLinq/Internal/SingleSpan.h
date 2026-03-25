@@ -5,7 +5,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int SingleSpan_TypeDefinitionIndex = 6428;
+	inline static constexpr unsigned int SingleSpan_TypeDefinitionIndex = 6533;
 
 	class SingleSpan : public ::System::Object
 	{

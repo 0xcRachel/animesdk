@@ -5,10 +5,10 @@
 
 class SkirtIK_HairIKClass;
 
-#define SKIRTIK_HAIRIKFREEAXISCLASS_METHOD_1_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0xA695500)
-#define SKIRTIK_HAIRIKFREEAXISCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0xA695590)
+#define SKIRTIK_HAIRIKFREEAXISCLASS_METHOD_1_FBF2CB29FD3B55E6_OFFSET UNITYSDK_OFFSET(0xABDCF10)
+#define SKIRTIK_HAIRIKFREEAXISCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0xABDCFA0)
 
-inline static constexpr unsigned int SkirtIK_HairIKFreeAxisClass_TypeDefinitionIndex = 37202;
+inline static constexpr unsigned int SkirtIK_HairIKFreeAxisClass_TypeDefinitionIndex = 38166;
 
 class SkirtIK_HairIKFreeAxisClass : public ::System::Object
 {

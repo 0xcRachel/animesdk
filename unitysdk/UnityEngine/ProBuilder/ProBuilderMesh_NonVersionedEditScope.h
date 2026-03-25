@@ -4,12 +4,12 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH_NONVERSIONEDEDITSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2039FF0)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH_NONVERSIONEDEDITSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x2039FC0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH_NONVERSIONEDEDITSCOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2110160)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH_NONVERSIONEDEDITSCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x2110130)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProBuilderMesh_NonVersionedEditScope_TypeDefinitionIndex = 33153;
+	inline static constexpr unsigned int ProBuilderMesh_NonVersionedEditScope_TypeDefinitionIndex = 34142;
 
 	struct alignas(8) ProBuilderMesh_NonVersionedEditScope
 	{

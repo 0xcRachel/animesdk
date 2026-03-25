@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::IO { class FileInfo; }
 
-#define CLASS_1_3CE802D288741D2D___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17B30DD0)
-#define CLASS_1_3CE802D288741D2D___C__DISPLAYCLASS44_0__DELETEFILES_B__0_OFFSET UNITYSDK_OFFSET(0x17B357B0)
+#define CLASS_1_3CE802D288741D2D___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18339660)
+#define CLASS_1_3CE802D288741D2D___C__DISPLAYCLASS44_0__DELETEFILES_B__0_OFFSET UNITYSDK_OFFSET(0x1833EDE0)
 
-inline static constexpr unsigned int Class_1_3CE802D288741D2D___c__DisplayClass44_0_TypeDefinitionIndex = 8969;
+inline static constexpr unsigned int Class_1_3CE802D288741D2D___c__DisplayClass44_0_TypeDefinitionIndex = 9540;
 
 class Class_1_3CE802D288741D2D___c__DisplayClass44_0 : public ::System::Object
 {

@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class GridFightTraitChallenge; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93F44C0)
-#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__DISPLAYCLASS1_0__GETTRAITCHALLENGES_B__0_OFFSET UNITYSDK_OFFSET(0x93F6100)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x98B1160)
+#define RPG_CLIENT_GRIDFIGHTSEASONTRAIT___C__DISPLAYCLASS1_0__GETTRAITCHALLENGES_B__0_OFFSET UNITYSDK_OFFSET(0x98B2DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeasonTrait___c__DisplayClass1_0_TypeDefinitionIndex = 51971;
+	inline static constexpr unsigned int GridFightSeasonTrait___c__DisplayClass1_0_TypeDefinitionIndex = 53105;
 
 	class GridFightSeasonTrait___c__DisplayClass1_0 : public ::System::Object
 	{

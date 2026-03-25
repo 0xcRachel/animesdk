@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace Epic::OnlineServices::AntiCheatClient
 {
-	inline static constexpr unsigned int AddNotifyPeerAuthStatusChangedOptionsInternal_TypeDefinitionIndex = 35763;
+	inline static constexpr unsigned int AddNotifyPeerAuthStatusChangedOptionsInternal_TypeDefinitionIndex = 36697;
 
 	struct alignas(4) AddNotifyPeerAuthStatusChangedOptionsInternal
 	{

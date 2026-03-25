@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBossDisplayPattern_TypeDefinitionIndex = 11746;
+	inline static constexpr unsigned int ChallengeBossDisplayPattern_TypeDefinitionIndex = 11816;
 
 	enum class ChallengeBossDisplayPattern : ::System::Int32
 	{

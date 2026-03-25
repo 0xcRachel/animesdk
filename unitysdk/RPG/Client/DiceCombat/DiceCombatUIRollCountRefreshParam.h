@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUIROLLCOUNTREFRESHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9036340)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUIROLLCOUNTREFRESHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9494930)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUIRollCountRefreshParam_TypeDefinitionIndex = 60104;
+	inline static constexpr unsigned int DiceCombatUIRollCountRefreshParam_TypeDefinitionIndex = 61885;
 
 	class DiceCombatUIRollCountRefreshParam : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BATTLEPASSFAKELIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x8DC5210)
-#define RPG_CLIENT_BATTLEPASSFAKELIGHT_UPDATE_OFFSET UNITYSDK_OFFSET(0x8DC52F0)
-#define RPG_CLIENT_BATTLEPASSFAKELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x8DC5500)
+#define RPG_CLIENT_BATTLEPASSFAKELIGHT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x91CF320)
+#define RPG_CLIENT_BATTLEPASSFAKELIGHT_UPDATE_OFFSET UNITYSDK_OFFSET(0x91CF400)
+#define RPG_CLIENT_BATTLEPASSFAKELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x91CF610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattlePassFakeLight_TypeDefinitionIndex = 58157;
+	inline static constexpr unsigned int BattlePassFakeLight_TypeDefinitionIndex = 59807;
 
 	class BattlePassFakeLight : public ::UnityEngine::MonoBehaviour
 	{

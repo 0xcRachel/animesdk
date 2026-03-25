@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int RequestMethodEnum_TypeDefinitionIndex = 7310;
+	inline static constexpr unsigned int RequestMethodEnum_TypeDefinitionIndex = 7435;
 
 	enum class RequestMethodEnum : ::System::Int32
 	{

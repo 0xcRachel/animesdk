@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerGroupEvent; }
 
-#define CLASS_3_963A85E08DEC253F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x84E6CC0)
-#define CLASS_3_963A85E08DEC253F__CTOR_OFFSET UNITYSDK_OFFSET(0x84E6C90)
+#define CLASS_3_963A85E08DEC253F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1153D300)
+#define CLASS_3_963A85E08DEC253F__CTOR_OFFSET UNITYSDK_OFFSET(0x1153D2D0)
 
-inline static constexpr unsigned int Class_3_963A85E08DEC253F_TypeDefinitionIndex = 41495;
+inline static constexpr unsigned int Class_3_963A85E08DEC253F_TypeDefinitionIndex = 42539;
 
 class Class_3_963A85E08DEC253F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerGroupEvent*>
 {

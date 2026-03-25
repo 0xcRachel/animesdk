@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x17E8A250)
-#define SYSTEM_DIAGNOSTICS_DEBUG_WRITELINE_OFFSET UNITYSDK_OFFSET(0x17E8A290)
+#define SYSTEM_DIAGNOSTICS_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x186B4120)
+#define SYSTEM_DIAGNOSTICS_DEBUG_WRITELINE_OFFSET UNITYSDK_OFFSET(0x186B4160)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2516;
+	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2521;
 
 	class Debug : public ::System::Object
 	{

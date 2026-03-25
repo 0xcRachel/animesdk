@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS54_0__BUYMULTISHOPGOODS_B__0_OFFSET UNITYSDK_OFFSET(0x904FF30)
-#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x904DCA0)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS54_0__BUYMULTISHOPGOODS_B__0_OFFSET UNITYSDK_OFFSET(0x94AC4E0)
+#define RPG_CLIENT_DICECOMBATMODULE___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x94AA2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass54_0_TypeDefinitionIndex = 50472;
+	inline static constexpr unsigned int DiceCombatModule___c__DisplayClass54_0_TypeDefinitionIndex = 51607;
 
 	class DiceCombatModule___c__DisplayClass54_0 : public ::System::Object
 	{

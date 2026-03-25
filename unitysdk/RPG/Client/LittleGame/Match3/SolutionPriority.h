@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int SolutionPriority_TypeDefinitionIndex = 32196;
+	inline static constexpr unsigned int SolutionPriority_TypeDefinitionIndex = 33106;
 
 	enum class SolutionPriority : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
-	inline static constexpr unsigned int PillarPuzzleNeighbourRelation_TypeDefinitionIndex = 62230;
+	inline static constexpr unsigned int PillarPuzzleNeighbourRelation_TypeDefinitionIndex = 64417;
 
 	struct alignas(4) PillarPuzzleNeighbourRelation
 	{

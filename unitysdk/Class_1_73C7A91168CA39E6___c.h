@@ -5,22 +5,22 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_73C7A91168CA39E6___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F47790)
-#define CLASS_1_73C7A91168CA39E6___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F477D0)
-#define CLASS_1_73C7A91168CA39E6___C__STATSECTIONSETTLE_B__16_0_OFFSET UNITYSDK_OFFSET(0x15F477E0)
+#define CLASS_1_73C7A91168CA39E6___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x166E8BE0)
+#define CLASS_1_73C7A91168CA39E6___C__CTOR_OFFSET UNITYSDK_OFFSET(0x166E8C20)
+#define CLASS_1_73C7A91168CA39E6___C__STATSECTIONSETTLE_B__16_0_OFFSET UNITYSDK_OFFSET(0x166E8C30)
 
-inline static constexpr unsigned int Class_1_73C7A91168CA39E6___c_TypeDefinitionIndex = 28115;
+inline static constexpr unsigned int Class_1_73C7A91168CA39E6___c_TypeDefinitionIndex = 28987;
 
 class Class_1_73C7A91168CA39E6___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::RPG::GameCore::CakeRaceRegionTag, ::System::UInt32>** StaticGet___9__16_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::CakeRaceRegionTag, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C7A91168CA39E6___c_TypeDefinitionIndex)->GetStaticField(0x2E860);
+		return (::System::Func_2<::RPG::GameCore::CakeRaceRegionTag, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C7A91168CA39E6___c_TypeDefinitionIndex)->GetStaticField(0x44750);
 	}
 	static ::Class_1_73C7A91168CA39E6___c** StaticGet___9()
 	{
-		return (::Class_1_73C7A91168CA39E6___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C7A91168CA39E6___c_TypeDefinitionIndex)->GetStaticField(0x2E868);
+		return (::Class_1_73C7A91168CA39E6___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_73C7A91168CA39E6___c_TypeDefinitionIndex)->GetStaticField(0x44758);
 	}
 
 	static ::System::Void _cctor()

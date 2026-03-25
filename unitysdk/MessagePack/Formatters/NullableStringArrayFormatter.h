@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System { class String; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15636BE0)
-#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15636B40)
-#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15636D20)
-#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15636B30)
+#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4C7E0)
+#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4C720)
+#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D4C920)
+#define MESSAGEPACK_FORMATTERS_NULLABLESTRINGARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4C710)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableStringArrayFormatter_TypeDefinitionIndex = 9807;
+	inline static constexpr unsigned int NullableStringArrayFormatter_TypeDefinitionIndex = 9339;
 
 	class NullableStringArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableStringArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableStringArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableStringArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x24160);
+			return (::MessagePack::Formatters::NullableStringArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableStringArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x19720);
 		}
 
 		::System::Void _ctor()

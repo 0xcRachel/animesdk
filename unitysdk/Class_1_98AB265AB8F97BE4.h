@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class FiveDimPlayerStateListenerConfig; }
 
-#define CLASS_1_98AB265AB8F97BE4__CTOR_OFFSET UNITYSDK_OFFSET(0x1628F660)
+#define CLASS_1_98AB265AB8F97BE4__CTOR_OFFSET UNITYSDK_OFFSET(0x1681DA60)
 
-inline static constexpr unsigned int Class_1_98AB265AB8F97BE4_TypeDefinitionIndex = 32444;
+inline static constexpr unsigned int Class_1_98AB265AB8F97BE4_TypeDefinitionIndex = 33354;
 
 class Class_1_98AB265AB8F97BE4 : public ::System::Object
 {

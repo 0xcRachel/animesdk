@@ -4,23 +4,23 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_9_GET_AGGREGATEROOTTYPE_OFFSET UNITYSDK_OFFSET(0xA1508A0)
-#define CLASS_2_2B5D33C75C48332B_9__CTOR_OFFSET UNITYSDK_OFFSET(0xA1508B0)
+#define CLASS_2_2B5D33C75C48332B_9_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xA450E90)
+#define CLASS_2_2B5D33C75C48332B_9__CTOR_OFFSET UNITYSDK_OFFSET(0xA450EA0)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_9_TypeDefinitionIndex = 39366;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_9_TypeDefinitionIndex = 40344;
 
 class Class_2_2B5D33C75C48332B_9 : public ::System::Attribute
 {
 public:
-	::System::Type* _AggregateRootType_k__BackingField; // 0x10
+	::System::Type* _Type_k__BackingField; // 0x10
 
 	::System::Void _ctor(::System::Type* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_9__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Type* get_AggregateRootType()
+	::System::Type* get_Type()
 	{
-		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_9_GET_AGGREGATEROOTTYPE_OFFSET))(this);
+		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_2B5D33C75C48332B_9_GET_TYPE_OFFSET))(this);
 	}
 };

@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FireWaveProjectile.h"
+#include "unitysdk/RPG/GameCore/FireWaveProjectileBase.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class NewProjectileConfig; }
 
-#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_6D4D8A1A87D27E37_OFFSET UNITYSDK_OFFSET(0x16D00050)
-#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_BB3C63466CF8776B_OFFSET UNITYSDK_OFFSET(0x16CFFFC0)
-#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x16D00020)
+#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_6D4D8A1A87D27E37_OFFSET UNITYSDK_OFFSET(0x17486910)
+#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE_METHOD_4_BB3C63466CF8776B_OFFSET UNITYSDK_OFFSET(0x17486880)
+#define RPG_GAMECORE_NEWFIREWAVEPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x174868E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewFireWaveProjectile_TypeDefinitionIndex = 20221;
+	inline static constexpr unsigned int NewFireWaveProjectile_TypeDefinitionIndex = 20767;
 
-	class NewFireWaveProjectile : public ::RPG::GameCore::FireWaveProjectile
+	class NewFireWaveProjectile : public ::RPG::GameCore::FireWaveProjectileBase
 	{
 	public:
-		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x50
+		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x48
 
 		::System::Void _ctor()
 		{

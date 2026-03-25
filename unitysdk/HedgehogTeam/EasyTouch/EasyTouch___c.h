@@ -7,29 +7,29 @@ namespace HedgehogTeam::EasyTouch { class ECamera; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11308680)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x113086B0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__ISSCREENPOSITIONOVERUI_B__261_0_OFFSET UNITYSDK_OFFSET(0x11308720)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__START_B__227_0_OFFSET UNITYSDK_OFFSET(0x113086C0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11A8AB40)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11A8AB70)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__ISSCREENPOSITIONOVERUI_B__261_0_OFFSET UNITYSDK_OFFSET(0x11A8ABE0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__START_B__227_0_OFFSET UNITYSDK_OFFSET(0x11A8AB80)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch___c_TypeDefinitionIndex = 30475;
+	inline static constexpr unsigned int EasyTouch___c_TypeDefinitionIndex = 31350;
 
 	class EasyTouch___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>** StaticGet___9__261_0()
-		{
-			return (::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EasyTouch___c_TypeDefinitionIndex)->GetStaticField(0x2F2D0);
-		}
 		static ::HedgehogTeam::EasyTouch::EasyTouch___c** StaticGet___9()
 		{
-			return (::HedgehogTeam::EasyTouch::EasyTouch___c**)Il2CppClass::FromTypeDefinitionIndex(EasyTouch___c_TypeDefinitionIndex)->GetStaticField(0x2F2D8);
+			return (::HedgehogTeam::EasyTouch::EasyTouch___c**)Il2CppClass::FromTypeDefinitionIndex(EasyTouch___c_TypeDefinitionIndex)->GetStaticField(0x40290);
+		}
+		static ::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>** StaticGet___9__261_0()
+		{
+			return (::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EasyTouch___c_TypeDefinitionIndex)->GetStaticField(0x40298);
 		}
 		static ::System::Predicate_1<::HedgehogTeam::EasyTouch::ECamera*>** StaticGet___9__227_0()
 		{
-			return (::System::Predicate_1<::HedgehogTeam::EasyTouch::ECamera*>**)Il2CppClass::FromTypeDefinitionIndex(EasyTouch___c_TypeDefinitionIndex)->GetStaticField(0x2F2E0);
+			return (::System::Predicate_1<::HedgehogTeam::EasyTouch::ECamera*>**)Il2CppClass::FromTypeDefinitionIndex(EasyTouch___c_TypeDefinitionIndex)->GetStaticField(0x402A0);
 		}
 
 		static ::System::Void _cctor()

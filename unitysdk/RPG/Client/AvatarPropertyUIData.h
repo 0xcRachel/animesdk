@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AVATARPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE8720)
+#define RPG_CLIENT_AVATARPROPERTYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x91615E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPropertyUIData_TypeDefinitionIndex = 49616;
+	inline static constexpr unsigned int AvatarPropertyUIData_TypeDefinitionIndex = 50751;
 
 	class AvatarPropertyUIData : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* Num; // 0x18
-		::System::String* AddNum; // 0x20
-		::System::Boolean NumOverrideAsSecret; // 0x28
-		::RPG::Client::TextID Title; // 0x30
+		::System::String* AddNum; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* Num; // 0x20
+		::RPG::Client::TextID Title; // 0x28
+		::System::Boolean NumOverrideAsSecret; // 0x38
 
 		::System::Void _ctor()
 		{

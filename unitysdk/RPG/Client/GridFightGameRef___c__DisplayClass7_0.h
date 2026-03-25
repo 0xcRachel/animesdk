@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_47EB23CB5C4B2615_33;
-class Class_1_9100C4ECB2108214;
-class Class_1_9100C4ECB2108214_Class_1_084C324841B5505D;
+class Class_1_47EB23CB5C4B2615_36;
+class Class_1_92B1BD6FC8375724;
+class Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D;
 class Class_1_DDB796240B07BA45;
 class Class_1_E14CBC48FE052048_3;
 namespace RPG::Client { class GridFightGameRef; }
@@ -13,23 +13,23 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9372990)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__0_OFFSET UNITYSDK_OFFSET(0x9378D60)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__1_OFFSET UNITYSDK_OFFSET(0x9378DD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__2_OFFSET UNITYSDK_OFFSET(0x9378E00)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9830350)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__0_OFFSET UNITYSDK_OFFSET(0x9837D70)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__1_OFFSET UNITYSDK_OFFSET(0x9837DE0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS7_0__SENDGETGRIDFIGHTGAMEREFSHARECODEREQ_B__2_OFFSET UNITYSDK_OFFSET(0x9837E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass7_0_TypeDefinitionIndex = 51403;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass7_0_TypeDefinitionIndex = 52536;
 
 	class GridFightGameRef___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_1_9100C4ECB2108214* req; // 0x10
-		::Class_1_9100C4ECB2108214_Class_1_084C324841B5505D* sendParams; // 0x18
-		::System::Action_1<::RPG::Client::GridFightGameRefHttpRspBody_1<::Class_1_47EB23CB5C4B2615_33*>*>* callback; // 0x20
-		::System::String* shareCode; // 0x28
-		::RPG::Client::GridFightGameRef* __4__this; // 0x30
+		::RPG::Client::GridFightGameRef* __4__this; // 0x10
+		::System::String* shareCode; // 0x18
+		::Class_1_92B1BD6FC8375724* req; // 0x20
+		::System::Action_1<::RPG::Client::GridFightGameRefHttpRspBody_1<::Class_1_47EB23CB5C4B2615_36*>*>* callback; // 0x28
+		::Class_1_92B1BD6FC8375724_Class_1_084C324841B5505D* sendParams; // 0x30
 
 		::System::Void _ctor()
 		{

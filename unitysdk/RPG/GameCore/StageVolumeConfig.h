@@ -8,12 +8,12 @@ namespace RPG::GameCore { class StageVolumeComponentData; }
 namespace RPG::GameCore { class StreamingSceneObjLodScaleVolumeComponentData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_FE4344767ACB670C_OFFSET UNITYSDK_OFFSET(0x16F8E990)
-#define RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8EC20)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_FE4344767ACB670C_OFFSET UNITYSDK_OFFSET(0x177824D0)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17782760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVolumeConfig_TypeDefinitionIndex = 17152;
+	inline static constexpr unsigned int StageVolumeConfig_TypeDefinitionIndex = 17557;
 
 	class StageVolumeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchTimeRewindStrikeSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_F757809A9F6BA2D1_2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1116BE40)
-#define CLASS_3_F757809A9F6BA2D1_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1116BDA0)
+#define CLASS_3_F757809A9F6BA2D1_2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10AFA280)
+#define CLASS_3_F757809A9F6BA2D1_2__CTOR_OFFSET UNITYSDK_OFFSET(0x10AFA1E0)
 
-inline static constexpr unsigned int Class_3_F757809A9F6BA2D1_2_TypeDefinitionIndex = 46684;
+inline static constexpr unsigned int Class_3_F757809A9F6BA2D1_2_TypeDefinitionIndex = 47763;
 
 class Class_3_F757809A9F6BA2D1_2 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchTimeRewindStrikeSource*>
 {

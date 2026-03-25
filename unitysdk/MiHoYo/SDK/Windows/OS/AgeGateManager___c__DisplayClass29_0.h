@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class Web; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157CD4D0)
-#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS29_0__OPENAGEGATEWEBPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x157CFA30)
+#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15EBC560)
+#define MIHOYO_SDK_WINDOWS_OS_AGEGATEMANAGER___C__DISPLAYCLASS29_0__OPENAGEGATEWEBPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15EBEAA0)
 
 namespace MiHoYo::SDK::Windows::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass29_0_TypeDefinitionIndex = 7210;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass29_0_TypeDefinitionIndex = 7335;
 
 	class AgeGateManager___c__DisplayClass29_0 : public ::System::Object
 	{

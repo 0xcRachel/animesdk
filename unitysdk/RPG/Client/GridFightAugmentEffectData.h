@@ -8,21 +8,21 @@ namespace RPG::Client { class GridFightBonusSrcInfo; }
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_ADDROLEPOSINDEXES_OFFSET UNITYSDK_OFFSET(0x931D8F0)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x931DA80)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x931DAD0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_ADDROLEPOSINDEXES_OFFSET UNITYSDK_OFFSET(0x97DBAD0)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x97DBC60)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x97DBCB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentEffectData_TypeDefinitionIndex = 51156;
+	inline static constexpr unsigned int GridFightAugmentEffectData_TypeDefinitionIndex = 52289;
 
 	class GridFightAugmentEffectData : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightBonusResultData* Bonus; // 0x10
+		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* RemovedRolePosIndexes; // 0x18
 		::RPG::Client::GridFightGameModifier* Modifier; // 0x20
-		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x28
+		::RPG::Client::GridFightBonusResultData* Bonus; // 0x28
 
 		::System::Void _ctor(::System::UInt32 augmentID)
 		{

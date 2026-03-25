@@ -7,24 +7,24 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_9CB24331611AE644___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFF3D950)
-#define CLASS_1_9CB24331611AE644___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFF3D980)
-#define CLASS_1_9CB24331611AE644___C___BUILD_B__13_0_OFFSET UNITYSDK_OFFSET(0xFF3D990)
-#define CLASS_1_9CB24331611AE644___C___CCTOR_B__41_0_OFFSET UNITYSDK_OFFSET(0xFF3D9C0)
-#define CLASS_1_9CB24331611AE644___C___CCTOR_B__41_1_OFFSET UNITYSDK_OFFSET(0xFF3DA20)
+#define CLASS_1_9CB24331611AE644___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8A13150)
+#define CLASS_1_9CB24331611AE644___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8A13180)
+#define CLASS_1_9CB24331611AE644___C___BUILD_B__13_0_OFFSET UNITYSDK_OFFSET(0x8A13190)
+#define CLASS_1_9CB24331611AE644___C___CCTOR_B__41_0_OFFSET UNITYSDK_OFFSET(0x8A131C0)
+#define CLASS_1_9CB24331611AE644___C___CCTOR_B__41_1_OFFSET UNITYSDK_OFFSET(0x8A13220)
 
-inline static constexpr unsigned int Class_1_9CB24331611AE644___c_TypeDefinitionIndex = 43992;
+inline static constexpr unsigned int Class_1_9CB24331611AE644___c_TypeDefinitionIndex = 45052;
 
 class Class_1_9CB24331611AE644___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>** StaticGet___9__13_0()
-	{
-		return (::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9CB24331611AE644___c_TypeDefinitionIndex)->GetStaticField(0x1C060);
-	}
 	static ::Class_1_9CB24331611AE644___c** StaticGet___9()
 	{
-		return (::Class_1_9CB24331611AE644___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9CB24331611AE644___c_TypeDefinitionIndex)->GetStaticField(0x1C068);
+		return (::Class_1_9CB24331611AE644___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9CB24331611AE644___c_TypeDefinitionIndex)->GetStaticField(0x3D010);
+	}
+	static ::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>** StaticGet___9__13_0()
+	{
+		return (::System::Func_2<::RPG::GameCore::JsonEnum*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9CB24331611AE644___c_TypeDefinitionIndex)->GetStaticField(0x3D018);
 	}
 
 	static ::System::Void _cctor()

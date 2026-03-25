@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_0E94DD4A47F0F315__CTOR_OFFSET UNITYSDK_OFFSET(0x8669330)
+#define CLASS_1_0E94DD4A47F0F315__CTOR_OFFSET UNITYSDK_OFFSET(0x893EDA0)
 
-inline static constexpr unsigned int Class_1_0E94DD4A47F0F315_TypeDefinitionIndex = 45277;
+inline static constexpr unsigned int Class_1_0E94DD4A47F0F315_TypeDefinitionIndex = 46338;
 
 class Class_1_0E94DD4A47F0F315 : public ::System::Object
 {

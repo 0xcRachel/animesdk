@@ -5,19 +5,19 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MESSAGEPACK_INTERNAL_BUILTINRESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x15646440)
-#define MESSAGEPACK_INTERNAL_BUILTINRESOLVERGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x156466A0)
+#define MESSAGEPACK_INTERNAL_BUILTINRESOLVERGETFORMATTERHELPER_GETFORMATTER_OFFSET UNITYSDK_OFFSET(0x15D56B80)
+#define MESSAGEPACK_INTERNAL_BUILTINRESOLVERGETFORMATTERHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D56E10)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int BuiltinResolverGetFormatterHelper_TypeDefinitionIndex = 9608;
+	inline static constexpr unsigned int BuiltinResolverGetFormatterHelper_TypeDefinitionIndex = 9162;
 
 	class BuiltinResolverGetFormatterHelper : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_FormatterMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(BuiltinResolverGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0x247A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(BuiltinResolverGetFormatterHelper_TypeDefinitionIndex)->GetStaticField(0x198E0);
 		}
 
 		static ::System::Void _cctor()

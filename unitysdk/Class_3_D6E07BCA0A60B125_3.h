@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchLatestEnterStageAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D6E07BCA0A60B125_3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10A7EB90)
-#define CLASS_3_D6E07BCA0A60B125_3__CTOR_OFFSET UNITYSDK_OFFSET(0x10A7EB10)
+#define CLASS_3_D6E07BCA0A60B125_3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1138DB60)
+#define CLASS_3_D6E07BCA0A60B125_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1138DAE0)
 
-inline static constexpr unsigned int Class_3_D6E07BCA0A60B125_3_TypeDefinitionIndex = 46760;
+inline static constexpr unsigned int Class_3_D6E07BCA0A60B125_3_TypeDefinitionIndex = 47839;
 
 class Class_3_D6E07BCA0A60B125_3 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchLatestEnterStageAvatar*>
 {

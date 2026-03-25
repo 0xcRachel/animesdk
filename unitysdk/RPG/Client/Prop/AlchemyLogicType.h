@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyLogicType_TypeDefinitionIndex = 61468;
+	inline static constexpr unsigned int AlchemyLogicType_TypeDefinitionIndex = 63655;
 
 	enum class AlchemyLogicType : ::System::Int32
 	{

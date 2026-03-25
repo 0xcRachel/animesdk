@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_StorageType_TypeDefinitionIndex = 36752;
+	inline static constexpr unsigned int HAPI_StorageType_TypeDefinitionIndex = 37689;
 
 	enum class HAPI_StorageType : ::System::Int32
 	{

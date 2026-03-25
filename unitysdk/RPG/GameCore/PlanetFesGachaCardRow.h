@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESGACHACARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D47040)
-#define RPG_GAMECORE_PLANETFESGACHACARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D471D0)
+#define RPG_GAMECORE_PLANETFESGACHACARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CEE90)
+#define RPG_GAMECORE_PLANETFESGACHACARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CF020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGachaCardRow_TypeDefinitionIndex = 11078;
+	inline static constexpr unsigned int PlanetFesGachaCardRow_TypeDefinitionIndex = 11146;
 
 	class PlanetFesGachaCardRow : public ::System::Object
 	{

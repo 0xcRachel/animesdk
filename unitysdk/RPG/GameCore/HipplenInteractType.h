@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenInteractType_TypeDefinitionIndex = 10750;
+	inline static constexpr unsigned int HipplenInteractType_TypeDefinitionIndex = 10818;
 
 	enum class HipplenInteractType : ::System::Int32
 	{

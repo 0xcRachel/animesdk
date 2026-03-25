@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PauseDialogTabEnum_TypeDefinitionIndex = 57122;
+	inline static constexpr unsigned int PauseDialogTabEnum_TypeDefinitionIndex = 58714;
 
 	enum class PauseDialogTabEnum : ::System::Int32
 	{

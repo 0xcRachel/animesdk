@@ -6,12 +6,12 @@ namespace Epic::OnlineServices::CustomInvites { class AddNotifyCustomInviteAccep
 namespace System { class Object; }
 
 #define EPIC_ONLINESERVICES_CUSTOMINVITES_ADDNOTIFYCUSTOMINVITEACCEPTEDOPTIONSINTERNAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EPIC_ONLINESERVICES_CUSTOMINVITES_ADDNOTIFYCUSTOMINVITEACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x35180)
+#define EPIC_ONLINESERVICES_CUSTOMINVITES_ADDNOTIFYCUSTOMINVITEACCEPTEDOPTIONSINTERNAL_SET_1_OFFSET UNITYSDK_OFFSET(0x35430)
 #define EPIC_ONLINESERVICES_CUSTOMINVITES_ADDNOTIFYCUSTOMINVITEACCEPTEDOPTIONSINTERNAL_SET_OFFSET UNITYSDK_OFFSET(0x1900)
 
 namespace Epic::OnlineServices::CustomInvites
 {
-	inline static constexpr unsigned int AddNotifyCustomInviteAcceptedOptionsInternal_TypeDefinitionIndex = 35473;
+	inline static constexpr unsigned int AddNotifyCustomInviteAcceptedOptionsInternal_TypeDefinitionIndex = 36407;
 
 	struct alignas(4) AddNotifyCustomInviteAcceptedOptionsInternal
 	{

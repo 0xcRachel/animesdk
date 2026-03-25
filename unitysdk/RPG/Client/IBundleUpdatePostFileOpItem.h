@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBundleUpdatePostFileOpItem_TypeDefinitionIndex = 48552;
+	inline static constexpr unsigned int IBundleUpdatePostFileOpItem_TypeDefinitionIndex = 49646;
 
 	class IBundleUpdatePostFileOpItem
 	{

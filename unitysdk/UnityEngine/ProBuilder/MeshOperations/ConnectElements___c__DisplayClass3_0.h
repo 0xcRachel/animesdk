@@ -5,12 +5,12 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0__CONNECT_B__3_OFFSET UNITYSDK_OFFSET(0x18024C90)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180248A0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0__CONNECT_B__3_OFFSET UNITYSDK_OFFSET(0x1884D5D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1884D1E0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ConnectElements___c__DisplayClass3_0_TypeDefinitionIndex = 33235;
+	inline static constexpr unsigned int ConnectElements___c__DisplayClass3_0_TypeDefinitionIndex = 34224;
 
 	class ConnectElements___c__DisplayClass3_0 : public ::System::Object
 	{

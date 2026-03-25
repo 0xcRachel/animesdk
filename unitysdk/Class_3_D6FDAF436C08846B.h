@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_302;
+class Class_0_16E4307DCC419505_336;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class InfectModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D6FDAF436C08846B_METHOD_3_41B3F7F3BE0B192F_OFFSET UNITYSDK_OFFSET(0x8645750)
-#define CLASS_3_D6FDAF436C08846B_METHOD_3_BC6AD13E09075B8C_OFFSET UNITYSDK_OFFSET(0x8645DE0)
-#define CLASS_3_D6FDAF436C08846B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8644D80)
-#define CLASS_3_D6FDAF436C08846B__CTOR_OFFSET UNITYSDK_OFFSET(0x8644D50)
+#define CLASS_3_D6FDAF436C08846B_METHOD_3_6BEC93430EEEE046_OFFSET UNITYSDK_OFFSET(0x113B9DB0)
+#define CLASS_3_D6FDAF436C08846B_METHOD_3_BC6AD13E09075B8C_OFFSET UNITYSDK_OFFSET(0x113BA460)
+#define CLASS_3_D6FDAF436C08846B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113B91E0)
+#define CLASS_3_D6FDAF436C08846B__CTOR_OFFSET UNITYSDK_OFFSET(0x113B91B0)
 
-inline static constexpr unsigned int Class_3_D6FDAF436C08846B_TypeDefinitionIndex = 43049;
+inline static constexpr unsigned int Class_3_D6FDAF436C08846B_TypeDefinitionIndex = 44100;
 
 class Class_3_D6FDAF436C08846B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InfectModifier*>
 {
@@ -34,8 +34,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_D6FDAF436C08846B_METHOD_3_BC6AD13E09075B8C_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_41B3F7F3BE0B192F(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_302*>* a1)
+	::System::Void Method_3_6BEC93430EEEE046(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_336*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_302*>*))((::PBYTE)hIl2Cpp + CLASS_3_D6FDAF436C08846B_METHOD_3_41B3F7F3BE0B192F_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_336*>*))((::PBYTE)hIl2Cpp + CLASS_3_D6FDAF436C08846B_METHOD_3_6BEC93430EEEE046_OFFSET))(this, a1);
 	}
 };

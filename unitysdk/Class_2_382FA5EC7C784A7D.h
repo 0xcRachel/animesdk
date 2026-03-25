@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_BCCE950C2E8DF1F0;
+class Class_3_5775A4FEC79026BC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropCurveMoveFinish; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_382FA5EC7C784A7D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F87B60)
-#define CLASS_2_382FA5EC7C784A7D_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x10F87F30)
-#define CLASS_2_382FA5EC7C784A7D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F87CD0)
-#define CLASS_2_382FA5EC7C784A7D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10F87C10)
-#define CLASS_2_382FA5EC7C784A7D_TICK_OFFSET UNITYSDK_OFFSET(0x10F87E50)
-#define CLASS_2_382FA5EC7C784A7D__CTOR_OFFSET UNITYSDK_OFFSET(0x10F87AE0)
+#define CLASS_2_382FA5EC7C784A7D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8D43900)
+#define CLASS_2_382FA5EC7C784A7D_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x8D43CD0)
+#define CLASS_2_382FA5EC7C784A7D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D43A70)
+#define CLASS_2_382FA5EC7C784A7D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8D439B0)
+#define CLASS_2_382FA5EC7C784A7D_TICK_OFFSET UNITYSDK_OFFSET(0x8D43BF0)
+#define CLASS_2_382FA5EC7C784A7D__CTOR_OFFSET UNITYSDK_OFFSET(0x8D43880)
 
-inline static constexpr unsigned int Class_2_382FA5EC7C784A7D_TypeDefinitionIndex = 46504;
+inline static constexpr unsigned int Class_2_382FA5EC7C784A7D_TypeDefinitionIndex = 47583;
 
 class Class_2_382FA5EC7C784A7D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_BCCE950C2E8DF1F0* Field_2_2; // 0x18
-	::System::String* Field_2_4; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_3; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x20
+	::System::String* Field_2_4; // 0x28
 	::RPG::GameCore::WaitPropCurveMoveFinish* Field_2_1; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x38
+	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x38
 	::System::UInt32 Field_2_5; // 0x40
 	::System::UInt32 Field_2_6; // 0x44
 

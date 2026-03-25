@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class FiveDimLeverSwitchConfig; }
 
-#define CLASS_1_EBD0163BEBBE5C56_CLEAR_OFFSET UNITYSDK_OFFSET(0x16137B00)
-#define CLASS_1_EBD0163BEBBE5C56__CTOR_OFFSET UNITYSDK_OFFSET(0x16137B60)
+#define CLASS_1_EBD0163BEBBE5C56_CLEAR_OFFSET UNITYSDK_OFFSET(0x16949820)
+#define CLASS_1_EBD0163BEBBE5C56__CTOR_OFFSET UNITYSDK_OFFSET(0x16949880)
 
-inline static constexpr unsigned int Class_1_EBD0163BEBBE5C56_TypeDefinitionIndex = 32564;
+inline static constexpr unsigned int Class_1_EBD0163BEBBE5C56_TypeDefinitionIndex = 33486;
 
 class Class_1_EBD0163BEBBE5C56 : public ::System::Object
 {

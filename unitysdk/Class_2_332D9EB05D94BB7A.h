@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/AstraFXRendererDelegate.h"
+
+class Class_0_16E4307DCC419505_912;
+
+#define CLASS_2_332D9EB05D94BB7A_AFTERCREATERESOURCES_OFFSET UNITYSDK_OFFSET(0x886E2F0)
+#define CLASS_2_332D9EB05D94BB7A_AFTEREXECUTEPASSES_OFFSET UNITYSDK_OFFSET(0x886E4F0)
+#define CLASS_2_332D9EB05D94BB7A_BEFOREEXECUTEPASSES_OFFSET UNITYSDK_OFFSET(0x886E3F0)
+#define CLASS_2_332D9EB05D94BB7A_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x886E170)
+#define CLASS_2_332D9EB05D94BB7A__CTOR_OFFSET UNITYSDK_OFFSET(0x886E5F0)
+#define CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_AFTERCREATERESOURCES_OFFSET UNITYSDK_OFFSET(0x886E610)
+#define CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_AFTEREXECUTEPASSES_OFFSET UNITYSDK_OFFSET(0x886E630)
+#define CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_BEFOREEXECUTEPASSES_OFFSET UNITYSDK_OFFSET(0x886E620)
+#define CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x886E600)
+
+inline static constexpr unsigned int Class_2_332D9EB05D94BB7A_TypeDefinitionIndex = 60404;
+
+class Class_2_332D9EB05D94BB7A : public ::UnityEngine::AstraFXRendererDelegate
+{
+public:
+	::Class_0_16E4307DCC419505_912* Field_2_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A__CTOR_OFFSET))(this);
+	}
+
+	::System::Void ResetSimulationState()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A_RESETSIMULATIONSTATE_OFFSET))(this);
+	}
+
+	::System::Void AfterCreateResources()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A_AFTERCREATERESOURCES_OFFSET))(this);
+	}
+
+	::System::Void BeforeExecutePasses()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A_BEFOREEXECUTEPASSES_OFFSET))(this);
+	}
+
+	::System::Void AfterExecutePasses()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A_AFTEREXECUTEPASSES_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_ResetSimulationState()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_RESETSIMULATIONSTATE_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AfterCreateResources()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_AFTERCREATERESOURCES_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_BeforeExecutePasses()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_BEFOREEXECUTEPASSES_OFFSET))(this);
+	}
+
+	::System::Void __iFixBaseProxy_AfterExecutePasses()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_332D9EB05D94BB7A___IFIXBASEPROXY_AFTEREXECUTEPASSES_OFFSET))(this);
+	}
+};

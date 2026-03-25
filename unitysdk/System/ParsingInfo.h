@@ -6,7 +6,7 @@
 namespace System { class DateTimeParse_MatchNumberDelegate; }
 namespace System::Globalization { class Calendar; }
 
-#define SYSTEM_PARSINGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x200B390)
+#define SYSTEM_PARSINGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x20E0C20)
 
 namespace System
 {

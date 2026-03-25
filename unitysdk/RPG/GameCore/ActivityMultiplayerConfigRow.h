@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYMULTIPLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1679F4F0)
-#define RPG_GAMECORE_ACTIVITYMULTIPLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1679FAC0)
+#define RPG_GAMECORE_ACTIVITYMULTIPLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F16070)
+#define RPG_GAMECORE_ACTIVITYMULTIPLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F16600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityMultiplayerConfigRow_TypeDefinitionIndex = 10430;
+	inline static constexpr unsigned int ActivityMultiplayerConfigRow_TypeDefinitionIndex = 10500;
 
 	class ActivityMultiplayerConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActivityModuleID; // 0x10
-		::System::UInt32 GuideVideoID; // 0x14
-		::System::UInt32 ActivityID; // 0x18
+		::System::UInt32 GuideVideoID; // 0x10
+		::System::UInt32 ActivityID; // 0x14
+		::System::UInt32 ActivityModuleID; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DISPLAYITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16A45370)
-#define RPG_GAMECORE_DISPLAYITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A45460)
+#define RPG_GAMECORE_DISPLAYITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17187EA0)
+#define RPG_GAMECORE_DISPLAYITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17187F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisplayItemConfig_TypeDefinitionIndex = 10222;
+	inline static constexpr unsigned int DisplayItemConfig_TypeDefinitionIndex = 10226;
 
 	class DisplayItemConfig : public ::System::Object
 	{
 	public:
-		::System::UInt32 ItemNum; // 0x10
-		::System::UInt32 ItemID; // 0x14
+		::System::UInt32 ItemID; // 0x10
+		::System::UInt32 ItemNum; // 0x14
 
 		::System::Void _ctor()
 		{
