@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONTALKSTYLE_METHOD_2_D46FE80299874723_OFFSET UNITYSDK_OFFSET(0x17438A00)
-#define RPG_GAMECORE_MISSIONTALKSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17438B40)
+#define RPG_GAMECORE_MISSIONTALKSTYLE_METHOD_2_D46FE80299874723_OFFSET UNITYSDK_OFFSET(0x190756B0)
+#define RPG_GAMECORE_MISSIONTALKSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x190757F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionTalkStyle_TypeDefinitionIndex = 22079;
+	inline static constexpr unsigned int MissionTalkStyle_TypeDefinitionIndex = 22796;
 
 	class MissionTalkStyle : public ::RPG::GameCore::JsonConfig
 	{

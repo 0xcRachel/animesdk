@@ -7,18 +7,18 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CLASS_3_C1111D8DC4018EE3_1_METHOD_3_443B8314404AE95B_OFFSET UNITYSDK_OFFSET(0x16B738A0)
-#define CLASS_3_C1111D8DC4018EE3_1_METHOD_3_8C07A6A51F854693_OFFSET UNITYSDK_OFFSET(0x16B73970)
-#define CLASS_3_C1111D8DC4018EE3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16B73920)
+#define CLASS_3_C1111D8DC4018EE3_1_METHOD_3_443B8314404AE95B_OFFSET UNITYSDK_OFFSET(0x1809A5A0)
+#define CLASS_3_C1111D8DC4018EE3_1_METHOD_3_8C07A6A51F854693_OFFSET UNITYSDK_OFFSET(0x1809A670)
+#define CLASS_3_C1111D8DC4018EE3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1809A620)
 
-inline static constexpr unsigned int Class_3_C1111D8DC4018EE3_1_TypeDefinitionIndex = 21348;
+inline static constexpr unsigned int Class_3_C1111D8DC4018EE3_1_TypeDefinitionIndex = 22065;
 
 class Class_3_C1111D8DC4018EE3_1 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::System::String* Field_3_2; // 0x18
-	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x20
-	::Il2CppArray<::RPG::GameCore::JsonEnum*>* Field_3_1; // 0x28
+	::RPG::GameCore::TargetEvaluator* Field_3_0; // 0x18
+	::Il2CppArray<::RPG::GameCore::JsonEnum*>* Field_3_1; // 0x20
+	::System::String* Field_3_2; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -9,19 +9,19 @@ namespace RPG::Client { class MapPropDef; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5648EBDBD7D15559_DISPOSE_OFFSET UNITYSDK_OFFSET(0x117E2C40)
-#define CLASS_1_5648EBDBD7D15559_METHOD_1_11070386E9019B49_OFFSET UNITYSDK_OFFSET(0x117E3510)
-#define CLASS_1_5648EBDBD7D15559_METHOD_1_2D89B5D16EC7DF74_OFFSET UNITYSDK_OFFSET(0x117E32A0)
-#define CLASS_1_5648EBDBD7D15559_METHOD_1_D4A93ABB00B48900_OFFSET UNITYSDK_OFFSET(0x117E2E90)
-#define CLASS_1_5648EBDBD7D15559__CTOR_OFFSET UNITYSDK_OFFSET(0x117E2B90)
+#define CLASS_1_5648EBDBD7D15559_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF43DD90)
+#define CLASS_1_5648EBDBD7D15559_METHOD_1_11070386E9019B49_OFFSET UNITYSDK_OFFSET(0xF43E640)
+#define CLASS_1_5648EBDBD7D15559_METHOD_1_2D89B5D16EC7DF74_OFFSET UNITYSDK_OFFSET(0xF43E3D0)
+#define CLASS_1_5648EBDBD7D15559_METHOD_1_D4A93ABB00B48900_OFFSET UNITYSDK_OFFSET(0xF43DFC0)
+#define CLASS_1_5648EBDBD7D15559__CTOR_OFFSET UNITYSDK_OFFSET(0xF43DD00)
 
-inline static constexpr unsigned int Class_1_5648EBDBD7D15559_TypeDefinitionIndex = 49454;
+inline static constexpr unsigned int Class_1_5648EBDBD7D15559_TypeDefinitionIndex = 56251;
 
 class Class_1_5648EBDBD7D15559 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::MapProp*>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::MapProp*>* Field_1_2; // 0x18
 	::System::Boolean Field_1_0; // 0x20
 
 	::System::Void _ctor()

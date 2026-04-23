@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define XLUA_TYPEEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x104973A0)
-#define XLUA_TYPEEXTENSIONS___C__CSHARPNAME_B__13_0_OFFSET UNITYSDK_OFFSET(0x10497400)
-#define XLUA_TYPEEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x104973E0)
-#define XLUA_TYPEEXTENSIONS___C__GETFRIENDLYNAME_B__12_0_OFFSET UNITYSDK_OFFSET(0x104973F0)
+#define XLUA_TYPEEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA090F90)
+#define XLUA_TYPEEXTENSIONS___C__CSHARPNAME_B__13_0_OFFSET UNITYSDK_OFFSET(0xA090FF0)
+#define XLUA_TYPEEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA090FD0)
+#define XLUA_TYPEEXTENSIONS___C__GETFRIENDLYNAME_B__12_0_OFFSET UNITYSDK_OFFSET(0xA090FE0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int TypeExtensions___c_TypeDefinitionIndex = 40539;
+	inline static constexpr unsigned int TypeExtensions___c_TypeDefinitionIndex = 46452;
 
 	class TypeExtensions___c : public ::System::Object
 	{
 	public:
 		static ::XLua::TypeExtensions___c** StaticGet___9()
 		{
-			return (::XLua::TypeExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions___c_TypeDefinitionIndex)->GetStaticField(0x28BB0);
+			return (::XLua::TypeExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3AF00);
 		}
 		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions___c_TypeDefinitionIndex)->GetStaticField(0x28BB8);
+			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3AF08);
 		}
 		static ::System::Func_2<::System::Type*, ::System::String*>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions___c_TypeDefinitionIndex)->GetStaticField(0x28BC0);
+			return (::System::Func_2<::System::Type*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions___c_TypeDefinitionIndex)->GetStaticField(0x3AF10);
 		}
 
 		static ::System::Void _cctor()

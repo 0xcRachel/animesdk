@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_CORE_PATCHMANAGER__LOADMANIFEST_C__ANONSTOREY3__CTOR_OFFSET UNITYSDK_OFFSET(0x15B5E210)
-#define IFIX_CORE_PATCHMANAGER__LOADMANIFEST_C__ANONSTOREY3___M__0_OFFSET UNITYSDK_OFFSET(0x15B62F00)
+#define IFIX_CORE_PATCHMANAGER__LOADMANIFEST_C__ANONSTOREY3__CTOR_OFFSET UNITYSDK_OFFSET(0x197C3470)
+#define IFIX_CORE_PATCHMANAGER__LOADMANIFEST_C__ANONSTOREY3___M__0_OFFSET UNITYSDK_OFFSET(0x197C81D0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int PatchManager__LoadManifest_c__AnonStorey3_TypeDefinitionIndex = 9784;
+	inline static constexpr unsigned int PatchManager__LoadManifest_c__AnonStorey3_TypeDefinitionIndex = 9919;
 
 	class PatchManager__LoadManifest_c__AnonStorey3 : public ::System::Object
 	{

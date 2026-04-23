@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PREFS___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA0043E0)
-#define RPG_CLIENT_PREFS___C__DISPLAYCLASS18_0__RECOVERFROMCLOUD_B__0_OFFSET UNITYSDK_OFFSET(0xA0043F0)
+#define RPG_CLIENT_PREFS___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1274D070)
+#define RPG_CLIENT_PREFS___C__DISPLAYCLASS18_0__RECOVERFROMCLOUD_B__0_OFFSET UNITYSDK_OFFSET(0x1274D080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Prefs___c__DisplayClass18_0_TypeDefinitionIndex = 48002;
+	inline static constexpr unsigned int Prefs___c__DisplayClass18_0_TypeDefinitionIndex = 54747;
 
 	class Prefs___c__DisplayClass18_0 : public ::System::Object
 	{

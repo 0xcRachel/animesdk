@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_COLORUSAGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18A09C50)
-#define UNITYENGINE_COLORUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18A09C20)
+#define UNITYENGINE_COLORUSAGEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197E1990)
+#define UNITYENGINE_COLORUSAGEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x197E1960)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ColorUsageAttribute_TypeDefinitionIndex = 4052;
+	inline static constexpr unsigned int ColorUsageAttribute_TypeDefinitionIndex = 4054;
 
 	class ColorUsageAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
-		::System::Single maxBrightness; // 0x10
-		::System::Boolean hdr; // 0x14
-		::System::Boolean showAlpha; // 0x15
-		::System::Single maxExposureValue; // 0x18
-		::System::Single minBrightness; // 0x1C
-		::System::Single minExposureValue; // 0x20
+		::System::Single minBrightness; // 0x10
+		::System::Single maxBrightness; // 0x14
+		::System::Boolean hdr; // 0x18
+		::System::Boolean showAlpha; // 0x19
+		::System::Single minExposureValue; // 0x1C
+		::System::Single maxExposureValue; // 0x20
 
 		::System::Void _ctor(::System::Boolean showAlpha)
 		{

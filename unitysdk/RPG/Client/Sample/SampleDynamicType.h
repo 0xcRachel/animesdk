@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Sample
 {
-	inline static constexpr unsigned int SampleDynamicType_TypeDefinitionIndex = 60702;
+	inline static constexpr unsigned int SampleDynamicType_TypeDefinitionIndex = 68144;
 
 	enum class SampleDynamicType : ::System::Int32
 	{

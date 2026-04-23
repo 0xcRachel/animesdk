@@ -12,23 +12,23 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_4AC821505076742F_METHOD_2_18BFDBBF8F66A0A6_OFFSET UNITYSDK_OFFSET(0x1177B2D0)
-#define CLASS_2_4AC821505076742F_METHOD_2_1FF8160E7F36A0AB_OFFSET UNITYSDK_OFFSET(0x1177B9D0)
-#define CLASS_2_4AC821505076742F_METHOD_2_452287A14C366C72_OFFSET UNITYSDK_OFFSET(0x1177B460)
-#define CLASS_2_4AC821505076742F_METHOD_2_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x1177B030)
-#define CLASS_2_4AC821505076742F_METHOD_2_BA1A163457250A51_OFFSET UNITYSDK_OFFSET(0x1177BB60)
-#define CLASS_2_4AC821505076742F_METHOD_2_BD8017CB722F693E_OFFSET UNITYSDK_OFFSET(0x1177B6B0)
-#define CLASS_2_4AC821505076742F_METHOD_2_FD81F7AADF9AE741_OFFSET UNITYSDK_OFFSET(0x1177B840)
-#define CLASS_2_4AC821505076742F__CTOR_OFFSET UNITYSDK_OFFSET(0x1177AEC0)
+#define CLASS_2_4AC821505076742F_METHOD_2_18BFDBBF8F66A0A6_OFFSET UNITYSDK_OFFSET(0xACA13A0)
+#define CLASS_2_4AC821505076742F_METHOD_2_1FF8160E7F36A0AB_OFFSET UNITYSDK_OFFSET(0xACA1AA0)
+#define CLASS_2_4AC821505076742F_METHOD_2_452287A14C366C72_OFFSET UNITYSDK_OFFSET(0xACA1530)
+#define CLASS_2_4AC821505076742F_METHOD_2_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0xACA1100)
+#define CLASS_2_4AC821505076742F_METHOD_2_BA1A163457250A51_OFFSET UNITYSDK_OFFSET(0xACA1C30)
+#define CLASS_2_4AC821505076742F_METHOD_2_BD8017CB722F693E_OFFSET UNITYSDK_OFFSET(0xACA1780)
+#define CLASS_2_4AC821505076742F_METHOD_2_FD81F7AADF9AE741_OFFSET UNITYSDK_OFFSET(0xACA1910)
+#define CLASS_2_4AC821505076742F__CTOR_OFFSET UNITYSDK_OFFSET(0xACA0F90)
 
-inline static constexpr unsigned int Class_2_4AC821505076742F_TypeDefinitionIndex = 60585;
+inline static constexpr unsigned int Class_2_4AC821505076742F_TypeDefinitionIndex = 68022;
 
 class Class_2_4AC821505076742F : public ::Class_1_7256E7A2FB36A46D
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::Class_1_303D5A33D1401D59*>* Field_2_2; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::RPG::GameCore::StageSceneItemSerializationData*>* Field_2_0; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::RPG::GameCore::StageSceneItemSharedSerializationData*>*>* Field_2_1; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::RPG::GameCore::StageSceneItemSerializationData*>* Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Collections::Generic::List_1<::RPG::GameCore::StageSceneItemSharedSerializationData*>*>* Field_2_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::Class_1_303D5A33D1401D59*>* Field_2_2; // 0x28
 
 	::System::Void _ctor(::Class_1_56FF45D7B2C55655* a1)
 	{

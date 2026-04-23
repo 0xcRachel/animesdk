@@ -6,16 +6,16 @@
 
 namespace RPG::GameCore { class GameEntityList; }
 
-#define CLASS_1_47C4FB84CDFFA751__CTOR_OFFSET UNITYSDK_OFFSET(0x116482E0)
+#define CLASS_1_47C4FB84CDFFA751__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F4CA0)
 
-inline static constexpr unsigned int Class_1_47C4FB84CDFFA751_TypeDefinitionIndex = 46912;
+inline static constexpr unsigned int Class_1_47C4FB84CDFFA751_TypeDefinitionIndex = 53625;
 
 class Class_1_47C4FB84CDFFA751 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntityList* Field_1_2; // 0x10
-	::RPG::GameCore::GridFightBattleEventHintType Field_1_1; // 0x18
-	::RPG::GameCore::FixPoint Field_1_0; // 0x20
+	::RPG::GameCore::FixPoint Field_1_0; // 0x18
+	::RPG::GameCore::GridFightBattleEventHintType Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

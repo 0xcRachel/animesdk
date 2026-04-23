@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/NVIDIA/OptimalDLSSSettingsData.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define RPG_CUSTOMRP_DLSSPASS_OPTIMALSETTINGSREQUEST_CANFIT_OFFSET UNITYSDK_OFFSET(0x20EE830)
+#define RPG_CUSTOMRP_DLSSPASS_OPTIMALSETTINGSREQUEST_CANFIT_OFFSET UNITYSDK_OFFSET(0x2245FD0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_OptimalSettingsRequest_TypeDefinitionIndex = 29181;
+	inline static constexpr unsigned int DLSSPass_OptimalSettingsRequest_TypeDefinitionIndex = 34946;
 
 	struct alignas(4) DLSSPass_OptimalSettingsRequest
 	{

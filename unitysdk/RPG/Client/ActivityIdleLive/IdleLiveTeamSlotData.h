@@ -1,0 +1,208 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/ILBattleCharacterLocation.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
+namespace RPG::GameCore { class IdleLiveTeamSlotRow; }
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_ADDAVATAR_OFFSET UNITYSDK_OFFSET(0x17302450)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x17302320)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x17302220)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x17302B30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_AVATARPOSTYPE_OFFSET UNITYSDK_OFFSET(0x17302B10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_CANUPGRADE_OFFSET UNITYSDK_OFFSET(0x17302BE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_EXTRAPOWERADDEDBYLEVEL_OFFSET UNITYSDK_OFFSET(0x17302C80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x17302AC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_ISMAXLEVEL_OFFSET UNITYSDK_OFFSET(0x17302A00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x17302AB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x17302B90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17302B50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_POWERFACTOR_OFFSET UNITYSDK_OFFSET(0x17302BB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0x17302AD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0x17302B70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_UNLOCKID_OFFSET UNITYSDK_OFFSET(0x17302AF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_UPGRADECOST_OFFSET UNITYSDK_OFFSET(0x173028B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_REMOVEAVATAR_OFFSET UNITYSDK_OFFSET(0x173024A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SETLEVEL_OFFSET UNITYSDK_OFFSET(0x173022D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_AVATARDATA_OFFSET UNITYSDK_OFFSET(0x17302B40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_AVATARPOSTYPE_OFFSET UNITYSDK_OFFSET(0x17302B20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x17302BA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_NAME_OFFSET UNITYSDK_OFFSET(0x17302B60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_POWERFACTOR_OFFSET UNITYSDK_OFFSET(0x17302BD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_SLOTID_OFFSET UNITYSDK_OFFSET(0x17302AE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_UNLOCKHINT_OFFSET UNITYSDK_OFFSET(0x17302B80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_UNLOCKID_OFFSET UNITYSDK_OFFSET(0x17302B00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA__CANUPGRADE_OFFSET UNITYSDK_OFFSET(0x17302760)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA__CHECKISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x17302540)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x173022C0)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int IdleLiveTeamSlotData_TypeDefinitionIndex = 69165;
+
+	class IdleLiveTeamSlotData : public ::System::Object
+	{
+	public:
+		::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* _AvatarData_k__BackingField; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _PowerFactor_k__BackingField; // 0x18
+		::RPG::Client::TextID _UnlockHint_k__BackingField; // 0x30
+		::System::UInt32 _UnlockID_k__BackingField; // 0x40
+		::System::UInt32 _Level_k__BackingField; // 0x44
+		::RPG::Client::TextID _Name_k__BackingField; // 0x48
+		::RPG::GameCore::ILBattleCharacterLocation _AvatarPosType_k__BackingField; // 0x58
+		::System::UInt32 _SlotID_k__BackingField; // 0x5C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* Create(::System::UInt32 slotID)
+		{
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_CREATE_OFFSET))(slotID);
+		}
+
+		::System::Void SetLevel(::System::UInt32 level)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SETLEVEL_OFFSET))(this, level);
+		}
+
+		static ::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData* Create_1(::RPG::GameCore::IdleLiveTeamSlotRow* row)
+		{
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*(*)(::RPG::GameCore::IdleLiveTeamSlotRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_CREATE_1_OFFSET))(row);
+		}
+
+		::System::Void AddAvatar(::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* avatarData)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_ADDAVATAR_OFFSET))(this, avatarData);
+		}
+
+		::System::Void RemoveAvatar()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_REMOVEAVATAR_OFFSET))(this);
+		}
+
+		::System::Boolean _CheckIsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA__CHECKISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean _CanUpgrade()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA__CANUPGRADE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEmpty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_ISEMPTY_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SlotID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_SLOTID_OFFSET))(this);
+		}
+
+		::System::Void set_SlotID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_SLOTID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_UnlockID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_UNLOCKID_OFFSET))(this);
+		}
+
+		::System::Void set_UnlockID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_UNLOCKID_OFFSET))(this, value);
+		}
+
+		::RPG::GameCore::ILBattleCharacterLocation get_AvatarPosType()
+		{
+			return ((::RPG::GameCore::ILBattleCharacterLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_AVATARPOSTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarPosType(::RPG::GameCore::ILBattleCharacterLocation value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ILBattleCharacterLocation))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_AVATARPOSTYPE_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* get_AvatarData()
+		{
+			return ((::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_AVATARDATA_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarData(::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IIdleLiveAvatarData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_AVATARDATA_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_NAME_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_UnlockHint()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_UNLOCKHINT_OFFSET))(this);
+		}
+
+		::System::Void set_UnlockHint(::RPG::Client::TextID value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_UNLOCKHINT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_LEVEL_OFFSET))(this, value);
+		}
+
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal get_PowerFactor()
+		{
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_POWERFACTOR_OFFSET))(this);
+		}
+
+		::System::Void set_PowerFactor(::RPG::Client::ActivityIdleLive::IdleLiveDecimal value)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_SET_POWERFACTOR_OFFSET))(this, value);
+		}
+
+		::System::Boolean get_CanUpgrade()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_CANUPGRADE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_UpgradeCost()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_UPGRADECOST_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal get_ExtraPowerAddedByLevel()
+		{
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_EXTRAPOWERADDEDBYLEVEL_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsMaxLevel()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMSLOTDATA_GET_ISMAXLEVEL_OFFSET))(this);
+		}
+	};
+}

@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLESHOWUIPAGETEXTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x91E26E0)
+#define RPG_CLIENT_BATTLESHOWUIPAGETEXTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14723450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleShowUIPageTextParam_TypeDefinitionIndex = 58847;
+	inline static constexpr unsigned int BattleShowUIPageTextParam_TypeDefinitionIndex = 66214;
 
 	class BattleShowUIPageTextParam : public ::System::Object
 	{

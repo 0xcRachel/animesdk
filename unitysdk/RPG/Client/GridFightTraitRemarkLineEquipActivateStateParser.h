@@ -5,20 +5,20 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x98E2D60)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x98E2D70)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x98E2AD0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER__GETISACTIVE_OFFSET UNITYSDK_OFFSET(0x98E2B20)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x174370B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x174370C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x17436CA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER__GETISACTIVE_OFFSET UNITYSDK_OFFSET(0x17436CF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser_TypeDefinitionIndex = 53162;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser_TypeDefinitionIndex = 60284;
 
 	class GridFightTraitRemarkLineEquipActivateStateParser : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _equipIDs; // 0x10
-		::RPG::Client::GridFightTrait* _Trait; // 0x18
+		::RPG::Client::GridFightTrait* _Trait; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _equipIDs; // 0x18
 
 		::System::Void _ctor(::Il2CppArray<::System::UInt32>* equipIDs, ::RPG::Client::GridFightTrait* trait)
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerLittleGameCustomEvent; }
 
-#define CLASS_3_18654594996C64C5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114EBE40)
-#define CLASS_3_18654594996C64C5__CTOR_OFFSET UNITYSDK_OFFSET(0x114EBE10)
+#define CLASS_3_18654594996C64C5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B194A0)
+#define CLASS_3_18654594996C64C5__CTOR_OFFSET UNITYSDK_OFFSET(0x10B19470)
 
-inline static constexpr unsigned int Class_3_18654594996C64C5_TypeDefinitionIndex = 42857;
+inline static constexpr unsigned int Class_3_18654594996C64C5_TypeDefinitionIndex = 48841;
 
 class Class_3_18654594996C64C5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerLittleGameCustomEvent*>
 {

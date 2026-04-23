@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_137.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_138.h"
 #include "unitysdk/RPG/Client/GridFightGridEffectType.h"
 
 namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightGridData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0x98581C0)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9857FF0)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT_INITROLES_OFFSET UNITYSDK_OFFSET(0x9858000)
-#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9858450)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0x1754EBB0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1754E9E0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT_INITROLES_OFFSET UNITYSDK_OFFSET(0x1754E9F0)
+#define RPG_CLIENT_GRIDFIGHTGRIDCYRENEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1754EE40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridCyreneEffect_TypeDefinitionIndex = 52637;
+	inline static constexpr unsigned int GridFightGridCyreneEffect_TypeDefinitionIndex = 59687;
 
-	class GridFightGridCyreneEffect : public ::Class_1_43BD383C98B4C0C5_137
+	class GridFightGridCyreneEffect : public ::Class_1_43BD383C98B4C0C5_138
 	{
 	public:
 		// static const ::System::UInt32 _CyreneRoleID = 0x587; // 0x0

@@ -6,12 +6,12 @@ namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelMapInf
 namespace RPG::GameCore { class FourRotateVoxelFloorMapInfoConfig; }
 namespace RPG::GameCore { class FourRotateVoxelMapInfoConfig; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A39480)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__GETLEVELUICONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x9A397F0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1652B660)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELUIVIEWCONTEXT___C__DISPLAYCLASS66_0__GETLEVELUICONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1652B9C0)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelUIViewContext___c__DisplayClass66_0_TypeDefinitionIndex = 62532;
+	inline static constexpr unsigned int FourRotateVoxelUIViewContext___c__DisplayClass66_0_TypeDefinitionIndex = 70542;
 
 	class FourRotateVoxelUIViewContext___c__DisplayClass66_0 : public ::System::Object
 	{

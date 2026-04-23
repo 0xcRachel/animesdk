@@ -7,23 +7,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTFORGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17272300)
-#define RPG_GAMECORE_GRIDFIGHTFORGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17272640)
+#define RPG_GAMECORE_GRIDFIGHTFORGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19572AE0)
+#define RPG_GAMECORE_GRIDFIGHTFORGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19572E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightForgeConfigRow_TypeDefinitionIndex = 12294;
+	inline static constexpr unsigned int GridFightForgeConfigRow_TypeDefinitionIndex = 12725;
 
 	class GridFightForgeConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::GridFightForgeFuncType FuncType; // 0x1C
-		::RPG::Client::TextID ForgeTypeDesc; // 0x20
-		::RPG::Client::TextID ForgeDesc; // 0x30
-		::System::UInt32 EquipNum; // 0x40
-		::RPG::GameCore::GridFightEquipCategory EquipCategory; // 0x44
+		::RPG::Client::TextID ForgeTypeDesc; // 0x18
+		::System::UInt32 EquipNum; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::RPG::GameCore::GridFightEquipCategory EquipCategory; // 0x30
+		::RPG::GameCore::GridFightForgeFuncType FuncType; // 0x34
+		::RPG::Client::TextID ForgeDesc; // 0x38
 
 		::System::Void _ctor()
 		{

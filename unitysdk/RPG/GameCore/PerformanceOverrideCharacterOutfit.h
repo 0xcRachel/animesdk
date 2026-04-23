@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT_METHOD_2_805B72EDF531EFEC_OFFSET UNITYSDK_OFFSET(0x174ACF40)
-#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT__CTOR_OFFSET UNITYSDK_OFFSET(0x174AD090)
+#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT_METHOD_2_805B72EDF531EFEC_OFFSET UNITYSDK_OFFSET(0x18F0D0D0)
+#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F0D220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceOverrideCharacterOutfit_TypeDefinitionIndex = 20026;
+	inline static constexpr unsigned int PerformanceOverrideCharacterOutfit_TypeDefinitionIndex = 20707;
 
 	class PerformanceOverrideCharacterOutfit : public ::RPG::GameCore::JsonConfig
 	{

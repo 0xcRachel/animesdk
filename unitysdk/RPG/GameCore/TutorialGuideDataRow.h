@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178ED670)
-#define RPG_GAMECORE_TUTORIALGUIDEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178EDD70)
+#define RPG_GAMECORE_TUTORIALGUIDEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x191298F0)
+#define RPG_GAMECORE_TUTORIALGUIDEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19129FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideDataRow_TypeDefinitionIndex = 14131;
+	inline static constexpr unsigned int TutorialGuideDataRow_TypeDefinitionIndex = 14600;
 
 	class TutorialGuideDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::TutorialPlatformType PlatformType; // 0x1C
+		::RPG::GameCore::TutorialPlatformType PlatformType; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::RPG::Client::TextID DescText; // 0x20
 
 		::System::Void _ctor()

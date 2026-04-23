@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareIsBookAvailable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5FECBAC0B79F3D4A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x105AB100)
-#define CLASS_3_5FECBAC0B79F3D4A__CTOR_OFFSET UNITYSDK_OFFSET(0x105AB0D0)
+#define CLASS_3_5FECBAC0B79F3D4A_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF981F30)
+#define CLASS_3_5FECBAC0B79F3D4A__CTOR_OFFSET UNITYSDK_OFFSET(0xF981F00)
 
-inline static constexpr unsigned int Class_3_5FECBAC0B79F3D4A_TypeDefinitionIndex = 42576;
+inline static constexpr unsigned int Class_3_5FECBAC0B79F3D4A_TypeDefinitionIndex = 48541;
 
 class Class_3_5FECBAC0B79F3D4A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareIsBookAvailable*>
 {

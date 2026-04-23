@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTMANAGER_NETWORKADAPTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15DEAEE0)
+#define MIHOYO_SDK_ACCOUNTMANAGER_NETWORKADAPTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1617DEC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountManager_NetworkAdapterInfo_TypeDefinitionIndex = 6948;
+	inline static constexpr unsigned int AccountManager_NetworkAdapterInfo_TypeDefinitionIndex = 6994;
 
 	class AccountManager_NetworkAdapterInfo : public ::System::Object
 	{

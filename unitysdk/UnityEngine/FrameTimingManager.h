@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/FrameTiming.h"
 
-#define UNITYENGINE_FRAMETIMINGMANAGER_CAPTUREFRAMETIMINGS_OFFSET UNITYSDK_OFFSET(0x18A1C6D0)
-#define UNITYENGINE_FRAMETIMINGMANAGER_GETLATESTTIMINGS_OFFSET UNITYSDK_OFFSET(0x18A1C6E0)
+#define UNITYENGINE_FRAMETIMINGMANAGER_CAPTUREFRAMETIMINGS_OFFSET UNITYSDK_OFFSET(0x197F43A0)
+#define UNITYENGINE_FRAMETIMINGMANAGER_GETLATESTTIMINGS_OFFSET UNITYSDK_OFFSET(0x197F43B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FrameTimingManager_TypeDefinitionIndex = 3934;
+	inline static constexpr unsigned int FrameTimingManager_TypeDefinitionIndex = 3936;
 
 	class FrameTimingManager : public ::System::Object
 	{

@@ -6,17 +6,17 @@ namespace RPG::Client { class AnimatorButton; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_0FE616E64A04D650_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10A63DE0)
-#define CLASS_2_0FE616E64A04D650_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x10A63D70)
-#define CLASS_2_0FE616E64A04D650__CTOR_OFFSET UNITYSDK_OFFSET(0x10A63E80)
+#define CLASS_2_0FE616E64A04D650_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD060EF0)
+#define CLASS_2_0FE616E64A04D650_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xD060E80)
+#define CLASS_2_0FE616E64A04D650__CTOR_OFFSET UNITYSDK_OFFSET(0xD060F90)
 
-inline static constexpr unsigned int Class_2_0FE616E64A04D650_TypeDefinitionIndex = 59398;
+inline static constexpr unsigned int Class_2_0FE616E64A04D650_TypeDefinitionIndex = 66793;
 
 class Class_2_0FE616E64A04D650 : public ::Class_1_89D8044AB73F8F6D
 {
 public:
-	::RPG::Client::AnimatorButton* Field_2_0; // 0x18
-	::UnityEngine::Transform* Field_2_1; // 0x20
+	::UnityEngine::Transform* Field_2_1; // 0x18
+	::RPG::Client::AnimatorButton* Field_2_0; // 0x20
 
 	::System::Void _ctor()
 	{

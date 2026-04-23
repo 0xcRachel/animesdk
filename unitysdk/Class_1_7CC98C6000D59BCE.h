@@ -5,25 +5,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace RPG::GameCore { class PamChatQuickFunctionConfigRow; }
-namespace System { class String; }
 
-#define CLASS_1_7CC98C6000D59BCE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x8A7E020)
-#define CLASS_1_7CC98C6000D59BCE_GET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x8A7E040)
-#define CLASS_1_7CC98C6000D59BCE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x8A7E000)
-#define CLASS_1_7CC98C6000D59BCE_METHOD_1_7F54D2E1DDD7728B_OFFSET UNITYSDK_OFFSET(0x8A7E060)
-#define CLASS_1_7CC98C6000D59BCE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x8A7E030)
-#define CLASS_1_7CC98C6000D59BCE_SET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x8A7E050)
-#define CLASS_1_7CC98C6000D59BCE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x8A7E010)
-#define CLASS_1_7CC98C6000D59BCE__CTOR_OFFSET UNITYSDK_OFFSET(0x8A7DFD0)
+#define CLASS_1_7CC98C6000D59BCE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x135A7B70)
+#define CLASS_1_7CC98C6000D59BCE_GET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x135A7B90)
+#define CLASS_1_7CC98C6000D59BCE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x135A7B50)
+#define CLASS_1_7CC98C6000D59BCE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x135A7B80)
+#define CLASS_1_7CC98C6000D59BCE_SET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x135A7BA0)
+#define CLASS_1_7CC98C6000D59BCE_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x135A7B60)
+#define CLASS_1_7CC98C6000D59BCE__CTOR_OFFSET UNITYSDK_OFFSET(0x135A7B20)
 
-inline static constexpr unsigned int Class_1_7CC98C6000D59BCE_TypeDefinitionIndex = 51359;
+inline static constexpr unsigned int Class_1_7CC98C6000D59BCE_TypeDefinitionIndex = 58296;
 
 class Class_1_7CC98C6000D59BCE : public ::System::Object
 {
 public:
-	::RPG::Client::PamChatQuickFunctionType _Type_k__BackingField; // 0x10
-	::RPG::Client::TextID _SendText_k__BackingField; // 0x18
-	::RPG::Client::TextID _Name_k__BackingField; // 0x28
+	::RPG::Client::TextID _SendText_k__BackingField; // 0x10
+	::RPG::Client::TextID _Name_k__BackingField; // 0x20
+	::RPG::Client::PamChatQuickFunctionType _Type_k__BackingField; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::PamChatQuickFunctionConfigRow* a1)
 	{
@@ -58,10 +56,5 @@ public:
 	::System::Void set_SendText(::RPG::Client::TextID value)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CLASS_1_7CC98C6000D59BCE_SET_SENDTEXT_OFFSET))(this, value);
-	}
-
-	static ::System::String* Method_1_7F54D2E1DDD7728B(::RPG::Client::PamChatQuickFunctionType a1)
-	{
-		return ((::System::String*(*)(::RPG::Client::PamChatQuickFunctionType))((::PBYTE)hIl2Cpp + CLASS_1_7CC98C6000D59BCE_METHOD_1_7F54D2E1DDD7728B_OFFSET))(a1);
 	}
 };

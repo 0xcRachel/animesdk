@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideSkillReadyCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C9AD1A2F272B913C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11749390)
-#define CLASS_3_C9AD1A2F272B913C__CTOR_OFFSET UNITYSDK_OFFSET(0x11749360)
+#define CLASS_3_C9AD1A2F272B913C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF227D00)
+#define CLASS_3_C9AD1A2F272B913C__CTOR_OFFSET UNITYSDK_OFFSET(0xF227CD0)
 
-inline static constexpr unsigned int Class_3_C9AD1A2F272B913C_TypeDefinitionIndex = 44223;
+inline static constexpr unsigned int Class_3_C9AD1A2F272B913C_TypeDefinitionIndex = 50933;
 
 class Class_3_C9AD1A2F272B913C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideSkillReadyCamera*>
 {

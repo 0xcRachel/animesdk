@@ -9,19 +9,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_2_52D9E76AE3420F1A_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x115C6170)
-#define CLASS_2_52D9E76AE3420F1A_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x115C6250)
-#define CLASS_2_52D9E76AE3420F1A__CTOR_OFFSET UNITYSDK_OFFSET(0x115C66B0)
-#define CLASS_2_52D9E76AE3420F1A___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x115C6730)
-#define CLASS_2_52D9E76AE3420F1A___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x115C6740)
+#define CLASS_2_52D9E76AE3420F1A_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xED279B0)
+#define CLASS_2_52D9E76AE3420F1A_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xED27A90)
+#define CLASS_2_52D9E76AE3420F1A__CTOR_OFFSET UNITYSDK_OFFSET(0xED27EF0)
+#define CLASS_2_52D9E76AE3420F1A___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xED27F70)
+#define CLASS_2_52D9E76AE3420F1A___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xED27F80)
 
-inline static constexpr unsigned int Class_2_52D9E76AE3420F1A_TypeDefinitionIndex = 39272;
+inline static constexpr unsigned int Class_2_52D9E76AE3420F1A_TypeDefinitionIndex = 45181;
 
 class Class_2_52D9E76AE3420F1A : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::UnityEngine::Playables::PlayableDirector* Field_2_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Double>* Field_2_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Double>* Field_2_0; // 0x10
+	::UnityEngine::Playables::PlayableDirector* Field_2_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_GRADIENTTEX_GEN_OFFSET UNITYSDK_OFFSET(0x16AB2300)
-#define RPG_CUSTOMRP_GRADIENTTEX_GET_TEX_OFFSET UNITYSDK_OFFSET(0x16AB24D0)
-#define RPG_CUSTOMRP_GRADIENTTEX_INIT_OFFSET UNITYSDK_OFFSET(0x16AB20C0)
-#define RPG_CUSTOMRP_GRADIENTTEX_RELEASE_OFFSET UNITYSDK_OFFSET(0x16AB2480)
-#define RPG_CUSTOMRP_GRADIENTTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB24F0)
+#define RPG_CUSTOMRP_GRADIENTTEX_GEN_OFFSET UNITYSDK_OFFSET(0x15A64DF0)
+#define RPG_CUSTOMRP_GRADIENTTEX_GET_TEX_OFFSET UNITYSDK_OFFSET(0x15A64F90)
+#define RPG_CUSTOMRP_GRADIENTTEX_INIT_OFFSET UNITYSDK_OFFSET(0x15A64BB0)
+#define RPG_CUSTOMRP_GRADIENTTEX_RELEASE_OFFSET UNITYSDK_OFFSET(0x15A64F40)
+#define RPG_CUSTOMRP_GRADIENTTEX__CTOR_OFFSET UNITYSDK_OFFSET(0x15A64FB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GradientTex_TypeDefinitionIndex = 29486;
+	inline static constexpr unsigned int GradientTex_TypeDefinitionIndex = 35253;
 
 	class GradientTex : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Texture2D** StaticGet__DefaultTex()
 		{
-			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(GradientTex_TypeDefinitionIndex)->GetStaticField(0x2B7B0);
+			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(GradientTex_TypeDefinitionIndex)->GetStaticField(0x5E710);
 		}
 		::UnityEngine::Gradient* Value; // 0x10
 		::UnityEngine::Texture2D* _Tex; // 0x18

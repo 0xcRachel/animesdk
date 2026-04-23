@@ -9,13 +9,13 @@ namespace RPG::GameCore { class LevelPedestrianMemberInfo; }
 namespace RPG::GameCore { class LevelPedestrianNodeInfo; }
 namespace RPG::GameCore { class NpcWalkStyleWeightInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANINFO_METHOD_4_B7B1C38D92F9E224_OFFSET UNITYSDK_OFFSET(0x17356E70)
-#define RPG_GAMECORE_LEVELPEDESTRIANINFO_METHOD_4_BA820AC58902E599_OFFSET UNITYSDK_OFFSET(0x17359840)
-#define RPG_GAMECORE_LEVELPEDESTRIANINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17356E60)
+#define RPG_GAMECORE_LEVELPEDESTRIANINFO_METHOD_4_B7B1C38D92F9E224_OFFSET UNITYSDK_OFFSET(0x18A38BD0)
+#define RPG_GAMECORE_LEVELPEDESTRIANINFO_METHOD_4_BA820AC58902E599_OFFSET UNITYSDK_OFFSET(0x18A3B6D0)
+#define RPG_GAMECORE_LEVELPEDESTRIANINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A38BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianInfo_TypeDefinitionIndex = 15878;
+	inline static constexpr unsigned int LevelPedestrianInfo_TypeDefinitionIndex = 16404;
 
 	class LevelPedestrianInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

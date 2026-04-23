@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Cache.h"
 
-#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_INJECTED_OFFSET UNITYSDK_OFFSET(0x18A05AD0)
-#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_OFFSET UNITYSDK_OFFSET(0x18A05AB0)
+#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_INJECTED_OFFSET UNITYSDK_OFFSET(0x19D02550)
+#define UNITYENGINE_CACHING_GET_CURRENTCACHEFORWRITING_OFFSET UNITYSDK_OFFSET(0x19D02530)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Caching_TypeDefinitionIndex = 3848;
+	inline static constexpr unsigned int Caching_TypeDefinitionIndex = 3850;
 
 	class Caching : public ::System::Object
 	{

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177EB260)
-#define RPG_GAMECORE_TAROTBOOKSENTENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177EB420)
+#define RPG_GAMECORE_TAROTBOOKSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171390E0)
+#define RPG_GAMECORE_TAROTBOOKSENTENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171392A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookSentenceRow_TypeDefinitionIndex = 13966;
+	inline static constexpr unsigned int TarotBookSentenceRow_TypeDefinitionIndex = 14441;
 
 	class TarotBookSentenceRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 VoiceID; // 0x14
-		::RPG::Client::TextID Sentence; // 0x18
+		::RPG::Client::TextID Sentence; // 0x10
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 VoiceID; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK { class CommonInfo; }
 
-#define MIHOYO_SDK_COMMONINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x84D4660)
-#define MIHOYO_SDK_COMMONINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x84D46A0)
-#define MIHOYO_SDK_COMMONINFO___C___CCTOR_B__59_0_OFFSET UNITYSDK_OFFSET(0x84D46B0)
+#define MIHOYO_SDK_COMMONINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1736FC40)
+#define MIHOYO_SDK_COMMONINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1736FC80)
+#define MIHOYO_SDK_COMMONINFO___C___CCTOR_B__59_0_OFFSET UNITYSDK_OFFSET(0x1736FC90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CommonInfo___c_TypeDefinitionIndex = 37131;
+	inline static constexpr unsigned int CommonInfo___c_TypeDefinitionIndex = 42976;
 
 	class CommonInfo___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::CommonInfo___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::CommonInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CommonInfo___c_TypeDefinitionIndex)->GetStaticField(0xDFD0);
+			return (::MiHoYo::SDK::CommonInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CommonInfo___c_TypeDefinitionIndex)->GetStaticField(0x47440);
 		}
 
 		static ::System::Void _cctor()

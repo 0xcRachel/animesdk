@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176531D0)
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x176538E0)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A50B040)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50B750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDiceBranchValueRow_TypeDefinitionIndex = 13634;
+	inline static constexpr unsigned int RogueNousDiceBranchValueRow_TypeDefinitionIndex = 14106;
 
 	class RogueNousDiceBranchValueRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::RPG::Client::TextID BranchEffectDesc; // 0x18
-		::System::UInt32 AeonID; // 0x28
-		::System::UInt32 BranchID; // 0x2C
+		::System::UInt32 AeonID; // 0x18
+		::System::UInt32 BranchID; // 0x1C
+		::RPG::Client::TextID BranchEffectDesc; // 0x20
 
 		::System::Void _ctor()
 		{

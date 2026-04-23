@@ -5,19 +5,19 @@
 
 namespace RPG::Client::Billboard { class BillboardIdentifier; }
 
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x91FF9B0)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D3E300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardWayPointMutexConfig_TypeDefinitionIndex = 48988;
+	inline static constexpr unsigned int BillboardWayPointMutexConfig_TypeDefinitionIndex = 55782;
 
 	class BillboardWayPointMutexConfig : public ::System::Object
 	{
 	public:
 		::RPG::Client::Billboard::BillboardIdentifier* BillboardIdentifier; // 0x10
-		::RPG::Client::BillboardWayPointMutexStatus Status; // 0x18
-		::System::Boolean IsActive; // 0x1C
-		::System::Boolean IsPlayingAnim; // 0x1D
+		::System::Boolean IsActive; // 0x18
+		::System::Boolean IsPlayingAnim; // 0x19
+		::RPG::Client::BillboardWayPointMutexStatus Status; // 0x1C
 
 		::System::Void _ctor(::RPG::Client::BillboardWayPointMutexStatus status)
 		{

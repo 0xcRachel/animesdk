@@ -5,12 +5,12 @@
 
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_THREADINTERRUPTEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x16262410)
-#define SYSTEM_THREADING_THREADINTERRUPTEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16262380)
+#define SYSTEM_THREADING_THREADINTERRUPTEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18BD24D0)
+#define SYSTEM_THREADING_THREADINTERRUPTEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD2440)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadInterruptedException_TypeDefinitionIndex = 848;
+	inline static constexpr unsigned int ThreadInterruptedException_TypeDefinitionIndex = 850;
 
 	class ThreadInterruptedException : public ::System::SystemException
 	{

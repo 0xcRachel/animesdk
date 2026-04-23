@@ -2,31 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::GameCore { class RogueArcadeConfigRow; }
 namespace RPG::GameCore { class RogueArcadeTypeConfigRow; }
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA2F78D0)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_GETROGUEDEBUGINFO_OFFSET UNITYSDK_OFFSET(0xA2F8870)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_ARCADEROW_OFFSET UNITYSDK_OFFSET(0xA2F8BE0)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xA2F8BC0)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_REWARDTIER_OFFSET UNITYSDK_OFFSET(0xA2F8CC0)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0xA2F7B90)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xA2F8BD0)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA_SET_REWARDTIER_OFFSET UNITYSDK_OFFSET(0xA2F8CD0)
-#define RPG_CLIENT_ROGUEARCADEROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F8860)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x177246F0)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_GETROGUEAVATARCOLLECTION_OFFSET UNITYSDK_OFFSET(0x17725A90)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_GETROGUEDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x17725740)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_ARCADEROW_OFFSET UNITYSDK_OFFSET(0x17725C20)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x17725C00)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_REWARDTIER_OFFSET UNITYSDK_OFFSET(0x17725D00)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_GET_ROW_OFFSET UNITYSDK_OFFSET(0x177249B0)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0x17725C10)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA_SET_REWARDTIER_OFFSET UNITYSDK_OFFSET(0x17725D10)
+#define RPG_CLIENT_ROGUEARCADEROOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17725730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueArcadeRoomData_TypeDefinitionIndex = 54881;
+	inline static constexpr unsigned int RogueArcadeRoomData_TypeDefinitionIndex = 62069;
 
 	class RogueArcadeRoomData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueArcadeConfigRow* _Row; // 0x10
-		::RPG::GameCore::RogueArcadeTypeConfigRow* _ArcadeRow; // 0x18
-		::System::UInt32 _ID_k__BackingField; // 0x20
-		::System::Int32 _RewardTier_k__BackingField; // 0x24
+		::RPG::GameCore::RogueArcadeTypeConfigRow* _ArcadeRow; // 0x10
+		::RPG::GameCore::RogueArcadeConfigRow* _Row; // 0x18
+		::System::Int32 _RewardTier_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x24
 
 		::System::Void _ctor()
 		{
@@ -41,6 +44,11 @@ namespace RPG::Client
 		::System::String* GetRogueDebugInfo()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEARCADEROOMDATA_GETROGUEDEBUGINFO_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>* GetRogueAvatarCollection()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::IAvatarInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEARCADEROOMDATA_GETROGUEAVATARCOLLECTION_OFFSET))(this);
 		}
 
 		::System::UInt32 get_ID()

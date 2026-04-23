@@ -9,30 +9,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Text { class StringBuilder; }
 
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_CREATEFILEW_OFFSET UNITYSDK_OFFSET(0x84E2120)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_CTL_CODE_OFFSET UNITYSDK_OFFSET(0x84E2250)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_DEVICEIOCONTROL_OFFSET UNITYSDK_OFFSET(0x84E2270)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x84E2480)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_GETDISKTYPE_OFFSET UNITYSDK_OFFSET(0x84E27F0)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x84E25B0)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_GETLOGICALDRIVE_OFFSET UNITYSDK_OFFSET(0x84E2780)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x84E3200)
-#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x84E31F0)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_CREATEFILEW_OFFSET UNITYSDK_OFFSET(0x1737E410)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_CTL_CODE_OFFSET UNITYSDK_OFFSET(0x1737E540)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_DEVICEIOCONTROL_OFFSET UNITYSDK_OFFSET(0x1737E560)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1737E770)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_GETDISKTYPE_OFFSET UNITYSDK_OFFSET(0x1737EAE0)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1737E8A0)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE_GETLOGICALDRIVE_OFFSET UNITYSDK_OFFSET(0x1737EA70)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1737F4D0)
+#define MIHOYO_SDK_DISKSERVICE_MIHOYOSDKDISKSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1737F4C0)
 
 namespace MiHoYo::SDK::DiskService
 {
-	inline static constexpr unsigned int MiHoYoSDKDiskService_TypeDefinitionIndex = 37355;
+	inline static constexpr unsigned int MiHoYoSDKDiskService_TypeDefinitionIndex = 43232;
 
 	class MiHoYoSDKDiskService : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_diskTypeDic()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDiskService_TypeDefinitionIndex)->GetStaticField(0xFA90);
-		}
 		static ::System::Object** StaticGet_diskTypeDicLock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDiskService_TypeDefinitionIndex)->GetStaticField(0xFA98);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDiskService_TypeDefinitionIndex)->GetStaticField(0x484B0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_diskTypeDic()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKDiskService_TypeDefinitionIndex)->GetStaticField(0x484B8);
 		}
 		// static const ::System::UInt32 FILE_SHARE_READ = 0x1; // 0x0
 		// static const ::System::UInt32 FILE_SHARE_WRITE = 0x2; // 0x0

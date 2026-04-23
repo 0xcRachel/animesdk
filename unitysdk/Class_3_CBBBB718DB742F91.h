@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddStreamingSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CBBBB718DB742F91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8E25D20)
-#define CLASS_3_CBBBB718DB742F91__CTOR_OFFSET UNITYSDK_OFFSET(0x8E25CF0)
+#define CLASS_3_CBBBB718DB742F91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF46C2E0)
+#define CLASS_3_CBBBB718DB742F91__CTOR_OFFSET UNITYSDK_OFFSET(0xF46C2B0)
 
-inline static constexpr unsigned int Class_3_CBBBB718DB742F91_TypeDefinitionIndex = 46651;
+inline static constexpr unsigned int Class_3_CBBBB718DB742F91_TypeDefinitionIndex = 53359;
 
 class Class_3_CBBBB718DB742F91 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddStreamingSource*>
 {

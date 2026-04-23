@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdaptEntityPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2A05DF931E5A5D35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8E0D1D0)
-#define CLASS_3_2A05DF931E5A5D35__CTOR_OFFSET UNITYSDK_OFFSET(0x8E0D1A0)
+#define CLASS_3_2A05DF931E5A5D35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5446E0)
+#define CLASS_3_2A05DF931E5A5D35__CTOR_OFFSET UNITYSDK_OFFSET(0xB5446B0)
 
-inline static constexpr unsigned int Class_3_2A05DF931E5A5D35_TypeDefinitionIndex = 46641;
+inline static constexpr unsigned int Class_3_2A05DF931E5A5D35_TypeDefinitionIndex = 53349;
 
 class Class_3_2A05DF931E5A5D35 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdaptEntityPosition*>
 {

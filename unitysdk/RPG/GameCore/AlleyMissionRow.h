@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F8B3E0)
-#define RPG_GAMECORE_ALLEYMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8BA50)
+#define RPG_GAMECORE_ALLEYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ACC130)
+#define RPG_GAMECORE_ALLEYMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACC7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMissionRow_TypeDefinitionIndex = 11502;
+	inline static constexpr unsigned int AlleyMissionRow_TypeDefinitionIndex = 11904;
 
 	class AlleyMissionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EventEffect; // 0x10
-		::System::UInt32 MissionID; // 0x18
+		::System::Boolean IsMissionTrack; // 0x18
+		::System::Boolean IsUrgent; // 0x19
 		::System::UInt32 NextMission; // 0x1C
-		::System::Boolean IsUrgent; // 0x20
-		::System::Boolean IsMissionTrack; // 0x21
+		::System::UInt32 MissionID; // 0x20
 
 		::System::Void _ctor()
 		{

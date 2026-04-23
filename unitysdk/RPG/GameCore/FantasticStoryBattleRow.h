@@ -7,41 +7,41 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FANTASTICSTORYBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D0910)
-#define RPG_GAMECORE_FANTASTICSTORYBATTLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171D1280)
+#define RPG_GAMECORE_FANTASTICSTORYBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1946B510)
+#define RPG_GAMECORE_FANTASTICSTORYBATTLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1946BE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FantasticStoryBattleRow_TypeDefinitionIndex = 10707;
+	inline static constexpr unsigned int FantasticStoryBattleRow_TypeDefinitionIndex = 10958;
 
 	class FantasticStoryBattleRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AvailableBuffSlotID; // 0x10
-		::Il2CppArray<::System::UInt32>* TextJoinIDListChange; // 0x18
+		::Il2CppArray<::System::UInt32>* TextJoinIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendNature; // 0x20
-		::Il2CppArray<::System::UInt32>* QuestList; // 0x28
-		::Il2CppArray<::System::UInt32>* TextJoinIDList; // 0x30
-		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x38
-		::Il2CppArray<::System::UInt32>* RecommendAvatar; // 0x40
-		::System::String* FigurePath; // 0x48
+		::Il2CppArray<::System::UInt32>* AvailableBuffSlotID; // 0x28
+		::Il2CppArray<::System::UInt32>* RecommendAvatar; // 0x30
+		::Il2CppArray<::System::UInt32>* TextJoinIDListChange; // 0x38
+		::System::String* FigurePath; // 0x40
+		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x48
 		::Il2CppArray<::System::UInt32>* DisplayMonsterList; // 0x50
-		::RPG::Client::TextID BookContext; // 0x58
-		::System::UInt32 BattleAreaID; // 0x68
-		::System::UInt32 FloorID; // 0x6C
-		::System::UInt32 EnvironmentBuffID; // 0x70
-		::System::UInt32 BattleAreaGroupID; // 0x74
-		::RPG::Client::TextID Name; // 0x78
-		::System::UInt32 EventID; // 0x88
-		::System::UInt32 TurnLimit; // 0x8C
-		::System::UInt32 ActivityModuleID; // 0x90
-		::System::UInt32 BattleID; // 0x94
-		::RPG::Client::TextID BookContextChange; // 0x98
-		::System::UInt32 PreBattleID; // 0xA8
-		::System::UInt32 FinishQuest; // 0xAC
-		::System::UInt32 UnlockChapterID; // 0xB0
+		::RPG::Client::TextID Name; // 0x58
+		::RPG::Client::TextID BookContext; // 0x68
+		::RPG::Client::TextID BookContextChange; // 0x78
+		::RPG::Client::TextID BookTitle; // 0x88
+		::System::UInt32 PreBattleID; // 0x98
+		::System::UInt32 EnvironmentBuffID; // 0x9C
+		::System::UInt32 TurnLimit; // 0xA0
+		::System::UInt32 BattleAreaGroupID; // 0xA4
+		::System::UInt32 UnlockChapterID; // 0xA8
+		::System::UInt32 BattleAreaID; // 0xAC
+		::System::UInt32 FloorID; // 0xB0
 		::System::UInt32 PlaneID; // 0xB4
-		::RPG::Client::TextID BookTitle; // 0xB8
+		::System::UInt32 BattleID; // 0xB8
+		::System::UInt32 FinishQuest; // 0xBC
+		::System::UInt32 ActivityModuleID; // 0xC0
+		::System::UInt32 EventID; // 0xC4
 
 		::System::Void _ctor()
 		{

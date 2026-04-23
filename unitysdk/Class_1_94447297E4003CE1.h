@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Globalization { class CultureInfo; }
 
-#define CLASS_1_94447297E4003CE1_METHOD_1_4B967A5E70FF7EE4_OFFSET UNITYSDK_OFFSET(0x165B47A0)
-#define CLASS_1_94447297E4003CE1__CTOR_OFFSET UNITYSDK_OFFSET(0x165B4870)
+#define CLASS_1_94447297E4003CE1_METHOD_1_4B967A5E70FF7EE4_OFFSET UNITYSDK_OFFSET(0x1A68E580)
+#define CLASS_1_94447297E4003CE1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68E800)
 
-inline static constexpr unsigned int Class_1_94447297E4003CE1_TypeDefinitionIndex = 32171;
+inline static constexpr unsigned int Class_1_94447297E4003CE1_TypeDefinitionIndex = 37891;
 
 class Class_1_94447297E4003CE1 : public ::System::Object
 {

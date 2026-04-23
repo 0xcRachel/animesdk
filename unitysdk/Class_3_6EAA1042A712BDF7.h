@@ -8,11 +8,11 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6EAA1042A712BDF7_EVALUATE_OFFSET UNITYSDK_OFFSET(0x114672F0)
-#define CLASS_3_6EAA1042A712BDF7_METHOD_3_FC6E258A03E9EF7C_OFFSET UNITYSDK_OFFSET(0x11467540)
-#define CLASS_3_6EAA1042A712BDF7__CTOR_OFFSET UNITYSDK_OFFSET(0x114672C0)
+#define CLASS_3_6EAA1042A712BDF7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xAC82F20)
+#define CLASS_3_6EAA1042A712BDF7_METHOD_3_FC6E258A03E9EF7C_OFFSET UNITYSDK_OFFSET(0xAC83170)
+#define CLASS_3_6EAA1042A712BDF7__CTOR_OFFSET UNITYSDK_OFFSET(0xAC82EF0)
 
-inline static constexpr unsigned int Class_3_6EAA1042A712BDF7_TypeDefinitionIndex = 46757;
+inline static constexpr unsigned int Class_3_6EAA1042A712BDF7_TypeDefinitionIndex = 53466;
 
 class Class_3_6EAA1042A712BDF7 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsAllPuzzleStateMatchedClientOnly*>
 {

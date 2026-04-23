@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableHugeMonsterHalfDither; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D6225888BBB8F0D6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1D05C0)
-#define CLASS_3_D6225888BBB8F0D6__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D0590)
+#define CLASS_3_D6225888BBB8F0D6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCA8A9E0)
+#define CLASS_3_D6225888BBB8F0D6__CTOR_OFFSET UNITYSDK_OFFSET(0xCA8A9B0)
 
-inline static constexpr unsigned int Class_3_D6225888BBB8F0D6_TypeDefinitionIndex = 44045;
+inline static constexpr unsigned int Class_3_D6225888BBB8F0D6_TypeDefinitionIndex = 50747;
 
 class Class_3_D6225888BBB8F0D6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableHugeMonsterHalfDither*>
 {

@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
 #include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
 #include "unitysdk/RPG/GameCore/GridFightNodeType.h"
 
-class Class_1_F0A446EC7AE7E87D_1;
+class Class_1_EBD9A77671154634;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_74864F42A9A9602A_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x11552A70)
-#define CLASS_2_74864F42A9A9602A_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x115526A0)
-#define CLASS_2_74864F42A9A9602A_UPDATEMODIFIER_OFFSET UNITYSDK_OFFSET(0x11552A00)
-#define CLASS_2_74864F42A9A9602A__CTOR_OFFSET UNITYSDK_OFFSET(0x11552F70)
-#define CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x11553140)
-#define CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x11553060)
-#define CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEMODIFIER_OFFSET UNITYSDK_OFFSET(0x115530D0)
+#define CLASS_2_74864F42A9A9602A_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xF42C0E0)
+#define CLASS_2_74864F42A9A9602A_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xF42BCE0)
+#define CLASS_2_74864F42A9A9602A_UPDATEMODIFIER_OFFSET UNITYSDK_OFFSET(0xF42C070)
+#define CLASS_2_74864F42A9A9602A__CTOR_OFFSET UNITYSDK_OFFSET(0xF42C640)
+#define CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xF42C810)
+#define CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xF42C730)
+#define CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEMODIFIER_OFFSET UNITYSDK_OFFSET(0xF42C7A0)
 
-inline static constexpr unsigned int Class_2_74864F42A9A9602A_TypeDefinitionIndex = 52988;
+inline static constexpr unsigned int Class_2_74864F42A9A9602A_TypeDefinitionIndex = 60078;
 
-class Class_2_74864F42A9A9602A : public ::Class_1_41E07A9DDAB7FC78
+class Class_2_74864F42A9A9602A : public ::Class_1_6D4DDF404C3CCC18
 {
 public:
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_2_1; // 0x10
@@ -36,9 +36,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_74864F42A9A9602A_UPDATEBEFORE_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void UpdateModifier(::Class_1_F0A446EC7AE7E87D_1* a1)
+	::System::Void UpdateModifier(::Class_1_EBD9A77671154634* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + CLASS_2_74864F42A9A9602A_UPDATEMODIFIER_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + CLASS_2_74864F42A9A9602A_UPDATEMODIFIER_OFFSET))(this, a1);
 	}
 
 	::System::Void UpdateAfter(::Enum_3_75A5C8C4100A8E33_1 a1)
@@ -51,9 +51,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEBEFORE_OFFSET))(this, P0, P1);
 	}
 
-	::System::Void __iFixBaseProxy_UpdateModifier(::Class_1_F0A446EC7AE7E87D_1* P0)
+	::System::Void __iFixBaseProxy_UpdateModifier(::Class_1_EBD9A77671154634* P0)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEMODIFIER_OFFSET))(this, P0);
+		return ((::System::Void(*)(::PVOID, ::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + CLASS_2_74864F42A9A9602A___IFIXBASEPROXY_UPDATEMODIFIER_OFFSET))(this, P0);
 	}
 
 	::System::Void __iFixBaseProxy_UpdateAfter(::Enum_3_75A5C8C4100A8E33_1 P0)

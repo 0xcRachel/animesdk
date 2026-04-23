@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_C4C2ACF3D9655BEA_24__CTOR_OFFSET UNITYSDK_OFFSET(0x8DCD380)
+#define CLASS_1_C4C2ACF3D9655BEA_24__CTOR_OFFSET UNITYSDK_OFFSET(0x1267CFD0)
 
-inline static constexpr unsigned int Class_1_C4C2ACF3D9655BEA_24_TypeDefinitionIndex = 38310;
+inline static constexpr unsigned int Class_1_C4C2ACF3D9655BEA_24_TypeDefinitionIndex = 44194;
 
 class Class_1_C4C2ACF3D9655BEA_24 : public ::System::Object
 {

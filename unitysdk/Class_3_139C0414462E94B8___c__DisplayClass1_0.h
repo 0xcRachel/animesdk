@@ -8,10 +8,10 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D22C0)
-#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xA6D2620)
+#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF7C6110)
+#define CLASS_3_139C0414462E94B8___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xF7C6470)
 
-inline static constexpr unsigned int Class_3_139C0414462E94B8___c__DisplayClass1_0_TypeDefinitionIndex = 42483;
+inline static constexpr unsigned int Class_3_139C0414462E94B8___c__DisplayClass1_0_TypeDefinitionIndex = 48444;
 
 class Class_3_139C0414462E94B8___c__DisplayClass1_0 : public ::System::Object
 {

@@ -6,9 +6,9 @@ class Class_1_ADBE1843AD1E672A;
 class Class_2_344EC9BD102703F5;
 namespace RPG::Client { class DirectDeliveryNoticeToastData; }
 
-#define CLASS_2_67556107F6051F25__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF5A00)
+#define CLASS_2_67556107F6051F25__CTOR_OFFSET UNITYSDK_OFFSET(0xF7B5900)
 
-inline static constexpr unsigned int Class_2_67556107F6051F25_TypeDefinitionIndex = 41935;
+inline static constexpr unsigned int Class_2_67556107F6051F25_TypeDefinitionIndex = 47901;
 
 class Class_2_67556107F6051F25 : public ::Sofa::Core::ObservableObject
 {

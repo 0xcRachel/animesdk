@@ -6,11 +6,11 @@ namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x16ADC4F0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x15A8EA30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSkillRadialBlur_TypeDefinitionIndex = 29447;
+	inline static constexpr unsigned int RPGSkillRadialBlur_TypeDefinitionIndex = 35214;
 
 	class RPGSkillRadialBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{

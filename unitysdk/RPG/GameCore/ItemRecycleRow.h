@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMRECYCLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17338770)
-#define RPG_GAMECORE_ITEMRECYCLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17338E80)
+#define RPG_GAMECORE_ITEMRECYCLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188A33C0)
+#define RPG_GAMECORE_ITEMRECYCLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188A3AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemRecycleRow_TypeDefinitionIndex = 12700;
+	inline static constexpr unsigned int ItemRecycleRow_TypeDefinitionIndex = 13167;
 
 	class ItemRecycleRow : public ::System::Object
 	{
 	public:
 		::System::String* RecycleTime; // 0x10
-		::System::Boolean ShowTimeType; // 0x18
-		::System::Boolean IsShowTime; // 0x19
-		::RPG::Client::TextID Tips; // 0x20
+		::RPG::Client::TextID Tips; // 0x18
+		::System::UInt32 ItemID; // 0x28
+		::System::Boolean IsShowTime; // 0x2C
+		::System::Boolean ShowTimeType; // 0x2D
 		::RPG::GameCore::ItemRecycleShowType ShowType; // 0x30
-		::System::UInt32 ItemID; // 0x34
 
 		::System::Void _ctor()
 		{

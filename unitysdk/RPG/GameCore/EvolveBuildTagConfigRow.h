@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171C6CB0)
-#define RPG_GAMECORE_EVOLVEBUILDTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171C7450)
+#define RPG_GAMECORE_EVOLVEBUILDTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19461900)
+#define RPG_GAMECORE_EVOLVEBUILDTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194620A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildTagConfigRow_TypeDefinitionIndex = 10670;
+	inline static constexpr unsigned int EvolveBuildTagConfigRow_TypeDefinitionIndex = 10921;
 
 	class EvolveBuildTagConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ExtraEffectID; // 0x28
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x2C
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
 		::System::UInt32 ShopSkillID; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 ExtraEffectID; // 0x34
 
 		::System::Void _ctor()
 		{

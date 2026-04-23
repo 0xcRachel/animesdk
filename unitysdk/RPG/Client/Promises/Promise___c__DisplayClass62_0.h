@@ -7,20 +7,20 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS62_0__ALL_B__0_OFFSET UNITYSDK_OFFSET(0x1835C530)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS62_0__ALL_B__3_OFFSET UNITYSDK_OFFSET(0x1835C700)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1835B3F0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS62_0__ALL_B__0_OFFSET UNITYSDK_OFFSET(0x1A718030)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS62_0__ALL_B__3_OFFSET UNITYSDK_OFFSET(0x1A718200)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A716ED0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass62_0_TypeDefinitionIndex = 9621;
+	inline static constexpr unsigned int Promise___c__DisplayClass62_0_TypeDefinitionIndex = 8669;
 
 	class Promise___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* resultPromise; // 0x10
-		::Il2CppArray<::System::Single>* progress; // 0x18
-		::System::Action_1<::System::Exception*>* __9__3; // 0x20
+		::System::Action_1<::System::Exception*>* __9__3; // 0x10
+		::RPG::Client::Promises::Promise* resultPromise; // 0x18
+		::Il2CppArray<::System::Single>* progress; // 0x20
 		::System::Int32 remainingCount; // 0x28
 
 		::System::Void _ctor()

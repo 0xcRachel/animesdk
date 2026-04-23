@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 
-#define CLASS_2_C5B746F543F615E2_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10672F30)
-#define CLASS_2_C5B746F543F615E2_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x10672EC0)
-#define CLASS_2_C5B746F543F615E2__CTOR_OFFSET UNITYSDK_OFFSET(0x10673040)
+#define CLASS_2_C5B746F543F615E2_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xDAFDBC0)
+#define CLASS_2_C5B746F543F615E2_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xDAFDB50)
+#define CLASS_2_C5B746F543F615E2__CTOR_OFFSET UNITYSDK_OFFSET(0xDAFDCD0)
 
-inline static constexpr unsigned int Class_2_C5B746F543F615E2_TypeDefinitionIndex = 59627;
+inline static constexpr unsigned int Class_2_C5B746F543F615E2_TypeDefinitionIndex = 67023;
 
 class Class_2_C5B746F543F615E2 : public ::Class_1_89D8044AB73F8F6D
 {
 public:
 	::UnityEngine::UI::Button* Field_2_3; // 0x18
 	::UnityEngine::UI::InputField* Field_2_2; // 0x20
-	::UnityEngine::UI::Button* Field_2_0; // 0x28
+	::UnityEngine::UI::Button* Field_2_1; // 0x28
 	::UnityEngine::UI::InputField* Field_2_4; // 0x30
-	::UnityEngine::UI::Button* Field_2_1; // 0x38
+	::UnityEngine::UI::Button* Field_2_0; // 0x38
 
 	::System::Void _ctor()
 	{

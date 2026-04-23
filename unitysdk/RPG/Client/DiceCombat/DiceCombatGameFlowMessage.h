@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatGameFlowMessage_TypeDefinitionIndex = 61953;
+	inline static constexpr unsigned int DiceCombatGameFlowMessage_TypeDefinitionIndex = 69878;
 
 	enum class DiceCombatGameFlowMessage : ::System::Int32
 	{
@@ -34,5 +34,6 @@ namespace RPG::Client::DiceCombat
 		ExitGameResult = 24,
 		QuitGame = 25,
 		InviteFriendPVP = 26,
+		FinishPvEBattle = 27,
 	};
 }

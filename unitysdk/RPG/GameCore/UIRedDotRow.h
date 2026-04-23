@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIREDDOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178F6D20)
-#define RPG_GAMECORE_UIREDDOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178F73B0)
+#define RPG_GAMECORE_UIREDDOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19132F80)
+#define RPG_GAMECORE_UIREDDOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19133610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIRedDotRow_TypeDefinitionIndex = 14143;
+	inline static constexpr unsigned int UIRedDotRow_TypeDefinitionIndex = 14612;
 
 	class UIRedDotRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* RedDotChildren; // 0x10
+		::System::String* RedDot; // 0x10
 		::Il2CppArray<::System::UInt32>* Weight; // 0x18
-		::System::String* RedDot; // 0x20
+		::Il2CppArray<::System::String*>* RedDotChildren; // 0x20
 		::System::UInt32 Type; // 0x28
 		::System::UInt32 RedDotID; // 0x2C
 		::System::UInt32 UnlockID; // 0x30

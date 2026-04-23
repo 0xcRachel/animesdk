@@ -6,19 +6,19 @@
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CARTOONTRANSFER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x92C63C0)
+#define RPG_CLIENT_CARTOONTRANSFER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15E2A4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CartoonTransfer_Config_TypeDefinitionIndex = 59423;
+	inline static constexpr unsigned int CartoonTransfer_Config_TypeDefinitionIndex = 66818;
 
 	class CartoonTransfer_Config : public ::System::Object
 	{
 	public:
-		::System::Action* OnPlayEnd; // 0x10
-		::UnityEngine::AnimationCurve* Curve; // 0x18
-		::System::Single Duration; // 0x20
-		::System::Boolean Close; // 0x24
+		::UnityEngine::AnimationCurve* Curve; // 0x10
+		::System::Action* OnPlayEnd; // 0x18
+		::System::Boolean Close; // 0x20
+		::System::Single Duration; // 0x24
 		::UnityEngine::Vector2 Center; // 0x28
 
 		::System::Void _ctor()

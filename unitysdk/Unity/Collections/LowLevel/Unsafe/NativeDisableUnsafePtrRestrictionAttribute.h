@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVEDISABLEUNSAFEPTRRESTRICTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189FBD70)
+#define UNITY_COLLECTIONS_LOWLEVEL_UNSAFE_NATIVEDISABLEUNSAFEPTRRESTRICTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF87C0)
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeDisableUnsafePtrRestrictionAttribute_TypeDefinitionIndex = 3811;
+	inline static constexpr unsigned int NativeDisableUnsafePtrRestrictionAttribute_TypeDefinitionIndex = 3813;
 
 	class NativeDisableUnsafePtrRestrictionAttribute : public ::System::Attribute
 	{

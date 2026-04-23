@@ -7,20 +7,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA99ADD0)
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA99AD80)
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED__CTOR_OFFSET UNITYSDK_OFFSET(0xA99AE20)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19207DB0)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19207D60)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED__CTOR_OFFSET UNITYSDK_OFFSET(0x19207E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLastKillTriggered_TypeDefinitionIndex = 45735;
+	inline static constexpr unsigned int LevelLastKillTriggered_TypeDefinitionIndex = 52387;
 
 	class LevelLastKillTriggered : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Caster; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
-		::RPG::GameCore::SkillConfig* Skill; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x10
+		::RPG::GameCore::SkillConfig* Skill; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_UGCINTERFACE_UGCINFO_TOQUERY_OFFSET UNITYSDK_OFFSET(0x85ACA20)
-#define MIHOYO_SDK_UGCINTERFACE_UGCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x85A88B0)
+#define MIHOYO_SDK_UGCINTERFACE_UGCINFO_TOQUERY_OFFSET UNITYSDK_OFFSET(0x17CEEB60)
+#define MIHOYO_SDK_UGCINTERFACE_UGCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17CEA9F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface_UgcInfo_TypeDefinitionIndex = 37197;
+	inline static constexpr unsigned int UGCInterface_UgcInfo_TypeDefinitionIndex = 43042;
 
 	class UGCInterface_UgcInfo : public ::System::Object
 	{
 	public:
-		::System::String* authkey_ver; // 0x10
-		::System::String* token_url; // 0x18
-		::System::String* lang; // 0x20
-		::System::String* auth_appid; // 0x28
-		::System::String* game; // 0x30
+		::System::String* token_url; // 0x10
+		::System::String* game; // 0x18
+		::System::String* authkey_ver; // 0x20
+		::System::String* lang; // 0x28
+		::System::String* auth_appid; // 0x30
 		::System::Int64 sign_type; // 0x38
 
 		::System::Void _ctor()

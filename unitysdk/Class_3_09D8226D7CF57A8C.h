@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddEntityToRelationGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_09D8226D7CF57A8C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8CD6930)
-#define CLASS_3_09D8226D7CF57A8C__CTOR_OFFSET UNITYSDK_OFFSET(0x8CD6900)
+#define CLASS_3_09D8226D7CF57A8C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE660E0)
+#define CLASS_3_09D8226D7CF57A8C__CTOR_OFFSET UNITYSDK_OFFSET(0xEE660B0)
 
-inline static constexpr unsigned int Class_3_09D8226D7CF57A8C_TypeDefinitionIndex = 44051;
+inline static constexpr unsigned int Class_3_09D8226D7CF57A8C_TypeDefinitionIndex = 50753;
 
 class Class_3_09D8226D7CF57A8C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddEntityToRelationGroup*>
 {

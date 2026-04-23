@@ -4,30 +4,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_6EAFFD47A1CFCEAD_OFFSET UNITYSDK_OFFSET(0x1721ED60)
-#define RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_FF7F12B290030894_OFFSET UNITYSDK_OFFSET(0x1721EE20)
-#define RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1721EE00)
+#define RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_0ABD65B6F496CADD_OFFSET UNITYSDK_OFFSET(0x191F0710)
+#define RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_3199361A58A884E9_OFFSET UNITYSDK_OFFSET(0x191F0600)
+#define RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x191F06F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSetPlayerToMusicFallAction_TypeDefinitionIndex = 17218;
+	inline static constexpr unsigned int FiveDimSetPlayerToMusicFallAction_TypeDefinitionIndex = 17820;
 
 	class FiveDimSetPlayerToMusicFallAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
+		::System::Boolean IsEnter; // 0x10
+
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6EAFFD47A1CFCEAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction*& a2)
+		static ::System::Void Method_3_3199361A58A884E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_6EAFFD47A1CFCEAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_3199361A58A884E9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FF7F12B290030894(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction* a2)
+		static ::System::Void Method_3_0ABD65B6F496CADD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_FF7F12B290030894_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSetPlayerToMusicFallAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSETPLAYERTOMUSICFALLACTION_METHOD_3_0ABD65B6F496CADD_OFFSET))(a1, a2);
 		}
 	};
 }

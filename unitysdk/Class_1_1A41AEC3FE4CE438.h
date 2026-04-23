@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/BattleModeType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_CAA8B23EA64BF072;
+class Class_1_1735A22855B404E5;
 namespace System { class Type; }
 
-#define CLASS_1_1A41AEC3FE4CE438__CTOR_OFFSET UNITYSDK_OFFSET(0x888C100)
+#define CLASS_1_1A41AEC3FE4CE438__CTOR_OFFSET UNITYSDK_OFFSET(0x10312AB0)
 
-inline static constexpr unsigned int Class_1_1A41AEC3FE4CE438_TypeDefinitionIndex = 49491;
+inline static constexpr unsigned int Class_1_1A41AEC3FE4CE438_TypeDefinitionIndex = 56286;
 
 class Class_1_1A41AEC3FE4CE438 : public ::System::Object
 {
 public:
-	::Class_1_CAA8B23EA64BF072* Field_1_2; // 0x10
-	::System::Type* Field_1_3; // 0x18
-	::System::Object* Field_1_1; // 0x20
-	::System::Object* Field_1_4; // 0x28
+	::System::Object* Field_1_4; // 0x10
+	::Class_1_1735A22855B404E5* Field_1_2; // 0x18
+	::System::Type* Field_1_3; // 0x20
+	::System::Object* Field_1_1; // 0x28
 	::RPG::GameCore::BattleModeType Field_1_0; // 0x30
 
 	::System::Void _ctor()

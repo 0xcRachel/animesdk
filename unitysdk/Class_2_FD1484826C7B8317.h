@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_FD1484826C7B8317_METHOD_2_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0xD1B6270)
-#define CLASS_2_FD1484826C7B8317_METHOD_2_1A6C778433F4964B_OFFSET UNITYSDK_OFFSET(0xD1B6120)
-#define CLASS_2_FD1484826C7B8317__CTOR_OFFSET UNITYSDK_OFFSET(0xD1B62C0)
-#define CLASS_2_FD1484826C7B8317__ONBIND_OFFSET UNITYSDK_OFFSET(0xD1B5FA0)
-#define CLASS_2_FD1484826C7B8317___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xD1B62F0)
+#define CLASS_2_FD1484826C7B8317_METHOD_2_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0x135DDDD0)
+#define CLASS_2_FD1484826C7B8317_METHOD_2_1A6C778433F4964B_OFFSET UNITYSDK_OFFSET(0x135DDC80)
+#define CLASS_2_FD1484826C7B8317__CTOR_OFFSET UNITYSDK_OFFSET(0x135DDE20)
+#define CLASS_2_FD1484826C7B8317__ONBIND_OFFSET UNITYSDK_OFFSET(0x135DDB70)
+#define CLASS_2_FD1484826C7B8317___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x135DDE50)
 
-inline static constexpr unsigned int Class_2_FD1484826C7B8317_TypeDefinitionIndex = 58848;
+inline static constexpr unsigned int Class_2_FD1484826C7B8317_TypeDefinitionIndex = 66215;
 
 class Class_2_FD1484826C7B8317 : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -21,9 +21,9 @@ public:
 	// static const ::System::String* Field_2_4; // 0x0
 	// static const ::System::String* Field_2_5; // 0x0
 	// static const ::System::String* Field_2_6; // 0x0
-	::UnityEngine::Transform* Field_2_0; // 0x60
+	::UnityEngine::Transform* Field_2_1; // 0x60
 	::UnityEngine::Animation* Field_2_2; // 0x68
-	::UnityEngine::Transform* Field_2_1; // 0x70
+	::UnityEngine::Transform* Field_2_0; // 0x70
 	::System::Boolean Field_2_3; // 0x78
 
 	::System::Void _ctor()

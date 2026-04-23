@@ -8,22 +8,22 @@ namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15B2A830)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15B2A7C0)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x15B2A7B0)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15B2A650)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x19790800)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19790790)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x19790780)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19790620)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 6341;
+	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 6351;
 
 	class MethodDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x28
-		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x30
-		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x38
-		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x40
+		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x28
+		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x30
+		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x38
+		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::MethodDescriptorProto* proto, ::Google::Protobuf::Reflection::FileDescriptor* file, ::Google::Protobuf::Reflection::ServiceDescriptor* parent, ::System::Int32 index)
 		{

@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D38C00)
+#define RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D38F40)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int FiveDimFluteTalkConfigRow_TypeDefinitionIndex = 13362;
+
+	class FiveDimFluteTalkConfigRow : public ::System::Object
+	{
+	public:
+		::System::String* IconPathErrorTIps; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* IconPathInputTips; // 0x20
+		::System::UInt32 FluteID; // 0x28
+		::RPG::Client::TextID EnterTipsTextID; // 0x30
+		::RPG::Client::TextID InputTipsTextID; // 0x40
+		::RPG::Client::TextID ErrorTIpsTextID; // 0x50
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::FiveDimFluteTalkConfigRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFluteTalkConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFLUTETALKCONFIGROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

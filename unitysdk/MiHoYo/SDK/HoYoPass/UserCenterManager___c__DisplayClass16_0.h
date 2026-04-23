@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK { class Web; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F24840)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET UNITYSDK_OFFSET(0x15F26510)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153F68C0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS16_0__ONGETTHIRDTOKENINVOKED_B__0_OFFSET UNITYSDK_OFFSET(0x153F8600)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c__DisplayClass16_0_TypeDefinitionIndex = 7267;
+	inline static constexpr unsigned int UserCenterManager___c__DisplayClass16_0_TypeDefinitionIndex = 7315;
 
 	class UserCenterManager___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::String* jsCallback; // 0x10
-		::MiHoYo::SDK::Web* webPage; // 0x18
+		::MiHoYo::SDK::Web* webPage; // 0x10
+		::System::String* jsCallback; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,22 +5,22 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class JSONNode; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF4FB0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__FILTERGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x15DF5400)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16187F50)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_CDNDATASOURCE___C__DISPLAYCLASS5_0__FILTERGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x161883A0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int CDNDataSource___c__DisplayClass5_0_TypeDefinitionIndex = 7456;
+	inline static constexpr unsigned int CDNDataSource___c__DisplayClass5_0_TypeDefinitionIndex = 7597;
 
 	class CDNDataSource___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONArray* result; // 0x10
-		::MiHoYo::SDK::JSONArray* requiredIdList; // 0x18
+		::MiHoYo::SDK::JSONArray* requiredIdList; // 0x10
+		::MiHoYo::SDK::JSONArray* result; // 0x18
 		::MiHoYo::SDK::JSONArray* requiredTypeList; // 0x20
-		::System::Int64 currentRoleLevel; // 0x28
-		::System::Boolean filterByType; // 0x30
-		::System::Boolean filterById; // 0x31
+		::System::Boolean filterById; // 0x28
+		::System::Boolean filterByType; // 0x29
+		::System::Int64 currentRoleLevel; // 0x30
 
 		::System::Void _ctor()
 		{

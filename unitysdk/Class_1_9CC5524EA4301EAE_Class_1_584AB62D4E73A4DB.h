@@ -6,9 +6,9 @@
 namespace RPG::Client { class CharacterAtlasFace; }
 namespace System { class String; }
 
-#define CLASS_1_9CC5524EA4301EAE_CLASS_1_584AB62D4E73A4DB__CTOR_OFFSET UNITYSDK_OFFSET(0xAC541B0)
+#define CLASS_1_9CC5524EA4301EAE_CLASS_1_584AB62D4E73A4DB__CTOR_OFFSET UNITYSDK_OFFSET(0xAD411F0)
 
-inline static constexpr unsigned int Class_1_9CC5524EA4301EAE_Class_1_584AB62D4E73A4DB_TypeDefinitionIndex = 46021;
+inline static constexpr unsigned int Class_1_9CC5524EA4301EAE_Class_1_584AB62D4E73A4DB_TypeDefinitionIndex = 52682;
 
 class Class_1_9CC5524EA4301EAE_Class_1_584AB62D4E73A4DB : public ::System::Object
 {

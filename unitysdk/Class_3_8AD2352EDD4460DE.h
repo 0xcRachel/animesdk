@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearRecordEntityFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8AD2352EDD4460DE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C9ADF0)
-#define CLASS_3_8AD2352EDD4460DE__CTOR_OFFSET UNITYSDK_OFFSET(0x8C9ADC0)
+#define CLASS_3_8AD2352EDD4460DE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7F22C0)
+#define CLASS_3_8AD2352EDD4460DE__CTOR_OFFSET UNITYSDK_OFFSET(0xD7F2290)
 
-inline static constexpr unsigned int Class_3_8AD2352EDD4460DE_TypeDefinitionIndex = 44256;
+inline static constexpr unsigned int Class_3_8AD2352EDD4460DE_TypeDefinitionIndex = 50970;
 
 class Class_3_8AD2352EDD4460DE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearRecordEntityFormation*>
 {

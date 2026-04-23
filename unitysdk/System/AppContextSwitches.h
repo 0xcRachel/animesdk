@@ -9,17 +9,17 @@ namespace System
 	class AppContextSwitches : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3620);
-		}
 		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3621);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x1E20);
 		}
 		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x3622);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x1E21);
+		}
+		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x1E22);
 		}
 	};
 }

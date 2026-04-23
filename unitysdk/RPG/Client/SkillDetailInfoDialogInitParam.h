@@ -7,25 +7,25 @@
 
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0xA4A7680)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0xA4A76A0)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0xA4A7690)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0xA4A76B0)
-#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A76C0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x1536CED0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_GET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x1536CEF0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_SKILLROWDATA_OFFSET UNITYSDK_OFFSET(0x1536CEE0)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x1536CF00)
+#define RPG_CLIENT_SKILLDETAILINFODIALOGINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1536CF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_TypeDefinitionIndex = 59071;
+	inline static constexpr unsigned int SkillDetailInfoDialogInitParam_TypeDefinitionIndex = 66452;
 
 	class SkillDetailInfoDialogInitParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ICharacterSkillRowData* _SkillRowData_k__BackingField; // 0x10
-		::RPG::GameCore::AvatarSpecialUltraType _UltraSkillType_k__BackingField; // 0x18
-		::System::Nullable_1<::System::Int32> CurSP; // 0x1C
-		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x24
-		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x34
-		::System::Boolean ShowLevel; // 0x44
+		::System::Nullable_1<::System::Int32> CurSP; // 0x18
+		::RPG::GameCore::AvatarSpecialUltraType _UltraSkillType_k__BackingField; // 0x20
+		::System::Nullable_1<::UnityEngine::Vector3> Offset; // 0x24
+		::System::Boolean ShowLevel; // 0x34
+		::System::Nullable_1<::UnityEngine::Vector3> Position; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_SELECTORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14F7130)
+#define CRIWARE_CRIATOMEXACF_SELECTORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x22C72B0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_SelectorInfo_TypeDefinitionIndex = 31061;
+	inline static constexpr unsigned int CriAtomExAcf_SelectorInfo_TypeDefinitionIndex = 36781;
 
 	struct alignas(8) CriAtomExAcf_SelectorInfo
 	{

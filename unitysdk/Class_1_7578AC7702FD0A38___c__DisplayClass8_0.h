@@ -6,16 +6,16 @@ class Class_1_7578AC7702FD0A38;
 class Class_2_6D901FCC8D1C685B;
 namespace RPG::Client { class ScheduleData; }
 
-#define CLASS_1_7578AC7702FD0A38___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x111F6000)
-#define CLASS_1_7578AC7702FD0A38___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x111F6420)
+#define CLASS_1_7578AC7702FD0A38___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5BA8B0)
+#define CLASS_1_7578AC7702FD0A38___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC5BACD0)
 
-inline static constexpr unsigned int Class_1_7578AC7702FD0A38___c__DisplayClass8_0_TypeDefinitionIndex = 49808;
+inline static constexpr unsigned int Class_1_7578AC7702FD0A38___c__DisplayClass8_0_TypeDefinitionIndex = 56630;
 
 class Class_1_7578AC7702FD0A38___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::Class_2_6D901FCC8D1C685B* round; // 0x10
-	::Class_1_7578AC7702FD0A38* __4__this; // 0x18
+	::Class_1_7578AC7702FD0A38* __4__this; // 0x10
+	::Class_2_6D901FCC8D1C685B* round; // 0x18
 	::System::UInt32 activityModuleID; // 0x20
 
 	::System::Void _ctor()

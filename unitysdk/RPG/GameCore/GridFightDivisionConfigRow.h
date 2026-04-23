@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1726B2C0)
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1726B620)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1956B090)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1956B3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightDivisionConfigRow_TypeDefinitionIndex = 12439;
+	inline static constexpr unsigned int GridFightDivisionConfigRow_TypeDefinitionIndex = 12874;
 
 	class GridFightDivisionConfigRow : public ::System::Object
 	{
@@ -19,12 +19,12 @@ namespace RPG::GameCore
 		::System::String* DivisionShowPic; // 0x10
 		::Il2CppArray<::System::UInt32>* DivisionRewardQuest; // 0x18
 		::System::String* DivisionIcon; // 0x20
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 Progress; // 0x2C
-		::System::UInt32 DivisionLevel; // 0x30
-		::System::UInt32 SeasonID; // 0x34
-		::RPG::Client::TextID DivisionName; // 0x38
-		::System::Boolean IsPromotion; // 0x48
+		::System::UInt32 SeasonID; // 0x28
+		::RPG::Client::TextID DivisionName; // 0x30
+		::System::Boolean IsPromotion; // 0x40
+		::System::UInt32 DivisionLevel; // 0x44
+		::System::UInt32 Progress; // 0x48
+		::System::UInt32 ID; // 0x4C
 
 		::System::Void _ctor()
 		{

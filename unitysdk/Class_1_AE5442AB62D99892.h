@@ -7,10 +7,10 @@ class Class_0_16E4307DCC419505_98;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_AE5442AB62D99892_CLEAR_OFFSET UNITYSDK_OFFSET(0x1676C2E0)
-#define CLASS_1_AE5442AB62D99892__CTOR_OFFSET UNITYSDK_OFFSET(0x1676C360)
+#define CLASS_1_AE5442AB62D99892_CLEAR_OFFSET UNITYSDK_OFFSET(0x1554F740)
+#define CLASS_1_AE5442AB62D99892__CTOR_OFFSET UNITYSDK_OFFSET(0x1554F7C0)
 
-inline static constexpr unsigned int Class_1_AE5442AB62D99892_TypeDefinitionIndex = 33300;
+inline static constexpr unsigned int Class_1_AE5442AB62D99892_TypeDefinitionIndex = 39089;
 
 class Class_1_AE5442AB62D99892 : public ::System::Object
 {

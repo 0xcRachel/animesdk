@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DEPARTEDCONFIG_METHOD_2_BDC0C94B64C4397B_OFFSET UNITYSDK_OFFSET(0x17166710)
-#define RPG_GAMECORE_DEPARTEDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17166870)
+#define RPG_GAMECORE_DEPARTEDCONFIG_METHOD_2_BDC0C94B64C4397B_OFFSET UNITYSDK_OFFSET(0x19582E10)
+#define RPG_GAMECORE_DEPARTEDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19582F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DepartedConfig_TypeDefinitionIndex = 21849;
+	inline static constexpr unsigned int DepartedConfig_TypeDefinitionIndex = 22587;
 
 	class DepartedConfig : public ::RPG::GameCore::JsonConfig
 	{

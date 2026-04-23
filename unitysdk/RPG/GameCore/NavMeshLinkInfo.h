@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NAVMESHLINKINFO_METHOD_2_4D71F2DECA34CF44_OFFSET UNITYSDK_OFFSET(0x17484C20)
-#define RPG_GAMECORE_NAVMESHLINKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17484D70)
+#define RPG_GAMECORE_NAVMESHLINKINFO_METHOD_2_4D71F2DECA34CF44_OFFSET UNITYSDK_OFFSET(0x1864B770)
+#define RPG_GAMECORE_NAVMESHLINKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1864B8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NavMeshLinkInfo_TypeDefinitionIndex = 15902;
+	inline static constexpr unsigned int NavMeshLinkInfo_TypeDefinitionIndex = 16428;
 
 	class NavMeshLinkInfo : public ::RPG::GameCore::JsonConfig
 	{

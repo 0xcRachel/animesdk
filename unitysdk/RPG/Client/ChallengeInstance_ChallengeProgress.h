@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_140;
+class Class_1_D17272E82AE804C2_147;
 namespace RPG::Client { class BaseChallengeTargetData; }
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client { class ChallengeInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_DEEPCOPYFROM_OFFSET UNITYSDK_OFFSET(0x92D5BC0)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x92D67F0)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATETARGETSTATUS_OFFSET UNITYSDK_OFFSET(0x92D6E00)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x92D6CA0)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x92D5B30)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__DEEPCOPYCHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x92D79A0)
-#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__UPDATECHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x92D7B20)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_DEEPCOPYFROM_OFFSET UNITYSDK_OFFSET(0x15F8DA40)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0x15F8E670)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATETARGETSTATUS_OFFSET UNITYSDK_OFFSET(0x15F8EC80)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15F8EB20)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x15F8D9B0)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__DEEPCOPYCHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x15F8F850)
+#define RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__UPDATECHALLENGETARGETDATA_OFFSET UNITYSDK_OFFSET(0x15F8F9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeInstance_ChallengeProgress_TypeDefinitionIndex = 51194;
+	inline static constexpr unsigned int ChallengeInstance_ChallengeProgress_TypeDefinitionIndex = 58115;
 
 	class ChallengeInstance_ChallengeProgress : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::BaseChallengeTargetData*>* ChallengeTargetDatas; // 0x10
-		::System::Collections::Generic::List_1<::Class_1_FA4F4A67B1C04320_140*>* KillMonsters; // 0x18
+		::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_147*>* KillMonsters; // 0x18
 		::RPG::Client::ChallengeInstance* _ChallengeInstanceRef; // 0x20
 		::System::UInt32 DeadAvatarNum; // 0x28
-		::System::UInt32 Score; // 0x2C
-		::System::UInt32 TurnCost; // 0x30
+		::System::UInt32 TurnCost; // 0x2C
+		::System::UInt32 Score; // 0x30
 
 		::System::Void _ctor(::RPG::Client::ChallengeInstance* challengeInstance)
 		{
@@ -40,9 +40,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChallengeData*, ::RPG::Client::ChallengeInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS__CTOR_1_OFFSET))(this, challengeData, challengeInstance);
 		}
 
-		::System::Void UpdateProgress(::System::UInt32 turnCost, ::System::UInt32 avatarDeadNum, ::System::Collections::Generic::List_1<::Class_1_FA4F4A67B1C04320_140*>* killMonsters, ::System::UInt32 currentScore)
+		::System::Void UpdateProgress(::System::UInt32 turnCost, ::System::UInt32 avatarDeadNum, ::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_147*>* killMonsters, ::System::UInt32 currentScore)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_FA4F4A67B1C04320_140*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET))(this, turnCost, avatarDeadNum, killMonsters, currentScore);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_147*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEINSTANCE_CHALLENGEPROGRESS_UPDATEPROGRESS_OFFSET))(this, turnCost, avatarDeadNum, killMonsters, currentScore);
 		}
 
 		::System::Void UpdateTargetStatus(::System::UInt32 targetBitSet)

@@ -10,31 +10,31 @@ namespace HoudiniEngineUnity { class HEU_VolumeScatterTrees; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x8474C40)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x154409B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LoadBufferVolume_TypeDefinitionIndex = 37792;
+	inline static constexpr unsigned int HEU_LoadBufferVolume_TypeDefinitionIndex = 43669;
 
 	class HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase
 	{
 	public:
-		::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties; // 0x28
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers; // 0x30
-		::System::String* _specifiedTerrainMaterialName; // 0x38
+		::System::String* _terrainDataPath; // 0x28
+		::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>* _detailMaps; // 0x30
+		::Il2CppArray<::System::Single>* _heightMap; // 0x38
 		::Il2CppArray<::System::Single>* _splatMaps; // 0x40
-		::System::Collections::Generic::List_1<::Il2CppArray<::System::Int32>*>* _detailMaps; // 0x48
-		::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees; // 0x50
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes; // 0x58
-		::Il2CppArray<::System::Single>* _heightMap; // 0x60
-		::System::String* _terrainDataExportPath; // 0x68
-		::System::String* _terrainDataPath; // 0x70
-		::System::Single _heightRange; // 0x78
-		::System::Single _terrainSizeY; // 0x7C
-		::UnityEngine::Vector3 _position; // 0x80
-		::System::Int32 _heightMapHeight; // 0x8C
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers; // 0x48
+		::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties; // 0x50
+		::System::String* _specifiedTerrainMaterialName; // 0x58
+		::System::String* _terrainDataExportPath; // 0x60
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes; // 0x68
+		::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees; // 0x70
+		::System::Int32 _heightMapHeight; // 0x78
+		::System::Int32 _tileIndex; // 0x7C
+		::System::Single _terrainSizeY; // 0x80
+		::UnityEngine::Vector3 _position; // 0x84
 		::System::Int32 _heightMapWidth; // 0x90
-		::System::Int32 _tileIndex; // 0x94
+		::System::Single _heightRange; // 0x94
 		::System::Single _terrainSizeX; // 0x98
 
 		::System::Void _ctor()

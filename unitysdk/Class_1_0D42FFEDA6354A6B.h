@@ -5,16 +5,16 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_0D42FFEDA6354A6B__CTOR_OFFSET UNITYSDK_OFFSET(0x16878D40)
+#define CLASS_1_0D42FFEDA6354A6B__CTOR_OFFSET UNITYSDK_OFFSET(0x15378160)
 
-inline static constexpr unsigned int Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex = 33257;
+inline static constexpr unsigned int Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex = 39044;
 
 class Class_1_0D42FFEDA6354A6B : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex)->GetStaticField(0x10710);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_0D42FFEDA6354A6B_TypeDefinitionIndex)->GetStaticField(0x11360);
 	}
 	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::InputSignalType>* Field_1_0; // 0x10
 

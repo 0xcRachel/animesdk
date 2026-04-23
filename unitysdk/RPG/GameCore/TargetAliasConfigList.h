@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_FE6A4C85E52B116F_OFFSET UNITYSDK_OFFSET(0x177C15E0)
-#define RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x177C16B0)
+#define RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_FE6A4C85E52B116F_OFFSET UNITYSDK_OFFSET(0x199D0770)
+#define RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x199D0840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetAliasConfigList_TypeDefinitionIndex = 22235;
+	inline static constexpr unsigned int TargetAliasConfigList_TypeDefinitionIndex = 22949;
 
 	class TargetAliasConfigList : public ::RPG::GameCore::JsonConfig
 	{

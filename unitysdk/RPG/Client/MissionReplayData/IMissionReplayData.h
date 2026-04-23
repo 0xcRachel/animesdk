@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MissionReplayData
 {
-	inline static constexpr unsigned int IMissionReplayData_TypeDefinitionIndex = 61411;
+	inline static constexpr unsigned int IMissionReplayData_TypeDefinitionIndex = 68917;
 
 	class IMissionReplayData
 	{

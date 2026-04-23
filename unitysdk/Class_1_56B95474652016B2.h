@@ -5,10 +5,10 @@
 namespace RPG::Client { class TalkOptionData; }
 namespace RPG::GameCore { class OptionTalkInfo; }
 
-#define CLASS_1_56B95474652016B2_METHOD_1_19F3562A7061FEC1_OFFSET UNITYSDK_OFFSET(0x8B82850)
-#define CLASS_1_56B95474652016B2__CTOR_OFFSET UNITYSDK_OFFSET(0x8B82910)
+#define CLASS_1_56B95474652016B2_METHOD_1_19F3562A7061FEC1_OFFSET UNITYSDK_OFFSET(0x11A4CA50)
+#define CLASS_1_56B95474652016B2__CTOR_OFFSET UNITYSDK_OFFSET(0x11A4CB10)
 
-inline static constexpr unsigned int Class_1_56B95474652016B2_TypeDefinitionIndex = 55519;
+inline static constexpr unsigned int Class_1_56B95474652016B2_TypeDefinitionIndex = 62713;
 
 class Class_1_56B95474652016B2 : public ::System::Object
 {

@@ -12,29 +12,29 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_0B45428C848E725C_METHOD_1_01D00AF5D67C9DE3_OFFSET UNITYSDK_OFFSET(0x105F5B50)
-#define CLASS_1_0B45428C848E725C_METHOD_1_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0x105F5880)
-#define CLASS_1_0B45428C848E725C_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x105F5D70)
-#define CLASS_1_0B45428C848E725C_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x105F5D10)
-#define CLASS_1_0B45428C848E725C_METHOD_1_CF48D47ABED5EA16_OFFSET UNITYSDK_OFFSET(0x105F4D50)
-#define CLASS_1_0B45428C848E725C__CTOR_OFFSET UNITYSDK_OFFSET(0x105F5DC0)
+#define CLASS_1_0B45428C848E725C_METHOD_1_01D00AF5D67C9DE3_OFFSET UNITYSDK_OFFSET(0xFBE28F0)
+#define CLASS_1_0B45428C848E725C_METHOD_1_071850D2764E9D4C_OFFSET UNITYSDK_OFFSET(0xFBE2620)
+#define CLASS_1_0B45428C848E725C_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xFBE2B10)
+#define CLASS_1_0B45428C848E725C_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xFBE2AB0)
+#define CLASS_1_0B45428C848E725C_METHOD_1_CF48D47ABED5EA16_OFFSET UNITYSDK_OFFSET(0xFBE1B50)
+#define CLASS_1_0B45428C848E725C__CTOR_OFFSET UNITYSDK_OFFSET(0xFBE2B60)
 
-inline static constexpr unsigned int Class_1_0B45428C848E725C_TypeDefinitionIndex = 57632;
+inline static constexpr unsigned int Class_1_0B45428C848E725C_TypeDefinitionIndex = 64896;
 
 class Class_1_0B45428C848E725C : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_5; // 0x10
-	::Il2CppArray<::UnityEngine::Renderer*>* Field_1_7; // 0x18
-	::UnityEngine::Camera* Field_1_0; // 0x20
+	::Il2CppArray<::UnityEngine::Renderer*>* Field_1_7; // 0x10
+	::RPG::CustomRP::VirtualCamera* Field_1_6; // 0x18
+	::UnityEngine::Transform* Field_1_5; // 0x20
 	::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* Field_1_8; // 0x28
-	::UnityEngine::GameObject* Field_1_1; // 0x30
-	::RPG::CustomRP::VirtualCamera* Field_1_6; // 0x38
-	::UnityEngine::Vector2 Field_1_3; // 0x40
-	::System::Boolean Field_1_10; // 0x48
-	::UnityEngine::Vector4 Field_1_2; // 0x4C
-	::UnityEngine::Matrix4x4 Field_1_9; // 0x5C
-	::System::Single Field_1_4; // 0x9C
+	::UnityEngine::Camera* Field_1_0; // 0x30
+	::UnityEngine::GameObject* Field_1_1; // 0x38
+	::System::Boolean Field_1_10; // 0x40
+	::UnityEngine::Vector2 Field_1_3; // 0x44
+	::System::Single Field_1_4; // 0x4C
+	::UnityEngine::Matrix4x4 Field_1_9; // 0x50
+	::UnityEngine::Vector4 Field_1_2; // 0x90
 
 	::System::Void _ctor()
 	{

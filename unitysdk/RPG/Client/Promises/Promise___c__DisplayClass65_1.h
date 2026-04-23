@@ -6,13 +6,13 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise___c__DisplayClass65_0; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1835C9F0)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__1_OFFSET UNITYSDK_OFFSET(0x1835CA00)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__2_OFFSET UNITYSDK_OFFSET(0x1835CA60)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7184F0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__1_OFFSET UNITYSDK_OFFSET(0x1A718500)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__2_OFFSET UNITYSDK_OFFSET(0x1A718560)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass65_1_TypeDefinitionIndex = 9625;
+	inline static constexpr unsigned int Promise___c__DisplayClass65_1_TypeDefinitionIndex = 8673;
 
 	class Promise___c__DisplayClass65_1 : public ::System::Object
 	{

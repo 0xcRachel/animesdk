@@ -6,29 +6,29 @@ namespace RPG::Client { class MusicRhythmLevel; }
 namespace RPG::Client { class MusicRhythmTrack; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DDF090)
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DDF0D0)
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLLEVELS_B__5_0_OFFSET UNITYSDK_OFFSET(0x9DDF110)
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLTRACKS_B__4_0_OFFSET UNITYSDK_OFFSET(0x9DDF0E0)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F21AA0)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F21AE0)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLLEVELS_B__5_0_OFFSET UNITYSDK_OFFSET(0x15F21B20)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLTRACKS_B__4_0_OFFSET UNITYSDK_OFFSET(0x15F21AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmGroup___c_TypeDefinitionIndex = 50170;
+	inline static constexpr unsigned int MusicRhythmGroup___c_TypeDefinitionIndex = 57017;
 
 	class MusicRhythmGroup___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::MusicRhythmGroup___c** StaticGet___9()
+		{
+			return (::RPG::Client::MusicRhythmGroup___c**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmGroup___c_TypeDefinitionIndex)->GetStaticField(0x60280);
+		}
 		static ::System::Comparison_1<::RPG::Client::MusicRhythmLevel*>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MusicRhythmLevel*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmGroup___c_TypeDefinitionIndex)->GetStaticField(0x468A0);
+			return (::System::Comparison_1<::RPG::Client::MusicRhythmLevel*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmGroup___c_TypeDefinitionIndex)->GetStaticField(0x60288);
 		}
 		static ::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmGroup___c_TypeDefinitionIndex)->GetStaticField(0x468A8);
-		}
-		static ::RPG::Client::MusicRhythmGroup___c** StaticGet___9()
-		{
-			return (::RPG::Client::MusicRhythmGroup___c**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmGroup___c_TypeDefinitionIndex)->GetStaticField(0x468B0);
+			return (::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>**)Il2CppClass::FromTypeDefinitionIndex(MusicRhythmGroup___c_TypeDefinitionIndex)->GetStaticField(0x60290);
 		}
 
 		static ::System::Void _cctor()

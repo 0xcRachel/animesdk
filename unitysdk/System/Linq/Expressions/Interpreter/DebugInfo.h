@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class DebugInfo_DebugInfoComparer; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_GETMATCHINGDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x184D3960)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x184D3A50)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x184D3D80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x184D3A40)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_GETMATCHINGDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x18652270)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18652360)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x18652690)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18652350)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DebugInfo_TypeDefinitionIndex = 3466;
+	inline static constexpr unsigned int DebugInfo_TypeDefinitionIndex = 3468;
 
 	class DebugInfo : public ::System::Object
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer** StaticGet_s_debugComparer()
 		{
-			return (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer**)Il2CppClass::FromTypeDefinitionIndex(DebugInfo_TypeDefinitionIndex)->GetStaticField(0x256F0);
+			return (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer**)Il2CppClass::FromTypeDefinitionIndex(DebugInfo_TypeDefinitionIndex)->GetStaticField(0xEF10);
 		}
 		::System::String* FileName; // 0x10
 		::System::Boolean IsClear; // 0x18
-		::System::Int32 StartLine; // 0x1C
-		::System::Int32 EndLine; // 0x20
+		::System::Int32 EndLine; // 0x1C
+		::System::Int32 StartLine; // 0x20
 		::System::Int32 Index; // 0x24
 
 		::System::Void _ctor()

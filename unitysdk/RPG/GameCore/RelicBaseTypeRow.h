@@ -8,20 +8,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1759FF70)
-#define RPG_GAMECORE_RELICBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175A0680)
+#define RPG_GAMECORE_RELICBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1901B4C0)
+#define RPG_GAMECORE_RELICBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1901BBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicBaseTypeRow_TypeDefinitionIndex = 13365;
+	inline static constexpr unsigned int RelicBaseTypeRow_TypeDefinitionIndex = 13843;
 
 	class RelicBaseTypeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ValidPropertyList; // 0x10
-		::System::String* BaseTypeIconPath; // 0x18
-		::RPG::GameCore::RelicType Type; // 0x20
-		::RPG::Client::TextID BaseTypeText; // 0x28
+		::System::String* BaseTypeIconPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ValidPropertyList; // 0x18
+		::RPG::Client::TextID BaseTypeText; // 0x20
+		::RPG::GameCore::RelicType Type; // 0x30
 
 		::System::Void _ctor()
 		{

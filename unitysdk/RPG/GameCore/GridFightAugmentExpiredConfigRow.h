@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTAUGMENTEXPIREDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17266BF0)
-#define RPG_GAMECORE_GRIDFIGHTAUGMENTEXPIREDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17266D60)
+#define RPG_GAMECORE_GRIDFIGHTAUGMENTEXPIREDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195666E0)
+#define RPG_GAMECORE_GRIDFIGHTAUGMENTEXPIREDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19566850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAugmentExpiredConfigRow_TypeDefinitionIndex = 12252;
+	inline static constexpr unsigned int GridFightAugmentExpiredConfigRow_TypeDefinitionIndex = 12684;
 
 	class GridFightAugmentExpiredConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AugmentID; // 0x10
-		::System::UInt32 SubSeasonID; // 0x14
-		::System::UInt32 SeasonID; // 0x18
+		::System::UInt32 SubSeasonID; // 0x10
+		::System::UInt32 SeasonID; // 0x14
+		::System::UInt32 AugmentID; // 0x18
 
 		::System::Void _ctor()
 		{

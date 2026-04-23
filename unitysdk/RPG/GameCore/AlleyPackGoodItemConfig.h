@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AlleyPackAnchorsConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F8CC10)
-#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8CDE0)
+#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ACD9E0)
+#define RPG_GAMECORE_ALLEYPACKGOODITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18ACDBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyPackGoodItemConfig_TypeDefinitionIndex = 14377;
+	inline static constexpr unsigned int AlleyPackGoodItemConfig_TypeDefinitionIndex = 14847;
 
 	class AlleyPackGoodItemConfig : public ::RPG::GameCore::JsonConfig
 	{

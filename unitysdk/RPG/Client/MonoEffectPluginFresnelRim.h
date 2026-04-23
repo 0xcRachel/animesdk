@@ -4,20 +4,20 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_749948B663FCCCEF_OFFSET UNITYSDK_OFFSET(0x9CDF470)
-#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x9CDF2D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM__CTOR_OFFSET UNITYSDK_OFFSET(0x9CDF460)
+#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_092CD57850778EFC_OFFSET UNITYSDK_OFFSET(0x16608300)
+#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x16608160)
+#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM__CTOR_OFFSET UNITYSDK_OFFSET(0x166082F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFresnelRim_TypeDefinitionIndex = 57282;
+	inline static constexpr unsigned int MonoEffectPluginFresnelRim_TypeDefinitionIndex = 64536;
 
 	class MonoEffectPluginFresnelRim : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:
-		::UnityEngine::Color FresnelColor; // 0x168
-		::UnityEngine::Vector4 FresnelBSI; // 0x178
-		::System::Single FresnelColorStrength; // 0x188
+		::UnityEngine::Color FresnelColor; // 0x170
+		::UnityEngine::Vector4 FresnelBSI; // 0x180
+		::System::Single FresnelColorStrength; // 0x190
 
 		::System::Void _ctor()
 		{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_99D60EF23C904C6D_OFFSET))(this);
 		}
 
-		::System::Void Method_8_749948B663FCCCEF()
+		::System::Void Method_8_092CD57850778EFC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_749948B663FCCCEF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_METHOD_8_092CD57850778EFC_OFFSET))(this);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERFILEPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A66B0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_CALLERFILEPATHATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F59B50)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CallerFilePathAttribute_TypeDefinitionIndex = 1349;
+	inline static constexpr unsigned int CallerFilePathAttribute_TypeDefinitionIndex = 1351;
 
 	class CallerFilePathAttribute : public ::System::Attribute
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByIsInPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6C2637B30035D271_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11478090)
-#define CLASS_3_6C2637B30035D271__CTOR_OFFSET UNITYSDK_OFFSET(0x11478060)
+#define CLASS_3_6C2637B30035D271_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA41F6A0)
+#define CLASS_3_6C2637B30035D271__CTOR_OFFSET UNITYSDK_OFFSET(0xA41F670)
 
-inline static constexpr unsigned int Class_3_6C2637B30035D271_TypeDefinitionIndex = 43545;
+inline static constexpr unsigned int Class_3_6C2637B30035D271_TypeDefinitionIndex = 50242;
 
 class Class_3_6C2637B30035D271 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureByIsInPosition*>
 {

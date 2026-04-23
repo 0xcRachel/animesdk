@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SFXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1768DC80)
-#define RPG_GAMECORE_SFXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1768DE40)
+#define RPG_GAMECORE_SFXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E8E6F0)
+#define RPG_GAMECORE_SFXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8E8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SFXConfigRow_TypeDefinitionIndex = 13824;
+	inline static constexpr unsigned int SFXConfigRow_TypeDefinitionIndex = 14296;
 
 	class SFXConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* SFXPath; // 0x10
-		::System::UInt32 SFXID; // 0x18
+		::System::Boolean IsPlayerInvolved; // 0x18
 		::RPG::GameCore::SFXPlayType SFXType; // 0x1C
-		::System::Boolean IsPlayerInvolved; // 0x20
+		::System::UInt32 SFXID; // 0x20
 
 		::System::Void _ctor()
 		{

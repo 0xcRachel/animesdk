@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/EventSystems/MoveDirection.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_SCROLLRECT_REBOUNDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B74470)
+#define UNITYENGINE_UI_SCROLLRECT_REBOUNDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15EAD6F0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ScrollRect_ReboundEvent_TypeDefinitionIndex = 5698;
+	inline static constexpr unsigned int ScrollRect_ReboundEvent_TypeDefinitionIndex = 5710;
 
 	class ScrollRect_ReboundEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::EventSystems::MoveDirection>
 	{

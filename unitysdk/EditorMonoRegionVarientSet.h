@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define EDITORMONOREGIONVARIENTSET__CTOR_OFFSET UNITYSDK_OFFSET(0xFB894D0)
+#define EDITORMONOREGIONVARIENTSET__CTOR_OFFSET UNITYSDK_OFFSET(0xC319420)
 
-inline static constexpr unsigned int EditorMonoRegionVarientSet_TypeDefinitionIndex = 38262;
+inline static constexpr unsigned int EditorMonoRegionVarientSet_TypeDefinitionIndex = 44146;
 
 class EditorMonoRegionVarientSet : public ::UnityEngine::MonoBehaviour
 {

@@ -7,31 +7,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B6D50)
-#define RPG_GAMECORE_SWORDTRAININGSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B7370)
+#define RPG_GAMECORE_SWORDTRAININGSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199C5BD0)
+#define RPG_GAMECORE_SWORDTRAININGSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199C61F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryRow_TypeDefinitionIndex = 11380;
+	inline static constexpr unsigned int SwordTrainingStoryRow_TypeDefinitionIndex = 11782;
 
 	class SwordTrainingStoryRow : public ::System::Object
 	{
 	public:
 		::System::String* StoryImage; // 0x10
 		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
-		::RPG::Client::TextID StoryDesc; // 0x20
-		::System::UInt32 RepeatPerformanceID; // 0x30
-		::System::UInt32 PartnerID; // 0x34
-		::System::UInt32 ExamID; // 0x38
-		::System::UInt32 StoryID; // 0x3C
-		::RPG::Client::TextID ConditionDesc; // 0x40
-		::System::UInt32 MissionID; // 0x50
+		::System::UInt32 PartnerID; // 0x20
+		::System::UInt32 MissionID; // 0x24
+		::RPG::GameCore::SwordTrainingStoryType StoryType; // 0x28
+		::System::UInt32 RepeatPerformanceID; // 0x2C
+		::RPG::Client::TextID StoryDesc; // 0x30
+		::RPG::Client::TextID EffectDesc; // 0x40
+		::System::UInt32 Condition; // 0x50
 		::System::UInt32 PerformanceID; // 0x54
-		::RPG::GameCore::SwordTrainingStoryType StoryType; // 0x58
-		::System::UInt32 Condition; // 0x5C
-		::RPG::Client::TextID StoryHint; // 0x60
-		::RPG::Client::TextID EffectDesc; // 0x70
-		::RPG::Client::TextID StoryTitle; // 0x80
+		::RPG::Client::TextID ConditionDesc; // 0x58
+		::RPG::Client::TextID StoryTitle; // 0x68
+		::RPG::Client::TextID StoryHint; // 0x78
+		::System::UInt32 StoryID; // 0x88
+		::System::UInt32 ExamID; // 0x8C
 
 		::System::Void _ctor()
 		{

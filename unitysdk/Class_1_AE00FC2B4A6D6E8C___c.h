@@ -6,22 +6,22 @@ namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_AE00FC2B4A6D6E8C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x114563B0)
-#define CLASS_1_AE00FC2B4A6D6E8C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x114563F0)
-#define CLASS_1_AE00FC2B4A6D6E8C___C__UPDATEASSOCIATEFINISHCONDITIONMISSION_B__0_0_OFFSET UNITYSDK_OFFSET(0x11456400)
+#define CLASS_1_AE00FC2B4A6D6E8C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xEFBAAF0)
+#define CLASS_1_AE00FC2B4A6D6E8C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xEFBAB30)
+#define CLASS_1_AE00FC2B4A6D6E8C___C__UPDATEASSOCIATEFINISHCONDITIONMISSION_B__0_0_OFFSET UNITYSDK_OFFSET(0xEFBAB40)
 
-inline static constexpr unsigned int Class_1_AE00FC2B4A6D6E8C___c_TypeDefinitionIndex = 45432;
+inline static constexpr unsigned int Class_1_AE00FC2B4A6D6E8C___c_TypeDefinitionIndex = 52076;
 
 class Class_1_AE00FC2B4A6D6E8C___c : public ::System::Object
 {
 public:
 	static ::Class_1_AE00FC2B4A6D6E8C___c** StaticGet___9()
 	{
-		return (::Class_1_AE00FC2B4A6D6E8C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AE00FC2B4A6D6E8C___c_TypeDefinitionIndex)->GetStaticField(0x18D10);
+		return (::Class_1_AE00FC2B4A6D6E8C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AE00FC2B4A6D6E8C___c_TypeDefinitionIndex)->GetStaticField(0x55300);
 	}
 	static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>** StaticGet___9__0_0()
 	{
-		return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AE00FC2B4A6D6E8C___c_TypeDefinitionIndex)->GetStaticField(0x18D18);
+		return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_AE00FC2B4A6D6E8C___c_TypeDefinitionIndex)->GetStaticField(0x55308);
 	}
 
 	static ::System::Void _cctor()

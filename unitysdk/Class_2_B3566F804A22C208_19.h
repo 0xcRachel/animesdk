@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_295;
+class Class_0_16E4307DCC419505_303;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B3566F804A22C208_19_LOCK_OFFSET UNITYSDK_OFFSET(0x104F3310)
-#define CLASS_2_B3566F804A22C208_19_UNLOCK_OFFSET UNITYSDK_OFFSET(0x104F33E0)
-#define CLASS_2_B3566F804A22C208_19__CTOR_OFFSET UNITYSDK_OFFSET(0x104F3300)
-#define CLASS_2_B3566F804A22C208_19___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x104F34B0)
-#define CLASS_2_B3566F804A22C208_19___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x104F3520)
+#define CLASS_2_B3566F804A22C208_19_LOCK_OFFSET UNITYSDK_OFFSET(0xCAAB5B0)
+#define CLASS_2_B3566F804A22C208_19_UNLOCK_OFFSET UNITYSDK_OFFSET(0xCAAB670)
+#define CLASS_2_B3566F804A22C208_19__CTOR_OFFSET UNITYSDK_OFFSET(0xCAAB5A0)
+#define CLASS_2_B3566F804A22C208_19___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0xCAAB730)
+#define CLASS_2_B3566F804A22C208_19___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xCAAB7A0)
 
-inline static constexpr unsigned int Class_2_B3566F804A22C208_19_TypeDefinitionIndex = 61502;
+inline static constexpr unsigned int Class_2_B3566F804A22C208_19_TypeDefinitionIndex = 69010;
 
 class Class_2_B3566F804A22C208_19 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_19__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_19__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

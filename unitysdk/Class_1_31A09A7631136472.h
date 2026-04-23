@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_31A09A7631136472_METHOD_1_8BB49121CE46D15D_OFFSET UNITYSDK_OFFSET(0xD1A53D0)
-#define CLASS_1_31A09A7631136472__CTOR_OFFSET UNITYSDK_OFFSET(0xD1A53C0)
+#define CLASS_1_31A09A7631136472_METHOD_1_8BB49121CE46D15D_OFFSET UNITYSDK_OFFSET(0xC5CB320)
+#define CLASS_1_31A09A7631136472__CTOR_OFFSET UNITYSDK_OFFSET(0xC5CB310)
 
-inline static constexpr unsigned int Class_1_31A09A7631136472_TypeDefinitionIndex = 56663;
+inline static constexpr unsigned int Class_1_31A09A7631136472_TypeDefinitionIndex = 63907;
 
 class Class_1_31A09A7631136472 : public ::System::Object
 {
 public:
-	::Struct_2_085541A9CFF64383 Field_1_0; // 0x10
-	::Struct_2_085541A9CFF64383 Field_1_1; // 0x18
+	::Struct_2_085541A9CFF64383 Field_1_1; // 0x10
+	::Struct_2_085541A9CFF64383 Field_1_0; // 0x18
 
 	::System::Void _ctor(::Struct_2_085541A9CFF64383 a1, ::Struct_2_085541A9CFF64383 a2)
 	{

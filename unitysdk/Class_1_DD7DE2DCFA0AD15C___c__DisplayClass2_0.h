@@ -4,10 +4,10 @@
 
 namespace UnityEngine::Events { class UnityAction; }
 
-#define CLASS_1_DD7DE2DCFA0AD15C___C__DISPLAYCLASS2_0__BINDVIEWCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x8A28010)
-#define CLASS_1_DD7DE2DCFA0AD15C___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8A272E0)
+#define CLASS_1_DD7DE2DCFA0AD15C___C__DISPLAYCLASS2_0__BINDVIEWCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x10FCE410)
+#define CLASS_1_DD7DE2DCFA0AD15C___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10FCD730)
 
-inline static constexpr unsigned int Class_1_DD7DE2DCFA0AD15C___c__DisplayClass2_0_TypeDefinitionIndex = 58476;
+inline static constexpr unsigned int Class_1_DD7DE2DCFA0AD15C___c__DisplayClass2_0_TypeDefinitionIndex = 65770;
 
 class Class_1_DD7DE2DCFA0AD15C___c__DisplayClass2_0 : public ::System::Object
 {

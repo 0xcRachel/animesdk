@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD_CLASS_1_29346FA79C775DFC_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA0FF8A0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD_CLASS_1_29346FA79C775DFC_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10389B70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1_TypeDefinitionIndex = 64154;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1_TypeDefinitionIndex = 72201;
 
 	class OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1 : public ::System::Object
 	{

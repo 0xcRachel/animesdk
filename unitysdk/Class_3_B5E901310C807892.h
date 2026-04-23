@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BySwitchMascotCanShootTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B5E901310C807892_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1154C170)
-#define CLASS_3_B5E901310C807892__CTOR_OFFSET UNITYSDK_OFFSET(0x1154C140)
+#define CLASS_3_B5E901310C807892_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC29BAA0)
+#define CLASS_3_B5E901310C807892__CTOR_OFFSET UNITYSDK_OFFSET(0xC29BA70)
 
-inline static constexpr unsigned int Class_3_B5E901310C807892_TypeDefinitionIndex = 46770;
+inline static constexpr unsigned int Class_3_B5E901310C807892_TypeDefinitionIndex = 53479;
 
 class Class_3_B5E901310C807892 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::BySwitchMascotCanShootTarget*>
 {

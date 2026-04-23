@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RoleTrialActivityData.h"
 
-#define RPG_CLIENT_ROLETRIALCOLLABORATIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA3FF580)
+#define RPG_CLIENT_ROLETRIALCOLLABORATIONACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15BA9C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoleTrialCollaborationActivityData_TypeDefinitionIndex = 50023;
+	inline static constexpr unsigned int RoleTrialCollaborationActivityData_TypeDefinitionIndex = 56864;
 
 	class RoleTrialCollaborationActivityData : public ::RPG::Client::RoleTrialActivityData
 	{

@@ -5,24 +5,24 @@
 namespace RPG::Client::NavMap { class IMainTab; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_NAVMAP_WORLDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9E3C990)
-#define RPG_CLIENT_NAVMAP_WORLDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9E3C9C0)
-#define RPG_CLIENT_NAVMAP_WORLDDATA___C__GET_SHOWTABS_B__24_0_OFFSET UNITYSDK_OFFSET(0x9E3C9D0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1262BE90)
+#define RPG_CLIENT_NAVMAP_WORLDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1262BEC0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA___C__GET_SHOWTABS_B__24_0_OFFSET UNITYSDK_OFFSET(0x1262BED0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int WorldData___c_TypeDefinitionIndex = 61371;
+	inline static constexpr unsigned int WorldData___c_TypeDefinitionIndex = 68877;
 
 	class WorldData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::NavMap::WorldData___c** StaticGet___9()
-		{
-			return (::RPG::Client::NavMap::WorldData___c**)Il2CppClass::FromTypeDefinitionIndex(WorldData___c_TypeDefinitionIndex)->GetStaticField(0x48040);
-		}
 		static ::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(WorldData___c_TypeDefinitionIndex)->GetStaticField(0x48048);
+			return (::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(WorldData___c_TypeDefinitionIndex)->GetStaticField(0x68270);
+		}
+		static ::RPG::Client::NavMap::WorldData___c** StaticGet___9()
+		{
+			return (::RPG::Client::NavMap::WorldData___c**)Il2CppClass::FromTypeDefinitionIndex(WorldData___c_TypeDefinitionIndex)->GetStaticField(0x68278);
 		}
 
 		static ::System::Void _cctor()

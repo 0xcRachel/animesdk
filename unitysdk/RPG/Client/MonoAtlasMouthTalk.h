@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOATLASMOUTHTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x9C1F9F0)
+#define RPG_CLIENT_MONOATLASMOUTHTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x152BC340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 55948;
+	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 63191;
 
 	class MonoAtlasMouthTalk : public ::UnityEngine::MonoBehaviour
 	{

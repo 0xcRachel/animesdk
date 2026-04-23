@@ -5,19 +5,19 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x99B0BF0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x99B1110)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND__TRIGGERSTARTPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x99B0D80)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1585FD20)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x15860240)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND__TRIGGERSTARTPERFORMANCE_OFFSET UNITYSDK_OFFSET(0x1585FEB0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraWorkTransitionCommand_TypeDefinitionIndex = 62398;
+	inline static constexpr unsigned int ChimeraWorkTransitionCommand_TypeDefinitionIndex = 70397;
 
 	class ChimeraWorkTransitionCommand : public ::System::Object
 	{
 	public:
-		::System::Int32 ToIndex; // 0x10
-		::System::Int32 FromIndex; // 0x14
+		::System::Int32 FromIndex; // 0x10
+		::System::Int32 ToIndex; // 0x14
 
 		::System::Void _ctor(::System::Int32 from, ::System::Int32 to)
 		{

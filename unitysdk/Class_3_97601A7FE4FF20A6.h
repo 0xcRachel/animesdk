@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MoveUINodeToMask; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_97601A7FE4FF20A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8DC5460)
-#define CLASS_3_97601A7FE4FF20A6__CTOR_OFFSET UNITYSDK_OFFSET(0x8DC5430)
+#define CLASS_3_97601A7FE4FF20A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD26250)
+#define CLASS_3_97601A7FE4FF20A6__CTOR_OFFSET UNITYSDK_OFFSET(0xCD26220)
 
-inline static constexpr unsigned int Class_3_97601A7FE4FF20A6_TypeDefinitionIndex = 46972;
+inline static constexpr unsigned int Class_3_97601A7FE4FF20A6_TypeDefinitionIndex = 53704;
 
 class Class_3_97601A7FE4FF20A6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MoveUINodeToMask*>
 {

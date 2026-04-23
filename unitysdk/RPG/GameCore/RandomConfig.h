@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_704FF9B9B1E02FF8_OFFSET UNITYSDK_OFFSET(0x175940C0)
-#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_7202DE5DAB38DB8F_OFFSET UNITYSDK_OFFSET(0x17593F40)
-#define RPG_GAMECORE_RANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17594010)
+#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_704FF9B9B1E02FF8_OFFSET UNITYSDK_OFFSET(0x1900D370)
+#define RPG_GAMECORE_RANDOMCONFIG_METHOD_4_7202DE5DAB38DB8F_OFFSET UNITYSDK_OFFSET(0x1900D1F0)
+#define RPG_GAMECORE_RANDOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1900D2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomConfig_TypeDefinitionIndex = 22053;
+	inline static constexpr unsigned int RandomConfig_TypeDefinitionIndex = 22769;
 
 	class RandomConfig : public ::RPG::GameCore::CompositeConfig
 	{

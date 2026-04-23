@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_867B6CE75953535A_1;
+class Class_1_4D11CE62B2BEC69E;
 class Class_1_CA9A7ECA43FC8636_Class_1_F2D17E30E1E79D69;
 class Class_2_0C58AD91B0F4D809;
-class Class_2_9C2F1FCEC1A75FFD;
+class Class_2_1A8148841049062A;
 class Class_3_D6E9A038FA23103A;
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameView; }
@@ -25,61 +25,62 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_CA9A7ECA43FC8636_EXECUTE_OFFSET UNITYSDK_OFFSET(0xA1EC7D0)
-#define CLASS_1_CA9A7ECA43FC8636_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xA1EBC90)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_076E1E2A0183A470_OFFSET UNITYSDK_OFFSET(0xA1EE520)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1283EC0876EAAACF_OFFSET UNITYSDK_OFFSET(0xA1F7860)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xA1EBC20)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_18188D67877F2AFB_OFFSET UNITYSDK_OFFSET(0xA1F3480)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_3AC5F11D07AF339C_OFFSET UNITYSDK_OFFSET(0xA1F3620)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_45F53D89337FC6C8_OFFSET UNITYSDK_OFFSET(0xA1F3F50)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_4988666BECC8CE44_OFFSET UNITYSDK_OFFSET(0xA1F74A0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_52DC9CC69AE40BFA_OFFSET UNITYSDK_OFFSET(0xA1EE660)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_91B48388F4BFAF76_OFFSET UNITYSDK_OFFSET(0xA1EF7D0)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_A37E414ACE798D5C_OFFSET UNITYSDK_OFFSET(0xA1F2020)
-#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_E41FCF4CAFD9C569_OFFSET UNITYSDK_OFFSET(0xA1F7690)
-#define CLASS_1_CA9A7ECA43FC8636_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xA1EC2D0)
-#define CLASS_1_CA9A7ECA43FC8636__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1F7C90)
-#define CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET UNITYSDK_OFFSET(0xA1EB950)
+#define CLASS_1_CA9A7ECA43FC8636_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB55AF20)
+#define CLASS_1_CA9A7ECA43FC8636_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB55A3C0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_076E1E2A0183A470_OFFSET UNITYSDK_OFFSET(0xB55CC50)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1283EC0876EAAACF_OFFSET UNITYSDK_OFFSET(0xB5659C0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xB55A350)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_18188D67877F2AFB_OFFSET UNITYSDK_OFFSET(0xB561830)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_3AC5F11D07AF339C_OFFSET UNITYSDK_OFFSET(0xB5619D0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_45F53D89337FC6C8_OFFSET UNITYSDK_OFFSET(0xB5621E0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_4988666BECC8CE44_OFFSET UNITYSDK_OFFSET(0xB565600)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_52DC9CC69AE40BFA_OFFSET UNITYSDK_OFFSET(0xB55CD80)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_91B48388F4BFAF76_OFFSET UNITYSDK_OFFSET(0xB55DEF0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_A37E414ACE798D5C_OFFSET UNITYSDK_OFFSET(0xB5603D0)
+#define CLASS_1_CA9A7ECA43FC8636_METHOD_1_E41FCF4CAFD9C569_OFFSET UNITYSDK_OFFSET(0xB5657F0)
+#define CLASS_1_CA9A7ECA43FC8636_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB55A9E0)
+#define CLASS_1_CA9A7ECA43FC8636__CCTOR_OFFSET UNITYSDK_OFFSET(0xB565DF0)
+#define CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET UNITYSDK_OFFSET(0xB55A080)
+#define CLASS_1_CA9A7ECA43FC8636___ADD2DBRICKTUTORIALTRIGGER_B__13_0_OFFSET UNITYSDK_OFFSET(0xB565E70)
 
-inline static constexpr unsigned int Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex = 62517;
+inline static constexpr unsigned int Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex = 70528;
 
 class Class_1_CA9A7ECA43FC8636 : public ::System::Object
 {
 public:
-	static ::System::Int32* StaticGet_Field_1_1()
+	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x120D0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0xF160);
 	}
 	static ::System::Boolean* StaticGet_Field_1_3()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x120D4);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0xF164);
 	}
-	static ::System::Int32* StaticGet_Field_1_0()
+	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0x120D8);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CA9A7ECA43FC8636_TypeDefinitionIndex)->GetStaticField(0xF168);
 	}
 	// static const ::System::String* Field_1_15; // 0x0
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* Field_1_17; // 0x10
-	::UnityEngine::Transform* Field_1_10; // 0x18
-	::Class_3_D6E9A038FA23103A* Field_1_6; // 0x20
-	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::Class_1_CA9A7ECA43FC8636_Class_1_F2D17E30E1E79D69*>* Field_1_16; // 0x28
-	::System::Collections::Generic::Dictionary_2<::Class_2_9C2F1FCEC1A75FFD*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* Field_1_13; // 0x30
-	::Class_1_867B6CE75953535A_1* Field_1_5; // 0x38
-	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* Field_1_7; // 0x40
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* Field_1_9; // 0x48
-	::UnityEngine::Transform* Field_1_11; // 0x50
-	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* Field_1_12; // 0x58
-	::System::Collections::Generic::Dictionary_2<::Class_2_9C2F1FCEC1A75FFD*, ::Class_2_9C2F1FCEC1A75FFD*>* Field_1_14; // 0x60
-	::System::Collections::Generic::List_1<::UnityEngine::Coroutine*>* Field_1_18; // 0x68
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* Field_1_9; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Class_2_1A8148841049062A*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* Field_1_13; // 0x18
+	::UnityEngine::Transform* Field_1_11; // 0x20
+	::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* Field_1_12; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::Coroutine*>* Field_1_18; // 0x30
+	::Class_3_D6E9A038FA23103A* Field_1_6; // 0x38
+	::UnityEngine::Transform* Field_1_10; // 0x40
+	::System::Collections::Generic::Dictionary_2<::Class_2_0C58AD91B0F4D809*, ::Class_1_CA9A7ECA43FC8636_Class_1_F2D17E30E1E79D69*>* Field_1_16; // 0x48
+	::Class_1_4D11CE62B2BEC69E* Field_1_5; // 0x50
+	::System::Collections::Generic::Dictionary_2<::Class_2_1A8148841049062A*, ::Class_2_1A8148841049062A*>* Field_1_14; // 0x58
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* Field_1_7; // 0x60
+	::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* Field_1_17; // 0x68
 	::UnityEngine::Coroutine* Field_1_19; // 0x70
-	::System::Boolean Field_1_4; // 0x78
-	::System::Boolean Field_1_2; // 0x79
-	::System::Boolean Field_1_8; // 0x7A
+	::System::Boolean Field_1_8; // 0x78
+	::System::Boolean Field_1_4; // 0x79
+	::System::Boolean Field_1_2; // 0x7A
 
-	::System::Void _ctor(::Class_1_867B6CE75953535A_1* a1, ::Class_3_D6E9A038FA23103A* a2)
+	::System::Void _ctor(::Class_1_4D11CE62B2BEC69E* a1, ::Class_3_D6E9A038FA23103A* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_867B6CE75953535A_1*, ::Class_3_D6E9A038FA23103A*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_4D11CE62B2BEC69E*, ::Class_3_D6E9A038FA23103A*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	static ::System::Void _cctor()
@@ -122,9 +123,9 @@ public:
 		return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Camera*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_18188D67877F2AFB_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_91B48388F4BFAF76(::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>*>* a1)
+	::System::Void Method_1_91B48388F4BFAF76(::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::Class_2_1A8148841049062A*>*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>*>*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_91B48388F4BFAF76_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::Class_2_1A8148841049062A*>*>*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_91B48388F4BFAF76_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_52DC9CC69AE40BFA(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a1)
@@ -132,14 +133,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_52DC9CC69AE40BFA_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_45F53D89337FC6C8(::Class_2_0C58AD91B0F4D809* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a2, ::Class_2_9C2F1FCEC1A75FFD* a3)
+	::System::Void Method_1_45F53D89337FC6C8(::Class_2_0C58AD91B0F4D809* a1, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a2, ::Class_2_1A8148841049062A* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_0C58AD91B0F4D809*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::Class_2_9C2F1FCEC1A75FFD*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_45F53D89337FC6C8_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_2_0C58AD91B0F4D809*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::Class_2_1A8148841049062A*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_45F53D89337FC6C8_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_3AC5F11D07AF339C(::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_9C2F1FCEC1A75FFD*>*>* a1, ::Class_2_0C58AD91B0F4D809* a2, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a3, ::Class_2_9C2F1FCEC1A75FFD* a4)
+	::System::Void Method_1_3AC5F11D07AF339C(::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_1A8148841049062A*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_1A8148841049062A*>*>* a1, ::Class_2_0C58AD91B0F4D809* a2, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView* a3, ::Class_2_1A8148841049062A* a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_9C2F1FCEC1A75FFD*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_9C2F1FCEC1A75FFD*>*>*, ::Class_2_0C58AD91B0F4D809*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::Class_2_9C2F1FCEC1A75FFD*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_3AC5F11D07AF339C_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::Tuple_2<::System::Collections::Generic::List_1<::Class_2_1A8148841049062A*>*, ::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::Class_2_1A8148841049062A*>*>*, ::Class_2_0C58AD91B0F4D809*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*, ::Class_2_1A8148841049062A*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_3AC5F11D07AF339C_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	static ::System::Void Method_1_4988666BECC8CE44(::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView* a1, ::System::String* a2, ::UnityEngine::Color a3)
@@ -155,5 +156,10 @@ public:
 	::System::Void Method_1_1283EC0876EAAACF()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636_METHOD_1_1283EC0876EAAACF_OFFSET))(this);
+	}
+
+	::System::Void __Add2DBrickTutorialTrigger_b__13_0(::Class_2_0C58AD91B0F4D809* guestEntity)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_0C58AD91B0F4D809*))((::PBYTE)hIl2Cpp + CLASS_1_CA9A7ECA43FC8636___ADD2DBRICKTUTORIALTRIGGER_B__13_0_OFFSET))(this, guestEntity);
 	}
 };

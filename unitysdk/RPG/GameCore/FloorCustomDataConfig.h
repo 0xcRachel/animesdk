@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace RPG::GameCore { class FloorSavedValueConfig; }
 
-#define RPG_GAMECORE_FLOORCUSTOMDATACONFIG_METHOD_2_C579DC864547EC8D_OFFSET UNITYSDK_OFFSET(0x172284E0)
-#define RPG_GAMECORE_FLOORCUSTOMDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172286A0)
+#define RPG_GAMECORE_FLOORCUSTOMDATACONFIG_METHOD_2_C579DC864547EC8D_OFFSET UNITYSDK_OFFSET(0x191FA990)
+#define RPG_GAMECORE_FLOORCUSTOMDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191FAB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorCustomDataConfig_TypeDefinitionIndex = 16782;
+	inline static constexpr unsigned int FloorCustomDataConfig_TypeDefinitionIndex = 17376;
 
 	class FloorCustomDataConfig : public ::RPG::GameCore::JsonConfig
 	{

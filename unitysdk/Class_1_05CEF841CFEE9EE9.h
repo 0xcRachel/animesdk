@@ -9,18 +9,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_05CEF841CFEE9EE9_METHOD_1_8622CEF37B475BA1_OFFSET UNITYSDK_OFFSET(0x10AED6B0)
-#define CLASS_1_05CEF841CFEE9EE9_METHOD_1_8B80FC55914FF1FF_OFFSET UNITYSDK_OFFSET(0x10AED560)
-#define CLASS_1_05CEF841CFEE9EE9__CCTOR_OFFSET UNITYSDK_OFFSET(0x10AED7F0)
+#define CLASS_1_05CEF841CFEE9EE9_METHOD_1_8622CEF37B475BA1_OFFSET UNITYSDK_OFFSET(0xED6D120)
+#define CLASS_1_05CEF841CFEE9EE9_METHOD_1_8B80FC55914FF1FF_OFFSET UNITYSDK_OFFSET(0xED6CFD0)
+#define CLASS_1_05CEF841CFEE9EE9__CCTOR_OFFSET UNITYSDK_OFFSET(0xED6D260)
 
-inline static constexpr unsigned int Class_1_05CEF841CFEE9EE9_TypeDefinitionIndex = 48690;
+inline static constexpr unsigned int Class_1_05CEF841CFEE9EE9_TypeDefinitionIndex = 55439;
 
 class Class_1_05CEF841CFEE9EE9 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_05CEF841CFEE9EE9_Class_3_CB82A2773748C75A*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_05CEF841CFEE9EE9_Class_3_CB82A2773748C75A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_05CEF841CFEE9EE9_TypeDefinitionIndex)->GetStaticField(0x27CB0);
+		return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Class_1_05CEF841CFEE9EE9_Class_3_CB82A2773748C75A*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_05CEF841CFEE9EE9_TypeDefinitionIndex)->GetStaticField(0x5A9F0);
 	}
 
 	static ::System::Void _cctor()

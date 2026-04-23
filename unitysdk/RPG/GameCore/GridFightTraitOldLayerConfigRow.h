@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/GridFightPropertyBindType.h"
 #include "unitysdk/RPG/GameCore/GridFightTrailLayerQuality.h"
 #include "unitysdk/System/Object.h"
@@ -9,26 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729D5A0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729D990)
+#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B91080)
+#define RPG_GAMECORE_GRIDFIGHTTRAITOLDLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B91380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitOldLayerConfigRow_TypeDefinitionIndex = 12540;
+	inline static constexpr unsigned int GridFightTraitOldLayerConfigRow_TypeDefinitionIndex = 12971;
 
 	class GridFightTraitOldLayerConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* PropertyParamList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x18
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x20
-		::System::UInt32 MazebuffID; // 0x28
-		::System::UInt32 Layer; // 0x2C
-		::RPG::Client::TextID PropertyDesc; // 0x30
-		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x40
-		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x44
-		::System::UInt32 ExistSeason; // 0x48
-		::System::UInt32 TraitID; // 0x4C
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x18
+		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x20
+		::System::UInt32 MazebuffID; // 0x24
+		::System::UInt32 ExistSeason; // 0x28
+		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x2C
+		::System::UInt32 Layer; // 0x30
+		::System::UInt32 TraitID; // 0x34
 
 		::System::Void _ctor()
 		{

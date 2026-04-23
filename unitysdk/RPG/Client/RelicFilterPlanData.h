@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C5CF3D1814B4A2;
-class Class_1_52DCEE691286F89A_2;
+class Class_1_21DCD4640D389503_26;
+class Class_1_76E9E7372239DF6D;
 namespace RPG::Client { class RelicFilterPlanIconData; }
 namespace RPG::Client { class RelicFilterPlanSettingsData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xA2AC440)
-#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA2AC1D0)
-#define RPG_CLIENT_RELICFILTERPLANDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0xA2AC750)
-#define RPG_CLIENT_RELICFILTERPLANDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2AC340)
+#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1602ACC0)
+#define RPG_CLIENT_RELICFILTERPLANDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1602AA50)
+#define RPG_CLIENT_RELICFILTERPLANDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0x1602AFD0)
+#define RPG_CLIENT_RELICFILTERPLANDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1602ABC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicFilterPlanData_TypeDefinitionIndex = 54406;
+	inline static constexpr unsigned int RelicFilterPlanData_TypeDefinitionIndex = 61594;
 
 	class RelicFilterPlanData : public ::System::Object
 	{
 	public:
-		::RPG::Client::RelicFilterPlanIconData* Icon; // 0x10
-		::System::String* Name; // 0x18
-		::RPG::Client::RelicFilterPlanSettingsData* Settings; // 0x20
-		::System::UInt32 SlotIndex; // 0x28
-		::System::Int64 UpdateTimestamp; // 0x30
-		::System::UInt32 AvatarIdOnCreate; // 0x38
-		::System::Boolean IsMarked; // 0x3C
+		::System::String* Name; // 0x10
+		::RPG::Client::RelicFilterPlanSettingsData* Settings; // 0x18
+		::RPG::Client::RelicFilterPlanIconData* Icon; // 0x20
+		::System::Boolean IsMarked; // 0x28
+		::System::UInt32 SlotIndex; // 0x2C
+		::System::UInt32 AvatarIdOnCreate; // 0x30
+		::System::Int64 UpdateTimestamp; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -38,14 +38,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicFilterPlanData*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANDATA_CREATE_OFFSET))();
 		}
 
-		static ::RPG::Client::RelicFilterPlanData* Create_1(::Class_1_52DCEE691286F89A_2* severData)
+		static ::RPG::Client::RelicFilterPlanData* Create_1(::Class_1_21DCD4640D389503_26* severData)
 		{
-			return ((::RPG::Client::RelicFilterPlanData*(*)(::Class_1_52DCEE691286F89A_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANDATA_CREATE_1_OFFSET))(severData);
+			return ((::RPG::Client::RelicFilterPlanData*(*)(::Class_1_21DCD4640D389503_26*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANDATA_CREATE_1_OFFSET))(severData);
 		}
 
-		::System::Void FillToServerData(::Class_1_21C5CF3D1814B4A2* req)
+		::System::Void FillToServerData(::Class_1_76E9E7372239DF6D* req)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_21C5CF3D1814B4A2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANDATA_FILLTOSERVERDATA_OFFSET))(this, req);
+			return ((::System::Void(*)(::PVOID, ::Class_1_76E9E7372239DF6D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANDATA_FILLTOSERVERDATA_OFFSET))(this, req);
 		}
 	};
 }

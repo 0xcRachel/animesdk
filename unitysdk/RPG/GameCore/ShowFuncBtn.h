@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_1FFF7094239D9B4A_OFFSET UNITYSDK_OFFSET(0x1770F610)
-#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_40DEED2365CA5863_OFFSET UNITYSDK_OFFSET(0x1770F6D0)
-#define RPG_GAMECORE_SHOWFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1770F680)
+#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_1FFF7094239D9B4A_OFFSET UNITYSDK_OFFSET(0x193A84A0)
+#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_40DEED2365CA5863_OFFSET UNITYSDK_OFFSET(0x193A8560)
+#define RPG_GAMECORE_SHOWFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x193A8510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowFuncBtn_TypeDefinitionIndex = 18795;
+	inline static constexpr unsigned int ShowFuncBtn_TypeDefinitionIndex = 19452;
 
 	class ShowFuncBtn : public ::RPG::GameCore::TaskConfig
 	{

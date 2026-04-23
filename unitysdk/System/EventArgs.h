@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_EVENTARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x162FCFE0)
-#define SYSTEM_EVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x162CF0E0)
+#define SYSTEM_EVENTARGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D30BA0)
+#define SYSTEM_EVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x17D02F30)
 
 namespace System
 {
@@ -14,7 +14,7 @@ namespace System
 	public:
 		static ::System::EventArgs** StaticGet_Empty()
 		{
-			return (::System::EventArgs**)Il2CppClass::FromTypeDefinitionIndex(EventArgs_TypeDefinitionIndex)->GetStaticField(0x7600);
+			return (::System::EventArgs**)Il2CppClass::FromTypeDefinitionIndex(EventArgs_TypeDefinitionIndex)->GetStaticField(0x6710);
 		}
 
 		::System::Void _ctor()

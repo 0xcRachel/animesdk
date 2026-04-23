@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/BaseGameFlow.h"
 #include "unitysdk/RPG/GameCore/GameFlowType.h"
 
-#define CLASS_2_C252015D8EC8E2E2_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x8BB84D0)
-#define CLASS_2_C252015D8EC8E2E2__CCTOR_OFFSET UNITYSDK_OFFSET(0x8BB84F0)
-#define CLASS_2_C252015D8EC8E2E2__CTOR_OFFSET UNITYSDK_OFFSET(0x8BB84E0)
+#define CLASS_2_C252015D8EC8E2E2_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x12C92760)
+#define CLASS_2_C252015D8EC8E2E2__CCTOR_OFFSET UNITYSDK_OFFSET(0x12C92780)
+#define CLASS_2_C252015D8EC8E2E2__CTOR_OFFSET UNITYSDK_OFFSET(0x12C92770)
 
-inline static constexpr unsigned int Class_2_C252015D8EC8E2E2_TypeDefinitionIndex = 52253;
+inline static constexpr unsigned int Class_2_C252015D8EC8E2E2_TypeDefinitionIndex = 59205;
 
 class Class_2_C252015D8EC8E2E2 : public ::RPG::Client::BaseGameFlow
 {
 public:
 	static ::Class_2_C252015D8EC8E2E2** StaticGet_Field_2_0()
 	{
-		return (::Class_2_C252015D8EC8E2E2**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C252015D8EC8E2E2_TypeDefinitionIndex)->GetStaticField(0x46390);
+		return (::Class_2_C252015D8EC8E2E2**)Il2CppClass::FromTypeDefinitionIndex(Class_2_C252015D8EC8E2E2_TypeDefinitionIndex)->GetStaticField(0x5D1E0);
 	}
 
 	::System::Void _ctor()

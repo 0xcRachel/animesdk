@@ -4,12 +4,12 @@
 
 namespace System::Runtime::Remoting::Contexts { class CrossContextDelegate; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x163B77C0)
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x163B77B0)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x18F6ABB0)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CONTEXTCALLBACKOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18F6ABA0)
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int ContextCallbackObject_TypeDefinitionIndex = 1239;
+	inline static constexpr unsigned int ContextCallbackObject_TypeDefinitionIndex = 1241;
 
 	class ContextCallbackObject : public ::System::ContextBoundObject
 	{

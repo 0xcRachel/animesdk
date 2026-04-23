@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x84675B0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIVERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x15433310)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniVersion_TypeDefinitionIndex = 37740;
+	inline static constexpr unsigned int HEU_HoudiniVersion_TypeDefinitionIndex = 43617;
 
 	class HEU_HoudiniVersion : public ::System::Object
 	{

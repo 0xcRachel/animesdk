@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByScepterProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C227BA85F6D95EF8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA9C3E60)
-#define CLASS_3_C227BA85F6D95EF8__CTOR_OFFSET UNITYSDK_OFFSET(0xA9C3D80)
+#define CLASS_3_C227BA85F6D95EF8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD7D7E0)
+#define CLASS_3_C227BA85F6D95EF8__CTOR_OFFSET UNITYSDK_OFFSET(0xAD7D700)
 
-inline static constexpr unsigned int Class_3_C227BA85F6D95EF8_TypeDefinitionIndex = 44416;
+inline static constexpr unsigned int Class_3_C227BA85F6D95EF8_TypeDefinitionIndex = 51134;
 
 class Class_3_C227BA85F6D95EF8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByScepterProperty*>
 {

@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_87854DF4F09D42E1.h"
+#include "unitysdk/Class_1_59305B446B42427E.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 namespace RPG::Client { class MonoEffectPerspectiveWallControl; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_7B061B082FAFC43C_DOONENTER_OFFSET UNITYSDK_OFFSET(0x114D1940)
-#define CLASS_2_7B061B082FAFC43C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x114D19D0)
-#define CLASS_2_7B061B082FAFC43C__CTOR_OFFSET UNITYSDK_OFFSET(0x114D18A0)
-#define CLASS_2_7B061B082FAFC43C___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x114D1A60)
-#define CLASS_2_7B061B082FAFC43C___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x114D1A70)
+#define CLASS_2_7B061B082FAFC43C_DOONENTER_OFFSET UNITYSDK_OFFSET(0xFE83550)
+#define CLASS_2_7B061B082FAFC43C_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xFE835E0)
+#define CLASS_2_7B061B082FAFC43C__CTOR_OFFSET UNITYSDK_OFFSET(0xFE834B0)
+#define CLASS_2_7B061B082FAFC43C___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0xFE83670)
+#define CLASS_2_7B061B082FAFC43C___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xFE83680)
 
-inline static constexpr unsigned int Class_2_7B061B082FAFC43C_TypeDefinitionIndex = 46354;
+inline static constexpr unsigned int Class_2_7B061B082FAFC43C_TypeDefinitionIndex = 53029;
 
-class Class_2_7B061B082FAFC43C : public ::Class_1_87854DF4F09D42E1
+class Class_2_7B061B082FAFC43C : public ::Class_1_59305B446B42427E
 {
 public:
-	::RPG::GameCore::GameEntity* Field_2_0; // 0x98
-	::RPG::Client::MonoEffectPerspectiveWallControl* Field_2_1; // 0xA0
+	::RPG::Client::MonoEffectPerspectiveWallControl* Field_2_1; // 0x98
+	::RPG::GameCore::GameEntity* Field_2_0; // 0xA0
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::Client::MonoEffectPerspectiveWallControl* a2)
 	{

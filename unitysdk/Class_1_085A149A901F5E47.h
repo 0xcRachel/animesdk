@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_605;
+class Class_0_16E4307DCC419505_695;
 class Class_1_933C07741192A471;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_085A149A901F5E47_GET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0x10BFECC0)
-#define CLASS_1_085A149A901F5E47_METHOD_1_40EBA7013E4CCDDF_OFFSET UNITYSDK_OFFSET(0x10BFEE80)
-#define CLASS_1_085A149A901F5E47_METHOD_1_899EC372DEC6EBDF_OFFSET UNITYSDK_OFFSET(0x10BFEF20)
-#define CLASS_1_085A149A901F5E47_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x10BFEE10)
-#define CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET UNITYSDK_OFFSET(0x10BFECE0)
-#define CLASS_1_085A149A901F5E47_SET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0x10BFECD0)
-#define CLASS_1_085A149A901F5E47__CTOR_OFFSET UNITYSDK_OFFSET(0x10BFF0E0)
-#define CLASS_1_085A149A901F5E47__TICK_B__11_0_OFFSET UNITYSDK_OFFSET(0x10BFF0F0)
+#define CLASS_1_085A149A901F5E47_GET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xFF8CD60)
+#define CLASS_1_085A149A901F5E47_METHOD_1_30B62F5CDB9079BD_OFFSET UNITYSDK_OFFSET(0xFF8CF20)
+#define CLASS_1_085A149A901F5E47_METHOD_1_899EC372DEC6EBDF_OFFSET UNITYSDK_OFFSET(0xFF8CFC0)
+#define CLASS_1_085A149A901F5E47_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xFF8CEB0)
+#define CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET UNITYSDK_OFFSET(0xFF8CD80)
+#define CLASS_1_085A149A901F5E47_SET_ISSTOPPED_OFFSET UNITYSDK_OFFSET(0xFF8CD70)
+#define CLASS_1_085A149A901F5E47__CTOR_OFFSET UNITYSDK_OFFSET(0xFF8D180)
+#define CLASS_1_085A149A901F5E47__TICK_B__11_0_OFFSET UNITYSDK_OFFSET(0xFF8D190)
 
-inline static constexpr unsigned int Class_1_085A149A901F5E47_TypeDefinitionIndex = 63789;
+inline static constexpr unsigned int Class_1_085A149A901F5E47_TypeDefinitionIndex = 71836;
 
 class Class_1_085A149A901F5E47 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_605* Field_1_2; // 0x10
-	::System::Collections::Generic::Queue_1<::Class_0_16E4307DCC419505_605*>* Field_1_1; // 0x18
+	::Class_0_16E4307DCC419505_695* Field_1_2; // 0x10
+	::RPG::Client::Promises::Promise_1<::System::Boolean>* Field_1_4; // 0x18
 	::Class_1_933C07741192A471* Field_1_0; // 0x20
-	::RPG::Client::Promises::Promise_1<::System::Boolean>* Field_1_4; // 0x28
+	::System::Collections::Generic::Queue_1<::Class_0_16E4307DCC419505_695*>* Field_1_1; // 0x28
 	::System::Boolean _IsStopped_k__BackingField; // 0x30
 
 	::System::Void _ctor()
@@ -44,9 +44,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_SET_ISSTOPPED_OFFSET))(this, value);
 	}
 
-	::RPG::Client::Promises::IPromise_1<::System::Boolean>* Method_1_D0F4F94C34321A18(::Class_1_933C07741192A471* a1, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_605*>* a2)
+	::RPG::Client::Promises::IPromise_1<::System::Boolean>* Method_1_D0F4F94C34321A18(::Class_1_933C07741192A471* a1, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_695*>* a2)
 	{
-		return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::Class_1_933C07741192A471*, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_605*>*))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET))(this, a1, a2);
+		return ((::RPG::Client::Promises::IPromise_1<::System::Boolean>*(*)(::PVOID, ::Class_1_933C07741192A471*, ::System::Collections::Generic::IEnumerable_1<::Class_0_16E4307DCC419505_695*>*))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_D0F4F94C34321A18_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_9681042564541CD6()
@@ -54,9 +54,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_9681042564541CD6_OFFSET))(this);
 	}
 
-	::System::Void Method_1_40EBA7013E4CCDDF()
+	::System::Void Method_1_30B62F5CDB9079BD()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_40EBA7013E4CCDDF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_085A149A901F5E47_METHOD_1_30B62F5CDB9079BD_OFFSET))(this);
 	}
 
 	::System::Void Method_1_899EC372DEC6EBDF(::System::Single a1)

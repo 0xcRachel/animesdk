@@ -15,14 +15,14 @@ namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 namespace RPG::GameCore { class GridFightDragOpgConsumableSelector; }
 
-#define CLASS_1_32612C379DA34D00_METHOD_1_05B50BE164894E9D_OFFSET UNITYSDK_OFFSET(0x115FF880)
-#define CLASS_1_32612C379DA34D00_METHOD_1_53C4D44F413294D5_OFFSET UNITYSDK_OFFSET(0x115FFB30)
-#define CLASS_1_32612C379DA34D00_METHOD_1_5815B86C36A91516_OFFSET UNITYSDK_OFFSET(0x115FF9A0)
-#define CLASS_1_32612C379DA34D00_METHOD_1_E8A17197B878CC52_OFFSET UNITYSDK_OFFSET(0x115FF810)
-#define CLASS_1_32612C379DA34D00_METHOD_1_F625427749226153_OFFSET UNITYSDK_OFFSET(0x115FFA90)
-#define CLASS_1_32612C379DA34D00__CTOR_OFFSET UNITYSDK_OFFSET(0x115FFBA0)
+#define CLASS_1_32612C379DA34D00_METHOD_1_05B50BE164894E9D_OFFSET UNITYSDK_OFFSET(0xEEB6A70)
+#define CLASS_1_32612C379DA34D00_METHOD_1_53C4D44F413294D5_OFFSET UNITYSDK_OFFSET(0xEEB6D20)
+#define CLASS_1_32612C379DA34D00_METHOD_1_55F57D3C76369AFF_OFFSET UNITYSDK_OFFSET(0xEEB6B90)
+#define CLASS_1_32612C379DA34D00_METHOD_1_7AB72DCF5FC91A4A_OFFSET UNITYSDK_OFFSET(0xEEB6C80)
+#define CLASS_1_32612C379DA34D00_METHOD_1_E8A17197B878CC52_OFFSET UNITYSDK_OFFSET(0xEEB69F0)
+#define CLASS_1_32612C379DA34D00__CTOR_OFFSET UNITYSDK_OFFSET(0xEEB6D90)
 
-inline static constexpr unsigned int Class_1_32612C379DA34D00_TypeDefinitionIndex = 53177;
+inline static constexpr unsigned int Class_1_32612C379DA34D00_TypeDefinitionIndex = 60300;
 
 class Class_1_32612C379DA34D00 : public ::System::Object
 {
@@ -46,14 +46,14 @@ public:
 		return ((::RPG::Client::GridFightGridData*(*)(::PVOID, ::RPG::GameCore::GridFightDragOpGridSelector*))((::PBYTE)hIl2Cpp + CLASS_1_32612C379DA34D00_METHOD_1_05B50BE164894E9D_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::GridFightRole* Method_1_5815B86C36A91516(::RPG::GameCore::GridFightDragOpRoleSelector* a1)
+	::RPG::Client::GridFightRole* Method_1_55F57D3C76369AFF(::RPG::GameCore::GridFightDragOpRoleSelector* a1)
 	{
-		return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::RPG::GameCore::GridFightDragOpRoleSelector*))((::PBYTE)hIl2Cpp + CLASS_1_32612C379DA34D00_METHOD_1_5815B86C36A91516_OFFSET))(this, a1);
+		return ((::RPG::Client::GridFightRole*(*)(::PVOID, ::RPG::GameCore::GridFightDragOpRoleSelector*))((::PBYTE)hIl2Cpp + CLASS_1_32612C379DA34D00_METHOD_1_55F57D3C76369AFF_OFFSET))(this, a1);
 	}
 
-	::RPG::Client::GridFightEquipItemData* Method_1_F625427749226153(::RPG::GameCore::GridFightDragOpEquipSelector* a1)
+	::RPG::Client::GridFightEquipItemData* Method_1_7AB72DCF5FC91A4A(::RPG::GameCore::GridFightDragOpEquipSelector* a1)
 	{
-		return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::RPG::GameCore::GridFightDragOpEquipSelector*))((::PBYTE)hIl2Cpp + CLASS_1_32612C379DA34D00_METHOD_1_F625427749226153_OFFSET))(this, a1);
+		return ((::RPG::Client::GridFightEquipItemData*(*)(::PVOID, ::RPG::GameCore::GridFightDragOpEquipSelector*))((::PBYTE)hIl2Cpp + CLASS_1_32612C379DA34D00_METHOD_1_7AB72DCF5FC91A4A_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::GridFightConsumableItemData* Method_1_53C4D44F413294D5(::RPG::GameCore::GridFightDragOpgConsumableSelector* a1)

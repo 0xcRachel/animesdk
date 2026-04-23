@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_371E7219836CA73D__CTOR_OFFSET UNITYSDK_OFFSET(0x8CF5900)
+#define CLASS_1_371E7219836CA73D__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBC390)
 
-inline static constexpr unsigned int Class_1_371E7219836CA73D_TypeDefinitionIndex = 48922;
+inline static constexpr unsigned int Class_1_371E7219836CA73D_TypeDefinitionIndex = 55714;
 
 class Class_1_371E7219836CA73D : public ::System::Object
 {
 public:
 	::UnityEngine::Vector2 Field_1_1; // 0x10
-	::UnityEngine::Vector2 Field_1_0; // 0x18
-	::System::Single Field_1_3; // 0x20
-	::UnityEngine::Vector2 Field_1_4; // 0x24
+	::UnityEngine::Vector2 Field_1_4; // 0x18
+	::UnityEngine::Vector2 Field_1_0; // 0x20
+	::System::Single Field_1_3; // 0x28
 	::RPG::Client::SealState Field_1_2; // 0x2C
 
 	::System::Void _ctor()

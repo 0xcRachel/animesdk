@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/Prop/WormCompassItemType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_WORMCOMPASSITEMGRIDDATA_METHOD_1_3BF44B8D9F306578_OFFSET UNITYSDK_OFFSET(0xA193590)
-#define RPG_CLIENT_PROP_WORMCOMPASSITEMGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA193630)
+#define RPG_CLIENT_PROP_WORMCOMPASSITEMGRIDDATA_METHOD_1_3BF44B8D9F306578_OFFSET UNITYSDK_OFFSET(0xEDFCCA0)
+#define RPG_CLIENT_PROP_WORMCOMPASSITEMGRIDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xEDFCD40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassItemGridData_TypeDefinitionIndex = 64373;
+	inline static constexpr unsigned int WormCompassItemGridData_TypeDefinitionIndex = 72420;
 
 	class WormCompassItemGridData : public ::System::Object
 	{

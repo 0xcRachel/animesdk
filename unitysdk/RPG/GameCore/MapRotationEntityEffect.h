@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONENTITYEFFECT_METHOD_2_73A225AC676438B7_OFFSET UNITYSDK_OFFSET(0x173940A0)
-#define RPG_GAMECORE_MAPROTATIONENTITYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x173941D0)
+#define RPG_GAMECORE_MAPROTATIONENTITYEFFECT_METHOD_2_73A225AC676438B7_OFFSET UNITYSDK_OFFSET(0x18FDE5A0)
+#define RPG_GAMECORE_MAPROTATIONENTITYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FDE6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationEntityEffect_TypeDefinitionIndex = 15592;
+	inline static constexpr unsigned int MapRotationEntityEffect_TypeDefinitionIndex = 16112;
 
 	class MapRotationEntityEffect : public ::RPG::GameCore::JsonConfig
 	{

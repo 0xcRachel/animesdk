@@ -6,20 +6,20 @@ class Class_1_B1C37B065CBC515F;
 namespace RPG::Client { class ChenLingBattleTeamSnapshot; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_1_OFFSET UNITYSDK_OFFSET(0x935C850)
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0x935C020)
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x935CAE0)
-#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x935C780)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_1_OFFSET UNITYSDK_OFFSET(0x17B282D0)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0x17B27AA0)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B28560)
+#define RPG_CLIENT_CHENLINGBATTLESNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x17B28200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleSnapshot_TypeDefinitionIndex = 49835;
+	inline static constexpr unsigned int ChenLingBattleSnapshot_TypeDefinitionIndex = 56657;
 
 	class ChenLingBattleSnapshot : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattleTeamSnapshot* Ally; // 0x10
-		::RPG::Client::ChenLingBattleTeamSnapshot* Enemy; // 0x18
+		::RPG::Client::ChenLingBattleTeamSnapshot* Enemy; // 0x10
+		::RPG::Client::ChenLingBattleTeamSnapshot* Ally; // 0x18
 
 		::System::Void _ctor(::RPG::Client::ChenLingBattleTeamSnapshot* ally, ::RPG::Client::ChenLingBattleTeamSnapshot* enemy)
 		{

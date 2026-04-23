@@ -7,15 +7,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_90EF356D6D3F4600_1_OFFSET UNITYSDK_OFFSET(0x116E2690)
-#define CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_90EF356D6D3F4600_OFFSET UNITYSDK_OFFSET(0x116E2680)
-#define CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_D2E9FDD71B4930D9_OFFSET UNITYSDK_OFFSET(0x116E23A0)
-#define CLASS_1_8D4ADBAB3347DD09_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x116E24E0)
-#define CLASS_1_8D4ADBAB3347DD09_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x116E2590)
-#define CLASS_1_8D4ADBAB3347DD09_1__CTOR_OFFSET UNITYSDK_OFFSET(0x116E2300)
-#define CLASS_1_8D4ADBAB3347DD09_1___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x116E26A0)
+#define CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_90EF356D6D3F4600_1_OFFSET UNITYSDK_OFFSET(0xEFC4AA0)
+#define CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_90EF356D6D3F4600_OFFSET UNITYSDK_OFFSET(0xEFC4A90)
+#define CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_F2B8F069B120B94E_OFFSET UNITYSDK_OFFSET(0xEFC47E0)
+#define CLASS_1_8D4ADBAB3347DD09_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEFC48F0)
+#define CLASS_1_8D4ADBAB3347DD09_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xEFC49A0)
+#define CLASS_1_8D4ADBAB3347DD09_1__CTOR_OFFSET UNITYSDK_OFFSET(0xEFC4740)
+#define CLASS_1_8D4ADBAB3347DD09_1___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEFC4AB0)
 
-inline static constexpr unsigned int Class_1_8D4ADBAB3347DD09_1_TypeDefinitionIndex = 54573;
+inline static constexpr unsigned int Class_1_8D4ADBAB3347DD09_1_TypeDefinitionIndex = 61761;
 
 class Class_1_8D4ADBAB3347DD09_1 : public ::System::Object
 {
@@ -38,9 +38,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8D4ADBAB3347DD09_1_TRIGGERACTION_OFFSET))(this);
 	}
 
-	::System::Void Method_1_D2E9FDD71B4930D9(::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a1, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a2)
+	::System::Void Method_1_F2B8F069B120B94E(::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a1, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*))((::PBYTE)hIl2Cpp + CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_D2E9FDD71B4930D9_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*))((::PBYTE)hIl2Cpp + CLASS_1_8D4ADBAB3347DD09_1_METHOD_1_F2B8F069B120B94E_OFFSET))(this, a1, a2);
 	}
 
 	::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* Method_1_90EF356D6D3F4600()

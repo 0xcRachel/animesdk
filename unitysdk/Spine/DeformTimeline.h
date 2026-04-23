@@ -9,24 +9,24 @@ namespace Spine { class Skeleton; }
 namespace Spine { class VertexAttachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_DEFORMTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x183B0580)
-#define SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET UNITYSDK_OFFSET(0x183B0280)
-#define SPINE_DEFORMTIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x183AFF70)
-#define SPINE_DEFORMTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x183AFF60)
-#define SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x183AFF80)
-#define SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x183B0050)
-#define SPINE_DEFORMTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x183AFF90)
-#define SPINE_DEFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x183AFD40)
+#define SPINE_DEFORMTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x156BA7E0)
+#define SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET UNITYSDK_OFFSET(0x156BA4E0)
+#define SPINE_DEFORMTIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x156BA1D0)
+#define SPINE_DEFORMTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x156BA1C0)
+#define SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x156BA1E0)
+#define SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x156BA2B0)
+#define SPINE_DEFORMTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x156BA1F0)
+#define SPINE_DEFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x156B9FA0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int DeformTimeline_TypeDefinitionIndex = 30661;
+	inline static constexpr unsigned int DeformTimeline_TypeDefinitionIndex = 36381;
 
 	class DeformTimeline : public ::Spine::CurveTimeline
 	{
 	public:
-		::Il2CppArray<::Il2CppArray<::System::Single>*>* vertices; // 0x28
-		::Spine::VertexAttachment* attachment; // 0x30
+		::Spine::VertexAttachment* attachment; // 0x28
+		::Il2CppArray<::Il2CppArray<::System::Single>*>* vertices; // 0x30
 		::System::Int32 slotIndex; // 0x38
 
 		::System::Void _ctor(::System::Int32 frameCount, ::System::Int32 bezierCount, ::System::Int32 slotIndex, ::Spine::VertexAttachment* attachment)

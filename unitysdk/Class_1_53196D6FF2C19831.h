@@ -6,17 +6,17 @@
 class Class_1_43BD383C98B4C0C5_146;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_53196D6FF2C19831__CTOR_OFFSET UNITYSDK_OFFSET(0x1055EDA0)
+#define CLASS_1_53196D6FF2C19831__CTOR_OFFSET UNITYSDK_OFFSET(0xA61B1D0)
 
-inline static constexpr unsigned int Class_1_53196D6FF2C19831_TypeDefinitionIndex = 55890;
+inline static constexpr unsigned int Class_1_53196D6FF2C19831_TypeDefinitionIndex = 63124;
 
 class Class_1_53196D6FF2C19831 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_53196D6FF2C19831_Struct_2_BBD456EBC9087BC2_7>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_146*>* Field_1_1; // 0x18
-	::System::Single Field_1_3; // 0x20
-	::System::Int32 Field_1_0; // 0x24
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_146*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_53196D6FF2C19831_Struct_2_BBD456EBC9087BC2_7>* Field_1_2; // 0x18
+	::System::Int32 Field_1_0; // 0x20
+	::System::Single Field_1_3; // 0x24
 
 	::System::Void _ctor()
 	{

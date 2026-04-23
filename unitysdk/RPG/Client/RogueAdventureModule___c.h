@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_691;
+class Class_0_16E4307DCC419505_791;
 class Class_1_2250AFBBC876BF24_1;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA2F68E0)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F6910)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_0_OFFSET UNITYSDK_OFFSET(0xA2F6920)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_1_OFFSET UNITYSDK_OFFSET(0xA2F6930)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17723700)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17723730)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_0_OFFSET UNITYSDK_OFFSET(0x17723740)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_1_OFFSET UNITYSDK_OFFSET(0x17723750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueAdventureModule___c_TypeDefinitionIndex = 54876;
+	inline static constexpr unsigned int RogueAdventureModule___c_TypeDefinitionIndex = 62064;
 
 	class RogueAdventureModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueAdventureModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueAdventureModule___c**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x1B0E0);
-		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_691*, ::System::Boolean>** StaticGet___9__48_1()
-		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_691*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x1B0E8);
-		}
 		static ::System::Func_2<::Class_1_2250AFBBC876BF24_1*, ::System::Boolean>** StaticGet___9__48_0()
 		{
-			return (::System::Func_2<::Class_1_2250AFBBC876BF24_1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x1B0F0);
+			return (::System::Func_2<::Class_1_2250AFBBC876BF24_1*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x1F1E0);
+		}
+		static ::RPG::Client::RogueAdventureModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueAdventureModule___c**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x1F1E8);
+		}
+		static ::System::Func_2<::Class_0_16E4307DCC419505_791*, ::System::Boolean>** StaticGet___9__48_1()
+		{
+			return (::System::Func_2<::Class_0_16E4307DCC419505_791*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueAdventureModule___c_TypeDefinitionIndex)->GetStaticField(0x1F1F0);
 		}
 
 		static ::System::Void _cctor()
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::Class_1_2250AFBBC876BF24_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_0_OFFSET))(this, action);
 		}
 
-		::System::Boolean __OnCmdSyncRogueCommonActionResultScNotify_b__48_1(::Class_0_16E4307DCC419505_691* action)
+		::System::Boolean __OnCmdSyncRogueCommonActionResultScNotify_b__48_1(::Class_0_16E4307DCC419505_791* action)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_691*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_1_OFFSET))(this, action);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_791*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_1_OFFSET))(this, action);
 		}
 	};
 }

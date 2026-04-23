@@ -5,10 +5,10 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::Client { class MapEntityDef; }
 
-#define CLASS_1_902B807FBCF1D9FA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BFD350)
-#define CLASS_1_902B807FBCF1D9FA___C__DISPLAYCLASS6_0__TESTRECYCLE_B__0_OFFSET UNITYSDK_OFFSET(0x10BFD400)
+#define CLASS_1_902B807FBCF1D9FA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE5D5370)
+#define CLASS_1_902B807FBCF1D9FA___C__DISPLAYCLASS6_0__TESTRECYCLE_B__0_OFFSET UNITYSDK_OFFSET(0xE5D5420)
 
-inline static constexpr unsigned int Class_1_902B807FBCF1D9FA___c__DisplayClass6_0_TypeDefinitionIndex = 49355;
+inline static constexpr unsigned int Class_1_902B807FBCF1D9FA___c__DisplayClass6_0_TypeDefinitionIndex = 56152;
 
 class Class_1_902B807FBCF1D9FA___c__DisplayClass6_0 : public ::System::Object
 {

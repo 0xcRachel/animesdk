@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
 
-#define CLASS_2_9ABF713DE221ED00_GET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0x10BBBB60)
-#define CLASS_2_9ABF713DE221ED00_GET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0x10BBBB40)
-#define CLASS_2_9ABF713DE221ED00_SET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0x10BBBB70)
-#define CLASS_2_9ABF713DE221ED00_SET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0x10BBBB50)
-#define CLASS_2_9ABF713DE221ED00__CCTOR_OFFSET UNITYSDK_OFFSET(0x10BBBB90)
-#define CLASS_2_9ABF713DE221ED00__CTOR_OFFSET UNITYSDK_OFFSET(0x10BBBB80)
+#define CLASS_2_9ABF713DE221ED00_GET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0xD7BD440)
+#define CLASS_2_9ABF713DE221ED00_GET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0xD7BD420)
+#define CLASS_2_9ABF713DE221ED00_SET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0xD7BD450)
+#define CLASS_2_9ABF713DE221ED00_SET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0xD7BD430)
+#define CLASS_2_9ABF713DE221ED00__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7BD470)
+#define CLASS_2_9ABF713DE221ED00__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BD460)
 
-inline static constexpr unsigned int Class_2_9ABF713DE221ED00_TypeDefinitionIndex = 48908;
+inline static constexpr unsigned int Class_2_9ABF713DE221ED00_TypeDefinitionIndex = 55700;
 
 class Class_2_9ABF713DE221ED00 : public ::Class_1_75C90E178B164D38
 {
 public:
 	static ::System::Int32* StaticGet_Field_2_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9ABF713DE221ED00_TypeDefinitionIndex)->GetStaticField(0x9130);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_9ABF713DE221ED00_TypeDefinitionIndex)->GetStaticField(0x7310);
 	}
-	::RPG::GameCore::LittleGameLevelVarBindingMap* _LevelVarBindingMap_k__BackingField; // 0x28
-	::RPG::GameCore::LevelLittleGameInfo* _ContainerInfo_k__BackingField; // 0x30
+	::RPG::GameCore::LevelLittleGameInfo* _ContainerInfo_k__BackingField; // 0x28
+	::RPG::GameCore::LittleGameLevelVarBindingMap* _LevelVarBindingMap_k__BackingField; // 0x30
 
 	::System::Void _ctor()
 	{

@@ -5,21 +5,22 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
+namespace RPG::Client { class EmoEyeCtrl; }
 namespace RPGTools::Timeline { class EmoEyeCtrlOffsetData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlShakeData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlTimelineBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xAB5CF10)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xAB5CEE0)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xAB5CF00)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xAB5CEF0)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5D0F0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17B1CDF0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x17B1CDC0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x17B1CDE0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x17B1CDD0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17B1CFD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeCtrlTimelineClip_TypeDefinitionIndex = 38948;
+	inline static constexpr unsigned int EmoEyeCtrlTimelineClip_TypeDefinitionIndex = 44851;
 
 	class EmoEyeCtrlTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -30,7 +31,8 @@ namespace RPGTools::Timeline
 		::System::Single Duration; // 0x30
 		::System::Single Start; // 0x34
 		::System::Single End; // 0x38
-		::RPGTools::Timeline::EmoEyeCtrlTimelineBehaviour* template_; // 0x40
+		::RPG::Client::EmoEyeCtrl* EyeCtrl; // 0x40
+		::RPGTools::Timeline::EmoEyeCtrlTimelineBehaviour* template_; // 0x48
 
 		::System::Void _ctor()
 		{

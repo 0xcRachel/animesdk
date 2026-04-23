@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockVersusBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_95D3CD954FFF503A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB27CE10)
-#define CLASS_3_95D3CD954FFF503A__CTOR_OFFSET UNITYSDK_OFFSET(0xB27CDE0)
+#define CLASS_3_95D3CD954FFF503A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD17A00)
+#define CLASS_3_95D3CD954FFF503A__CTOR_OFFSET UNITYSDK_OFFSET(0xCD179D0)
 
-inline static constexpr unsigned int Class_3_95D3CD954FFF503A_TypeDefinitionIndex = 44708;
+inline static constexpr unsigned int Class_3_95D3CD954FFF503A_TypeDefinitionIndex = 51452;
 
 class Class_3_95D3CD954FFF503A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockVersusBar*>
 {

@@ -8,34 +8,34 @@ namespace RPG::Client { class MonoPathLightControl; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_3E7890438E82C929_OFFSET UNITYSDK_OFFSET(0x11670500)
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_5013A6941108F9A2_OFFSET UNITYSDK_OFFSET(0x11670900)
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0x11670970)
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_90D019D81149A8BA_OFFSET UNITYSDK_OFFSET(0x116734D0)
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_AE828D899505A3B4_OFFSET UNITYSDK_OFFSET(0x11672ED0)
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_B76CD5CB3E297DF3_OFFSET UNITYSDK_OFFSET(0x11671AB0)
-#define CLASS_2_91ADFC3DB9558F94_METHOD_2_E02F100F3080733B_OFFSET UNITYSDK_OFFSET(0x11670B30)
-#define CLASS_2_91ADFC3DB9558F94__CTOR_OFFSET UNITYSDK_OFFSET(0x116734C0)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_3E7890438E82C929_OFFSET UNITYSDK_OFFSET(0xDD7FF00)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_5013A6941108F9A2_OFFSET UNITYSDK_OFFSET(0xDD80300)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_8DF47EF45ABD2A6C_OFFSET UNITYSDK_OFFSET(0xDD80370)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_90D019D81149A8BA_OFFSET UNITYSDK_OFFSET(0xDD82F20)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_AE828D899505A3B4_OFFSET UNITYSDK_OFFSET(0xDD82910)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_B76CD5CB3E297DF3_OFFSET UNITYSDK_OFFSET(0xDD814E0)
+#define CLASS_2_91ADFC3DB9558F94_METHOD_2_E02F100F3080733B_OFFSET UNITYSDK_OFFSET(0xDD80530)
+#define CLASS_2_91ADFC3DB9558F94__CTOR_OFFSET UNITYSDK_OFFSET(0xDD82F10)
 
-inline static constexpr unsigned int Class_2_91ADFC3DB9558F94_TypeDefinitionIndex = 57614;
+inline static constexpr unsigned int Class_2_91ADFC3DB9558F94_TypeDefinitionIndex = 64877;
 
 class Class_2_91ADFC3DB9558F94 : public ::RPG::Client::BehaviorBase
 {
 public:
 	::UnityEngine::MaterialPropertyBlock* Field_2_13; // 0x18
-	::System::Single Field_2_3; // 0x20
-	::System::Single Field_2_7; // 0x24
-	::System::Single Field_2_2; // 0x28
-	::UnityEngine::Vector3 Field_2_9; // 0x2C
-	::System::Single Field_2_6; // 0x38
-	::UnityEngine::Vector3 Field_2_0; // 0x3C
-	::System::Single Field_2_4; // 0x48
-	::UnityEngine::Vector3 Field_2_11; // 0x4C
-	::UnityEngine::Vector3 Field_2_1; // 0x58
-	::UnityEngine::Vector3 Field_2_10; // 0x64
-	::System::Single Field_2_5; // 0x70
-	::UnityEngine::Vector3 Field_2_12; // 0x74
-	::UnityEngine::Vector4 Field_2_8; // 0x80
+	::System::Single Field_2_2; // 0x20
+	::UnityEngine::Vector3 Field_2_9; // 0x24
+	::UnityEngine::Vector3 Field_2_1; // 0x30
+	::System::Single Field_2_7; // 0x3C
+	::System::Single Field_2_4; // 0x40
+	::System::Single Field_2_3; // 0x44
+	::UnityEngine::Vector3 Field_2_12; // 0x48
+	::UnityEngine::Vector4 Field_2_8; // 0x54
+	::UnityEngine::Vector3 Field_2_11; // 0x64
+	::UnityEngine::Vector3 Field_2_10; // 0x70
+	::System::Single Field_2_5; // 0x7C
+	::System::Single Field_2_6; // 0x80
+	::UnityEngine::Vector3 Field_2_0; // 0x84
 
 	::System::Void _ctor()
 	{

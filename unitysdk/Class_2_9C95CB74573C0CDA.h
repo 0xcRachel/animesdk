@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class StackBoostPointCallbackDecorate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_9C95CB74573C0CDA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD1B10C0)
-#define CLASS_2_9C95CB74573C0CDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD1B1100)
-#define CLASS_2_9C95CB74573C0CDA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD1B16F0)
-#define CLASS_2_9C95CB74573C0CDA_TICK_OFFSET UNITYSDK_OFFSET(0xD1B1740)
-#define CLASS_2_9C95CB74573C0CDA__CTOR_OFFSET UNITYSDK_OFFSET(0xD1B10B0)
+#define CLASS_2_9C95CB74573C0CDA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF9651F0)
+#define CLASS_2_9C95CB74573C0CDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF965230)
+#define CLASS_2_9C95CB74573C0CDA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF965800)
+#define CLASS_2_9C95CB74573C0CDA_TICK_OFFSET UNITYSDK_OFFSET(0xF965850)
+#define CLASS_2_9C95CB74573C0CDA__CTOR_OFFSET UNITYSDK_OFFSET(0xF9651E0)
 
-inline static constexpr unsigned int Class_2_9C95CB74573C0CDA_TypeDefinitionIndex = 44562;
+inline static constexpr unsigned int Class_2_9C95CB74573C0CDA_TypeDefinitionIndex = 51296;
 
 class Class_2_9C95CB74573C0CDA : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::StackBoostPointCallbackDecorate* Field_2_0; // 0x20
+	::RPG::GameCore::StackBoostPointCallbackDecorate* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
 	{

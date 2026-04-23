@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176149E0)
-#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17614B50)
+#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1925EEF0)
+#define RPG_GAMECORE_ROGUEDLCMAINSTORYBRANCHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1925F060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCMainStoryBranchRow_TypeDefinitionIndex = 13523;
+	inline static constexpr unsigned int RogueDLCMainStoryBranchRow_TypeDefinitionIndex = 13996;
 
 	class RogueDLCMainStoryBranchRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 MainStoryBranchID; // 0x10
-		::System::UInt32 RogueNPCID; // 0x14
-		::System::UInt32 AeonID; // 0x18
+		::System::UInt32 AeonID; // 0x14
+		::System::UInt32 RogueNPCID; // 0x18
 
 		::System::Void _ctor()
 		{

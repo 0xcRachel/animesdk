@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RetargetPerSequence; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B153CA762917031F_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE478E60)
-#define CLASS_2_B153CA762917031F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE478ED0)
-#define CLASS_2_B153CA762917031F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE479410)
-#define CLASS_2_B153CA762917031F_TICK_OFFSET UNITYSDK_OFFSET(0xE479460)
-#define CLASS_2_B153CA762917031F__CTOR_OFFSET UNITYSDK_OFFSET(0xE478C40)
+#define CLASS_2_B153CA762917031F_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCDC2200)
+#define CLASS_2_B153CA762917031F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCDC2270)
+#define CLASS_2_B153CA762917031F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCDC27B0)
+#define CLASS_2_B153CA762917031F_TICK_OFFSET UNITYSDK_OFFSET(0xCDC2800)
+#define CLASS_2_B153CA762917031F__CTOR_OFFSET UNITYSDK_OFFSET(0xCDC1FE0)
 
-inline static constexpr unsigned int Class_2_B153CA762917031F_TypeDefinitionIndex = 44293;
+inline static constexpr unsigned int Class_2_B153CA762917031F_TypeDefinitionIndex = 51007;
 
 class Class_2_B153CA762917031F : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::Collections::Generic::List_1<::Class_3_5775A4FEC79026BC*>* Field_2_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
-	::RPG::GameCore::RetargetPerSequence* Field_2_2; // 0x38
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x18
+	::RPG::GameCore::RetargetPerSequence* Field_2_2; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x28
+	::System::Collections::Generic::List_1<::Class_3_E21F6DE9B7FA4D05*>* Field_2_1; // 0x30
+	::Class_1_5F51D4049EA87B7B* Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RetargetPerSequence* a2)
 	{

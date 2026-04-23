@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_541;
+class Class_0_16E4307DCC419505_630;
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define CLASS_1_5A7750AB287A53FA_METHOD_1_609898807C8CA619_OFFSET UNITYSDK_OFFSET(0x87F5940)
-#define CLASS_1_5A7750AB287A53FA_METHOD_1_FF949382E57B0BFF_OFFSET UNITYSDK_OFFSET(0x87F5BB0)
+#define CLASS_1_5A7750AB287A53FA_METHOD_1_609898807C8CA619_OFFSET UNITYSDK_OFFSET(0xFBCC7F0)
+#define CLASS_1_5A7750AB287A53FA_METHOD_1_FF949382E57B0BFF_OFFSET UNITYSDK_OFFSET(0xFBCCA20)
 
-inline static constexpr unsigned int Class_1_5A7750AB287A53FA_TypeDefinitionIndex = 61561;
+inline static constexpr unsigned int Class_1_5A7750AB287A53FA_TypeDefinitionIndex = 69073;
 
 class Class_1_5A7750AB287A53FA : public ::System::Object
 {
 public:
-	static ::Class_0_16E4307DCC419505_541* Method_1_609898807C8CA619(::RPG::GameCore::SwordTrainingEffectRow* a1)
+	static ::Class_0_16E4307DCC419505_630* Method_1_609898807C8CA619(::RPG::GameCore::SwordTrainingEffectRow* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_541*(*)(::RPG::GameCore::SwordTrainingEffectRow*))((::PBYTE)hIl2Cpp + CLASS_1_5A7750AB287A53FA_METHOD_1_609898807C8CA619_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_630*(*)(::RPG::GameCore::SwordTrainingEffectRow*))((::PBYTE)hIl2Cpp + CLASS_1_5A7750AB287A53FA_METHOD_1_609898807C8CA619_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_FF949382E57B0BFF(::RPG::GameCore::SwordTrainingEffectRow* a1)

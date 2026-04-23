@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_5BF0E61BD5CA40A5_OFFSET UNITYSDK_OFFSET(0xA2E6730)
-#define RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2E6780)
+#define RPG_CLIENT_REPLAYCUSTOMDATA_METHOD_1_5BF0E61BD5CA40A5_OFFSET UNITYSDK_OFFSET(0x131D5F60)
+#define RPG_CLIENT_REPLAYCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x131D5FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReplayCustomData_TypeDefinitionIndex = 49440;
+	inline static constexpr unsigned int ReplayCustomData_TypeDefinitionIndex = 56237;
 
 	class ReplayCustomData : public ::System::Object
 	{

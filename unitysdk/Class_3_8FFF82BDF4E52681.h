@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsBodyPartOwner; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8FFF82BDF4E52681_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8C30590)
-#define CLASS_3_8FFF82BDF4E52681__CTOR_OFFSET UNITYSDK_OFFSET(0x8C30560)
+#define CLASS_3_8FFF82BDF4E52681_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF37F860)
+#define CLASS_3_8FFF82BDF4E52681__CTOR_OFFSET UNITYSDK_OFFSET(0xF37F830)
 
-inline static constexpr unsigned int Class_3_8FFF82BDF4E52681_TypeDefinitionIndex = 43713;
+inline static constexpr unsigned int Class_3_8FFF82BDF4E52681_TypeDefinitionIndex = 50412;
 
 class Class_3_8FFF82BDF4E52681 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsBodyPartOwner*>
 {

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DOFCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171516D0)
-#define RPG_GAMECORE_DOFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17158440)
+#define RPG_GAMECORE_DOFCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FAFAA0)
+#define RPG_GAMECORE_DOFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB68E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DOFConfig_TypeDefinitionIndex = 22455;
+	inline static constexpr unsigned int DOFConfig_TypeDefinitionIndex = 23427;
 
 	class DOFConfig : public ::RPG::GameCore::JsonConfig
 	{

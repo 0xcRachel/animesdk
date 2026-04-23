@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x119C63B0)
+#define CINEMACHINE_CINEMACHINEFOLLOWZOOM_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x167AF470)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFollowZoom_VcamExtraState_TypeDefinitionIndex = 30779;
+	inline static constexpr unsigned int CinemachineFollowZoom_VcamExtraState_TypeDefinitionIndex = 36499;
 
 	class CinemachineFollowZoom_VcamExtraState : public ::System::Object
 	{

@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AttackDamageType.h"
-#include "unitysdk/RPG/GameCore/MonsterRank.h"
-#include "unitysdk/Struct_2_A98C406BD653F8E9.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
+class Class_1_015CBEAEE0FDE159;
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xFF69CB0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xFF69D30)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET UNITYSDK_OFFSET(0xFF696A0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52__CTOR_OFFSET UNITYSDK_OFFSET(0xFF57E80)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xA27F990)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xA27F9D0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET UNITYSDK_OFFSET(0xA27F410)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52__CTOR_OFFSET UNITYSDK_OFFSET(0xA26DB40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE52_TypeDefinitionIndex = 40469;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE52_TypeDefinitionIndex = 46378;
 
 	class InternalGlobals___GEN_DELEGATE52 : public ::System::MulticastDelegate
 	{
@@ -27,19 +25,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Boolean Invoke(::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* globalWeaknessDatas, ::RPG::GameCore::AttackDamageType weakness, ::RPG::GameCore::MonsterRank rank)
+		::System::Void Invoke(::Class_1_015CBEAEE0FDE159* pBattleRelicModule, ::RPG::GameCore::TurnBasedAbilityComponent* pTurnBasedAbilityComponent)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*, ::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET))(this, globalWeaknessDatas, weakness, rank);
+			return ((::System::Void(*)(::PVOID, ::Class_1_015CBEAEE0FDE159*, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET))(this, pBattleRelicModule, pTurnBasedAbilityComponent);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* globalWeaknessDatas, ::RPG::GameCore::AttackDamageType weakness, ::RPG::GameCore::MonsterRank rank, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Class_1_015CBEAEE0FDE159* pBattleRelicModule, ::RPG::GameCore::TurnBasedAbilityComponent* pTurnBasedAbilityComponent, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*, ::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET))(this, globalWeaknessDatas, weakness, rank, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_015CBEAEE0FDE159*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET))(this, pBattleRelicModule, pTurnBasedAbilityComponent, callback, object);
 		}
 
-		::System::Boolean EndInvoke(::System::IAsyncResult* result)
+		::System::Void EndInvoke(::System::IAsyncResult* result)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_ENDINVOKE_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_ENDINVOKE_OFFSET))(this, result);
 		}
 	};
 }

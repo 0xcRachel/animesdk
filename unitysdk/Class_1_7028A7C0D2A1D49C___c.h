@@ -7,37 +7,37 @@ class Class_2_9DD8A46984F1AFFD;
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_7028A7C0D2A1D49C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CD9060)
-#define CLASS_1_7028A7C0D2A1D49C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD9090)
-#define CLASS_1_7028A7C0D2A1D49C___C___CREATEHINTTRIGGER_B__8_0_OFFSET UNITYSDK_OFFSET(0x10CD90E0)
-#define CLASS_1_7028A7C0D2A1D49C___C___CREATEHINTTRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0x10CD9100)
-#define CLASS_1_7028A7C0D2A1D49C___C___CREATEINTERACTTRIGGER_B__7_0_OFFSET UNITYSDK_OFFSET(0x10CD90A0)
-#define CLASS_1_7028A7C0D2A1D49C___C___CREATEINTERACTTRIGGER_B__7_1_OFFSET UNITYSDK_OFFSET(0x10CD90C0)
+#define CLASS_1_7028A7C0D2A1D49C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAC91600)
+#define CLASS_1_7028A7C0D2A1D49C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAC91630)
+#define CLASS_1_7028A7C0D2A1D49C___C___CREATEHINTTRIGGER_B__8_0_OFFSET UNITYSDK_OFFSET(0xAC91680)
+#define CLASS_1_7028A7C0D2A1D49C___C___CREATEHINTTRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0xAC916A0)
+#define CLASS_1_7028A7C0D2A1D49C___C___CREATEINTERACTTRIGGER_B__7_0_OFFSET UNITYSDK_OFFSET(0xAC91640)
+#define CLASS_1_7028A7C0D2A1D49C___C___CREATEINTERACTTRIGGER_B__7_1_OFFSET UNITYSDK_OFFSET(0xAC91660)
 
-inline static constexpr unsigned int Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex = 62808;
+inline static constexpr unsigned int Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex = 70844;
 
 class Class_1_7028A7C0D2A1D49C___c : public ::System::Object
 {
 public:
+	static ::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__7_1()
+	{
+		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x67980);
+	}
 	static ::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__7_0()
 	{
-		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x46BB0);
+		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x67988);
 	}
 	static ::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__8_0()
 	{
-		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x46BB8);
+		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x67990);
 	}
 	static ::Class_1_7028A7C0D2A1D49C___c** StaticGet___9()
 	{
-		return (::Class_1_7028A7C0D2A1D49C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x46BC0);
+		return (::Class_1_7028A7C0D2A1D49C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x67998);
 	}
 	static ::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__8_1()
 	{
-		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x46BC8);
-	}
-	static ::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>** StaticGet___9__7_1()
-	{
-		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x46BD0);
+		return (::System::Action_3<::Class_1_7028A7C0D2A1D49C*, ::Class_2_9DD8A46984F1AFFD*, ::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7028A7C0D2A1D49C___c_TypeDefinitionIndex)->GetStaticField(0x679A0);
 	}
 
 	static ::System::Void _cctor()

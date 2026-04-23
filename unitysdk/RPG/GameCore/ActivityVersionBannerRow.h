@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F2DE50)
-#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2DF60)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DAF160)
+#define RPG_GAMECORE_ACTIVITYVERSIONBANNERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAF6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityVersionBannerRow_TypeDefinitionIndex = 10508;
+	inline static constexpr unsigned int ActivityVersionBannerRow_TypeDefinitionIndex = 10732;
 
 	class ActivityVersionBannerRow : public ::System::Object
 	{

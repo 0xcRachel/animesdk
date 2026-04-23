@@ -5,19 +5,19 @@
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_386D61DA33668FFE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x8918000)
-#define CLASS_1_386D61DA33668FFE_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x8918010)
-#define CLASS_1_386D61DA33668FFE_METHOD_1_AC3D041EA6F5D8CC_OFFSET UNITYSDK_OFFSET(0x8917BF0)
-#define CLASS_1_386D61DA33668FFE__CTOR_OFFSET UNITYSDK_OFFSET(0x8917BB0)
-#define CLASS_1_386D61DA33668FFE__GET_ISSHOW_B__5_0_OFFSET UNITYSDK_OFFSET(0x89180B0)
+#define CLASS_1_386D61DA33668FFE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x112F2E00)
+#define CLASS_1_386D61DA33668FFE_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x112F2E10)
+#define CLASS_1_386D61DA33668FFE_METHOD_1_AC3D041EA6F5D8CC_OFFSET UNITYSDK_OFFSET(0x112F29F0)
+#define CLASS_1_386D61DA33668FFE__CTOR_OFFSET UNITYSDK_OFFSET(0x112F29B0)
+#define CLASS_1_386D61DA33668FFE__GET_ISSHOW_B__5_0_OFFSET UNITYSDK_OFFSET(0x112F2EB0)
 
-inline static constexpr unsigned int Class_1_386D61DA33668FFE_TypeDefinitionIndex = 53165;
+inline static constexpr unsigned int Class_1_386D61DA33668FFE_TypeDefinitionIndex = 60288;
 
 class Class_1_386D61DA33668FFE : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x10
-	::RPG::Client::GridFightTrait* Field_1_0; // 0x18
+	::RPG::Client::GridFightTrait* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
 
 	::System::Void _ctor(::Il2CppArray<::System::UInt32>* a1, ::RPG::Client::GridFightTrait* a2)
 	{

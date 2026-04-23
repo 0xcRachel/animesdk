@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGMOODROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B1F10)
-#define RPG_GAMECORE_SWORDTRAININGMOODROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B2280)
+#define RPG_GAMECORE_SWORDTRAININGMOODROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D930D0)
+#define RPG_GAMECORE_SWORDTRAININGMOODROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D93440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingMoodRow_TypeDefinitionIndex = 11373;
+	inline static constexpr unsigned int SwordTrainingMoodRow_TypeDefinitionIndex = 11775;
 
 	class SwordTrainingMoodRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
 		::System::String* MoodIcon; // 0x18
-		::RPG::GameCore::SwordTrainingMoodState MoodStatus; // 0x20
-		::System::UInt32 MoodLevel; // 0x24
-		::RPG::Client::TextID EffectNumDesc; // 0x28
-		::System::UInt32 MaximumValue; // 0x38
-		::System::UInt32 MinimumValue; // 0x3C
-		::RPG::Client::TextID EffectDesc; // 0x40
+		::RPG::Client::TextID EffectDesc; // 0x20
+		::System::UInt32 MoodLevel; // 0x30
+		::System::UInt32 MinimumValue; // 0x34
+		::RPG::GameCore::SwordTrainingMoodState MoodStatus; // 0x38
+		::System::UInt32 MaximumValue; // 0x3C
+		::RPG::Client::TextID EffectNumDesc; // 0x40
 
 		::System::Void _ctor()
 		{

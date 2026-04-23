@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_015FA0D248877162_METHOD_1_12241B483F0CD209_OFFSET UNITYSDK_OFFSET(0x164D89B0)
-#define CLASS_1_015FA0D248877162_METHOD_1_2E81E77419A3877C_OFFSET UNITYSDK_OFFSET(0x164D8BA0)
-#define CLASS_1_015FA0D248877162_METHOD_1_EE7A41C190351096_OFFSET UNITYSDK_OFFSET(0x164D8B20)
-#define CLASS_1_015FA0D248877162__CTOR_OFFSET UNITYSDK_OFFSET(0x164D89C0)
+#define CLASS_1_015FA0D248877162_METHOD_1_12241B483F0CD209_OFFSET UNITYSDK_OFFSET(0x16B8B8B0)
+#define CLASS_1_015FA0D248877162_METHOD_1_2E81E77419A3877C_OFFSET UNITYSDK_OFFSET(0x16B8BA70)
+#define CLASS_1_015FA0D248877162_METHOD_1_EE7A41C190351096_OFFSET UNITYSDK_OFFSET(0x16B8B9F0)
+#define CLASS_1_015FA0D248877162__CTOR_OFFSET UNITYSDK_OFFSET(0x16B8B8C0)
 
-inline static constexpr unsigned int Class_1_015FA0D248877162_TypeDefinitionIndex = 32074;
+inline static constexpr unsigned int Class_1_015FA0D248877162_TypeDefinitionIndex = 37794;
 
 class Class_1_015FA0D248877162 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::String*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* Field_1_1; // 0x10
+	::Il2CppArray<::System::String*>* Field_1_0; // 0x18
 
 	::System::Void _ctor(::Il2CppArray<::System::String*>* a1)
 	{

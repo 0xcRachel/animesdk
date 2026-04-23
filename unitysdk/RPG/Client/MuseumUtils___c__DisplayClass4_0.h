@@ -5,12 +5,12 @@
 namespace RPG::Client { class LuaUIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9DD5570)
-#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS4_0__SHOWMUSEUMATLASPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x9DD5730)
+#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F17CC0)
+#define RPG_CLIENT_MUSEUMUTILS___C__DISPLAYCLASS4_0__SHOWMUSEUMATLASPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15F17F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumUtils___c__DisplayClass4_0_TypeDefinitionIndex = 53977;
+	inline static constexpr unsigned int MuseumUtils___c__DisplayClass4_0_TypeDefinitionIndex = 61122;
 
 	class MuseumUtils___c__DisplayClass4_0 : public ::System::Object
 	{

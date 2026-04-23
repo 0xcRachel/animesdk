@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_NAVMAP_SECTIONBOUNDSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9E34BC0)
+#define RPG_CLIENT_NAVMAP_SECTIONBOUNDSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1594F1E0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int SectionBoundsParam_TypeDefinitionIndex = 61262;
+	inline static constexpr unsigned int SectionBoundsParam_TypeDefinitionIndex = 68770;
 
 	class SectionBoundsParam : public ::System::Object
 	{
 	public:
 		::System::Single MaxY; // 0x10
-		::System::Single MinX; // 0x14
+		::System::Single MaxX; // 0x14
 		::System::Single MinY; // 0x18
-		::System::Single MaxX; // 0x1C
+		::System::Single MinX; // 0x1C
 
 		::System::Void _ctor()
 		{

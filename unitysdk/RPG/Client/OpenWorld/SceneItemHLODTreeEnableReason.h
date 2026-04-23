@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODTreeEnableReason_TypeDefinitionIndex = 60518;
+	inline static constexpr unsigned int SceneItemHLODTreeEnableReason_TypeDefinitionIndex = 67954;
 
 	enum class SceneItemHLODTreeEnableReason : ::System::Int32
 	{

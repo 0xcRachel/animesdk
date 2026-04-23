@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraDuelExcelValueGetter; }
 
-#define RPG_GAMECORE_CHIMERADUELBUBBLEEVENTLISTENER_METHOD_2_066906ED8B0F8CBA_OFFSET UNITYSDK_OFFSET(0x170AA540)
-#define RPG_GAMECORE_CHIMERADUELBUBBLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x170AA670)
+#define RPG_GAMECORE_CHIMERADUELBUBBLEEVENTLISTENER_METHOD_2_066906ED8B0F8CBA_OFFSET UNITYSDK_OFFSET(0x196B2280)
+#define RPG_GAMECORE_CHIMERADUELBUBBLEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x196B23B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBubbleEventListener_TypeDefinitionIndex = 14719;
+	inline static constexpr unsigned int ChimeraDuelBubbleEventListener_TypeDefinitionIndex = 15189;
 
 	class ChimeraDuelBubbleEventListener : public ::RPG::GameCore::JsonConfig
 	{

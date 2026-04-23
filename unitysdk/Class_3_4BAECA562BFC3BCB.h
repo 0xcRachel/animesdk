@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveFateHougu; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4BAECA562BFC3BCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10CA4400)
-#define CLASS_3_4BAECA562BFC3BCB__CTOR_OFFSET UNITYSDK_OFFSET(0x10CA43D0)
+#define CLASS_3_4BAECA562BFC3BCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x106210E0)
+#define CLASS_3_4BAECA562BFC3BCB__CTOR_OFFSET UNITYSDK_OFFSET(0x106210B0)
 
-inline static constexpr unsigned int Class_3_4BAECA562BFC3BCB_TypeDefinitionIndex = 44277;
+inline static constexpr unsigned int Class_3_4BAECA562BFC3BCB_TypeDefinitionIndex = 50991;
 
 class Class_3_4BAECA562BFC3BCB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveFateHougu*>
 {

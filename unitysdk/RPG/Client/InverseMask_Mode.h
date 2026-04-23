@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InverseMask_Mode_TypeDefinitionIndex = 59456;
+	inline static constexpr unsigned int InverseMask_Mode_TypeDefinitionIndex = 66851;
 
 	enum class InverseMask_Mode : ::System::Int32
 	{

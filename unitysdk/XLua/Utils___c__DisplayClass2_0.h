@@ -5,12 +5,12 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10498F40)
-#define XLUA_UTILS___C__DISPLAYCLASS2_0__GETALLTYPES_B__0_OFFSET UNITYSDK_OFFSET(0x104A6F40)
+#define XLUA_UTILS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA092B60)
+#define XLUA_UTILS___C__DISPLAYCLASS2_0__GETALLTYPES_B__0_OFFSET UNITYSDK_OFFSET(0xA0A0BC0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass2_0_TypeDefinitionIndex = 40548;
+	inline static constexpr unsigned int Utils___c__DisplayClass2_0_TypeDefinitionIndex = 46461;
 
 	class Utils___c__DisplayClass2_0 : public ::System::Object
 	{

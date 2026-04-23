@@ -6,22 +6,22 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define CLASS_1_3813372541E6DF1D_METHOD_1_5EC1195D07BB278D_OFFSET UNITYSDK_OFFSET(0x117A45B0)
-#define CLASS_1_3813372541E6DF1D__CCTOR_OFFSET UNITYSDK_OFFSET(0x117A5250)
-#define CLASS_1_3813372541E6DF1D__CTOR_OFFSET UNITYSDK_OFFSET(0x117A5240)
+#define CLASS_1_3813372541E6DF1D_METHOD_1_5EC1195D07BB278D_OFFSET UNITYSDK_OFFSET(0xCCF1AE0)
+#define CLASS_1_3813372541E6DF1D__CCTOR_OFFSET UNITYSDK_OFFSET(0xCCF2710)
+#define CLASS_1_3813372541E6DF1D__CTOR_OFFSET UNITYSDK_OFFSET(0xCCF2700)
 
-inline static constexpr unsigned int Class_1_3813372541E6DF1D_TypeDefinitionIndex = 53031;
+inline static constexpr unsigned int Class_1_3813372541E6DF1D_TypeDefinitionIndex = 60126;
 
 class Class_1_3813372541E6DF1D : public ::System::Object
 {
 public:
-	static ::System::Text::RegularExpressions::Regex** StaticGet_Field_1_0()
-	{
-		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3813372541E6DF1D_TypeDefinitionIndex)->GetStaticField(0x3C080);
-	}
 	static ::System::Text::RegularExpressions::Regex** StaticGet_Field_1_1()
 	{
-		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3813372541E6DF1D_TypeDefinitionIndex)->GetStaticField(0x3C088);
+		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3813372541E6DF1D_TypeDefinitionIndex)->GetStaticField(0x68930);
+	}
+	static ::System::Text::RegularExpressions::Regex** StaticGet_Field_1_0()
+	{
+		return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3813372541E6DF1D_TypeDefinitionIndex)->GetStaticField(0x68938);
 	}
 	// static const ::System::String* Field_1_2; // 0x0
 	// static const ::System::String* Field_1_3; // 0x0

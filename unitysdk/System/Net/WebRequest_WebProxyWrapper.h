@@ -4,11 +4,11 @@
 
 namespace System::Net { class WebProxy; }
 
-#define SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET UNITYSDK_OFFSET(0x18741D00)
+#define SYSTEM_NET_WEBREQUEST_WEBPROXYWRAPPER_GET_WEBPROXY_OFFSET UNITYSDK_OFFSET(0x183DDE90)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequest_WebProxyWrapper_TypeDefinitionIndex = 2757;
+	inline static constexpr unsigned int WebRequest_WebProxyWrapper_TypeDefinitionIndex = 2758;
 
 	class WebRequest_WebProxyWrapper : public ::System::Net::WebRequest_WebProxyWrapperOpaque
 	{

@@ -1,13 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/VCameraBlendType.h"
+#include "unitysdk/Struct_2_50F41487874AC62B.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define TRAINPARTYCAMERABLEND__CTOR_OFFSET UNITYSDK_OFFSET(0xAC34C80)
+#define TRAINPARTYCAMERABLEND_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xE1A1E80)
+#define TRAINPARTYCAMERABLEND__CTOR_OFFSET UNITYSDK_OFFSET(0xE1A1F00)
 
-inline static constexpr unsigned int TrainPartyCameraBlend_TypeDefinitionIndex = 38029;
+inline static constexpr unsigned int TrainPartyCameraBlend_TypeDefinitionIndex = 43909;
 
 class TrainPartyCameraBlend : public ::UnityEngine::MonoBehaviour
 {
@@ -19,5 +21,10 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TRAINPARTYCAMERABLEND__CTOR_OFFSET))(this);
+	}
+
+	::Struct_2_50F41487874AC62B GetConfig()
+	{
+		return ((::Struct_2_50F41487874AC62B(*)(::PVOID))((::PBYTE)hIl2Cpp + TRAINPARTYCAMERABLEND_GETCONFIG_OFFSET))(this);
 	}
 };

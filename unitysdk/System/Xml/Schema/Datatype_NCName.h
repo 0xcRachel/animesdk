@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_NCNAME_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18597F40)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NCNAME_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18597F50)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NCNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x185941D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NCNAME_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x186E2110)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NCNAME_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x186E2120)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NCNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x186DE3A0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_NCName_TypeDefinitionIndex = 2116;
+	inline static constexpr unsigned int Datatype_NCName_TypeDefinitionIndex = 2117;
 
 	class Datatype_NCName : public ::System::Xml::Schema::Datatype_Name
 	{

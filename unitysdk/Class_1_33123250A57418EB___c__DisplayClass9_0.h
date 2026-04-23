@@ -6,10 +6,10 @@
 class Class_1_33123250A57418EB;
 namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 
-#define CLASS_1_33123250A57418EB___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1068CF20)
-#define CLASS_1_33123250A57418EB___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0x1068D240)
+#define CLASS_1_33123250A57418EB___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCCCC3A0)
+#define CLASS_1_33123250A57418EB___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0xCCCC6C0)
 
-inline static constexpr unsigned int Class_1_33123250A57418EB___c__DisplayClass9_0_TypeDefinitionIndex = 63923;
+inline static constexpr unsigned int Class_1_33123250A57418EB___c__DisplayClass9_0_TypeDefinitionIndex = 71970;
 
 class Class_1_33123250A57418EB___c__DisplayClass9_0 : public ::System::Object
 {

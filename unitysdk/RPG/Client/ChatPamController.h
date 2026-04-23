@@ -2,25 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+namespace RPG::Client { class PamSkinData; }
 namespace RPG::CustomRP { class CRPVirtualCameraMask; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHATPAMCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9326F00)
-#define RPG_CLIENT_CHATPAMCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x9326E60)
-#define RPG_CLIENT_CHATPAMCONTROLLER_LOADPAM_OFFSET UNITYSDK_OFFSET(0x9327130)
-#define RPG_CLIENT_CHATPAMCONTROLLER_UNLOADPAM_OFFSET UNITYSDK_OFFSET(0x9326FB0)
-#define RPG_CLIENT_CHATPAMCONTROLLER__CHANGEPAMSKIN_OFFSET UNITYSDK_OFFSET(0x9327620)
-#define RPG_CLIENT_CHATPAMCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x9327760)
-#define RPG_CLIENT_CHATPAMCONTROLLER__ONENTITYLOADFINISH_OFFSET UNITYSDK_OFFSET(0x93274B0)
-#define RPG_CLIENT_CHATPAMCONTROLLER__ONPAMCHATFREESTYLEEVENT_OFFSET UNITYSDK_OFFSET(0x9327420)
+#define RPG_CLIENT_CHATPAMCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DF8530)
+#define RPG_CLIENT_CHATPAMCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0x15DF8490)
+#define RPG_CLIENT_CHATPAMCONTROLLER_LOADPAM_OFFSET UNITYSDK_OFFSET(0x15DF8760)
+#define RPG_CLIENT_CHATPAMCONTROLLER_SETPAMSKIN_OFFSET UNITYSDK_OFFSET(0x15DF8D50)
+#define RPG_CLIENT_CHATPAMCONTROLLER_STOPFREESTYLE_OFFSET UNITYSDK_OFFSET(0x15DF8BE0)
+#define RPG_CLIENT_CHATPAMCONTROLLER_UNLOADPAM_OFFSET UNITYSDK_OFFSET(0x15DF85E0)
+#define RPG_CLIENT_CHATPAMCONTROLLER__CHANGEPAMSKIN_OFFSET UNITYSDK_OFFSET(0x15DF8DC0)
+#define RPG_CLIENT_CHATPAMCONTROLLER__CREATEPAMENTITY_OFFSET UNITYSDK_OFFSET(0x15DF8870)
+#define RPG_CLIENT_CHATPAMCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF9300)
+#define RPG_CLIENT_CHATPAMCONTROLLER__GETMANIKINJSONPATH_OFFSET UNITYSDK_OFFSET(0x15DF8F00)
+#define RPG_CLIENT_CHATPAMCONTROLLER__ONENTITYLOADFINISH_OFFSET UNITYSDK_OFFSET(0x15DF90C0)
+#define RPG_CLIENT_CHATPAMCONTROLLER__ONPAMCHATFREESTYLEEVENT_OFFSET UNITYSDK_OFFSET(0x15DF8FD0)
+#define RPG_CLIENT_CHATPAMCONTROLLER__ONPOSSESSIONLOADED_OFFSET UNITYSDK_OFFSET(0x15DF9060)
+#define RPG_CLIENT_CHATPAMCONTROLLER__PLAYEFFECT_OFFSET UNITYSDK_OFFSET(0x15DF9230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatPamController_TypeDefinitionIndex = 59373;
+	inline static constexpr unsigned int ChatPamController_TypeDefinitionIndex = 66768;
 
 	class ChatPamController : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,6 +39,7 @@ namespace RPG::Client
 		::System::String* LevelGraphPath; // 0x30
 		::System::Collections::Generic::List_1<::System::String*>* ActionCustomStringList; // 0x38
 		::RPG::GameCore::GameEntity* _Entity; // 0x40
+		::System::UInt32 _CurrentPamSkinID; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -57,9 +66,29 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER_UNLOADPAM_OFFSET))(this);
 		}
 
+		::System::Void StopFreeStyle()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER_STOPFREESTYLE_OFFSET))(this);
+		}
+
+		::System::Void SetPamSkin(::RPG::Client::PamSkinData* skin)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PamSkinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER_SETPAMSKIN_OFFSET))(this, skin);
+		}
+
+		::RPG::GameCore::GameEntity* _CreatePamEntity(::RPG::Client::PamSkinData* skin)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::Client::PamSkinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__CREATEPAMENTITY_OFFSET))(this, skin);
+		}
+
 		::System::Void _OnPamChatFreeStyleEvent(::System::Object* arg)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__ONPAMCHATFREESTYLEEVENT_OFFSET))(this, arg);
+		}
+
+		::System::Void _OnPossessionLoaded(::UnityEngine::GameObject* possessionGO)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__ONPOSSESSIONLOADED_OFFSET))(this, possessionGO);
 		}
 
 		::System::Void _OnEntityLoadFinish(::RPG::GameCore::GameEntity* entity)
@@ -67,9 +96,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__ONENTITYLOADFINISH_OFFSET))(this, entity);
 		}
 
-		::System::Void _ChangePamSkin(::System::String* modelEntityPath, ::System::String* animEventJsonPath)
+		::System::Void _ChangePamSkin(::RPG::Client::PamSkinData* skin)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__CHANGEPAMSKIN_OFFSET))(this, modelEntityPath, animEventJsonPath);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::PamSkinData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__CHANGEPAMSKIN_OFFSET))(this, skin);
+		}
+
+		::System::Void _PlayEFfect()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__PLAYEFFECT_OFFSET))(this);
+		}
+
+		::System::String* _GetManikinJsonPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATPAMCONTROLLER__GETMANIKINJSONPATH_OFFSET))(this);
 		}
 	};
 }

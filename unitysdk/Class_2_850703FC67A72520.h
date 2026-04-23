@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class ShowDeleteMissionDialog; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_850703FC67A72520_DISPOSE_OFFSET UNITYSDK_OFFSET(0x87F8E40)
-#define CLASS_2_850703FC67A72520_METHOD_2_09AB8FC0B8BA1B6E_OFFSET UNITYSDK_OFFSET(0x87F94B0)
-#define CLASS_2_850703FC67A72520_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x87F8F70)
-#define CLASS_2_850703FC67A72520_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x87F9320)
-#define CLASS_2_850703FC67A72520_TICK_OFFSET UNITYSDK_OFFSET(0x87F9450)
-#define CLASS_2_850703FC67A72520__CTOR_OFFSET UNITYSDK_OFFSET(0x87F8CD0)
+#define CLASS_2_850703FC67A72520_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEDB01D0)
+#define CLASS_2_850703FC67A72520_METHOD_2_09AB8FC0B8BA1B6E_OFFSET UNITYSDK_OFFSET(0xEDB0840)
+#define CLASS_2_850703FC67A72520_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEDB0300)
+#define CLASS_2_850703FC67A72520_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEDB06B0)
+#define CLASS_2_850703FC67A72520_TICK_OFFSET UNITYSDK_OFFSET(0xEDB07E0)
+#define CLASS_2_850703FC67A72520__CTOR_OFFSET UNITYSDK_OFFSET(0xEDB0060)
 
-inline static constexpr unsigned int Class_2_850703FC67A72520_TypeDefinitionIndex = 43127;
+inline static constexpr unsigned int Class_2_850703FC67A72520_TypeDefinitionIndex = 49118;
 
 class Class_2_850703FC67A72520 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_5; // 0x0
-	::Class_3_5775A4FEC79026BC* Field_2_4; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::ShowDeleteMissionDialog* Field_2_0; // 0x28
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x30
-	::Class_3_5775A4FEC79026BC* Field_2_3; // 0x38
+	::Class_3_E21F6DE9B7FA4D05* Field_2_4; // 0x18
+	::RPG::GameCore::ShowDeleteMissionDialog* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
+	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x30
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowDeleteMissionDialog* a2)
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopWindowStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D6EDA2E627088286_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA19E520)
-#define CLASS_3_D6EDA2E627088286__CTOR_OFFSET UNITYSDK_OFFSET(0xA19E4F0)
+#define CLASS_3_D6EDA2E627088286_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF42C8B0)
+#define CLASS_3_D6EDA2E627088286__CTOR_OFFSET UNITYSDK_OFFSET(0xF42C880)
 
-inline static constexpr unsigned int Class_3_D6EDA2E627088286_TypeDefinitionIndex = 42801;
+inline static constexpr unsigned int Class_3_D6EDA2E627088286_TypeDefinitionIndex = 48783;
 
 class Class_3_D6EDA2E627088286 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopWindowStage*>
 {

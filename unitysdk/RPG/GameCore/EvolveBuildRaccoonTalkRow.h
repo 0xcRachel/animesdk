@@ -8,18 +8,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171C2720)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171C2E10)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1945D330)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1945DA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 10673;
+	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 10924;
 
 	class EvolveBuildRaccoonTalkRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::TextID>* TextmapList; // 0x10
-		::System::String* RaccoonPicPath; // 0x18
+		::System::String* RaccoonPicPath; // 0x10
+		::Il2CppArray<::RPG::Client::TextID>* TextmapList; // 0x18
 		::RPG::GameCore::RaccoonStateType RaccoonState; // 0x20
 		::RPG::GameCore::EvolveBuildSeason Season; // 0x24
 

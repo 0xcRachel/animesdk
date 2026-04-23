@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_NEWARRAYINITEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x18518A90)
-#define SYSTEM_LINQ_EXPRESSIONS_NEWARRAYINITEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x18518850)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWARRAYINITEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x19C842C0)
+#define SYSTEM_LINQ_EXPRESSIONS_NEWARRAYINITEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C84080)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int NewArrayInitExpression_TypeDefinitionIndex = 3249;
+	inline static constexpr unsigned int NewArrayInitExpression_TypeDefinitionIndex = 3251;
 
 	class NewArrayInitExpression : public ::System::Linq::Expressions::NewArrayExpression
 	{

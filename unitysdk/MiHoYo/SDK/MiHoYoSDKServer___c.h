@@ -8,34 +8,34 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8531790)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x85317C0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__GETGATEADDRESS_B__83_1_OFFSET UNITYSDK_OFFSET(0x85317E0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__GET_INSTANCE_B__5_0_OFFSET UNITYSDK_OFFSET(0x85317D0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__ONGETGATEADDRESSFAILED_B__86_0_OFFSET UNITYSDK_OFFSET(0x85319B0)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17298D30)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17298D60)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__GETGATEADDRESS_B__83_1_OFFSET UNITYSDK_OFFSET(0x17298D80)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__GET_INSTANCE_B__5_0_OFFSET UNITYSDK_OFFSET(0x17298D70)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__ONGETGATEADDRESSFAILED_B__86_0_OFFSET UNITYSDK_OFFSET(0x17298F50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c_TypeDefinitionIndex = 37083;
+	inline static constexpr unsigned int MiHoYoSDKServer___c_TypeDefinitionIndex = 42928;
 
 	class MiHoYoSDKServer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>** StaticGet___9__86_0()
-		{
-			return (::System::Func_2<::System::String*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x10CB0);
-		}
-		static ::MiHoYo::SDK::MiHoYoSDKServer___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::MiHoYoSDKServer___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x10CB8);
-		}
 		static ::System::Action** StaticGet___9__5_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x10CC0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x4DCA0);
 		}
 		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>** StaticGet___9__83_1()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x10CC8);
+			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x4DCA8);
+		}
+		static ::MiHoYo::SDK::MiHoYoSDKServer___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDKServer___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x4DCB0);
+		}
+		static ::System::Func_2<::System::String*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>** StaticGet___9__86_0()
+		{
+			return (::System::Func_2<::System::String*, ::MiHoYo::SDK::SecurityTunnel_ServerAddress>**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKServer___c_TypeDefinitionIndex)->GetStaticField(0x4DCB8);
 		}
 
 		static ::System::Void _cctor()

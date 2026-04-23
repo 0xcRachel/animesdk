@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace UnityEngine::Profiling { class Recorder; }
 
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_INIT_OFFSET UNITYSDK_OFFSET(0x16AEC920)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_UPDATE_OFFSET UNITYSDK_OFFSET(0x16AECA60)
-#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16AECB30)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_INIT_OFFSET UNITYSDK_OFFSET(0x15A9EE10)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY_UPDATE_OFFSET UNITYSDK_OFFSET(0x15A9EF50)
+#define RPG_CUSTOMRP_RUNTIMEPROFILER_RECORDERENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x15A9F020)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RuntimeProfiler_RecorderEntry_TypeDefinitionIndex = 29526;
+	inline static constexpr unsigned int RuntimeProfiler_RecorderEntry_TypeDefinitionIndex = 35293;
 
 	class RuntimeProfiler_RecorderEntry : public ::System::Object
 	{
 	public:
-		::UnityEngine::Profiling::Recorder* recorder; // 0x10
+		::System::String* profileName; // 0x10
 		::System::String* name; // 0x18
-		::System::String* profileName; // 0x20
-		::System::Single avgTime; // 0x28
-		::System::Int32 callCount; // 0x2C
+		::UnityEngine::Profiling::Recorder* recorder; // 0x20
+		::System::Int32 callCount; // 0x28
+		::System::Single avgTime; // 0x2C
 		::System::Single accTime; // 0x30
 
 		::System::Void _ctor()

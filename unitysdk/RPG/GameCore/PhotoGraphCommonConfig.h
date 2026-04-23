@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PhotoGraphBodySizeHeightConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_2A5B768076B3986E_OFFSET UNITYSDK_OFFSET(0x174BCFB0)
-#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174BD350)
+#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_2A5B768076B3986E_OFFSET UNITYSDK_OFFSET(0x18B1D970)
+#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1DD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphCommonConfig_TypeDefinitionIndex = 17470;
+	inline static constexpr unsigned int PhotoGraphCommonConfig_TypeDefinitionIndex = 18079;
 
 	class PhotoGraphCommonConfig : public ::RPG::GameCore::JsonConfig
 	{

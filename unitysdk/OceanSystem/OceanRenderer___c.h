@@ -7,24 +7,24 @@ namespace OceanSystem { class OceanRenderer; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Camera; }
 
-#define OCEANSYSTEM_OCEANRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8CAFE30)
-#define OCEANSYSTEM_OCEANRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8CAFE70)
-#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0x8CAFE80)
+#define OCEANSYSTEM_OCEANRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFF6E7E0)
+#define OCEANSYSTEM_OCEANRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFF6E820)
+#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0xFF6E830)
 
 namespace OceanSystem
 {
-	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 39681;
+	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 45590;
 
 	class OceanRenderer___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__58_0()
 		{
-			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x71A0);
+			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x161E0);
 		}
 		static ::OceanSystem::OceanRenderer___c** StaticGet___9()
 		{
-			return (::OceanSystem::OceanRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x71A8);
+			return (::OceanSystem::OceanRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x161E8);
 		}
 
 		static ::System::Void _cctor()

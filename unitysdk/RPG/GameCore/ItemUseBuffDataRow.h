@@ -8,35 +8,35 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMUSEBUFFDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1733A8B0)
-#define RPG_GAMECORE_ITEMUSEBUFFDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1733B410)
+#define RPG_GAMECORE_ITEMUSEBUFFDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188A45E0)
+#define RPG_GAMECORE_ITEMUSEBUFFDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188A5140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseBuffDataRow_TypeDefinitionIndex = 12684;
+	inline static constexpr unsigned int ItemUseBuffDataRow_TypeDefinitionIndex = 13151;
 
 	class ItemUseBuffDataRow : public ::System::Object
 	{
 	public:
-		::System::String* UseEffect; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* MazeBuffParam; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* MazeBuffParam2; // 0x20
-		::Il2CppArray<::RPG::GameCore::ItemFoodUseTag>* ConsumeTag; // 0x28
-		::System::Boolean IsShowUseMultipleSlider; // 0x30
-		::System::Boolean IsShowItemDesc; // 0x31
-		::System::Boolean IsCheckHP; // 0x32
-		::System::Int32 SatietyValue; // 0x34
-		::System::Single PreviewHPRecoveryPercent; // 0x38
-		::System::Single PreviewHPRecoveryValue; // 0x3C
-		::System::UInt32 ActivityCount; // 0x40
-		::System::UInt32 UseMultipleMax; // 0x44
-		::System::Single PreviewPowerPercent; // 0x48
-		::System::UInt32 MazeBuffID2; // 0x4C
-		::System::UInt32 ConsumeType; // 0x50
-		::System::UInt32 UseDataID; // 0x54
-		::RPG::GameCore::ItemFoodTargetType UseTargetType; // 0x58
-		::System::Single PreviewSkillPoint; // 0x5C
-		::System::UInt32 MazeBuffID; // 0x60
+		::Il2CppArray<::RPG::GameCore::ItemFoodUseTag>* ConsumeTag; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* MazeBuffParam2; // 0x18
+		::System::String* UseEffect; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* MazeBuffParam; // 0x28
+		::System::Int32 SatietyValue; // 0x30
+		::System::UInt32 UseDataID; // 0x34
+		::System::UInt32 ActivityCount; // 0x38
+		::RPG::GameCore::ItemFoodTargetType UseTargetType; // 0x3C
+		::System::Single PreviewSkillPoint; // 0x40
+		::System::Single PreviewHPRecoveryPercent; // 0x44
+		::System::UInt32 MazeBuffID; // 0x48
+		::System::UInt32 ConsumeType; // 0x4C
+		::System::UInt32 UseMultipleMax; // 0x50
+		::System::Single PreviewPowerPercent; // 0x54
+		::System::Single PreviewHPRecoveryValue; // 0x58
+		::System::Boolean IsShowUseMultipleSlider; // 0x5C
+		::System::Boolean IsShowItemDesc; // 0x5D
+		::System::Boolean IsCheckHP; // 0x5E
+		::System::UInt32 MazeBuffID2; // 0x60
 
 		::System::Void _ctor()
 		{

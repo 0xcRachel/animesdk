@@ -16,7 +16,7 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PressureSwitchBaseSystem_1_TypeDefinitionIndex = 62815;
+	inline static constexpr unsigned int PressureSwitchBaseSystem_1_TypeDefinitionIndex = 70851;
 
 	template <typename T>
 	class PressureSwitchBaseSystem_1 : public ::System::Object

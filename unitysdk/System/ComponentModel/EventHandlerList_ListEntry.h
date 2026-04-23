@@ -6,7 +6,7 @@ namespace System { class Delegate; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EventHandlerList_ListEntry_TypeDefinitionIndex = 2583;
+	inline static constexpr unsigned int EventHandlerList_ListEntry_TypeDefinitionIndex = 2584;
 
 	class EventHandlerList_ListEntry : public ::System::Object
 	{

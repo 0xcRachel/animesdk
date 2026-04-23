@@ -7,20 +7,20 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GachaTokenShopConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHATYPEBASICINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1723DE10)
-#define RPG_GAMECORE_GACHATYPEBASICINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1723E050)
+#define RPG_GAMECORE_GACHATYPEBASICINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B7DAF0)
+#define RPG_GAMECORE_GACHATYPEBASICINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B7DD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaTypeBasicInfoRow_TypeDefinitionIndex = 12201;
+	inline static constexpr unsigned int GachaTypeBasicInfoRow_TypeDefinitionIndex = 12634;
 
 	class GachaTypeBasicInfoRow : public ::System::Object
 	{
 	public:
-		::System::String* GachaBar; // 0x10
-		::RPG::GameCore::GachaTokenShopConfig* BuyPos; // 0x18
-		::System::UInt32 UpPropability; // 0x20
-		::System::UInt32 ItemPrice; // 0x24
+		::RPG::GameCore::GachaTokenShopConfig* BuyPos; // 0x10
+		::System::String* GachaBar; // 0x18
+		::System::UInt32 ItemPrice; // 0x20
+		::System::UInt32 UpPropability; // 0x24
 		::System::UInt32 ItemCosume; // 0x28
 		::System::UInt32 DiamondID; // 0x2C
 		::RPG::GameCore::GachaType GachaTypeID; // 0x30

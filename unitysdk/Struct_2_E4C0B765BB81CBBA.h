@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Struct_2_5C05B865B0E3235A_2.h"
-#include "unitysdk/Struct_2_984AA94FB23486F9_1.h"
+#include "unitysdk/Struct_2_984AA94FB23486F9_2.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define STRUCT_2_E4C0B765BB81CBBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14EC410)
-#define STRUCT_2_E4C0B765BB81CBBA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14EC420)
-#define STRUCT_2_E4C0B765BB81CBBA_METHOD_2_86B7446F35DAA9F7_OFFSET UNITYSDK_OFFSET(0x14EC400)
+#define STRUCT_2_E4C0B765BB81CBBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18A89D0)
+#define STRUCT_2_E4C0B765BB81CBBA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x18A89E0)
+#define STRUCT_2_E4C0B765BB81CBBA_METHOD_2_86B7446F35DAA9F7_OFFSET UNITYSDK_OFFSET(0x18A89C0)
 
-inline static constexpr unsigned int Struct_2_E4C0B765BB81CBBA_TypeDefinitionIndex = 58221;
+inline static constexpr unsigned int Struct_2_E4C0B765BB81CBBA_TypeDefinitionIndex = 65508;
 
 struct alignas(8) Struct_2_E4C0B765BB81CBBA
 {
 	// static const ::System::Int32 Field_2_3 = 0x10; // 0x0
-	::Unity::Collections::NativeArray_1<::Struct_2_984AA94FB23486F9_1> Field_2_0; // 0x10
+	::Unity::Collections::NativeArray_1<::Struct_2_984AA94FB23486F9_2> Field_2_0; // 0x10
 	::Unity::Collections::NativeArray_1<::Struct_2_5C05B865B0E3235A_2> Field_2_1; // 0x20
 	::System::Int32 Field_2_2; // 0x30
 

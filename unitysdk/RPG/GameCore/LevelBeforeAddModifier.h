@@ -9,29 +9,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA988DA0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA988D50)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xA988BD0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xA988DF0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2A18F0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2A18A0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xF2A1730)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xF2A1940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 45669;
+	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 52321;
 
 	class LevelBeforeAddModifier : public ::Class_1_9988289E7F8AA214
 	{
 	public:
 		::System::String* ModifierName; // 0x18
-		::Struct_2_5909FD7779934CCA ChangeParams; // 0x20
-		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x150
-		::RPG::GameCore::GameEntity* Caster; // 0x158
-		::RPG::GameCore::GameEntity* Receiver; // 0x160
-		::System::String* AbilityName; // 0x168
-		::System::Boolean DisableFloatingMessage; // 0x170
-		::System::Boolean IsSuccess; // 0x171
-		::System::Int32 LifeTime; // 0x174
+		::System::String* AbilityName; // 0x20
+		::RPG::GameCore::GameEntity* Receiver; // 0x28
+		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x30
+		::Struct_2_5909FD7779934CCA ChangeParams; // 0x38
+		::RPG::GameCore::GameEntity* Caster; // 0x168
+		::RPG::GameCore::FixPoint Chance; // 0x170
 		::RPG::GameCore::FixPoint BaseChance; // 0x178
-		::RPG::GameCore::FixPoint Chance; // 0x180
+		::System::Int32 LifeTime; // 0x180
+		::System::Boolean IsSuccess; // 0x184
+		::System::Boolean DisableFloatingMessage; // 0x185
 
 		::System::Void _ctor()
 		{

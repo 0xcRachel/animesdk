@@ -5,24 +5,24 @@
 namespace RPG::Client { class ItemData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x996E1A0)
-#define RPG_CLIENT_INVENTORYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x996E1E0)
-#define RPG_CLIENT_INVENTORYMODULE___C__UNLOCKALLRANKMAXEQUIPMENTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x996E1F0)
+#define RPG_CLIENT_INVENTORYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1339B9A0)
+#define RPG_CLIENT_INVENTORYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1339B9E0)
+#define RPG_CLIENT_INVENTORYMODULE___C__UNLOCKALLRANKMAXEQUIPMENTS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1339B9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c_TypeDefinitionIndex = 53353;
+	inline static constexpr unsigned int InventoryModule___c_TypeDefinitionIndex = 60487;
 
 	class InventoryModule___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::InventoryModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::InventoryModule___c**)Il2CppClass::FromTypeDefinitionIndex(InventoryModule___c_TypeDefinitionIndex)->GetStaticField(0x2C470);
+			return (::RPG::Client::InventoryModule___c**)Il2CppClass::FromTypeDefinitionIndex(InventoryModule___c_TypeDefinitionIndex)->GetStaticField(0x3BE80);
 		}
 		static ::System::Comparison_1<::RPG::Client::ItemData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ItemData*>**)Il2CppClass::FromTypeDefinitionIndex(InventoryModule___c_TypeDefinitionIndex)->GetStaticField(0x2C478);
+			return (::System::Comparison_1<::RPG::Client::ItemData*>**)Il2CppClass::FromTypeDefinitionIndex(InventoryModule___c_TypeDefinitionIndex)->GetStaticField(0x3BE88);
 		}
 
 		static ::System::Void _cctor()

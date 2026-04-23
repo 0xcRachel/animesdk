@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FUNCENTRANCELISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17236BA0)
-#define RPG_GAMECORE_FUNCENTRANCELISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172372E0)
+#define RPG_GAMECORE_FUNCENTRANCELISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B76860)
+#define RPG_GAMECORE_FUNCENTRANCELISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B76FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FuncEntranceListConfigRow_TypeDefinitionIndex = 12152;
+	inline static constexpr unsigned int FuncEntranceListConfigRow_TypeDefinitionIndex = 12585;
 
 	class FuncEntranceListConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FuncEntranceIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* BottomFuncEntranceIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* LeftHudFuncEntranceIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* LeftHudFuncEntranceIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* BottomFuncEntranceIDList; // 0x20
 		::Il2CppArray<::System::UInt32>* UnlockGotoTypeList; // 0x28
 		::Il2CppArray<::System::UInt32>* HudFuncEntranceIDList; // 0x30
 		::System::Boolean WheelSupport; // 0x38

@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1718A820)
-#define RPG_GAMECORE_DRINKMAKERCHEERSCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1718AA80)
+#define RPG_GAMECORE_DRINKMAKERCHEERSCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19136820)
+#define RPG_GAMECORE_DRINKMAKERCHEERSCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19136A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersCommentRow_TypeDefinitionIndex = 12054;
+	inline static constexpr unsigned int DrinkMakerCheersCommentRow_TypeDefinitionIndex = 12487;
 
 	class DrinkMakerCheersCommentRow : public ::System::Object
 	{
 	public:
 		::System::String* HeadIconPath; // 0x10
-		::RPG::Client::TextID Comment; // 0x18
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 UnlockQuest; // 0x2C
-		::System::Boolean IsProtagonist; // 0x30
+		::System::Boolean IsProtagonist; // 0x18
+		::RPG::Client::TextID Comment; // 0x20
+		::System::UInt32 UnlockQuest; // 0x30
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

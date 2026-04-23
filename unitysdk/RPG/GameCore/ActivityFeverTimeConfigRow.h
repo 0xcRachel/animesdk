@@ -7,38 +7,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EC9410)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECA180)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188784F0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188792B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeConfigRow_TypeDefinitionIndex = 10784;
+	inline static constexpr unsigned int ActivityFeverTimeConfigRow_TypeDefinitionIndex = 11033;
 
 	class ActivityFeverTimeConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* WaveMonsterList_1; // 0x10
-		::Il2CppArray<::System::UInt32>* MonsterList; // 0x18
-		::Il2CppArray<::System::UInt32>* P1AvailableBuffList; // 0x20
-		::Il2CppArray<::System::UInt32>* WaveMonsterList_3; // 0x28
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommadNature; // 0x30
-		::Il2CppArray<::System::UInt32>* P2AvailableBuffList; // 0x38
-		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x40
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommadNature; // 0x10
+		::Il2CppArray<::System::UInt32>* WaveMonsterList_1; // 0x18
+		::Il2CppArray<::System::UInt32>* P2AvailableBuffList; // 0x20
+		::Il2CppArray<::System::UInt32>* P3MazeBuffID; // 0x28
+		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x30
+		::System::String* ImagePath; // 0x38
+		::Il2CppArray<::System::UInt32>* MonsterList; // 0x40
 		::Il2CppArray<::System::UInt32>* WaveMonsterList_2; // 0x48
-		::Il2CppArray<::System::UInt32>* P3MazeBuffID; // 0x50
-		::System::String* ImagePath; // 0x58
-		::System::UInt32 UIEnterBattleAreaID; // 0x60
-		::System::UInt32 ExtraEffectID; // 0x64
-		::System::UInt32 ActivityModuleID; // 0x68
-		::System::UInt32 QuestGroupID; // 0x6C
-		::System::UInt32 FeverTimeID; // 0x70
-		::System::UInt32 EventID; // 0x74
-		::System::UInt32 UnlockID; // 0x78
-		::System::UInt32 TutorialGuideGroupID; // 0x7C
-		::RPG::Client::TextID LevelSPDes; // 0x80
-		::RPG::Client::TextID StageName; // 0x90
-		::RPG::Client::TextID LevelDes2; // 0xA0
-		::RPG::Client::TextID LevelDes1; // 0xB0
+		::Il2CppArray<::System::UInt32>* WaveMonsterList_3; // 0x50
+		::Il2CppArray<::System::UInt32>* P1AvailableBuffList; // 0x58
+		::RPG::Client::TextID LevelDes2; // 0x60
+		::System::UInt32 QuestGroupID; // 0x70
+		::System::UInt32 TutorialGuideGroupID; // 0x74
+		::System::UInt32 UIEnterBattleAreaID; // 0x78
+		::System::UInt32 ExtraEffectID; // 0x7C
+		::RPG::Client::TextID LevelDes1; // 0x80
+		::RPG::Client::TextID LevelSPDes; // 0x90
+		::System::UInt32 UnlockID; // 0xA0
+		::System::UInt32 ActivityModuleID; // 0xA4
+		::RPG::Client::TextID StageName; // 0xA8
+		::System::UInt32 FeverTimeID; // 0xB8
+		::System::UInt32 EventID; // 0xBC
 
 		::System::Void _ctor()
 		{

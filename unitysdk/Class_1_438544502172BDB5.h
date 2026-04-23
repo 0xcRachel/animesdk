@@ -5,19 +5,19 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_438544502172BDB5_METHOD_1_1ECDF1C47C8D4E7A_OFFSET UNITYSDK_OFFSET(0x11905AA0)
-#define CLASS_1_438544502172BDB5__CTOR_OFFSET UNITYSDK_OFFSET(0x11905B40)
+#define CLASS_1_438544502172BDB5_METHOD_1_1ECDF1C47C8D4E7A_OFFSET UNITYSDK_OFFSET(0x1050B3F0)
+#define CLASS_1_438544502172BDB5__CTOR_OFFSET UNITYSDK_OFFSET(0x1050B490)
 
-inline static constexpr unsigned int Class_1_438544502172BDB5_TypeDefinitionIndex = 53460;
+inline static constexpr unsigned int Class_1_438544502172BDB5_TypeDefinitionIndex = 60604;
 
 class Class_1_438544502172BDB5 : public ::System::Object
 {
 public:
 	::UnityEngine::GameObject* Field_1_4; // 0x10
-	::System::Single Field_1_2; // 0x18
-	::RPG::Client::TextID Field_1_0; // 0x20
-	::System::UInt32 Field_1_1; // 0x30
-	::System::Single Field_1_3; // 0x34
+	::RPG::Client::TextID Field_1_0; // 0x18
+	::System::UInt32 Field_1_1; // 0x28
+	::System::Single Field_1_3; // 0x2C
+	::System::Single Field_1_2; // 0x30
 
 	::System::Void _ctor()
 	{

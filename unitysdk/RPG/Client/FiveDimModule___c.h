@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_FIVEDIMMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97033F0)
-#define RPG_CLIENT_FIVEDIMMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9703420)
-#define RPG_CLIENT_FIVEDIMMODULE___C__ONENTERGAME_B__159_0_OFFSET UNITYSDK_OFFSET(0x9703430)
+#define RPG_CLIENT_FIVEDIMMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11333530)
+#define RPG_CLIENT_FIVEDIMMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11333560)
+#define RPG_CLIENT_FIVEDIMMODULE___C__ONENTERGAME_B__159_0_OFFSET UNITYSDK_OFFSET(0x11333570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule___c_TypeDefinitionIndex = 52127;
+	inline static constexpr unsigned int FiveDimModule___c_TypeDefinitionIndex = 59077;
 
 	class FiveDimModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FiveDimModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::FiveDimModule___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimModule___c_TypeDefinitionIndex)->GetStaticField(0x7090);
-		}
 		static ::System::Action** StaticGet___9__159_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(FiveDimModule___c_TypeDefinitionIndex)->GetStaticField(0x7098);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(FiveDimModule___c_TypeDefinitionIndex)->GetStaticField(0x15790);
+		}
+		static ::RPG::Client::FiveDimModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::FiveDimModule___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimModule___c_TypeDefinitionIndex)->GetStaticField(0x15798);
 		}
 
 		static ::System::Void _cctor()

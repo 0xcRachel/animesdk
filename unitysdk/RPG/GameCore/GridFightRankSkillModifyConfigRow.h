@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTRANKSKILLMODIFYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17291560)
-#define RPG_GAMECORE_GRIDFIGHTRANKSKILLMODIFYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172917E0)
+#define RPG_GAMECORE_GRIDFIGHTRANKSKILLMODIFYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B84960)
+#define RPG_GAMECORE_GRIDFIGHTRANKSKILLMODIFYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B84BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRankSkillModifyConfigRow_TypeDefinitionIndex = 12347;
+	inline static constexpr unsigned int GridFightRankSkillModifyConfigRow_TypeDefinitionIndex = 12781;
 
 	class GridFightRankSkillModifyConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ModifyValues; // 0x10
-		::Il2CppArray<::System::UInt32>* ModifySkillIndexs; // 0x18
-		::Il2CppArray<::RPG::GameCore::ModifyCalcOpType>* ModifyOps; // 0x20
-		::System::UInt32 SkillID; // 0x28
-		::System::UInt32 RankID; // 0x2C
+		::Il2CppArray<::System::UInt32>* ModifySkillIndexs; // 0x10
+		::Il2CppArray<::RPG::GameCore::ModifyCalcOpType>* ModifyOps; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ModifyValues; // 0x20
+		::System::UInt32 RankID; // 0x28
+		::System::UInt32 SkillID; // 0x2C
 
 		::System::Void _ctor()
 		{

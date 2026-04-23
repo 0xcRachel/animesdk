@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENTITYMOVETRACK_METHOD_2_004C3C22D43C6725_OFFSET UNITYSDK_OFFSET(0x171B5F80)
-#define RPG_GAMECORE_ENTITYMOVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x171B6030)
+#define RPG_GAMECORE_ENTITYMOVETRACK_METHOD_2_004C3C22D43C6725_OFFSET UNITYSDK_OFFSET(0x19450B90)
+#define RPG_GAMECORE_ENTITYMOVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19450C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityMoveTrack_TypeDefinitionIndex = 18450;
+	inline static constexpr unsigned int EntityMoveTrack_TypeDefinitionIndex = 19102;
 
 	class EntityMoveTrack : public ::RPG::GameCore::JsonConfig
 	{

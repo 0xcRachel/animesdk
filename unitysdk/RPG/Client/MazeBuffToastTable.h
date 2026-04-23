@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class SingleMazeBuffToastConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_MAZEBUFFTOASTTABLE_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x9B8AB80)
-#define RPG_CLIENT_MAZEBUFFTOASTTABLE_LOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0x9B8A8D0)
-#define RPG_CLIENT_MAZEBUFFTOASTTABLE_UNLOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0x9B8AAD0)
+#define RPG_CLIENT_MAZEBUFFTOASTTABLE_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x1759D950)
+#define RPG_CLIENT_MAZEBUFFTOASTTABLE_LOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0x1759D6A0)
+#define RPG_CLIENT_MAZEBUFFTOASTTABLE_UNLOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0x1759D8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MazeBuffToastTable_TypeDefinitionIndex = 60068;
+	inline static constexpr unsigned int MazeBuffToastTable_TypeDefinitionIndex = 67501;
 
 	class MazeBuffToastTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::SingleMazeBuffToastConfig*>** StaticGet__MazeBuffToastLookup()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::SingleMazeBuffToastConfig*>**)Il2CppClass::FromTypeDefinitionIndex(MazeBuffToastTable_TypeDefinitionIndex)->GetStaticField(0x45DC0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::SingleMazeBuffToastConfig*>**)Il2CppClass::FromTypeDefinitionIndex(MazeBuffToastTable_TypeDefinitionIndex)->GetStaticField(0x56830);
 		}
 
 		static ::System::Void LoadAllConfig()

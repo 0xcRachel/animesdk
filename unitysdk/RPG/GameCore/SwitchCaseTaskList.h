@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SWITCHCASETASKLIST_METHOD_2_A0B68FCBED262E0F_OFFSET UNITYSDK_OFFSET(0x177A73A0)
-#define RPG_GAMECORE_SWITCHCASETASKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x177A74F0)
+#define RPG_GAMECORE_SWITCHCASETASKLIST_METHOD_2_A0B68FCBED262E0F_OFFSET UNITYSDK_OFFSET(0x18D88560)
+#define RPG_GAMECORE_SWITCHCASETASKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18D886B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCaseTaskList_TypeDefinitionIndex = 22044;
+	inline static constexpr unsigned int SwitchCaseTaskList_TypeDefinitionIndex = 22760;
 
 	class SwitchCaseTaskList : public ::RPG::GameCore::JsonConfig
 	{

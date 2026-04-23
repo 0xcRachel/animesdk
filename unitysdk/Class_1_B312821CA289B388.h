@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/LittleGame/Match3/MatchThreeOpponentLiveState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_B312821CA289B388__CTOR_OFFSET UNITYSDK_OFFSET(0x168F2C90)
+#define CLASS_1_B312821CA289B388__CTOR_OFFSET UNITYSDK_OFFSET(0x15D48A30)
 
-inline static constexpr unsigned int Class_1_B312821CA289B388_TypeDefinitionIndex = 32708;
+inline static constexpr unsigned int Class_1_B312821CA289B388_TypeDefinitionIndex = 38498;
 
 class Class_1_B312821CA289B388 : public ::System::Object
 {
 public:
 	::RPG::Client::LittleGame::Match3::MatchThreeOpponentLiveState Field_1_4; // 0x10
-	::System::Int32 Field_1_3; // 0x14
+	::System::Int32 Field_1_0; // 0x14
 	::System::Int32 Field_1_2; // 0x18
 	::System::Int32 Field_1_1; // 0x1C
-	::System::Int32 Field_1_0; // 0x20
+	::System::Int32 Field_1_3; // 0x20
 
 	::System::Void _ctor()
 	{

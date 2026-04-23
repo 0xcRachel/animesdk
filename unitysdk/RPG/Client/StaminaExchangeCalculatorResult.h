@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_STAMINAEXCHANGECALCULATORRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xA4DE090)
+#define RPG_CLIENT_STAMINAEXCHANGECALCULATORRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x161FFF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StaminaExchangeCalculatorResult_TypeDefinitionIndex = 53391;
+	inline static constexpr unsigned int StaminaExchangeCalculatorResult_TypeDefinitionIndex = 60526;
 
 	class StaminaExchangeCalculatorResult : public ::System::Object
 	{
@@ -14,8 +14,8 @@ namespace RPG::Client
 		::System::Boolean IsEnough; // 0x10
 		::System::UInt32 FuelItemID; // 0x14
 		::System::UInt32 ReserveStaminaNum; // 0x18
-		::System::UInt32 StaminaNum; // 0x1C
-		::System::UInt32 FuelItemNum; // 0x20
+		::System::UInt32 FuelItemNum; // 0x1C
+		::System::UInt32 StaminaNum; // 0x20
 
 		::System::Void _ctor()
 		{

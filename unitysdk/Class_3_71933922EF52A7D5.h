@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ReplaceCharacterEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_71933922EF52A7D5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99C0F30)
-#define CLASS_3_71933922EF52A7D5__CTOR_OFFSET UNITYSDK_OFFSET(0x99C0F00)
+#define CLASS_3_71933922EF52A7D5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5C9860)
+#define CLASS_3_71933922EF52A7D5__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C9830)
 
-inline static constexpr unsigned int Class_3_71933922EF52A7D5_TypeDefinitionIndex = 44789;
+inline static constexpr unsigned int Class_3_71933922EF52A7D5_TypeDefinitionIndex = 51536;
 
 class Class_3_71933922EF52A7D5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ReplaceCharacterEmotion*>
 {

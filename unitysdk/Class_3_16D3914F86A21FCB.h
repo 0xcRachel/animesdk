@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRelayFlameSetSpecialFinalLevel; }
 
-#define CLASS_3_16D3914F86A21FCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7B81F0)
-#define CLASS_3_16D3914F86A21FCB__CTOR_OFFSET UNITYSDK_OFFSET(0xD7B81C0)
+#define CLASS_3_16D3914F86A21FCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10865110)
+#define CLASS_3_16D3914F86A21FCB__CTOR_OFFSET UNITYSDK_OFFSET(0x108650E0)
 
-inline static constexpr unsigned int Class_3_16D3914F86A21FCB_TypeDefinitionIndex = 43191;
+inline static constexpr unsigned int Class_3_16D3914F86A21FCB_TypeDefinitionIndex = 49186;
 
 class Class_3_16D3914F86A21FCB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TimeRelayFlameSetSpecialFinalLevel*>
 {

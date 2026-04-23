@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
 namespace System::Net::Http::Headers { template <typename T> class ElementTryParser_1; }
 
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSESTRINGELEMENT_OFFSET UNITYSDK_OFFSET(0x18536F40)
-#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x18536EC0)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSESTRINGELEMENT_OFFSET UNITYSDK_OFFSET(0x1A122920)
+#define SYSTEM_NET_HTTP_HEADERS_COLLECTIONPARSER_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1A1228A0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int CollectionParser_TypeDefinitionIndex = 4793;
+	inline static constexpr unsigned int CollectionParser_TypeDefinitionIndex = 4801;
 
 	class CollectionParser : public ::System::Object
 	{

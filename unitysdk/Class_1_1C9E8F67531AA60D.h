@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PingPongDropItemType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1C9E8F67531AA60D__CTOR_OFFSET UNITYSDK_OFFSET(0x169FB9A0)
+#define CLASS_1_1C9E8F67531AA60D__CTOR_OFFSET UNITYSDK_OFFSET(0x17C5F140)
 
-inline static constexpr unsigned int Class_1_1C9E8F67531AA60D_TypeDefinitionIndex = 33033;
+inline static constexpr unsigned int Class_1_1C9E8F67531AA60D_TypeDefinitionIndex = 38823;
 
 class Class_1_1C9E8F67531AA60D : public ::System::Object
 {

@@ -6,14 +6,14 @@ namespace Hdg { class rdtSerializerRegistry; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERINT_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x8407240)
-#define HDG_RDTSERIALIZERINT_READ_OFFSET UNITYSDK_OFFSET(0x84072A0)
-#define HDG_RDTSERIALIZERINT_WRITE_OFFSET UNITYSDK_OFFSET(0x8407270)
-#define HDG_RDTSERIALIZERINT__CTOR_OFFSET UNITYSDK_OFFSET(0x8407230)
+#define HDG_RDTSERIALIZERINT_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12C1FFF0)
+#define HDG_RDTSERIALIZERINT_READ_OFFSET UNITYSDK_OFFSET(0x12C20050)
+#define HDG_RDTSERIALIZERINT_WRITE_OFFSET UNITYSDK_OFFSET(0x12C20020)
+#define HDG_RDTSERIALIZERINT__CTOR_OFFSET UNITYSDK_OFFSET(0x12C1FFE0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerInt_TypeDefinitionIndex = 37894;
+	inline static constexpr unsigned int rdtSerializerInt_TypeDefinitionIndex = 43771;
 
 	class rdtSerializerInt : public ::System::Object
 	{

@@ -5,54 +5,54 @@
 namespace RPG::Client { class MatchThreeV2PvpScoreData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9B76E90)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9B76ED0)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x9B76EE0)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__5_1_OFFSET UNITYSDK_OFFSET(0x9B76FC0)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__5_2_OFFSET UNITYSDK_OFFSET(0x9B770A0)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_0_OFFSET UNITYSDK_OFFSET(0x9B77180)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_1_OFFSET UNITYSDK_OFFSET(0x9B77200)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_2_OFFSET UNITYSDK_OFFSET(0x9B77280)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_3_OFFSET UNITYSDK_OFFSET(0x9B77300)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17589260)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x175892A0)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x175892B0)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__5_1_OFFSET UNITYSDK_OFFSET(0x17589390)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__5_2_OFFSET UNITYSDK_OFFSET(0x17589470)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_0_OFFSET UNITYSDK_OFFSET(0x17589550)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_1_OFFSET UNITYSDK_OFFSET(0x175895D0)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_2_OFFSET UNITYSDK_OFFSET(0x17589650)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__GETSCOREDATA_B__6_3_OFFSET UNITYSDK_OFFSET(0x175896D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex = 53671;
+	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex = 60815;
 
 	class MatchThreeV2PvpScoreInfos___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_3()
-		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x45290);
-		}
 		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x45298);
-		}
-		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__5_2()
-		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x452A0);
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x563F0);
 		}
 		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__5_1()
 		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x452A8);
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x563F8);
 		}
-		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_1()
+		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__5_2()
 		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x452B0);
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x56400);
 		}
-		static ::RPG::Client::MatchThreeV2PvpScoreInfos___c** StaticGet___9()
+		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_3()
 		{
-			return (::RPG::Client::MatchThreeV2PvpScoreInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x452B8);
-		}
-		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_2()
-		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x452C0);
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x56408);
 		}
 		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__5_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x452C8);
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x56410);
+		}
+		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x56418);
+		}
+		static ::RPG::Client::MatchThreeV2PvpScoreInfos___c** StaticGet___9()
+		{
+			return (::RPG::Client::MatchThreeV2PvpScoreInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x56420);
+		}
+		static ::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>** StaticGet___9__6_2()
+		{
+			return (::System::Predicate_1<::RPG::Client::MatchThreeV2PvpScoreData*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2PvpScoreInfos___c_TypeDefinitionIndex)->GetStaticField(0x56428);
 		}
 
 		static ::System::Void _cctor()

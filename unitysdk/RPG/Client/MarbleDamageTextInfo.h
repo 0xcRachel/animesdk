@@ -5,21 +5,21 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MARBLEDAMAGETEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9B26F90)
+#define RPG_CLIENT_MARBLEDAMAGETEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5D430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleDamageTextInfo_TypeDefinitionIndex = 53459;
+	inline static constexpr unsigned int MarbleDamageTextInfo_TypeDefinitionIndex = 60603;
 
 	class MarbleDamageTextInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* Target; // 0x10
-		::Enum_3_0A3761FE34514D6C_34 DamageType; // 0x18
-		::System::Single Scale; // 0x1C
+		::System::Single Scale; // 0x18
+		::System::UInt32 EntityID; // 0x1C
 		::System::Single Duration; // 0x20
-		::System::UInt32 EntityID; // 0x24
-		::System::Int32 Damage; // 0x28
+		::System::Int32 Damage; // 0x24
+		::Enum_3_0A3761FE34514D6C_34 DamageType; // 0x28
 
 		::System::Void _ctor()
 		{

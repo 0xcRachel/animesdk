@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class ProcessOpInSkillExecuting; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_E3D05CB5EA3E1AB4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x105D4510)
-#define CLASS_2_E3D05CB5EA3E1AB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x105D4580)
-#define CLASS_2_E3D05CB5EA3E1AB4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105D4820)
-#define CLASS_2_E3D05CB5EA3E1AB4_TICK_OFFSET UNITYSDK_OFFSET(0x105D4870)
-#define CLASS_2_E3D05CB5EA3E1AB4__CTOR_OFFSET UNITYSDK_OFFSET(0x105D4490)
+#define CLASS_2_E3D05CB5EA3E1AB4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE0ECA40)
+#define CLASS_2_E3D05CB5EA3E1AB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE0ECAB0)
+#define CLASS_2_E3D05CB5EA3E1AB4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE0ECD50)
+#define CLASS_2_E3D05CB5EA3E1AB4_TICK_OFFSET UNITYSDK_OFFSET(0xE0ECDA0)
+#define CLASS_2_E3D05CB5EA3E1AB4__CTOR_OFFSET UNITYSDK_OFFSET(0xE0EC9C0)
 
-inline static constexpr unsigned int Class_2_E3D05CB5EA3E1AB4_TypeDefinitionIndex = 44240;
+inline static constexpr unsigned int Class_2_E3D05CB5EA3E1AB4_TypeDefinitionIndex = 50953;
 
 class Class_2_E3D05CB5EA3E1AB4 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
-	::RPG::GameCore::ProcessOpInSkillExecuting* Field_2_0; // 0x28
+	::RPG::GameCore::ProcessOpInSkillExecuting* Field_2_0; // 0x18
+	::Class_3_E21F6DE9B7FA4D05* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ProcessOpInSkillExecuting* a2)
 	{

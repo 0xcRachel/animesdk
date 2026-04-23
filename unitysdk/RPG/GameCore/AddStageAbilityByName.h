@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_9BA19A360810BFDC_OFFSET UNITYSDK_OFFSET(0x16F358F0)
-#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_A98AC0A0959AAA7D_OFFSET UNITYSDK_OFFSET(0x16F35870)
-#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x16F358C0)
+#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_9BA19A360810BFDC_OFFSET UNITYSDK_OFFSET(0x18DB7130)
+#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME_METHOD_3_A98AC0A0959AAA7D_OFFSET UNITYSDK_OFFSET(0x18DB70B0)
+#define RPG_GAMECORE_ADDSTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB7100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddStageAbilityByName_TypeDefinitionIndex = 21177;
+	inline static constexpr unsigned int AddStageAbilityByName_TypeDefinitionIndex = 21894;
 
 	class AddStageAbilityByName : public ::RPG::GameCore::TaskConfig
 	{

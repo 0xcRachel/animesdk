@@ -6,27 +6,27 @@ namespace System { class String; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_226AFD2DED4A0B74_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x8DD9990)
-#define CLASS_1_226AFD2DED4A0B74_METHOD_1_83C534D0141A7A9B_OFFSET UNITYSDK_OFFSET(0x8DD99F0)
-#define CLASS_1_226AFD2DED4A0B74_METHOD_1_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0x8DD9910)
-#define CLASS_1_226AFD2DED4A0B74__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DD98F0)
+#define CLASS_1_226AFD2DED4A0B74_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0xFE585B0)
+#define CLASS_1_226AFD2DED4A0B74_METHOD_1_83C534D0141A7A9B_OFFSET UNITYSDK_OFFSET(0xFE58610)
+#define CLASS_1_226AFD2DED4A0B74_METHOD_1_E55199F4E71DB1AE_OFFSET UNITYSDK_OFFSET(0xFE58530)
+#define CLASS_1_226AFD2DED4A0B74__CCTOR_OFFSET UNITYSDK_OFFSET(0xFE58510)
 
-inline static constexpr unsigned int Class_1_226AFD2DED4A0B74_TypeDefinitionIndex = 60426;
+inline static constexpr unsigned int Class_1_226AFD2DED4A0B74_TypeDefinitionIndex = 67848;
 
 class Class_1_226AFD2DED4A0B74 : public ::System::Object
 {
 public:
+	static ::System::Int32* StaticGet_Field_1_4()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_TypeDefinitionIndex)->GetStaticField(0x7560);
+	}
 	static ::System::Boolean* StaticGet_Field_1_5()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_TypeDefinitionIndex)->GetStaticField(0x9320);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_TypeDefinitionIndex)->GetStaticField(0x7564);
 	}
 	static ::System::Boolean* StaticGet_Field_1_6()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_TypeDefinitionIndex)->GetStaticField(0x9321);
-	}
-	static ::System::Int32* StaticGet_Field_1_4()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_TypeDefinitionIndex)->GetStaticField(0x9324);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_TypeDefinitionIndex)->GetStaticField(0x7565);
 	}
 	// static const ::System::Single Field_1_0; // 0x0
 	// static const ::System::Single Field_1_1; // 0x0

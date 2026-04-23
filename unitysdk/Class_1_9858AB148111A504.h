@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define CLASS_1_9858AB148111A504_METHOD_1_4AFA10CB41109F16_OFFSET UNITYSDK_OFFSET(0x8A6E430)
-#define CLASS_1_9858AB148111A504_METHOD_1_56B5A2BE57933A7F_OFFSET UNITYSDK_OFFSET(0x8A6E210)
-#define CLASS_1_9858AB148111A504_METHOD_1_8E9E3E0D1D6E6E24_OFFSET UNITYSDK_OFFSET(0x8A6E5C0)
-#define CLASS_1_9858AB148111A504__CTOR_OFFSET UNITYSDK_OFFSET(0x8A6EA00)
+#define CLASS_1_9858AB148111A504_METHOD_1_4AFA10CB41109F16_OFFSET UNITYSDK_OFFSET(0x10A1EA60)
+#define CLASS_1_9858AB148111A504_METHOD_1_56B5A2BE57933A7F_OFFSET UNITYSDK_OFFSET(0x10A1E840)
+#define CLASS_1_9858AB148111A504_METHOD_1_8E9E3E0D1D6E6E24_OFFSET UNITYSDK_OFFSET(0x10A1EBF0)
+#define CLASS_1_9858AB148111A504__CTOR_OFFSET UNITYSDK_OFFSET(0x10A1F030)
 
-inline static constexpr unsigned int Class_1_9858AB148111A504_TypeDefinitionIndex = 56991;
+inline static constexpr unsigned int Class_1_9858AB148111A504_TypeDefinitionIndex = 64241;
 
 class Class_1_9858AB148111A504 : public ::System::Object
 {
 public:
-	::Il2CppArray<::UnityEngine::Vector4>* Field_1_1; // 0x10
-	::Il2CppArray<::UnityEngine::Vector4>* Field_1_0; // 0x18
-	::Il2CppArray<::UnityEngine::Vector4>* Field_1_2; // 0x20
+	::Il2CppArray<::UnityEngine::Vector4>* Field_1_2; // 0x10
+	::Il2CppArray<::UnityEngine::Vector4>* Field_1_1; // 0x18
+	::Il2CppArray<::UnityEngine::Vector4>* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

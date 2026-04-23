@@ -6,28 +6,28 @@ namespace RPG::Client::Prop { class ChimeraNewMembersStateController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA073370)
-#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA073920)
-#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA073980)
-#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA073930)
-#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA073360)
-#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37__CTOR_OFFSET UNITYSDK_OFFSET(0xA072CF0)
+#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14FE1F40)
+#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14FE24F0)
+#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x14FE2550)
+#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x14FE2500)
+#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14FE1F30)
+#define RPG_CLIENT_PROP_CHIMERANEWMEMBERSSTATECONTROLLER___MOVEROUTINE_D__37__CTOR_OFFSET UNITYSDK_OFFSET(0x14FE18C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraNewMembersStateController___MoveRoutine_d__37_TypeDefinitionIndex = 63951;
+	inline static constexpr unsigned int ChimeraNewMembersStateController___MoveRoutine_d__37_TypeDefinitionIndex = 71998;
 
 	class ChimeraNewMembersStateController___MoveRoutine_d__37 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* start; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* end; // 0x18
-		::System::Object* __2__current; // 0x20
-		::RPG::Client::Prop::ChimeraNewMembersStateController* __4__this; // 0x28
-		::System::Single _total_5__2; // 0x30
-		::System::Int32 __1__state; // 0x34
-		::System::Single duration; // 0x38
-		::System::Single _elapsed_5__3; // 0x3C
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* end; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* start; // 0x18
+		::RPG::Client::Prop::ChimeraNewMembersStateController* __4__this; // 0x20
+		::System::Object* __2__current; // 0x28
+		::System::Int32 __1__state; // 0x30
+		::System::Single _elapsed_5__3; // 0x34
+		::System::Single _total_5__2; // 0x38
+		::System::Single duration; // 0x3C
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

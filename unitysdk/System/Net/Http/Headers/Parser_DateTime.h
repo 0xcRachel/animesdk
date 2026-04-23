@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x18540220)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x185402D0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1A12BBF0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A12BCA0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_DateTime_TypeDefinitionIndex = 4822;
+	inline static constexpr unsigned int Parser_DateTime_TypeDefinitionIndex = 4830;
 
 	class Parser_DateTime : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet_ToString()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Parser_DateTime_TypeDefinitionIndex)->GetStaticField(0x2AE10);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Parser_DateTime_TypeDefinitionIndex)->GetStaticField(0x15F20);
 		}
 
 		static ::System::Void _cctor()

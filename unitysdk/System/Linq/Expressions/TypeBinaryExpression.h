@@ -4,18 +4,18 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1851CB40)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET UNITYSDK_OFFSET(0x1851CB50)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x19C88370)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET UNITYSDK_OFFSET(0x19C88380)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypeBinaryExpression_TypeDefinitionIndex = 3264;
+	inline static constexpr unsigned int TypeBinaryExpression_TypeDefinitionIndex = 3266;
 
 	class TypeBinaryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Type* _TypeOperand_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _Expression_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _Expression_k__BackingField; // 0x10
+		::System::Type* _TypeOperand_k__BackingField; // 0x18
 
 		::System::Linq::Expressions::Expression* get_Expression()
 		{

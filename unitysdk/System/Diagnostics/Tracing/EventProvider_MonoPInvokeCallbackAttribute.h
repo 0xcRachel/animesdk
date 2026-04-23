@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x162D4AF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTPROVIDER_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x17D088C0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventProvider_MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 1675;
+	inline static constexpr unsigned int EventProvider_MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 1676;
 
 	class EventProvider_MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{

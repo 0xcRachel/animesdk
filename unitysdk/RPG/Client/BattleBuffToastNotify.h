@@ -8,26 +8,26 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLEBUFFTOASTNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x91A0F20)
+#define RPG_CLIENT_BATTLEBUFFTOASTNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xF3B8230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleBuffToastNotify_TypeDefinitionIndex = 58616;
+	inline static constexpr unsigned int BattleBuffToastNotify_TypeDefinitionIndex = 65936;
 
 	class BattleBuffToastNotify : public ::System::Object
 	{
 	public:
-		::System::String* CustomUIModelAttachPointName; // 0x10
-		::RPG::GameCore::GameEntity* Entity; // 0x18
-		::RPG::Client::TextID TextID; // 0x20
-		::System::Boolean UseFixedPosition; // 0x30
-		::System::Boolean IsShowUIMessageFromModel; // 0x31
-		::System::Boolean ForceVisible; // 0x32
-		::System::Boolean ScreenSpaceFloatMsg; // 0x33
-		::RPG::GameCore::FloatMessageType MessageType; // 0x34
-		::RPG::MVector3 CustomOffset; // 0x38
-		::System::Single DelayTime; // 0x44
-		::System::Single InternalTime; // 0x48
+		::RPG::GameCore::GameEntity* Entity; // 0x10
+		::System::String* CustomUIModelAttachPointName; // 0x18
+		::System::Single DelayTime; // 0x20
+		::RPG::Client::TextID TextID; // 0x28
+		::System::Single InternalTime; // 0x38
+		::RPG::GameCore::FloatMessageType MessageType; // 0x3C
+		::RPG::MVector3 CustomOffset; // 0x40
+		::System::Boolean ForceVisible; // 0x4C
+		::System::Boolean ScreenSpaceFloatMsg; // 0x4D
+		::System::Boolean IsShowUIMessageFromModel; // 0x4E
+		::System::Boolean UseFixedPosition; // 0x4F
 
 		::System::Void _ctor()
 		{

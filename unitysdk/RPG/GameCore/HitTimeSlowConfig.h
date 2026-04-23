@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HITTIMESLOWCONFIG_METHOD_2_F4DECC6D30B99A5B_OFFSET UNITYSDK_OFFSET(0x172C6120)
-#define RPG_GAMECORE_HITTIMESLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172C62D0)
+#define RPG_GAMECORE_HITTIMESLOWCONFIG_METHOD_2_F4DECC6D30B99A5B_OFFSET UNITYSDK_OFFSET(0x18A7FC20)
+#define RPG_GAMECORE_HITTIMESLOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A7FDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitTimeSlowConfig_TypeDefinitionIndex = 15665;
+	inline static constexpr unsigned int HitTimeSlowConfig_TypeDefinitionIndex = 16187;
 
 	class HitTimeSlowConfig : public ::RPG::GameCore::JsonConfig
 	{

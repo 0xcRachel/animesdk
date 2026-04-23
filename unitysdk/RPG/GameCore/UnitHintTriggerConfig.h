@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG_METHOD_2_CF3CBC968202C5C4_OFFSET UNITYSDK_OFFSET(0x178F92F0)
-#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178F94C0)
+#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG_METHOD_2_CF3CBC968202C5C4_OFFSET UNITYSDK_OFFSET(0x19510D50)
+#define RPG_GAMECORE_UNITHINTTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19510F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnitHintTriggerConfig_TypeDefinitionIndex = 16169;
+	inline static constexpr unsigned int UnitHintTriggerConfig_TypeDefinitionIndex = 16700;
 
 	class UnitHintTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

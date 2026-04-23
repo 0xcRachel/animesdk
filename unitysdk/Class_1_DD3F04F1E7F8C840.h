@@ -8,26 +8,26 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_1B0D3B386C81DA39_OFFSET UNITYSDK_OFFSET(0x10CEB1E0)
-#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0x10CEB030)
-#define CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CEBA70)
+#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_1B0D3B386C81DA39_OFFSET UNITYSDK_OFFSET(0xA49C830)
+#define CLASS_1_DD3F04F1E7F8C840_METHOD_1_5983C37099894977_OFFSET UNITYSDK_OFFSET(0xA49C7D0)
+#define CLASS_1_DD3F04F1E7F8C840__CCTOR_OFFSET UNITYSDK_OFFSET(0xA49CF30)
 
-inline static constexpr unsigned int Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex = 60441;
+inline static constexpr unsigned int Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex = 67863;
 
 class Class_1_DD3F04F1E7F8C840 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_28()
-	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x10F70);
-	}
 	static ::System::Boolean* StaticGet_Field_1_29()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x10F71);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xDF30);
+	}
+	static ::System::Boolean* StaticGet_Field_1_28()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xDF31);
 	}
 	static ::System::Int32* StaticGet_Field_1_30()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0x10F74);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD3F04F1E7F8C840_TypeDefinitionIndex)->GetStaticField(0xDF34);
 	}
 	// static const ::System::String* Field_1_0; // 0x0
 	// static const ::System::String* Field_1_1; // 0x0

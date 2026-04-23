@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x164BD140)
+#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6BBF60)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int AddingNewEventArgs_TypeDefinitionIndex = 8171;
+	inline static constexpr unsigned int AddingNewEventArgs_TypeDefinitionIndex = 8317;
 
 	class AddingNewEventArgs : public ::System::Object
 	{

@@ -6,19 +6,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_METHOD_5_691A1C2F360A8C86_OFFSET UNITYSDK_OFFSET(0x98EE150)
-#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_METHOD_5_B7C6DAE40A066421_OFFSET UNITYSDK_OFFSET(0x98EDE90)
-#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x98EE410)
-#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x98EE4C0)
+#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_ADDDISABLECANVASGROUP_OFFSET UNITYSDK_OFFSET(0x17442F80)
+#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x174430A0)
+#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_REMOVEDISABLECANVASGROUP_OFFSET UNITYSDK_OFFSET(0x17443010)
+#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_RPG_CLIENT_IUIDRAGEVENTLISTENER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x17442A00)
+#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_RPG_CLIENT_IUIDRAGEVENTLISTENER_ONSTARTDRAG_OFFSET UNITYSDK_OFFSET(0x17442CC0)
+#define RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x17443150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightUIDragEventListener_TypeDefinitionIndex = 59876;
+	inline static constexpr unsigned int GridFightUIDragEventListener_TypeDefinitionIndex = 67274;
 
 	class GridFightUIDragEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::UnityEngine::UI::Selectable*>* Field_5_0; // 0x18
+		::Il2CppArray<::UnityEngine::UI::Selectable*>* _SelectableArray; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* _DisableCanvasGroupList; // 0x20
 
 		::System::Void _ctor()
@@ -26,14 +28,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B7C6DAE40A066421()
+		::System::Void RPG_Client_IUIDragEventListener_OnEndDrag()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_METHOD_5_B7C6DAE40A066421_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_RPG_CLIENT_IUIDRAGEVENTLISTENER_ONENDDRAG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_691A1C2F360A8C86()
+		::System::Void RPG_Client_IUIDragEventListener_OnStartDrag()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_METHOD_5_691A1C2F360A8C86_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_RPG_CLIENT_IUIDRAGEVENTLISTENER_ONSTARTDRAG_OFFSET))(this);
+		}
+
+		::System::Void AddDisableCanvasGroup(::UnityEngine::CanvasGroup* canvasGroup)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::CanvasGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_ADDDISABLECANVASGROUP_OFFSET))(this, canvasGroup);
+		}
+
+		::System::Void RemoveDisableCanvasGroup(::UnityEngine::CanvasGroup* canvasGroup)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::CanvasGroup*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTUIDRAGEVENTLISTENER_REMOVEDISABLECANVASGROUP_OFFSET))(this, canvasGroup);
 		}
 
 		::System::Void OnDestroy()

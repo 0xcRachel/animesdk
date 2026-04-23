@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEntityForbidCameraDither; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FAAEF21A8B1419A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C9FC30)
-#define CLASS_3_FAAEF21A8B1419A6__CTOR_OFFSET UNITYSDK_OFFSET(0x10C9FC00)
+#define CLASS_3_FAAEF21A8B1419A6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD74F80)
+#define CLASS_3_FAAEF21A8B1419A6__CTOR_OFFSET UNITYSDK_OFFSET(0xAD74F50)
 
-inline static constexpr unsigned int Class_3_FAAEF21A8B1419A6_TypeDefinitionIndex = 45348;
+inline static constexpr unsigned int Class_3_FAAEF21A8B1419A6_TypeDefinitionIndex = 51992;
 
 class Class_3_FAAEF21A8B1419A6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEntityForbidCameraDither*>
 {

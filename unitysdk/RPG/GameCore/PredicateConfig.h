@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PREDICATECONFIG_METHOD_3_1C07D5A0A0F68024_OFFSET UNITYSDK_OFFSET(0x17502480)
-#define RPG_GAMECORE_PREDICATECONFIG_METHOD_3_B25F1F3414B44449_OFFSET UNITYSDK_OFFSET(0x17502600)
-#define RPG_GAMECORE_PREDICATECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x17502770)
-#define RPG_GAMECORE_PREDICATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17502740)
+#define RPG_GAMECORE_PREDICATECONFIG_METHOD_3_1C07D5A0A0F68024_OFFSET UNITYSDK_OFFSET(0x193698B0)
+#define RPG_GAMECORE_PREDICATECONFIG_METHOD_3_B25F1F3414B44449_OFFSET UNITYSDK_OFFSET(0x19369A30)
+#define RPG_GAMECORE_PREDICATECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19369BA0)
+#define RPG_GAMECORE_PREDICATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19369B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PredicateConfig_TypeDefinitionIndex = 22012;
+	inline static constexpr unsigned int PredicateConfig_TypeDefinitionIndex = 22725;
 
 	class PredicateConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PredicateConfig*>*>** StaticGet__FromBinary_PredicateConfig_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PredicateConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(PredicateConfig_TypeDefinitionIndex)->GetStaticField(0x3E8A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PredicateConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(PredicateConfig_TypeDefinitionIndex)->GetStaticField(0x4A570);
 		}
 		::System::Boolean Inverse; // 0x18
 

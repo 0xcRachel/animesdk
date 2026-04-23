@@ -5,21 +5,21 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_1C2E929C5A8FFA20_OFFSET UNITYSDK_OFFSET(0xA1B0D80)
-#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0xA1B0BF0)
-#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_D7DDA895983CCCB2_OFFSET UNITYSDK_OFFSET(0xA1B0B80)
-#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_F6E6E622B53160EC_OFFSET UNITYSDK_OFFSET(0xA1B0C40)
-#define CLASS_1_B4B6CE29D3ABB5E4__CTOR_OFFSET UNITYSDK_OFFSET(0xA1B0CD0)
+#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_1C2E929C5A8FFA20_OFFSET UNITYSDK_OFFSET(0x12C78CC0)
+#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x12C78B30)
+#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_D7DDA895983CCCB2_OFFSET UNITYSDK_OFFSET(0x12C78AC0)
+#define CLASS_1_B4B6CE29D3ABB5E4_METHOD_1_F6E6E622B53160EC_OFFSET UNITYSDK_OFFSET(0x12C78B80)
+#define CLASS_1_B4B6CE29D3ABB5E4__CTOR_OFFSET UNITYSDK_OFFSET(0x12C78C10)
 
-inline static constexpr unsigned int Class_1_B4B6CE29D3ABB5E4_TypeDefinitionIndex = 38497;
+inline static constexpr unsigned int Class_1_B4B6CE29D3ABB5E4_TypeDefinitionIndex = 44379;
 
 class Class_1_B4B6CE29D3ABB5E4 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x18
-	::System::Int32 Field_1_0; // 0x20
-	::System::Single Field_1_3; // 0x24
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2>* Field_1_2; // 0x18
+	::System::Single Field_1_3; // 0x20
+	::System::Int32 Field_1_0; // 0x24
 
 	::System::Void _ctor(::System::Int32 a1)
 	{

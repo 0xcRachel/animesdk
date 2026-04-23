@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_DEBUGRTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x16AA7760)
+#define RPG_CUSTOMRP_DEBUGRTNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15A59970)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugRTName_TypeDefinitionIndex = 29465;
+	inline static constexpr unsigned int DebugRTName_TypeDefinitionIndex = 35232;
 
 	class DebugRTName : public ::System::Object
 	{

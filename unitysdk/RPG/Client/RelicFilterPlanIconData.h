@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4CF8088A158DCE25_47;
+class Class_1_21C7581DFE99F091_55;
 
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xA2AC510)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xA2AC350)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0xA2ACA50)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA2ACDD0)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1602AD90)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1602ABD0)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0x1602B280)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1602B600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicFilterPlanIconData_TypeDefinitionIndex = 54408;
+	inline static constexpr unsigned int RelicFilterPlanIconData_TypeDefinitionIndex = 61596;
 
 	class RelicFilterPlanIconData : public ::System::Object
 	{
 	public:
-		::System::Boolean IsAvatarIcon; // 0x10
-		::System::UInt32 IconId; // 0x14
+		::System::UInt32 IconId; // 0x10
+		::System::Boolean IsAvatarIcon; // 0x14
 
 		::System::Void _ctor()
 		{
@@ -29,14 +29,14 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicFilterPlanIconData*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET))();
 		}
 
-		static ::RPG::Client::RelicFilterPlanIconData* Create_1(::Class_1_4CF8088A158DCE25_47* serverData)
+		static ::RPG::Client::RelicFilterPlanIconData* Create_1(::Class_1_21C7581DFE99F091_55* serverData)
 		{
-			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::Class_1_4CF8088A158DCE25_47*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET))(serverData);
+			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::Class_1_21C7581DFE99F091_55*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET))(serverData);
 		}
 
-		::System::Void FillToServerData(::Class_1_4CF8088A158DCE25_47* serverData)
+		::System::Void FillToServerData(::Class_1_21C7581DFE99F091_55* serverData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4CF8088A158DCE25_47*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET))(this, serverData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_55*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET))(this, serverData);
 		}
 	};
 }

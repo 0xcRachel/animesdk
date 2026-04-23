@@ -8,25 +8,25 @@ namespace RPG::Client { class ChimeraWorkRoundOptionData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_BANNEDARRANGEMENTS_OFFSET UNITYSDK_OFFSET(0x93EA590)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_LOCKEDLEADER_OFFSET UNITYSDK_OFFSET(0x93EA3B0)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_NEEDALLFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x93E8950)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_NEEDANYFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x93E8C30)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_OPTIONIDS_OFFSET UNITYSDK_OFFSET(0x93EA1C0)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_REQUIREDMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x93EA1D0)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x93E7530)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_BANNEDARRANGEMENTS_OFFSET UNITYSDK_OFFSET(0x178A9C00)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_LOCKEDLEADER_OFFSET UNITYSDK_OFFSET(0x178A9A20)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_NEEDALLFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x178A7FF0)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_NEEDANYFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0x178A82D0)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_OPTIONIDS_OFFSET UNITYSDK_OFFSET(0x178A9830)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA_GET_REQUIREDMEMBERCOUNT_OFFSET UNITYSDK_OFFSET(0x178A9840)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x178A6BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundOptionsData_TypeDefinitionIndex = 51585;
+	inline static constexpr unsigned int ChimeraWorkRoundOptionsData_TypeDefinitionIndex = 58523;
 
 	class ChimeraWorkRoundOptionsData : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* _OptionIDs_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _NeedAnyFinishSubMissionID; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _NeedAllFinishSubMissionID; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraWorkRoundOptionType, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraWorkRoundOptionData*>*>* _OptionDict; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _NeedAnyFinishSubMissionID; // 0x10
+		::Il2CppArray<::System::UInt32>* _OptionIDs_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraWorkRoundOptionType, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraWorkRoundOptionData*>*>* _OptionDict; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _NeedAllFinishSubMissionID; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::System::UInt32>* optionIDs)
 		{

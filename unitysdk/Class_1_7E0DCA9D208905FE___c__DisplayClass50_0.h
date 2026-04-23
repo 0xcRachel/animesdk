@@ -5,16 +5,16 @@
 class Class_1_7E0DCA9D208905FE;
 namespace RPG::GameCore { class AdventureCharacterController; }
 
-#define CLASS_1_7E0DCA9D208905FE___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEA58280)
-#define CLASS_1_7E0DCA9D208905FE___C__DISPLAYCLASS50_0___GETORCREATEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xEA58630)
+#define CLASS_1_7E0DCA9D208905FE___C__DISPLAYCLASS50_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDEA0120)
+#define CLASS_1_7E0DCA9D208905FE___C__DISPLAYCLASS50_0___GETORCREATEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xDEA02F0)
 
-inline static constexpr unsigned int Class_1_7E0DCA9D208905FE___c__DisplayClass50_0_TypeDefinitionIndex = 61689;
+inline static constexpr unsigned int Class_1_7E0DCA9D208905FE___c__DisplayClass50_0_TypeDefinitionIndex = 69599;
 
 class Class_1_7E0DCA9D208905FE___c__DisplayClass50_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::AdventureCharacterController* characterCtrl; // 0x10
-	::Class_1_7E0DCA9D208905FE* __4__this; // 0x18
+	::Class_1_7E0DCA9D208905FE* __4__this; // 0x10
+	::RPG::GameCore::AdventureCharacterController* characterCtrl; // 0x18
 
 	::System::Void _ctor()
 	{

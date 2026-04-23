@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class FiveDimChestConfig; }
 namespace System { class String; }
 
-#define CLASS_1_EBB304FBF0D71A99__CTOR_OFFSET UNITYSDK_OFFSET(0x16951C30)
+#define CLASS_1_EBB304FBF0D71A99__CTOR_OFFSET UNITYSDK_OFFSET(0x15541300)
 
-inline static constexpr unsigned int Class_1_EBB304FBF0D71A99_TypeDefinitionIndex = 33504;
+inline static constexpr unsigned int Class_1_EBB304FBF0D71A99_TypeDefinitionIndex = 39299;
 
 class Class_1_EBB304FBF0D71A99 : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimChestConfig* Field_1_0; // 0x10
-	::System::String* Field_1_4; // 0x18
-	::System::Int32 Field_1_2; // 0x20
+	::System::String* Field_1_4; // 0x10
+	::RPG::GameCore::FiveDimChestConfig* Field_1_0; // 0x18
+	::RPG::GameCore::FiveDimChestState Field_1_3; // 0x20
 	::System::Boolean Field_1_1; // 0x24
-	::RPG::GameCore::FiveDimChestState Field_1_3; // 0x28
+	::System::Int32 Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

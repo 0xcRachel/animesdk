@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ClockParkAttribute; }
 
-#define RPG_GAMECORE_CLOCKPARKLOTTERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170CE850)
-#define RPG_GAMECORE_CLOCKPARKLOTTERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170CEE80)
+#define RPG_GAMECORE_CLOCKPARKLOTTERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194DC330)
+#define RPG_GAMECORE_CLOCKPARKLOTTERYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194DC960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkLotteryRow_TypeDefinitionIndex = 10467;
+	inline static constexpr unsigned int ClockParkLotteryRow_TypeDefinitionIndex = 10691;
 
 	class ClockParkLotteryRow : public ::System::Object
 	{

@@ -5,9 +5,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define INTCURVEBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18302D70)
+#define INTCURVEBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1932AF90)
 
-inline static constexpr unsigned int IntCurveBundle_TypeDefinitionIndex = 33894;
+inline static constexpr unsigned int IntCurveBundle_TypeDefinitionIndex = 39695;
 
 class IntCurveBundle : public ::System::Object
 {

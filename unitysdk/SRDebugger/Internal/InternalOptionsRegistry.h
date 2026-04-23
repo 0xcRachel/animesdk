@@ -5,19 +5,19 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x184473A0)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x184473E0)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x184474E0)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x17C30100)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x17C30140)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x17C30240)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 29748;
+	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 35468;
 
 	class InternalOptionsRegistry : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* _registeredContainers; // 0x10
-		::System::Action_1<::System::Object*>* _handler; // 0x18
+		::System::Action_1<::System::Object*>* _handler; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* _registeredContainers; // 0x18
 
 		::System::Void _ctor()
 		{

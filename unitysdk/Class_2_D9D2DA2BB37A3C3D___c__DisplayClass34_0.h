@@ -6,10 +6,10 @@ class Class_1_5F949FB82A9B0DFD;
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_D9D2DA2BB37A3C3D___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x116CE2B0)
-#define CLASS_2_D9D2DA2BB37A3C3D___C__DISPLAYCLASS34_0___BUILDENTITIES_B__1_OFFSET UNITYSDK_OFFSET(0x116CF990)
+#define CLASS_2_D9D2DA2BB37A3C3D___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEE8F0E0)
+#define CLASS_2_D9D2DA2BB37A3C3D___C__DISPLAYCLASS34_0___BUILDENTITIES_B__1_OFFSET UNITYSDK_OFFSET(0xEE907E0)
 
-inline static constexpr unsigned int Class_2_D9D2DA2BB37A3C3D___c__DisplayClass34_0_TypeDefinitionIndex = 48911;
+inline static constexpr unsigned int Class_2_D9D2DA2BB37A3C3D___c__DisplayClass34_0_TypeDefinitionIndex = 55703;
 
 class Class_2_D9D2DA2BB37A3C3D___c__DisplayClass34_0 : public ::System::Object
 {

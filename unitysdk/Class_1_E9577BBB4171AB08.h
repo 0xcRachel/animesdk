@@ -3,37 +3,37 @@
 #include "unitysdk/RPG/Client/CompetitiveGamePlaySystemPriority.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_515;
+class Class_0_16E4307DCC419505_597;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E9577BBB4171AB08_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8931EE0)
-#define CLASS_1_E9577BBB4171AB08_METHOD_1_1211D223AFE46110_OFFSET UNITYSDK_OFFSET(0x8931CC0)
-#define CLASS_1_E9577BBB4171AB08_METHOD_1_1ACEC9D04C45B82C_OFFSET UNITYSDK_OFFSET(0x8931130)
-#define CLASS_1_E9577BBB4171AB08_METHOD_1_8ED569C4553B5429_OFFSET UNITYSDK_OFFSET(0x8931850)
-#define CLASS_1_E9577BBB4171AB08_METHOD_1_8F13CDD77F488702_OFFSET UNITYSDK_OFFSET(0x8931BD0)
-#define CLASS_1_E9577BBB4171AB08_METHOD_1_9138C69CD72DFBA6_OFFSET UNITYSDK_OFFSET(0x8931680)
-#define CLASS_1_E9577BBB4171AB08_METHOD_1_B4B67F3318997459_OFFSET UNITYSDK_OFFSET(0x8931760)
-#define CLASS_1_E9577BBB4171AB08__CTOR_OFFSET UNITYSDK_OFFSET(0x8932030)
+#define CLASS_1_E9577BBB4171AB08_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFCE3DF0)
+#define CLASS_1_E9577BBB4171AB08_METHOD_1_1211D223AFE46110_OFFSET UNITYSDK_OFFSET(0xFCE3BD0)
+#define CLASS_1_E9577BBB4171AB08_METHOD_1_1ACEC9D04C45B82C_OFFSET UNITYSDK_OFFSET(0xFCE3040)
+#define CLASS_1_E9577BBB4171AB08_METHOD_1_8ED569C4553B5429_OFFSET UNITYSDK_OFFSET(0xFCE3760)
+#define CLASS_1_E9577BBB4171AB08_METHOD_1_8F13CDD77F488702_OFFSET UNITYSDK_OFFSET(0xFCE3AE0)
+#define CLASS_1_E9577BBB4171AB08_METHOD_1_9138C69CD72DFBA6_OFFSET UNITYSDK_OFFSET(0xFCE3590)
+#define CLASS_1_E9577BBB4171AB08_METHOD_1_B4B67F3318997459_OFFSET UNITYSDK_OFFSET(0xFCE3670)
+#define CLASS_1_E9577BBB4171AB08__CTOR_OFFSET UNITYSDK_OFFSET(0xFCE3F40)
 
-inline static constexpr unsigned int Class_1_E9577BBB4171AB08_TypeDefinitionIndex = 49118;
+inline static constexpr unsigned int Class_1_E9577BBB4171AB08_TypeDefinitionIndex = 55913;
 
 class Class_1_E9577BBB4171AB08 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::Class_0_16E4307DCC419505_515*>* Field_1_2; // 0x10
-	::Class_0_16E4307DCC419505_515* Field_1_0; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::CompetitiveGamePlaySystemPriority>* Field_1_1; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::System::Int32>* Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::RPG::Client::CompetitiveGamePlaySystemPriority>* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::System::Int32>* Field_1_3; // 0x18
+	::Class_0_16E4307DCC419505_597* Field_1_0; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::CompetitiveGamePlaySystemPriority, ::Class_0_16E4307DCC419505_597*>* Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E9577BBB4171AB08__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_1ACEC9D04C45B82C(::Class_0_16E4307DCC419505_515* a1)
+	::System::Boolean Method_1_1ACEC9D04C45B82C(::Class_0_16E4307DCC419505_597* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_515*))((::PBYTE)hIl2Cpp + CLASS_1_E9577BBB4171AB08_METHOD_1_1ACEC9D04C45B82C_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_597*))((::PBYTE)hIl2Cpp + CLASS_1_E9577BBB4171AB08_METHOD_1_1ACEC9D04C45B82C_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_8ED569C4553B5429(::RPG::Client::CompetitiveGamePlaySystemPriority a1)

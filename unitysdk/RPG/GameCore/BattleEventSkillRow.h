@@ -11,46 +11,46 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTSKILLROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x16FEAA60)
-#define RPG_GAMECORE_BATTLEEVENTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FEB640)
-#define RPG_GAMECORE_BATTLEEVENTSKILLROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x16FEA990)
-#define RPG_GAMECORE_BATTLEEVENTSKILLROW_RESET_OFFSET UNITYSDK_OFFSET(0x16FEA9F0)
-#define RPG_GAMECORE_BATTLEEVENTSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FEC290)
+#define RPG_GAMECORE_BATTLEEVENTSKILLROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x187A8E50)
+#define RPG_GAMECORE_BATTLEEVENTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187A9A40)
+#define RPG_GAMECORE_BATTLEEVENTSKILLROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x187A8D80)
+#define RPG_GAMECORE_BATTLEEVENTSKILLROW_RESET_OFFSET UNITYSDK_OFFSET(0x187A8DE0)
+#define RPG_GAMECORE_BATTLEEVENTSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187AA6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventSkillRow_TypeDefinitionIndex = 11740;
+	inline static constexpr unsigned int BattleEventSkillRow_TypeDefinitionIndex = 12153;
 
 	class BattleEventSkillRow : public ::System::Object
 	{
 	public:
-		::System::String* SkillIcon; // 0x10
-		::System::String* CutinPath; // 0x18
+		::System::String* SkillTriggerKey; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x28
-		::System::String* SkillTriggerKey; // 0x30
-		::System::String* UltraSkillIcon; // 0x38
-		::System::String* SkillButtonEffType; // 0x40
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x48
-		::RPG::GameCore::FixPoint DelayRatio; // 0x50
-		::RPG::GameCore::FixPoint BPNeed; // 0x58
-		::RPG::GameCore::AttackType AttackType; // 0x60
-		::System::UInt32 SkillID; // 0x64
-		::RPG::GameCore::FixPoint SPNeed; // 0x68
-		::RPG::Client::TextID SkillDesc; // 0x70
-		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0x80
-		::RPG::Client::TextID SimpleSkillDesc; // 0x88
-		::RPG::GameCore::FixPoint BPAdd; // 0x98
-		::RPG::GameCore::FixPoint SPAdd; // 0xA0
-		::RPG::GameCore::SkillEffect SkillEffect; // 0xA8
-		::RPG::GameCore::AttackDamageType StanceDamageType; // 0xAC
-		::RPG::Client::TextID SkillTypeDesc; // 0xB0
-		::RPG::GameCore::FixPoint SPBase; // 0xC0
-		::RPG::Client::TextID SkillName; // 0xC8
-		::System::Int32 StanceDamageDisplay; // 0xD8
-		::RPG::Client::TextID SkillTag; // 0xE0
-		::RPG::Client::TextID SkillNeed; // 0xF0
-		::RPG::GameCore::FixPoint SPMultipleRatio; // 0x100
+		::System::String* SkillIcon; // 0x28
+		::System::String* UltraSkillIcon; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x38
+		::System::String* CutinPath; // 0x40
+		::System::String* SkillButtonEffType; // 0x48
+		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0x50
+		::RPG::Client::TextID SkillTypeDesc; // 0x58
+		::RPG::GameCore::FixPoint DelayRatio; // 0x68
+		::RPG::GameCore::FixPoint SPNeed; // 0x70
+		::RPG::GameCore::FixPoint BPAdd; // 0x78
+		::RPG::Client::TextID SkillName; // 0x80
+		::RPG::GameCore::FixPoint SPBase; // 0x90
+		::RPG::GameCore::AttackType AttackType; // 0x98
+		::System::Int32 StanceDamageDisplay; // 0x9C
+		::RPG::Client::TextID SimpleSkillDesc; // 0xA0
+		::System::UInt32 SkillID; // 0xB0
+		::RPG::GameCore::AttackDamageType StanceDamageType; // 0xB4
+		::RPG::GameCore::FixPoint SPMultipleRatio; // 0xB8
+		::RPG::GameCore::FixPoint SPAdd; // 0xC0
+		::RPG::Client::TextID SkillTag; // 0xC8
+		::RPG::GameCore::FixPoint BPNeed; // 0xD8
+		::RPG::Client::TextID SkillDesc; // 0xE0
+		::RPG::GameCore::SkillEffect SkillEffect; // 0xF0
+		::RPG::Client::TextID SkillNeed; // 0xF8
 
 		::System::Void _ctor()
 		{

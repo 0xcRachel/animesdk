@@ -5,24 +5,24 @@
 namespace InControl { class InputDevice; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define INCONTROL_INPUTMANAGER___C__ATTACHDEVICE_B__92_0_OFFSET UNITYSDK_OFFSET(0x15B916C0)
-#define INCONTROL_INPUTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B91670)
-#define INCONTROL_INPUTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B916B0)
+#define INCONTROL_INPUTMANAGER___C__ATTACHDEVICE_B__92_0_OFFSET UNITYSDK_OFFSET(0x16418F20)
+#define INCONTROL_INPUTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16418ED0)
+#define INCONTROL_INPUTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16418F10)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputManager___c_TypeDefinitionIndex = 31440;
+	inline static constexpr unsigned int InputManager___c_TypeDefinitionIndex = 37160;
 
 	class InputManager___c : public ::System::Object
 	{
 	public:
 		static ::InControl::InputManager___c** StaticGet___9()
 		{
-			return (::InControl::InputManager___c**)Il2CppClass::FromTypeDefinitionIndex(InputManager___c_TypeDefinitionIndex)->GetStaticField(0x39650);
+			return (::InControl::InputManager___c**)Il2CppClass::FromTypeDefinitionIndex(InputManager___c_TypeDefinitionIndex)->GetStaticField(0x105D0);
 		}
 		static ::System::Comparison_1<::InControl::InputDevice*>** StaticGet___9__92_0()
 		{
-			return (::System::Comparison_1<::InControl::InputDevice*>**)Il2CppClass::FromTypeDefinitionIndex(InputManager___c_TypeDefinitionIndex)->GetStaticField(0x39658);
+			return (::System::Comparison_1<::InControl::InputDevice*>**)Il2CppClass::FromTypeDefinitionIndex(InputManager___c_TypeDefinitionIndex)->GetStaticField(0x105D8);
 		}
 
 		static ::System::Void _cctor()

@@ -2,33 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_F76E966DD50AB39A;
+class Class_1_7807B2B04302CD7B_29;
+class Class_2_354AD1D19898E348;
 namespace RPG::Client { class ElationBattleBuffGroupViewData; }
+namespace RPG::Client { class ElationBattleBuffViewData; }
 namespace RPG::Client { class ElationBuffPresenterUIParam; }
 namespace RPG::Client { template <typename T> class NodeListViewPanel_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_CREAT_OFFSET UNITYSDK_OFFSET(0x959DF30)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONCLOSEOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x959E270)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONOPENOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x959E1F0)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x959E030)
-#define RPG_CLIENT_ELATIONBUFFPRESENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x959DFE0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_CREAT_OFFSET UNITYSDK_OFFSET(0x15F4FE60)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONCLOSEOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x15F50670)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_ONOPENOVERVIEWCLICK_OFFSET UNITYSDK_OFFSET(0x15F505F0)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x15F4FF60)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4FF10)
+#define RPG_CLIENT_ELATIONBUFFPRESENTER__MERGEBUFFDATABYLIFE_OFFSET UNITYSDK_OFFSET(0x15F50100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 58322;
+	inline static constexpr unsigned int ElationBuffPresenter_TypeDefinitionIndex = 65609;
 
 	class ElationBuffPresenter : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::Button* _OpenOverviewBtn; // 0x10
-		::UnityEngine::UI::Text* _TotalPointText; // 0x18
-		::UnityEngine::Transform* _LineBottom; // 0x20
-		::UnityEngine::UI::Text* _TotalDescText; // 0x28
-		::UnityEngine::UI::Button* _CloseOverviewBtn; // 0x30
-		::RPG::Client::NodeListViewPanel_1<::Class_2_F76E966DD50AB39A*>* _ElationBuffList; // 0x38
+		::UnityEngine::UI::Text* _TotalDescText; // 0x18
+		::UnityEngine::UI::Button* _CloseOverviewBtn; // 0x20
+		::RPG::Client::NodeListViewPanel_1<::Class_2_354AD1D19898E348*>* _ElationBuffList; // 0x28
+		::UnityEngine::Transform* _LineBottom; // 0x30
+		::UnityEngine::UI::Text* _TotalPointText; // 0x38
 
 		::System::Void _ctor(::RPG::Client::ElationBuffPresenterUIParam* param)
 		{
@@ -43,6 +47,11 @@ namespace RPG::Client
 		::System::Void SetupView(::RPG::Client::ElationBattleBuffGroupViewData* elationBuffGroup)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ElationBattleBuffGroupViewData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER_SETUPVIEW_OFFSET))(this, elationBuffGroup);
+		}
+
+		::System::Collections::Generic::List_1<::Class_1_7807B2B04302CD7B_29*>* _MergeBuffDataByLife(::System::Collections::Generic::List_1<::RPG::Client::ElationBattleBuffViewData*>* buffViewDatas)
+		{
+			return ((::System::Collections::Generic::List_1<::Class_1_7807B2B04302CD7B_29*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::ElationBattleBuffViewData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBUFFPRESENTER__MERGEBUFFDATABYLIFE_OFFSET))(this, buffViewDatas);
 		}
 
 		::System::Void OnOpenOverviewClick()

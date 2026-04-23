@@ -7,29 +7,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_ABILITYSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA81CBE0)
-#define RPG_GAMECORE_ABILITYSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA81CC10)
-#define RPG_GAMECORE_ABILITYSTATIC___C__FILLRESTRICTTARGETLIST_B__86_0_OFFSET UNITYSDK_OFFSET(0xA81CC20)
-#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_0_OFFSET UNITYSDK_OFFSET(0xA81CC60)
-#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_1_OFFSET UNITYSDK_OFFSET(0xA81CCA0)
-#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_2_OFFSET UNITYSDK_OFFSET(0xA81CCF0)
-#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_3_OFFSET UNITYSDK_OFFSET(0xA81CD30)
-#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_4_OFFSET UNITYSDK_OFFSET(0xA81CD80)
+#define RPG_GAMECORE_ABILITYSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1F57A0)
+#define RPG_GAMECORE_ABILITYSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F57D0)
+#define RPG_GAMECORE_ABILITYSTATIC___C__FILLRESTRICTTARGETLIST_B__91_0_OFFSET UNITYSDK_OFFSET(0xB1F57E0)
+#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_0_OFFSET UNITYSDK_OFFSET(0xB1F5820)
+#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_1_OFFSET UNITYSDK_OFFSET(0xB1F5860)
+#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_2_OFFSET UNITYSDK_OFFSET(0xB1F58B0)
+#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_3_OFFSET UNITYSDK_OFFSET(0xB1F58F0)
+#define RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_4_OFFSET UNITYSDK_OFFSET(0xB1F5940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityStatic___c_TypeDefinitionIndex = 43486;
+	inline static constexpr unsigned int AbilityStatic___c_TypeDefinitionIndex = 50183;
 
 	class AbilityStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__86_0()
+		static ::System::Comparison_1<::RPG::GameCore::GameEntity*>** StaticGet___9__91_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(AbilityStatic___c_TypeDefinitionIndex)->GetStaticField(0x3EE80);
+			return (::System::Comparison_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(AbilityStatic___c_TypeDefinitionIndex)->GetStaticField(0x5EB10);
 		}
 		static ::RPG::GameCore::AbilityStatic___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::AbilityStatic___c**)Il2CppClass::FromTypeDefinitionIndex(AbilityStatic___c_TypeDefinitionIndex)->GetStaticField(0x3EE88);
+			return (::RPG::GameCore::AbilityStatic___c**)Il2CppClass::FromTypeDefinitionIndex(AbilityStatic___c_TypeDefinitionIndex)->GetStaticField(0x5EB18);
 		}
 
 		static ::System::Void _cctor()
@@ -42,34 +42,34 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _FillRestrictTargetList_b__86_0(::RPG::GameCore::GameEntity* lhs, ::RPG::GameCore::GameEntity* rhs)
+		::System::Int32 _FillRestrictTargetList_b__91_0(::RPG::GameCore::GameEntity* lhs, ::RPG::GameCore::GameEntity* rhs)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C__FILLRESTRICTTARGETLIST_B__86_0_OFFSET))(this, lhs, rhs);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C__FILLRESTRICTTARGETLIST_B__91_0_OFFSET))(this, lhs, rhs);
 		}
 
-		::System::Int32 __cctor_b__276_0(::RPG::GameCore::TurnBasedModifierInstance* x, ::RPG::GameCore::TurnBasedModifierInstance* y)
+		::System::Int32 __cctor_b__283_0(::RPG::GameCore::TurnBasedModifierInstance* x, ::RPG::GameCore::TurnBasedModifierInstance* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_0_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_0_OFFSET))(this, x, y);
 		}
 
-		::System::Int32 __cctor_b__276_1(::Class_1_A891C8E0D74F1DB9* x, ::Class_1_A891C8E0D74F1DB9* y)
+		::System::Int32 __cctor_b__283_1(::Class_1_A891C8E0D74F1DB9* x, ::Class_1_A891C8E0D74F1DB9* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_A891C8E0D74F1DB9*, ::Class_1_A891C8E0D74F1DB9*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_1_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::Class_1_A891C8E0D74F1DB9*, ::Class_1_A891C8E0D74F1DB9*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_1_OFFSET))(this, x, y);
 		}
 
-		::System::Int32 __cctor_b__276_2(::RPG::GameCore::TurnBasedModifierInstance* x, ::RPG::GameCore::TurnBasedModifierInstance* y)
+		::System::Int32 __cctor_b__283_2(::RPG::GameCore::TurnBasedModifierInstance* x, ::RPG::GameCore::TurnBasedModifierInstance* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_2_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_2_OFFSET))(this, x, y);
 		}
 
-		::System::Int32 __cctor_b__276_3(::Class_1_A891C8E0D74F1DB9* x, ::Class_1_A891C8E0D74F1DB9* y)
+		::System::Int32 __cctor_b__283_3(::Class_1_A891C8E0D74F1DB9* x, ::Class_1_A891C8E0D74F1DB9* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_1_A891C8E0D74F1DB9*, ::Class_1_A891C8E0D74F1DB9*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_3_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::Class_1_A891C8E0D74F1DB9*, ::Class_1_A891C8E0D74F1DB9*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_3_OFFSET))(this, x, y);
 		}
 
-		::System::Int32 __cctor_b__276_4(::RPG::GameCore::TurnBasedModifierInstance* x, ::RPG::GameCore::TurnBasedModifierInstance* y)
+		::System::Int32 __cctor_b__283_4(::RPG::GameCore::TurnBasedModifierInstance* x, ::RPG::GameCore::TurnBasedModifierInstance* y)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__276_4_OFFSET))(this, x, y);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTATIC___C___CCTOR_B__283_4_OFFSET))(this, x, y);
 		}
 	};
 }

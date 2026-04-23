@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUETOURNWEEKLYCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17684690)
-#define RPG_GAMECORE_ROGUETOURNWEEKLYCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17684A60)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983B440)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983B810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournWeeklyChallengeRow_TypeDefinitionIndex = 13715;
+	inline static constexpr unsigned int RogueTournWeeklyChallengeRow_TypeDefinitionIndex = 14186;
 
 	class RogueTournWeeklyChallengeRow : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterGroups2; // 0x10
 		::Il2CppArray<::System::UInt32>* WeeklyContentList; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterGroups1; // 0x20
-		::Il2CppArray<::System::UInt32>* WeeklyContentDetailList; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterGroups3; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterGroups1; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayFinalMonsterGroups; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterGroups3; // 0x38
+		::Il2CppArray<::System::UInt32>* WeeklyContentDetailList; // 0x38
 		::RPG::Client::TextID WeeklyName; // 0x40
 		::System::UInt32 RewardID; // 0x50
 		::System::UInt32 ChallengeID; // 0x54

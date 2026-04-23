@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetMapAttackTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_CD4E77444244662F_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xA22DA90)
-#define CLASS_2_CD4E77444244662F__CTOR_OFFSET UNITYSDK_OFFSET(0xA22DA70)
+#define CLASS_2_CD4E77444244662F_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC2C5710)
+#define CLASS_2_CD4E77444244662F__CTOR_OFFSET UNITYSDK_OFFSET(0xC2C56F0)
 
-inline static constexpr unsigned int Class_2_CD4E77444244662F_TypeDefinitionIndex = 47798;
+inline static constexpr unsigned int Class_2_CD4E77444244662F_TypeDefinitionIndex = 54537;
 
 class Class_2_CD4E77444244662F : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapAttackTargetList*>
 {

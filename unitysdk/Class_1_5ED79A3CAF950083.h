@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class TrainPartyPerformanceDefineCharacter; }
 namespace System { class String; }
 
-#define CLASS_1_5ED79A3CAF950083_METHOD_1_607F02E5155E5898_OFFSET UNITYSDK_OFFSET(0x11832AE0)
+#define CLASS_1_5ED79A3CAF950083_METHOD_1_607F02E5155E5898_OFFSET UNITYSDK_OFFSET(0x10625320)
 
-inline static constexpr unsigned int Class_1_5ED79A3CAF950083_TypeDefinitionIndex = 48774;
+inline static constexpr unsigned int Class_1_5ED79A3CAF950083_TypeDefinitionIndex = 55538;
 
 class Class_1_5ED79A3CAF950083 : public ::System::Object
 {

@@ -7,19 +7,19 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixBasePredicate; }
 namespace System { class Object; }
 
-#define CLASS_3_75DBBBC880985ABC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1151E730)
-#define CLASS_3_75DBBBC880985ABC__CTOR_OFFSET UNITYSDK_OFFSET(0x1151E6B0)
+#define CLASS_3_75DBBBC880985ABC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4B0060)
+#define CLASS_3_75DBBBC880985ABC__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AFFE0)
 
-inline static constexpr unsigned int Class_3_75DBBBC880985ABC_TypeDefinitionIndex = 44691;
+inline static constexpr unsigned int Class_3_75DBBBC880985ABC_TypeDefinitionIndex = 51435;
 
 class Class_3_75DBBBC880985ABC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::UniversalHotFixBasePredicate*>
 {
 public:
 	::System::Object* Field_3_3; // 0x28
 	::Class_1_B798001FE639F577* Field_3_1; // 0x30
-	::RPG::GameCore::UniversalHotFixBasePredicate* Field_3_0; // 0x38
-	::System::Object* Field_3_2; // 0x40
-	::System::Object* Field_3_4; // 0x48
+	::System::Object* Field_3_2; // 0x38
+	::System::Object* Field_3_4; // 0x40
+	::RPG::GameCore::UniversalHotFixBasePredicate* Field_3_0; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UniversalHotFixBasePredicate* a2)
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/MonopolySwitchState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7B6614A282AF16B5__CTOR_OFFSET UNITYSDK_OFFSET(0x16834E80)
+#define CLASS_1_7B6614A282AF16B5__CTOR_OFFSET UNITYSDK_OFFSET(0x1551A640)
 
-inline static constexpr unsigned int Class_1_7B6614A282AF16B5_TypeDefinitionIndex = 33020;
+inline static constexpr unsigned int Class_1_7B6614A282AF16B5_TypeDefinitionIndex = 38810;
 
 class Class_1_7B6614A282AF16B5 : public ::System::Object
 {

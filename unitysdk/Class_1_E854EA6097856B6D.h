@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_877;
+class Class_0_16E4307DCC419505_993;
 namespace RPG::GameCore::Booklet { class FadeInStepConfig; }
 namespace RPG::GameCore::Booklet { class MarkSectionHasReadStepConfig; }
 namespace RPG::GameCore::Booklet { class MarkSpreadHasReadStepConfig; }
@@ -19,83 +19,83 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E854EA6097856B6D_METHOD_1_06EF87F158C69F7E_OFFSET UNITYSDK_OFFSET(0x10B09370)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_08957AC83709FF86_OFFSET UNITYSDK_OFFSET(0x10B092C0)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_09948BA647EDE15D_OFFSET UNITYSDK_OFFSET(0x10B08B50)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_17373A42A83D2EC5_OFFSET UNITYSDK_OFFSET(0x10B09140)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_1C16316D78B7B9DF_OFFSET UNITYSDK_OFFSET(0x10B090B0)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_7D6964C98349E95C_OFFSET UNITYSDK_OFFSET(0x10B08EB0)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_9D6A7ED10206B8AE_OFFSET UNITYSDK_OFFSET(0x10B08C90)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_A9D19A982E44005B_OFFSET UNITYSDK_OFFSET(0x10B091C0)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_B752E8A03FCDAD54_OFFSET UNITYSDK_OFFSET(0x10B09010)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_C9CCCB7EA8DA024A_OFFSET UNITYSDK_OFFSET(0x10B08D50)
-#define CLASS_1_E854EA6097856B6D_METHOD_1_CF7EA7970A5E9783_OFFSET UNITYSDK_OFFSET(0x10B09240)
-#define CLASS_1_E854EA6097856B6D__CTOR_OFFSET UNITYSDK_OFFSET(0x10B088D0)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_06EF87F158C69F7E_OFFSET UNITYSDK_OFFSET(0x12C92480)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_08957AC83709FF86_OFFSET UNITYSDK_OFFSET(0x12C923D0)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_09948BA647EDE15D_OFFSET UNITYSDK_OFFSET(0x12C91C60)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_17373A42A83D2EC5_OFFSET UNITYSDK_OFFSET(0x12C92250)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_1C16316D78B7B9DF_OFFSET UNITYSDK_OFFSET(0x12C921C0)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_7D6964C98349E95C_OFFSET UNITYSDK_OFFSET(0x12C91FC0)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_9D6A7ED10206B8AE_OFFSET UNITYSDK_OFFSET(0x12C91DA0)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_A9D19A982E44005B_OFFSET UNITYSDK_OFFSET(0x12C922D0)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_B752E8A03FCDAD54_OFFSET UNITYSDK_OFFSET(0x12C92120)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_C9CCCB7EA8DA024A_OFFSET UNITYSDK_OFFSET(0x12C91E60)
+#define CLASS_1_E854EA6097856B6D_METHOD_1_CF7EA7970A5E9783_OFFSET UNITYSDK_OFFSET(0x12C92350)
+#define CLASS_1_E854EA6097856B6D__CTOR_OFFSET UNITYSDK_OFFSET(0x12C919E0)
 
-inline static constexpr unsigned int Class_1_E854EA6097856B6D_TypeDefinitionIndex = 59338;
+inline static constexpr unsigned int Class_1_E854EA6097856B6D_TypeDefinitionIndex = 66733;
 
 class Class_1_E854EA6097856B6D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::RPG::GameCore::Booklet::StepConfig*, ::Class_0_16E4307DCC419505_877*>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_2<::RPG::GameCore::Booklet::StepConfig*, ::Class_0_16E4307DCC419505_993*>*>* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D__CTOR_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_877*>* Method_1_09948BA647EDE15D(::RPG::GameCore::Booklet::SpreadStepConfig* a1)
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>* Method_1_09948BA647EDE15D(::RPG::GameCore::Booklet::SpreadStepConfig* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_877*>*(*)(::PVOID, ::RPG::GameCore::Booklet::SpreadStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_09948BA647EDE15D_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_993*>*(*)(::PVOID, ::RPG::GameCore::Booklet::SpreadStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_09948BA647EDE15D_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_9D6A7ED10206B8AE(::RPG::GameCore::Booklet::StepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_9D6A7ED10206B8AE(::RPG::GameCore::Booklet::StepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::StepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_9D6A7ED10206B8AE_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::StepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_9D6A7ED10206B8AE_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_C9CCCB7EA8DA024A(::RPG::GameCore::Booklet::SequenceStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_C9CCCB7EA8DA024A(::RPG::GameCore::Booklet::SequenceStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::SequenceStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_C9CCCB7EA8DA024A_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::SequenceStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_C9CCCB7EA8DA024A_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_7D6964C98349E95C(::RPG::GameCore::Booklet::ParallelStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_7D6964C98349E95C(::RPG::GameCore::Booklet::ParallelStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::ParallelStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_7D6964C98349E95C_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::ParallelStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_7D6964C98349E95C_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_B752E8A03FCDAD54(::RPG::GameCore::Booklet::WaitSecondsStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_B752E8A03FCDAD54(::RPG::GameCore::Booklet::WaitSecondsStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::WaitSecondsStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_B752E8A03FCDAD54_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::WaitSecondsStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_B752E8A03FCDAD54_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_1C16316D78B7B9DF(::RPG::GameCore::Booklet::FadeInStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_1C16316D78B7B9DF(::RPG::GameCore::Booklet::FadeInStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::FadeInStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_1C16316D78B7B9DF_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::FadeInStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_1C16316D78B7B9DF_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_17373A42A83D2EC5(::RPG::GameCore::Booklet::MarkSpreadHasReadStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_17373A42A83D2EC5(::RPG::GameCore::Booklet::MarkSpreadHasReadStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::MarkSpreadHasReadStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_17373A42A83D2EC5_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::MarkSpreadHasReadStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_17373A42A83D2EC5_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_A9D19A982E44005B(::RPG::GameCore::Booklet::MarkSectionHasReadStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_A9D19A982E44005B(::RPG::GameCore::Booklet::MarkSectionHasReadStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::MarkSectionHasReadStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_A9D19A982E44005B_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::MarkSectionHasReadStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_A9D19A982E44005B_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_CF7EA7970A5E9783(::RPG::GameCore::Booklet::WaitAutoPlayStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_CF7EA7970A5E9783(::RPG::GameCore::Booklet::WaitAutoPlayStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::WaitAutoPlayStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_CF7EA7970A5E9783_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::WaitAutoPlayStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_CF7EA7970A5E9783_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_08957AC83709FF86(::RPG::GameCore::Booklet::SkipTimerStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_08957AC83709FF86(::RPG::GameCore::Booklet::SkipTimerStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::SkipTimerStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_08957AC83709FF86_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::SkipTimerStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_08957AC83709FF86_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_877* Method_1_06EF87F158C69F7E(::RPG::GameCore::Booklet::PlayVoiceStepConfig* a1)
+	::Class_0_16E4307DCC419505_993* Method_1_06EF87F158C69F7E(::RPG::GameCore::Booklet::PlayVoiceStepConfig* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_877*(*)(::PVOID, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_06EF87F158C69F7E_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_993*(*)(::PVOID, ::RPG::GameCore::Booklet::PlayVoiceStepConfig*))((::PBYTE)hIl2Cpp + CLASS_1_E854EA6097856B6D_METHOD_1_06EF87F158C69F7E_OFFSET))(this, a1);
 	}
 };

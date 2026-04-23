@@ -6,20 +6,20 @@ namespace RPG::Client { class RelicRecommendData; }
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Recommend { class RelicRecommendBigData; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9914170)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__REQUESTPREAVATARRELICDATAREFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x991F140)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__REQUESTPREAVATARRELICDATAREFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x991F160)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__REQUESTPREAVATARRELICDATAREFRESH_B__2_OFFSET UNITYSDK_OFFSET(0x991F180)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1520CA80)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__REQUESTPREAVATARRELICDATAREFRESH_B__0_OFFSET UNITYSDK_OFFSET(0x15217410)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__REQUESTPREAVATARRELICDATAREFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x15217430)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS76_0__REQUESTPREAVATARRELICDATAREFRESH_B__2_OFFSET UNITYSDK_OFFSET(0x15217450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass76_0_TypeDefinitionIndex = 53303;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass76_0_TypeDefinitionIndex = 60436;
 
 	class HandbookModule___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* getRecommendDataPromise; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::RPG::Client::Promises::Promise* getRecommendDataPromise; // 0x18
 		::RPG::Client::Promises::Promise* getRecommendBigDataPromise; // 0x20
 
 		::System::Void _ctor()

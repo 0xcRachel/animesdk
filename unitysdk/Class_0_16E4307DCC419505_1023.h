@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/Textmap/Parameter/MetricNumberFormatMode.h"
 
-class Class_0_16E4307DCC419505_617;
-namespace RPG::GameCore { class TextDynamicParamBase; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1023_TypeDefinitionIndex = 64456;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1023_TypeDefinitionIndex = 67581;
 
 class Class_0_16E4307DCC419505_1023
 {

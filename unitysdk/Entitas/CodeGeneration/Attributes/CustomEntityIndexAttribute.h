@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define ENTITAS_CODEGENERATION_ATTRIBUTES_CUSTOMENTITYINDEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x11A984F0)
+#define ENTITAS_CODEGENERATION_ATTRIBUTES_CUSTOMENTITYINDEXATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6380D0)
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int CustomEntityIndexAttribute_TypeDefinitionIndex = 9763;
+	inline static constexpr unsigned int CustomEntityIndexAttribute_TypeDefinitionIndex = 9896;
 
 	class CustomEntityIndexAttribute : public ::System::Attribute
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetModifierEffectVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C760992606791253_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BCC660)
-#define CLASS_3_C760992606791253__CTOR_OFFSET UNITYSDK_OFFSET(0x8BCC630)
+#define CLASS_3_C760992606791253_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4D9DB0)
+#define CLASS_3_C760992606791253__CTOR_OFFSET UNITYSDK_OFFSET(0xC4D9D80)
 
-inline static constexpr unsigned int Class_3_C760992606791253_TypeDefinitionIndex = 44476;
+inline static constexpr unsigned int Class_3_C760992606791253_TypeDefinitionIndex = 51198;
 
 class Class_3_C760992606791253 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetModifierEffectVisible*>
 {

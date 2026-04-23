@@ -8,10 +8,10 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_6613F839F709F8CB_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x16C18400)
-#define CLASS_1_6613F839F709F8CB__CTOR_OFFSET UNITYSDK_OFFSET(0x16C18740)
+#define CLASS_1_6613F839F709F8CB_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x185BFFA0)
+#define CLASS_1_6613F839F709F8CB__CTOR_OFFSET UNITYSDK_OFFSET(0x185C02E0)
 
-inline static constexpr unsigned int Class_1_6613F839F709F8CB_TypeDefinitionIndex = 13702;
+inline static constexpr unsigned int Class_1_6613F839F709F8CB_TypeDefinitionIndex = 14173;
 
 class Class_1_6613F839F709F8CB : public ::System::Object
 {
@@ -19,10 +19,10 @@ public:
 	::System::String* Field_1_6; // 0x10
 	::System::String* Field_1_4; // 0x18
 	::System::String* Field_1_5; // 0x20
-	::RPG::GameCore::RogueTournRoomType Field_1_0; // 0x28
-	::RPG::GameCore::RogueTournMarkType Field_1_1; // 0x2C
-	::RPG::Client::TextID Field_1_3; // 0x30
-	::RPG::Client::TextID Field_1_2; // 0x40
+	::RPG::GameCore::RogueTournMarkType Field_1_1; // 0x28
+	::RPG::GameCore::RogueTournRoomType Field_1_0; // 0x2C
+	::RPG::Client::TextID Field_1_2; // 0x30
+	::RPG::Client::TextID Field_1_3; // 0x40
 
 	::System::Void _ctor()
 	{

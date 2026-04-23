@@ -5,24 +5,24 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x185DAB30)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_FORM_OFFSET UNITYSDK_OFFSET(0x185DAB50)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x185DAB60)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x185DAB70)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x185DAB80)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x18564670)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_FORM_OFFSET UNITYSDK_OFFSET(0x18564690)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x185646A0)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x185646B0)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x185646C0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlArrayAttribute_TypeDefinitionIndex = 1987;
+	inline static constexpr unsigned int XmlArrayAttribute_TypeDefinitionIndex = 1988;
 
 	class XmlArrayAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* ns; // 0x10
-		::System::String* elementName; // 0x18
-		::System::Int32 order; // 0x20
-		::System::Boolean isNullable; // 0x24
-		::System::Xml::Schema::XmlSchemaForm form; // 0x28
+		::System::String* elementName; // 0x10
+		::System::String* ns; // 0x18
+		::System::Boolean isNullable; // 0x20
+		::System::Xml::Schema::XmlSchemaForm form; // 0x24
+		::System::Int32 order; // 0x28
 
 		::System::String* get_ElementName()
 		{

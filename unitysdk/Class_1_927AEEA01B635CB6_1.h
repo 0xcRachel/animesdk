@@ -4,17 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_927AEEA01B635CB6_1_METHOD_1_7A772A33A90355AA_OFFSET UNITYSDK_OFFSET(0x16DC1400)
-#define CLASS_1_927AEEA01B635CB6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC1570)
+#define CLASS_1_927AEEA01B635CB6_1_METHOD_1_7A772A33A90355AA_OFFSET UNITYSDK_OFFSET(0x1891E0D0)
+#define CLASS_1_927AEEA01B635CB6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1891E240)
 
-inline static constexpr unsigned int Class_1_927AEEA01B635CB6_1_TypeDefinitionIndex = 12712;
+inline static constexpr unsigned int Class_1_927AEEA01B635CB6_1_TypeDefinitionIndex = 13179;
 
 class Class_1_927AEEA01B635CB6_1 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::System::UInt32 Field_1_2; // 0x14
-	::System::UInt32 Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x10
+	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

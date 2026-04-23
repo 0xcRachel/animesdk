@@ -1,14 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/GridFightGridEffectType.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::Client { class GridFightGameSession; }
-namespace RPG::Client { class GridFightGridData; }
+#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xEEF68C0)
+#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0xEEF6900)
+#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_3_OFFSET UNITYSDK_OFFSET(0xEEF6940)
+#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_4_OFFSET UNITYSDK_OFFSET(0xEEF6980)
+#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_5_OFFSET UNITYSDK_OFFSET(0xEEF69C0)
+#define CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xEEF6880)
+#define CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET UNITYSDK_OFFSET(0xEEF6A00)
 
-#define CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET UNITYSDK_OFFSET(0x8C340E0)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_137_TypeDefinitionIndex = 52633;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_137_TypeDefinitionIndex = 67327;
 
 class Class_1_43BD383C98B4C0C5_137 : public ::System::Object
 {
@@ -16,5 +18,35 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_3_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_137_METHOD_1_CA373AA1C7054598_5_OFFSET))(this);
 	}
 };

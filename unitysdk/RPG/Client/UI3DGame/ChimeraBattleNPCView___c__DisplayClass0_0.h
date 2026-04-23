@@ -5,18 +5,18 @@
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::Client::UI3DGame { class ChimeraBattleNPCView; }
 
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA65F4D0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW___C__DISPLAYCLASS0_0__LEAVE_B__0_OFFSET UNITYSDK_OFFSET(0xA65F9F0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x138E6300)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLENPCVIEW___C__DISPLAYCLASS0_0__LEAVE_B__0_OFFSET UNITYSDK_OFFSET(0x138E6820)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int ChimeraBattleNPCView___c__DisplayClass0_0_TypeDefinitionIndex = 61808;
+	inline static constexpr unsigned int ChimeraBattleNPCView___c__DisplayClass0_0_TypeDefinitionIndex = 69718;
 
 	class ChimeraBattleNPCView___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RPGAnimationEvent* evtHandler; // 0x10
-		::RPG::Client::UI3DGame::ChimeraBattleNPCView* __4__this; // 0x18
+		::RPG::Client::UI3DGame::ChimeraBattleNPCView* __4__this; // 0x10
+		::RPG::Client::RPGAnimationEvent* evtHandler; // 0x18
 
 		::System::Void _ctor()
 		{

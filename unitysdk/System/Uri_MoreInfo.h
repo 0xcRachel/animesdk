@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_URI_MOREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1877A730)
+#define SYSTEM_URI_MOREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16B6EF50)
 
 namespace System
 {
-	inline static constexpr unsigned int Uri_MoreInfo_TypeDefinitionIndex = 2453;
+	inline static constexpr unsigned int Uri_MoreInfo_TypeDefinitionIndex = 2454;
 
 	class Uri_MoreInfo : public ::System::Object
 	{
 	public:
-		::System::String* AbsoluteUri; // 0x10
-		::System::String* Path; // 0x18
-		::System::String* Fragment; // 0x20
+		::System::String* Fragment; // 0x10
+		::System::String* AbsoluteUri; // 0x18
+		::System::String* Path; // 0x20
 		::System::String* RemoteUrl; // 0x28
 		::System::String* Query; // 0x30
 		::System::Int32 Hash; // 0x38

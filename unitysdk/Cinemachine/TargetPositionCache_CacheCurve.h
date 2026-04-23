@@ -5,22 +5,22 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ADDUNTIL_OFFSET UNITYSDK_OFFSET(0x119F1CB0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ADD_OFFSET UNITYSDK_OFFSET(0x119F1C70)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x119F1930)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x119F1B30)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x119F1B50)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ADDUNTIL_OFFSET UNITYSDK_OFFSET(0x1A614EC0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ADD_OFFSET UNITYSDK_OFFSET(0x1A614E80)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A614B40)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1A614D40)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A614D60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_CacheCurve_TypeDefinitionIndex = 30890;
+	inline static constexpr unsigned int TargetPositionCache_CacheCurve_TypeDefinitionIndex = 36610;
 
 	class TargetPositionCache_CacheCurve : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::Cinemachine::TargetPositionCache_CacheCurve_Item>* m_Cache; // 0x10
-		::System::Single StepSize; // 0x18
-		::System::Single StartTime; // 0x1C
+		::System::Single StartTime; // 0x18
+		::System::Single StepSize; // 0x1C
 
 		::System::Void _ctor(::System::Single startTime, ::System::Single endTime, ::System::Single stepSize)
 		{

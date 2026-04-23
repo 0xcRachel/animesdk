@@ -5,16 +5,16 @@
 class Class_2_DE22B42FDF9864C8;
 namespace RPG::GameCore { class PropSoundConfig; }
 
-#define CLASS_2_DE22B42FDF9864C8___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1060DF90)
-#define CLASS_2_DE22B42FDF9864C8___C__DISPLAYCLASS5_0__SETUPPROPTRIGGERSOUND_B__0_OFFSET UNITYSDK_OFFSET(0x1060E7A0)
+#define CLASS_2_DE22B42FDF9864C8___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1DBDA0)
+#define CLASS_2_DE22B42FDF9864C8___C__DISPLAYCLASS5_0__SETUPPROPTRIGGERSOUND_B__0_OFFSET UNITYSDK_OFFSET(0xD1DC5C0)
 
-inline static constexpr unsigned int Class_2_DE22B42FDF9864C8___c__DisplayClass5_0_TypeDefinitionIndex = 46107;
+inline static constexpr unsigned int Class_2_DE22B42FDF9864C8___c__DisplayClass5_0_TypeDefinitionIndex = 52771;
 
 class Class_2_DE22B42FDF9864C8___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::Class_2_DE22B42FDF9864C8* __4__this; // 0x10
-	::RPG::GameCore::PropSoundConfig* propSoundConfig; // 0x18
+	::RPG::GameCore::PropSoundConfig* propSoundConfig; // 0x10
+	::Class_2_DE22B42FDF9864C8* __4__this; // 0x18
 	::System::UInt32 overrideSoundConfigID; // 0x20
 
 	::System::Void _ctor()

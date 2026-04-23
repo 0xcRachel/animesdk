@@ -6,10 +6,10 @@ namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_98114A4376157A5D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10A10B10)
-#define CLASS_1_98114A4376157A5D__CTOR_OFFSET UNITYSDK_OFFSET(0x10A10B60)
+#define CLASS_1_98114A4376157A5D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA609EF0)
+#define CLASS_1_98114A4376157A5D__CTOR_OFFSET UNITYSDK_OFFSET(0xA609F40)
 
-inline static constexpr unsigned int Class_1_98114A4376157A5D_TypeDefinitionIndex = 64623;
+inline static constexpr unsigned int Class_1_98114A4376157A5D_TypeDefinitionIndex = 72670;
 
 class Class_1_98114A4376157A5D : public ::System::Object
 {

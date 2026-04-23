@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x7B160)
-#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D7DDA895983CCCB2_OFFSET UNITYSDK_OFFSET(0x7B100)
+#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D437D090E63BE8A7_OFFSET UNITYSDK_OFFSET(0x1FED280)
+#define RPG_CLIENT_AIRLINEBIRDWAY_CURVERANGE_METHOD_2_D7DDA895983CCCB2_OFFSET UNITYSDK_OFFSET(0x1FED220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineBirdWay_CurveRange_TypeDefinitionIndex = 48416;
+	inline static constexpr unsigned int AirlineBirdWay_CurveRange_TypeDefinitionIndex = 55164;
 
 	struct alignas(8) AirlineBirdWay_CurveRange
 	{

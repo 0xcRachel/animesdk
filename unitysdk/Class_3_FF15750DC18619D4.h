@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeCharacterSomatoType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FF15750DC18619D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B25540)
-#define CLASS_3_FF15750DC18619D4__CTOR_OFFSET UNITYSDK_OFFSET(0x10B25510)
+#define CLASS_3_FF15750DC18619D4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF431DC0)
+#define CLASS_3_FF15750DC18619D4__CTOR_OFFSET UNITYSDK_OFFSET(0xF431D90)
 
-inline static constexpr unsigned int Class_3_FF15750DC18619D4_TypeDefinitionIndex = 43953;
+inline static constexpr unsigned int Class_3_FF15750DC18619D4_TypeDefinitionIndex = 50654;
 
 class Class_3_FF15750DC18619D4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeCharacterSomatoType*>
 {

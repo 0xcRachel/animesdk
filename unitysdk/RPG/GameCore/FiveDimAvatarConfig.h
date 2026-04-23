@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FiveDimBaseEventCondition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMAVATARCONFIG_METHOD_2_46EE437D55C8C9B1_OFFSET UNITYSDK_OFFSET(0x171F28D0)
-#define RPG_GAMECORE_FIVEDIMAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171F2BF0)
+#define RPG_GAMECORE_FIVEDIMAVATARCONFIG_METHOD_2_46EE437D55C8C9B1_OFFSET UNITYSDK_OFFSET(0x18D22170)
+#define RPG_GAMECORE_FIVEDIMAVATARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D22490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAvatarConfig_TypeDefinitionIndex = 15309;
+	inline static constexpr unsigned int FiveDimAvatarConfig_TypeDefinitionIndex = 15828;
 
 	class FiveDimAvatarConfig : public ::RPG::GameCore::JsonConfig
 	{

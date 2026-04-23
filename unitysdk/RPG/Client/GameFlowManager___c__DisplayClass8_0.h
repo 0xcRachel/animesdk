@@ -5,12 +5,12 @@
 namespace RPG::Client { class BaseGameFlow; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9768FD0)
-#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS8_0__ENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x9769800)
+#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15513F20)
+#define RPG_CLIENT_GAMEFLOWMANAGER___C__DISPLAYCLASS8_0__ENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x15514750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameFlowManager___c__DisplayClass8_0_TypeDefinitionIndex = 52238;
+	inline static constexpr unsigned int GameFlowManager___c__DisplayClass8_0_TypeDefinitionIndex = 59190;
 
 	class GameFlowManager___c__DisplayClass8_0 : public ::System::Object
 	{

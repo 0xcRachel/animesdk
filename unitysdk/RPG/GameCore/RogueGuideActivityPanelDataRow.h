@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1761FAC0)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17620050)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19965960)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19965EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 13450;
+	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 13923;
 
 	class RogueGuideActivityPanelDataRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 AvatarID; // 0x10
-		::System::UInt32 RogueAreaID; // 0x14
-		::System::UInt32 ActivityID; // 0x18
+		::System::UInt32 ActivityID; // 0x14
+		::System::UInt32 RogueAreaID; // 0x18
 
 		::System::Void _ctor()
 		{

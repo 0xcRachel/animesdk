@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PeiPeiChallengeUpdateCheckPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_569A85C8DFDDA016_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1066EC70)
-#define CLASS_3_569A85C8DFDDA016__CTOR_OFFSET UNITYSDK_OFFSET(0x1066EC40)
+#define CLASS_3_569A85C8DFDDA016_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12446810)
+#define CLASS_3_569A85C8DFDDA016__CTOR_OFFSET UNITYSDK_OFFSET(0x124467E0)
 
-inline static constexpr unsigned int Class_3_569A85C8DFDDA016_TypeDefinitionIndex = 42950;
+inline static constexpr unsigned int Class_3_569A85C8DFDDA016_TypeDefinitionIndex = 48936;
 
 class Class_3_569A85C8DFDDA016 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PeiPeiChallengeUpdateCheckPoint*>
 {

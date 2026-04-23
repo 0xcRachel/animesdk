@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_15.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_14.h"
 #include "unitysdk/RPG/GameCore/ActivityRank.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_163BC896CFB0B295_OFFSET UNITYSDK_OFFSET(0xEA7AAB0)
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0xEA7A7C0)
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0xEA7A700)
-#define CLASS_1_BB48556AAEEB6364_METHOD_1_B81D1D7769661C60_OFFSET UNITYSDK_OFFSET(0xEA7A9B0)
-#define CLASS_1_BB48556AAEEB6364__CCTOR_OFFSET UNITYSDK_OFFSET(0xEA7AC40)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_163BC896CFB0B295_OFFSET UNITYSDK_OFFSET(0xEC38B70)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0xEC38880)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_64F0C85A431FBD69_OFFSET UNITYSDK_OFFSET(0xEC387C0)
+#define CLASS_1_BB48556AAEEB6364_METHOD_1_B81D1D7769661C60_OFFSET UNITYSDK_OFFSET(0xEC38A70)
+#define CLASS_1_BB48556AAEEB6364__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC38D00)
 
-inline static constexpr unsigned int Class_1_BB48556AAEEB6364_TypeDefinitionIndex = 52112;
+inline static constexpr unsigned int Class_1_BB48556AAEEB6364_TypeDefinitionIndex = 59062;
 
 class Class_1_BB48556AAEEB6364 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_15, ::RPG::GameCore::ActivityRank>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_14, ::RPG::GameCore::ActivityRank>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_15, ::RPG::GameCore::ActivityRank>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BB48556AAEEB6364_TypeDefinitionIndex)->GetStaticField(0x49C0);
+		return (::System::Collections::Generic::Dictionary_2<::Enum_3_4608E37A1B3D374A_14, ::RPG::GameCore::ActivityRank>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BB48556AAEEB6364_TypeDefinitionIndex)->GetStaticField(0x47B00);
 	}
 
 	static ::System::Void _cctor()
@@ -37,13 +37,13 @@ public:
 		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CLASS_1_BB48556AAEEB6364_METHOD_1_568AE7A1499723FD_OFFSET))();
 	}
 
-	static ::RPG::GameCore::ActivityRank Method_1_B81D1D7769661C60(::Enum_3_4608E37A1B3D374A_15 a1)
+	static ::RPG::GameCore::ActivityRank Method_1_B81D1D7769661C60(::Enum_3_4608E37A1B3D374A_14 a1)
 	{
-		return ((::RPG::GameCore::ActivityRank(*)(::Enum_3_4608E37A1B3D374A_15))((::PBYTE)hIl2Cpp + CLASS_1_BB48556AAEEB6364_METHOD_1_B81D1D7769661C60_OFFSET))(a1);
+		return ((::RPG::GameCore::ActivityRank(*)(::Enum_3_4608E37A1B3D374A_14))((::PBYTE)hIl2Cpp + CLASS_1_BB48556AAEEB6364_METHOD_1_B81D1D7769661C60_OFFSET))(a1);
 	}
 
-	static ::Enum_3_4608E37A1B3D374A_15 Method_1_163BC896CFB0B295(::RPG::GameCore::ActivityRank a1)
+	static ::Enum_3_4608E37A1B3D374A_14 Method_1_163BC896CFB0B295(::RPG::GameCore::ActivityRank a1)
 	{
-		return ((::Enum_3_4608E37A1B3D374A_15(*)(::RPG::GameCore::ActivityRank))((::PBYTE)hIl2Cpp + CLASS_1_BB48556AAEEB6364_METHOD_1_163BC896CFB0B295_OFFSET))(a1);
+		return ((::Enum_3_4608E37A1B3D374A_14(*)(::RPG::GameCore::ActivityRank))((::PBYTE)hIl2Cpp + CLASS_1_BB48556AAEEB6364_METHOD_1_163BC896CFB0B295_OFFSET))(a1);
 	}
 };

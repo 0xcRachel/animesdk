@@ -6,25 +6,25 @@ namespace RPG::GameCore { class RequestGroupStateChange; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_EFD854BCE63CDD92_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10C98BD0)
-#define CLASS_2_EFD854BCE63CDD92_METHOD_2_7015249E1B474314_OFFSET UNITYSDK_OFFSET(0x10C99220)
-#define CLASS_2_EFD854BCE63CDD92_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C98D50)
-#define CLASS_2_EFD854BCE63CDD92_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10C98C70)
-#define CLASS_2_EFD854BCE63CDD92_TICK_OFFSET UNITYSDK_OFFSET(0x10C98CF0)
-#define CLASS_2_EFD854BCE63CDD92__CTOR_OFFSET UNITYSDK_OFFSET(0x10C98BC0)
+#define CLASS_2_EFD854BCE63CDD92_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6089D0)
+#define CLASS_2_EFD854BCE63CDD92_METHOD_2_7015249E1B474314_OFFSET UNITYSDK_OFFSET(0xE609020)
+#define CLASS_2_EFD854BCE63CDD92_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE608B50)
+#define CLASS_2_EFD854BCE63CDD92_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE608A70)
+#define CLASS_2_EFD854BCE63CDD92_TICK_OFFSET UNITYSDK_OFFSET(0xE608AF0)
+#define CLASS_2_EFD854BCE63CDD92__CTOR_OFFSET UNITYSDK_OFFSET(0xE6089C0)
 
-inline static constexpr unsigned int Class_2_EFD854BCE63CDD92_TypeDefinitionIndex = 43069;
+inline static constexpr unsigned int Class_2_EFD854BCE63CDD92_TypeDefinitionIndex = 49055;
 
 class Class_2_EFD854BCE63CDD92 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::RequestGroupStateChange* Field_2_1; // 0x20
-	::System::UInt64 Field_2_2; // 0x28
-	::System::UInt32 Field_2_4; // 0x30
+	::RPG::GameCore::RequestGroupStateChange* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
+	::System::UInt32 Field_2_3; // 0x28
+	::System::UInt32 Field_2_4; // 0x2C
+	::System::UInt32 Field_2_6; // 0x30
 	::System::UInt32 Field_2_5; // 0x34
-	::System::UInt32 Field_2_3; // 0x38
-	::System::UInt32 Field_2_6; // 0x3C
+	::System::UInt64 Field_2_2; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RequestGroupStateChange* a2)
 	{

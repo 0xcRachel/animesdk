@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WriteCustomValueToStatistic; }
 
-#define CLASS_3_4043354E662A7209_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11838150)
-#define CLASS_3_4043354E662A7209__CTOR_OFFSET UNITYSDK_OFFSET(0x11838120)
+#define CLASS_3_4043354E662A7209_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE165500)
+#define CLASS_3_4043354E662A7209__CTOR_OFFSET UNITYSDK_OFFSET(0xE1654D0)
 
-inline static constexpr unsigned int Class_3_4043354E662A7209_TypeDefinitionIndex = 44721;
+inline static constexpr unsigned int Class_3_4043354E662A7209_TypeDefinitionIndex = 51465;
 
 class Class_3_4043354E662A7209 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WriteCustomValueToStatistic*>
 {

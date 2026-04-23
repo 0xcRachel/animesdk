@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class EvolveBuildStage; }
 
-#define RPG_CLIENT_EVOLVEBUILDMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x96441A0)
-#define RPG_CLIENT_EVOLVEBUILDMODULE___C__DISPLAYCLASS1_0__GETSEASONSTAGESWITHOUTTUTORIAL_B__0_OFFSET UNITYSDK_OFFSET(0x9650020)
+#define RPG_CLIENT_EVOLVEBUILDMODULE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161CA8B0)
+#define RPG_CLIENT_EVOLVEBUILDMODULE___C__DISPLAYCLASS1_0__GETSEASONSTAGESWITHOUTTUTORIAL_B__0_OFFSET UNITYSDK_OFFSET(0x161CA8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildModule___c__DisplayClass1_0_TypeDefinitionIndex = 51847;
+	inline static constexpr unsigned int EvolveBuildModule___c__DisplayClass1_0_TypeDefinitionIndex = 58795;
 
 	class EvolveBuildModule___c__DisplayClass1_0 : public ::System::Object
 	{

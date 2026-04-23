@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING_SHADERVECTOR_METHOD_2_4F515A5348AB9F15_OFFSET UNITYSDK_OFFSET(0x859F0)
+#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING_SHADERVECTOR_METHOD_2_4F515A5348AB9F15_OFFSET UNITYSDK_OFFSET(0x1BB84A0)
 
 namespace Code::MonoBehavior::Level
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderVector_TypeDefinitionIndex = 40375;
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderVector_TypeDefinitionIndex = 46284;
 
 	struct alignas(8) MonoTrainPartyBuildEffectSetting_ShaderVector
 	{

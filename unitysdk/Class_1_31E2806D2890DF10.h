@@ -9,10 +9,10 @@ namespace RPG::Client { class CloudUIPosReporterMono; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_31E2806D2890DF10_METHOD_1_CEDA25BED0903001_OFFSET UNITYSDK_OFFSET(0xA462490)
-#define CLASS_1_31E2806D2890DF10__CTOR_OFFSET UNITYSDK_OFFSET(0xA462670)
+#define CLASS_1_31E2806D2890DF10_METHOD_1_CEDA25BED0903001_OFFSET UNITYSDK_OFFSET(0xB575C20)
+#define CLASS_1_31E2806D2890DF10__CTOR_OFFSET UNITYSDK_OFFSET(0xB575E00)
 
-inline static constexpr unsigned int Class_1_31E2806D2890DF10_TypeDefinitionIndex = 48476;
+inline static constexpr unsigned int Class_1_31E2806D2890DF10_TypeDefinitionIndex = 55224;
 
 class Class_1_31E2806D2890DF10 : public ::System::Object
 {

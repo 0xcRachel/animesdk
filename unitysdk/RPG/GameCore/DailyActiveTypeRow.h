@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DAILYACTIVETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17159A60)
-#define RPG_GAMECORE_DAILYACTIVETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17159B80)
+#define RPG_GAMECORE_DAILYACTIVETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FB7F00)
+#define RPG_GAMECORE_DAILYACTIVETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB8020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyActiveTypeRow_TypeDefinitionIndex = 11962;
+	inline static constexpr unsigned int DailyActiveTypeRow_TypeDefinitionIndex = 12395;
 
 	class DailyActiveTypeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Type; // 0x10
-		::System::UInt32 PoolSort; // 0x14
+		::System::UInt32 PoolSort; // 0x10
+		::System::UInt32 Type; // 0x14
 
 		::System::Void _ctor()
 		{

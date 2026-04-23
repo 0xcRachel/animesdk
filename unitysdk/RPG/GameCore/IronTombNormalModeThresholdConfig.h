@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_IRONTOMBNORMALMODETHRESHOLDCONFIG_METHOD_2_E12940A82832E48E_OFFSET UNITYSDK_OFFSET(0x172D5B40)
-#define RPG_GAMECORE_IRONTOMBNORMALMODETHRESHOLDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172D5D60)
+#define RPG_GAMECORE_IRONTOMBNORMALMODETHRESHOLDCONFIG_METHOD_2_E12940A82832E48E_OFFSET UNITYSDK_OFFSET(0x18894540)
+#define RPG_GAMECORE_IRONTOMBNORMALMODETHRESHOLDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18894760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IronTombNormalModeThresholdConfig_TypeDefinitionIndex = 20997;
+	inline static constexpr unsigned int IronTombNormalModeThresholdConfig_TypeDefinitionIndex = 21709;
 
 	class IronTombNormalModeThresholdConfig : public ::RPG::GameCore::JsonConfig
 	{

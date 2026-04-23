@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSCOPYINFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x83B6470)
+#define EPIC_ONLINESERVICES_SESSIONS_SESSIONDETAILSCOPYINFOOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1968A2C0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int SessionDetailsCopyInfoOptions_TypeDefinitionIndex = 35501;
+	inline static constexpr unsigned int SessionDetailsCopyInfoOptions_TypeDefinitionIndex = 41327;
 
 	class SessionDetailsCopyInfoOptions : public ::System::Object
 	{

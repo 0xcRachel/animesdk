@@ -10,38 +10,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F7E090)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F7EF60)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ABE630)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABF500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritSkillRow_TypeDefinitionIndex = 10238;
+	inline static constexpr unsigned int AetherDivideSpiritSkillRow_TypeDefinitionIndex = 10463;
 
 	class AetherDivideSpiritSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x10
-		::System::String* UltraSkillIcon; // 0x18
-		::System::String* SkillTriggerKey; // 0x20
-		::System::String* SkillIcon; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x30
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x38
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x40
-		::RPG::Client::TextID SkillTypeDesc; // 0x48
-		::RPG::GameCore::FixPoint BPNeed; // 0x58
-		::RPG::Client::TextID SkillTag; // 0x60
-		::RPG::GameCore::FixPoint SPMultipleRatio; // 0x70
-		::RPG::Client::TextID SkillDesc; // 0x78
-		::RPG::Client::TextID SimpleSkillDesc; // 0x88
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x18
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x20
+		::System::String* UltraSkillIcon; // 0x28
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x30
+		::System::String* SkillTriggerKey; // 0x38
+		::System::String* SkillIcon; // 0x40
+		::RPG::GameCore::FixPoint SPMultipleRatio; // 0x48
+		::RPG::Client::TextID SkillTag; // 0x50
+		::RPG::Client::TextID SkillDesc; // 0x60
+		::RPG::Client::TextID SimpleSkillDesc; // 0x70
+		::RPG::GameCore::FixPoint BPNeed; // 0x80
+		::RPG::Client::TextID SkillTypeDesc; // 0x88
 		::RPG::GameCore::FixPoint SPNeed; // 0x98
-		::System::UInt32 SkillID; // 0xA0
-		::RPG::GameCore::AetherSpiritType PropertyType; // 0xA4
+		::RPG::GameCore::FixPoint BPAdd; // 0xA0
 		::RPG::GameCore::FixPoint SPBase; // 0xA8
 		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0xB0
-		::RPG::GameCore::FixPoint BPAdd; // 0xB8
-		::RPG::Client::TextID SkillName; // 0xC0
-		::RPG::GameCore::SkillEffect SkillEffect; // 0xD0
-		::RPG::GameCore::AttackType AttackType; // 0xD4
+		::RPG::GameCore::AetherSpiritType PropertyType; // 0xB8
+		::RPG::GameCore::AttackType AttackType; // 0xBC
+		::System::UInt32 SkillID; // 0xC0
+		::RPG::GameCore::SkillEffect SkillEffect; // 0xC4
+		::RPG::Client::TextID SkillName; // 0xC8
 
 		::System::Void _ctor()
 		{

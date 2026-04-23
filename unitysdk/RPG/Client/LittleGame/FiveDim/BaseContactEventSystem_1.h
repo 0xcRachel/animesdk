@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseContactEventSystem_1_TypeDefinitionIndex = 62759;
+	inline static constexpr unsigned int BaseContactEventSystem_1_TypeDefinitionIndex = 70779;
 
 	template <typename T>
 	class BaseContactEventSystem_1 : public ::System::Object

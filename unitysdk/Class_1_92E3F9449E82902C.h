@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class DirectDeliveryNoticeToastConfig; }
 
-#define CLASS_1_92E3F9449E82902C_METHOD_1_82BCC03B9F0230B7_OFFSET UNITYSDK_OFFSET(0xE46B4F0)
+#define CLASS_1_92E3F9449E82902C_METHOD_1_82BCC03B9F0230B7_OFFSET UNITYSDK_OFFSET(0xA5F85E0)
 
-inline static constexpr unsigned int Class_1_92E3F9449E82902C_TypeDefinitionIndex = 51627;
+inline static constexpr unsigned int Class_1_92E3F9449E82902C_TypeDefinitionIndex = 58575;
 
 class Class_1_92E3F9449E82902C : public ::System::Object
 {

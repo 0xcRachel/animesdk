@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelNavNodeInnerGraphInfo; }
 namespace RPG::GameCore { class LevelNavNodeTransitInfo; }
 namespace RPG::GameCore { class StageVolumeConfigV2; }
 
-#define RPG_GAMECORE_LEVELNAVNODEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173545E0)
-#define RPG_GAMECORE_LEVELNAVNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173547D0)
+#define RPG_GAMECORE_LEVELNAVNODEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A36380)
+#define RPG_GAMECORE_LEVELNAVNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18A36570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInfo_TypeDefinitionIndex = 15749;
+	inline static constexpr unsigned int LevelNavNodeInfo_TypeDefinitionIndex = 16275;
 
 	class LevelNavNodeInfo : public ::RPG::GameCore::JsonConfig
 	{

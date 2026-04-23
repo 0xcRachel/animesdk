@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvIsometricNotify; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7224EC159E8E3D7C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE488CC0)
-#define CLASS_3_7224EC159E8E3D7C__CTOR_OFFSET UNITYSDK_OFFSET(0xE488C90)
+#define CLASS_3_7224EC159E8E3D7C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE595510)
+#define CLASS_3_7224EC159E8E3D7C__CTOR_OFFSET UNITYSDK_OFFSET(0xE5954E0)
 
-inline static constexpr unsigned int Class_3_7224EC159E8E3D7C_TypeDefinitionIndex = 42402;
+inline static constexpr unsigned int Class_3_7224EC159E8E3D7C_TypeDefinitionIndex = 48362;
 
 class Class_3_7224EC159E8E3D7C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvIsometricNotify*>
 {

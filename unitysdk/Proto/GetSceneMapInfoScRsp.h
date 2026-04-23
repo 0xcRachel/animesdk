@@ -6,56 +6,50 @@ namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class SceneMapInfo; }
 namespace System { class String; }
 
-#define PROTO_GETSCENEMAPINFOSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x18296910)
-#define PROTO_GETSCENEMAPINFOSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x18296470)
-#define PROTO_GETSCENEMAPINFOSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x18296560)
-#define PROTO_GETSCENEMAPINFOSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x18296530)
-#define PROTO_GETSCENEMAPINFOSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18296650)
-#define PROTO_GETSCENEMAPINFOSCRSP_GET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x182964A0)
-#define PROTO_GETSCENEMAPINFOSCRSP_GET_ISMONSTERTRACK_OFFSET UNITYSDK_OFFSET(0x182964F0)
-#define PROTO_GETSCENEMAPINFOSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x18296510)
-#define PROTO_GETSCENEMAPINFOSCRSP_GET_SCENEMAPINFOLIST_OFFSET UNITYSDK_OFFSET(0x182964C0)
-#define PROTO_GETSCENEMAPINFOSCRSP_GET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x182964D0)
-#define PROTO_GETSCENEMAPINFOSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18296BF0)
-#define PROTO_GETSCENEMAPINFOSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x18296B20)
-#define PROTO_GETSCENEMAPINFOSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18296370)
-#define PROTO_GETSCENEMAPINFOSCRSP_SET_CONTENTID_OFFSET UNITYSDK_OFFSET(0x182964B0)
-#define PROTO_GETSCENEMAPINFOSCRSP_SET_ISMONSTERTRACK_OFFSET UNITYSDK_OFFSET(0x18296500)
-#define PROTO_GETSCENEMAPINFOSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x18296520)
-#define PROTO_GETSCENEMAPINFOSCRSP_SET_STORYLINEID_OFFSET UNITYSDK_OFFSET(0x182964E0)
-#define PROTO_GETSCENEMAPINFOSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18296750)
-#define PROTO_GETSCENEMAPINFOSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x182967B0)
-#define PROTO_GETSCENEMAPINFOSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x18296D00)
-#define PROTO_GETSCENEMAPINFOSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x182963C0)
-#define PROTO_GETSCENEMAPINFOSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x18296380)
+#define PROTO_GETSCENEMAPINFOSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1975EFF0)
+#define PROTO_GETSCENEMAPINFOSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1975EBC0)
+#define PROTO_GETSCENEMAPINFOSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1975ED10)
+#define PROTO_GETSCENEMAPINFOSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1975EC20)
+#define PROTO_GETSCENEMAPINFOSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1975EDC0)
+#define PROTO_GETSCENEMAPINFOSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1975EAB0)
+#define PROTO_GETSCENEMAPINFOSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1975EC00)
+#define PROTO_GETSCENEMAPINFOSCRSP_GET_SCENEMAPINFOLIST_OFFSET UNITYSDK_OFFSET(0x1975EBF0)
+#define PROTO_GETSCENEMAPINFOSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1975F1C0)
+#define PROTO_GETSCENEMAPINFOSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1975F120)
+#define PROTO_GETSCENEMAPINFOSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1975EAE0)
+#define PROTO_GETSCENEMAPINFOSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1975EC10)
+#define PROTO_GETSCENEMAPINFOSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1975EEB0)
+#define PROTO_GETSCENEMAPINFOSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1975EF10)
+#define PROTO_GETSCENEMAPINFOSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1975F280)
+#define PROTO_GETSCENEMAPINFOSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1975EB30)
+#define PROTO_GETSCENEMAPINFOSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1975EAF0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetSceneMapInfoScRsp_TypeDefinitionIndex = 27101;
+	inline static constexpr unsigned int GetSceneMapInfoScRsp_TypeDefinitionIndex = 32192;
 
 	class GetSceneMapInfoScRsp : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::FieldCodec_1<::Proto::SceneMapInfo*>** StaticGet__repeated_sceneMapInfoList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::SceneMapInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GetSceneMapInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x15B20);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::SceneMapInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GetSceneMapInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x4BBF0);
 		}
-		// static const ::System::Int32 ContentIdFieldNumber = 0xF; // 0x0
-		// static const ::System::Int32 SceneMapInfoListFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 StorylineIdFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 IsMonsterTrackFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 RetcodeFieldNumber = 0x4; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SceneMapInfo*>* sceneMapInfoList_; // 0x18
-		::System::UInt32 storylineId_; // 0x20
-		::System::UInt32 contentId_; // 0x24
-		::System::UInt32 retcode_; // 0x28
-		::System::Boolean isMonsterTrack_; // 0x2C
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetSceneMapInfoScRsp*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetSceneMapInfoScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetSceneMapInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x4BBF8);
+		}
+		// static const ::System::Int32 SceneMapInfoListFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0xB; // 0x0
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SceneMapInfo*>* sceneMapInfoList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::System::UInt32 retcode_; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -72,6 +66,11 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP__CCTOR_OFFSET))();
 		}
 
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetSceneMapInfoScRsp*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GetSceneMapInfoScRsp*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_GET_PARSER_OFFSET))();
+		}
+
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
 		{
 			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
@@ -82,39 +81,9 @@ namespace Proto
 			return ((::Proto::GetSceneMapInfoScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_ContentId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_GET_CONTENTID_OFFSET))(this);
-		}
-
-		::System::Void set_ContentId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_SET_CONTENTID_OFFSET))(this, value);
-		}
-
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SceneMapInfo*>* get_SceneMapInfoList()
 		{
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::SceneMapInfo*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_GET_SCENEMAPINFOLIST_OFFSET))(this);
-		}
-
-		::System::UInt32 get_StorylineId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_GET_STORYLINEID_OFFSET))(this);
-		}
-
-		::System::Void set_StorylineId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_SET_STORYLINEID_OFFSET))(this, value);
-		}
-
-		::System::Boolean get_IsMonsterTrack()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_GET_ISMONSTERTRACK_OFFSET))(this);
-		}
-
-		::System::Void set_IsMonsterTrack(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_GETSCENEMAPINFOSCRSP_SET_ISMONSTERTRACK_OFFSET))(this, value);
 		}
 
 		::System::UInt32 get_Retcode()

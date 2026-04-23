@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4F2B506A7202947A;
+class Class_1_F158EBB544151B42;
 namespace RPG::Client::ChenLingBattle { class Effect; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x933C770)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0__SYNCEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x9340570)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA4F70)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0__SYNCEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x17CA8E20)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass64_0_TypeDefinitionIndex = 62100;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass64_0_TypeDefinitionIndex = 70099;
 
 	class ChenLingBattleGameSession___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:
-		::Class_1_4F2B506A7202947A* effectProto; // 0x10
+		::Class_1_F158EBB544151B42* effectProto; // 0x10
 
 		::System::Void _ctor()
 		{

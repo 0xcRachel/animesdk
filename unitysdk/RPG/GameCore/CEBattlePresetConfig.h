@@ -9,12 +9,12 @@ namespace RPG::GameCore { class CEBattleAreaInfo; }
 namespace RPG::GameCore { class LineupMazeBuffData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CEBATTLEPRESETCONFIG_METHOD_2_CB2463969EB53484_OFFSET UNITYSDK_OFFSET(0x17053AE0)
-#define RPG_GAMECORE_CEBATTLEPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17053E60)
+#define RPG_GAMECORE_CEBATTLEPRESETCONFIG_METHOD_2_CB2463969EB53484_OFFSET UNITYSDK_OFFSET(0x19A75200)
+#define RPG_GAMECORE_CEBATTLEPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A75580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CEBattlePresetConfig_TypeDefinitionIndex = 16649;
+	inline static constexpr unsigned int CEBattlePresetConfig_TypeDefinitionIndex = 17241;
 
 	class CEBattlePresetConfig : public ::RPG::GameCore::JsonConfig
 	{

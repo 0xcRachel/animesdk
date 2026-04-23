@@ -8,19 +8,19 @@ namespace System::Runtime::Serialization { class ISerializationSurrogate; }
 namespace System::Runtime::Serialization { class ISurrogateSelector; }
 namespace System::Runtime::Serialization { class SurrogateHashtable; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_ADDSURROGATE_OFFSET UNITYSDK_OFFSET(0x1640A450)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x1640A540)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1640A3F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_ADDSURROGATE_OFFSET UNITYSDK_OFFSET(0x17634140)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR_GETSURROGATE_OFFSET UNITYSDK_OFFSET(0x17634230)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x176340E0)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SurrogateSelector_TypeDefinitionIndex = 1126;
+	inline static constexpr unsigned int SurrogateSelector_TypeDefinitionIndex = 1128;
 
 	class SurrogateSelector : public ::System::Object
 	{
 	public:
-		::System::Runtime::Serialization::ISurrogateSelector* m_nextSelector; // 0x10
-		::System::Runtime::Serialization::SurrogateHashtable* m_surrogates; // 0x18
+		::System::Runtime::Serialization::SurrogateHashtable* m_surrogates; // 0x10
+		::System::Runtime::Serialization::ISurrogateSelector* m_nextSelector; // 0x18
 
 		::System::Void _ctor()
 		{

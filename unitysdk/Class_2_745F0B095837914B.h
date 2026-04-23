@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class OverrideFinishActionAutoTransfer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_745F0B095837914B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11353ED0)
-#define CLASS_2_745F0B095837914B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11353F10)
-#define CLASS_2_745F0B095837914B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11353FB0)
-#define CLASS_2_745F0B095837914B_TICK_OFFSET UNITYSDK_OFFSET(0x11354000)
-#define CLASS_2_745F0B095837914B__CTOR_OFFSET UNITYSDK_OFFSET(0x11353EC0)
+#define CLASS_2_745F0B095837914B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF0A5010)
+#define CLASS_2_745F0B095837914B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF0A5050)
+#define CLASS_2_745F0B095837914B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF0A50F0)
+#define CLASS_2_745F0B095837914B_TICK_OFFSET UNITYSDK_OFFSET(0xF0A5140)
+#define CLASS_2_745F0B095837914B__CTOR_OFFSET UNITYSDK_OFFSET(0xF0A5000)
 
-inline static constexpr unsigned int Class_2_745F0B095837914B_TypeDefinitionIndex = 42938;
+inline static constexpr unsigned int Class_2_745F0B095837914B_TypeDefinitionIndex = 48923;
 
 class Class_2_745F0B095837914B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::OverrideFinishActionAutoTransfer* Field_2_0; // 0x20
+	::RPG::GameCore::OverrideFinishActionAutoTransfer* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OverrideFinishActionAutoTransfer* a2)
 	{

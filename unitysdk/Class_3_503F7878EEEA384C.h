@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnloadBattleEvent; }
 
-#define CLASS_3_503F7878EEEA384C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x886D5A0)
-#define CLASS_3_503F7878EEEA384C__CTOR_OFFSET UNITYSDK_OFFSET(0x886D570)
+#define CLASS_3_503F7878EEEA384C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10CA6C80)
+#define CLASS_3_503F7878EEEA384C__CTOR_OFFSET UNITYSDK_OFFSET(0x10CA6C50)
 
-inline static constexpr unsigned int Class_3_503F7878EEEA384C_TypeDefinitionIndex = 47512;
+inline static constexpr unsigned int Class_3_503F7878EEEA384C_TypeDefinitionIndex = 54248;
 
 class Class_3_503F7878EEEA384C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::UnloadBattleEvent*>
 {

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard_Class_1_29346FA79C775DFC_1; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_3__CTOR_OFFSET UNITYSDK_OFFSET(0xA0FEA70)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_3___BFS_B__3_OFFSET UNITYSDK_OFFSET(0xA0FEA80)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_3__CTOR_OFFSET UNITYSDK_OFFSET(0x10389C00)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS100_3___BFS_B__3_OFFSET UNITYSDK_OFFSET(0x1038A5E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_3_TypeDefinitionIndex = 64159;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_3_TypeDefinitionIndex = 72206;
 
 	class OpticalIllusionPuzzleBoard___c__DisplayClass100_3 : public ::System::Object
 	{

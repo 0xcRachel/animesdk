@@ -5,16 +5,16 @@
 class Class_2_843468DEB2C89684;
 namespace RPG::GameCore { class DiceCombatTaskConfig_StrikeBackDamage; }
 
-#define CLASS_2_1E119EA00709909B_METHOD_2_A1C7122184516C18_OFFSET UNITYSDK_OFFSET(0x165E1AC0)
-#define CLASS_2_1E119EA00709909B__CTOR_OFFSET UNITYSDK_OFFSET(0x165E1AB0)
+#define CLASS_2_1E119EA00709909B_METHOD_2_A1C7122184516C18_OFFSET UNITYSDK_OFFSET(0x14823A90)
+#define CLASS_2_1E119EA00709909B__CTOR_OFFSET UNITYSDK_OFFSET(0x14823A80)
 
-inline static constexpr unsigned int Class_2_1E119EA00709909B_TypeDefinitionIndex = 28434;
+inline static constexpr unsigned int Class_2_1E119EA00709909B_TypeDefinitionIndex = 34103;
 
 class Class_2_1E119EA00709909B : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_843468DEB2C89684* Field_2_1; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage* Field_2_0; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage* Field_2_0; // 0x18
+	::Class_2_843468DEB2C89684* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage* a1, ::Class_2_843468DEB2C89684* a2)
 	{

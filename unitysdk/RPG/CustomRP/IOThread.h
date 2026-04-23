@@ -8,26 +8,26 @@ namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class Thread; }
 
-#define RPG_CUSTOMRP_IOTHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x16AB2500)
-#define RPG_CUSTOMRP_IOTHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB2530)
-#define RPG_CUSTOMRP_IOTHREAD__ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x16AB2640)
-#define RPG_CUSTOMRP_IOTHREAD__START_OFFSET UNITYSDK_OFFSET(0x16AB2570)
-#define RPG_CUSTOMRP_IOTHREAD__THREADFUNC_OFFSET UNITYSDK_OFFSET(0x16AB2650)
+#define RPG_CUSTOMRP_IOTHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x15A64FC0)
+#define RPG_CUSTOMRP_IOTHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x15A64FF0)
+#define RPG_CUSTOMRP_IOTHREAD__ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x15A65100)
+#define RPG_CUSTOMRP_IOTHREAD__START_OFFSET UNITYSDK_OFFSET(0x15A65030)
+#define RPG_CUSTOMRP_IOTHREAD__THREADFUNC_OFFSET UNITYSDK_OFFSET(0x15A65110)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IOThread_TypeDefinitionIndex = 29505;
+	inline static constexpr unsigned int IOThread_TypeDefinitionIndex = 35272;
 
 	class IOThread : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::IMsgFactory* _msgFactory; // 0x10
+		::System::String* _name; // 0x10
 		::System::IO::Stream* _stream; // 0x18
-		::System::Threading::Thread* _thread; // 0x20
-		::Il2CppArray<::System::Action*>* _stateDelegates; // 0x28
-		::System::String* _name; // 0x30
-		::System::Boolean _isRun; // 0x38
-		::System::Int32 _state; // 0x3C
+		::Il2CppArray<::System::Action*>* _stateDelegates; // 0x20
+		::RPG::CustomRP::IMsgFactory* _msgFactory; // 0x28
+		::System::Threading::Thread* _thread; // 0x30
+		::System::Int32 _state; // 0x38
+		::System::Boolean _isRun; // 0x3C
 
 		::System::Void _ctor(::System::IO::Stream* stream, ::System::String* name, ::System::Int32 stateCount, ::RPG::CustomRP::IMsgFactory* msgFactory)
 		{

@@ -7,18 +7,18 @@ namespace MiHoYo::SDK { class AccountListManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE33B0)
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__ONOPERATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x15DE5C30)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16176390)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS9_0__ONOPERATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x16178C00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountListManager___c__DisplayClass9_0_TypeDefinitionIndex = 6982;
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass9_0_TypeDefinitionIndex = 7028;
 
 	class AccountListManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::AccountListManager* __4__this; // 0x18
+		::MiHoYo::SDK::AccountListManager* __4__this; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

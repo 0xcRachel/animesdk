@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/SystemException.h"
 
-#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1870A930)
+#define SYSTEM_NET_INTERNALEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x176C7710)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 2735;
+	inline static constexpr unsigned int InternalException_TypeDefinitionIndex = 2736;
 
 	class InternalException : public ::System::SystemException
 	{

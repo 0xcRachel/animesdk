@@ -7,31 +7,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2BATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173CB220)
-#define RPG_GAMECORE_MATCHTHREEV2BATTLEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173CB850)
+#define RPG_GAMECORE_MATCHTHREEV2BATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C3CD40)
+#define RPG_GAMECORE_MATCHTHREEV2BATTLEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3D370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2BattleItemRow_TypeDefinitionIndex = 10980;
+	inline static constexpr unsigned int MatchThreeV2BattleItemRow_TypeDefinitionIndex = 11383;
 
 	class MatchThreeV2BattleItemRow : public ::System::Object
 	{
 	public:
-		::System::String* ItemIcon; // 0x10
-		::System::String* ItemEffectJson; // 0x18
-		::RPG::Client::TextID ItemName; // 0x20
-		::RPG::Client::TextID ItemUseFailHint; // 0x30
-		::System::UInt32 ItemLevel; // 0x40
-		::System::UInt32 LevelUpCost; // 0x44
-		::RPG::Client::TextID ItemDesc; // 0x48
-		::System::UInt32 BattleItemID; // 0x58
-		::RPG::GameCore::MatchThreePropType PropType; // 0x5C
-		::RPG::Client::TextID ItemLevelUpDesc; // 0x60
-		::System::UInt32 ItemUseCount; // 0x70
-		::System::UInt32 Order; // 0x74
-		::RPG::Client::TextID ItemHint; // 0x78
-		::System::Boolean IsUnlock; // 0x88
-		::System::UInt32 InputGridCount; // 0x8C
+		::System::String* ItemEffectJson; // 0x10
+		::System::String* ItemIcon; // 0x18
+		::RPG::Client::TextID ItemHint; // 0x20
+		::System::UInt32 InputGridCount; // 0x30
+		::System::UInt32 BattleItemID; // 0x34
+		::RPG::GameCore::MatchThreePropType PropType; // 0x38
+		::System::UInt32 LevelUpCost; // 0x3C
+		::RPG::Client::TextID ItemUseFailHint; // 0x40
+		::RPG::Client::TextID ItemLevelUpDesc; // 0x50
+		::System::UInt32 ItemLevel; // 0x60
+		::System::Boolean IsUnlock; // 0x64
+		::RPG::Client::TextID ItemDesc; // 0x68
+		::System::UInt32 ItemUseCount; // 0x78
+		::System::UInt32 Order; // 0x7C
+		::RPG::Client::TextID ItemName; // 0x80
 
 		::System::Void _ctor()
 		{

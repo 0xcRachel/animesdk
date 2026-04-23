@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ORBSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x9EC4300)
+#define RPG_CLIENT_ORBSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x162B1640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OrbSpawnConfig_TypeDefinitionIndex = 52358;
+	inline static constexpr unsigned int OrbSpawnConfig_TypeDefinitionIndex = 59311;
 
 	class OrbSpawnConfig : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_ENVOYINFO_GET_ENVOYSINKS_OFFSET UNITYSDK_OFFSET(0x163B8960)
-#define SYSTEM_RUNTIME_REMOTING_ENVOYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x163B8950)
+#define SYSTEM_RUNTIME_REMOTING_ENVOYINFO_GET_ENVOYSINKS_OFFSET UNITYSDK_OFFSET(0x18F6BD50)
+#define SYSTEM_RUNTIME_REMOTING_ENVOYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18F6BD40)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int EnvoyInfo_TypeDefinitionIndex = 1194;
+	inline static constexpr unsigned int EnvoyInfo_TypeDefinitionIndex = 1196;
 
 	class EnvoyInfo : public ::System::Object
 	{

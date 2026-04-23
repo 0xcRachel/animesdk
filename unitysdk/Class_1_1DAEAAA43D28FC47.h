@@ -4,24 +4,24 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_1DAEAAA43D28FC47_METHOD_1_877DE3FFFDF5133E_OFFSET UNITYSDK_OFFSET(0x9EE1200)
-#define CLASS_1_1DAEAAA43D28FC47__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE15A0)
+#define CLASS_1_1DAEAAA43D28FC47_METHOD_1_877DE3FFFDF5133E_OFFSET UNITYSDK_OFFSET(0xDB105D0)
+#define CLASS_1_1DAEAAA43D28FC47__CTOR_OFFSET UNITYSDK_OFFSET(0xDB10970)
 
-inline static constexpr unsigned int Class_1_1DAEAAA43D28FC47_TypeDefinitionIndex = 44930;
+inline static constexpr unsigned int Class_1_1DAEAAA43D28FC47_TypeDefinitionIndex = 51679;
 
 class Class_1_1DAEAAA43D28FC47 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Byte>** StaticGet_Field_1_6()
 	{
-		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DAEAAA43D28FC47_TypeDefinitionIndex)->GetStaticField(0x43840);
+		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DAEAAA43D28FC47_TypeDefinitionIndex)->GetStaticField(0x1E1D0);
 	}
 	// static const ::System::Int32 Field_1_5 = 0xC; // 0x0
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x10
-	::System::UInt32 Field_1_0; // 0x18
-	::System::UInt32 Field_1_1; // 0x1C
-	::System::UInt32 Field_1_3; // 0x20
-	::System::UInt32 Field_1_2; // 0x24
+	::System::UInt32 Field_1_3; // 0x18
+	::System::UInt32 Field_1_0; // 0x1C
+	::System::UInt32 Field_1_2; // 0x20
+	::System::UInt32 Field_1_1; // 0x24
 
 	::System::Void _ctor()
 	{

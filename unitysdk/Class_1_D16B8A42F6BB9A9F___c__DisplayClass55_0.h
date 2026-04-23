@@ -5,16 +5,16 @@
 class Class_1_D16B8A42F6BB9A9F;
 namespace RPG::GameCore { class PerformanceDynamicLoadCharacter; }
 
-#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x111C5420)
-#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS55_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0x111DB280)
+#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE0933D0)
+#define CLASS_1_D16B8A42F6BB9A9F___C__DISPLAYCLASS55_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0xE0A9E70)
 
-inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F___c__DisplayClass55_0_TypeDefinitionIndex = 49195;
+inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F___c__DisplayClass55_0_TypeDefinitionIndex = 55992;
 
 class Class_1_D16B8A42F6BB9A9F___c__DisplayClass55_0 : public ::System::Object
 {
 public:
-	::Class_1_D16B8A42F6BB9A9F* __4__this; // 0x10
-	::RPG::GameCore::PerformanceDynamicLoadCharacter* param; // 0x18
+	::RPG::GameCore::PerformanceDynamicLoadCharacter* param; // 0x10
+	::Class_1_D16B8A42F6BB9A9F* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

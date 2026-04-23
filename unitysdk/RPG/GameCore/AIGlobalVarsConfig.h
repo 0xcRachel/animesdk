@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AIVariable; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AIGLOBALVARSCONFIG_METHOD_2_C85BB0F813483509_OFFSET UNITYSDK_OFFSET(0x16EA5220)
-#define RPG_GAMECORE_AIGLOBALVARSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA5390)
+#define RPG_GAMECORE_AIGLOBALVARSCONFIG_METHOD_2_C85BB0F813483509_OFFSET UNITYSDK_OFFSET(0x18853DE0)
+#define RPG_GAMECORE_AIGLOBALVARSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18853F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIGlobalVarsConfig_TypeDefinitionIndex = 14176;
+	inline static constexpr unsigned int AIGlobalVarsConfig_TypeDefinitionIndex = 14645;
 
 	class AIGlobalVarsConfig : public ::RPG::GameCore::JsonConfig
 	{

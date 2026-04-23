@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2F6354F2F5DDBF64_CLASS_1_7F544D42B2C95D3C_METHOD_1_0FA6FCEB19F5777B_OFFSET UNITYSDK_OFFSET(0x109A9BF0)
-#define CLASS_2_2F6354F2F5DDBF64_CLASS_1_7F544D42B2C95D3C__CTOR_OFFSET UNITYSDK_OFFSET(0x109A9870)
+#define CLASS_2_2F6354F2F5DDBF64_CLASS_1_7F544D42B2C95D3C_METHOD_1_0FA6FCEB19F5777B_OFFSET UNITYSDK_OFFSET(0xB041EE0)
+#define CLASS_2_2F6354F2F5DDBF64_CLASS_1_7F544D42B2C95D3C__CTOR_OFFSET UNITYSDK_OFFSET(0xB041E10)
 
-inline static constexpr unsigned int Class_2_2F6354F2F5DDBF64_Class_1_7F544D42B2C95D3C_TypeDefinitionIndex = 49085;
+inline static constexpr unsigned int Class_2_2F6354F2F5DDBF64_Class_1_7F544D42B2C95D3C_TypeDefinitionIndex = 55880;
 
 class Class_2_2F6354F2F5DDBF64_Class_1_7F544D42B2C95D3C : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x10
 	::System::Collections::Generic::Dictionary_2<::RPG::Client::MapRotation::EffectType, ::System::Collections::Generic::List_1<::Class_2_2F6354F2F5DDBF64_Struct_2_C98CB9F275AE157F>*>* Field_1_5; // 0x18
-	::System::String* Field_1_1; // 0x20
-	::System::UInt32 Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x2C
-	::System::UInt32 Field_1_2; // 0x30
+	::System::String* Field_1_0; // 0x20
+	::System::UInt32 Field_1_2; // 0x28
+	::System::UInt32 Field_1_3; // 0x2C
+	::System::Boolean Field_1_4; // 0x30
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4, ::System::Boolean a5)
 	{

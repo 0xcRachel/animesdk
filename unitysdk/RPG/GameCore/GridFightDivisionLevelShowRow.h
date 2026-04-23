@@ -6,24 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1726B630)
-#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1726B9B0)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1956B400)
+#define RPG_GAMECORE_GRIDFIGHTDIVISIONLEVELSHOWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1956B7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightDivisionLevelShowRow_TypeDefinitionIndex = 12441;
+	inline static constexpr unsigned int GridFightDivisionLevelShowRow_TypeDefinitionIndex = 12876;
 
 	class GridFightDivisionLevelShowRow : public ::System::Object
 	{
 	public:
 		::System::String* DivisionIcon; // 0x10
 		::System::String* DivisionShowPic; // 0x18
-		::RPG::Client::TextID DivisionName; // 0x20
-		::System::UInt32 DivisionRewardQuest; // 0x30
-		::System::UInt32 SeasonID; // 0x34
-		::RPG::Client::TextID DivisionNameWithNum; // 0x38
-		::System::UInt32 DivisionLevel; // 0x48
-		::RPG::Client::TextID DivisionAbbr; // 0x50
+		::System::UInt32 DivisionLevel; // 0x20
+		::System::UInt32 DivisionSPRewardQuest; // 0x24
+		::RPG::Client::TextID DivisionNameWithNum; // 0x28
+		::RPG::Client::TextID DivisionAbbr; // 0x38
+		::RPG::Client::TextID DivisionName; // 0x48
+		::System::UInt32 SeasonID; // 0x58
+		::System::UInt32 DivisionRewardQuest; // 0x5C
 
 		::System::Void _ctor()
 		{

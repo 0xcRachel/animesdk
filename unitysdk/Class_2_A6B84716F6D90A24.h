@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_A6B84716F6D90A24_COMPARE_OFFSET UNITYSDK_OFFSET(0x8A9B330)
-#define CLASS_2_A6B84716F6D90A24_METHOD_2_69696556CC7A23F2_OFFSET UNITYSDK_OFFSET(0x8A9B230)
-#define CLASS_2_A6B84716F6D90A24_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x8A9B120)
-#define CLASS_2_A6B84716F6D90A24__CTOR_OFFSET UNITYSDK_OFFSET(0x8A9B100)
+#define CLASS_2_A6B84716F6D90A24_COMPARE_OFFSET UNITYSDK_OFFSET(0x103932B0)
+#define CLASS_2_A6B84716F6D90A24_METHOD_2_69696556CC7A23F2_OFFSET UNITYSDK_OFFSET(0x103931B0)
+#define CLASS_2_A6B84716F6D90A24_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x103930A0)
+#define CLASS_2_A6B84716F6D90A24__CTOR_OFFSET UNITYSDK_OFFSET(0x10393080)
 
-inline static constexpr unsigned int Class_2_A6B84716F6D90A24_TypeDefinitionIndex = 47835;
+inline static constexpr unsigned int Class_2_A6B84716F6D90A24_TypeDefinitionIndex = 54576;
 
 class Class_2_A6B84716F6D90A24 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetSortByGridFightRoleTotalDamage*>
 {

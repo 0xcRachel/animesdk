@@ -9,25 +9,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1729D010)
-#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1729D3A0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B90A90)
+#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B90E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitLayerConfigRow_TypeDefinitionIndex = 12507;
+	inline static constexpr unsigned int GridFightTraitLayerConfigRow_TypeDefinitionIndex = 12940;
 
 	class GridFightTraitLayerConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* PropertyParamList; // 0x20
-		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x28
-		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x2C
-		::RPG::Client::TextID PropertyDesc; // 0x30
-		::System::UInt32 MazebuffID; // 0x40
-		::System::UInt32 TraitID; // 0x44
-		::System::UInt32 Layer; // 0x48
+		::Il2CppArray<::RPG::GameCore::FixPoint>* PropertyParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OverrideBEPropertyList; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x28
+		::System::UInt32 Layer; // 0x30
+		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x34
+		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x38
+		::RPG::Client::TextID PropertyDesc; // 0x40
+		::System::UInt32 TraitID; // 0x50
+		::System::UInt32 MazebuffID; // 0x54
 
 		::System::Void _ctor()
 		{

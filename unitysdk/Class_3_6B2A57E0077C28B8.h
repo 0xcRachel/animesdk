@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareGraphDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6B2A57E0077C28B8_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEEFC70)
-#define CLASS_3_6B2A57E0077C28B8__CTOR_OFFSET UNITYSDK_OFFSET(0xBEEFC40)
+#define CLASS_3_6B2A57E0077C28B8_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A50480)
+#define CLASS_3_6B2A57E0077C28B8__CTOR_OFFSET UNITYSDK_OFFSET(0x15A50450)
 
-inline static constexpr unsigned int Class_3_6B2A57E0077C28B8_TypeDefinitionIndex = 42570;
+inline static constexpr unsigned int Class_3_6B2A57E0077C28B8_TypeDefinitionIndex = 48535;
 
 class Class_3_6B2A57E0077C28B8 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareGraphDynamicString*>
 {

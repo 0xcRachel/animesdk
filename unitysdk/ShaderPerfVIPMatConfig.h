@@ -5,9 +5,9 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define SHADERPERFVIPMATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xABD3480)
+#define SHADERPERFVIPMATCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E289F0)
 
-inline static constexpr unsigned int ShaderPerfVIPMatConfig_TypeDefinitionIndex = 38342;
+inline static constexpr unsigned int ShaderPerfVIPMatConfig_TypeDefinitionIndex = 44226;
 
 class ShaderPerfVIPMatConfig : public ::UnityEngine::ScriptableObject
 {

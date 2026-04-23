@@ -5,24 +5,24 @@
 namespace RPG::Client { class FateGameMasterTalkInfoItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x96958C0)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9695900)
-#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x9695910)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1790E9A0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1790E9E0)
+#define RPG_CLIENT_FATEGAMEMASTERTALKINFOEXT___C__GETRANDOMITEMSONOVERVIEWPAGE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1790E9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 52023;
+	inline static constexpr unsigned int FateGameMasterTalkInfoExt___c_TypeDefinitionIndex = 58972;
 
 	class FateGameMasterTalkInfoExt___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::FateGameMasterTalkInfoExt___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateGameMasterTalkInfoExt___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x45990);
+			return (::RPG::Client::FateGameMasterTalkInfoExt___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x10A40);
 		}
 		static ::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x45998);
+			return (::System::Func_2<::RPG::Client::FateGameMasterTalkInfoItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateGameMasterTalkInfoExt___c_TypeDefinitionIndex)->GetStaticField(0x10A48);
 		}
 
 		static ::System::Void _cctor()

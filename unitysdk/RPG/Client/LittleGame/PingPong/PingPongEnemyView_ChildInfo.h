@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGENEMYVIEW_CHILDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9A463F0)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGENEMYVIEW_CHILDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x165386F0)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongEnemyView_ChildInfo_TypeDefinitionIndex = 62440;
+	inline static constexpr unsigned int PingPongEnemyView_ChildInfo_TypeDefinitionIndex = 70439;
 
 	class PingPongEnemyView_ChildInfo : public ::System::Object
 	{

@@ -5,38 +5,45 @@
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_GACHACEILINGAVATAR_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x18292640)
-#define PROTO_GACHACEILINGAVATAR_CLONE_OFFSET UNITYSDK_OFFSET(0x18292380)
-#define PROTO_GACHACEILINGAVATAR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x182924D0)
-#define PROTO_GACHACEILINGAVATAR_EQUALS_OFFSET UNITYSDK_OFFSET(0x18292430)
-#define PROTO_GACHACEILINGAVATAR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18292530)
-#define PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x182923F0)
-#define PROTO_GACHACEILINGAVATAR_GET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x18292410)
-#define PROTO_GACHACEILINGAVATAR_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x18292790)
-#define PROTO_GACHACEILINGAVATAR_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x18292750)
-#define PROTO_GACHACEILINGAVATAR_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18292330)
-#define PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x18292400)
-#define PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x18292420)
-#define PROTO_GACHACEILINGAVATAR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18292560)
-#define PROTO_GACHACEILINGAVATAR_WRITETO_OFFSET UNITYSDK_OFFSET(0x182925C0)
-#define PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18292350)
-#define PROTO_GACHACEILINGAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x18292340)
+#define PROTO_GACHACEILINGAVATAR_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1975A520)
+#define PROTO_GACHACEILINGAVATAR_CLONE_OFFSET UNITYSDK_OFFSET(0x1975A2B0)
+#define PROTO_GACHACEILINGAVATAR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1975A3B0)
+#define PROTO_GACHACEILINGAVATAR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1975A340)
+#define PROTO_GACHACEILINGAVATAR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1975A410)
+#define PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1975A320)
+#define PROTO_GACHACEILINGAVATAR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1975A230)
+#define PROTO_GACHACEILINGAVATAR_GET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x1975A300)
+#define PROTO_GACHACEILINGAVATAR_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1975A670)
+#define PROTO_GACHACEILINGAVATAR_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1975A630)
+#define PROTO_GACHACEILINGAVATAR_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1975A260)
+#define PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1975A330)
+#define PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET UNITYSDK_OFFSET(0x1975A310)
+#define PROTO_GACHACEILINGAVATAR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1975A440)
+#define PROTO_GACHACEILINGAVATAR_WRITETO_OFFSET UNITYSDK_OFFSET(0x1975A4A0)
+#define PROTO_GACHACEILINGAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1975A6F0)
+#define PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1975A280)
+#define PROTO_GACHACEILINGAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1975A270)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GachaCeilingAvatar_TypeDefinitionIndex = 24691;
+	inline static constexpr unsigned int GachaCeilingAvatar_TypeDefinitionIndex = 27364;
 
 	class GachaCeilingAvatar : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 AvatarIdFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 RepeatedCntFieldNumber = 0xD; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(GachaCeilingAvatar_TypeDefinitionIndex)->GetStaticField(0x17390);
+		}
+		// static const ::System::Int32 RepeatedCntFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 AvatarIdFieldNumber = 0xE; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 repeatedCnt_; // 0x18
-		::System::UInt32 avatarId_; // 0x1C
+		::System::UInt32 avatarId_; // 0x18
+		::System::UInt32 repeatedCnt_; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -46,6 +53,16 @@ namespace Proto
 		::System::Void _ctor_1(::Proto::GachaCeilingAvatar* other)
 		{
 			return ((::System::Void(*)(::PVOID, ::Proto::GachaCeilingAvatar*))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR__CTOR_1_OFFSET))(this, other);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::GachaCeilingAvatar*>*(*)())((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -58,16 +75,6 @@ namespace Proto
 			return ((::Proto::GachaCeilingAvatar*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 get_AvatarId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET))(this);
-		}
-
-		::System::Void set_AvatarId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET))(this, value);
-		}
-
 		::System::UInt32 get_RepeatedCnt()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_GET_REPEATEDCNT_OFFSET))(this);
@@ -76,6 +83,16 @@ namespace Proto
 		::System::Void set_RepeatedCnt(::System::UInt32 value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_REPEATEDCNT_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_AvatarId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_GET_AVATARID_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GACHACEILINGAVATAR_SET_AVATARID_OFFSET))(this, value);
 		}
 
 		::System::Boolean Equals(::System::Object* other)

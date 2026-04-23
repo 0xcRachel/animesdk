@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetTeammateAttackPerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5321ED1C7CB2ED00_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8CB6420)
-#define CLASS_3_5321ED1C7CB2ED00__CTOR_OFFSET UNITYSDK_OFFSET(0x8CB63F0)
+#define CLASS_3_5321ED1C7CB2ED00_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xECBC4C0)
+#define CLASS_3_5321ED1C7CB2ED00__CTOR_OFFSET UNITYSDK_OFFSET(0xECBC490)
 
-inline static constexpr unsigned int Class_3_5321ED1C7CB2ED00_TypeDefinitionIndex = 45330;
+inline static constexpr unsigned int Class_3_5321ED1C7CB2ED00_TypeDefinitionIndex = 51974;
 
 class Class_3_5321ED1C7CB2ED00 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetTeammateAttackPerform*>
 {

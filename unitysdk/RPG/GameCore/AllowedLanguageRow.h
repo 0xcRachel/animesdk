@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLOWEDLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F92B20)
-#define RPG_GAMECORE_ALLOWEDLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F931C0)
+#define RPG_GAMECORE_ALLOWEDLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AD39F0)
+#define RPG_GAMECORE_ALLOWEDLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD4090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AllowedLanguageRow_TypeDefinitionIndex = 11544;
+	inline static constexpr unsigned int AllowedLanguageRow_TypeDefinitionIndex = 11946;
 
 	class AllowedLanguageRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* LanguageList; // 0x10
-		::System::String* DefaultLanguage; // 0x18
+		::System::String* DefaultLanguage; // 0x10
+		::Il2CppArray<::System::String*>* LanguageList; // 0x18
 		::System::String* Area; // 0x20
 		::System::Byte Type; // 0x28
 

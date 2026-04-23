@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONSTORYEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174373B0)
-#define RPG_GAMECORE_MISSIONSTORYEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17437AA0)
+#define RPG_GAMECORE_MISSIONSTORYEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19074060)
+#define RPG_GAMECORE_MISSIONSTORYEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19074750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionStoryEventRow_TypeDefinitionIndex = 12939;
+	inline static constexpr unsigned int MissionStoryEventRow_TypeDefinitionIndex = 13400;
 
 	class MissionStoryEventRow : public ::System::Object
 	{
 	public:
 		::System::String* ConditionExpression; // 0x10
 		::RPG::Client::TextID EventName; // 0x18
-		::System::UInt32 ID; // 0x28
-		::RPG::Client::TextID EventDesc; // 0x30
+		::RPG::Client::TextID EventDesc; // 0x28
+		::System::UInt32 ID; // 0x38
 
 		::System::Void _ctor()
 		{

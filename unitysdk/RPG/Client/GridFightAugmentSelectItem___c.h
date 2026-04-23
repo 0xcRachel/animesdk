@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x97DE310)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97DE350)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__31_0_OFFSET UNITYSDK_OFFSET(0x97DE360)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16059C40)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16059C80)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__31_0_OFFSET UNITYSDK_OFFSET(0x16059C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentSelectItem___c_TypeDefinitionIndex = 52287;
+	inline static constexpr unsigned int GridFightAugmentSelectItem___c_TypeDefinitionIndex = 59239;
 
 	class GridFightAugmentSelectItem___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GridFightAugmentSelectItem___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightAugmentSelectItem___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x137D0);
+			return (::RPG::Client::GridFightAugmentSelectItem___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x1D3A0);
 		}
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x137D8);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightAugmentSelectItem___c_TypeDefinitionIndex)->GetStaticField(0x1D3A8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,22 +5,22 @@
 namespace RPG::Client { class RogueNousDiceSlotDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_1228E0654372C1DA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10AD7AA0)
-#define CLASS_1_1228E0654372C1DA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10AD7AE0)
-#define CLASS_1_1228E0654372C1DA___C__GETDICESURFACEDISPLAYDATALIST_B__17_0_OFFSET UNITYSDK_OFFSET(0x10AD7AF0)
+#define CLASS_1_1228E0654372C1DA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10599A70)
+#define CLASS_1_1228E0654372C1DA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10599AB0)
+#define CLASS_1_1228E0654372C1DA___C__GETDICESURFACEDISPLAYDATALIST_B__17_0_OFFSET UNITYSDK_OFFSET(0x10599AC0)
 
-inline static constexpr unsigned int Class_1_1228E0654372C1DA___c_TypeDefinitionIndex = 54468;
+inline static constexpr unsigned int Class_1_1228E0654372C1DA___c_TypeDefinitionIndex = 61656;
 
 class Class_1_1228E0654372C1DA___c : public ::System::Object
 {
 public:
 	static ::Class_1_1228E0654372C1DA___c** StaticGet___9()
 	{
-		return (::Class_1_1228E0654372C1DA___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1228E0654372C1DA___c_TypeDefinitionIndex)->GetStaticField(0x467E0);
+		return (::Class_1_1228E0654372C1DA___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1228E0654372C1DA___c_TypeDefinitionIndex)->GetStaticField(0x6A160);
 	}
 	static ::System::Func_2<::RPG::Client::RogueNousDiceSlotDataItem*, ::System::UInt32>** StaticGet___9__17_0()
 	{
-		return (::System::Func_2<::RPG::Client::RogueNousDiceSlotDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1228E0654372C1DA___c_TypeDefinitionIndex)->GetStaticField(0x467E8);
+		return (::System::Func_2<::RPG::Client::RogueNousDiceSlotDataItem*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1228E0654372C1DA___c_TypeDefinitionIndex)->GetStaticField(0x6A168);
 	}
 
 	static ::System::Void _cctor()

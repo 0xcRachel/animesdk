@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_92B1BD6FC8375724;
+class Class_1_AC6C63F15E9794D3;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EC1D60)
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0x9EC33C0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162AF0A0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0x162B0700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 54012;
+	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 61175;
 
 	class OperationModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::System::String* appID; // 0x10
-		::Class_1_92B1BD6FC8375724* req; // 0x18
+		::Class_1_AC6C63F15E9794D3* req; // 0x10
+		::System::String* appID; // 0x18
 		::System::String* authKeyVer; // 0x20
 		::System::String* signType; // 0x28
 
@@ -25,9 +25,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_92B1BD6FC8375724* _SetupHttpAuthKeyPromised_b__0(::System::String* authKey)
+		::Class_1_AC6C63F15E9794D3* _SetupHttpAuthKeyPromised_b__0(::System::String* authKey)
 		{
-			return ((::Class_1_92B1BD6FC8375724*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET))(this, authKey);
+			return ((::Class_1_AC6C63F15E9794D3*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET))(this, authKey);
 		}
 	};
 }

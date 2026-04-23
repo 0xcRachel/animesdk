@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_PYRAMID__CTOR_OFFSET UNITYSDK_OFFSET(0x16ABC3F0)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_PYRAMID__CTOR_OFFSET UNITYSDK_OFFSET(0x15A6E9D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGBloomRenderer_Pyramid_TypeDefinitionIndex = 29399;
+	inline static constexpr unsigned int RPGBloomRenderer_Pyramid_TypeDefinitionIndex = 35166;
 
 	class RPGBloomRenderer_Pyramid : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::RTIDHandle rtB; // 0x10
-		::RPG::CustomRP::RTIDHandle rtA; // 0x48
-		::UnityEngine::Rect rect; // 0x80
+		::UnityEngine::Rect rect; // 0x10
+		::RPG::CustomRP::RTIDHandle rtB; // 0x20
+		::RPG::CustomRP::RTIDHandle rtA; // 0x58
 
 		::System::Void _ctor()
 		{

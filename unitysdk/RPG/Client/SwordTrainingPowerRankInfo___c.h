@@ -6,34 +6,34 @@ namespace RPG::Client { class SwordTrainingPowerRankData; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA527B60)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA527BA0)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_1_OFFSET UNITYSDK_OFFSET(0xA527BB0)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_2_OFFSET UNITYSDK_OFFSET(0xA527CB0)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C___INITALLPOWERRANK_B__11_0_OFFSET UNITYSDK_OFFSET(0xA527E40)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16FF32A0)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF32E0)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_1_OFFSET UNITYSDK_OFFSET(0x16FF32F0)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__FETCHSORTEDSAMEGROUPPOWERRANK_B__10_2_OFFSET UNITYSDK_OFFSET(0x16FF33F0)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C___INITALLPOWERRANK_B__11_0_OFFSET UNITYSDK_OFFSET(0x16FF3580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c_TypeDefinitionIndex = 50299;
+	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c_TypeDefinitionIndex = 57158;
 
 	class SwordTrainingPowerRankInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__11_0()
+		static ::RPG::Client::SwordTrainingPowerRankInfo___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x36320);
-		}
-		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__10_1()
-		{
-			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x36328);
+			return (::RPG::Client::SwordTrainingPowerRankInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x47E30);
 		}
 		static ::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>** StaticGet___9__10_2()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x36330);
+			return (::System::Comparison_1<::System::Collections::Generic::List_1<::RPG::Client::SwordTrainingPowerRankData*>*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x47E38);
 		}
-		static ::RPG::Client::SwordTrainingPowerRankInfo___c** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__11_0()
 		{
-			return (::RPG::Client::SwordTrainingPowerRankInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x36338);
+			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x47E40);
+		}
+		static ::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>** StaticGet___9__10_1()
+		{
+			return (::System::Comparison_1<::RPG::Client::SwordTrainingPowerRankData*>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingPowerRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x47E48);
 		}
 
 		static ::System::Void _cctor()

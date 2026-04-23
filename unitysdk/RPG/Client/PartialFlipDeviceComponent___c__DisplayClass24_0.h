@@ -7,12 +7,12 @@ class Class_1_303D5A33D1401D59;
 class Class_1_8A6989C352B0F0F0;
 namespace System { class String; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F21670)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x9F249D0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x165B2410)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__DISPLAYCLASS24_0__ONSTREAMINGINSTANCECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x165B56B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 60087;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass24_0_TypeDefinitionIndex = 67520;
 
 	class PartialFlipDeviceComponent___c__DisplayClass24_0 : public ::System::Object
 	{

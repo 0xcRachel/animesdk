@@ -5,12 +5,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERCONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA58EEC0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERCONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA58EFF0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERCONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x105573F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERCONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x10557520)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersPlayerController_Example_TypeDefinitionIndex = 61854;
+	inline static constexpr unsigned int TeamTowersPlayerController_Example_TypeDefinitionIndex = 69764;
 
 	class TeamTowersPlayerController_Example : public ::UnityEngine::MonoBehaviour
 	{

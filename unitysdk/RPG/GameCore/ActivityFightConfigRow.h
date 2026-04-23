@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F0D1E0)
-#define RPG_GAMECORE_ACTIVITYFIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F0DA00)
+#define RPG_GAMECORE_ACTIVITYFIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1887C9B0)
+#define RPG_GAMECORE_ACTIVITYFIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1887D1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFightConfigRow_TypeDefinitionIndex = 10796;
+	inline static constexpr unsigned int ActivityFightConfigRow_TypeDefinitionIndex = 11045;
 
 	class ActivityFightConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 TotalWave; // 0x10
 		::System::UInt32 OffsetLevel; // 0x14
-		::System::UInt32 TotalWave; // 0x18
+		::System::UInt32 RewardWave; // 0x18
 		::System::UInt32 RoundsLimit; // 0x1C
-		::System::UInt32 ActivityFightGroupID; // 0x20
-		::System::UInt32 RewardWave2; // 0x24
-		::System::UInt32 RewardWave; // 0x28
+		::System::UInt32 RewardID; // 0x20
+		::RPG::GameCore::LevelDifficulty DifficultyLevel; // 0x24
+		::System::UInt32 ActivityFightGroupID; // 0x28
 		::System::UInt32 RewardQuest; // 0x2C
-		::RPG::GameCore::LevelDifficulty DifficultyLevel; // 0x30
+		::System::UInt32 RewardWave2; // 0x30
 		::System::UInt32 FightEventID; // 0x34
 
 		::System::Void _ctor()

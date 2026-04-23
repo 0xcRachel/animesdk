@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int VortexBoxItemType_TypeDefinitionIndex = 64309;
+	inline static constexpr unsigned int VortexBoxItemType_TypeDefinitionIndex = 72356;
 
 	enum class VortexBoxItemType : ::System::Int32
 	{

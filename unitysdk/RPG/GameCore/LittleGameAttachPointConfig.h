@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameAttachPointInfo; }
 
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG_METHOD_2_D15EF39279D114B5_OFFSET UNITYSDK_OFFSET(0x173686D0)
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173687A0)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG_METHOD_2_D15EF39279D114B5_OFFSET UNITYSDK_OFFSET(0x18A4A5B0)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A4A680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAttachPointConfig_TypeDefinitionIndex = 17307;
+	inline static constexpr unsigned int LittleGameAttachPointConfig_TypeDefinitionIndex = 17915;
 
 	class LittleGameAttachPointConfig : public ::RPG::GameCore::JsonConfig
 	{

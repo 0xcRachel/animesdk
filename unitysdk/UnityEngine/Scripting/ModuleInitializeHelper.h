@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_SCRIPTING_MODULEINITIALIZEHELPER_RUNCLASSCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x18A5FB10)
+#define UNITYENGINE_SCRIPTING_MODULEINITIALIZEHELPER_RUNCLASSCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x18F23140)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int ModuleInitializeHelper_TypeDefinitionIndex = 4308;
+	inline static constexpr unsigned int ModuleInitializeHelper_TypeDefinitionIndex = 4310;
 
 	class ModuleInitializeHelper : public ::System::Object
 	{

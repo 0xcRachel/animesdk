@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODELICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17439D70)
-#define RPG_GAMECORE_MODELICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17439EA0)
+#define RPG_GAMECORE_MODELICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19076A60)
+#define RPG_GAMECORE_MODELICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19076B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModelIconConfigRow_TypeDefinitionIndex = 11472;
+	inline static constexpr unsigned int ModelIconConfigRow_TypeDefinitionIndex = 11874;
 
 	class ModelIconConfigRow : public ::System::Object
 	{

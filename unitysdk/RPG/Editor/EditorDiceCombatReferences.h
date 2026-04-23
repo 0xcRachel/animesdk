@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_EDITOR_EDITORDICECOMBATREFERENCES__CTOR_OFFSET UNITYSDK_OFFSET(0xA7CF280)
+#define RPG_EDITOR_EDITORDICECOMBATREFERENCES__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A6970)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int EditorDiceCombatReferences_TypeDefinitionIndex = 42074;
+	inline static constexpr unsigned int EditorDiceCombatReferences_TypeDefinitionIndex = 48047;
 
 	class EditorDiceCombatReferences : public ::UnityEngine::MonoBehaviour
 	{

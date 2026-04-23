@@ -8,20 +8,20 @@ namespace RPG::GameCore { class TriggerModifierLeaveBattle; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E930342F516A312E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA1CE490)
-#define CLASS_2_E930342F516A312E_METHOD_2_790BBED27FA7A2E4_OFFSET UNITYSDK_OFFSET(0xA1CE8E0)
-#define CLASS_2_E930342F516A312E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1CE530)
-#define CLASS_2_E930342F516A312E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA1CE960)
-#define CLASS_2_E930342F516A312E_TICK_OFFSET UNITYSDK_OFFSET(0xA1CE4D0)
-#define CLASS_2_E930342F516A312E__CTOR_OFFSET UNITYSDK_OFFSET(0xA1CE440)
+#define CLASS_2_E930342F516A312E_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF753E80)
+#define CLASS_2_E930342F516A312E_METHOD_2_790BBED27FA7A2E4_OFFSET UNITYSDK_OFFSET(0xF7542D0)
+#define CLASS_2_E930342F516A312E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF753F20)
+#define CLASS_2_E930342F516A312E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF754350)
+#define CLASS_2_E930342F516A312E_TICK_OFFSET UNITYSDK_OFFSET(0xF753EC0)
+#define CLASS_2_E930342F516A312E__CTOR_OFFSET UNITYSDK_OFFSET(0xF753E30)
 
-inline static constexpr unsigned int Class_2_E930342F516A312E_TypeDefinitionIndex = 44658;
+inline static constexpr unsigned int Class_2_E930342F516A312E_TypeDefinitionIndex = 51400;
 
 class Class_2_E930342F516A312E : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Field_2_0; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
 	::RPG::GameCore::TriggerModifierLeaveBattle* Field_2_1; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerModifierLeaveBattle* a2)

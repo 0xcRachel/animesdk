@@ -8,20 +8,20 @@ namespace RPG::GameCore { class CreateCharacter; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_D16B8A42F6BB9A9F_CLASS_1_95385AF34FE31713__CTOR_OFFSET UNITYSDK_OFFSET(0x111C6E10)
+#define CLASS_1_D16B8A42F6BB9A9F_CLASS_1_95385AF34FE31713__CTOR_OFFSET UNITYSDK_OFFSET(0xE094E50)
 
-inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F_Class_1_95385AF34FE31713_TypeDefinitionIndex = 49189;
+inline static constexpr unsigned int Class_1_D16B8A42F6BB9A9F_Class_1_95385AF34FE31713_TypeDefinitionIndex = 55986;
 
 class Class_1_D16B8A42F6BB9A9F_Class_1_95385AF34FE31713 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_6; // 0x10
+	::System::String* Field_1_4; // 0x10
 	::System::String* Field_1_3; // 0x18
-	::System::String* Field_1_4; // 0x20
-	::System::String* Field_1_2; // 0x28
-	::RPG::GameCore::CreateCharacter* Field_1_0; // 0x30
-	::Class_1_D16B8A42F6BB9A9F_StoryCharacterType Field_1_1; // 0x38
-	::RPG::GameCore::NPCSubType Field_1_5; // 0x3C
+	::RPG::GameCore::CreateCharacter* Field_1_0; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_6; // 0x28
+	::System::String* Field_1_2; // 0x30
+	::RPG::GameCore::NPCSubType Field_1_5; // 0x38
+	::Class_1_D16B8A42F6BB9A9F_StoryCharacterType Field_1_1; // 0x3C
 
 	::System::Void _ctor()
 	{

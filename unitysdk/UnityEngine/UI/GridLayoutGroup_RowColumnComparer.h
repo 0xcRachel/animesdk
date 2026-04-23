@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UI/GridLayoutGroup_RowColumnPair.h"
 
-#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x18B2BFC0)
-#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18B2BFD0)
-#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B2BFF0)
-#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2BFE0)
+#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1825D1A0)
+#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1825D1B0)
+#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1825D1D0)
+#define UNITYENGINE_UI_GRIDLAYOUTGROUP_ROWCOLUMNCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1825D1C0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GridLayoutGroup_RowColumnComparer_TypeDefinitionIndex = 5640;
+	inline static constexpr unsigned int GridLayoutGroup_RowColumnComparer_TypeDefinitionIndex = 5652;
 
 	class GridLayoutGroup_RowColumnComparer : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::GridLayoutGroup_RowColumnComparer** StaticGet_comparer()
 		{
-			return (::UnityEngine::UI::GridLayoutGroup_RowColumnComparer**)Il2CppClass::FromTypeDefinitionIndex(GridLayoutGroup_RowColumnComparer_TypeDefinitionIndex)->GetStaticField(0x4BC0);
+			return (::UnityEngine::UI::GridLayoutGroup_RowColumnComparer**)Il2CppClass::FromTypeDefinitionIndex(GridLayoutGroup_RowColumnComparer_TypeDefinitionIndex)->GetStaticField(0x15C00);
 		}
 
 		::System::Void _ctor()

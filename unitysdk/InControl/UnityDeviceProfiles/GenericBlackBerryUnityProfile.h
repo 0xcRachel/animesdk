@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_GENERICBLACKBERRYUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15C67BF0)
-#define INCONTROL_UNITYDEVICEPROFILES_GENERICBLACKBERRYUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C69230)
+#define INCONTROL_UNITYDEVICEPROFILES_GENERICBLACKBERRYUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x9356980)
+#define INCONTROL_UNITYDEVICEPROFILES_GENERICBLACKBERRYUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x9357FC0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int GenericBlackBerryUnityProfile_TypeDefinitionIndex = 31623;
+	inline static constexpr unsigned int GenericBlackBerryUnityProfile_TypeDefinitionIndex = 37343;
 
 	class GenericBlackBerryUnityProfile : public ::InControl::InputDeviceProfile
 	{

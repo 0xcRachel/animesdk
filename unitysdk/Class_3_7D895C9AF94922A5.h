@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchAdvProp; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_7D895C9AF94922A5_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEBFB00)
-#define CLASS_3_7D895C9AF94922A5__CTOR_OFFSET UNITYSDK_OFFSET(0xBEBFA80)
+#define CLASS_3_7D895C9AF94922A5_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12673F50)
+#define CLASS_3_7D895C9AF94922A5__CTOR_OFFSET UNITYSDK_OFFSET(0x12673ED0)
 
-inline static constexpr unsigned int Class_3_7D895C9AF94922A5_TypeDefinitionIndex = 47751;
+inline static constexpr unsigned int Class_3_7D895C9AF94922A5_TypeDefinitionIndex = 54489;
 
 class Class_3_7D895C9AF94922A5 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAdvProp*>
 {

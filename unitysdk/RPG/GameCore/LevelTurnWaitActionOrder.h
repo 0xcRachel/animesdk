@@ -6,27 +6,29 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0xA99FE00)
-#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA99FDB0)
-#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA99FD60)
-#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0xA99FE40)
-#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETTURNSTATE_OFFSET UNITYSDK_OFFSET(0xA99FE80)
-#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER__CTOR_OFFSET UNITYSDK_OFFSET(0xA99FD50)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETACTIVEENTITY_OFFSET UNITYSDK_OFFSET(0x1920D100)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1920D0B0)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETISUSESKILLONEMORE_OFFSET UNITYSDK_OFFSET(0x1920D1C0)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1920D060)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETTURNCOUNTER_OFFSET UNITYSDK_OFFSET(0x1920D140)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETTURNSTATE_OFFSET UNITYSDK_OFFSET(0x1920D180)
+#define RPG_GAMECORE_LEVELTURNWAITACTIONORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1920D040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTurnWaitActionOrder_TypeDefinitionIndex = 45602;
+	inline static constexpr unsigned int LevelTurnWaitActionOrder_TypeDefinitionIndex = 52252;
 
 	class LevelTurnWaitActionOrder : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _ActiveEntity; // 0x10
-		::System::UInt32 _TurnCounter; // 0x18
+		::System::Boolean _IsUseSkillOneMore; // 0x18
 		::RPG::GameCore::TurnState _TurnState; // 0x1C
+		::System::UInt32 _TurnCounter; // 0x20
 
-		::System::Void _ctor(::RPG::GameCore::GameEntity* ActiveEntity, ::System::UInt32 TurnCounter, ::RPG::GameCore::TurnState eTurnState)
+		::System::Void _ctor(::RPG::GameCore::GameEntity* ActiveEntity, ::System::UInt32 TurnCounter, ::RPG::GameCore::TurnState eTurnState, ::System::Boolean isUseSkillOneMore)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::RPG::GameCore::TurnState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNWAITACTIONORDER__CTOR_OFFSET))(this, ActiveEntity, TurnCounter, eTurnState);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::UInt32, ::RPG::GameCore::TurnState, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNWAITACTIONORDER__CTOR_OFFSET))(this, ActiveEntity, TurnCounter, eTurnState, isUseSkillOneMore);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -52,6 +54,11 @@ namespace RPG::GameCore
 		::RPG::GameCore::TurnState GetTurnState()
 		{
 			return ((::RPG::GameCore::TurnState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETTURNSTATE_OFFSET))(this);
+		}
+
+		::System::Boolean GetIsUseSkillOneMore()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELTURNWAITACTIONORDER_GETISUSESKILLONEMORE_OFFSET))(this);
 		}
 	};
 }

@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace UnityEngine::GCFreeClosure { class IDebug; }
 
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x18A1D1A0)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x18A1D170)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A1D2B0)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1D2A0)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x197F4E70)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x197F4E40)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x197F4F80)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x197F4F70)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ClosureDebug_TypeDefinitionIndex = 4265;
+	inline static constexpr unsigned int ClosureDebug_TypeDefinitionIndex = 4267;
 
 	class ClosureDebug : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::GCFreeClosure::ClosureDebug** StaticGet__Default_k__BackingField()
 		{
-			return (::UnityEngine::GCFreeClosure::ClosureDebug**)Il2CppClass::FromTypeDefinitionIndex(ClosureDebug_TypeDefinitionIndex)->GetStaticField(0x351A0);
+			return (::UnityEngine::GCFreeClosure::ClosureDebug**)Il2CppClass::FromTypeDefinitionIndex(ClosureDebug_TypeDefinitionIndex)->GetStaticField(0x127E0);
 		}
 		::UnityEngine::GCFreeClosure::IDebug* _debug; // 0x10
 

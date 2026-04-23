@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18C7EA80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERINPUTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x182E2D60)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserInputSettings_TypeDefinitionIndex = 30515;
+	inline static constexpr unsigned int BrowserInputSettings_TypeDefinitionIndex = 36235;
 
 	class BrowserInputSettings : public ::System::Object
 	{
 	public:
-		::System::Int32 scrollSpeed; // 0x10
+		::System::Single multiclickTolerance; // 0x10
 		::System::Single multiclickSpeed; // 0x14
-		::System::Single multiclickTolerance; // 0x18
+		::System::Int32 scrollSpeed; // 0x18
 
 		::System::Void _ctor()
 		{

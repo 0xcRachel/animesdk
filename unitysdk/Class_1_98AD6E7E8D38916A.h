@@ -6,21 +6,21 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_331DB481D82394A4_OFFSET UNITYSDK_OFFSET(0x11597230)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_3ABEF3AC048CCD47_OFFSET UNITYSDK_OFFSET(0x11596940)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_46203437EA3F6181_OFFSET UNITYSDK_OFFSET(0x11597120)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_89553A998583D62F_OFFSET UNITYSDK_OFFSET(0x11597080)
-#define CLASS_1_98AD6E7E8D38916A_METHOD_1_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0x11596A20)
-#define CLASS_1_98AD6E7E8D38916A__CTOR_OFFSET UNITYSDK_OFFSET(0x11597420)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_331DB481D82394A4_OFFSET UNITYSDK_OFFSET(0xFBE6680)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_3ABEF3AC048CCD47_OFFSET UNITYSDK_OFFSET(0xFBE5D90)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_46203437EA3F6181_OFFSET UNITYSDK_OFFSET(0xFBE6570)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_89553A998583D62F_OFFSET UNITYSDK_OFFSET(0xFBE64D0)
+#define CLASS_1_98AD6E7E8D38916A_METHOD_1_DB67EEFB041425EC_OFFSET UNITYSDK_OFFSET(0xFBE5E70)
+#define CLASS_1_98AD6E7E8D38916A__CTOR_OFFSET UNITYSDK_OFFSET(0xFBE6870)
 
-inline static constexpr unsigned int Class_1_98AD6E7E8D38916A_TypeDefinitionIndex = 53876;
+inline static constexpr unsigned int Class_1_98AD6E7E8D38916A_TypeDefinitionIndex = 61020;
 
 class Class_1_98AD6E7E8D38916A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*>* Field_1_2; // 0x10
+	::Il2CppArray<::System::String*>* Field_1_1; // 0x10
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::MonopolyCellPeformanceType>* Field_1_0; // 0x18
-	::Il2CppArray<::System::String*>* Field_1_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*>* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

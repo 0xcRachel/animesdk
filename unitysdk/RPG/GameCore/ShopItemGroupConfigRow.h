@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOPITEMGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17707840)
-#define RPG_GAMECORE_SHOPITEMGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177079F0)
+#define RPG_GAMECORE_SHOPITEMGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193A06C0)
+#define RPG_GAMECORE_SHOPITEMGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193A0870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopItemGroupConfigRow_TypeDefinitionIndex = 13851;
+	inline static constexpr unsigned int ShopItemGroupConfigRow_TypeDefinitionIndex = 14323;
 
 	class ShopItemGroupConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RotateOrder; // 0x10
+		::System::UInt32 ItemID; // 0x10
 		::RPG::GameCore::GroupType GroupType; // 0x14
-		::System::UInt32 ItemID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 RotateOrder; // 0x1C
 
 		::System::Void _ctor()
 		{

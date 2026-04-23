@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F9FBCC956DFCF137_14;
+class Class_1_F9FBCC956DFCF137_17;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_1_E9BB979238BD7BC4_EXECUTE_OFFSET UNITYSDK_OFFSET(0x118C33E0)
-#define CLASS_1_E9BB979238BD7BC4_TICK_OFFSET UNITYSDK_OFFSET(0x118C3450)
-#define CLASS_1_E9BB979238BD7BC4__CTOR_OFFSET UNITYSDK_OFFSET(0x118C33D0)
+#define CLASS_1_E9BB979238BD7BC4_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFCD6F00)
+#define CLASS_1_E9BB979238BD7BC4_TICK_OFFSET UNITYSDK_OFFSET(0xFCD6F70)
+#define CLASS_1_E9BB979238BD7BC4__CTOR_OFFSET UNITYSDK_OFFSET(0xFCD6EF0)
 
-inline static constexpr unsigned int Class_1_E9BB979238BD7BC4_TypeDefinitionIndex = 63795;
+inline static constexpr unsigned int Class_1_E9BB979238BD7BC4_TypeDefinitionIndex = 71842;
 
 class Class_1_E9BB979238BD7BC4 : public ::System::Object
 {
@@ -22,9 +22,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_E9BB979238BD7BC4__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Execute(::Class_1_F9FBCC956DFCF137_14* a1, ::System::Action* a2)
+	::System::Void Execute(::Class_1_F9FBCC956DFCF137_17* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_14*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_E9BB979238BD7BC4_EXECUTE_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_17*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_E9BB979238BD7BC4_EXECUTE_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Tick(::System::Single a1)

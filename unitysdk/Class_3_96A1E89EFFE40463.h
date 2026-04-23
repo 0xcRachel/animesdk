@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsMatchTeammateCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_96A1E89EFFE40463_EVALUATE_OFFSET UNITYSDK_OFFSET(0x897EA90)
-#define CLASS_3_96A1E89EFFE40463__CTOR_OFFSET UNITYSDK_OFFSET(0x897EA60)
+#define CLASS_3_96A1E89EFFE40463_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF592EE0)
+#define CLASS_3_96A1E89EFFE40463__CTOR_OFFSET UNITYSDK_OFFSET(0xF592EB0)
 
-inline static constexpr unsigned int Class_3_96A1E89EFFE40463_TypeDefinitionIndex = 43747;
+inline static constexpr unsigned int Class_3_96A1E89EFFE40463_TypeDefinitionIndex = 50446;
 
 class Class_3_96A1E89EFFE40463 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsMatchTeammateCount*>
 {

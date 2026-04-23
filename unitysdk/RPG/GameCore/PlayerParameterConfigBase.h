@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE_METHOD_4_2458B9A0DF7AC6A4_OFFSET UNITYSDK_OFFSET(0x174F34B0)
-#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE_METHOD_4_93F2DE5AE4178098_OFFSET UNITYSDK_OFFSET(0x174F32F0)
-#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174F3510)
-#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x174F2ED0)
+#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE_METHOD_4_2458B9A0DF7AC6A4_OFFSET UNITYSDK_OFFSET(0x19359700)
+#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE_METHOD_4_93F2DE5AE4178098_OFFSET UNITYSDK_OFFSET(0x19359540)
+#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19359760)
+#define RPG_GAMECORE_PLAYERPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19359120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerParameterConfigBase_TypeDefinitionIndex = 17923;
+	inline static constexpr unsigned int PlayerParameterConfigBase_TypeDefinitionIndex = 18568;
 
 	class PlayerParameterConfigBase : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerParameterConfigBase*>*>** StaticGet__FromBinary_PlayerParameterConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerParameterConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerParameterConfigBase_TypeDefinitionIndex)->GetStaticField(0x3E080);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerParameterConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerParameterConfigBase_TypeDefinitionIndex)->GetStaticField(0x496C0);
 		}
 
 		::System::Void _ctor()

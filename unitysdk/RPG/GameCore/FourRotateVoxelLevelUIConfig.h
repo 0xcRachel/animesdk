@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FourRotateVoxelFloorMapInfoConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG_METHOD_2_93CADE53B9442E9D_OFFSET UNITYSDK_OFFSET(0x172308C0)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17231600)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG_METHOD_2_93CADE53B9442E9D_OFFSET UNITYSDK_OFFSET(0x18B70690)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18B713D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelUIConfig_TypeDefinitionIndex = 15346;
+	inline static constexpr unsigned int FourRotateVoxelLevelUIConfig_TypeDefinitionIndex = 15865;
 
 	class FourRotateVoxelLevelUIConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ParkourGameCharacterInfo; }
 
-#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9F17AB0)
-#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0__GETCHARACTERINFOBYID_B__0_OFFSET UNITYSDK_OFFSET(0x9F19670)
+#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x165A8130)
+#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0__GETCHARACTERINFOBYID_B__0_OFFSET UNITYSDK_OFFSET(0x165A9E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourGameFlowContext___c__DisplayClass73_0_TypeDefinitionIndex = 50198;
+	inline static constexpr unsigned int ParkourGameFlowContext___c__DisplayClass73_0_TypeDefinitionIndex = 57045;
 
 	class ParkourGameFlowContext___c__DisplayClass73_0 : public ::System::Object
 	{

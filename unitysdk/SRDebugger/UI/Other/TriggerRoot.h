@@ -8,11 +8,11 @@ namespace SRF::UI { class LongPressButton; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_UI_OTHER_TRIGGERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x18470D00)
+#define SRDEBUGGER_UI_OTHER_TRIGGERROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x17C59AA0)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int TriggerRoot_TypeDefinitionIndex = 29664;
+	inline static constexpr unsigned int TriggerRoot_TypeDefinitionIndex = 35384;
 
 	class TriggerRoot : public ::SRF::SRMonoBehaviourEx
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_CLASSLIBRARYINITIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x18A07F70)
+#define UNITYENGINE_CLASSLIBRARYINITIALIZER_INIT_OFFSET UNITYSDK_OFFSET(0x197DFCB0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClassLibraryInitializer_TypeDefinitionIndex = 4125;
+	inline static constexpr unsigned int ClassLibraryInitializer_TypeDefinitionIndex = 4127;
 
 	class ClassLibraryInitializer : public ::System::Object
 	{

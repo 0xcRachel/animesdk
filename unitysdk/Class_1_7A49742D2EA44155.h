@@ -8,21 +8,21 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::Client::OpenWorld { class Volume; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_7A49742D2EA44155_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x11470F50)
-#define CLASS_1_7A49742D2EA44155_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x11470F30)
-#define CLASS_1_7A49742D2EA44155_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x11470F60)
-#define CLASS_1_7A49742D2EA44155_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x11470F40)
-#define CLASS_1_7A49742D2EA44155__CTOR_OFFSET UNITYSDK_OFFSET(0x11470F70)
+#define CLASS_1_7A49742D2EA44155_GET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0xBC0DF60)
+#define CLASS_1_7A49742D2EA44155_GET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0xBC0DF40)
+#define CLASS_1_7A49742D2EA44155_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0xBC0DF70)
+#define CLASS_1_7A49742D2EA44155_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0xBC0DF50)
+#define CLASS_1_7A49742D2EA44155__CTOR_OFFSET UNITYSDK_OFFSET(0xBC0DF80)
 
-inline static constexpr unsigned int Class_1_7A49742D2EA44155_TypeDefinitionIndex = 60660;
+inline static constexpr unsigned int Class_1_7A49742D2EA44155_TypeDefinitionIndex = 68101;
 
 class Class_1_7A49742D2EA44155 : public ::System::Object
 {
 public:
 	::Class_1_56FF45D7B2C55655* Field_1_1; // 0x10
-	::System::Collections::Generic::HashSet_1<::Class_1_303D5A33D1401D59*>* _FilterStreamingBlock_k__BackingField; // 0x18
+	::RPG::Client::OpenWorld::Volume* Field_1_0; // 0x18
 	::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* _FilterStreamingItem_k__BackingField; // 0x20
-	::RPG::Client::OpenWorld::Volume* Field_1_0; // 0x28
+	::System::Collections::Generic::HashSet_1<::Class_1_303D5A33D1401D59*>* _FilterStreamingBlock_k__BackingField; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -6,19 +6,19 @@ namespace RPG::GameCore { class CSVRow; }
 namespace System { class String; }
 namespace System::IO { class TextWriter; }
 
-#define CLASS_1_A055CFA8F65D76E0_METHOD_1_CE60B3C1AA4676C6_OFFSET UNITYSDK_OFFSET(0x17989E40)
-#define CLASS_1_A055CFA8F65D76E0_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x17989E50)
-#define CLASS_1_A055CFA8F65D76E0_METHOD_1_E1320A10DC6A653B_OFFSET UNITYSDK_OFFSET(0x17989CD0)
-#define CLASS_1_A055CFA8F65D76E0__CTOR_OFFSET UNITYSDK_OFFSET(0x17989C50)
+#define CLASS_1_A055CFA8F65D76E0_METHOD_1_CE60B3C1AA4676C6_OFFSET UNITYSDK_OFFSET(0x188CE3B0)
+#define CLASS_1_A055CFA8F65D76E0_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x188CE3C0)
+#define CLASS_1_A055CFA8F65D76E0_METHOD_1_E1320A10DC6A653B_OFFSET UNITYSDK_OFFSET(0x188CE240)
+#define CLASS_1_A055CFA8F65D76E0__CTOR_OFFSET UNITYSDK_OFFSET(0x188CE1C0)
 
-inline static constexpr unsigned int Class_1_A055CFA8F65D76E0_TypeDefinitionIndex = 22569;
+inline static constexpr unsigned int Class_1_A055CFA8F65D76E0_TypeDefinitionIndex = 23541;
 
 class Class_1_A055CFA8F65D76E0 : public ::System::Object
 {
 public:
-	::System::IO::TextWriter* Field_1_0; // 0x10
-	::Il2CppArray<::System::String*>* Field_1_2; // 0x18
-	::RPG::GameCore::CSVRow* Field_1_1; // 0x20
+	::Il2CppArray<::System::String*>* Field_1_2; // 0x10
+	::RPG::GameCore::CSVRow* Field_1_1; // 0x18
+	::System::IO::TextWriter* Field_1_0; // 0x20
 
 	::System::Void _ctor(::System::IO::TextWriter* a1, ::Il2CppArray<::System::String*>* a2)
 	{

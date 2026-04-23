@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_METHOD_2_9826FD26985A644A_OFFSET UNITYSDK_OFFSET(0x1743BEC0)
-#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1743C0D0)
+#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_METHOD_2_9826FD26985A644A_OFFSET UNITYSDK_OFFSET(0x19078DE0)
+#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19078FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierDestroyTextInfo_TypeDefinitionIndex = 15716;
+	inline static constexpr unsigned int ModifierDestroyTextInfo_TypeDefinitionIndex = 16242;
 
 	class ModifierDestroyTextInfo : public ::RPG::GameCore::JsonConfig
 	{

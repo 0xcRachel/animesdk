@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle___c_TypeDefinitionIndex = 62289;
+	inline static constexpr unsigned int SimpleViewService_1_AssetAsyncLoadHandle___c_TypeDefinitionIndex = 70288;
 
 	template <typename TEntity>
 	class SimpleViewService_1_AssetAsyncLoadHandle___c : public ::System::Object

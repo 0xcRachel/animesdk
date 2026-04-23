@@ -4,19 +4,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_1_6698EBFD99A3F560_METHOD_1_2B6D9B0FD6D07F9B_OFFSET UNITYSDK_OFFSET(0x16842090)
-#define CLASS_1_6698EBFD99A3F560__CTOR_OFFSET UNITYSDK_OFFSET(0x168420D0)
+#define CLASS_1_6698EBFD99A3F560_METHOD_1_2B6D9B0FD6D07F9B_OFFSET UNITYSDK_OFFSET(0x18F83080)
+#define CLASS_1_6698EBFD99A3F560__CTOR_OFFSET UNITYSDK_OFFSET(0x18F830D0)
 
-inline static constexpr unsigned int Class_1_6698EBFD99A3F560_TypeDefinitionIndex = 32725;
+inline static constexpr unsigned int Class_1_6698EBFD99A3F560_TypeDefinitionIndex = 38515;
 
 class Class_1_6698EBFD99A3F560 : public ::System::Object
 {
 public:
 	::RPG::Client::LittleGame::Match3::PerformMark Field_1_3; // 0x10
-	::System::UInt32 Field_1_0; // 0x14
-	::System::Boolean Field_1_4; // 0x18
-	::System::UInt32 Field_1_2; // 0x1C
-	::System::UInt32 Field_1_1; // 0x20
+	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 Field_1_0; // 0x18
+	::System::Boolean Field_1_4; // 0x1C
+	::System::UInt32 Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

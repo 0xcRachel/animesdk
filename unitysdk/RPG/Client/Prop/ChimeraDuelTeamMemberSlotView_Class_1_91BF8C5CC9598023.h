@@ -7,23 +7,23 @@
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstanceView; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_CLASS_1_91BF8C5CC9598023__CTOR_OFFSET UNITYSDK_OFFSET(0xA0679B0)
+#define RPG_CLIENT_PROP_CHIMERADUELTEAMMEMBERSLOTVIEW_CLASS_1_91BF8C5CC9598023__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD63B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023_TypeDefinitionIndex = 63811;
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023_TypeDefinitionIndex = 71858;
 
 	class ChimeraDuelTeamMemberSlotView_Class_1_91BF8C5CC9598023 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView* Field_1_0; // 0x10
-		::System::Action* Field_1_3; // 0x18
-		::System::Boolean Field_1_1; // 0x20
-		::UnityEngine::Quaternion Field_1_7; // 0x24
-		::UnityEngine::Vector3 Field_1_6; // 0x34
-		::UnityEngine::Vector3 Field_1_4; // 0x40
-		::UnityEngine::Quaternion Field_1_5; // 0x4C
-		::System::Single Field_1_2; // 0x5C
+		::System::Action* Field_1_3; // 0x10
+		::RPG::Client::Prop::ChimeraDuelShopChimeraInstanceView* Field_1_0; // 0x18
+		::System::Single Field_1_2; // 0x20
+		::UnityEngine::Vector3 Field_1_6; // 0x24
+		::UnityEngine::Vector3 Field_1_4; // 0x30
+		::UnityEngine::Quaternion Field_1_7; // 0x3C
+		::System::Boolean Field_1_1; // 0x4C
+		::UnityEngine::Quaternion Field_1_5; // 0x50
 
 		::System::Void _ctor()
 		{

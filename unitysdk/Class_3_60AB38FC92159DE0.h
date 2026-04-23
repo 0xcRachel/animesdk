@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetAlwaysAutoBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_60AB38FC92159DE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA43A0B0)
-#define CLASS_3_60AB38FC92159DE0__CTOR_OFFSET UNITYSDK_OFFSET(0xA43A080)
+#define CLASS_3_60AB38FC92159DE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC13140)
+#define CLASS_3_60AB38FC92159DE0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC13110)
 
-inline static constexpr unsigned int Class_3_60AB38FC92159DE0_TypeDefinitionIndex = 44506;
+inline static constexpr unsigned int Class_3_60AB38FC92159DE0_TypeDefinitionIndex = 51234;
 
 class Class_3_60AB38FC92159DE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetAlwaysAutoBattle*>
 {

@@ -5,12 +5,12 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client { class ServerDispatchData; }
 
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0__CTOR_OFFSET UNITYSDK_OFFSET(0x906D990)
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0___CHECKKICKOFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x906D9A0)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10AB3E90)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0___CHECKKICKOFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x10ABF270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhase___c__DisplayClass148_0_TypeDefinitionIndex = 48700;
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass148_0_TypeDefinitionIndex = 55449;
 
 	class AdventurePhase___c__DisplayClass148_0 : public ::System::Object
 	{

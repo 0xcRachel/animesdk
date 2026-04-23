@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_RPGFINALCOMPOSEDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x16AD2230)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSEDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x15A84780)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGFinalComposeDebug_TypeDefinitionIndex = 29416;
+	inline static constexpr unsigned int RPGFinalComposeDebug_TypeDefinitionIndex = 35183;
 
 	class RPGFinalComposeDebug : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_DumpTonemappingDataFileName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x2B8D0);
-		}
-		static ::System::Boolean* StaticGet_NeedDumpTonemappingData()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0xBE60);
-		}
-		static ::System::Boolean* StaticGet_DebugEnableGamutClipping()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0xBE61);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x4010);
 		}
 		static ::System::Boolean* StaticGet_DebugHDROutputIntermediate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0xBE62);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x1340);
+		}
+		static ::System::Boolean* StaticGet_DebugEnableGamutClipping()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x1341);
+		}
+		static ::System::Boolean* StaticGet_NeedDumpTonemappingData()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x1342);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DeviceSettingInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVICESETTINGGROUP_METHOD_2_82DD6C1D2E693301_OFFSET UNITYSDK_OFFSET(0x1716C300)
-#define RPG_GAMECORE_DEVICESETTINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1716C540)
+#define RPG_GAMECORE_DEVICESETTINGGROUP_METHOD_2_82DD6C1D2E693301_OFFSET UNITYSDK_OFFSET(0x19588A80)
+#define RPG_GAMECORE_DEVICESETTINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19588CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceSettingGroup_TypeDefinitionIndex = 15074;
+	inline static constexpr unsigned int DeviceSettingGroup_TypeDefinitionIndex = 15582;
 
 	class DeviceSettingGroup : public ::RPG::GameCore::JsonConfig
 	{

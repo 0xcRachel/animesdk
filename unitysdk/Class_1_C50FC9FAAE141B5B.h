@@ -7,31 +7,31 @@ namespace RPG::GameCore { class GameWorld; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C50FC9FAAE141B5B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD7B7700)
-#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xD7B7940)
-#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0xD7B72D0)
-#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_D815CB60AB918789_OFFSET UNITYSDK_OFFSET(0xD7B80D0)
-#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_F64A108D4C7DAA57_OFFSET UNITYSDK_OFFSET(0xD7B8140)
-#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_FF744B46CC7C2A46_OFFSET UNITYSDK_OFFSET(0xD7B7990)
-#define CLASS_1_C50FC9FAAE141B5B_TICK_OFFSET UNITYSDK_OFFSET(0xD7B7270)
-#define CLASS_1_C50FC9FAAE141B5B__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7B81B0)
-#define CLASS_1_C50FC9FAAE141B5B__CTOR_OFFSET UNITYSDK_OFFSET(0xD7B7150)
+#define CLASS_1_C50FC9FAAE141B5B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE3C9F60)
+#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xE3CA1A0)
+#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0xE3C9B30)
+#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_D815CB60AB918789_OFFSET UNITYSDK_OFFSET(0xE3CA930)
+#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_F64A108D4C7DAA57_OFFSET UNITYSDK_OFFSET(0xE3CA9A0)
+#define CLASS_1_C50FC9FAAE141B5B_METHOD_1_FF744B46CC7C2A46_OFFSET UNITYSDK_OFFSET(0xE3CA1F0)
+#define CLASS_1_C50FC9FAAE141B5B_TICK_OFFSET UNITYSDK_OFFSET(0xE3C9AD0)
+#define CLASS_1_C50FC9FAAE141B5B__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3CAA10)
+#define CLASS_1_C50FC9FAAE141B5B__CTOR_OFFSET UNITYSDK_OFFSET(0xE3C99B0)
 
-inline static constexpr unsigned int Class_1_C50FC9FAAE141B5B_TypeDefinitionIndex = 55732;
+inline static constexpr unsigned int Class_1_C50FC9FAAE141B5B_TypeDefinitionIndex = 62955;
 
 class Class_1_C50FC9FAAE141B5B : public ::System::Object
 {
 public:
 	static ::System::Single* StaticGet_Field_1_7()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_C50FC9FAAE141B5B_TypeDefinitionIndex)->GetStaticField(0xE0E0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_C50FC9FAAE141B5B_TypeDefinitionIndex)->GetStaticField(0x4E70);
 	}
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_4; // 0x10
-	::RPG::GameCore::GameWorld* Field_1_0; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_5; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_3; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_2; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* Field_1_1; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_4; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_5; // 0x28
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_3; // 0x30
+	::RPG::GameCore::GameWorld* Field_1_0; // 0x38
 	::System::Boolean Field_1_6; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::GameWorld* a1)

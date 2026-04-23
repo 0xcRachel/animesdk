@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueFormulaData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA30DBF0)
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0___GETSORTEDFORMULASONBUFFCHANGEIMPL_B__0_OFFSET UNITYSDK_OFFSET(0xA30DF20)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1773AC70)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS29_0___GETSORTEDFORMULASONBUFFCHANGEIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1773AFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass29_0_TypeDefinitionIndex = 54735;
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass29_0_TypeDefinitionIndex = 61923;
 
 	class RogueFormulaInfo___c__DisplayClass29_0 : public ::System::Object
 	{

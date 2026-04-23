@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_4B44CC7647D8ABBB_OFFSET UNITYSDK_OFFSET(0x17497530)
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_C4CBCAFA6343F601_OFFSET UNITYSDK_OFFSET(0x17497650)
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x174975D0)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_4B44CC7647D8ABBB_OFFSET UNITYSDK_OFFSET(0x18EF66D0)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_C4CBCAFA6343F601_OFFSET UNITYSDK_OFFSET(0x18EF67F0)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x18EF6770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideModifierName_TypeDefinitionIndex = 21959;
+	inline static constexpr unsigned int OverrideModifierName_TypeDefinitionIndex = 22699;
 
 	class OverrideModifierName : public ::RPG::GameCore::TaskConfig
 	{

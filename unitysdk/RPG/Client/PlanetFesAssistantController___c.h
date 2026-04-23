@@ -5,24 +5,24 @@
 class Class_1_A794720E3EA5DFF0;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F8A1A0)
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F8A1E0)
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0x9F8A1F0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF6E7AF0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF6E7B30)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0xF6E7B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 54067;
+	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 61230;
 
 	class PlanetFesAssistantController___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PlanetFesAssistantController___c** StaticGet___9()
-		{
-			return (::RPG::Client::PlanetFesAssistantController___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x45390);
-		}
 		static ::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x45398);
+			return (::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x69960);
+		}
+		static ::RPG::Client::PlanetFesAssistantController___c** StaticGet___9()
+		{
+			return (::RPG::Client::PlanetFesAssistantController___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x69968);
 		}
 
 		static ::System::Void _cctor()

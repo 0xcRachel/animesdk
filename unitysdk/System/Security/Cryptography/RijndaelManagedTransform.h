@@ -5,76 +5,76 @@
 #include "unitysdk/System/Security/Cryptography/PaddingMode.h"
 #include "unitysdk/System/Security/Cryptography/RijndaelManagedTransformMode.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DECRYPTDATA_OFFSET UNITYSDK_OFFSET(0x161EBA40)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DEC_OFFSET UNITYSDK_OFFSET(0x161ED990)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x161E9CC0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x161E9CB0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ENCRYPTDATA_OFFSET UNITYSDK_OFFSET(0x161EA040)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ENC_OFFSET UNITYSDK_OFFSET(0x161ED7A0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GENERATEKEYEXPANSION_OFFSET UNITYSDK_OFFSET(0x161E95B0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GET_CANTRANSFORMMULTIPLEBLOCKS_OFFSET UNITYSDK_OFFSET(0x161E9DA0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GET_INPUTBLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x161E9D80)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GET_OUTPUTBLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x161E9D90)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_MULX_OFFSET UNITYSDK_OFFSET(0x161EDCB0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_RESET_OFFSET UNITYSDK_OFFSET(0x161ED6A0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ROT1_OFFSET UNITYSDK_OFFSET(0x161EDCE0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ROT2_OFFSET UNITYSDK_OFFSET(0x161EDCD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ROT3_OFFSET UNITYSDK_OFFSET(0x161EDBC0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_SUBWORD_OFFSET UNITYSDK_OFFSET(0x161EDBD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_TRANSFORMBLOCK_OFFSET UNITYSDK_OFFSET(0x161E9DB0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_TRANSFORMFINALBLOCK_OFFSET UNITYSDK_OFFSET(0x161ED390)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x161EDCF0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x161E8E60)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DECRYPTDATA_OFFSET UNITYSDK_OFFSET(0x16D9A3A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DEC_OFFSET UNITYSDK_OFFSET(0x16D9C2F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x16D98620)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D98610)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ENCRYPTDATA_OFFSET UNITYSDK_OFFSET(0x16D989A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ENC_OFFSET UNITYSDK_OFFSET(0x16D9C100)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GENERATEKEYEXPANSION_OFFSET UNITYSDK_OFFSET(0x16D97F10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GET_CANTRANSFORMMULTIPLEBLOCKS_OFFSET UNITYSDK_OFFSET(0x16D98700)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GET_INPUTBLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x16D986E0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_GET_OUTPUTBLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x16D986F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_MULX_OFFSET UNITYSDK_OFFSET(0x16D9C610)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_RESET_OFFSET UNITYSDK_OFFSET(0x16D9C000)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ROT1_OFFSET UNITYSDK_OFFSET(0x16D9C640)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ROT2_OFFSET UNITYSDK_OFFSET(0x16D9C630)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_ROT3_OFFSET UNITYSDK_OFFSET(0x16D9C520)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_SUBWORD_OFFSET UNITYSDK_OFFSET(0x16D9C530)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_TRANSFORMBLOCK_OFFSET UNITYSDK_OFFSET(0x16D98710)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM_TRANSFORMFINALBLOCK_OFFSET UNITYSDK_OFFSET(0x16D9BCF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM__CCTOR_OFFSET UNITYSDK_OFFSET(0x16D9C650)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGEDTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x16D977C0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RijndaelManagedTransform_TypeDefinitionIndex = 1035;
+	inline static constexpr unsigned int RijndaelManagedTransform_TypeDefinitionIndex = 1037;
 
 	class RijndaelManagedTransform : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_iT()
+		static ::Il2CppArray<::System::Byte>** StaticGet_s_Sbox()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0xC5B0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0x7A90);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_TF()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0xC5B8);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_s_Sbox()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0xC5C0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0x7A98);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_iTF()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0xC5C8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0x7AA0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_Rcon()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0xC5D0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0x7AA8);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_iT()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0x7AB0);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_T()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0xC5D8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RijndaelManagedTransform_TypeDefinitionIndex)->GetStaticField(0x7AB8);
 		}
-		::Il2CppArray<::System::Byte>* m_depadBuffer; // 0x10
-		::Il2CppArray<::System::Int32>* m_lastBlockBuffer; // 0x18
-		::Il2CppArray<::System::Int32>* m_encryptKeyExpansion; // 0x20
-		::Il2CppArray<::System::Byte>* m_shiftRegister; // 0x28
-		::Il2CppArray<::System::Int32>* m_decryptKeyExpansion; // 0x30
-		::Il2CppArray<::System::Int32>* m_decryptindex; // 0x38
-		::Il2CppArray<::System::Int32>* m_encryptindex; // 0x40
-		::Il2CppArray<::System::Int32>* m_IV; // 0x48
-		::System::Int32 m_blockSizeBytes; // 0x50
-		::System::Int32 m_Nk; // 0x54
-		::System::Int32 m_outputBlockSize; // 0x58
+		::Il2CppArray<::System::Int32>* m_encryptKeyExpansion; // 0x10
+		::Il2CppArray<::System::Int32>* m_encryptindex; // 0x18
+		::Il2CppArray<::System::Int32>* m_lastBlockBuffer; // 0x20
+		::Il2CppArray<::System::Int32>* m_decryptKeyExpansion; // 0x28
+		::Il2CppArray<::System::Int32>* m_decryptindex; // 0x30
+		::Il2CppArray<::System::Byte>* m_depadBuffer; // 0x38
+		::Il2CppArray<::System::Int32>* m_IV; // 0x40
+		::Il2CppArray<::System::Byte>* m_shiftRegister; // 0x48
+		::System::Int32 m_outputBlockSize; // 0x50
+		::System::Int32 m_Nb; // 0x54
+		::System::Int32 m_Nk; // 0x58
 		::System::Int32 m_blockSizeBits; // 0x5C
-		::System::Int32 m_Nr; // 0x60
+		::System::Security::Cryptography::RijndaelManagedTransformMode m_transformMode; // 0x60
 		::System::Security::Cryptography::PaddingMode m_paddingValue; // 0x64
-		::System::Security::Cryptography::CipherMode m_cipherMode; // 0x68
-		::System::Security::Cryptography::RijndaelManagedTransformMode m_transformMode; // 0x6C
-		::System::Int32 m_inputBlockSize; // 0x70
-		::System::Int32 m_Nb; // 0x74
+		::System::Int32 m_Nr; // 0x68
+		::System::Security::Cryptography::CipherMode m_cipherMode; // 0x6C
+		::System::Int32 m_blockSizeBytes; // 0x70
+		::System::Int32 m_inputBlockSize; // 0x74
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* rgbKey, ::System::Security::Cryptography::CipherMode mode, ::Il2CppArray<::System::Byte>* rgbIV, ::System::Int32 blockSize, ::System::Int32 feedbackSize, ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode)
 		{

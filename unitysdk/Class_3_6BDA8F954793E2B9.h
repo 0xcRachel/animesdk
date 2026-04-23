@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsDamageCritical; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6BDA8F954793E2B9_EVALUATE_OFFSET UNITYSDK_OFFSET(0x105E4520)
-#define CLASS_3_6BDA8F954793E2B9__CTOR_OFFSET UNITYSDK_OFFSET(0x105E44F0)
+#define CLASS_3_6BDA8F954793E2B9_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF42F1B0)
+#define CLASS_3_6BDA8F954793E2B9__CTOR_OFFSET UNITYSDK_OFFSET(0xF42F180)
 
-inline static constexpr unsigned int Class_3_6BDA8F954793E2B9_TypeDefinitionIndex = 43723;
+inline static constexpr unsigned int Class_3_6BDA8F954793E2B9_TypeDefinitionIndex = 50422;
 
 class Class_3_6BDA8F954793E2B9 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsDamageCritical*>
 {

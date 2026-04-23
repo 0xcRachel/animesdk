@@ -8,22 +8,22 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptor; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x15DCD590)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x15DCD570)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x15DCD560)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCD4D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x18527710)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x185276F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x185276E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18527650)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 28129;
+	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 33753;
 
 	class MethodDescriptor : public ::MiHoYo::SDK::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x28
-		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* service; // 0x30
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* outputType; // 0x38
-		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* inputType; // 0x40
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* outputType; // 0x28
+		::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x30
+		::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* inputType; // 0x38
+		::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* service; // 0x40
 
 		::System::Void _ctor(::MiHoYo::SDK::Protobuf::Reflection::MethodDescriptorProto* proto, ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file, ::MiHoYo::SDK::Protobuf::Reflection::ServiceDescriptor* parent, ::System::Int32 index)
 		{

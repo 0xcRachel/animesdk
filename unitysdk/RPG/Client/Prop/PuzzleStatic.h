@@ -3,30 +3,30 @@
 #include "unitysdk/RPG/GameCore/PuzzleFunc.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_PUZZLESTATIC__CCTOR_OFFSET UNITYSDK_OFFSET(0xA13B5B0)
+#define RPG_CLIENT_PROP_PUZZLESTATIC__CCTOR_OFFSET UNITYSDK_OFFSET(0x13AAE930)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleStatic_TypeDefinitionIndex = 64233;
+	inline static constexpr unsigned int PuzzleStatic_TypeDefinitionIndex = 72280;
 
 	class PuzzleStatic : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet_ProbeResetNumCounter()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x2890);
-		}
-		static ::RPG::GameCore::PuzzleFunc* StaticGet_CurPuzzleFunc()
-		{
-			return (::RPG::GameCore::PuzzleFunc*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x2894);
-		}
-		static ::System::UInt32* StaticGet_InfoItemID()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x2898);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x5150);
 		}
 		static ::System::UInt32* StaticGet_ProbeResetNum()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x289C);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x5154);
+		}
+		static ::System::UInt32* StaticGet_InfoItemID()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x5158);
+		}
+		static ::RPG::GameCore::PuzzleFunc* StaticGet_CurPuzzleFunc()
+		{
+			return (::RPG::GameCore::PuzzleFunc*)Il2CppClass::FromTypeDefinitionIndex(PuzzleStatic_TypeDefinitionIndex)->GetStaticField(0x515C);
 		}
 
 		static ::System::Void _cctor()

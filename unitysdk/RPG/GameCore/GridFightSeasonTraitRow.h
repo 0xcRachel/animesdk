@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17296860)
-#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17296A50)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B89C60)
+#define RPG_GAMECORE_GRIDFIGHTSEASONTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B89E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonTraitRow_TypeDefinitionIndex = 12417;
+	inline static constexpr unsigned int GridFightSeasonTraitRow_TypeDefinitionIndex = 12850;
 
 	class GridFightSeasonTraitRow : public ::System::Object
 	{

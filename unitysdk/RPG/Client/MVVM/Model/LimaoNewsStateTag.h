@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MVVM::Model
 {
-	inline static constexpr unsigned int LimaoNewsStateTag_TypeDefinitionIndex = 61071;
+	inline static constexpr unsigned int LimaoNewsStateTag_TypeDefinitionIndex = 68530;
 
 	enum class LimaoNewsStateTag : ::System::Int32
 	{

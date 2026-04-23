@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroTeleportTiming; }
 
-#define CLASS_3_23584984BEB45F61_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113F1910)
-#define CLASS_3_23584984BEB45F61__CTOR_OFFSET UNITYSDK_OFFSET(0x113F18E0)
+#define CLASS_3_23584984BEB45F61_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10933110)
+#define CLASS_3_23584984BEB45F61__CTOR_OFFSET UNITYSDK_OFFSET(0x109330E0)
 
-inline static constexpr unsigned int Class_3_23584984BEB45F61_TypeDefinitionIndex = 47634;
+inline static constexpr unsigned int Class_3_23584984BEB45F61_TypeDefinitionIndex = 54372;
 
 class Class_3_23584984BEB45F61 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroTeleportTiming*>
 {

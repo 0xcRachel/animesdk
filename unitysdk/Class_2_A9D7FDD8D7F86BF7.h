@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class MonopolyTriggerDailySettlement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_A9D7FDD8D7F86BF7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x113F22E0)
-#define CLASS_2_A9D7FDD8D7F86BF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113F2230)
-#define CLASS_2_A9D7FDD8D7F86BF7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x113F2290)
-#define CLASS_2_A9D7FDD8D7F86BF7_TICK_OFFSET UNITYSDK_OFFSET(0x113F2330)
-#define CLASS_2_A9D7FDD8D7F86BF7__CTOR_OFFSET UNITYSDK_OFFSET(0x113F2220)
+#define CLASS_2_A9D7FDD8D7F86BF7_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF0B9290)
+#define CLASS_2_A9D7FDD8D7F86BF7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF0B91E0)
+#define CLASS_2_A9D7FDD8D7F86BF7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF0B9240)
+#define CLASS_2_A9D7FDD8D7F86BF7_TICK_OFFSET UNITYSDK_OFFSET(0xF0B92E0)
+#define CLASS_2_A9D7FDD8D7F86BF7__CTOR_OFFSET UNITYSDK_OFFSET(0xF0B91D0)
 
-inline static constexpr unsigned int Class_2_A9D7FDD8D7F86BF7_TypeDefinitionIndex = 46966;
+inline static constexpr unsigned int Class_2_A9D7FDD8D7F86BF7_TypeDefinitionIndex = 53698;
 
 class Class_2_A9D7FDD8D7F86BF7 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::MonopolyTriggerDailySettlement* Field_2_1; // 0x20
+	::RPG::GameCore::MonopolyTriggerDailySettlement* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyTriggerDailySettlement* a2)
 	{

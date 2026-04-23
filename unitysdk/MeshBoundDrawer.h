@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define MESHBOUNDDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0x88C6D40)
-#define MESHBOUNDDRAWER_START_OFFSET UNITYSDK_OFFSET(0x88C6A20)
-#define MESHBOUNDDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x88C6F90)
+#define MESHBOUNDDRAWER_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xEE6B7E0)
+#define MESHBOUNDDRAWER_START_OFFSET UNITYSDK_OFFSET(0xEE6B4C0)
+#define MESHBOUNDDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0xEE6BA30)
 
-inline static constexpr unsigned int MeshBoundDrawer_TypeDefinitionIndex = 38194;
+inline static constexpr unsigned int MeshBoundDrawer_TypeDefinitionIndex = 44078;
 
 class MeshBoundDrawer : public ::UnityEngine::MonoBehaviour
 {

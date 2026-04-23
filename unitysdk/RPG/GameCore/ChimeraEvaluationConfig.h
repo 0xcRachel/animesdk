@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 
-#define RPG_GAMECORE_CHIMERAEVALUATIONCONFIG_METHOD_2_6F8050BA6188EE94_OFFSET UNITYSDK_OFFSET(0x170BD070)
-#define RPG_GAMECORE_CHIMERAEVALUATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x170BD170)
+#define RPG_GAMECORE_CHIMERAEVALUATIONCONFIG_METHOD_2_6F8050BA6188EE94_OFFSET UNITYSDK_OFFSET(0x194CAB80)
+#define RPG_GAMECORE_CHIMERAEVALUATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194CAC80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEvaluationConfig_TypeDefinitionIndex = 14548;
+	inline static constexpr unsigned int ChimeraEvaluationConfig_TypeDefinitionIndex = 15018;
 
 	class ChimeraEvaluationConfig : public ::RPG::GameCore::JsonConfig
 	{

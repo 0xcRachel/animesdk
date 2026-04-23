@@ -9,26 +9,26 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_1A347B31430AE3E5_OFFSET UNITYSDK_OFFSET(0x10578C10)
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x105786A0)
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x10578B70)
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_75D264CB369F29AB_OFFSET UNITYSDK_OFFSET(0x10578CD0)
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_890E4C98F02C8F26_OFFSET UNITYSDK_OFFSET(0x10578F50)
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_8A54395897C7EA78_OFFSET UNITYSDK_OFFSET(0x10578700)
-#define CLASS_2_CD8BE261AAA192C9_METHOD_2_A92A3F5FD912C9BD_OFFSET UNITYSDK_OFFSET(0x10578A10)
-#define CLASS_2_CD8BE261AAA192C9__CTOR_OFFSET UNITYSDK_OFFSET(0x10578560)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_1A347B31430AE3E5_OFFSET UNITYSDK_OFFSET(0xDE87AC0)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xDE87550)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xDE87A20)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_75D264CB369F29AB_OFFSET UNITYSDK_OFFSET(0xDE87B80)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_890E4C98F02C8F26_OFFSET UNITYSDK_OFFSET(0xDE87E00)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_8A54395897C7EA78_OFFSET UNITYSDK_OFFSET(0xDE875B0)
+#define CLASS_2_CD8BE261AAA192C9_METHOD_2_A92A3F5FD912C9BD_OFFSET UNITYSDK_OFFSET(0xDE878C0)
+#define CLASS_2_CD8BE261AAA192C9__CTOR_OFFSET UNITYSDK_OFFSET(0xDE87410)
 
-inline static constexpr unsigned int Class_2_CD8BE261AAA192C9_TypeDefinitionIndex = 56927;
+inline static constexpr unsigned int Class_2_CD8BE261AAA192C9_TypeDefinitionIndex = 64177;
 
 class Class_2_CD8BE261AAA192C9 : public ::Class_1_5B0B78CFE6F65A6A
 {
 public:
 	static ::System::Int32* StaticGet_Field_2_3()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_CD8BE261AAA192C9_TypeDefinitionIndex)->GetStaticField(0xB800);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_CD8BE261AAA192C9_TypeDefinitionIndex)->GetStaticField(0x11C70);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* Field_2_0; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* Field_2_1; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* Field_2_1; // 0x38
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Action*>* Field_2_0; // 0x40
 	::System::Int32 Field_2_2; // 0x48
 
 	::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4)

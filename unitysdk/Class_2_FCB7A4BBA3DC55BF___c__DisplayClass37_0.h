@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_70307C83215225CB;
+class Class_2_32BAE7C1DFDD92BE;
 
-#define CLASS_2_FCB7A4BBA3DC55BF___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8796C00)
-#define CLASS_2_FCB7A4BBA3DC55BF___C__DISPLAYCLASS37_0__REFRESHWEAKNESSACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0x87991A0)
+#define CLASS_2_FCB7A4BBA3DC55BF___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEEFC740)
+#define CLASS_2_FCB7A4BBA3DC55BF___C__DISPLAYCLASS37_0__REFRESHWEAKNESSACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0xEEFECD0)
 
-inline static constexpr unsigned int Class_2_FCB7A4BBA3DC55BF___c__DisplayClass37_0_TypeDefinitionIndex = 58878;
+inline static constexpr unsigned int Class_2_FCB7A4BBA3DC55BF___c__DisplayClass37_0_TypeDefinitionIndex = 66245;
 
 class Class_2_FCB7A4BBA3DC55BF___c__DisplayClass37_0 : public ::System::Object
 {
 public:
-	::Class_2_70307C83215225CB* battleSkillAttackTypePanel; // 0x10
+	::Class_2_32BAE7C1DFDD92BE* battleSkillAttackTypePanel; // 0x10
 
 	::System::Void _ctor()
 	{

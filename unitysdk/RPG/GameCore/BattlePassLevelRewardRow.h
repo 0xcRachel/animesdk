@@ -4,23 +4,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FEF970)
-#define RPG_GAMECORE_BATTLEPASSLEVELREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF08A0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187ADDC0)
+#define RPG_GAMECORE_BATTLEPASSLEVELREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187AECF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassLevelRewardRow_TypeDefinitionIndex = 11752;
+	inline static constexpr unsigned int BattlePassLevelRewardRow_TypeDefinitionIndex = 12164;
 
 	class BattlePassLevelRewardRow : public ::System::Object
 	{
 	public:
 		::System::Boolean SpeicalPoint; // 0x10
-		::System::UInt32 PremiumFixedReward1; // 0x14
-		::System::UInt32 PremiumOptional; // 0x18
-		::System::UInt32 Level; // 0x1C
-		::System::UInt32 PremiumFixedReward2; // 0x20
-		::System::UInt32 FreeReward; // 0x24
-		::System::UInt32 GroupID; // 0x28
+		::System::UInt32 Level; // 0x14
+		::System::UInt32 PremiumFixedReward1; // 0x18
+		::System::UInt32 PremiumFixedReward2; // 0x1C
+		::System::UInt32 FreeReward; // 0x20
+		::System::UInt32 GroupID; // 0x24
+		::System::UInt32 PremiumOptional; // 0x28
 
 		::System::Void _ctor()
 		{

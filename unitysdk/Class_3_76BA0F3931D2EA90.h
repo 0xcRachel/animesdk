@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleHitCountUITop; }
 
-#define CLASS_3_76BA0F3931D2EA90_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4DAC30)
-#define CLASS_3_76BA0F3931D2EA90__CTOR_OFFSET UNITYSDK_OFFSET(0xC4DAC00)
+#define CLASS_3_76BA0F3931D2EA90_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE773640)
+#define CLASS_3_76BA0F3931D2EA90__CTOR_OFFSET UNITYSDK_OFFSET(0xE773610)
 
-inline static constexpr unsigned int Class_3_76BA0F3931D2EA90_TypeDefinitionIndex = 44621;
+inline static constexpr unsigned int Class_3_76BA0F3931D2EA90_TypeDefinitionIndex = 51360;
 
 class Class_3_76BA0F3931D2EA90 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToggleHitCountUITop*>
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToastLockFunction; }
 
-#define CLASS_3_F2FB110179EE551C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10908F20)
-#define CLASS_3_F2FB110179EE551C__CTOR_OFFSET UNITYSDK_OFFSET(0x10908EF0)
+#define CLASS_3_F2FB110179EE551C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x135DB910)
+#define CLASS_3_F2FB110179EE551C__CTOR_OFFSET UNITYSDK_OFFSET(0x135DB8E0)
 
-inline static constexpr unsigned int Class_3_F2FB110179EE551C_TypeDefinitionIndex = 43240;
+inline static constexpr unsigned int Class_3_F2FB110179EE551C_TypeDefinitionIndex = 49235;
 
 class Class_3_F2FB110179EE551C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToastLockFunction*>
 {

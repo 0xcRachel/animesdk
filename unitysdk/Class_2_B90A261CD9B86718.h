@@ -9,22 +9,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B90A261CD9B86718_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8827E00)
-#define CLASS_2_B90A261CD9B86718_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8827940)
-#define CLASS_2_B90A261CD9B86718_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8827D80)
-#define CLASS_2_B90A261CD9B86718_TICK_OFFSET UNITYSDK_OFFSET(0x8827EA0)
-#define CLASS_2_B90A261CD9B86718__CTOR_OFFSET UNITYSDK_OFFSET(0x88278D0)
+#define CLASS_2_B90A261CD9B86718_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1094E8A0)
+#define CLASS_2_B90A261CD9B86718_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1094E3D0)
+#define CLASS_2_B90A261CD9B86718_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1094E820)
+#define CLASS_2_B90A261CD9B86718_TICK_OFFSET UNITYSDK_OFFSET(0x1094E940)
+#define CLASS_2_B90A261CD9B86718__CTOR_OFFSET UNITYSDK_OFFSET(0x1094E350)
 
-inline static constexpr unsigned int Class_2_B90A261CD9B86718_TypeDefinitionIndex = 46929;
+inline static constexpr unsigned int Class_2_B90A261CD9B86718_TypeDefinitionIndex = 53661;
 
 class Class_2_B90A261CD9B86718 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	::System::Collections::Generic::List_1<::Class_1_303D5A33D1401D59*>* Field_2_3; // 0x18
-	::Class_3_032754C131C9ABAA* Field_2_1; // 0x20
-	::System::String* Field_2_2; // 0x28
+	::RPG::Client::Stage* Field_2_4; // 0x20
+	::Class_3_032754C131C9ABAA* Field_2_1; // 0x28
 	::RPG::GameCore::TaskContext* Field_2_0; // 0x30
-	::RPG::Client::Stage* Field_2_4; // 0x38
+	::System::String* Field_2_2; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_032754C131C9ABAA* a2)
 	{

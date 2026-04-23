@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RandomSelectPropState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DFEF196139B5C24C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF397630)
-#define CLASS_3_DFEF196139B5C24C__CTOR_OFFSET UNITYSDK_OFFSET(0xF397600)
+#define CLASS_3_DFEF196139B5C24C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF975580)
+#define CLASS_3_DFEF196139B5C24C__CTOR_OFFSET UNITYSDK_OFFSET(0xF975550)
 
-inline static constexpr unsigned int Class_3_DFEF196139B5C24C_TypeDefinitionIndex = 43064;
+inline static constexpr unsigned int Class_3_DFEF196139B5C24C_TypeDefinitionIndex = 49050;
 
 class Class_3_DFEF196139B5C24C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RandomSelectPropState*>
 {

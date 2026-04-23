@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xA58EC50)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xA58EEB0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10557180)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x105573E0)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersCameraController_Example_TypeDefinitionIndex = 61851;
+	inline static constexpr unsigned int TeamTowersCameraController_Example_TypeDefinitionIndex = 69761;
 
 	class TeamTowersCameraController_Example : public ::UnityEngine::MonoBehaviour
 	{

@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16096440)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__ONACCOUNTPLATLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x160A7BD0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15468760)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS23_0__ONACCOUNTPLATLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15468770)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass23_0_TypeDefinitionIndex = 8029;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass23_0_TypeDefinitionIndex = 8175;
 
 	class ComboManager___c__DisplayClass23_0 : public ::System::Object
 	{

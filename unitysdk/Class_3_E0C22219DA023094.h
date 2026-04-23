@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropSetupOptionsTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E0C22219DA023094_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8948DD0)
-#define CLASS_3_E0C22219DA023094__CTOR_OFFSET UNITYSDK_OFFSET(0x8948DA0)
+#define CLASS_3_E0C22219DA023094_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F8E850)
+#define CLASS_3_E0C22219DA023094__CTOR_OFFSET UNITYSDK_OFFSET(0x10F8E820)
 
-inline static constexpr unsigned int Class_3_E0C22219DA023094_TypeDefinitionIndex = 43052;
+inline static constexpr unsigned int Class_3_E0C22219DA023094_TypeDefinitionIndex = 49038;
 
 class Class_3_E0C22219DA023094 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetupOptionsTrigger*>
 {

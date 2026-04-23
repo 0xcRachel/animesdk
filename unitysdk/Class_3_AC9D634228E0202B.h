@@ -8,10 +8,10 @@ namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_AC9D634228E0202B_METHOD_3_793D051EECB64640_OFFSET UNITYSDK_OFFSET(0x109D2E30)
-#define CLASS_3_AC9D634228E0202B__CTOR_OFFSET UNITYSDK_OFFSET(0x109D3680)
+#define CLASS_3_AC9D634228E0202B_METHOD_3_793D051EECB64640_OFFSET UNITYSDK_OFFSET(0xE389A60)
+#define CLASS_3_AC9D634228E0202B__CTOR_OFFSET UNITYSDK_OFFSET(0xE38A2B0)
 
-inline static constexpr unsigned int Class_3_AC9D634228E0202B_TypeDefinitionIndex = 62994;
+inline static constexpr unsigned int Class_3_AC9D634228E0202B_TypeDefinitionIndex = 71034;
 
 class Class_3_AC9D634228E0202B : public ::Class_2_C994EBB81CDF74CE
 {

@@ -5,19 +5,19 @@
 namespace RPG::Client { class MatchThreeV2ChangePropContainerVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_1A9D9F009A5DA850_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10554740)
-#define CLASS_2_1A9D9F009A5DA850_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10554780)
-#define CLASS_2_1A9D9F009A5DA850_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10554800)
-#define CLASS_2_1A9D9F009A5DA850_TICK_OFFSET UNITYSDK_OFFSET(0x10554840)
-#define CLASS_2_1A9D9F009A5DA850__CTOR_OFFSET UNITYSDK_OFFSET(0x10554730)
+#define CLASS_2_1A9D9F009A5DA850_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5D1820)
+#define CLASS_2_1A9D9F009A5DA850_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5D1860)
+#define CLASS_2_1A9D9F009A5DA850_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC5D18E0)
+#define CLASS_2_1A9D9F009A5DA850_TICK_OFFSET UNITYSDK_OFFSET(0xC5D1920)
+#define CLASS_2_1A9D9F009A5DA850__CTOR_OFFSET UNITYSDK_OFFSET(0xC5D1810)
 
-inline static constexpr unsigned int Class_2_1A9D9F009A5DA850_TypeDefinitionIndex = 46952;
+inline static constexpr unsigned int Class_2_1A9D9F009A5DA850_TypeDefinitionIndex = 53684;
 
 class Class_2_1A9D9F009A5DA850 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::Client::MatchThreeV2ChangePropContainerVisible* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::Client::MatchThreeV2ChangePropContainerVisible* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::MatchThreeV2ChangePropContainerVisible* a2)
 	{

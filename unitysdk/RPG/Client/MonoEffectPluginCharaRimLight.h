@@ -4,20 +4,20 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_092CD57850778EFC_OFFSET UNITYSDK_OFFSET(0x9CD0DF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x9CD0C50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD0DE0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_092CD57850778EFC_OFFSET UNITYSDK_OFFSET(0x165F97F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_99D60EF23C904C6D_OFFSET UNITYSDK_OFFSET(0x165F9650)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x165F97E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaRimLight_TypeDefinitionIndex = 57262;
+	inline static constexpr unsigned int MonoEffectPluginCharaRimLight_TypeDefinitionIndex = 64516;
 
 	class MonoEffectPluginCharaRimLight : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
 	public:
-		::UnityEngine::Color FresnelColor; // 0x168
-		::UnityEngine::Vector4 FresnelBSI; // 0x178
-		::System::Single FresnelColorStrength; // 0x188
+		::UnityEngine::Color FresnelColor; // 0x170
+		::UnityEngine::Vector4 FresnelBSI; // 0x180
+		::System::Single FresnelColorStrength; // 0x190
 
 		::System::Void _ctor()
 		{

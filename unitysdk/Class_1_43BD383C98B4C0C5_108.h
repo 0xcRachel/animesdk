@@ -1,32 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Effect_Transform_OffsetType.h"
-#include "unitysdk/RPG/Client/Effect_Transform_RotateType.h"
+#include "unitysdk/RPG/GameCore/AbilityLinearProperty.h"
+#include "unitysdk/RPG/GameCore/AbilityLinearPropertyWithOverride.h"
+#include "unitysdk/RPG/GameCore/BigFixPoint.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/HealFormulaType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_43BD383C98B4C0C5_108__CTOR_OFFSET UNITYSDK_OFFSET(0x117E67F0)
+namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_108_TypeDefinitionIndex = 46231;
+#define CLASS_1_43BD383C98B4C0C5_108__CTOR_OFFSET UNITYSDK_OFFSET(0x103C7FB0)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_108_TypeDefinitionIndex = 50205;
 
 class Class_1_43BD383C98B4C0C5_108 : public ::System::Object
 {
 public:
-	::System::Single Field_1_3; // 0x10
-	::System::Single Field_1_4; // 0x14
-	::System::Single Field_1_13; // 0x18
-	::System::Single Field_1_14; // 0x1C
-	::RPG::Client::Effect_Transform_OffsetType Field_1_1; // 0x20
-	::System::Single Field_1_5; // 0x24
-	::System::Single Field_1_10; // 0x28
-	::System::Single Field_1_11; // 0x2C
-	::RPG::Client::Effect_Transform_RotateType Field_1_7; // 0x30
-	::UnityEngine::Vector3 Field_1_12; // 0x34
-	::System::Single Field_1_9; // 0x40
-	::System::Single Field_1_8; // 0x44
-	::System::Single Field_1_2; // 0x48
-	::System::Boolean Field_1_6; // 0x4C
-	::System::Boolean Field_1_0; // 0x4D
+	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_28; // 0x10
+	::RPG::GameCore::BigFixPoint Field_1_12; // 0x18
+	::RPG::GameCore::BigFixPoint Field_1_7; // 0x28
+	::RPG::GameCore::BigFixPoint Field_1_14; // 0x38
+	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_27; // 0x48
+	::RPG::GameCore::FixPoint Field_1_2; // 0x50
+	::RPG::GameCore::FixPoint Field_1_23; // 0x58
+	::RPG::GameCore::FixPoint Field_1_11; // 0x60
+	::RPG::GameCore::AbilityLinearPropertyWithOverride Field_1_5; // 0x68
+	::RPG::GameCore::FixPoint Field_1_18; // 0xB8
+	::RPG::GameCore::FixPoint Field_1_20; // 0xC0
+	::RPG::GameCore::FixPoint Field_1_17; // 0xC8
+	::RPG::GameCore::FixPoint Field_1_8; // 0xD0
+	::RPG::GameCore::FixPoint Field_1_24; // 0xD8
+	::RPG::GameCore::FixPoint Field_1_21; // 0xE0
+	::RPG::GameCore::FixPoint Field_1_22; // 0xE8
+	::System::Boolean Field_1_26; // 0xF0
+	::System::Boolean Field_1_25; // 0xF1
+	::RPG::GameCore::HealFormulaType Field_1_19; // 0xF4
+	::RPG::GameCore::FixPoint Field_1_16; // 0xF8
+	::RPG::GameCore::FixPoint Field_1_10; // 0x100
+	::RPG::GameCore::FixPoint Field_1_15; // 0x108
+	::RPG::GameCore::FixPoint Field_1_4; // 0x110
+	::RPG::GameCore::AbilityLinearProperty Field_1_0; // 0x118
+	::RPG::GameCore::FixPoint Field_1_3; // 0x160
+	::RPG::GameCore::FixPoint Field_1_6; // 0x168
+	::RPG::GameCore::FixPoint Field_1_1; // 0x170
+	::RPG::GameCore::FixPoint Field_1_9; // 0x178
+	::RPG::GameCore::FixPoint Field_1_13; // 0x180
 
 	::System::Void _ctor()
 	{

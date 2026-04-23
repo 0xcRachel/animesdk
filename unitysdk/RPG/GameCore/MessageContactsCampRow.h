@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173E55F0)
-#define RPG_GAMECORE_MESSAGECONTACTSCAMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173E5C50)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19096A30)
+#define RPG_GAMECORE_MESSAGECONTACTSCAMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19097090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageContactsCampRow_TypeDefinitionIndex = 13211;
+	inline static constexpr unsigned int MessageContactsCampRow_TypeDefinitionIndex = 13673;
 
 	class MessageContactsCampRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SortID; // 0x10
-		::System::UInt32 ContactsCamp; // 0x14
-		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Name; // 0x10
+		::System::UInt32 SortID; // 0x20
+		::System::UInt32 ContactsCamp; // 0x24
 
 		::System::Void _ctor()
 		{

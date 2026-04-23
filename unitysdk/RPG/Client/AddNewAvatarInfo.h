@@ -7,19 +7,19 @@ namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADDNEWAVATARINFO_CREATEADDNEWAVATARINFO_OFFSET UNITYSDK_OFFSET(0x902C060)
-#define RPG_CLIENT_ADDNEWAVATARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x902C310)
+#define RPG_CLIENT_ADDNEWAVATARINFO_CREATEADDNEWAVATARINFO_OFFSET UNITYSDK_OFFSET(0x103E2C40)
+#define RPG_CLIENT_ADDNEWAVATARINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x103E2EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AddNewAvatarInfo_TypeDefinitionIndex = 50747;
+	inline static constexpr unsigned int AddNewAvatarInfo_TypeDefinitionIndex = 57626;
 
 	class AddNewAvatarInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* ConvertItemList; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* AdditionalItemList; // 0x18
-		::RPG::Client::IAvatarInfoProvider* NewAvatar; // 0x20
+		::RPG::Client::IAvatarInfoProvider* NewAvatar; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* ConvertItemList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* AdditionalItemList; // 0x20
 		::System::Boolean IsNew; // 0x28
 
 		::System::Void _ctor()

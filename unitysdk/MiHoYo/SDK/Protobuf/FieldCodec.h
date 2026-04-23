@@ -6,12 +6,12 @@ namespace MiHoYo::SDK::Protobuf { template <typename T> class FieldCodec_1; }
 namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC_FORINT32_OFFSET UNITYSDK_OFFSET(0x15DA9DD0)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC_FORSTRING_OFFSET UNITYSDK_OFFSET(0x15DA9BC0)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC_FORINT32_OFFSET UNITYSDK_OFFSET(0x18503EE0)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC_FORSTRING_OFFSET UNITYSDK_OFFSET(0x18503CD0)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_TypeDefinitionIndex = 28001;
+	inline static constexpr unsigned int FieldCodec_TypeDefinitionIndex = 33625;
 
 	class FieldCodec : public ::System::Object
 	{

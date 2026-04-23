@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByFastDeliverHasMultiRoute; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D152F4C5AC519BBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8DBC870)
-#define CLASS_3_D152F4C5AC519BBB__CTOR_OFFSET UNITYSDK_OFFSET(0x8DBC840)
+#define CLASS_3_D152F4C5AC519BBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10312FA0)
+#define CLASS_3_D152F4C5AC519BBB__CTOR_OFFSET UNITYSDK_OFFSET(0x10312F70)
 
-inline static constexpr unsigned int Class_3_D152F4C5AC519BBB_TypeDefinitionIndex = 42984;
+inline static constexpr unsigned int Class_3_D152F4C5AC519BBB_TypeDefinitionIndex = 48970;
 
 class Class_3_D152F4C5AC519BBB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByFastDeliverHasMultiRoute*>
 {

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTag; }
 
-#define RPG_GAMECORE_MDVPOSITIONVARIANT_METHOD_2_C9E7239D80AD0670_OFFSET UNITYSDK_OFFSET(0x17386700)
-#define RPG_GAMECORE_MDVPOSITIONVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x173868A0)
+#define RPG_GAMECORE_MDVPOSITIONVARIANT_METHOD_2_C9E7239D80AD0670_OFFSET UNITYSDK_OFFSET(0x18FD06D0)
+#define RPG_GAMECORE_MDVPOSITIONVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD0870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MDVPositionVariant_TypeDefinitionIndex = 17508;
+	inline static constexpr unsigned int MDVPositionVariant_TypeDefinitionIndex = 18117;
 
 	class MDVPositionVariant : public ::RPG::GameCore::JsonConfig
 	{

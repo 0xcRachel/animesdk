@@ -5,24 +5,24 @@
 namespace RPG::Client { class MarbleBattleSealData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F6C8C0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F6C900)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C___REQUESTPVEBATTLEFINISH_B__8_0_OFFSET UNITYSDK_OFFSET(0x8F6C910)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17011C20)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17011C60)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVEMATCHCONTEXT___C___REQUESTPVEBATTLEFINISH_B__8_0_OFFSET UNITYSDK_OFFSET(0x17011C70)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVEMatchContext___c_TypeDefinitionIndex = 61442;
+	inline static constexpr unsigned int MarblePVEMatchContext___c_TypeDefinitionIndex = 68948;
 
 	class MarblePVEMatchContext___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityMarble::MarblePVEMatchContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityMarble::MarblePVEMatchContext___c**)Il2CppClass::FromTypeDefinitionIndex(MarblePVEMatchContext___c_TypeDefinitionIndex)->GetStaticField(0x2B600);
+			return (::RPG::Client::ActivityMarble::MarblePVEMatchContext___c**)Il2CppClass::FromTypeDefinitionIndex(MarblePVEMatchContext___c_TypeDefinitionIndex)->GetStaticField(0x4DB20);
 		}
 		static ::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MarblePVEMatchContext___c_TypeDefinitionIndex)->GetStaticField(0x2B608);
+			return (::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MarblePVEMatchContext___c_TypeDefinitionIndex)->GetStaticField(0x4DB28);
 		}
 
 		static ::System::Void _cctor()

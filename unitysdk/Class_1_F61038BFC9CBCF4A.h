@@ -5,16 +5,16 @@
 class Class_1_5F08A88160B0E2D6;
 namespace RPG::GameCore { class FiveDimEntityVarConfig; }
 
-#define CLASS_1_F61038BFC9CBCF4A_CLEAR_OFFSET UNITYSDK_OFFSET(0x1678A070)
-#define CLASS_1_F61038BFC9CBCF4A__CTOR_OFFSET UNITYSDK_OFFSET(0x1678A0D0)
+#define CLASS_1_F61038BFC9CBCF4A_CLEAR_OFFSET UNITYSDK_OFFSET(0x16E01F40)
+#define CLASS_1_F61038BFC9CBCF4A__CTOR_OFFSET UNITYSDK_OFFSET(0x16E01FA0)
 
-inline static constexpr unsigned int Class_1_F61038BFC9CBCF4A_TypeDefinitionIndex = 33373;
+inline static constexpr unsigned int Class_1_F61038BFC9CBCF4A_TypeDefinitionIndex = 39164;
 
 class Class_1_F61038BFC9CBCF4A : public ::System::Object
 {
 public:
-	::RPG::GameCore::FiveDimEntityVarConfig* Field_1_0; // 0x10
-	::Class_1_5F08A88160B0E2D6* Field_1_1; // 0x18
+	::Class_1_5F08A88160B0E2D6* Field_1_1; // 0x10
+	::RPG::GameCore::FiveDimEntityVarConfig* Field_1_0; // 0x18
 
 	::System::Void _ctor()
 	{

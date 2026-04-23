@@ -5,7 +5,7 @@ namespace RPG::Client::ChenLingBattle { class PreviewSnapshot; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IPreparePagePreviewer_TypeDefinitionIndex = 62062;
+	inline static constexpr unsigned int IPreparePagePreviewer_TypeDefinitionIndex = 70061;
 
 	class IPreparePagePreviewer
 	{

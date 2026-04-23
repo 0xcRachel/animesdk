@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetUtil_ResponseCallback; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4F1F0)
-#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__TRYHTTPREQUESTBYHTTPDNS_B__0_OFFSET UNITYSDK_OFFSET(0x15F4F590)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173F8520)
+#define MIHOYO_SDK_NETUTIL___C__DISPLAYCLASS22_0__TRYHTTPREQUESTBYHTTPDNS_B__0_OFFSET UNITYSDK_OFFSET(0x173F88C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetUtil___c__DisplayClass22_0_TypeDefinitionIndex = 7193;
+	inline static constexpr unsigned int NetUtil___c__DisplayClass22_0_TypeDefinitionIndex = 7236;
 
 	class NetUtil___c__DisplayClass22_0 : public ::System::Object
 	{

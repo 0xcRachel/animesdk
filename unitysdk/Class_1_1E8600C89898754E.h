@@ -12,56 +12,56 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define CLASS_1_1E8600C89898754E_METHOD_1_17E83D96EAD18CC1_OFFSET UNITYSDK_OFFSET(0x116A3B50)
-#define CLASS_1_1E8600C89898754E_METHOD_1_18873864B15EBB78_OFFSET UNITYSDK_OFFSET(0x116A3CE0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_5210AFA5ABBBE999_OFFSET UNITYSDK_OFFSET(0x116A1520)
-#define CLASS_1_1E8600C89898754E_METHOD_1_5A98ABF022EC158B_OFFSET UNITYSDK_OFFSET(0x116A04F0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_5CDC1D7BE44865F9_OFFSET UNITYSDK_OFFSET(0x116A2460)
-#define CLASS_1_1E8600C89898754E_METHOD_1_606869B38185856E_OFFSET UNITYSDK_OFFSET(0x116A1C90)
-#define CLASS_1_1E8600C89898754E_METHOD_1_6ED085522173BF47_OFFSET UNITYSDK_OFFSET(0x116A2FF0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_6F7E6531413A130B_OFFSET UNITYSDK_OFFSET(0x1169EAB0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_7077B389B6F133E5_OFFSET UNITYSDK_OFFSET(0x116A4270)
-#define CLASS_1_1E8600C89898754E_METHOD_1_97BF2B6CD2EB9DA9_OFFSET UNITYSDK_OFFSET(0x1169DCA0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_A86FF086B7592C6F_OFFSET UNITYSDK_OFFSET(0x1169EBC0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_B66AA9046081A21D_OFFSET UNITYSDK_OFFSET(0x116A3140)
-#define CLASS_1_1E8600C89898754E_METHOD_1_D506C698E73E5B06_OFFSET UNITYSDK_OFFSET(0x1169F5F0)
-#define CLASS_1_1E8600C89898754E_METHOD_1_EF404A83A67B2E73_OFFSET UNITYSDK_OFFSET(0x1169F940)
-#define CLASS_1_1E8600C89898754E_METHOD_1_F350D1E532F67F31_OFFSET UNITYSDK_OFFSET(0x1169F990)
-#define CLASS_1_1E8600C89898754E_METHOD_1_FB333AE9321E637C_OFFSET UNITYSDK_OFFSET(0x116A1FD0)
-#define CLASS_1_1E8600C89898754E__CCTOR_OFFSET UNITYSDK_OFFSET(0x116A4390)
+#define CLASS_1_1E8600C89898754E_METHOD_1_17E83D96EAD18CC1_OFFSET UNITYSDK_OFFSET(0xF98CCE0)
+#define CLASS_1_1E8600C89898754E_METHOD_1_18873864B15EBB78_OFFSET UNITYSDK_OFFSET(0xF98CE70)
+#define CLASS_1_1E8600C89898754E_METHOD_1_5210AFA5ABBBE999_OFFSET UNITYSDK_OFFSET(0xF98A620)
+#define CLASS_1_1E8600C89898754E_METHOD_1_5A98ABF022EC158B_OFFSET UNITYSDK_OFFSET(0xF9895F0)
+#define CLASS_1_1E8600C89898754E_METHOD_1_5CDC1D7BE44865F9_OFFSET UNITYSDK_OFFSET(0xF98B5C0)
+#define CLASS_1_1E8600C89898754E_METHOD_1_606869B38185856E_OFFSET UNITYSDK_OFFSET(0xF98ADE0)
+#define CLASS_1_1E8600C89898754E_METHOD_1_6ED085522173BF47_OFFSET UNITYSDK_OFFSET(0xF98C150)
+#define CLASS_1_1E8600C89898754E_METHOD_1_6F7E6531413A130B_OFFSET UNITYSDK_OFFSET(0xF987A80)
+#define CLASS_1_1E8600C89898754E_METHOD_1_7077B389B6F133E5_OFFSET UNITYSDK_OFFSET(0xF98D400)
+#define CLASS_1_1E8600C89898754E_METHOD_1_97BF2B6CD2EB9DA9_OFFSET UNITYSDK_OFFSET(0xF986C70)
+#define CLASS_1_1E8600C89898754E_METHOD_1_A86FF086B7592C6F_OFFSET UNITYSDK_OFFSET(0xF987B90)
+#define CLASS_1_1E8600C89898754E_METHOD_1_B66AA9046081A21D_OFFSET UNITYSDK_OFFSET(0xF98C2A0)
+#define CLASS_1_1E8600C89898754E_METHOD_1_D506C698E73E5B06_OFFSET UNITYSDK_OFFSET(0xF988640)
+#define CLASS_1_1E8600C89898754E_METHOD_1_EF404A83A67B2E73_OFFSET UNITYSDK_OFFSET(0xF9889C0)
+#define CLASS_1_1E8600C89898754E_METHOD_1_F350D1E532F67F31_OFFSET UNITYSDK_OFFSET(0xF988A10)
+#define CLASS_1_1E8600C89898754E_METHOD_1_FB333AE9321E637C_OFFSET UNITYSDK_OFFSET(0xF98B130)
+#define CLASS_1_1E8600C89898754E__CCTOR_OFFSET UNITYSDK_OFFSET(0xF98D520)
 
-inline static constexpr unsigned int Class_1_1E8600C89898754E_TypeDefinitionIndex = 46611;
+inline static constexpr unsigned int Class_1_1E8600C89898754E_TypeDefinitionIndex = 53302;
 
 class Class_1_1E8600C89898754E : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_7()
-	{
-		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x28DA0);
-	}
 	static ::Il2CppArray<::UnityEngine::Quaternion>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x28DA8);
-	}
-	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_1()
-	{
-		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x28DB0);
-	}
-	static ::UnityEngine::AI::NavMeshPath** StaticGet_Field_1_8()
-	{
-		return (::UnityEngine::AI::NavMeshPath**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x28DB8);
+		return (::Il2CppArray<::UnityEngine::Quaternion>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x5DEB0);
 	}
 	static ::RPG::GameCore::EntityPosAdaptionConfig** StaticGet_Field_1_5()
 	{
-		return (::RPG::GameCore::EntityPosAdaptionConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x28DC0);
+		return (::RPG::GameCore::EntityPosAdaptionConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x5DEB8);
+	}
+	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_1()
+	{
+		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x5DEC0);
+	}
+	static ::UnityEngine::AI::NavMeshPath** StaticGet_Field_1_8()
+	{
+		return (::UnityEngine::AI::NavMeshPath**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x5DEC8);
+	}
+	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_7()
+	{
+		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x5DED0);
 	}
 	static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_Field_1_6()
 	{
-		return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x28DC8);
+		return (::Il2CppArray<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x5DED8);
 	}
 	static ::System::Int32* StaticGet_Field_1_9()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0xBBE0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_1E8600C89898754E_TypeDefinitionIndex)->GetStaticField(0x102D0);
 	}
 	// static const ::System::Single Field_1_2; // 0x0
 	// static const ::System::Int32 Field_1_3 = 0x4; // 0x0

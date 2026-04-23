@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_VIEW_CHIMERADUELBATTLECHIMERACONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB21DF0)
-#define RPG_VIEW_CHIMERADUELBATTLECHIMERACONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB21E30)
+#define RPG_VIEW_CHIMERADUELBATTLECHIMERACONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F2E610)
+#define RPG_VIEW_CHIMERADUELBATTLECHIMERACONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2E650)
 
 namespace RPG::View
 {
-	inline static constexpr unsigned int ChimeraDuelBattleChimeraControl___c_TypeDefinitionIndex = 41924;
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraControl___c_TypeDefinitionIndex = 47904;
 
 	class ChimeraDuelBattleChimeraControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::View::ChimeraDuelBattleChimeraControl___c** StaticGet___9()
 		{
-			return (::RPG::View::ChimeraDuelBattleChimeraControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleChimeraControl___c_TypeDefinitionIndex)->GetStaticField(0x46D10);
+			return (::RPG::View::ChimeraDuelBattleChimeraControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelBattleChimeraControl___c_TypeDefinitionIndex)->GetStaticField(0x6A880);
 		}
 
 		static ::System::Void _cctor()

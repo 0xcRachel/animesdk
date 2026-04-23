@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x189CDE40)
-#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__GENERATEUNIQUEACTORNAME_B__1_OFFSET UNITYSDK_OFFSET(0x189CDEA0)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18AACE90)
+#define UNITYENGINE_TIMELINE_TIMELINECREATEUTILITIES___C__DISPLAYCLASS0_1__GENERATEUNIQUEACTORNAME_B__1_OFFSET UNITYSDK_OFFSET(0x18AACEF0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineCreateUtilities___c__DisplayClass0_1_TypeDefinitionIndex = 29924;
+	inline static constexpr unsigned int TimelineCreateUtilities___c__DisplayClass0_1_TypeDefinitionIndex = 35644;
 
 	class TimelineCreateUtilities___c__DisplayClass0_1 : public ::System::Object
 	{

@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/IdleLiveNodeType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace System { class String; }
+
+#define RPG_GAMECORE_IDLELIVENODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A8C190)
+#define RPG_GAMECORE_IDLELIVENODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8C810)
+
+namespace RPG::GameCore
+{
+	inline static constexpr unsigned int IdleLiveNodeRow_TypeDefinitionIndex = 11135;
+
+	class IdleLiveNodeRow : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::UInt32>* SubNodeList; // 0x10
+		::Il2CppArray<::System::UInt32>* PossibleEventIDList; // 0x18
+		::System::String* BGMState; // 0x20
+		::System::UInt32 ChapterIndex; // 0x28
+		::System::UInt32 BossID; // 0x2C
+		::System::UInt32 ChestPerHour; // 0x30
+		::System::UInt32 TicketPerHour; // 0x34
+		::RPG::GameCore::FixPoint TimeLimitRankA; // 0x38
+		::System::UInt32 RewardID; // 0x40
+		::System::UInt32 EmojiPhaseID; // 0x44
+		::System::UInt32 CrystalPerHour; // 0x48
+		::System::UInt32 ChestLevel; // 0x4C
+		::System::UInt32 ChatPhase; // 0x50
+		::System::Boolean CanTriggerAmphoreusBuff; // 0x54
+		::System::Boolean IsAutoNextNode; // 0x55
+		::System::UInt32 LiveRoomExpGainOnFinished; // 0x58
+		::System::UInt32 Index; // 0x5C
+		::RPG::GameCore::IdleLiveNodeType Type; // 0x60
+		::RPG::GameCore::FixPoint TimeLimitRankS; // 0x68
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVENODEROW__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* array, ::RPG::GameCore::IdleLiveNodeRow*& val)
+		{
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveNodeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVENODEROW_FROMBINARY_OFFSET))(array, val);
+		}
+	};
+}

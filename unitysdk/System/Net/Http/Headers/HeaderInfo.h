@@ -10,23 +10,23 @@ namespace System::Net::Http::Headers { class HttpHeaders; }
 namespace System::Net::Http::Headers { template <typename T> class TryParseDelegate_1; }
 namespace System::Net::Http::Headers { template <typename T> class TryParseListDelegate_1; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x18538C40)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x18538C60)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x18538C80)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_SET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x18538C70)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18538C30)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1A124620)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1A124640)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1A124660)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_SET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1A124650)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A124610)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 4800;
+	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 4808;
 
 	class HeaderInfo : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::System::Func_2<::System::Object*, ::System::String*>* _CustomToString_k__BackingField; // 0x18
-		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x20
-		::System::Boolean AllowsMany; // 0x24
+		::System::Func_2<::System::Object*, ::System::String*>* _CustomToString_k__BackingField; // 0x10
+		::System::String* Name; // 0x18
+		::System::Boolean AllowsMany; // 0x20
+		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x24
 
 		::System::Void _ctor(::System::String* name, ::System::Net::Http::Headers::HttpHeaderKind headerKind)
 		{

@@ -4,22 +4,22 @@
 
 namespace RPG::Client { class RPGAnimationEvent_AnimationEventCallBack; }
 
-#define CLASS_2_61CF05950692DE56___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10610260)
-#define CLASS_2_61CF05950692DE56___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10610290)
-#define CLASS_2_61CF05950692DE56___C___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x106102A0)
+#define CLASS_2_61CF05950692DE56___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x101BAC90)
+#define CLASS_2_61CF05950692DE56___C__CTOR_OFFSET UNITYSDK_OFFSET(0x101BACC0)
+#define CLASS_2_61CF05950692DE56___C___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x101BACD0)
 
-inline static constexpr unsigned int Class_2_61CF05950692DE56___c_TypeDefinitionIndex = 59008;
+inline static constexpr unsigned int Class_2_61CF05950692DE56___c_TypeDefinitionIndex = 66379;
 
 class Class_2_61CF05950692DE56___c : public ::System::Object
 {
 public:
-	static ::Class_2_61CF05950692DE56___c** StaticGet___9()
-	{
-		return (::Class_2_61CF05950692DE56___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_61CF05950692DE56___c_TypeDefinitionIndex)->GetStaticField(0x12EF0);
-	}
 	static ::RPG::Client::RPGAnimationEvent_AnimationEventCallBack** StaticGet___9__0_0()
 	{
-		return (::RPG::Client::RPGAnimationEvent_AnimationEventCallBack**)Il2CppClass::FromTypeDefinitionIndex(Class_2_61CF05950692DE56___c_TypeDefinitionIndex)->GetStaticField(0x12EF8);
+		return (::RPG::Client::RPGAnimationEvent_AnimationEventCallBack**)Il2CppClass::FromTypeDefinitionIndex(Class_2_61CF05950692DE56___c_TypeDefinitionIndex)->GetStaticField(0x11220);
+	}
+	static ::Class_2_61CF05950692DE56___c** StaticGet___9()
+	{
+		return (::Class_2_61CF05950692DE56___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_61CF05950692DE56___c_TypeDefinitionIndex)->GetStaticField(0x11228);
 	}
 
 	static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_INTRINSICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18550950)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_INTRINSICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7374C0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IntrinsicAttribute_TypeDefinitionIndex = 4867;
+	inline static constexpr unsigned int IntrinsicAttribute_TypeDefinitionIndex = 4875;
 
 	class IntrinsicAttribute : public ::System::Attribute
 	{

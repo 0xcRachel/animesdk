@@ -6,18 +6,18 @@ namespace RPG::GameCore { class DiceCombatCampaignConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x948C870)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET UNITYSDK_OFFSET(0x948D0F0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A2AF40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPROGRESSDATA___C__DISPLAYCLASS2_0__GETPROGRESSSTAGEINFOLIST_B__0_OFFSET UNITYSDK_OFFSET(0x17A2B7C0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 61920;
+	inline static constexpr unsigned int DiceCombatProgressData___c__DisplayClass2_0_TypeDefinitionIndex = 69842;
 
 	class DiceCombatProgressData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Func_2<::RPG::GameCore::DiceCombatCampaignConfigRow*, ::System::Boolean>* __9__0; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* bossProgressList; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* bossProgressList; // 0x10
+		::System::Func_2<::RPG::GameCore::DiceCombatCampaignConfigRow*, ::System::Boolean>* __9__0; // 0x18
 		::System::Int32 i; // 0x20
 
 		::System::Void _ctor()

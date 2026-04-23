@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F09750)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__ONHOYOPASSREACTIVATE_B__0_OFFSET UNITYSDK_OFFSET(0x15F18360)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153DBD60)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS39_0__ONHOYOPASSREACTIVATE_B__0_OFFSET UNITYSDK_OFFSET(0x153EAA80)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass39_0_TypeDefinitionIndex = 7297;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass39_0_TypeDefinitionIndex = 7346;
 
 	class LoginManager___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::System::String* reactivateTicket; // 0x10
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
-		::System::String* args; // 0x20
+		::System::String* args; // 0x10
+		::System::String* reactivateTicket; // 0x18
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

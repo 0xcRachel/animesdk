@@ -4,37 +4,37 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F3CA30716D4FAF92_4;
+class Class_1_F3CA30716D4FAF92_3;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9DB4B70)
-#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB4BA0)
-#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__INITSERVERDATA_B__11_1_OFFSET UNITYSDK_OFFSET(0x9DB4BB0)
-#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__SETREQUESTUNLOCKEDMULTIPATHAVATARTYPES_B__26_0_OFFSET UNITYSDK_OFFSET(0x9DB4BD0)
-#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__SYNCSERVERDATA_B__12_1_OFFSET UNITYSDK_OFFSET(0x9DB4BC0)
+#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13738010)
+#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13738040)
+#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__INITSERVERDATA_B__11_1_OFFSET UNITYSDK_OFFSET(0x13738050)
+#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__SETREQUESTUNLOCKEDMULTIPATHAVATARTYPES_B__26_0_OFFSET UNITYSDK_OFFSET(0x13738070)
+#define RPG_CLIENT_MULTIPATHAVATARMODULE___C__SYNCSERVERDATA_B__12_1_OFFSET UNITYSDK_OFFSET(0x13738060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarModule___c_TypeDefinitionIndex = 53921;
+	inline static constexpr unsigned int MultiPathAvatarModule___c_TypeDefinitionIndex = 61065;
 
 	class MultiPathAvatarModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*>, ::Class_1_F3CA30716D4FAF92_4*>** StaticGet___9__12_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*>, ::Class_1_F3CA30716D4FAF92_3*>** StaticGet___9__12_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*>, ::Class_1_F3CA30716D4FAF92_4*>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x45AA0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*>, ::Class_1_F3CA30716D4FAF92_3*>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x5F520);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*>, ::Class_1_F3CA30716D4FAF92_4*>** StaticGet___9__11_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*>, ::Class_1_F3CA30716D4FAF92_3*>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*>, ::Class_1_F3CA30716D4FAF92_4*>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x45AA8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*>, ::Class_1_F3CA30716D4FAF92_3*>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x5F528);
 		}
 		static ::RPG::Client::MultiPathAvatarModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::MultiPathAvatarModule___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x45AB0);
+			return (::RPG::Client::MultiPathAvatarModule___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x5F530);
 		}
 		static ::System::Func_2<::System::UInt32, ::Enum_3_DFCB42601400F441>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x45AB8);
+			return (::System::Func_2<::System::UInt32, ::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathAvatarModule___c_TypeDefinitionIndex)->GetStaticField(0x5F538);
 		}
 
 		static ::System::Void _cctor()
@@ -47,14 +47,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHAVATARMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::Class_1_F3CA30716D4FAF92_4* _InitServerData_b__11_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*> data)
+		::Class_1_F3CA30716D4FAF92_3* _InitServerData_b__11_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*> data)
 		{
-			return ((::Class_1_F3CA30716D4FAF92_4*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHAVATARMODULE___C__INITSERVERDATA_B__11_1_OFFSET))(this, data);
+			return ((::Class_1_F3CA30716D4FAF92_3*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHAVATARMODULE___C__INITSERVERDATA_B__11_1_OFFSET))(this, data);
 		}
 
-		::Class_1_F3CA30716D4FAF92_4* _SyncServerData_b__12_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*> data)
+		::Class_1_F3CA30716D4FAF92_3* _SyncServerData_b__12_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*> data)
 		{
-			return ((::Class_1_F3CA30716D4FAF92_4*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_4*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHAVATARMODULE___C__SYNCSERVERDATA_B__12_1_OFFSET))(this, data);
+			return ((::Class_1_F3CA30716D4FAF92_3*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::Class_1_F3CA30716D4FAF92_3*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHAVATARMODULE___C__SYNCSERVERDATA_B__12_1_OFFSET))(this, data);
 		}
 
 		::Enum_3_DFCB42601400F441 _SetRequestUnlockedMultiPathAvatarTypes_b__26_0(::System::UInt32 x)

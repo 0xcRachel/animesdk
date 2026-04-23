@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FA4F4A67B1C04320_11;
+class Class_1_D17272E82AE804C2_13;
 
-#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x915FAF0)
-#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__GETSKILLTREEPOINTLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x915FC70)
+#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3F890)
+#define RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__GETSKILLTREEPOINTLEVEL_B__0_OFFSET UNITYSDK_OFFSET(0x15E3FA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathData___c__DisplayClass4_0_TypeDefinitionIndex = 53916;
+	inline static constexpr unsigned int AvatarPathData___c__DisplayClass4_0_TypeDefinitionIndex = 61060;
 
 	class AvatarPathData___c__DisplayClass4_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSkillTreePointLevel_b__0(::Class_1_FA4F4A67B1C04320_11* item)
+		::System::Boolean _GetSkillTreePointLevel_b__0(::Class_1_D17272E82AE804C2_13* item)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_FA4F4A67B1C04320_11*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__GETSKILLTREEPOINTLEVEL_B__0_OFFSET))(this, item);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_D17272E82AE804C2_13*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA___C__DISPLAYCLASS4_0__GETSKILLTREEPOINTLEVEL_B__0_OFFSET))(this, item);
 		}
 	};
 }

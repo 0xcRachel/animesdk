@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_295;
+class Class_0_16E4307DCC419505_303;
 namespace RPG::Client { class AdventurePhase; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B3566F804A22C208_2_LOCK_OFFSET UNITYSDK_OFFSET(0x89A8B80)
-#define CLASS_2_B3566F804A22C208_2_METHOD_2_F67613BBE28769B5_OFFSET UNITYSDK_OFFSET(0x89A8BF0)
-#define CLASS_2_B3566F804A22C208_2_UNLOCK_OFFSET UNITYSDK_OFFSET(0x89A8CF0)
-#define CLASS_2_B3566F804A22C208_2__CTOR_OFFSET UNITYSDK_OFFSET(0x89A8B70)
-#define CLASS_2_B3566F804A22C208_2___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x89A8D60)
-#define CLASS_2_B3566F804A22C208_2___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x89A8DD0)
+#define CLASS_2_B3566F804A22C208_2_LOCK_OFFSET UNITYSDK_OFFSET(0x10929910)
+#define CLASS_2_B3566F804A22C208_2_METHOD_2_F67613BBE28769B5_OFFSET UNITYSDK_OFFSET(0x10929980)
+#define CLASS_2_B3566F804A22C208_2_UNLOCK_OFFSET UNITYSDK_OFFSET(0x10929A80)
+#define CLASS_2_B3566F804A22C208_2__CTOR_OFFSET UNITYSDK_OFFSET(0x10929900)
+#define CLASS_2_B3566F804A22C208_2___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x10929AF0)
+#define CLASS_2_B3566F804A22C208_2___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x10929B60)
 
-inline static constexpr unsigned int Class_2_B3566F804A22C208_2_TypeDefinitionIndex = 61477;
+inline static constexpr unsigned int Class_2_B3566F804A22C208_2_TypeDefinitionIndex = 68984;
 
 class Class_2_B3566F804A22C208_2 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_2__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_2__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

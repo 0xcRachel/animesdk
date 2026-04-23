@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/EventWaitHandle.h"
 
-#define SYSTEM_THREADING_MANUALRESETEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16249D60)
+#define SYSTEM_THREADING_MANUALRESETEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18757930)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ManualResetEvent_TypeDefinitionIndex = 831;
+	inline static constexpr unsigned int ManualResetEvent_TypeDefinitionIndex = 833;
 
 	class ManualResetEvent : public ::System::Threading::EventWaitHandle
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimMapFaceConfig; }
 
-#define RPG_GAMECORE_FIVEDIMNAVMAPCONFIG_METHOD_2_3C12E304F9717E0D_OFFSET UNITYSDK_OFFSET(0x172142A0)
-#define RPG_GAMECORE_FIVEDIMNAVMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x172143E0)
+#define RPG_GAMECORE_FIVEDIMNAVMAPCONFIG_METHOD_2_3C12E304F9717E0D_OFFSET UNITYSDK_OFFSET(0x191E5410)
+#define RPG_GAMECORE_FIVEDIMNAVMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191E5550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimNavMapConfig_TypeDefinitionIndex = 16992;
+	inline static constexpr unsigned int FiveDimNavMapConfig_TypeDefinitionIndex = 17586;
 
 	class FiveDimNavMapConfig : public ::RPG::GameCore::JsonConfig
 	{

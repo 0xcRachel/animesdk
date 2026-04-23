@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_849;
+class Class_0_16E4307DCC419505_960;
 namespace RPG::GameCore { class ElementResistanceConfig; }
 namespace RPG::GameCore { class MonsterResistEntry; }
 namespace RPG::GameCore { class MonsterRow; }
@@ -11,23 +11,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONSTERRESISTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x9D93650)
-#define RPG_CLIENT_MONSTERRESISTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x9D935F0)
-#define RPG_CLIENT_MONSTERRESISTDATA_GET_RESISTLIST_OFFSET UNITYSDK_OFFSET(0x9D94210)
-#define RPG_CLIENT_MONSTERRESISTDATA_SET_RESISTLIST_OFFSET UNITYSDK_OFFSET(0x9D94220)
-#define RPG_CLIENT_MONSTERRESISTDATA__CREATEDAMAGETYPERESISTDICT_OFFSET UNITYSDK_OFFSET(0x9D93E80)
-#define RPG_CLIENT_MONSTERRESISTDATA__CREATERESISTLIST_OFFSET UNITYSDK_OFFSET(0x9D93740)
-#define RPG_CLIENT_MONSTERRESISTDATA__CREATESTATUSRESISTLIST_OFFSET UNITYSDK_OFFSET(0x9D93CD0)
-#define RPG_CLIENT_MONSTERRESISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9D93E40)
+#define RPG_CLIENT_MONSTERRESISTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x13716890)
+#define RPG_CLIENT_MONSTERRESISTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x13716830)
+#define RPG_CLIENT_MONSTERRESISTDATA_GET_RESISTLIST_OFFSET UNITYSDK_OFFSET(0x13717450)
+#define RPG_CLIENT_MONSTERRESISTDATA_SET_RESISTLIST_OFFSET UNITYSDK_OFFSET(0x13717460)
+#define RPG_CLIENT_MONSTERRESISTDATA__CREATEDAMAGETYPERESISTDICT_OFFSET UNITYSDK_OFFSET(0x137170C0)
+#define RPG_CLIENT_MONSTERRESISTDATA__CREATERESISTLIST_OFFSET UNITYSDK_OFFSET(0x13716980)
+#define RPG_CLIENT_MONSTERRESISTDATA__CREATESTATUSRESISTLIST_OFFSET UNITYSDK_OFFSET(0x13716F10)
+#define RPG_CLIENT_MONSTERRESISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13717080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterResistData_TypeDefinitionIndex = 58780;
+	inline static constexpr unsigned int MonsterResistData_TypeDefinitionIndex = 66141;
 
 	class MonsterResistData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>* _ResistList_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>* _ResistList_k__BackingField; // 0x10
 
 		::System::Void _ctor()
 		{
@@ -44,29 +44,29 @@ namespace RPG::Client
 			return ((::RPG::Client::MonsterResistData*(*)(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>*, ::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA_CREATE_1_OFFSET))(damageTypeResistance, debuffResist, customValueTags);
 		}
 
-		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>* _CreateResistList(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* damageTypeResistance, ::Il2CppArray<::System::String*>* customValueTags)
+		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>* _CreateResistList(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* damageTypeResistance, ::Il2CppArray<::System::String*>* customValueTags)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>*(*)(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA__CREATERESISTLIST_OFFSET))(damageTypeResistance, customValueTags);
+			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>*(*)(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA__CREATERESISTLIST_OFFSET))(damageTypeResistance, customValueTags);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::Class_0_16E4307DCC419505_849*>* _CreateDamageTypeResistDict(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* damageTypeResistance)
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::Class_0_16E4307DCC419505_960*>* _CreateDamageTypeResistDict(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* damageTypeResistance)
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::Class_0_16E4307DCC419505_849*>*(*)(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA__CREATEDAMAGETYPERESISTDICT_OFFSET))(damageTypeResistance);
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::Class_0_16E4307DCC419505_960*>*(*)(::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA__CREATEDAMAGETYPERESISTDICT_OFFSET))(damageTypeResistance);
 		}
 
-		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>* _CreateStatusResistList(::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* debuffResist)
+		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>* _CreateStatusResistList(::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* debuffResist)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>*(*)(::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA__CREATESTATUSRESISTLIST_OFFSET))(debuffResist);
+			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>*(*)(::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA__CREATESTATUSRESISTLIST_OFFSET))(debuffResist);
 		}
 
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>* get_ResistList()
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>* get_ResistList()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA_GET_RESISTLIST_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA_GET_RESISTLIST_OFFSET))(this);
 		}
 
-		::System::Void set_ResistList(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>* value)
+		::System::Void set_ResistList(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>* value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_849*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA_SET_RESISTLIST_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_960*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERRESISTDATA_SET_RESISTLIST_OFFSET))(this, value);
 		}
 	};
 }

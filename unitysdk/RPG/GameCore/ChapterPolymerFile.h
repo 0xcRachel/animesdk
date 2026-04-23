@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PolymerObj; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHAPTERPOLYMERFILE_METHOD_2_CC2F80B4B240B60D_OFFSET UNITYSDK_OFFSET(0x17079450)
-#define RPG_GAMECORE_CHAPTERPOLYMERFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17079520)
+#define RPG_GAMECORE_CHAPTERPOLYMERFILE_METHOD_2_CC2F80B4B240B60D_OFFSET UNITYSDK_OFFSET(0x18D54150)
+#define RPG_GAMECORE_CHAPTERPOLYMERFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D54220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChapterPolymerFile_TypeDefinitionIndex = 17511;
+	inline static constexpr unsigned int ChapterPolymerFile_TypeDefinitionIndex = 18120;
 
 	class ChapterPolymerFile : public ::RPG::GameCore::JsonConfig
 	{

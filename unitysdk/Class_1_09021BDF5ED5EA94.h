@@ -9,27 +9,27 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class StreamingItemHLODNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_09021BDF5ED5EA94_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x893D990)
-#define CLASS_1_09021BDF5ED5EA94_METHOD_1_FD49DE6A35A411DC_OFFSET UNITYSDK_OFFSET(0x893D9E0)
-#define CLASS_1_09021BDF5ED5EA94__CTOR_OFFSET UNITYSDK_OFFSET(0x893DA50)
+#define CLASS_1_09021BDF5ED5EA94_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x155987A0)
+#define CLASS_1_09021BDF5ED5EA94_METHOD_1_FD49DE6A35A411DC_OFFSET UNITYSDK_OFFSET(0x155987F0)
+#define CLASS_1_09021BDF5ED5EA94__CTOR_OFFSET UNITYSDK_OFFSET(0x15598860)
 
-inline static constexpr unsigned int Class_1_09021BDF5ED5EA94_TypeDefinitionIndex = 60517;
+inline static constexpr unsigned int Class_1_09021BDF5ED5EA94_TypeDefinitionIndex = 67953;
 
 class Class_1_09021BDF5ED5EA94 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* Field_1_10; // 0x10
+	::RPG::GameCore::StreamingItemHLODNode* Field_1_0; // 0x10
 	::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* Field_1_5; // 0x18
 	::System::Collections::Generic::List_1<::Class_1_09021BDF5ED5EA94*>* Field_1_4; // 0x20
-	::RPG::GameCore::StreamingItemHLODNode* Field_1_0; // 0x28
-	::RPG::Client::OpenWorld::StreamingItemData* Field_1_1; // 0x30
-	::RPG::Client::OpenWorld::SceneItemHLODTreeExpandStatus Field_1_8; // 0x38
-	::System::Int32 Field_1_6; // 0x3C
-	::System::Int32 Field_1_2; // 0x40
-	::System::Boolean Field_1_11; // 0x44
-	::System::Int32 Field_1_9; // 0x48
-	::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::SceneItemHLODTreeEnableReason> Field_1_12; // 0x50
-	::System::Int32 Field_1_7; // 0x58
+	::RPG::Client::OpenWorld::StreamingItemData* Field_1_1; // 0x28
+	::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* Field_1_10; // 0x30
+	::System::Int32 Field_1_9; // 0x38
+	::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::SceneItemHLODTreeEnableReason> Field_1_12; // 0x40
+	::System::Int32 Field_1_6; // 0x48
+	::System::Int32 Field_1_7; // 0x4C
+	::RPG::Client::OpenWorld::SceneItemHLODTreeExpandStatus Field_1_8; // 0x50
+	::System::Int32 Field_1_2; // 0x54
+	::System::Boolean Field_1_11; // 0x58
 	::System::Int32 Field_1_3; // 0x5C
 
 	::System::Void _ctor()

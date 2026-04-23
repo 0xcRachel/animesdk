@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_ISMARKED_OFFSET UNITYSDK_OFFSET(0x1848FF80)
-#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_MARKBIT_OFFSET UNITYSDK_OFFSET(0x1848FF10)
-#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_TOINTARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x18490000)
-#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1848FF00)
-#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1848FEF0)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_ISMARKED_OFFSET UNITYSDK_OFFSET(0x18417100)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_MARKBIT_OFFSET UNITYSDK_OFFSET(0x18417090)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_TOINTARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x18417180)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18417080)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x18417070)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int BitHelper_TypeDefinitionIndex = 3679;
+	inline static constexpr unsigned int BitHelper_TypeDefinitionIndex = 3681;
 
 	class BitHelper : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* _array; // 0x10
-		::System::Int32 _length; // 0x18
-		::System::Boolean _useStackAlloc; // 0x1C
+		::System::Boolean _useStackAlloc; // 0x18
+		::System::Int32 _length; // 0x1C
 		::System::Int32* _arrayPtr; // 0x20
 
 		::System::Void _ctor(::System::Int32* bitArrayPtr, ::System::Int32 length)

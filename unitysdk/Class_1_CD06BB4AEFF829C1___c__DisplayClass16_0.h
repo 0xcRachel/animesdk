@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_CD06BB4AEFF829C1___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A5DB30)
-#define CLASS_1_CD06BB4AEFF829C1___C__DISPLAYCLASS16_0__ISTOOUNIFORM_B__1_OFFSET UNITYSDK_OFFSET(0x10A5DBF0)
+#define CLASS_1_CD06BB4AEFF829C1___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x108722B0)
+#define CLASS_1_CD06BB4AEFF829C1___C__DISPLAYCLASS16_0__ISTOOUNIFORM_B__1_OFFSET UNITYSDK_OFFSET(0x10872370)
 
-inline static constexpr unsigned int Class_1_CD06BB4AEFF829C1___c__DisplayClass16_0_TypeDefinitionIndex = 63362;
+inline static constexpr unsigned int Class_1_CD06BB4AEFF829C1___c__DisplayClass16_0_TypeDefinitionIndex = 71402;
 
 class Class_1_CD06BB4AEFF829C1___c__DisplayClass16_0 : public ::System::Object
 {

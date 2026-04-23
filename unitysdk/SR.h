@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x18551020)
+#define SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x1A477CE0)
 
-inline static constexpr unsigned int SR_TypeDefinitionIndex = 4846;
+inline static constexpr unsigned int SR_TypeDefinitionIndex = 4854;
 
 class SR : public ::System::Object
 {

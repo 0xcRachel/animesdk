@@ -8,8 +8,8 @@ namespace RPG::GameCore { class BlockGrassData; }
 namespace RPG::GameCore { class ChapterPolymerFile; }
 namespace RPG::GameCore { class PolymerObj; }
 namespace RPG::GameCore { class PolymerObjData; }
+namespace RPG::GameCore { class StageBaseConfig; }
 namespace RPG::GameCore { class StageCaptureAliasLookup; }
-namespace RPG::GameCore { class StageConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -20,71 +20,71 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_6E8FF397BE978C20_DISPOSE_OFFSET UNITYSDK_OFFSET(0x89B91A0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_00091EC10DF152A5_OFFSET UNITYSDK_OFFSET(0x89B8ED0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_03A08143D373D67E_OFFSET UNITYSDK_OFFSET(0x89B8B30)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_18809DCBAB49F8BE_OFFSET UNITYSDK_OFFSET(0x89B6EE0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_358A144584A5DBFC_OFFSET UNITYSDK_OFFSET(0x89B6850)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_3661F5657C80D3F1_OFFSET UNITYSDK_OFFSET(0x89B7FD0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_4223D717CBD54CE9_OFFSET UNITYSDK_OFFSET(0x89B6550)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_441BF6248A8E3F4F_OFFSET UNITYSDK_OFFSET(0x89B6E80)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_4C2ACACD89F4EF1A_OFFSET UNITYSDK_OFFSET(0x89B7A00)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_54264078ABF105CA_OFFSET UNITYSDK_OFFSET(0x89B6940)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_55EA6F0058EF155A_OFFSET UNITYSDK_OFFSET(0x89B8910)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_5A5E342816DF1DED_OFFSET UNITYSDK_OFFSET(0x89B6AF0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_5BF9E97C2EDD159A_OFFSET UNITYSDK_OFFSET(0x89B91F0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_5D0F2D91A43404B3_OFFSET UNITYSDK_OFFSET(0x89B6A00)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_7DB07B645F6DB7C6_OFFSET UNITYSDK_OFFSET(0x89B7050)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_BB0E5414D214D27E_1_OFFSET UNITYSDK_OFFSET(0x89B83B0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_BB0E5414D214D27E_OFFSET UNITYSDK_OFFSET(0x89B80A0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_BBA3B64E3285E814_1_OFFSET UNITYSDK_OFFSET(0x89B9100)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_BBA3B64E3285E814_OFFSET UNITYSDK_OFFSET(0x89B90A0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_BBB133A47D2C4467_OFFSET UNITYSDK_OFFSET(0x89B8FC0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_C69206653C0C95A7_1_OFFSET UNITYSDK_OFFSET(0x89B7A70)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_C69206653C0C95A7_OFFSET UNITYSDK_OFFSET(0x89B7790)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_D576E6020CC2570D_OFFSET UNITYSDK_OFFSET(0x89B8A70)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_D95E53E2EC8FBC5A_OFFSET UNITYSDK_OFFSET(0x89B8CC0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0x89B7CD0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_E529E1251D14168A_OFFSET UNITYSDK_OFFSET(0x89B66B0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_F2C8A5E88BF9001D_OFFSET UNITYSDK_OFFSET(0x89B8D10)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_F4CEA77464863D88_OFFSET UNITYSDK_OFFSET(0x89B73D0)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_FBFE262DB5791EDF_OFFSET UNITYSDK_OFFSET(0x89B9160)
-#define CLASS_1_6E8FF397BE978C20_METHOD_1_FE5EFB1C64473306_OFFSET UNITYSDK_OFFSET(0x89B86C0)
-#define CLASS_1_6E8FF397BE978C20__CCTOR_OFFSET UNITYSDK_OFFSET(0x89B93B0)
-#define CLASS_1_6E8FF397BE978C20__CTOR_OFFSET UNITYSDK_OFFSET(0x89B6280)
+#define CLASS_1_6E8FF397BE978C20_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEC20F30)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_00091EC10DF152A5_OFFSET UNITYSDK_OFFSET(0xEC20C60)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_03A08143D373D67E_OFFSET UNITYSDK_OFFSET(0xEC208C0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_18809DCBAB49F8BE_OFFSET UNITYSDK_OFFSET(0xEC1ECB0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_358A144584A5DBFC_OFFSET UNITYSDK_OFFSET(0xEC1E620)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_3661F5657C80D3F1_OFFSET UNITYSDK_OFFSET(0xEC1FD90)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_4223D717CBD54CE9_OFFSET UNITYSDK_OFFSET(0xEC1E2D0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_441BF6248A8E3F4F_OFFSET UNITYSDK_OFFSET(0xEC1EC50)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_4C2ACACD89F4EF1A_OFFSET UNITYSDK_OFFSET(0xEC1F7D0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_54264078ABF105CA_OFFSET UNITYSDK_OFFSET(0xEC1E710)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_55EA6F0058EF155A_OFFSET UNITYSDK_OFFSET(0xEC206A0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_5A5E342816DF1DED_OFFSET UNITYSDK_OFFSET(0xEC1E8C0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_5BF9E97C2EDD159A_OFFSET UNITYSDK_OFFSET(0xEC20F80)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_5D0F2D91A43404B3_OFFSET UNITYSDK_OFFSET(0xEC1E7D0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_6D4C28020D69F1B5_OFFSET UNITYSDK_OFFSET(0xEC20480)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_BB0E5414D214D27E_1_OFFSET UNITYSDK_OFFSET(0xEC20170)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_BB0E5414D214D27E_OFFSET UNITYSDK_OFFSET(0xEC1FE60)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_BBA3B64E3285E814_1_OFFSET UNITYSDK_OFFSET(0xEC20E90)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_BBA3B64E3285E814_OFFSET UNITYSDK_OFFSET(0xEC20E30)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_BBB133A47D2C4467_OFFSET UNITYSDK_OFFSET(0xEC20D50)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_C69206653C0C95A7_1_OFFSET UNITYSDK_OFFSET(0xEC1F840)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_C69206653C0C95A7_OFFSET UNITYSDK_OFFSET(0xEC1F560)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_D576E6020CC2570D_OFFSET UNITYSDK_OFFSET(0xEC20800)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_D8DAF819EC405355_OFFSET UNITYSDK_OFFSET(0xEC1EE20)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_D95E53E2EC8FBC5A_OFFSET UNITYSDK_OFFSET(0xEC20A50)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_DE52BD42C4B0B772_OFFSET UNITYSDK_OFFSET(0xEC1FAA0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_E529E1251D14168A_OFFSET UNITYSDK_OFFSET(0xEC1E480)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_F2C8A5E88BF9001D_OFFSET UNITYSDK_OFFSET(0xEC20AA0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_F4CEA77464863D88_OFFSET UNITYSDK_OFFSET(0xEC1F1A0)
+#define CLASS_1_6E8FF397BE978C20_METHOD_1_FBFE262DB5791EDF_OFFSET UNITYSDK_OFFSET(0xEC20EF0)
+#define CLASS_1_6E8FF397BE978C20__CCTOR_OFFSET UNITYSDK_OFFSET(0xEC21140)
+#define CLASS_1_6E8FF397BE978C20__CTOR_OFFSET UNITYSDK_OFFSET(0xEC1E000)
 
-inline static constexpr unsigned int Class_1_6E8FF397BE978C20_TypeDefinitionIndex = 56801;
+inline static constexpr unsigned int Class_1_6E8FF397BE978C20_TypeDefinitionIndex = 64047;
 
 class Class_1_6E8FF397BE978C20 : public ::System::Object
 {
 public:
-	static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_1_10()
+	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x48E60);
-	}
-	static ::Class_1_6E8FF397BE978C20** StaticGet_Field_1_8()
-	{
-		return (::Class_1_6E8FF397BE978C20**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x48E68);
+		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x423C0);
 	}
 	static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_Field_1_11()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x48E70);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x423C8);
 	}
-	static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_Field_1_0()
+	static ::Class_1_6E8FF397BE978C20** StaticGet_Field_1_8()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x48E78);
+		return (::Class_1_6E8FF397BE978C20**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x423D0);
+	}
+	static ::UnityEngine::MaterialPropertyBlock** StaticGet_Field_1_10()
+	{
+		return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x423D8);
 	}
 	static ::System::Int32* StaticGet_Field_1_9()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0x13060);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_6E8FF397BE978C20_TypeDefinitionIndex)->GetStaticField(0xD220);
 	}
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* Field_1_3; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::StageCaptureAliasLookup*>* Field_1_4; // 0x10
 	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ChapterPolymerFile*>* Field_1_5; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::BlockConfig*>* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::BlockGrassData*>* Field_1_7; // 0x28
-	::System::Text::StringBuilder* Field_1_1; // 0x30
-	::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::ChapterPolymerFile*>* Field_1_6; // 0x38
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::StageCaptureAliasLookup*>* Field_1_4; // 0x40
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::System::String*>*>* Field_1_3; // 0x20
+	::System::Text::StringBuilder* Field_1_1; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::BlockGrassData*>* Field_1_7; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::BlockConfig*>* Field_1_2; // 0x38
+	::RPG::Client::LRUCache_2<::System::String*, ::RPG::GameCore::ChapterPolymerFile*>* Field_1_6; // 0x40
 
 	::System::Void _ctor()
 	{
@@ -116,9 +116,9 @@ public:
 		return ((::RPG::GameCore::BlockConfig*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E8FF397BE978C20_METHOD_1_18809DCBAB49F8BE_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::GameCore::BlockConfig* Method_1_7DB07B645F6DB7C6(::System::String* a1, ::System::String* a2, ::System::String* a3, ::RPG::GameCore::StageConfig* a4, ::System::Boolean a5)
+	::RPG::GameCore::BlockConfig* Method_1_D8DAF819EC405355(::System::String* a1, ::System::String* a2, ::System::String* a3, ::RPG::GameCore::StageBaseConfig* a4, ::System::Boolean a5)
 	{
-		return ((::RPG::GameCore::BlockConfig*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::StageConfig*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E8FF397BE978C20_METHOD_1_7DB07B645F6DB7C6_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::RPG::GameCore::BlockConfig*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::StageBaseConfig*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E8FF397BE978C20_METHOD_1_D8DAF819EC405355_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::System::Void Method_1_F4CEA77464863D88(::System::String* a1, ::System::String* a2, ::RPG::GameCore::BlockConfig* a3)
@@ -191,9 +191,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_6E8FF397BE978C20_METHOD_1_4C2ACACD89F4EF1A_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::ChapterPolymerFile* Method_1_FE5EFB1C64473306(::System::String* a1, ::System::Boolean a2)
+	::RPG::GameCore::ChapterPolymerFile* Method_1_6D4C28020D69F1B5(::System::String* a1, ::System::Boolean a2)
 	{
-		return ((::RPG::GameCore::ChapterPolymerFile*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E8FF397BE978C20_METHOD_1_FE5EFB1C64473306_OFFSET))(this, a1, a2);
+		return ((::RPG::GameCore::ChapterPolymerFile*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_6E8FF397BE978C20_METHOD_1_6D4C28020D69F1B5_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::GameCore::ChapterPolymerFile* Method_1_F2C8A5E88BF9001D(::System::String* a1, ::System::Boolean a2)

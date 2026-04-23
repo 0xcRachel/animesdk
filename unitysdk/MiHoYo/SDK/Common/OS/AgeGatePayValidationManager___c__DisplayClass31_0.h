@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Common::OS { class AgeGatePayValidationManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 
-#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E0F370)
-#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS31_0__ONRESENDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x15E10720)
+#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161A26A0)
+#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS31_0__ONRESENDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x161A3A50)
 
 namespace MiHoYo::SDK::Common::OS
 {
-	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass31_0_TypeDefinitionIndex = 7446;
+	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass31_0_TypeDefinitionIndex = 7587;
 
 	class AgeGatePayValidationManager___c__DisplayClass31_0 : public ::System::Object
 	{

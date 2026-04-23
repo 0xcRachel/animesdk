@@ -18,30 +18,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x93ED780)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPC_OFFSET UNITYSDK_OFFSET(0x93ED860)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPHONE_OFFSET UNITYSDK_OFFSET(0x93ED7F0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x93EFEB0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x93EF510)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0x93EFED0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x93EFEC0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x93EF490)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_INITCONFIGALL_OFFSET UNITYSDK_OFFSET(0x93EE320)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SAVEPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0x93EF260)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x93EFD70)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x93EFB80)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0x93EFE20)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x93EFCC0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x93EFA40)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x93EFEE0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x93EF590)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCURVECONFIGALL_OFFSET UNITYSDK_OFFSET(0x93EE390)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITGAMEPADCONFIG_OFFSET UNITYSDK_OFFSET(0x93EF850)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0x93EF210)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x178ACE20)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPC_OFFSET UNITYSDK_OFFSET(0x178ACF00)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPHONE_OFFSET UNITYSDK_OFFSET(0x178ACE90)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x178AF660)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x178AECC0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0x178AF680)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x178AF670)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x178AEC40)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_INITCONFIGALL_OFFSET UNITYSDK_OFFSET(0x178AD9C0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SAVEPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0x178AEA10)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x178AF520)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x178AF330)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0x178AF5D0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0x178AF470)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0x178AF1F0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178AF690)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0x178AED40)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCURVECONFIGALL_OFFSET UNITYSDK_OFFSET(0x178ADA30)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITGAMEPADCONFIG_OFFSET UNITYSDK_OFFSET(0x178AF000)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0x178AE9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientOnlyCommonConfig_TypeDefinitionIndex = 48632;
+	inline static constexpr unsigned int ClientOnlyCommonConfig_TypeDefinitionIndex = 55381;
 
 	class ClientOnlyCommonConfig : public ::UnityEngine::ScriptableObject
 	{
@@ -86,54 +86,55 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* StorySteerCurveList; // 0xF8
 		::RPGTools::Timeline::CharacterStoryMove::CharacterStoryMoveSequenceConfig* StoryMoveSequenceConfig; // 0x100
 		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* StoryDollyTrackCurveList; // 0x108
-		::System::String* BattleDefaultSceneName; // 0x110
-		::System::Boolean UseStackCamera; // 0x118
-		::System::Single ZoomSpeedRatio; // 0x11C
-		::System::Single ZoomSpeedRatioForPC; // 0x120
-		::System::Single ZoomSpeedRatioForController; // 0x124
-		::System::Single CameraRotationSpeedRatioScale; // 0x128
-		::UnityEngine::Vector2 _CameraRotationSpeedRatioForPC; // 0x12C
-		::UnityEngine::Vector2 _CameraRotationSpeedRatioForPhone; // 0x134
-		::UnityEngine::Vector2 _CameraRotationSpeedRatioForController; // 0x13C
-		::System::Int32 _CameraRotationSpeedRatioGearForPC; // 0x144
-		::System::Int32 _CameraRotationSpeedRatioGearForPhone; // 0x148
-		::System::Int32 _cameraRotationSpeedRatioGearForController; // 0x14C
-		::System::Int32 _ZoomSpeedRatioGear; // 0x150
-		::System::Int32 _ZoomSpeedRatioGearForPC; // 0x154
-		::System::Int32 _ZoomSpeedRatioGearForController; // 0x158
-		::System::UInt32 _GamepadVibrationIntensity; // 0x15C
-		::System::Boolean ForbidDynamicOffsetInUltraSkill; // 0x160
-		::System::Boolean UseTurnBackAnim; // 0x161
-		::RPG::Client::TiltCommonConfig* CharacterTiltConfig; // 0x168
-		::RPG::Client::RootMotionBakedConfig* CharacterRootMotionBakedConfig; // 0x170
-		::RPG::Client::NpcEyeConfig* NpcEyeConfig; // 0x178
-		::RPG::Client::NamedCurve* CharacterWaterInteractSpeedToRadiusCurve; // 0x180
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* CharacterModelFloatingCurveList; // 0x188
-		::UnityEngine::AnimationCurve* CameraSpeedChangeCurve; // 0x190
-		::System::String* ADVCableAttachPointName; // 0x198
-		::System::String* ADVCableConfigPrefabPath; // 0x1A0
-		::RPG::Client::NamedCurve* ADVMovementStepToGroundCurve; // 0x1A8
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* ADVMovementStepToGroundSpeciallyCurveList; // 0x1B0
-		::RPG::Client::NamedCurve* ADVMovementForwardGroundNormalWeightCurve; // 0x1B8
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* RadialBlurCurveList; // 0x1C0
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* ColorGradingCurveList; // 0x1C8
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* WalkingEffectCurveList; // 0x1D0
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* TransitionCurveList; // 0x1D8
-		::System::Single ADVMapRotationSmoothTime; // 0x1E0
-		::System::Single ADVMapRotationDampingSmoothTime; // 0x1E4
-		::System::Single HitShakeAmplitude; // 0x1E8
-		::System::Single HitShakeDuration; // 0x1EC
-		::UnityEngine::AnimationCurve* HitShakeCurve; // 0x1F0
-		::System::Collections::Generic::List_1<::RPG::GameCore::VCameraState>* BlendRecoverState; // 0x1F8
-		::System::Single FollowRadiusAdd; // 0x200
-		::UnityEngine::Vector3 AnchorOffsetAdd; // 0x204
-		::RPG::GameCore::VCameraBlend* RecoverBlend; // 0x210
-		::System::Single TimelineClampYOffsetThreshold; // 0x218
-		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* CustomHitShakeCurves; // 0x220
-		::UnityEngine::AnimationCurve* BodyLookAtWeightCurve; // 0x228
-		::UnityEngine::AnimationCurve* FootIKStepUpRotationRatioCurve; // 0x230
-		::RPG::Client::SpringBoneCommonConfig* springBoneCommonConfig; // 0x238
-		::UnityEngine::AnimationCurve* VideoVolumePsCurve; // 0x240
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* StoryBodyControlIKCurveList; // 0x110
+		::System::String* BattleDefaultSceneName; // 0x118
+		::System::Boolean UseStackCamera; // 0x120
+		::System::Single ZoomSpeedRatio; // 0x124
+		::System::Single ZoomSpeedRatioForPC; // 0x128
+		::System::Single ZoomSpeedRatioForController; // 0x12C
+		::System::Single CameraRotationSpeedRatioScale; // 0x130
+		::UnityEngine::Vector2 _CameraRotationSpeedRatioForPC; // 0x134
+		::UnityEngine::Vector2 _CameraRotationSpeedRatioForPhone; // 0x13C
+		::UnityEngine::Vector2 _CameraRotationSpeedRatioForController; // 0x144
+		::System::Int32 _CameraRotationSpeedRatioGearForPC; // 0x14C
+		::System::Int32 _CameraRotationSpeedRatioGearForPhone; // 0x150
+		::System::Int32 _cameraRotationSpeedRatioGearForController; // 0x154
+		::System::Int32 _ZoomSpeedRatioGear; // 0x158
+		::System::Int32 _ZoomSpeedRatioGearForPC; // 0x15C
+		::System::Int32 _ZoomSpeedRatioGearForController; // 0x160
+		::System::UInt32 _GamepadVibrationIntensity; // 0x164
+		::System::Boolean ForbidDynamicOffsetInUltraSkill; // 0x168
+		::System::Boolean UseTurnBackAnim; // 0x169
+		::RPG::Client::TiltCommonConfig* CharacterTiltConfig; // 0x170
+		::RPG::Client::RootMotionBakedConfig* CharacterRootMotionBakedConfig; // 0x178
+		::RPG::Client::NpcEyeConfig* NpcEyeConfig; // 0x180
+		::RPG::Client::NamedCurve* CharacterWaterInteractSpeedToRadiusCurve; // 0x188
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* CharacterModelFloatingCurveList; // 0x190
+		::UnityEngine::AnimationCurve* CameraSpeedChangeCurve; // 0x198
+		::System::String* ADVCableAttachPointName; // 0x1A0
+		::System::String* ADVCableConfigPrefabPath; // 0x1A8
+		::RPG::Client::NamedCurve* ADVMovementStepToGroundCurve; // 0x1B0
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* ADVMovementStepToGroundSpeciallyCurveList; // 0x1B8
+		::RPG::Client::NamedCurve* ADVMovementForwardGroundNormalWeightCurve; // 0x1C0
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* RadialBlurCurveList; // 0x1C8
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* ColorGradingCurveList; // 0x1D0
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* WalkingEffectCurveList; // 0x1D8
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* TransitionCurveList; // 0x1E0
+		::System::Single ADVMapRotationSmoothTime; // 0x1E8
+		::System::Single ADVMapRotationDampingSmoothTime; // 0x1EC
+		::System::Single HitShakeAmplitude; // 0x1F0
+		::System::Single HitShakeDuration; // 0x1F4
+		::UnityEngine::AnimationCurve* HitShakeCurve; // 0x1F8
+		::System::Collections::Generic::List_1<::RPG::GameCore::VCameraState>* BlendRecoverState; // 0x200
+		::System::Single FollowRadiusAdd; // 0x208
+		::UnityEngine::Vector3 AnchorOffsetAdd; // 0x20C
+		::RPG::GameCore::VCameraBlend* RecoverBlend; // 0x218
+		::System::Single TimelineClampYOffsetThreshold; // 0x220
+		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* CustomHitShakeCurves; // 0x228
+		::UnityEngine::AnimationCurve* BodyLookAtWeightCurve; // 0x230
+		::UnityEngine::AnimationCurve* FootIKStepUpRotationRatioCurve; // 0x238
+		::RPG::Client::SpringBoneCommonConfig* springBoneCommonConfig; // 0x240
+		::UnityEngine::AnimationCurve* VideoVolumePsCurve; // 0x248
 
 		::System::Void _ctor()
 		{

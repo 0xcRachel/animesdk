@@ -6,13 +6,13 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_E144C29F214A8F26_CLEAR_OFFSET UNITYSDK_OFFSET(0x10907CB0)
-#define CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0x10907D60)
-#define CLASS_1_E144C29F214A8F26_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x10907D10)
-#define CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0x10907D70)
-#define CLASS_1_E144C29F214A8F26__CTOR_OFFSET UNITYSDK_OFFSET(0x10907D80)
+#define CLASS_1_E144C29F214A8F26_CLEAR_OFFSET UNITYSDK_OFFSET(0xF589920)
+#define CLASS_1_E144C29F214A8F26_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xF5899D0)
+#define CLASS_1_E144C29F214A8F26_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0xF589980)
+#define CLASS_1_E144C29F214A8F26_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xF5899E0)
+#define CLASS_1_E144C29F214A8F26__CTOR_OFFSET UNITYSDK_OFFSET(0xF5899F0)
 
-inline static constexpr unsigned int Class_1_E144C29F214A8F26_TypeDefinitionIndex = 57198;
+inline static constexpr unsigned int Class_1_E144C29F214A8F26_TypeDefinitionIndex = 64451;
 
 class Class_1_E144C29F214A8F26 : public ::System::Object
 {
@@ -24,9 +24,9 @@ public:
 	::System::String* Field_1_2; // 0x30
 	::System::UInt32 Field_1_4; // 0x38
 	::System::Boolean _IsReleased_k__BackingField; // 0x3C
-	::System::Boolean Field_1_7; // 0x3D
-	::System::Boolean Field_1_8; // 0x3E
-	::System::Boolean Field_1_6; // 0x3F
+	::System::Boolean Field_1_6; // 0x3D
+	::System::Boolean Field_1_7; // 0x3E
+	::System::Boolean Field_1_8; // 0x3F
 
 	::System::Void _ctor()
 	{

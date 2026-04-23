@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1779ABD0)
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1779B250)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D7B980)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7C000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 13029;
+	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 13490;
 
 	class StuffStatsConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* StatsIconPath; // 0x10
-		::RPG::GameCore::StuffStats StatsID; // 0x18
-		::RPG::Client::TextID MuseumStatsName; // 0x20
+		::RPG::Client::TextID MuseumStatsName; // 0x18
+		::RPG::GameCore::StuffStats StatsID; // 0x28
 
 		::System::Void _ctor()
 		{

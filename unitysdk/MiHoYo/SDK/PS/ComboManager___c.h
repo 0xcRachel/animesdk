@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIHOYO_SDK_PS_COMBOMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15F7B200)
-#define MIHOYO_SDK_PS_COMBOMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7B240)
-#define MIHOYO_SDK_PS_COMBOMANAGER___C__REQUESTREDPOINT_B__19_0_OFFSET UNITYSDK_OFFSET(0x15F7B300)
-#define MIHOYO_SDK_PS_COMBOMANAGER___C__SIGNCOMBOBODY_B__14_0_OFFSET UNITYSDK_OFFSET(0x15F7B250)
+#define MIHOYO_SDK_PS_COMBOMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164E5AE0)
+#define MIHOYO_SDK_PS_COMBOMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164E5B20)
+#define MIHOYO_SDK_PS_COMBOMANAGER___C__REQUESTREDPOINT_B__19_0_OFFSET UNITYSDK_OFFSET(0x164E5BE0)
+#define MIHOYO_SDK_PS_COMBOMANAGER___C__SIGNCOMBOBODY_B__14_0_OFFSET UNITYSDK_OFFSET(0x164E5B30)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 7522;
+	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 7663;
 
 	class ComboManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PS::ComboManager___c** StaticGet___9()
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__14_0()
 		{
-			return (::MiHoYo::SDK::PS::ComboManager___c**)Il2CppClass::FromTypeDefinitionIndex(ComboManager___c_TypeDefinitionIndex)->GetStaticField(0x120F0);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ComboManager___c_TypeDefinitionIndex)->GetStaticField(0x12D10);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(ComboManager___c_TypeDefinitionIndex)->GetStaticField(0x120F8);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(ComboManager___c_TypeDefinitionIndex)->GetStaticField(0x12D18);
 		}
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__14_0()
+		static ::MiHoYo::SDK::PS::ComboManager___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ComboManager___c_TypeDefinitionIndex)->GetStaticField(0x12100);
+			return (::MiHoYo::SDK::PS::ComboManager___c**)Il2CppClass::FromTypeDefinitionIndex(ComboManager___c_TypeDefinitionIndex)->GetStaticField(0x12D20);
 		}
 
 		static ::System::Void _cctor()

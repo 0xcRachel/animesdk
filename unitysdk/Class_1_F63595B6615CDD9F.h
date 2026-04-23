@@ -5,18 +5,18 @@
 namespace RPG::GameCore { class PerceiveValueTriggerConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_F63595B6615CDD9F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10BEFF90)
-#define CLASS_1_F63595B6615CDD9F_METHOD_1_8131D4D8C02BAA62_OFFSET UNITYSDK_OFFSET(0x10BF0080)
-#define CLASS_1_F63595B6615CDD9F_METHOD_1_FE327FD0760E1514_OFFSET UNITYSDK_OFFSET(0x10BEFFE0)
-#define CLASS_1_F63595B6615CDD9F__CTOR_OFFSET UNITYSDK_OFFSET(0x10BEFF80)
+#define CLASS_1_F63595B6615CDD9F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10AF1270)
+#define CLASS_1_F63595B6615CDD9F_METHOD_1_8131D4D8C02BAA62_OFFSET UNITYSDK_OFFSET(0x10AF1360)
+#define CLASS_1_F63595B6615CDD9F_METHOD_1_FE327FD0760E1514_OFFSET UNITYSDK_OFFSET(0x10AF12C0)
+#define CLASS_1_F63595B6615CDD9F__CTOR_OFFSET UNITYSDK_OFFSET(0x10AF1260)
 
-inline static constexpr unsigned int Class_1_F63595B6615CDD9F_TypeDefinitionIndex = 42398;
+inline static constexpr unsigned int Class_1_F63595B6615CDD9F_TypeDefinitionIndex = 48358;
 
 class Class_1_F63595B6615CDD9F : public ::System::Object
 {
 public:
-	::RPG::GameCore::TaskContext* Field_1_1; // 0x10
-	::RPG::GameCore::PerceiveValueTriggerConfig* Field_1_0; // 0x18
+	::RPG::GameCore::PerceiveValueTriggerConfig* Field_1_0; // 0x10
+	::RPG::GameCore::TaskContext* Field_1_1; // 0x18
 	::System::Single Field_1_2; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::PerceiveValueTriggerConfig* a1, ::RPG::GameCore::TaskContext* a2)

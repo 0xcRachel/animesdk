@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueTournPersonaTalentGroupData; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA3D6AE0)
-#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__DISPLAYCLASS5_0__GETTALENTGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xA3D7160)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x172E0CA0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__DISPLAYCLASS5_0__GETTALENTGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x172E1320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaTalentInfo___c__DisplayClass5_0_TypeDefinitionIndex = 55268;
+	inline static constexpr unsigned int RogueTournPersonaTalentInfo___c__DisplayClass5_0_TypeDefinitionIndex = 62456;
 
 	class RogueTournPersonaTalentInfo___c__DisplayClass5_0 : public ::System::Object
 	{

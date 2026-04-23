@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/FullBodyBipedChainBlender_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define CLASS_2_D86370ADB102E0A7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8D6F00)
-#define CLASS_2_D86370ADB102E0A7__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D7020)
+#define CLASS_2_D86370ADB102E0A7_EVALUATE_OFFSET UNITYSDK_OFFSET(0xACADBD0)
+#define CLASS_2_D86370ADB102E0A7__CTOR_OFFSET UNITYSDK_OFFSET(0xACADCF0)
 
-inline static constexpr unsigned int Class_2_D86370ADB102E0A7_TypeDefinitionIndex = 56019;
+inline static constexpr unsigned int Class_2_D86370ADB102E0A7_TypeDefinitionIndex = 63262;
 
 class Class_2_D86370ADB102E0A7 : public ::RPG::Client::FullBodyBipedChainBlender_1<::UnityEngine::Quaternion>
 {

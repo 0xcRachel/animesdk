@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_50FF91C50CB9236F_OFFSET UNITYSDK_OFFSET(0x174208C0)
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_90FC8C5534A43E62_OFFSET UNITYSDK_OFFSET(0x17420700)
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174209A0)
-#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17420980)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_50FF91C50CB9236F_OFFSET UNITYSDK_OFFSET(0x1905E500)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE_METHOD_3_90FC8C5534A43E62_OFFSET UNITYSDK_OFFSET(0x1905E340)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1905E5E0)
+#define RPG_GAMECORE_MICONDITIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1905E5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiConditionConfigBase_TypeDefinitionIndex = 15635;
+	inline static constexpr unsigned int MiConditionConfigBase_TypeDefinitionIndex = 16157;
 
 	class MiConditionConfigBase : public ::RPG::GameCore::MiAtomConfigBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*>*>** StaticGet__FromBinary_MiConditionConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(MiConditionConfigBase_TypeDefinitionIndex)->GetStaticField(0x46A60);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiConditionConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(MiConditionConfigBase_TypeDefinitionIndex)->GetStaticField(0x3B3C0);
 		}
 		::System::Boolean Inverse; // 0x10
 

@@ -6,24 +6,24 @@ namespace RPG::Client { class MainMissionData; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RESIDENTHELIOBUSACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA2ED760)
-#define RPG_CLIENT_RESIDENTHELIOBUSACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA2ED790)
-#define RPG_CLIENT_RESIDENTHELIOBUSACTIVITYDATA___C___GETCONDITION_B__19_0_OFFSET UNITYSDK_OFFSET(0xA2ED7A0)
+#define RPG_CLIENT_RESIDENTHELIOBUSACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1771A560)
+#define RPG_CLIENT_RESIDENTHELIOBUSACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1771A590)
+#define RPG_CLIENT_RESIDENTHELIOBUSACTIVITYDATA___C___GETCONDITION_B__19_0_OFFSET UNITYSDK_OFFSET(0x1771A5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentHeliobusActivityData___c_TypeDefinitionIndex = 50118;
+	inline static constexpr unsigned int ResidentHeliobusActivityData___c_TypeDefinitionIndex = 56963;
 
 	class ResidentHeliobusActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ResidentHeliobusActivityData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ResidentHeliobusActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(ResidentHeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x18F90);
-		}
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ResidentHeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x18F98);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(ResidentHeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x1EDB0);
+		}
+		static ::RPG::Client::ResidentHeliobusActivityData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ResidentHeliobusActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(ResidentHeliobusActivityData___c_TypeDefinitionIndex)->GetStaticField(0x1EDB8);
 		}
 
 		static ::System::Void _cctor()

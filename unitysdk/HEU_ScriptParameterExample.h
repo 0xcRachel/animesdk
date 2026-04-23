@@ -5,11 +5,11 @@
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace UnityEngine { class GameObject; }
 
-#define HEU_SCRIPTPARAMETEREXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x83F2E50)
-#define HEU_SCRIPTPARAMETEREXAMPLE_UPDATEGRAVITY_OFFSET UNITYSDK_OFFSET(0x83F3260)
-#define HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x83F3310)
+#define HEU_SCRIPTPARAMETEREXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x18D0EED0)
+#define HEU_SCRIPTPARAMETEREXAMPLE_UPDATEGRAVITY_OFFSET UNITYSDK_OFFSET(0x18D0F2B0)
+#define HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0F360)
 
-inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 35092;
+inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 40920;
 
 class HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour
 {

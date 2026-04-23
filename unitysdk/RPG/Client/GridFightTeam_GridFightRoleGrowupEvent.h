@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_GRIDFIGHTROLEGROWUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x98CE580)
+#define RPG_CLIENT_GRIDFIGHTTEAM_GRIDFIGHTROLEGROWUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA1680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_GridFightRoleGrowupEvent_TypeDefinitionIndex = 52907;
+	inline static constexpr unsigned int GridFightTeam_GridFightRoleGrowupEvent_TypeDefinitionIndex = 59986;
 
 	class GridFightTeam_GridFightRoleGrowupEvent : public ::System::Object
 	{

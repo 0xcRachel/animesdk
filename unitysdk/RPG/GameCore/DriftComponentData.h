@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRIFTCOMPONENTDATA_METHOD_2_5AA7CF844D1FF3E9_OFFSET UNITYSDK_OFFSET(0x17188DB0)
-#define RPG_GAMECORE_DRIFTCOMPONENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17189460)
+#define RPG_GAMECORE_DRIFTCOMPONENTDATA_METHOD_2_5AA7CF844D1FF3E9_OFFSET UNITYSDK_OFFSET(0x19134DB0)
+#define RPG_GAMECORE_DRIFTCOMPONENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19135460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DriftComponentData_TypeDefinitionIndex = 17598;
+	inline static constexpr unsigned int DriftComponentData_TypeDefinitionIndex = 18211;
 
 	class DriftComponentData : public ::RPG::GameCore::JsonConfig
 	{

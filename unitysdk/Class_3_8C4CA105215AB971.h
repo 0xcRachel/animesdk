@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsElfRestaurantFarmPlantFull; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8C4CA105215AB971_EVALUATE_OFFSET UNITYSDK_OFFSET(0x89AFF40)
-#define CLASS_3_8C4CA105215AB971__CTOR_OFFSET UNITYSDK_OFFSET(0x89AFF10)
+#define CLASS_3_8C4CA105215AB971_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCCF6C00)
+#define CLASS_3_8C4CA105215AB971__CTOR_OFFSET UNITYSDK_OFFSET(0xCCF6BD0)
 
-inline static constexpr unsigned int Class_3_8C4CA105215AB971_TypeDefinitionIndex = 43727;
+inline static constexpr unsigned int Class_3_8C4CA105215AB971_TypeDefinitionIndex = 50426;
 
 class Class_3_8C4CA105215AB971 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsElfRestaurantFarmPlantFull*>
 {

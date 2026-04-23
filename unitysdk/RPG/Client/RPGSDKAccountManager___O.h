@@ -11,30 +11,30 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___O_TypeDefinitionIndex = 49514;
+	inline static constexpr unsigned int RPGSDKAccountManager___O_TypeDefinitionIndex = 56336;
 
 	class RPGSDKAccountManager___O : public ::System::Object
 	{
 	public:
+		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide** StaticGet__3____OnGetOnPageBeforeHide()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x156F0);
+		}
 		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate** StaticGet__4____OnUniWebViewMessage()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x10800);
-		}
-		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose** StaticGet__2____OnGetPageClose()
-		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x10808);
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnUniWebViewMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x156F8);
 		}
 		static ::System::Action_1<::System::String*>** StaticGet__0____OnSwitchRoleResponse()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x10810);
+			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x15700);
 		}
 		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish** StaticGet__1____OnGetPageFinish()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x10818);
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageFinish**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x15708);
 		}
-		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide** StaticGet__3____OnGetOnPageBeforeHide()
+		static ::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose** StaticGet__2____OnGetPageClose()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageBeforeHide**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x10820);
+			return (::MiHoYo::SDK::MiHoYoSDKWebView_OnWebViewPageClose**)Il2CppClass::FromTypeDefinitionIndex(RPGSDKAccountManager___O_TypeDefinitionIndex)->GetStaticField(0x15710);
 		}
 	};
 }

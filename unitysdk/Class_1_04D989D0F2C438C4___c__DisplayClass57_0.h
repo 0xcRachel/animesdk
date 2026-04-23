@@ -5,18 +5,18 @@
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_04D989D0F2C438C4___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D0ACE0)
-#define CLASS_1_04D989D0F2C438C4___C__DISPLAYCLASS57_0__ISTASKRESCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0x8D0AFA0)
-#define CLASS_1_04D989D0F2C438C4___C__DISPLAYCLASS57_0__ISTASKRESCOMPLETED_B__1_OFFSET UNITYSDK_OFFSET(0x8D0AFC0)
+#define CLASS_1_04D989D0F2C438C4___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC2F1FA0)
+#define CLASS_1_04D989D0F2C438C4___C__DISPLAYCLASS57_0__ISTASKRESCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0xC2F2260)
+#define CLASS_1_04D989D0F2C438C4___C__DISPLAYCLASS57_0__ISTASKRESCOMPLETED_B__1_OFFSET UNITYSDK_OFFSET(0xC2F2280)
 
-inline static constexpr unsigned int Class_1_04D989D0F2C438C4___c__DisplayClass57_0_TypeDefinitionIndex = 48263;
+inline static constexpr unsigned int Class_1_04D989D0F2C438C4___c__DisplayClass57_0_TypeDefinitionIndex = 55008;
 
 class Class_1_04D989D0F2C438C4___c__DisplayClass57_0 : public ::System::Object
 {
 public:
 	::System::Predicate_1<::System::UInt32>* __9__0; // 0x10
-	::System::Predicate_1<::System::UInt32>* __9__1; // 0x18
-	::System::Collections::Generic::HashSet_1<::System::UInt32>* taskIds; // 0x20
+	::System::Collections::Generic::HashSet_1<::System::UInt32>* taskIds; // 0x18
+	::System::Predicate_1<::System::UInt32>* __9__1; // 0x20
 
 	::System::Void _ctor()
 	{

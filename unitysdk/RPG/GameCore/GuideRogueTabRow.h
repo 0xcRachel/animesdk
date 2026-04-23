@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDEROGUETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172A5580)
-#define RPG_GAMECORE_GUIDEROGUETABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5F00)
+#define RPG_GAMECORE_GUIDEROGUETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18A5EF40)
+#define RPG_GAMECORE_GUIDEROGUETABROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18A5F8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideRogueTabRow_TypeDefinitionIndex = 12233;
+	inline static constexpr unsigned int GuideRogueTabRow_TypeDefinitionIndex = 12666;
 
 	class GuideRogueTabRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* ResBarKey; // 0x18
-		::System::UInt32 ID; // 0x20
+		::System::String* ResBarKey; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::GameCore::GuideRogueType GuideType; // 0x20
 		::System::UInt32 Priority; // 0x24
-		::RPG::GameCore::GuideRogueType GuideType; // 0x28
-		::System::UInt32 IntroID; // 0x2C
-		::RPG::Client::TextID Name; // 0x30
-		::RPG::Client::TextID Desc; // 0x40
+		::RPG::Client::TextID Desc; // 0x28
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 IntroID; // 0x3C
+		::RPG::Client::TextID Name; // 0x40
 
 		::System::Void _ctor()
 		{

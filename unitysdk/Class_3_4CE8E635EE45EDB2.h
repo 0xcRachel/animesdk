@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetLocalOffsetAsMoveTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4CE8E635EE45EDB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99EE470)
-#define CLASS_3_4CE8E635EE45EDB2__CTOR_OFFSET UNITYSDK_OFFSET(0x99EE440)
+#define CLASS_3_4CE8E635EE45EDB2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152D89B0)
+#define CLASS_3_4CE8E635EE45EDB2__CTOR_OFFSET UNITYSDK_OFFSET(0x152D8980)
 
-inline static constexpr unsigned int Class_3_4CE8E635EE45EDB2_TypeDefinitionIndex = 44472;
+inline static constexpr unsigned int Class_3_4CE8E635EE45EDB2_TypeDefinitionIndex = 51194;
 
 class Class_3_4CE8E635EE45EDB2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetLocalOffsetAsMoveTarget*>
 {

@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0x840F250)
-#define HDG_RDTUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0x83FFCD0)
-#define HDG_RDTUDPMESSAGEHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x83FF4B0)
+#define HDG_RDTUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0x12C280A0)
+#define HDG_RDTUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0x12C18A90)
+#define HDG_RDTUDPMESSAGEHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x12C18240)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 37927;
+	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 43804;
 
 	class rdtUdpMessageHello : public ::System::Object
 	{
 	public:
-		::System::String* m_serverVersion; // 0x10
-		::System::String* m_devicePlatform; // 0x18
-		::System::String* m_deviceType; // 0x20
-		::System::String* m_deviceName; // 0x28
+		::System::String* m_devicePlatform; // 0x10
+		::System::String* m_serverVersion; // 0x18
+		::System::String* m_deviceName; // 0x20
+		::System::String* m_deviceType; // 0x28
 		::System::Int32 m_serverPort; // 0x30
 
 		::System::Void _ctor()

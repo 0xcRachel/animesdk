@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournDivisionData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA396510)
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA396540)
-#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C___GENERATEDIVISIONINFO_B__6_0_OFFSET UNITYSDK_OFFSET(0xA396550)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F17520)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16F17550)
+#define RPG_CLIENT_ROGUETOURNDIVISIONCOLLECTION___C___GENERATEDIVISIONINFO_B__6_0_OFFSET UNITYSDK_OFFSET(0x16F17560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDivisionCollection___c_TypeDefinitionIndex = 55107;
+	inline static constexpr unsigned int RogueTournDivisionCollection___c_TypeDefinitionIndex = 62295;
 
 	class RogueTournDivisionCollection___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournDivisionCollection___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournDivisionCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0x18690);
-		}
 		static ::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0x18698);
+			return (::System::Comparison_1<::RPG::Client::RogueTournDivisionData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0x2B100);
+		}
+		static ::RPG::Client::RogueTournDivisionCollection___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournDivisionCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournDivisionCollection___c_TypeDefinitionIndex)->GetStaticField(0x2B108);
 		}
 
 		static ::System::Void _cctor()

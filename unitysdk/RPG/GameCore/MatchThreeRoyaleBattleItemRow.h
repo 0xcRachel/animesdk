@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEROYALEBATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173C9580)
-#define RPG_GAMECORE_MATCHTHREEROYALEBATTLEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173C9980)
+#define RPG_GAMECORE_MATCHTHREEROYALEBATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C3B0A0)
+#define RPG_GAMECORE_MATCHTHREEROYALEBATTLEITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3B4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeRoyaleBattleItemRow_TypeDefinitionIndex = 11073;
+	inline static constexpr unsigned int MatchThreeRoyaleBattleItemRow_TypeDefinitionIndex = 11476;
 
 	class MatchThreeRoyaleBattleItemRow : public ::System::Object
 	{
 	public:
 		::System::String* ItemIcon; // 0x10
-		::RPG::Client::TextID ItemDesc; // 0x18
-		::System::UInt32 BattleItemID; // 0x28
-		::RPG::GameCore::MatchThreePropType PropType; // 0x2C
+		::System::UInt32 BattleItemID; // 0x18
+		::RPG::GameCore::MatchThreePropType PropType; // 0x1C
+		::RPG::Client::TextID ItemName; // 0x20
 		::RPG::Client::TextID ItemHint; // 0x30
 		::System::UInt32 InputGridCount; // 0x40
 		::RPG::Client::TextID ItemUseFailHint; // 0x48
-		::RPG::Client::TextID ItemName; // 0x58
+		::RPG::Client::TextID ItemDesc; // 0x58
 
 		::System::Void _ctor()
 		{

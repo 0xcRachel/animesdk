@@ -6,33 +6,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKPHOTOSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178B8F10)
-#define RPG_GAMECORE_TRACKPHOTOSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178B9540)
+#define RPG_GAMECORE_TRACKPHOTOSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1948E7F0)
+#define RPG_GAMECORE_TRACKPHOTOSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1948EE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoStageRow_TypeDefinitionIndex = 11403;
+	inline static constexpr unsigned int TrackPhotoStageRow_TypeDefinitionIndex = 11805;
 
 	class TrackPhotoStageRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
+		::Il2CppArray<::System::UInt32>* JunkNumList; // 0x10
 		::Il2CppArray<::System::Single>* XYRange; // 0x18
-		::Il2CppArray<::System::UInt32>* StarList; // 0x20
-		::Il2CppArray<::System::UInt32>* JunkNumList; // 0x28
+		::System::String* ImagePath; // 0x20
+		::Il2CppArray<::System::UInt32>* StarList; // 0x28
 		::System::UInt32 StageID; // 0x30
-		::System::UInt32 RaidID; // 0x34
-		::System::Single DisLimit; // 0x38
-		::System::Single Fov; // 0x3C
-		::RPG::Client::TextID StageName; // 0x40
-		::System::UInt32 MainMissionID; // 0x50
-		::System::Single TrackMoveSpeed; // 0x54
-		::RPG::Client::TextID StageLocation; // 0x58
-		::System::UInt32 ActivityModuleID; // 0x68
-		::System::UInt32 MaxScore; // 0x6C
-		::System::UInt32 UnlockSubMissionID; // 0x70
-		::System::UInt32 TotalTrashCanNum; // 0x74
-		::RPG::Client::TextID StageDesc; // 0x78
+		::System::Single TrackMoveSpeed; // 0x34
+		::RPG::Client::TextID StageDesc; // 0x38
+		::System::Single Fov; // 0x48
+		::System::UInt32 MainMissionID; // 0x4C
+		::System::UInt32 RaidID; // 0x50
+		::System::UInt32 UnlockSubMissionID; // 0x54
+		::System::UInt32 MaxScore; // 0x58
+		::System::UInt32 ActivityModuleID; // 0x5C
+		::RPG::Client::TextID StageName; // 0x60
+		::RPG::Client::TextID StageLocation; // 0x70
+		::System::UInt32 TotalTrashCanNum; // 0x80
+		::System::Single DisLimit; // 0x84
 
 		::System::Void _ctor()
 		{

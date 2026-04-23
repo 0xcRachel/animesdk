@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_BSON_BSONOBJECTID_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1643DC00)
-#define NEWTONSOFT_JSON_BSON_BSONOBJECTID_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1643DC10)
-#define NEWTONSOFT_JSON_BSON_BSONOBJECTID__CTOR_OFFSET UNITYSDK_OFFSET(0x1643DC20)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECTID_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x17B4CFE0)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECTID_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x17B4CFF0)
+#define NEWTONSOFT_JSON_BSON_BSONOBJECTID__CTOR_OFFSET UNITYSDK_OFFSET(0x17B4D000)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonObjectId_TypeDefinitionIndex = 8463;
+	inline static constexpr unsigned int BsonObjectId_TypeDefinitionIndex = 8609;
 
 	class BsonObjectId : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesDynamicCollider_DynamicCollider_TypeDefinitionIndex = 64013;
+	inline static constexpr unsigned int DronesDynamicCollider_DynamicCollider_TypeDefinitionIndex = 72060;
 
 	struct alignas(8) DronesDynamicCollider_DynamicCollider
 	{

@@ -8,22 +8,22 @@ namespace MiHoYo::SDK { class AccountPlatNative_HoYoSDKPluginUICallback; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative___O_TypeDefinitionIndex = 36869;
+	inline static constexpr unsigned int AccountPlatNative___O_TypeDefinitionIndex = 42695;
 
 	class AccountPlatNative___O : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification** StaticGet__0___HoYoSDKInternalNotification()
 		{
-			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___O_TypeDefinitionIndex)->GetStaticField(0xB240);
+			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNotification**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___O_TypeDefinitionIndex)->GetStaticField(0x402E0);
 		}
 		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKPluginUICallback** StaticGet__2___HoYoSDKInternalPluginUICallback()
 		{
-			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKPluginUICallback**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___O_TypeDefinitionIndex)->GetStaticField(0xB248);
+			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKPluginUICallback**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___O_TypeDefinitionIndex)->GetStaticField(0x402E8);
 		}
 		static ::MiHoYo::SDK::AccountPlatNative_HoYoSDKNativeCallback** StaticGet__1___HoYoSDKInternalCallback()
 		{
-			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNativeCallback**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___O_TypeDefinitionIndex)->GetStaticField(0xB250);
+			return (::MiHoYo::SDK::AccountPlatNative_HoYoSDKNativeCallback**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___O_TypeDefinitionIndex)->GetStaticField(0x402F0);
 		}
 	};
 }

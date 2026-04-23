@@ -7,10 +7,10 @@ namespace RPG::GameCore { class GroupFetchLocalTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_6CAAD6111812C23A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x114CED40)
-#define CLASS_3_6CAAD6111812C23A__CTOR_OFFSET UNITYSDK_OFFSET(0x114CECC0)
+#define CLASS_3_6CAAD6111812C23A_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE595130)
+#define CLASS_3_6CAAD6111812C23A__CTOR_OFFSET UNITYSDK_OFFSET(0xE5950B0)
 
-inline static constexpr unsigned int Class_3_6CAAD6111812C23A_TypeDefinitionIndex = 47767;
+inline static constexpr unsigned int Class_3_6CAAD6111812C23A_TypeDefinitionIndex = 54506;
 
 class Class_3_6CAAD6111812C23A : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::GroupFetchLocalTarget*>
 {

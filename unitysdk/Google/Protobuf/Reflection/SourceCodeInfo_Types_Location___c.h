@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class SourceCodeInfo_Types_Location; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B37A40)
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B37A80)
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x15B37A90)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1979D6D0)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1979D710)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1979D720)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SourceCodeInfo_Types_Location___c_TypeDefinitionIndex = 6306;
+	inline static constexpr unsigned int SourceCodeInfo_Types_Location___c_TypeDefinitionIndex = 6316;
 
 	class SourceCodeInfo_Types_Location___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::SourceCodeInfo_Types_Location___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::SourceCodeInfo_Types_Location___c**)Il2CppClass::FromTypeDefinitionIndex(SourceCodeInfo_Types_Location___c_TypeDefinitionIndex)->GetStaticField(0xCB80);
+			return (::Google::Protobuf::Reflection::SourceCodeInfo_Types_Location___c**)Il2CppClass::FromTypeDefinitionIndex(SourceCodeInfo_Types_Location___c_TypeDefinitionIndex)->GetStaticField(0x6E60);
 		}
 
 		static ::System::Void _cctor()

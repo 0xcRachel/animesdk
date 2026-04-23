@@ -5,9 +5,9 @@
 
 namespace System { class String; }
 
-#define SHADERPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xABD3490)
+#define SHADERPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E28A00)
 
-inline static constexpr unsigned int ShaderPropertyData_TypeDefinitionIndex = 38410;
+inline static constexpr unsigned int ShaderPropertyData_TypeDefinitionIndex = 44294;
 
 class ShaderPropertyData : public ::System::Object
 {

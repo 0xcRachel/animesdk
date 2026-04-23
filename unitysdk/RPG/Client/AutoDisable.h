@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_AUTODISABLE_START_OFFSET UNITYSDK_OFFSET(0x91107A0)
-#define RPG_CLIENT_AUTODISABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x91107F0)
-#define RPG_CLIENT_AUTODISABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x9110890)
+#define RPG_CLIENT_AUTODISABLE_START_OFFSET UNITYSDK_OFFSET(0x1586CE00)
+#define RPG_CLIENT_AUTODISABLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1586CE50)
+#define RPG_CLIENT_AUTODISABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1586CEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoDisable_TypeDefinitionIndex = 55767;
+	inline static constexpr unsigned int AutoDisable_TypeDefinitionIndex = 62990;
 
 	class AutoDisable : public ::UnityEngine::MonoBehaviour
 	{

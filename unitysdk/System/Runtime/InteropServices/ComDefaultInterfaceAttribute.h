@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COMDEFAULTINTERFACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A7990)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COMDEFAULTINTERFACEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F5AE30)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ComDefaultInterfaceAttribute_TypeDefinitionIndex = 1395;
+	inline static constexpr unsigned int ComDefaultInterfaceAttribute_TypeDefinitionIndex = 1397;
 
 	class ComDefaultInterfaceAttribute : public ::System::Attribute
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetDeathDragonLinjian; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E86DD22170A138A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1C6A80)
-#define CLASS_3_E86DD22170A138A5__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C6A50)
+#define CLASS_3_E86DD22170A138A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE4D010)
+#define CLASS_3_E86DD22170A138A5__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4CFE0)
 
-inline static constexpr unsigned int Class_3_E86DD22170A138A5_TypeDefinitionIndex = 44354;
+inline static constexpr unsigned int Class_3_E86DD22170A138A5_TypeDefinitionIndex = 51070;
 
 class Class_3_E86DD22170A138A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDeathDragonLinjian*>
 {

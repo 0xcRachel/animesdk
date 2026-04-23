@@ -7,23 +7,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 
-#define CLASS_1_CA604A479B70DDEA_METHOD_1_02DA6C62D66D1A8F_OFFSET UNITYSDK_OFFSET(0xA70A5C0)
-#define CLASS_1_CA604A479B70DDEA_METHOD_1_5BFEF1FA046D4B65_OFFSET UNITYSDK_OFFSET(0xA70A8A0)
-#define CLASS_1_CA604A479B70DDEA_METHOD_1_A75D77CF366FF5B7_1_OFFSET UNITYSDK_OFFSET(0xA70AC90)
-#define CLASS_1_CA604A479B70DDEA_METHOD_1_A75D77CF366FF5B7_OFFSET UNITYSDK_OFFSET(0xA70AB80)
-#define CLASS_1_CA604A479B70DDEA_METHOD_1_B2A8BAAF32F350CB_OFFSET UNITYSDK_OFFSET(0xA70A740)
-#define CLASS_1_CA604A479B70DDEA_METHOD_1_C6192E2A14A49855_OFFSET UNITYSDK_OFFSET(0xA70A7C0)
-#define CLASS_1_CA604A479B70DDEA__CTOR_OFFSET UNITYSDK_OFFSET(0xA70ADA0)
+#define CLASS_1_CA604A479B70DDEA_METHOD_1_02DA6C62D66D1A8F_OFFSET UNITYSDK_OFFSET(0xDB7AC60)
+#define CLASS_1_CA604A479B70DDEA_METHOD_1_5BFEF1FA046D4B65_OFFSET UNITYSDK_OFFSET(0xDB7AF40)
+#define CLASS_1_CA604A479B70DDEA_METHOD_1_A75D77CF366FF5B7_1_OFFSET UNITYSDK_OFFSET(0xDB7B330)
+#define CLASS_1_CA604A479B70DDEA_METHOD_1_A75D77CF366FF5B7_OFFSET UNITYSDK_OFFSET(0xDB7B220)
+#define CLASS_1_CA604A479B70DDEA_METHOD_1_B2A8BAAF32F350CB_OFFSET UNITYSDK_OFFSET(0xDB7ADE0)
+#define CLASS_1_CA604A479B70DDEA_METHOD_1_C6192E2A14A49855_OFFSET UNITYSDK_OFFSET(0xDB7AE60)
+#define CLASS_1_CA604A479B70DDEA__CTOR_OFFSET UNITYSDK_OFFSET(0xDB7B440)
 
-inline static constexpr unsigned int Class_1_CA604A479B70DDEA_TypeDefinitionIndex = 50766;
+inline static constexpr unsigned int Class_1_CA604A479B70DDEA_TypeDefinitionIndex = 57645;
 
 class Class_1_CA604A479B70DDEA : public ::System::Object
 {
 public:
-	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
-	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_2; // 0x18
-	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_1; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>* Field_1_3; // 0x10
+	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
+	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x20
+	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_2; // 0x28
 
 	::System::Void _ctor()
 	{

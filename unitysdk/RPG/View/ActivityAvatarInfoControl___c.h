@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_VIEW_ACTIVITYAVATARINFOCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB1FCE0)
-#define RPG_VIEW_ACTIVITYAVATARINFOCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAB1FD20)
+#define RPG_VIEW_ACTIVITYAVATARINFOCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F2C500)
+#define RPG_VIEW_ACTIVITYAVATARINFOCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2C540)
 
 namespace RPG::View
 {
-	inline static constexpr unsigned int ActivityAvatarInfoControl___c_TypeDefinitionIndex = 41927;
+	inline static constexpr unsigned int ActivityAvatarInfoControl___c_TypeDefinitionIndex = 47907;
 
 	class ActivityAvatarInfoControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::View::ActivityAvatarInfoControl___c** StaticGet___9()
 		{
-			return (::RPG::View::ActivityAvatarInfoControl___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityAvatarInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x46CB0);
+			return (::RPG::View::ActivityAvatarInfoControl___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityAvatarInfoControl___c_TypeDefinitionIndex)->GetStaticField(0x6A870);
 		}
 
 		static ::System::Void _cctor()

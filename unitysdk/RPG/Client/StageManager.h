@@ -2,8 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+class Class_2_BA06A5BD139A4E18;
 namespace RPG::Client { class MapDef; }
 namespace RPG::Client { class Stage; }
+namespace RPG::Client::OpenWorld { class PVSRuntimeReplayCaseData; }
 namespace RPG::GameCore { class IRIFBXLodSizeConfig; }
 namespace RPG::GameCore { class LevelFloorBakedInfo; }
 namespace RPG::GameCore { class LevelFloorInfo; }
@@ -12,6 +14,7 @@ namespace RPG::GameCore { class OptionalBattleAreaConfigTable; }
 namespace RPG::GameCore { class OptionalLoadBlocksConfig; }
 namespace RPG::GameCore { class SceneConstValueConfig; }
 namespace RPG::GameCore { class StageAutoGenConfig; }
+namespace RPG::GameCore { class StageBaseConfig; }
 namespace RPG::GameCore { class StageConfig; }
 namespace RPG::GameCore { class StageLodMapConfig; }
 namespace RPG::GameCore { class StagePVSBakeConfig; }
@@ -25,59 +28,59 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_STAGEMANAGER_DESTROYSTAGE_OFFSET UNITYSDK_OFFSET(0xA4DC7A0)
-#define RPG_CLIENT_STAGEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0xA4DC8D0)
-#define RPG_CLIENT_STAGEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA4DCAB0)
-#define RPG_CLIENT_STAGEMANAGER_EDITORLOADSTAGEPVSBAKECONFIG_OFFSET UNITYSDK_OFFSET(0xA4DBFC0)
-#define RPG_CLIENT_STAGEMANAGER_GETCHAPTERLODCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xA4DB190)
-#define RPG_CLIENT_STAGEMANAGER_GETIRIFBXLODSIZECONFIGPATH_OFFSET UNITYSDK_OFFSET(0xA4DB2D0)
-#define RPG_CLIENT_STAGEMANAGER_GET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0xA4DCDB0)
-#define RPG_CLIENT_STAGEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA4DCAF0)
-#define RPG_CLIENT_STAGEMANAGER_GET_NORMDISTANCELODTEMPLATECONFIG_OFFSET UNITYSDK_OFFSET(0xA4DAAD0)
-#define RPG_CLIENT_STAGEMANAGER_GET_SCENECONSTVALUE_OFFSET UNITYSDK_OFFSET(0xA4DAD50)
-#define RPG_CLIENT_STAGEMANAGER_GET_SCENELODTEMPLATECONFIG_OFFSET UNITYSDK_OFFSET(0xA4DA940)
-#define RPG_CLIENT_STAGEMANAGER_GET_TAMONOTICKLODCONFIG_OFFSET UNITYSDK_OFFSET(0xA4DABC0)
-#define RPG_CLIENT_STAGEMANAGER_LOADBATTLEAREACONFIG_OFFSET UNITYSDK_OFFSET(0xA4DBE80)
-#define RPG_CLIENT_STAGEMANAGER_LOADIRIFBXLODSIZECONFIG_OFFSET UNITYSDK_OFFSET(0xA4DAEE0)
-#define RPG_CLIENT_STAGEMANAGER_LOADLODCONFIG_OFFSET UNITYSDK_OFFSET(0xA4DAA30)
-#define RPG_CLIENT_STAGEMANAGER_LOADOPTIONALBATTLEAREACONFIGTABLE_OFFSET UNITYSDK_OFFSET(0xA4DBB00)
-#define RPG_CLIENT_STAGEMANAGER_LOADOPTIONALLOADBLOCKSCONFIG_OFFSET UNITYSDK_OFFSET(0xA4DBA60)
-#define RPG_CLIENT_STAGEMANAGER_LOADPVSMETACONFIG_OFFSET UNITYSDK_OFFSET(0xA4DBC80)
-#define RPG_CLIENT_STAGEMANAGER_LOADSCENECONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xA4DAE40)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEAUTOGENCONFIG_OFFSET UNITYSDK_OFFSET(0xA4C2980)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYFLOORINFO_OFFSET UNITYSDK_OFFSET(0xA4DC080)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYMAPDEF_OFFSET UNITYSDK_OFFSET(0xA4DC120)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYPATH_OFFSET UNITYSDK_OFFSET(0xA4DCF90)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGECONFIG_OFFSET UNITYSDK_OFFSET(0xA4C28E0)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGELODMAPCONFIGBYSTAGEDIR_OFFSET UNITYSDK_OFFSET(0xA4DB390)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGELODMAPCONFIG_OFFSET UNITYSDK_OFFSET(0xA4DAFE0)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEPVSRUNTIMEDEBUGEXPORTDATA_OFFSET UNITYSDK_OFFSET(0xA4DBE30)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEVOXELMETADATA_OFFSET UNITYSDK_OFFSET(0xA4DBD20)
-#define RPG_CLIENT_STAGEMANAGER_LOADSTAGE_OFFSET UNITYSDK_OFFSET(0xA4DC350)
-#define RPG_CLIENT_STAGEMANAGER_LOADTAMONOTICKLODCONFIG_OFFSET UNITYSDK_OFFSET(0xA4DACB0)
-#define RPG_CLIENT_STAGEMANAGER_LOADVOLUMECONFIG_OFFSET UNITYSDK_OFFSET(0xA4DBBA0)
-#define RPG_CLIENT_STAGEMANAGER_SETCURRSTAGE_OFFSET UNITYSDK_OFFSET(0xA4DCBD0)
-#define RPG_CLIENT_STAGEMANAGER_SET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0xA4DCDC0)
-#define RPG_CLIENT_STAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA4DC000)
+#define RPG_CLIENT_STAGEMANAGER_DESTROYSTAGE_OFFSET UNITYSDK_OFFSET(0x161FE830)
+#define RPG_CLIENT_STAGEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x161FE960)
+#define RPG_CLIENT_STAGEMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x161FEB40)
+#define RPG_CLIENT_STAGEMANAGER_EDITORLOADSTAGEPVSBAKECONFIG_OFFSET UNITYSDK_OFFSET(0x161FE270)
+#define RPG_CLIENT_STAGEMANAGER_GET_CURRBIGSTAGE_OFFSET UNITYSDK_OFFSET(0x161FED70)
+#define RPG_CLIENT_STAGEMANAGER_GET_CURRSTAGE_OFFSET UNITYSDK_OFFSET(0x161FED80)
+#define RPG_CLIENT_STAGEMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x161FEB80)
+#define RPG_CLIENT_STAGEMANAGER_GET_NORMDISTANCELODTEMPLATECONFIG_OFFSET UNITYSDK_OFFSET(0x161FCD40)
+#define RPG_CLIENT_STAGEMANAGER_GET_SCENECONSTVALUE_OFFSET UNITYSDK_OFFSET(0x161FCFC0)
+#define RPG_CLIENT_STAGEMANAGER_GET_SCENELODTEMPLATECONFIG_OFFSET UNITYSDK_OFFSET(0x161FCBB0)
+#define RPG_CLIENT_STAGEMANAGER_GET_TAMONOTICKLODCONFIG_OFFSET UNITYSDK_OFFSET(0x161FCE30)
+#define RPG_CLIENT_STAGEMANAGER_LOADBATTLEAREACONFIG_OFFSET UNITYSDK_OFFSET(0x161FE130)
+#define RPG_CLIENT_STAGEMANAGER_LOADIRIFBXLODSIZECONFIG_OFFSET UNITYSDK_OFFSET(0x161FD150)
+#define RPG_CLIENT_STAGEMANAGER_LOADLODCONFIG_OFFSET UNITYSDK_OFFSET(0x161FCCA0)
+#define RPG_CLIENT_STAGEMANAGER_LOADOPTIONALBATTLEAREACONFIGTABLE_OFFSET UNITYSDK_OFFSET(0x161FDD60)
+#define RPG_CLIENT_STAGEMANAGER_LOADOPTIONALLOADBLOCKSCONFIG_OFFSET UNITYSDK_OFFSET(0x161FDCC0)
+#define RPG_CLIENT_STAGEMANAGER_LOADPVSMETACONFIG_OFFSET UNITYSDK_OFFSET(0x161FDEE0)
+#define RPG_CLIENT_STAGEMANAGER_LOADSCENECONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0x161FD0B0)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEAUTOGENCONFIG_OFFSET UNITYSDK_OFFSET(0x161FD340)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBASECONFIG_OFFSET UNITYSDK_OFFSET(0x161FD2A0)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYFLOORINFO_OFFSET UNITYSDK_OFFSET(0x161FE330)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYMAPDEF_OFFSET UNITYSDK_OFFSET(0x161FE3D0)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYPATH_OFFSET UNITYSDK_OFFSET(0x161FEE00)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGECONFIG_OFFSET UNITYSDK_OFFSET(0x161FD250)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGELODMAPCONFIGBYSTAGEDIR_OFFSET UNITYSDK_OFFSET(0x161FD5F0)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGELODMAPCONFIG_OFFSET UNITYSDK_OFFSET(0x161FD440)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEPVSRUNTIMEDEBUGEXPORTDATA_OFFSET UNITYSDK_OFFSET(0x161FE090)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEPVSRUNTIMEREPLAYCASEDATA_OFFSET UNITYSDK_OFFSET(0x161FE0E0)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGEVOXELMETADATA_OFFSET UNITYSDK_OFFSET(0x161FDF80)
+#define RPG_CLIENT_STAGEMANAGER_LOADSTAGE_OFFSET UNITYSDK_OFFSET(0x161FE5D0)
+#define RPG_CLIENT_STAGEMANAGER_LOADTAMONOTICKLODCONFIG_OFFSET UNITYSDK_OFFSET(0x161FCF20)
+#define RPG_CLIENT_STAGEMANAGER_LOADVOLUMECONFIG_OFFSET UNITYSDK_OFFSET(0x161FDE00)
+#define RPG_CLIENT_STAGEMANAGER_SETCURRSTAGE_OFFSET UNITYSDK_OFFSET(0x161FEC60)
+#define RPG_CLIENT_STAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x161FE2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageManager_TypeDefinitionIndex = 56810;
+	inline static constexpr unsigned int StageManager_TypeDefinitionIndex = 64056;
 
 	class StageManager : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::StageManager** StaticGet__instance()
 		{
-			return (::RPG::Client::StageManager**)Il2CppClass::FromTypeDefinitionIndex(StageManager_TypeDefinitionIndex)->GetStaticField(0x3B220);
+			return (::RPG::Client::StageManager**)Il2CppClass::FromTypeDefinitionIndex(StageManager_TypeDefinitionIndex)->GetStaticField(0x3F4A0);
 		}
-		::RPG::GameCore::SceneConstValueConfig* _SceneConstValue; // 0x10
-		::RPG::GameCore::LodConfig* _NormDistanceLodTemplateConfig; // 0x18
-		::RPG::GameCore::TAMonoTickLodConfig* _TAMonoTickLodConfig; // 0x20
-		::RPG::Client::Stage* CacheCurrStage; // 0x28
-		::RPG::Client::Stage* _CurrStage; // 0x30
-		::RPG::GameCore::LodConfig* _SceneLodTemplateConfig; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::Stage*>* _dicStages; // 0x40
+		::RPG::GameCore::TAMonoTickLodConfig* _TAMonoTickLodConfig; // 0x10
+		::RPG::GameCore::SceneConstValueConfig* _SceneConstValue; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_BA06A5BD139A4E18*>* _dicStages; // 0x20
+		::RPG::GameCore::LodConfig* _NormDistanceLodTemplateConfig; // 0x28
+		::RPG::GameCore::LodConfig* _SceneLodTemplateConfig; // 0x30
+		::Class_2_BA06A5BD139A4E18* _CurrStage; // 0x38
+		::Class_2_BA06A5BD139A4E18* CacheCurrStage; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -114,6 +117,11 @@ namespace RPG::Client
 			return ((::RPG::GameCore::StageConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGECONFIG_OFFSET))(jsonPath);
 		}
 
+		static ::RPG::GameCore::StageBaseConfig* LoadStageBaseConfig(::System::String* jsonPath)
+		{
+			return ((::RPG::GameCore::StageBaseConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBASECONFIG_OFFSET))(jsonPath);
+		}
+
 		static ::RPG::GameCore::StageAutoGenConfig* LoadStageAutoGenConfig(::System::String* jsonPath)
 		{
 			return ((::RPG::GameCore::StageAutoGenConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEAUTOGENCONFIG_OFFSET))(jsonPath);
@@ -137,16 +145,6 @@ namespace RPG::Client
 		static ::RPG::GameCore::StageLodMapConfig* LoadStageLodMapConfig(::System::String* jsonPath)
 		{
 			return ((::RPG::GameCore::StageLodMapConfig*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGELODMAPCONFIG_OFFSET))(jsonPath);
-		}
-
-		static ::System::String* GetChapterLodConfigPath(::System::String* stageDir, ::System::Boolean isAuto)
-		{
-			return ((::System::String*(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_GETCHAPTERLODCONFIGPATH_OFFSET))(stageDir, isAuto);
-		}
-
-		static ::System::String* GetIRIFBXLodSizeConfigPath(::System::String* stageDir, ::System::String* stageName)
-		{
-			return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_GETIRIFBXLODSIZECONFIGPATH_OFFSET))(stageDir, stageName);
 		}
 
 		static ::RPG::GameCore::StageLodMapConfig* LoadStageLodMapConfigByStageDir(::System::String* stageDir, ::System::Collections::Generic::HashSet_1<::System::String*>*& useAutoLodTemplateItems)
@@ -184,6 +182,11 @@ namespace RPG::Client
 			return ((::RPG::GameCore::StagePVSRuntimeDebugExportData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEPVSRUNTIMEDEBUGEXPORTDATA_OFFSET))(this, stageName);
 		}
 
+		::RPG::Client::OpenWorld::PVSRuntimeReplayCaseData* LoadStagePVSRuntimeReplayCaseData(::System::String* stageName)
+		{
+			return ((::RPG::Client::OpenWorld::PVSRuntimeReplayCaseData*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEPVSRUNTIMEREPLAYCASEDATA_OFFSET))(this, stageName);
+		}
+
 		static ::RPG::GameCore::UnifiedBattleAreaConfig* LoadBattleAreaConfig(::System::UInt32 unifiedBattleAreaId, ::System::Boolean useLevelEditorCache)
 		{
 			return ((::RPG::GameCore::UnifiedBattleAreaConfig*(*)(::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADBATTLEAREACONFIG_OFFSET))(unifiedBattleAreaId, useLevelEditorCache);
@@ -194,19 +197,19 @@ namespace RPG::Client
 			return ((::RPG::GameCore::StagePVSBakeConfig*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_EDITORLOADSTAGEPVSBAKECONFIG_OFFSET))();
 		}
 
-		::RPG::Client::Stage* LoadStageByFloorInfo(::RPG::GameCore::LevelFloorInfo* floorInfo, ::RPG::GameCore::LevelFloorBakedInfo* floorBakedInfo, ::System::UInt32 dimensionID)
+		::Class_2_BA06A5BD139A4E18* LoadStageByFloorInfo(::RPG::GameCore::LevelFloorInfo* floorInfo, ::RPG::GameCore::LevelFloorBakedInfo* floorBakedInfo, ::System::UInt32 dimensionID)
 		{
-			return ((::RPG::Client::Stage*(*)(::PVOID, ::RPG::GameCore::LevelFloorInfo*, ::RPG::GameCore::LevelFloorBakedInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYFLOORINFO_OFFSET))(this, floorInfo, floorBakedInfo, dimensionID);
+			return ((::Class_2_BA06A5BD139A4E18*(*)(::PVOID, ::RPG::GameCore::LevelFloorInfo*, ::RPG::GameCore::LevelFloorBakedInfo*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYFLOORINFO_OFFSET))(this, floorInfo, floorBakedInfo, dimensionID);
 		}
 
-		::RPG::Client::Stage* LoadStageByMapDef(::RPG::Client::MapDef* mapDef)
+		::Class_2_BA06A5BD139A4E18* LoadStageByMapDef(::RPG::Client::MapDef* mapDef)
 		{
-			return ((::RPG::Client::Stage*(*)(::PVOID, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYMAPDEF_OFFSET))(this, mapDef);
+			return ((::Class_2_BA06A5BD139A4E18*(*)(::PVOID, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYMAPDEF_OFFSET))(this, mapDef);
 		}
 
-		::RPG::Client::Stage* LoadStage(::System::String* floorID, ::System::UInt32 dimensionID, ::System::String* strName, ::System::String* strNavmeshPath, ::System::String* strNavmeshLargeMonsterDataPath, ::System::String* dir)
+		::Class_2_BA06A5BD139A4E18* LoadStage(::System::String* floorID, ::System::UInt32 dimensionID, ::System::String* strName, ::System::String* strNavmeshPath, ::System::String* strNavmeshLargeMonsterDataPath, ::System::String* dir)
 		{
-			return ((::RPG::Client::Stage*(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGE_OFFSET))(this, floorID, dimensionID, strName, strNavmeshPath, strNavmeshLargeMonsterDataPath, dir);
+			return ((::Class_2_BA06A5BD139A4E18*(*)(::PVOID, ::System::String*, ::System::UInt32, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGE_OFFSET))(this, floorID, dimensionID, strName, strNavmeshPath, strNavmeshLargeMonsterDataPath, dir);
 		}
 
 		::System::Void DestroyStage(::System::String* floorID, ::System::UInt32 dimensionID)
@@ -229,9 +232,14 @@ namespace RPG::Client
 			return ((::RPG::Client::StageManager*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_GET_INSTANCE_OFFSET))();
 		}
 
-		::System::Void SetCurrStage(::RPG::Client::Stage* stage, ::System::Boolean onlyBattle)
+		::System::Void SetCurrStage(::Class_2_BA06A5BD139A4E18* stage, ::System::Boolean onlyBattle)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_SETCURRSTAGE_OFFSET))(this, stage, onlyBattle);
+			return ((::System::Void(*)(::PVOID, ::Class_2_BA06A5BD139A4E18*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_SETCURRSTAGE_OFFSET))(this, stage, onlyBattle);
+		}
+
+		::Class_2_BA06A5BD139A4E18* get_CurrBigStage()
+		{
+			return ((::Class_2_BA06A5BD139A4E18*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_GET_CURRBIGSTAGE_OFFSET))(this);
 		}
 
 		::RPG::Client::Stage* get_CurrStage()
@@ -239,14 +247,9 @@ namespace RPG::Client
 			return ((::RPG::Client::Stage*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_GET_CURRSTAGE_OFFSET))(this);
 		}
 
-		::System::Void set_CurrStage(::RPG::Client::Stage* value)
+		::Class_2_BA06A5BD139A4E18* LoadStageByPath(::System::String* strJsonPath, ::System::String* strNavmeshPath, ::System::String* strNavmeshLargeMonsterDataPath)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Stage*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_SET_CURRSTAGE_OFFSET))(this, value);
-		}
-
-		::RPG::Client::Stage* LoadStageByPath(::System::String* strJsonPath, ::System::String* strNavmeshPath, ::System::String* strNavmeshLargeMonsterDataPath)
-		{
-			return ((::RPG::Client::Stage*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYPATH_OFFSET))(this, strJsonPath, strNavmeshPath, strNavmeshLargeMonsterDataPath);
+			return ((::Class_2_BA06A5BD139A4E18*(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEMANAGER_LOADSTAGEBYPATH_OFFSET))(this, strJsonPath, strNavmeshPath, strNavmeshLargeMonsterDataPath);
 		}
 	};
 }

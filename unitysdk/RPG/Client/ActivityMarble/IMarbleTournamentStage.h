@@ -7,7 +7,7 @@ namespace RPG::Client::ActivityMarble { class MarblePlayerProgressInfo; }
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int IMarbleTournamentStage_TypeDefinitionIndex = 61433;
+	inline static constexpr unsigned int IMarbleTournamentStage_TypeDefinitionIndex = 68939;
 
 	class IMarbleTournamentStage
 	{

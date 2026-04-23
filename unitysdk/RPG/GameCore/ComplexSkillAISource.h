@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCE_METHOD_2_C9DE6815EF87F921_OFFSET UNITYSDK_OFFSET(0x17138BF0)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCE_METHOD_2_F986F3B63223080A_OFFSET UNITYSDK_OFFSET(0x17136130)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17138C50)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x171362B0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCE_METHOD_2_C9DE6815EF87F921_OFFSET UNITYSDK_OFFSET(0x18F96940)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCE_METHOD_2_F986F3B63223080A_OFFSET UNITYSDK_OFFSET(0x18F93B40)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F969A0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F93CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISource_TypeDefinitionIndex = 14215;
+	inline static constexpr unsigned int ComplexSkillAISource_TypeDefinitionIndex = 14684;
 
 	class ComplexSkillAISource : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISource*>*>** StaticGet__FromBinary_ComplexSkillAISource_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISource*>*>**)Il2CppClass::FromTypeDefinitionIndex(ComplexSkillAISource_TypeDefinitionIndex)->GetStaticField(0x2B6F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISource*>*>**)Il2CppClass::FromTypeDefinitionIndex(ComplexSkillAISource_TypeDefinitionIndex)->GetStaticField(0x16BD0);
 		}
 
 		::System::Void _ctor()

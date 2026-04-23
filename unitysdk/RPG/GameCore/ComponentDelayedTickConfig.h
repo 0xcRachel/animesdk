@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG_METHOD_2_263AF8AAFB83F627_OFFSET UNITYSDK_OFFSET(0x1713E120)
-#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1713E2A0)
+#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG_METHOD_2_263AF8AAFB83F627_OFFSET UNITYSDK_OFFSET(0x18F9C230)
+#define RPG_GAMECORE_COMPONENTDELAYEDTICKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F9C3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComponentDelayedTickConfig_TypeDefinitionIndex = 15172;
+	inline static constexpr unsigned int ComponentDelayedTickConfig_TypeDefinitionIndex = 15686;
 
 	class ComponentDelayedTickConfig : public ::RPG::GameCore::JsonConfig
 	{

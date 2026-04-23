@@ -9,19 +9,19 @@ class Class_3_543326C044264182;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_AB3C5C546C7E20BB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x119420C0)
-#define CLASS_1_AB3C5C546C7E20BB_METHOD_1_894A24F1DEB4A399_OFFSET UNITYSDK_OFFSET(0x11942150)
-#define CLASS_1_AB3C5C546C7E20BB_METHOD_1_98511BB23D2E3748_OFFSET UNITYSDK_OFFSET(0x11942100)
-#define CLASS_1_AB3C5C546C7E20BB__CTOR_OFFSET UNITYSDK_OFFSET(0x11941D70)
+#define CLASS_1_AB3C5C546C7E20BB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC2FB540)
+#define CLASS_1_AB3C5C546C7E20BB_METHOD_1_894A24F1DEB4A399_OFFSET UNITYSDK_OFFSET(0xC2FB5D0)
+#define CLASS_1_AB3C5C546C7E20BB_METHOD_1_98511BB23D2E3748_OFFSET UNITYSDK_OFFSET(0xC2FB580)
+#define CLASS_1_AB3C5C546C7E20BB__CTOR_OFFSET UNITYSDK_OFFSET(0xC2FB1F0)
 
-inline static constexpr unsigned int Class_1_AB3C5C546C7E20BB_TypeDefinitionIndex = 63409;
+inline static constexpr unsigned int Class_1_AB3C5C546C7E20BB_TypeDefinitionIndex = 71449;
 
 class Class_1_AB3C5C546C7E20BB : public ::System::Object
 {
 public:
-	::Class_3_543326C044264182* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>* Field_1_2; // 0x18
-	::Class_2_E9C9AAD7C711B3E3* Field_1_0; // 0x20
+	::Class_2_E9C9AAD7C711B3E3* Field_1_0; // 0x10
+	::Class_3_543326C044264182* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Color>* Field_1_2; // 0x20
 
 	::System::Void _ctor(::Class_2_E9C9AAD7C711B3E3* a1, ::Class_3_543326C044264182* a2)
 	{

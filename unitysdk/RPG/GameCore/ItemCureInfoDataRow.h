@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCUREINFODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172DDA90)
-#define RPG_GAMECORE_ITEMCUREINFODATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172DE1F0)
+#define RPG_GAMECORE_ITEMCUREINFODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1889C3D0)
+#define RPG_GAMECORE_ITEMCUREINFODATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1889CB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemCureInfoDataRow_TypeDefinitionIndex = 12687;
+	inline static constexpr unsigned int ItemCureInfoDataRow_TypeDefinitionIndex = 13154;
 
 	class ItemCureInfoDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ImgPath; // 0x10
-		::RPG::Client::TextID CureInfoTitle; // 0x18
-		::RPG::Client::TextID CureInfoDesc; // 0x28
-		::System::Boolean SyncServerOnUse; // 0x38
-		::System::UInt32 ID; // 0x3C
+		::System::Boolean SyncServerOnUse; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::RPG::Client::TextID CureInfoDesc; // 0x20
+		::RPG::Client::TextID CureInfoTitle; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -6,10 +6,10 @@ class Class_2_850703FC67A72520;
 namespace RPG::GameCore { class MissionDisableRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_850703FC67A72520___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x87F9310)
-#define CLASS_2_850703FC67A72520___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x87F95E0)
+#define CLASS_2_850703FC67A72520___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEDB06A0)
+#define CLASS_2_850703FC67A72520___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xEDB0970)
 
-inline static constexpr unsigned int Class_2_850703FC67A72520___c__DisplayClass2_0_TypeDefinitionIndex = 43128;
+inline static constexpr unsigned int Class_2_850703FC67A72520___c__DisplayClass2_0_TypeDefinitionIndex = 49119;
 
 class Class_2_850703FC67A72520___c__DisplayClass2_0 : public ::System::Object
 {

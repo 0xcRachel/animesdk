@@ -11,31 +11,31 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16094A90)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x160A2AF0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__10_OFFSET UNITYSDK_OFFSET(0x160A5530)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__11_OFFSET UNITYSDK_OFFSET(0x160A5C70)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__15_OFFSET UNITYSDK_OFFSET(0x160A76A0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__16_OFFSET UNITYSDK_OFFSET(0x160A7760)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x160A33E0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__4_OFFSET UNITYSDK_OFFSET(0x160A4150)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__5_OFFSET UNITYSDK_OFFSET(0x160A41C0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__6_OFFSET UNITYSDK_OFFSET(0x160A47D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15462560)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15462570)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__10_OFFSET UNITYSDK_OFFSET(0x15464FC0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__11_OFFSET UNITYSDK_OFFSET(0x15465700)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__15_OFFSET UNITYSDK_OFFSET(0x15467130)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__16_OFFSET UNITYSDK_OFFSET(0x154682E0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x15462E60)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__4_OFFSET UNITYSDK_OFFSET(0x15463BD0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__5_OFFSET UNITYSDK_OFFSET(0x15463C40)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS18_0__LOGIN_B__6_OFFSET UNITYSDK_OFFSET(0x15464250)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass18_0_TypeDefinitionIndex = 8023;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass18_0_TypeDefinitionIndex = 8169;
 
 	class ComboManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__6; // 0x10
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__16; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x20
-		::System::Action_1<::System::String*>* callback; // 0x28
-		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x30
-		::System::Action* __9__4; // 0x38
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__11; // 0x40
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__1; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__11; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__6; // 0x20
+		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x28
+		::System::Action* __9__4; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x38
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::AccountModel*>*>* __9__16; // 0x40
 
 		::System::Void _ctor()
 		{

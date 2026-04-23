@@ -5,24 +5,24 @@
 namespace RPG::Client::ChenLingBattle { class EffectProgressConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9345010)
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CREATEDYNAMICPROGRESSEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0x9345060)
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9345050)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CAD8B0)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CREATEDYNAMICPROGRESSEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0x17CAD900)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17CAD8F0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int DynamicProgressEffect___c_TypeDefinitionIndex = 62122;
+	inline static constexpr unsigned int DynamicProgressEffect___c_TypeDefinitionIndex = 70121;
 
 	class DynamicProgressEffect___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicProgressEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E2A0);
-		}
 		static ::RPG::Client::ChenLingBattle::DynamicProgressEffect___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattle::DynamicProgressEffect___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicProgressEffect___c_TypeDefinitionIndex)->GetStaticField(0x3E2A8);
+			return (::RPG::Client::ChenLingBattle::DynamicProgressEffect___c**)Il2CppClass::FromTypeDefinitionIndex(DynamicProgressEffect___c_TypeDefinitionIndex)->GetStaticField(0x5E6E0);
+		}
+		static ::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DynamicProgressEffect___c_TypeDefinitionIndex)->GetStaticField(0x5E6E8);
 		}
 
 		static ::System::Void _cctor()

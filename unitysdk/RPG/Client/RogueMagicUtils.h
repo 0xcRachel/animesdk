@@ -7,74 +7,74 @@
 #include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_737;
-class Class_1_3A7B270FE0BE90AE_4;
+class Class_0_16E4307DCC419505_837;
+class Class_1_FF03248024BAA97A_4;
 namespace RPG::Client { class BattleGamePhase; }
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace RPG::GameCore { class RogueMagicPowerConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMAGICUTILS_ASSERT_OFFSET UNITYSDK_OFFSET(0xA340B30)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETACTIVITYGOTOID_OFFSET UNITYSDK_OFFSET(0xA342130)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITBASICPOWER_OFFSET UNITYSDK_OFFSET(0xA339D00)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITSTOTALBASICPOWER_OFFSET UNITYSDK_OFFSET(0xA340B80)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETCONTENTDISPLAYTEXTID_OFFSET UNITYSDK_OFFSET(0xA33D9D0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETCURGAMEDIFFCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0xA33AEE0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETGUIDEGOTOID_OFFSET UNITYSDK_OFFSET(0xA342050)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETMISCDISPLAYTEXTID_OFFSET UNITYSDK_OFFSET(0xA328CD0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITFACTOR_OFFSET UNITYSDK_OFFSET(0xA341190)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITPERCENT_OFFSET UNITYSDK_OFFSET(0xA33A150)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITSTOTALFACTOR_OFFSET UNITYSDK_OFFSET(0xA340E30)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETROGUEMAGICEFFECTTYPECOUNT_OFFSET UNITYSDK_OFFSET(0xA341700)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETSCEPTERFUNCTYPETEXTID_OFFSET UNITYSDK_OFFSET(0xA3407D0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERBASICPOWER_OFFSET UNITYSDK_OFFSET(0xA336140)
-#define RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERTOTALPOWER_OFFSET UNITYSDK_OFFSET(0xA3399D0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISGUIDEAREAPASSED_OFFSET UNITYSDK_OFFSET(0xA3406E0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISGUIDEMISSIONFINISHED_OFFSET UNITYSDK_OFFSET(0xA341EB0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISROGUEMAGICBATTLE_OFFSET UNITYSDK_OFFSET(0xA3405C0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISSCEPTERFUNCTYPEACTIVE_OFFSET UNITYSDK_OFFSET(0xA340900)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISSPECIFICSCEPTERFUNCTYPEACTIVE_OFFSET UNITYSDK_OFFSET(0xA340970)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISSTYLETYPEACTIVE_OFFSET UNITYSDK_OFFSET(0xA3409D0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0xA341DA0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_LOGERROR_OFFSET UNITYSDK_OFFSET(0xA32CB20)
-#define RPG_CLIENT_ROGUEMAGICUTILS_LOGWARNING_OFFSET UNITYSDK_OFFSET(0xA340AE0)
-#define RPG_CLIENT_ROGUEMAGICUTILS_LOG_OFFSET UNITYSDK_OFFSET(0xA340A90)
-#define RPG_CLIENT_ROGUEMAGICUTILS_PREPAREACTIVITYPANELMAINMISSIONDATA_OFFSET UNITYSDK_OFFSET(0xA32DA40)
-#define RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINSIDEROGUESCENE_OFFSET UNITYSDK_OFFSET(0xA333060)
-#define RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINTOROGUESCENE_OFFSET UNITYSDK_OFFSET(0xA331A00)
-#define RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTOUTOFROGUESCENE_OFFSET UNITYSDK_OFFSET(0xA331BE0)
-#define RPG_CLIENT_ROGUEMAGICUTILS__GETFUNCTYPEMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0xA341900)
-#define RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEULTRAUNITSPECIALFACTOR_OFFSET UNITYSDK_OFFSET(0xA341490)
-#define RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_OFFSET UNITYSDK_OFFSET(0xA341800)
-#define RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPEFACTOR_OFFSET UNITYSDK_OFFSET(0xA341270)
-#define RPG_CLIENT_ROGUEMAGICUTILS__GETRANGETYPEMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0xA341B50)
-#define RPG_CLIENT_ROGUEMAGICUTILS__ISROGUEMAGICFUNCTYPEMATCH_OFFSET UNITYSDK_OFFSET(0xA341210)
-#define RPG_CLIENT_ROGUEMAGICUTILS__ISROGUEMAGICRANGTYPEMATCH_OFFSET UNITYSDK_OFFSET(0xA341130)
-#define RPG_CLIENT_ROGUEMAGICUTILS__ISROGUEMAGICSTYLETYPEMATCH_OFFSET UNITYSDK_OFFSET(0xA3410D0)
-#define RPG_CLIENT_ROGUEMAGICUTILS__SETTRANSITIONPERFORMANCETYPEINROGUE_OFFSET UNITYSDK_OFFSET(0xA3404E0)
-#define RPG_CLIENT_ROGUEMAGICUTILS__SETTRANSITIONPERFORMANCETYPEOUTOFROGUE_OFFSET UNITYSDK_OFFSET(0xA340450)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ASSERT_OFFSET UNITYSDK_OFFSET(0x1633F0C0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETACTIVITYGOTOID_OFFSET UNITYSDK_OFFSET(0x16341180)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITBASICPOWER_OFFSET UNITYSDK_OFFSET(0x1633F990)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITSTOTALBASICPOWER_OFFSET UNITYSDK_OFFSET(0x1633F3E0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETCONTENTDISPLAYTEXTID_OFFSET UNITYSDK_OFFSET(0x1633EF20)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETCURGAMEDIFFCOMPLEVEL_OFFSET UNITYSDK_OFFSET(0x1633EDA0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETGUIDEGOTOID_OFFSET UNITYSDK_OFFSET(0x163410A0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETMISCDISPLAYTEXTID_OFFSET UNITYSDK_OFFSET(0x1633EE80)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITFACTOR_OFFSET UNITYSDK_OFFSET(0x1633FC40)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITPERCENT_OFFSET UNITYSDK_OFFSET(0x1633FCC0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITSTOTALFACTOR_OFFSET UNITYSDK_OFFSET(0x1633F690)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETROGUEMAGICEFFECTTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x163404F0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETSCEPTERFUNCTYPETEXTID_OFFSET UNITYSDK_OFFSET(0x1633E9E0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERBASICPOWER_OFFSET UNITYSDK_OFFSET(0x1633F1D0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERTOTALPOWER_OFFSET UNITYSDK_OFFSET(0x1633F110)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISGUIDEAREAPASSED_OFFSET UNITYSDK_OFFSET(0x1633E8F0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISGUIDEMISSIONFINISHED_OFFSET UNITYSDK_OFFSET(0x16340F00)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISROGUEMAGICBATTLE_OFFSET UNITYSDK_OFFSET(0x1633E7D0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISSCEPTERFUNCTYPEACTIVE_OFFSET UNITYSDK_OFFSET(0x1633EB20)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISSPECIFICSCEPTERFUNCTYPEACTIVE_OFFSET UNITYSDK_OFFSET(0x1633EC80)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISSTYLETYPEACTIVE_OFFSET UNITYSDK_OFFSET(0x1633ECE0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x16340DF0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1633F060)
+#define RPG_CLIENT_ROGUEMAGICUTILS_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1633F010)
+#define RPG_CLIENT_ROGUEMAGICUTILS_LOG_OFFSET UNITYSDK_OFFSET(0x1633EFC0)
+#define RPG_CLIENT_ROGUEMAGICUTILS_PREPAREACTIVITYPANELMAINMISSIONDATA_OFFSET UNITYSDK_OFFSET(0x16340B90)
+#define RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINSIDEROGUESCENE_OFFSET UNITYSDK_OFFSET(0x1633D160)
+#define RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINTOROGUESCENE_OFFSET UNITYSDK_OFFSET(0x1633CD30)
+#define RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTOUTOFROGUESCENE_OFFSET UNITYSDK_OFFSET(0x1633D080)
+#define RPG_CLIENT_ROGUEMAGICUTILS__GETFUNCTYPEMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0x163406F0)
+#define RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEULTRAUNITSPECIALFACTOR_OFFSET UNITYSDK_OFFSET(0x16340280)
+#define RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_OFFSET UNITYSDK_OFFSET(0x163405F0)
+#define RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPEFACTOR_OFFSET UNITYSDK_OFFSET(0x16340060)
+#define RPG_CLIENT_ROGUEMAGICUTILS__GETRANGETYPEMATCHCOUNT_OFFSET UNITYSDK_OFFSET(0x16340940)
+#define RPG_CLIENT_ROGUEMAGICUTILS__ISROGUEMAGICFUNCTYPEMATCH_OFFSET UNITYSDK_OFFSET(0x16340000)
+#define RPG_CLIENT_ROGUEMAGICUTILS__ISROGUEMAGICRANGTYPEMATCH_OFFSET UNITYSDK_OFFSET(0x1633FBE0)
+#define RPG_CLIENT_ROGUEMAGICUTILS__ISROGUEMAGICSTYLETYPEMATCH_OFFSET UNITYSDK_OFFSET(0x1633F930)
+#define RPG_CLIENT_ROGUEMAGICUTILS__SETTRANSITIONPERFORMANCETYPEINROGUE_OFFSET UNITYSDK_OFFSET(0x1633D410)
+#define RPG_CLIENT_ROGUEMAGICUTILS__SETTRANSITIONPERFORMANCETYPEOUTOFROGUE_OFFSET UNITYSDK_OFFSET(0x1633CE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicUtils_TypeDefinitionIndex = 54926;
+	inline static constexpr unsigned int RogueMagicUtils_TypeDefinitionIndex = 62114;
 
 	class RogueMagicUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void TeleportIntoRogueScene(::Class_1_3A7B270FE0BE90AE_4* sceneExtInfo)
+		static ::System::Void TeleportIntoRogueScene(::Class_1_FF03248024BAA97A_4* sceneExtInfo)
 		{
-			return ((::System::Void(*)(::Class_1_3A7B270FE0BE90AE_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINTOROGUESCENE_OFFSET))(sceneExtInfo);
+			return ((::System::Void(*)(::Class_1_FF03248024BAA97A_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINTOROGUESCENE_OFFSET))(sceneExtInfo);
 		}
 
-		static ::System::Void TeleportOutOfRogueScene(::Class_1_3A7B270FE0BE90AE_4* sceneExtInfo)
+		static ::System::Void TeleportOutOfRogueScene(::Class_1_FF03248024BAA97A_4* sceneExtInfo)
 		{
-			return ((::System::Void(*)(::Class_1_3A7B270FE0BE90AE_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTOUTOFROGUESCENE_OFFSET))(sceneExtInfo);
+			return ((::System::Void(*)(::Class_1_FF03248024BAA97A_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTOUTOFROGUESCENE_OFFSET))(sceneExtInfo);
 		}
 
-		static ::System::Void TeleportInsideRogueScene(::Class_1_3A7B270FE0BE90AE_4* sceneExtInfo)
+		static ::System::Void TeleportInsideRogueScene(::Class_1_FF03248024BAA97A_4* sceneExtInfo)
 		{
-			return ((::System::Void(*)(::Class_1_3A7B270FE0BE90AE_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINSIDEROGUESCENE_OFFSET))(sceneExtInfo);
+			return ((::System::Void(*)(::Class_1_FF03248024BAA97A_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_TELEPORTINSIDEROGUESCENE_OFFSET))(sceneExtInfo);
 		}
 
 		static ::System::Void _SetTransitionPerformanceTypeInRogue(::System::Boolean crossMap)
@@ -152,19 +152,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_ASSERT_OFFSET))(condition, format, args);
 		}
 
-		static ::System::Single GetScpterTotalPower(::Class_0_16E4307DCC419505_737* scepterDataItem, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single GetScpterTotalPower(::Class_0_16E4307DCC419505_837* scepterDataItem, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::Class_0_16E4307DCC419505_737*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERTOTALPOWER_OFFSET))(scepterDataItem, allScpterDatas, curStyleType, config);
+			return ((::System::Single(*)(::Class_0_16E4307DCC419505_837*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERTOTALPOWER_OFFSET))(scepterDataItem, allScpterDatas, curStyleType, config);
 		}
 
-		static ::System::Single GetScpterBasicPower(::Class_0_16E4307DCC419505_737* scepterDataItem, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single GetScpterBasicPower(::Class_0_16E4307DCC419505_837* scepterDataItem, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::Class_0_16E4307DCC419505_737*, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERBASICPOWER_OFFSET))(scepterDataItem, curStyleType, config);
+			return ((::System::Single(*)(::Class_0_16E4307DCC419505_837*, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETSCPTERBASICPOWER_OFFSET))(scepterDataItem, curStyleType, config);
 		}
 
-		static ::System::Single GetAttachUnitsTotalBasicPower(::Class_0_16E4307DCC419505_737* scepterDataItem, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single GetAttachUnitsTotalBasicPower(::Class_0_16E4307DCC419505_837* scepterDataItem, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::Class_0_16E4307DCC419505_737*, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITSTOTALBASICPOWER_OFFSET))(scepterDataItem, curStyleType, config);
+			return ((::System::Single(*)(::Class_0_16E4307DCC419505_837*, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITSTOTALBASICPOWER_OFFSET))(scepterDataItem, curStyleType, config);
 		}
 
 		static ::System::Single GetAttachUnitBasicPower(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::RPG::GameCore::RogueMagicRangeType limitRangeType, ::RPG::GameCore::RogueMagicStyleType curStyleType, ::RPG::GameCore::RogueMagicPowerConfig* config)
@@ -172,24 +172,24 @@ namespace RPG::Client
 			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::RPG::GameCore::RogueMagicRangeType, ::RPG::GameCore::RogueMagicStyleType, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETATTACHUNITBASICPOWER_OFFSET))(unitItem, limitRangeType, curStyleType, config);
 		}
 
-		static ::System::Single GetPassiveUnitsTotalFactor(::Class_0_16E4307DCC419505_737* scepterDataItem, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single GetPassiveUnitsTotalFactor(::Class_0_16E4307DCC419505_837* scepterDataItem, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::Class_0_16E4307DCC419505_737*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITSTOTALFACTOR_OFFSET))(scepterDataItem, allScpterDatas, config);
+			return ((::System::Single(*)(::Class_0_16E4307DCC419505_837*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITSTOTALFACTOR_OFFSET))(scepterDataItem, allScpterDatas, config);
 		}
 
-		static ::System::Single GetPassiveUnitFactor(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::Class_0_16E4307DCC419505_737* belongScepter, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single GetPassiveUnitFactor(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::Class_0_16E4307DCC419505_837* belongScepter, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::Class_0_16E4307DCC419505_737*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITFACTOR_OFFSET))(unitItem, belongScepter, allScpterDatas, config);
+			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::Class_0_16E4307DCC419505_837*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITFACTOR_OFFSET))(unitItem, belongScepter, allScpterDatas, config);
 		}
 
-		static ::System::Single GetPassiveUnitPercent(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::Class_0_16E4307DCC419505_737* belongScepter, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single GetPassiveUnitPercent(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::Class_0_16E4307DCC419505_837* belongScepter, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::Class_0_16E4307DCC419505_737*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITPERCENT_OFFSET))(unitItem, belongScepter, allScpterDatas, config);
+			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::Class_0_16E4307DCC419505_837*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS_GETPASSIVEUNITPERCENT_OFFSET))(unitItem, belongScepter, allScpterDatas, config);
 		}
 
-		static ::System::Single _GetPassiveUnitEffectTypeFactor(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::Class_0_16E4307DCC419505_737* belongScepter, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single _GetPassiveUnitEffectTypeFactor(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::Class_0_16E4307DCC419505_837* belongScepter, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::Class_0_16E4307DCC419505_737*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPEFACTOR_OFFSET))(unitItem, belongScepter, config);
+			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::Class_0_16E4307DCC419505_837*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPEFACTOR_OFFSET))(unitItem, belongScepter, config);
 		}
 
 		static ::System::Single _GetPassiveUnitEffectTypeConfigFactor(::RPG::GameCore::RogueMagicPowerConfig* config, ::RPG::GameCore::RogueMagicEffectType effectType)
@@ -197,19 +197,19 @@ namespace RPG::Client
 			return ((::System::Single(*)(::RPG::GameCore::RogueMagicPowerConfig*, ::RPG::GameCore::RogueMagicEffectType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_OFFSET))(config, effectType);
 		}
 
-		static ::System::Single _GetPassiveUltraUnitSpecialFactor(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
+		static ::System::Single _GetPassiveUltraUnitSpecialFactor(::RPG::Client::RogueMagicUnitDataItem* unitItem, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicPowerConfig* config)
 		{
-			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEULTRAUNITSPECIALFACTOR_OFFSET))(unitItem, allScpterDatas, config);
+			return ((::System::Single(*)(::RPG::Client::RogueMagicUnitDataItem*, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicPowerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETPASSIVEULTRAUNITSPECIALFACTOR_OFFSET))(unitItem, allScpterDatas, config);
 		}
 
-		static ::System::UInt32 _GetFuncTypeMatchCount(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicScepterFuncType funcType)
+		static ::System::UInt32 _GetFuncTypeMatchCount(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicScepterFuncType funcType)
 		{
-			return ((::System::UInt32(*)(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicScepterFuncType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETFUNCTYPEMATCHCOUNT_OFFSET))(allScpterDatas, funcType);
+			return ((::System::UInt32(*)(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicScepterFuncType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETFUNCTYPEMATCHCOUNT_OFFSET))(allScpterDatas, funcType);
 		}
 
-		static ::System::UInt32 _GetRangeTypeMatchCount(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>* allScpterDatas, ::RPG::GameCore::RogueMagicRangeType rangeType)
+		static ::System::UInt32 _GetRangeTypeMatchCount(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>* allScpterDatas, ::RPG::GameCore::RogueMagicRangeType rangeType)
 		{
-			return ((::System::UInt32(*)(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_737*>*, ::RPG::GameCore::RogueMagicRangeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETRANGETYPEMATCHCOUNT_OFFSET))(allScpterDatas, rangeType);
+			return ((::System::UInt32(*)(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_837*>*, ::RPG::GameCore::RogueMagicRangeType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICUTILS__GETRANGETYPEMATCHCOUNT_OFFSET))(allScpterDatas, rangeType);
 		}
 
 		static ::System::Boolean _IsRogueMagicStyleTypeMatch(::RPG::GameCore::RogueMagicStyleType left, ::RPG::GameCore::RogueMagicStyleType right)

@@ -5,12 +5,12 @@
 namespace RPG::Client { class ActivityRewardUtils_MultiIDCheckerFunc; }
 namespace RPG::Client { class ActivityRewardUtils_QuestCheckerFunc; }
 
-#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8FBA100)
-#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS18_0___ISACTIVITYREWARDQUESTPASS_B__0_OFFSET UNITYSDK_OFFSET(0x8FBA860)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170922D0)
+#define RPG_CLIENT_ACTIVITYREWARDUTILS___C__DISPLAYCLASS18_0___ISACTIVITYREWARDQUESTPASS_B__0_OFFSET UNITYSDK_OFFSET(0x17092A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass18_0_TypeDefinitionIndex = 50107;
+	inline static constexpr unsigned int ActivityRewardUtils___c__DisplayClass18_0_TypeDefinitionIndex = 56950;
 
 	class ActivityRewardUtils___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class GrantBindPhone; }
 
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160BD270)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x160BD6E0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1547F240)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1547F6C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GrantBindPhone___c__DisplayClass30_0_TypeDefinitionIndex = 8113;
+	inline static constexpr unsigned int GrantBindPhone___c__DisplayClass30_0_TypeDefinitionIndex = 8259;
 
 	class GrantBindPhone___c__DisplayClass30_0 : public ::System::Object
 	{

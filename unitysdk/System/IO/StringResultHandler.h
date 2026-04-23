@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::IO { class SearchResult; }
 
-#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1635B060)
-#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1635AF70)
-#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1634D000)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x19500260)
+#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x19500170)
+#define SYSTEM_IO_STRINGRESULTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x194F2390)
 
 namespace System::IO
 {
@@ -16,8 +16,8 @@ namespace System::IO
 	class StringResultHandler : public ::System::IO::SearchResultHandler_1<::System::String*>
 	{
 	public:
-		::System::Boolean _includeFiles; // 0x10
-		::System::Boolean _includeDirs; // 0x11
+		::System::Boolean _includeDirs; // 0x10
+		::System::Boolean _includeFiles; // 0x11
 
 		::System::Void _ctor(::System::Boolean includeFiles, ::System::Boolean includeDirs)
 		{

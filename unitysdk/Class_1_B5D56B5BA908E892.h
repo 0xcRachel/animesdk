@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_382;
 namespace RPG::Client { class CharacterShaderPropertyTransition; }
 namespace RPG::Client { class SceneShaderPropertyTransition; }
 namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class EventManager; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_00E04EDDAFD16C79_OFFSET UNITYSDK_OFFSET(0x8D41600)
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0x8D414D0)
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_1_OFFSET UNITYSDK_OFFSET(0x8D41A40)
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_OFFSET UNITYSDK_OFFSET(0x8D41820)
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0x8D41680)
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_660474B0F8C5FECE_OFFSET UNITYSDK_OFFSET(0x8D41870)
-#define CLASS_1_B5D56B5BA908E892_METHOD_1_B06A36F2C931D41D_OFFSET UNITYSDK_OFFSET(0x8D41640)
-#define CLASS_1_B5D56B5BA908E892__CTOR_OFFSET UNITYSDK_OFFSET(0x8D41470)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_00E04EDDAFD16C79_OFFSET UNITYSDK_OFFSET(0xEC419C0)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0xEC41890)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_1_OFFSET UNITYSDK_OFFSET(0xEC41E00)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_OFFSET UNITYSDK_OFFSET(0xEC41BE0)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xEC41A40)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_660474B0F8C5FECE_OFFSET UNITYSDK_OFFSET(0xEC41C30)
+#define CLASS_1_B5D56B5BA908E892_METHOD_1_B06A36F2C931D41D_OFFSET UNITYSDK_OFFSET(0xEC41A00)
+#define CLASS_1_B5D56B5BA908E892__CTOR_OFFSET UNITYSDK_OFFSET(0xEC41830)
 
-inline static constexpr unsigned int Class_1_B5D56B5BA908E892_TypeDefinitionIndex = 56279;
+inline static constexpr unsigned int Class_1_B5D56B5BA908E892_TypeDefinitionIndex = 63522;
 
 class Class_1_B5D56B5BA908E892 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::CharacterShaderPropertyTransition*>* Field_1_2; // 0x10
-	::RPG::GameCore::EntityManager* Field_1_1; // 0x18
-	::RPG::GameCore::EventManager* Field_1_0; // 0x20
-	::System::Collections::Generic::List_1<::RPG::Client::SceneShaderPropertyTransition*>* Field_1_3; // 0x28
+	::RPG::GameCore::EntityManager* Field_1_1; // 0x10
+	::RPG::GameCore::EventManager* Field_1_0; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::SceneShaderPropertyTransition*>* Field_1_3; // 0x20
+	::System::Collections::Generic::List_1<::RPG::Client::CharacterShaderPropertyTransition*>* Field_1_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::EventManager* a1, ::RPG::GameCore::EntityManager* a2)
 	{
@@ -53,14 +53,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B5D56B5BA908E892_METHOD_1_51CFFE2AF748ECD7_OFFSET))(this);
 	}
 
-	::System::Void Method_1_34A86E3AEAC2AF97(::Class_0_16E4307DCC419505_375* a1)
+	::System::Void Method_1_34A86E3AEAC2AF97(::Class_0_16E4307DCC419505_382* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_34A86E3AEAC2AF97_1(::Class_0_16E4307DCC419505_375* a1)
+	::System::Void Method_1_34A86E3AEAC2AF97_1(::Class_0_16E4307DCC419505_382* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_1_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + CLASS_1_B5D56B5BA908E892_METHOD_1_34A86E3AEAC2AF97_1_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_660474B0F8C5FECE()

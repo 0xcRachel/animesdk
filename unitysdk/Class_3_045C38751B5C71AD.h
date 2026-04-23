@@ -8,10 +8,10 @@ namespace RPG::GameCore { class MoveToTargetPosition; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_045C38751B5C71AD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1BCD40)
-#define CLASS_3_045C38751B5C71AD__CTOR_OFFSET UNITYSDK_OFFSET(0xA1BCBE0)
+#define CLASS_3_045C38751B5C71AD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA41AE40)
+#define CLASS_3_045C38751B5C71AD__CTOR_OFFSET UNITYSDK_OFFSET(0xA41ACE0)
 
-inline static constexpr unsigned int Class_3_045C38751B5C71AD_TypeDefinitionIndex = 44209;
+inline static constexpr unsigned int Class_3_045C38751B5C71AD_TypeDefinitionIndex = 50918;
 
 class Class_3_045C38751B5C71AD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MoveToTargetPosition*>
 {

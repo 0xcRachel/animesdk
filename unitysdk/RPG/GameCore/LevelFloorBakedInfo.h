@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelRotatableBakedInfo; }
 namespace RPG::GameCore { class PerFloorConflictRelativeMissionBakedData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELFLOORBAKEDINFO_METHOD_2_BBD91CA5689DA08A_OFFSET UNITYSDK_OFFSET(0x173492E0)
-#define RPG_GAMECORE_LEVELFLOORBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x173494E0)
+#define RPG_GAMECORE_LEVELFLOORBAKEDINFO_METHOD_2_BBD91CA5689DA08A_OFFSET UNITYSDK_OFFSET(0x188B2320)
+#define RPG_GAMECORE_LEVELFLOORBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188B2520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorBakedInfo_TypeDefinitionIndex = 15751;
+	inline static constexpr unsigned int LevelFloorBakedInfo_TypeDefinitionIndex = 16277;
 
 	class LevelFloorBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

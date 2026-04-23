@@ -5,58 +5,65 @@
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_ITEM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1829AB10)
-#define PROTO_ITEM_CLONE_OFFSET UNITYSDK_OFFSET(0x1829A6C0)
-#define PROTO_ITEM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1829A890)
-#define PROTO_ITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1829A7F0)
-#define PROTO_ITEM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1829A920)
-#define PROTO_ITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1829A7D0)
-#define PROTO_ITEM_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1829A710)
-#define PROTO_ITEM_GET_MAINAFFIXID_OFFSET UNITYSDK_OFFSET(0x1829A750)
-#define PROTO_ITEM_GET_NUM_OFFSET UNITYSDK_OFFSET(0x1829A730)
-#define PROTO_ITEM_GET_PROMOTION_OFFSET UNITYSDK_OFFSET(0x1829A790)
-#define PROTO_ITEM_GET_RANK_OFFSET UNITYSDK_OFFSET(0x1829A770)
-#define PROTO_ITEM_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x1829A7B0)
-#define PROTO_ITEM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1829AF00)
-#define PROTO_ITEM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1829AE90)
-#define PROTO_ITEM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1829A660)
-#define PROTO_ITEM_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1829A7E0)
-#define PROTO_ITEM_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1829A720)
-#define PROTO_ITEM_SET_MAINAFFIXID_OFFSET UNITYSDK_OFFSET(0x1829A760)
-#define PROTO_ITEM_SET_NUM_OFFSET UNITYSDK_OFFSET(0x1829A740)
-#define PROTO_ITEM_SET_PROMOTION_OFFSET UNITYSDK_OFFSET(0x1829A7A0)
-#define PROTO_ITEM_SET_RANK_OFFSET UNITYSDK_OFFSET(0x1829A780)
-#define PROTO_ITEM_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x1829A7C0)
-#define PROTO_ITEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1829A960)
-#define PROTO_ITEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1829A9C0)
-#define PROTO_ITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1829A680)
-#define PROTO_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1829A670)
+#define PROTO_ITEM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x19763D10)
+#define PROTO_ITEM_CLONE_OFFSET UNITYSDK_OFFSET(0x197638B0)
+#define PROTO_ITEM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19763A80)
+#define PROTO_ITEM_EQUALS_OFFSET UNITYSDK_OFFSET(0x197639E0)
+#define PROTO_ITEM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19763B10)
+#define PROTO_ITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x197639C0)
+#define PROTO_ITEM_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x19763980)
+#define PROTO_ITEM_GET_MAINAFFIXID_OFFSET UNITYSDK_OFFSET(0x19763920)
+#define PROTO_ITEM_GET_NUM_OFFSET UNITYSDK_OFFSET(0x197639A0)
+#define PROTO_ITEM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19763820)
+#define PROTO_ITEM_GET_PROMOTION_OFFSET UNITYSDK_OFFSET(0x19763960)
+#define PROTO_ITEM_GET_RANK_OFFSET UNITYSDK_OFFSET(0x19763900)
+#define PROTO_ITEM_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x19763940)
+#define PROTO_ITEM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x19764100)
+#define PROTO_ITEM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19764090)
+#define PROTO_ITEM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19763850)
+#define PROTO_ITEM_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x197639D0)
+#define PROTO_ITEM_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x19763990)
+#define PROTO_ITEM_SET_MAINAFFIXID_OFFSET UNITYSDK_OFFSET(0x19763930)
+#define PROTO_ITEM_SET_NUM_OFFSET UNITYSDK_OFFSET(0x197639B0)
+#define PROTO_ITEM_SET_PROMOTION_OFFSET UNITYSDK_OFFSET(0x19763970)
+#define PROTO_ITEM_SET_RANK_OFFSET UNITYSDK_OFFSET(0x19763910)
+#define PROTO_ITEM_SET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0x19763950)
+#define PROTO_ITEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19763B60)
+#define PROTO_ITEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x19763BC0)
+#define PROTO_ITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x19764200)
+#define PROTO_ITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19763870)
+#define PROTO_ITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19763860)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Item_TypeDefinitionIndex = 24066;
+	inline static constexpr unsigned int Item_TypeDefinitionIndex = 26165;
 
 	class Item : public ::System::Object
 	{
 	public:
+		static ::Google::Protobuf::MessageParser_1<::Proto::Item*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::Item*>**)Il2CppClass::FromTypeDefinitionIndex(Item_TypeDefinitionIndex)->GetStaticField(0x4C210);
+		}
+		// static const ::System::Int32 RankFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 MainAffixIdFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 UniqueIdFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 PromotionFieldNumber = 0xC; // 0x0
 		// static const ::System::Int32 LevelFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 NumFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 MainAffixIdFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 RankFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 PromotionFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 UniqueIdFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 ItemIdFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 NumFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 ItemIdFieldNumber = 0x9; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 rank_; // 0x18
-		::System::UInt32 itemId_; // 0x1C
-		::System::UInt32 num_; // 0x20
-		::System::UInt32 promotion_; // 0x24
+		::System::UInt32 mainAffixId_; // 0x18
+		::System::UInt32 rank_; // 0x1C
+		::System::UInt32 itemId_; // 0x20
+		::System::UInt32 num_; // 0x24
 		::System::UInt32 uniqueId_; // 0x28
 		::System::UInt32 level_; // 0x2C
-		::System::UInt32 mainAffixId_; // 0x30
+		::System::UInt32 promotion_; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -68,6 +75,16 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::Proto::Item*))((::PBYTE)hIl2Cpp + PROTO_ITEM__CTOR_1_OFFSET))(this, other);
 		}
 
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ITEM__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::Item*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::Item*>*(*)())((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_PARSER_OFFSET))();
+		}
+
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
 		{
 			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
@@ -76,6 +93,46 @@ namespace Proto
 		::Proto::Item* Clone()
 		{
 			return ((::Proto::Item*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_CLONE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Rank()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_RANK_OFFSET))(this);
+		}
+
+		::System::Void set_Rank(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_RANK_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_MainAffixId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_MAINAFFIXID_OFFSET))(this);
+		}
+
+		::System::Void set_MainAffixId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_MAINAFFIXID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_UniqueId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_UNIQUEID_OFFSET))(this);
+		}
+
+		::System::Void set_UniqueId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_UNIQUEID_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_Promotion()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_PROMOTION_OFFSET))(this);
+		}
+
+		::System::Void set_Promotion(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_PROMOTION_OFFSET))(this, value);
 		}
 
 		::System::UInt32 get_Level()
@@ -96,46 +153,6 @@ namespace Proto
 		::System::Void set_Num(::System::UInt32 value)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_NUM_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_MainAffixId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_MAINAFFIXID_OFFSET))(this);
-		}
-
-		::System::Void set_MainAffixId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_MAINAFFIXID_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_Rank()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_RANK_OFFSET))(this);
-		}
-
-		::System::Void set_Rank(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_RANK_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_Promotion()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_PROMOTION_OFFSET))(this);
-		}
-
-		::System::Void set_Promotion(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_PROMOTION_OFFSET))(this, value);
-		}
-
-		::System::UInt32 get_UniqueId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ITEM_GET_UNIQUEID_OFFSET))(this);
-		}
-
-		::System::Void set_UniqueId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_ITEM_SET_UNIQUEID_OFFSET))(this, value);
 		}
 
 		::System::UInt32 get_ItemId()

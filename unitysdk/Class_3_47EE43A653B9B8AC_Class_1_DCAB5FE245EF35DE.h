@@ -5,15 +5,15 @@
 namespace RPG::CustomRP { class CustomAdditionalLightData; }
 namespace UnityEngine { class Light; }
 
-#define CLASS_3_47EE43A653B9B8AC_CLASS_1_DCAB5FE245EF35DE__CTOR_OFFSET UNITYSDK_OFFSET(0x8967200)
+#define CLASS_3_47EE43A653B9B8AC_CLASS_1_DCAB5FE245EF35DE__CTOR_OFFSET UNITYSDK_OFFSET(0xC659980)
 
-inline static constexpr unsigned int Class_3_47EE43A653B9B8AC_Class_1_DCAB5FE245EF35DE_TypeDefinitionIndex = 38249;
+inline static constexpr unsigned int Class_3_47EE43A653B9B8AC_Class_1_DCAB5FE245EF35DE_TypeDefinitionIndex = 44133;
 
 class Class_3_47EE43A653B9B8AC_Class_1_DCAB5FE245EF35DE : public ::System::Object
 {
 public:
-	::UnityEngine::Light* Field_1_1; // 0x10
-	::RPG::CustomRP::CustomAdditionalLightData* Field_1_0; // 0x18
+	::RPG::CustomRP::CustomAdditionalLightData* Field_1_0; // 0x10
+	::UnityEngine::Light* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

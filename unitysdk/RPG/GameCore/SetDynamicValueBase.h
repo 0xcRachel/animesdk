@@ -7,22 +7,22 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBASE_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x176C8500)
-#define RPG_GAMECORE_SETDYNAMICVALUEBASE_METHOD_3_299676002783A029_OFFSET UNITYSDK_OFFSET(0x176C8280)
-#define RPG_GAMECORE_SETDYNAMICVALUEBASE_METHOD_3_2E0E90D7E0EB2A64_OFFSET UNITYSDK_OFFSET(0x176C8440)
-#define RPG_GAMECORE_SETDYNAMICVALUEBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x176C8610)
-#define RPG_GAMECORE_SETDYNAMICVALUEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x176C8250)
+#define RPG_GAMECORE_SETDYNAMICVALUEBASE_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x192F9520)
+#define RPG_GAMECORE_SETDYNAMICVALUEBASE_METHOD_3_299676002783A029_OFFSET UNITYSDK_OFFSET(0x192F92A0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBASE_METHOD_3_2E0E90D7E0EB2A64_OFFSET UNITYSDK_OFFSET(0x192F9460)
+#define RPG_GAMECORE_SETDYNAMICVALUEBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x192F9630)
+#define RPG_GAMECORE_SETDYNAMICVALUEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x192F9270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueBase_TypeDefinitionIndex = 22097;
+	inline static constexpr unsigned int SetDynamicValueBase_TypeDefinitionIndex = 22814;
 
 	class SetDynamicValueBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueBase*>*>** StaticGet__FromBinary_SetDynamicValueBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(SetDynamicValueBase_TypeDefinitionIndex)->GetStaticField(0xBD40);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(SetDynamicValueBase_TypeDefinitionIndex)->GetStaticField(0x37C50);
 		}
 
 		::System::Void _ctor()

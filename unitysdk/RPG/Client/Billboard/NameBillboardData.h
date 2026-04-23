@@ -4,21 +4,27 @@
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client::Billboard { class IBillboardTypeData; }
+namespace System { class String; }
 
-#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x91FF480)
-#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_GET_TEXTIDNAME_OFFSET UNITYSDK_OFFSET(0x91FF3A0)
-#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x91FF3C0)
-#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_SET_TEXTIDNAME_OFFSET UNITYSDK_OFFSET(0x91FF3B0)
-#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x91FB9B0)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x16D3DC30)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_GET_TEXTIDNAME_OFFSET UNITYSDK_OFFSET(0x16D3DA40)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_GET_TEXTSTRINGNAME_OFFSET UNITYSDK_OFFSET(0x16D3DA60)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x16D3DA80)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_SET_TEXTIDNAME_OFFSET UNITYSDK_OFFSET(0x16D3DA50)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_SET_TEXTSTRINGNAME_OFFSET UNITYSDK_OFFSET(0x16D3DA70)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16D39BA0)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA__ISSTRINGVALID_OFFSET UNITYSDK_OFFSET(0x16D3DB10)
+#define RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA__ISTEXTIDVALID_OFFSET UNITYSDK_OFFSET(0x16D3DB70)
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int NameBillboardData_TypeDefinitionIndex = 61540;
+	inline static constexpr unsigned int NameBillboardData_TypeDefinitionIndex = 69051;
 
 	class NameBillboardData : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _TextIDName_k__BackingField; // 0x10
+		::System::String* _TextStringName_k__BackingField; // 0x10
+		::RPG::Client::TextID _TextIDName_k__BackingField; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -35,6 +41,16 @@ namespace RPG::Client::Billboard
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_SET_TEXTIDNAME_OFFSET))(this, value);
 		}
 
+		::System::String* get_TextStringName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_GET_TEXTSTRINGNAME_OFFSET))(this);
+		}
+
+		::System::Void set_TextStringName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_SET_TEXTSTRINGNAME_OFFSET))(this, value);
+		}
+
 		::System::Boolean IsValid()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_ISVALID_OFFSET))(this);
@@ -43,6 +59,16 @@ namespace RPG::Client::Billboard
 		::RPG::Client::Billboard::IBillboardTypeData* Clone()
 		{
 			return ((::RPG::Client::Billboard::IBillboardTypeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA_CLONE_OFFSET))(this);
+		}
+
+		::System::Boolean _IsStringValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA__ISSTRINGVALID_OFFSET))(this);
+		}
+
+		::System::Boolean _IsTextIDValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARD_NAMEBILLBOARDDATA__ISTEXTIDVALID_OFFSET))(this);
 		}
 	};
 }

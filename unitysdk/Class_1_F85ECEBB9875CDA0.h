@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_1_120319518E6F6581_98;
-class Class_1_CC65FF4377016C5E;
-class Class_1_FA4F4A67B1C04320_767;
+class Class_1_6AD63169696218E7;
+class Class_1_D17272E82AE804C2_806;
+class Class_1_D1E0AD3915BCCF29_105;
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class RogueMagicScepterDataItem; }
@@ -15,28 +15,28 @@ namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F85ECEBB9875CDA0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB271180)
-#define CLASS_1_F85ECEBB9875CDA0_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xB272430)
-#define CLASS_1_F85ECEBB9875CDA0_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0xB2723F0)
-#define CLASS_1_F85ECEBB9875CDA0_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0xB2724B0)
-#define CLASS_1_F85ECEBB9875CDA0_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0xB272310)
-#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_65379FCF37D55E39_OFFSET UNITYSDK_OFFSET(0xB271740)
-#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_77BD26FBF553005C_OFFSET UNITYSDK_OFFSET(0xB2713B0)
-#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_856E06CD67AB4503_OFFSET UNITYSDK_OFFSET(0xB271AE0)
-#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_B270AAA16AC47A02_OFFSET UNITYSDK_OFFSET(0xB2712D0)
-#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_D24814EB616814F2_OFFSET UNITYSDK_OFFSET(0xB272380)
-#define CLASS_1_F85ECEBB9875CDA0__CTOR_OFFSET UNITYSDK_OFFSET(0xB271080)
+#define CLASS_1_F85ECEBB9875CDA0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB0CCF0)
+#define CLASS_1_F85ECEBB9875CDA0_GETALLSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xDB0DFD0)
+#define CLASS_1_F85ECEBB9875CDA0_GETLOCKEDUNITS_OFFSET UNITYSDK_OFFSET(0xDB0DF90)
+#define CLASS_1_F85ECEBB9875CDA0_GETSLOTUNITDATAITEM_OFFSET UNITYSDK_OFFSET(0xDB0E050)
+#define CLASS_1_F85ECEBB9875CDA0_GETSLOTUNITUID_OFFSET UNITYSDK_OFFSET(0xDB0DEB0)
+#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_65379FCF37D55E39_OFFSET UNITYSDK_OFFSET(0xDB0D2B0)
+#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_77BD26FBF553005C_OFFSET UNITYSDK_OFFSET(0xDB0CF20)
+#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_856E06CD67AB4503_OFFSET UNITYSDK_OFFSET(0xDB0D650)
+#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_B270AAA16AC47A02_OFFSET UNITYSDK_OFFSET(0xDB0CE40)
+#define CLASS_1_F85ECEBB9875CDA0_METHOD_1_D24814EB616814F2_OFFSET UNITYSDK_OFFSET(0xDB0DF20)
+#define CLASS_1_F85ECEBB9875CDA0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB0CBF0)
 
-inline static constexpr unsigned int Class_1_F85ECEBB9875CDA0_TypeDefinitionIndex = 54933;
+inline static constexpr unsigned int Class_1_F85ECEBB9875CDA0_TypeDefinitionIndex = 62121;
 
 class Class_1_F85ECEBB9875CDA0 : public ::System::Object
 {
 public:
-	::RPG::Client::RogueMagicScepterDataItem* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>* Field_1_4; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>* Field_1_4; // 0x10
+	::RPG::Client::RogueMagicScepterDataItem* Field_1_1; // 0x18
 	::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* Field_1_2; // 0x20
-	::RPG::Client::RogueMagicScepterInfo* Field_1_0; // 0x28
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* Field_1_3; // 0x30
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* Field_1_3; // 0x28
+	::RPG::Client::RogueMagicScepterInfo* Field_1_0; // 0x30
 
 	::System::Void _ctor(::RPG::Client::RogueMagicScepterInfo* a1, ::RPG::Client::RogueMagicScepterDataItem* a2)
 	{
@@ -48,9 +48,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_B270AAA16AC47A02(::Class_1_CC65FF4377016C5E* a1)
+	::System::Void Method_1_B270AAA16AC47A02(::Class_1_6AD63169696218E7* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_CC65FF4377016C5E*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_B270AAA16AC47A02_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_6AD63169696218E7*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_B270AAA16AC47A02_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_77BD26FBF553005C(::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* a1)
@@ -58,14 +58,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_77BD26FBF553005C_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_65379FCF37D55E39(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_767*>* a1)
+	::System::Void Method_1_65379FCF37D55E39(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_806*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_FA4F4A67B1C04320_767*>*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_65379FCF37D55E39_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_806*>*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_65379FCF37D55E39_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_856E06CD67AB4503(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_120319518E6F6581_98*>* a1)
+	::System::Void Method_1_856E06CD67AB4503(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_105*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_120319518E6F6581_98*>*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_856E06CD67AB4503_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_105*>*))((::PBYTE)hIl2Cpp + CLASS_1_F85ECEBB9875CDA0_METHOD_1_856E06CD67AB4503_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_D24814EB616814F2(::System::Collections::Generic::List_1<::RPG::Client::RogueMagicUnitDataItem*>* a1, ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>, ::System::UInt32>* a3)

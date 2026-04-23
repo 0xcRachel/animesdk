@@ -5,11 +5,11 @@
 namespace RPG::Client::ChenLingBattle { class Enchant; }
 namespace RPG::Client::ChenLingBattle { class Soldier; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERENCHANTCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9352F00)
+#define RPG_CLIENT_CHENLINGBATTLE_SOLDIERENCHANTCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17CBB7F0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SoldierEnchantChangeData_TypeDefinitionIndex = 62008;
+	inline static constexpr unsigned int SoldierEnchantChangeData_TypeDefinitionIndex = 70007;
 
 	class SoldierEnchantChangeData : public ::System::Object
 	{

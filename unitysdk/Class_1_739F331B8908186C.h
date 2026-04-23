@@ -5,16 +5,16 @@
 
 namespace Proto { class MonopolyActionResult; }
 
-#define CLASS_1_739F331B8908186C_TRIGGER_OFFSET UNITYSDK_OFFSET(0x109CECB0)
-#define CLASS_1_739F331B8908186C__CTOR_OFFSET UNITYSDK_OFFSET(0x109CEC20)
+#define CLASS_1_739F331B8908186C_TRIGGER_OFFSET UNITYSDK_OFFSET(0xFF3BDC0)
+#define CLASS_1_739F331B8908186C__CTOR_OFFSET UNITYSDK_OFFSET(0xFF3BD30)
 
-inline static constexpr unsigned int Class_1_739F331B8908186C_TypeDefinitionIndex = 53852;
+inline static constexpr unsigned int Class_1_739F331B8908186C_TypeDefinitionIndex = 60996;
 
 class Class_1_739F331B8908186C : public ::System::Object
 {
 public:
-	::RPG::Client::MonopolyEffectShowType Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 Field_1_1; // 0x10
+	::RPG::Client::MonopolyEffectShowType Field_1_0; // 0x14
 
 	::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 	{

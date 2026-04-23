@@ -10,22 +10,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_529B81A5018A5315_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11891FD0)
-#define CLASS_1_529B81A5018A5315_METHOD_1_626FA747F65C14DA_OFFSET UNITYSDK_OFFSET(0x11892840)
-#define CLASS_1_529B81A5018A5315_METHOD_1_659B881A8763C779_OFFSET UNITYSDK_OFFSET(0x11892030)
-#define CLASS_1_529B81A5018A5315_METHOD_1_C6568BC13CB65242_OFFSET UNITYSDK_OFFSET(0x11892A40)
-#define CLASS_1_529B81A5018A5315_METHOD_1_E393EF7F2B49D1DC_OFFSET UNITYSDK_OFFSET(0x118921C0)
-#define CLASS_1_529B81A5018A5315__CTOR_OFFSET UNITYSDK_OFFSET(0x11892F80)
+#define CLASS_1_529B81A5018A5315_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2F3430)
+#define CLASS_1_529B81A5018A5315_METHOD_1_626FA747F65C14DA_OFFSET UNITYSDK_OFFSET(0xC2F3CA0)
+#define CLASS_1_529B81A5018A5315_METHOD_1_659B881A8763C779_OFFSET UNITYSDK_OFFSET(0xC2F3490)
+#define CLASS_1_529B81A5018A5315_METHOD_1_C6568BC13CB65242_OFFSET UNITYSDK_OFFSET(0xC2F3EA0)
+#define CLASS_1_529B81A5018A5315_METHOD_1_E393EF7F2B49D1DC_OFFSET UNITYSDK_OFFSET(0xC2F3620)
+#define CLASS_1_529B81A5018A5315__CTOR_OFFSET UNITYSDK_OFFSET(0xC2F43E0)
 
-inline static constexpr unsigned int Class_1_529B81A5018A5315_TypeDefinitionIndex = 46113;
+inline static constexpr unsigned int Class_1_529B81A5018A5315_TypeDefinitionIndex = 52777;
 
 class Class_1_529B81A5018A5315 : public ::System::Object
 {
 public:
-	::RPG::GameCore::TaskContext* Field_1_3; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_1798E0D824491486*>* Field_1_5; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* Field_1_4; // 0x20
-	::Class_1_D7003CCDED916330* Field_1_2; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* Field_1_4; // 0x10
+	::Class_1_D7003CCDED916330* Field_1_2; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_1798E0D824491486*>* Field_1_5; // 0x20
+	::RPG::GameCore::TaskContext* Field_1_3; // 0x28
 	::System::Int32 Field_1_0; // 0x30
 	::System::Int32 Field_1_1; // 0x34
 

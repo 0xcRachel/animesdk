@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION_SET_WEBREQUEST_OFFSET UNITYSDK_OFFSET(0x18B94170)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18B94180)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION_SET_WEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1A6F4CB0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTASYNCOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6F4CC0)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequestAsyncOperation_TypeDefinitionIndex = 5267;
+	inline static constexpr unsigned int UnityWebRequestAsyncOperation_TypeDefinitionIndex = 5278;
 
 	class UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation
 	{

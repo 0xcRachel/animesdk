@@ -6,18 +6,18 @@
 
 class Class_1_B4CDE3278E4B50C2;
 
-#define CLASS_1_D3ADF079E7A3324D__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD1B20C0)
-#define CLASS_1_D3ADF079E7A3324D__CTOR_2_OFFSET UNITYSDK_OFFSET(0xD1B20D0)
-#define CLASS_1_D3ADF079E7A3324D__CTOR_OFFSET UNITYSDK_OFFSET(0xD1B20B0)
+#define CLASS_1_D3ADF079E7A3324D__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD0864D0)
+#define CLASS_1_D3ADF079E7A3324D__CTOR_2_OFFSET UNITYSDK_OFFSET(0xD0864E0)
+#define CLASS_1_D3ADF079E7A3324D__CTOR_OFFSET UNITYSDK_OFFSET(0xD0864C0)
 
-inline static constexpr unsigned int Class_1_D3ADF079E7A3324D_TypeDefinitionIndex = 58341;
+inline static constexpr unsigned int Class_1_D3ADF079E7A3324D_TypeDefinitionIndex = 65630;
 
 class Class_1_D3ADF079E7A3324D : public ::System::Object
 {
 public:
 	::Class_1_B4CDE3278E4B50C2* Field_1_1; // 0x10
-	::UnityEngine::Vector2 Field_1_0; // 0x18
-	::RPG::Client::ActionBarEventAction Field_1_2; // 0x20
+	::RPG::Client::ActionBarEventAction Field_1_2; // 0x18
+	::UnityEngine::Vector2 Field_1_0; // 0x1C
 
 	::System::Void _ctor()
 	{

@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE_METHOD_5_DD6B87AEF8CF9B7A_OFFSET UNITYSDK_OFFSET(0x17666370)
-#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE_METHOD_5_E1EC1981FE22B847_OFFSET UNITYSDK_OFFSET(0x17666530)
-#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17666540)
-#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1765E9B0)
+#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE_METHOD_5_DD6B87AEF8CF9B7A_OFFSET UNITYSDK_OFFSET(0x1981D390)
+#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE_METHOD_5_E1EC1981FE22B847_OFFSET UNITYSDK_OFFSET(0x1981D550)
+#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1981D560)
+#define RPG_GAMECORE_ROGUEPARAMETERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x198159D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParameterConfigBase_TypeDefinitionIndex = 18158;
+	inline static constexpr unsigned int RogueParameterConfigBase_TypeDefinitionIndex = 18805;
 
 	class RogueParameterConfigBase : public ::RPG::GameCore::PlayerParameterConfigBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParameterConfigBase*>*>** StaticGet__FromBinary_RogueParameterConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParameterConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueParameterConfigBase_TypeDefinitionIndex)->GetStaticField(0x5C90);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParameterConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(RogueParameterConfigBase_TypeDefinitionIndex)->GetStaticField(0x32BE0);
 		}
 
 		::System::Void _ctor()

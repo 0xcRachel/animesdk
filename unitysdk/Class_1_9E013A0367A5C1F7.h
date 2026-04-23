@@ -7,21 +7,21 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define CLASS_1_9E013A0367A5C1F7_CLEAR_OFFSET UNITYSDK_OFFSET(0x169F5310)
-#define CLASS_1_9E013A0367A5C1F7_METHOD_1_A034FB093FB7C7DD_OFFSET UNITYSDK_OFFSET(0x169F5880)
-#define CLASS_1_9E013A0367A5C1F7_METHOD_1_EC01C67B16F49E30_OFFSET UNITYSDK_OFFSET(0x169F57D0)
-#define CLASS_1_9E013A0367A5C1F7_ONALLOC_OFFSET UNITYSDK_OFFSET(0x169F5720)
-#define CLASS_1_9E013A0367A5C1F7_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x169F5790)
-#define CLASS_1_9E013A0367A5C1F7__CTOR_OFFSET UNITYSDK_OFFSET(0x169F58E0)
+#define CLASS_1_9E013A0367A5C1F7_CLEAR_OFFSET UNITYSDK_OFFSET(0x17C83000)
+#define CLASS_1_9E013A0367A5C1F7_METHOD_1_A034FB093FB7C7DD_OFFSET UNITYSDK_OFFSET(0x17C83570)
+#define CLASS_1_9E013A0367A5C1F7_METHOD_1_EC01C67B16F49E30_OFFSET UNITYSDK_OFFSET(0x17C834C0)
+#define CLASS_1_9E013A0367A5C1F7_ONALLOC_OFFSET UNITYSDK_OFFSET(0x17C83410)
+#define CLASS_1_9E013A0367A5C1F7_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x17C83480)
+#define CLASS_1_9E013A0367A5C1F7__CTOR_OFFSET UNITYSDK_OFFSET(0x17C835D0)
 
-inline static constexpr unsigned int Class_1_9E013A0367A5C1F7_TypeDefinitionIndex = 33389;
+inline static constexpr unsigned int Class_1_9E013A0367A5C1F7_TypeDefinitionIndex = 39180;
 
 class Class_1_9E013A0367A5C1F7 : public ::System::Object
 {
 public:
-	::RPG::PoolDictionary_2<::System::UInt32, ::Class_1_79F4C97127452753*>* Field_1_0; // 0x10
-	::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolList_1<::System::UInt32>*>* Field_1_2; // 0x18
-	::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::System::UInt32>*>* Field_1_1; // 0x20
+	::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolList_1<::System::UInt32>*>* Field_1_2; // 0x10
+	::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::System::UInt32>*>* Field_1_1; // 0x18
+	::RPG::PoolDictionary_2<::System::UInt32, ::Class_1_79F4C97127452753*>* Field_1_0; // 0x20
 
 	::System::Void _ctor()
 	{

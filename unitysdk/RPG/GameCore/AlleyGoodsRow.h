@@ -5,23 +5,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F86EB0)
-#define RPG_GAMECORE_ALLEYGOODSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F87560)
+#define RPG_GAMECORE_ALLEYGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18AC7BC0)
+#define RPG_GAMECORE_ALLEYGOODSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC8270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyGoodsRow_TypeDefinitionIndex = 11512;
+	inline static constexpr unsigned int AlleyGoodsRow_TypeDefinitionIndex = 11914;
 
 	class AlleyGoodsRow : public ::System::Object
 	{
 	public:
-		::System::String* GoodsPic; // 0x10
-		::System::String* GoodsConfig; // 0x18
-		::System::String* GoodsPicLocked; // 0x20
+		::System::String* GoodsPicLocked; // 0x10
+		::System::String* GoodsPic; // 0x18
+		::System::String* RotateAudioEvent; // 0x20
 		::System::String* SettleAudioEvent; // 0x28
-		::System::String* RotateAudioEvent; // 0x30
-		::System::UInt32 GoodsProfit; // 0x38
-		::System::UInt32 GoodsID; // 0x3C
+		::System::String* GoodsConfig; // 0x30
+		::System::UInt32 GoodsID; // 0x38
+		::System::UInt32 GoodsProfit; // 0x3C
 
 		::System::Void _ctor()
 		{

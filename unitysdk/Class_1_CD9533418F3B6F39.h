@@ -3,22 +3,22 @@
 #include "unitysdk/Class_1_CD9533418F3B6F39_VCameraType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_799;
+class Class_0_16E4307DCC419505_905;
 
-#define CLASS_1_CD9533418F3B6F39_METHOD_1_FF28A83F7BEB0C60_OFFSET UNITYSDK_OFFSET(0x10650B60)
+#define CLASS_1_CD9533418F3B6F39_METHOD_1_FF28A83F7BEB0C60_OFFSET UNITYSDK_OFFSET(0x108670D0)
 
-inline static constexpr unsigned int Class_1_CD9533418F3B6F39_TypeDefinitionIndex = 57034;
+inline static constexpr unsigned int Class_1_CD9533418F3B6F39_TypeDefinitionIndex = 64284;
 
 class Class_1_CD9533418F3B6F39 : public ::System::Object
 {
 public:
 	static ::System::UInt32* StaticGet_Field_1_0()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CD9533418F3B6F39_TypeDefinitionIndex)->GetStaticField(0x92C0);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_CD9533418F3B6F39_TypeDefinitionIndex)->GetStaticField(0x11190);
 	}
 
-	static ::Class_0_16E4307DCC419505_799* Method_1_FF28A83F7BEB0C60(::Class_1_CD9533418F3B6F39_VCameraType a1)
+	static ::Class_0_16E4307DCC419505_905* Method_1_FF28A83F7BEB0C60(::Class_1_CD9533418F3B6F39_VCameraType a1)
 	{
-		return ((::Class_0_16E4307DCC419505_799*(*)(::Class_1_CD9533418F3B6F39_VCameraType))((::PBYTE)hIl2Cpp + CLASS_1_CD9533418F3B6F39_METHOD_1_FF28A83F7BEB0C60_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_905*(*)(::Class_1_CD9533418F3B6F39_VCameraType))((::PBYTE)hIl2Cpp + CLASS_1_CD9533418F3B6F39_METHOD_1_FF28A83F7BEB0C60_OFFSET))(a1);
 	}
 };

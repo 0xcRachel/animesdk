@@ -6,17 +6,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_B36DCD24FCF82F45_METHOD_1_B6625D5E21D5F348_OFFSET UNITYSDK_OFFSET(0x16E2D5C0)
-#define CLASS_1_B36DCD24FCF82F45__CTOR_OFFSET UNITYSDK_OFFSET(0x16E2D7C0)
+#define CLASS_1_B36DCD24FCF82F45_METHOD_1_B6625D5E21D5F348_OFFSET UNITYSDK_OFFSET(0x1876ECC0)
+#define CLASS_1_B36DCD24FCF82F45__CTOR_OFFSET UNITYSDK_OFFSET(0x1879B150)
 
-inline static constexpr unsigned int Class_1_B36DCD24FCF82F45_TypeDefinitionIndex = 13681;
+inline static constexpr unsigned int Class_1_B36DCD24FCF82F45_TypeDefinitionIndex = 14152;
 
 class Class_1_B36DCD24FCF82F45 : public ::System::Object
 {
 public:
-	::RPG::GameCore::RogueTournAreaGroupID Field_1_0; // 0x10
-	::RPG::Client::TextID Field_1_1; // 0x18
-	::RPG::Client::TextID Field_1_2; // 0x28
+	::RPG::Client::TextID Field_1_2; // 0x10
+	::RPG::GameCore::RogueTournAreaGroupID Field_1_0; // 0x20
+	::RPG::Client::TextID Field_1_1; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/Cinemachine/Utility/GaussianWindow1d_1.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_QUATERNION_COMPUTE_OFFSET UNITYSDK_OFFSET(0x119F5450)
-#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x119F5400)
+#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_QUATERNION_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1A618660)
+#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A618610)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int GaussianWindow1D_Quaternion_TypeDefinitionIndex = 30932;
+	inline static constexpr unsigned int GaussianWindow1D_Quaternion_TypeDefinitionIndex = 36652;
 
 	class GaussianWindow1D_Quaternion : public ::Cinemachine::Utility::GaussianWindow1d_1<::UnityEngine::Quaternion>
 	{

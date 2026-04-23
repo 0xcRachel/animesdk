@@ -4,33 +4,33 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2C4471BA5FE34A73_CLASS_1_D5FB6DDF5670D2E2__CTOR_OFFSET UNITYSDK_OFFSET(0x10AE5FC0)
+#define CLASS_1_2C4471BA5FE34A73_CLASS_1_D5FB6DDF5670D2E2__CTOR_OFFSET UNITYSDK_OFFSET(0xDE47020)
 
-inline static constexpr unsigned int Class_1_2C4471BA5FE34A73_Class_1_D5FB6DDF5670D2E2_TypeDefinitionIndex = 46421;
+inline static constexpr unsigned int Class_1_2C4471BA5FE34A73_Class_1_D5FB6DDF5670D2E2_TypeDefinitionIndex = 53107;
 
 class Class_1_2C4471BA5FE34A73_Class_1_D5FB6DDF5670D2E2 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_11; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_10; // 0x18
-	::RPG::GameCore::FixPoint Field_1_3; // 0x20
-	::RPG::GameCore::FixPoint Field_1_19; // 0x28
-	::System::UInt32 Field_1_15; // 0x30
-	::System::UInt32 Field_1_6; // 0x34
-	::RPG::GameCore::FixPoint Field_1_7; // 0x38
-	::System::UInt32 Field_1_13; // 0x40
-	::System::UInt32 Field_1_12; // 0x44
-	::RPG::GameCore::FixPoint Field_1_5; // 0x48
-	::System::UInt32 Field_1_4; // 0x50
-	::System::UInt32 Field_1_14; // 0x54
+	::Il2CppArray<::System::UInt32>* Field_1_10; // 0x10
+	::Il2CppArray<::System::UInt32>* Field_1_11; // 0x18
+	::RPG::GameCore::FixPoint Field_1_2; // 0x20
+	::RPG::GameCore::FixPoint Field_1_9; // 0x28
+	::System::UInt32 Field_1_4; // 0x30
+	::System::UInt32 Field_1_13; // 0x34
+	::RPG::GameCore::FixPoint Field_1_1; // 0x38
+	::RPG::GameCore::FixPoint Field_1_5; // 0x40
+	::System::UInt32 Field_1_12; // 0x48
+	::RPG::GameCore::FeverTimePeriodType Field_1_0; // 0x4C
+	::System::UInt32 Field_1_15; // 0x50
+	::System::UInt32 Field_1_6; // 0x54
 	::System::UInt32 Field_1_17; // 0x58
-	::RPG::GameCore::FixPoint Field_1_8; // 0x60
-	::RPG::GameCore::FixPoint Field_1_2; // 0x68
-	::RPG::GameCore::FeverTimePeriodType Field_1_0; // 0x70
-	::System::UInt32 Field_1_16; // 0x74
-	::RPG::GameCore::FixPoint Field_1_9; // 0x78
-	::RPG::GameCore::FixPoint Field_1_18; // 0x80
-	::RPG::GameCore::FixPoint Field_1_1; // 0x88
+	::System::UInt32 Field_1_16; // 0x5C
+	::RPG::GameCore::FixPoint Field_1_19; // 0x60
+	::RPG::GameCore::FixPoint Field_1_8; // 0x68
+	::RPG::GameCore::FixPoint Field_1_3; // 0x70
+	::System::UInt32 Field_1_14; // 0x78
+	::RPG::GameCore::FixPoint Field_1_7; // 0x80
+	::RPG::GameCore::FixPoint Field_1_18; // 0x88
 
 	::System::Void _ctor()
 	{

@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class RogueModule; }
 
-#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x110652C0)
-#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x110652D0)
+#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF7B07A0)
+#define CLASS_3_95EDA397421D9517___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xF7B07B0)
 
-inline static constexpr unsigned int Class_3_95EDA397421D9517___c__DisplayClass1_0_TypeDefinitionIndex = 47474;
+inline static constexpr unsigned int Class_3_95EDA397421D9517___c__DisplayClass1_0_TypeDefinitionIndex = 54209;
 
 class Class_3_95EDA397421D9517___c__DisplayClass1_0 : public ::System::Object
 {

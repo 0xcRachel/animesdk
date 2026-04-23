@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TARGETFORMATIONCONFIG_METHOD_2_9AB0DC92CB42EF27_OFFSET UNITYSDK_OFFSET(0x177D5580)
-#define RPG_GAMECORE_TARGETFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177D5700)
+#define RPG_GAMECORE_TARGETFORMATIONCONFIG_METHOD_2_9AB0DC92CB42EF27_OFFSET UNITYSDK_OFFSET(0x199E39B0)
+#define RPG_GAMECORE_TARGETFORMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199E3B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFormationConfig_TypeDefinitionIndex = 20679;
+	inline static constexpr unsigned int TargetFormationConfig_TypeDefinitionIndex = 21376;
 
 	class TargetFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

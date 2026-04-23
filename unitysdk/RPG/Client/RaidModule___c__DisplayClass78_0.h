@@ -5,12 +5,12 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace RPG::Client { class MemberData; }
 
-#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA28D3C0)
-#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_0__GETDEFAULTRAIDTEAMWITHTRIAL_B__0_OFFSET UNITYSDK_OFFSET(0xA28EE80)
+#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16009870)
+#define RPG_CLIENT_RAIDMODULE___C__DISPLAYCLASS78_0__GETDEFAULTRAIDTEAMWITHTRIAL_B__0_OFFSET UNITYSDK_OFFSET(0x1600B2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RaidModule___c__DisplayClass78_0_TypeDefinitionIndex = 54331;
+	inline static constexpr unsigned int RaidModule___c__DisplayClass78_0_TypeDefinitionIndex = 61494;
 
 	class RaidModule___c__DisplayClass78_0 : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETMEMBERCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x8686060)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETMEMBERCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19887D00)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyDetailsGetMemberCountOptions_TypeDefinitionIndex = 36063;
+	inline static constexpr unsigned int LobbyDetailsGetMemberCountOptions_TypeDefinitionIndex = 41889;
 
 	class LobbyDetailsGetMemberCountOptions : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowSpecialAvatarSkillButtonPanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_30344B49F2528B99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11545DB0)
-#define CLASS_3_30344B49F2528B99__CTOR_OFFSET UNITYSDK_OFFSET(0x11545D80)
+#define CLASS_3_30344B49F2528B99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5F3620)
+#define CLASS_3_30344B49F2528B99__CTOR_OFFSET UNITYSDK_OFFSET(0xE5F35F0)
 
-inline static constexpr unsigned int Class_3_30344B49F2528B99_TypeDefinitionIndex = 44545;
+inline static constexpr unsigned int Class_3_30344B49F2528B99_TypeDefinitionIndex = 51279;
 
 class Class_3_30344B49F2528B99 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowSpecialAvatarSkillButtonPanel*>
 {

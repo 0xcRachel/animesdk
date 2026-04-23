@@ -6,9 +6,9 @@ namespace RPG::Client::ChenLingBattle { class Soldier; }
 namespace RPG::Client::ChenLingBattle { class SoldierPropertyChangeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E8533E8BF8712E1D__CTOR_OFFSET UNITYSDK_OFFSET(0x11147B80)
+#define CLASS_1_E8533E8BF8712E1D__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C0A40)
 
-inline static constexpr unsigned int Class_1_E8533E8BF8712E1D_TypeDefinitionIndex = 62147;
+inline static constexpr unsigned int Class_1_E8533E8BF8712E1D_TypeDefinitionIndex = 70146;
 
 class Class_1_E8533E8BF8712E1D : public ::System::Object
 {

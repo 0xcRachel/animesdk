@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyFateContentParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AD6936E76A771400_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11420F80)
-#define CLASS_3_AD6936E76A771400__CTOR_OFFSET UNITYSDK_OFFSET(0x11420F50)
+#define CLASS_3_AD6936E76A771400_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF09F4D0)
+#define CLASS_3_AD6936E76A771400__CTOR_OFFSET UNITYSDK_OFFSET(0xF09F4A0)
 
-inline static constexpr unsigned int Class_3_AD6936E76A771400_TypeDefinitionIndex = 44186;
+inline static constexpr unsigned int Class_3_AD6936E76A771400_TypeDefinitionIndex = 50893;
 
 class Class_3_AD6936E76A771400 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyFateContentParam*>
 {

@@ -6,17 +6,17 @@ class Class_1_14BF1B11C879825B;
 class Class_1_303D5A33D1401D59;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 
-#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D0FC0)
-#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS14_0___IRILOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xA6D0FD0)
-#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS14_0___IRILOADPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xA6D1020)
+#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA45CE90)
+#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS14_0___IRILOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xA480670)
+#define CLASS_1_303D5A33D1401D59___C__DISPLAYCLASS14_0___IRILOADPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xA4806C0)
 
-inline static constexpr unsigned int Class_1_303D5A33D1401D59___c__DisplayClass14_0_TypeDefinitionIndex = 60591;
+inline static constexpr unsigned int Class_1_303D5A33D1401D59___c__DisplayClass14_0_TypeDefinitionIndex = 68028;
 
 class Class_1_303D5A33D1401D59___c__DisplayClass14_0 : public ::System::Object
 {
 public:
-	::RPG::Client::OpenWorld::StreamingItemData* item; // 0x10
-	::Class_1_14BF1B11C879825B* _IRIContext; // 0x18
+	::Class_1_14BF1B11C879825B* _IRIContext; // 0x10
+	::RPG::Client::OpenWorld::StreamingItemData* item; // 0x18
 	::Class_1_303D5A33D1401D59* __4__this; // 0x20
 
 	::System::Void _ctor()

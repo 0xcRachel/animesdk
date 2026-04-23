@@ -7,24 +7,24 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1887F2B0)
-#define UNITYENGINE_PROBUILDER_MESHUTILITY___C__COLLAPSESHAREDVERTICES_B__10_0_OFFSET UNITYSDK_OFFSET(0x1887F300)
-#define UNITYENGINE_PROBUILDER_MESHUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1887F2F0)
+#define UNITYENGINE_PROBUILDER_MESHUTILITY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9E91E0)
+#define UNITYENGINE_PROBUILDER_MESHUTILITY___C__COLLAPSESHAREDVERTICES_B__10_0_OFFSET UNITYSDK_OFFSET(0xB9E9230)
+#define UNITYENGINE_PROBUILDER_MESHUTILITY___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB9E9220)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int MeshUtility___c_TypeDefinitionIndex = 34114;
+	inline static constexpr unsigned int MeshUtility___c_TypeDefinitionIndex = 39933;
 
 	class MeshUtility___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ProBuilder::MeshUtility___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::MeshUtility___c**)Il2CppClass::FromTypeDefinitionIndex(MeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x3B960);
+			return (::UnityEngine::ProBuilder::MeshUtility___c**)Il2CppClass::FromTypeDefinitionIndex(MeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x56AD0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Vertex*, ::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Vertex*>*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Vertex*, ::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Vertex*>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x3B968);
+			return (::System::Func_2<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Vertex*, ::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Vertex*>*>**)Il2CppClass::FromTypeDefinitionIndex(MeshUtility___c_TypeDefinitionIndex)->GetStaticField(0x56AD8);
 		}
 
 		static ::System::Void _cctor()

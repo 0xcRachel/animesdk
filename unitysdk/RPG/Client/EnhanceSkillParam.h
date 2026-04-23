@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_ENHANCESKILLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x960AC80)
+#define RPG_CLIENT_ENHANCESKILLPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x15AE1EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnhanceSkillParam_TypeDefinitionIndex = 58916;
+	inline static constexpr unsigned int EnhanceSkillParam_TypeDefinitionIndex = 66287;
 
 	class EnhanceSkillParam : public ::System::Object
 	{

@@ -8,27 +8,27 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_2_74361E0442AB1DB0_METHOD_2_0ADE6075E68BECB1_OFFSET UNITYSDK_OFFSET(0x1117D4E0)
-#define CLASS_2_74361E0442AB1DB0_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1117D460)
-#define CLASS_2_74361E0442AB1DB0_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1117D550)
-#define CLASS_2_74361E0442AB1DB0_METHOD_2_5B48DCA42B80B50C_OFFSET UNITYSDK_OFFSET(0x1117D410)
-#define CLASS_2_74361E0442AB1DB0__CTOR_OFFSET UNITYSDK_OFFSET(0x1117D3E0)
+#define CLASS_2_74361E0442AB1DB0_METHOD_2_0ADE6075E68BECB1_OFFSET UNITYSDK_OFFSET(0x1091FD00)
+#define CLASS_2_74361E0442AB1DB0_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1091FC80)
+#define CLASS_2_74361E0442AB1DB0_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1091FD70)
+#define CLASS_2_74361E0442AB1DB0_METHOD_2_5B48DCA42B80B50C_OFFSET UNITYSDK_OFFSET(0x1091FC30)
+#define CLASS_2_74361E0442AB1DB0__CTOR_OFFSET UNITYSDK_OFFSET(0x1091FC00)
 
-inline static constexpr unsigned int Class_2_74361E0442AB1DB0_TypeDefinitionIndex = 57421;
+inline static constexpr unsigned int Class_2_74361E0442AB1DB0_TypeDefinitionIndex = 64682;
 
 class Class_2_74361E0442AB1DB0 : public ::Class_1_E0B2943A83765539
 {
 public:
 	::UnityEngine::AnimationCurve* Field_2_9; // 0x20
 	::RPG::GameCore::GameEntity* Field_2_0; // 0x28
-	::System::Single Field_2_2; // 0x30
-	::System::Single Field_2_7; // 0x34
+	::System::Single Field_2_7; // 0x30
+	::System::Single Field_2_2; // 0x34
 	::System::Single Field_2_4; // 0x38
 	::System::Single Field_2_1; // 0x3C
 	::System::Single Field_2_3; // 0x40
-	::System::Boolean Field_2_8; // 0x44
-	::System::Single Field_2_6; // 0x48
-	::System::Int32 Field_2_5; // 0x4C
+	::System::Single Field_2_6; // 0x44
+	::System::Int32 Field_2_5; // 0x48
+	::System::Boolean Field_2_8; // 0x4C
 
 	::System::Void _ctor(::RPG::GameCore::PPEffectFilterPriorityGroup a1, ::RPG::GameCore::PPEffectFilterPriority a2)
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x931F130)
+#define RPG_CLIENT_CHATCONTACTPAM_SENDBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF0200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 51304;
+	inline static constexpr unsigned int ChatContactPam_SendBlockData_TypeDefinitionIndex = 58230;
 
 	class ChatContactPam_SendBlockData : public ::System::Object
 	{

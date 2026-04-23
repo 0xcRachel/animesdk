@@ -6,27 +6,27 @@ namespace System { class Delegate; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_THREADING_THREADHELPER_SETEXECUTIONCONTEXTHELPER_OFFSET UNITYSDK_OFFSET(0x16261F20)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x162622F0)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x16261F30)
-#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x16262250)
-#define SYSTEM_THREADING_THREADHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16261EE0)
-#define SYSTEM_THREADING_THREADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x16260EA0)
+#define SYSTEM_THREADING_THREADHELPER_SETEXECUTIONCONTEXTHELPER_OFFSET UNITYSDK_OFFSET(0x18BD1F80)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_1_OFFSET UNITYSDK_OFFSET(0x18BD23B0)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_CONTEXT_OFFSET UNITYSDK_OFFSET(0x18BD1F90)
+#define SYSTEM_THREADING_THREADHELPER_THREADSTART_OFFSET UNITYSDK_OFFSET(0x18BD22E0)
+#define SYSTEM_THREADING_THREADHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BD1F40)
+#define SYSTEM_THREADING_THREADHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD0F00)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 844;
+	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 846;
 
 	class ThreadHelper : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet__ccb()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x116F0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(ThreadHelper_TypeDefinitionIndex)->GetStaticField(0x9310);
 		}
-		::System::Delegate* _start; // 0x10
-		::System::Object* _startArg; // 0x18
-		::System::Threading::ExecutionContext* _executionContext; // 0x20
+		::System::Object* _startArg; // 0x10
+		::System::Threading::ExecutionContext* _executionContext; // 0x18
+		::System::Delegate* _start; // 0x20
 
 		static ::System::Void _cctor()
 		{

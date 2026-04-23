@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160664F0)
-#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS24_0__LOGINRESULTCALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x16066500)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1503F0F0)
+#define MIHOYO_SDK_WIN_BILIBILIMANAGER___C__DISPLAYCLASS24_0__LOGINRESULTCALLBACK_B__1_OFFSET UNITYSDK_OFFSET(0x1503F8E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass24_0_TypeDefinitionIndex = 7935;
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass24_0_TypeDefinitionIndex = 8081;
 
 	class BiliBiliManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::String* accessKey; // 0x10
+		::System::String* uname; // 0x10
 		::System::String* uid; // 0x18
-		::System::String* uname; // 0x20
+		::System::String* accessKey; // 0x20
 
 		::System::Void _ctor()
 		{

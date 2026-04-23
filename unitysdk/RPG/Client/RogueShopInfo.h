@@ -2,67 +2,67 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4D5D53619B020DDD;
-class Class_1_E7C4009BCC22497A_72;
-class Class_1_E7C4009BCC22497A_73;
-class Class_1_E7C4009BCC22497A_74;
+class Class_1_C74059A83466814F;
+class Class_1_D40936EF3BF54118_78;
+class Class_1_D40936EF3BF54118_79;
+class Class_1_D40936EF3BF54118_80;
 namespace RPG::Client { class RogueBuffShopData; }
 namespace RPG::Client { class RogueFormulaShopData; }
 namespace RPG::Client { class RogueMiracleShopData; }
 
-#define RPG_CLIENT_ROGUESHOPINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA369290)
-#define RPG_CLIENT_ROGUESHOPINFO_GET_BUFFSHOP_OFFSET UNITYSDK_OFFSET(0xA369430)
-#define RPG_CLIENT_ROGUESHOPINFO_GET_FORMULASHOP_OFFSET UNITYSDK_OFFSET(0xA369450)
-#define RPG_CLIENT_ROGUESHOPINFO_GET_MIRACLESHOP_OFFSET UNITYSDK_OFFSET(0xA369410)
-#define RPG_CLIENT_ROGUESHOPINFO_SET_BUFFSHOP_OFFSET UNITYSDK_OFFSET(0xA369440)
-#define RPG_CLIENT_ROGUESHOPINFO_SET_FORMULASHOP_OFFSET UNITYSDK_OFFSET(0xA369460)
-#define RPG_CLIENT_ROGUESHOPINFO_SET_MIRACLESHOP_OFFSET UNITYSDK_OFFSET(0xA369420)
-#define RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPCONFIG_OFFSET UNITYSDK_OFFSET(0xA369150)
-#define RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPITEM_OFFSET UNITYSDK_OFFSET(0xA3690F0)
-#define RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPCONFIG_OFFSET UNITYSDK_OFFSET(0xA369220)
-#define RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPITEM_OFFSET UNITYSDK_OFFSET(0xA3691C0)
-#define RPG_CLIENT_ROGUESHOPINFO_SYNCMIRACLE_OFFSET UNITYSDK_OFFSET(0xA369060)
-#define RPG_CLIENT_ROGUESHOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA369470)
+#define RPG_CLIENT_ROGUESHOPINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16366010)
+#define RPG_CLIENT_ROGUESHOPINFO_GET_BUFFSHOP_OFFSET UNITYSDK_OFFSET(0x163661B0)
+#define RPG_CLIENT_ROGUESHOPINFO_GET_FORMULASHOP_OFFSET UNITYSDK_OFFSET(0x163661D0)
+#define RPG_CLIENT_ROGUESHOPINFO_GET_MIRACLESHOP_OFFSET UNITYSDK_OFFSET(0x16366190)
+#define RPG_CLIENT_ROGUESHOPINFO_SET_BUFFSHOP_OFFSET UNITYSDK_OFFSET(0x163661C0)
+#define RPG_CLIENT_ROGUESHOPINFO_SET_FORMULASHOP_OFFSET UNITYSDK_OFFSET(0x163661E0)
+#define RPG_CLIENT_ROGUESHOPINFO_SET_MIRACLESHOP_OFFSET UNITYSDK_OFFSET(0x163661A0)
+#define RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPCONFIG_OFFSET UNITYSDK_OFFSET(0x16365ED0)
+#define RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPITEM_OFFSET UNITYSDK_OFFSET(0x16365E70)
+#define RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPCONFIG_OFFSET UNITYSDK_OFFSET(0x16365FA0)
+#define RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPITEM_OFFSET UNITYSDK_OFFSET(0x16365F40)
+#define RPG_CLIENT_ROGUESHOPINFO_SYNCMIRACLE_OFFSET UNITYSDK_OFFSET(0x16365DE0)
+#define RPG_CLIENT_ROGUESHOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x163661F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueShopInfo_TypeDefinitionIndex = 54850;
+	inline static constexpr unsigned int RogueShopInfo_TypeDefinitionIndex = 62038;
 
 	class RogueShopInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::RogueFormulaShopData* _FormulaShop_k__BackingField; // 0x10
-		::RPG::Client::RogueBuffShopData* _BuffShop_k__BackingField; // 0x18
-		::RPG::Client::RogueMiracleShopData* _MiracleShop_k__BackingField; // 0x20
+		::RPG::Client::RogueMiracleShopData* _MiracleShop_k__BackingField; // 0x10
+		::RPG::Client::RogueFormulaShopData* _FormulaShop_k__BackingField; // 0x18
+		::RPG::Client::RogueBuffShopData* _BuffShop_k__BackingField; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void SyncMiracle(::Class_1_E7C4009BCC22497A_72* info)
+		::System::Void SyncMiracle(::Class_1_D40936EF3BF54118_78* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E7C4009BCC22497A_72*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCMIRACLE_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_78*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCMIRACLE_OFFSET))(this, info);
 		}
 
-		::System::Void SyncBuffShopItem(::Class_1_E7C4009BCC22497A_73* info)
+		::System::Void SyncBuffShopItem(::Class_1_D40936EF3BF54118_79* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E7C4009BCC22497A_73*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPITEM_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_79*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPITEM_OFFSET))(this, info);
 		}
 
-		::System::Void SyncBuffShopConfig(::System::Int32 remainRefreshTimes, ::System::Int32 totalRefreshTimes, ::Class_1_4D5D53619B020DDD* cost)
+		::System::Void SyncBuffShopConfig(::System::Int32 remainRefreshTimes, ::System::Int32 totalRefreshTimes, ::Class_1_C74059A83466814F* cost)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Class_1_4D5D53619B020DDD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPCONFIG_OFFSET))(this, remainRefreshTimes, totalRefreshTimes, cost);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Class_1_C74059A83466814F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCBUFFSHOPCONFIG_OFFSET))(this, remainRefreshTimes, totalRefreshTimes, cost);
 		}
 
-		::System::Void SyncFormulaShopItem(::Class_1_E7C4009BCC22497A_74* info)
+		::System::Void SyncFormulaShopItem(::Class_1_D40936EF3BF54118_80* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E7C4009BCC22497A_74*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPITEM_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_80*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPITEM_OFFSET))(this, info);
 		}
 
-		::System::Void SyncFormulaShopConfig(::System::Int32 remainRefreshTimes, ::System::Int32 totalRefreshTimes, ::Class_1_4D5D53619B020DDD* cost)
+		::System::Void SyncFormulaShopConfig(::System::Int32 remainRefreshTimes, ::System::Int32 totalRefreshTimes, ::Class_1_C74059A83466814F* cost)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Class_1_4D5D53619B020DDD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPCONFIG_OFFSET))(this, remainRefreshTimes, totalRefreshTimes, cost);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Class_1_C74059A83466814F*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUESHOPINFO_SYNCFORMULASHOPCONFIG_OFFSET))(this, remainRefreshTimes, totalRefreshTimes, cost);
 		}
 
 		::System::Void Dispose()

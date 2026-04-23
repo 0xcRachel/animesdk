@@ -6,26 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F0E420)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F0ECB0)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1887DBF0)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1887E440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFightGroupRow_TypeDefinitionIndex = 10798;
+	inline static constexpr unsigned int ActivityFightGroupRow_TypeDefinitionIndex = 11047;
 
 	class ActivityFightGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* ActivityFightGroupIconPath; // 0x10
-		::System::UInt32 BattleAreaGroupID; // 0x18
+		::System::UInt32 BattleAreaID; // 0x18
 		::System::UInt32 ActivityFightGroupID; // 0x1C
-		::RPG::Client::TextID FightStageLimitDesc; // 0x20
+		::RPG::Client::TextID FightStageDesc; // 0x20
 		::System::UInt32 SpecialAvatarID; // 0x30
-		::System::UInt32 BattleAreaID; // 0x34
-		::RPG::Client::TextID FightStageDesc; // 0x38
-		::System::UInt32 PlaneID; // 0x48
-		::System::UInt32 FloorID; // 0x4C
-		::RPG::Client::TextID FightStageTitle; // 0x50
+		::System::UInt32 BattleAreaGroupID; // 0x34
+		::RPG::Client::TextID FightStageLimitDesc; // 0x38
+		::RPG::Client::TextID FightStageTitle; // 0x48
+		::System::UInt32 FloorID; // 0x58
+		::System::UInt32 PlaneID; // 0x5C
 
 		::System::Void _ctor()
 		{

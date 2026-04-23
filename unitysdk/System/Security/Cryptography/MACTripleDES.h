@@ -7,22 +7,22 @@ namespace System::Security::Cryptography { class ICryptoTransform; }
 namespace System::Security::Cryptography { class TailStream; }
 namespace System::Security::Cryptography { class TripleDES; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1642ABD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1642A750)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1642A990)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1642A740)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES__CTOR_OFFSET UNITYSDK_OFFSET(0x1641F810)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17654B50)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHCORE_OFFSET UNITYSDK_OFFSET(0x176546D0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x17654910)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x176546C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES__CTOR_OFFSET UNITYSDK_OFFSET(0x176497E0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int MACTripleDES_TypeDefinitionIndex = 1024;
+	inline static constexpr unsigned int MACTripleDES_TypeDefinitionIndex = 1026;
 
 	class MACTripleDES : public ::System::Security::Cryptography::KeyedHashAlgorithm
 	{
 	public:
-		::System::Security::Cryptography::TailStream* _ts; // 0x30
-		::System::Security::Cryptography::CryptoStream* _cs; // 0x38
-		::System::Security::Cryptography::TripleDES* des; // 0x40
+		::System::Security::Cryptography::TripleDES* des; // 0x30
+		::System::Security::Cryptography::TailStream* _ts; // 0x38
+		::System::Security::Cryptography::CryptoStream* _cs; // 0x40
 		::System::Security::Cryptography::ICryptoTransform* m_encryptor; // 0x48
 		::System::Int32 m_bytesPerBlock; // 0x50
 

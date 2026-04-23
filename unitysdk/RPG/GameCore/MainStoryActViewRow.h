@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINSTORYACTVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1738BAB0)
-#define RPG_GAMECORE_MAINSTORYACTVIEWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1738BD30)
+#define RPG_GAMECORE_MAINSTORYACTVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FD5AE0)
+#define RPG_GAMECORE_MAINSTORYACTVIEWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD5D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainStoryActViewRow_TypeDefinitionIndex = 12786;
+	inline static constexpr unsigned int MainStoryActViewRow_TypeDefinitionIndex = 13252;
 
 	class MainStoryActViewRow : public ::System::Object
 	{

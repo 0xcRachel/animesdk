@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174CBF90)
-#define RPG_GAMECORE_PLANETFESAVATARSTARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174CC630)
+#define RPG_GAMECORE_PLANETFESAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B2CA80)
+#define RPG_GAMECORE_PLANETFESAVATARSTARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B2D120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarStarRow_TypeDefinitionIndex = 11123;
+	inline static constexpr unsigned int PlanetFesAvatarStarRow_TypeDefinitionIndex = 11526;
 
 	class PlanetFesAvatarStarRow : public ::System::Object
 	{

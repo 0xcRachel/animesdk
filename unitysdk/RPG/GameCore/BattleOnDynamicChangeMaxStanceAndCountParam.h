@@ -5,21 +5,21 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_BATTLEONDYNAMICCHANGEMAXSTANCEANDCOUNTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA8989E0)
+#define RPG_GAMECORE_BATTLEONDYNAMICCHANGEMAXSTANCEANDCOUNTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x11D35610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleOnDynamicChangeMaxStanceAndCountParam_TypeDefinitionIndex = 46561;
+	inline static constexpr unsigned int BattleOnDynamicChangeMaxStanceAndCountParam_TypeDefinitionIndex = 53251;
 
 	class BattleOnDynamicChangeMaxStanceAndCountParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Target; // 0x10
-		::RPG::GameCore::FixPoint NewMaxStance; // 0x18
-		::System::Int32 NewCount; // 0x20
+		::System::Boolean IsAdd; // 0x18
+		::System::Int32 NewCount; // 0x1C
+		::RPG::GameCore::FixPoint NewMaxStance; // 0x20
 		::RPG::GameCore::FixPoint OldMaxStance; // 0x28
 		::System::Int32 OldCount; // 0x30
-		::System::Boolean IsAdd; // 0x34
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallRotateObstacle_GravityBallRotateObstacleDirection_TypeDefinitionIndex = 64046;
+	inline static constexpr unsigned int GravityBallRotateObstacle_GravityBallRotateObstacleDirection_TypeDefinitionIndex = 72093;
 
 	enum class GravityBallRotateObstacle_GravityBallRotateObstacleDirection : ::System::Int32
 	{

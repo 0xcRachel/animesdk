@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightFlowDirector_FlowStateEventBase_1.h"
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_ADVENTUREPHASEENTEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x9825840)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_ADVENTUREPHASEENTEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x174CCD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_AdventurePhaseEnterEvent_TypeDefinitionIndex = 52477;
+	inline static constexpr unsigned int GridFightFlowDirector_AdventurePhaseEnterEvent_TypeDefinitionIndex = 59435;
 
 	class GridFightFlowDirector_AdventurePhaseEnterEvent : public ::RPG::Client::GridFightFlowDirector_FlowStateEventBase_1<::RPG::Client::GridFightFlowDirector_AdventurePhaseEnterEvent*>
 	{

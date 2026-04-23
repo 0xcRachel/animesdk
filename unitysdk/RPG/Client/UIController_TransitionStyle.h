@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIController_TransitionStyle_TypeDefinitionIndex = 59861;
+	inline static constexpr unsigned int UIController_TransitionStyle_TypeDefinitionIndex = 67258;
 
 	enum class UIController_TransitionStyle : ::System::Int32
 	{

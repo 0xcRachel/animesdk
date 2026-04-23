@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimDestructiblePropConfig; }
 
-#define CLASS_1_5A32094AB90633ED__CTOR_OFFSET UNITYSDK_OFFSET(0x16A61560)
+#define CLASS_1_5A32094AB90633ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1537C230)
 
-inline static constexpr unsigned int Class_1_5A32094AB90633ED_TypeDefinitionIndex = 33478;
+inline static constexpr unsigned int Class_1_5A32094AB90633ED_TypeDefinitionIndex = 39272;
 
 class Class_1_5A32094AB90633ED : public ::System::Object
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_CAMERAMODULECONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x92686B0)
+#define RPG_CLIENT_CAMERAMODULECONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E27FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraModuleConfigBase_TypeDefinitionIndex = 56963;
+	inline static constexpr unsigned int CameraModuleConfigBase_TypeDefinitionIndex = 64214;
 
 	class CameraModuleConfigBase : public ::UnityEngine::ScriptableObject
 	{

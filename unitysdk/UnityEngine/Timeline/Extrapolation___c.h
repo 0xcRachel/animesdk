@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_EXTRAPOLATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189BE560)
-#define UNITYENGINE_TIMELINE_EXTRAPOLATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189BE590)
-#define UNITYENGINE_TIMELINE_EXTRAPOLATION___C__SORTCLIPSBYSTARTTIME_B__2_0_OFFSET UNITYSDK_OFFSET(0x189BE5A0)
+#define UNITYENGINE_TIMELINE_EXTRAPOLATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A9D670)
+#define UNITYENGINE_TIMELINE_EXTRAPOLATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A9D6A0)
+#define UNITYENGINE_TIMELINE_EXTRAPOLATION___C__SORTCLIPSBYSTARTTIME_B__2_0_OFFSET UNITYSDK_OFFSET(0x18A9D6B0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int Extrapolation___c_TypeDefinitionIndex = 29915;
+	inline static constexpr unsigned int Extrapolation___c_TypeDefinitionIndex = 35635;
 
 	class Extrapolation___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Timeline::Extrapolation___c** StaticGet___9()
-		{
-			return (::UnityEngine::Timeline::Extrapolation___c**)Il2CppClass::FromTypeDefinitionIndex(Extrapolation___c_TypeDefinitionIndex)->GetStaticField(0x35740);
-		}
 		static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(Extrapolation___c_TypeDefinitionIndex)->GetStaticField(0x35748);
+			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(Extrapolation___c_TypeDefinitionIndex)->GetStaticField(0x604C0);
+		}
+		static ::UnityEngine::Timeline::Extrapolation___c** StaticGet___9()
+		{
+			return (::UnityEngine::Timeline::Extrapolation___c**)Il2CppClass::FromTypeDefinitionIndex(Extrapolation___c_TypeDefinitionIndex)->GetStaticField(0x604C8);
 		}
 
 		static ::System::Void _cctor()

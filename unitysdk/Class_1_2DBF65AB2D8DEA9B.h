@@ -5,17 +5,17 @@
 
 namespace System { class String; }
 
-#define CLASS_1_2DBF65AB2D8DEA9B__CTOR_OFFSET UNITYSDK_OFFSET(0x8A3A960)
+#define CLASS_1_2DBF65AB2D8DEA9B__CTOR_OFFSET UNITYSDK_OFFSET(0x11925B70)
 
-inline static constexpr unsigned int Class_1_2DBF65AB2D8DEA9B_TypeDefinitionIndex = 59803;
+inline static constexpr unsigned int Class_1_2DBF65AB2D8DEA9B_TypeDefinitionIndex = 67199;
 
 class Class_1_2DBF65AB2D8DEA9B : public ::System::Object
 {
 public:
 	::System::String* Field_1_4; // 0x10
-	::System::String* Field_1_3; // 0x18
+	::Il2CppArray<::System::Object*>* Field_1_1; // 0x18
 	::System::String* Field_1_2; // 0x20
-	::Il2CppArray<::System::Object*>* Field_1_1; // 0x28
+	::System::String* Field_1_3; // 0x28
 	::RPG::Client::TextID Field_1_0; // 0x30
 
 	::System::Void _ctor()

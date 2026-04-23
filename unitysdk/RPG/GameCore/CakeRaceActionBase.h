@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEACTIONBASE_METHOD_2_1FA550A1BB0E6826_OFFSET UNITYSDK_OFFSET(0x17056800)
-#define RPG_GAMECORE_CAKERACEACTIONBASE_METHOD_2_C01912DEA5DCFAF5_OFFSET UNITYSDK_OFFSET(0x17056980)
-#define RPG_GAMECORE_CAKERACEACTIONBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x170569E0)
-#define RPG_GAMECORE_CAKERACEACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17056620)
+#define RPG_GAMECORE_CAKERACEACTIONBASE_METHOD_2_1FA550A1BB0E6826_OFFSET UNITYSDK_OFFSET(0x19A78B90)
+#define RPG_GAMECORE_CAKERACEACTIONBASE_METHOD_2_C01912DEA5DCFAF5_OFFSET UNITYSDK_OFFSET(0x19A78D10)
+#define RPG_GAMECORE_CAKERACEACTIONBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A78D70)
+#define RPG_GAMECORE_CAKERACEACTIONBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A789B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceActionBase_TypeDefinitionIndex = 16827;
+	inline static constexpr unsigned int CakeRaceActionBase_TypeDefinitionIndex = 17421;
 
 	class CakeRaceActionBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionBase*>*>** StaticGet__FromBinary_CakeRaceActionBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceActionBase_TypeDefinitionIndex)->GetStaticField(0x2BD00);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceActionBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceActionBase_TypeDefinitionIndex)->GetStaticField(0x12690);
 		}
 
 		::System::Void _ctor()

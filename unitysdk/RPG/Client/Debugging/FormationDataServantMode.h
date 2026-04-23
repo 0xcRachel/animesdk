@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int FormationDataServantMode_TypeDefinitionIndex = 64445;
+	inline static constexpr unsigned int FormationDataServantMode_TypeDefinitionIndex = 72492;
 
 	enum class FormationDataServantMode : ::System::Int32
 	{

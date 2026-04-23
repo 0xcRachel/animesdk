@@ -20,6 +20,7 @@ namespace RPG::GameCore { class CharacterEmoContextConfig; }
 namespace RPG::GameCore { class CharacterEntityColliderConfig; }
 namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
 namespace RPG::GameCore { class CharacterPhaseConfig; }
+namespace RPG::GameCore { class CharacterUIConfig; }
 namespace RPG::GameCore { class CustomTeamFormationConfig; }
 namespace RPG::GameCore { class EffectAdaptionConfig; }
 namespace RPG::GameCore { class FieldEffectAdaptionConfig; }
@@ -32,17 +33,17 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1707BB80)
-#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1707B7C0)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1707F410)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1707F2A0)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x1707F560)
-#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x1707F1A0)
-#define RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1707BA80)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18D56880)
+#define RPG_GAMECORE_CHARACTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D564C0)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETATTACHPOINTEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x18D5A2F0)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x18D5A180)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETEFFECTATTACHPOINTREDIRECT_OFFSET UNITYSDK_OFFSET(0x18D5A440)
+#define RPG_GAMECORE_CHARACTERCONFIG_GETSKILLINDEXBYTRIGGERKEY_OFFSET UNITYSDK_OFFSET(0x18D5A080)
+#define RPG_GAMECORE_CHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D56780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 15125;
+	inline static constexpr unsigned int CharacterConfig_TypeDefinitionIndex = 15635;
 
 	class CharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -122,6 +123,7 @@ namespace RPG::GameCore
 		::System::Boolean AlwaysCutOnSkillTargetTeamChange; // 0x1F4
 		::System::Boolean IsPuppetCharacter; // 0x1F5
 		::Il2CppArray<::RPG::GameCore::CustomTeamFormationConfig*>* CustomTeamFormationConfigs; // 0x1F8
+		::RPG::GameCore::CharacterUIConfig* UIConfig; // 0x200
 
 		::System::Void _ctor()
 		{

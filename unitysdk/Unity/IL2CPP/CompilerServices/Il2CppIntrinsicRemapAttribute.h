@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICREMAPATTRIBUTE_SET_NATIVEFUNCTION_OFFSET UNITYSDK_OFFSET(0x189FC2E0)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICREMAPATTRIBUTE_SET_NATIVEHEADER_OFFSET UNITYSDK_OFFSET(0x189FC2F0)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICREMAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189FC300)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICREMAPATTRIBUTE_SET_NATIVEFUNCTION_OFFSET UNITYSDK_OFFSET(0x19CF8D30)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICREMAPATTRIBUTE_SET_NATIVEHEADER_OFFSET UNITYSDK_OFFSET(0x19CF8D40)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICREMAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF8D50)
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppIntrinsicRemapAttribute_TypeDefinitionIndex = 3783;
+	inline static constexpr unsigned int Il2CppIntrinsicRemapAttribute_TypeDefinitionIndex = 3785;
 
 	class Il2CppIntrinsicRemapAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _NativeHeader_k__BackingField; // 0x10
-		::System::String* _NativeFunction_k__BackingField; // 0x18
+		::System::String* _NativeFunction_k__BackingField; // 0x10
+		::System::String* _NativeHeader_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::String* nativeFunction, ::System::String* nativeHeader)
 		{

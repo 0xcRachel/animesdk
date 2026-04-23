@@ -3,43 +3,43 @@
 #include "unitysdk/RPG/GameCore/TimeRewindState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_2533213D74484D5C;
+class Class_1_F65DC6656DEF8159;
 class Class_2_D5331BDCD85B8368;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 
-#define CLASS_1_C12A9F4D9935F4DB_CLEAR_OFFSET UNITYSDK_OFFSET(0x99DB570)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_0C363E975E016EA9_OFFSET UNITYSDK_OFFSET(0x99DB3A0)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_5B0C2896688A2F29_OFFSET UNITYSDK_OFFSET(0x99DB630)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_8D663435C6E609D2_OFFSET UNITYSDK_OFFSET(0x99DBAA0)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x99DBC30)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0x99DBB90)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x99DBAF0)
-#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x99DBC80)
-#define CLASS_1_C12A9F4D9935F4DB__CTOR_OFFSET UNITYSDK_OFFSET(0x99DBCC0)
+#define CLASS_1_C12A9F4D9935F4DB_CLEAR_OFFSET UNITYSDK_OFFSET(0xEB6BF90)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_0C363E975E016EA9_OFFSET UNITYSDK_OFFSET(0xEB6BDC0)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_5B0C2896688A2F29_OFFSET UNITYSDK_OFFSET(0xEB6C050)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_8D663435C6E609D2_OFFSET UNITYSDK_OFFSET(0xEB6C4B0)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xEB6C640)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_B1936CE4DA97AA45_1_OFFSET UNITYSDK_OFFSET(0xEB6C5A0)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xEB6C500)
+#define CLASS_1_C12A9F4D9935F4DB_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xEB6C690)
+#define CLASS_1_C12A9F4D9935F4DB__CTOR_OFFSET UNITYSDK_OFFSET(0xEB6C6D0)
 
-inline static constexpr unsigned int Class_1_C12A9F4D9935F4DB_TypeDefinitionIndex = 49263;
+inline static constexpr unsigned int Class_1_C12A9F4D9935F4DB_TypeDefinitionIndex = 56060;
 
 class Class_1_C12A9F4D9935F4DB : public ::System::Object
 {
 public:
-	::Class_1_2533213D74484D5C* Field_1_6; // 0x10
-	::Class_2_D5331BDCD85B8368* Field_1_2; // 0x18
-	::System::Single Field_1_0; // 0x20
-	::System::Boolean Field_1_5; // 0x24
-	::System::Single Field_1_1; // 0x28
-	::RPG::GameCore::TimeRewindState Field_1_3; // 0x2C
-	::System::Single Field_1_4; // 0x30
+	::Class_2_D5331BDCD85B8368* Field_1_2; // 0x10
+	::Class_1_F65DC6656DEF8159* Field_1_6; // 0x18
+	::System::Single Field_1_4; // 0x20
+	::RPG::GameCore::TimeRewindState Field_1_3; // 0x24
+	::System::Boolean Field_1_5; // 0x28
+	::System::Single Field_1_1; // 0x2C
+	::System::Single Field_1_0; // 0x30
 
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C12A9F4D9935F4DB__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_0C363E975E016EA9(::RPG::GameCore::GameEntity* a1, ::Class_1_2533213D74484D5C* a2, ::System::Single a3, ::System::Single a4, ::RPG::GameCore::VCameraShakeV2* a5, ::RPG::GameCore::VCameraOverrideShakeV2* a6)
+	::System::Void Method_1_0C363E975E016EA9(::RPG::GameCore::GameEntity* a1, ::Class_1_F65DC6656DEF8159* a2, ::System::Single a3, ::System::Single a4, ::RPG::GameCore::VCameraShakeV2* a5, ::RPG::GameCore::VCameraOverrideShakeV2* a6)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_2533213D74484D5C*, ::System::Single, ::System::Single, ::RPG::GameCore::VCameraShakeV2*, ::RPG::GameCore::VCameraOverrideShakeV2*))((::PBYTE)hIl2Cpp + CLASS_1_C12A9F4D9935F4DB_METHOD_1_0C363E975E016EA9_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_1_F65DC6656DEF8159*, ::System::Single, ::System::Single, ::RPG::GameCore::VCameraShakeV2*, ::RPG::GameCore::VCameraOverrideShakeV2*))((::PBYTE)hIl2Cpp + CLASS_1_C12A9F4D9935F4DB_METHOD_1_0C363E975E016EA9_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 	}
 
 	::System::Void Clear()

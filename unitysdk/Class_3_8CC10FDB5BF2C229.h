@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureTriggerMoveWithPath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8CC10FDB5BF2C229_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x108E5040)
-#define CLASS_3_8CC10FDB5BF2C229__CTOR_OFFSET UNITYSDK_OFFSET(0x108E5010)
+#define CLASS_3_8CC10FDB5BF2C229_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF59BEA0)
+#define CLASS_3_8CC10FDB5BF2C229__CTOR_OFFSET UNITYSDK_OFFSET(0xF59BE70)
 
-inline static constexpr unsigned int Class_3_8CC10FDB5BF2C229_TypeDefinitionIndex = 46713;
+inline static constexpr unsigned int Class_3_8CC10FDB5BF2C229_TypeDefinitionIndex = 53422;
 
 class Class_3_8CC10FDB5BF2C229 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureTriggerMoveWithPath*>
 {

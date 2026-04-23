@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HITMOTIONPARAMS_METHOD_2_608F85D17A394CFB_OFFSET UNITYSDK_OFFSET(0x172C5EE0)
-#define RPG_GAMECORE_HITMOTIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x172C6110)
+#define RPG_GAMECORE_HITMOTIONPARAMS_METHOD_2_608F85D17A394CFB_OFFSET UNITYSDK_OFFSET(0x18A7F9E0)
+#define RPG_GAMECORE_HITMOTIONPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x18A7FC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitMotionParams_TypeDefinitionIndex = 20774;
+	inline static constexpr unsigned int HitMotionParams_TypeDefinitionIndex = 21476;
 
 	class HitMotionParams : public ::RPG::GameCore::JsonConfig
 	{

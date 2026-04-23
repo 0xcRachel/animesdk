@@ -7,13 +7,13 @@ namespace RPG::Client { class FloorConnectivityData_EdgeInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9711640)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x9711210)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x9711810)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11341920)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x113414F0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x11341AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 52145;
+	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 59095;
 
 	class FloorConnectivityData_VertexInfo : public ::System::Object
 	{

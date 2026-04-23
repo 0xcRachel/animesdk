@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureSetAttackTargetWithoutBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FE3224095669DAFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8DA2340)
-#define CLASS_3_FE3224095669DAFD__CTOR_OFFSET UNITYSDK_OFFSET(0x8DA2310)
+#define CLASS_3_FE3224095669DAFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3977C0)
+#define CLASS_3_FE3224095669DAFD__CTOR_OFFSET UNITYSDK_OFFSET(0xE397790)
 
-inline static constexpr unsigned int Class_3_FE3224095669DAFD_TypeDefinitionIndex = 42542;
+inline static constexpr unsigned int Class_3_FE3224095669DAFD_TypeDefinitionIndex = 48503;
 
 class Class_3_FE3224095669DAFD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureSetAttackTargetWithoutBattle*>
 {

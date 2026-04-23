@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMunicipalEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_19D049ACD3C0E496_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10BD1D10)
-#define CLASS_3_19D049ACD3C0E496__CTOR_OFFSET UNITYSDK_OFFSET(0x10BD1CE0)
+#define CLASS_3_19D049ACD3C0E496_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF5C3160)
+#define CLASS_3_19D049ACD3C0E496__CTOR_OFFSET UNITYSDK_OFFSET(0xF5C3130)
 
-inline static constexpr unsigned int Class_3_19D049ACD3C0E496_TypeDefinitionIndex = 47253;
+inline static constexpr unsigned int Class_3_19D049ACD3C0E496_TypeDefinitionIndex = 53985;
 
 class Class_3_19D049ACD3C0E496 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMunicipalEnable*>
 {

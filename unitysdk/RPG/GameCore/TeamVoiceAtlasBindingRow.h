@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMVOICEATLASBINDINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178AB970)
-#define RPG_GAMECORE_TEAMVOICEATLASBINDINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178ABAE0)
+#define RPG_GAMECORE_TEAMVOICEATLASBINDINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1947D8D0)
+#define RPG_GAMECORE_TEAMVOICEATLASBINDINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1947DA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamVoiceAtlasBindingRow_TypeDefinitionIndex = 11568;
+	inline static constexpr unsigned int TeamVoiceAtlasBindingRow_TypeDefinitionIndex = 11979;
 
 	class TeamVoiceAtlasBindingRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AvatarID; // 0x10
-		::System::UInt32 AtlasVoiceID; // 0x14
-		::System::UInt32 LinkAvatar; // 0x18
+		::System::UInt32 LinkAvatar; // 0x10
+		::System::UInt32 AvatarID; // 0x14
+		::System::UInt32 AtlasVoiceID; // 0x18
 
 		::System::Void _ctor()
 		{

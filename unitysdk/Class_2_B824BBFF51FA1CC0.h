@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitMusicCompositionStageStartEvent; }
 namespace System { class Object; }
 
-#define CLASS_2_B824BBFF51FA1CC0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8A33CF0)
-#define CLASS_2_B824BBFF51FA1CC0_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x8A33DC0)
-#define CLASS_2_B824BBFF51FA1CC0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8A33BF0)
-#define CLASS_2_B824BBFF51FA1CC0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8A33CA0)
-#define CLASS_2_B824BBFF51FA1CC0_TICK_OFFSET UNITYSDK_OFFSET(0x8A33ED0)
-#define CLASS_2_B824BBFF51FA1CC0__CTOR_OFFSET UNITYSDK_OFFSET(0x8A33B60)
+#define CLASS_2_B824BBFF51FA1CC0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBA0240)
+#define CLASS_2_B824BBFF51FA1CC0_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0xEBA0310)
+#define CLASS_2_B824BBFF51FA1CC0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBA0140)
+#define CLASS_2_B824BBFF51FA1CC0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBA01F0)
+#define CLASS_2_B824BBFF51FA1CC0_TICK_OFFSET UNITYSDK_OFFSET(0xEBA0420)
+#define CLASS_2_B824BBFF51FA1CC0__CTOR_OFFSET UNITYSDK_OFFSET(0xEBA00B0)
 
-inline static constexpr unsigned int Class_2_B824BBFF51FA1CC0_TypeDefinitionIndex = 43308;
+inline static constexpr unsigned int Class_2_B824BBFF51FA1CC0_TypeDefinitionIndex = 49306;
 
 class Class_2_B824BBFF51FA1CC0 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
-	::RPG::GameCore::WaitMusicCompositionStageStartEvent* Field_2_1; // 0x28
+	::RPG::GameCore::WaitMusicCompositionStageStartEvent* Field_2_1; // 0x18
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
 	::System::Boolean Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitMusicCompositionStageStartEvent* a2)

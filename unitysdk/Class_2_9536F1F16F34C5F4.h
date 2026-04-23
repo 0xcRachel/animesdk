@@ -5,16 +5,16 @@
 class Class_2_843468DEB2C89684;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount; }
 
-#define CLASS_2_9536F1F16F34C5F4_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x165E0F60)
-#define CLASS_2_9536F1F16F34C5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x165E0F50)
+#define CLASS_2_9536F1F16F34C5F4_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x148403C0)
+#define CLASS_2_9536F1F16F34C5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x148403B0)
 
-inline static constexpr unsigned int Class_2_9536F1F16F34C5F4_TypeDefinitionIndex = 28437;
+inline static constexpr unsigned int Class_2_9536F1F16F34C5F4_TypeDefinitionIndex = 34106;
 
 class Class_2_9536F1F16F34C5F4 : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_843468DEB2C89684* Field_2_1; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount* Field_2_0; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount* Field_2_0; // 0x18
+	::Class_2_843468DEB2C89684* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount* a1, ::Class_2_843468DEB2C89684* a2)
 	{

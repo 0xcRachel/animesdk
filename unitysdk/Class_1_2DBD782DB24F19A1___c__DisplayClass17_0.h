@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_2DBD782DB24F19A1;
-class Class_1_43BD383C98B4C0C5_178;
+class Class_1_43BD383C98B4C0C5_184;
 
-#define CLASS_1_2DBD782DB24F19A1___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0x897D740)
-#define CLASS_1_2DBD782DB24F19A1___C__DISPLAYCLASS17_0___TRYPROCESSMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x897DF70)
+#define CLASS_1_2DBD782DB24F19A1___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE789A90)
+#define CLASS_1_2DBD782DB24F19A1___C__DISPLAYCLASS17_0___TRYPROCESSMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE78A2A0)
 
-inline static constexpr unsigned int Class_1_2DBD782DB24F19A1___c__DisplayClass17_0_TypeDefinitionIndex = 63522;
+inline static constexpr unsigned int Class_1_2DBD782DB24F19A1___c__DisplayClass17_0_TypeDefinitionIndex = 71562;
 
 class Class_1_2DBD782DB24F19A1___c__DisplayClass17_0 : public ::System::Object
 {
 public:
-	::Class_1_43BD383C98B4C0C5_178* message; // 0x10
+	::Class_1_43BD383C98B4C0C5_184* message; // 0x10
 	::Class_1_2DBD782DB24F19A1* __4__this; // 0x18
 
 	::System::Void _ctor()

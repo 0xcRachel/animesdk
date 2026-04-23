@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x186CA680)
+#define SYSTEM_NET_CACHE_REQUESTCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1832BF30)
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 2968;
+	inline static constexpr unsigned int RequestCache_TypeDefinitionIndex = 2969;
 
 	class RequestCache : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_LineSplits()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(RequestCache_TypeDefinitionIndex)->GetStaticField(0x2C100);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(RequestCache_TypeDefinitionIndex)->GetStaticField(0x120C0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHONETHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174B9330)
-#define RPG_GAMECORE_PHONETHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174B9A10)
+#define RPG_GAMECORE_PHONETHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B19C40)
+#define RPG_GAMECORE_PHONETHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1A320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhoneThemeRow_TypeDefinitionIndex = 13223;
+	inline static constexpr unsigned int PhoneThemeRow_TypeDefinitionIndex = 13685;
 
 	class PhoneThemeRow : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::GameCore
 		::System::String* PhoneThemeItem; // 0x10
 		::System::String* PhoneThemeMain; // 0x18
 		::System::String* PhoneThemeApp; // 0x20
-		::RPG::GameCore::PersonalizeShowType ShowType; // 0x28
-		::System::UInt32 ShowParam; // 0x2C
-		::System::UInt32 ID; // 0x30
+		::System::UInt32 ID; // 0x28
+		::RPG::GameCore::PersonalizeShowType ShowType; // 0x2C
+		::System::UInt32 ShowParam; // 0x30
 
 		::System::Void _ctor()
 		{

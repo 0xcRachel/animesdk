@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGPARTNERABILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B2410)
-#define RPG_GAMECORE_SWORDTRAININGPARTNERABILITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B2760)
+#define RPG_GAMECORE_SWORDTRAININGPARTNERABILITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D935D0)
+#define RPG_GAMECORE_SWORDTRAININGPARTNERABILITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D93920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingPartnerAbilityRow_TypeDefinitionIndex = 11363;
+	inline static constexpr unsigned int SwordTrainingPartnerAbilityRow_TypeDefinitionIndex = 11765;
 
 	class SwordTrainingPartnerAbilityRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
-		::System::String* AbilityIcon; // 0x18
-		::Il2CppArray<::System::Single>* DescParamList; // 0x20
+		::Il2CppArray<::System::Single>* DescParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
+		::System::String* AbilityIcon; // 0x20
 		::System::UInt32 Rare; // 0x28
 		::System::UInt32 PartnerAbilityID; // 0x2C
 		::RPG::Client::TextID AbilityDesc; // 0x30

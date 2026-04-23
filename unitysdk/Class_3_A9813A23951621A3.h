@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBtnBattleHintInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A9813A23951621A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1146C330)
-#define CLASS_3_A9813A23951621A3__CTOR_OFFSET UNITYSDK_OFFSET(0x1146C300)
+#define CLASS_3_A9813A23951621A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2A8DF0)
+#define CLASS_3_A9813A23951621A3__CTOR_OFFSET UNITYSDK_OFFSET(0xC2A8DC0)
 
-inline static constexpr unsigned int Class_3_A9813A23951621A3_TypeDefinitionIndex = 44328;
+inline static constexpr unsigned int Class_3_A9813A23951621A3_TypeDefinitionIndex = 51044;
 
 class Class_3_A9813A23951621A3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBtnBattleHintInfo*>
 {

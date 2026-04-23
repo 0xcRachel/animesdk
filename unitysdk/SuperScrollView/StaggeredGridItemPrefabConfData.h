@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xAC32C70)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE19FDF0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int StaggeredGridItemPrefabConfData_TypeDefinitionIndex = 38533;
+	inline static constexpr unsigned int StaggeredGridItemPrefabConfData_TypeDefinitionIndex = 44415;
 
 	class StaggeredGridItemPrefabConfData : public ::System::Object
 	{

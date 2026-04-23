@@ -6,23 +6,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TASKCONFIG_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x177ECD90)
-#define RPG_GAMECORE_TASKCONFIG_METHOD_2_1ED259C7ABF370D3_OFFSET UNITYSDK_OFFSET(0x177ECB40)
-#define RPG_GAMECORE_TASKCONFIG_METHOD_2_577BAC1DE9DE59A7_OFFSET UNITYSDK_OFFSET(0x177ECCC0)
-#define RPG_GAMECORE_TASKCONFIG_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x177ECD80)
-#define RPG_GAMECORE_TASKCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x177ECE20)
-#define RPG_GAMECORE_TASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177ECE10)
+#define RPG_GAMECORE_TASKCONFIG_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x1713AC10)
+#define RPG_GAMECORE_TASKCONFIG_METHOD_2_1ED259C7ABF370D3_OFFSET UNITYSDK_OFFSET(0x1713A9C0)
+#define RPG_GAMECORE_TASKCONFIG_METHOD_2_577BAC1DE9DE59A7_OFFSET UNITYSDK_OFFSET(0x1713AB40)
+#define RPG_GAMECORE_TASKCONFIG_METHOD_2_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1713AC00)
+#define RPG_GAMECORE_TASKCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1713AC90)
+#define RPG_GAMECORE_TASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17136470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TaskConfig_TypeDefinitionIndex = 22010;
+	inline static constexpr unsigned int TaskConfig_TypeDefinitionIndex = 22723;
 
 	class TaskConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TaskConfig*>*>** StaticGet__FromBinary_TaskConfig_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TaskConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskConfig_TypeDefinitionIndex)->GetStaticField(0x177F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TaskConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(TaskConfig_TypeDefinitionIndex)->GetStaticField(0x4B10);
 		}
 		::System::Boolean TaskEnabled; // 0x10
 

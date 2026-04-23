@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class FileOptions; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B24DB0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B24DF0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEOPTIONS___C___CCTOR_B__215_0_OFFSET UNITYSDK_OFFSET(0x15B24E00)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EDBF70)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17EDBFB0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEOPTIONS___C___CCTOR_B__215_0_OFFSET UNITYSDK_OFFSET(0x17EDBFC0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileOptions___c_TypeDefinitionIndex = 6278;
+	inline static constexpr unsigned int FileOptions___c_TypeDefinitionIndex = 6288;
 
 	class FileOptions___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileOptions___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::FileOptions___c**)Il2CppClass::FromTypeDefinitionIndex(FileOptions___c_TypeDefinitionIndex)->GetStaticField(0x7B70);
+			return (::Google::Protobuf::Reflection::FileOptions___c**)Il2CppClass::FromTypeDefinitionIndex(FileOptions___c_TypeDefinitionIndex)->GetStaticField(0x6300);
 		}
 
 		static ::System::Void _cctor()

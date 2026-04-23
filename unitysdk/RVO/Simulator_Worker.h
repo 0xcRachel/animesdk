@@ -5,20 +5,20 @@
 namespace RVO { class Simulator; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0x85DB4A0)
-#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0x85DB490)
-#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x85DB6F0)
-#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x85DA810)
+#define RVO_SIMULATOR_WORKER_STEP_OFFSET UNITYSDK_OFFSET(0x175D4E90)
+#define RVO_SIMULATOR_WORKER_UPDATERANGE_OFFSET UNITYSDK_OFFSET(0x175D4E80)
+#define RVO_SIMULATOR_WORKER_UPDATE_OFFSET UNITYSDK_OFFSET(0x175D50E0)
+#define RVO_SIMULATOR_WORKER__CTOR_OFFSET UNITYSDK_OFFSET(0x175D4200)
 
 namespace RVO
 {
-	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 35230;
+	inline static constexpr unsigned int Simulator_Worker_TypeDefinitionIndex = 41056;
 
 	class Simulator_Worker : public ::System::Object
 	{
 	public:
-		::System::Threading::ManualResetEvent* doneEvent_; // 0x10
-		::RVO::Simulator* _simulator; // 0x18
+		::RVO::Simulator* _simulator; // 0x10
+		::System::Threading::ManualResetEvent* doneEvent_; // 0x18
 		::System::Int32 end_; // 0x20
 		::System::Int32 start_; // 0x24
 

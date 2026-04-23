@@ -6,21 +6,21 @@ class Class_1_2CAAA2FDF9170110;
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_17C9D91BCCD5AAD3_OFFSET UNITYSDK_OFFSET(0x176B5D50)
-#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_A3E6DEEF8E06EFDF_OFFSET UNITYSDK_OFFSET(0x176B7BE0)
-#define RPG_GAMECORE_SERVANTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x176B5D20)
+#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_17C9D91BCCD5AAD3_OFFSET UNITYSDK_OFFSET(0x192E6F20)
+#define RPG_GAMECORE_SERVANTOVERRIDECONFIG_METHOD_4_A3E6DEEF8E06EFDF_OFFSET UNITYSDK_OFFSET(0x192E8DE0)
+#define RPG_GAMECORE_SERVANTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192E6EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantOverrideConfig_TypeDefinitionIndex = 15129;
+	inline static constexpr unsigned int ServantOverrideConfig_TypeDefinitionIndex = 15639;
 
 	class ServantOverrideConfig : public ::RPG::GameCore::ServantConfig
 	{
 	public:
-		::System::String* ParentConfigPath; // 0x240
-		::Il2CppArray<::System::String*>* InheritSkillList; // 0x248
-		::Il2CppArray<::System::String*>* ReplacedSkillList; // 0x250
-		::Class_1_2CAAA2FDF9170110* AdditiveDynamicValues; // 0x258
+		::System::String* ParentConfigPath; // 0x248
+		::Il2CppArray<::System::String*>* InheritSkillList; // 0x250
+		::Il2CppArray<::System::String*>* ReplacedSkillList; // 0x258
+		::Class_1_2CAAA2FDF9170110* AdditiveDynamicValues; // 0x260
 
 		::System::Void _ctor()
 		{

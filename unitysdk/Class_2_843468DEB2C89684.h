@@ -1,36 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_B1A7D8EBAB39D13D.h"
+#include "unitysdk/Class_1_EA5232D6CAD71030.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTarget.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 
 class Class_1_895EBA3389065493;
-class Class_2_569DE47525C5FD32;
-class Class_4_25476C0ECCF1BB17;
+class Class_2_1BB8CA1042AACD99;
+class Class_4_38B51614211CBC7D;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_843468DEB2C89684_METHOD_2_69607B7E4783C654_OFFSET UNITYSDK_OFFSET(0x166DD7D0)
-#define CLASS_2_843468DEB2C89684_METHOD_2_82A2A4F312B7307A_OFFSET UNITYSDK_OFFSET(0x166DD830)
-#define CLASS_2_843468DEB2C89684_METHOD_2_A5E6D914A33599E4_OFFSET UNITYSDK_OFFSET(0x166DD6A0)
-#define CLASS_2_843468DEB2C89684_METHOD_2_E95EAF08D2605EEC_OFFSET UNITYSDK_OFFSET(0x166DDA30)
-#define CLASS_2_843468DEB2C89684__CCTOR_OFFSET UNITYSDK_OFFSET(0x166DD940)
-#define CLASS_2_843468DEB2C89684__CTOR_OFFSET UNITYSDK_OFFSET(0x166DD620)
+#define CLASS_2_843468DEB2C89684_METHOD_2_3129BF8E58CCD3BD_OFFSET UNITYSDK_OFFSET(0x1564DF10)
+#define CLASS_2_843468DEB2C89684_METHOD_2_69607B7E4783C654_OFFSET UNITYSDK_OFFSET(0x1564E100)
+#define CLASS_2_843468DEB2C89684_METHOD_2_82A2A4F312B7307A_OFFSET UNITYSDK_OFFSET(0x1564E160)
+#define CLASS_2_843468DEB2C89684_METHOD_2_BA1A2F41DF2039F5_OFFSET UNITYSDK_OFFSET(0x1561F070)
+#define CLASS_2_843468DEB2C89684_METHOD_2_E95EAF08D2605EEC_OFFSET UNITYSDK_OFFSET(0x1564E360)
+#define CLASS_2_843468DEB2C89684__CCTOR_OFFSET UNITYSDK_OFFSET(0x1564E270)
+#define CLASS_2_843468DEB2C89684__CTOR_OFFSET UNITYSDK_OFFSET(0x1564DE90)
 
-inline static constexpr unsigned int Class_2_843468DEB2C89684_TypeDefinitionIndex = 28403;
+inline static constexpr unsigned int Class_2_843468DEB2C89684_TypeDefinitionIndex = 34067;
 
-class Class_2_843468DEB2C89684 : public ::Class_1_B1A7D8EBAB39D13D
+class Class_2_843468DEB2C89684 : public ::Class_1_EA5232D6CAD71030
 {
 public:
 	static ::RPG::GameCore::StringHash* StaticGet_Field_2_0()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_2_843468DEB2C89684_TypeDefinitionIndex)->GetStaticField(0x115D0);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_2_843468DEB2C89684_TypeDefinitionIndex)->GetStaticField(0xE080);
 	}
-	::Class_4_25476C0ECCF1BB17* Field_2_1; // 0x30
-	::Class_1_895EBA3389065493* Field_2_2; // 0x38
+	::Class_4_38B51614211CBC7D* Field_2_1; // 0x38
+	::Class_1_895EBA3389065493* Field_2_2; // 0x40
 
-	::System::Void _ctor(::Class_4_25476C0ECCF1BB17* a1, ::Class_2_569DE47525C5FD32* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)
+	::System::Void _ctor(::Class_4_38B51614211CBC7D* a1, ::Class_2_1BB8CA1042AACD99* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_4_25476C0ECCF1BB17*, ::Class_2_569DE47525C5FD32*, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + CLASS_2_843468DEB2C89684__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_4_38B51614211CBC7D*, ::Class_2_1BB8CA1042AACD99*, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + CLASS_2_843468DEB2C89684__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	static ::System::Void _cctor()
@@ -38,9 +40,14 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_2_843468DEB2C89684__CCTOR_OFFSET))();
 	}
 
-	::Class_2_569DE47525C5FD32* Method_2_A5E6D914A33599E4(::RPG::GameCore::DiceCombatTarget a1)
+	::Class_2_1BB8CA1042AACD99* Method_2_BA1A2F41DF2039F5(::RPG::GameCore::DiceCombatTarget a1)
 	{
-		return ((::Class_2_569DE47525C5FD32*(*)(::PVOID, ::RPG::GameCore::DiceCombatTarget))((::PBYTE)hIl2Cpp + CLASS_2_843468DEB2C89684_METHOD_2_A5E6D914A33599E4_OFFSET))(this, a1);
+		return ((::Class_2_1BB8CA1042AACD99*(*)(::PVOID, ::RPG::GameCore::DiceCombatTarget))((::PBYTE)hIl2Cpp + CLASS_2_843468DEB2C89684_METHOD_2_BA1A2F41DF2039F5_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::List_1<::Class_2_1BB8CA1042AACD99*>* Method_2_3129BF8E58CCD3BD(::RPG::GameCore::DiceCombatTarget a1)
+	{
+		return ((::System::Collections::Generic::List_1<::Class_2_1BB8CA1042AACD99*>*(*)(::PVOID, ::RPG::GameCore::DiceCombatTarget))((::PBYTE)hIl2Cpp + CLASS_2_843468DEB2C89684_METHOD_2_3129BF8E58CCD3BD_OFFSET))(this, a1);
 	}
 
 	::RPG::GameCore::FixPoint Method_2_69607B7E4783C654()

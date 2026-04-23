@@ -8,23 +8,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class RegexBoyerMoore; }
 namespace System::Text::RegularExpressions { class RegexPrefix; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x18761800)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x18761740)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE_OPCODEBACKTRACKS_OFFSET UNITYSDK_OFFSET(0x16B55FA0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B55EE0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexCode_TypeDefinitionIndex = 2498;
+	inline static constexpr unsigned int RegexCode_TypeDefinitionIndex = 2499;
 
 	class RegexCode : public ::System::Object
 	{
 	public:
-		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x10
-		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x18
-		::System::Collections::Hashtable* _caps; // 0x20
-		::Il2CppArray<::System::String*>* _strings; // 0x28
-		::Il2CppArray<::System::Int32>* _codes; // 0x30
-		::System::Boolean _rightToLeft; // 0x38
-		::System::Int32 _trackcount; // 0x3C
+		::System::Text::RegularExpressions::RegexBoyerMoore* _bmPrefix; // 0x10
+		::System::Collections::Hashtable* _caps; // 0x18
+		::Il2CppArray<::System::String*>* _strings; // 0x20
+		::Il2CppArray<::System::Int32>* _codes; // 0x28
+		::System::Text::RegularExpressions::RegexPrefix* _fcPrefix; // 0x30
+		::System::Int32 _trackcount; // 0x38
+		::System::Boolean _rightToLeft; // 0x3C
 		::System::Int32 _anchors; // 0x40
 		::System::Int32 _capsize; // 0x44
 

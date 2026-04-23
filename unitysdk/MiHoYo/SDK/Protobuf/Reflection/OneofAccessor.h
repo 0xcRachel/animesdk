@@ -10,19 +10,19 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x15DACE70)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x15DCF300)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x18506FC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18529480)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 28130;
+	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 33754;
 
 	class OneofAccessor : public ::System::Object
 	{
 	public:
 		::System::Action_1<::MiHoYo::SDK::Protobuf::IMessage*>* clearDelegate; // 0x10
-		::System::Func_2<::MiHoYo::SDK::Protobuf::IMessage*, ::System::Int32>* caseDelegate; // 0x18
-		::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor* descriptor; // 0x20
+		::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor* descriptor; // 0x18
+		::System::Func_2<::MiHoYo::SDK::Protobuf::IMessage*, ::System::Int32>* caseDelegate; // 0x20
 
 		::System::Void _ctor(::System::Reflection::PropertyInfo* caseProperty, ::System::Reflection::MethodInfo* clearMethod, ::MiHoYo::SDK::Protobuf::Reflection::OneofDescriptor* descriptor)
 		{

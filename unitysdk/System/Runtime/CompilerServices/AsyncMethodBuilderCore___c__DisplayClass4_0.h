@@ -5,12 +5,12 @@
 namespace System { class Action; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163A5470)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0__OUTPUTASYNCCAUSALITYEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x163A5C40)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18F58990)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0__OUTPUTASYNCCAUSALITYEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x18F59160)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderCore___c__DisplayClass4_0_TypeDefinitionIndex = 1346;
+	inline static constexpr unsigned int AsyncMethodBuilderCore___c__DisplayClass4_0_TypeDefinitionIndex = 1348;
 
 	class AsyncMethodBuilderCore___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGGRIDOFFSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1709BE80)
-#define RPG_GAMECORE_CHENLINGGRIDOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1709BFD0)
+#define RPG_GAMECORE_CHENLINGGRIDOFFSET_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196A9720)
+#define RPG_GAMECORE_CHENLINGGRIDOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x196A9870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGridOffset_TypeDefinitionIndex = 10340;
+	inline static constexpr unsigned int ChenLingGridOffset_TypeDefinitionIndex = 10565;
 
 	class ChenLingGridOffset : public ::System::Object
 	{
 	public:
-		::System::Int32 X; // 0x10
-		::System::Int32 Y; // 0x14
+		::System::Int32 Y; // 0x10
+		::System::Int32 X; // 0x14
 
 		::System::Void _ctor()
 		{

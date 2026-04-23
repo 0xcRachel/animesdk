@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_GUILAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B991E0)
+#define UNITYENGINE_GUILAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A75BC30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayer_TypeDefinitionIndex = 6443;
+	inline static constexpr unsigned int GUILayer_TypeDefinitionIndex = 6476;
 
 	class GUILayer : public ::System::Object
 	{

@@ -11,32 +11,32 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160B0950)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x160B1F00)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x160B21F0)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__2_OFFSET UNITYSDK_OFFSET(0x160B2B90)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__3_OFFSET UNITYSDK_OFFSET(0x160B2BB0)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x160B2BD0)
-#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__5_OFFSET UNITYSDK_OFFSET(0x160B2AC0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15471AC0)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x15473070)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__1_OFFSET UNITYSDK_OFFSET(0x15473360)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__2_OFFSET UNITYSDK_OFFSET(0x15473D00)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__3_OFFSET UNITYSDK_OFFSET(0x15473D20)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__4_OFFSET UNITYSDK_OFFSET(0x15473D40)
+#define MIHOYO_SDK_WIN_EOSMANAGER___C__DISPLAYCLASS12_0__PAY_B__5_OFFSET UNITYSDK_OFFSET(0x15473C30)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int EOSManager___c__DisplayClass12_0_TypeDefinitionIndex = 7927;
+	inline static constexpr unsigned int EOSManager___c__DisplayClass12_0_TypeDefinitionIndex = 8073;
 
 	class EOSManager___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__4; // 0x10
-		::System::String* goodsId; // 0x18
-		::System::String* payTrace; // 0x20
-		::System::Action* __9__3; // 0x28
-		::System::Action* __9__2; // 0x30
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__5; // 0x38
-		::MiHoYo::SDK::AccountModel* accountModel; // 0x40
-		::MiHoYo::SDK::JSONNode* payInfo; // 0x48
-		::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* __9__1; // 0x50
-		::MiHoYo::SDK::Win::EOSManager* __4__this; // 0x58
-		::System::Action_1<::System::String*>* callback; // 0x60
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__5; // 0x10
+		::System::Action* __9__4; // 0x18
+		::MiHoYo::SDK::AccountModel* accountModel; // 0x20
+		::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* __9__1; // 0x28
+		::System::String* payTrace; // 0x30
+		::System::Action_1<::System::String*>* callback; // 0x38
+		::MiHoYo::SDK::Win::EOSManager* __4__this; // 0x40
+		::System::Action* __9__2; // 0x48
+		::System::Action* __9__3; // 0x50
+		::MiHoYo::SDK::JSONNode* payInfo; // 0x58
+		::System::String* goodsId; // 0x60
 
 		::System::Void _ctor()
 		{

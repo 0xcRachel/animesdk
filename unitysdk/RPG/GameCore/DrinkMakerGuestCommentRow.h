@@ -8,24 +8,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERGUESTCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1718E460)
-#define RPG_GAMECORE_DRINKMAKERGUESTCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1718E790)
+#define RPG_GAMECORE_DRINKMAKERGUESTCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1913A460)
+#define RPG_GAMECORE_DRINKMAKERGUESTCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1913A790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerGuestCommentRow_TypeDefinitionIndex = 12040;
+	inline static constexpr unsigned int DrinkMakerGuestCommentRow_TypeDefinitionIndex = 12473;
 
 	class DrinkMakerGuestCommentRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* TriggerTypeParamList; // 0x10
 		::System::String* IconPath; // 0x18
-		::RPG::Client::TextID CommentContent; // 0x20
-		::System::UInt32 Weight; // 0x30
-		::RPG::GameCore::DrinkMakerCommentType Type; // 0x34
-		::RPG::GameCore::DrinkMakerSatifyCommentTriggerType SatisfyTriggerType; // 0x38
-		::System::UInt32 GuestID; // 0x3C
-		::System::UInt32 CommentID; // 0x40
+		::System::UInt32 CommentID; // 0x20
+		::RPG::GameCore::DrinkMakerSatifyCommentTriggerType SatisfyTriggerType; // 0x24
+		::RPG::GameCore::DrinkMakerCommentType Type; // 0x28
+		::System::UInt32 GuestID; // 0x2C
+		::RPG::Client::TextID CommentContent; // 0x30
+		::System::UInt32 Weight; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -9,26 +9,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARCOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EC12A0)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARCOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EC1EB0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARCOLLECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188702F0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDGEARCOLLECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18870F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildGearCollectionRow_TypeDefinitionIndex = 10656;
+	inline static constexpr unsigned int ActivityEvolveBuildGearCollectionRow_TypeDefinitionIndex = 10907;
 
 	class ActivityEvolveBuildGearCollectionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TagList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* ElementList; // 0x18
-		::System::String* DamageCustomName; // 0x20
+		::System::String* DamageCustomName; // 0x18
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* ElementList; // 0x20
 		::System::String* ItemIcon; // 0x28
 		::RPG::Client::TextID Name; // 0x30
-		::RPG::GameCore::EvolveGearType Type; // 0x40
-		::System::UInt32 LvMax; // 0x44
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x48
-		::System::UInt32 ID; // 0x4C
-		::System::UInt32 UnlockQuest; // 0x50
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x40
+		::RPG::GameCore::EvolveGearType Type; // 0x44
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 UnlockQuest; // 0x4C
+		::System::UInt32 LvMax; // 0x50
 
 		::System::Void _ctor()
 		{

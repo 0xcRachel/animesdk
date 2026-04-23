@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class SetMazePuzzleChallengeProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_ACF6D95687FA9E35_DISPOSE_OFFSET UNITYSDK_OFFSET(0x99D9850)
-#define CLASS_2_ACF6D95687FA9E35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x99D9890)
-#define CLASS_2_ACF6D95687FA9E35_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x99D9BE0)
-#define CLASS_2_ACF6D95687FA9E35_TICK_OFFSET UNITYSDK_OFFSET(0x99D9C30)
-#define CLASS_2_ACF6D95687FA9E35__CTOR_OFFSET UNITYSDK_OFFSET(0x99D9840)
+#define CLASS_2_ACF6D95687FA9E35_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF7F14F0)
+#define CLASS_2_ACF6D95687FA9E35_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF7F1530)
+#define CLASS_2_ACF6D95687FA9E35_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF7F1880)
+#define CLASS_2_ACF6D95687FA9E35_TICK_OFFSET UNITYSDK_OFFSET(0xF7F18D0)
+#define CLASS_2_ACF6D95687FA9E35__CTOR_OFFSET UNITYSDK_OFFSET(0xF7F14E0)
 
-inline static constexpr unsigned int Class_2_ACF6D95687FA9E35_TypeDefinitionIndex = 43106;
+inline static constexpr unsigned int Class_2_ACF6D95687FA9E35_TypeDefinitionIndex = 49096;
 
 class Class_2_ACF6D95687FA9E35 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::SetMazePuzzleChallengeProgress* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::RPG::GameCore::SetMazePuzzleChallengeProgress* Field_2_0; // 0x20
 	::System::UInt32 Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMazePuzzleChallengeProgress* a2)

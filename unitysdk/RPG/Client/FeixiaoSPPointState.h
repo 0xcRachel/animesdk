@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FeixiaoSPPointState_TypeDefinitionIndex = 58903;
+	inline static constexpr unsigned int FeixiaoSPPointState_TypeDefinitionIndex = 66270;
 
 	enum class FeixiaoSPPointState : ::System::Int32
 	{

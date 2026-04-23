@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA_METHOD_1_771D1B6F5DE47582_OFFSET UNITYSDK_OFFSET(0x9CD5E70)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA_METHOD_1_806D55EF449FEABC_OFFSET UNITYSDK_OFFSET(0x9CD66D0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA_METHOD_1_DFE6E6212F13CB99_OFFSET UNITYSDK_OFFSET(0x9CD6C70)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CD6F90)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA_METHOD_1_771D1B6F5DE47582_OFFSET UNITYSDK_OFFSET(0x165FF100)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA_METHOD_1_806D55EF449FEABC_OFFSET UNITYSDK_OFFSET(0x165FE050)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA_METHOD_1_DFE6E6212F13CB99_OFFSET UNITYSDK_OFFSET(0x165FE900)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER_CLASS_1_95914E18CA48DAFA__CCTOR_OFFSET UNITYSDK_OFFSET(0x165FF8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDialogRenderer_Class_1_95914E18CA48DAFA_TypeDefinitionIndex = 57270;
+	inline static constexpr unsigned int MonoEffectPluginDialogRenderer_Class_1_95914E18CA48DAFA_TypeDefinitionIndex = 64524;
 
 	class MonoEffectPluginDialogRenderer_Class_1_95914E18CA48DAFA : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::RPG::Client::DialogRenderer*>*>** StaticGet_Field_1_0()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::RPG::Client::DialogRenderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRenderer_Class_1_95914E18CA48DAFA_TypeDefinitionIndex)->GetStaticField(0x3BA50);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::RPG::Client::DialogRenderer*>*>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRenderer_Class_1_95914E18CA48DAFA_TypeDefinitionIndex)->GetStaticField(0x5E990);
 		}
 
 		static ::System::Void _cctor()

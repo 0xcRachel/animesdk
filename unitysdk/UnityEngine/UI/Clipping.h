@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class RectMask2D; }
 
-#define UNITYENGINE_UI_CLIPPING_FINDCULLANDCLIPWORLDRECT_OFFSET UNITYSDK_OFFSET(0x18B14570)
+#define UNITYENGINE_UI_CLIPPING_FINDCULLANDCLIPWORLDRECT_OFFSET UNITYSDK_OFFSET(0x18245750)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 5566;
+	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 5578;
 
 	class Clipping : public ::System::Object
 	{

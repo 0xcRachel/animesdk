@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F1EA60)
-#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1EBE0)
+#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D9F3A0)
+#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D9F520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 11237;
+	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 11640;
 
 	class ActivityQuestTabGroupUIRow : public ::System::Object
 	{
 	public:
-		::System::String* TabItemPrefabPath; // 0x10
-		::System::String* BgPrefabPath; // 0x18
+		::System::String* BgPrefabPath; // 0x10
+		::System::String* TabItemPrefabPath; // 0x18
 		::System::UInt32 QuestTabGroupID; // 0x20
 
 		::System::Void _ctor()

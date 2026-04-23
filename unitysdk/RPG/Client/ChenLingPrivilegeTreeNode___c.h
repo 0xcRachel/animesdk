@@ -5,29 +5,29 @@
 namespace RPG::Client { class ChenLingPrivilegeTreeNode; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDCHILD_B__2_0_OFFSET UNITYSDK_OFFSET(0x936A010)
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDPARENT_B__1_0_OFFSET UNITYSDK_OFFSET(0x9369FC0)
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9369F70)
-#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9369FB0)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDCHILD_B__2_0_OFFSET UNITYSDK_OFFSET(0x17B35AC0)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__ADDPARENT_B__1_0_OFFSET UNITYSDK_OFFSET(0x17B35A70)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B35A20)
+#define RPG_CLIENT_CHENLINGPRIVILEGETREENODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17B35A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex = 49848;
+	inline static constexpr unsigned int ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex = 56670;
 
 	class ChenLingPrivilegeTreeNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex)->GetStaticField(0x41190);
+			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex)->GetStaticField(0x5F180);
 		}
 		static ::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex)->GetStaticField(0x41198);
+			return (::System::Comparison_1<::RPG::Client::ChenLingPrivilegeTreeNode*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex)->GetStaticField(0x5F188);
 		}
 		static ::RPG::Client::ChenLingPrivilegeTreeNode___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingPrivilegeTreeNode___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex)->GetStaticField(0x411A0);
+			return (::RPG::Client::ChenLingPrivilegeTreeNode___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeTreeNode___c_TypeDefinitionIndex)->GetStaticField(0x5F190);
 		}
 
 		static ::System::Void _cctor()

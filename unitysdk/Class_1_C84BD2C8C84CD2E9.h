@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class BaseGachaGroupData; }
 
-#define CLASS_1_C84BD2C8C84CD2E9_METHOD_1_414C19FBBE749547_OFFSET UNITYSDK_OFFSET(0x8D16420)
+#define CLASS_1_C84BD2C8C84CD2E9_METHOD_1_414C19FBBE749547_OFFSET UNITYSDK_OFFSET(0x112F0130)
 
-inline static constexpr unsigned int Class_1_C84BD2C8C84CD2E9_TypeDefinitionIndex = 52224;
+inline static constexpr unsigned int Class_1_C84BD2C8C84CD2E9_TypeDefinitionIndex = 59176;
 
 class Class_1_C84BD2C8C84CD2E9 : public ::System::Object
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckTimelineEntityState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_59FE03A34CB9E396_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10908FD0)
-#define CLASS_3_59FE03A34CB9E396__CTOR_OFFSET UNITYSDK_OFFSET(0x10908FA0)
+#define CLASS_3_59FE03A34CB9E396_EVALUATE_OFFSET UNITYSDK_OFFSET(0x118A92C0)
+#define CLASS_3_59FE03A34CB9E396__CTOR_OFFSET UNITYSDK_OFFSET(0x118A9290)
 
-inline static constexpr unsigned int Class_3_59FE03A34CB9E396_TypeDefinitionIndex = 43200;
+inline static constexpr unsigned int Class_3_59FE03A34CB9E396_TypeDefinitionIndex = 49195;
 
 class Class_3_59FE03A34CB9E396 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckTimelineEntityState*>
 {

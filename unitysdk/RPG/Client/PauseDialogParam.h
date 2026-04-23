@@ -5,20 +5,20 @@
 #include "unitysdk/RPG/GameCore/StageType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PAUSEDIALOGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9F275B0)
+#define RPG_CLIENT_PAUSEDIALOGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x165B8290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PauseDialogParam_TypeDefinitionIndex = 58716;
+	inline static constexpr unsigned int PauseDialogParam_TypeDefinitionIndex = 66040;
 
 	class PauseDialogParam : public ::System::Object
 	{
 	public:
-		::System::Boolean IsExitBattleBtnShow; // 0x10
-		::System::Boolean IsExitBattleBtnDisable; // 0x11
-		::RPG::GameCore::StageType StageType; // 0x14
+		::RPG::GameCore::StageType StageType; // 0x10
+		::RPG::Client::PauseDialogTabEnum InitTabEnum; // 0x14
 		::Enum_3_71AA90D596A09AC8_1 ModeType; // 0x18
-		::RPG::Client::PauseDialogTabEnum InitTabEnum; // 0x1C
+		::System::Boolean IsExitBattleBtnShow; // 0x1C
+		::System::Boolean IsExitBattleBtnDisable; // 0x1D
 
 		::System::Void _ctor()
 		{

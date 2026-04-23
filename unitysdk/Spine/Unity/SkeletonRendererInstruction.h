@@ -6,16 +6,16 @@
 namespace Spine { class Attachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x18415840)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x184385A0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x18428F90)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x184333D0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x184292B0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1841DAC0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x160F77F0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1611A5C0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1610AF70)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x161153E0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x1610B290)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x160FFA50)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 34821;
+	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 40640;
 
 	class SkeletonRendererInstruction : public ::System::Object
 	{
@@ -23,8 +23,8 @@ namespace Spine::Unity
 		::Spine::ExposedList_1<::Spine::Attachment*>* attachments; // 0x10
 		::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* submeshInstructions; // 0x18
 		::System::Int32 rawVertexCount; // 0x20
-		::System::Boolean immutableTriangles; // 0x24
-		::System::Boolean hasActiveClipping; // 0x25
+		::System::Boolean hasActiveClipping; // 0x24
+		::System::Boolean immutableTriangles; // 0x25
 
 		::System::Void _ctor()
 		{

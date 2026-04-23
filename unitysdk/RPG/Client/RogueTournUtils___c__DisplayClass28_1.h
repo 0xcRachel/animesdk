@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA3EF550)
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS28_1__MERGESAMEUIDCARD_B__1_OFFSET UNITYSDK_OFFSET(0xA3F39F0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS28_1__CTOR_OFFSET UNITYSDK_OFFSET(0x172F9ED0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS28_1__MERGESAMEUIDCARD_B__1_OFFSET UNITYSDK_OFFSET(0x172FE230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass28_1_TypeDefinitionIndex = 55319;
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass28_1_TypeDefinitionIndex = 62510;
 
 	class RogueTournUtils___c__DisplayClass28_1 : public ::System::Object
 	{

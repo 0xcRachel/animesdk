@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17793C40)
-#define RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17794250)
+#define RPG_GAMECORE_STORYCHARACTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D749B0)
+#define RPG_GAMECORE_STORYCHARACTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D74FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryCharacterRow_TypeDefinitionIndex = 13913;
+	inline static constexpr unsigned int StoryCharacterRow_TypeDefinitionIndex = 14388;
 
 	class StoryCharacterRow : public ::System::Object
 	{

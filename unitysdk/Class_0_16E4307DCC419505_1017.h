@@ -1,9 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
 
-namespace RPG::Client::Promises { class Promise; }
+class Class_0_16E4307DCC419505_1008;
+namespace System { class Object; }
+namespace System::Reflection { class MethodInfo; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1017_TypeDefinitionIndex = 63873;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1017_TypeDefinitionIndex = 67361;
 
 class Class_0_16E4307DCC419505_1017
 {

@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class ProtocolManager_NativeProtocol; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FE28F0)
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__DISPLAYCLASS13_0__TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_B__1_OFFSET UNITYSDK_OFFSET(0x15FE2AC0)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157BF370)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL___C__DISPLAYCLASS13_0__TRYSHOWLAUNCHERPROTOCOLCOMPLIANCE_B__1_OFFSET UNITYSDK_OFFSET(0x157BF540)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c__DisplayClass13_0_TypeDefinitionIndex = 7039;
+	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c__DisplayClass13_0_TypeDefinitionIndex = 7083;
 
 	class ProtocolManager_NativeProtocol___c__DisplayClass13_0 : public ::System::Object
 	{

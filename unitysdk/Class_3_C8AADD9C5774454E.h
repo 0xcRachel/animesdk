@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByComparePropAnimState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C8AADD9C5774454E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x89FECF0)
-#define CLASS_3_C8AADD9C5774454E__CTOR_OFFSET UNITYSDK_OFFSET(0x89FECC0)
+#define CLASS_3_C8AADD9C5774454E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10783990)
+#define CLASS_3_C8AADD9C5774454E__CTOR_OFFSET UNITYSDK_OFFSET(0x10783960)
 
-inline static constexpr unsigned int Class_3_C8AADD9C5774454E_TypeDefinitionIndex = 42589;
+inline static constexpr unsigned int Class_3_C8AADD9C5774454E_TypeDefinitionIndex = 48554;
 
 class Class_3_C8AADD9C5774454E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByComparePropAnimState*>
 {

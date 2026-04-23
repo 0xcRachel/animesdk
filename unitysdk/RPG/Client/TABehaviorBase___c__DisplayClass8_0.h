@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA53A3B0)
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0xA53A820)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17005B40)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0x17005FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 57970;
+	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 65257;
 
 	class TABehaviorBase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::TABehaviorBase* __4__this; // 0x10
-		::System::Action* completeCallback; // 0x18
-		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x20
+		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x18
+		::System::Action* completeCallback; // 0x20
 		::System::Int32 taskCount; // 0x28
 
 		::System::Void _ctor()

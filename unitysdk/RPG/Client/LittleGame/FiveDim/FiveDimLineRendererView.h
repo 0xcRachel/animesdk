@@ -5,17 +5,17 @@
 
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW_SETLINERENDERERPOSITIONS_OFFSET UNITYSDK_OFFSET(0x9A18880)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9A18970)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW_SETLINERENDERERPOSITIONS_OFFSET UNITYSDK_OFFSET(0x158F8B10)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMLINERENDERERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x158F8C00)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimLineRendererView_TypeDefinitionIndex = 62855;
+	inline static constexpr unsigned int FiveDimLineRendererView_TypeDefinitionIndex = 70892;
 
 	class FiveDimLineRendererView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:
-		::UnityEngine::LineRenderer* lineRenderer; // 0x1C0
+		::UnityEngine::LineRenderer* lineRenderer; // 0x1D0
 
 		::System::Void _ctor()
 		{

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_4_454E770F08675E1E_METHOD_4_B135E486730FDDA8_OFFSET UNITYSDK_OFFSET(0x1052D7D0)
-#define CLASS_4_454E770F08675E1E__CTOR_OFFSET UNITYSDK_OFFSET(0x1052D740)
+#define CLASS_4_454E770F08675E1E_METHOD_4_B135E486730FDDA8_OFFSET UNITYSDK_OFFSET(0xF375750)
+#define CLASS_4_454E770F08675E1E__CTOR_OFFSET UNITYSDK_OFFSET(0xF3756C0)
 
-inline static constexpr unsigned int Class_4_454E770F08675E1E_TypeDefinitionIndex = 64324;
+inline static constexpr unsigned int Class_4_454E770F08675E1E_TypeDefinitionIndex = 72371;
 
 class Class_4_454E770F08675E1E : public ::Class_3_3100354E684764E9_2
 {

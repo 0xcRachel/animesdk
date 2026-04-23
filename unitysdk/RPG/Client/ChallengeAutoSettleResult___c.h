@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x92C7330)
-#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x92C7370)
-#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__ISVALID_B__3_0_OFFSET UNITYSDK_OFFSET(0x92C7380)
+#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E2B1E0)
+#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E2B220)
+#define RPG_CLIENT_CHALLENGEAUTOSETTLERESULT___C__ISVALID_B__3_0_OFFSET UNITYSDK_OFFSET(0x15E2B230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeAutoSettleResult___c_TypeDefinitionIndex = 51202;
+	inline static constexpr unsigned int ChallengeAutoSettleResult___c_TypeDefinitionIndex = 58126;
 
 	class ChallengeAutoSettleResult___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChallengeAutoSettleResult___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChallengeAutoSettleResult___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeAutoSettleResult___c_TypeDefinitionIndex)->GetStaticField(0x3BA80);
-		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeAutoSettleResult___c_TypeDefinitionIndex)->GetStaticField(0x3BA88);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeAutoSettleResult___c_TypeDefinitionIndex)->GetStaticField(0x5C0A0);
+		}
+		static ::RPG::Client::ChallengeAutoSettleResult___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChallengeAutoSettleResult___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengeAutoSettleResult___c_TypeDefinitionIndex)->GetStaticField(0x5C0A8);
 		}
 
 		static ::System::Void _cctor()

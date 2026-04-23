@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CustomMazeBattleTransitionConfig; }
 
-#define RPG_GAMECORE_AVATARTRANSITIONCONFIG_METHOD_2_CA8B843C8FAB49E5_OFFSET UNITYSDK_OFFSET(0x16FD20C0)
-#define RPG_GAMECORE_AVATARTRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FD21C0)
+#define RPG_GAMECORE_AVATARTRANSITIONCONFIG_METHOD_2_CA8B843C8FAB49E5_OFFSET UNITYSDK_OFFSET(0x182217C0)
+#define RPG_GAMECORE_AVATARTRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x182218C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarTransitionConfig_TypeDefinitionIndex = 16201;
+	inline static constexpr unsigned int AvatarTransitionConfig_TypeDefinitionIndex = 16715;
 
 	class AvatarTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{

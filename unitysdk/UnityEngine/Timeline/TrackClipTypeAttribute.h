@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x189D7340)
+#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB6230)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 29899;
+	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 35619;
 
 	class TrackClipTypeAttribute : public ::System::Attribute
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class WorldEarlyUnlockData; }
 
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9538670)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__GETWORLDEARLYUNLOCKDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9539A50)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160DB810)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS19_0__GETWORLDEARLYUNLOCKDATA_B__0_OFFSET UNITYSDK_OFFSET(0x160DCBF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass19_0_TypeDefinitionIndex = 51696;
+	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass19_0_TypeDefinitionIndex = 58644;
 
 	class EarlyAccessModule___c__DisplayClass19_0 : public ::System::Object
 	{

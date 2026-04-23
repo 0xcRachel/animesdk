@@ -8,9 +8,9 @@ namespace RPG::Client { template <typename T> class INewsTickerPoolableItemCreat
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_4D062232954906A4_METHOD_1_53EDABF5E6FF12B5_OFFSET UNITYSDK_OFFSET(0x10923030)
+#define CLASS_1_4D062232954906A4_METHOD_1_53EDABF5E6FF12B5_OFFSET UNITYSDK_OFFSET(0xDD57080)
 
-inline static constexpr unsigned int Class_1_4D062232954906A4_TypeDefinitionIndex = 56359;
+inline static constexpr unsigned int Class_1_4D062232954906A4_TypeDefinitionIndex = 63602;
 
 class Class_1_4D062232954906A4 : public ::System::Object
 {

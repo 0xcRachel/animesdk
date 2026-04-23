@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvPlayerCancelRide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_118D4279620804B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10637BF0)
-#define CLASS_3_118D4279620804B8__CTOR_OFFSET UNITYSDK_OFFSET(0x10637BC0)
+#define CLASS_3_118D4279620804B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB9FE90)
+#define CLASS_3_118D4279620804B8__CTOR_OFFSET UNITYSDK_OFFSET(0xEB9FE60)
 
-inline static constexpr unsigned int Class_3_118D4279620804B8_TypeDefinitionIndex = 42479;
+inline static constexpr unsigned int Class_3_118D4279620804B8_TypeDefinitionIndex = 48440;
 
 class Class_3_118D4279620804B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPlayerCancelRide*>
 {

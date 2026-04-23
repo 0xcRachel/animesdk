@@ -6,10 +6,10 @@ class Class_2_9D4DD2F4235F8658;
 namespace RPG::GameCore { class ST_ByInAIStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E12D0674A675E296_EVALUATE_OFFSET UNITYSDK_OFFSET(0x10529850)
-#define CLASS_3_E12D0674A675E296__CTOR_OFFSET UNITYSDK_OFFSET(0x105297F0)
+#define CLASS_3_E12D0674A675E296_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCADAF40)
+#define CLASS_3_E12D0674A675E296__CTOR_OFFSET UNITYSDK_OFFSET(0xCADAEE0)
 
-inline static constexpr unsigned int Class_3_E12D0674A675E296_TypeDefinitionIndex = 42214;
+inline static constexpr unsigned int Class_3_E12D0674A675E296_TypeDefinitionIndex = 48187;
 
 class Class_3_E12D0674A675E296 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ST_ByInAIStatus*>
 {

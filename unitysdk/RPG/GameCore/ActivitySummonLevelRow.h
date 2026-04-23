@@ -6,25 +6,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSUMMONLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F2ABD0)
-#define RPG_GAMECORE_ACTIVITYSUMMONLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2AF70)
+#define RPG_GAMECORE_ACTIVITYSUMMONLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DAB610)
+#define RPG_GAMECORE_ACTIVITYSUMMONLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAB9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySummonLevelRow_TypeDefinitionIndex = 11334;
+	inline static constexpr unsigned int ActivitySummonLevelRow_TypeDefinitionIndex = 11736;
 
 	class ActivitySummonLevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ReplaceTrialAvatarList; // 0x10
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x18
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x20
+		::Il2CppArray<::System::UInt32>* ReplaceMasterAvatarList; // 0x10
+		::Il2CppArray<::System::UInt32>* ReplaceTrialAvatarList; // 0x18
+		::System::String* ImagePath; // 0x20
 		::Il2CppArray<::System::UInt32>* MasterAvatarList; // 0x28
-		::Il2CppArray<::System::UInt32>* ReplaceMasterAvatarList; // 0x30
-		::System::String* ImagePath; // 0x38
-		::RPG::GameCore::ActivitySummonDifficulty DifficultyLevel; // 0x40
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x30
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x38
+		::System::UInt32 EventID; // 0x40
 		::System::UInt32 GroupID; // 0x44
-		::System::UInt32 EventID; // 0x48
+		::RPG::GameCore::ActivitySummonDifficulty DifficultyLevel; // 0x48
 		::System::UInt32 UIEnterBattleAreaID; // 0x4C
 
 		::System::Void _ctor()

@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_5A69519360A2E5E8_METHOD_2_E5B2D19C36637166_OFFSET UNITYSDK_OFFSET(0x11949E50)
-#define CLASS_2_5A69519360A2E5E8__CTOR_OFFSET UNITYSDK_OFFSET(0x11949A80)
+#define CLASS_2_5A69519360A2E5E8_METHOD_2_E5B2D19C36637166_OFFSET UNITYSDK_OFFSET(0xE3D5A80)
+#define CLASS_2_5A69519360A2E5E8__CTOR_OFFSET UNITYSDK_OFFSET(0xE3D56B0)
 
-inline static constexpr unsigned int Class_2_5A69519360A2E5E8_TypeDefinitionIndex = 64613;
+inline static constexpr unsigned int Class_2_5A69519360A2E5E8_TypeDefinitionIndex = 72660;
 
 class Class_2_5A69519360A2E5E8 : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
 	::System::String* Field_2_0; // 0x20
 	::System::Type* Field_2_1; // 0x28
-	::System::Boolean Field_2_4; // 0x30
-	::RPG::Client::CachedAssetLogicType Field_2_2; // 0x34
+	::RPG::Client::CachedAssetLogicType Field_2_2; // 0x30
+	::System::Boolean Field_2_4; // 0x34
 	::System::Int64 Field_2_3; // 0x38
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)

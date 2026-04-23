@@ -7,12 +7,12 @@ namespace RPG::GameCore { class IslandStateConfig; }
 namespace RPG::GameCore { class StageIslandHLODConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_D1B29F0D4421A310_OFFSET UNITYSDK_OFFSET(0x1777CA90)
-#define RPG_GAMECORE_STAGEISLANDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1777CCC0)
+#define RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_D1B29F0D4421A310_OFFSET UNITYSDK_OFFSET(0x18609F00)
+#define RPG_GAMECORE_STAGEISLANDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1860A130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 17542;
+	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 18151;
 
 	class StageIslandConfig : public ::RPG::GameCore::JsonConfig
 	{

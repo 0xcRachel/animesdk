@@ -6,21 +6,21 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE_METHOD_4_7542D13DC033961A_OFFSET UNITYSDK_OFFSET(0x174DD1C0)
-#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE_METHOD_4_B285F723C48D871F_OFFSET UNITYSDK_OFFSET(0x174DD000)
-#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x174DD220)
-#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x174DD1D0)
+#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE_METHOD_4_7542D13DC033961A_OFFSET UNITYSDK_OFFSET(0x18B3DD50)
+#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE_METHOD_4_B285F723C48D871F_OFFSET UNITYSDK_OFFSET(0x18B3DB90)
+#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B3DDB0)
+#define RPG_GAMECORE_PLAYERACTIONCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18B3DD60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerActionConfigBase_TypeDefinitionIndex = 17916;
+	inline static constexpr unsigned int PlayerActionConfigBase_TypeDefinitionIndex = 18561;
 
 	class PlayerActionConfigBase : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerActionConfigBase*>*>** StaticGet__FromBinary_PlayerActionConfigBase_ImplDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerActionConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerActionConfigBase_TypeDefinitionIndex)->GetStaticField(0x3D090);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Func_2<::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerActionConfigBase*>*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerActionConfigBase_TypeDefinitionIndex)->GetStaticField(0x483A0);
 		}
 
 		::System::Void _ctor()

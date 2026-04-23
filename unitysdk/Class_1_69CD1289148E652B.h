@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_69CD1289148E652B_METHOD_1_8B7CCF33805E1F05_OFFSET UNITYSDK_OFFSET(0x883D090)
-#define CLASS_1_69CD1289148E652B__CTOR_OFFSET UNITYSDK_OFFSET(0x883D160)
+#define CLASS_1_69CD1289148E652B_METHOD_1_8B7CCF33805E1F05_OFFSET UNITYSDK_OFFSET(0xEE7A0E0)
+#define CLASS_1_69CD1289148E652B__CTOR_OFFSET UNITYSDK_OFFSET(0xEE7A1B0)
 
-inline static constexpr unsigned int Class_1_69CD1289148E652B_TypeDefinitionIndex = 49415;
+inline static constexpr unsigned int Class_1_69CD1289148E652B_TypeDefinitionIndex = 56212;
 
 class Class_1_69CD1289148E652B : public ::System::Object
 {
@@ -17,8 +17,8 @@ public:
 	::UnityEngine::Quaternion Field_1_2; // 0x18
 	::UnityEngine::Vector3 Field_1_1; // 0x28
 	::RPG::Client::WorldShiftingReason Field_1_4; // 0x34
-	::UnityEngine::Vector3 Field_1_0; // 0x38
-	::UnityEngine::Quaternion Field_1_3; // 0x44
+	::UnityEngine::Quaternion Field_1_3; // 0x38
+	::UnityEngine::Vector3 Field_1_0; // 0x48
 
 	::System::Void _ctor()
 	{

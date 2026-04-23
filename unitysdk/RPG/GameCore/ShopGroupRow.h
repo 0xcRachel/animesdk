@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOPGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177071C0)
-#define RPG_GAMECORE_SHOPGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17707830)
+#define RPG_GAMECORE_SHOPGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193A0040)
+#define RPG_GAMECORE_SHOPGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193A06B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGroupRow_TypeDefinitionIndex = 13846;
+	inline static constexpr unsigned int ShopGroupRow_TypeDefinitionIndex = 14318;
 
 	class ShopGroupRow : public ::System::Object
 	{

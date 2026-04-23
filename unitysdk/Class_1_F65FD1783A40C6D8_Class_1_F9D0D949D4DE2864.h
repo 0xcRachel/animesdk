@@ -5,15 +5,15 @@
 namespace RPG::Client::ChenLingBattle { class IGamePhase; }
 namespace System { class Action; }
 
-#define CLASS_1_F65FD1783A40C6D8_CLASS_1_F9D0D949D4DE2864__CTOR_OFFSET UNITYSDK_OFFSET(0x10B734F0)
+#define CLASS_1_F65FD1783A40C6D8_CLASS_1_F9D0D949D4DE2864__CTOR_OFFSET UNITYSDK_OFFSET(0xACDB8E0)
 
-inline static constexpr unsigned int Class_1_F65FD1783A40C6D8_Class_1_F9D0D949D4DE2864_TypeDefinitionIndex = 62064;
+inline static constexpr unsigned int Class_1_F65FD1783A40C6D8_Class_1_F9D0D949D4DE2864_TypeDefinitionIndex = 70063;
 
 class Class_1_F65FD1783A40C6D8_Class_1_F9D0D949D4DE2864 : public ::System::Object
 {
 public:
-	::System::Action* Field_1_2; // 0x10
-	::RPG::Client::ChenLingBattle::IGamePhase* Field_1_0; // 0x18
+	::RPG::Client::ChenLingBattle::IGamePhase* Field_1_0; // 0x10
+	::System::Action* Field_1_2; // 0x18
 	::System::Object* Field_1_1; // 0x20
 
 	::System::Void _ctor()

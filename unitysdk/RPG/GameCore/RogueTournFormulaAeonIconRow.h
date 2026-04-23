@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17679FA0)
-#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1767A180)
+#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198310F0)
+#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198312D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournFormulaAeonIconRow_TypeDefinitionIndex = 13746;
+	inline static constexpr unsigned int RogueTournFormulaAeonIconRow_TypeDefinitionIndex = 14217;
 
 	class RogueTournFormulaAeonIconRow : public ::System::Object
 	{
 	public:
-		::System::String* UltraFormulaIcon; // 0x10
-		::System::String* UltraFormulaCardIcon; // 0x18
+		::System::String* UltraFormulaCardIcon; // 0x10
+		::System::String* UltraFormulaIcon; // 0x18
 		::System::String* FormulaSubIcon; // 0x20
 		::System::String* FormulaIcon; // 0x28
 		::System::UInt32 BuffTypeID; // 0x30

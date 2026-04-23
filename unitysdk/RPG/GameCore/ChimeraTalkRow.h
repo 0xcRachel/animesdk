@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERATALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170C0010)
-#define RPG_GAMECORE_CHIMERATALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170C0680)
+#define RPG_GAMECORE_CHIMERATALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194CDB20)
+#define RPG_GAMECORE_CHIMERATALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194CE190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTalkRow_TypeDefinitionIndex = 11895;
+	inline static constexpr unsigned int ChimeraTalkRow_TypeDefinitionIndex = 12326;
 
 	class ChimeraTalkRow : public ::System::Object
 	{
 	public:
 		::System::String* EvPath; // 0x10
-		::System::UInt32 TalkID; // 0x18
-		::RPG::Client::TextID TalkContent; // 0x20
+		::RPG::Client::TextID TalkContent; // 0x18
+		::System::UInt32 TalkID; // 0x28
 
 		::System::Void _ctor()
 		{

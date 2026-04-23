@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMUSEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1733CC60)
-#define RPG_GAMECORE_ITEMUSEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1733D2F0)
+#define RPG_GAMECORE_ITEMUSEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188A6990)
+#define RPG_GAMECORE_ITEMUSEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x188A7020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseDataRow_TypeDefinitionIndex = 12678;
+	inline static constexpr unsigned int ItemUseDataRow_TypeDefinitionIndex = 13145;
 
 	class ItemUseDataRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UseParam; // 0x10
-		::System::Boolean IsAutoUse; // 0x18
+		::System::UInt32 UseMultipleMax; // 0x18
 		::System::UInt32 UseDataID; // 0x1C
-		::System::UInt32 UseMultipleMax; // 0x20
+		::System::Boolean IsAutoUse; // 0x20
 
 		::System::Void _ctor()
 		{

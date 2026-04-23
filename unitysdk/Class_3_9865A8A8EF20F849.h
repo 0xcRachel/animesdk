@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearDialogCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9865A8A8EF20F849_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113A52C0)
-#define CLASS_3_9865A8A8EF20F849__CTOR_OFFSET UNITYSDK_OFFSET(0x113A5290)
+#define CLASS_3_9865A8A8EF20F849_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10CB2210)
+#define CLASS_3_9865A8A8EF20F849__CTOR_OFFSET UNITYSDK_OFFSET(0x10CB21E0)
 
-inline static constexpr unsigned int Class_3_9865A8A8EF20F849_TypeDefinitionIndex = 46802;
+inline static constexpr unsigned int Class_3_9865A8A8EF20F849_TypeDefinitionIndex = 53511;
 
 class Class_3_9865A8A8EF20F849 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearDialogCamera*>
 {

@@ -5,24 +5,24 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9126830)
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CREATEFORHIGHLIGHT_B__0_0_OFFSET UNITYSDK_OFFSET(0x9126880)
-#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9126870)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15882850)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CREATEFORHIGHLIGHT_B__0_0_OFFSET UNITYSDK_OFFSET(0x15882890)
+#define RPG_CLIENT_AVATAREDUCATIONCOMPARERFACTORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15882880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEducationComparerFactory___c_TypeDefinitionIndex = 50746;
+	inline static constexpr unsigned int AvatarEducationComparerFactory___c_TypeDefinitionIndex = 57625;
 
 	class AvatarEducationComparerFactory___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AvatarEducationComparerFactory___c** StaticGet___9()
-		{
-			return (::RPG::Client::AvatarEducationComparerFactory___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x45BF0);
-		}
 		static ::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x45BF8);
+			return (::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x5BEB0);
+		}
+		static ::RPG::Client::AvatarEducationComparerFactory___c** StaticGet___9()
+		{
+			return (::RPG::Client::AvatarEducationComparerFactory___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarEducationComparerFactory___c_TypeDefinitionIndex)->GetStaticField(0x5BEB8);
 		}
 
 		static ::System::Void _cctor()

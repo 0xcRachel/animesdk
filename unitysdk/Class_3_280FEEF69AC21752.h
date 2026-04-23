@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class ByAnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_280FEEF69AC21752_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11455F10)
-#define CLASS_3_280FEEF69AC21752_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11455EA0)
-#define CLASS_3_280FEEF69AC21752__CTOR_OFFSET UNITYSDK_OFFSET(0x11455E10)
-#define CLASS_3_280FEEF69AC21752___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11455F80)
+#define CLASS_3_280FEEF69AC21752_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE785700)
+#define CLASS_3_280FEEF69AC21752_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE785690)
+#define CLASS_3_280FEEF69AC21752__CTOR_OFFSET UNITYSDK_OFFSET(0xE785600)
+#define CLASS_3_280FEEF69AC21752___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE785770)
 
-inline static constexpr unsigned int Class_3_280FEEF69AC21752_TypeDefinitionIndex = 43559;
+inline static constexpr unsigned int Class_3_280FEEF69AC21752_TypeDefinitionIndex = 50256;
 
 class Class_3_280FEEF69AC21752 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByAnd*>
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_3_0; // 0x28
+	::Class_3_E21F6DE9B7FA4D05* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByAnd* a2)
 	{

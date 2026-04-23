@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/Marble/MarbleEventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2D6ABDD39EFBFFEB__CTOR_OFFSET UNITYSDK_OFFSET(0x167BDB70)
+#define CLASS_1_2D6ABDD39EFBFFEB__CTOR_OFFSET UNITYSDK_OFFSET(0x179782B0)
 
-inline static constexpr unsigned int Class_1_2D6ABDD39EFBFFEB_TypeDefinitionIndex = 33139;
+inline static constexpr unsigned int Class_1_2D6ABDD39EFBFFEB_TypeDefinitionIndex = 38929;
 
 class Class_1_2D6ABDD39EFBFFEB : public ::System::Object
 {

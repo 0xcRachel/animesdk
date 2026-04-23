@@ -1,35 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
+#include "unitysdk/RPG/Client/MessageContentFunctionCallBlock.h"
 
 namespace RPG::Client { class LightConeGrowthGuide; }
+namespace RPG::Client { class MessageContentBlock; }
+namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B9E360)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x9B9E400)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x9B9E430)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0x9B9E410)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B9E1B0)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_REQUESTLIGHTCONERECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0x9B9E250)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_SET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x9B9E440)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_SET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0x9B9E420)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B9E1C0)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x175B1D60)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x175B1EB0)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_ISDATAREADY_OFFSET UNITYSDK_OFFSET(0x175B1ED0)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_LIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0x175B1EC0)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175B1B50)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_REQUESTLIGHTCONERECOMMENDDATA_OFFSET UNITYSDK_OFFSET(0x175B1C50)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__CREATELIGHTCONEGUIDE_OFFSET UNITYSDK_OFFSET(0x175B1B80)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x175B1B60)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__ISRECOMMENDDATAREADY_OFFSET UNITYSDK_OFFSET(0x175B1E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentLightConeRecommendBlock_TypeDefinitionIndex = 51338;
+	inline static constexpr unsigned int MessageContentLightConeRecommendBlock_TypeDefinitionIndex = 58266;
 
-	class MessageContentLightConeRecommendBlock : public ::RPG::Client::MessageContentBlock
+	class MessageContentLightConeRecommendBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:
-		::RPG::Client::LightConeGrowthGuide* _LightConeGuide_k__BackingField; // 0x18
-		::System::Boolean _IsDataReady_k__BackingField; // 0x20
-		::System::UInt32 _AvatarID_k__BackingField; // 0x24
+		::RPG::Client::LightConeGrowthGuide* _LightConeGuide_k__BackingField; // 0x28
+		::System::UInt32 _AvatarID_k__BackingField; // 0x30
 
-		::System::Void _ctor(::System::UInt32 avatarID)
+		::System::Void _ctor(::System::String* functionCallID, ::System::UInt32 avatarID)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__CTOR_OFFSET))(this, avatarID);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__CTOR_OFFSET))(this, functionCallID, avatarID);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -47,6 +48,16 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_EQUALS_OFFSET))(this, other);
 		}
 
+		::RPG::Client::LightConeGrowthGuide* _CreateLightConeGuide()
+		{
+			return ((::RPG::Client::LightConeGrowthGuide*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__CREATELIGHTCONEGUIDE_OFFSET))(this);
+		}
+
+		::System::Boolean _IsRecommendDataReady()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK__ISRECOMMENDDATAREADY_OFFSET))(this);
+		}
+
 		::System::UInt32 get_AvatarID()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_AVATARID_OFFSET))(this);
@@ -57,19 +68,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LightConeGrowthGuide*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_LIGHTCONEGUIDE_OFFSET))(this);
 		}
 
-		::System::Void set_LightConeGuide(::RPG::Client::LightConeGrowthGuide* value)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LightConeGrowthGuide*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_SET_LIGHTCONEGUIDE_OFFSET))(this, value);
-		}
-
 		::System::Boolean get_IsDataReady()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_GET_ISDATAREADY_OFFSET))(this);
-		}
-
-		::System::Void set_IsDataReady(::System::Boolean value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK_SET_ISDATAREADY_OFFSET))(this, value);
 		}
 	};
 }

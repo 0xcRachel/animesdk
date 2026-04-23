@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_DTDPARSER_UNDECLAREDNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x185802F0)
+#define SYSTEM_XML_DTDPARSER_UNDECLAREDNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x186CA480)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DtdParser_UndeclaredNotation_TypeDefinitionIndex = 1923;
+	inline static constexpr unsigned int DtdParser_UndeclaredNotation_TypeDefinitionIndex = 1924;
 
 	class DtdParser_UndeclaredNotation : public ::System::Object
 	{

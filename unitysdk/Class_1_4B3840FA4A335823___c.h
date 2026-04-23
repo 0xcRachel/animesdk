@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class MapPropConditionConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_4B3840FA4A335823___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10C7ED10)
-#define CLASS_1_4B3840FA4A335823___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10C7ED40)
-#define CLASS_1_4B3840FA4A335823___C__GETSORTEDMAPPROPCONDITION_B__41_0_OFFSET UNITYSDK_OFFSET(0x10C7ED50)
+#define CLASS_1_4B3840FA4A335823___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4BA6F0)
+#define CLASS_1_4B3840FA4A335823___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA4BA720)
+#define CLASS_1_4B3840FA4A335823___C__GETSORTEDMAPPROPCONDITION_B__41_0_OFFSET UNITYSDK_OFFSET(0xA4BA730)
 
-inline static constexpr unsigned int Class_1_4B3840FA4A335823___c_TypeDefinitionIndex = 50430;
+inline static constexpr unsigned int Class_1_4B3840FA4A335823___c_TypeDefinitionIndex = 57289;
 
 class Class_1_4B3840FA4A335823___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>** StaticGet___9__41_0()
-	{
-		return (::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4B3840FA4A335823___c_TypeDefinitionIndex)->GetStaticField(0x44120);
-	}
 	static ::Class_1_4B3840FA4A335823___c** StaticGet___9()
 	{
-		return (::Class_1_4B3840FA4A335823___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4B3840FA4A335823___c_TypeDefinitionIndex)->GetStaticField(0x44128);
+		return (::Class_1_4B3840FA4A335823___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4B3840FA4A335823___c_TypeDefinitionIndex)->GetStaticField(0x5EF00);
+	}
+	static ::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>** StaticGet___9__41_0()
+	{
+		return (::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4B3840FA4A335823___c_TypeDefinitionIndex)->GetStaticField(0x5EF08);
 	}
 
 	static ::System::Void _cctor()

@@ -5,24 +5,24 @@
 class Class_1_A88C3AAF0DD46F4C;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CAKERACEFIELDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9242D70)
-#define RPG_CLIENT_CAKERACEFIELDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9242DB0)
-#define RPG_CLIENT_CAKERACEFIELDDATA___C__GET_FIELDEFFECTLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x9242DC0)
+#define RPG_CLIENT_CAKERACEFIELDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E01E50)
+#define RPG_CLIENT_CAKERACEFIELDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15E01E90)
+#define RPG_CLIENT_CAKERACEFIELDDATA___C__GET_FIELDEFFECTLIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x15E01EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceFieldData___c_TypeDefinitionIndex = 51132;
+	inline static constexpr unsigned int CakeRaceFieldData___c_TypeDefinitionIndex = 58052;
 
 	class CakeRaceFieldData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::CakeRaceFieldData___c** StaticGet___9()
 		{
-			return (::RPG::Client::CakeRaceFieldData___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceFieldData___c_TypeDefinitionIndex)->GetStaticField(0x35DA0);
+			return (::RPG::Client::CakeRaceFieldData___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceFieldData___c_TypeDefinitionIndex)->GetStaticField(0x5B840);
 		}
 		static ::System::Func_2<::Class_1_A88C3AAF0DD46F4C*, ::System::UInt32>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::Class_1_A88C3AAF0DD46F4C*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceFieldData___c_TypeDefinitionIndex)->GetStaticField(0x35DA8);
+			return (::System::Func_2<::Class_1_A88C3AAF0DD46F4C*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceFieldData___c_TypeDefinitionIndex)->GetStaticField(0x5B848);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 namespace RPG::Client { class ActiveActivityData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8EDE6D0)
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_0___SYNCACTIVEACTIVITYDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x8EDEC30)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159B3CD0)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_0___SYNCACTIVEACTIVITYDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x159B4230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_0_TypeDefinitionIndex = 49785;
+	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_0_TypeDefinitionIndex = 56607;
 
 	class ActivityActiveModule___c__DisplayClass7_0 : public ::System::Object
 	{

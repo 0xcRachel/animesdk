@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178C4BA0)
-#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178C4D10)
+#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1949A160)
+#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1949A2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStatusRankConfigRow_TypeDefinitionIndex = 14046;
+	inline static constexpr unsigned int TrainPartyStatusRankConfigRow_TypeDefinitionIndex = 14521;
 
 	class TrainPartyStatusRankConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RankRequireExp; // 0x10
+		::System::UInt32 Rank; // 0x10
 		::System::UInt32 RequireValue; // 0x14
-		::System::UInt32 Rank; // 0x18
+		::System::UInt32 RankRequireExp; // 0x18
 
 		::System::Void _ctor()
 		{

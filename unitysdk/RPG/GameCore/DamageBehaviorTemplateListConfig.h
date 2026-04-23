@@ -8,22 +8,22 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_0AAE79A4F5695165_OFFSET UNITYSDK_OFFSET(0x1715B2F0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_A375176172C657A9_OFFSET UNITYSDK_OFFSET(0x1715B3D0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_CBF4DDF5E2F7867F_OFFSET UNITYSDK_OFFSET(0x1715B4B0)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1715B520)
-#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1715B3C0)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_0AAE79A4F5695165_OFFSET UNITYSDK_OFFSET(0x18FB9790)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_A375176172C657A9_OFFSET UNITYSDK_OFFSET(0x18FB9870)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG_METHOD_2_CBF4DDF5E2F7867F_OFFSET UNITYSDK_OFFSET(0x18FB9950)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FB99C0)
+#define RPG_GAMECORE_DAMAGEBEHAVIORTEMPLATELISTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB9860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageBehaviorTemplateListConfig_TypeDefinitionIndex = 14342;
+	inline static constexpr unsigned int DamageBehaviorTemplateListConfig_TypeDefinitionIndex = 14812;
 
 	class DamageBehaviorTemplateListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		static ::RPG::GameCore::DamageBehaviorTemplate** StaticGet_S_Default()
 		{
-			return (::RPG::GameCore::DamageBehaviorTemplate**)Il2CppClass::FromTypeDefinitionIndex(DamageBehaviorTemplateListConfig_TypeDefinitionIndex)->GetStaticField(0x2CCC0);
+			return (::RPG::GameCore::DamageBehaviorTemplate**)Il2CppClass::FromTypeDefinitionIndex(DamageBehaviorTemplateListConfig_TypeDefinitionIndex)->GetStaticField(0x9550);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DamageBehaviorTemplate*>* ConfigList; // 0x10
 

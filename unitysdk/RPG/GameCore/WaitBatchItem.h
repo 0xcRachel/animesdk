@@ -9,12 +9,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITBATCHITEM_METHOD_2_61FBA0D5F412032C_OFFSET UNITYSDK_OFFSET(0x17909A70)
-#define RPG_GAMECORE_WAITBATCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17909DB0)
+#define RPG_GAMECORE_WAITBATCHITEM_METHOD_2_61FBA0D5F412032C_OFFSET UNITYSDK_OFFSET(0x19526B80)
+#define RPG_GAMECORE_WAITBATCHITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19526EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBatchItem_TypeDefinitionIndex = 22030;
+	inline static constexpr unsigned int WaitBatchItem_TypeDefinitionIndex = 22746;
 
 	class WaitBatchItem : public ::RPG::GameCore::JsonConfig
 	{

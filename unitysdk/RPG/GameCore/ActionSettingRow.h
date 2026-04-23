@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONSETTINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16EB1CF0)
-#define RPG_GAMECORE_ACTIONSETTINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16EB2390)
+#define RPG_GAMECORE_ACTIONSETTINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18860BA0)
+#define RPG_GAMECORE_ACTIONSETTINGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18861200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSettingRow_TypeDefinitionIndex = 12615;
+	inline static constexpr unsigned int ActionSettingRow_TypeDefinitionIndex = 13084;
 
 	class ActionSettingRow : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x965A580)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS3_1__SORTACCESSORYLIST_B__1_OFFSET UNITYSDK_OFFSET(0x965A590)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS3_1__SORTACCESSORYLIST_B__2_OFFSET UNITYSDK_OFFSET(0x965A5C0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x161D5240)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS3_1__SORTACCESSORYLIST_B__1_OFFSET UNITYSDK_OFFSET(0x161D5250)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS3_1__SORTACCESSORYLIST_B__2_OFFSET UNITYSDK_OFFSET(0x161D5280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass3_1_TypeDefinitionIndex = 51867;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass3_1_TypeDefinitionIndex = 58815;
 
 	class EvolveBuildUtils___c__DisplayClass3_1 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::EvolveBuildGearEquipInfo* b; // 0x10
-		::RPG::GameCore::EvolveBuildGearEquipInfo* a; // 0x18
+		::RPG::GameCore::EvolveBuildGearEquipInfo* a; // 0x10
+		::RPG::GameCore::EvolveBuildGearEquipInfo* b; // 0x18
 
 		::System::Void _ctor()
 		{

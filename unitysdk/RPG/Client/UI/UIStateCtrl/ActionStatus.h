@@ -3,7 +3,7 @@
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int ActionStatus_TypeDefinitionIndex = 60730;
+	inline static constexpr unsigned int ActionStatus_TypeDefinitionIndex = 68175;
 
 	enum class ActionStatus : ::System::Int32
 	{

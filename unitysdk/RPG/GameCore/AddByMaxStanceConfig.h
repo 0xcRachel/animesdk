@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG_METHOD_2_169CCB0447BEE926_OFFSET UNITYSDK_OFFSET(0x16F2F0B0)
-#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2F4C0)
+#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG_METHOD_2_169CCB0447BEE926_OFFSET UNITYSDK_OFFSET(0x18DB0810)
+#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18DB0C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddByMaxStanceConfig_TypeDefinitionIndex = 16684;
+	inline static constexpr unsigned int AddByMaxStanceConfig_TypeDefinitionIndex = 17276;
 
 	class AddByMaxStanceConfig : public ::RPG::GameCore::JsonConfig
 	{

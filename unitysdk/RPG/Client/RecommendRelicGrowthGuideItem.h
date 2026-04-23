@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_RECOMMENDRELICGROWTHGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA29F6F0)
+#define RPG_CLIENT_RECOMMENDRELICGROWTHGUIDEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1601C450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RecommendRelicGrowthGuideItem_TypeDefinitionIndex = 53230;
+	inline static constexpr unsigned int RecommendRelicGrowthGuideItem_TypeDefinitionIndex = 60357;
 
 	class RecommendRelicGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{

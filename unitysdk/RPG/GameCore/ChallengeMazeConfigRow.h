@@ -6,41 +6,41 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEMAZECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170706E0)
-#define RPG_GAMECORE_CHALLENGEMAZECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17071AA0)
+#define RPG_GAMECORE_CHALLENGEMAZECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D4B300)
+#define RPG_GAMECORE_CHALLENGEMAZECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4C6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeMazeConfigRow_TypeDefinitionIndex = 11822;
+	inline static constexpr unsigned int ChallengeMazeConfigRow_TypeDefinitionIndex = 12253;
 
 	class ChallengeMazeConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NpcMonsterIDList2; // 0x10
-		::Il2CppArray<::System::UInt32>* MonsterID1; // 0x18
+		::Il2CppArray<::System::UInt32>* MonsterID2; // 0x10
+		::Il2CppArray<::System::UInt32>* ConfigList1; // 0x18
 		::Il2CppArray<::System::UInt32>* ChallengeTargetID; // 0x20
-		::Il2CppArray<::System::UInt32>* EventIDList1; // 0x28
-		::Il2CppArray<::System::UInt32>* EventIDList2; // 0x30
+		::Il2CppArray<::System::UInt32>* EventIDList2; // 0x28
+		::Il2CppArray<::System::UInt32>* EventIDList1; // 0x30
 		::Il2CppArray<::System::UInt32>* NpcMonsterIDList1; // 0x38
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType2; // 0x40
-		::Il2CppArray<::System::UInt32>* MonsterID2; // 0x48
+		::Il2CppArray<::System::UInt32>* MonsterID1; // 0x48
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType1; // 0x50
-		::Il2CppArray<::System::UInt32>* ConfigList1; // 0x58
-		::Il2CppArray<::System::UInt32>* ConfigList2; // 0x60
-		::RPG::Client::TextID Name; // 0x68
-		::System::UInt32 GroupID; // 0x78
+		::Il2CppArray<::System::UInt32>* ConfigList2; // 0x58
+		::Il2CppArray<::System::UInt32>* NpcMonsterIDList2; // 0x60
+		::System::UInt32 RewardID; // 0x68
+		::System::UInt32 MapEntranceID2; // 0x6C
+		::System::UInt32 MazeGroupID1; // 0x70
+		::System::UInt32 ID; // 0x74
+		::System::UInt32 StageNum; // 0x78
 		::System::UInt32 PreChallengeMazeID; // 0x7C
-		::System::UInt32 PreLevel; // 0x80
-		::System::UInt32 MazeGroupID1; // 0x84
-		::System::UInt32 MapEntranceID; // 0x88
-		::System::UInt32 Floor; // 0x8C
-		::System::UInt32 StageNum; // 0x90
-		::System::UInt32 ID; // 0x94
-		::System::UInt32 MapEntranceID2; // 0x98
-		::System::UInt32 ChallengeCountDown; // 0x9C
-		::System::UInt32 MazeGroupID2; // 0xA0
-		::System::UInt32 MazeBuffID; // 0xA4
-		::System::UInt32 RewardID; // 0xA8
+		::System::UInt32 MapEntranceID; // 0x80
+		::RPG::Client::TextID Name; // 0x88
+		::System::UInt32 PreLevel; // 0x98
+		::System::UInt32 MazeBuffID; // 0x9C
+		::System::UInt32 ChallengeCountDown; // 0xA0
+		::System::UInt32 MazeGroupID2; // 0xA4
+		::System::UInt32 GroupID; // 0xA8
+		::System::UInt32 Floor; // 0xAC
 
 		::System::Void _ctor()
 		{

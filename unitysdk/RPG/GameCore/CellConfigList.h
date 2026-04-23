@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CellConfig; }
 
-#define RPG_GAMECORE_CELLCONFIGLIST_METHOD_2_8E14A2FD90B3ACC2_OFFSET UNITYSDK_OFFSET(0x170695E0)
-#define RPG_GAMECORE_CELLCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x170696B0)
+#define RPG_GAMECORE_CELLCONFIGLIST_METHOD_2_8E14A2FD90B3ACC2_OFFSET UNITYSDK_OFFSET(0x18D43DA0)
+#define RPG_GAMECORE_CELLCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x18D43E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CellConfigList_TypeDefinitionIndex = 17524;
+	inline static constexpr unsigned int CellConfigList_TypeDefinitionIndex = 18133;
 
 	class CellConfigList : public ::RPG::GameCore::JsonConfig
 	{

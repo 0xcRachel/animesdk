@@ -8,10 +8,10 @@ namespace RPG::GameCore { class PropConfig; }
 namespace RPG::GameCore { class PropTagComponent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_820B63E5CA13D294_METHOD_1_762E3C67537EDE80_OFFSET UNITYSDK_OFFSET(0x10903AD0)
-#define CLASS_1_820B63E5CA13D294__CTOR_OFFSET UNITYSDK_OFFSET(0x10903D10)
+#define CLASS_1_820B63E5CA13D294_METHOD_1_762E3C67537EDE80_OFFSET UNITYSDK_OFFSET(0xFCC8370)
+#define CLASS_1_820B63E5CA13D294__CTOR_OFFSET UNITYSDK_OFFSET(0xFCC85B0)
 
-inline static constexpr unsigned int Class_1_820B63E5CA13D294_TypeDefinitionIndex = 46613;
+inline static constexpr unsigned int Class_1_820B63E5CA13D294_TypeDefinitionIndex = 53304;
 
 class Class_1_820B63E5CA13D294 : public ::System::Object
 {

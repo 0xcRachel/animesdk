@@ -5,30 +5,30 @@
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_ASYNCHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18575D30)
+#define SYSTEM_XML_ASYNCHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186BFEF0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int AsyncHelper_TypeDefinitionIndex = 1774;
+	inline static constexpr unsigned int AsyncHelper_TypeDefinitionIndex = 1775;
 
 	class AsyncHelper : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_DoneTaskZero()
-		{
-			return (::System::Threading::Tasks::Task_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0x13490);
-		}
-		static ::System::Threading::Tasks::Task** StaticGet_DoneTask()
-		{
-			return (::System::Threading::Tasks::Task**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0x13498);
-		}
 		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskTrue()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0x134A0);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0xA020);
+		}
+		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_DoneTaskZero()
+		{
+			return (::System::Threading::Tasks::Task_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0xA028);
 		}
 		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskFalse()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0x134A8);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0xA030);
+		}
+		static ::System::Threading::Tasks::Task** StaticGet_DoneTask()
+		{
+			return (::System::Threading::Tasks::Task**)Il2CppClass::FromTypeDefinitionIndex(AsyncHelper_TypeDefinitionIndex)->GetStaticField(0xA038);
 		}
 
 		static ::System::Void _cctor()

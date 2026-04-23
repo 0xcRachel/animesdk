@@ -5,19 +5,19 @@
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine::AI { class NavMeshPath; }
 
-#define CLASS_1_BCA6044233FD2339_METHOD_1_8BBAD2F0C69AE863_OFFSET UNITYSDK_OFFSET(0x1094DEE0)
-#define CLASS_1_BCA6044233FD2339_METHOD_1_DA5E75C5C463DE87_OFFSET UNITYSDK_OFFSET(0x1094DF80)
-#define CLASS_1_BCA6044233FD2339__CCTOR_OFFSET UNITYSDK_OFFSET(0x1094E070)
-#define CLASS_1_BCA6044233FD2339__CTOR_OFFSET UNITYSDK_OFFSET(0x1094E060)
+#define CLASS_1_BCA6044233FD2339_METHOD_1_8BBAD2F0C69AE863_OFFSET UNITYSDK_OFFSET(0xFF9EC10)
+#define CLASS_1_BCA6044233FD2339_METHOD_1_DA5E75C5C463DE87_OFFSET UNITYSDK_OFFSET(0xFF9ECB0)
+#define CLASS_1_BCA6044233FD2339__CCTOR_OFFSET UNITYSDK_OFFSET(0xFF9EDA0)
+#define CLASS_1_BCA6044233FD2339__CTOR_OFFSET UNITYSDK_OFFSET(0xFF9ED90)
 
-inline static constexpr unsigned int Class_1_BCA6044233FD2339_TypeDefinitionIndex = 45990;
+inline static constexpr unsigned int Class_1_BCA6044233FD2339_TypeDefinitionIndex = 52651;
 
 class Class_1_BCA6044233FD2339 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Queue_1<::UnityEngine::AI::NavMeshPath*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Queue_1<::UnityEngine::AI::NavMeshPath*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BCA6044233FD2339_TypeDefinitionIndex)->GetStaticField(0x35E10);
+		return (::System::Collections::Generic::Queue_1<::UnityEngine::AI::NavMeshPath*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BCA6044233FD2339_TypeDefinitionIndex)->GetStaticField(0x17730);
 	}
 
 	::System::Void _ctor()

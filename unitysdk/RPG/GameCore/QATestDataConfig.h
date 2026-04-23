@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class QAAdventurePlayerRow; }
 
-#define RPG_GAMECORE_QATESTDATACONFIG_METHOD_2_90252C39559F4D0D_OFFSET UNITYSDK_OFFSET(0x17589610)
-#define RPG_GAMECORE_QATESTDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17589710)
+#define RPG_GAMECORE_QATESTDATACONFIG_METHOD_2_90252C39559F4D0D_OFFSET UNITYSDK_OFFSET(0x191D79B0)
+#define RPG_GAMECORE_QATESTDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191D7AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 17481;
+	inline static constexpr unsigned int QATestDataConfig_TypeDefinitionIndex = 18090;
 
 	class QATestDataConfig : public ::RPG::GameCore::JsonConfig
 	{

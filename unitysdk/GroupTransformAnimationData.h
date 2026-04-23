@@ -9,11 +9,11 @@ class TransformAnimationData;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET UNITYSDK_OFFSET(0x10A60710)
-#define GROUPTRANSFORMANIMATIONDATA_METHOD_3_FBCAFA6E37BBD59A_OFFSET UNITYSDK_OFFSET(0x10A60780)
-#define GROUPTRANSFORMANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x10A60920)
+#define GROUPTRANSFORMANIMATIONDATA_GET_ISLOOPANIM_OFFSET UNITYSDK_OFFSET(0xED55C30)
+#define GROUPTRANSFORMANIMATIONDATA_METHOD_3_FBCAFA6E37BBD59A_OFFSET UNITYSDK_OFFSET(0xED55CA0)
+#define GROUPTRANSFORMANIMATIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xED55E40)
 
-inline static constexpr unsigned int GroupTransformAnimationData_TypeDefinitionIndex = 38048;
+inline static constexpr unsigned int GroupTransformAnimationData_TypeDefinitionIndex = 43929;
 
 class GroupTransformAnimationData : public ::UnityEngine::ScriptableObject
 {

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMISCCONFIG_METHOD_2_2AA5C8DEF08F0DE7_OFFSET UNITYSDK_OFFSET(0x1720F400)
-#define RPG_GAMECORE_FIVEDIMMISCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1720F660)
+#define RPG_GAMECORE_FIVEDIMMISCCONFIG_METHOD_2_2AA5C8DEF08F0DE7_OFFSET UNITYSDK_OFFSET(0x191DFFC0)
+#define RPG_GAMECORE_FIVEDIMMISCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191E0220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMiscConfig_TypeDefinitionIndex = 15279;
+	inline static constexpr unsigned int FiveDimMiscConfig_TypeDefinitionIndex = 15793;
 
 	class FiveDimMiscConfig : public ::RPG::GameCore::JsonConfig
 	{

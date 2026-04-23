@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_1_69FF5DE516C87A66;
+class Class_1_F3391C70DC37088D;
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class NotifyHandler; }
 namespace RPG::GameCore { class ShowShop; }
@@ -13,31 +13,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_49D69C37F7767B77_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEA81890)
-#define CLASS_2_49D69C37F7767B77_METHOD_2_17BD30EFE8176014_OFFSET UNITYSDK_OFFSET(0xEA81D10)
-#define CLASS_2_49D69C37F7767B77_METHOD_2_31B86CF031D1C6B2_OFFSET UNITYSDK_OFFSET(0xEA82280)
-#define CLASS_2_49D69C37F7767B77_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xEA82070)
-#define CLASS_2_49D69C37F7767B77_METHOD_2_B82A6C005D3ADCE3_OFFSET UNITYSDK_OFFSET(0xEA82140)
-#define CLASS_2_49D69C37F7767B77_METHOD_2_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0xEA81E70)
-#define CLASS_2_49D69C37F7767B77_METHOD_2_E8F333E43144B985_OFFSET UNITYSDK_OFFSET(0xEA82550)
-#define CLASS_2_49D69C37F7767B77_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEA818D0)
-#define CLASS_2_49D69C37F7767B77_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEA81FA0)
-#define CLASS_2_49D69C37F7767B77_TICK_OFFSET UNITYSDK_OFFSET(0xEA82010)
-#define CLASS_2_49D69C37F7767B77__CTOR_OFFSET UNITYSDK_OFFSET(0xEA817A0)
+#define CLASS_2_49D69C37F7767B77_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD579F0)
+#define CLASS_2_49D69C37F7767B77_METHOD_2_31B86CF031D1C6B2_OFFSET UNITYSDK_OFFSET(0xAD583B0)
+#define CLASS_2_49D69C37F7767B77_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xAD581A0)
+#define CLASS_2_49D69C37F7767B77_METHOD_2_B82A6C005D3ADCE3_OFFSET UNITYSDK_OFFSET(0xAD58270)
+#define CLASS_2_49D69C37F7767B77_METHOD_2_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0xAD57FA0)
+#define CLASS_2_49D69C37F7767B77_METHOD_2_E8F333E43144B985_OFFSET UNITYSDK_OFFSET(0xAD58680)
+#define CLASS_2_49D69C37F7767B77_METHOD_2_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0xAD57E70)
+#define CLASS_2_49D69C37F7767B77_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD57A30)
+#define CLASS_2_49D69C37F7767B77_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD580D0)
+#define CLASS_2_49D69C37F7767B77_TICK_OFFSET UNITYSDK_OFFSET(0xAD58140)
+#define CLASS_2_49D69C37F7767B77__CTOR_OFFSET UNITYSDK_OFFSET(0xAD57900)
 
-inline static constexpr unsigned int Class_2_49D69C37F7767B77_TypeDefinitionIndex = 47372;
+inline static constexpr unsigned int Class_2_49D69C37F7767B77_TypeDefinitionIndex = 54107;
 
 class Class_2_49D69C37F7767B77 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_69FF5DE516C87A66* Field_2_7; // 0x18
-	::RPG::Client::LuaUIController* Field_2_2; // 0x20
-	::RPG::GameCore::ShowShop* Field_2_0; // 0x28
-	::RPG::Client::NotifyHandler* Field_2_8; // 0x30
-	::System::Collections::Generic::List_1<::RPG::GameCore::TalkBehaviorRow*>* Field_2_5; // 0x38
-	::Il2CppArray<::System::Int32>* Field_2_4; // 0x40
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_2_6; // 0x48
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x50
+	::Class_1_F3391C70DC37088D* Field_2_7; // 0x18
+	::RPG::GameCore::ShowShop* Field_2_0; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
+	::Il2CppArray<::System::Int32>* Field_2_4; // 0x30
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_2_6; // 0x38
+	::RPG::Client::NotifyHandler* Field_2_8; // 0x40
+	::System::Collections::Generic::List_1<::RPG::GameCore::TalkBehaviorRow*>* Field_2_5; // 0x48
+	::RPG::Client::LuaUIController* Field_2_2; // 0x50
 	::System::Double Field_2_3; // 0x58
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowShop* a2)
@@ -80,9 +80,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49D69C37F7767B77_METHOD_2_E52129E82CD2D7F8_OFFSET))(this);
 	}
 
-	::System::Void Method_2_17BD30EFE8176014()
+	::System::Void Method_2_EC2B405D0723571D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49D69C37F7767B77_METHOD_2_17BD30EFE8176014_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_49D69C37F7767B77_METHOD_2_EC2B405D0723571D_OFFSET))(this);
 	}
 
 	::System::Boolean Method_2_B82A6C005D3ADCE3()

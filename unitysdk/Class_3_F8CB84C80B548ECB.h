@@ -8,19 +8,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SetActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F8CB84C80B548ECB_METHOD_3_5E9A0D3C375DBB74_OFFSET UNITYSDK_OFFSET(0x8C1A3D0)
-#define CLASS_3_F8CB84C80B548ECB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C19F90)
-#define CLASS_3_F8CB84C80B548ECB__CCTOR_OFFSET UNITYSDK_OFFSET(0x8C19E90)
-#define CLASS_3_F8CB84C80B548ECB__CTOR_OFFSET UNITYSDK_OFFSET(0x8C19F60)
+#define CLASS_3_F8CB84C80B548ECB_METHOD_3_5E9A0D3C375DBB74_OFFSET UNITYSDK_OFFSET(0xF361400)
+#define CLASS_3_F8CB84C80B548ECB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF360FC0)
+#define CLASS_3_F8CB84C80B548ECB__CCTOR_OFFSET UNITYSDK_OFFSET(0xF360EC0)
+#define CLASS_3_F8CB84C80B548ECB__CTOR_OFFSET UNITYSDK_OFFSET(0xF360F90)
 
-inline static constexpr unsigned int Class_3_F8CB84C80B548ECB_TypeDefinitionIndex = 44307;
+inline static constexpr unsigned int Class_3_F8CB84C80B548ECB_TypeDefinitionIndex = 51021;
 
 class Class_3_F8CB84C80B548ECB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetActionDelay*>
 {
 public:
 	static ::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet_Field_3_0()
 	{
-		return (::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_F8CB84C80B548ECB_TypeDefinitionIndex)->GetStaticField(0x45CD0);
+		return (::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_F8CB84C80B548ECB_TypeDefinitionIndex)->GetStaticField(0x5D080);
 	}
 
 	static ::System::Void _cctor()

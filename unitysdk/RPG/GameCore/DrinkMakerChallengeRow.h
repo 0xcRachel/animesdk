@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17189480)
-#define RPG_GAMECORE_DRINKMAKERCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17189750)
+#define RPG_GAMECORE_DRINKMAKERCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19135480)
+#define RPG_GAMECORE_DRINKMAKERCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19135750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerChallengeRow_TypeDefinitionIndex = 12036;
+	inline static constexpr unsigned int DrinkMakerChallengeRow_TypeDefinitionIndex = 12469;
 
 	class DrinkMakerChallengeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ChallengeIngredientList; // 0x10
-		::Il2CppArray<::System::UInt32>* UnlockParam; // 0x18
-		::System::String* ChallengePic; // 0x20
-		::System::UInt32 ChallengeRewardID; // 0x28
-		::System::UInt32 ChallengeRequest; // 0x2C
-		::System::UInt32 UnlockLevel; // 0x30
+		::System::String* ChallengePic; // 0x10
+		::Il2CppArray<::System::UInt32>* ChallengeIngredientList; // 0x18
+		::Il2CppArray<::System::UInt32>* UnlockParam; // 0x20
+		::System::UInt32 UnlockLevel; // 0x28
+		::System::UInt32 ChallengeRewardID; // 0x2C
+		::System::UInt32 ChallengeRequest; // 0x30
 		::RPG::GameCore::DrinkMakerUnlockType UnlockType; // 0x34
 		::System::UInt32 ChallengeID; // 0x38
 

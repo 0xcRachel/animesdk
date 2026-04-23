@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Resources { class ResourceManager; }
 
-#define UNITYENGINE_BUFFERS_SR_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x18A05810)
-#define UNITYENGINE_BUFFERS_SR_GET_ARGUMENTEXCEPTION_BUFFERNOTFROMPOOL_OFFSET UNITYSDK_OFFSET(0x18A057B0)
-#define UNITYENGINE_BUFFERS_SR_GET_RESOURCEMANAGER_OFFSET UNITYSDK_OFFSET(0x18A05690)
-#define UNITYENGINE_BUFFERS_SR_GET_RESOURCETYPE_OFFSET UNITYSDK_OFFSET(0x18A05780)
-#define UNITYENGINE_BUFFERS_SR__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A05930)
+#define UNITYENGINE_BUFFERS_SR_GETRESOURCESTRING_OFFSET UNITYSDK_OFFSET(0x19D02290)
+#define UNITYENGINE_BUFFERS_SR_GET_ARGUMENTEXCEPTION_BUFFERNOTFROMPOOL_OFFSET UNITYSDK_OFFSET(0x19D02230)
+#define UNITYENGINE_BUFFERS_SR_GET_RESOURCEMANAGER_OFFSET UNITYSDK_OFFSET(0x19D02110)
+#define UNITYENGINE_BUFFERS_SR_GET_RESOURCETYPE_OFFSET UNITYSDK_OFFSET(0x19D02200)
+#define UNITYENGINE_BUFFERS_SR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D023B0)
 
 namespace UnityEngine::Buffers
 {
-	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4743;
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4751;
 
 	class SR : public ::System::Object
 	{
 	public:
-		static ::System::Resources::ResourceManager** StaticGet_s_resourceManager()
-		{
-			return (::System::Resources::ResourceManager**)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x33E70);
-		}
 		static ::System::Type** StaticGet__ResourceType_k__BackingField()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x33E78);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x11D10);
+		}
+		static ::System::Resources::ResourceManager** StaticGet_s_resourceManager()
+		{
+			return (::System::Resources::ResourceManager**)Il2CppClass::FromTypeDefinitionIndex(SR_TypeDefinitionIndex)->GetStaticField(0x11D18);
 		}
 
 		static ::System::Void _cctor()

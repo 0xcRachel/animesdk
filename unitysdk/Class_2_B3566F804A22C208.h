@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_295;
+class Class_0_16E4307DCC419505_303;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B3566F804A22C208_LOCK_OFFSET UNITYSDK_OFFSET(0x89EFC30)
-#define CLASS_2_B3566F804A22C208_UNLOCK_OFFSET UNITYSDK_OFFSET(0x89EFDB0)
-#define CLASS_2_B3566F804A22C208__CTOR_OFFSET UNITYSDK_OFFSET(0x89EFC20)
-#define CLASS_2_B3566F804A22C208___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x89EFEC0)
-#define CLASS_2_B3566F804A22C208___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x89EFF30)
+#define CLASS_2_B3566F804A22C208_LOCK_OFFSET UNITYSDK_OFFSET(0x118C8C80)
+#define CLASS_2_B3566F804A22C208_UNLOCK_OFFSET UNITYSDK_OFFSET(0x118C8E00)
+#define CLASS_2_B3566F804A22C208__CTOR_OFFSET UNITYSDK_OFFSET(0x118C8C70)
+#define CLASS_2_B3566F804A22C208___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x118C8F10)
+#define CLASS_2_B3566F804A22C208___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x118C8F80)
 
-inline static constexpr unsigned int Class_2_B3566F804A22C208_TypeDefinitionIndex = 61475;
+inline static constexpr unsigned int Class_2_B3566F804A22C208_TypeDefinitionIndex = 68982;
 
 class Class_2_B3566F804A22C208 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

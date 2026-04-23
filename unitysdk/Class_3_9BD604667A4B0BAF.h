@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RefreshAllTutorialNode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9BD604667A4B0BAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8AB6410)
-#define CLASS_3_9BD604667A4B0BAF__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB63E0)
+#define CLASS_3_9BD604667A4B0BAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xED21040)
+#define CLASS_3_9BD604667A4B0BAF__CTOR_OFFSET UNITYSDK_OFFSET(0xED21010)
 
-inline static constexpr unsigned int Class_3_9BD604667A4B0BAF_TypeDefinitionIndex = 47109;
+inline static constexpr unsigned int Class_3_9BD604667A4B0BAF_TypeDefinitionIndex = 53841;
 
 class Class_3_9BD604667A4B0BAF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RefreshAllTutorialNode*>
 {

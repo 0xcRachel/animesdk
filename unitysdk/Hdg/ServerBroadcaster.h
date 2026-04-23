@@ -5,13 +5,13 @@
 namespace Hdg { class rdtUdpMessageHello; }
 namespace System::Threading { class Thread; }
 
-#define HDG_SERVERBROADCASTER_STOP_OFFSET UNITYSDK_OFFSET(0x83F7610)
-#define HDG_SERVERBROADCASTER_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x83FF620)
-#define HDG_SERVERBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x83F7A20)
+#define HDG_SERVERBROADCASTER_STOP_OFFSET UNITYSDK_OFFSET(0x12C103A0)
+#define HDG_SERVERBROADCASTER_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x12C183B0)
+#define HDG_SERVERBROADCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x12C107B0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 37880;
+	inline static constexpr unsigned int ServerBroadcaster_TypeDefinitionIndex = 43757;
 
 	class ServerBroadcaster : public ::System::Object
 	{

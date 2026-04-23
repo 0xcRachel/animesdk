@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_LOD__CTOR_OFFSET UNITYSDK_OFFSET(0x2119370)
+#define UNITYENGINE_LOD__CTOR_OFFSET UNITYSDK_OFFSET(0x2381410)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LOD_TypeDefinitionIndex = 3998;
+	inline static constexpr unsigned int LOD_TypeDefinitionIndex = 4000;
 
 	struct alignas(8) LOD
 	{

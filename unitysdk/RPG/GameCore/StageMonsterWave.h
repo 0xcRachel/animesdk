@@ -5,24 +5,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_STAGEMONSTERWAVE_FROMARRAY_OFFSET UNITYSDK_OFFSET(0x1777D560)
-#define RPG_GAMECORE_STAGEMONSTERWAVE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1777D2E0)
-#define RPG_GAMECORE_STAGEMONSTERWAVE_TOLIST_OFFSET UNITYSDK_OFFSET(0x1777D620)
-#define RPG_GAMECORE_STAGEMONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1777D500)
+#define RPG_GAMECORE_STAGEMONSTERWAVE_FROMARRAY_OFFSET UNITYSDK_OFFSET(0x1860A9D0)
+#define RPG_GAMECORE_STAGEMONSTERWAVE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1860A750)
+#define RPG_GAMECORE_STAGEMONSTERWAVE_TOLIST_OFFSET UNITYSDK_OFFSET(0x1860AA90)
+#define RPG_GAMECORE_STAGEMONSTERWAVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1860A970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageMonsterWave_TypeDefinitionIndex = 13878;
+	inline static constexpr unsigned int StageMonsterWave_TypeDefinitionIndex = 14353;
 
 	class StageMonsterWave : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* _waveCache; // 0x10
 		::System::UInt32 Monster3; // 0x18
-		::System::UInt32 Monster4; // 0x1C
-		::System::UInt32 Monster1; // 0x20
-		::System::UInt32 Monster2; // 0x24
-		::System::UInt32 Monster0; // 0x28
+		::System::UInt32 Monster2; // 0x1C
+		::System::UInt32 Monster0; // 0x20
+		::System::UInt32 Monster1; // 0x24
+		::System::UInt32 Monster4; // 0x28
 
 		::System::Void _ctor()
 		{

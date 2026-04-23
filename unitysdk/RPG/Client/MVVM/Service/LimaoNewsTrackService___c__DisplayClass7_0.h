@@ -5,18 +5,18 @@
 namespace RPG::Client::MVVM::Model { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::MVVM::Service { class LimaoNewsTrackService; }
 
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__BEGINTRACKOFFICE_B__0_OFFSET UNITYSDK_OFFSET(0x9A9DE70)
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A9BEE0)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__BEGINTRACKOFFICE_B__0_OFFSET UNITYSDK_OFFSET(0x16973E10)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16971EA0)
 
 namespace RPG::Client::MVVM::Service
 {
-	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass7_0_TypeDefinitionIndex = 61050;
+	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass7_0_TypeDefinitionIndex = 68508;
 
 	class LimaoNewsTrackService___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MVVM::Model::LimaoNewsOfficeSurveyItem* surveyItem; // 0x10
-		::RPG::Client::MVVM::Service::LimaoNewsTrackService* __4__this; // 0x18
+		::RPG::Client::MVVM::Service::LimaoNewsTrackService* __4__this; // 0x10
+		::RPG::Client::MVVM::Model::LimaoNewsOfficeSurveyItem* surveyItem; // 0x18
 
 		::System::Void _ctor()
 		{

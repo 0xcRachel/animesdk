@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_DOMAINREGION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1600F3B0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_DOMAINREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1600F3A0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_DOMAINREGION__CCTOR_OFFSET UNITYSDK_OFFSET(0x157EB070)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_DOMAINREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x157EB060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_DomainRegion_TypeDefinitionIndex = 6962;
+	inline static constexpr unsigned int ServerRegionManager_DomainRegion_TypeDefinitionIndex = 7008;
 
 	class ServerRegionManager_DomainRegion : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_ValidRegions()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager_DomainRegion_TypeDefinitionIndex)->GetStaticField(0x165B0);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager_DomainRegion_TypeDefinitionIndex)->GetStaticField(0x15BD0);
 		}
 		// static const ::System::String* SG; // 0x0
 		// static const ::System::String* US; // 0x0

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverridePerformanceEndCrack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D4C5A5910E93D1CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A5B160)
-#define CLASS_3_D4C5A5910E93D1CF__CTOR_OFFSET UNITYSDK_OFFSET(0x10A5B130)
+#define CLASS_3_D4C5A5910E93D1CF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9180D70)
+#define CLASS_3_D4C5A5910E93D1CF__CTOR_OFFSET UNITYSDK_OFFSET(0x9180D40)
 
-inline static constexpr unsigned int Class_3_D4C5A5910E93D1CF_TypeDefinitionIndex = 42939;
+inline static constexpr unsigned int Class_3_D4C5A5910E93D1CF_TypeDefinitionIndex = 48924;
 
 class Class_3_D4C5A5910E93D1CF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverridePerformanceEndCrack*>
 {

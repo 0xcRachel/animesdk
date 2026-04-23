@@ -5,27 +5,27 @@
 namespace RPG::Client { class AudienceAssetConfig; }
 namespace RPG::Client::CrowdAnimator { class CrowdAssetsPathConfig; }
 
-#define CLASS_1_7FA2E6B51497039C_METHOD_1_9AE8EFA5D694F802_OFFSET UNITYSDK_OFFSET(0x10533C80)
-#define CLASS_1_7FA2E6B51497039C_METHOD_1_ABE2AE11752DBB83_OFFSET UNITYSDK_OFFSET(0x10533C90)
-#define CLASS_1_7FA2E6B51497039C_METHOD_1_F8C7231308CD2C82_1_OFFSET UNITYSDK_OFFSET(0x10533D50)
-#define CLASS_1_7FA2E6B51497039C_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x10533CA0)
+#define CLASS_1_7FA2E6B51497039C_METHOD_1_9AE8EFA5D694F802_OFFSET UNITYSDK_OFFSET(0x10C89910)
+#define CLASS_1_7FA2E6B51497039C_METHOD_1_ABE2AE11752DBB83_OFFSET UNITYSDK_OFFSET(0x10C89920)
+#define CLASS_1_7FA2E6B51497039C_METHOD_1_F8C7231308CD2C82_1_OFFSET UNITYSDK_OFFSET(0x10C899E0)
+#define CLASS_1_7FA2E6B51497039C_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x10C89930)
 
-inline static constexpr unsigned int Class_1_7FA2E6B51497039C_TypeDefinitionIndex = 56487;
+inline static constexpr unsigned int Class_1_7FA2E6B51497039C_TypeDefinitionIndex = 63731;
 
 class Class_1_7FA2E6B51497039C : public ::System::Object
 {
 public:
-	static ::RPG::Client::AudienceAssetConfig** StaticGet_Field_1_0()
-	{
-		return (::RPG::Client::AudienceAssetConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FA2E6B51497039C_TypeDefinitionIndex)->GetStaticField(0x18F20);
-	}
 	static ::RPG::Client::CrowdAnimator::CrowdAssetsPathConfig** StaticGet_Field_1_1()
 	{
-		return (::RPG::Client::CrowdAnimator::CrowdAssetsPathConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FA2E6B51497039C_TypeDefinitionIndex)->GetStaticField(0x18F28);
+		return (::RPG::Client::CrowdAnimator::CrowdAssetsPathConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FA2E6B51497039C_TypeDefinitionIndex)->GetStaticField(0x6D60);
+	}
+	static ::RPG::Client::AudienceAssetConfig** StaticGet_Field_1_0()
+	{
+		return (::RPG::Client::AudienceAssetConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FA2E6B51497039C_TypeDefinitionIndex)->GetStaticField(0x6D68);
 	}
 	static ::System::Boolean* StaticGet_Field_1_2()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FA2E6B51497039C_TypeDefinitionIndex)->GetStaticField(0x9640);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_7FA2E6B51497039C_TypeDefinitionIndex)->GetStaticField(0x2250);
 	}
 
 	static ::RPG::Client::AudienceAssetConfig* Method_1_9AE8EFA5D694F802()

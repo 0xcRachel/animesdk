@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 
-#define CLASS_2_43FD6E21AEF38B88_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x8D7A640)
-#define CLASS_2_43FD6E21AEF38B88_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x8D7A5D0)
-#define CLASS_2_43FD6E21AEF38B88__CTOR_OFFSET UNITYSDK_OFFSET(0x8D7A730)
+#define CLASS_2_43FD6E21AEF38B88_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10932F60)
+#define CLASS_2_43FD6E21AEF38B88_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x10932EF0)
+#define CLASS_2_43FD6E21AEF38B88__CTOR_OFFSET UNITYSDK_OFFSET(0x10933050)
 
-inline static constexpr unsigned int Class_2_43FD6E21AEF38B88_TypeDefinitionIndex = 59726;
+inline static constexpr unsigned int Class_2_43FD6E21AEF38B88_TypeDefinitionIndex = 67122;
 
 class Class_2_43FD6E21AEF38B88 : public ::Class_1_89D8044AB73F8F6D
 {
 public:
 	::UnityEngine::Transform* Field_2_3; // 0x18
 	::UnityEngine::UI::Button* Field_2_0; // 0x20
-	::UnityEngine::UI::Button* Field_2_2; // 0x28
-	::UnityEngine::UI::Button* Field_2_1; // 0x30
+	::UnityEngine::UI::Button* Field_2_1; // 0x28
+	::UnityEngine::UI::Button* Field_2_2; // 0x30
 
 	::System::Void _ctor()
 	{

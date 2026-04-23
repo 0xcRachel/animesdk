@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FE0530)
-#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE05F0)
+#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1822FD10)
+#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1822FDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAreaUnifiedConfigRow_TypeDefinitionIndex = 11715;
+	inline static constexpr unsigned int BattleAreaUnifiedConfigRow_TypeDefinitionIndex = 12128;
 
 	class BattleAreaUnifiedConfigRow : public ::System::Object
 	{

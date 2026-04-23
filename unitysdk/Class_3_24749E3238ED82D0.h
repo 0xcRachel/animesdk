@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InsertBattlePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_24749E3238ED82D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8D34360)
-#define CLASS_3_24749E3238ED82D0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D34330)
+#define CLASS_3_24749E3238ED82D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFCA3F50)
+#define CLASS_3_24749E3238ED82D0__CTOR_OFFSET UNITYSDK_OFFSET(0xFCA3F20)
 
-inline static constexpr unsigned int Class_3_24749E3238ED82D0_TypeDefinitionIndex = 46930;
+inline static constexpr unsigned int Class_3_24749E3238ED82D0_TypeDefinitionIndex = 53662;
 
 class Class_3_24749E3238ED82D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InsertBattlePerform*>
 {

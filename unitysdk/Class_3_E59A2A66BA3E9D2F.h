@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHasUnGottenLevelReward; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E59A2A66BA3E9D2F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x8DF1A80)
-#define CLASS_3_E59A2A66BA3E9D2F__CTOR_OFFSET UNITYSDK_OFFSET(0x8DF1A50)
+#define CLASS_3_E59A2A66BA3E9D2F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x103B29E0)
+#define CLASS_3_E59A2A66BA3E9D2F__CTOR_OFFSET UNITYSDK_OFFSET(0x103B29B0)
 
-inline static constexpr unsigned int Class_3_E59A2A66BA3E9D2F_TypeDefinitionIndex = 43700;
+inline static constexpr unsigned int Class_3_E59A2A66BA3E9D2F_TypeDefinitionIndex = 50399;
 
 class Class_3_E59A2A66BA3E9D2F : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHasUnGottenLevelReward*>
 {

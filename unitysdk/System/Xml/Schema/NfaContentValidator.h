@@ -7,19 +7,19 @@ namespace System::Xml::Schema { class BitSet; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x185A2D80)
+#define SYSTEM_XML_SCHEMA_NFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x186ECF40)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2070;
+	inline static constexpr unsigned int NfaContentValidator_TypeDefinitionIndex = 2071;
 
 	class NfaContentValidator : public ::System::Xml::Schema::ContentValidator
 	{
 	public:
 		::System::Xml::Schema::SymbolsDictionary* symbols; // 0x18
-		::System::Xml::Schema::Positions* positions; // 0x20
-		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x28
-		::System::Xml::Schema::BitSet* firstpos; // 0x30
+		::System::Xml::Schema::BitSet* firstpos; // 0x20
+		::System::Xml::Schema::Positions* positions; // 0x28
+		::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos; // 0x30
 		::System::Int32 endMarkerPos; // 0x38
 
 		::System::Void _ctor(::System::Xml::Schema::BitSet* firstpos, ::Il2CppArray<::System::Xml::Schema::BitSet*>* followpos, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, ::System::Int32 endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, ::System::Boolean isOpen, ::System::Boolean isEmptiable)

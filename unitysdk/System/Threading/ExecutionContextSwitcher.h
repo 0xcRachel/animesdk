@@ -6,12 +6,12 @@
 namespace System { class Object; }
 namespace System::Threading { class Thread; }
 
-#define SYSTEM_THREADING_EXECUTIONCONTEXTSWITCHER_UNDONOTHROW_OFFSET UNITYSDK_OFFSET(0x20D5020)
-#define SYSTEM_THREADING_EXECUTIONCONTEXTSWITCHER_UNDO_OFFSET UNITYSDK_OFFSET(0x20D50C0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXTSWITCHER_UNDONOTHROW_OFFSET UNITYSDK_OFFSET(0x22CE0C0)
+#define SYSTEM_THREADING_EXECUTIONCONTEXTSWITCHER_UNDO_OFFSET UNITYSDK_OFFSET(0x22CE160)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ExecutionContextSwitcher_TypeDefinitionIndex = 825;
+	inline static constexpr unsigned int ExecutionContextSwitcher_TypeDefinitionIndex = 827;
 
 	struct alignas(8) ExecutionContextSwitcher
 	{

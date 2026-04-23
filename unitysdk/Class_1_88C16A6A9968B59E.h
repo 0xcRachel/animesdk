@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class AdvEffectConfig; }
 
-#define CLASS_1_88C16A6A9968B59E_METHOD_1_FA4F6DEC8952059A_OFFSET UNITYSDK_OFFSET(0x10C7FEC0)
+#define CLASS_1_88C16A6A9968B59E_METHOD_1_FA4F6DEC8952059A_OFFSET UNITYSDK_OFFSET(0xECDB010)
 
-inline static constexpr unsigned int Class_1_88C16A6A9968B59E_TypeDefinitionIndex = 46178;
+inline static constexpr unsigned int Class_1_88C16A6A9968B59E_TypeDefinitionIndex = 52842;
 
 class Class_1_88C16A6A9968B59E : public ::System::Object
 {

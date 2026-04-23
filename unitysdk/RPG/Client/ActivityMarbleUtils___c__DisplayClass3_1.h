@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityMarble { class MarblePVPManager; }
 
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x8F7D1D0)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_1__OPENMARBLEMATCHPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x8F7F090)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17022750)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__DISPLAYCLASS3_1__OPENMARBLEMATCHPAGE_B__1_OFFSET UNITYSDK_OFFSET(0x17024580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass3_1_TypeDefinitionIndex = 53435;
+	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass3_1_TypeDefinitionIndex = 60579;
 
 	class ActivityMarbleUtils___c__DisplayClass3_1 : public ::System::Object
 	{

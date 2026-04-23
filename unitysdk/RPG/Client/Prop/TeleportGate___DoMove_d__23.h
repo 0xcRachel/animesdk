@@ -8,33 +8,33 @@ namespace RPG::Client { class MonoEffectManager; }
 namespace RPG::Client::Prop { class TeleportGate; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xA1726F0)
-#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA174470)
-#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xA1744D0)
-#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xA174480)
-#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA1726D0)
-#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23__CTOR_OFFSET UNITYSDK_OFFSET(0xA171CB0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xEDDAA10)
+#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xEDDC7A0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xEDDC800)
+#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xEDDC7B0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEDDA9F0)
+#define RPG_CLIENT_PROP_TELEPORTGATE___DOMOVE_D__23__CTOR_OFFSET UNITYSDK_OFFSET(0xEDD9FD0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGate___DoMove_d__23_TypeDefinitionIndex = 64340;
+	inline static constexpr unsigned int TeleportGate___DoMove_d__23_TypeDefinitionIndex = 72387;
 
 	class TeleportGate___DoMove_d__23 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* _proxyObjectTrans_5__8; // 0x10
-		::RPG::Client::Prop::TeleportGate* _targetGate_5__5; // 0x18
-		::RPG::Client::MonoEffectManager* _pMonoEffectManager_5__9; // 0x20
-		::RPG::Client::AdventurePhase* _adventurePhase_5__11; // 0x28
-		::RPG::Client::Prop::TeleportGate* __4__this; // 0x30
-		::System::Object* __2__current; // 0x38
-		::System::Int32 __1__state; // 0x40
-		::UnityEngine::Vector3 _curPosition_5__7; // 0x44
-		::System::Single _curDistance_5__3; // 0x50
+		::System::Object* __2__current; // 0x10
+		::UnityEngine::Transform* _proxyObjectTrans_5__8; // 0x18
+		::RPG::Client::Prop::TeleportGate* _targetGate_5__5; // 0x20
+		::RPG::Client::Prop::TeleportGate* __4__this; // 0x28
+		::RPG::Client::MonoEffectManager* _pMonoEffectManager_5__9; // 0x30
+		::RPG::Client::AdventurePhase* _adventurePhase_5__11; // 0x38
+		::System::Single _totalDistance_5__2; // 0x40
+		::System::Int32 __1__state; // 0x44
+		::UnityEngine::Vector3 _curPosition_5__7; // 0x48
 		::System::Single _t_5__4; // 0x54
-		::UnityEngine::Vector3 _stepTargetPosition_5__6; // 0x58
-		::System::Single _distance_5__10; // 0x64
-		::System::Single _totalDistance_5__2; // 0x68
+		::System::Single _distance_5__10; // 0x58
+		::System::Single _curDistance_5__3; // 0x5C
+		::UnityEngine::Vector3 _stepTargetPosition_5__6; // 0x60
 
 		::System::Void _ctor(::System::Int32 __1__state)
 		{

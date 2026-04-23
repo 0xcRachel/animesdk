@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
 
-#define MONO_SECURITY_CRYPTOGRAPHY_MD4_CREATE_OFFSET UNITYSDK_OFFSET(0x161519C0)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD4__CTOR_OFFSET UNITYSDK_OFFSET(0x161519B0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4_CREATE_OFFSET UNITYSDK_OFFSET(0x1940A9D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD4__CTOR_OFFSET UNITYSDK_OFFSET(0x1940A9C0)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int MD4_TypeDefinitionIndex = 2292;
+	inline static constexpr unsigned int MD4_TypeDefinitionIndex = 2293;
 
 	class MD4 : public ::System::Security::Cryptography::HashAlgorithm
 	{

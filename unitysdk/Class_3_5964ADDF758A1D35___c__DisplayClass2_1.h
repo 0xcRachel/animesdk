@@ -5,10 +5,10 @@
 class Class_3_5964ADDF758A1D35___c__DisplayClass2_0;
 namespace RPG::GameCore { class ChimeraDuelStatusConfig; }
 
-#define CLASS_3_5964ADDF758A1D35___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA1C2810)
-#define CLASS_3_5964ADDF758A1D35___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xA1C28A0)
+#define CLASS_3_5964ADDF758A1D35___C__DISPLAYCLASS2_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCB07B60)
+#define CLASS_3_5964ADDF758A1D35___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xCB07BF0)
 
-inline static constexpr unsigned int Class_3_5964ADDF758A1D35___c__DisplayClass2_1_TypeDefinitionIndex = 63004;
+inline static constexpr unsigned int Class_3_5964ADDF758A1D35___c__DisplayClass2_1_TypeDefinitionIndex = 71044;
 
 class Class_3_5964ADDF758A1D35___c__DisplayClass2_1 : public ::System::Object
 {

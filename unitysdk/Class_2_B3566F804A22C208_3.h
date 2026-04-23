@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GamePlayLockTargetFunc.h"
 
-class Class_0_16E4307DCC419505_295;
+class Class_0_16E4307DCC419505_303;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_B3566F804A22C208_3_LOCK_OFFSET UNITYSDK_OFFSET(0x1096BF50)
-#define CLASS_2_B3566F804A22C208_3_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1096BFA0)
-#define CLASS_2_B3566F804A22C208_3__CTOR_OFFSET UNITYSDK_OFFSET(0x1096BF40)
-#define CLASS_2_B3566F804A22C208_3___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0x1096BFF0)
-#define CLASS_2_B3566F804A22C208_3___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0x1096C060)
+#define CLASS_2_B3566F804A22C208_3_LOCK_OFFSET UNITYSDK_OFFSET(0xEE4EA20)
+#define CLASS_2_B3566F804A22C208_3_UNLOCK_OFFSET UNITYSDK_OFFSET(0xEE4EA70)
+#define CLASS_2_B3566F804A22C208_3__CTOR_OFFSET UNITYSDK_OFFSET(0xEE4EA10)
+#define CLASS_2_B3566F804A22C208_3___IFIXBASEPROXY_LOCK_OFFSET UNITYSDK_OFFSET(0xEE4EAC0)
+#define CLASS_2_B3566F804A22C208_3___IFIXBASEPROXY_UNLOCK_OFFSET UNITYSDK_OFFSET(0xEE4EB30)
 
-inline static constexpr unsigned int Class_2_B3566F804A22C208_3_TypeDefinitionIndex = 61478;
+inline static constexpr unsigned int Class_2_B3566F804A22C208_3_TypeDefinitionIndex = 68985;
 
 class Class_2_B3566F804A22C208_3 : public ::RPG::Client::GamePlayLockTargetFunc
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_3__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + CLASS_2_B3566F804A22C208_3__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Lock(::Il2CppArray<::System::Object*>* a1)

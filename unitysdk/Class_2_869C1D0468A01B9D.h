@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_6D4F0531FDCA6C43.h"
+#include "unitysdk/Class_1_05B2DA0FB841F389.h"
 #include "unitysdk/RPG/GameCore/FiveDimOrthoDirection.h"
 
-#define CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET UNITYSDK_OFFSET(0x16801A90)
-#define CLASS_2_869C1D0468A01B9D__CTOR_OFFSET UNITYSDK_OFFSET(0x16801B40)
-#define CLASS_2_869C1D0468A01B9D___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x16801B50)
+#define CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET UNITYSDK_OFFSET(0x15524880)
+#define CLASS_2_869C1D0468A01B9D__CTOR_OFFSET UNITYSDK_OFFSET(0x15524940)
+#define CLASS_2_869C1D0468A01B9D___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x15524950)
 
-inline static constexpr unsigned int Class_2_869C1D0468A01B9D_TypeDefinitionIndex = 33547;
+inline static constexpr unsigned int Class_2_869C1D0468A01B9D_TypeDefinitionIndex = 39346;
 
-class Class_2_869C1D0468A01B9D : public ::Class_1_6D4F0531FDCA6C43
+class Class_2_869C1D0468A01B9D : public ::Class_1_05B2DA0FB841F389
 {
 public:
-	::System::Boolean Field_2_1; // 0xF0
-	::RPG::GameCore::FiveDimOrthoDirection Field_2_0; // 0xF4
+	::RPG::GameCore::FiveDimOrthoDirection Field_2_0; // 0x100
+	::System::Boolean Field_2_1; // 0x104
 
 	::System::Void _ctor()
 	{

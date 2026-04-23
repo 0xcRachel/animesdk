@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournExpRewardDataItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNEXPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA39B850)
-#define RPG_CLIENT_ROGUETOURNEXPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA39B880)
-#define RPG_CLIENT_ROGUETOURNEXPDATA___C___TRYINITREWARDROWS_B__12_0_OFFSET UNITYSDK_OFFSET(0xA39B890)
+#define RPG_CLIENT_ROGUETOURNEXPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16F1C630)
+#define RPG_CLIENT_ROGUETOURNEXPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16F1C660)
+#define RPG_CLIENT_ROGUETOURNEXPDATA___C___TRYINITREWARDROWS_B__12_0_OFFSET UNITYSDK_OFFSET(0x16F1C670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournExpData___c_TypeDefinitionIndex = 55366;
+	inline static constexpr unsigned int RogueTournExpData___c_TypeDefinitionIndex = 62557;
 
 	class RogueTournExpData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournExpData___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournExpData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExpData___c_TypeDefinitionIndex)->GetStaticField(0x18A70);
-		}
 		static ::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>** StaticGet___9__12_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExpData___c_TypeDefinitionIndex)->GetStaticField(0x18A78);
+			return (::System::Comparison_1<::RPG::Client::RogueTournExpRewardDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExpData___c_TypeDefinitionIndex)->GetStaticField(0x2B3E0);
+		}
+		static ::RPG::Client::RogueTournExpData___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournExpData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournExpData___c_TypeDefinitionIndex)->GetStaticField(0x2B3E8);
 		}
 
 		static ::System::Void _cctor()

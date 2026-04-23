@@ -8,19 +8,19 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x164841D0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_1__SETEXTENSIONDATADELEGATES_B__0_OFFSET UNITYSDK_OFFSET(0x1648B8A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_1__CTOR_OFFSET UNITYSDK_OFFSET(0x173B8860)
+#define NEWTONSOFT_JSON_SERIALIZATION_DEFAULTCONTRACTRESOLVER___C__DISPLAYCLASS34_1__SETEXTENSIONDATADELEGATES_B__0_OFFSET UNITYSDK_OFFSET(0x173BFF70)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_1_TypeDefinitionIndex = 8312;
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_1_TypeDefinitionIndex = 8458;
 
 	class DefaultContractResolver___c__DisplayClass34_1 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::Object*>* createExtensionDataDictionary; // 0x10
-		::System::Action_2<::System::Object*, ::System::Object*>* setExtensionDataDictionary; // 0x18
-		::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass34_0* CS___8__locals1; // 0x20
+		::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass34_0* CS___8__locals1; // 0x10
+		::System::Func_1<::System::Object*>* createExtensionDataDictionary; // 0x18
+		::System::Action_2<::System::Object*, ::System::Object*>* setExtensionDataDictionary; // 0x20
 		::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* setExtensionDataDictionaryValue; // 0x28
 
 		::System::Void _ctor()

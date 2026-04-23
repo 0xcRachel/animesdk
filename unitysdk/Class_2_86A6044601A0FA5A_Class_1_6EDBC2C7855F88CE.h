@@ -8,21 +8,21 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE_METHOD_1_4867D67F27947ACE_OFFSET UNITYSDK_OFFSET(0x8AE7E10)
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x8AE8D70)
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE_METHOD_1_EADDF1782C977BCA_OFFSET UNITYSDK_OFFSET(0x8AE82F0)
-#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE__CTOR_OFFSET UNITYSDK_OFFSET(0x8AE8980)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE_METHOD_1_4867D67F27947ACE_OFFSET UNITYSDK_OFFSET(0xFF91430)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xFF92390)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE_METHOD_1_EADDF1782C977BCA_OFFSET UNITYSDK_OFFSET(0xFF91910)
+#define CLASS_2_86A6044601A0FA5A_CLASS_1_6EDBC2C7855F88CE__CTOR_OFFSET UNITYSDK_OFFSET(0xFF91FA0)
 
-inline static constexpr unsigned int Class_2_86A6044601A0FA5A_Class_1_6EDBC2C7855F88CE_TypeDefinitionIndex = 57149;
+inline static constexpr unsigned int Class_2_86A6044601A0FA5A_Class_1_6EDBC2C7855F88CE_TypeDefinitionIndex = 64400;
 
 class Class_2_86A6044601A0FA5A_Class_1_6EDBC2C7855F88CE : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* Field_1_2; // 0x10
+	::UnityEngine::Material* Field_1_3; // 0x10
 	::RPG::Client::CharacterEffect* Field_1_5; // 0x18
-	::UnityEngine::Transform* Field_1_1; // 0x20
+	::UnityEngine::GameObject* Field_1_2; // 0x20
 	::UnityEngine::Material* Field_1_4; // 0x28
-	::UnityEngine::Material* Field_1_3; // 0x30
+	::UnityEngine::Transform* Field_1_1; // 0x30
 	::UnityEngine::Vector3 Field_1_0; // 0x38
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Transform* a3, ::System::Single a4, ::RPG::Client::CharacterEffect* a5)

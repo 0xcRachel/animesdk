@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPACEZOOHANDBOOKTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17767DB0)
-#define RPG_GAMECORE_SPACEZOOHANDBOOKTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17768420)
+#define RPG_GAMECORE_SPACEZOOHANDBOOKTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x185F4750)
+#define RPG_GAMECORE_SPACEZOOHANDBOOKTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x185F4DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooHandbookTextRow_TypeDefinitionIndex = 11310;
+	inline static constexpr unsigned int SpaceZooHandbookTextRow_TypeDefinitionIndex = 11712;
 
 	class SpaceZooHandbookTextRow : public ::System::Object
 	{

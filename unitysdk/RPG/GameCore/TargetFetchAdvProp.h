@@ -6,20 +6,20 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FetchAdvPropData; }
 
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_0C04EB184C503A58_OFFSET UNITYSDK_OFFSET(0x177D0030)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_CFC9D2CD3625BB3E_OFFSET UNITYSDK_OFFSET(0x177D00F0)
-#define RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x177D00A0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_0C04EB184C503A58_OFFSET UNITYSDK_OFFSET(0x199DF3F0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_CFC9D2CD3625BB3E_OFFSET UNITYSDK_OFFSET(0x199D6930)
+#define RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x199D68E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvProp_TypeDefinitionIndex = 22137;
+	inline static constexpr unsigned int TargetFetchAdvProp_TypeDefinitionIndex = 22855;
 
 	class TargetFetchAdvProp : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		static ::System::Boolean* StaticGet_AllowReturnNull()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TargetFetchAdvProp_TypeDefinitionIndex)->GetStaticField(0x8C70);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TargetFetchAdvProp_TypeDefinitionIndex)->GetStaticField(0x9E50);
 		}
 		::System::Boolean TargetIsOwner; // 0x10
 		::Il2CppArray<::RPG::GameCore::FetchAdvPropData*>* MultiGroupFetch; // 0x18

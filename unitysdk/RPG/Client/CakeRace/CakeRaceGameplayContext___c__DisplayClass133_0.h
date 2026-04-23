@@ -5,12 +5,12 @@
 namespace RPG::Client { class CakeRaceGameFightResultParticipantData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS133_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9236850)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS133_0___GETCAKERACEGAMEFIGHTRESULTSELFVOTECATDATA_B__0_OFFSET UNITYSDK_OFFSET(0x92373A0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS133_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FEB470)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEPLAYCONTEXT___C__DISPLAYCLASS133_0___GETCAKERACEGAMEFIGHTRESULTSELFVOTECATDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15FEC010)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameplayContext___c__DisplayClass133_0_TypeDefinitionIndex = 62199;
+	inline static constexpr unsigned int CakeRaceGameplayContext___c__DisplayClass133_0_TypeDefinitionIndex = 70198;
 
 	class CakeRaceGameplayContext___c__DisplayClass133_0 : public ::System::Object
 	{

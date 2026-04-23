@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/FloatParameter.h"
 
-#define UNITYENGINE_RENDERING_MINFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x188F97A0)
-#define UNITYENGINE_RENDERING_MINFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x188F97B0)
-#define UNITYENGINE_RENDERING_MINFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x188F97C0)
+#define UNITYENGINE_RENDERING_MINFLOATPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18B14010)
+#define UNITYENGINE_RENDERING_MINFLOATPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18B14020)
+#define UNITYENGINE_RENDERING_MINFLOATPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B14030)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MinFloatParameter_TypeDefinitionIndex = 27922;
+	inline static constexpr unsigned int MinFloatParameter_TypeDefinitionIndex = 33546;
 
 	class MinFloatParameter : public ::UnityEngine::Rendering::FloatParameter
 	{

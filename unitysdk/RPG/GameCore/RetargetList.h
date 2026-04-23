@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RETARGETLIST_METHOD_3_44FAAC5F7AE030B7_OFFSET UNITYSDK_OFFSET(0x175C1380)
-#define RPG_GAMECORE_RETARGETLIST_METHOD_3_9E9DFD84A1697679_OFFSET UNITYSDK_OFFSET(0x175C1260)
-#define RPG_GAMECORE_RETARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x175C1300)
+#define RPG_GAMECORE_RETARGETLIST_METHOD_3_44FAAC5F7AE030B7_OFFSET UNITYSDK_OFFSET(0x1A01EF10)
+#define RPG_GAMECORE_RETARGETLIST_METHOD_3_9E9DFD84A1697679_OFFSET UNITYSDK_OFFSET(0x1A01EDF0)
+#define RPG_GAMECORE_RETARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A01EE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RetargetList_TypeDefinitionIndex = 21105;
+	inline static constexpr unsigned int RetargetList_TypeDefinitionIndex = 21822;
 
 	class RetargetList : public ::RPG::GameCore::TaskConfig
 	{

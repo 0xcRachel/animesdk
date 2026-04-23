@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGWAVEEXPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1709E320)
-#define RPG_GAMECORE_CHENLINGWAVEEXPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1709E440)
+#define RPG_GAMECORE_CHENLINGWAVEEXPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196ABBC0)
+#define RPG_GAMECORE_CHENLINGWAVEEXPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196ABCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingWaveExpRow_TypeDefinitionIndex = 10382;
+	inline static constexpr unsigned int ChenLingWaveExpRow_TypeDefinitionIndex = 10607;
 
 	class ChenLingWaveExpRow : public ::System::Object
 	{

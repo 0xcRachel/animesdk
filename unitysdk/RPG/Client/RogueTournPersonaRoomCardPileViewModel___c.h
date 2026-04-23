@@ -5,29 +5,29 @@
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA3D0EE0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA3D0F20)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C___SETUPPILECARDS_B__10_0_OFFSET UNITYSDK_OFFSET(0xA3D0F30)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C___SETUPPILECARDS_B__10_1_OFFSET UNITYSDK_OFFSET(0xA3D0F40)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172DB0D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172DB110)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C___SETUPPILECARDS_B__10_0_OFFSET UNITYSDK_OFFSET(0x172DB120)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDPILEVIEWMODEL___C___SETUPPILECARDS_B__10_1_OFFSET UNITYSDK_OFFSET(0x172DB130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex = 59742;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex = 67138;
 
 	class RogueTournPersonaRoomCardPileViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournPersonaRoomCardPileViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournPersonaRoomCardPileViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex)->GetStaticField(0x261A0);
-		}
 		static ::System::Func_2<::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex)->GetStaticField(0x261A8);
+			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex)->GetStaticField(0x338C0);
 		}
 		static ::System::Func_2<::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__10_1()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex)->GetStaticField(0x261B0);
+			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex)->GetStaticField(0x338C8);
+		}
+		static ::RPG::Client::RogueTournPersonaRoomCardPileViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournPersonaRoomCardPileViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaRoomCardPileViewModel___c_TypeDefinitionIndex)->GetStaticField(0x338D0);
 		}
 
 		static ::System::Void _cctor()

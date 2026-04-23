@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_INCLUDEINSCHEMA_OFFSET UNITYSDK_OFFSET(0x18604FA0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x18604FB0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x185E2DF0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_INCLUDEINSCHEMA_OFFSET UNITYSDK_OFFSET(0x17AA6490)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x17AA64A0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEATTRIBUTE_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x17A84180)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeAttribute_TypeDefinitionIndex = 2032;
+	inline static constexpr unsigned int XmlTypeAttribute_TypeDefinitionIndex = 2033;
 
 	class XmlTypeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* ns; // 0x10
-		::System::String* typeName; // 0x18
+		::System::String* typeName; // 0x10
+		::System::String* ns; // 0x18
 		::System::Boolean includeInSchema; // 0x20
 
 		::System::Boolean get_IncludeInSchema()

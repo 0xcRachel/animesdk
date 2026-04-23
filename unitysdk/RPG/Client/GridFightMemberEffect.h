@@ -2,24 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
+namespace RPG::Client { class GridFightEffectController; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x9862DE0)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_GET_FOLLOWPATH_OFFSET UNITYSDK_OFFSET(0x98628F0)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_METHOD_5_CC5EA97ABCF69FED_OFFSET UNITYSDK_OFFSET(0x9862EC0)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x985B7F0)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x9862E30)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_SETUID_OFFSET UNITYSDK_OFFSET(0x9862900)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x9862C80)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x9862CC0)
-#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x985BA30)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x177BF790)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_GET_FOLLOWPATH_OFFSET UNITYSDK_OFFSET(0x177BF000)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_INIT_OFFSET UNITYSDK_OFFSET(0x177BF010)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_METHOD_5_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x177BF3A0)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_METHOD_5_CA8EA8D597323364_OFFSET UNITYSDK_OFFSET(0x177BF970)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x177BF7E0)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x177BF8E0)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_SETUID_OFFSET UNITYSDK_OFFSET(0x177BF060)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x177BF620)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_UPDATE_OFFSET UNITYSDK_OFFSET(0x177BF660)
+#define RPG_CLIENT_GRIDFIGHTMEMBEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x177BFBA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMemberEffect_TypeDefinitionIndex = 52395;
+	inline static constexpr unsigned int GridFightMemberEffect_TypeDefinitionIndex = 59351;
 
 	class GridFightMemberEffect : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,6 +30,7 @@ namespace RPG::Client
 		::UnityEngine::Transform* Field_5_0; // 0x18
 		::System::UInt32 Field_5_1; // 0x20
 		::Il2CppArray<::UnityEngine::ParticleSystemRenderer*>* Field_5_2; // 0x28
+		::RPG::Client::GridFightEffectController* _EffectController; // 0x30
 
 		::System::Void _ctor()
 		{
@@ -36,6 +40,11 @@ namespace RPG::Client
 		::System::String* get_FollowPath()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_GET_FOLLOWPATH_OFFSET))(this);
+		}
+
+		::System::Void Init(::RPG::Client::GridFightEffectController* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightEffectController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void SetUID(::System::UInt32 a1)
@@ -53,6 +62,11 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_UPDATE_OFFSET))(this);
 		}
 
+		::System::Void Method_5_06330CD58CB602B6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_METHOD_5_06330CD58CB602B6_OFFSET))(this);
+		}
+
 		::System::Void Despawned()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_DESPAWNED_OFFSET))(this);
@@ -68,9 +82,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CC5EA97ABCF69FED(::System::Object* a1)
+		::System::Void Method_5_CA8EA8D597323364(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_METHOD_5_CC5EA97ABCF69FED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMEMBEREFFECT_METHOD_5_CA8EA8D597323364_OFFSET))(this, a1);
 		}
 	};
 }

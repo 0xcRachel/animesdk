@@ -5,29 +5,29 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITPROMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F7C4C0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITPROMOTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F7CF10)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITPROMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18ABCA60)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITPROMOTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABD4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritPromotionRow_TypeDefinitionIndex = 10236;
+	inline static constexpr unsigned int AetherDivideSpiritPromotionRow_TypeDefinitionIndex = 10461;
 
 	class AetherDivideSpiritPromotionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SpecialSkillList; // 0x10
-		::RPG::GameCore::FixPoint CriticalChance; // 0x18
-		::System::UInt32 Slot; // 0x20
-		::System::UInt32 RewardID; // 0x24
-		::System::UInt32 Promotion; // 0x28
-		::RPG::GameCore::FixPoint SpeedBase; // 0x30
-		::RPG::GameCore::FixPoint BaseAggro; // 0x38
-		::RPG::GameCore::FixPoint HPBase; // 0x40
-		::System::UInt32 Exp; // 0x48
-		::System::UInt32 AvatarID; // 0x4C
-		::RPG::GameCore::FixPoint DefenceBase; // 0x50
-		::RPG::GameCore::FixPoint AttackBase; // 0x58
-		::RPG::GameCore::FixPoint CriticalDamage; // 0x60
+		::RPG::GameCore::FixPoint HPBase; // 0x18
+		::RPG::GameCore::FixPoint CriticalChance; // 0x20
+		::RPG::GameCore::FixPoint BaseAggro; // 0x28
+		::RPG::GameCore::FixPoint CriticalDamage; // 0x30
+		::System::UInt32 Exp; // 0x38
+		::System::UInt32 Promotion; // 0x3C
+		::RPG::GameCore::FixPoint AttackBase; // 0x40
+		::System::UInt32 Slot; // 0x48
+		::System::UInt32 RewardID; // 0x4C
+		::System::UInt32 AvatarID; // 0x50
+		::RPG::GameCore::FixPoint SpeedBase; // 0x58
+		::RPG::GameCore::FixPoint DefenceBase; // 0x60
 
 		::System::Void _ctor()
 		{

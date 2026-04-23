@@ -7,19 +7,19 @@
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
-#define CLASS_1_B9DA9FA7666C65CE__CTOR_OFFSET UNITYSDK_OFFSET(0x8CE55C0)
+#define CLASS_1_B9DA9FA7666C65CE__CTOR_OFFSET UNITYSDK_OFFSET(0xC29BA60)
 
-inline static constexpr unsigned int Class_1_B9DA9FA7666C65CE_TypeDefinitionIndex = 46336;
+inline static constexpr unsigned int Class_1_B9DA9FA7666C65CE_TypeDefinitionIndex = 53011;
 
 class Class_1_B9DA9FA7666C65CE : public ::System::Object
 {
 public:
 	::RPG::GameCore::LevelTriggerInfo* Field_1_0; // 0x10
 	::RPG::GameCore::TriggerValidGuestConfig* Field_1_6; // 0x18
-	::System::Boolean Field_1_1; // 0x20
-	::UnityEngine::Quaternion Field_1_3; // 0x24
-	::UnityEngine::Vector3 Field_1_2; // 0x34
-	::System::Single Field_1_5; // 0x40
+	::System::Single Field_1_5; // 0x20
+	::UnityEngine::Vector3 Field_1_2; // 0x24
+	::UnityEngine::Quaternion Field_1_3; // 0x30
+	::System::Boolean Field_1_1; // 0x40
 	::UnityEngine::Vector3 Field_1_4; // 0x44
 
 	::System::Void _ctor()

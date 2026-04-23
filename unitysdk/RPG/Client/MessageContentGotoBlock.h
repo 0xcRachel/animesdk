@@ -4,26 +4,31 @@
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 
 namespace RPG::Client { class MessageContentGotoBlock_IGotoCommand; }
+namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x9B9D1E0)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x9B9D280)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9B9D070)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENGAMETOOL_OFFSET UNITYSDK_OFFSET(0x9B9D080)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENHANDBOOK_OFFSET UNITYSDK_OFFSET(0x9B9D130)
-#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x9B9D120)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0x175B0A10)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x175B0AE0)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GET_COMMANDNAME_OFFSET UNITYSDK_OFFSET(0x175B0BE0)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175B0790)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENAVATARGUIDE_OFFSET UNITYSDK_OFFSET(0x175B0950)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENGAMETOOL_OFFSET UNITYSDK_OFFSET(0x175B07A0)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENHANDBOOK_OFFSET UNITYSDK_OFFSET(0x175B0870)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_SET_COMMANDNAME_OFFSET UNITYSDK_OFFSET(0x175B0BF0)
+#define RPG_CLIENT_MESSAGECONTENTGOTOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x175B0860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentGotoBlock_TypeDefinitionIndex = 51325;
+	inline static constexpr unsigned int MessageContentGotoBlock_TypeDefinitionIndex = 58252;
 
 	class MessageContentGotoBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::RPG::Client::MessageContentGotoBlock_IGotoCommand* _Command; // 0x18
+		::System::String* _CommandName_k__BackingField; // 0x20
 
-		::System::Void _ctor(::RPG::Client::MessageContentGotoBlock_IGotoCommand* command)
+		::System::Void _ctor(::RPG::Client::MessageContentGotoBlock_IGotoCommand* command, ::System::String* commandName)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContentGotoBlock_IGotoCommand*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK__CTOR_OFFSET))(this, command);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MessageContentGotoBlock_IGotoCommand*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK__CTOR_OFFSET))(this, command, commandName);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -41,6 +46,11 @@ namespace RPG::Client
 			return ((::RPG::Client::MessageContentGotoBlock*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENHANDBOOK_OFFSET))(farmType);
 		}
 
+		static ::RPG::Client::MessageContentGotoBlock* OpenAvatarGuide(::System::UInt32 avatarID)
+		{
+			return ((::RPG::Client::MessageContentGotoBlock*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_OPENAVATARGUIDE_OFFSET))(avatarID);
+		}
+
 		::System::Boolean Equals(::RPG::Client::MessageContentBlock* other)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_EQUALS_OFFSET))(this, other);
@@ -49,6 +59,16 @@ namespace RPG::Client
 		::System::Void Execute()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_EXECUTE_OFFSET))(this);
+		}
+
+		::System::String* get_CommandName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_GET_COMMANDNAME_OFFSET))(this);
+		}
+
+		::System::Void set_CommandName(::System::String* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTGOTOBLOCK_SET_COMMANDNAME_OFFSET))(this, value);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIPAGEBGMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x178F5D10)
-#define RPG_GAMECORE_UIPAGEBGMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x178F62E0)
+#define RPG_GAMECORE_UIPAGEBGMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19131F70)
+#define RPG_GAMECORE_UIPAGEBGMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19132540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIPageBGMRow_TypeDefinitionIndex = 14141;
+	inline static constexpr unsigned int UIPageBGMRow_TypeDefinitionIndex = 14610;
 
 	class UIPageBGMRow : public ::System::Object
 	{

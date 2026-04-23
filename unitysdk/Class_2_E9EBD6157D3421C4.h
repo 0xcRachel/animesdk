@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_1_69FF5DE516C87A66;
+class Class_1_F3391C70DC37088D;
 namespace RPG::GameCore { class DialogueEventSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_E9EBD6157D3421C4_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8C9F040)
-#define CLASS_2_E9EBD6157D3421C4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8C9F130)
-#define CLASS_2_E9EBD6157D3421C4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8C9F1B0)
-#define CLASS_2_E9EBD6157D3421C4_TICK_OFFSET UNITYSDK_OFFSET(0x8C9F200)
-#define CLASS_2_E9EBD6157D3421C4__CTOR_OFFSET UNITYSDK_OFFSET(0x8C9F030)
+#define CLASS_2_E9EBD6157D3421C4_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA613CA0)
+#define CLASS_2_E9EBD6157D3421C4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA613D90)
+#define CLASS_2_E9EBD6157D3421C4_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA613E10)
+#define CLASS_2_E9EBD6157D3421C4_TICK_OFFSET UNITYSDK_OFFSET(0xA613E60)
+#define CLASS_2_E9EBD6157D3421C4__CTOR_OFFSET UNITYSDK_OFFSET(0xA613C90)
 
-inline static constexpr unsigned int Class_2_E9EBD6157D3421C4_TypeDefinitionIndex = 46853;
+inline static constexpr unsigned int Class_2_E9EBD6157D3421C4_TypeDefinitionIndex = 53565;
 
 class Class_2_E9EBD6157D3421C4 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_69FF5DE516C87A66* Field_2_3; // 0x18
-	::RPG::GameCore::DialogueEventSwitch* Field_2_0; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x28
-	::Class_1_69FF5DE516C87A66* Field_2_2; // 0x30
-	::Class_1_69FF5DE516C87A66* Field_2_4; // 0x38
+	::Class_1_F3391C70DC37088D* Field_2_3; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::DialogueEventSwitch* Field_2_0; // 0x28
+	::Class_1_F3391C70DC37088D* Field_2_4; // 0x30
+	::Class_1_F3391C70DC37088D* Field_2_2; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DialogueEventSwitch* a2)
 	{

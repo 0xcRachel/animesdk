@@ -9,21 +9,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4C350)
-#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x15D4C340)
-#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D4C370)
-#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15D4C330)
+#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x164A3FD0)
+#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x164A3FC0)
+#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x164A3FF0)
+#define MESSAGEPACK_FORMATTERS_NULLABLENILFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x164A3FB0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableNilFormatter_TypeDefinitionIndex = 9295;
+	inline static constexpr unsigned int NullableNilFormatter_TypeDefinitionIndex = 9492;
 
 	class NullableNilFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Nullable_1<::MessagePack::Nil>>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Nullable_1<::MessagePack::Nil>>**)Il2CppClass::FromTypeDefinitionIndex(NullableNilFormatter_TypeDefinitionIndex)->GetStaticField(0x196F0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Nullable_1<::MessagePack::Nil>>**)Il2CppClass::FromTypeDefinitionIndex(NullableNilFormatter_TypeDefinitionIndex)->GetStaticField(0x1DA60);
 		}
 
 		::System::Void _ctor()

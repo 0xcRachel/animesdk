@@ -5,10 +5,10 @@
 class Class_1_148FC490588BDD52___c__DisplayClass9_0;
 namespace RPG::Client { class UIController; }
 
-#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB8D9330)
-#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1___SHOWLAST_B__2_OFFSET UNITYSDK_OFFSET(0xB8D9A60)
+#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x11A52F30)
+#define CLASS_1_148FC490588BDD52___C__DISPLAYCLASS9_1___SHOWLAST_B__2_OFFSET UNITYSDK_OFFSET(0x11A53660)
 
-inline static constexpr unsigned int Class_1_148FC490588BDD52___c__DisplayClass9_1_TypeDefinitionIndex = 59869;
+inline static constexpr unsigned int Class_1_148FC490588BDD52___c__DisplayClass9_1_TypeDefinitionIndex = 67266;
 
 class Class_1_148FC490588BDD52___c__DisplayClass9_1 : public ::System::Object
 {

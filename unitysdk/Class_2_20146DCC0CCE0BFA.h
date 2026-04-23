@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class AlleyTransportFocusCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_20146DCC0CCE0BFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8AD2F60)
-#define CLASS_2_20146DCC0CCE0BFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8AD2FA0)
-#define CLASS_2_20146DCC0CCE0BFA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8AD3020)
-#define CLASS_2_20146DCC0CCE0BFA_TICK_OFFSET UNITYSDK_OFFSET(0x8AD3070)
-#define CLASS_2_20146DCC0CCE0BFA__CTOR_OFFSET UNITYSDK_OFFSET(0x8AD2F50)
+#define CLASS_2_20146DCC0CCE0BFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5C7C10)
+#define CLASS_2_20146DCC0CCE0BFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5C7C50)
+#define CLASS_2_20146DCC0CCE0BFA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE5C7CD0)
+#define CLASS_2_20146DCC0CCE0BFA_TICK_OFFSET UNITYSDK_OFFSET(0xE5C7D20)
+#define CLASS_2_20146DCC0CCE0BFA__CTOR_OFFSET UNITYSDK_OFFSET(0xE5C7C00)
 
-inline static constexpr unsigned int Class_2_20146DCC0CCE0BFA_TypeDefinitionIndex = 46717;
+inline static constexpr unsigned int Class_2_20146DCC0CCE0BFA_TypeDefinitionIndex = 53426;
 
 class Class_2_20146DCC0CCE0BFA : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::AlleyTransportFocusCamera* Field_2_0; // 0x20
+	::RPG::GameCore::AlleyTransportFocusCamera* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 	::System::Single Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AlleyTransportFocusCamera* a2)

@@ -8,22 +8,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTBACKENDROLEEQUIPMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17267A50)
-#define RPG_GAMECORE_GRIDFIGHTBACKENDROLEEQUIPMENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17267DB0)
+#define RPG_GAMECORE_GRIDFIGHTBACKENDROLEEQUIPMENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19567540)
+#define RPG_GAMECORE_GRIDFIGHTBACKENDROLEEQUIPMENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195678A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBackendRoleEquipmentConfigRow_TypeDefinitionIndex = 12361;
+	inline static constexpr unsigned int GridFightBackendRoleEquipmentConfigRow_TypeDefinitionIndex = 12794;
 
 	class GridFightBackendRoleEquipmentConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OwnerGeneralPropertyList; // 0x10
-		::System::String* ParamFormat; // 0x18
+		::System::String* ParamFormat; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OwnerGeneralPropertyList; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x28
-		::System::UInt32 RoleID; // 0x30
-		::System::UInt32 Level; // 0x34
+		::System::UInt32 Level; // 0x30
+		::System::UInt32 RoleID; // 0x34
 		::RPG::Client::TextID BackEquipmentDesc; // 0x38
 		::System::UInt32 EquipmentID; // 0x48
 

@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define CLASS_2_A26EE818BFB0B010__CTOR_OFFSET UNITYSDK_OFFSET(0x11675090)
+#define CLASS_2_A26EE818BFB0B010__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7594E0)
 
-inline static constexpr unsigned int Class_2_A26EE818BFB0B010_TypeDefinitionIndex = 41930;
+inline static constexpr unsigned int Class_2_A26EE818BFB0B010_TypeDefinitionIndex = 40728;
 
 class Class_2_A26EE818BFB0B010 : public ::Sofa::Core::ObservableObject
 {

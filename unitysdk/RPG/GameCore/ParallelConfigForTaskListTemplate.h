@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_METHOD_2_1DE9AE923D7B4BEA_OFFSET UNITYSDK_OFFSET(0x1749C5B0)
-#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1749C8D0)
+#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE_METHOD_2_1DE9AE923D7B4BEA_OFFSET UNITYSDK_OFFSET(0x18EFC6D0)
+#define RPG_GAMECORE_PARALLELCONFIGFORTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EFC9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 21542;
+	inline static constexpr unsigned int ParallelConfigForTaskListTemplate_TypeDefinitionIndex = 22280;
 
 	class ParallelConfigForTaskListTemplate : public ::RPG::GameCore::JsonConfig
 	{

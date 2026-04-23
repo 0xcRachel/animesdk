@@ -10,27 +10,27 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_3DB8C1534EF0424D_METHOD_2_60F407FD7312FE13_OFFSET UNITYSDK_OFFSET(0x8A7E610)
-#define CLASS_2_3DB8C1534EF0424D_METHOD_2_8285091081E03590_OFFSET UNITYSDK_OFFSET(0x8A7EAB0)
-#define CLASS_2_3DB8C1534EF0424D_METHOD_2_8E66B82298267DC3_OFFSET UNITYSDK_OFFSET(0x8A7EB50)
-#define CLASS_2_3DB8C1534EF0424D_METHOD_2_B3395AFA7A642A0F_OFFSET UNITYSDK_OFFSET(0x8A7E7F0)
-#define CLASS_2_3DB8C1534EF0424D__CTOR_OFFSET UNITYSDK_OFFSET(0x8A7EC20)
-#define CLASS_2_3DB8C1534EF0424D__ONBIND_OFFSET UNITYSDK_OFFSET(0x8A7E280)
-#define CLASS_2_3DB8C1534EF0424D___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x8A7EC50)
+#define CLASS_2_3DB8C1534EF0424D_METHOD_2_60F407FD7312FE13_OFFSET UNITYSDK_OFFSET(0xEEEB680)
+#define CLASS_2_3DB8C1534EF0424D_METHOD_2_8285091081E03590_OFFSET UNITYSDK_OFFSET(0xEEEBB20)
+#define CLASS_2_3DB8C1534EF0424D_METHOD_2_8E66B82298267DC3_OFFSET UNITYSDK_OFFSET(0xEEEBBC0)
+#define CLASS_2_3DB8C1534EF0424D_METHOD_2_B3395AFA7A642A0F_OFFSET UNITYSDK_OFFSET(0xEEEB850)
+#define CLASS_2_3DB8C1534EF0424D__CTOR_OFFSET UNITYSDK_OFFSET(0xEEEBC90)
+#define CLASS_2_3DB8C1534EF0424D__ONBIND_OFFSET UNITYSDK_OFFSET(0xEEEB460)
+#define CLASS_2_3DB8C1534EF0424D___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xEEEBCC0)
 
-inline static constexpr unsigned int Class_2_3DB8C1534EF0424D_TypeDefinitionIndex = 59254;
+inline static constexpr unsigned int Class_2_3DB8C1534EF0424D_TypeDefinitionIndex = 66647;
 
 class Class_2_3DB8C1534EF0424D : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::UI::Text* Field_2_6; // 0x60
-	::UnityEngine::UI::Text* Field_2_1; // 0x68
-	::UnityEngine::UI::Text* Field_2_0; // 0x70
-	::UnityEngine::Transform* Field_2_3; // 0x78
-	::System::String* Field_2_8; // 0x80
-	::UnityEngine::Transform* Field_2_5; // 0x88
-	::UnityEngine::Transform* Field_2_4; // 0x90
-	::UnityEngine::UI::Image* Field_2_2; // 0x98
+	::UnityEngine::UI::Text* Field_2_0; // 0x60
+	::System::String* Field_2_8; // 0x68
+	::UnityEngine::Transform* Field_2_4; // 0x70
+	::UnityEngine::Transform* Field_2_5; // 0x78
+	::UnityEngine::UI::Text* Field_2_1; // 0x80
+	::UnityEngine::UI::Image* Field_2_2; // 0x88
+	::UnityEngine::Transform* Field_2_3; // 0x90
+	::UnityEngine::UI::Text* Field_2_6; // 0x98
 	::RPG::GameCore::NumBarSubType Field_2_7; // 0xA0
 
 	::System::Void _ctor()

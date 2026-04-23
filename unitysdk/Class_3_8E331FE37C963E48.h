@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMapRotationVolumeInteractEnabled; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8E331FE37C963E48_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10AC5440)
-#define CLASS_3_8E331FE37C963E48__CTOR_OFFSET UNITYSDK_OFFSET(0x10AC5410)
+#define CLASS_3_8E331FE37C963E48_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCD22EF0)
+#define CLASS_3_8E331FE37C963E48__CTOR_OFFSET UNITYSDK_OFFSET(0xCD22EC0)
 
-inline static constexpr unsigned int Class_3_8E331FE37C963E48_TypeDefinitionIndex = 42891;
+inline static constexpr unsigned int Class_3_8E331FE37C963E48_TypeDefinitionIndex = 48875;
 
 class Class_3_8E331FE37C963E48 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMapRotationVolumeInteractEnabled*>
 {

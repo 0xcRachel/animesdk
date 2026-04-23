@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SUBNAVMAPNAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177A06F0)
-#define RPG_GAMECORE_SUBNAVMAPNAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177A0890)
+#define RPG_GAMECORE_SUBNAVMAPNAMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D80FF0)
+#define RPG_GAMECORE_SUBNAVMAPNAMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D81190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubNavMapNameRow_TypeDefinitionIndex = 12809;
+	inline static constexpr unsigned int SubNavMapNameRow_TypeDefinitionIndex = 13275;
 
 	class SubNavMapNameRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SubMapID; // 0x10
-		::System::UInt32 FloorID; // 0x14
-		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Name; // 0x10
+		::System::UInt32 SubMapID; // 0x20
+		::System::UInt32 FloorID; // 0x24
 
 		::System::Void _ctor()
 		{

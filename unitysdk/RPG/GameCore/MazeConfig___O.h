@@ -9,22 +9,22 @@ template <typename T> class Class_1_F5630E87DACEF386_DelegateParseBinary_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeConfig___O_TypeDefinitionIndex = 16215;
+	inline static constexpr unsigned int MazeConfig___O_TypeDefinitionIndex = 16728;
 
 	class MazeConfig___O : public ::System::Object
 	{
 	public:
+		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureModifierBehaviorFlag>** StaticGet__2___FromBinary()
+		{
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(MazeConfig___O_TypeDefinitionIndex)->GetStaticField(0x382A0);
+		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropType>** StaticGet__0___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropType>**)Il2CppClass::FromTypeDefinitionIndex(MazeConfig___O_TypeDefinitionIndex)->GetStaticField(0x456B0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::PropType>**)Il2CppClass::FromTypeDefinitionIndex(MazeConfig___O_TypeDefinitionIndex)->GetStaticField(0x382A8);
 		}
 		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>** StaticGet__1___FromBinary()
 		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>**)Il2CppClass::FromTypeDefinitionIndex(MazeConfig___O_TypeDefinitionIndex)->GetStaticField(0x456B8);
-		}
-		static ::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureModifierBehaviorFlag>** StaticGet__2___FromBinary()
-		{
-			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::AdventureModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(MazeConfig___O_TypeDefinitionIndex)->GetStaticField(0x456C0);
+			return (::Class_1_F5630E87DACEF386_DelegateParseBinary_1<::RPG::GameCore::GameModeType>**)Il2CppClass::FromTypeDefinitionIndex(MazeConfig___O_TypeDefinitionIndex)->GetStaticField(0x382B0);
 		}
 	};
 }

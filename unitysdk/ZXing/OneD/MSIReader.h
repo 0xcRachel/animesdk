@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D31900)
+#define ZXING_ONED_MSIREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CB1340)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 6069;
+	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 6081;
 
 	class MSIReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
-		static ::System::String** StaticGet_ALPHABET_STRING()
+		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6230);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6238);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x4570);
 		}
 		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6240);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x4578);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
+		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x6248);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x4580);
+		}
+		static ::System::String** StaticGet_ALPHABET_STRING()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MSIReader_TypeDefinitionIndex)->GetStaticField(0x4588);
 		}
 
 		static ::System::Void _cctor()

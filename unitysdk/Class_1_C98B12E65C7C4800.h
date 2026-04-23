@@ -7,22 +7,22 @@ class Class_1_7807B2B04302CD7B_1;
 class Class_1_7807B2B04302CD7B_2;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_C98B12E65C7C4800_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x1666C780)
-#define CLASS_1_C98B12E65C7C4800__CTOR_OFFSET UNITYSDK_OFFSET(0x1666C800)
+#define CLASS_1_C98B12E65C7C4800_METHOD_1_097468641FDED14E_OFFSET UNITYSDK_OFFSET(0x1644AB30)
+#define CLASS_1_C98B12E65C7C4800__CTOR_OFFSET UNITYSDK_OFFSET(0x1644ABC0)
 
-inline static constexpr unsigned int Class_1_C98B12E65C7C4800_TypeDefinitionIndex = 28346;
+inline static constexpr unsigned int Class_1_C98B12E65C7C4800_TypeDefinitionIndex = 33990;
 
 class Class_1_C98B12E65C7C4800 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_6; // 0x10
-	::Class_1_7807B2B04302CD7B_1* Field_1_0; // 0x18
-	::Class_1_7807B2B04302CD7B_2* Field_1_1; // 0x20
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_7; // 0x28
-	::System::UInt32 Field_1_2; // 0x30
-	::System::Single Field_1_8; // 0x34
-	::System::Single Field_1_4; // 0x38
-	::RPG::LittleGameShare::DiceCombatCore::DiceCombatGameState Field_1_3; // 0x3C
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_7; // 0x10
+	::Class_1_7807B2B04302CD7B_1* Field_1_1; // 0x18
+	::Class_1_7807B2B04302CD7B_2* Field_1_0; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_6; // 0x28
+	::System::Single Field_1_8; // 0x30
+	::System::UInt32 Field_1_2; // 0x34
+	::RPG::LittleGameShare::DiceCombatCore::DiceCombatGameState Field_1_3; // 0x38
+	::System::Single Field_1_4; // 0x3C
 	::System::UInt32 Field_1_5; // 0x40
 
 	::System::Void _ctor()

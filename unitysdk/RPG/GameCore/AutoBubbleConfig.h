@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUTOBUBBLECONFIG_METHOD_2_E611B61D7202E97D_OFFSET UNITYSDK_OFFSET(0x16FA62C0)
-#define RPG_GAMECORE_AUTOBUBBLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16FA64B0)
+#define RPG_GAMECORE_AUTOBUBBLECONFIG_METHOD_2_E611B61D7202E97D_OFFSET UNITYSDK_OFFSET(0x18AE76B0)
+#define RPG_GAMECORE_AUTOBUBBLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AE78A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoBubbleConfig_TypeDefinitionIndex = 15517;
+	inline static constexpr unsigned int AutoBubbleConfig_TypeDefinitionIndex = 16037;
 
 	class AutoBubbleConfig : public ::RPG::GameCore::JsonConfig
 	{

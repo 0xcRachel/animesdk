@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByMoveInputTowardsTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5EED138D412B59E4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x99E5920)
-#define CLASS_3_5EED138D412B59E4__CTOR_OFFSET UNITYSDK_OFFSET(0x99E58F0)
+#define CLASS_3_5EED138D412B59E4_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB54B2C0)
+#define CLASS_3_5EED138D412B59E4__CTOR_OFFSET UNITYSDK_OFFSET(0xB54B290)
 
-inline static constexpr unsigned int Class_3_5EED138D412B59E4_TypeDefinitionIndex = 42994;
+inline static constexpr unsigned int Class_3_5EED138D412B59E4_TypeDefinitionIndex = 48980;
 
 class Class_3_5EED138D412B59E4 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByMoveInputTowardsTarget*>
 {

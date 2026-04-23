@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AISUBD_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x187B8490)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AISUBD_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x18C0DFE0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiSubD_TypeDefinitionIndex = 34962;
+	inline static constexpr unsigned int NativeMethods_aiSubD_TypeDefinitionIndex = 40790;
 
 	struct alignas(1) NativeMethods_aiSubD
 	{

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FiveDimFogOfWarConfig; }
 namespace RPG::GameCore { class FiveDimMapSurfaceConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG_METHOD_2_36E021FFD9A62E88_OFFSET UNITYSDK_OFFSET(0x1720E220)
-#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1720E540)
+#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG_METHOD_2_36E021FFD9A62E88_OFFSET UNITYSDK_OFFSET(0x191DEDE0)
+#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191DF100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMapFaceConfig_TypeDefinitionIndex = 16995;
+	inline static constexpr unsigned int FiveDimMapFaceConfig_TypeDefinitionIndex = 17589;
 
 	class FiveDimMapFaceConfig : public ::RPG::GameCore::JsonConfig
 	{

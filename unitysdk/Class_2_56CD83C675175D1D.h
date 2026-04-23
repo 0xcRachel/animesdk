@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::Client::Prop { class RubikCubePuzzleBoard; }
 namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::GameCore { class RubikEventListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_56CD83C675175D1D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x110DD800)
-#define CLASS_2_56CD83C675175D1D_METHOD_2_414E668C8B9EEDBC_OFFSET UNITYSDK_OFFSET(0x110DDBC0)
-#define CLASS_2_56CD83C675175D1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x110DDB70)
-#define CLASS_2_56CD83C675175D1D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x110DD900)
-#define CLASS_2_56CD83C675175D1D_TICK_OFFSET UNITYSDK_OFFSET(0x110DD950)
-#define CLASS_2_56CD83C675175D1D__CTOR_OFFSET UNITYSDK_OFFSET(0x110DD770)
+#define CLASS_2_56CD83C675175D1D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC67C0C0)
+#define CLASS_2_56CD83C675175D1D_METHOD_2_414E668C8B9EEDBC_OFFSET UNITYSDK_OFFSET(0xC67C480)
+#define CLASS_2_56CD83C675175D1D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC67C430)
+#define CLASS_2_56CD83C675175D1D_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC67C1C0)
+#define CLASS_2_56CD83C675175D1D_TICK_OFFSET UNITYSDK_OFFSET(0xC67C210)
+#define CLASS_2_56CD83C675175D1D__CTOR_OFFSET UNITYSDK_OFFSET(0xC67C030)
 
-inline static constexpr unsigned int Class_2_56CD83C675175D1D_TypeDefinitionIndex = 47197;
+inline static constexpr unsigned int Class_2_56CD83C675175D1D_TypeDefinitionIndex = 53929;
 
 class Class_2_56CD83C675175D1D : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_2_3; // 0x18
-	::RPG::GameCore::RubikEventListener* Field_2_0; // 0x20
-	::RPG::Client::Prop::RubikCubePuzzleBoard* Field_2_2; // 0x28
+	::RPG::Client::Prop::RubikCubePuzzleBoard* Field_2_2; // 0x18
+	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x20
+	::RPG::GameCore::RubikEventListener* Field_2_0; // 0x28
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RubikEventListener* a2)

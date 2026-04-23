@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/Client/MonopolyEffectDisplayEnum.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9D63180)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x9D631A0)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x9D63190)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x9D631B0)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x9D63170)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x175F5960)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x175F5980)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x175F5970)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x175F5990)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x175F5950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyEffectDisplayDataItem_TypeDefinitionIndex = 53842;
+	inline static constexpr unsigned int MonopolyEffectDisplayDataItem_TypeDefinitionIndex = 60986;
 
 	class MonopolyEffectDisplayDataItem : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonopolyEffectDisplayEnum _Type_k__BackingField; // 0x10
-		::System::UInt32 _Value_k__BackingField; // 0x14
+		::System::UInt32 _Value_k__BackingField; // 0x10
+		::RPG::Client::MonopolyEffectDisplayEnum _Type_k__BackingField; // 0x14
 
 		::System::Void _ctor(::RPG::Client::MonopolyEffectDisplayEnum type, ::System::UInt32 value)
 		{

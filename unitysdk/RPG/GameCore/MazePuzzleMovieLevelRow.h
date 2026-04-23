@@ -7,25 +7,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173DBBC0)
-#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173DC430)
+#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1908CE70)
+#define RPG_GAMECORE_MAZEPUZZLEMOVIELEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1908D6E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleMovieLevelRow_TypeDefinitionIndex = 12876;
+	inline static constexpr unsigned int MazePuzzleMovieLevelRow_TypeDefinitionIndex = 13338;
 
 	class MazePuzzleMovieLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
 		::System::String* TriggerCustomString; // 0x18
-		::RPG::Client::TextID Description; // 0x20
-		::RPG::GameCore::MazePuzzleMovieGameMode MovieMode; // 0x30
-		::System::UInt32 UnlockSubmission; // 0x34
-		::System::UInt32 MovieLevel; // 0x38
-		::System::UInt32 Tutorial; // 0x3C
-		::System::UInt32 UnlockConditionMode; // 0x40
-		::System::UInt32 UnlockCondition; // 0x44
+		::RPG::GameCore::MazePuzzleMovieGameMode MovieMode; // 0x20
+		::System::UInt32 MovieLevel; // 0x24
+		::System::UInt32 UnlockSubmission; // 0x28
+		::System::UInt32 UnlockCondition; // 0x2C
+		::System::UInt32 UnlockConditionMode; // 0x30
+		::System::UInt32 Tutorial; // 0x34
+		::RPG::Client::TextID Description; // 0x38
 		::RPG::Client::TextID Title; // 0x48
 
 		::System::Void _ctor()

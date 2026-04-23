@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UINavigationDirection_TypeDefinitionIndex = 59982;
+	inline static constexpr unsigned int UINavigationDirection_TypeDefinitionIndex = 67380;
 
 	enum class UINavigationDirection : ::System::Int32
 	{

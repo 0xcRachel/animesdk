@@ -7,10 +7,10 @@ class Class_2_FE6DC165BA97C51C;
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8BC4390)
-#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x8BC4560)
+#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10F84830)
+#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x10F84A00)
 
-inline static constexpr unsigned int Class_2_FE6DC165BA97C51C___c__DisplayClass5_0_TypeDefinitionIndex = 62379;
+inline static constexpr unsigned int Class_2_FE6DC165BA97C51C___c__DisplayClass5_0_TypeDefinitionIndex = 70378;
 
 class Class_2_FE6DC165BA97C51C___c__DisplayClass5_0 : public ::System::Object
 {

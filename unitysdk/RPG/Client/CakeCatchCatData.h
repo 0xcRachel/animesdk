@@ -1,0 +1,175 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class CakeConfigRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_CAKECATCHCATDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x15FC98F0)
+#define RPG_CLIENT_CAKECATCHCATDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15FCBDB0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GETCAKECATCHCOUNTHISTORY_OFFSET UNITYSDK_OFFSET(0x15FC9EC0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CATDESC_OFFSET UNITYSDK_OFFSET(0x15FCC810)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CATID_OFFSET UNITYSDK_OFFSET(0x15FCC6C0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CATIMAGEPATH_OFFSET UNITYSDK_OFFSET(0x15FCC8E0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CATMINIIMAGEPATH_OFFSET UNITYSDK_OFFSET(0x15FCBBD0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CATNAME_OFFSET UNITYSDK_OFFSET(0x15FCC6E0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CATTAILIMAGEPATH_OFFSET UNITYSDK_OFFSET(0x15FCBB20)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_CAUGHTTALKSENTENCEIDS_OFFSET UNITYSDK_OFFSET(0x15FCC990)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_DARKMATERIALPATH_OFFSET UNITYSDK_OFFSET(0x15FCCC40)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_FINISHEDTALKSENTENCEIDS_OFFSET UNITYSDK_OFFSET(0x15FCCA40)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_ISUNLOCKED_OFFSET UNITYSDK_OFFSET(0x15FCCCF0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_MATERIALPATH_OFFSET UNITYSDK_OFFSET(0x15FCCB90)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_NPCID_OFFSET UNITYSDK_OFFSET(0x15FC99A0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET_TAILCOLOUR_OFFSET UNITYSDK_OFFSET(0x15FCCAF0)
+#define RPG_CLIENT_CAKECATCHCATDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0x15FCC7B0)
+#define RPG_CLIENT_CAKECATCHCATDATA_INITCONFIG_OFFSET UNITYSDK_OFFSET(0x15FCBD60)
+#define RPG_CLIENT_CAKECATCHCATDATA_ISARRANGEUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0x15FCC4A0)
+#define RPG_CLIENT_CAKECATCHCATDATA_ISATLASCAKESTORYSEEN_OFFSET UNITYSDK_OFFSET(0x15FCBEF0)
+#define RPG_CLIENT_CAKECATCHCATDATA_ISATLASUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0x15FCBDF0)
+#define RPG_CLIENT_CAKECATCHCATDATA_SETARRANGEUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0x15FCC5A0)
+#define RPG_CLIENT_CAKECATCHCATDATA_SETATLASCAKESTORYSEEN_OFFSET UNITYSDK_OFFSET(0x15FCC2C0)
+#define RPG_CLIENT_CAKECATCHCATDATA_SETATLASUNLOCKSTATUSSEEN_OFFSET UNITYSDK_OFFSET(0x15FCC120)
+#define RPG_CLIENT_CAKECATCHCATDATA_SET_CATID_OFFSET UNITYSDK_OFFSET(0x15FCC6D0)
+#define RPG_CLIENT_CAKECATCHCATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15FCBD50)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int CakeCatchCatData_TypeDefinitionIndex = 58016;
+
+	class CakeCatchCatData : public ::System::Object
+	{
+	public:
+		::System::UInt32 _CatID_k__BackingField; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::CakeCatchCatData* Create(::System::UInt32 catID)
+		{
+			return ((::RPG::Client::CakeCatchCatData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_CREATE_OFFSET))(catID);
+		}
+
+		::System::Void InitConfig(::System::UInt32 catID)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_INITCONFIG_OFFSET))(this, catID);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::UInt32 GetCakeCatchCountHistory()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GETCAKECATCHCOUNTHISTORY_OFFSET))(this);
+		}
+
+		::System::Boolean IsAtlasUnlockStatusSeen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_ISATLASUNLOCKSTATUSSEEN_OFFSET))(this);
+		}
+
+		::System::Boolean IsAtlasCakeStorySeen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_ISATLASCAKESTORYSEEN_OFFSET))(this);
+		}
+
+		::System::Void SetAtlasUnlockStatusSeen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_SETATLASUNLOCKSTATUSSEEN_OFFSET))(this);
+		}
+
+		::System::Void SetAtlasCakeStorySeen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_SETATLASCAKESTORYSEEN_OFFSET))(this);
+		}
+
+		::System::Boolean IsArrangeUnlockStatusSeen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_ISARRANGEUNLOCKSTATUSSEEN_OFFSET))(this);
+		}
+
+		::System::Void SetArrangeUnlockStatusSeen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_SETARRANGEUNLOCKSTATUSSEEN_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CatID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CATID_OFFSET))(this);
+		}
+
+		::System::Void set_CatID(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_SET_CATID_OFFSET))(this, value);
+		}
+
+		::RPG::Client::TextID get_CatName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CATNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_CatDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CATDESC_OFFSET))(this);
+		}
+
+		::System::String* get_CatImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CATIMAGEPATH_OFFSET))(this);
+		}
+
+		::System::String* get_CatMiniImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CATMINIIMAGEPATH_OFFSET))(this);
+		}
+
+		::System::String* get_CatTailImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CATTAILIMAGEPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_NPCID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_NPCID_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_CaughtTalkSentenceIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_CAUGHTTALKSENTENCEIDS_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_FinishedTalkSentenceIDs()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_FINISHEDTALKSENTENCEIDS_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TailColour()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_TAILCOLOUR_OFFSET))(this);
+		}
+
+		::System::String* get_MaterialPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_MATERIALPATH_OFFSET))(this);
+		}
+
+		::System::String* get_DarkMaterialPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_DARKMATERIALPATH_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsUnlocked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET_ISUNLOCKED_OFFSET))(this);
+		}
+
+		::RPG::GameCore::CakeConfigRow* get__Row()
+		{
+			return ((::RPG::GameCore::CakeConfigRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHCATDATA_GET__ROW_OFFSET))(this);
+		}
+	};
+}

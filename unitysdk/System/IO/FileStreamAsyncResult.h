@@ -7,12 +7,12 @@ namespace System { class IAsyncResult; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1634CE90)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1634CF20)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1634CF40)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1634CF30)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1634CF50)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1634B1A0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x194F2220)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x194F22B0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x194F22D0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x194F22C0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x194F22E0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x194F0550)
 
 namespace System::IO
 {
@@ -21,15 +21,15 @@ namespace System::IO
 	class FileStreamAsyncResult : public ::System::Object
 	{
 	public:
-		::System::Object* state; // 0x10
-		::System::Threading::ManualResetEvent* wh; // 0x18
+		::System::Threading::ManualResetEvent* wh; // 0x10
+		::System::AsyncCallback* realcb; // 0x18
 		::System::AsyncCallback* cb; // 0x20
-		::System::AsyncCallback* realcb; // 0x28
-		::System::Boolean completed; // 0x30
-		::System::Boolean completedSynch; // 0x31
-		::System::Int32 Count; // 0x34
+		::System::Object* state; // 0x28
+		::System::Boolean completedSynch; // 0x30
+		::System::Boolean completed; // 0x31
+		::System::Int32 BytesRead; // 0x34
 		::System::Int32 OriginalCount; // 0x38
-		::System::Int32 BytesRead; // 0x3C
+		::System::Int32 Count; // 0x3C
 
 		::System::Void _ctor(::System::AsyncCallback* cb, ::System::Object* state)
 		{

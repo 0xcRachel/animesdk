@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6E708EAB438EC183_77;
+class Class_1_075C34D03AFA1215_89;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GETROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xA2F9580)
-#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GETUIPATH_OFFSET UNITYSDK_OFFSET(0xA2F9610)
-#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GET_ROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0xA2F94A0)
-#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GET_SELECTBONUSIDS_OFFSET UNITYSDK_OFFSET(0xA2F94B0)
-#define RPG_CLIENT_ROGUEBONUSSELECTACTION_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xA2F95C0)
-#define RPG_CLIENT_ROGUEBONUSSELECTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xA2F94C0)
+#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GETROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0x177265E0)
+#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GETUIPATH_OFFSET UNITYSDK_OFFSET(0x17726670)
+#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GET_ROGUEACTIONID_OFFSET UNITYSDK_OFFSET(0x17726500)
+#define RPG_CLIENT_ROGUEBONUSSELECTACTION_GET_SELECTBONUSIDS_OFFSET UNITYSDK_OFFSET(0x17726510)
+#define RPG_CLIENT_ROGUEBONUSSELECTACTION_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x17726620)
+#define RPG_CLIENT_ROGUEBONUSSELECTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17726520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueBonusSelectAction_TypeDefinitionIndex = 54494;
+	inline static constexpr unsigned int RogueBonusSelectAction_TypeDefinitionIndex = 61682;
 
 	class RogueBonusSelectAction : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* _SelectBonusIDs_k__BackingField; // 0x10
 		::System::UInt32 _RogueActionID_k__BackingField; // 0x18
 
-		::System::Void _ctor(::System::UInt32 rogueActionID, ::Class_1_6E708EAB438EC183_77* proto)
+		::System::Void _ctor(::System::UInt32 rogueActionID, ::Class_1_075C34D03AFA1215_89* proto)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_6E708EAB438EC183_77*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBONUSSELECTACTION__CTOR_OFFSET))(this, rogueActionID, proto);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Class_1_075C34D03AFA1215_89*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEBONUSSELECTACTION__CTOR_OFFSET))(this, rogueActionID, proto);
 		}
 
 		::System::UInt32 get_RogueActionID()

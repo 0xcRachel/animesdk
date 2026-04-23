@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_382;
 namespace RPG::GameCore { class AdvWaitPropSteerEventV2; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_D1C1D403CFF00C9F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10908480)
-#define CLASS_2_D1C1D403CFF00C9F_METHOD_2_6DDB92EC78EDF8C8_OFFSET UNITYSDK_OFFSET(0x10908970)
-#define CLASS_2_D1C1D403CFF00C9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10908510)
-#define CLASS_2_D1C1D403CFF00C9F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x109086E0)
-#define CLASS_2_D1C1D403CFF00C9F_TICK_OFFSET UNITYSDK_OFFSET(0x10908800)
-#define CLASS_2_D1C1D403CFF00C9F__CTOR_OFFSET UNITYSDK_OFFSET(0x10908470)
+#define CLASS_2_D1C1D403CFF00C9F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F7B8B0)
+#define CLASS_2_D1C1D403CFF00C9F_METHOD_2_6DDB92EC78EDF8C8_OFFSET UNITYSDK_OFFSET(0x10F7BDA0)
+#define CLASS_2_D1C1D403CFF00C9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F7B940)
+#define CLASS_2_D1C1D403CFF00C9F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10F7BB10)
+#define CLASS_2_D1C1D403CFF00C9F_TICK_OFFSET UNITYSDK_OFFSET(0x10F7BC30)
+#define CLASS_2_D1C1D403CFF00C9F__CTOR_OFFSET UNITYSDK_OFFSET(0x10F7B8A0)
 
-inline static constexpr unsigned int Class_2_D1C1D403CFF00C9F_TypeDefinitionIndex = 42533;
+inline static constexpr unsigned int Class_2_D1C1D403CFF00C9F_TypeDefinitionIndex = 48494;
 
 class Class_2_D1C1D403CFF00C9F : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	// static const ::System::String* Field_2_4; // 0x0
 	// static const ::System::String* Field_2_5; // 0x0
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::AdvWaitPropSteerEventV2* Field_2_1; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_2; // 0x28
-	::Class_1_5F51D4049EA87B7B* Field_2_3; // 0x30
+	::Class_1_5F51D4049EA87B7B* Field_2_2; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
+	::Class_1_5F51D4049EA87B7B* Field_2_3; // 0x28
+	::RPG::GameCore::AdvWaitPropSteerEventV2* Field_2_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvWaitPropSteerEventV2* a2)
 	{
@@ -51,8 +51,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_D1C1D403CFF00C9F_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_6DDB92EC78EDF8C8(::Class_0_16E4307DCC419505_375* a1)
+	::System::Void Method_2_6DDB92EC78EDF8C8(::Class_0_16E4307DCC419505_382* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_2_D1C1D403CFF00C9F_METHOD_2_6DDB92EC78EDF8C8_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + CLASS_2_D1C1D403CFF00C9F_METHOD_2_6DDB92EC78EDF8C8_OFFSET))(this, a1);
 	}
 };

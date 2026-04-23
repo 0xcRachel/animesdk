@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class BatchAnimEventObjCB_ExecuteEventFun; }
 
-#define RPG_CUSTOMRP_BAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16A73DA0)
+#define RPG_CUSTOMRP_BAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15249030)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BAEvent_TypeDefinitionIndex = 29213;
+	inline static constexpr unsigned int BAEvent_TypeDefinitionIndex = 34980;
 
 	class BAEvent : public ::System::Object
 	{

@@ -10,28 +10,28 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x9582090)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_08BBACE844405300_OFFSET UNITYSDK_OFFSET(0x95821B0)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_554208C84546EE8E_OFFSET UNITYSDK_OFFSET(0x9582420)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x9581E00)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x9581DB0)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x9582590)
-#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x9582580)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1401FA10)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_08BBACE844405300_OFFSET UNITYSDK_OFFSET(0x1401FB30)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_554208C84546EE8E_OFFSET UNITYSDK_OFFSET(0x1401FDA0)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_METHOD_5_8D61BE16C9463302_OFFSET UNITYSDK_OFFSET(0x1401F780)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1401F730)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1401FF10)
+#define RPG_CLIENT_EFFECT_PETALINSTANCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1401FF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 57758;
+	inline static constexpr unsigned int Effect_PetalInstanceManager_TypeDefinitionIndex = 65022;
 
 	class Effect_PetalInstanceManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_Field_5_8()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x12A90);
-		}
 		static ::System::Int32* StaticGet_Field_5_7()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x12A94);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x116D0);
+		}
+		static ::System::Int32* StaticGet_Field_5_8()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_PetalInstanceManager_TypeDefinitionIndex)->GetStaticField(0x116D4);
 		}
 		::UnityEngine::Mesh* TargetMesh; // 0x18
 		::UnityEngine::Material* TargetMat; // 0x20

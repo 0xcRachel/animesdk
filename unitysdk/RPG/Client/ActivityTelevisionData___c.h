@@ -5,29 +5,29 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9022C50)
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9022C90)
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__GETTRIALAVATARS_B__5_0_OFFSET UNITYSDK_OFFSET(0x9022CA0)
-#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__ISPRELEVELFINISHED_B__6_0_OFFSET UNITYSDK_OFFSET(0x9022D10)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x103D9700)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x103D9740)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__GETTRIALAVATARS_B__5_0_OFFSET UNITYSDK_OFFSET(0x103D9750)
+#define RPG_CLIENT_ACTIVITYTELEVISIONDATA___C__ISPRELEVELFINISHED_B__6_0_OFFSET UNITYSDK_OFFSET(0x103D97C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTelevisionData___c_TypeDefinitionIndex = 50331;
+	inline static constexpr unsigned int ActivityTelevisionData___c_TypeDefinitionIndex = 57190;
 
 	class ActivityTelevisionData___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::ActivityTelevisionData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityTelevisionData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionData___c_TypeDefinitionIndex)->GetStaticField(0x52B70);
+		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionData___c_TypeDefinitionIndex)->GetStaticField(0x2B590);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionData___c_TypeDefinitionIndex)->GetStaticField(0x52B78);
 		}
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionData___c_TypeDefinitionIndex)->GetStaticField(0x2B598);
-		}
-		static ::RPG::Client::ActivityTelevisionData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityTelevisionData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionData___c_TypeDefinitionIndex)->GetStaticField(0x2B5A0);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::IAvatarInfoProvider*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityTelevisionData___c_TypeDefinitionIndex)->GetStaticField(0x52B80);
 		}
 
 		static ::System::Void _cctor()

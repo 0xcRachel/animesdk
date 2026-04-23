@@ -10,71 +10,71 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture; }
 
-#define CLASS_1_F65689E39BEEC215_METHOD_1_28EB11670A8E5A86_1_OFFSET UNITYSDK_OFFSET(0x97ADF40)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x97ADC00)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_3FEEBDFBB979DFE4_OFFSET UNITYSDK_OFFSET(0x97AD450)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_4271690CE565F5D4_OFFSET UNITYSDK_OFFSET(0x97AD220)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_528D34E8424C44A6_OFFSET UNITYSDK_OFFSET(0x97AD2A0)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_557F4AF68DA07C92_OFFSET UNITYSDK_OFFSET(0x97AD810)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_807A6FAE5D3566B4_OFFSET UNITYSDK_OFFSET(0x97AD590)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_98C6039F4F5A1F06_OFFSET UNITYSDK_OFFSET(0x97AD950)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_9DAAD9FCDE8E7BD6_OFFSET UNITYSDK_OFFSET(0x97ADA90)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x97AE280)
-#define CLASS_1_F65689E39BEEC215_METHOD_1_D742671E5B0EF002_OFFSET UNITYSDK_OFFSET(0x97AD6D0)
-#define CLASS_1_F65689E39BEEC215__CCTOR_OFFSET UNITYSDK_OFFSET(0x97AF010)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_28EB11670A8E5A86_1_OFFSET UNITYSDK_OFFSET(0x106418B0)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x10641570)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_3FEEBDFBB979DFE4_OFFSET UNITYSDK_OFFSET(0x10640DC0)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_4271690CE565F5D4_OFFSET UNITYSDK_OFFSET(0x10640B90)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_528D34E8424C44A6_OFFSET UNITYSDK_OFFSET(0x10640C10)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_557F4AF68DA07C92_OFFSET UNITYSDK_OFFSET(0x10641180)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_807A6FAE5D3566B4_OFFSET UNITYSDK_OFFSET(0x10640F00)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_98C6039F4F5A1F06_OFFSET UNITYSDK_OFFSET(0x106412C0)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_9DAAD9FCDE8E7BD6_OFFSET UNITYSDK_OFFSET(0x10641400)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x10641BF0)
+#define CLASS_1_F65689E39BEEC215_METHOD_1_D742671E5B0EF002_OFFSET UNITYSDK_OFFSET(0x10641040)
+#define CLASS_1_F65689E39BEEC215__CCTOR_OFFSET UNITYSDK_OFFSET(0x10642980)
 
-inline static constexpr unsigned int Class_1_F65689E39BEEC215_TypeDefinitionIndex = 39965;
+inline static constexpr unsigned int Class_1_F65689E39BEEC215_TypeDefinitionIndex = 45874;
 
 class Class_1_F65689E39BEEC215 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_Field_1_8()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>** StaticGet_Field_1_3()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FC0);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_Field_1_4()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FC8);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_Field_1_1()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FD0);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D710);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>** StaticGet_Field_1_6()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FD8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D718);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>** StaticGet_Field_1_5()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_Field_1_4()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FE0);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_Field_1_7()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FE8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D720);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FF0);
-	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_Field_1_10()
-	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x33FF8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Boolean, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D728);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>** StaticGet_Field_1_9()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x34000);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D730);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>** StaticGet_Field_1_3()
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Vector4, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x34008);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D738);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>** StaticGet_Field_1_5()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D740);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_Field_1_8()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D748);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>** StaticGet_Field_1_2()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x34010);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Int32, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D750);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>** StaticGet_Field_1_7()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::System::Single, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D758);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>** StaticGet_Field_1_11()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x34018);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::Struct_2_52BA5F5738EB909A, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D760);
+	}
+	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>** StaticGet_Field_1_10()
+	{
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Tuple_2<::UnityEngine::Texture*, ::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F65689E39BEEC215_TypeDefinitionIndex)->GetStaticField(0x5D768);
 	}
 
 	static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GroupInitMemberEntityTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D35687484EB5EC0B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC4D340)
-#define CLASS_3_D35687484EB5EC0B__CTOR_OFFSET UNITYSDK_OFFSET(0xAC4D310)
+#define CLASS_3_D35687484EB5EC0B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE77780)
+#define CLASS_3_D35687484EB5EC0B__CTOR_OFFSET UNITYSDK_OFFSET(0xCE77750)
 
-inline static constexpr unsigned int Class_3_D35687484EB5EC0B_TypeDefinitionIndex = 42826;
+inline static constexpr unsigned int Class_3_D35687484EB5EC0B_TypeDefinitionIndex = 48810;
 
 class Class_3_D35687484EB5EC0B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GroupInitMemberEntityTransform*>
 {

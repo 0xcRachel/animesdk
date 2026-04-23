@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTMAILDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177EB9D0)
-#define RPG_GAMECORE_TAROTMAILDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177EBD30)
+#define RPG_GAMECORE_TAROTMAILDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17139850)
+#define RPG_GAMECORE_TAROTMAILDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17139BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotMailDataRow_TypeDefinitionIndex = 13990;
+	inline static constexpr unsigned int TarotMailDataRow_TypeDefinitionIndex = 14465;
 
 	class TarotMailDataRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MailSentenceIDList; // 0x10
-		::RPG::Client::TextID Title; // 0x18
-		::RPG::Client::TextID From; // 0x28
-		::System::UInt32 ID; // 0x38
-		::System::Boolean IsSpecial; // 0x3C
-		::RPG::Client::TextID To; // 0x40
+		::RPG::Client::TextID To; // 0x18
+		::RPG::Client::TextID Title; // 0x28
+		::RPG::Client::TextID From; // 0x38
+		::System::UInt32 ID; // 0x48
+		::System::Boolean IsSpecial; // 0x4C
 
 		::System::Void _ctor()
 		{

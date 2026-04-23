@@ -8,21 +8,21 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class ManualResetEvent; }
 
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x84F8B70)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1__GETRESPONSE_B__2_OFFSET UNITYSDK_OFFSET(0x84F9930)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1__GETRESPONSE_B__3_OFFSET UNITYSDK_OFFSET(0x84F99A0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x173A0680)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1__GETRESPONSE_B__2_OFFSET UNITYSDK_OFFSET(0x173A14B0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBREQUEST___C__DISPLAYCLASS0_1__GETRESPONSE_B__3_OFFSET UNITYSDK_OFFSET(0x173A1520)
 
 namespace MiHoYo::SDK::HttpDns
 {
-	inline static constexpr unsigned int HoYoSDKHttpWebRequest___c__DisplayClass0_1_TypeDefinitionIndex = 37387;
+	inline static constexpr unsigned int HoYoSDKHttpWebRequest___c__DisplayClass0_1_TypeDefinitionIndex = 43264;
 
 	class HoYoSDKHttpWebRequest___c__DisplayClass0_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HttpDns::HoYoSDKHttpWebRequest___c__DisplayClass0_0* CS___8__locals1; // 0x10
-		::System::Threading::ManualResetEvent* mre; // 0x18
-		::System::Action* __9__3; // 0x20
-		::System::Action_1<::System::String*>* __9__2; // 0x28
+		::System::Action* __9__3; // 0x10
+		::MiHoYo::SDK::HttpDns::HoYoSDKHttpWebRequest___c__DisplayClass0_0* CS___8__locals1; // 0x18
+		::System::Action_1<::System::String*>* __9__2; // 0x20
+		::System::Threading::ManualResetEvent* mre; // 0x28
 
 		::System::Void _ctor()
 		{

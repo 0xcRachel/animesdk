@@ -4,28 +4,28 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_00AE36C5532CAF3E__CCTOR_OFFSET UNITYSDK_OFFSET(0x10B395B0)
+#define CLASS_1_00AE36C5532CAF3E__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2B7760)
 
-inline static constexpr unsigned int Class_1_00AE36C5532CAF3E_TypeDefinitionIndex = 50510;
+inline static constexpr unsigned int Class_1_00AE36C5532CAF3E_TypeDefinitionIndex = 57373;
 
 class Class_1_00AE36C5532CAF3E : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_1()
-	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x482B0);
-	}
-	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_3()
-	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x482B8);
-	}
 	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_2()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x482C0);
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x3A400);
+	}
+	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_1()
+	{
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x3A408);
 	}
 	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x482C8);
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x3A410);
+	}
+	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_3()
+	{
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_00AE36C5532CAF3E_TypeDefinitionIndex)->GetStaticField(0x3A418);
 	}
 
 	static ::System::Void _cctor()

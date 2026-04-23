@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKFACEEMOTION_METHOD_2_5C35BAA97E9CD479_OFFSET UNITYSDK_OFFSET(0x170C8820)
-#define RPG_GAMECORE_CLOCKFACEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x170C89F0)
+#define RPG_GAMECORE_CLOCKFACEEMOTION_METHOD_2_5C35BAA97E9CD479_OFFSET UNITYSDK_OFFSET(0x194D6300)
+#define RPG_GAMECORE_CLOCKFACEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x194D64D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockFaceEmotion_TypeDefinitionIndex = 20063;
+	inline static constexpr unsigned int ClockFaceEmotion_TypeDefinitionIndex = 20744;
 
 	class ClockFaceEmotion : public ::RPG::GameCore::JsonConfig
 	{

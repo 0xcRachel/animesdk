@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/ExeCode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_478;
-class Class_0_16E4307DCC419505_480;
+class Class_0_16E4307DCC419505_557;
+class Class_0_16E4307DCC419505_559;
 class Class_1_8C3AC9786B6764EF;
 
-#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x10C57910)
-#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0x10C579E0)
-#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__2_OFFSET UNITYSDK_OFFSET(0x10C57A50)
-#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10C52650)
+#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xF5B7E70)
+#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0xF5B7F40)
+#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__2_OFFSET UNITYSDK_OFFSET(0xF5B7FB0)
+#define CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF5B2AB0)
 
-inline static constexpr unsigned int Class_1_8C3AC9786B6764EF___c__DisplayClass7_0_TypeDefinitionIndex = 48209;
+inline static constexpr unsigned int Class_1_8C3AC9786B6764EF___c__DisplayClass7_0_TypeDefinitionIndex = 54954;
 
 class Class_1_8C3AC9786B6764EF___c__DisplayClass7_0 : public ::System::Object
 {
@@ -25,18 +25,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _AddMultiDownload_b__0(::Class_0_16E4307DCC419505_478* prog)
+	::System::Void _AddMultiDownload_b__0(::Class_0_16E4307DCC419505_557* prog)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_478*))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__0_OFFSET))(this, prog);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_557*))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__0_OFFSET))(this, prog);
 	}
 
-	::System::Void _AddMultiDownload_b__1(::Class_0_16E4307DCC419505_478* prog, ::Class_0_16E4307DCC419505_480* data, ::System::Object* item, ::RPG::Client::ExeCode code)
+	::System::Void _AddMultiDownload_b__1(::Class_0_16E4307DCC419505_557* prog, ::Class_0_16E4307DCC419505_559* data, ::System::Object* item, ::RPG::Client::ExeCode code)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_478*, ::Class_0_16E4307DCC419505_480*, ::System::Object*, ::RPG::Client::ExeCode))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__1_OFFSET))(this, prog, data, item, code);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_557*, ::Class_0_16E4307DCC419505_559*, ::System::Object*, ::RPG::Client::ExeCode))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__1_OFFSET))(this, prog, data, item, code);
 	}
 
-	::System::Void _AddMultiDownload_b__2(::Class_0_16E4307DCC419505_478* prog)
+	::System::Void _AddMultiDownload_b__2(::Class_0_16E4307DCC419505_557* prog)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_478*))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__2_OFFSET))(this, prog);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_557*))((::PBYTE)hIl2Cpp + CLASS_1_8C3AC9786B6764EF___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__2_OFFSET))(this, prog);
 	}
 };

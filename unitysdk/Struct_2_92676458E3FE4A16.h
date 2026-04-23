@@ -7,9 +7,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define STRUCT_2_92676458E3FE4A16_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x76730)
+#define STRUCT_2_92676458E3FE4A16_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1DB6500)
 
-inline static constexpr unsigned int Struct_2_92676458E3FE4A16_TypeDefinitionIndex = 45773;
+inline static constexpr unsigned int Struct_2_92676458E3FE4A16_TypeDefinitionIndex = 52428;
 
 struct alignas(8) Struct_2_92676458E3FE4A16
 {

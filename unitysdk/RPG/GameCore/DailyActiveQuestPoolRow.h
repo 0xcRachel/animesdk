@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17159930)
-#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17159A50)
+#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FB7DD0)
+#define RPG_GAMECORE_DAILYACTIVEQUESTPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18FB7EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyActiveQuestPoolRow_TypeDefinitionIndex = 11960;
+	inline static constexpr unsigned int DailyActiveQuestPoolRow_TypeDefinitionIndex = 12393;
 
 	class DailyActiveQuestPoolRow : public ::System::Object
 	{

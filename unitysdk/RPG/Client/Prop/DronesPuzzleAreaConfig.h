@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleAreaConfig_TypeDefinitionIndex = 64019;
+	inline static constexpr unsigned int DronesPuzzleAreaConfig_TypeDefinitionIndex = 72066;
 
 	struct alignas(8) DronesPuzzleAreaConfig
 	{

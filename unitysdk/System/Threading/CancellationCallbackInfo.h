@@ -8,26 +8,26 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTECALLBACK_OFFSET UNITYSDK_OFFSET(0x16243DD0)
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTIONCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x16243FC0)
-#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16243DB0)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTECALLBACK_OFFSET UNITYSDK_OFFSET(0x18751990)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO_EXECUTIONCONTEXTCALLBACK_OFFSET UNITYSDK_OFFSET(0x18751B80)
+#define SYSTEM_THREADING_CANCELLATIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18751970)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int CancellationCallbackInfo_TypeDefinitionIndex = 798;
+	inline static constexpr unsigned int CancellationCallbackInfo_TypeDefinitionIndex = 800;
 
 	class CancellationCallbackInfo : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_executionContextCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(CancellationCallbackInfo_TypeDefinitionIndex)->GetStaticField(0xF9E0);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(CancellationCallbackInfo_TypeDefinitionIndex)->GetStaticField(0x8870);
 		}
-		::System::Action_1<::System::Object*>* Callback; // 0x10
-		::System::Threading::SynchronizationContext* TargetSyncContext; // 0x18
+		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x10
+		::System::Threading::ExecutionContext* TargetExecutionContext; // 0x18
 		::System::Object* StateForCallback; // 0x20
-		::System::Threading::CancellationTokenSource* CancellationTokenSource; // 0x28
-		::System::Threading::ExecutionContext* TargetExecutionContext; // 0x30
+		::System::Action_1<::System::Object*>* Callback; // 0x28
+		::System::Threading::SynchronizationContext* TargetSyncContext; // 0x30
 
 		::System::Void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::SynchronizationContext* targetSyncContext, ::System::Threading::ExecutionContext* targetExecutionContext, ::System::Threading::CancellationTokenSource* cancellationTokenSource)
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StanceWeakShowState_TypeDefinitionIndex = 59979;
+	inline static constexpr unsigned int StanceWeakShowState_TypeDefinitionIndex = 67377;
 
 	enum class StanceWeakShowState : ::System::Int32
 	{

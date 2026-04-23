@@ -6,10 +6,10 @@ class Class_2_8443F308FD8840B9;
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_8443F308FD8840B9___C__DISPLAYCLASS31_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x11411E70)
-#define CLASS_2_8443F308FD8840B9___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1140E260)
+#define CLASS_2_8443F308FD8840B9___C__DISPLAYCLASS31_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xE110D50)
+#define CLASS_2_8443F308FD8840B9___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE110D40)
 
-inline static constexpr unsigned int Class_2_8443F308FD8840B9___c__DisplayClass31_0_TypeDefinitionIndex = 60578;
+inline static constexpr unsigned int Class_2_8443F308FD8840B9___c__DisplayClass31_0_TypeDefinitionIndex = 68015;
 
 class Class_2_8443F308FD8840B9___c__DisplayClass31_0 : public ::System::Object
 {

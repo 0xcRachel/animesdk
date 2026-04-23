@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_TYPEDEPENDENCYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A7250)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_TYPEDEPENDENCYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F5A6F0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int TypeDependencyAttribute_TypeDefinitionIndex = 1382;
+	inline static constexpr unsigned int TypeDependencyAttribute_TypeDefinitionIndex = 1384;
 
 	class TypeDependencyAttribute : public ::System::Attribute
 	{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA274360)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__SHOWEXITUI_B__0_OFFSET UNITYSDK_OFFSET(0xA280270)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FFC800)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS66_0__SHOWEXITUI_B__0_OFFSET UNITYSDK_OFFSET(0x15FFC810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass66_0_TypeDefinitionIndex = 49517;
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass66_0_TypeDefinitionIndex = 56339;
 
 	class RPGSDKAccountManager___c__DisplayClass66_0 : public ::System::Object
 	{

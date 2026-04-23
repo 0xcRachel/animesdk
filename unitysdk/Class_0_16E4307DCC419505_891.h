@@ -1,8 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/EventType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_891_TypeDefinitionIndex = 59951;
+namespace Spine { class AnimationState; }
+namespace Spine { class Skeleton; }
+namespace Spine { class TrackEntry; }
+namespace Spine::Unity { class SkeletonDataAsset; }
+namespace System { class String; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_891_TypeDefinitionIndex = 63624;
 
 class Class_0_16E4307DCC419505_891
 {

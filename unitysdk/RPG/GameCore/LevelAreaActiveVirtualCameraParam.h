@@ -4,20 +4,20 @@
 
 namespace RPG::GameCore { class LevelEntityVCameraConfig; }
 
-#define RPG_GAMECORE_LEVELAREAACTIVEVIRTUALCAMERAPARAM_RESET_OFFSET UNITYSDK_OFFSET(0xA982B50)
-#define RPG_GAMECORE_LEVELAREAACTIVEVIRTUALCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA982BB0)
+#define RPG_GAMECORE_LEVELAREAACTIVEVIRTUALCAMERAPARAM_RESET_OFFSET UNITYSDK_OFFSET(0xF29B6A0)
+#define RPG_GAMECORE_LEVELAREAACTIVEVIRTUALCAMERAPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xF29B6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAreaActiveVirtualCameraParam_TypeDefinitionIndex = 46624;
+	inline static constexpr unsigned int LevelAreaActiveVirtualCameraParam_TypeDefinitionIndex = 53332;
 
 	class LevelAreaActiveVirtualCameraParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::LevelEntityVCameraConfig* LevelEntityVCameraConfig; // 0x10
-		::System::Boolean KeepVCamNearClipPlane; // 0x18
-		::System::Boolean LookAtLocalPlayer; // 0x19
-		::System::Single OrthographicSize; // 0x1C
+		::System::Single OrthographicSize; // 0x18
+		::System::Boolean LookAtLocalPlayer; // 0x1C
+		::System::Boolean KeepVCamNearClipPlane; // 0x1D
 
 		::System::Void _ctor()
 		{

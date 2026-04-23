@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SRDEBUGGER_SERVICES_PROFILERSERVICESELECTOR_GETPROFILERSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1845F9A0)
+#define SRDEBUGGER_SERVICES_PROFILERSERVICESELECTOR_GETPROFILERSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x17C487F0)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ProfilerServiceSelector_TypeDefinitionIndex = 29714;
+	inline static constexpr unsigned int ProfilerServiceSelector_TypeDefinitionIndex = 35434;
 
 	class ProfilerServiceSelector : public ::System::Object
 	{

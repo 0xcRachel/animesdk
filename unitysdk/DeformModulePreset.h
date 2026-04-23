@@ -9,19 +9,19 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 
-#define DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0xCB532D0)
-#define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0xCB532E0)
-#define DEFORMMODULEPRESET__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB53330)
-#define DEFORMMODULEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xCB532F0)
+#define DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0xAD7ED60)
+#define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0xAD7ED70)
+#define DEFORMMODULEPRESET__CCTOR_OFFSET UNITYSDK_OFFSET(0xAD7EDC0)
+#define DEFORMMODULEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xAD7ED80)
 
-inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 38075;
+inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 43955;
 
 class DeformModulePreset : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::String** StaticGet_Field_5_7()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeformModulePreset_TypeDefinitionIndex)->GetStaticField(0x47E10);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeformModulePreset_TypeDefinitionIndex)->GetStaticField(0x69030);
 	}
 	::DeformModulePreset_UVTillingMode UVMode; // 0x18
 	::UnityEngine::Vector3 ModuleSize; // 0x1C

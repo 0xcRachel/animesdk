@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class GaussianBlurTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xAB98D50)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x16B224F0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int GaussianBlurTimelineClip_TypeDefinitionIndex = 39377;
+	inline static constexpr unsigned int GaussianBlurTimelineClip_TypeDefinitionIndex = 45286;
 
 	class GaussianBlurTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::GaussianBlurTimelineBehaviour*>
 	{

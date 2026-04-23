@@ -5,22 +5,22 @@
 class Class_1_E012177D06C0B2FD;
 namespace RPG::GameCore { class DeviceSettingConfig; }
 
-#define CLASS_1_39FD651A90302E04_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x103975B0)
-#define CLASS_1_39FD651A90302E04_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0x103978A0)
-#define CLASS_1_39FD651A90302E04_METHOD_1_BAD4FD950C310B05_OFFSET UNITYSDK_OFFSET(0x10397840)
+#define CLASS_1_39FD651A90302E04_METHOD_1_41A074549EF25F63_OFFSET UNITYSDK_OFFSET(0x155C8340)
+#define CLASS_1_39FD651A90302E04_METHOD_1_9C06C768B25E4E13_OFFSET UNITYSDK_OFFSET(0x155C8630)
+#define CLASS_1_39FD651A90302E04_METHOD_1_BAD4FD950C310B05_OFFSET UNITYSDK_OFFSET(0x155C85D0)
 
-inline static constexpr unsigned int Class_1_39FD651A90302E04_TypeDefinitionIndex = 55733;
+inline static constexpr unsigned int Class_1_39FD651A90302E04_TypeDefinitionIndex = 62956;
 
 class Class_1_39FD651A90302E04 : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::DeviceSettingConfig** StaticGet_Field_1_0()
 	{
-		return (::RPG::GameCore::DeviceSettingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_39FD651A90302E04_TypeDefinitionIndex)->GetStaticField(0x11150);
+		return (::RPG::GameCore::DeviceSettingConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_39FD651A90302E04_TypeDefinitionIndex)->GetStaticField(0x5B860);
 	}
 	static ::Class_1_E012177D06C0B2FD** StaticGet_Field_1_1()
 	{
-		return (::Class_1_E012177D06C0B2FD**)Il2CppClass::FromTypeDefinitionIndex(Class_1_39FD651A90302E04_TypeDefinitionIndex)->GetStaticField(0x11158);
+		return (::Class_1_E012177D06C0B2FD**)Il2CppClass::FromTypeDefinitionIndex(Class_1_39FD651A90302E04_TypeDefinitionIndex)->GetStaticField(0x5B868);
 	}
 
 	static ::System::Void Method_1_41A074549EF25F63()

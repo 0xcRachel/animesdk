@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKNAMELIST_METHOD_2_EC4F9E86676BC7A8_OFFSET UNITYSDK_OFFSET(0x178B7CF0)
-#define RPG_GAMECORE_TRACKNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x178B7DC0)
+#define RPG_GAMECORE_TRACKNAMELIST_METHOD_2_EC4F9E86676BC7A8_OFFSET UNITYSDK_OFFSET(0x1948D5D0)
+#define RPG_GAMECORE_TRACKNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1948D6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 15660;
+	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 16182;
 
 	class TrackNameList : public ::RPG::GameCore::JsonConfig
 	{

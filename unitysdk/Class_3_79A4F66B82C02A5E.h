@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelLayer_1.h"
 
-class Class_2_9C2F1FCEC1A75FFD;
+class Class_2_1A8148841049062A;
 
-#define CLASS_3_79A4F66B82C02A5E__CTOR_OFFSET UNITYSDK_OFFSET(0x1679B3F0)
+#define CLASS_3_79A4F66B82C02A5E__CTOR_OFFSET UNITYSDK_OFFSET(0x18F7CEC0)
 
-inline static constexpr unsigned int Class_3_79A4F66B82C02A5E_TypeDefinitionIndex = 33238;
+inline static constexpr unsigned int Class_3_79A4F66B82C02A5E_TypeDefinitionIndex = 39028;
 
-class Class_3_79A4F66B82C02A5E : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayer_1<::Class_2_9C2F1FCEC1A75FFD*>
+class Class_3_79A4F66B82C02A5E : public ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayer_1<::Class_2_1A8148841049062A*>
 {
 public:
 	::System::Void _ctor()

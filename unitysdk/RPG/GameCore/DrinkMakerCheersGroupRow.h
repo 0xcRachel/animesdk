@@ -6,27 +6,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1718B730)
-#define RPG_GAMECORE_DRINKMAKERCHEERSGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1718BBB0)
+#define RPG_GAMECORE_DRINKMAKERCHEERSGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19137730)
+#define RPG_GAMECORE_DRINKMAKERCHEERSGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19137BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersGroupRow_TypeDefinitionIndex = 12044;
+	inline static constexpr unsigned int DrinkMakerCheersGroupRow_TypeDefinitionIndex = 12477;
 
 	class DrinkMakerCheersGroupRow : public ::System::Object
 	{
 	public:
-		::System::String* AvatarRequestHeadIcon; // 0x10
-		::System::String* HeadbookHeadIcon; // 0x18
-		::Il2CppArray<::System::UInt32>* IngredientList; // 0x20
-		::System::UInt32 PrimaryDrinkID; // 0x28
-		::System::UInt32 HidingDrinkID; // 0x2C
-		::System::UInt32 NextGroupID; // 0x30
-		::RPG::Client::TextID AvatarName; // 0x38
-		::System::UInt32 GroupID; // 0x48
-		::System::UInt32 TutorialGuideGroupID; // 0x4C
-		::RPG::Client::TextID GroupName; // 0x50
-		::RPG::Client::TextID RoleRequirement; // 0x60
+		::Il2CppArray<::System::UInt32>* IngredientList; // 0x10
+		::System::String* AvatarRequestHeadIcon; // 0x18
+		::System::String* HeadbookHeadIcon; // 0x20
+		::System::UInt32 GroupID; // 0x28
+		::System::UInt32 TutorialGuideGroupID; // 0x2C
+		::RPG::Client::TextID GroupName; // 0x30
+		::RPG::Client::TextID RoleRequirement; // 0x40
+		::RPG::Client::TextID AvatarName; // 0x50
+		::System::UInt32 PrimaryDrinkID; // 0x60
+		::System::UInt32 NextGroupID; // 0x64
+		::System::UInt32 HidingDrinkID; // 0x68
 
 		::System::Void _ctor()
 		{

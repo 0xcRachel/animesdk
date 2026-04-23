@@ -4,12 +4,12 @@
 
 class Class_1_CD9875F83BA64B10;
 
-#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA480DF0)
-#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0__SYNCSETTLEDRECORDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xA481310)
+#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153451B0)
+#define RPG_CLIENT_SETTLEDPUNKLORDDATA___C__DISPLAYCLASS1_0__SYNCSETTLEDRECORDINFO_B__0_OFFSET UNITYSDK_OFFSET(0x153456D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SettledPunkLordData___c__DisplayClass1_0_TypeDefinitionIndex = 54302;
+	inline static constexpr unsigned int SettledPunkLordData___c__DisplayClass1_0_TypeDefinitionIndex = 61465;
 
 	class SettledPunkLordData___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -6,26 +6,26 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1847C660)
-#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1847C690)
-#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1847C9B0)
-#define SRF_HIERARCHY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1847CA60)
-#define SRF_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x1847CA50)
+#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1A314250)
+#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1A314280)
+#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A3145A0)
+#define SRF_HIERARCHY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A314650)
+#define SRF_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A314640)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 27661;
+	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 33285;
 
 	class Hierarchy : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>** StaticGet_Cache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x1AC20);
-		}
 		static ::Il2CppArray<::System::Char>** StaticGet_Seperator()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x1AC28);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x4F440);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>** StaticGet_Cache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(Hierarchy_TypeDefinitionIndex)->GetStaticField(0x4F448);
 		}
 
 		::System::Void _ctor()

@@ -5,7 +5,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DronesPuzzleAchieveAreaConfig_TypeDefinitionIndex = 64021;
+	inline static constexpr unsigned int DronesPuzzleAchieveAreaConfig_TypeDefinitionIndex = 72068;
 
 	struct alignas(8) DronesPuzzleAchieveAreaConfig
 	{

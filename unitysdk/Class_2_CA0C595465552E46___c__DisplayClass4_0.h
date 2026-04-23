@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_99BD961747420BEB_53;
+class Class_1_4BC858D7C27E10ED_55;
 namespace RPG::Client { class RogueFormulaData; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_2_CA0C595465552E46___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8B80FA0)
-#define CLASS_2_CA0C595465552E46___C__DISPLAYCLASS4_0___PLAYFORMULASTORY_B__0_OFFSET UNITYSDK_OFFSET(0x8B816B0)
+#define CLASS_2_CA0C595465552E46___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE74590)
+#define CLASS_2_CA0C595465552E46___C__DISPLAYCLASS4_0___PLAYFORMULASTORY_B__0_OFFSET UNITYSDK_OFFSET(0xCE74CA0)
 
-inline static constexpr unsigned int Class_2_CA0C595465552E46___c__DisplayClass4_0_TypeDefinitionIndex = 55154;
+inline static constexpr unsigned int Class_2_CA0C595465552E46___c__DisplayClass4_0_TypeDefinitionIndex = 62342;
 
 class Class_2_CA0C595465552E46___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_1_99BD961747420BEB_53* info; // 0x10
+	::Class_1_4BC858D7C27E10ED_55* info; // 0x10
 	::RPG::Client::RogueFormulaData* data; // 0x18
 
 	::System::Void _ctor()

@@ -4,33 +4,33 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_CANLAUNCH_OFFSET UNITYSDK_OFFSET(0x9B25A00)
-#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x9B25B00)
-#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_ISDEAD_OFFSET UNITYSDK_OFFSET(0x9B259F0)
-#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_ISENEMY_OFFSET UNITYSDK_OFFSET(0x9B227A0)
-#define RPG_CLIENT_MARBLEBATTLESEALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9B25C60)
+#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_CANLAUNCH_OFFSET UNITYSDK_OFFSET(0x16F54410)
+#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x16F5BF80)
+#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_ISDEAD_OFFSET UNITYSDK_OFFSET(0x16F5BF70)
+#define RPG_CLIENT_MARBLEBATTLESEALDATA_GET_ISENEMY_OFFSET UNITYSDK_OFFSET(0x16F57C10)
+#define RPG_CLIENT_MARBLEBATTLESEALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16F5C0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleSealData_TypeDefinitionIndex = 53449;
+	inline static constexpr unsigned int MarbleBattleSealData_TypeDefinitionIndex = 60593;
 
 	class MarbleBattleSealData : public ::System::Object
 	{
 	public:
-		::System::UInt32 BuffCount; // 0x10
-		::System::UInt32 Level; // 0x14
-		::System::Int32 Attack; // 0x18
-		::System::UInt32 SealId; // 0x1C
-		::System::Boolean HasAction; // 0x20
-		::System::Boolean IsOffField; // 0x21
-		::System::Boolean TeamA; // 0x22
-		::System::Boolean IsForbid; // 0x23
-		::System::Int32 Hp; // 0x24
-		::System::Int32 InitHp; // 0x28
-		::System::UInt32 BuffId; // 0x2C
-		::System::Int32 WhiteAttack; // 0x30
+		::System::Int32 InitHp; // 0x10
+		::System::UInt32 SealId; // 0x14
+		::System::Int32 Hp; // 0x18
+		::System::Int32 WhiteAttack; // 0x1C
+		::System::UInt32 Level; // 0x20
+		::System::UInt32 BuffCount; // 0x24
+		::System::UInt32 EntityId; // 0x28
+		::System::Boolean TeamA; // 0x2C
+		::System::Boolean IsOffField; // 0x2D
+		::System::Boolean IsForbid; // 0x2E
+		::System::Boolean HasAction; // 0x2F
+		::System::Int32 Attack; // 0x30
 		::System::Int32 MaxHp; // 0x34
-		::System::UInt32 EntityId; // 0x38
+		::System::UInt32 BuffId; // 0x38
 
 		::System::Void _ctor()
 		{

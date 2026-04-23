@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/DiceCombatDiceType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUPGRADELOADMODELREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x9494950)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUPGRADELOADMODELREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x17A32050)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUpgradeLoadModelRequest_TypeDefinitionIndex = 61898;
+	inline static constexpr unsigned int DiceCombatUpgradeLoadModelRequest_TypeDefinitionIndex = 69805;
 
 	class DiceCombatUpgradeLoadModelRequest : public ::System::Object
 	{
 	public:
 		::System::Int32 Index; // 0x10
-		::System::Boolean IsLocalPlayer; // 0x14
-		::System::Boolean IsSpecial; // 0x15
-		::System::Int32 UpFace; // 0x18
-		::System::UInt32 DiceID; // 0x1C
-		::RPG::GameCore::DiceCombatDiceType DiceType; // 0x20
+		::System::Int32 UpFace; // 0x14
+		::System::UInt32 EntityUID; // 0x18
+		::System::Boolean IsSpecial; // 0x1C
+		::System::UInt32 DiceID; // 0x20
+		::RPG::GameCore::DiceCombatDiceType DiceType; // 0x24
 
 		::System::Void _ctor()
 		{

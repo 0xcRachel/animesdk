@@ -6,30 +6,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B67D0)
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B6D40)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199C5650)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199C5BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryLineRow_TypeDefinitionIndex = 11384;
+	inline static constexpr unsigned int SwordTrainingStoryLineRow_TypeDefinitionIndex = 11786;
 
 	class SwordTrainingStoryLineRow : public ::System::Object
 	{
 	public:
-		::System::String* StartTalkImage; // 0x10
-		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x18
-		::System::String* StoryLineImage; // 0x20
-		::System::String* EndingOptionKey; // 0x28
-		::Il2CppArray<::System::UInt32>* EndingStoryIDList; // 0x30
-		::Il2CppArray<::System::UInt32>* TurnIDList; // 0x38
-		::System::UInt32 StoryLine; // 0x40
-		::RPG::Client::TextID StoryLineDesc; // 0x48
-		::RPG::Client::TextID StoryHardDesc; // 0x58
+		::Il2CppArray<::System::UInt32>* EndingStoryIDList; // 0x10
+		::System::String* EndingOptionKey; // 0x18
+		::Il2CppArray<::System::UInt32>* TurnIDList; // 0x20
+		::System::String* StartTalkImage; // 0x28
+		::System::String* StoryLineImage; // 0x30
+		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x38
+		::RPG::Client::TextID StoryLineDesc; // 0x40
+		::System::UInt32 RewardID; // 0x50
+		::System::UInt32 UnlockID; // 0x54
+		::System::UInt32 StartTalkSentenceID; // 0x58
+		::System::UInt32 StoryLine; // 0x5C
+		::System::UInt32 TalkSentenceID; // 0x60
 		::RPG::Client::TextID StoryLineName; // 0x68
-		::System::UInt32 StartTalkSentenceID; // 0x78
-		::System::UInt32 TalkSentenceID; // 0x7C
-		::System::UInt32 UnlockID; // 0x80
-		::System::UInt32 RewardID; // 0x84
+		::RPG::Client::TextID StoryHardDesc; // 0x78
 
 		::System::Void _ctor()
 		{

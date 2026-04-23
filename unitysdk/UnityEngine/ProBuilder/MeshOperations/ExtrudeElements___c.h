@@ -6,29 +6,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188616C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18861700)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__DETACHFACES_B__3_0_OFFSET UNITYSDK_OFFSET(0x18861710)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__EXTRUDEPERFACE_B__4_0_OFFSET UNITYSDK_OFFSET(0x18861730)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9CB3D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB9CB410)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__DETACHFACES_B__3_0_OFFSET UNITYSDK_OFFSET(0xB9CB420)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_EXTRUDEELEMENTS___C__EXTRUDEPERFACE_B__4_0_OFFSET UNITYSDK_OFFSET(0xB9CB440)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ExtrudeElements___c_TypeDefinitionIndex = 34234;
+	inline static constexpr unsigned int ExtrudeElements___c_TypeDefinitionIndex = 40053;
 
 	class ExtrudeElements___c : public ::System::Object
 	{
 	public:
+		static ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c** StaticGet___9()
+		{
+			return (::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c**)Il2CppClass::FromTypeDefinitionIndex(ExtrudeElements___c_TypeDefinitionIndex)->GetStaticField(0x566D0);
+		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(ExtrudeElements___c_TypeDefinitionIndex)->GetStaticField(0x3B6C0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(ExtrudeElements___c_TypeDefinitionIndex)->GetStaticField(0x566D8);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ExtrudeElements___c_TypeDefinitionIndex)->GetStaticField(0x3B6C8);
-		}
-		static ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c** StaticGet___9()
-		{
-			return (::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c**)Il2CppClass::FromTypeDefinitionIndex(ExtrudeElements___c_TypeDefinitionIndex)->GetStaticField(0x3B6D0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ExtrudeElements___c_TypeDefinitionIndex)->GetStaticField(0x566E0);
 		}
 
 		static ::System::Void _cctor()

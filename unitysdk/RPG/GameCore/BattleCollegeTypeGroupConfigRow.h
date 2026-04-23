@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLECOLLEGETYPEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FE22D0)
-#define RPG_GAMECORE_BATTLECOLLEGETYPEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE25C0)
+#define RPG_GAMECORE_BATTLECOLLEGETYPEGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187A0680)
+#define RPG_GAMECORE_BATTLECOLLEGETYPEGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187A0970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCollegeTypeGroupConfigRow_TypeDefinitionIndex = 11721;
+	inline static constexpr unsigned int BattleCollegeTypeGroupConfigRow_TypeDefinitionIndex = 12134;
 
 	class BattleCollegeTypeGroupConfigRow : public ::System::Object
 	{
@@ -20,10 +20,10 @@ namespace RPG::GameCore
 		::System::String* TabIconPath; // 0x10
 		::System::String* BackGroundImagePath; // 0x18
 		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditions; // 0x20
-		::RPG::Client::TextID BattleCollegeTypeGroupIDTitle; // 0x28
-		::System::UInt32 RewardID; // 0x38
-		::System::UInt32 BattleCollegeTypeGroupID; // 0x3C
-		::System::Boolean IsAdvanced; // 0x40
+		::System::UInt32 BattleCollegeTypeGroupID; // 0x28
+		::System::UInt32 RewardID; // 0x2C
+		::System::Boolean IsAdvanced; // 0x30
+		::RPG::Client::TextID BattleCollegeTypeGroupIDTitle; // 0x38
 
 		::System::Void _ctor()
 		{

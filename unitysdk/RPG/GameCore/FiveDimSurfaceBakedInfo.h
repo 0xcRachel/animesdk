@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimSurfacePoint; }
 
-#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_METHOD_2_7F4A8C00A4DFBE23_OFFSET UNITYSDK_OFFSET(0x172231D0)
-#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x172235C0)
+#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_METHOD_2_7F4A8C00A4DFBE23_OFFSET UNITYSDK_OFFSET(0x191F52D0)
+#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x191F56C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 15324;
+	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 15843;
 
 	class FiveDimSurfaceBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

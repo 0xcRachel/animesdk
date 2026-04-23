@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F14160)
-#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F14510)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18883950)
+#define RPG_GAMECORE_ACTIVITYLOCALLEGENDSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18883D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityLocalLegendStageConfigRow_TypeDefinitionIndex = 10877;
+	inline static constexpr unsigned int ActivityLocalLegendStageConfigRow_TypeDefinitionIndex = 11281;
 
 	class ActivityLocalLegendStageConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ManikinPrefabPath; // 0x10
-		::System::String* ManikinConfigPath; // 0x18
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x20
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x28
-		::System::UInt32 UnlockQuest; // 0x30
-		::System::UInt32 BattleAreaID; // 0x34
-		::System::UInt32 EventID; // 0x38
-		::System::UInt32 GroupID; // 0x3C
-		::RPG::Client::TextID FearlessStageMechanism; // 0x40
-		::RPG::GameCore::ActivityLocalLegendDifficulty DifficultyLevel; // 0x50
+		::System::String* ManikinConfigPath; // 0x10
+		::System::String* ManikinPrefabPath; // 0x18
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x20
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x28
+		::System::UInt32 EventID; // 0x30
+		::System::UInt32 GroupID; // 0x34
+		::System::UInt32 UnlockQuest; // 0x38
+		::System::UInt32 BattleAreaID; // 0x3C
+		::RPG::GameCore::ActivityLocalLegendDifficulty DifficultyLevel; // 0x40
+		::RPG::Client::TextID FearlessStageMechanism; // 0x48
 
 		::System::Void _ctor()
 		{

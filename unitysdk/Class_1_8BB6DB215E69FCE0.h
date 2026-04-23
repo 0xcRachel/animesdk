@@ -4,17 +4,17 @@
 #include "unitysdk/UnityEngine/UIVertex.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_8BB6DB215E69FCE0_METHOD_1_8F4CE8F7DCFF553A_OFFSET UNITYSDK_OFFSET(0x87B1240)
-#define CLASS_1_8BB6DB215E69FCE0__CCTOR_OFFSET UNITYSDK_OFFSET(0x87B1230)
+#define CLASS_1_8BB6DB215E69FCE0_METHOD_1_8F4CE8F7DCFF553A_OFFSET UNITYSDK_OFFSET(0x105A90E0)
+#define CLASS_1_8BB6DB215E69FCE0__CCTOR_OFFSET UNITYSDK_OFFSET(0x105A90D0)
 
-inline static constexpr unsigned int Class_1_8BB6DB215E69FCE0_TypeDefinitionIndex = 60215;
+inline static constexpr unsigned int Class_1_8BB6DB215E69FCE0_TypeDefinitionIndex = 67633;
 
 class Class_1_8BB6DB215E69FCE0 : public ::System::Object
 {
 public:
 	static ::UnityEngine::Vector3* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8BB6DB215E69FCE0_TypeDefinitionIndex)->GetStaticField(0xF7E0);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8BB6DB215E69FCE0_TypeDefinitionIndex)->GetStaticField(0x11920);
 	}
 
 	static ::System::Void _cctor()

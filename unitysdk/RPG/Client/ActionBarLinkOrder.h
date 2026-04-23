@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionBarLinkOrder_TypeDefinitionIndex = 58377;
+	inline static constexpr unsigned int ActionBarLinkOrder_TypeDefinitionIndex = 65666;
 
 	enum class ActionBarLinkOrder : ::System::Int32
 	{

@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define MESSAGEPACK_STRINGENCODING_GETSTRING_OFFSET UNITYSDK_OFFSET(0x15D85F90)
-#define MESSAGEPACK_STRINGENCODING__CCTOR_OFFSET UNITYSDK_OFFSET(0x15D9F7D0)
+#define MESSAGEPACK_STRINGENCODING_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1961C930)
+#define MESSAGEPACK_STRINGENCODING__CCTOR_OFFSET UNITYSDK_OFFSET(0x19635EF0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int StringEncoding_TypeDefinitionIndex = 9100;
+	inline static constexpr unsigned int StringEncoding_TypeDefinitionIndex = 9297;
 
 	class StringEncoding : public ::System::Object
 	{
 	public:
 		static ::System::Text::Encoding** StaticGet_UTF8()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(StringEncoding_TypeDefinitionIndex)->GetStaticField(0x198F0);
+			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(StringEncoding_TypeDefinitionIndex)->GetStaticField(0x1DF20);
 		}
 
 		static ::System::Void _cctor()

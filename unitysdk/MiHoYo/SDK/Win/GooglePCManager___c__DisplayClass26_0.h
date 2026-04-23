@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK::Win { class GooglePCManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160B7160)
-#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS26_0__SHOWGOOGLEWEBPAY_B__0_OFFSET UNITYSDK_OFFSET(0x160BA310)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154791A0)
+#define MIHOYO_SDK_WIN_GOOGLEPCMANAGER___C__DISPLAYCLASS26_0__SHOWGOOGLEWEBPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1547C350)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GooglePCManager___c__DisplayClass26_0_TypeDefinitionIndex = 7948;
+	inline static constexpr unsigned int GooglePCManager___c__DisplayClass26_0_TypeDefinitionIndex = 8094;
 
 	class GooglePCManager___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x10
-		::System::String* payGoodsId; // 0x18
+		::System::String* payGoodsId; // 0x10
+		::MiHoYo::SDK::Win::GooglePCManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

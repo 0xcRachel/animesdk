@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AIDecisionUnitConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_AISWITCHCASEDECISION_METHOD_2_CCB36E1C71671757_OFFSET UNITYSDK_OFFSET(0x16EA66D0)
-#define RPG_GAMECORE_AISWITCHCASEDECISION__CTOR_OFFSET UNITYSDK_OFFSET(0x16EA6810)
+#define RPG_GAMECORE_AISWITCHCASEDECISION_METHOD_2_CCB36E1C71671757_OFFSET UNITYSDK_OFFSET(0x18855290)
+#define RPG_GAMECORE_AISWITCHCASEDECISION__CTOR_OFFSET UNITYSDK_OFFSET(0x188553D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISwitchCaseDecision_TypeDefinitionIndex = 14182;
+	inline static constexpr unsigned int AISwitchCaseDecision_TypeDefinitionIndex = 14651;
 
 	class AISwitchCaseDecision : public ::RPG::GameCore::JsonConfig
 	{

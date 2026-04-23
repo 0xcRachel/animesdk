@@ -6,23 +6,23 @@
 
 namespace RPG::GameCore { class GridFightFrontSpecialSPConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_INITIALSPECIALSP_OFFSET UNITYSDK_OFFSET(0x982C210)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_MAXSPECIALSP_OFFSET UNITYSDK_OFFSET(0x982C220)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_ROLEID_OFFSET UNITYSDK_OFFSET(0x982C1F0)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_SPECIALSPTYPE_OFFSET UNITYSDK_OFFSET(0x982C200)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x982C1B0)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_INITIALSPECIALSP_OFFSET UNITYSDK_OFFSET(0x174D88D0)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_MAXSPECIALSP_OFFSET UNITYSDK_OFFSET(0x174D88E0)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_ROLEID_OFFSET UNITYSDK_OFFSET(0x174D88B0)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_SPECIALSPTYPE_OFFSET UNITYSDK_OFFSET(0x174D88C0)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x174D8870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFrontSpecialSPConfig_TypeDefinitionIndex = 52881;
+	inline static constexpr unsigned int GridFightFrontSpecialSPConfig_TypeDefinitionIndex = 59957;
 
 	class GridFightFrontSpecialSPConfig : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint _InitialSpecialSP_k__BackingField; // 0x10
-		::RPG::GameCore::GridFightFrontSpecialSPDisplayType _SpecialSPType_k__BackingField; // 0x18
-		::System::UInt32 _RoleID_k__BackingField; // 0x1C
-		::RPG::GameCore::FixPoint _MaxSpecialSP_k__BackingField; // 0x20
+		::RPG::GameCore::GridFightFrontSpecialSPDisplayType _SpecialSPType_k__BackingField; // 0x10
+		::System::UInt32 _RoleID_k__BackingField; // 0x14
+		::RPG::GameCore::FixPoint _MaxSpecialSP_k__BackingField; // 0x18
+		::RPG::GameCore::FixPoint _InitialSpecialSP_k__BackingField; // 0x20
 
 		::System::Void _ctor(::RPG::GameCore::GridFightFrontSpecialSPConfigRow* row)
 		{

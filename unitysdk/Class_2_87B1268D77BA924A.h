@@ -10,60 +10,60 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define CLASS_2_87B1268D77BA924A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1067B570)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_27A7A836B45390B2_OFFSET UNITYSDK_OFFSET(0x1067CCB0)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1067BE70)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_4EB830385221057A_OFFSET UNITYSDK_OFFSET(0x1067BD60)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_7D3D943E4225E9BF_OFFSET UNITYSDK_OFFSET(0x1067CA80)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_848C4A0045281EE1_OFFSET UNITYSDK_OFFSET(0x1067CCC0)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_AC1415F382C2A434_OFFSET UNITYSDK_OFFSET(0x1067B750)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1067BE10)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_CB90D463EEA11F23_OFFSET UNITYSDK_OFFSET(0x1067BCA0)
-#define CLASS_2_87B1268D77BA924A_METHOD_2_F4F45120A7A386A5_OFFSET UNITYSDK_OFFSET(0x1067C680)
-#define CLASS_2_87B1268D77BA924A__CCTOR_OFFSET UNITYSDK_OFFSET(0x1067CD00)
-#define CLASS_2_87B1268D77BA924A__CTOR_OFFSET UNITYSDK_OFFSET(0x1067BA40)
-#define CLASS_2_87B1268D77BA924A___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1067CDC0)
+#define CLASS_2_87B1268D77BA924A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10B09E40)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_27A7A836B45390B2_OFFSET UNITYSDK_OFFSET(0x10B0B510)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x10B0A730)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_4EB830385221057A_OFFSET UNITYSDK_OFFSET(0x10B0A620)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_7D3D943E4225E9BF_OFFSET UNITYSDK_OFFSET(0x10B0B2F0)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_848C4A0045281EE1_OFFSET UNITYSDK_OFFSET(0x10B0B520)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_AC1415F382C2A434_OFFSET UNITYSDK_OFFSET(0x10B0A020)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x10B0A6D0)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_CB90D463EEA11F23_OFFSET UNITYSDK_OFFSET(0x10B0A560)
+#define CLASS_2_87B1268D77BA924A_METHOD_2_F4F45120A7A386A5_OFFSET UNITYSDK_OFFSET(0x10B0AF10)
+#define CLASS_2_87B1268D77BA924A__CCTOR_OFFSET UNITYSDK_OFFSET(0x10B0B560)
+#define CLASS_2_87B1268D77BA924A__CTOR_OFFSET UNITYSDK_OFFSET(0x10B0A300)
+#define CLASS_2_87B1268D77BA924A___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10B0B620)
 
-inline static constexpr unsigned int Class_2_87B1268D77BA924A_TypeDefinitionIndex = 40226;
+inline static constexpr unsigned int Class_2_87B1268D77BA924A_TypeDefinitionIndex = 46135;
 
 class Class_2_87B1268D77BA924A : public ::Class_1_E43FAD8039115851
 {
 public:
-	static ::System::Int32* StaticGet_Field_2_7()
+	static ::System::Int32* StaticGet_Field_2_3()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0D0);
-	}
-	static ::System::Int32* StaticGet_Field_2_6()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0D4);
-	}
-	static ::System::Int32* StaticGet_Field_2_1()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0D8);
-	}
-	static ::System::Int32* StaticGet_Field_2_4()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0DC);
-	}
-	static ::System::Int32* StaticGet_Field_2_5()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0E0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B30);
 	}
 	static ::System::Int32* StaticGet_Field_2_8()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0E4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B34);
 	}
 	static ::System::Int32* StaticGet_Field_2_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0E8);
-	}
-	static ::System::Int32* StaticGet_Field_2_3()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0EC);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B38);
 	}
 	static ::System::Int32* StaticGet_Field_2_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0xA0F0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B3C);
+	}
+	static ::System::Int32* StaticGet_Field_2_5()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B40);
+	}
+	static ::System::Int32* StaticGet_Field_2_6()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B44);
+	}
+	static ::System::Int32* StaticGet_Field_2_4()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B48);
+	}
+	static ::System::Int32* StaticGet_Field_2_7()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B4C);
+	}
+	static ::System::Int32* StaticGet_Field_2_1()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_87B1268D77BA924A_TypeDefinitionIndex)->GetStaticField(0x10B50);
 	}
 	::UnityEngine::RenderTexture* Field_2_10; // 0x48
 	::UnityEngine::RenderTexture* Field_2_9; // 0x50

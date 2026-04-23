@@ -5,12 +5,12 @@
 namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_COLLIDERSHADERPROPERTYCONNECTION_GET_TARGETSHADERPROPERTYTRANSITION_OFFSET UNITYSDK_OFFSET(0x9410240)
-#define RPG_CLIENT_COLLIDERSHADERPROPERTYCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x9410320)
+#define RPG_CLIENT_COLLIDERSHADERPROPERTYCONNECTION_GET_TARGETSHADERPROPERTYTRANSITION_OFFSET UNITYSDK_OFFSET(0x15BD9060)
+#define RPG_CLIENT_COLLIDERSHADERPROPERTYCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x15BD9140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColliderShaderPropertyConnection_TypeDefinitionIndex = 56253;
+	inline static constexpr unsigned int ColliderShaderPropertyConnection_TypeDefinitionIndex = 63496;
 
 	class ColliderShaderPropertyConnection : public ::UnityEngine::MonoBehaviour
 	{

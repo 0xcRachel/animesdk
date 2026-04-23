@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEAMGETTRIALAVATARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xA575B80)
+#define RPG_CLIENT_TEAMGETTRIALAVATARPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1053E020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamGetTrialAvatarParam_TypeDefinitionIndex = 55613;
+	inline static constexpr unsigned int TeamGetTrialAvatarParam_TypeDefinitionIndex = 62810;
 
 	class TeamGetTrialAvatarParam : public ::System::Object
 	{

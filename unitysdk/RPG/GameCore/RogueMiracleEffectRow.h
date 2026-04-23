@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1762FAE0)
-#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1762FD30)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199760B0)
+#define RPG_GAMECORE_ROGUEMIRACLEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19976300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 13426;
+	inline static constexpr unsigned int RogueMiracleEffectRow_TypeDefinitionIndex = 13899;
 
 	class RogueMiracleEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::RPG::Client::TextID MiracleDesc; // 0x18
-		::System::UInt32 MiracleEffectID; // 0x28
-		::RPG::Client::TextID MiracleDynamicHint; // 0x30
+		::System::UInt32 MiracleEffectID; // 0x18
+		::RPG::Client::TextID MiracleDynamicHint; // 0x20
+		::RPG::Client::TextID MiracleDesc; // 0x30
 
 		::System::Void _ctor()
 		{

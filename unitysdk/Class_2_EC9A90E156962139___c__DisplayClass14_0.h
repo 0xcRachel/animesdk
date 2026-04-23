@@ -6,10 +6,10 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118E4220)
-#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0___DRAWLASER_B__0_OFFSET UNITYSDK_OFFSET(0x118E43D0)
+#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF58D0F0)
+#define CLASS_2_EC9A90E156962139___C__DISPLAYCLASS14_0___DRAWLASER_B__0_OFFSET UNITYSDK_OFFSET(0xF58D2A0)
 
-inline static constexpr unsigned int Class_2_EC9A90E156962139___c__DisplayClass14_0_TypeDefinitionIndex = 63358;
+inline static constexpr unsigned int Class_2_EC9A90E156962139___c__DisplayClass14_0_TypeDefinitionIndex = 71398;
 
 class Class_2_EC9A90E156962139___c__DisplayClass14_0 : public ::System::Object
 {

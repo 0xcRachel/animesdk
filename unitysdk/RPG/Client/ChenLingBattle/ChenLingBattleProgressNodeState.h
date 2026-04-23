@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleProgressNodeState_TypeDefinitionIndex = 62160;
+	inline static constexpr unsigned int ChenLingBattleProgressNodeState_TypeDefinitionIndex = 70159;
 
 	enum class ChenLingBattleProgressNodeState : ::System::Int32
 	{

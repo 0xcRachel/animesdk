@@ -7,26 +7,26 @@
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTSHADOW_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0xA59F6E0)
-#define RPG_CLIENT_TEXTSHADOW_METHOD_8_F2EA038FAE2982C3_OFFSET UNITYSDK_OFFSET(0xA59FA30)
-#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xA59F7F0)
-#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xA59F7A0)
-#define RPG_CLIENT_TEXTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0xA59F6F0)
-#define RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xA5A0EE0)
-#define RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xA5A0E90)
+#define RPG_CLIENT_TEXTSHADOW_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0x105679D0)
+#define RPG_CLIENT_TEXTSHADOW_METHOD_8_F2EA038FAE2982C3_OFFSET UNITYSDK_OFFSET(0x10567D20)
+#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x10567AE0)
+#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x10567A90)
+#define RPG_CLIENT_TEXTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x105679E0)
+#define RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x105691E0)
+#define RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x10569190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 59573;
+	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 66969;
 
 	class TextShadow : public ::RPG::Client::TextOutline
 	{
 	public:
 		// static const ::System::Single Field_8_3; // 0x0
 		// static const ::System::Single Field_8_4; // 0x0
-		::UnityEngine::Vector2 shadowDistance; // 0xB0
-		::Il2CppArray<::UnityEngine::UIVertex>* Field_8_1; // 0xB8
-		::Il2CppArray<::System::Int32>* Field_8_2; // 0xC0
+		::UnityEngine::Vector2 shadowDistance; // 0xB8
+		::Il2CppArray<::UnityEngine::UIVertex>* Field_8_1; // 0xC0
+		::Il2CppArray<::System::Int32>* Field_8_2; // 0xC8
 
 		::System::Void _ctor()
 		{

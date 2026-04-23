@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x160E3010)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS68_0__SHOWACCOUNTLISTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x160F5800)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS68_0__SHOWACCOUNTLISTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x160F5BD0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154A4090)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS68_0__SHOWACCOUNTLISTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x154B6680)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS68_0__SHOWACCOUNTLISTCONFIRM_B__1_OFFSET UNITYSDK_OFFSET(0x154B69E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass68_0_TypeDefinitionIndex = 8052;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass68_0_TypeDefinitionIndex = 8198;
 
 	class LoginManager___c__DisplayClass68_0 : public ::System::Object
 	{

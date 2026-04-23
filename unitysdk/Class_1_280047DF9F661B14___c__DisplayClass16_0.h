@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/Client/ExeCode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_478;
-class Class_0_16E4307DCC419505_480;
+class Class_0_16E4307DCC419505_557;
+class Class_0_16E4307DCC419505_559;
 class Class_1_280047DF9F661B14;
 class Class_2_4F354829EBADAFFE;
 class Class_2_7419679A7698613D;
 
-#define CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8A5ADD0)
-#define CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__0_OFFSET UNITYSDK_OFFSET(0x8A69DC0)
-#define CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__1_OFFSET UNITYSDK_OFFSET(0x8A69DE0)
+#define CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12C61600)
+#define CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__0_OFFSET UNITYSDK_OFFSET(0x12C61610)
+#define CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__1_OFFSET UNITYSDK_OFFSET(0x12C61630)
 
-inline static constexpr unsigned int Class_1_280047DF9F661B14___c__DisplayClass16_0_TypeDefinitionIndex = 48151;
+inline static constexpr unsigned int Class_1_280047DF9F661B14___c__DisplayClass16_0_TypeDefinitionIndex = 54896;
 
 class Class_1_280047DF9F661B14___c__DisplayClass16_0 : public ::System::Object
 {
@@ -27,13 +27,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Void __MakePreDownloadV2_b__0(::Class_0_16E4307DCC419505_478* progress)
+	::System::Void __MakePreDownloadV2_b__0(::Class_0_16E4307DCC419505_557* progress)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_478*))((::PBYTE)hIl2Cpp + CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__0_OFFSET))(this, progress);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_557*))((::PBYTE)hIl2Cpp + CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__0_OFFSET))(this, progress);
 	}
 
-	::System::Void __MakePreDownloadV2_b__1(::Class_0_16E4307DCC419505_478* patch, ::Class_0_16E4307DCC419505_480* data, ::System::Object* obj, ::RPG::Client::ExeCode code)
+	::System::Void __MakePreDownloadV2_b__1(::Class_0_16E4307DCC419505_557* patch, ::Class_0_16E4307DCC419505_559* data, ::System::Object* obj, ::RPG::Client::ExeCode code)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_478*, ::Class_0_16E4307DCC419505_480*, ::System::Object*, ::RPG::Client::ExeCode))((::PBYTE)hIl2Cpp + CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__1_OFFSET))(this, patch, data, obj, code);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_557*, ::Class_0_16E4307DCC419505_559*, ::System::Object*, ::RPG::Client::ExeCode))((::PBYTE)hIl2Cpp + CLASS_1_280047DF9F661B14___C__DISPLAYCLASS16_0___MAKEPREDOWNLOADV2_B__1_OFFSET))(this, patch, data, obj, code);
 	}
 };

@@ -5,19 +5,19 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYEXCEED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xA993A50)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYEXCEED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xA993A00)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYEXCEED__CTOR_OFFSET UNITYSDK_OFFSET(0xA9939F0)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYEXCEED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF2AC330)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYEXCEED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF2AC2E0)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYEXCEED__CTOR_OFFSET UNITYSDK_OFFSET(0xF2AC2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityActionDelayExceed_TypeDefinitionIndex = 45679;
+	inline static constexpr unsigned int LevelEntityActionDelayExceed_TypeDefinitionIndex = 52331;
 
 	class LevelEntityActionDelayExceed : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* EntityRef; // 0x10
-		::RPG::GameCore::GameEntity* ExceededEntityRef; // 0x18
+		::RPG::GameCore::GameEntity* ExceededEntityRef; // 0x10
+		::RPG::GameCore::GameEntity* EntityRef; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* pEntity, ::RPG::GameCore::GameEntity* pExceededEntity)
 		{

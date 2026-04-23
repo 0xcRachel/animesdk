@@ -5,10 +5,10 @@
 class Class_1_1B7044A592B17773_8;
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_3_79E0DC8295557BAC___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x111B32E0)
-#define CLASS_3_79E0DC8295557BAC___C__DISPLAYCLASS1_0__SETDEFAULTCONTENTID_B__0_OFFSET UNITYSDK_OFFSET(0x111B3DE0)
+#define CLASS_3_79E0DC8295557BAC___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF3E48E0)
+#define CLASS_3_79E0DC8295557BAC___C__DISPLAYCLASS1_0__SETDEFAULTCONTENTID_B__0_OFFSET UNITYSDK_OFFSET(0xF3E5360)
 
-inline static constexpr unsigned int Class_3_79E0DC8295557BAC___c__DisplayClass1_0_TypeDefinitionIndex = 60950;
+inline static constexpr unsigned int Class_3_79E0DC8295557BAC___c__DisplayClass1_0_TypeDefinitionIndex = 68401;
 
 class Class_3_79E0DC8295557BAC___c__DisplayClass1_0 : public ::System::Object
 {

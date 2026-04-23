@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_424BA7743EFAAF86__CTOR_OFFSET UNITYSDK_OFFSET(0x16975EA0)
+#define CLASS_1_424BA7743EFAAF86__CTOR_OFFSET UNITYSDK_OFFSET(0x17997A50)
 
-inline static constexpr unsigned int Class_1_424BA7743EFAAF86_TypeDefinitionIndex = 33261;
+inline static constexpr unsigned int Class_1_424BA7743EFAAF86_TypeDefinitionIndex = 39048;
 
 class Class_1_424BA7743EFAAF86 : public ::System::Object
 {
 public:
 	::UnityEngine::AnimationCurve* Field_1_2; // 0x10
-	::System::Boolean Field_1_4; // 0x18
-	::System::Single Field_1_3; // 0x1C
+	::System::Single Field_1_3; // 0x18
+	::System::Single Field_1_1; // 0x1C
 	::System::Single Field_1_0; // 0x20
-	::System::Single Field_1_1; // 0x24
+	::System::Boolean Field_1_4; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -5,16 +5,16 @@
 
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 
-#define CLASS_1_7622BCA9FBE661B1__CTOR_OFFSET UNITYSDK_OFFSET(0x111DC480)
+#define CLASS_1_7622BCA9FBE661B1__CTOR_OFFSET UNITYSDK_OFFSET(0xCD62530)
 
-inline static constexpr unsigned int Class_1_7622BCA9FBE661B1_TypeDefinitionIndex = 60766;
+inline static constexpr unsigned int Class_1_7622BCA9FBE661B1_TypeDefinitionIndex = 68215;
 
 class Class_1_7622BCA9FBE661B1 : public ::System::Object
 {
 public:
 	::RPG::Client::ActivityAlley::AlleyPackGoodData* Field_1_0; // 0x10
-	::UnityEngine::Vector3 Field_1_2; // 0x18
-	::UnityEngine::Vector3 Field_1_1; // 0x24
+	::UnityEngine::Vector3 Field_1_1; // 0x18
+	::UnityEngine::Vector3 Field_1_2; // 0x24
 
 	::System::Void _ctor()
 	{

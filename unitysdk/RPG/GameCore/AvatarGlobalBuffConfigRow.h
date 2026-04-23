@@ -6,32 +6,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FB4A30)
-#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB5950)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18203C80)
+#define RPG_GAMECORE_AVATARGLOBALBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18204D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarGlobalBuffConfigRow_TypeDefinitionIndex = 11681;
+	inline static constexpr unsigned int AvatarGlobalBuffConfigRow_TypeDefinitionIndex = 12092;
 
 	class AvatarGlobalBuffConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TrialBagStageTypeWhiteList; // 0x10
-		::Il2CppArray<::System::UInt32>* TeamStageTypeBlackList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x30
-		::Il2CppArray<::System::UInt32>* StageTypeBlackList; // 0x38
-		::Il2CppArray<::System::UInt32>* TeamBlackList; // 0x40
-		::Il2CppArray<::System::UInt32>* GameModeBlackList; // 0x48
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x50
+		::Il2CppArray<::System::UInt32>* TeamStageTypeBlackList; // 0x10
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* StageTypeBlackList; // 0x20
+		::Il2CppArray<::System::UInt32>* TrialBagStageTypeWhiteList; // 0x28
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x30
+		::Il2CppArray<::System::UInt32>* GameModeBlackList; // 0x38
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x40
+		::Il2CppArray<::System::UInt32>* TeamBlackList; // 0x48
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x50
 		::RPG::Client::TextID Desc; // 0x58
 		::RPG::Client::TextID SimpleDesc; // 0x68
-		::RPG::Client::TextID SkillTag; // 0x78
-		::System::UInt32 AvatarID; // 0x88
-		::System::UInt32 SkillID; // 0x8C
-		::RPG::Client::TextID Name; // 0x90
-		::System::UInt32 MazeBuffID; // 0xA0
+		::System::UInt32 MazeBuffID; // 0x78
+		::RPG::Client::TextID Name; // 0x80
+		::RPG::Client::TextID SkillTag; // 0x90
+		::System::UInt32 AvatarID; // 0xA0
+		::System::UInt32 SkillID; // 0xA4
 
 		::System::Void _ctor()
 		{

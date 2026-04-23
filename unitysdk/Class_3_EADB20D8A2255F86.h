@@ -8,10 +8,10 @@ namespace RPG::GameCore { class TargetCompute; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_EADB20D8A2255F86_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11585810)
-#define CLASS_3_EADB20D8A2255F86__CTOR_OFFSET UNITYSDK_OFFSET(0x11585760)
+#define CLASS_3_EADB20D8A2255F86_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC301900)
+#define CLASS_3_EADB20D8A2255F86__CTOR_OFFSET UNITYSDK_OFFSET(0xC301850)
 
-inline static constexpr unsigned int Class_3_EADB20D8A2255F86_TypeDefinitionIndex = 47860;
+inline static constexpr unsigned int Class_3_EADB20D8A2255F86_TypeDefinitionIndex = 54601;
 
 class Class_3_EADB20D8A2255F86 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetCompute*>
 {

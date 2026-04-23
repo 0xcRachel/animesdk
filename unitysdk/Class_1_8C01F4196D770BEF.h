@@ -7,19 +7,19 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8C01F4196D770BEF_CLEAR_OFFSET UNITYSDK_OFFSET(0xA1FA750)
-#define CLASS_1_8C01F4196D770BEF_METHOD_1_95F42805919B2C8A_OFFSET UNITYSDK_OFFSET(0xA1FA3A0)
-#define CLASS_1_8C01F4196D770BEF_METHOD_1_B517E01E6878D795_OFFSET UNITYSDK_OFFSET(0xA1FA260)
-#define CLASS_1_8C01F4196D770BEF_METHOD_1_BF4AFE154C7B2C60_OFFSET UNITYSDK_OFFSET(0xA1FA4C0)
-#define CLASS_1_8C01F4196D770BEF__CTOR_OFFSET UNITYSDK_OFFSET(0xA1FA7F0)
+#define CLASS_1_8C01F4196D770BEF_CLEAR_OFFSET UNITYSDK_OFFSET(0xD7CCD50)
+#define CLASS_1_8C01F4196D770BEF_METHOD_1_95F42805919B2C8A_OFFSET UNITYSDK_OFFSET(0xD7CC9A0)
+#define CLASS_1_8C01F4196D770BEF_METHOD_1_B517E01E6878D795_OFFSET UNITYSDK_OFFSET(0xD7CC860)
+#define CLASS_1_8C01F4196D770BEF_METHOD_1_BF4AFE154C7B2C60_OFFSET UNITYSDK_OFFSET(0xD7CCAC0)
+#define CLASS_1_8C01F4196D770BEF__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CCDF0)
 
-inline static constexpr unsigned int Class_1_8C01F4196D770BEF_TypeDefinitionIndex = 57059;
+inline static constexpr unsigned int Class_1_8C01F4196D770BEF_TypeDefinitionIndex = 64310;
 
 class Class_1_8C01F4196D770BEF : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* Field_1_2; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::CharacterShaderPropertyTransition*>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::CharacterShaderPropertyTransition*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* Field_1_2; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x20
 
 	::System::Void _ctor()

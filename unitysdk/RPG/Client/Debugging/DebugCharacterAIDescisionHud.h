@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGGING_DEBUGCHARACTERAIDESCISIONHUD__CTOR_OFFSET UNITYSDK_OFFSET(0x9455F30)
+#define RPG_CLIENT_DEBUGGING_DEBUGCHARACTERAIDESCISIONHUD__CTOR_OFFSET UNITYSDK_OFFSET(0x141E4320)
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int DebugCharacterAIDescisionHud_TypeDefinitionIndex = 64450;
+	inline static constexpr unsigned int DebugCharacterAIDescisionHud_TypeDefinitionIndex = 72497;
 
 	class DebugCharacterAIDescisionHud : public ::UnityEngine::MonoBehaviour
 	{

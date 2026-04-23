@@ -3,29 +3,29 @@
 #include "unitysdk/RPG/Client/TreasureChallengeTargetStatus.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_DAA5A9E9FAA73ED5;
+class Class_1_BB4B99DE4C2501EC_10;
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class TreasureChallengeSettlementExtensionData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT_CREATESETTLEMENT_OFFSET UNITYSDK_OFFSET(0xA635F10)
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT_GET_EXTENSIONDATA_OFFSET UNITYSDK_OFFSET(0xA6363E0)
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT_SET_EXTENSIONDATA_OFFSET UNITYSDK_OFFSET(0xA6363F0)
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xA6361D0)
-#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT__TRYCREATEEXTENSIONDATA_OFFSET UNITYSDK_OFFSET(0xA6362B0)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT_CREATESETTLEMENT_OFFSET UNITYSDK_OFFSET(0x16840450)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT_GET_EXTENSIONDATA_OFFSET UNITYSDK_OFFSET(0x16840920)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT_SET_EXTENSIONDATA_OFFSET UNITYSDK_OFFSET(0x16840930)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16840710)
+#define RPG_CLIENT_TREASURECHALLENGESETTLEMENT__TRYCREATEEXTENSIONDATA_OFFSET UNITYSDK_OFFSET(0x168407F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureChallengeSettlement_TypeDefinitionIndex = 54340;
+	inline static constexpr unsigned int TreasureChallengeSettlement_TypeDefinitionIndex = 61503;
 
 	class TreasureChallengeSettlement : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>* CurrentRaidStatus; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>* PreviousRaidStatus; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* Items; // 0x20
-		::RPG::Client::TreasureChallengeSettlementExtensionData* _ExtensionData_k__BackingField; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>* PreviousRaidStatus; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* Items; // 0x18
+		::RPG::Client::TreasureChallengeSettlementExtensionData* _ExtensionData_k__BackingField; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>* CurrentRaidStatus; // 0x28
 		::System::Boolean IsNextLevelUnlocked; // 0x30
 
 		::System::Void _ctor()
@@ -33,14 +33,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGESETTLEMENT__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::TreasureChallengeSettlement* CreateSettlement(::Class_1_DAA5A9E9FAA73ED5* ntf)
+		static ::RPG::Client::TreasureChallengeSettlement* CreateSettlement(::Class_1_BB4B99DE4C2501EC_10* ntf)
 		{
-			return ((::RPG::Client::TreasureChallengeSettlement*(*)(::Class_1_DAA5A9E9FAA73ED5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGESETTLEMENT_CREATESETTLEMENT_OFFSET))(ntf);
+			return ((::RPG::Client::TreasureChallengeSettlement*(*)(::Class_1_BB4B99DE4C2501EC_10*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGESETTLEMENT_CREATESETTLEMENT_OFFSET))(ntf);
 		}
 
-		::System::Void _TryCreateExtensionData(::Class_1_DAA5A9E9FAA73ED5* ntf)
+		::System::Void _TryCreateExtensionData(::Class_1_BB4B99DE4C2501EC_10* ntf)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_DAA5A9E9FAA73ED5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGESETTLEMENT__TRYCREATEEXTENSIONDATA_OFFSET))(this, ntf);
+			return ((::System::Void(*)(::PVOID, ::Class_1_BB4B99DE4C2501EC_10*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASURECHALLENGESETTLEMENT__TRYCREATEEXTENSIONDATA_OFFSET))(this, ntf);
 		}
 
 		::RPG::Client::TreasureChallengeSettlementExtensionData* get_ExtensionData()

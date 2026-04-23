@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderKeyword.h"
 
-#define CLASS_1_226AFD2DED4A0B74_CLASS_1_7D50D3AC36A509AE__CCTOR_OFFSET UNITYSDK_OFFSET(0x8DD9BD0)
+#define CLASS_1_226AFD2DED4A0B74_CLASS_1_7D50D3AC36A509AE__CCTOR_OFFSET UNITYSDK_OFFSET(0xFE58660)
 
-inline static constexpr unsigned int Class_1_226AFD2DED4A0B74_Class_1_7D50D3AC36A509AE_TypeDefinitionIndex = 60427;
+inline static constexpr unsigned int Class_1_226AFD2DED4A0B74_Class_1_7D50D3AC36A509AE_TypeDefinitionIndex = 67849;
 
 class Class_1_226AFD2DED4A0B74_Class_1_7D50D3AC36A509AE : public ::System::Object
 {
 public:
 	static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::Rendering::ShaderKeyword*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_Class_1_7D50D3AC36A509AE_TypeDefinitionIndex)->GetStaticField(0x93A0);
+		return (::UnityEngine::Rendering::ShaderKeyword*)Il2CppClass::FromTypeDefinitionIndex(Class_1_226AFD2DED4A0B74_Class_1_7D50D3AC36A509AE_TypeDefinitionIndex)->GetStaticField(0xEE90);
 	}
 
 	static ::System::Void _cctor()

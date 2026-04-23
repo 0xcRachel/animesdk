@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/Bool.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AECAMERADATA_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x187B85A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AECAMERADATA_GET_DEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x18C0E0F0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aeCameraData_TypeDefinitionIndex = 34953;
+	inline static constexpr unsigned int aeCameraData_TypeDefinitionIndex = 40781;
 
 	struct alignas(4) aeCameraData
 	{

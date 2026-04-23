@@ -8,42 +8,42 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua::CSObjectWrap
 {
-	inline static constexpr unsigned int XLua_Gen_Initer_Register_____O_TypeDefinitionIndex = 41801;
+	inline static constexpr unsigned int XLua_Gen_Initer_Register_____O_TypeDefinitionIndex = 47766;
 
 	class XLua_Gen_Initer_Register_____O : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__4_____Create()
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__1_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11750);
-		}
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__0_____Create()
-		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11758);
-		}
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__7_____Create()
-		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11760);
-		}
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__6_____Create()
-		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11768);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B5E0);
 		}
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__3_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11770);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B5E8);
+		}
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__7_____Create()
+		{
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B5F0);
+		}
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__0_____Create()
+		{
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B5F8);
 		}
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__5_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11778);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B600);
 		}
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__1_____Create()
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__4_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11780);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B608);
+		}
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__6_____Create()
+		{
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B610);
 		}
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__2_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x11788);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)Il2CppClass::FromTypeDefinitionIndex(XLua_Gen_Initer_Register_____O_TypeDefinitionIndex)->GetStaticField(0x6B618);
 		}
 	};
 }

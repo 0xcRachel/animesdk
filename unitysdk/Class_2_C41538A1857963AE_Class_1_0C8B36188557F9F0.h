@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_C41538A1857963AE_CLASS_1_0C8B36188557F9F0__CTOR_OFFSET UNITYSDK_OFFSET(0x11586B70)
+#define CLASS_2_C41538A1857963AE_CLASS_1_0C8B36188557F9F0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4BF810)
 
-inline static constexpr unsigned int Class_2_C41538A1857963AE_Class_1_0C8B36188557F9F0_TypeDefinitionIndex = 38779;
+inline static constexpr unsigned int Class_2_C41538A1857963AE_Class_1_0C8B36188557F9F0_TypeDefinitionIndex = 44678;
 
 class Class_2_C41538A1857963AE_Class_1_0C8B36188557F9F0 : public ::System::Object
 {

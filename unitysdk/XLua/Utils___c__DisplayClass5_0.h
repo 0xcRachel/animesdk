@@ -5,20 +5,20 @@
 namespace System { class Type; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10499340)
-#define XLUA_UTILS___C__DISPLAYCLASS5_0__GENITEMGETTER_B__1_OFFSET UNITYSDK_OFFSET(0x104A7C80)
+#define XLUA_UTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA092F60)
+#define XLUA_UTILS___C__DISPLAYCLASS5_0__GENITEMGETTER_B__1_OFFSET UNITYSDK_OFFSET(0xA0A1900)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass5_0_TypeDefinitionIndex = 40551;
+	inline static constexpr unsigned int Utils___c__DisplayClass5_0_TypeDefinitionIndex = 46464;
 
 	class Utils___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Type*>* params_type; // 0x10
-		::Il2CppArray<::System::Reflection::PropertyInfo*>* props; // 0x18
+		::System::Type* type; // 0x10
+		::Il2CppArray<::System::Type*>* params_type; // 0x18
 		::Il2CppArray<::System::Object*>* arg; // 0x20
-		::System::Type* type; // 0x28
+		::Il2CppArray<::System::Reflection::PropertyInfo*>* props; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -3,11 +3,11 @@
 #include "unitysdk/Cinemachine/NoiseSettings_NoiseParams.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_NOISESETTINGS_TRANSFORMNOISEPARAMS_GETVALUEAT_OFFSET UNITYSDK_OFFSET(0x14F3E90)
+#define CINEMACHINE_NOISESETTINGS_TRANSFORMNOISEPARAMS_GETVALUEAT_OFFSET UNITYSDK_OFFSET(0x23ADA60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int NoiseSettings_TransformNoiseParams_TypeDefinitionIndex = 30884;
+	inline static constexpr unsigned int NoiseSettings_TransformNoiseParams_TypeDefinitionIndex = 36604;
 
 	struct alignas(4) NoiseSettings_TransformNoiseParams
 	{

@@ -3,31 +3,31 @@
 #include "unitysdk/Class_3_491A4BA07B0FADFF_WaitState.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PhotoGraphWaitIdentifyFinish; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_3_491A4BA07B0FADFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10A42EB0)
-#define CLASS_3_491A4BA07B0FADFF_METHOD_3_37D8D2BDEDA565ED_OFFSET UNITYSDK_OFFSET(0x10A433C0)
-#define CLASS_3_491A4BA07B0FADFF_METHOD_3_5D09DFA26924F01B_OFFSET UNITYSDK_OFFSET(0x10A43790)
-#define CLASS_3_491A4BA07B0FADFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10A430A0)
-#define CLASS_3_491A4BA07B0FADFF__CTOR_OFFSET UNITYSDK_OFFSET(0x10A42C90)
-#define CLASS_3_491A4BA07B0FADFF___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10A438D0)
+#define CLASS_3_491A4BA07B0FADFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5469F0)
+#define CLASS_3_491A4BA07B0FADFF_METHOD_3_37D8D2BDEDA565ED_OFFSET UNITYSDK_OFFSET(0xB546EF0)
+#define CLASS_3_491A4BA07B0FADFF_METHOD_3_5D09DFA26924F01B_OFFSET UNITYSDK_OFFSET(0xB5472C0)
+#define CLASS_3_491A4BA07B0FADFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB546BD0)
+#define CLASS_3_491A4BA07B0FADFF__CTOR_OFFSET UNITYSDK_OFFSET(0xB5467D0)
+#define CLASS_3_491A4BA07B0FADFF___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB547400)
 
-inline static constexpr unsigned int Class_3_491A4BA07B0FADFF_TypeDefinitionIndex = 42965;
+inline static constexpr unsigned int Class_3_491A4BA07B0FADFF_TypeDefinitionIndex = 48951;
 
 class Class_3_491A4BA07B0FADFF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PhotoGraphWaitIdentifyFinish*>
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_3_4; // 0x28
-	::Class_3_5775A4FEC79026BC* Field_3_6; // 0x30
-	::Class_3_5775A4FEC79026BC* Field_3_5; // 0x38
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_3_2; // 0x40
-	::Class_3_491A4BA07B0FADFF_WaitState Field_3_0; // 0x48
-	::System::UInt32 Field_3_3; // 0x4C
+	::Class_3_E21F6DE9B7FA4D05* Field_3_6; // 0x28
+	::Class_3_E21F6DE9B7FA4D05* Field_3_5; // 0x30
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_3_2; // 0x38
+	::Class_3_E21F6DE9B7FA4D05* Field_3_4; // 0x40
+	::System::UInt32 Field_3_3; // 0x48
+	::Class_3_491A4BA07B0FADFF_WaitState Field_3_0; // 0x4C
 	::System::Boolean Field_3_1; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish* a2)

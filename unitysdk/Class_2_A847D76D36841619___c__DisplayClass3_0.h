@@ -5,10 +5,10 @@
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 
-#define CLASS_2_A847D76D36841619___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16603340)
-#define CLASS_2_A847D76D36841619___C__DISPLAYCLASS3_0__TICK_B__0_OFFSET UNITYSDK_OFFSET(0x166035E0)
+#define CLASS_2_A847D76D36841619___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1775A850)
+#define CLASS_2_A847D76D36841619___C__DISPLAYCLASS3_0__TICK_B__0_OFFSET UNITYSDK_OFFSET(0x1775AAF0)
 
-inline static constexpr unsigned int Class_2_A847D76D36841619___c__DisplayClass3_0_TypeDefinitionIndex = 29000;
+inline static constexpr unsigned int Class_2_A847D76D36841619___c__DisplayClass3_0_TypeDefinitionIndex = 34734;
 
 class Class_2_A847D76D36841619___c__DisplayClass3_0 : public ::System::Object
 {

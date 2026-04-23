@@ -9,25 +9,25 @@
 
 namespace System { class String; }
 
-#define CLASS_1_8279BFFA57BC2D0E__CTOR_OFFSET UNITYSDK_OFFSET(0x8AB04F0)
+#define CLASS_1_8279BFFA57BC2D0E__CTOR_OFFSET UNITYSDK_OFFSET(0xE3BE060)
 
-inline static constexpr unsigned int Class_1_8279BFFA57BC2D0E_TypeDefinitionIndex = 44521;
+inline static constexpr unsigned int Class_1_8279BFFA57BC2D0E_TypeDefinitionIndex = 51250;
 
 class Class_1_8279BFFA57BC2D0E : public ::System::Object
 {
 public:
 	::System::String* Field_1_3; // 0x10
 	::System::String* Field_1_4; // 0x18
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_0; // 0x20
-	::RPG::GameCore::VersusBarEffectType Field_1_9; // 0x30
-	::RPG::GameCore::FixPoint Field_1_5; // 0x38
-	::RPG::Client::TextID Field_1_7; // 0x40
-	::RPG::GameCore::VersusBarReasonTipType Field_1_8; // 0x50
-	::System::Nullable_1<::System::Boolean> Field_1_11; // 0x54
-	::System::Nullable_1<::System::Boolean> Field_1_10; // 0x56
-	::System::Boolean Field_1_6; // 0x58
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_2; // 0x60
-	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_1; // 0x70
+	::RPG::Client::TextID Field_1_7; // 0x20
+	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_1; // 0x30
+	::RPG::GameCore::VersusBarReasonTipType Field_1_8; // 0x40
+	::System::Nullable_1<::System::Boolean> Field_1_10; // 0x44
+	::System::Boolean Field_1_6; // 0x46
+	::System::Nullable_1<::System::Boolean> Field_1_11; // 0x47
+	::RPG::GameCore::VersusBarEffectType Field_1_9; // 0x4C
+	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_2; // 0x50
+	::System::Nullable_1<::RPG::GameCore::FixPoint> Field_1_0; // 0x60
+	::RPG::GameCore::FixPoint Field_1_5; // 0x70
 
 	::System::Void _ctor()
 	{

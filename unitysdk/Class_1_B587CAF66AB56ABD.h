@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class LittleGameSmartObjectConfig; }
 namespace System { class String; }
 
-#define CLASS_1_B587CAF66AB56ABD__CTOR_OFFSET UNITYSDK_OFFSET(0x8861590)
+#define CLASS_1_B587CAF66AB56ABD__CTOR_OFFSET UNITYSDK_OFFSET(0xD419290)
 
-inline static constexpr unsigned int Class_1_B587CAF66AB56ABD_TypeDefinitionIndex = 62915;
+inline static constexpr unsigned int Class_1_B587CAF66AB56ABD_TypeDefinitionIndex = 70955;
 
 class Class_1_B587CAF66AB56ABD : public ::System::Object
 {

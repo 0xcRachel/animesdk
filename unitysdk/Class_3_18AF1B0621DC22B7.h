@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_2_4860135DFDF560DA.h"
 
-#define CLASS_3_18AF1B0621DC22B7_CLEAR_OFFSET UNITYSDK_OFFSET(0x16A2D650)
-#define CLASS_3_18AF1B0621DC22B7__CTOR_OFFSET UNITYSDK_OFFSET(0x16A2D6B0)
-#define CLASS_3_18AF1B0621DC22B7___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x16A2D6C0)
+#define CLASS_3_18AF1B0621DC22B7_CLEAR_OFFSET UNITYSDK_OFFSET(0x180EBCF0)
+#define CLASS_3_18AF1B0621DC22B7__CTOR_OFFSET UNITYSDK_OFFSET(0x180EBD50)
+#define CLASS_3_18AF1B0621DC22B7___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x180EBD60)
 
-inline static constexpr unsigned int Class_3_18AF1B0621DC22B7_TypeDefinitionIndex = 33552;
+inline static constexpr unsigned int Class_3_18AF1B0621DC22B7_TypeDefinitionIndex = 39352;
 
 class Class_3_18AF1B0621DC22B7 : public ::Class_2_4860135DFDF560DA
 {
 public:
-	::System::Boolean Field_3_2; // 0x400
-	::System::Boolean Field_3_1; // 0x401
-	::System::Boolean Field_3_0; // 0x402
+	::System::Boolean Field_3_1; // 0x400
+	::System::Boolean Field_3_0; // 0x401
+	::System::Boolean Field_3_2; // 0x402
 	::System::Int32 Field_3_3; // 0x404
 
 	::System::Void _ctor()

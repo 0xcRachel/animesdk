@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ChenLingAIDangerConfig; }
 namespace RPG::GameCore { class ChenLingAIInterestConfig; }
 namespace RPG::GameCore { class ChenLingAISmoothConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEAICONFIG_METHOD_2_2BB07206ECB65F97_OFFSET UNITYSDK_OFFSET(0x1708C200)
-#define RPG_GAMECORE_CHENLINGBATTLEAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1708C2E0)
+#define RPG_GAMECORE_CHENLINGBATTLEAICONFIG_METHOD_2_2BB07206ECB65F97_OFFSET UNITYSDK_OFFSET(0x18D67120)
+#define RPG_GAMECORE_CHENLINGBATTLEAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18D67200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAIConfig_TypeDefinitionIndex = 14386;
+	inline static constexpr unsigned int ChenLingBattleAIConfig_TypeDefinitionIndex = 14856;
 
 	class ChenLingBattleAIConfig : public ::RPG::GameCore::JsonConfig
 	{

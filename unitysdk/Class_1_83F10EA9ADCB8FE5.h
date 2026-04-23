@@ -6,16 +6,16 @@ class Class_2_2DE342D55868E1FE;
 class Class_2_6313984181A582D7;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_83F10EA9ADCB8FE5_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1666C9D0)
-#define CLASS_1_83F10EA9ADCB8FE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1666C8F0)
+#define CLASS_1_83F10EA9ADCB8FE5_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14816A20)
+#define CLASS_1_83F10EA9ADCB8FE5__CTOR_OFFSET UNITYSDK_OFFSET(0x14816940)
 
-inline static constexpr unsigned int Class_1_83F10EA9ADCB8FE5_TypeDefinitionIndex = 28830;
+inline static constexpr unsigned int Class_1_83F10EA9ADCB8FE5_TypeDefinitionIndex = 34564;
 
 class Class_1_83F10EA9ADCB8FE5 : public ::System::Object
 {
 public:
-	::Class_2_2DE342D55868E1FE* Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::Class_2_6313984181A582D7*>* Field_1_3; // 0x18
+	::System::Collections::Generic::HashSet_1<::Class_2_6313984181A582D7*>* Field_1_3; // 0x10
+	::Class_2_2DE342D55868E1FE* Field_1_0; // 0x18
 	::System::Single Field_1_2; // 0x20
 	::System::Single Field_1_1; // 0x24
 

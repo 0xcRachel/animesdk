@@ -11,12 +11,12 @@ namespace RPG::GameCore { class RtLevelGroupInstanceCommonInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO_METHOD_2_42CEF4EE1D9B5C3E_OFFSET UNITYSDK_OFFSET(0x17349B80)
-#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17349F80)
+#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO_METHOD_2_42CEF4EE1D9B5C3E_OFFSET UNITYSDK_OFFSET(0x188B29F0)
+#define RPG_GAMECORE_LEVELFLOORCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x188B2DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorCrossMapBriefInfo_TypeDefinitionIndex = 15754;
+	inline static constexpr unsigned int LevelFloorCrossMapBriefInfo_TypeDefinitionIndex = 16280;
 
 	class LevelFloorCrossMapBriefInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,11 +7,11 @@ namespace HoudiniEngineUnity { class HEU_LoadBufferMesh; }
 namespace HoudiniEngineUnity { class HEU_LoadBufferVolume; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x84A9AB0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF4E60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadObject_TypeDefinitionIndex = 37800;
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadObject_TypeDefinitionIndex = 43677;
 
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadObject : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/AudiencePrefabSpecialTag.h"
 #include "unitysdk/RPG/Client/EAudiencePrefabSpecialTag.h"
 
-#define RPG_CLIENT_AUDIENCEPREFABSPECIALTAG_BLINK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x90FD520)
-#define RPG_CLIENT_AUDIENCEPREFABSPECIALTAG_BLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x90FD530)
+#define RPG_CLIENT_AUDIENCEPREFABSPECIALTAG_BLINK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x16D866D0)
+#define RPG_CLIENT_AUDIENCEPREFABSPECIALTAG_BLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x16D866E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudiencePrefabSpecialTag_Blink_TypeDefinitionIndex = 56486;
+	inline static constexpr unsigned int AudiencePrefabSpecialTag_Blink_TypeDefinitionIndex = 63730;
 
 	class AudiencePrefabSpecialTag_Blink : public ::RPG::Client::AudiencePrefabSpecialTag
 	{

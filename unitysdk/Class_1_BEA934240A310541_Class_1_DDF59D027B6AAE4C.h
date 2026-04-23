@@ -8,19 +8,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace System { class String; }
 
-#define CLASS_1_BEA934240A310541_CLASS_1_DDF59D027B6AAE4C__CTOR_OFFSET UNITYSDK_OFFSET(0x10C08760)
+#define CLASS_1_BEA934240A310541_CLASS_1_DDF59D027B6AAE4C__CTOR_OFFSET UNITYSDK_OFFSET(0x12E57290)
 
-inline static constexpr unsigned int Class_1_BEA934240A310541_Class_1_DDF59D027B6AAE4C_TypeDefinitionIndex = 49044;
+inline static constexpr unsigned int Class_1_BEA934240A310541_Class_1_DDF59D027B6AAE4C_TypeDefinitionIndex = 55839;
 
 class Class_1_BEA934240A310541_Class_1_DDF59D027B6AAE4C : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::LittleGameLevelConfig* Field_1_3; // 0x18
-	::Class_1_151B93D9C4BBDCA4* Field_1_4; // 0x20
-	::Class_1_EE559462F37DF929* Field_1_5; // 0x28
-	::System::String* Field_1_2; // 0x30
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x38
+	::RPG::GameCore::LittleGameLevelConfig* Field_1_3; // 0x10
+	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x28
+	::Class_1_151B93D9C4BBDCA4* Field_1_4; // 0x30
+	::Class_1_EE559462F37DF929* Field_1_5; // 0x38
 
 	::System::Void _ctor()
 	{

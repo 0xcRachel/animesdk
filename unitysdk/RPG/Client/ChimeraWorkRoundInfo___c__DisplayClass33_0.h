@@ -6,12 +6,12 @@ namespace RPG::Client { class ChimeraWorkRoundData; }
 namespace RPG::Client { class ChimeraWorkRoundInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93E8010)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS33_0__GETCURRENTDISPLAYROUNDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x93E9980)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x178A76C0)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS33_0__GETCURRENTDISPLAYROUNDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x178A8FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass33_0_TypeDefinitionIndex = 51578;
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass33_0_TypeDefinitionIndex = 58516;
 
 	class ChimeraWorkRoundInfo___c__DisplayClass33_0 : public ::System::Object
 	{

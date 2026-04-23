@@ -5,22 +5,22 @@
 class MonoUIAdaptConfigItem;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_3F305627FB52BD09___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1D0510)
-#define CLASS_1_3F305627FB52BD09___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA1D0540)
-#define CLASS_1_3F305627FB52BD09___C___LOADROOTADAPTOPERATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0xA1D0550)
+#define CLASS_1_3F305627FB52BD09___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAFAA60)
+#define CLASS_1_3F305627FB52BD09___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCAFAA90)
+#define CLASS_1_3F305627FB52BD09___C___LOADROOTADAPTOPERATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0xCAFAAA0)
 
-inline static constexpr unsigned int Class_1_3F305627FB52BD09___c_TypeDefinitionIndex = 59859;
+inline static constexpr unsigned int Class_1_3F305627FB52BD09___c_TypeDefinitionIndex = 67256;
 
 class Class_1_3F305627FB52BD09___c : public ::System::Object
 {
 public:
-	static ::Class_1_3F305627FB52BD09___c** StaticGet___9()
-	{
-		return (::Class_1_3F305627FB52BD09___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F305627FB52BD09___c_TypeDefinitionIndex)->GetStaticField(0x18FD0);
-	}
 	static ::System::Func_2<::MonoUIAdaptConfigItem*, ::System::Boolean>** StaticGet___9__12_0()
 	{
-		return (::System::Func_2<::MonoUIAdaptConfigItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F305627FB52BD09___c_TypeDefinitionIndex)->GetStaticField(0x18FD8);
+		return (::System::Func_2<::MonoUIAdaptConfigItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F305627FB52BD09___c_TypeDefinitionIndex)->GetStaticField(0x5C2B0);
+	}
+	static ::Class_1_3F305627FB52BD09___c** StaticGet___9()
+	{
+		return (::Class_1_3F305627FB52BD09___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F305627FB52BD09___c_TypeDefinitionIndex)->GetStaticField(0x5C2B8);
 	}
 
 	static ::System::Void _cctor()

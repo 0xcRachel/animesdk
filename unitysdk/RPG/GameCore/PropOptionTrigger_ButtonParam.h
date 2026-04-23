@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class OptionTriggerInfo; }
 
-#define RPG_GAMECORE_PROPOPTIONTRIGGER_BUTTONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xAA2A190)
+#define RPG_GAMECORE_PROPOPTIONTRIGGER_BUTTONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xF55EEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropOptionTrigger_ButtonParam_TypeDefinitionIndex = 46353;
+	inline static constexpr unsigned int PropOptionTrigger_ButtonParam_TypeDefinitionIndex = 53028;
 
 	class PropOptionTrigger_ButtonParam : public ::System::Object
 	{

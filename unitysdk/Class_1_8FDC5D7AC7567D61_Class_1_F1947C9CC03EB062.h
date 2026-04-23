@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class BattlePerformCaptureActor; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_8FDC5D7AC7567D61_CLASS_1_F1947C9CC03EB062__CTOR_OFFSET UNITYSDK_OFFSET(0x11708A90)
+#define CLASS_1_8FDC5D7AC7567D61_CLASS_1_F1947C9CC03EB062__CTOR_OFFSET UNITYSDK_OFFSET(0x10943730)
 
-inline static constexpr unsigned int Class_1_8FDC5D7AC7567D61_Class_1_F1947C9CC03EB062_TypeDefinitionIndex = 46196;
+inline static constexpr unsigned int Class_1_8FDC5D7AC7567D61_Class_1_F1947C9CC03EB062_TypeDefinitionIndex = 52862;
 
 class Class_1_8FDC5D7AC7567D61_Class_1_F1947C9CC03EB062 : public ::System::Object
 {

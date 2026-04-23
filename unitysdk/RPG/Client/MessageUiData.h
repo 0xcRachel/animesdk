@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/OfflineMessageSenderType.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_MESSAGEUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1473FFA0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int MessageUiData_TypeDefinitionIndex = 56770;
+
+	class MessageUiData : public ::System::Object
+	{
+	public:
+		::System::String* SelfSenderName; // 0x10
+		::System::String* SenderIcon; // 0x18
+		::System::String* ContentImg; // 0x20
+		::RPG::Client::TextID SenderName; // 0x28
+		::System::UInt32 NextContentId; // 0x38
+		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x3C
+		::System::Int32 RelatedPrefabIndex; // 0x40
+		::RPG::Client::TextID ContentText; // 0x48
+		::System::Boolean OnlyShowText; // 0x58
+		::System::Boolean OnlyShowImg; // 0x59
+		::System::Single Interval; // 0x5C
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGEUIDATA__CTOR_OFFSET))(this);
+		}
+	};
+}

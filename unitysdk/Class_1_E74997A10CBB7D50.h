@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E74997A10CBB7D50__CTOR_OFFSET UNITYSDK_OFFSET(0x10B43ED0)
+#define CLASS_1_E74997A10CBB7D50__CTOR_OFFSET UNITYSDK_OFFSET(0xE166770)
 
-inline static constexpr unsigned int Class_1_E74997A10CBB7D50_TypeDefinitionIndex = 60059;
+inline static constexpr unsigned int Class_1_E74997A10CBB7D50_TypeDefinitionIndex = 67492;
 
 class Class_1_E74997A10CBB7D50 : public ::System::Object
 {

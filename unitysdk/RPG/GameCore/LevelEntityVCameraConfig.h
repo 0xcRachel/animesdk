@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173491C0)
-#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173492D0)
+#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188B2200)
+#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x188B2310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityVCameraConfig_TypeDefinitionIndex = 15853;
+	inline static constexpr unsigned int LevelEntityVCameraConfig_TypeDefinitionIndex = 16379;
 
 	class LevelEntityVCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

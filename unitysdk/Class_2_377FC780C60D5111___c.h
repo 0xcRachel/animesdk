@@ -5,22 +5,22 @@
 namespace RPG::Client { class CustomButton_VoidDelegate; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_377FC780C60D5111___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x109579D0)
-#define CLASS_2_377FC780C60D5111___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10957A10)
-#define CLASS_2_377FC780C60D5111___C___ONBIND_B__1_2_OFFSET UNITYSDK_OFFSET(0x10957A20)
+#define CLASS_2_377FC780C60D5111___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x105A0A00)
+#define CLASS_2_377FC780C60D5111___C__CTOR_OFFSET UNITYSDK_OFFSET(0x105A0A40)
+#define CLASS_2_377FC780C60D5111___C___ONBIND_B__1_2_OFFSET UNITYSDK_OFFSET(0x105A0A50)
 
-inline static constexpr unsigned int Class_2_377FC780C60D5111___c_TypeDefinitionIndex = 59208;
+inline static constexpr unsigned int Class_2_377FC780C60D5111___c_TypeDefinitionIndex = 66600;
 
 class Class_2_377FC780C60D5111___c : public ::System::Object
 {
 public:
 	static ::RPG::Client::CustomButton_VoidDelegate** StaticGet___9__1_2()
 	{
-		return (::RPG::Client::CustomButton_VoidDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_2_377FC780C60D5111___c_TypeDefinitionIndex)->GetStaticField(0x36790);
+		return (::RPG::Client::CustomButton_VoidDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_2_377FC780C60D5111___c_TypeDefinitionIndex)->GetStaticField(0x6A240);
 	}
 	static ::Class_2_377FC780C60D5111___c** StaticGet___9()
 	{
-		return (::Class_2_377FC780C60D5111___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_377FC780C60D5111___c_TypeDefinitionIndex)->GetStaticField(0x36798);
+		return (::Class_2_377FC780C60D5111___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_377FC780C60D5111___c_TypeDefinitionIndex)->GetStaticField(0x6A248);
 	}
 
 	static ::System::Void _cctor()

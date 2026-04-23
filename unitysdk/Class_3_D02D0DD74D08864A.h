@@ -5,17 +5,17 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_3_D02D0DD74D08864A_METHOD_3_17D0AAA61173D944_OFFSET UNITYSDK_OFFSET(0x16C4BDF0)
-#define CLASS_3_D02D0DD74D08864A_METHOD_3_A68A36A6BFF9F2B4_OFFSET UNITYSDK_OFFSET(0x16C4BD70)
-#define CLASS_3_D02D0DD74D08864A__CTOR_OFFSET UNITYSDK_OFFSET(0x16C4BDC0)
+#define CLASS_3_D02D0DD74D08864A_METHOD_3_17D0AAA61173D944_OFFSET UNITYSDK_OFFSET(0x18832A50)
+#define CLASS_3_D02D0DD74D08864A_METHOD_3_A68A36A6BFF9F2B4_OFFSET UNITYSDK_OFFSET(0x188329D0)
+#define CLASS_3_D02D0DD74D08864A__CTOR_OFFSET UNITYSDK_OFFSET(0x18832A20)
 
-inline static constexpr unsigned int Class_3_D02D0DD74D08864A_TypeDefinitionIndex = 21565;
+inline static constexpr unsigned int Class_3_D02D0DD74D08864A_TypeDefinitionIndex = 22303;
 
 class Class_3_D02D0DD74D08864A : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::Il2CppArray<::System::String*>* Field_3_0; // 0x18
-	::System::String* Field_3_1; // 0x20
+	::System::String* Field_3_1; // 0x18
+	::Il2CppArray<::System::String*>* Field_3_0; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/BubbleTalkType.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_7AD848C39BD69FDC;
 namespace RPG::Client { class IBubbleInfoGroupProvider; }
 namespace RPG::Client { class IBubbleInfoProvider; }
 namespace RPG::GameCore { class FiveDimBubbleTalkAction; }
@@ -10,35 +11,36 @@ namespace RPG::GameCore { class FiveDimRandomBubbleTalkAction; }
 namespace RPG::GameCore { class PlayNPCBubbleTalk; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_1_OFFSET UNITYSDK_OFFSET(0x921C200)
-#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_2_OFFSET UNITYSDK_OFFSET(0x921C310)
-#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_3_OFFSET UNITYSDK_OFFSET(0x921C3A0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_4_OFFSET UNITYSDK_OFFSET(0x921C5E0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x921BFD0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0x921CCF0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_GET_BUBBLETALKTYPE_OFFSET UNITYSDK_OFFSET(0x921CDC0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_GET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x921CDE0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_GET_LOOPINTERVAL_OFFSET UNITYSDK_OFFSET(0x921CE00)
-#define RPG_CLIENT_BUBBLETALKCONFIG_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x921CE20)
-#define RPG_CLIENT_BUBBLETALKCONFIG_GET__BUBBLEINFOGROUP_OFFSET UNITYSDK_OFFSET(0x921CE40)
-#define RPG_CLIENT_BUBBLETALKCONFIG_SET_BUBBLETALKTYPE_OFFSET UNITYSDK_OFFSET(0x921CDD0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_SET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x921CDF0)
-#define RPG_CLIENT_BUBBLETALKCONFIG_SET_LOOPINTERVAL_OFFSET UNITYSDK_OFFSET(0x921CE10)
-#define RPG_CLIENT_BUBBLETALKCONFIG_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x921CE30)
-#define RPG_CLIENT_BUBBLETALKCONFIG_SET__BUBBLEINFOGROUP_OFFSET UNITYSDK_OFFSET(0x921CE50)
-#define RPG_CLIENT_BUBBLETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x921C1E0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_1_OFFSET UNITYSDK_OFFSET(0x16D5AE90)
+#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_2_OFFSET UNITYSDK_OFFSET(0x16D5AFA0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_3_OFFSET UNITYSDK_OFFSET(0x16D5B030)
+#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_4_OFFSET UNITYSDK_OFFSET(0x16D5B270)
+#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_5_OFFSET UNITYSDK_OFFSET(0x16D5B980)
+#define RPG_CLIENT_BUBBLETALKCONFIG_CREATE_OFFSET UNITYSDK_OFFSET(0x16D5AC60)
+#define RPG_CLIENT_BUBBLETALKCONFIG_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0x16D5BB90)
+#define RPG_CLIENT_BUBBLETALKCONFIG_GET_BUBBLETALKTYPE_OFFSET UNITYSDK_OFFSET(0x16D5BC60)
+#define RPG_CLIENT_BUBBLETALKCONFIG_GET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x16D5BC80)
+#define RPG_CLIENT_BUBBLETALKCONFIG_GET_LOOPINTERVAL_OFFSET UNITYSDK_OFFSET(0x16D5BCA0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x16D5BCC0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_GET__BUBBLEINFOGROUP_OFFSET UNITYSDK_OFFSET(0x16D5BCE0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_SET_BUBBLETALKTYPE_OFFSET UNITYSDK_OFFSET(0x16D5BC70)
+#define RPG_CLIENT_BUBBLETALKCONFIG_SET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x16D5BC90)
+#define RPG_CLIENT_BUBBLETALKCONFIG_SET_LOOPINTERVAL_OFFSET UNITYSDK_OFFSET(0x16D5BCB0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x16D5BCD0)
+#define RPG_CLIENT_BUBBLETALKCONFIG_SET__BUBBLEINFOGROUP_OFFSET UNITYSDK_OFFSET(0x16D5BCF0)
+#define RPG_CLIENT_BUBBLETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D5AE70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BubbleTalkConfig_TypeDefinitionIndex = 51090;
+	inline static constexpr unsigned int BubbleTalkConfig_TypeDefinitionIndex = 57975;
 
 	class BubbleTalkConfig : public ::System::Object
 	{
 	public:
 		::System::String* _UniqueName_k__BackingField; // 0x10
 		::RPG::Client::IBubbleInfoGroupProvider* __BubbleInfoGroup_k__BackingField; // 0x18
-		::System::Boolean _IsLoop_k__BackingField; // 0x20
-		::RPG::GameCore::BubbleTalkType _BubbleTalkType_k__BackingField; // 0x24
+		::RPG::GameCore::BubbleTalkType _BubbleTalkType_k__BackingField; // 0x20
+		::System::Boolean _IsLoop_k__BackingField; // 0x24
 		::System::Single _LoopInterval_k__BackingField; // 0x28
 
 		::System::Void _ctor()
@@ -61,14 +63,19 @@ namespace RPG::Client
 			return ((::RPG::Client::BubbleTalkConfig*(*)(::System::String*, ::System::Single, ::System::Boolean, ::RPG::GameCore::BubbleTalkType, ::RPG::Client::IBubbleInfoGroupProvider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLETALKCONFIG_CREATE_2_OFFSET))(uniqueName, loopInterval, isLoop, bubbleTalkType, bubbleInfoGroupProviders);
 		}
 
-		static ::RPG::Client::BubbleTalkConfig* Create_3(::System::UInt32 containerGroupID, ::System::UInt32 containerInstanceID, ::System::UInt32 littleGameEntityID, ::RPG::GameCore::FiveDimBubbleTalkAction* fiveDimConfig)
+		static ::RPG::Client::BubbleTalkConfig* Create_3(::System::UInt32 containerGroupID, ::System::UInt32 containerInstanceID, ::System::Int32 littleGameRuntimeID, ::RPG::GameCore::FiveDimBubbleTalkAction* fiveDimConfig)
 		{
-			return ((::RPG::Client::BubbleTalkConfig*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::FiveDimBubbleTalkAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLETALKCONFIG_CREATE_3_OFFSET))(containerGroupID, containerInstanceID, littleGameEntityID, fiveDimConfig);
+			return ((::RPG::Client::BubbleTalkConfig*(*)(::System::UInt32, ::System::UInt32, ::System::Int32, ::RPG::GameCore::FiveDimBubbleTalkAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLETALKCONFIG_CREATE_3_OFFSET))(containerGroupID, containerInstanceID, littleGameRuntimeID, fiveDimConfig);
 		}
 
-		static ::RPG::Client::BubbleTalkConfig* Create_4(::System::UInt32 containerGroupID, ::System::UInt32 containerInstanceID, ::System::UInt32 littleGameEntityID, ::RPG::GameCore::FiveDimRandomBubbleTalkAction* fiveDimConfig)
+		static ::RPG::Client::BubbleTalkConfig* Create_4(::System::UInt32 containerGroupID, ::System::UInt32 containerInstanceID, ::System::Int32 littleGameRuntimeID, ::RPG::GameCore::FiveDimRandomBubbleTalkAction* fiveDimConfig)
 		{
-			return ((::RPG::Client::BubbleTalkConfig*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLETALKCONFIG_CREATE_4_OFFSET))(containerGroupID, containerInstanceID, littleGameEntityID, fiveDimConfig);
+			return ((::RPG::Client::BubbleTalkConfig*(*)(::System::UInt32, ::System::UInt32, ::System::Int32, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLETALKCONFIG_CREATE_4_OFFSET))(containerGroupID, containerInstanceID, littleGameRuntimeID, fiveDimConfig);
+		}
+
+		static ::RPG::Client::BubbleTalkConfig* Create_5(::Class_1_7AD848C39BD69FDC* message, ::System::UInt32 runtimeID)
+		{
+			return ((::RPG::Client::BubbleTalkConfig*(*)(::Class_1_7AD848C39BD69FDC*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLETALKCONFIG_CREATE_5_OFFSET))(message, runtimeID);
 		}
 
 		::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>* GetBubbleInfoProviderList()

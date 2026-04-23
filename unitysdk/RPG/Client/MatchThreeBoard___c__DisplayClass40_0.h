@@ -5,12 +5,12 @@
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreePowerCounter; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9B39E70)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS40_0__DOPLAYPOWERCOUNTER_B__0_OFFSET UNITYSDK_OFFSET(0x9B3F420)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6FC30)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS40_0__DOPLAYPOWERCOUNTER_B__0_OFFSET UNITYSDK_OFFSET(0x16F751A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass40_0_TypeDefinitionIndex = 53540;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass40_0_TypeDefinitionIndex = 60684;
 
 	class MatchThreeBoard___c__DisplayClass40_0 : public ::System::Object
 	{

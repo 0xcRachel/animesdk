@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::Console::CN { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E239C0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x15E25FC0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x15E26220)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161B74F0)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x161B9B50)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS11_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x161B9DB0)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass11_0_TypeDefinitionIndex = 7716;
+	inline static constexpr unsigned int BindManager___c__DisplayClass11_0_TypeDefinitionIndex = 7863;
 
 	class BindManager___c__DisplayClass11_0 : public ::System::Object
 	{

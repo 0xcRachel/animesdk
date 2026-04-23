@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_1955D8FE7A261719_OFFSET UNITYSDK_OFFSET(0x176AF1D0)
-#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_94AA597E068738FA_OFFSET UNITYSDK_OFFSET(0x176AF0F0)
-#define RPG_GAMECORE_SCALECHARACTERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x176AF170)
+#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_1955D8FE7A261719_OFFSET UNITYSDK_OFFSET(0x192E0350)
+#define RPG_GAMECORE_SCALECHARACTERMODEL_METHOD_3_94AA597E068738FA_OFFSET UNITYSDK_OFFSET(0x192E0270)
+#define RPG_GAMECORE_SCALECHARACTERMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x192E02F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScaleCharacterModel_TypeDefinitionIndex = 20915;
+	inline static constexpr unsigned int ScaleCharacterModel_TypeDefinitionIndex = 21626;
 
 	class ScaleCharacterModel : public ::RPG::GameCore::TaskConfig
 	{

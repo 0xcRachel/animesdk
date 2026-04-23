@@ -6,16 +6,16 @@ class Class_1_36006FC25F5DDC69;
 class Class_2_181A7F9409C60DBC;
 namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_WithAttributeRank; }
 
-#define CLASS_1_36006FC25F5DDC69___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11787640)
-#define CLASS_1_36006FC25F5DDC69___C__DISPLAYCLASS18_0___EVALUATEATTRIBUTERANKSOLDIERS_B__1_OFFSET UNITYSDK_OFFSET(0x1178B880)
+#define CLASS_1_36006FC25F5DDC69___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D4370)
+#define CLASS_1_36006FC25F5DDC69___C__DISPLAYCLASS18_0___EVALUATEATTRIBUTERANKSOLDIERS_B__1_OFFSET UNITYSDK_OFFSET(0xD4D85B0)
 
-inline static constexpr unsigned int Class_1_36006FC25F5DDC69___c__DisplayClass18_0_TypeDefinitionIndex = 63332;
+inline static constexpr unsigned int Class_1_36006FC25F5DDC69___c__DisplayClass18_0_TypeDefinitionIndex = 71372;
 
 class Class_1_36006FC25F5DDC69___c__DisplayClass18_0 : public ::System::Object
 {
 public:
-	::Class_1_36006FC25F5DDC69* __4__this; // 0x10
-	::RPG::GameCore::ChenLingBattleTargetEvaluator_WithAttributeRank* attributeRankEvaluator; // 0x18
+	::RPG::GameCore::ChenLingBattleTargetEvaluator_WithAttributeRank* attributeRankEvaluator; // 0x10
+	::Class_1_36006FC25F5DDC69* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

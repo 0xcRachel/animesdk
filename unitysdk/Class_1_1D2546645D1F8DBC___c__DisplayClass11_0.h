@@ -5,10 +5,10 @@
 
 namespace RPG::Client { class AvatarOutfitSlot; }
 
-#define CLASS_1_1D2546645D1F8DBC___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8D73540)
-#define CLASS_1_1D2546645D1F8DBC___C__DISPLAYCLASS11_0__GETSLOT_B__0_OFFSET UNITYSDK_OFFSET(0x8D73D60)
+#define CLASS_1_1D2546645D1F8DBC___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC13E40)
+#define CLASS_1_1D2546645D1F8DBC___C__DISPLAYCLASS11_0__GETSLOT_B__0_OFFSET UNITYSDK_OFFSET(0xBC14CC0)
 
-inline static constexpr unsigned int Class_1_1D2546645D1F8DBC___c__DisplayClass11_0_TypeDefinitionIndex = 50807;
+inline static constexpr unsigned int Class_1_1D2546645D1F8DBC___c__DisplayClass11_0_TypeDefinitionIndex = 57685;
 
 class Class_1_1D2546645D1F8DBC___c__DisplayClass11_0 : public ::System::Object
 {

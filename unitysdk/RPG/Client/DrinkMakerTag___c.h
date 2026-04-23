@@ -5,24 +5,24 @@
 namespace RPG::Client { class DrinkMakerTag; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_DRINKMAKERTAG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9528440)
-#define RPG_CLIENT_DRINKMAKERTAG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9528480)
-#define RPG_CLIENT_DRINKMAKERTAG___C__GETALLTAGNAMESBYTYPE_B__0_0_OFFSET UNITYSDK_OFFSET(0x9528490)
+#define RPG_CLIENT_DRINKMAKERTAG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x160CB6B0)
+#define RPG_CLIENT_DRINKMAKERTAG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x160CB6F0)
+#define RPG_CLIENT_DRINKMAKERTAG___C__GETALLTAGNAMESBYTYPE_B__0_0_OFFSET UNITYSDK_OFFSET(0x160CB700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerTag___c_TypeDefinitionIndex = 51684;
+	inline static constexpr unsigned int DrinkMakerTag___c_TypeDefinitionIndex = 58632;
 
 	class DrinkMakerTag___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DrinkMakerTag___c** StaticGet___9()
-		{
-			return (::RPG::Client::DrinkMakerTag___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerTag___c_TypeDefinitionIndex)->GetStaticField(0x46560);
-		}
 		static ::System::Comparison_1<::RPG::Client::DrinkMakerTag*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerTag___c_TypeDefinitionIndex)->GetStaticField(0x46568);
+			return (::System::Comparison_1<::RPG::Client::DrinkMakerTag*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerTag___c_TypeDefinitionIndex)->GetStaticField(0x69330);
+		}
+		static ::RPG::Client::DrinkMakerTag___c** StaticGet___9()
+		{
+			return (::RPG::Client::DrinkMakerTag___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerTag___c_TypeDefinitionIndex)->GetStaticField(0x69338);
 		}
 
 		static ::System::Void _cctor()

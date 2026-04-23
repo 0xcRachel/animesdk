@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_EFFECT_FALLINGANIMATORCOLLIDER_CONTAINS_OFFSET UNITYSDK_OFFSET(0x9556840)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATORCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x9556CC0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATORCOLLIDER_CONTAINS_OFFSET UNITYSDK_OFFSET(0x13FF39C0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATORCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF3E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FallingAnimatorCollider_TypeDefinitionIndex = 57705;
+	inline static constexpr unsigned int Effect_FallingAnimatorCollider_TypeDefinitionIndex = 64969;
 
 	class Effect_FallingAnimatorCollider : public ::UnityEngine::MonoBehaviour
 	{

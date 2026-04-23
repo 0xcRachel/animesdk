@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1762BF10)
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1762C1C0)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199724E0)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19972790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicWorkbenchFuncRow_TypeDefinitionIndex = 13603;
+	inline static constexpr unsigned int RogueMagicWorkbenchFuncRow_TypeDefinitionIndex = 14075;
 
 	class RogueMagicWorkbenchFuncRow : public ::System::Object
 	{
 	public:
 		::System::String* FuncIcon; // 0x10
-		::RPG::GameCore::RogueWorkbenchFuncType FuncType; // 0x18
-		::System::UInt32 FuncID; // 0x1C
-		::RPG::Client::TextID FuncName; // 0x20
-		::RPG::Client::TextID FuncDesc; // 0x30
+		::RPG::Client::TextID FuncName; // 0x18
+		::RPG::Client::TextID FuncDesc; // 0x28
+		::System::UInt32 FuncID; // 0x38
+		::RPG::GameCore::RogueWorkbenchFuncType FuncType; // 0x3C
 
 		::System::Void _ctor()
 		{

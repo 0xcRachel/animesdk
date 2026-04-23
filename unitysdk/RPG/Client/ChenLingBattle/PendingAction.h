@@ -9,23 +9,23 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9346470)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0x9346510)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x93464D0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0x93463F0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x93463E0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17CAED40)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0x17CAEDE0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x17CAEDA0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0x17CAECC0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17CAECB0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 62047;
+	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 70046;
 
 	class PendingAction : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x10
-		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x18
-		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x20
-		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x28
+		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x10
+		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x18
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x20
+		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x28
 
 		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* gameContext, ::RPG::Client::ChenLingBattle::ActionInfo* actionInfo)
 		{

@@ -4,19 +4,19 @@
 
 namespace System::Reflection { class PropertyInfo; }
 
-#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1847BB30)
-#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1847C420)
-#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1847C4F0)
+#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A313730)
+#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1A314020)
+#define SRF_HELPERS_PROPERTYREFERENCE___C__DISPLAYCLASS14_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1A3140F0)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int PropertyReference___c__DisplayClass14_0_TypeDefinitionIndex = 27717;
+	inline static constexpr unsigned int PropertyReference___c__DisplayClass14_0_TypeDefinitionIndex = 33341;
 
 	class PropertyReference___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Object* target; // 0x10
-		::System::Reflection::PropertyInfo* property; // 0x18
+		::System::Reflection::PropertyInfo* property; // 0x10
+		::System::Object* target; // 0x18
 
 		::System::Void _ctor()
 		{

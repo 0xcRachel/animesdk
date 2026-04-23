@@ -5,19 +5,19 @@
 
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_MULTIPATHAVATARGETNEWAVATARPATHNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9DB1B00)
+#define RPG_CLIENT_MULTIPATHAVATARGETNEWAVATARPATHNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13734CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarGetNewAvatarPathNotifyData_TypeDefinitionIndex = 53919;
+	inline static constexpr unsigned int MultiPathAvatarGetNewAvatarPathNotifyData_TypeDefinitionIndex = 61063;
 
 	class MultiPathAvatarGetNewAvatarPathNotifyData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ItemDisplayData* EidolonDisplayItem; // 0x10
-		::Enum_3_DFCB42601400F441 MultiPathAvatarType; // 0x18
-		::System::Boolean IsNew; // 0x1C
-		::System::Boolean IsEarlyUnlocked; // 0x1D
+		::System::Boolean IsNew; // 0x18
+		::System::Boolean IsEarlyUnlocked; // 0x19
+		::Enum_3_DFCB42601400F441 MultiPathAvatarType; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -5,11 +5,11 @@
 namespace RPG::Client::LittleGame { class ActionConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_ACTIONGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x168558D0)
+#define RPG_CLIENT_LITTLEGAME_ACTIONGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18F86AA0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ActionGroupConfig_TypeDefinitionIndex = 32799;
+	inline static constexpr unsigned int ActionGroupConfig_TypeDefinitionIndex = 38589;
 
 	class ActionGroupConfig : public ::RPG::Client::LittleGame::WeightConfig
 	{

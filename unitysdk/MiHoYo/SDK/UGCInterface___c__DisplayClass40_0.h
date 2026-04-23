@@ -9,22 +9,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x85ACA10)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x85AF390)
-#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__1_OFFSET UNITYSDK_OFFSET(0x85AF5A0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17CEEB50)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x17CF14D0)
+#define MIHOYO_SDK_UGCINTERFACE___C__DISPLAYCLASS40_0__EXCHANGETOKEN_B__1_OFFSET UNITYSDK_OFFSET(0x17CF16E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface___c__DisplayClass40_0_TypeDefinitionIndex = 37209;
+	inline static constexpr unsigned int UGCInterface___c__DisplayClass40_0_TypeDefinitionIndex = 43054;
 
 	class UGCInterface___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::UGCInterface* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
-		::System::String* strUrl; // 0x20
-		::System::String* strAuthKey; // 0x28
-		::System::Action* timeoutCallback; // 0x30
+		::System::String* strUrl; // 0x18
+		::System::String* strAuthKey; // 0x20
+		::System::Action* timeoutCallback; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x30
 
 		::System::Void _ctor()
 		{

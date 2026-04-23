@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1759B9E0)
-#define RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1759C080)
+#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19016F30)
+#define RPG_GAMECORE_RECORDREFRESHROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190175D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 13175;
+	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 13637;
 
 	class RecordRefreshRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RefreshTime; // 0x10
-		::System::UInt32 RefreshID; // 0x18
-		::System::Boolean IsInteract; // 0x1C
-		::RPG::GameCore::RecordRefreshType RefreshType; // 0x20
+		::System::Boolean IsInteract; // 0x18
+		::RPG::GameCore::RecordRefreshType RefreshType; // 0x1C
+		::System::UInt32 RefreshID; // 0x20
 
 		::System::Void _ctor()
 		{

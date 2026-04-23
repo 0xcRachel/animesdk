@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FANTASTICSTORYBUFFSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171D1520)
-#define RPG_GAMECORE_FANTASTICSTORYBUFFSLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171D1610)
+#define RPG_GAMECORE_FANTASTICSTORYBUFFSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1946C120)
+#define RPG_GAMECORE_FANTASTICSTORYBUFFSLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1946C210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FantasticStoryBuffSlotRow_TypeDefinitionIndex = 10712;
+	inline static constexpr unsigned int FantasticStoryBuffSlotRow_TypeDefinitionIndex = 10963;
 
 	class FantasticStoryBuffSlotRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockChapterID; // 0x10
-		::System::UInt32 BuffSlotID; // 0x14
+		::System::UInt32 BuffSlotID; // 0x10
+		::System::UInt32 UnlockChapterID; // 0x14
 
 		::System::Void _ctor()
 		{

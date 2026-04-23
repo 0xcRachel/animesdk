@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MDVRegionVariant; }
 
-#define RPG_GAMECORE_MIDDLEDISTANTVIEWPREFABINFO_METHOD_2_1F8A787D215B5357_OFFSET UNITYSDK_OFFSET(0x1742F760)
-#define RPG_GAMECORE_MIDDLEDISTANTVIEWPREFABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1742F8D0)
+#define RPG_GAMECORE_MIDDLEDISTANTVIEWPREFABINFO_METHOD_2_1F8A787D215B5357_OFFSET UNITYSDK_OFFSET(0x1906C410)
+#define RPG_GAMECORE_MIDDLEDISTANTVIEWPREFABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1906C580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiddleDistantViewPrefabInfo_TypeDefinitionIndex = 17510;
+	inline static constexpr unsigned int MiddleDistantViewPrefabInfo_TypeDefinitionIndex = 18119;
 
 	class MiddleDistantViewPrefabInfo : public ::RPG::GameCore::JsonConfig
 	{

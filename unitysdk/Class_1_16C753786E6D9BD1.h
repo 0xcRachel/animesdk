@@ -11,31 +11,31 @@ namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_16C753786E6D9BD1_CLEAR_OFFSET UNITYSDK_OFFSET(0x8733020)
-#define CLASS_1_16C753786E6D9BD1_GET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0x8732EF0)
-#define CLASS_1_16C753786E6D9BD1_METHOD_1_01C00AED4805279E_OFFSET UNITYSDK_OFFSET(0x8733770)
-#define CLASS_1_16C753786E6D9BD1_METHOD_1_0F18B26B3C898DF3_OFFSET UNITYSDK_OFFSET(0x8733470)
-#define CLASS_1_16C753786E6D9BD1_METHOD_1_272068886DA88B16_OFFSET UNITYSDK_OFFSET(0x87335F0)
-#define CLASS_1_16C753786E6D9BD1_METHOD_1_AEF9A5358F4E0015_OFFSET UNITYSDK_OFFSET(0x8733710)
-#define CLASS_1_16C753786E6D9BD1_METHOD_1_E28F290ACBB044F0_OFFSET UNITYSDK_OFFSET(0x8733250)
-#define CLASS_1_16C753786E6D9BD1_METHOD_1_E81CEED1B22DE2BF_OFFSET UNITYSDK_OFFSET(0x8733800)
-#define CLASS_1_16C753786E6D9BD1_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0x8732F00)
-#define CLASS_1_16C753786E6D9BD1__CTOR_OFFSET UNITYSDK_OFFSET(0x8732F10)
+#define CLASS_1_16C753786E6D9BD1_CLEAR_OFFSET UNITYSDK_OFFSET(0xB0860B0)
+#define CLASS_1_16C753786E6D9BD1_GET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xB085F80)
+#define CLASS_1_16C753786E6D9BD1_METHOD_1_0F18B26B3C898DF3_OFFSET UNITYSDK_OFFSET(0xB0864F0)
+#define CLASS_1_16C753786E6D9BD1_METHOD_1_272068886DA88B16_OFFSET UNITYSDK_OFFSET(0xB086670)
+#define CLASS_1_16C753786E6D9BD1_METHOD_1_536C2E82540C2DBA_OFFSET UNITYSDK_OFFSET(0xB0867F0)
+#define CLASS_1_16C753786E6D9BD1_METHOD_1_AEF9A5358F4E0015_OFFSET UNITYSDK_OFFSET(0xB086790)
+#define CLASS_1_16C753786E6D9BD1_METHOD_1_E28F290ACBB044F0_OFFSET UNITYSDK_OFFSET(0xB0862D0)
+#define CLASS_1_16C753786E6D9BD1_METHOD_1_E81CEED1B22DE2BF_OFFSET UNITYSDK_OFFSET(0xB086930)
+#define CLASS_1_16C753786E6D9BD1_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xB085F90)
+#define CLASS_1_16C753786E6D9BD1__CTOR_OFFSET UNITYSDK_OFFSET(0xB085FA0)
 
-inline static constexpr unsigned int Class_1_16C753786E6D9BD1_TypeDefinitionIndex = 46617;
+inline static constexpr unsigned int Class_1_16C753786E6D9BD1_TypeDefinitionIndex = 53308;
 
 class Class_1_16C753786E6D9BD1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_1_4; // 0x18
-	::RPG::GameCore::GameWorld* Field_1_5; // 0x20
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_1_6; // 0x28
-	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_1_7; // 0x30
-	::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x38
-	::RPG::GameCore::EntityTypeMask Field_1_3; // 0x40
-	::System::Single Field_1_2; // 0x48
-	::System::Int32 Field_1_1; // 0x4C
+	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_1_7; // 0x10
+	::RPG::GameCore::GameWorld* Field_1_5; // 0x18
+	::System::String* Field_1_0; // 0x20
+	::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x28
+	::System::Action_1<::RPG::GameCore::GameEntity*>* Field_1_6; // 0x30
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* Field_1_4; // 0x38
+	::System::Single Field_1_2; // 0x40
+	::System::Int32 Field_1_1; // 0x44
+	::RPG::GameCore::EntityTypeMask Field_1_3; // 0x48
 
 	::System::Void _ctor()
 	{
@@ -72,9 +72,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_16C753786E6D9BD1_METHOD_1_AEF9A5358F4E0015_OFFSET))(this);
 	}
 
-	::System::Void Method_1_01C00AED4805279E(::RPG::GameCore::GameEntity* a1)
+	::System::Void Method_1_536C2E82540C2DBA(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_16C753786E6D9BD1_METHOD_1_01C00AED4805279E_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_16C753786E6D9BD1_METHOD_1_536C2E82540C2DBA_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_0F18B26B3C898DF3(::RPG::GameCore::GameEntity* a1)

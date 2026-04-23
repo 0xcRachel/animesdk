@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_SOCKETELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x186CC110)
-#define SYSTEM_NET_CONFIGURATION_SOCKETELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x186CC0D0)
+#define SYSTEM_NET_CONFIGURATION_SOCKETELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1832D9D0)
+#define SYSTEM_NET_CONFIGURATION_SOCKETELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1832D990)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int SocketElement_TypeDefinitionIndex = 3073;
+	inline static constexpr unsigned int SocketElement_TypeDefinitionIndex = 3074;
 
 	class SocketElement : public ::System::Configuration::ConfigurationElement
 	{

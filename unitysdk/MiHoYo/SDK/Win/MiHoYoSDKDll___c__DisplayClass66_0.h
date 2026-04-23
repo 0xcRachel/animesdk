@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16107070)
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__LOGIN_PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1610BF10)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154C7750)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS66_0__LOGIN_PAY_B__0_OFFSET UNITYSDK_OFFSET(0x154CBB60)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass66_0_TypeDefinitionIndex = 8041;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass66_0_TypeDefinitionIndex = 8187;
 
 	class MiHoYoSDKDll___c__DisplayClass66_0 : public ::System::Object
 	{

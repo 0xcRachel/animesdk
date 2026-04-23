@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONODEBUGSPINEANIMRUNTIMEPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x9C36360)
+#define RPG_CLIENT_MONODEBUGSPINEANIMRUNTIMEPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBF43FA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDebugSpineAnimRuntimePreview_TypeDefinitionIndex = 56385;
+	inline static constexpr unsigned int MonoDebugSpineAnimRuntimePreview_TypeDefinitionIndex = 63629;
 
 	class MonoDebugSpineAnimRuntimePreview : public ::UnityEngine::MonoBehaviour
 	{

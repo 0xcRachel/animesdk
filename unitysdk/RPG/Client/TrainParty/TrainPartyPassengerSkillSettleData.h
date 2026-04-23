@@ -4,12 +4,12 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyPassengerSkillInfo; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xA616060)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA613FF0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1781B1F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17819580)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyPassengerSkillSettleData_TypeDefinitionIndex = 61135;
+	inline static constexpr unsigned int TrainPartyPassengerSkillSettleData_TypeDefinitionIndex = 68622;
 
 	class TrainPartyPassengerSkillSettleData : public ::System::Object
 	{

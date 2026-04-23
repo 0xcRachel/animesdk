@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONGETREGISTEREDPLAYERCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x870E550)
+#define EPIC_ONLINESERVICES_SESSIONS_ACTIVESESSIONGETREGISTEREDPLAYERCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x196775E0)
 
 namespace Epic::OnlineServices::Sessions
 {
-	inline static constexpr unsigned int ActiveSessionGetRegisteredPlayerCountOptions_TypeDefinitionIndex = 35405;
+	inline static constexpr unsigned int ActiveSessionGetRegisteredPlayerCountOptions_TypeDefinitionIndex = 41231;
 
 	class ActiveSessionGetRegisteredPlayerCountOptions : public ::System::Object
 	{

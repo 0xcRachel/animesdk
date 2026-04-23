@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMCOMEFROMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172D6ED0)
-#define RPG_GAMECORE_ITEMCOMEFROMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172D8DB0)
+#define RPG_GAMECORE_ITEMCOMEFROMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x188958D0)
+#define RPG_GAMECORE_ITEMCOMEFROMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18897770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComefromRow_TypeDefinitionIndex = 12671;
+	inline static constexpr unsigned int ItemComefromRow_TypeDefinitionIndex = 13138;
 
 	class ItemComefromRow : public ::System::Object
 	{
@@ -18,11 +18,11 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* GotoParam; // 0x10
 		::System::UInt32 GotoID; // 0x18
 		::System::Boolean EnableMissionTrack; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 ComefromID; // 0x24
-		::RPG::Client::TextID Desc; // 0x28
-		::System::UInt32 NPCMonsterTrackID; // 0x38
-		::System::UInt32 Sort; // 0x3C
+		::System::UInt32 Sort; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::UInt32 NPCMonsterTrackID; // 0x28
+		::System::UInt32 ComefromID; // 0x2C
+		::RPG::Client::TextID Desc; // 0x30
 
 		::System::Void _ctor()
 		{

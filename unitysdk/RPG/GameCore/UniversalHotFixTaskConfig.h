@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_8D94CFF4712EC2E6_OFFSET UNITYSDK_OFFSET(0x178FA1A0)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x178FB030)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_8D94CFF4712EC2E6_OFFSET UNITYSDK_OFFSET(0x19511C00)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19512A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 21585;
+	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 22323;
 
 	class UniversalHotFixTaskConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,23 +4,23 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_25387A59D8708C59__CTOR_OFFSET UNITYSDK_OFFSET(0x97AF5E0)
+#define CLASS_1_25387A59D8708C59__CTOR_OFFSET UNITYSDK_OFFSET(0x135DF4F0)
 
-inline static constexpr unsigned int Class_1_25387A59D8708C59_TypeDefinitionIndex = 56915;
+inline static constexpr unsigned int Class_1_25387A59D8708C59_TypeDefinitionIndex = 64165;
 
 class Class_1_25387A59D8708C59 : public ::System::Object
 {
 public:
 	::UnityEngine::Vector3 Field_1_7; // 0x10
-	::System::Single Field_1_3; // 0x1C
-	::System::Single Field_1_5; // 0x20
-	::System::Single Field_1_6; // 0x24
-	::RPG::GameCore::VCameraState Field_1_0; // 0x28
-	::UnityEngine::Vector3 Field_1_2; // 0x2C
-	::System::Single Field_1_8; // 0x38
-	::System::Single Field_1_9; // 0x3C
-	::System::Boolean Field_1_1; // 0x40
-	::UnityEngine::Vector3 Field_1_4; // 0x44
+	::System::Single Field_1_6; // 0x1C
+	::UnityEngine::Vector3 Field_1_4; // 0x20
+	::System::Single Field_1_5; // 0x2C
+	::UnityEngine::Vector3 Field_1_2; // 0x30
+	::System::Boolean Field_1_1; // 0x3C
+	::System::Single Field_1_9; // 0x40
+	::System::Single Field_1_8; // 0x44
+	::RPG::GameCore::VCameraState Field_1_0; // 0x48
+	::System::Single Field_1_3; // 0x4C
 
 	::System::Void _ctor()
 	{

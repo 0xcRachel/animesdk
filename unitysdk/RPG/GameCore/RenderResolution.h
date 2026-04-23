@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RENDERRESOLUTION_METHOD_2_2804F2607FBE516E_OFFSET UNITYSDK_OFFSET(0x175AEA50)
-#define RPG_GAMECORE_RENDERRESOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x175AEBC0)
+#define RPG_GAMECORE_RENDERRESOLUTION_METHOD_2_2804F2607FBE516E_OFFSET UNITYSDK_OFFSET(0x1902A020)
+#define RPG_GAMECORE_RENDERRESOLUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1902A190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RenderResolution_TypeDefinitionIndex = 16762;
+	inline static constexpr unsigned int RenderResolution_TypeDefinitionIndex = 17356;
 
 	class RenderResolution : public ::RPG::GameCore::JsonConfig
 	{

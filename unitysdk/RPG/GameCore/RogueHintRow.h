@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17622430)
-#define RPG_GAMECORE_ROGUEHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x176229E0)
+#define RPG_GAMECORE_ROGUEHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199682D0)
+#define RPG_GAMECORE_ROGUEHINTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19968880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHintRow_TypeDefinitionIndex = 13416;
+	inline static constexpr unsigned int RogueHintRow_TypeDefinitionIndex = 13889;
 
 	class RogueHintRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 HintID; // 0x10
-		::RPG::Client::TextID HintText; // 0x18
+		::RPG::Client::TextID HintText; // 0x10
+		::System::UInt32 HintID; // 0x20
 
 		::System::Void _ctor()
 		{

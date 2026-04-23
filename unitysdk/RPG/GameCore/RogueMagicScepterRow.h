@@ -9,32 +9,32 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_1_A88C3AAF0DD46F4C_12;
+class Class_1_A88C3AAF0DD46F4C_13;
 namespace RPG::GameCore { class MazeBuffRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176292B0)
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x17629770)
-#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17629760)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1996F880)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW_GETMAZEBUFF_OFFSET UNITYSDK_OFFSET(0x1996FD40)
+#define RPG_GAMECORE_ROGUEMAGICSCEPTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1996FD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicScepterRow_TypeDefinitionIndex = 13611;
+	inline static constexpr unsigned int RogueMagicScepterRow_TypeDefinitionIndex = 14083;
 
 	class RogueMagicScepterRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* TrenchCount; // 0x10
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_13*>* LockMagicUnit; // 0x10
 		::Il2CppArray<::RPG::GameCore::RogueMagicEffectType>* EffectTypeList; // 0x18
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_12*>* LockMagicUnit; // 0x20
-		::RPG::GameCore::RogueMagicRangeType LimitRangeType; // 0x28
-		::System::UInt32 StaffMazeBuffID; // 0x2C
-		::RPG::GameCore::FixPoint ScepterBasicPower; // 0x30
-		::System::UInt32 ScepterLevel; // 0x38
-		::System::UInt32 ScepterID; // 0x3C
-		::RPG::GameCore::RogueMagicStyleType StyleType; // 0x40
-		::RPG::GameCore::RogueMagicScepterFuncType FuncType; // 0x44
-		::System::UInt32 UnlockID; // 0x48
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* TrenchCount; // 0x20
+		::RPG::GameCore::RogueMagicScepterFuncType FuncType; // 0x28
+		::System::UInt32 ScepterLevel; // 0x2C
+		::RPG::GameCore::RogueMagicRangeType LimitRangeType; // 0x30
+		::System::UInt32 UnlockID; // 0x34
+		::RPG::GameCore::FixPoint ScepterBasicPower; // 0x38
+		::System::UInt32 StaffMazeBuffID; // 0x40
+		::RPG::GameCore::RogueMagicStyleType StyleType; // 0x44
+		::System::UInt32 ScepterID; // 0x48
 
 		::System::Void _ctor()
 		{

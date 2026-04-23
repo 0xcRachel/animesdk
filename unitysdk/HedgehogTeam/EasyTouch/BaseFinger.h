@@ -8,36 +8,36 @@ namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_BASEFINGER_COPYGESTURE_OFFSET UNITYSDK_OFFSET(0x11A6E630)
-#define HEDGEHOGTEAM_EASYTOUCH_BASEFINGER_GETGESTURE_OFFSET UNITYSDK_OFFSET(0x11A6E570)
-#define HEDGEHOGTEAM_EASYTOUCH_BASEFINGER__CTOR_OFFSET UNITYSDK_OFFSET(0x11A6E6D0)
+#define HEDGEHOGTEAM_EASYTOUCH_BASEFINGER_COPYGESTURE_OFFSET UNITYSDK_OFFSET(0x19187150)
+#define HEDGEHOGTEAM_EASYTOUCH_BASEFINGER_GETGESTURE_OFFSET UNITYSDK_OFFSET(0x191870A0)
+#define HEDGEHOGTEAM_EASYTOUCH_BASEFINGER__CTOR_OFFSET UNITYSDK_OFFSET(0x191871E0)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int BaseFinger_TypeDefinitionIndex = 31300;
+	inline static constexpr unsigned int BaseFinger_TypeDefinitionIndex = 37020;
 
 	class BaseFinger : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* pickedUIElement; // 0x10
+		::UnityEngine::GameObject* pickedObject; // 0x10
 		::UnityEngine::Camera* pickedCamera; // 0x18
-		::UnityEngine::GameObject* pickedObject; // 0x20
-		::System::Int32 touchCount; // 0x28
-		::System::Single pressure; // 0x2C
-		::System::Single radius; // 0x30
-		::System::Single actionTime; // 0x34
-		::System::Single maximumPossiblePressure; // 0x38
-		::System::Single radiusVariance; // 0x3C
-		::System::Boolean isOverGui; // 0x40
-		::System::Boolean isGuiCamera; // 0x41
-		::System::Single azimuthAngle; // 0x44
-		::UnityEngine::Vector2 deltaPosition; // 0x48
-		::UnityEngine::Vector2 position; // 0x50
-		::System::Single altitudeAngle; // 0x58
-		::UnityEngine::TouchType touchType; // 0x5C
-		::System::Single deltaTime; // 0x60
-		::UnityEngine::Vector2 startPosition; // 0x64
-		::System::Int32 fingerIndex; // 0x6C
+		::UnityEngine::GameObject* pickedUIElement; // 0x20
+		::UnityEngine::Vector2 position; // 0x28
+		::System::Single actionTime; // 0x30
+		::System::Single deltaTime; // 0x34
+		::System::Single radius; // 0x38
+		::UnityEngine::TouchType touchType; // 0x3C
+		::System::Single radiusVariance; // 0x40
+		::System::Single pressure; // 0x44
+		::System::Single maximumPossiblePressure; // 0x48
+		::System::Single altitudeAngle; // 0x4C
+		::System::Single azimuthAngle; // 0x50
+		::System::Int32 touchCount; // 0x54
+		::System::Boolean isOverGui; // 0x58
+		::System::Boolean isGuiCamera; // 0x59
+		::UnityEngine::Vector2 deltaPosition; // 0x5C
+		::System::Int32 fingerIndex; // 0x64
+		::UnityEngine::Vector2 startPosition; // 0x68
 		::UnityEngine::Vector2 deltaInch; // 0x70
 
 		::System::Void _ctor()

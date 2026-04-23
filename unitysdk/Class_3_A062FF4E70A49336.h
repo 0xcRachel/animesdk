@@ -5,10 +5,10 @@
 namespace RPG::Client { class ByPlantFesIsInMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A062FF4E70A49336_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1171AA00)
-#define CLASS_3_A062FF4E70A49336__CTOR_OFFSET UNITYSDK_OFFSET(0x1171A9D0)
+#define CLASS_3_A062FF4E70A49336_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD1CBCE0)
+#define CLASS_3_A062FF4E70A49336__CTOR_OFFSET UNITYSDK_OFFSET(0xD1CBCB0)
 
-inline static constexpr unsigned int Class_3_A062FF4E70A49336_TypeDefinitionIndex = 46767;
+inline static constexpr unsigned int Class_3_A062FF4E70A49336_TypeDefinitionIndex = 53476;
 
 class Class_3_A062FF4E70A49336 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::Client::ByPlantFesIsInMove*>
 {

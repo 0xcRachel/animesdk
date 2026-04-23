@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetPerformanceResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_05F9A3D3BF383411_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x108F4E20)
-#define CLASS_3_05F9A3D3BF383411__CTOR_OFFSET UNITYSDK_OFFSET(0x108F4DF0)
+#define CLASS_3_05F9A3D3BF383411_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD2A63C0)
+#define CLASS_3_05F9A3D3BF383411__CTOR_OFFSET UNITYSDK_OFFSET(0xD2A6390)
 
-inline static constexpr unsigned int Class_3_05F9A3D3BF383411_TypeDefinitionIndex = 43115;
+inline static constexpr unsigned int Class_3_05F9A3D3BF383411_TypeDefinitionIndex = 49105;
 
 class Class_3_05F9A3D3BF383411 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetPerformanceResult*>
 {

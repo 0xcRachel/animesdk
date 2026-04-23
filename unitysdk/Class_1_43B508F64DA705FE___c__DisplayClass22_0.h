@@ -6,16 +6,16 @@ class Class_1_8AA12367DC523613;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x8749940)
-#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x874A4C0)
+#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFF6A4F0)
+#define CLASS_1_43B508F64DA705FE___C__DISPLAYCLASS22_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0xFF6B070)
 
-inline static constexpr unsigned int Class_1_43B508F64DA705FE___c__DisplayClass22_0_TypeDefinitionIndex = 58471;
+inline static constexpr unsigned int Class_1_43B508F64DA705FE___c__DisplayClass22_0_TypeDefinitionIndex = 65765;
 
 class Class_1_43B508F64DA705FE___c__DisplayClass22_0 : public ::System::Object
 {
 public:
-	::System::Action* callback; // 0x10
-	::System::Action_1<::Class_1_8AA12367DC523613*>* __9__0; // 0x18
+	::System::Action_1<::Class_1_8AA12367DC523613*>* __9__0; // 0x10
+	::System::Action* callback; // 0x18
 	::System::Int32 count; // 0x20
 	::System::Int32 total; // 0x24
 

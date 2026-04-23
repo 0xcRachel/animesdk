@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RAIDFINISHINFO_GET_ISFIRSTFINISH_OFFSET UNITYSDK_OFFSET(0xA285920)
-#define RPG_CLIENT_RAIDFINISHINFO_GET_RAIDID_OFFSET UNITYSDK_OFFSET(0xA285900)
-#define RPG_CLIENT_RAIDFINISHINFO_SET_ISFIRSTFINISH_OFFSET UNITYSDK_OFFSET(0xA285930)
-#define RPG_CLIENT_RAIDFINISHINFO_SET_RAIDID_OFFSET UNITYSDK_OFFSET(0xA285910)
-#define RPG_CLIENT_RAIDFINISHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xA2858F0)
+#define RPG_CLIENT_RAIDFINISHINFO_GET_ISFIRSTFINISH_OFFSET UNITYSDK_OFFSET(0x16001EC0)
+#define RPG_CLIENT_RAIDFINISHINFO_GET_RAIDID_OFFSET UNITYSDK_OFFSET(0x16001EA0)
+#define RPG_CLIENT_RAIDFINISHINFO_SET_ISFIRSTFINISH_OFFSET UNITYSDK_OFFSET(0x16001ED0)
+#define RPG_CLIENT_RAIDFINISHINFO_SET_RAIDID_OFFSET UNITYSDK_OFFSET(0x16001EB0)
+#define RPG_CLIENT_RAIDFINISHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16001E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RaidFinishInfo_TypeDefinitionIndex = 54328;
+	inline static constexpr unsigned int RaidFinishInfo_TypeDefinitionIndex = 61491;
 
 	class RaidFinishInfo : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsFirstFinish_k__BackingField; // 0x10
-		::System::UInt32 _RaidID_k__BackingField; // 0x14
+		::System::UInt32 _RaidID_k__BackingField; // 0x10
+		::System::Boolean _IsFirstFinish_k__BackingField; // 0x14
 
 		::System::Void _ctor(::System::UInt32 raidID, ::System::Boolean isFirstFinish)
 		{

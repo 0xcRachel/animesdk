@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1777C620)
-#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1777C780)
+#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18609A90)
+#define RPG_GAMECORE_STAGEINFINITEMONSTERGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18609BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInfiniteMonsterGroupRow_TypeDefinitionIndex = 13899;
+	inline static constexpr unsigned int StageInfiniteMonsterGroupRow_TypeDefinitionIndex = 14374;
 
 	class StageInfiniteMonsterGroupRow : public ::System::Object
 	{

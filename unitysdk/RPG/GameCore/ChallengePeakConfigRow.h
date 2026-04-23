@@ -6,24 +6,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEPEAKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17071F00)
-#define RPG_GAMECORE_CHALLENGEPEAKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170722C0)
+#define RPG_GAMECORE_CHALLENGEPEAKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D4CB10)
+#define RPG_GAMECORE_CHALLENGEPEAKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4CED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakConfigRow_TypeDefinitionIndex = 11831;
+	inline static constexpr unsigned int ChallengePeakConfigRow_TypeDefinitionIndex = 12262;
 
 	class ChallengePeakConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TagList; // 0x10
-		::Il2CppArray<::System::UInt32>* ProgressValueList; // 0x18
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType; // 0x20
+		::Il2CppArray<::System::UInt32>* ProgressValueList; // 0x10
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* DamageType; // 0x18
+		::Il2CppArray<::System::UInt32>* NormalTargetList; // 0x20
 		::Il2CppArray<::System::UInt32>* EventIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* NormalTargetList; // 0x30
+		::Il2CppArray<::System::UInt32>* TagList; // 0x30
 		::Il2CppArray<::System::UInt32>* HPProgressValueList; // 0x38
-		::RPG::Client::TextID Title; // 0x40
-		::System::UInt32 ID; // 0x50
+		::System::UInt32 ID; // 0x40
+		::RPG::Client::TextID Title; // 0x48
 
 		::System::Void _ctor()
 		{

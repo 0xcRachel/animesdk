@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FF1930)
-#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF1A70)
+#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x187AFD80)
+#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x187AFEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassWeekConfigRow_TypeDefinitionIndex = 11758;
+	inline static constexpr unsigned int BattlePassWeekConfigRow_TypeDefinitionIndex = 12170;
 
 	class BattlePassWeekConfigRow : public ::System::Object
 	{

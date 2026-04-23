@@ -4,11 +4,11 @@
 
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_ONTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x11A96970)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTAP_ONTAP__CTOR_OFFSET UNITYSDK_OFFSET(0x191AF640)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTap_OnTap_TypeDefinitionIndex = 31290;
+	inline static constexpr unsigned int QuickTap_OnTap_TypeDefinitionIndex = 37010;
 
 	class QuickTap_OnTap : public ::UnityEngine::Events::UnityEvent_1<::HedgehogTeam::EasyTouch::Gesture*>
 	{

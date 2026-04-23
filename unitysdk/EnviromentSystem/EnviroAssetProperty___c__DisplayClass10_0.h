@@ -9,12 +9,12 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFB8F830)
-#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xFB90280)
+#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC31F640)
+#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xC31F9F0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroAssetProperty___c__DisplayClass10_0_TypeDefinitionIndex = 40304;
+	inline static constexpr unsigned int EnviroAssetProperty___c__DisplayClass10_0_TypeDefinitionIndex = 46213;
 
 	class EnviroAssetProperty___c__DisplayClass10_0 : public ::System::Object
 	{
@@ -23,8 +23,8 @@ namespace EnviromentSystem
 		::EnviromentSystem::EnviroAssetProperty* __4__this; // 0x18
 		::System::Action_2<::UnityEngine::Object*, ::System::Object*>* __9__0; // 0x20
 		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x28
-		::System::Int32 asyncLoadTotalCount; // 0x30
-		::System::Int32 asyncCount; // 0x34
+		::System::Int32 asyncCount; // 0x30
+		::System::Int32 asyncLoadTotalCount; // 0x34
 
 		::System::Void _ctor()
 		{

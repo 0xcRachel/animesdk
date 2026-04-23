@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9553740)
-#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9553780)
-#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__UPDATEHITPOINTFROMCACHELIST_B__51_0_OFFSET UNITYSDK_OFFSET(0x9553790)
+#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FF08C0)
+#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF0900)
+#define RPG_CLIENT_EFFECT_DYNAMICWAVESMANAGER___C__UPDATEHITPOINTFROMCACHELIST_B__51_0_OFFSET UNITYSDK_OFFSET(0x13FF0910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicWavesManager___c_TypeDefinitionIndex = 57687;
+	inline static constexpr unsigned int Effect_DynamicWavesManager___c_TypeDefinitionIndex = 64951;
 
 	class Effect_DynamicWavesManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__51_0()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_DynamicWavesManager___c_TypeDefinitionIndex)->GetStaticField(0x47380);
-		}
 		static ::RPG::Client::Effect_DynamicWavesManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::Effect_DynamicWavesManager___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_DynamicWavesManager___c_TypeDefinitionIndex)->GetStaticField(0x47388);
+			return (::RPG::Client::Effect_DynamicWavesManager___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_DynamicWavesManager___c_TypeDefinitionIndex)->GetStaticField(0x697E0);
+		}
+		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__51_0()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_DynamicWavesManager___c_TypeDefinitionIndex)->GetStaticField(0x697E8);
 		}
 
 		static ::System::Void _cctor()

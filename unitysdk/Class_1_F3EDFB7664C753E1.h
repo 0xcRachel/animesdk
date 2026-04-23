@@ -7,27 +7,27 @@ class Class_1_8F355422BD450641;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x117B2E50)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_782FBC558668D4E1_OFFSET UNITYSDK_OFFSET(0x117B3630)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_97D3351D9DA48135_OFFSET UNITYSDK_OFFSET(0x117B2EF0)
-#define CLASS_1_F3EDFB7664C753E1_METHOD_1_FA5DABCBDCFF09FF_OFFSET UNITYSDK_OFFSET(0x117B2DF0)
-#define CLASS_1_F3EDFB7664C753E1__CTOR_OFFSET UNITYSDK_OFFSET(0x117B2D50)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD1CC0B0)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_782FBC558668D4E1_OFFSET UNITYSDK_OFFSET(0xD1CC890)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_97D3351D9DA48135_OFFSET UNITYSDK_OFFSET(0xD1CC150)
+#define CLASS_1_F3EDFB7664C753E1_METHOD_1_FA5DABCBDCFF09FF_OFFSET UNITYSDK_OFFSET(0xD1CC050)
+#define CLASS_1_F3EDFB7664C753E1__CTOR_OFFSET UNITYSDK_OFFSET(0xD1CBFB0)
 
-inline static constexpr unsigned int Class_1_F3EDFB7664C753E1_TypeDefinitionIndex = 60716;
+inline static constexpr unsigned int Class_1_F3EDFB7664C753E1_TypeDefinitionIndex = 68158;
 
 class Class_1_F3EDFB7664C753E1 : public ::System::Object
 {
 public:
-	::System::String* Field_1_5; // 0x10
-	::System::String* Field_1_0; // 0x18
-	::System::String* Field_1_2; // 0x20
-	::System::String* Field_1_9; // 0x28
-	::System::String* Field_1_8; // 0x30
-	::System::String* Field_1_3; // 0x38
-	::System::String* Field_1_1; // 0x40
-	::System::String* Field_1_6; // 0x48
-	::System::String* Field_1_4; // 0x50
-	::System::String* Field_1_7; // 0x58
+	::System::String* Field_1_1; // 0x10
+	::System::String* Field_1_6; // 0x18
+	::System::String* Field_1_4; // 0x20
+	::System::String* Field_1_0; // 0x28
+	::System::String* Field_1_5; // 0x30
+	::System::String* Field_1_8; // 0x38
+	::System::String* Field_1_7; // 0x40
+	::System::String* Field_1_9; // 0x48
+	::System::String* Field_1_3; // 0x50
+	::System::String* Field_1_2; // 0x58
 	::Struct_2_E8C1B530F552FEF0 Field_1_10; // 0x60
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)

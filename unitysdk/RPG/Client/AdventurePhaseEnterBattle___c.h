@@ -4,29 +4,29 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x907BD80)
-#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x907BDB0)
-#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C___ONLOADINGBATTLESCENE_B__62_1_OFFSET UNITYSDK_OFFSET(0x907BDC0)
-#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C___ONLOADINGBATTLESCENE_B__62_3_OFFSET UNITYSDK_OFFSET(0x907BEA0)
+#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10ACCB60)
+#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10ACCB90)
+#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C___ONLOADINGBATTLESCENE_B__62_1_OFFSET UNITYSDK_OFFSET(0x10ACCBA0)
+#define RPG_CLIENT_ADVENTUREPHASEENTERBATTLE___C___ONLOADINGBATTLESCENE_B__62_3_OFFSET UNITYSDK_OFFSET(0x10ACCC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhaseEnterBattle___c_TypeDefinitionIndex = 48719;
+	inline static constexpr unsigned int AdventurePhaseEnterBattle___c_TypeDefinitionIndex = 55468;
 
 	class AdventurePhaseEnterBattle___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AdventurePhaseEnterBattle___c** StaticGet___9()
-		{
-			return (::RPG::Client::AdventurePhaseEnterBattle___c**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseEnterBattle___c_TypeDefinitionIndex)->GetStaticField(0x36960);
-		}
 		static ::System::Action_1<::System::Single>** StaticGet___9__62_1()
 		{
-			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseEnterBattle___c_TypeDefinitionIndex)->GetStaticField(0x36968);
+			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseEnterBattle___c_TypeDefinitionIndex)->GetStaticField(0x55E80);
+		}
+		static ::RPG::Client::AdventurePhaseEnterBattle___c** StaticGet___9()
+		{
+			return (::RPG::Client::AdventurePhaseEnterBattle___c**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseEnterBattle___c_TypeDefinitionIndex)->GetStaticField(0x55E88);
 		}
 		static ::System::Action_1<::System::Single>** StaticGet___9__62_3()
 		{
-			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseEnterBattle___c_TypeDefinitionIndex)->GetStaticField(0x36970);
+			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AdventurePhaseEnterBattle___c_TypeDefinitionIndex)->GetStaticField(0x55E90);
 		}
 
 		static ::System::Void _cctor()

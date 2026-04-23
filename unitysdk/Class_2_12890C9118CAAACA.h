@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SortTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_12890C9118CAAACA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8775AF0)
-#define CLASS_2_12890C9118CAAACA_METHOD_2_4D72DCC0B92993D6_OFFSET UNITYSDK_OFFSET(0x8776BE0)
-#define CLASS_2_12890C9118CAAACA_METHOD_2_8377BC0DCBA8CDB6_OFFSET UNITYSDK_OFFSET(0x8776BF0)
-#define CLASS_2_12890C9118CAAACA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8775BF0)
-#define CLASS_2_12890C9118CAAACA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8776740)
-#define CLASS_2_12890C9118CAAACA_TICK_OFFSET UNITYSDK_OFFSET(0x8776790)
-#define CLASS_2_12890C9118CAAACA__CTOR_OFFSET UNITYSDK_OFFSET(0x8775990)
+#define CLASS_2_12890C9118CAAACA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC66BC60)
+#define CLASS_2_12890C9118CAAACA_METHOD_2_4D72DCC0B92993D6_OFFSET UNITYSDK_OFFSET(0xC66CD50)
+#define CLASS_2_12890C9118CAAACA_METHOD_2_8377BC0DCBA8CDB6_OFFSET UNITYSDK_OFFSET(0xC66CD60)
+#define CLASS_2_12890C9118CAAACA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC66BD60)
+#define CLASS_2_12890C9118CAAACA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC66C8B0)
+#define CLASS_2_12890C9118CAAACA_TICK_OFFSET UNITYSDK_OFFSET(0xC66C900)
+#define CLASS_2_12890C9118CAAACA__CTOR_OFFSET UNITYSDK_OFFSET(0xC66BB00)
 
-inline static constexpr unsigned int Class_2_12890C9118CAAACA_TypeDefinitionIndex = 44559;
+inline static constexpr unsigned int Class_2_12890C9118CAAACA_TypeDefinitionIndex = 51293;
 
 class Class_2_12890C9118CAAACA : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::Collections::Generic::List_1<::Class_3_5775A4FEC79026BC*>* Field_2_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x20
-	::Class_1_5F51D4049EA87B7B* Field_2_5; // 0x28
-	::RPG::GameCore::SortTargets* Field_2_3; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_4; // 0x38
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x40
+	::RPG::GameCore::TaskContext* Field_2_4; // 0x18
+	::RPG::GameCore::SortTargets* Field_2_3; // 0x20
+	::System::Collections::Generic::List_1<::Class_3_E21F6DE9B7FA4D05*>* Field_2_1; // 0x28
+	::Class_1_5F51D4049EA87B7B* Field_2_5; // 0x30
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x38
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x40
 	::System::Boolean Field_2_6; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SortTargets* a2)

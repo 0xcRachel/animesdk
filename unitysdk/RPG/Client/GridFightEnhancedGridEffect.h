@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_137.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_138.h"
 #include "unitysdk/RPG/Client/GridFightGridEffectType.h"
 
 namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightGridData; }
 
-#define RPG_CLIENT_GRIDFIGHTENHANCEDGRIDEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0x9806E50)
-#define RPG_CLIENT_GRIDFIGHTENHANCEDGRIDEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x9806E40)
-#define RPG_CLIENT_GRIDFIGHTENHANCEDGRIDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x9807020)
+#define RPG_CLIENT_GRIDFIGHTENHANCEDGRIDEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0x180509D0)
+#define RPG_CLIENT_GRIDFIGHTENHANCEDGRIDEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x180509C0)
+#define RPG_CLIENT_GRIDFIGHTENHANCEDGRIDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18050BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEnhancedGridEffect_TypeDefinitionIndex = 52635;
+	inline static constexpr unsigned int GridFightEnhancedGridEffect_TypeDefinitionIndex = 59685;
 
-	class GridFightEnhancedGridEffect : public ::Class_1_43BD383C98B4C0C5_137
+	class GridFightEnhancedGridEffect : public ::Class_1_43BD383C98B4C0C5_138
 	{
 	public:
 		::System::Void _ctor()

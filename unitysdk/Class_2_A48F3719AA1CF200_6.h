@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_2_A48F3719AA1CF200_6_METHOD_2_EBE2AAB1D76E90D3_OFFSET UNITYSDK_OFFSET(0x9C505A0)
-#define CLASS_2_A48F3719AA1CF200_6__CTOR_OFFSET UNITYSDK_OFFSET(0x9C505B0)
+#define CLASS_2_A48F3719AA1CF200_6_METHOD_2_EBE2AAB1D76E90D3_OFFSET UNITYSDK_OFFSET(0xF983ED0)
+#define CLASS_2_A48F3719AA1CF200_6__CTOR_OFFSET UNITYSDK_OFFSET(0xF983EE0)
 
-inline static constexpr unsigned int Class_2_A48F3719AA1CF200_6_TypeDefinitionIndex = 43836;
+inline static constexpr unsigned int Class_2_A48F3719AA1CF200_6_TypeDefinitionIndex = 50535;
 
 class Class_2_A48F3719AA1CF200_6 : public ::Class_1_5F51D4049EA87B7B
 {

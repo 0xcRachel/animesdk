@@ -9,26 +9,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACETITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17063DB0)
-#define RPG_GAMECORE_CAKERACETITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170641A0)
+#define RPG_GAMECORE_CAKERACETITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D3E350)
+#define RPG_GAMECORE_CAKERACETITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D3E740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTitleRow_TypeDefinitionIndex = 10308;
+	inline static constexpr unsigned int CakeRaceTitleRow_TypeDefinitionIndex = 10533;
 
 	class CakeRaceTitleRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::String* BgColor; // 0x18
-		::RPG::Client::TextID TitleDesc; // 0x20
-		::RPG::GameCore::CakeRaceTitleConditionType ConditionType; // 0x30
-		::System::UInt32 ConditionParam; // 0x34
-		::RPG::Client::TextID TitleName; // 0x38
-		::System::UInt32 Priority; // 0x48
-		::RPG::GameCore::CakeRaceTitleExtremType ExtremType; // 0x4C
-		::System::UInt32 TitleID; // 0x50
-		::RPG::GameCore::CakeRaceTitleParamType ParamType; // 0x54
+		::System::String* BgColor; // 0x10
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
+		::RPG::GameCore::CakeRaceTitleConditionType ConditionType; // 0x20
+		::RPG::GameCore::CakeRaceTitleExtremType ExtremType; // 0x24
+		::RPG::GameCore::CakeRaceTitleParamType ParamType; // 0x28
+		::System::UInt32 ConditionParam; // 0x2C
+		::System::UInt32 TitleID; // 0x30
+		::System::UInt32 Priority; // 0x34
+		::RPG::Client::TextID TitleDesc; // 0x38
+		::RPG::Client::TextID TitleName; // 0x48
 
 		::System::Void _ctor()
 		{

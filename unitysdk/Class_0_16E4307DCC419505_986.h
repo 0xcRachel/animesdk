@@ -1,7 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UIFloatingTextType.h"
+#include "unitysdk/Struct_2_5909FD7779934CCA.h"
+#include "unitysdk/System/Decimal.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_986_TypeDefinitionIndex = 62979;
+class DamageTextStyle;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_986_TypeDefinitionIndex = 66675;
 
 class Class_0_16E4307DCC419505_986
 {

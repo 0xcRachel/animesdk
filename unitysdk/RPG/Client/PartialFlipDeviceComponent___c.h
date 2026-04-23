@@ -8,24 +8,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9F24960)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9F249A0)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET UNITYSDK_OFFSET(0x9F249B0)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x165B5650)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x165B5690)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET UNITYSDK_OFFSET(0x165B56A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c_TypeDefinitionIndex = 60086;
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c_TypeDefinitionIndex = 67519;
 
 	class PartialFlipDeviceComponent___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PartialFlipDeviceComponent___c** StaticGet___9()
-		{
-			return (::RPG::Client::PartialFlipDeviceComponent___c**)Il2CppClass::FromTypeDefinitionIndex(PartialFlipDeviceComponent___c_TypeDefinitionIndex)->GetStaticField(0x412A0);
-		}
 		static ::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(PartialFlipDeviceComponent___c_TypeDefinitionIndex)->GetStaticField(0x412A8);
+			return (::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(PartialFlipDeviceComponent___c_TypeDefinitionIndex)->GetStaticField(0x69300);
+		}
+		static ::RPG::Client::PartialFlipDeviceComponent___c** StaticGet___9()
+		{
+			return (::RPG::Client::PartialFlipDeviceComponent___c**)Il2CppClass::FromTypeDefinitionIndex(PartialFlipDeviceComponent___c_TypeDefinitionIndex)->GetStaticField(0x69308);
 		}
 
 		static ::System::Void _cctor()

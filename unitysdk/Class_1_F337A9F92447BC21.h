@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class ChimeraDuelEventListener; }
 
-#define CLASS_1_F337A9F92447BC21__CTOR_OFFSET UNITYSDK_OFFSET(0x1690B180)
+#define CLASS_1_F337A9F92447BC21__CTOR_OFFSET UNITYSDK_OFFSET(0x184AF4A0)
 
-inline static constexpr unsigned int Class_1_F337A9F92447BC21_TypeDefinitionIndex = 32207;
+inline static constexpr unsigned int Class_1_F337A9F92447BC21_TypeDefinitionIndex = 37927;
 
 class Class_1_F337A9F92447BC21 : public ::System::Object
 {

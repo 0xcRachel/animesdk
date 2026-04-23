@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_382;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_ONEVENTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAA0B910)
-#define RPG_GAMECORE_ONEVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAA0B940)
-#define RPG_GAMECORE_ONEVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xAA0B3C0)
-#define RPG_GAMECORE_ONEVENTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xA9FC360)
+#define RPG_GAMECORE_ONEVENTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xF53FDD0)
+#define RPG_GAMECORE_ONEVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xF53FE00)
+#define RPG_GAMECORE_ONEVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xF53F880)
+#define RPG_GAMECORE_ONEVENTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xF5306A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OnEventCallBack_TypeDefinitionIndex = 45591;
+	inline static constexpr unsigned int OnEventCallBack_TypeDefinitionIndex = 52241;
 
 	class OnEventCallBack : public ::System::MulticastDelegate
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ONEVENTCALLBACK__CTOR_OFFSET))(this, object, method);
 		}
 
-		::System::Void Invoke(::Class_0_16E4307DCC419505_375* pEvent)
+		::System::Void Invoke(::Class_0_16E4307DCC419505_382* pEvent)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ONEVENTCALLBACK_INVOKE_OFFSET))(this, pEvent);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ONEVENTCALLBACK_INVOKE_OFFSET))(this, pEvent);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_0_16E4307DCC419505_375* pEvent, ::System::AsyncCallback* callback, ::System::Object* object)
+		::System::IAsyncResult* BeginInvoke(::Class_0_16E4307DCC419505_382* pEvent, ::System::AsyncCallback* callback, ::System::Object* object)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_0_16E4307DCC419505_375*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ONEVENTCALLBACK_BEGININVOKE_OFFSET))(this, pEvent, callback, object);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_0_16E4307DCC419505_382*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ONEVENTCALLBACK_BEGININVOKE_OFFSET))(this, pEvent, callback, object);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* result)

@@ -8,18 +8,18 @@ namespace RPG::Client::MVVM::Model { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MVVM_MODEL_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A90470)
-#define RPG_CLIENT_MVVM_MODEL_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0__FETCHFIRSTJUMPABLESUBMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x9A90880)
+#define RPG_CLIENT_MVVM_MODEL_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16966320)
+#define RPG_CLIENT_MVVM_MODEL_LIMAONEWSOFFICESURVEYITEM___C__DISPLAYCLASS36_0__FETCHFIRSTJUMPABLESUBMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x16966730)
 
 namespace RPG::Client::MVVM::Model
 {
-	inline static constexpr unsigned int LimaoNewsOfficeSurveyItem___c__DisplayClass36_0_TypeDefinitionIndex = 61066;
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyItem___c__DisplayClass36_0_TypeDefinitionIndex = 68525;
 
 	class LimaoNewsOfficeSurveyItem___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::RPG::Client::SubMissionData*>* ret; // 0x10
-		::RPG::Client::MVVM::Model::LimaoNewsOfficeSurveyItem* __4__this; // 0x18
+		::RPG::Client::MVVM::Model::LimaoNewsOfficeSurveyItem* __4__this; // 0x10
+		::RPG::Client::Promises::Promise_1<::RPG::Client::SubMissionData*>* ret; // 0x18
 
 		::System::Void _ctor()
 		{

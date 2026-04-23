@@ -6,12 +6,12 @@
 
 namespace RPG::Client { class ShareSDK; }
 
-#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA483AC0)
-#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__SHAREPHOTO_B__0_OFFSET UNITYSDK_OFFSET(0xA484C50)
+#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15347E90)
+#define RPG_CLIENT_SHARESDK___C__DISPLAYCLASS2_0__SHAREPHOTO_B__0_OFFSET UNITYSDK_OFFSET(0x15348FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShareSDK___c__DisplayClass2_0_TypeDefinitionIndex = 49522;
+	inline static constexpr unsigned int ShareSDK___c__DisplayClass2_0_TypeDefinitionIndex = 56344;
 
 	class ShareSDK___c__DisplayClass2_0 : public ::System::Object
 	{

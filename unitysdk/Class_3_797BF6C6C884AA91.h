@@ -6,11 +6,11 @@ namespace RPG::Client { class QuestData; }
 namespace RPG::GameCore { class ScalePropByCollectionProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_797BF6C6C884AA91_METHOD_3_FD242BC37E556A97_OFFSET UNITYSDK_OFFSET(0x10B5E290)
-#define CLASS_3_797BF6C6C884AA91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10B5E020)
-#define CLASS_3_797BF6C6C884AA91__CTOR_OFFSET UNITYSDK_OFFSET(0x10B5DFF0)
+#define CLASS_3_797BF6C6C884AA91_METHOD_3_FD242BC37E556A97_OFFSET UNITYSDK_OFFSET(0xC68FA00)
+#define CLASS_3_797BF6C6C884AA91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC68F790)
+#define CLASS_3_797BF6C6C884AA91__CTOR_OFFSET UNITYSDK_OFFSET(0xC68F760)
 
-inline static constexpr unsigned int Class_3_797BF6C6C884AA91_TypeDefinitionIndex = 47199;
+inline static constexpr unsigned int Class_3_797BF6C6C884AA91_TypeDefinitionIndex = 53931;
 
 class Class_3_797BF6C6C884AA91 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ScalePropByCollectionProgress*>
 {

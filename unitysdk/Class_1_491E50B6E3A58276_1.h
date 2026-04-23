@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_101;
+class Class_1_43BD383C98B4C0C5_102;
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_491E50B6E3A58276_1__CTOR_OFFSET UNITYSDK_OFFSET(0xDE44850)
+#define CLASS_1_491E50B6E3A58276_1__CTOR_OFFSET UNITYSDK_OFFSET(0xFF02060)
 
-inline static constexpr unsigned int Class_1_491E50B6E3A58276_1_TypeDefinitionIndex = 40334;
+inline static constexpr unsigned int Class_1_491E50B6E3A58276_1_TypeDefinitionIndex = 46243;
 
 class Class_1_491E50B6E3A58276_1 : public ::System::Object
 {
 public:
-	::System::Action_1<::Class_1_43BD383C98B4C0C5_101*>* Field_1_0; // 0x10
-	::Class_1_43BD383C98B4C0C5_101* Field_1_1; // 0x18
+	::System::Action_1<::Class_1_43BD383C98B4C0C5_102*>* Field_1_0; // 0x10
+	::Class_1_43BD383C98B4C0C5_102* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

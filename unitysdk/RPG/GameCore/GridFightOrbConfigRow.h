@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTORBCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172826F0)
-#define RPG_GAMECORE_GRIDFIGHTORBCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17282900)
+#define RPG_GAMECORE_GRIDFIGHTORBCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B75180)
+#define RPG_GAMECORE_GRIDFIGHTORBCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B75390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightOrbConfigRow_TypeDefinitionIndex = 12266;
+	inline static constexpr unsigned int GridFightOrbConfigRow_TypeDefinitionIndex = 12697;
 
 	class GridFightOrbConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID OrbName; // 0x10
-		::System::UInt32 BonusID; // 0x20
-		::System::UInt32 OrbID; // 0x24
+		::System::UInt32 OrbID; // 0x10
+		::System::UInt32 BonusID; // 0x14
+		::RPG::Client::TextID OrbName; // 0x18
 		::RPG::GameCore::GridFightOrbType Type; // 0x28
 
 		::System::Void _ctor()

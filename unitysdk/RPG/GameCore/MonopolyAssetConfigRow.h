@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYASSETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1744A8E0)
-#define RPG_GAMECORE_MONOPOLYASSETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1744AC10)
+#define RPG_GAMECORE_MONOPOLYASSETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190878E0)
+#define RPG_GAMECORE_MONOPOLYASSETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19087C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyAssetConfigRow_TypeDefinitionIndex = 11025;
+	inline static constexpr unsigned int MonopolyAssetConfigRow_TypeDefinitionIndex = 11428;
 
 	class MonopolyAssetConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
-		::System::UInt32 BonusValue; // 0x18
-		::System::UInt32 Level; // 0x1C
-		::System::UInt32 Price; // 0x20
-		::System::UInt32 AssetID; // 0x24
-		::RPG::Client::TextID AssetDesc; // 0x28
-		::System::UInt32 TaxValue; // 0x38
-		::RPG::Client::TextID AssetName; // 0x40
+		::RPG::Client::TextID AssetDesc; // 0x18
+		::RPG::Client::TextID AssetName; // 0x28
+		::System::UInt32 BonusValue; // 0x38
+		::System::UInt32 TaxValue; // 0x3C
+		::System::UInt32 AssetID; // 0x40
+		::System::UInt32 Price; // 0x44
+		::System::UInt32 Level; // 0x48
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBattleResultAsWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7C3AE5A9D3DEB0EA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDE4DEC0)
-#define CLASS_3_7C3AE5A9D3DEB0EA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE4DE90)
+#define CLASS_3_7C3AE5A9D3DEB0EA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDB67EB0)
+#define CLASS_3_7C3AE5A9D3DEB0EA__CTOR_OFFSET UNITYSDK_OFFSET(0xDB67E80)
 
-inline static constexpr unsigned int Class_3_7C3AE5A9D3DEB0EA_TypeDefinitionIndex = 47212;
+inline static constexpr unsigned int Class_3_7C3AE5A9D3DEB0EA_TypeDefinitionIndex = 53944;
 
 class Class_3_7C3AE5A9D3DEB0EA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBattleResultAsWin*>
 {

@@ -5,22 +5,22 @@
 namespace RPG::Client { class ChessRogueDiceSurfaceDisplayData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_3F0D13B4D49FCA83___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x87A5B80)
-#define CLASS_1_3F0D13B4D49FCA83___C__CTOR_OFFSET UNITYSDK_OFFSET(0x87A5BC0)
-#define CLASS_1_3F0D13B4D49FCA83___C__GETDICESURFACEDISPLAYDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0x87A5BD0)
+#define CLASS_1_3F0D13B4D49FCA83___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xF256B10)
+#define CLASS_1_3F0D13B4D49FCA83___C__CTOR_OFFSET UNITYSDK_OFFSET(0xF256B50)
+#define CLASS_1_3F0D13B4D49FCA83___C__GETDICESURFACEDISPLAYDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xF256B60)
 
-inline static constexpr unsigned int Class_1_3F0D13B4D49FCA83___c_TypeDefinitionIndex = 54466;
+inline static constexpr unsigned int Class_1_3F0D13B4D49FCA83___c_TypeDefinitionIndex = 61654;
 
 class Class_1_3F0D13B4D49FCA83___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>** StaticGet___9__15_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F0D13B4D49FCA83___c_TypeDefinitionIndex)->GetStaticField(0x3BE70);
-	}
 	static ::Class_1_3F0D13B4D49FCA83___c** StaticGet___9()
 	{
-		return (::Class_1_3F0D13B4D49FCA83___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F0D13B4D49FCA83___c_TypeDefinitionIndex)->GetStaticField(0x3BE78);
+		return (::Class_1_3F0D13B4D49FCA83___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F0D13B4D49FCA83___c_TypeDefinitionIndex)->GetStaticField(0x4BBC0);
+	}
+	static ::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>** StaticGet___9__15_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3F0D13B4D49FCA83___c_TypeDefinitionIndex)->GetStaticField(0x4BBC8);
 	}
 
 	static ::System::Void _cctor()

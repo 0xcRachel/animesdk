@@ -5,12 +5,12 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1835D200)
-#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x1835D750)
+#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A718D10)
+#define RPG_CLIENT_PROMISES_PROMISETIMER___C__DISPLAYCLASS4_0__WAITWHILE_B__0_OFFSET UNITYSDK_OFFSET(0x1A719260)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseTimer___c__DisplayClass4_0_TypeDefinitionIndex = 9606;
+	inline static constexpr unsigned int PromiseTimer___c__DisplayClass4_0_TypeDefinitionIndex = 8654;
 
 	class PromiseTimer___c__DisplayClass4_0 : public ::System::Object
 	{

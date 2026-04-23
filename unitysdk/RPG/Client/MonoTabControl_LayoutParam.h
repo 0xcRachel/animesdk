@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOTABCONTROL_LAYOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x9D47FF0)
+#define RPG_CLIENT_MONOTABCONTROL_LAYOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x162F15F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTabControl_LayoutParam_TypeDefinitionIndex = 59508;
+	inline static constexpr unsigned int MonoTabControl_LayoutParam_TypeDefinitionIndex = 66903;
 
 	class MonoTabControl_LayoutParam : public ::System::Object
 	{

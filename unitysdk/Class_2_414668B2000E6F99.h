@@ -8,26 +8,26 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class ChenLingBattleAbility_SelfBoom; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_414668B2000E6F99_METHOD_2_394F35BBA0EE596A_OFFSET UNITYSDK_OFFSET(0x117ADCB0)
-#define CLASS_2_414668B2000E6F99_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0x117AE550)
-#define CLASS_2_414668B2000E6F99_METHOD_2_5587AE4B03E68C58_OFFSET UNITYSDK_OFFSET(0x117AE470)
-#define CLASS_2_414668B2000E6F99_METHOD_2_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x117AD2F0)
-#define CLASS_2_414668B2000E6F99_METHOD_2_F31C8D98E82AD4C4_OFFSET UNITYSDK_OFFSET(0x117ADBA0)
-#define CLASS_2_414668B2000E6F99__CTOR_OFFSET UNITYSDK_OFFSET(0x117AD1F0)
+#define CLASS_2_414668B2000E6F99_METHOD_2_394F35BBA0EE596A_OFFSET UNITYSDK_OFFSET(0xCAAF6E0)
+#define CLASS_2_414668B2000E6F99_METHOD_2_479759059E440327_OFFSET UNITYSDK_OFFSET(0xCAAFF80)
+#define CLASS_2_414668B2000E6F99_METHOD_2_5587AE4B03E68C58_OFFSET UNITYSDK_OFFSET(0xCAAFEA0)
+#define CLASS_2_414668B2000E6F99_METHOD_2_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0xCAAED20)
+#define CLASS_2_414668B2000E6F99_METHOD_2_F31C8D98E82AD4C4_OFFSET UNITYSDK_OFFSET(0xCAAF5D0)
+#define CLASS_2_414668B2000E6F99__CTOR_OFFSET UNITYSDK_OFFSET(0xCAAEC20)
 
-inline static constexpr unsigned int Class_2_414668B2000E6F99_TypeDefinitionIndex = 63371;
+inline static constexpr unsigned int Class_2_414668B2000E6F99_TypeDefinitionIndex = 71411;
 
 class Class_2_414668B2000E6F99 : public ::Class_1_F65B6F8790DF074B
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_2_1; // 0x28
-	::RPG::GameCore::ChenLingBattleAbility_SelfBoom* Field_2_0; // 0x30
+	::RPG::GameCore::ChenLingBattleAbility_SelfBoom* Field_2_0; // 0x28
+	::System::Collections::Generic::List_1<::System::Int32>* Field_2_1; // 0x30
 	::System::Single Field_2_6; // 0x38
-	::System::Single Field_2_5; // 0x3C
-	::System::Single Field_2_2; // 0x40
-	::System::Single Field_2_3; // 0x44
-	::System::Boolean Field_2_7; // 0x48
-	::System::Single Field_2_4; // 0x4C
+	::System::Boolean Field_2_7; // 0x3C
+	::System::Single Field_2_4; // 0x40
+	::System::Single Field_2_5; // 0x44
+	::System::Single Field_2_2; // 0x48
+	::System::Single Field_2_3; // 0x4C
 
 	::System::Void _ctor(::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* a1, ::Class_1_36006FC25F5DDC69* a2)
 	{

@@ -5,19 +5,19 @@
 
 namespace RPG::Client::MVVM::Service { class LimaoNewsTrackService; }
 
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9A9D000)
-#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0x9A9DDD0)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16972FB0)
+#define RPG_CLIENT_MVVM_SERVICE_LIMAONEWSTRACKSERVICE___C__DISPLAYCLASS15_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0x16973D70)
 
 namespace RPG::Client::MVVM::Service
 {
-	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass15_0_TypeDefinitionIndex = 61049;
+	inline static constexpr unsigned int LimaoNewsTrackService___c__DisplayClass15_0_TypeDefinitionIndex = 68507;
 
 	class LimaoNewsTrackService___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::MVVM::Service::LimaoNewsTrackService* __4__this; // 0x10
-		::Struct_2_6A75E669C858F984 billboardIconParam; // 0x18
-		::System::UInt32 subMissionID; // 0x20
+		::System::UInt32 subMissionID; // 0x18
+		::Struct_2_6A75E669C858F984 billboardIconParam; // 0x1C
 
 		::System::Void _ctor()
 		{

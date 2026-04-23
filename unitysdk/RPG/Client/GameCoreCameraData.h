@@ -16,41 +16,43 @@ namespace RPG::GameCore { class TeamDataComponent; }
 namespace RPG::GameCore { class TeamFormationComponent; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define RPG_CLIENT_GAMECORECAMERADATA_GETENEMYTEAMFORMATION_OFFSET UNITYSDK_OFFSET(0x9767DF0)
-#define RPG_CLIENT_GAMECORECAMERADATA_GETFRIENDTEAMFORMATION_OFFSET UNITYSDK_OFFSET(0x9767D90)
-#define RPG_CLIENT_GAMECORECAMERADATA_GET_NATIVETIMESCALE_OFFSET UNITYSDK_OFFSET(0x9767D70)
-#define RPG_CLIENT_GAMECORECAMERADATA_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x9767AA0)
-#define RPG_CLIENT_GAMECORECAMERADATA_SET_NATIVETIMESCALE_OFFSET UNITYSDK_OFFSET(0x9767D80)
-#define RPG_CLIENT_GAMECORECAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9767E50)
+#define RPG_CLIENT_GAMECORECAMERADATA_GETENEMYTEAMFORMATION_OFFSET UNITYSDK_OFFSET(0x15512DE0)
+#define RPG_CLIENT_GAMECORECAMERADATA_GETFRIENDTEAMFORMATION_OFFSET UNITYSDK_OFFSET(0x15512D80)
+#define RPG_CLIENT_GAMECORECAMERADATA_GET_NATIVETIMESCALE_OFFSET UNITYSDK_OFFSET(0x15512D60)
+#define RPG_CLIENT_GAMECORECAMERADATA_GET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x15512A80)
+#define RPG_CLIENT_GAMECORECAMERADATA_SET_NATIVETIMESCALE_OFFSET UNITYSDK_OFFSET(0x15512D70)
+#define RPG_CLIENT_GAMECORECAMERADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15512E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameCoreCameraData_TypeDefinitionIndex = 56859;
+	inline static constexpr unsigned int GameCoreCameraData_TypeDefinitionIndex = 64106;
 
 	class GameCoreCameraData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameWorld* GameWorldRef; // 0x10
-		::RPG::GameCore::SkillCharacterComponent* ActiveEntitySkillCharacterRef; // 0x18
-		::RPG::GameCore::TurnBasedAbilityComponent* ActiveEntityTurnBasedAbilityRef; // 0x20
-		::RPG::GameCore::CharacterDataComponent* TargetEntityCharacterDataRef; // 0x28
-		::RPG::GameCore::AdventureCharacterController* LocalPlayerCharacterControllerRef; // 0x30
-		::RPG::GameCore::TeamDataComponent* LightTeamDataComponentRef; // 0x38
-		::RPG::GameCore::SkillData* ActiveSkillDataRef; // 0x40
-		::RPG::GameCore::SkillConfig* ActiveSkillConfigRef; // 0x48
-		::RPG::GameCore::GameEntity* TargetEntityRef; // 0x50
-		::RPG::GameCore::TurnBasedAbilityComponent* TargetEntityTurnBasedAbilityRef; // 0x58
-		::RPG::GameCore::TeamFormationComponent* DarkTeamFormationRef; // 0x60
-		::RPG::GameCore::BattleInstance* BattleInstanceRef; // 0x68
+		::RPG::GameCore::CharacterDataComponent* TargetEntityCharacterDataRef; // 0x10
+		::RPG::GameCore::TeamDataComponent* LightTeamDataComponentRef; // 0x18
+		::RPG::GameCore::AdventureCharacterController* LocalPlayerCharacterControllerRef; // 0x20
+		::RPG::GameCore::SkillData* ActiveSkillDataRef; // 0x28
+		::RPG::GameCore::GameEntity* TargetEntityRef; // 0x30
+		::RPG::GameCore::SkillCharacterComponent* ActiveEntitySkillCharacterRef; // 0x38
+		::RPG::GameCore::TeamDataComponent* DarkTeamDataComponentRef; // 0x40
+		::RPG::GameCore::TeamFormationComponent* DarkTeamFormationRef; // 0x48
+		::RPG::GameCore::BattleInstance* BattleInstanceRef; // 0x50
+		::RPG::GameCore::GameEntity* LightTeamEntityRef; // 0x58
+		::RPG::GameCore::GameWorld* GameWorldRef; // 0x60
+		::RPG::GameCore::CharacterDataComponent* ActiveEntityCharacterDataRef; // 0x68
 		::RPG::GameCore::TeamFormationComponent* LightTeamFormationRef; // 0x70
-		::RPG::GameCore::GameEntity* ActiveEntityRef; // 0x78
-		::RPG::GameCore::CharacterDataComponent* ActiveEntityCharacterDataRef; // 0x80
-		::RPG::GameCore::TeamDataComponent* DarkTeamDataComponentRef; // 0x88
-		::RPG::GameCore::GameEntity* LocalPlayerRef; // 0x90
-		::Class_1_E3A8B05AA1BBEE81* CurrentActiveInsertAbilityRef; // 0x98
-		::System::Boolean CameraFollowActiveEntityTimeScale; // 0xA0
-		::System::Boolean ActiveEntitySkipActionFlag; // 0xA1
-		::System::Single _NativeTimeScale_k__BackingField; // 0xA4
+		::RPG::GameCore::SkillConfig* ActiveSkillConfigRef; // 0x78
+		::RPG::GameCore::GameEntity* LocalPlayerRef; // 0x80
+		::Class_1_E3A8B05AA1BBEE81* CurrentActiveInsertAbilityRef; // 0x88
+		::RPG::GameCore::TurnBasedAbilityComponent* TargetEntityTurnBasedAbilityRef; // 0x90
+		::RPG::GameCore::GameEntity* ActiveEntityRef; // 0x98
+		::RPG::GameCore::TurnBasedAbilityComponent* ActiveEntityTurnBasedAbilityRef; // 0xA0
+		::RPG::GameCore::GameEntity* DarkTeamEntityRef; // 0xA8
+		::System::Boolean CameraFollowActiveEntityTimeScale; // 0xB0
+		::System::Boolean ActiveEntitySkipActionFlag; // 0xB1
+		::System::Single _NativeTimeScale_k__BackingField; // 0xB4
 
 		::System::Void _ctor()
 		{

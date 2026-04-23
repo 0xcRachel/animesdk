@@ -6,19 +6,19 @@
 class Class_1_73507DF29F8561CD;
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17684A70)
-#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17684C30)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983B820)
+#define RPG_GAMECORE_ROGUETOURNWEEKLYDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983B9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 13717;
+	inline static constexpr unsigned int RogueTournWeeklyDisplayRow_TypeDefinitionIndex = 14188;
 
 	class RogueTournWeeklyDisplayRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Class_1_73507DF29F8561CD*>* DescParams; // 0x10
-		::RPG::Client::TextID WeeklyDisplayContent; // 0x18
-		::System::UInt32 WeeklyDisplayID; // 0x28
+		::System::UInt32 WeeklyDisplayID; // 0x18
+		::RPG::Client::TextID WeeklyDisplayContent; // 0x20
 
 		::System::Void _ctor()
 		{

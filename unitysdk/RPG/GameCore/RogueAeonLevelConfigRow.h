@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEAEONLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175F3FB0)
-#define RPG_GAMECORE_ROGUEAEONLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175F4830)
+#define RPG_GAMECORE_ROGUEAEONLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1923C150)
+#define RPG_GAMECORE_ROGUEAEONLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1923C9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAeonLevelConfigRow_TypeDefinitionIndex = 13570;
+	inline static constexpr unsigned int RogueAeonLevelConfigRow_TypeDefinitionIndex = 14042;
 
 	class RogueAeonLevelConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::UInt32 AeonStoryID; // 0x14
-		::System::UInt32 KeyPointRewardItemID; // 0x18
-		::System::UInt32 RogueAeonID; // 0x1C
-		::System::UInt32 Exp; // 0x20
-		::System::UInt32 Reward; // 0x24
-		::System::UInt32 Level; // 0x28
+		::System::UInt32 RogueAeonID; // 0x10
+		::RPG::Client::TextID AeonStory_Name; // 0x18
+		::System::UInt32 Reward; // 0x28
+		::System::UInt32 KeyPointRewardItemID; // 0x2C
 		::RPG::Client::TextID AeonStory; // 0x30
-		::RPG::Client::TextID AeonStory_Name; // 0x40
+		::System::UInt32 Level; // 0x40
+		::System::UInt32 AeonStoryID; // 0x44
+		::System::UInt32 Exp; // 0x48
+		::System::UInt32 UnlockID; // 0x4C
 
 		::System::Void _ctor()
 		{

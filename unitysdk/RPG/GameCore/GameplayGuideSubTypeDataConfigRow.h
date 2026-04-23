@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMEPLAYGUIDESUBTYPEDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1725A000)
-#define RPG_GAMECORE_GAMEPLAYGUIDESUBTYPEDATACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1725A6C0)
+#define RPG_GAMECORE_GAMEPLAYGUIDESUBTYPEDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195592A0)
+#define RPG_GAMECORE_GAMEPLAYGUIDESUBTYPEDATACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19559960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameplayGuideSubTypeDataConfigRow_TypeDefinitionIndex = 12219;
+	inline static constexpr unsigned int GameplayGuideSubTypeDataConfigRow_TypeDefinitionIndex = 12652;
 
 	class GameplayGuideSubTypeDataConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ItemListForType; // 0x10
-		::System::String* TabIconPath; // 0x18
+		::System::String* TabIconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* ItemListForType; // 0x18
 		::RPG::Client::TextID Name; // 0x20
 		::System::UInt32 SubTypeID; // 0x30
 

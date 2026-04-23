@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStatusProbability; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6542F40B3FCD77DD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1038AEF0)
-#define CLASS_3_6542F40B3FCD77DD__CTOR_OFFSET UNITYSDK_OFFSET(0x1038AE10)
+#define CLASS_3_6542F40B3FCD77DD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD7E0760)
+#define CLASS_3_6542F40B3FCD77DD__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E0680)
 
-inline static constexpr unsigned int Class_3_6542F40B3FCD77DD_TypeDefinitionIndex = 44424;
+inline static constexpr unsigned int Class_3_6542F40B3FCD77DD_TypeDefinitionIndex = 51142;
 
 class Class_3_6542F40B3FCD77DD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByStatusProbability*>
 {

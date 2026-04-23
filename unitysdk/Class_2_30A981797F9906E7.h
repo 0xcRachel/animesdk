@@ -5,17 +5,17 @@
 namespace RPG::Client { class LocalizedText; }
 namespace System { class String; }
 
-#define CLASS_2_30A981797F9906E7_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1160E850)
-#define CLASS_2_30A981797F9906E7_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x1160E800)
-#define CLASS_2_30A981797F9906E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1160E8D0)
+#define CLASS_2_30A981797F9906E7_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xF112D50)
+#define CLASS_2_30A981797F9906E7_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xF112D00)
+#define CLASS_2_30A981797F9906E7__CTOR_OFFSET UNITYSDK_OFFSET(0xF112DD0)
 
-inline static constexpr unsigned int Class_2_30A981797F9906E7_TypeDefinitionIndex = 59676;
+inline static constexpr unsigned int Class_2_30A981797F9906E7_TypeDefinitionIndex = 67072;
 
 class Class_2_30A981797F9906E7 : public ::Class_1_89D8044AB73F8F6D
 {
 public:
-	::RPG::Client::LocalizedText* Field_2_0; // 0x18
-	::RPG::Client::LocalizedText* Field_2_1; // 0x20
+	::RPG::Client::LocalizedText* Field_2_1; // 0x18
+	::RPG::Client::LocalizedText* Field_2_0; // 0x20
 
 	::System::Void _ctor()
 	{

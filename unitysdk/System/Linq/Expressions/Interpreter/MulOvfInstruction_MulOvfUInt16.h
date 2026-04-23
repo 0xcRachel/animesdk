@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MULOVFINSTRUCTION_MULOVFUINT16_RUN_OFFSET UNITYSDK_OFFSET(0x18505E00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MULOVFINSTRUCTION_MULOVFUINT16__CTOR_OFFSET UNITYSDK_OFFSET(0x18505340)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MULOVFINSTRUCTION_MULOVFUINT16_RUN_OFFSET UNITYSDK_OFFSET(0x19C71630)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MULOVFINSTRUCTION_MULOVFUINT16__CTOR_OFFSET UNITYSDK_OFFSET(0x19C70B70)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int MulOvfInstruction_MulOvfUInt16_TypeDefinitionIndex = 3529;
+	inline static constexpr unsigned int MulOvfInstruction_MulOvfUInt16_TypeDefinitionIndex = 3531;
 
 	class MulOvfInstruction_MulOvfUInt16 : public ::System::Linq::Expressions::Interpreter::MulOvfInstruction
 	{

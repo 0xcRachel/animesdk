@@ -5,12 +5,12 @@
 namespace System::Xml::Serialization { class ClassMap; }
 namespace System::Xml::Serialization { class XmlSerializationReaderInterpreter; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET UNITYSDK_OFFSET(0x185F87D0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x185F6A50)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO_FIXUPMEMBERS_OFFSET UNITYSDK_OFFSET(0x17A99B50)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_FIXUPCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17A97DD0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReaderInterpreter_FixupCallbackInfo_TypeDefinitionIndex = 2021;
+	inline static constexpr unsigned int XmlSerializationReaderInterpreter_FixupCallbackInfo_TypeDefinitionIndex = 2022;
 
 	class XmlSerializationReaderInterpreter_FixupCallbackInfo : public ::System::Object
 	{

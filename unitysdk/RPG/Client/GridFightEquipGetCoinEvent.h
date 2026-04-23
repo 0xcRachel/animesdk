@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/GridFightEquipEffectType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPGETCOINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x980D820)
+#define RPG_CLIENT_GRIDFIGHTEQUIPGETCOINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x180574F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipGetCoinEvent_TypeDefinitionIndex = 52835;
+	inline static constexpr unsigned int GridFightEquipGetCoinEvent_TypeDefinitionIndex = 59910;
 
 	class GridFightEquipGetCoinEvent : public ::System::Object
 	{

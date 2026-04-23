@@ -5,33 +5,33 @@
 
 class Class_1_96C82B73FFE758FB;
 
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xA9F4280)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0xA9F4200)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0xA9F42E0)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0xA9F41F0)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xA9F4330)
-#define CLASS_1_DC0A8D11AB967235_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xA9F4270)
-#define CLASS_1_DC0A8D11AB967235__CTOR_OFFSET UNITYSDK_OFFSET(0xA9F4380)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xD419DD0)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_7889E856344009E9_OFFSET UNITYSDK_OFFSET(0xD419D50)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0xD419E30)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0xD419D40)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD419E80)
+#define CLASS_1_DC0A8D11AB967235_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xD419DC0)
+#define CLASS_1_DC0A8D11AB967235__CTOR_OFFSET UNITYSDK_OFFSET(0xD419ED0)
 
-inline static constexpr unsigned int Class_1_DC0A8D11AB967235_TypeDefinitionIndex = 39810;
+inline static constexpr unsigned int Class_1_DC0A8D11AB967235_TypeDefinitionIndex = 45719;
 
 class Class_1_DC0A8D11AB967235 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DC0A8D11AB967235_TypeDefinitionIndex)->GetStaticField(0x13020);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DC0A8D11AB967235_TypeDefinitionIndex)->GetStaticField(0x11BF0);
 	}
-	::System::Int32 Field_1_5; // 0x10
-	::System::Single Field_1_7; // 0x14
-	::System::Single Field_1_11; // 0x18
-	::System::Single Field_1_6; // 0x1C
-	::System::Boolean Field_1_1; // 0x20
-	::System::Boolean Field_1_2; // 0x21
-	::System::Boolean Field_1_10; // 0x22
-	::System::Single Field_1_9; // 0x24
-	::System::Int32 Field_1_3; // 0x28
-	::System::Single Field_1_8; // 0x2C
+	::System::Single Field_1_8; // 0x10
+	::System::Boolean Field_1_1; // 0x14
+	::System::Boolean Field_1_10; // 0x15
+	::System::Boolean Field_1_2; // 0x16
+	::System::Single Field_1_7; // 0x18
+	::System::Single Field_1_11; // 0x1C
+	::System::Single Field_1_9; // 0x20
+	::System::Int32 Field_1_3; // 0x24
+	::System::Single Field_1_6; // 0x28
+	::System::Int32 Field_1_5; // 0x2C
 	::System::Int32 Field_1_4; // 0x30
 
 	::System::Void _ctor()

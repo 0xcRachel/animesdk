@@ -6,11 +6,11 @@ namespace HoudiniEngineUnity { class HEU_GenerateGeoCache; }
 namespace HoudiniEngineUnity { class HEU_GeoGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x8474C30)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x154409A0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LoadBufferMesh_TypeDefinitionIndex = 37791;
+	inline static constexpr unsigned int HEU_LoadBufferMesh_TypeDefinitionIndex = 43668;
 
 	class HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase
 	{
@@ -18,10 +18,10 @@ namespace HoudiniEngineUnity
 		::HoudiniEngineUnity::HEU_GenerateGeoCache* _geoCache; // 0x28
 		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* _LODGroupMeshes; // 0x30
 		::System::Int32 _defaultMaterialKey; // 0x38
-		::System::Boolean _bGenerateTangents; // 0x3C
-		::System::Boolean _bGenerateUVs; // 0x3D
-		::System::Boolean _bGenerateNormals; // 0x3E
-		::System::Boolean _bPartInstanced; // 0x3F
+		::System::Boolean _bGenerateUVs; // 0x3C
+		::System::Boolean _bGenerateTangents; // 0x3D
+		::System::Boolean _bPartInstanced; // 0x3E
+		::System::Boolean _bGenerateNormals; // 0x3F
 
 		::System::Void _ctor()
 		{

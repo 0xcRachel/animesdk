@@ -8,29 +8,29 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9759860)
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x97598A0)
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_0_OFFSET UNITYSDK_OFFSET(0x97598B0)
-#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_1_OFFSET UNITYSDK_OFFSET(0x97598D0)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x155048F0)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15504930)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_0_OFFSET UNITYSDK_OFFSET(0x15504940)
+#define RPG_CLIENT_GPUPARTICLETRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__19_1_OFFSET UNITYSDK_OFFSET(0x15504960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GPUParticleTransformLoopAnim___c_TypeDefinitionIndex = 57555;
+	inline static constexpr unsigned int GPUParticleTransformLoopAnim___c_TypeDefinitionIndex = 64818;
 
 	class GPUParticleTransformLoopAnim___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__19_1()
+		static ::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::UnityEngine::Mesh*>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(GPUParticleTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x10190);
+			return (::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(GPUParticleTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1AE40);
 		}
 		static ::RPG::Client::GPUParticleTransformLoopAnim___c** StaticGet___9()
 		{
-			return (::RPG::Client::GPUParticleTransformLoopAnim___c**)Il2CppClass::FromTypeDefinitionIndex(GPUParticleTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x10198);
+			return (::RPG::Client::GPUParticleTransformLoopAnim___c**)Il2CppClass::FromTypeDefinitionIndex(GPUParticleTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1AE48);
 		}
-		static ::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::UnityEngine::Mesh*>** StaticGet___9__19_0()
+		static ::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__19_1()
 		{
-			return (::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::UnityEngine::Mesh*>**)Il2CppClass::FromTypeDefinitionIndex(GPUParticleTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x101A0);
+			return (::System::Func_2<::Class_3_58EF5C0FB9CE901D_AnimatedItem*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(GPUParticleTransformLoopAnim___c_TypeDefinitionIndex)->GetStaticField(0x1AE50);
 		}
 
 		static ::System::Void _cctor()

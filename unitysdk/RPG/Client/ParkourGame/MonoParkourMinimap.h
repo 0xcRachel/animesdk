@@ -5,11 +5,11 @@
 
 namespace RPG::Client::ParkourGame { class MonoParkourMinimap_MiniRoad; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x9F0CAE0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x162C98B0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 60810;
+	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 68259;
 
 	class MonoParkourMinimap : public ::UnityEngine::MonoBehaviour
 	{

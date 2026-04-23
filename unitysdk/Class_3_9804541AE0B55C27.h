@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTimeRewindTargetMotionPause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9804541AE0B55C27_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEA8D0F0)
-#define CLASS_3_9804541AE0B55C27__CTOR_OFFSET UNITYSDK_OFFSET(0xEA8D0C0)
+#define CLASS_3_9804541AE0B55C27_EVALUATE_OFFSET UNITYSDK_OFFSET(0x118B8FA0)
+#define CLASS_3_9804541AE0B55C27__CTOR_OFFSET UNITYSDK_OFFSET(0x118B8F70)
 
-inline static constexpr unsigned int Class_3_9804541AE0B55C27_TypeDefinitionIndex = 43203;
+inline static constexpr unsigned int Class_3_9804541AE0B55C27_TypeDefinitionIndex = 49198;
 
 class Class_3_9804541AE0B55C27 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTimeRewindTargetMotionPause*>
 {

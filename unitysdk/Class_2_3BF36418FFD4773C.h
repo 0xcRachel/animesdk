@@ -4,32 +4,32 @@
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-class Class_0_16E4307DCC419505_375;
+class Class_0_16E4307DCC419505_382;
 namespace RPG::GameCore { class AdvSetupTrainCollectionSystem; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_3BF36418FFD4773C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9EE81F0)
-#define CLASS_2_3BF36418FFD4773C_METHOD_2_19844080C13BA28F_OFFSET UNITYSDK_OFFSET(0x9EE8990)
-#define CLASS_2_3BF36418FFD4773C_METHOD_2_239041C3652AD136_OFFSET UNITYSDK_OFFSET(0x9EE8CF0)
-#define CLASS_2_3BF36418FFD4773C_METHOD_2_6055A93732CC885D_OFFSET UNITYSDK_OFFSET(0x9EE8780)
-#define CLASS_2_3BF36418FFD4773C_METHOD_2_8618CA7CE20C80DB_OFFSET UNITYSDK_OFFSET(0x9EE83D0)
-#define CLASS_2_3BF36418FFD4773C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x9EE85D0)
-#define CLASS_2_3BF36418FFD4773C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x9EE8240)
-#define CLASS_2_3BF36418FFD4773C_TICK_OFFSET UNITYSDK_OFFSET(0x9EE8620)
-#define CLASS_2_3BF36418FFD4773C__CTOR_OFFSET UNITYSDK_OFFSET(0x9EE8160)
+#define CLASS_2_3BF36418FFD4773C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10F7E810)
+#define CLASS_2_3BF36418FFD4773C_METHOD_2_19844080C13BA28F_OFFSET UNITYSDK_OFFSET(0x10F7EFB0)
+#define CLASS_2_3BF36418FFD4773C_METHOD_2_239041C3652AD136_OFFSET UNITYSDK_OFFSET(0x10F7F310)
+#define CLASS_2_3BF36418FFD4773C_METHOD_2_6055A93732CC885D_OFFSET UNITYSDK_OFFSET(0x10F7EDA0)
+#define CLASS_2_3BF36418FFD4773C_METHOD_2_8618CA7CE20C80DB_OFFSET UNITYSDK_OFFSET(0x10F7E9F0)
+#define CLASS_2_3BF36418FFD4773C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10F7EBF0)
+#define CLASS_2_3BF36418FFD4773C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x10F7E860)
+#define CLASS_2_3BF36418FFD4773C_TICK_OFFSET UNITYSDK_OFFSET(0x10F7EC40)
+#define CLASS_2_3BF36418FFD4773C__CTOR_OFFSET UNITYSDK_OFFSET(0x10F7E780)
 
-inline static constexpr unsigned int Class_2_3BF36418FFD4773C_TypeDefinitionIndex = 42521;
+inline static constexpr unsigned int Class_2_3BF36418FFD4773C_TypeDefinitionIndex = 48482;
 
 class Class_2_3BF36418FFD4773C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_5F51D4049EA87B7B* Field_2_2; // 0x18
-	::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* Field_2_5; // 0x20
+	::RPG::GameCore::AdvSetupTrainCollectionSystem* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x20
 	::Class_1_5F51D4049EA87B7B* Field_2_3; // 0x28
-	::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* Field_2_4; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x38
-	::RPG::GameCore::AdvSetupTrainCollectionSystem* Field_2_1; // 0x40
+	::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* Field_2_5; // 0x30
+	::Class_1_5F51D4049EA87B7B* Field_2_2; // 0x38
+	::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* Field_2_4; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvSetupTrainCollectionSystem* a2)
 	{
@@ -71,8 +71,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3BF36418FFD4773C_METHOD_2_19844080C13BA28F_OFFSET))(this);
 	}
 
-	::System::Void Method_2_239041C3652AD136(::Class_0_16E4307DCC419505_375* a1)
+	::System::Void Method_2_239041C3652AD136(::Class_0_16E4307DCC419505_382* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_375*))((::PBYTE)hIl2Cpp + CLASS_2_3BF36418FFD4773C_METHOD_2_239041C3652AD136_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + CLASS_2_3BF36418FFD4773C_METHOD_2_239041C3652AD136_OFFSET))(this, a1);
 	}
 };

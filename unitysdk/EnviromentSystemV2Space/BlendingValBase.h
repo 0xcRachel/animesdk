@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ENVIROMENTSYSTEMV2SPACE_BLENDINGVALBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xFBD0C90)
+#define ENVIROMENTSYSTEMV2SPACE_BLENDINGVALBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1255F0A0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int BlendingValBase_TypeDefinitionIndex = 40009;
+	inline static constexpr unsigned int BlendingValBase_TypeDefinitionIndex = 45918;
 
 	class BlendingValBase : public ::System::Object
 	{

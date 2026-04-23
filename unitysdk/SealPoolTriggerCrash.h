@@ -13,11 +13,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Collision; }
 namespace UnityEngine { class Transform; }
 
-#define SEALPOOLTRIGGERCRASH_METHOD_5_773796562D326B0E_OFFSET UNITYSDK_OFFSET(0xABD0D20)
-#define SEALPOOLTRIGGERCRASH_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0xABD0750)
-#define SEALPOOLTRIGGERCRASH__CTOR_OFFSET UNITYSDK_OFFSET(0xABD0FA0)
+#define SEALPOOLTRIGGERCRASH_METHOD_5_773796562D326B0E_OFFSET UNITYSDK_OFFSET(0x16E26290)
+#define SEALPOOLTRIGGERCRASH_ONCOLLISIONENTER_OFFSET UNITYSDK_OFFSET(0x16E25CB0)
+#define SEALPOOLTRIGGERCRASH__CTOR_OFFSET UNITYSDK_OFFSET(0x16E26510)
 
-inline static constexpr unsigned int SealPoolTriggerCrash_TypeDefinitionIndex = 38058;
+inline static constexpr unsigned int SealPoolTriggerCrash_TypeDefinitionIndex = 43939;
 
 class SealPoolTriggerCrash : public ::UnityEngine::MonoBehaviour
 {

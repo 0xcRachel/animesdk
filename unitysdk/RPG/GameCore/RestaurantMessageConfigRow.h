@@ -7,24 +7,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTMESSAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175BA390)
-#define RPG_GAMECORE_RESTAURANTMESSAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175BA690)
+#define RPG_GAMECORE_RESTAURANTMESSAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190356A0)
+#define RPG_GAMECORE_RESTAURANTMESSAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190359A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantMessageConfigRow_TypeDefinitionIndex = 10638;
+	inline static constexpr unsigned int RestaurantMessageConfigRow_TypeDefinitionIndex = 10889;
 
 	class RestaurantMessageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* NextItemIDList; // 0x10
-		::RPG::Client::TextID MainText; // 0x18
-		::RPG::GameCore::MessageItemType ItemType; // 0x28
-		::System::UInt32 ContactsID; // 0x2C
-		::System::UInt32 ItemImageID; // 0x30
-		::RPG::GameCore::RestaurantSelectEventSenderType Sender; // 0x34
-		::System::UInt32 OptionEffectID; // 0x38
-		::System::UInt32 ID; // 0x3C
+		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::RestaurantSelectEventSenderType Sender; // 0x1C
+		::RPG::Client::TextID MainText; // 0x20
+		::System::UInt32 ContactsID; // 0x30
+		::System::UInt32 ItemImageID; // 0x34
+		::RPG::GameCore::MessageItemType ItemType; // 0x38
+		::System::UInt32 OptionEffectID; // 0x3C
 
 		::System::Void _ctor()
 		{

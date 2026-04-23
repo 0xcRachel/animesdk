@@ -8,13 +8,13 @@ namespace RPG::GameCore { class NormDistanceLodTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LODCONFIG_METHOD_2_01AB4A09CD6B49D5_OFFSET UNITYSDK_OFFSET(0x17381510)
-#define RPG_GAMECORE_LODCONFIG_METHOD_2_FF316D7C9BCF8CB7_OFFSET UNITYSDK_OFFSET(0x173813E0)
-#define RPG_GAMECORE_LODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17381500)
+#define RPG_GAMECORE_LODCONFIG_METHOD_2_01AB4A09CD6B49D5_OFFSET UNITYSDK_OFFSET(0x18FCB4E0)
+#define RPG_GAMECORE_LODCONFIG_METHOD_2_FF316D7C9BCF8CB7_OFFSET UNITYSDK_OFFSET(0x18FCB3B0)
+#define RPG_GAMECORE_LODCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCB4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LodConfig_TypeDefinitionIndex = 17626;
+	inline static constexpr unsigned int LodConfig_TypeDefinitionIndex = 18239;
 
 	class LodConfig : public ::RPG::GameCore::JsonConfig
 	{

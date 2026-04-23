@@ -5,40 +5,40 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define CLASS_1_33E14240270F1786_METHOD_1_1ED7DC8DC759794B_OFFSET UNITYSDK_OFFSET(0x97AF890)
-#define CLASS_1_33E14240270F1786_METHOD_1_26E222A9BC01E573_OFFSET UNITYSDK_OFFSET(0x97AF910)
-#define CLASS_1_33E14240270F1786_METHOD_1_73BF87BEE96814F5_OFFSET UNITYSDK_OFFSET(0x97AF730)
-#define CLASS_1_33E14240270F1786_METHOD_1_DC0CC270743D7A96_OFFSET UNITYSDK_OFFSET(0x97AF5F0)
-#define CLASS_1_33E14240270F1786__CCTOR_OFFSET UNITYSDK_OFFSET(0x97AF980)
+#define CLASS_1_33E14240270F1786_METHOD_1_1ED7DC8DC759794B_OFFSET UNITYSDK_OFFSET(0xE3A3900)
+#define CLASS_1_33E14240270F1786_METHOD_1_26E222A9BC01E573_OFFSET UNITYSDK_OFFSET(0xE3A3980)
+#define CLASS_1_33E14240270F1786_METHOD_1_73BF87BEE96814F5_OFFSET UNITYSDK_OFFSET(0xE3A37A0)
+#define CLASS_1_33E14240270F1786_METHOD_1_DC0CC270743D7A96_OFFSET UNITYSDK_OFFSET(0xE3A3660)
+#define CLASS_1_33E14240270F1786__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3A39F0)
 
-inline static constexpr unsigned int Class_1_33E14240270F1786_TypeDefinitionIndex = 64243;
+inline static constexpr unsigned int Class_1_33E14240270F1786_TypeDefinitionIndex = 72290;
 
 class Class_1_33E14240270F1786 : public ::System::Object
 {
 public:
-	static ::UnityEngine::Vector2Int* StaticGet_Field_1_2()
-	{
-		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x2830);
-	}
 	static ::UnityEngine::Vector2Int* StaticGet_Field_1_3()
 	{
-		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x2838);
-	}
-	static ::UnityEngine::Vector2Int* StaticGet_Field_1_4()
-	{
-		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x2840);
-	}
-	static ::UnityEngine::Vector2Int* StaticGet_Field_1_1()
-	{
-		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x2848);
-	}
-	static ::System::Int32* StaticGet_Field_1_5()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x2850);
+		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x4490);
 	}
 	static ::UnityEngine::Vector2Int* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x2854);
+		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x4498);
+	}
+	static ::System::Int32* StaticGet_Field_1_5()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x44A0);
+	}
+	static ::UnityEngine::Vector2Int* StaticGet_Field_1_1()
+	{
+		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x44A4);
+	}
+	static ::UnityEngine::Vector2Int* StaticGet_Field_1_2()
+	{
+		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x44AC);
+	}
+	static ::UnityEngine::Vector2Int* StaticGet_Field_1_4()
+	{
+		return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(Class_1_33E14240270F1786_TypeDefinitionIndex)->GetStaticField(0x44B4);
 	}
 
 	static ::System::Void _cctor()

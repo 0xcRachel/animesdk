@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17071AB0)
-#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17071BF0)
+#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D4C6C0)
+#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D4C800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeMazeRewardLineRow_TypeDefinitionIndex = 11827;
+	inline static constexpr unsigned int ChallengeMazeRewardLineRow_TypeDefinitionIndex = 12258;
 
 	class ChallengeMazeRewardLineRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 StarCount; // 0x10
-		::System::UInt32 RewardID; // 0x14
-		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 StarCount; // 0x14
+		::System::UInt32 RewardID; // 0x18
 
 		::System::Void _ctor()
 		{

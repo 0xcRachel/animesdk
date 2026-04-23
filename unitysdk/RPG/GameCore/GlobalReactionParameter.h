@@ -8,12 +8,12 @@ namespace RPG::GameCore { class StimulusItemConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALREACTIONPARAMETER_METHOD_2_3A0809EC785EBC07_OFFSET UNITYSDK_OFFSET(0x1723E510)
-#define RPG_GAMECORE_GLOBALREACTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1725D1F0)
+#define RPG_GAMECORE_GLOBALREACTIONPARAMETER_METHOD_2_3A0809EC785EBC07_OFFSET UNITYSDK_OFFSET(0x1955C9F0)
+#define RPG_GAMECORE_GLOBALREACTIONPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1955CB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalReactionParameter_TypeDefinitionIndex = 14333;
+	inline static constexpr unsigned int GlobalReactionParameter_TypeDefinitionIndex = 14803;
 
 	class GlobalReactionParameter : public ::RPG::GameCore::JsonConfig
 	{

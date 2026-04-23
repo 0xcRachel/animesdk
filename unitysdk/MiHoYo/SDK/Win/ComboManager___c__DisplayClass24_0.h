@@ -7,14 +7,14 @@ namespace MiHoYo::SDK { class ComboUserModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class ComboManager; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16097530)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x160A7C00)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x160A7DF0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x160A8340)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x154687A0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15468EF0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x154687B0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x154689A0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass24_0_TypeDefinitionIndex = 8030;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass24_0_TypeDefinitionIndex = 8176;
 
 	class ComboManager___c__DisplayClass24_0 : public ::System::Object
 	{
@@ -27,19 +27,19 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Void _OnRequestComboLogin_b__0()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__0_OFFSET))(this);
-		}
-
 		::System::Void _OnRequestComboLogin_b__1()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__1_OFFSET))(this);
 		}
 
-		::System::Void _OnRequestComboLogin_b__2(::MiHoYo::SDK::Alert_AlertResult result)
+		::System::Void _OnRequestComboLogin_b__2()
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__2_OFFSET))(this, result);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__2_OFFSET))(this);
+		}
+
+		::System::Void _OnRequestComboLogin_b__0(::MiHoYo::SDK::Alert_AlertResult result)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_AlertResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS24_0__ONREQUESTCOMBOLOGIN_B__0_OFFSET))(this, result);
 		}
 	};
 }

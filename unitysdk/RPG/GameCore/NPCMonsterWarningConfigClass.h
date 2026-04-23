@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdvSceneDangerMonsterWarningConfig; }
 
-#define RPG_GAMECORE_NPCMONSTERWARNINGCONFIGCLASS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17481A80)
-#define RPG_GAMECORE_NPCMONSTERWARNINGCONFIGCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x17481B10)
+#define RPG_GAMECORE_NPCMONSTERWARNINGCONFIGCLASS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18648650)
+#define RPG_GAMECORE_NPCMONSTERWARNINGCONFIGCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x186486E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCMonsterWarningConfigClass_TypeDefinitionIndex = 16211;
+	inline static constexpr unsigned int NPCMonsterWarningConfigClass_TypeDefinitionIndex = 16724;
 
 	class NPCMonsterWarningConfigClass : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MAXCOLS_OFFSET UNITYSDK_OFFSET(0x18D36760)
-#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MAXROWS_OFFSET UNITYSDK_OFFSET(0x18D36780)
-#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MINCOLS_OFFSET UNITYSDK_OFFSET(0x18D36750)
-#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MINROWS_OFFSET UNITYSDK_OFFSET(0x18D36770)
+#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MAXCOLS_OFFSET UNITYSDK_OFFSET(0x16CB61A0)
+#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MAXROWS_OFFSET UNITYSDK_OFFSET(0x16CB61C0)
+#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MINCOLS_OFFSET UNITYSDK_OFFSET(0x16CB6190)
+#define ZXING_PDF417_INTERNAL_DIMENSIONS_GET_MINROWS_OFFSET UNITYSDK_OFFSET(0x16CB61B0)
 
 namespace ZXing::PDF417::Internal
 {
-	inline static constexpr unsigned int Dimensions_TypeDefinitionIndex = 6084;
+	inline static constexpr unsigned int Dimensions_TypeDefinitionIndex = 6096;
 
 	class Dimensions : public ::System::Object
 	{
 	public:
-		::System::Int32 minCols; // 0x10
-		::System::Int32 maxCols; // 0x14
-		::System::Int32 minRows; // 0x18
-		::System::Int32 maxRows; // 0x1C
+		::System::Int32 maxCols; // 0x10
+		::System::Int32 minRows; // 0x14
+		::System::Int32 maxRows; // 0x18
+		::System::Int32 minCols; // 0x1C
 
 		::System::Int32 get_MinCols()
 		{

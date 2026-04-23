@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_2465DD4A2F20163C_OFFSET UNITYSDK_OFFSET(0x17226010)
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_EFC3604F7A5CE73B_OFFSET UNITYSDK_OFFSET(0x17225FA0)
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17225FF0)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_24440A6ED4009A44_OFFSET UNITYSDK_OFFSET(0x191F82F0)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_F65931ED307B1E85_OFFSET UNITYSDK_OFFSET(0x191F8360)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191F8340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimWaterReflectionConfig_TypeDefinitionIndex = 17071;
+	inline static constexpr unsigned int FiveDimWaterReflectionConfig_TypeDefinitionIndex = 17670;
 
 	class FiveDimWaterReflectionConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EFC3604F7A5CE73B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWaterReflectionConfig*& a2)
+		static ::System::Void Method_3_24440A6ED4009A44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWaterReflectionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimWaterReflectionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_EFC3604F7A5CE73B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimWaterReflectionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_24440A6ED4009A44_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2465DD4A2F20163C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWaterReflectionConfig* a2)
+		static ::System::Void Method_3_F65931ED307B1E85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWaterReflectionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimWaterReflectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_2465DD4A2F20163C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimWaterReflectionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWATERREFLECTIONCONFIG_METHOD_3_F65931ED307B1E85_OFFSET))(a1, a2);
 		}
 	};
 }

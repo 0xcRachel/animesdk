@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class ElfBuff; }
 
-#define CLASS_1_C2DA6D48CD9206BB__CTOR_OFFSET UNITYSDK_OFFSET(0x1690F010)
+#define CLASS_1_C2DA6D48CD9206BB__CTOR_OFFSET UNITYSDK_OFFSET(0x15D57870)
 
-inline static constexpr unsigned int Class_1_C2DA6D48CD9206BB_TypeDefinitionIndex = 33656;
+inline static constexpr unsigned int Class_1_C2DA6D48CD9206BB_TypeDefinitionIndex = 39457;
 
 class Class_1_C2DA6D48CD9206BB : public ::System::Object
 {

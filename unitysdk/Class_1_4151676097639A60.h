@@ -4,9 +4,9 @@
 
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
-#define CLASS_1_4151676097639A60_METHOD_1_A69170213FDC5B5A_OFFSET UNITYSDK_OFFSET(0x11071ED0)
+#define CLASS_1_4151676097639A60_METHOD_1_A69170213FDC5B5A_OFFSET UNITYSDK_OFFSET(0x11929CB0)
 
-inline static constexpr unsigned int Class_1_4151676097639A60_TypeDefinitionIndex = 61759;
+inline static constexpr unsigned int Class_1_4151676097639A60_TypeDefinitionIndex = 69669;
 
 class Class_1_4151676097639A60 : public ::System::Object
 {

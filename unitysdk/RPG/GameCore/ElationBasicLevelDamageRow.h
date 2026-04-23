@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1719EC60)
-#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1719EDA0)
+#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1914B1E0)
+#define RPG_GAMECORE_ELATIONBASICLEVELDAMAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1914B320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 12060;
+	inline static constexpr unsigned int ElationBasicLevelDamageRow_TypeDefinitionIndex = 12493;
 
 	class ElationBasicLevelDamageRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint ElationBasicLevelDamage; // 0x10
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 Level; // 0x10
+		::RPG::GameCore::FixPoint ElationBasicLevelDamage; // 0x18
 
 		::System::Void _ctor()
 		{

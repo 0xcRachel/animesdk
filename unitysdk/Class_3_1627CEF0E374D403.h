@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RandomSelectMonsterIDFromPool; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_1627CEF0E374D403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x114345E0)
-#define CLASS_3_1627CEF0E374D403__CTOR_OFFSET UNITYSDK_OFFSET(0x114344B0)
+#define CLASS_3_1627CEF0E374D403_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4E6040)
+#define CLASS_3_1627CEF0E374D403__CTOR_OFFSET UNITYSDK_OFFSET(0xC4E5F10)
 
-inline static constexpr unsigned int Class_3_1627CEF0E374D403_TypeDefinitionIndex = 44249;
+inline static constexpr unsigned int Class_3_1627CEF0E374D403_TypeDefinitionIndex = 50962;
 
 class Class_3_1627CEF0E374D403 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RandomSelectMonsterIDFromPool*>
 {

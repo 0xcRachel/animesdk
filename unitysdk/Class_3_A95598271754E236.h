@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetWaypointIgnoreLock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A95598271754E236_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA1CE3C0)
-#define CLASS_3_A95598271754E236__CTOR_OFFSET UNITYSDK_OFFSET(0xA1CE390)
+#define CLASS_3_A95598271754E236_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1267EB40)
+#define CLASS_3_A95598271754E236__CTOR_OFFSET UNITYSDK_OFFSET(0x1267EB10)
 
-inline static constexpr unsigned int Class_3_A95598271754E236_TypeDefinitionIndex = 47284;
+inline static constexpr unsigned int Class_3_A95598271754E236_TypeDefinitionIndex = 54016;
 
 class Class_3_A95598271754E236 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetWaypointIgnoreLock*>
 {

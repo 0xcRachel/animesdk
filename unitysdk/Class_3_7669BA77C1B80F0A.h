@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveSelfModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7669BA77C1B80F0A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10931780)
-#define CLASS_3_7669BA77C1B80F0A__CTOR_OFFSET UNITYSDK_OFFSET(0x10931750)
+#define CLASS_3_7669BA77C1B80F0A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10FC7730)
+#define CLASS_3_7669BA77C1B80F0A__CTOR_OFFSET UNITYSDK_OFFSET(0x10FC7700)
 
-inline static constexpr unsigned int Class_3_7669BA77C1B80F0A_TypeDefinitionIndex = 44282;
+inline static constexpr unsigned int Class_3_7669BA77C1B80F0A_TypeDefinitionIndex = 50996;
 
 class Class_3_7669BA77C1B80F0A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveSelfModifier*>
 {

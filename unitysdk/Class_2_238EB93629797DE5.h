@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
-#define CLASS_2_238EB93629797DE5_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x16E17720)
-#define CLASS_2_238EB93629797DE5_READROW_OFFSET UNITYSDK_OFFSET(0x16E177C0)
-#define CLASS_2_238EB93629797DE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E17820)
-#define CLASS_2_238EB93629797DE5__CTOR_OFFSET UNITYSDK_OFFSET(0x16E176D0)
+#define CLASS_2_238EB93629797DE5_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1878A500)
+#define CLASS_2_238EB93629797DE5_READROW_OFFSET UNITYSDK_OFFSET(0x1878A5C0)
+#define CLASS_2_238EB93629797DE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1878A620)
+#define CLASS_2_238EB93629797DE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1878A4B0)
 
-inline static constexpr unsigned int Class_2_238EB93629797DE5_TypeDefinitionIndex = 22576;
+inline static constexpr unsigned int Class_2_238EB93629797DE5_TypeDefinitionIndex = 23548;
 
 class Class_2_238EB93629797DE5 : public ::RPG::GameCore::BaseConfigHeader_1<::System::Int32>
 {
 public:
-	static ::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>** StaticGet_Field_2_0()
-	{
-		return (::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x6530);
-	}
 	static ::Class_2_238EB93629797DE5** StaticGet_Field_2_1()
 	{
-		return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x6538);
+		return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0xC910);
+	}
+	static ::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>** StaticGet_Field_2_0()
+	{
+		return (::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0xC918);
 	}
 
 	::System::Void _ctor(::System::String* a1)

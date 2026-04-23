@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/CloudGraphicsSettingType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_1585D4BE1D29411C_Class_0_16E7307DCC43CB2C_13;
+class Class_1_1585D4BE1D29411C_Class_0_16E7307DCC43CB2C_15;
 class Class_1_C30EA694EA516FDF;
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_FAF142297ACBE062_DISPOSE_OFFSET UNITYSDK_OFFSET(0x104ECAB0)
-#define CLASS_1_FAF142297ACBE062_METHOD_1_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x104EC320)
-#define CLASS_1_FAF142297ACBE062_METHOD_1_27D91DFF6DB429B9_OFFSET UNITYSDK_OFFSET(0x104EC5B0)
-#define CLASS_1_FAF142297ACBE062_METHOD_1_5D0499BDC0418B72_OFFSET UNITYSDK_OFFSET(0x104EC450)
-#define CLASS_1_FAF142297ACBE062_METHOD_1_82841C187F881D00_OFFSET UNITYSDK_OFFSET(0x104ECBD0)
-#define CLASS_1_FAF142297ACBE062__CTOR_OFFSET UNITYSDK_OFFSET(0x104ECD20)
+#define CLASS_1_FAF142297ACBE062_DISPOSE_OFFSET UNITYSDK_OFFSET(0x135A77D0)
+#define CLASS_1_FAF142297ACBE062_METHOD_1_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x135A7050)
+#define CLASS_1_FAF142297ACBE062_METHOD_1_27D91DFF6DB429B9_OFFSET UNITYSDK_OFFSET(0x135A72D0)
+#define CLASS_1_FAF142297ACBE062_METHOD_1_5D0499BDC0418B72_OFFSET UNITYSDK_OFFSET(0x135A7170)
+#define CLASS_1_FAF142297ACBE062_METHOD_1_82841C187F881D00_OFFSET UNITYSDK_OFFSET(0x135A78F0)
+#define CLASS_1_FAF142297ACBE062__CTOR_OFFSET UNITYSDK_OFFSET(0x135A7A40)
 
-inline static constexpr unsigned int Class_1_FAF142297ACBE062_TypeDefinitionIndex = 48445;
+inline static constexpr unsigned int Class_1_FAF142297ACBE062_TypeDefinitionIndex = 55193;
 
 class Class_1_FAF142297ACBE062 : public ::System::Object
 {
 public:
-	::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::System::Byte>*>* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::CloudGraphicsSettingType, ::Class_1_1585D4BE1D29411C_Class_0_16E7307DCC43CB2C_13*>* Field_1_0; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::CloudGraphicsSettingType, ::Class_1_1585D4BE1D29411C_Class_0_16E7307DCC43CB2C_15*>* Field_1_0; // 0x10
+	::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::System::Byte>*>* Field_1_2; // 0x18
 	::Class_1_C30EA694EA516FDF* Field_1_1; // 0x20
 	::System::Byte Field_1_3; // 0x28
 

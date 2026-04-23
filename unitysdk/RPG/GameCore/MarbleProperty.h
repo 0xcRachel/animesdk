@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEPROPERTY_METHOD_2_2E317E38A1103EEA_OFFSET UNITYSDK_OFFSET(0x173AA700)
-#define RPG_GAMECORE_MARBLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x173AA850)
+#define RPG_GAMECORE_MARBLEPROPERTY_METHOD_2_2E317E38A1103EEA_OFFSET UNITYSDK_OFFSET(0x18C1BEA0)
+#define RPG_GAMECORE_MARBLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x18C1BFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleProperty_TypeDefinitionIndex = 15413;
+	inline static constexpr unsigned int MarbleProperty_TypeDefinitionIndex = 15933;
 
 	class MarbleProperty : public ::RPG::GameCore::JsonConfig
 	{

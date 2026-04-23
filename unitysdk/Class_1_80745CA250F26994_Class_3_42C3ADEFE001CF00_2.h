@@ -5,9 +5,9 @@
 class Class_1_80745CA250F26994;
 namespace System { class String; }
 
-#define CLASS_1_80745CA250F26994_CLASS_3_42C3ADEFE001CF00_2__CTOR_OFFSET UNITYSDK_OFFSET(0x1118E5B0)
+#define CLASS_1_80745CA250F26994_CLASS_3_42C3ADEFE001CF00_2__CTOR_OFFSET UNITYSDK_OFFSET(0xF236B50)
 
-inline static constexpr unsigned int Class_1_80745CA250F26994_Class_3_42C3ADEFE001CF00_2_TypeDefinitionIndex = 62523;
+inline static constexpr unsigned int Class_1_80745CA250F26994_Class_3_42C3ADEFE001CF00_2_TypeDefinitionIndex = 70533;
 
 class Class_1_80745CA250F26994_Class_3_42C3ADEFE001CF00_2 : public ::RPG::ActionBinderNoArg_3<::Class_1_80745CA250F26994*, ::System::Int32, ::System::String*>
 {

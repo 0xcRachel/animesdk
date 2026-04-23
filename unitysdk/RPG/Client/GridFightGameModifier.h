@@ -1,39 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F0A446EC7AE7E87D_1_Enum_3_B7178B9B9B2219C2.h"
+#include "unitysdk/Class_1_EBD9A77671154634_Enum_3_C00BB49BA04978F1.h"
 #include "unitysdk/RPG/Client/GridFightModifierEffectType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F0A446EC7AE7E87D_1;
+class Class_1_EBD9A77671154634;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_CREATEMODIFIER_OFFSET UNITYSDK_OFFSET(0x982CAD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x982CE20)
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_GET_UID_OFFSET UNITYSDK_OFFSET(0x982CDD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x982CE30)
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_UPDATE_OFFSET UNITYSDK_OFFSET(0x982D220)
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x982CE40)
-#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__GETEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x982D130)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_CREATEMODIFIER_OFFSET UNITYSDK_OFFSET(0x174EC420)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x174EC950)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_GET_UID_OFFSET UNITYSDK_OFFSET(0x174EC900)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x174EC960)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_UPDATE_OFFSET UNITYSDK_OFFSET(0x174ECD50)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x174EC970)
+#define RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__GETEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x174ECC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameModifier_TypeDefinitionIndex = 52781;
+	inline static constexpr unsigned int GridFightGameModifier_TypeDefinitionIndex = 59844;
 
 	class GridFightGameModifier : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::Class_1_F0A446EC7AE7E87D_1_Enum_3_B7178B9B9B2219C2, ::RPG::Client::GridFightModifierEffectType>* _EffectTypeMap; // 0x10
-		::Class_1_F0A446EC7AE7E87D_1* _Info; // 0x18
+		::Class_1_EBD9A77671154634* _Info; // 0x10
+		::System::Collections::Generic::Dictionary_2<::Class_1_EBD9A77671154634_Enum_3_C00BB49BA04978F1, ::RPG::Client::GridFightModifierEffectType>* _EffectTypeMap; // 0x18
 		::RPG::Client::GridFightModifierEffectType _EffectType_k__BackingField; // 0x20
 
-		::System::Void _ctor(::Class_1_F0A446EC7AE7E87D_1* info)
+		::System::Void _ctor(::Class_1_EBD9A77671154634* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__CTOR_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__CTOR_OFFSET))(this, info);
 		}
 
-		static ::RPG::Client::GridFightGameModifier* CreateModifier(::Class_1_F0A446EC7AE7E87D_1* info)
+		static ::RPG::Client::GridFightGameModifier* CreateModifier(::Class_1_EBD9A77671154634* info)
 		{
-			return ((::RPG::Client::GridFightGameModifier*(*)(::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_CREATEMODIFIER_OFFSET))(info);
+			return ((::RPG::Client::GridFightGameModifier*(*)(::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_CREATEMODIFIER_OFFSET))(info);
 		}
 
 		::System::UInt32 get_UID()
@@ -51,14 +51,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightModifierEffectType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_SET_EFFECTTYPE_OFFSET))(this, value);
 		}
 
-		::System::Void Update(::Class_1_F0A446EC7AE7E87D_1* info)
+		::System::Void Update(::Class_1_EBD9A77671154634* info)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_UPDATE_OFFSET))(this, info);
+			return ((::System::Void(*)(::PVOID, ::Class_1_EBD9A77671154634*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER_UPDATE_OFFSET))(this, info);
 		}
 
-		::RPG::Client::GridFightModifierEffectType _GetEffectType(::Class_1_F0A446EC7AE7E87D_1_Enum_3_B7178B9B9B2219C2 infoCase)
+		::RPG::Client::GridFightModifierEffectType _GetEffectType(::Class_1_EBD9A77671154634_Enum_3_C00BB49BA04978F1 infoCase)
 		{
-			return ((::RPG::Client::GridFightModifierEffectType(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D_1_Enum_3_B7178B9B9B2219C2))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__GETEFFECTTYPE_OFFSET))(this, infoCase);
+			return ((::RPG::Client::GridFightModifierEffectType(*)(::PVOID, ::Class_1_EBD9A77671154634_Enum_3_C00BB49BA04978F1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEMODIFIER__GETEFFECTTYPE_OFFSET))(this, infoCase);
 		}
 	};
 }

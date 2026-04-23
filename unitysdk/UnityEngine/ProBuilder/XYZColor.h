@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET UNITYSDK_OFFSET(0x188CD820)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x188CD7C0)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x188CDA40)
-#define UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x188CD7B0)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_1_OFFSET UNITYSDK_OFFSET(0x17864A10)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x178649B0)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17864C30)
+#define UNITYENGINE_PROBUILDER_XYZCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x178649A0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 34084;
+	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 39903;
 
 	class XYZColor : public ::System::Object
 	{
 	public:
-		::System::Single x; // 0x10
-		::System::Single y; // 0x14
-		::System::Single z; // 0x18
+		::System::Single z; // 0x10
+		::System::Single x; // 0x14
+		::System::Single y; // 0x18
 
 		::System::Void _ctor(::System::Single x, ::System::Single y, ::System::Single z)
 		{

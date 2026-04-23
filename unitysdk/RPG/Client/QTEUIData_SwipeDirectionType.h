@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QTEUIData_SwipeDirectionType_TypeDefinitionIndex = 58313;
+	inline static constexpr unsigned int QTEUIData_SwipeDirectionType_TypeDefinitionIndex = 65600;
 
 	enum class QTEUIData_SwipeDirectionType : ::System::Int32
 	{

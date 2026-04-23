@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerRogueShopEnterBattle; }
 
-#define CLASS_3_00E921E6A51C6781_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113D5340)
-#define CLASS_3_00E921E6A51C6781__CTOR_OFFSET UNITYSDK_OFFSET(0x113D5310)
+#define CLASS_3_00E921E6A51C6781_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE63B7B0)
+#define CLASS_3_00E921E6A51C6781__CTOR_OFFSET UNITYSDK_OFFSET(0xE63B780)
 
-inline static constexpr unsigned int Class_3_00E921E6A51C6781_TypeDefinitionIndex = 47477;
+inline static constexpr unsigned int Class_3_00E921E6A51C6781_TypeDefinitionIndex = 54212;
 
 class Class_3_00E921E6A51C6781 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerRogueShopEnterBattle*>
 {

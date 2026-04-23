@@ -8,19 +8,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_7A4D3608A08D50F9_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1164D510)
-#define CLASS_2_7A4D3608A08D50F9_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1164D530)
-#define CLASS_2_7A4D3608A08D50F9_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1164D520)
-#define CLASS_2_7A4D3608A08D50F9__CTOR_OFFSET UNITYSDK_OFFSET(0x1164D770)
-#define CLASS_2_7A4D3608A08D50F9___IFIXBASEPROXY_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1164D780)
+#define CLASS_2_7A4D3608A08D50F9_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0xF0E89A0)
+#define CLASS_2_7A4D3608A08D50F9_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xF0E89C0)
+#define CLASS_2_7A4D3608A08D50F9_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0xF0E89B0)
+#define CLASS_2_7A4D3608A08D50F9__CTOR_OFFSET UNITYSDK_OFFSET(0xF0E8C00)
+#define CLASS_2_7A4D3608A08D50F9___IFIXBASEPROXY_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xF0E8C10)
 
-inline static constexpr unsigned int Class_2_7A4D3608A08D50F9_TypeDefinitionIndex = 39599;
+inline static constexpr unsigned int Class_2_7A4D3608A08D50F9_TypeDefinitionIndex = 45508;
 
 class Class_2_7A4D3608A08D50F9 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_7A4D3608A08D50F9_Struct_2_5396005F9A53A130>* Field_2_0; // 0x10
-	::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x18
+	::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_7A4D3608A08D50F9_Struct_2_5396005F9A53A130>* Field_2_0; // 0x18
 
 	::System::Void _ctor()
 	{

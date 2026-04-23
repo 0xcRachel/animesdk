@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_3_635476360DE473B3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x10988CB0)
-#define CLASS_3_635476360DE473B3___C__CTOR_OFFSET UNITYSDK_OFFSET(0x10988CF0)
-#define CLASS_3_635476360DE473B3___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x10988D00)
+#define CLASS_3_635476360DE473B3___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA494010)
+#define CLASS_3_635476360DE473B3___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA494050)
+#define CLASS_3_635476360DE473B3___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xA494060)
 
-inline static constexpr unsigned int Class_3_635476360DE473B3___c_TypeDefinitionIndex = 42962;
+inline static constexpr unsigned int Class_3_635476360DE473B3___c_TypeDefinitionIndex = 48948;
 
 class Class_3_635476360DE473B3___c : public ::System::Object
 {
 public:
-	static ::System::Predicate_1<::RPG::GameCore::TaskConfig*>** StaticGet___9__0_0()
-	{
-		return (::System::Predicate_1<::RPG::GameCore::TaskConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_635476360DE473B3___c_TypeDefinitionIndex)->GetStaticField(0x2D690);
-	}
 	static ::Class_3_635476360DE473B3___c** StaticGet___9()
 	{
-		return (::Class_3_635476360DE473B3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_635476360DE473B3___c_TypeDefinitionIndex)->GetStaticField(0x2D698);
+		return (::Class_3_635476360DE473B3___c**)Il2CppClass::FromTypeDefinitionIndex(Class_3_635476360DE473B3___c_TypeDefinitionIndex)->GetStaticField(0x4F5C0);
+	}
+	static ::System::Predicate_1<::RPG::GameCore::TaskConfig*>** StaticGet___9__0_0()
+	{
+		return (::System::Predicate_1<::RPG::GameCore::TaskConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_635476360DE473B3___c_TypeDefinitionIndex)->GetStaticField(0x4F5C8);
 	}
 
 	static ::System::Void _cctor()

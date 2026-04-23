@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Object; }
 
-#define CLASS_1_AD0E6B89B0CA51A1_CLASS_1_0AF4E2D5648B3AA3__CTOR_OFFSET UNITYSDK_OFFSET(0x89B4F20)
+#define CLASS_1_AD0E6B89B0CA51A1_CLASS_1_0AF4E2D5648B3AA3__CTOR_OFFSET UNITYSDK_OFFSET(0xD505EA0)
 
-inline static constexpr unsigned int Class_1_AD0E6B89B0CA51A1_Class_1_0AF4E2D5648B3AA3_TypeDefinitionIndex = 39957;
+inline static constexpr unsigned int Class_1_AD0E6B89B0CA51A1_Class_1_0AF4E2D5648B3AA3_TypeDefinitionIndex = 45866;
 
 class Class_1_AD0E6B89B0CA51A1_Class_1_0AF4E2D5648B3AA3 : public ::System::Object
 {

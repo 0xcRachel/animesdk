@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188F2E20)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188F2E60)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__SET_ENUMTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x188F2E70)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B0D670)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0D6B0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__SET_ENUMTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x18B0D6C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_BitField___c_TypeDefinitionIndex = 27825;
+	inline static constexpr unsigned int DebugUI_BitField___c_TypeDefinitionIndex = 33449;
 
 	class DebugUI_BitField___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x26ED0);
-		}
 		static ::UnityEngine::Rendering::DebugUI_BitField___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::DebugUI_BitField___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x26ED8);
+			return (::UnityEngine::Rendering::DebugUI_BitField___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x50DE0);
+		}
+		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x50DE8);
 		}
 
 		static ::System::Void _cctor()

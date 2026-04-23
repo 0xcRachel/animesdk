@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimBubbleTalkInfo; }
 
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKINFOGROUP_METHOD_2_A9358C6A3FE417A3_OFFSET UNITYSDK_OFFSET(0x1721B460)
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1721B5D0)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKINFOGROUP_METHOD_2_A9358C6A3FE417A3_OFFSET UNITYSDK_OFFSET(0x191ECB20)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x191ECC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRandomBubbleTalkInfoGroup_TypeDefinitionIndex = 19689;
+	inline static constexpr unsigned int FiveDimRandomBubbleTalkInfoGroup_TypeDefinitionIndex = 20370;
 
 	class FiveDimRandomBubbleTalkInfoGroup : public ::RPG::GameCore::JsonConfig
 	{

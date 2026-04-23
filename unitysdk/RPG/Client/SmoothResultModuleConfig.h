@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
-#define RPG_CLIENT_SMOOTHRESULTMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xA4ADE60)
-#define RPG_CLIENT_SMOOTHRESULTMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA4ADEB0)
+#define RPG_CLIENT_SMOOTHRESULTMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x16C23460)
+#define RPG_CLIENT_SMOOTHRESULTMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16C234B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SmoothResultModuleConfig_TypeDefinitionIndex = 56979;
+	inline static constexpr unsigned int SmoothResultModuleConfig_TypeDefinitionIndex = 64230;
 
 	class SmoothResultModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

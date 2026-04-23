@@ -6,12 +6,12 @@
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_1_OFFSET UNITYSDK_OFFSET(0x16767A40)
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_OFFSET UNITYSDK_OFFSET(0x167679B0)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_1_OFFSET UNITYSDK_OFFSET(0x179600C0)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_OFFSET UNITYSDK_OFFSET(0x17960030)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int LittleGameShareUtils_TypeDefinitionIndex = 28823;
+	inline static constexpr unsigned int LittleGameShareUtils_TypeDefinitionIndex = 34554;
 
 	class LittleGameShareUtils : public ::System::Object
 	{

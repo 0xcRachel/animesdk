@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetDirMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_28501D384075E172_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF38BE90)
-#define CLASS_3_28501D384075E172__CTOR_OFFSET UNITYSDK_OFFSET(0xF38BE60)
+#define CLASS_3_28501D384075E172_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC697060)
+#define CLASS_3_28501D384075E172__CTOR_OFFSET UNITYSDK_OFFSET(0xC697030)
 
-inline static constexpr unsigned int Class_3_28501D384075E172_TypeDefinitionIndex = 47276;
+inline static constexpr unsigned int Class_3_28501D384075E172_TypeDefinitionIndex = 54008;
 
 class Class_3_28501D384075E172 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetDirMove*>
 {

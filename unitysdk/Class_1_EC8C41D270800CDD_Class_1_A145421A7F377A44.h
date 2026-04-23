@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class LevelPedestrianFlowInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_EC8C41D270800CDD_CLASS_1_A145421A7F377A44_METHOD_1_A5CB260716A76CD2_OFFSET UNITYSDK_OFFSET(0x10949470)
-#define CLASS_1_EC8C41D270800CDD_CLASS_1_A145421A7F377A44__CTOR_OFFSET UNITYSDK_OFFSET(0x10949350)
+#define CLASS_1_EC8C41D270800CDD_CLASS_1_A145421A7F377A44_METHOD_1_A5CB260716A76CD2_OFFSET UNITYSDK_OFFSET(0x1064E0E0)
+#define CLASS_1_EC8C41D270800CDD_CLASS_1_A145421A7F377A44__CTOR_OFFSET UNITYSDK_OFFSET(0x1064DFC0)
 
-inline static constexpr unsigned int Class_1_EC8C41D270800CDD_Class_1_A145421A7F377A44_TypeDefinitionIndex = 56583;
+inline static constexpr unsigned int Class_1_EC8C41D270800CDD_Class_1_A145421A7F377A44_TypeDefinitionIndex = 63827;
 
 class Class_1_EC8C41D270800CDD_Class_1_A145421A7F377A44 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::Single>* Field_1_1; // 0x10
-	::System::Collections::Generic::List_1<::RPG::GameCore::LevelPedestrianFlowInfo*>* Field_1_2; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::LevelPedestrianFlowInfo*>* Field_1_2; // 0x10
+	::Il2CppArray<::System::Single>* Field_1_1; // 0x18
 	::System::Int32 Field_1_0; // 0x20
 
 	::System::Void _ctor(::System::Int32 a1, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelPedestrianFlowInfo*>* a2)

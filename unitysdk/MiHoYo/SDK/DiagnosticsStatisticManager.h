@@ -6,25 +6,25 @@ namespace MiHoYo::SDK { class PerformanceInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTART_OFFSET UNITYSDK_OFFSET(0x15EEF4A0)
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTOP_OFFSET UNITYSDK_OFFSET(0x15EEF7E0)
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15EEFCC0)
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15EEFCB0)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTART_OFFSET UNITYSDK_OFFSET(0x17224800)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTOP_OFFSET UNITYSDK_OFFSET(0x17224B40)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17225020)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17225010)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DiagnosticsStatisticManager_TypeDefinitionIndex = 6944;
+	inline static constexpr unsigned int DiagnosticsStatisticManager_TypeDefinitionIndex = 6990;
 
 	class DiagnosticsStatisticManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::DiagnosticsStatisticManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DiagnosticsStatisticManager**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsStatisticManager_TypeDefinitionIndex)->GetStaticField(0x10F80);
+			return (::MiHoYo::SDK::DiagnosticsStatisticManager**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsStatisticManager_TypeDefinitionIndex)->GetStaticField(0x8250);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>** StaticGet_startPerforamceInfoDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsStatisticManager_TypeDefinitionIndex)->GetStaticField(0x10F88);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>**)Il2CppClass::FromTypeDefinitionIndex(DiagnosticsStatisticManager_TypeDefinitionIndex)->GetStaticField(0x8258);
 		}
 
 		::System::Void _ctor()

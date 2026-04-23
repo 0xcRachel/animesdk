@@ -5,10 +5,10 @@
 namespace RPG::Client::Promises { class IPromise; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_791CB467786D8BD6___C__DISPLAYCLASS24_0__ASYNCRETURNTARGETUI_B__0_OFFSET UNITYSDK_OFFSET(0xE45F280)
-#define CLASS_1_791CB467786D8BD6___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE45E3C0)
+#define CLASS_1_791CB467786D8BD6___C__DISPLAYCLASS24_0__ASYNCRETURNTARGETUI_B__0_OFFSET UNITYSDK_OFFSET(0x10A36B40)
+#define CLASS_1_791CB467786D8BD6___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A35C80)
 
-inline static constexpr unsigned int Class_1_791CB467786D8BD6___c__DisplayClass24_0_TypeDefinitionIndex = 62220;
+inline static constexpr unsigned int Class_1_791CB467786D8BD6___c__DisplayClass24_0_TypeDefinitionIndex = 70219;
 
 class Class_1_791CB467786D8BD6___c__DisplayClass24_0 : public ::System::Object
 {

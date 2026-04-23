@@ -5,12 +5,12 @@
 
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1__BEVELEDGES_B__4_OFFSET UNITYSDK_OFFSET(0x188419F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1883F8E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1__BEVELEDGES_B__4_OFFSET UNITYSDK_OFFSET(0xB9AB150)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB9A8FD0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int Bevel___c__DisplayClass0_1_TypeDefinitionIndex = 34216;
+	inline static constexpr unsigned int Bevel___c__DisplayClass0_1_TypeDefinitionIndex = 40035;
 
 	class Bevel___c__DisplayClass0_1 : public ::System::Object
 	{

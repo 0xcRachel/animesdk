@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/TextIcons_Struct_2_126A1A9085C0C7D8.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEXTICONS___C__DISPLAYCLASS13_0__BUILDICONATLAS_B__2_OFFSET UNITYSDK_OFFSET(0xA59A120)
-#define RPG_CLIENT_TEXTICONS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA59A070)
+#define RPG_CLIENT_TEXTICONS___C__DISPLAYCLASS13_0__BUILDICONATLAS_B__2_OFFSET UNITYSDK_OFFSET(0x10562440)
+#define RPG_CLIENT_TEXTICONS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x105623A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons___c__DisplayClass13_0_TypeDefinitionIndex = 59571;
+	inline static constexpr unsigned int TextIcons___c__DisplayClass13_0_TypeDefinitionIndex = 66966;
 
 	class TextIcons___c__DisplayClass13_0 : public ::System::Object
 	{

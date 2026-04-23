@@ -6,16 +6,16 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Net { class IPEndPoint; }
 
-#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A84200)
-#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__PINGBYUDPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x17A855B0)
+#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4AD030)
+#define CLASS_1_22664499479190F5___C__DISPLAYCLASS1_0__PINGBYUDPASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1A4AE1A0)
 
-inline static constexpr unsigned int Class_1_22664499479190F5___c__DisplayClass1_0_TypeDefinitionIndex = 33879;
+inline static constexpr unsigned int Class_1_22664499479190F5___c__DisplayClass1_0_TypeDefinitionIndex = 39680;
 
 class Class_1_22664499479190F5___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::System::Collections::Generic::IList_1<::System::UInt64>*>* onCompleted; // 0x10
-	::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>* ipEndPoints; // 0x18
+	::System::Collections::Generic::IList_1<::System::Net::IPEndPoint*>* ipEndPoints; // 0x10
+	::System::Action_1<::System::Collections::Generic::IList_1<::System::UInt64>*>* onCompleted; // 0x18
 	::System::UInt64 timeout; // 0x20
 
 	::System::Void _ctor()

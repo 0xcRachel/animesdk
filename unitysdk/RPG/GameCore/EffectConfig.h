@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTCONFIG_METHOD_2_ABA54A11C20ABE02_OFFSET UNITYSDK_OFFSET(0x1719CE50)
-#define RPG_GAMECORE_EFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1719D250)
+#define RPG_GAMECORE_EFFECTCONFIG_METHOD_2_ABA54A11C20ABE02_OFFSET UNITYSDK_OFFSET(0x191493D0)
+#define RPG_GAMECORE_EFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191497D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 18562;
+	inline static constexpr unsigned int EffectConfig_TypeDefinitionIndex = 19217;
 
 	class EffectConfig : public ::RPG::GameCore::JsonConfig
 	{

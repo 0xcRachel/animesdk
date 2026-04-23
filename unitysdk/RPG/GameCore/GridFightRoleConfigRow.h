@@ -8,32 +8,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172929D0)
-#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17292F90)
+#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B85DD0)
+#define RPG_GAMECORE_GRIDFIGHTROLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B86390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleConfigRow_TypeDefinitionIndex = 12330;
+	inline static constexpr unsigned int GridFightRoleConfigRow_TypeDefinitionIndex = 12764;
 
 	class GridFightRoleConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* RoleSavedValueList; // 0x10
-		::Il2CppArray<::System::UInt32>* TraitList; // 0x18
-		::Il2CppArray<::System::UInt32>* SeasonIDList; // 0x20
-		::Il2CppArray<::RPG::GameCore::GridFightChargeType>* ChargeType; // 0x28
-		::Il2CppArray<::System::UInt32>* BackendRankList; // 0x30
-		::System::String* MaxSPIcon; // 0x38
-		::System::UInt32 EquipmentID; // 0x40
-		::System::UInt32 AvatarID; // 0x44
-		::System::UInt32 Rarity; // 0x48
-		::System::UInt32 SeasonID; // 0x4C
-		::RPG::GameCore::GridFightPreset FrontBackType; // 0x50
-		::System::UInt32 ID; // 0x54
-		::System::Boolean IsInPool; // 0x58
-		::RPG::GameCore::GridFightRoleSkillTag HealOrShieldDisplay; // 0x5C
-		::System::UInt32 SpecialAvatarID; // 0x60
-		::System::UInt32 IsExpert; // 0x64
+		::System::String* MaxSPIcon; // 0x18
+		::Il2CppArray<::System::UInt32>* BackendRankList; // 0x20
+		::Il2CppArray<::System::UInt32>* TraitList; // 0x28
+		::Il2CppArray<::RPG::GameCore::GridFightChargeType>* ChargeType; // 0x30
+		::Il2CppArray<::System::UInt32>* SeasonIDList; // 0x38
+		::System::Boolean IsInPool; // 0x40
+		::System::UInt32 SpecialAvatarID; // 0x44
+		::System::UInt32 EquipmentID; // 0x48
+		::RPG::GameCore::GridFightPreset FrontBackType; // 0x4C
+		::System::UInt32 ID; // 0x50
+		::System::UInt32 SeasonID; // 0x54
+		::System::UInt32 Rarity; // 0x58
+		::System::UInt32 IsExpert; // 0x5C
+		::System::UInt32 AvatarID; // 0x60
+		::RPG::GameCore::GridFightRoleSkillTag HealOrShieldDisplay; // 0x64
 
 		::System::Void _ctor()
 		{

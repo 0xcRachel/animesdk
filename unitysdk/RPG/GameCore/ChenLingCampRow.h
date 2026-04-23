@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGCAMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17097FB0)
-#define RPG_GAMECORE_CHENLINGCAMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170980E0)
+#define RPG_GAMECORE_CHENLINGCAMPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196A5850)
+#define RPG_GAMECORE_CHENLINGCAMPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196A5980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingCampRow_TypeDefinitionIndex = 10389;
+	inline static constexpr unsigned int ChenLingCampRow_TypeDefinitionIndex = 10614;
 
 	class ChenLingCampRow : public ::System::Object
 	{

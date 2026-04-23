@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Security::Principal { class IIdentity; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICPRINCIPAL__CTOR_OFFSET UNITYSDK_OFFSET(0x161FEB80)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICPRINCIPAL__CTOR_OFFSET UNITYSDK_OFFSET(0x16DAD420)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int GenericPrincipal_TypeDefinitionIndex = 976;
+	inline static constexpr unsigned int GenericPrincipal_TypeDefinitionIndex = 978;
 
 	class GenericPrincipal : public ::System::Security::Claims::ClaimsPrincipal
 	{

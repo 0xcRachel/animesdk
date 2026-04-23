@@ -9,32 +9,32 @@ namespace RPG::Client { template <typename T> class FlagSwitch_1; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_06A2B758FCB8A24E_OFFSET UNITYSDK_OFFSET(0xAC6D960)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_083C8BE6AC9A7B8B_OFFSET UNITYSDK_OFFSET(0xAC6CFB0)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_4BDE1EFCAB8EC823_OFFSET UNITYSDK_OFFSET(0xAC6D920)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_718EACA14AB0E64C_OFFSET UNITYSDK_OFFSET(0xAC6DC20)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0xAC6D830)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0xAC6CEC0)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_BF3C8B6A569C81DE_OFFSET UNITYSDK_OFFSET(0xAC6D6E0)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0xAC6CC40)
-#define CLASS_1_71C22F649FE92DEF_METHOD_1_EF658AEEBB9A1A89_OFFSET UNITYSDK_OFFSET(0xAC6D790)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_083C8BE6AC9A7B8B_OFFSET UNITYSDK_OFFSET(0xF5A99A0)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_585E2EA201FDE7ED_OFFSET UNITYSDK_OFFSET(0xF5AA3D0)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_718EACA14AB0E64C_OFFSET UNITYSDK_OFFSET(0xF5AA790)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_8CA05BCD86E125DF_OFFSET UNITYSDK_OFFSET(0xF5AA2A0)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_9DE87B16AD0A605E_OFFSET UNITYSDK_OFFSET(0xF5A98B0)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_BCD04FAF06FA4406_OFFSET UNITYSDK_OFFSET(0xF5AA390)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_BF3C8B6A569C81DE_OFFSET UNITYSDK_OFFSET(0xF5AA150)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0xF5A9630)
+#define CLASS_1_71C22F649FE92DEF_METHOD_1_EF658AEEBB9A1A89_OFFSET UNITYSDK_OFFSET(0xF5AA200)
 
-inline static constexpr unsigned int Class_1_71C22F649FE92DEF_TypeDefinitionIndex = 49593;
+inline static constexpr unsigned int Class_1_71C22F649FE92DEF_TypeDefinitionIndex = 56415;
 
 class Class_1_71C22F649FE92DEF : public ::System::Object
 {
 public:
-	static ::RPG::Client::FlagSwitch_1<::System::String*>** StaticGet_Field_1_0()
-	{
-		return (::RPG::Client::FlagSwitch_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_71C22F649FE92DEF_TypeDefinitionIndex)->GetStaticField(0x48F10);
-	}
 	static ::RPG::Client::AdventurePhaseInitParams** StaticGet_Field_1_1()
 	{
-		return (::RPG::Client::AdventurePhaseInitParams**)Il2CppClass::FromTypeDefinitionIndex(Class_1_71C22F649FE92DEF_TypeDefinitionIndex)->GetStaticField(0x48F18);
+		return (::RPG::Client::AdventurePhaseInitParams**)Il2CppClass::FromTypeDefinitionIndex(Class_1_71C22F649FE92DEF_TypeDefinitionIndex)->GetStaticField(0x6A3A0);
 	}
 	static ::System::Action** StaticGet_Field_1_2()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_71C22F649FE92DEF_TypeDefinitionIndex)->GetStaticField(0x48F20);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_71C22F649FE92DEF_TypeDefinitionIndex)->GetStaticField(0x6A3A8);
+	}
+	static ::RPG::Client::FlagSwitch_1<::System::String*>** StaticGet_Field_1_0()
+	{
+		return (::RPG::Client::FlagSwitch_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_71C22F649FE92DEF_TypeDefinitionIndex)->GetStaticField(0x6A3B0);
 	}
 
 	static ::System::Void Method_1_EDFD49C942C75D6C()
@@ -67,14 +67,14 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_71C22F649FE92DEF_METHOD_1_8CA05BCD86E125DF_OFFSET))();
 	}
 
-	static ::System::Void Method_1_4BDE1EFCAB8EC823(::System::Object* a1)
+	static ::System::Void Method_1_BCD04FAF06FA4406(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_71C22F649FE92DEF_METHOD_1_4BDE1EFCAB8EC823_OFFSET))(a1);
+		return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_71C22F649FE92DEF_METHOD_1_BCD04FAF06FA4406_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_06A2B758FCB8A24E()
+	static ::System::Void Method_1_585E2EA201FDE7ED()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_71C22F649FE92DEF_METHOD_1_06A2B758FCB8A24E_OFFSET))();
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_71C22F649FE92DEF_METHOD_1_585E2EA201FDE7ED_OFFSET))();
 	}
 
 	static ::System::Void Method_1_718EACA14AB0E64C(::System::String* a1, ::RPG::Client::IGamePhase* a2)

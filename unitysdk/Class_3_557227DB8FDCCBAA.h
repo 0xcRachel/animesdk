@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowSpeicalAvatarHUDContainerPanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_557227DB8FDCCBAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x115BABF0)
-#define CLASS_3_557227DB8FDCCBAA__CTOR_OFFSET UNITYSDK_OFFSET(0x115BABC0)
+#define CLASS_3_557227DB8FDCCBAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDEBB8E0)
+#define CLASS_3_557227DB8FDCCBAA__CTOR_OFFSET UNITYSDK_OFFSET(0xDEBB8B0)
 
-inline static constexpr unsigned int Class_3_557227DB8FDCCBAA_TypeDefinitionIndex = 44547;
+inline static constexpr unsigned int Class_3_557227DB8FDCCBAA_TypeDefinitionIndex = 51281;
 
 class Class_3_557227DB8FDCCBAA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowSpeicalAvatarHUDContainerPanel*>
 {

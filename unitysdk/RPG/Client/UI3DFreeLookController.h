@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_UI3DFREELOOKCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xA65CE90)
+#define RPG_CLIENT_UI3DFREELOOKCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x138E3CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DFreeLookController_TypeDefinitionIndex = 59840;
+	inline static constexpr unsigned int UI3DFreeLookController_TypeDefinitionIndex = 67236;
 
 	class UI3DFreeLookController : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,34 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
-namespace System { class Action; }
 
-#define CLASS_1_56FF45D7B2C55655___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8901260)
-#define CLASS_1_56FF45D7B2C55655___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8901290)
-#define CLASS_1_56FF45D7B2C55655___C__ENABLEENVPROFILE_B__55_0_OFFSET UNITYSDK_OFFSET(0x8901340)
-#define CLASS_1_56FF45D7B2C55655___C__LOADAREA_B__2_0_OFFSET UNITYSDK_OFFSET(0x89012A0)
-#define CLASS_1_56FF45D7B2C55655___C__LOADAREA_B__2_1_OFFSET UNITYSDK_OFFSET(0x89012F0)
+#define CLASS_1_56FF45D7B2C55655___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x135BE590)
+#define CLASS_1_56FF45D7B2C55655___C__CTOR_OFFSET UNITYSDK_OFFSET(0x135BE5C0)
+#define CLASS_1_56FF45D7B2C55655___C__ENABLEENVPROFILE_B__58_0_OFFSET UNITYSDK_OFFSET(0x135BE5D0)
 
-inline static constexpr unsigned int Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex = 60550;
+inline static constexpr unsigned int Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex = 67986;
 
 class Class_1_56FF45D7B2C55655___c : public ::System::Object
 {
 public:
-	static ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate** StaticGet___9__55_0()
-	{
-		return (::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex)->GetStaticField(0x48200);
-	}
-	static ::System::Action** StaticGet___9__2_1()
-	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex)->GetStaticField(0x48208);
-	}
 	static ::Class_1_56FF45D7B2C55655___c** StaticGet___9()
 	{
-		return (::Class_1_56FF45D7B2C55655___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex)->GetStaticField(0x48210);
+		return (::Class_1_56FF45D7B2C55655___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex)->GetStaticField(0x681F0);
 	}
-	static ::System::Action** StaticGet___9__2_0()
+	static ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate** StaticGet___9__58_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex)->GetStaticField(0x48218);
+		return (::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_56FF45D7B2C55655___c_TypeDefinitionIndex)->GetStaticField(0x681F8);
 	}
 
 	static ::System::Void _cctor()
@@ -43,18 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_56FF45D7B2C55655___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _LoadArea_b__2_0()
+	::System::Void _EnableEnvProfile_b__58_0(::System::Object* _)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_56FF45D7B2C55655___C__LOADAREA_B__2_0_OFFSET))(this);
-	}
-
-	::System::Void _LoadArea_b__2_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_56FF45D7B2C55655___C__LOADAREA_B__2_1_OFFSET))(this);
-	}
-
-	::System::Void _EnableEnvProfile_b__55_0(::System::Object* _)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_56FF45D7B2C55655___C__ENABLEENVPROFILE_B__55_0_OFFSET))(this, _);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_56FF45D7B2C55655___C__ENABLEENVPROFILE_B__58_0_OFFSET))(this, _);
 	}
 };

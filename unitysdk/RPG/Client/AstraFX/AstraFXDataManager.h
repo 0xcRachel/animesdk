@@ -6,21 +6,21 @@ namespace RPG::Client::AstraFX { class AstraFXDataManagerBehavior; }
 namespace RPG::Client::AstraFX { class AstraFXDataNode; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x90ECAD0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x90ECBA0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x90ECEC0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x90ED0B0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16D75AF0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x16D75BC0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x16D75EE0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATAMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x16D760D0)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataManager_TypeDefinitionIndex = 60397;
+	inline static constexpr unsigned int AstraFXDataManager_TypeDefinitionIndex = 67818;
 
 	class AstraFXDataManager : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::AstraFX::AstraFXDataManagerBehavior*>
 	{
 	public:
 		static ::RPG::Client::AstraFX::AstraFXDataManager** StaticGet_Field_7_2()
 		{
-			return (::RPG::Client::AstraFX::AstraFXDataManager**)Il2CppClass::FromTypeDefinitionIndex(AstraFXDataManager_TypeDefinitionIndex)->GetStaticField(0x43850);
+			return (::RPG::Client::AstraFX::AstraFXDataManager**)Il2CppClass::FromTypeDefinitionIndex(AstraFXDataManager_TypeDefinitionIndex)->GetStaticField(0x5B0B0);
 		}
 		::System::Collections::Generic::HashSet_1<::RPG::Client::AstraFX::AstraFXDataNode*>* Providers; // 0x30
 		::System::Collections::Generic::HashSet_1<::RPG::Client::AstraFX::AstraFXDataNode*>* Receivers; // 0x38

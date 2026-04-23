@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_34CD3619EB2C9BDE_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9C55AA0)
-#define CLASS_2_34CD3619EB2C9BDE_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x9C55A50)
-#define CLASS_2_34CD3619EB2C9BDE__CTOR_OFFSET UNITYSDK_OFFSET(0x9C55B20)
+#define CLASS_2_34CD3619EB2C9BDE_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAD310B0)
+#define CLASS_2_34CD3619EB2C9BDE_METHOD_2_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xAD31060)
+#define CLASS_2_34CD3619EB2C9BDE__CTOR_OFFSET UNITYSDK_OFFSET(0xAD31130)
 
-inline static constexpr unsigned int Class_2_34CD3619EB2C9BDE_TypeDefinitionIndex = 58711;
+inline static constexpr unsigned int Class_2_34CD3619EB2C9BDE_TypeDefinitionIndex = 66035;
 
 class Class_2_34CD3619EB2C9BDE : public ::Class_1_89D8044AB73F8F6D
 {
 public:
-	::UnityEngine::Transform* Field_2_1; // 0x18
-	::UnityEngine::Transform* Field_2_0; // 0x20
+	::UnityEngine::Transform* Field_2_0; // 0x18
+	::UnityEngine::Transform* Field_2_1; // 0x20
 
 	::System::Void _ctor()
 	{

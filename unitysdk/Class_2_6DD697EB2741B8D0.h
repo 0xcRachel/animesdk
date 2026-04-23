@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggeBattleLoadFinishPerformance; }
 
-#define CLASS_2_6DD697EB2741B8D0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF376650)
-#define CLASS_2_6DD697EB2741B8D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF376730)
-#define CLASS_2_6DD697EB2741B8D0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF3766C0)
-#define CLASS_2_6DD697EB2741B8D0_TICK_OFFSET UNITYSDK_OFFSET(0xF376BF0)
-#define CLASS_2_6DD697EB2741B8D0__CTOR_OFFSET UNITYSDK_OFFSET(0xF376640)
+#define CLASS_2_6DD697EB2741B8D0_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5DB880)
+#define CLASS_2_6DD697EB2741B8D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5DB960)
+#define CLASS_2_6DD697EB2741B8D0_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC5DB8F0)
+#define CLASS_2_6DD697EB2741B8D0_TICK_OFFSET UNITYSDK_OFFSET(0xC5DBE10)
+#define CLASS_2_6DD697EB2741B8D0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5DB870)
 
-inline static constexpr unsigned int Class_2_6DD697EB2741B8D0_TypeDefinitionIndex = 44625;
+inline static constexpr unsigned int Class_2_6DD697EB2741B8D0_TypeDefinitionIndex = 51364;
 
 class Class_2_6DD697EB2741B8D0 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x20
 	::RPG::GameCore::TriggeBattleLoadFinishPerformance* Field_2_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggeBattleLoadFinishPerformance* a2)

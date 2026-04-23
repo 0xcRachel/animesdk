@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEACHIEVEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FDF680)
-#define RPG_GAMECORE_BATTLEACHIEVEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDF890)
+#define RPG_GAMECORE_BATTLEACHIEVEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1822EE60)
+#define RPG_GAMECORE_BATTLEACHIEVEMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1822F070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAchievementRow_TypeDefinitionIndex = 11765;
+	inline static constexpr unsigned int BattleAchievementRow_TypeDefinitionIndex = 12177;
 
 	class BattleAchievementRow : public ::System::Object
 	{

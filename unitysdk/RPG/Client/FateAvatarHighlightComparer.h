@@ -6,12 +6,12 @@ namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEAVATARHIGHLIGHTCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x967BD00)
-#define RPG_CLIENT_FATEAVATARHIGHLIGHTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x967BC00)
+#define RPG_CLIENT_FATEAVATARHIGHLIGHTCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x161F6C40)
+#define RPG_CLIENT_FATEAVATARHIGHLIGHTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x161F6B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateAvatarHighlightComparer_TypeDefinitionIndex = 51940;
+	inline static constexpr unsigned int FateAvatarHighlightComparer_TypeDefinitionIndex = 58889;
 
 	class FateAvatarHighlightComparer : public ::RPG::Client::AvatarComparerBase
 	{

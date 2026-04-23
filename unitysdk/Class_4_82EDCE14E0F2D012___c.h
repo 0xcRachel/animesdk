@@ -5,22 +5,22 @@
 namespace RPG::Client { class GpuParticleOccluder; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_4_82EDCE14E0F2D012___C__CALCULATEOBBAABBINTERSECTIONS_B__16_0_OFFSET UNITYSDK_OFFSET(0x11446550)
-#define CLASS_4_82EDCE14E0F2D012___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x11446510)
-#define CLASS_4_82EDCE14E0F2D012___C__CTOR_OFFSET UNITYSDK_OFFSET(0x11446540)
+#define CLASS_4_82EDCE14E0F2D012___C__CALCULATEOBBAABBINTERSECTIONS_B__16_0_OFFSET UNITYSDK_OFFSET(0xCAB38B0)
+#define CLASS_4_82EDCE14E0F2D012___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAB3870)
+#define CLASS_4_82EDCE14E0F2D012___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCAB38A0)
 
-inline static constexpr unsigned int Class_4_82EDCE14E0F2D012___c_TypeDefinitionIndex = 40006;
+inline static constexpr unsigned int Class_4_82EDCE14E0F2D012___c_TypeDefinitionIndex = 45915;
 
 class Class_4_82EDCE14E0F2D012___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__16_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_82EDCE14E0F2D012___c_TypeDefinitionIndex)->GetStaticField(0x18570);
-	}
 	static ::Class_4_82EDCE14E0F2D012___c** StaticGet___9()
 	{
-		return (::Class_4_82EDCE14E0F2D012___c**)Il2CppClass::FromTypeDefinitionIndex(Class_4_82EDCE14E0F2D012___c_TypeDefinitionIndex)->GetStaticField(0x18578);
+		return (::Class_4_82EDCE14E0F2D012___c**)Il2CppClass::FromTypeDefinitionIndex(Class_4_82EDCE14E0F2D012___c_TypeDefinitionIndex)->GetStaticField(0xA6D0);
+	}
+	static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__16_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(Class_4_82EDCE14E0F2D012___c_TypeDefinitionIndex)->GetStaticField(0xA6D8);
 	}
 
 	static ::System::Void _cctor()

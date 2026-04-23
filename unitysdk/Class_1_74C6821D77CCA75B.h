@@ -3,22 +3,22 @@
 #include "unitysdk/Sofa/Core/BindingMode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_271;
+class Class_0_16E4307DCC419505_276;
 namespace System { class String; }
 
-#define CLASS_1_74C6821D77CCA75B__CTOR_OFFSET UNITYSDK_OFFSET(0x1839DAA0)
+#define CLASS_1_74C6821D77CCA75B__CTOR_OFFSET UNITYSDK_OFFSET(0x1A545220)
 
-inline static constexpr unsigned int Class_1_74C6821D77CCA75B_TypeDefinitionIndex = 33969;
+inline static constexpr unsigned int Class_1_74C6821D77CCA75B_TypeDefinitionIndex = 39775;
 
 class Class_1_74C6821D77CCA75B : public ::System::Object
 {
 public:
-	::System::String* Field_1_1; // 0x10
-	::System::String* Field_1_4; // 0x18
-	::System::Object* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::Class_0_16E4307DCC419505_271* Field_1_6; // 0x30
-	::System::Object* Field_1_0; // 0x38
+	::System::String* Field_1_4; // 0x10
+	::System::Object* Field_1_0; // 0x18
+	::Class_0_16E4307DCC419505_276* Field_1_6; // 0x20
+	::System::String* Field_1_1; // 0x28
+	::System::Object* Field_1_2; // 0x30
+	::System::String* Field_1_3; // 0x38
 	::Sofa::Core::BindingMode Field_1_5; // 0x40
 
 	::System::Void _ctor()

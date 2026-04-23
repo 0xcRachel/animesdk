@@ -6,26 +6,26 @@ namespace RPG::Client { class MonoTravelShipController; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_ED7576A0A144501C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10AA40E0)
-#define CLASS_1_ED7576A0A144501C_METHOD_1_0B6C3969A0985ADD_OFFSET UNITYSDK_OFFSET(0x10AA4130)
-#define CLASS_1_ED7576A0A144501C_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10AA4360)
-#define CLASS_1_ED7576A0A144501C_METHOD_1_D2A08F3D951A0C1D_OFFSET UNITYSDK_OFFSET(0x10AA4270)
-#define CLASS_1_ED7576A0A144501C__CTOR_OFFSET UNITYSDK_OFFSET(0x10AA40D0)
+#define CLASS_1_ED7576A0A144501C_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDB57E60)
+#define CLASS_1_ED7576A0A144501C_METHOD_1_0B6C3969A0985ADD_OFFSET UNITYSDK_OFFSET(0xDB57EB0)
+#define CLASS_1_ED7576A0A144501C_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xDB580E0)
+#define CLASS_1_ED7576A0A144501C_METHOD_1_D2A08F3D951A0C1D_OFFSET UNITYSDK_OFFSET(0xDB57FF0)
+#define CLASS_1_ED7576A0A144501C__CTOR_OFFSET UNITYSDK_OFFSET(0xDB57E50)
 
-inline static constexpr unsigned int Class_1_ED7576A0A144501C_TypeDefinitionIndex = 56183;
+inline static constexpr unsigned int Class_1_ED7576A0A144501C_TypeDefinitionIndex = 63426;
 
 class Class_1_ED7576A0A144501C : public ::System::Object
 {
 public:
-	::RPG::Client::MonoTravelShipController* Field_1_1; // 0x10
-	::UnityEngine::AnimationCurve* Field_1_3; // 0x18
-	::UnityEngine::Transform* Field_1_0; // 0x20
-	::System::Single Field_1_6; // 0x28
+	::UnityEngine::AnimationCurve* Field_1_3; // 0x10
+	::UnityEngine::Transform* Field_1_0; // 0x18
+	::RPG::Client::MonoTravelShipController* Field_1_1; // 0x20
+	::System::Single Field_1_4; // 0x28
 	::System::Single Field_1_7; // 0x2C
-	::System::Single Field_1_8; // 0x30
-	::System::Single Field_1_5; // 0x34
-	::System::Single Field_1_2; // 0x38
-	::System::Single Field_1_4; // 0x3C
+	::System::Single Field_1_2; // 0x30
+	::System::Single Field_1_8; // 0x34
+	::System::Single Field_1_6; // 0x38
+	::System::Single Field_1_5; // 0x3C
 
 	::System::Void _ctor(::UnityEngine::Transform* a1, ::RPG::Client::MonoTravelShipController* a2)
 	{

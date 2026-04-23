@@ -8,13 +8,13 @@ namespace RPG::GameCore { class CameraLookAtScreenRangeConfig; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CAMERALOOKATCONFIGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x9267880)
-#define RPG_CLIENT_CAMERALOOKATCONFIGDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x9267840)
-#define RPG_CLIENT_CAMERALOOKATCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x9267770)
+#define RPG_CLIENT_CAMERALOOKATCONFIGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E27170)
+#define RPG_CLIENT_CAMERALOOKATCONFIGDATA_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15E27130)
+#define RPG_CLIENT_CAMERALOOKATCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E27060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraLookAtConfigData_TypeDefinitionIndex = 56865;
+	inline static constexpr unsigned int CameraLookAtConfigData_TypeDefinitionIndex = 64112;
 
 	class CameraLookAtConfigData : public ::System::Object
 	{

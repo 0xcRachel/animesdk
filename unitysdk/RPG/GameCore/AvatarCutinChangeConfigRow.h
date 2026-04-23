@@ -6,18 +6,18 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARCUTINCHANGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16FAB920)
-#define RPG_GAMECORE_AVATARCUTINCHANGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16FABAB0)
+#define RPG_GAMECORE_AVATARCUTINCHANGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x181FAB70)
+#define RPG_GAMECORE_AVATARCUTINCHANGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x181FAD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarCutinChangeConfigRow_TypeDefinitionIndex = 11615;
+	inline static constexpr unsigned int AvatarCutinChangeConfigRow_TypeDefinitionIndex = 12025;
 
 	class AvatarCutinChangeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* AvatarImgPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* ChangeConditions; // 0x18
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* ChangeConditions; // 0x10
+		::System::String* AvatarImgPath; // 0x18
 		::System::UInt32 AvatarID; // 0x20
 
 		::System::Void _ctor()

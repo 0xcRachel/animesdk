@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvEnableOwnerIdleShow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_26E39598708E7097_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8B04240)
-#define CLASS_3_26E39598708E7097__CTOR_OFFSET UNITYSDK_OFFSET(0x8B04210)
+#define CLASS_3_26E39598708E7097_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3C2D80)
+#define CLASS_3_26E39598708E7097__CTOR_OFFSET UNITYSDK_OFFSET(0xE3C2D50)
 
-inline static constexpr unsigned int Class_3_26E39598708E7097_TypeDefinitionIndex = 42369;
+inline static constexpr unsigned int Class_3_26E39598708E7097_TypeDefinitionIndex = 48329;
 
 class Class_3_26E39598708E7097 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvEnableOwnerIdleShow*>
 {

@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_GETFAILHINTTEXT_OFFSET UNITYSDK_OFFSET(0x1733D140)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_HASTRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1733D2E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_ONTRIGGER_OFFSET UNITYSDK_OFFSET(0x1733D320)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_SHOULDTRIGGER_OFFSET UNITYSDK_OFFSET(0x1733D1F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL__CTOR_OFFSET UNITYSDK_OFFSET(0x1733D3A0)
+
+namespace RPG::Client::ActivityIdleLive
+{
+	inline static constexpr unsigned int FailGuideGachaAvatarImpl_TypeDefinitionIndex = 69444;
+
+	class FailGuideGachaAvatarImpl : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL__CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID GetFailHintText()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_GETFAILHINTTEXT_OFFSET))(this);
+		}
+
+		::System::Boolean ShouldTrigger()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_SHOULDTRIGGER_OFFSET))(this);
+		}
+
+		::System::Boolean HasTriggerAction()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_HASTRIGGERACTION_OFFSET))(this);
+		}
+
+		::System::Void OnTrigger()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_FAILGUIDEGACHAAVATARIMPL_ONTRIGGER_OFFSET))(this);
+		}
+	};
+}

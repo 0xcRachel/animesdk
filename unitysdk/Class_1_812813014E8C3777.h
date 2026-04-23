@@ -7,21 +7,21 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_1_812813014E8C3777_CLEAR_OFFSET UNITYSDK_OFFSET(0x10396840)
-#define CLASS_1_812813014E8C3777__CTOR_OFFSET UNITYSDK_OFFSET(0x103968C0)
+#define CLASS_1_812813014E8C3777_CLEAR_OFFSET UNITYSDK_OFFSET(0x1063D4C0)
+#define CLASS_1_812813014E8C3777__CTOR_OFFSET UNITYSDK_OFFSET(0x1063D530)
 
-inline static constexpr unsigned int Class_1_812813014E8C3777_TypeDefinitionIndex = 46566;
+inline static constexpr unsigned int Class_1_812813014E8C3777_TypeDefinitionIndex = 53256;
 
 class Class_1_812813014E8C3777 : public ::System::Object
 {
 public:
-	::Struct_2_36399DCF74B23261 Field_1_3; // 0x10
-	::Struct_2_36399DCF74B23261 Field_1_4; // 0x28
-	::RPG::GameCore::TaskContext* Field_1_6; // 0x40
-	::System::String* Field_1_0; // 0x48
-	::Struct_2_36399DCF74B23261 Field_1_2; // 0x50
-	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_1_1; // 0x68
-	::Struct_2_36399DCF74B23261 Field_1_5; // 0x70
+	::Struct_2_36399DCF74B23261 Field_1_4; // 0x10
+	::Struct_2_36399DCF74B23261 Field_1_5; // 0x28
+	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_1_1; // 0x40
+	::Struct_2_36399DCF74B23261 Field_1_3; // 0x48
+	::RPG::GameCore::TaskContext* Field_1_6; // 0x60
+	::Struct_2_36399DCF74B23261 Field_1_2; // 0x68
+	::System::String* Field_1_0; // 0x80
 
 	::System::Void _ctor()
 	{

@@ -6,12 +6,12 @@ namespace RPG::Client { class ChimeraGameInstance; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x93CDB60)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0__TRYSWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0x93CE7D0)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1747CE50)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS44_0__TRYSWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0x1747DAC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGameInstance___c__DisplayClass44_0_TypeDefinitionIndex = 48953;
+	inline static constexpr unsigned int ChimeraGameInstance___c__DisplayClass44_0_TypeDefinitionIndex = 55745;
 
 	class ChimeraGameInstance___c__DisplayClass44_0 : public ::System::Object
 	{

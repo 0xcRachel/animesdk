@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Textmap::Parameter
 {
-	inline static constexpr unsigned int MetricNumberFormatMode_TypeDefinitionIndex = 60147;
+	inline static constexpr unsigned int MetricNumberFormatMode_TypeDefinitionIndex = 67580;
 
 	enum class MetricNumberFormatMode : ::System::Int32
 	{

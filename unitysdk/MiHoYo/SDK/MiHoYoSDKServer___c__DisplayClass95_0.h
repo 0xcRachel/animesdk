@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS95_0__CTOR_OFFSET UNITYSDK_OFFSET(0x852F890)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS95_0__ONGETLOGMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x85320D0)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS95_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17296E30)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS95_0__ONGETLOGMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x17299670)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass95_0_TypeDefinitionIndex = 37089;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass95_0_TypeDefinitionIndex = 42934;
 
 	class MiHoYoSDKServer___c__DisplayClass95_0 : public ::System::Object
 	{

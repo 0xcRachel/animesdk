@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::WellKnownTypes { class Enum; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B41DA0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B41DE0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x15B41DF0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x197A7480)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x197A74C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x197A74D0)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Enum___c_TypeDefinitionIndex = 6238;
+	inline static constexpr unsigned int Enum___c_TypeDefinitionIndex = 6248;
 
 	class Enum___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::WellKnownTypes::Enum___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::WellKnownTypes::Enum___c**)Il2CppClass::FromTypeDefinitionIndex(Enum___c_TypeDefinitionIndex)->GetStaticField(0xD200);
+			return (::Google::Protobuf::WellKnownTypes::Enum___c**)Il2CppClass::FromTypeDefinitionIndex(Enum___c_TypeDefinitionIndex)->GetStaticField(0x70B0);
 		}
 
 		static ::System::Void _cctor()

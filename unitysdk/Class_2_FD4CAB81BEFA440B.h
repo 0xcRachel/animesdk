@@ -6,10 +6,10 @@
 namespace RPG::Client { class NotifyHandler; }
 namespace System { class Object; }
 
-#define CLASS_2_FD4CAB81BEFA440B_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x8A88800)
-#define CLASS_2_FD4CAB81BEFA440B__CTOR_OFFSET UNITYSDK_OFFSET(0x8A887F0)
+#define CLASS_2_FD4CAB81BEFA440B_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xD4E6E60)
+#define CLASS_2_FD4CAB81BEFA440B__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E6E50)
 
-inline static constexpr unsigned int Class_2_FD4CAB81BEFA440B_TypeDefinitionIndex = 59953;
+inline static constexpr unsigned int Class_2_FD4CAB81BEFA440B_TypeDefinitionIndex = 67351;
 
 class Class_2_FD4CAB81BEFA440B : public ::Class_1_E8C81730380D9B3A
 {

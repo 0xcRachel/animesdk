@@ -5,12 +5,12 @@
 namespace RPG::Client { class AudienceIdentityData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIENCEASSETCONFIG_METHOD_3_40AC1F4F55C8B8A0_OFFSET UNITYSDK_OFFSET(0x90F53C0)
-#define RPG_CLIENT_AUDIENCEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x90F54D0)
+#define RPG_CLIENT_AUDIENCEASSETCONFIG_METHOD_3_40AC1F4F55C8B8A0_OFFSET UNITYSDK_OFFSET(0x16D7E560)
+#define RPG_CLIENT_AUDIENCEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D7E670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceAssetConfig_TypeDefinitionIndex = 56480;
+	inline static constexpr unsigned int AudienceAssetConfig_TypeDefinitionIndex = 63724;
 
 	class AudienceAssetConfig : public ::UnityEngine::ScriptableObject
 	{

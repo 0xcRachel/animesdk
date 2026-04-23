@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Text/RegularExpressions/RegexOptions.h"
 
-#define GOOGLE_PROTOBUF_FRAMEWORKPORTABILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15AF3800)
+#define GOOGLE_PROTOBUF_FRAMEWORKPORTABILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x17EAB2E0)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FrameworkPortability_TypeDefinitionIndex = 6180;
+	inline static constexpr unsigned int FrameworkPortability_TypeDefinitionIndex = 6190;
 
 	class FrameworkPortability : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::RegexOptions* StaticGet_CompiledRegexWhereAvailable()
 		{
-			return (::System::Text::RegularExpressions::RegexOptions*)Il2CppClass::FromTypeDefinitionIndex(FrameworkPortability_TypeDefinitionIndex)->GetStaticField(0x37A0);
+			return (::System::Text::RegularExpressions::RegexOptions*)Il2CppClass::FromTypeDefinitionIndex(FrameworkPortability_TypeDefinitionIndex)->GetStaticField(0x18C0);
 		}
 
 		static ::System::Void _cctor()

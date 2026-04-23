@@ -7,13 +7,13 @@ namespace RPG::Client { class LinearModuleRendererBehavior; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9991030)
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x9991080)
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x9991090)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1583FE20)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1583FE70)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1583FE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LinearModuleRendererMonoPlugin_TypeDefinitionIndex = 58076;
+	inline static constexpr unsigned int LinearModuleRendererMonoPlugin_TypeDefinitionIndex = 65363;
 
 	class LinearModuleRendererMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LinearModuleRendererBehavior*>
 	{

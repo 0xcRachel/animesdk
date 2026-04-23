@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x15DA00B0)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLIFNOTNULLATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x196367D0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int NotNullIfNotNullAttribute_TypeDefinitionIndex = 9382;
+	inline static constexpr unsigned int NotNullIfNotNullAttribute_TypeDefinitionIndex = 9579;
 
 	class NotNullIfNotNullAttribute : public ::System::Attribute
 	{

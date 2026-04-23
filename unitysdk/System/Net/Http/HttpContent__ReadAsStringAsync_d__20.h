@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Net::Http { class HttpContent; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2103550)
-#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x81E90)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2380860)
+#define SYSTEM_NET_HTTP_HTTPCONTENT__READASSTRINGASYNC_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x22CB630)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpContent__ReadAsStringAsync_d__20_TypeDefinitionIndex = 4780;
+	inline static constexpr unsigned int HttpContent__ReadAsStringAsync_d__20_TypeDefinitionIndex = 4788;
 
 	struct alignas(8) HttpContent__ReadAsStringAsync_d__20
 	{

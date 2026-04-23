@@ -6,9 +6,9 @@ class Class_1_DA7373FBD5F460E0;
 namespace RPG::GameCore { class HoyoTag; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_51278AA2276AE188__CTOR_OFFSET UNITYSDK_OFFSET(0x10A1DC30)
+#define CLASS_1_51278AA2276AE188__CTOR_OFFSET UNITYSDK_OFFSET(0xDE9B9E0)
 
-inline static constexpr unsigned int Class_1_51278AA2276AE188_TypeDefinitionIndex = 60534;
+inline static constexpr unsigned int Class_1_51278AA2276AE188_TypeDefinitionIndex = 67970;
 
 class Class_1_51278AA2276AE188 : public ::System::Object
 {

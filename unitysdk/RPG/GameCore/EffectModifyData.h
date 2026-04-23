@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTMODIFYDATA_METHOD_2_556C152397FF3202_OFFSET UNITYSDK_OFFSET(0x1719DD10)
-#define RPG_GAMECORE_EFFECTMODIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1719DE90)
+#define RPG_GAMECORE_EFFECTMODIFYDATA_METHOD_2_556C152397FF3202_OFFSET UNITYSDK_OFFSET(0x1914A290)
+#define RPG_GAMECORE_EFFECTMODIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1914A410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectModifyData_TypeDefinitionIndex = 18550;
+	inline static constexpr unsigned int EffectModifyData_TypeDefinitionIndex = 19204;
 
 	class EffectModifyData : public ::RPG::GameCore::JsonConfig
 	{

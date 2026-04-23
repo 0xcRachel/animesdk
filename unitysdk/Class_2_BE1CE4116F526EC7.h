@@ -6,19 +6,19 @@
 namespace RPG::GameCore { class SetDynamicValueByGridFightDropCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_BE1CE4116F526EC7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x8BA18E0)
-#define CLASS_2_BE1CE4116F526EC7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x8BA1920)
-#define CLASS_2_BE1CE4116F526EC7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x8BA1CD0)
-#define CLASS_2_BE1CE4116F526EC7_TICK_OFFSET UNITYSDK_OFFSET(0x8BA1D20)
-#define CLASS_2_BE1CE4116F526EC7__CTOR_OFFSET UNITYSDK_OFFSET(0x8BA1810)
+#define CLASS_2_BE1CE4116F526EC7_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE781D60)
+#define CLASS_2_BE1CE4116F526EC7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE781DA0)
+#define CLASS_2_BE1CE4116F526EC7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE782150)
+#define CLASS_2_BE1CE4116F526EC7_TICK_OFFSET UNITYSDK_OFFSET(0xE7821A0)
+#define CLASS_2_BE1CE4116F526EC7__CTOR_OFFSET UNITYSDK_OFFSET(0xE781C90)
 
-inline static constexpr unsigned int Class_2_BE1CE4116F526EC7_TypeDefinitionIndex = 44392;
+inline static constexpr unsigned int Class_2_BE1CE4116F526EC7_TypeDefinitionIndex = 51110;
 
 class Class_2_BE1CE4116F526EC7 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x18
-	::RPG::GameCore::SetDynamicValueByGridFightDropCount* Field_2_0; // 0x20
+	::RPG::GameCore::SetDynamicValueByGridFightDropCount* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 	::RPG::GameCore::StringHash Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByGridFightDropCount* a2)

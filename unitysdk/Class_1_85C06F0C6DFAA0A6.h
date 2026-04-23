@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class LambdaExpression; }
 
-#define CLASS_1_85C06F0C6DFAA0A6_METHOD_1_7D1B157B81254E28_OFFSET UNITYSDK_OFFSET(0x1838F180)
-#define CLASS_1_85C06F0C6DFAA0A6_METHOD_1_FD8510BA2ADFE3A2_OFFSET UNITYSDK_OFFSET(0x1838F220)
+#define CLASS_1_85C06F0C6DFAA0A6_METHOD_1_7D1B157B81254E28_OFFSET UNITYSDK_OFFSET(0x1A544DE0)
+#define CLASS_1_85C06F0C6DFAA0A6_METHOD_1_FD8510BA2ADFE3A2_OFFSET UNITYSDK_OFFSET(0x1A544E80)
 
-inline static constexpr unsigned int Class_1_85C06F0C6DFAA0A6_TypeDefinitionIndex = 33973;
+inline static constexpr unsigned int Class_1_85C06F0C6DFAA0A6_TypeDefinitionIndex = 39779;
 
 class Class_1_85C06F0C6DFAA0A6 : public ::System::Object
 {

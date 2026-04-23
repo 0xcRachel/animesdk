@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F2DBF0)
-#define RPG_GAMECORE_ACTIVITYTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F2DE40)
+#define RPG_GAMECORE_ACTIVITYTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DAE630)
+#define RPG_GAMECORE_ACTIVITYTHEMEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAE880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityThemeRow_TypeDefinitionIndex = 10492;
+	inline static constexpr unsigned int ActivityThemeRow_TypeDefinitionIndex = 10716;
 
 	class ActivityThemeRow : public ::System::Object
 	{
 	public:
-		::System::String* LittleCornerIconPath; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::System::String* LittleCornerIconPath; // 0x18
 		::System::String* CornerIconPath; // 0x20
 		::RPG::Client::TextID Name; // 0x28
 		::System::UInt32 ThemeID; // 0x38

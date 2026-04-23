@@ -6,9 +6,9 @@
 class Class_1_43BD383C98B4C0C5_31;
 namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
-#define CLASS_1_0190AB1E1065D718__CTOR_OFFSET UNITYSDK_OFFSET(0x16A621E0)
+#define CLASS_1_0190AB1E1065D718__CTOR_OFFSET UNITYSDK_OFFSET(0x17A55360)
 
-inline static constexpr unsigned int Class_1_0190AB1E1065D718_TypeDefinitionIndex = 33732;
+inline static constexpr unsigned int Class_1_0190AB1E1065D718_TypeDefinitionIndex = 39533;
 
 class Class_1_0190AB1E1065D718 : public ::System::Object
 {

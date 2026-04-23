@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class DirectDeliveryNoticeToastData; }
 
-#define CLASS_2_67556107F6051F25___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9EF5B00)
-#define CLASS_2_67556107F6051F25___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x9EF5B10)
+#define CLASS_2_67556107F6051F25___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF7B5A00)
+#define CLASS_2_67556107F6051F25___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xF7B5A10)
 
-inline static constexpr unsigned int Class_2_67556107F6051F25___c__DisplayClass2_0_TypeDefinitionIndex = 41936;
+inline static constexpr unsigned int Class_2_67556107F6051F25___c__DisplayClass2_0_TypeDefinitionIndex = 47902;
 
 class Class_2_67556107F6051F25___c__DisplayClass2_0 : public ::System::Object
 {

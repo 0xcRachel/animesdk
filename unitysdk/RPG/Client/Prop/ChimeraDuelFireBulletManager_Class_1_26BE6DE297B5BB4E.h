@@ -11,36 +11,36 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_CLEAR_OFFSET UNITYSDK_OFFSET(0xA052B50)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_50896BDA13FD77D3_OFFSET UNITYSDK_OFFSET(0xA052EC0)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xA053D00)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0xA053E90)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E__CTOR_OFFSET UNITYSDK_OFFSET(0xA053C30)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_CLEAR_OFFSET UNITYSDK_OFFSET(0x15821890)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_50896BDA13FD77D3_OFFSET UNITYSDK_OFFSET(0x15821C00)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x15822A40)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E_METHOD_1_E52129E82CD2D7F8_OFFSET UNITYSDK_OFFSET(0x15822BD0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_CLASS_1_26BE6DE297B5BB4E__CTOR_OFFSET UNITYSDK_OFFSET(0x15822970)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E_TypeDefinitionIndex = 63751;
+	inline static constexpr unsigned int ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E_TypeDefinitionIndex = 71797;
 
 	class ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraDuelFireBulletNode* Field_1_3; // 0x10
-		::UnityEngine::Transform* Field_1_5; // 0x18
-		::UnityEngine::AnimationCurve* Field_1_11; // 0x20
-		::UnityEngine::AnimationCurve* Field_1_10; // 0x28
+		::UnityEngine::Transform* Field_1_4; // 0x10
+		::UnityEngine::Transform* Field_1_9; // 0x18
+		::UnityEngine::Transform* Field_1_5; // 0x20
+		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView* Field_1_7; // 0x28
 		::System::Action_1<::System::Int32>* Field_1_0; // 0x30
-		::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* Field_1_8; // 0x38
-		::UnityEngine::Transform* Field_1_4; // 0x40
-		::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* Field_1_6; // 0x48
-		::UnityEngine::Transform* Field_1_9; // 0x50
-		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView* Field_1_7; // 0x58
-		::System::Single Field_1_1; // 0x60
-		::UnityEngine::Quaternion Field_1_13; // 0x64
-		::System::Int32 Field_1_16; // 0x74
-		::System::Single Field_1_2; // 0x78
-		::System::Boolean Field_1_15; // 0x7C
-		::System::Boolean Field_1_12; // 0x7D
-		::System::Boolean Field_1_14; // 0x7E
+		::UnityEngine::AnimationCurve* Field_1_10; // 0x38
+		::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* Field_1_8; // 0x40
+		::UnityEngine::AnimationCurve* Field_1_11; // 0x48
+		::RPG::GameCore::ChimeraDuelFireBulletNode* Field_1_3; // 0x50
+		::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* Field_1_6; // 0x58
+		::System::Boolean Field_1_15; // 0x60
+		::System::Boolean Field_1_12; // 0x61
+		::System::Boolean Field_1_14; // 0x62
+		::System::Single Field_1_2; // 0x64
+		::System::Int32 Field_1_16; // 0x68
+		::UnityEngine::Quaternion Field_1_13; // 0x6C
+		::System::Single Field_1_1; // 0x7C
 
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::RPG::Client::LittleGame::ChimeraDuel::DuelChimeraBattleView* a3, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelAnimatorView* a4, ::RPG::Client::Prop::ChimeraDuelModelVfxPlayer* a5, ::RPG::GameCore::ChimeraDuelFireBulletNode* a6, ::UnityEngine::AnimationCurve* a7, ::UnityEngine::AnimationCurve* a8, ::System::Boolean a9, ::System::Int32 a10, ::System::Action_1<::System::Int32>* a11)
 		{

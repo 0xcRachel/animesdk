@@ -5,29 +5,29 @@
 namespace RPG::Client::TrainParty { class TrainPartyMeetingPassengerCardInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA60DF90)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA60DFD0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET UNITYSDK_OFFSET(0xA60E000)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__REROLL_B__7_0_OFFSET UNITYSDK_OFFSET(0xA60DFE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17814250)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17814290)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET UNITYSDK_OFFSET(0x178142C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__REROLL_B__7_0_OFFSET UNITYSDK_OFFSET(0x178142A0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 61115;
+	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 68602;
 
 	class TrainPartyMeetingData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::TrainParty::TrainPartyMeetingData___c** StaticGet___9()
 		{
-			return (::RPG::Client::TrainParty::TrainPartyMeetingData___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x45B60);
+			return (::RPG::Client::TrainParty::TrainPartyMeetingData___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x53F30);
 		}
 		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x45B68);
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x53F38);
 		}
 		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x45B70);
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyMeetingData___c_TypeDefinitionIndex)->GetStaticField(0x53F40);
 		}
 
 		static ::System::Void _cctor()

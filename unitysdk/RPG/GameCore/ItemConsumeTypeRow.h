@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCONSUMETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x172DCAF0)
-#define RPG_GAMECORE_ITEMCONSUMETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x172DD160)
+#define RPG_GAMECORE_ITEMCONSUMETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1889B430)
+#define RPG_GAMECORE_ITEMCONSUMETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1889BAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemConsumeTypeRow_TypeDefinitionIndex = 12652;
+	inline static constexpr unsigned int ItemConsumeTypeRow_TypeDefinitionIndex = 13120;
 
 	class ItemConsumeTypeRow : public ::System::Object
 	{

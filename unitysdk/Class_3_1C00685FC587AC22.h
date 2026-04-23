@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MarblePauseGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1C00685FC587AC22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11440090)
-#define CLASS_3_1C00685FC587AC22__CTOR_OFFSET UNITYSDK_OFFSET(0x11440060)
+#define CLASS_3_1C00685FC587AC22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C90620)
+#define CLASS_3_1C00685FC587AC22__CTOR_OFFSET UNITYSDK_OFFSET(0x10C905F0)
 
-inline static constexpr unsigned int Class_3_1C00685FC587AC22_TypeDefinitionIndex = 42326;
+inline static constexpr unsigned int Class_3_1C00685FC587AC22_TypeDefinitionIndex = 48286;
 
 class Class_3_1C00685FC587AC22 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::MarblePauseGame*>
 {

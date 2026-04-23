@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RefreshChangePhaseUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_90FE131ABC2AAB0C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x106B23B0)
-#define CLASS_3_90FE131ABC2AAB0C__CTOR_OFFSET UNITYSDK_OFFSET(0x106B2380)
+#define CLASS_3_90FE131ABC2AAB0C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3DFF70)
+#define CLASS_3_90FE131ABC2AAB0C__CTOR_OFFSET UNITYSDK_OFFSET(0xE3DFF40)
 
-inline static constexpr unsigned int Class_3_90FE131ABC2AAB0C_TypeDefinitionIndex = 44261;
+inline static constexpr unsigned int Class_3_90FE131ABC2AAB0C_TypeDefinitionIndex = 50975;
 
 class Class_3_90FE131ABC2AAB0C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RefreshChangePhaseUI*>
 {

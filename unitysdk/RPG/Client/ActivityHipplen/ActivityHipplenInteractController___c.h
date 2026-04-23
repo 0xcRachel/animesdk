@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenInteractPropData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x8F2CCF0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x8F2CD30)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__GETINTERACTPROPS_B__9_0_OFFSET UNITYSDK_OFFSET(0x8F2CD40)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16915110)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16915150)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTCONTROLLER___C__GETINTERACTPROPS_B__9_0_OFFSET UNITYSDK_OFFSET(0x16915160)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenInteractController___c_TypeDefinitionIndex = 61724;
+	inline static constexpr unsigned int ActivityHipplenInteractController___c_TypeDefinitionIndex = 69634;
 
 	class ActivityHipplenInteractController___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityHipplen::ActivityHipplenInteractController___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityHipplen::ActivityHipplenInteractController___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenInteractController___c_TypeDefinitionIndex)->GetStaticField(0x1F0B0);
+			return (::RPG::Client::ActivityHipplen::ActivityHipplenInteractController___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenInteractController___c_TypeDefinitionIndex)->GetStaticField(0x3D850);
 		}
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenInteractController___c_TypeDefinitionIndex)->GetStaticField(0x1F0B8);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenInteractPropData*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityHipplenInteractController___c_TypeDefinitionIndex)->GetStaticField(0x3D858);
 		}
 
 		static ::System::Void _cctor()

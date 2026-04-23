@@ -5,19 +5,19 @@
 class Class_1_E3A8B05AA1BBEE81;
 namespace RPG::GameCore { class EvolveBuildGearManager; }
 
-#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA939090)
-#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__GETGEARSELECTPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xA93D300)
+#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFE2B800)
+#define RPG_GAMECORE_EVOLVEBUILDGEARMANAGER___C__DISPLAYCLASS100_0__GETGEARSELECTPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xFE2FA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager___c__DisplayClass100_0_TypeDefinitionIndex = 44919;
+	inline static constexpr unsigned int EvolveBuildGearManager___c__DisplayClass100_0_TypeDefinitionIndex = 51668;
 
 	class EvolveBuildGearManager___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::EvolveBuildGearManager* __4__this; // 0x10
-		::System::UInt32 nCurCount; // 0x18
-		::System::UInt32 nMaxCount; // 0x1C
+		::System::UInt32 nMaxCount; // 0x18
+		::System::UInt32 nCurCount; // 0x1C
 
 		::System::Void _ctor()
 		{

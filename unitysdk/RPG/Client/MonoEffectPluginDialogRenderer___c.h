@@ -5,24 +5,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x9CD6660)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x9CD66A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__GET_DIALOGTARGETRENDERERS_B__27_0_OFFSET UNITYSDK_OFFSET(0x9CD66B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x165FF870)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x165FF8B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__GET_DIALOGTARGETRENDERERS_B__27_0_OFFSET UNITYSDK_OFFSET(0x165FF8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex = 57271;
+	inline static constexpr unsigned int MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex = 64525;
 
 	class MonoEffectPluginDialogRenderer___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MonoEffectPluginDialogRenderer___c** StaticGet___9()
-		{
-			return (::RPG::Client::MonoEffectPluginDialogRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex)->GetStaticField(0x3BA40);
-		}
 		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex)->GetStaticField(0x3BA48);
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex)->GetStaticField(0x5E980);
+		}
+		static ::RPG::Client::MonoEffectPluginDialogRenderer___c** StaticGet___9()
+		{
+			return (::RPG::Client::MonoEffectPluginDialogRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex)->GetStaticField(0x5E988);
 		}
 
 		static ::System::Void _cctor()

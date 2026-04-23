@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureTriggerFastRun; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CF1D94A91F1052FC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x113CBFA0)
-#define CLASS_3_CF1D94A91F1052FC__CTOR_OFFSET UNITYSDK_OFFSET(0x113CBF70)
+#define CLASS_3_CF1D94A91F1052FC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10FBC130)
+#define CLASS_3_CF1D94A91F1052FC__CTOR_OFFSET UNITYSDK_OFFSET(0x10FBC100)
 
-inline static constexpr unsigned int Class_3_CF1D94A91F1052FC_TypeDefinitionIndex = 46709;
+inline static constexpr unsigned int Class_3_CF1D94A91F1052FC_TypeDefinitionIndex = 53418;
 
 class Class_3_CF1D94A91F1052FC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureTriggerFastRun*>
 {

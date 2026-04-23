@@ -7,21 +7,27 @@ namespace UnityEngine { class Behaviour; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_UINAVIGATION_UINAVIGATIONUTILS_GETNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0xAB1A310)
-#define RPG_UINAVIGATION_UINAVIGATIONUTILS_ISBEHAVIOURVALID_OFFSET UNITYSDK_OFFSET(0xAB13DF0)
-#define RPG_UINAVIGATION_UINAVIGATIONUTILS_ISGAMEOBJECTVALID_OFFSET UNITYSDK_OFFSET(0xAB1A490)
-#define RPG_UINAVIGATION_UINAVIGATIONUTILS_ISNAVIGATIONBUTTON_OFFSET UNITYSDK_OFFSET(0xAB1A3D0)
+#define RPG_UINAVIGATION_UINAVIGATIONUTILS_GETNAVIGATIONZONE_1_OFFSET UNITYSDK_OFFSET(0x16F266A0)
+#define RPG_UINAVIGATION_UINAVIGATIONUTILS_GETNAVIGATIONZONE_OFFSET UNITYSDK_OFFSET(0x16F26640)
+#define RPG_UINAVIGATION_UINAVIGATIONUTILS_ISBEHAVIOURVALID_OFFSET UNITYSDK_OFFSET(0x16F1F8C0)
+#define RPG_UINAVIGATION_UINAVIGATIONUTILS_ISGAMEOBJECTVALID_OFFSET UNITYSDK_OFFSET(0x16F26830)
+#define RPG_UINAVIGATION_UINAVIGATIONUTILS_ISNAVIGATIONBUTTON_OFFSET UNITYSDK_OFFSET(0x16F26760)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationUtils_TypeDefinitionIndex = 41837;
+	inline static constexpr unsigned int UINavigationUtils_TypeDefinitionIndex = 47808;
 
 	class UINavigationUtils : public ::System::Object
 	{
 	public:
-		static ::RPG::UINavigation::UINavigationZone* GetNavigationZone(::UnityEngine::GameObject* go)
+		static ::RPG::UINavigation::UINavigationZone* GetNavigationZone(::UnityEngine::Transform* trans)
 		{
-			return ((::RPG::UINavigation::UINavigationZone*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONUTILS_GETNAVIGATIONZONE_OFFSET))(go);
+			return ((::RPG::UINavigation::UINavigationZone*(*)(::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONUTILS_GETNAVIGATIONZONE_OFFSET))(trans);
+		}
+
+		static ::RPG::UINavigation::UINavigationZone* GetNavigationZone_1(::UnityEngine::GameObject* go)
+		{
+			return ((::RPG::UINavigation::UINavigationZone*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONUTILS_GETNAVIGATIONZONE_1_OFFSET))(go);
 		}
 
 		static ::System::Boolean IsNavigationButton(::UnityEngine::GameObject* go)

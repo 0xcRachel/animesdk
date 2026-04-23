@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUECANDYCRASHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175FC390)
-#define RPG_GAMECORE_ROGUECANDYCRASHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175FCA40)
+#define RPG_GAMECORE_ROGUECANDYCRASHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19244520)
+#define RPG_GAMECORE_ROGUECANDYCRASHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19244BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCandyCrashConfigRow_TypeDefinitionIndex = 13405;
+	inline static constexpr unsigned int RogueCandyCrashConfigRow_TypeDefinitionIndex = 13878;
 
 	class RogueCandyCrashConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RoundRange; // 0x10
 		::System::UInt32 TotalTime; // 0x18
-		::System::UInt32 PrepareTime; // 0x1C
-		::System::UInt32 ParamGroupID; // 0x20
+		::System::UInt32 ParamGroupID; // 0x1C
+		::System::UInt32 PrepareTime; // 0x20
 		::System::UInt32 TotalRounds; // 0x24
 
 		::System::Void _ctor()

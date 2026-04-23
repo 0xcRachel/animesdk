@@ -6,18 +6,18 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA_RESET_OFFSET UNITYSDK_OFFSET(0xA858620)
-#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA858820)
+#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA_RESET_OFFSET UNITYSDK_OFFSET(0xC7759A0)
+#define RPG_GAMECORE_ADVENTURESKILLCHARACTERCOMPONENT_ADVENTURECHARACTERUSESKILLNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC775BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData_TypeDefinitionIndex = 45754;
+	inline static constexpr unsigned int AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData_TypeDefinitionIndex = 52409;
 
 	class AdventureSkillCharacterComponent_AdventureCharacterUseSkillNotifyData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x10
-		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x10
+		::RPG::GameCore::GameEntity* Target; // 0x18
 		::RPG::GameCore::AdventureSkillType Slot; // 0x20
 		::System::Int32 SkillIndex; // 0x24
 		::RPG::GameCore::AdventureSkillAbortReason AbortReason; // 0x28

@@ -7,22 +7,22 @@ namespace RPG::CustomRP { class MaterialLibrary; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x16AB6C70)
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x16AB6DE0)
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER_SETUPOUTPUTRT_OFFSET UNITYSDK_OFFSET(0x16AB6C40)
-#define RPG_CUSTOMRP_MOTIONBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB6A50)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x15A693F0)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x15A69560)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER_SETUPOUTPUTRT_OFFSET UNITYSDK_OFFSET(0x15A693C0)
+#define RPG_CUSTOMRP_MOTIONBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x15A691D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MotionBlurRenderer_TypeDefinitionIndex = 29439;
+	inline static constexpr unsigned int MotionBlurRenderer_TypeDefinitionIndex = 35206;
 
 	class MotionBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
 		::UnityEngine::Material* _MotionBlurMaterial; // 0x28
-		::RPG::CustomRP::RTIDHandle _Veloctiy; // 0x30
-		::RPG::CustomRP::RTIDHandle _VelocityTileNeighborMax; // 0x68
-		::RPG::CustomRP::RTIDHandle _VelocityTileMax; // 0xA0
+		::RPG::CustomRP::RTIDHandle _VelocityTileMax; // 0x30
+		::RPG::CustomRP::RTIDHandle _Veloctiy; // 0x68
+		::RPG::CustomRP::RTIDHandle _VelocityTileNeighborMax; // 0xA0
 		::RPG::CustomRP::RTIDHandle _VelocityTileMaxHorizontal; // 0xD8
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* matLib)

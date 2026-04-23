@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFGLOBALEFFECTCONFIG_METHOD_2_44ED9DD5C0C7B62B_OFFSET UNITYSDK_OFFSET(0x171A3270)
-#define RPG_GAMECORE_ELFGLOBALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x171A33A0)
+#define RPG_GAMECORE_ELFGLOBALEFFECTCONFIG_METHOD_2_44ED9DD5C0C7B62B_OFFSET UNITYSDK_OFFSET(0x1914F8E0)
+#define RPG_GAMECORE_ELFGLOBALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1914FA10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfGlobalEffectConfig_TypeDefinitionIndex = 16930;
+	inline static constexpr unsigned int ElfGlobalEffectConfig_TypeDefinitionIndex = 17524;
 
 	class ElfGlobalEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

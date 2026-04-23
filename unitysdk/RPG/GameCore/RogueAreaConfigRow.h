@@ -9,36 +9,36 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175F7660)
-#define RPG_GAMECORE_ROGUEAREACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175F8210)
+#define RPG_GAMECORE_ROGUEAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1923F800)
+#define RPG_GAMECORE_ROGUEAREACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x192403A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAreaConfigRow_TypeDefinitionIndex = 13432;
+	inline static constexpr unsigned int RogueAreaConfigRow_TypeDefinitionIndex = 13905;
 
 	class RogueAreaConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MapDisplayItemList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterMap; // 0x18
-		::System::String* AreaFigure; // 0x20
-		::Il2CppArray<::System::UInt32>* AreaEnvironment; // 0x28
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendNature; // 0x30
-		::System::String* AreaTipsIcon; // 0x38
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ChestDisplayItemList; // 0x40
+		::System::String* AreaIcon; // 0x10
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* RecommendNature; // 0x18
+		::Il2CppArray<::System::UInt32>* AreaEnvironment; // 0x20
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MapDisplayItemList; // 0x28
+		::System::String* AreaTipsIcon; // 0x30
+		::System::String* AreaFigure; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterMap; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ScoreMap; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterMap2; // 0x50
-		::System::String* AreaIcon; // 0x58
-		::System::UInt32 RecommendSkillTreePoints; // 0x60
-		::System::UInt32 UnlockID; // 0x64
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ChestDisplayItemList; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* DisplayMonsterMap2; // 0x58
+		::System::UInt32 Difficulty; // 0x60
+		::System::UInt32 RecommendSkillTreePoints; // 0x64
 		::System::UInt32 FirstReward; // 0x68
+		::System::UInt32 RogueAreaID; // 0x6C
 		::RPG::Client::TextID AreaNameID; // 0x70
-		::System::UInt32 RogueAreaID; // 0x80
-		::System::UInt32 Difficulty; // 0x84
-		::System::UInt32 MonsterEliteDropDisplayID; // 0x88
-		::System::UInt32 AreaProgress; // 0x8C
-		::System::UInt32 RecommendLevel; // 0x90
-		::System::Boolean isActivityArea; // 0x94
+		::System::UInt32 AreaProgress; // 0x80
+		::System::UInt32 RecommendLevel; // 0x84
+		::System::Boolean isActivityArea; // 0x88
+		::System::UInt32 UnlockID; // 0x8C
+		::System::UInt32 MonsterEliteDropDisplayID; // 0x90
 
 		::System::Void _ctor()
 		{

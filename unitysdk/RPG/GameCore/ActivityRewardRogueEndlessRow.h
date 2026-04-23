@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16F27910)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16F27F30)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18DA8310)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18DA8930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRewardRogueEndlessRow_TypeDefinitionIndex = 11262;
+	inline static constexpr unsigned int ActivityRewardRogueEndlessRow_TypeDefinitionIndex = 11665;
 
 	class ActivityRewardRogueEndlessRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID RewardLevelName; // 0x10
-		::System::UInt32 RewardID; // 0x20
-		::System::UInt32 RewardLevel; // 0x24
+		::System::UInt32 RewardLevel; // 0x20
+		::System::UInt32 RewardID; // 0x24
 		::System::UInt32 RewardPoint; // 0x28
 
 		::System::Void _ctor()

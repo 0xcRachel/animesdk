@@ -5,29 +5,29 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ENTERGAMEPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x960ECB0)
-#define RPG_CLIENT_ENTERGAMEPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x960ECE0)
-#define RPG_CLIENT_ENTERGAMEPHASE___C___STARTLOGIN_B__27_0_OFFSET UNITYSDK_OFFSET(0x960EDC0)
-#define RPG_CLIENT_ENTERGAMEPHASE___C___SUBPACKAGECHECKED_B__15_1_OFFSET UNITYSDK_OFFSET(0x960ECF0)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14AB1C80)
+#define RPG_CLIENT_ENTERGAMEPHASE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14AB1CB0)
+#define RPG_CLIENT_ENTERGAMEPHASE___C___STARTLOGIN_B__27_0_OFFSET UNITYSDK_OFFSET(0x14AB1D90)
+#define RPG_CLIENT_ENTERGAMEPHASE___C___SUBPACKAGECHECKED_B__15_1_OFFSET UNITYSDK_OFFSET(0x14AB1CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnterGamePhase___c_TypeDefinitionIndex = 49569;
+	inline static constexpr unsigned int EnterGamePhase___c_TypeDefinitionIndex = 56391;
 
 	class EnterGamePhase___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::EnterGamePhase___c** StaticGet___9()
+		{
+			return (::RPG::Client::EnterGamePhase___c**)Il2CppClass::FromTypeDefinitionIndex(EnterGamePhase___c_TypeDefinitionIndex)->GetStaticField(0xA730);
+		}
 		static ::System::Action** StaticGet___9__27_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(EnterGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x45C60);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(EnterGamePhase___c_TypeDefinitionIndex)->GetStaticField(0xA738);
 		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EnterGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x45C68);
-		}
-		static ::RPG::Client::EnterGamePhase___c** StaticGet___9()
-		{
-			return (::RPG::Client::EnterGamePhase___c**)Il2CppClass::FromTypeDefinitionIndex(EnterGamePhase___c_TypeDefinitionIndex)->GetStaticField(0x45C70);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EnterGamePhase___c_TypeDefinitionIndex)->GetStaticField(0xA740);
 		}
 
 		static ::System::Void _cctor()

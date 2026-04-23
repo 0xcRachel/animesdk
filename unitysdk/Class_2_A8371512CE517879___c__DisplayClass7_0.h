@@ -7,17 +7,17 @@ class Class_2_A8371512CE517879;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0x118A1850)
-#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0x118A18F0)
-#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x118A08E0)
+#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xF785380)
+#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xF785420)
+#define CLASS_2_A8371512CE517879___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF784420)
 
-inline static constexpr unsigned int Class_2_A8371512CE517879___c__DisplayClass7_0_TypeDefinitionIndex = 62226;
+inline static constexpr unsigned int Class_2_A8371512CE517879___c__DisplayClass7_0_TypeDefinitionIndex = 70225;
 
 class Class_2_A8371512CE517879___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_2_A8371512CE517879* __4__this; // 0x10
-	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x18
+	::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x10
+	::Class_2_A8371512CE517879* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

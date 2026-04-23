@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98CFA00)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98CFA40)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__UPDATEAFTER_B__6_1_OFFSET UNITYSDK_OFFSET(0x98CFA50)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BA31F0)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA3230)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__UPDATEAFTER_B__6_1_OFFSET UNITYSDK_OFFSET(0x17BA3240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c_TypeDefinitionIndex = 52910;
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c_TypeDefinitionIndex = 59989;
 
 	class GridFightTeam_RoleGrowupSummarizer___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightTeam_RoleGrowupSummarizer___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightTeam_RoleGrowupSummarizer___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeam_RoleGrowupSummarizer___c_TypeDefinitionIndex)->GetStaticField(0x18160);
-		}
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeam_RoleGrowupSummarizer___c_TypeDefinitionIndex)->GetStaticField(0x18168);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeam_RoleGrowupSummarizer___c_TypeDefinitionIndex)->GetStaticField(0x341D0);
+		}
+		static ::RPG::Client::GridFightTeam_RoleGrowupSummarizer___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightTeam_RoleGrowupSummarizer___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTeam_RoleGrowupSummarizer___c_TypeDefinitionIndex)->GetStaticField(0x341D8);
 		}
 
 		static ::System::Void _cctor()

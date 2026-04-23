@@ -5,21 +5,21 @@
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_GET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x185C4E30)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x185C4E40)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x185C4E20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x185C4E50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_GET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1854E970)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1854E980)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1854E960)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1854E990)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleTypeList_TypeDefinitionIndex = 2201;
+	inline static constexpr unsigned int XmlSchemaSimpleTypeList_TypeDefinitionIndex = 2202;
 
 	class XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x10
-		::System::Xml::XmlQualifiedName* itemTypeName; // 0x18
-		::System::Xml::Schema::XmlSchemaSimpleType* itemType; // 0x20
+		::System::Xml::Schema::XmlSchemaSimpleType* itemType; // 0x10
+		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x18
+		::System::Xml::XmlQualifiedName* itemTypeName; // 0x20
 
 		::System::Void _ctor()
 		{

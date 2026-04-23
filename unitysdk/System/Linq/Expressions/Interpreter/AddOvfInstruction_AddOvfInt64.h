@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ADDOVFINSTRUCTION_ADDOVFINT64_RUN_OFFSET UNITYSDK_OFFSET(0x184CD390)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ADDOVFINSTRUCTION_ADDOVFINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x184CCC30)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ADDOVFINSTRUCTION_ADDOVFINT64_RUN_OFFSET UNITYSDK_OFFSET(0x18454520)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ADDOVFINSTRUCTION_ADDOVFINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x18453DC0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int AddOvfInstruction_AddOvfInt64_TypeDefinitionIndex = 3279;
+	inline static constexpr unsigned int AddOvfInstruction_AddOvfInt64_TypeDefinitionIndex = 3281;
 
 	class AddOvfInstruction_AddOvfInt64 : public ::System::Linq::Expressions::Interpreter::AddOvfInstruction
 	{

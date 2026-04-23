@@ -7,23 +7,23 @@
 namespace HoudiniEngineUnity { class HEU_TreePrototypeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_VOLUMESCATTERTREES__CTOR_OFFSET UNITYSDK_OFFSET(0x84A5B90)
+#define HOUDINIENGINEUNITY_HEU_VOLUMESCATTERTREES__CTOR_OFFSET UNITYSDK_OFFSET(0x17DF0F60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_VolumeScatterTrees_TypeDefinitionIndex = 37866;
+	inline static constexpr unsigned int HEU_VolumeScatterTrees_TypeDefinitionIndex = 43743;
 
 	class HEU_VolumeScatterTrees : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Vector3>* _positions; // 0x10
-		::Il2CppArray<::System::Int32>* _prototypeIndices; // 0x18
-		::Il2CppArray<::System::Single>* _rotations; // 0x20
-		::Il2CppArray<::System::Single>* _widthScales; // 0x28
-		::Il2CppArray<::UnityEngine::Color32>* _colors; // 0x30
-		::Il2CppArray<::System::Single>* _heightScales; // 0x38
-		::Il2CppArray<::UnityEngine::Color32>* _lightmapColors; // 0x40
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* _treePrototypInfos; // 0x48
+		::Il2CppArray<::System::Int32>* _prototypeIndices; // 0x10
+		::Il2CppArray<::UnityEngine::Vector3>* _positions; // 0x18
+		::Il2CppArray<::System::Single>* _heightScales; // 0x20
+		::Il2CppArray<::UnityEngine::Color32>* _colors; // 0x28
+		::Il2CppArray<::UnityEngine::Color32>* _lightmapColors; // 0x30
+		::Il2CppArray<::System::Single>* _rotations; // 0x38
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* _treePrototypInfos; // 0x40
+		::Il2CppArray<::System::Single>* _widthScales; // 0x48
 
 		::System::Void _ctor()
 		{

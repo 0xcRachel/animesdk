@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_EXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171CA630)
-#define RPG_GAMECORE_EXPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x171CAC90)
+#define RPG_GAMECORE_EXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19465270)
+#define RPG_GAMECORE_EXPTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19465850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpTypeRow_TypeDefinitionIndex = 11634;
+	inline static constexpr unsigned int ExpTypeRow_TypeDefinitionIndex = 12044;
 
 	class ExpTypeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Exp; // 0x10
-		::System::UInt32 TypeID; // 0x14
+		::System::UInt32 TypeID; // 0x10
+		::System::UInt32 Exp; // 0x14
 		::System::UInt32 Level; // 0x18
 
 		::System::Void _ctor()

@@ -4,64 +4,64 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1845F440)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1845F480)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_1_OFFSET UNITYSDK_OFFSET(0x1845F4E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_2_OFFSET UNITYSDK_OFFSET(0x1845F510)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_3_OFFSET UNITYSDK_OFFSET(0x1845F540)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_4_OFFSET UNITYSDK_OFFSET(0x1845F590)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_5_OFFSET UNITYSDK_OFFSET(0x1845F5E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_6_OFFSET UNITYSDK_OFFSET(0x1845F610)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_7_OFFSET UNITYSDK_OFFSET(0x1845F640)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_8_OFFSET UNITYSDK_OFFSET(0x1845F860)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1845F470)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17C48290)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x17C482D0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_1_OFFSET UNITYSDK_OFFSET(0x17C48330)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_2_OFFSET UNITYSDK_OFFSET(0x17C48360)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_3_OFFSET UNITYSDK_OFFSET(0x17C48390)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_4_OFFSET UNITYSDK_OFFSET(0x17C483E0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_5_OFFSET UNITYSDK_OFFSET(0x17C48430)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_6_OFFSET UNITYSDK_OFFSET(0x17C48460)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_7_OFFSET UNITYSDK_OFFSET(0x17C48490)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_8_OFFSET UNITYSDK_OFFSET(0x17C486B0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17C482C0)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int StandardSystemInformationService___c_TypeDefinitionIndex = 29736;
+	inline static constexpr unsigned int StandardSystemInformationService___c_TypeDefinitionIndex = 35456;
 
 	class StandardSystemInformationService___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_2()
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_4()
 		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CC0);
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBB0);
 		}
 		static ::SRDebugger::Services::Implementation::StandardSystemInformationService___c** StaticGet___9()
 		{
-			return (::SRDebugger::Services::Implementation::StandardSystemInformationService___c**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CC8);
+			return (::SRDebugger::Services::Implementation::StandardSystemInformationService___c**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBB8);
 		}
 		static ::System::Func_1<::System::Object*>** StaticGet___9__6_5()
 		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CD0);
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBC0);
 		}
 		static ::System::Func_1<::System::Object*>** StaticGet___9__6_6()
 		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CD8);
-		}
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CE0);
-		}
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_4()
-		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CE8);
-		}
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_8()
-		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CF0);
-		}
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_3()
-		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33CF8);
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBC8);
 		}
 		static ::System::Func_1<::System::Object*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33D00);
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBD0);
+		}
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_2()
+		{
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBD8);
+		}
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBE0);
+		}
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_8()
+		{
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBE8);
+		}
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_3()
+		{
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBF0);
 		}
 		static ::System::Func_1<::System::Object*>** StaticGet___9__6_7()
 		{
-			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x33D08);
+			return (::System::Func_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(StandardSystemInformationService___c_TypeDefinitionIndex)->GetStaticField(0x5FBF8);
 		}
 
 		static ::System::Void _cctor()

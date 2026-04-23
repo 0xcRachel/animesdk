@@ -9,35 +9,35 @@ namespace RPG::GameCore { class ClockParkUnlockCost; }
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSCRIPTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170D2350)
-#define RPG_GAMECORE_CLOCKPARKSCRIPTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170D2EB0)
+#define RPG_GAMECORE_CLOCKPARKSCRIPTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194DFE30)
+#define RPG_GAMECORE_CLOCKPARKSCRIPTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194E0990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkScriptConfigRow_TypeDefinitionIndex = 10442;
+	inline static constexpr unsigned int ClockParkScriptConfigRow_TypeDefinitionIndex = 10666;
 
 	class ClockParkScriptConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* ScriptUnlockCondition; // 0x10
-		::System::String* ScriptResultLogoMaskPath; // 0x18
-		::Il2CppArray<::System::UInt32>* TalentCanBeUsed; // 0x20
-		::System::String* ScriptPostPrefabPath; // 0x28
-		::System::String* ScriptBGM; // 0x30
-		::System::String* PrefabPath; // 0x38
-		::RPG::GameCore::ClockParkUnlockCost* ScriptUnlockCost; // 0x40
-		::System::String* IconPath; // 0x48
-		::System::String* ImgPath; // 0x50
-		::RPG::Client::TextID ScriptGamePlayDesc; // 0x58
-		::RPG::Client::TextID ScriptTitle; // 0x68
-		::RPG::Client::TextID ScriptCharacteristic; // 0x78
-		::System::UInt32 ScriptEndingUnlockChapterID; // 0x88
-		::RPG::GameCore::ClockParkScriptType ScriptType; // 0x8C
+		::System::String* ScriptResultLogoMaskPath; // 0x10
+		::Il2CppArray<::System::UInt32>* TalentCanBeUsed; // 0x18
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* ScriptUnlockCondition; // 0x20
+		::RPG::GameCore::ClockParkUnlockCost* ScriptUnlockCost; // 0x28
+		::System::String* IconPath; // 0x30
+		::System::String* ImgPath; // 0x38
+		::System::String* ScriptBGM; // 0x40
+		::System::String* ScriptPostPrefabPath; // 0x48
+		::System::String* PrefabPath; // 0x50
+		::System::UInt32 ScriptEndingUnlockChapterID; // 0x58
+		::System::UInt32 ScriptGamePlayGuideGroupID; // 0x5C
+		::RPG::Client::TextID ScriptDesc; // 0x60
+		::RPG::Client::TextID ScriptTitle; // 0x70
+		::RPG::Client::TextID ScriptCharacteristic; // 0x80
 		::System::UInt32 ActivityStudioScriptID; // 0x90
-		::System::UInt32 StartChapterID; // 0x94
-		::System::UInt32 ActivityModuleID; // 0x98
-		::System::UInt32 ScriptGamePlayGuideGroupID; // 0x9C
-		::RPG::Client::TextID ScriptDesc; // 0xA0
+		::RPG::GameCore::ClockParkScriptType ScriptType; // 0x94
+		::RPG::Client::TextID ScriptGamePlayDesc; // 0x98
+		::System::UInt32 ActivityModuleID; // 0xA8
+		::System::UInt32 StartChapterID; // 0xAC
 
 		::System::Void _ctor()
 		{

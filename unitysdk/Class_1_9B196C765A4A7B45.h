@@ -7,19 +7,19 @@ namespace RPG::GameCore { class AnimatorClipZoneDescConfig; }
 namespace RPG::GameCore { class AnimatorClipZoneNewConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9B196C765A4A7B45_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10B232E0)
-#define CLASS_1_9B196C765A4A7B45_METHOD_1_1D1E7C1B618F2CC9_OFFSET UNITYSDK_OFFSET(0x10B23390)
-#define CLASS_1_9B196C765A4A7B45_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0x10B23090)
-#define CLASS_1_9B196C765A4A7B45_METHOD_1_D45FD4EAC45B07B0_OFFSET UNITYSDK_OFFSET(0x10B22CD0)
-#define CLASS_1_9B196C765A4A7B45__CTOR_OFFSET UNITYSDK_OFFSET(0x10B22CB0)
+#define CLASS_1_9B196C765A4A7B45_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEE45560)
+#define CLASS_1_9B196C765A4A7B45_METHOD_1_1D1E7C1B618F2CC9_OFFSET UNITYSDK_OFFSET(0xEE45610)
+#define CLASS_1_9B196C765A4A7B45_METHOD_1_739DB9F245C7FAD0_OFFSET UNITYSDK_OFFSET(0xEE45310)
+#define CLASS_1_9B196C765A4A7B45_METHOD_1_D45FD4EAC45B07B0_OFFSET UNITYSDK_OFFSET(0xEE44F50)
+#define CLASS_1_9B196C765A4A7B45__CTOR_OFFSET UNITYSDK_OFFSET(0xEE44F30)
 
-inline static constexpr unsigned int Class_1_9B196C765A4A7B45_TypeDefinitionIndex = 44820;
+inline static constexpr unsigned int Class_1_9B196C765A4A7B45_TypeDefinitionIndex = 51567;
 
 class Class_1_9B196C765A4A7B45 : public ::System::Object
 {
 public:
-	::RPG::GameCore::AnimatorClipZoneNewConfig* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AnimatorClipZoneDescConfig*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AnimatorClipZoneDescConfig*>* Field_1_1; // 0x10
+	::RPG::GameCore::AnimatorClipZoneNewConfig* Field_1_0; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::AnimatorClipZoneNewConfig* a1, ::RPG::GameCore::AnimatorClipZoneNewConfig* a2)
 	{

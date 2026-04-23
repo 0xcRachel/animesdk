@@ -6,12 +6,12 @@ namespace RPG::Client { class MonoSceneObjClickHint; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SCENEOBJCLICKHINTUTILS_GETSCENESELECTIONREGISTEREDPROPMONOS_OFFSET UNITYSDK_OFFSET(0xA423AF0)
-#define RPG_CLIENT_SCENEOBJCLICKHINTUTILS_RESETPROPRUNTIMESTATUS_OFFSET UNITYSDK_OFFSET(0xA423DF0)
+#define RPG_CLIENT_SCENEOBJCLICKHINTUTILS_GETSCENESELECTIONREGISTEREDPROPMONOS_OFFSET UNITYSDK_OFFSET(0x15BCECF0)
+#define RPG_CLIENT_SCENEOBJCLICKHINTUTILS_RESETPROPRUNTIMESTATUS_OFFSET UNITYSDK_OFFSET(0x15BCEFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneObjClickHintUtils_TypeDefinitionIndex = 59973;
+	inline static constexpr unsigned int SceneObjClickHintUtils_TypeDefinitionIndex = 67371;
 
 	class SceneObjClickHintUtils : public ::System::Object
 	{

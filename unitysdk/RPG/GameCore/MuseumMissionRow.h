@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSEUMMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17475B90)
-#define RPG_GAMECORE_MUSEUMMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17475D20)
+#define RPG_GAMECORE_MUSEUMMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1863C720)
+#define RPG_GAMECORE_MUSEUMMISSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1863C8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumMissionRow_TypeDefinitionIndex = 13039;
+	inline static constexpr unsigned int MuseumMissionRow_TypeDefinitionIndex = 13500;
 
 	class MuseumMissionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParameter; // 0x10
-		::RPG::GameCore::MuseumMissionType Type; // 0x18
-		::System::UInt32 MuseumMissionID; // 0x1C
+		::System::UInt32 MuseumMissionID; // 0x18
+		::RPG::GameCore::MuseumMissionType Type; // 0x1C
 
 		::System::Void _ctor()
 		{

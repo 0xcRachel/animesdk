@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace Proto { class OptionalReward; }
+
+#define PROTO_OPTIONALREWARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1976D6E0)
+#define PROTO_OPTIONALREWARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1976D720)
+#define PROTO_OPTIONALREWARD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1976D730)
+
+namespace Proto
+{
+	inline static constexpr unsigned int OptionalReward___c_TypeDefinitionIndex = 25126;
+
+	class OptionalReward___c : public ::System::Object
+	{
+	public:
+		static ::Proto::OptionalReward___c** StaticGet___9()
+		{
+			return (::Proto::OptionalReward___c**)Il2CppClass::FromTypeDefinitionIndex(OptionalReward___c_TypeDefinitionIndex)->GetStaticField(0x4D0D0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD___C__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD___C__CTOR_OFFSET))(this);
+		}
+
+		::Proto::OptionalReward* __cctor_b__28_0()
+		{
+			return ((::Proto::OptionalReward*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_OPTIONALREWARD___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+	};
+}

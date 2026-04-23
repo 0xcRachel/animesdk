@@ -2,30 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 
-class Class_3_5775A4FEC79026BC;
+class Class_3_E21F6DE9B7FA4D05;
 namespace RPG::GameCore { class RequestSetServerGroupProperty; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_D71C5C028E9C4611_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10582470)
-#define CLASS_2_D71C5C028E9C4611_METHOD_2_1B12DF9C21909797_OFFSET UNITYSDK_OFFSET(0x10582500)
-#define CLASS_2_D71C5C028E9C4611_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10582130)
-#define CLASS_2_D71C5C028E9C4611_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x105820D0)
-#define CLASS_2_D71C5C028E9C4611_TICK_OFFSET UNITYSDK_OFFSET(0x10582410)
-#define CLASS_2_D71C5C028E9C4611__CTOR_OFFSET UNITYSDK_OFFSET(0x10581FE0)
+#define CLASS_2_D71C5C028E9C4611_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF5B8FC0)
+#define CLASS_2_D71C5C028E9C4611_METHOD_2_1B12DF9C21909797_OFFSET UNITYSDK_OFFSET(0xF5B9050)
+#define CLASS_2_D71C5C028E9C4611_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF5B8C80)
+#define CLASS_2_D71C5C028E9C4611_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF5B8C20)
+#define CLASS_2_D71C5C028E9C4611_TICK_OFFSET UNITYSDK_OFFSET(0xF5B8F60)
+#define CLASS_2_D71C5C028E9C4611__CTOR_OFFSET UNITYSDK_OFFSET(0xF5B8B30)
 
-inline static constexpr unsigned int Class_2_D71C5C028E9C4611_TypeDefinitionIndex = 43071;
+inline static constexpr unsigned int Class_2_D71C5C028E9C4611_TypeDefinitionIndex = 49057;
 
 class Class_2_D71C5C028E9C4611 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::RequestSetServerGroupProperty* Field_2_1; // 0x18
-	::Class_3_5775A4FEC79026BC* Field_2_3; // 0x20
+	::Class_3_E21F6DE9B7FA4D05* Field_2_2; // 0x18
+	::RPG::GameCore::RequestSetServerGroupProperty* Field_2_1; // 0x20
 	::RPG::GameCore::TaskContext* Field_2_0; // 0x28
-	::Class_3_5775A4FEC79026BC* Field_2_2; // 0x30
+	::Class_3_E21F6DE9B7FA4D05* Field_2_3; // 0x30
 	::System::UInt32 Field_2_6; // 0x38
-	::System::UInt32 Field_2_4; // 0x3C
-	::System::UInt32 Field_2_5; // 0x40
+	::System::UInt32 Field_2_5; // 0x3C
+	::System::UInt32 Field_2_4; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RequestSetServerGroupProperty* a2)
 	{

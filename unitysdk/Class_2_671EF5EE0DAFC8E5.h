@@ -9,26 +9,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_671EF5EE0DAFC8E5_DISPOSE_OFFSET UNITYSDK_OFFSET(0x116066A0)
-#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_0B934AF65CEA173B_OFFSET UNITYSDK_OFFSET(0x116068F0)
-#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_5D09DFA26924F01B_OFFSET UNITYSDK_OFFSET(0x11606B60)
-#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_722D24E25B6856C2_OFFSET UNITYSDK_OFFSET(0x11606A70)
-#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_D0999B5DD6BFE156_OFFSET UNITYSDK_OFFSET(0x11606AE0)
-#define CLASS_2_671EF5EE0DAFC8E5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x116064E0)
-#define CLASS_2_671EF5EE0DAFC8E5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x116067B0)
-#define CLASS_2_671EF5EE0DAFC8E5_TICK_OFFSET UNITYSDK_OFFSET(0x11606830)
-#define CLASS_2_671EF5EE0DAFC8E5__CTOR_OFFSET UNITYSDK_OFFSET(0x11606450)
+#define CLASS_2_671EF5EE0DAFC8E5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEEAE160)
+#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_0B934AF65CEA173B_OFFSET UNITYSDK_OFFSET(0xEEAE3B0)
+#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_722D24E25B6856C2_OFFSET UNITYSDK_OFFSET(0xEEAE530)
+#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_943E1EFDF67DA624_OFFSET UNITYSDK_OFFSET(0xEEAE620)
+#define CLASS_2_671EF5EE0DAFC8E5_METHOD_2_D0999B5DD6BFE156_OFFSET UNITYSDK_OFFSET(0xEEAE5A0)
+#define CLASS_2_671EF5EE0DAFC8E5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEEADFB0)
+#define CLASS_2_671EF5EE0DAFC8E5_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEEAE270)
+#define CLASS_2_671EF5EE0DAFC8E5_TICK_OFFSET UNITYSDK_OFFSET(0xEEAE2F0)
+#define CLASS_2_671EF5EE0DAFC8E5__CTOR_OFFSET UNITYSDK_OFFSET(0xEEADF20)
 
-inline static constexpr unsigned int Class_2_671EF5EE0DAFC8E5_TypeDefinitionIndex = 42849;
+inline static constexpr unsigned int Class_2_671EF5EE0DAFC8E5_TypeDefinitionIndex = 48833;
 
 class Class_2_671EF5EE0DAFC8E5 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::System::String* Field_2_4; // 0x18
-	::RPG::Client::PlayLimaoNewsOptionTalk* Field_2_0; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_2_2; // 0x28
-	::System::Collections::Generic::List_1<::System::String*>* Field_2_5; // 0x30
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x38
+	::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* Field_2_2; // 0x18
+	::System::String* Field_2_4; // 0x20
+	::RPG::Client::PlayLimaoNewsOptionTalk* Field_2_0; // 0x28
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x30
+	::System::Collections::Generic::List_1<::System::String*>* Field_2_5; // 0x38
 	::System::Boolean Field_2_3; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::PlayLimaoNewsOptionTalk* a2)
@@ -66,9 +66,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_671EF5EE0DAFC8E5_METHOD_2_D0999B5DD6BFE156_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_5D09DFA26924F01B(::System::Object* a1)
+	::System::Void Method_2_943E1EFDF67DA624(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_671EF5EE0DAFC8E5_METHOD_2_5D09DFA26924F01B_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_671EF5EE0DAFC8E5_METHOD_2_943E1EFDF67DA624_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_2_0B934AF65CEA173B(::System::String* a1)

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1871E380)
-#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_LINGERTIME_OFFSET UNITYSDK_OFFSET(0x1871E390)
-#define SYSTEM_NET_SOCKETS_LINGEROPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1871E370)
+#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x183B8FE0)
+#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_LINGERTIME_OFFSET UNITYSDK_OFFSET(0x183B8FF0)
+#define SYSTEM_NET_SOCKETS_LINGEROPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x183B8FD0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int LingerOption_TypeDefinitionIndex = 2885;
+	inline static constexpr unsigned int LingerOption_TypeDefinitionIndex = 2886;
 
 	class LingerOption : public ::System::Object
 	{
 	public:
-		::System::Int32 lingerTime; // 0x10
-		::System::Boolean enabled; // 0x14
+		::System::Boolean enabled; // 0x10
+		::System::Int32 lingerTime; // 0x14
 
 		::System::Void _ctor(::System::Boolean enable, ::System::Int32 seconds)
 		{

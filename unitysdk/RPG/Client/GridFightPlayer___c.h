@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class GridFightVictoryBonusConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x988F410)
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x988F450)
-#define RPG_CLIENT_GRIDFIGHTPLAYER___C__GETVICTORYRULES_B__38_0_OFFSET UNITYSDK_OFFSET(0x988F460)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1810A7B0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1810A7F0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER___C__GETVICTORYRULES_B__37_0_OFFSET UNITYSDK_OFFSET(0x1810A800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer___c_TypeDefinitionIndex = 52839;
+	inline static constexpr unsigned int GridFightPlayer___c_TypeDefinitionIndex = 59914;
 
 	class GridFightPlayer___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::GridFightPlayer___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightPlayer___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x150C0);
+			return (::RPG::Client::GridFightPlayer___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x2B3B0);
 		}
-		static ::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>** StaticGet___9__38_0()
+		static ::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>** StaticGet___9__37_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x150C8);
+			return (::System::Comparison_1<::RPG::GameCore::GridFightVictoryBonusConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightPlayer___c_TypeDefinitionIndex)->GetStaticField(0x2B3B8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetVictoryRules_b__38_0(::RPG::GameCore::GridFightVictoryBonusConfigRow* x1, ::RPG::GameCore::GridFightVictoryBonusConfigRow* x2)
+		::System::Int32 _GetVictoryRules_b__37_0(::RPG::GameCore::GridFightVictoryBonusConfigRow* x1, ::RPG::GameCore::GridFightVictoryBonusConfigRow* x2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GridFightVictoryBonusConfigRow*, ::RPG::GameCore::GridFightVictoryBonusConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER___C__GETVICTORYRULES_B__38_0_OFFSET))(this, x1, x2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::GridFightVictoryBonusConfigRow*, ::RPG::GameCore::GridFightVictoryBonusConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER___C__GETVICTORYRULES_B__37_0_OFFSET))(this, x1, x2);
 		}
 	};
 }

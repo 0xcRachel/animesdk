@@ -6,26 +6,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWORDTRAININGPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B3D70)
-#define RPG_GAMECORE_SWORDTRAININGPROGRESSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B41B0)
+#define RPG_GAMECORE_SWORDTRAININGPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D94EF0)
+#define RPG_GAMECORE_SWORDTRAININGPROGRESSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D95330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingProgressRow_TypeDefinitionIndex = 11352;
+	inline static constexpr unsigned int SwordTrainingProgressRow_TypeDefinitionIndex = 11754;
 
 	class SwordTrainingProgressRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ActionIDList; // 0x10
-		::RPG::Client::TextID TurnName; // 0x18
-		::RPG::Client::TextID SectionHint; // 0x28
-		::System::UInt32 ExamID; // 0x38
-		::System::UInt32 PartnerAbilityGroupID; // 0x3C
-		::RPG::GameCore::SwordTrainingTurnType TurnType; // 0x40
-		::System::UInt32 RecommendPower; // 0x44
-		::System::UInt32 PartnerAbilitySelectNum; // 0x48
-		::System::UInt32 TurnID; // 0x4C
-		::RPG::Client::TextID PartnerAbilitySelectHint; // 0x50
+		::System::UInt32 ExamID; // 0x18
+		::System::UInt32 RecommendPower; // 0x1C
+		::System::UInt32 PartnerAbilityGroupID; // 0x20
+		::System::UInt32 PartnerAbilitySelectNum; // 0x24
+		::RPG::Client::TextID PartnerAbilitySelectHint; // 0x28
+		::System::UInt32 TurnID; // 0x38
+		::RPG::GameCore::SwordTrainingTurnType TurnType; // 0x3C
+		::RPG::Client::TextID SectionHint; // 0x40
+		::RPG::Client::TextID TurnName; // 0x50
 
 		::System::Void _ctor()
 		{

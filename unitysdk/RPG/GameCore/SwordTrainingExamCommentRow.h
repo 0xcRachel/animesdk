@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177B1780)
-#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177B1940)
+#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D92940)
+#define RPG_GAMECORE_SWORDTRAININGEXAMCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D92B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingExamCommentRow_TypeDefinitionIndex = 11378;
+	inline static constexpr unsigned int SwordTrainingExamCommentRow_TypeDefinitionIndex = 11780;
 
 	class SwordTrainingExamCommentRow : public ::System::Object
 	{

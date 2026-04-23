@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT_METHOD_2_7B1D27BA2538DDF5_OFFSET UNITYSDK_OFFSET(0x177A2000)
-#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x177A2350)
+#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT_METHOD_2_7B1D27BA2538DDF5_OFFSET UNITYSDK_OFFSET(0x18D82B80)
+#define RPG_GAMECORE_SUMMONUNITBLOCKBASEDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x18D82ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitBlockBasedEffect_TypeDefinitionIndex = 16178;
+	inline static constexpr unsigned int SummonUnitBlockBasedEffect_TypeDefinitionIndex = 16711;
 
 	class SummonUnitBlockBasedEffect : public ::RPG::GameCore::JsonConfig
 	{

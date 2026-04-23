@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK::Base::GoodsPlatform { class PSProductManager; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15DF81C0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__REQUESTPSPRODUCTSFROMSTORE_B__0_OFFSET UNITYSDK_OFFSET(0x15DF8E00)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1618B160)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__REQUESTPSPRODUCTSFROMSTORE_B__0_OFFSET UNITYSDK_OFFSET(0x1618BDA0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int PSProductManager___c__DisplayClass15_0_TypeDefinitionIndex = 7465;
+	inline static constexpr unsigned int PSProductManager___c__DisplayClass15_0_TypeDefinitionIndex = 7606;
 
 	class PSProductManager___c__DisplayClass15_0 : public ::System::Object
 	{

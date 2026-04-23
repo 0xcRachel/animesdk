@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AnimatorStateZoneConfig; }
 
-#define RPG_GAMECORE_ANIMZONECONFIG_METHOD_2_FED5CCEC31384970_OFFSET UNITYSDK_OFFSET(0x16F96C00)
-#define RPG_GAMECORE_ANIMZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16F96CB0)
+#define RPG_GAMECORE_ANIMZONECONFIG_METHOD_2_FED5CCEC31384970_OFFSET UNITYSDK_OFFSET(0x18AD7B20)
+#define RPG_GAMECORE_ANIMZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD7BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimZoneConfig_TypeDefinitionIndex = 14942;
+	inline static constexpr unsigned int AnimZoneConfig_TypeDefinitionIndex = 15449;
 
 	class AnimZoneConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,49 +5,49 @@
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xABCF150)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__COMPAREDATATOOTHER_B__3_0_OFFSET UNITYSDK_OFFSET(0xABCF1A0)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__COMPAREDATATOOTHER_B__3_1_OFFSET UNITYSDK_OFFSET(0xABCF1B0)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xABCF190)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__EQUALS_B__4_0_OFFSET UNITYSDK_OFFSET(0xABCF1C0)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__EQUALS_B__4_1_OFFSET UNITYSDK_OFFSET(0xABCF1D0)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__GETHASHCODE_B__5_0_OFFSET UNITYSDK_OFFSET(0xABCF1E0)
-#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__GETHASHCODE_B__5_1_OFFSET UNITYSDK_OFFSET(0xABCF1F0)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E246B0)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__COMPAREDATATOOTHER_B__3_0_OFFSET UNITYSDK_OFFSET(0x16E24700)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__COMPAREDATATOOTHER_B__3_1_OFFSET UNITYSDK_OFFSET(0x16E24710)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16E246F0)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__EQUALS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16E24720)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__EQUALS_B__4_1_OFFSET UNITYSDK_OFFSET(0x16E24730)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__GETHASHCODE_B__5_0_OFFSET UNITYSDK_OFFSET(0x16E24740)
+#define SCENENLIGHTMANAGER_LIGHTSETEXPORTDATALONG___C__GETHASHCODE_B__5_1_OFFSET UNITYSDK_OFFSET(0x16E24750)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LightSetExportDataLong___c_TypeDefinitionIndex = 39850;
+	inline static constexpr unsigned int LightSetExportDataLong___c_TypeDefinitionIndex = 45759;
 
 	class LightSetExportDataLong___c : public ::System::Object
 	{
 	public:
-		static ::ScenenLightManager::LightSetExportDataLong___c** StaticGet___9()
-		{
-			return (::ScenenLightManager::LightSetExportDataLong___c**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47530);
-		}
 		static ::System::Func_3<::System::Int32, ::System::Int64, ::System::Int32>** StaticGet___9__5_1()
 		{
-			return (::System::Func_3<::System::Int32, ::System::Int64, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47538);
-		}
-		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__3_1()
-		{
-			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47540);
-		}
-		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47548);
-		}
-		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47550);
+			return (::System::Func_3<::System::Int32, ::System::Int64, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD10);
 		}
 		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47558);
+			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD18);
+		}
+		static ::ScenenLightManager::LightSetExportDataLong___c** StaticGet___9()
+		{
+			return (::ScenenLightManager::LightSetExportDataLong___c**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD20);
+		}
+		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD28);
+		}
+		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD30);
+		}
+		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD38);
 		}
 		static ::System::Func_2<::System::Int64, ::System::Int64>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x47560);
+			return (::System::Func_2<::System::Int64, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(LightSetExportDataLong___c_TypeDefinitionIndex)->GetStaticField(0x6AD40);
 		}
 
 		static ::System::Void _cctor()

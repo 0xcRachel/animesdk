@@ -6,12 +6,12 @@ namespace RPG::Client { class ActivityData; }
 namespace RPG::Client { class FateSupportToastPart; }
 namespace RPG::Client { class ScheduleData; }
 
-#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x96B1AB0)
-#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0___DETECTACTIVITYTIMELIMITSCHEDULE_B__0_OFFSET UNITYSDK_OFFSET(0x96B22D0)
+#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15103F10)
+#define RPG_CLIENT_FATESUPPORTTOASTPART___C__DISPLAYCLASS41_0___DETECTACTIVITYTIMELIMITSCHEDULE_B__0_OFFSET UNITYSDK_OFFSET(0x15104720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass41_0_TypeDefinitionIndex = 52082;
+	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass41_0_TypeDefinitionIndex = 59031;
 
 	class FateSupportToastPart___c__DisplayClass41_0 : public ::System::Object
 	{

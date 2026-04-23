@@ -3,12 +3,12 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_ParameterModifier_ModifierAction.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_HEU_PARAMETERMODIFIER_GETNEWMODIFIER_OFFSET UNITYSDK_OFFSET(0x8481700)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x8481770)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERMODIFIER_GETNEWMODIFIER_OFFSET UNITYSDK_OFFSET(0x1544D450)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1544D4C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ParameterModifier_TypeDefinitionIndex = 37757;
+	inline static constexpr unsigned int HEU_ParameterModifier_TypeDefinitionIndex = 43634;
 
 	class HEU_ParameterModifier : public ::System::Object
 	{

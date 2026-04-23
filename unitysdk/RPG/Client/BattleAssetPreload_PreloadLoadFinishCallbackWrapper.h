@@ -5,20 +5,20 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x919E5F0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__INOVKE_OFFSET UNITYSDK_OFFSET(0x919E680)
-#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__TIMEOUTINVOKE_OFFSET UNITYSDK_OFFSET(0x919E6E0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xF3B32B0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__INOVKE_OFFSET UNITYSDK_OFFSET(0xF3B3340)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_PRELOADLOADFINISHCALLBACKWRAPPER__TIMEOUTINVOKE_OFFSET UNITYSDK_OFFSET(0xF3B33A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_PreloadLoadFinishCallbackWrapper_TypeDefinitionIndex = 48299;
+	inline static constexpr unsigned int BattleAssetPreload_PreloadLoadFinishCallbackWrapper_TypeDefinitionIndex = 55044;
 
 	class BattleAssetPreload_PreloadLoadFinishCallbackWrapper : public ::System::Object
 	{
 	public:
-		::System::Action* TimeoutInvokeDelg; // 0x10
+		::System::Action* InvokeDelg; // 0x10
 		::System::String* _TimeoutMsg; // 0x18
-		::System::Action* InvokeDelg; // 0x20
+		::System::Action* TimeoutInvokeDelg; // 0x20
 		::System::Action* _OnLoadFinish; // 0x28
 
 		::System::Void _ctor(::System::Action* pOnLoadFinish, ::System::String* timeoutMsg)

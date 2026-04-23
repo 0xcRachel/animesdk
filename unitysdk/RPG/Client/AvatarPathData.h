@@ -3,49 +3,49 @@
 #include "unitysdk/Enum_3_DFCB42601400F441.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F3CA30716D4FAF92_4;
-class Class_1_FA4F4A67B1C04320_11;
-class Class_1_FA4F4A67B1C04320_94;
+class Class_1_D17272E82AE804C2_101;
+class Class_1_D17272E82AE804C2_13;
+class Class_1_F3CA30716D4FAF92_3;
 namespace RPG::Client { class AvatarPathRowWrapper; }
 namespace RPG::Client { class RelicSuitData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARPATHDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x915F7F0)
-#define RPG_CLIENT_AVATARPATHDATA_GETSKILLTREEPOINTLEVEL_OFFSET UNITYSDK_OFFSET(0x915FA00)
-#define RPG_CLIENT_AVATARPATHDATA_GET_RELICSDATA_OFFSET UNITYSDK_OFFSET(0x915FB20)
-#define RPG_CLIENT_AVATARPATHDATA_GET_UNLOCKTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x915FB00)
-#define RPG_CLIENT_AVATARPATHDATA_ISSKILLTREEMAX_OFFSET UNITYSDK_OFFSET(0x915F870)
-#define RPG_CLIENT_AVATARPATHDATA_SET_UNLOCKTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x915FB10)
-#define RPG_CLIENT_AVATARPATHDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x915F590)
-#define RPG_CLIENT_AVATARPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x915F550)
+#define RPG_CLIENT_AVATARPATHDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E3F590)
+#define RPG_CLIENT_AVATARPATHDATA_GETSKILLTREEPOINTLEVEL_OFFSET UNITYSDK_OFFSET(0x15E3F7A0)
+#define RPG_CLIENT_AVATARPATHDATA_GET_RELICSDATA_OFFSET UNITYSDK_OFFSET(0x15E3F8C0)
+#define RPG_CLIENT_AVATARPATHDATA_GET_UNLOCKTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15E3F8A0)
+#define RPG_CLIENT_AVATARPATHDATA_ISSKILLTREEMAX_OFFSET UNITYSDK_OFFSET(0x15E3F610)
+#define RPG_CLIENT_AVATARPATHDATA_SET_UNLOCKTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15E3F8B0)
+#define RPG_CLIENT_AVATARPATHDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x15E3F330)
+#define RPG_CLIENT_AVATARPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3F2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathData_TypeDefinitionIndex = 53914;
+	inline static constexpr unsigned int AvatarPathData_TypeDefinitionIndex = 61058;
 
 	class AvatarPathData : public ::System::Object
 	{
 	public:
-		::RPG::Client::AvatarPathRowWrapper* Row; // 0x10
-		::Il2CppArray<::Class_1_FA4F4A67B1C04320_94*>* EquipRelicList; // 0x18
-		::RPG::Client::RelicSuitData* _RelicsData; // 0x20
-		::System::Collections::Generic::List_1<::Class_1_FA4F4A67B1C04320_11*>* AvatarSkillTreeList; // 0x28
-		::System::UInt64 _UnlockTimestamp_k__BackingField; // 0x30
-		::System::UInt32 Equipment; // 0x38
-		::System::UInt32 Rank; // 0x3C
-		::System::UInt32 AvatarID; // 0x40
-		::System::UInt32 DressedSkinID; // 0x44
+		::System::Collections::Generic::List_1<::Class_1_D17272E82AE804C2_13*>* AvatarSkillTreeList; // 0x10
+		::RPG::Client::AvatarPathRowWrapper* Row; // 0x18
+		::Il2CppArray<::Class_1_D17272E82AE804C2_101*>* EquipRelicList; // 0x20
+		::RPG::Client::RelicSuitData* _RelicsData; // 0x28
+		::System::UInt32 CurEnhancedID; // 0x30
+		::System::UInt32 AvatarID; // 0x34
+		::System::UInt32 DressedSkinID; // 0x38
+		::System::UInt32 Equipment; // 0x3C
+		::System::UInt64 _UnlockTimestamp_k__BackingField; // 0x40
 		::Enum_3_DFCB42601400F441 AvatarType; // 0x48
-		::System::UInt32 CurEnhancedID; // 0x4C
+		::System::UInt32 Rank; // 0x4C
 
-		::System::Void _ctor(::Class_1_F3CA30716D4FAF92_4* uniqueData)
+		::System::Void _ctor(::Class_1_F3CA30716D4FAF92_3* uniqueData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F3CA30716D4FAF92_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA__CTOR_OFFSET))(this, uniqueData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F3CA30716D4FAF92_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA__CTOR_OFFSET))(this, uniqueData);
 		}
 
-		::System::Void Sync(::Class_1_F3CA30716D4FAF92_4* uniqueData)
+		::System::Void Sync(::Class_1_F3CA30716D4FAF92_3* uniqueData)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F3CA30716D4FAF92_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA_SYNC_OFFSET))(this, uniqueData);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F3CA30716D4FAF92_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHDATA_SYNC_OFFSET))(this, uniqueData);
 		}
 
 		::System::Void Dispose()

@@ -6,21 +6,21 @@
 namespace RPG::Client { class MapDef; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER_METHOD_1_5242B274EDFF6B6A_OFFSET UNITYSDK_OFFSET(0x9C2E650)
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER_METHOD_1_7B12090AF6D76E60_OFFSET UNITYSDK_OFFSET(0x9C30590)
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x9C30580)
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER__CTOR_OFFSET UNITYSDK_OFFSET(0x9C30250)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER_METHOD_1_5242B274EDFF6B6A_OFFSET UNITYSDK_OFFSET(0xBF3C1C0)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER_METHOD_1_7B12090AF6D76E60_OFFSET UNITYSDK_OFFSET(0xBF3E100)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF3E0F0)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER_STATESAVER__CTOR_OFFSET UNITYSDK_OFFSET(0xBF3DDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveMovementManager_StateSaver_TypeDefinitionIndex = 55968;
+	inline static constexpr unsigned int MonoCurveMovementManager_StateSaver_TypeDefinitionIndex = 63211;
 
 	class MonoCurveMovementManager_StateSaver : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::MapDef** StaticGet_cachedMapDef()
 		{
-			return (::RPG::Client::MapDef**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveMovementManager_StateSaver_TypeDefinitionIndex)->GetStaticField(0x2D600);
+			return (::RPG::Client::MapDef**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveMovementManager_StateSaver_TypeDefinitionIndex)->GetStaticField(0x5C470);
 		}
 		::System::Collections::Generic::List_1<::RPG::Client::MonoCurveMovementManager_StateInfo>* movementHandlers; // 0x10
 

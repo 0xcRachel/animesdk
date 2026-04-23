@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PROP_GRAVITYBALLPLATFORMFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0xA0A7390)
+#define RPG_CLIENT_PROP_GRAVITYBALLPLATFORMFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x150165E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallPlatformFlag_TypeDefinitionIndex = 64042;
+	inline static constexpr unsigned int GravityBallPlatformFlag_TypeDefinitionIndex = 72089;
 
 	class GravityBallPlatformFlag : public ::UnityEngine::MonoBehaviour
 	{

@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERPERSONALCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174FA390)
-#define RPG_GAMECORE_PLAYERPERSONALCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174FA650)
+#define RPG_GAMECORE_PLAYERPERSONALCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19360780)
+#define RPG_GAMECORE_PLAYERPERSONALCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19360A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerPersonalCardRow_TypeDefinitionIndex = 13236;
+	inline static constexpr unsigned int PlayerPersonalCardRow_TypeDefinitionIndex = 13698;
 
 	class PlayerPersonalCardRow : public ::System::Object
 	{
 	public:
-		::System::String* FriendPrefabPath; // 0x10
-		::System::String* CardPrefabPath; // 0x18
+		::System::String* CardPrefabPath; // 0x10
+		::System::String* FriendPrefabPath; // 0x18
 		::System::String* SupportPrefabPath; // 0x20
-		::System::String* ChatPrefabPath; // 0x28
-		::System::String* ReplaceIconPath; // 0x30
-		::System::UInt32 CardID; // 0x38
-		::RPG::GameCore::PersonalizeShowType ShowType; // 0x3C
+		::System::String* ReplaceIconPath; // 0x28
+		::System::String* ChatPrefabPath; // 0x30
+		::RPG::GameCore::PersonalizeShowType ShowType; // 0x38
+		::System::UInt32 CardID; // 0x3C
 		::System::UInt32 ShowParam; // 0x40
 
 		::System::Void _ctor()

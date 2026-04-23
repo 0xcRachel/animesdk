@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_715;
+class Class_0_16E4307DCC419505_815;
 namespace System { class String; }
 
-#define CLASS_1_B24AFFBBA958A5F0_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x8CC3DE0)
-#define CLASS_1_B24AFFBBA958A5F0_METHOD_1_2319EA23F34BAD44_OFFSET UNITYSDK_OFFSET(0x8CC3DF0)
-#define CLASS_1_B24AFFBBA958A5F0__CCTOR_OFFSET UNITYSDK_OFFSET(0x8CC4020)
-#define CLASS_1_B24AFFBBA958A5F0__CTOR_OFFSET UNITYSDK_OFFSET(0x8CC3DD0)
+#define CLASS_1_B24AFFBBA958A5F0_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0xF476F10)
+#define CLASS_1_B24AFFBBA958A5F0_METHOD_1_2319EA23F34BAD44_OFFSET UNITYSDK_OFFSET(0xF476F20)
+#define CLASS_1_B24AFFBBA958A5F0__CCTOR_OFFSET UNITYSDK_OFFSET(0xF477150)
+#define CLASS_1_B24AFFBBA958A5F0__CTOR_OFFSET UNITYSDK_OFFSET(0xF476F00)
 
-inline static constexpr unsigned int Class_1_B24AFFBBA958A5F0_TypeDefinitionIndex = 54700;
+inline static constexpr unsigned int Class_1_B24AFFBBA958A5F0_TypeDefinitionIndex = 61888;
 
 class Class_1_B24AFFBBA958A5F0 : public ::System::Object
 {
 public:
 	static ::Class_1_B24AFFBBA958A5F0** StaticGet_Field_1_0()
 	{
-		return (::Class_1_B24AFFBBA958A5F0**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B24AFFBBA958A5F0_TypeDefinitionIndex)->GetStaticField(0x7DC0);
+		return (::Class_1_B24AFFBBA958A5F0**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B24AFFBBA958A5F0_TypeDefinitionIndex)->GetStaticField(0x279F0);
 	}
 
 	::System::Void _ctor()
@@ -35,8 +35,8 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B24AFFBBA958A5F0_METHOD_1_126AB3935214AA22_OFFSET))(this);
 	}
 
-	::System::Object* Method_1_2319EA23F34BAD44(::System::String* a1, ::Class_0_16E4307DCC419505_715* a2)
+	::System::Object* Method_1_2319EA23F34BAD44(::System::String* a1, ::Class_0_16E4307DCC419505_815* a2)
 	{
-		return ((::System::Object*(*)(::PVOID, ::System::String*, ::Class_0_16E4307DCC419505_715*))((::PBYTE)hIl2Cpp + CLASS_1_B24AFFBBA958A5F0_METHOD_1_2319EA23F34BAD44_OFFSET))(this, a1, a2);
+		return ((::System::Object*(*)(::PVOID, ::System::String*, ::Class_0_16E4307DCC419505_815*))((::PBYTE)hIl2Cpp + CLASS_1_B24AFFBBA958A5F0_METHOD_1_2319EA23F34BAD44_OFFSET))(this, a1, a2);
 	}
 };

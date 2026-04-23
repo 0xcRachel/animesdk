@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SCENENLIGHTMANAGER_TUPINT__CTOR_OFFSET UNITYSDK_OFFSET(0xABD0710)
+#define SCENENLIGHTMANAGER_TUPINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16E25C70)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int TupInt_TypeDefinitionIndex = 39855;
+	inline static constexpr unsigned int TupInt_TypeDefinitionIndex = 45764;
 
 	class TupInt : public ::System::Object
 	{

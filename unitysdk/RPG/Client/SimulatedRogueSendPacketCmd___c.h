@@ -5,24 +5,24 @@
 namespace RPG::Client { class IAvatarInfoProvider; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA4A49D0)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA4A4A10)
-#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xA4A4A20)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1536A090)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1536A0D0)
+#define RPG_CLIENT_SIMULATEDROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0x1536A0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex = 54835;
+	inline static constexpr unsigned int SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex = 62023;
 
 	class SimulatedRogueSendPacketCmd___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x37B10);
+			return (::System::Func_2<::RPG::Client::IAvatarInfoProvider*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x3ACF0);
 		}
 		static ::RPG::Client::SimulatedRogueSendPacketCmd___c** StaticGet___9()
 		{
-			return (::RPG::Client::SimulatedRogueSendPacketCmd___c**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x37B18);
+			return (::RPG::Client::SimulatedRogueSendPacketCmd___c**)Il2CppClass::FromTypeDefinitionIndex(SimulatedRogueSendPacketCmd___c_TypeDefinitionIndex)->GetStaticField(0x3ACF8);
 		}
 
 		static ::System::Void _cctor()

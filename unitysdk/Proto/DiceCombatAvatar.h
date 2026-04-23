@@ -6,48 +6,54 @@ namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_DICECOMBATAVATAR_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1828CB90)
-#define PROTO_DICECOMBATAVATAR_CLONE_OFFSET UNITYSDK_OFFSET(0x1828C710)
-#define PROTO_DICECOMBATAVATAR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1828C860)
-#define PROTO_DICECOMBATAVATAR_EQUALS_OFFSET UNITYSDK_OFFSET(0x1828C7B0)
-#define PROTO_DICECOMBATAVATAR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1828C910)
-#define PROTO_DICECOMBATAVATAR_GET_DICEAVATARID_OFFSET UNITYSDK_OFFSET(0x1828C740)
-#define PROTO_DICECOMBATAVATAR_GET_DICEIDLIST_OFFSET UNITYSDK_OFFSET(0x1828C780)
-#define PROTO_DICECOMBATAVATAR_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1828C760)
-#define PROTO_DICECOMBATAVATAR_GET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x1828C790)
-#define PROTO_DICECOMBATAVATAR_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1828CE30)
-#define PROTO_DICECOMBATAVATAR_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1828CDC0)
-#define PROTO_DICECOMBATAVATAR_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1828C610)
-#define PROTO_DICECOMBATAVATAR_SET_DICEAVATARID_OFFSET UNITYSDK_OFFSET(0x1828C750)
-#define PROTO_DICECOMBATAVATAR_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1828C770)
-#define PROTO_DICECOMBATAVATAR_SET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x1828C7A0)
-#define PROTO_DICECOMBATAVATAR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1828CA40)
-#define PROTO_DICECOMBATAVATAR_WRITETO_OFFSET UNITYSDK_OFFSET(0x1828CAA0)
-#define PROTO_DICECOMBATAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1828CF20)
-#define PROTO_DICECOMBATAVATAR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1828C670)
-#define PROTO_DICECOMBATAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1828C620)
+#define PROTO_DICECOMBATAVATAR_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x19E3A570)
+#define PROTO_DICECOMBATAVATAR_CLONE_OFFSET UNITYSDK_OFFSET(0x19E3A0F0)
+#define PROTO_DICECOMBATAVATAR_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19E3A240)
+#define PROTO_DICECOMBATAVATAR_EQUALS_OFFSET UNITYSDK_OFFSET(0x19E3A190)
+#define PROTO_DICECOMBATAVATAR_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19E3A2F0)
+#define PROTO_DICECOMBATAVATAR_GET_DICEAVATARID_OFFSET UNITYSDK_OFFSET(0x19E3A120)
+#define PROTO_DICECOMBATAVATAR_GET_DICEIDLIST_OFFSET UNITYSDK_OFFSET(0x19E3A160)
+#define PROTO_DICECOMBATAVATAR_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x19E3A140)
+#define PROTO_DICECOMBATAVATAR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x19E39FC0)
+#define PROTO_DICECOMBATAVATAR_GET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x19E3A170)
+#define PROTO_DICECOMBATAVATAR_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x19E3A810)
+#define PROTO_DICECOMBATAVATAR_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x19E3A7A0)
+#define PROTO_DICECOMBATAVATAR_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19E39FF0)
+#define PROTO_DICECOMBATAVATAR_SET_DICEAVATARID_OFFSET UNITYSDK_OFFSET(0x19E3A130)
+#define PROTO_DICECOMBATAVATAR_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x19E3A150)
+#define PROTO_DICECOMBATAVATAR_SET_UNLOCKTIME_OFFSET UNITYSDK_OFFSET(0x19E3A180)
+#define PROTO_DICECOMBATAVATAR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19E3A420)
+#define PROTO_DICECOMBATAVATAR_WRITETO_OFFSET UNITYSDK_OFFSET(0x19E3A480)
+#define PROTO_DICECOMBATAVATAR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E3A900)
+#define PROTO_DICECOMBATAVATAR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19E3A050)
+#define PROTO_DICECOMBATAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3A000)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DiceCombatAvatar_TypeDefinitionIndex = 23190;
+	inline static constexpr unsigned int DiceCombatAvatar_TypeDefinitionIndex = 24471;
 
 	class DiceCombatAvatar : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_diceIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatAvatar_TypeDefinitionIndex)->GetStaticField(0x14DB0);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatAvatar_TypeDefinitionIndex)->GetStaticField(0xBD20);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Proto::DiceCombatAvatar*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::DiceCombatAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatAvatar_TypeDefinitionIndex)->GetStaticField(0xBD28);
 		}
 		// static const ::System::Int32 DiceAvatarIdFieldNumber = 0x1; // 0x0
 		// static const ::System::Int32 LevelFieldNumber = 0x2; // 0x0
 		// static const ::System::Int32 DiceIdListFieldNumber = 0x3; // 0x0
 		// static const ::System::Int32 UnlockTimeFieldNumber = 0x4; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* diceIdList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* diceIdList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 		::System::Int64 unlockTime_; // 0x20
 		::System::UInt32 level_; // 0x28
 		::System::UInt32 diceAvatarId_; // 0x2C
@@ -65,6 +71,11 @@ namespace Proto
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_DICECOMBATAVATAR__CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::Proto::DiceCombatAvatar*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::DiceCombatAvatar*>*(*)())((::PBYTE)hIl2Cpp + PROTO_DICECOMBATAVATAR_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()

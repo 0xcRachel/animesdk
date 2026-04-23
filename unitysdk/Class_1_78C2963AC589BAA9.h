@@ -4,16 +4,16 @@
 #include "unitysdk/RPG/GameCore/MarbleShapeType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_78C2963AC589BAA9__CTOR_OFFSET UNITYSDK_OFFSET(0x1690F020)
+#define CLASS_1_78C2963AC589BAA9__CTOR_OFFSET UNITYSDK_OFFSET(0x180F2670)
 
-inline static constexpr unsigned int Class_1_78C2963AC589BAA9_TypeDefinitionIndex = 32659;
+inline static constexpr unsigned int Class_1_78C2963AC589BAA9_TypeDefinitionIndex = 38449;
 
 class Class_1_78C2963AC589BAA9 : public ::System::Object
 {
 public:
-	::RPG::GameCore::MarbleShapeType Field_1_1; // 0x10
-	::RPG::GameCore::MarbleItemType Field_1_0; // 0x14
-	::System::Single Field_1_2; // 0x18
+	::RPG::GameCore::MarbleItemType Field_1_0; // 0x10
+	::System::Single Field_1_2; // 0x14
+	::RPG::GameCore::MarbleShapeType Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

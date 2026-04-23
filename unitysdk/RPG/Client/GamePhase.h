@@ -4,12 +4,12 @@
 
 class Class_2_8CF02C3C8507EA90;
 
-#define RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x97B5240)
-#define RPG_CLIENT_GAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x97B5280)
+#define RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0x1602F9B0)
+#define RPG_CLIENT_GAMEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1602F9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 49548;
+	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 56370;
 
 	class GamePhase : public ::RPG::Client::BasePhase
 	{

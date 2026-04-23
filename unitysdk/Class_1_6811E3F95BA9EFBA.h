@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameEntityList; }
 namespace System { class String; }
 
-#define CLASS_1_6811E3F95BA9EFBA__CTOR_OFFSET UNITYSDK_OFFSET(0x113ED960)
+#define CLASS_1_6811E3F95BA9EFBA__CTOR_OFFSET UNITYSDK_OFFSET(0x10109550)
 
-inline static constexpr unsigned int Class_1_6811E3F95BA9EFBA_TypeDefinitionIndex = 58574;
+inline static constexpr unsigned int Class_1_6811E3F95BA9EFBA_TypeDefinitionIndex = 65891;
 
 class Class_1_6811E3F95BA9EFBA : public ::System::Object
 {

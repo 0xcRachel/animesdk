@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTFORGEADDROLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x98294D0)
+#define RPG_CLIENT_GRIDFIGHTFORGEADDROLEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x174D0C50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightForgeAddRoleEvent_TypeDefinitionIndex = 52713;
+	inline static constexpr unsigned int GridFightForgeAddRoleEvent_TypeDefinitionIndex = 59770;
 
 	class GridFightForgeAddRoleEvent : public ::System::Object
 	{

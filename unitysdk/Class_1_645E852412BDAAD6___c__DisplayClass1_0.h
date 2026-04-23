@@ -6,16 +6,16 @@ class Class_1_C4FD36003027AC99;
 class Class_2_49CAB3DE74280C58;
 namespace RPG::GameCore { class ChimeraDuelEntitiesFilterSelectorConfig; }
 
-#define CLASS_1_645E852412BDAAD6___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA9CA140)
-#define CLASS_1_645E852412BDAAD6___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0xA9CA160)
+#define CLASS_1_645E852412BDAAD6___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10A0FAC0)
+#define CLASS_1_645E852412BDAAD6___C__DISPLAYCLASS1_0___SELECTTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x10A0FAE0)
 
-inline static constexpr unsigned int Class_1_645E852412BDAAD6___c__DisplayClass1_0_TypeDefinitionIndex = 63066;
+inline static constexpr unsigned int Class_1_645E852412BDAAD6___c__DisplayClass1_0_TypeDefinitionIndex = 71106;
 
 class Class_1_645E852412BDAAD6___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraDuelEntitiesFilterSelectorConfig* config; // 0x10
-	::Class_1_C4FD36003027AC99* context; // 0x18
+	::Class_1_C4FD36003027AC99* context; // 0x10
+	::RPG::GameCore::ChimeraDuelEntitiesFilterSelectorConfig* config; // 0x18
 
 	::System::Void _ctor()
 	{

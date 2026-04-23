@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGEVIDEOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173EEF50)
-#define RPG_GAMECORE_MESSAGEVIDEOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173EF4E0)
+#define RPG_GAMECORE_MESSAGEVIDEOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190A0460)
+#define RPG_GAMECORE_MESSAGEVIDEOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190A09F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 13204;
+	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 13666;
 
 	class MessageVideoRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::System::UInt32 VideoID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 VideoID; // 0x1C
 
 		::System::Void _ctor()
 		{

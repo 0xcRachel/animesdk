@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DeployPuzzleGiveBackStone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C594978CB450F97_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10643DD0)
-#define CLASS_3_2C594978CB450F97__CTOR_OFFSET UNITYSDK_OFFSET(0x10643DA0)
+#define CLASS_3_2C594978CB450F97_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF755AE0)
+#define CLASS_3_2C594978CB450F97__CTOR_OFFSET UNITYSDK_OFFSET(0xF755AB0)
 
-inline static constexpr unsigned int Class_3_2C594978CB450F97_TypeDefinitionIndex = 46845;
+inline static constexpr unsigned int Class_3_2C594978CB450F97_TypeDefinitionIndex = 53557;
 
 class Class_3_2C594978CB450F97 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DeployPuzzleGiveBackStone*>
 {

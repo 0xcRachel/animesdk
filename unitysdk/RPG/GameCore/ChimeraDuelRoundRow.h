@@ -5,24 +5,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x170B93F0)
-#define RPG_GAMECORE_CHIMERADUELROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x170B96B0)
+#define RPG_GAMECORE_CHIMERADUELROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194C6F00)
+#define RPG_GAMECORE_CHIMERADUELROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194C71C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRoundRow_TypeDefinitionIndex = 10410;
+	inline static constexpr unsigned int ChimeraDuelRoundRow_TypeDefinitionIndex = 10635;
 
 	class ChimeraDuelRoundRow : public ::System::Object
 	{
 	public:
 		::System::String* ShopUnlockTutorial; // 0x10
-		::Il2CppArray<::System::UInt32>* ShopItemWeightList; // 0x18
-		::Il2CppArray<::System::UInt32>* ShopChimeraWeightList; // 0x20
-		::System::UInt32 ShopItemSlotCount; // 0x28
-		::System::UInt32 ShopChimeraSlotCount; // 0x2C
-		::System::UInt32 RoundID; // 0x30
-		::System::UInt32 ShopChimeraGroup; // 0x34
-		::System::UInt32 ShopItemGroup; // 0x38
+		::Il2CppArray<::System::UInt32>* ShopChimeraWeightList; // 0x18
+		::Il2CppArray<::System::UInt32>* ShopItemWeightList; // 0x20
+		::System::UInt32 ShopChimeraGroup; // 0x28
+		::System::UInt32 RoundID; // 0x2C
+		::System::UInt32 ShopItemGroup; // 0x30
+		::System::UInt32 ShopChimeraSlotCount; // 0x34
+		::System::UInt32 ShopItemSlotCount; // 0x38
 
 		::System::Void _ctor()
 		{

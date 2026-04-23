@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Space.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MONOAUTOMOVEANDROTATE_VECTOR3ANDSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x9C20F00)
+#define RPG_CLIENT_MONOAUTOMOVEANDROTATE_VECTOR3ANDSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x152BD850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAutoMoveAndRotate_Vector3andSpace_TypeDefinitionIndex = 57129;
+	inline static constexpr unsigned int MonoAutoMoveAndRotate_Vector3andSpace_TypeDefinitionIndex = 64380;
 
 	class MonoAutoMoveAndRotate_Vector3andSpace : public ::System::Object
 	{

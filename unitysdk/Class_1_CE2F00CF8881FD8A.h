@@ -5,18 +5,18 @@
 
 class Class_2_E541610CE7338ECE;
 
-#define CLASS_1_CE2F00CF8881FD8A_EXECUTE_OFFSET UNITYSDK_OFFSET(0x166503E0)
-#define CLASS_1_CE2F00CF8881FD8A__CTOR_OFFSET UNITYSDK_OFFSET(0x166503C0)
+#define CLASS_1_CE2F00CF8881FD8A_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14D331D0)
+#define CLASS_1_CE2F00CF8881FD8A__CTOR_OFFSET UNITYSDK_OFFSET(0x14D331B0)
 
-inline static constexpr unsigned int Class_1_CE2F00CF8881FD8A_TypeDefinitionIndex = 28846;
+inline static constexpr unsigned int Class_1_CE2F00CF8881FD8A_TypeDefinitionIndex = 34580;
 
 class Class_1_CE2F00CF8881FD8A : public ::System::Object
 {
 public:
 	::Class_2_E541610CE7338ECE* Field_1_0; // 0x10
 	::RPG::MVector3 Field_1_1; // 0x18
-	::System::Int32 Field_1_3; // 0x24
-	::System::Int32 Field_1_2; // 0x28
+	::System::Int32 Field_1_2; // 0x24
+	::System::Int32 Field_1_3; // 0x28
 
 	::System::Void _ctor(::Class_2_E541610CE7338ECE* a1)
 	{

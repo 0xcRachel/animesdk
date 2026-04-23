@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_B3566F804A22C208_9.h"
+#include "unitysdk/Class_2_B3566F804A22C208_8.h"
 #include "unitysdk/RPG/Client/GamePlayLockTarget.h"
 
-class Class_0_16E4307DCC419505_295;
+class Class_0_16E4307DCC419505_303;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_51B1787165650E97_3_METHOD_3_446196FA4D8C65AD_OFFSET UNITYSDK_OFFSET(0x8D88BC0)
-#define CLASS_3_51B1787165650E97_3__CTOR_OFFSET UNITYSDK_OFFSET(0x8D88BB0)
+#define CLASS_3_51B1787165650E97_3_METHOD_3_446196FA4D8C65AD_OFFSET UNITYSDK_OFFSET(0xD0864B0)
+#define CLASS_3_51B1787165650E97_3__CTOR_OFFSET UNITYSDK_OFFSET(0xD0864A0)
 
-inline static constexpr unsigned int Class_3_51B1787165650E97_3_TypeDefinitionIndex = 61489;
+inline static constexpr unsigned int Class_3_51B1787165650E97_3_TypeDefinitionIndex = 68996;
 
-class Class_3_51B1787165650E97_3 : public ::Class_2_B3566F804A22C208_9
+class Class_3_51B1787165650E97_3 : public ::Class_2_B3566F804A22C208_8
 {
 public:
-	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>* a1)
+	::System::Void _ctor(::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_295*>*))((::PBYTE)hIl2Cpp + CLASS_3_51B1787165650E97_3__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_303*>*))((::PBYTE)hIl2Cpp + CLASS_3_51B1787165650E97_3__CTOR_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::GamePlayLockTarget Method_3_446196FA4D8C65AD()

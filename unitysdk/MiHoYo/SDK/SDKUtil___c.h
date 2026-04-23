@@ -5,34 +5,34 @@
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIHOYO_SDK_SDKUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1600BE60)
-#define MIHOYO_SDK_SDKUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1600BE90)
-#define MIHOYO_SDK_SDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x1600C000)
-#define MIHOYO_SDK_SDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET UNITYSDK_OFFSET(0x1600BF50)
-#define MIHOYO_SDK_SDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET UNITYSDK_OFFSET(0x1600BEA0)
+#define MIHOYO_SDK_SDKUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157E7A90)
+#define MIHOYO_SDK_SDKUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157E7AC0)
+#define MIHOYO_SDK_SDKUTIL___C__GETQUERYSTRING_B__10_0_OFFSET UNITYSDK_OFFSET(0x157E7C30)
+#define MIHOYO_SDK_SDKUTIL___C__SIGNCOMBOBODY_B__8_0_OFFSET UNITYSDK_OFFSET(0x157E7B80)
+#define MIHOYO_SDK_SDKUTIL___C__SIGNMDKBODY_B__7_0_OFFSET UNITYSDK_OFFSET(0x157E7AD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKUtil___c_TypeDefinitionIndex = 7176;
+	inline static constexpr unsigned int SDKUtil___c_TypeDefinitionIndex = 7219;
 
 	class SDKUtil___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::String*>** StaticGet___9__10_0()
-		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x16320);
-		}
-		static ::MiHoYo::SDK::SDKUtil___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::SDKUtil___c**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x16328);
-		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x16330);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x15B20);
 		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x16338);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x15B28);
+		}
+		static ::MiHoYo::SDK::SDKUtil___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::SDKUtil___c**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x15B30);
+		}
+		static ::System::Comparison_1<::System::String*>** StaticGet___9__10_0()
+		{
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SDKUtil___c_TypeDefinitionIndex)->GetStaticField(0x15B38);
 		}
 
 		static ::System::Void _cctor()

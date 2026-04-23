@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AttachPreshowDamageTypeForSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C7D9505904F46A33_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDE54ED0)
-#define CLASS_3_C7D9505904F46A33__CTOR_OFFSET UNITYSDK_OFFSET(0xDE54EA0)
+#define CLASS_3_C7D9505904F46A33_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE165730)
+#define CLASS_3_C7D9505904F46A33__CTOR_OFFSET UNITYSDK_OFFSET(0xE165700)
 
-inline static constexpr unsigned int Class_3_C7D9505904F46A33_TypeDefinitionIndex = 43908;
+inline static constexpr unsigned int Class_3_C7D9505904F46A33_TypeDefinitionIndex = 50608;
 
 class Class_3_C7D9505904F46A33 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachPreshowDamageTypeForSkill*>
 {

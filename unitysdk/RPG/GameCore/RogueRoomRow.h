@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUEROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1766C8D0)
-#define RPG_GAMECORE_ROGUEROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1766CB20)
+#define RPG_GAMECORE_ROGUEROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198238F0)
+#define RPG_GAMECORE_ROGUEROOMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19823B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueRoomRow_TypeDefinitionIndex = 13437;
+	inline static constexpr unsigned int RogueRoomRow_TypeDefinitionIndex = 13910;
 
 	class RogueRoomRow : public ::System::Object
 	{

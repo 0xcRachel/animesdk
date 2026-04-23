@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x98F4FF0)
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x98F5030)
-#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET UNITYSDK_OFFSET(0x98F5040)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1744A350)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1744A390)
+#define RPG_CLIENT_GRIDFIGHTVALUECOMPONENT___C__TRYGETVALUEFROMTEAM_B__3_0_OFFSET UNITYSDK_OFFSET(0x1744A3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightValueComponent___c_TypeDefinitionIndex = 52932;
+	inline static constexpr unsigned int GridFightValueComponent___c_TypeDefinitionIndex = 60011;
 
 	class GridFightValueComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x1EFA0);
-		}
 		static ::RPG::Client::GridFightValueComponent___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightValueComponent___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x1EFA8);
+			return (::RPG::Client::GridFightValueComponent___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x362E0);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightValueComponent___c_TypeDefinitionIndex)->GetStaticField(0x362E8);
 		}
 
 		static ::System::Void _cctor()

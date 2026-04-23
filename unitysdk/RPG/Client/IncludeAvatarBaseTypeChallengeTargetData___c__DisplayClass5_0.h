@@ -6,12 +6,12 @@
 namespace RPG::Client { class MemberData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x99552B0)
-#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKINCLUDEBASICTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x9955440)
+#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1337FC70)
+#define RPG_CLIENT_INCLUDEAVATARBASETYPECHALLENGETARGETDATA___C__DISPLAYCLASS5_0___CHECKINCLUDEBASICTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1337FE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IncludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0_TypeDefinitionIndex = 51213;
+	inline static constexpr unsigned int IncludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0_TypeDefinitionIndex = 58137;
 
 	class IncludeAvatarBaseTypeChallengeTargetData___c__DisplayClass5_0 : public ::System::Object
 	{

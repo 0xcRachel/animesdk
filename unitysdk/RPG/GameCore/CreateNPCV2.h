@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class NpcEntityInfo; }
 
-#define RPG_GAMECORE_CREATENPCV2_METHOD_3_C26270FCEAE515EB_OFFSET UNITYSDK_OFFSET(0x17150D20)
-#define RPG_GAMECORE_CREATENPCV2_METHOD_3_E8FD5175F42673EF_OFFSET UNITYSDK_OFFSET(0x17150DA0)
-#define RPG_GAMECORE_CREATENPCV2__CTOR_OFFSET UNITYSDK_OFFSET(0x17150D70)
+#define RPG_GAMECORE_CREATENPCV2_METHOD_3_5F7E46E0B131827F_OFFSET UNITYSDK_OFFSET(0x18FAF120)
+#define RPG_GAMECORE_CREATENPCV2_METHOD_3_6B9417477C734906_OFFSET UNITYSDK_OFFSET(0x18FAF1A0)
+#define RPG_GAMECORE_CREATENPCV2__CTOR_OFFSET UNITYSDK_OFFSET(0x18FAF170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateNPCV2_TypeDefinitionIndex = 20117;
+	inline static constexpr unsigned int CreateNPCV2_TypeDefinitionIndex = 20799;
 
 	class CreateNPCV2 : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPCV2__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C26270FCEAE515EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateNPCV2*& a2)
+		static ::System::Void Method_3_5F7E46E0B131827F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateNPCV2*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateNPCV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPCV2_METHOD_3_C26270FCEAE515EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateNPCV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPCV2_METHOD_3_5F7E46E0B131827F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E8FD5175F42673EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateNPCV2* a2)
+		static ::System::Void Method_3_6B9417477C734906(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateNPCV2* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateNPCV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPCV2_METHOD_3_E8FD5175F42673EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateNPCV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPCV2_METHOD_3_6B9417477C734906_OFFSET))(a1, a2);
 		}
 	};
 }

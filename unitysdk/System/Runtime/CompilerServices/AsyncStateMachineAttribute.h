@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x163A5FE0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F59500)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncStateMachineAttribute_TypeDefinitionIndex = 1348;
+	inline static constexpr unsigned int AsyncStateMachineAttribute_TypeDefinitionIndex = 1350;
 
 	class AsyncStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute
 	{

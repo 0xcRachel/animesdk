@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTFACILITYUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x175B96D0)
-#define RPG_GAMECORE_RESTAURANTFACILITYUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x175B98A0)
+#define RPG_GAMECORE_RESTAURANTFACILITYUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190349E0)
+#define RPG_GAMECORE_RESTAURANTFACILITYUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19034BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFacilityUpRow_TypeDefinitionIndex = 10591;
+	inline static constexpr unsigned int RestaurantFacilityUpRow_TypeDefinitionIndex = 10844;
 
 	class RestaurantFacilityUpRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AbilityIDList; // 0x10
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 FacilityID; // 0x18
 		::System::UInt32 UpgradePrice; // 0x1C
-		::System::UInt32 FacilityID; // 0x20
+		::System::UInt32 Level; // 0x20
 
 		::System::Void _ctor()
 		{

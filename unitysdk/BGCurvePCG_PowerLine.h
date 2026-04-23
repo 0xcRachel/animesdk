@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define BGCURVEPCG_POWERLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1141EEE0)
+#define BGCURVEPCG_POWERLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xF7B3D70)
 
-inline static constexpr unsigned int BGCurvePCG_PowerLine_TypeDefinitionIndex = 38414;
+inline static constexpr unsigned int BGCurvePCG_PowerLine_TypeDefinitionIndex = 44298;
 
 class BGCurvePCG_PowerLine : public ::UnityEngine::MonoBehaviour
 {

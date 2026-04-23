@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLESEALSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173AD7D0)
-#define RPG_GAMECORE_MARBLESEALSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x173ADB40)
+#define RPG_GAMECORE_MARBLESEALSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18C1F1B0)
+#define RPG_GAMECORE_MARBLESEALSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18C1F520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealSkillConfigRow_TypeDefinitionIndex = 10890;
+	inline static constexpr unsigned int MarbleSealSkillConfigRow_TypeDefinitionIndex = 11294;
 
 	class MarbleSealSkillConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* SkillParamList; // 0x18
-		::RPG::Client::TextID SkillDesc; // 0x20
-		::RPG::Client::TextID SkillName; // 0x30
-		::System::UInt32 GroupID; // 0x40
-		::System::UInt32 ID; // 0x44
-		::System::UInt32 Level; // 0x48
-		::System::UInt32 SkillHintType; // 0x4C
+		::Il2CppArray<::System::UInt32>* SkillParamList; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::UInt32 GroupID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::UInt32 Level; // 0x28
+		::System::UInt32 SkillHintType; // 0x2C
+		::RPG::Client::TextID SkillDesc; // 0x30
+		::RPG::Client::TextID SkillName; // 0x40
 
 		::System::Void _ctor()
 		{

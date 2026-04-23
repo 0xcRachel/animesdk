@@ -9,21 +9,21 @@ namespace RPG::Client { class RuntimeGroupManager_HoYoGroupUnit; }
 namespace RPG::GameCore { class EraRegion; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x9633670)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__0_OFFSET UNITYSDK_OFFSET(0x9635900)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__1_OFFSET UNITYSDK_OFFSET(0x9635970)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__3_OFFSET UNITYSDK_OFFSET(0x9635AF0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14AD6720)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__0_OFFSET UNITYSDK_OFFSET(0x14AD89B0)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__1_OFFSET UNITYSDK_OFFSET(0x14AD8A20)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS29_0___ENTERERAREGION_B__3_OFFSET UNITYSDK_OFFSET(0x14AD8BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass29_0_TypeDefinitionIndex = 48999;
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass29_0_TypeDefinitionIndex = 55793;
 
 	class EraFlipperManager___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:
-		::Class_1_ECBCF86CDE61CBCA* stageRegion; // 0x10
-		::RPG::Client::EraFlipperManager* __4__this; // 0x18
-		::System::Func_2<::RPG::Client::MapPropDef*, ::System::Boolean>* __9__3; // 0x20
+		::System::Func_2<::RPG::Client::MapPropDef*, ::System::Boolean>* __9__3; // 0x10
+		::Class_1_ECBCF86CDE61CBCA* stageRegion; // 0x18
+		::RPG::Client::EraFlipperManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

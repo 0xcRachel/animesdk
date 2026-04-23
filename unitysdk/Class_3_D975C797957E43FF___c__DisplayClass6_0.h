@@ -4,10 +4,10 @@
 
 namespace RPG::Client::MVVM::ViewModel { class LimaoNewsPostViewModel; }
 
-#define CLASS_3_D975C797957E43FF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11147260)
-#define CLASS_3_D975C797957E43FF___C__DISPLAYCLASS6_0__REFRESHPOST_B__0_OFFSET UNITYSDK_OFFSET(0x111479E0)
+#define CLASS_3_D975C797957E43FF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xF2E1610)
+#define CLASS_3_D975C797957E43FF___C__DISPLAYCLASS6_0__REFRESHPOST_B__0_OFFSET UNITYSDK_OFFSET(0xF2E1D90)
 
-inline static constexpr unsigned int Class_3_D975C797957E43FF___c__DisplayClass6_0_TypeDefinitionIndex = 60954;
+inline static constexpr unsigned int Class_3_D975C797957E43FF___c__DisplayClass6_0_TypeDefinitionIndex = 68405;
 
 class Class_3_D975C797957E43FF___c__DisplayClass6_0 : public ::System::Object
 {

@@ -8,18 +8,18 @@ namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_CB38D1CC30518745_CLASS_1_AEB398135389F96A__CTOR_OFFSET UNITYSDK_OFFSET(0x8839C90)
+#define CLASS_2_CB38D1CC30518745_CLASS_1_AEB398135389F96A__CTOR_OFFSET UNITYSDK_OFFSET(0xCAFE620)
 
-inline static constexpr unsigned int Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A_TypeDefinitionIndex = 47145;
+inline static constexpr unsigned int Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A_TypeDefinitionIndex = 53877;
 
 class Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A : public ::System::Object
 {
 public:
-	::RPG::Client::MonoEffect* Field_1_3; // 0x10
-	::RPG::GameCore::AnchorInfo* Field_1_0; // 0x18
-	::RPG::Client::Prop::RogueDLCRayModule* Field_1_1; // 0x20
+	::RPG::Client::Prop::RogueDLCRayModule* Field_1_1; // 0x10
+	::RPG::Client::MonoEffect* Field_1_3; // 0x18
+	::UnityEngine::Transform* Field_1_4; // 0x20
 	::RPG::GameCore::GameEntity* Field_1_2; // 0x28
-	::UnityEngine::Transform* Field_1_4; // 0x30
+	::RPG::GameCore::AnchorInfo* Field_1_0; // 0x30
 
 	::System::Void _ctor()
 	{

@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_AVATAREXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x914CEB0)
-#define RPG_CLIENT_AVATAREXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x914CEF0)
-#define RPG_CLIENT_AVATAREXTENSIONS___C__GETRECOMMENDTRACENODEROWDATALIST_B__310_0_OFFSET UNITYSDK_OFFSET(0x914CF00)
+#define RPG_CLIENT_AVATAREXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x158A8B50)
+#define RPG_CLIENT_AVATAREXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x158A8B90)
+#define RPG_CLIENT_AVATAREXTENSIONS___C__GETRECOMMENDTRACENODEROWDATALIST_B__314_0_OFFSET UNITYSDK_OFFSET(0x158A8BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarExtensions___c_TypeDefinitionIndex = 50853;
+	inline static constexpr unsigned int AvatarExtensions___c_TypeDefinitionIndex = 57731;
 
 	class AvatarExtensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet___9__310_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarExtensions___c_TypeDefinitionIndex)->GetStaticField(0x46520);
-		}
 		static ::RPG::Client::AvatarExtensions___c** StaticGet___9()
 		{
-			return (::RPG::Client::AvatarExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarExtensions___c_TypeDefinitionIndex)->GetStaticField(0x46528);
+			return (::RPG::Client::AvatarExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarExtensions___c_TypeDefinitionIndex)->GetStaticField(0x5C350);
+		}
+		static ::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>** StaticGet___9__314_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::AvatarSkillTreeRow*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarExtensions___c_TypeDefinitionIndex)->GetStaticField(0x5C358);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREXTENSIONS___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetRecommendTraceNodeRowDataList_b__310_0(::RPG::GameCore::AvatarSkillTreeRow* a, ::RPG::GameCore::AvatarSkillTreeRow* b)
+		::System::Int32 _GetRecommendTraceNodeRowDataList_b__314_0(::RPG::GameCore::AvatarSkillTreeRow* a, ::RPG::GameCore::AvatarSkillTreeRow* b)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreeRow*, ::RPG::GameCore::AvatarSkillTreeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREXTENSIONS___C__GETRECOMMENDTRACENODEROWDATALIST_B__310_0_OFFSET))(this, a, b);
+			return ((::System::Int32(*)(::PVOID, ::RPG::GameCore::AvatarSkillTreeRow*, ::RPG::GameCore::AvatarSkillTreeRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREXTENSIONS___C__GETRECOMMENDTRACENODEROWDATALIST_B__314_0_OFFSET))(this, a, b);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x185C4360)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAGROUPBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1854DEB0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaGroupBase_TypeDefinitionIndex = 2189;
+	inline static constexpr unsigned int XmlSchemaGroupBase_TypeDefinitionIndex = 2190;
 
 	class XmlSchemaGroupBase : public ::System::Xml::Schema::XmlSchemaParticle
 	{

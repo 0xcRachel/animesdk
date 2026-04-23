@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_222;
+class Class_0_16E4307DCC419505_227;
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames; }
 
-#define CLASS_1_097F2E6093D93EC7_CLEAR_OFFSET UNITYSDK_OFFSET(0x167AA360)
-#define CLASS_1_097F2E6093D93EC7__CTOR_OFFSET UNITYSDK_OFFSET(0x167AA3F0)
+#define CLASS_1_097F2E6093D93EC7_CLEAR_OFFSET UNITYSDK_OFFSET(0x153830A0)
+#define CLASS_1_097F2E6093D93EC7__CTOR_OFFSET UNITYSDK_OFFSET(0x15383130)
 
-inline static constexpr unsigned int Class_1_097F2E6093D93EC7_TypeDefinitionIndex = 33448;
+inline static constexpr unsigned int Class_1_097F2E6093D93EC7_TypeDefinitionIndex = 39239;
 
 class Class_1_097F2E6093D93EC7 : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames* Field_1_0; // 0x10
-	::Class_0_16E4307DCC419505_222* Field_1_1; // 0x18
+	::Class_0_16E4307DCC419505_227* Field_1_1; // 0x10
+	::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames* Field_1_0; // 0x18
 	::System::Single Field_1_4; // 0x20
-	::System::Boolean Field_1_7; // 0x24
-	::System::Boolean Field_1_5; // 0x25
-	::System::Boolean Field_1_6; // 0x26
-	::RPG::Client::LittleGame::FiveDim::PhantomPlayerState Field_1_2; // 0x28
+	::RPG::Client::LittleGame::FiveDim::PhantomPlayerState Field_1_2; // 0x24
+	::System::Boolean Field_1_7; // 0x28
+	::System::Boolean Field_1_6; // 0x29
+	::System::Boolean Field_1_5; // 0x2A
 	::System::Single Field_1_3; // 0x2C
 
 	::System::Void _ctor()

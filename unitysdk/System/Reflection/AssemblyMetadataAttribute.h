@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYMETADATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1637CF30)
+#define SYSTEM_REFLECTION_ASSEMBLYMETADATAATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x19047BC0)
 
 namespace System::Reflection
 {
@@ -13,8 +13,8 @@ namespace System::Reflection
 	class AssemblyMetadataAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* m_key; // 0x10
-		::System::String* m_value; // 0x18
+		::System::String* m_value; // 0x10
+		::System::String* m_key; // 0x18
 
 		::System::Void _ctor(::System::String* key, ::System::String* value)
 		{

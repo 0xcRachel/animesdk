@@ -6,11 +6,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlElement; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x185DE040)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18567B70)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlElementEventArgs_TypeDefinitionIndex = 1972;
+	inline static constexpr unsigned int XmlElementEventArgs_TypeDefinitionIndex = 1973;
 
 	class XmlElementEventArgs : public ::System::EventArgs
 	{

@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_F91AD0C5A85E4AFA_29;
+
+#define CLASS_1_F91AD0C5A85E4AFA_29___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4E0260)
+#define CLASS_1_F91AD0C5A85E4AFA_29___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E02A0)
+#define CLASS_1_F91AD0C5A85E4AFA_29___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A4E02B0)
+
+inline static constexpr unsigned int Class_1_F91AD0C5A85E4AFA_29___c_TypeDefinitionIndex = 31849;
+
+class Class_1_F91AD0C5A85E4AFA_29___c : public ::System::Object
+{
+public:
+	static ::Class_1_F91AD0C5A85E4AFA_29___c** StaticGet___9()
+	{
+		return (::Class_1_F91AD0C5A85E4AFA_29___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F91AD0C5A85E4AFA_29___c_TypeDefinitionIndex)->GetStaticField(0xA860);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_F91AD0C5A85E4AFA_29___C__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F91AD0C5A85E4AFA_29___C__CTOR_OFFSET))(this);
+	}
+
+	::Class_1_F91AD0C5A85E4AFA_29* __cctor_b__28_0()
+	{
+		return ((::Class_1_F91AD0C5A85E4AFA_29*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F91AD0C5A85E4AFA_29___C___CCTOR_B__28_0_OFFSET))(this);
+	}
+};

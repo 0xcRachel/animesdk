@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1707AA70)
-#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1707B1B0)
+#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18D55770)
+#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18D55EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterCampConfigRow_TypeDefinitionIndex = 11583;
+	inline static constexpr unsigned int CharacterCampConfigRow_TypeDefinitionIndex = 11994;
 
 	class CharacterCampConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::CharacterCampType CampType; // 0x1C
 		::RPG::Client::TextID Name; // 0x20
-		::RPG::GameCore::CharacterCampType CampType; // 0x30
-		::System::Int32 SortID; // 0x34
+		::System::Int32 SortID; // 0x30
 
 		::System::Void _ctor()
 		{

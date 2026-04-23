@@ -2,14 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_120319518E6F6581_114;
-class Class_1_35B19D34B208E77E_24;
+class Class_1_08093FBB447FB7BD_36;
+class Class_1_668FE281FA72D3E8_26;
+class Class_1_69EEE63CE134E1EF;
 class Class_1_973F1F5DEEACFA6C_2;
-class Class_1_D7B17FB02EF70CD8_9;
+class Class_1_D1E0AD3915BCCF29_121;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
 namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
+namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2_Codec; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
@@ -17,115 +19,124 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class MapInfoGroup; }
 namespace System { class String; }
 
-#define PROTO_SCENEMAPINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x182AEA00)
-#define PROTO_SCENEMAPINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x182ADAC0)
-#define PROTO_SCENEMAPINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x182ADC70)
-#define PROTO_SCENEMAPINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x182ADC40)
-#define PROTO_SCENEMAPINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x182ADEF0)
-#define PROTO_SCENEMAPINFO_GET_CHESTLIST_OFFSET UNITYSDK_OFFSET(0x182ADBC0)
-#define PROTO_SCENEMAPINFO_GET_CHESTMONSTERLIST_OFFSET UNITYSDK_OFFSET(0x182ADB00)
-#define PROTO_SCENEMAPINFO_GET_CHESTMONSTERNUM_OFFSET UNITYSDK_OFFSET(0x182ADB20)
-#define PROTO_SCENEMAPINFO_GET_CLIENTGROUPMISSIONINFO_OFFSET UNITYSDK_OFFSET(0x182ADC20)
-#define PROTO_SCENEMAPINFO_GET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x182ADB70)
-#define PROTO_SCENEMAPINFO_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x182ADB90)
-#define PROTO_SCENEMAPINFO_GET_FINISHEDCHESTMONSTERIDLIST_OFFSET UNITYSDK_OFFSET(0x182ADB10)
-#define PROTO_SCENEMAPINFO_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x182ADC00)
-#define PROTO_SCENEMAPINFO_GET_FLOORSAVEDVALUEMAP_OFFSET UNITYSDK_OFFSET(0x182ADB60)
-#define PROTO_SCENEMAPINFO_GET_GROUPLIST_OFFSET UNITYSDK_OFFSET(0x182ADBD0)
-#define PROTO_SCENEMAPINFO_GET_LIGHTENSECTIONLIST_OFFSET UNITYSDK_OFFSET(0x182ADB50)
-#define PROTO_SCENEMAPINFO_GET_MAPINFOPROPLIST_OFFSET UNITYSDK_OFFSET(0x182ADBB0)
-#define PROTO_SCENEMAPINFO_GET_OPENEDCHESTIDLIST_OFFSET UNITYSDK_OFFSET(0x182ADB40)
-#define PROTO_SCENEMAPINFO_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x182ADBE0)
-#define PROTO_SCENEMAPINFO_GET_UNLOCKTELEPORTLIST_OFFSET UNITYSDK_OFFSET(0x182ADAF0)
-#define PROTO_SCENEMAPINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x182AF1A0)
-#define PROTO_SCENEMAPINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x182AEEF0)
-#define PROTO_SCENEMAPINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x182AD700)
-#define PROTO_SCENEMAPINFO_SET_CHESTMONSTERNUM_OFFSET UNITYSDK_OFFSET(0x182ADB30)
-#define PROTO_SCENEMAPINFO_SET_CLIENTGROUPMISSIONINFO_OFFSET UNITYSDK_OFFSET(0x182ADC30)
-#define PROTO_SCENEMAPINFO_SET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x182ADB80)
-#define PROTO_SCENEMAPINFO_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x182ADBA0)
-#define PROTO_SCENEMAPINFO_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x182ADC10)
-#define PROTO_SCENEMAPINFO_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x182ADBF0)
-#define PROTO_SCENEMAPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x182AE5E0)
-#define PROTO_SCENEMAPINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x182AE640)
-#define PROTO_SCENEMAPINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x182AF640)
-#define PROTO_SCENEMAPINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x182AD8E0)
-#define PROTO_SCENEMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x182AD710)
+#define PROTO_SCENEMAPINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A590A00)
+#define PROTO_SCENEMAPINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1A58FA30)
+#define PROTO_SCENEMAPINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A58FC00)
+#define PROTO_SCENEMAPINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A58FBD0)
+#define PROTO_SCENEMAPINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A58FEC0)
+#define PROTO_SCENEMAPINFO_GET_CHESTLIST_OFFSET UNITYSDK_OFFSET(0x1A58FA90)
+#define PROTO_SCENEMAPINFO_GET_CHESTMONSTERLIST_OFFSET UNITYSDK_OFFSET(0x1A58FB10)
+#define PROTO_SCENEMAPINFO_GET_CHESTMONSTERNUM_OFFSET UNITYSDK_OFFSET(0x1A58FAC0)
+#define PROTO_SCENEMAPINFO_GET_CLIENTGROUPMISSIONINFO_OFFSET UNITYSDK_OFFSET(0x1A58FB30)
+#define PROTO_SCENEMAPINFO_GET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x1A58FA70)
+#define PROTO_SCENEMAPINFO_GET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1A58FBB0)
+#define PROTO_SCENEMAPINFO_GET_FINISHEDCHESTMONSTERIDLIST_OFFSET UNITYSDK_OFFSET(0x1A58FB00)
+#define PROTO_SCENEMAPINFO_GET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1A58FB60)
+#define PROTO_SCENEMAPINFO_GET_FLOORSAVEDVALUEMAP_OFFSET UNITYSDK_OFFSET(0x1A58FA60)
+#define PROTO_SCENEMAPINFO_GET_GROUPLIST_OFFSET UNITYSDK_OFFSET(0x1A58FB80)
+#define PROTO_SCENEMAPINFO_GET_LIGHTENSECTIONLIST_OFFSET UNITYSDK_OFFSET(0x1A58FB20)
+#define PROTO_SCENEMAPINFO_GET_MAPINFOPROPLIST_OFFSET UNITYSDK_OFFSET(0x1A58FAF0)
+#define PROTO_SCENEMAPINFO_GET_OPENEDCHESTIDLIST_OFFSET UNITYSDK_OFFSET(0x1A58FB50)
+#define PROTO_SCENEMAPINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A58F620)
+#define PROTO_SCENEMAPINFO_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A58FAA0)
+#define PROTO_SCENEMAPINFO_GET_SCENEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1A58FB90)
+#define PROTO_SCENEMAPINFO_GET_UNLOCKTELEPORTLIST_OFFSET UNITYSDK_OFFSET(0x1A58FAE0)
+#define PROTO_SCENEMAPINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A591270)
+#define PROTO_SCENEMAPINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A590F80)
+#define PROTO_SCENEMAPINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A58F650)
+#define PROTO_SCENEMAPINFO_SET_CHESTMONSTERNUM_OFFSET UNITYSDK_OFFSET(0x1A58FAD0)
+#define PROTO_SCENEMAPINFO_SET_CLIENTGROUPMISSIONINFO_OFFSET UNITYSDK_OFFSET(0x1A58FB40)
+#define PROTO_SCENEMAPINFO_SET_DIMENSIONID_OFFSET UNITYSDK_OFFSET(0x1A58FA80)
+#define PROTO_SCENEMAPINFO_SET_ENTRYID_OFFSET UNITYSDK_OFFSET(0x1A58FBC0)
+#define PROTO_SCENEMAPINFO_SET_FLOORID_OFFSET UNITYSDK_OFFSET(0x1A58FB70)
+#define PROTO_SCENEMAPINFO_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A58FAB0)
+#define PROTO_SCENEMAPINFO_SET_SCENEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1A58FBA0)
+#define PROTO_SCENEMAPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A590590)
+#define PROTO_SCENEMAPINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A5905F0)
+#define PROTO_SCENEMAPINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A591740)
+#define PROTO_SCENEMAPINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A58F830)
+#define PROTO_SCENEMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A58F660)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SceneMapInfo_TypeDefinitionIndex = 27100;
+	inline static constexpr unsigned int SceneMapInfo_TypeDefinitionIndex = 32190;
 
 	class SceneMapInfo : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D7B17FB02EF70CD8_9*>** StaticGet__repeated_mapInfoPropList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D7B17FB02EF70CD8_9*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x181E0);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_35B19D34B208E77E_24*>** StaticGet__repeated_chestList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_35B19D34B208E77E_24*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x181E8);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_lightenSectionList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x181F0);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_120319518E6F6581_114*>** StaticGet__repeated_chestMonsterList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_120319518E6F6581_114*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x181F8);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Proto::MapInfoGroup*>** StaticGet__repeated_groupList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::MapInfoGroup*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x18200);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_finishedChestMonsterIdList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x18208);
-		}
 		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>** StaticGet__map_floorSavedValueMap_codec()
 		{
-			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x18210);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_unlockTeleportList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x18218);
+			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D4E0);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_openedChestIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x18220);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D4E8);
 		}
-		// static const ::System::Int32 UnlockTeleportListFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 ChestMonsterListFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 FinishedChestMonsterIdListFieldNumber = 0xDB; // 0x0
-		// static const ::System::Int32 ChestMonsterNumFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 OpenedChestIdListFieldNumber = 0x1B5; // 0x0
-		// static const ::System::Int32 LightenSectionListFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 FloorSavedValueMapFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 DimensionIdFieldNumber = 0xA; // 0x0
-		// static const ::System::Int32 EntryIdFieldNumber = 0x7; // 0x0
-		// static const ::System::Int32 MapInfoPropListFieldNumber = 0x1; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_finishedChestMonsterIdList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D4F0);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_unlockTeleportList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D4F8);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Proto::MapInfoGroup*>** StaticGet__repeated_groupList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Proto::MapInfoGroup*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D500);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_lightenSectionList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D508);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Proto::SceneMapInfo*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::SceneMapInfo*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D510);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_668FE281FA72D3E8_26*>** StaticGet__repeated_chestList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_668FE281FA72D3E8_26*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D518);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D1E0AD3915BCCF29_121*>** StaticGet__repeated_chestMonsterList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D1E0AD3915BCCF29_121*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D520);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_08093FBB447FB7BD_36*>** StaticGet__repeated_mapInfoPropList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_08093FBB447FB7BD_36*>**)Il2CppClass::FromTypeDefinitionIndex(SceneMapInfo_TypeDefinitionIndex)->GetStaticField(0x4D528);
+		}
+		// static const ::System::Int32 FloorSavedValueMapFieldNumber = 0x2; // 0x0
+		// static const ::System::Int32 DimensionIdFieldNumber = 0x9; // 0x0
 		// static const ::System::Int32 ChestListFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 GroupListFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 RetcodeFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 FloorIdFieldNumber = 0x8; // 0x0
-		// static const ::System::Int32 ClientGroupMissionInfoFieldNumber = 0x113; // 0x0
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MapInfoGroup*>* groupList_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* unlockTeleportList_; // 0x18
-		::Class_1_973F1F5DEEACFA6C_2* clientGroupMissionInfo_; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* openedChestIdList_; // 0x28
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_120319518E6F6581_114*>* chestMonsterList_; // 0x30
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* finishedChestMonsterIdList_; // 0x38
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D7B17FB02EF70CD8_9*>* mapInfoPropList_; // 0x40
+		// static const ::System::Int32 RetcodeFieldNumber = 0xE; // 0x0
+		// static const ::System::Int32 ChestMonsterNumFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 UnlockTeleportListFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 MapInfoPropListFieldNumber = 0x6; // 0x0
+		// static const ::System::Int32 FinishedChestMonsterIdListFieldNumber = 0x6B5; // 0x0
+		// static const ::System::Int32 ChestMonsterListFieldNumber = 0xF; // 0x0
+		// static const ::System::Int32 LightenSectionListFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 ClientGroupMissionInfoFieldNumber = 0x37D; // 0x0
+		// static const ::System::Int32 OpenedChestIdListFieldNumber = 0x33C; // 0x0
+		// static const ::System::Int32 FloorIdFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 GroupListFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 SceneIdentifierFieldNumber = 0x17F; // 0x0
+		// static const ::System::Int32 EntryIdFieldNumber = 0x1; // 0x0
+		::Class_1_973F1F5DEEACFA6C_2* clientGroupMissionInfo_; // 0x10
+		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* floorSavedValueMap_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* lightenSectionList_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_121*>* chestMonsterList_; // 0x28
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_08093FBB447FB7BD_36*>* mapInfoPropList_; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_26*>* chestList_; // 0x38
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* unlockTeleportList_; // 0x40
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x48
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_35B19D34B208E77E_24*>* chestList_; // 0x50
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* lightenSectionList_; // 0x58
-		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* floorSavedValueMap_; // 0x60
-		::System::UInt32 dimensionId_; // 0x68
-		::System::UInt32 floorId_; // 0x6C
-		::System::UInt32 chestMonsterNum_; // 0x70
-		::System::UInt32 retcode_; // 0x74
-		::System::UInt32 entryId_; // 0x78
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MapInfoGroup*>* groupList_; // 0x50
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* openedChestIdList_; // 0x58
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* finishedChestMonsterIdList_; // 0x60
+		::Class_1_69EEE63CE134E1EF* sceneIdentifier_; // 0x68
+		::System::UInt32 entryId_; // 0x70
+		::System::UInt32 dimensionId_; // 0x74
+		::System::UInt32 chestMonsterNum_; // 0x78
+		::System::UInt32 retcode_; // 0x7C
+		::System::UInt32 floorId_; // 0x80
 
 		::System::Void _ctor()
 		{
@@ -142,6 +153,11 @@ namespace Proto
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO__CCTOR_OFFSET))();
 		}
 
+		static ::Google::Protobuf::MessageParser_1<::Proto::SceneMapInfo*>* get_Parser()
+		{
+			return ((::Google::Protobuf::MessageParser_1<::Proto::SceneMapInfo*>*(*)())((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_PARSER_OFFSET))();
+		}
+
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
 		{
 			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
@@ -150,41 +166,6 @@ namespace Proto
 		::Proto::SceneMapInfo* Clone()
 		{
 			return ((::Proto::SceneMapInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_CLONE_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_UnlockTeleportList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_UNLOCKTELEPORTLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_120319518E6F6581_114*>* get_ChestMonsterList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_120319518E6F6581_114*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_CHESTMONSTERLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_FinishedChestMonsterIdList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_FINISHEDCHESTMONSTERIDLIST_OFFSET))(this);
-		}
-
-		::System::UInt32 get_ChestMonsterNum()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_CHESTMONSTERNUM_OFFSET))(this);
-		}
-
-		::System::Void set_ChestMonsterNum(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_CHESTMONSTERNUM_OFFSET))(this, value);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_OpenedChestIdList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_OPENEDCHESTIDLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_LightenSectionList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_LIGHTENSECTIONLIST_OFFSET))(this);
 		}
 
 		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* get_FloorSavedValueMap()
@@ -202,29 +183,9 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_DIMENSIONID_OFFSET))(this, value);
 		}
 
-		::System::UInt32 get_EntryId()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_26*>* get_ChestList()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_ENTRYID_OFFSET))(this);
-		}
-
-		::System::Void set_EntryId(::System::UInt32 value)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_ENTRYID_OFFSET))(this, value);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D7B17FB02EF70CD8_9*>* get_MapInfoPropList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D7B17FB02EF70CD8_9*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_MAPINFOPROPLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_35B19D34B208E77E_24*>* get_ChestList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_35B19D34B208E77E_24*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_CHESTLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MapInfoGroup*>* get_GroupList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::MapInfoGroup*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_GROUPLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_668FE281FA72D3E8_26*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_CHESTLIST_OFFSET))(this);
 		}
 
 		::System::UInt32 get_Retcode()
@@ -237,14 +198,39 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_RETCODE_OFFSET))(this, value);
 		}
 
-		::System::UInt32 get_FloorId()
+		::System::UInt32 get_ChestMonsterNum()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_FLOORID_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_CHESTMONSTERNUM_OFFSET))(this);
 		}
 
-		::System::Void set_FloorId(::System::UInt32 value)
+		::System::Void set_ChestMonsterNum(::System::UInt32 value)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_FLOORID_OFFSET))(this, value);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_CHESTMONSTERNUM_OFFSET))(this, value);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_UnlockTeleportList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_UNLOCKTELEPORTLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_08093FBB447FB7BD_36*>* get_MapInfoPropList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_08093FBB447FB7BD_36*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_MAPINFOPROPLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_FinishedChestMonsterIdList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_FINISHEDCHESTMONSTERIDLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_121*>* get_ChestMonsterList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_121*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_CHESTMONSTERLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_LightenSectionList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_LIGHTENSECTIONLIST_OFFSET))(this);
 		}
 
 		::Class_1_973F1F5DEEACFA6C_2* get_ClientGroupMissionInfo()
@@ -255,6 +241,46 @@ namespace Proto
 		::System::Void set_ClientGroupMissionInfo(::Class_1_973F1F5DEEACFA6C_2* value)
 		{
 			return ((::System::Void(*)(::PVOID, ::Class_1_973F1F5DEEACFA6C_2*))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_CLIENTGROUPMISSIONINFO_OFFSET))(this, value);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_OpenedChestIdList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_OPENEDCHESTIDLIST_OFFSET))(this);
+		}
+
+		::System::UInt32 get_FloorId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_FLOORID_OFFSET))(this);
+		}
+
+		::System::Void set_FloorId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_FLOORID_OFFSET))(this, value);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MapInfoGroup*>* get_GroupList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::MapInfoGroup*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_GROUPLIST_OFFSET))(this);
+		}
+
+		::Class_1_69EEE63CE134E1EF* get_SceneIdentifier()
+		{
+			return ((::Class_1_69EEE63CE134E1EF*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_SCENEIDENTIFIER_OFFSET))(this);
+		}
+
+		::System::Void set_SceneIdentifier(::Class_1_69EEE63CE134E1EF* value)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_69EEE63CE134E1EF*))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_SCENEIDENTIFIER_OFFSET))(this, value);
+		}
+
+		::System::UInt32 get_EntryId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_GET_ENTRYID_OFFSET))(this);
+		}
+
+		::System::Void set_EntryId(::System::UInt32 value)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_SCENEMAPINFO_SET_ENTRYID_OFFSET))(this, value);
 		}
 
 		::System::Boolean Equals(::System::Object* other)

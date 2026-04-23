@@ -15,61 +15,61 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class PrimitiveArray; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_PARSERECORD_INIT_OFFSET UNITYSDK_OFFSET(0x163E9470)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_PARSERECORD__CCTOR_OFFSET UNITYSDK_OFFSET(0x163F3280)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_PARSERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x163E93A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_PARSERECORD_INIT_OFFSET UNITYSDK_OFFSET(0x17AEE230)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_PARSERECORD__CCTOR_OFFSET UNITYSDK_OFFSET(0x17AF80A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_PARSERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x17AEE150)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ParseRecord_TypeDefinitionIndex = 1182;
+	inline static constexpr unsigned int ParseRecord_TypeDefinitionIndex = 1184;
 
 	class ParseRecord : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_parseRecordIdCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParseRecord_TypeDefinitionIndex)->GetStaticField(0x6140);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ParseRecord_TypeDefinitionIndex)->GetStaticField(0x4080);
 		}
-		::System::Runtime::Serialization::SerializationInfo* PRsi; // 0x10
-		::System::Object* PRvarValue; // 0x18
-		::System::Type* PRdtType; // 0x20
-		::Il2CppArray<::System::Int32>* PRrectangularMap; // 0x28
-		::Il2CppArray<::System::Int32>* PRupperBoundA; // 0x30
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo; // 0x38
-		::System::String* PRarrayElementTypeString; // 0x40
-		::System::String* PRname; // 0x48
+		::Il2CppArray<::System::Object*>* PRmemberData; // 0x10
+		::System::Runtime::Serialization::SerializationInfo* PRsi; // 0x18
+		::System::String* PRkeyDt; // 0x20
+		::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray; // 0x28
+		::Il2CppArray<::System::Object*>* PRobjectA; // 0x30
+		::System::Object* PRnewObj; // 0x38
+		::Il2CppArray<::System::Int32>* PRlowerBoundA; // 0x40
+		::System::String* PRarrayElementTypeString; // 0x48
 		::System::String* PRvalue; // 0x50
-		::Il2CppArray<::System::Int32>* PRpositionA; // 0x58
-		::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray; // 0x60
-		::Il2CppArray<::System::Int32>* PRlowerBoundA; // 0x68
-		::Il2CppArray<::System::Int32>* PRindexMap; // 0x70
-		::System::Object* PRnewObj; // 0x78
-		::System::String* PRkeyDt; // 0x80
-		::System::Type* PRarrayElementType; // 0x88
-		::Il2CppArray<::System::Object*>* PRmemberData; // 0x90
-		::Il2CppArray<::System::Int32>* PRlengthA; // 0x98
-		::Il2CppArray<::System::Object*>* PRobjectA; // 0xA0
-		::System::Int64 PRobjectId; // 0xA8
-		::System::Int64 PRidRef; // 0xB0
-		::System::Int32 PRrank; // 0xB8
-		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode; // 0xBC
+		::Il2CppArray<::System::Int32>* PRupperBoundA; // 0x58
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo; // 0x60
+		::System::Object* PRvarValue; // 0x68
+		::System::Type* PRarrayElementType; // 0x70
+		::Il2CppArray<::System::Int32>* PRindexMap; // 0x78
+		::Il2CppArray<::System::Int32>* PRrectangularMap; // 0x80
+		::System::String* PRname; // 0x88
+		::Il2CppArray<::System::Int32>* PRpositionA; // 0x90
+		::System::Type* PRdtType; // 0x98
+		::Il2CppArray<::System::Int32>* PRlengthA; // 0xA0
+		::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum; // 0xA8
+		::System::Int32 PRmemberIndex; // 0xAC
+		::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum; // 0xB0
+		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode; // 0xB4
+		::System::Int32 PRnullCount; // 0xB8
+		::System::Int32 PRlinearlength; // 0xBC
 		::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum; // 0xC0
-		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode; // 0xC4
-		::System::Int32 PRlinearlength; // 0xC8
-		::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum; // 0xCC
-		::System::Int64 PRtopId; // 0xD0
-		::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum; // 0xD8
-		::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum; // 0xDC
-		::System::Boolean PRisArrayVariant; // 0xE0
-		::System::Boolean PRisValueTypeFixup; // 0xE1
-		::System::Boolean PRisEnum; // 0xE2
-		::System::Boolean PRisRegistered; // 0xE3
-		::System::Boolean PRisLowerBound; // 0xE4
-		::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum; // 0xE8
-		::System::Int32 PRnullCount; // 0xEC
-		::System::Int64 PRheaderId; // 0xF0
-		::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum; // 0xF8
-		::System::Int32 PRmemberIndex; // 0xFC
+		::System::Int32 PRrank; // 0xC4
+		::System::Int64 PRobjectId; // 0xC8
+		::System::Boolean PRisValueTypeFixup; // 0xD0
+		::System::Boolean PRisArrayVariant; // 0xD1
+		::System::Boolean PRisLowerBound; // 0xD2
+		::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum; // 0xD4
+		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode; // 0xD8
+		::System::Boolean PRisEnum; // 0xDC
+		::System::Boolean PRisRegistered; // 0xDD
+		::System::Int64 PRheaderId; // 0xE0
+		::System::Int64 PRidRef; // 0xE8
+		::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum; // 0xF0
+		::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum; // 0xF4
+		::System::Int64 PRtopId; // 0xF8
 
 		::System::Void _ctor()
 		{

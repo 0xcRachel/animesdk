@@ -5,23 +5,27 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_CLOSEHANDLE_OFFSET UNITYSDK_OFFSET(0x15F62DA0)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_CONVERTSIDTOSTRINGSID_OFFSET UNITYSDK_OFFSET(0x15F62E20)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETCURRENTUSERSID_OFFSET UNITYSDK_OFFSET(0x15F63890)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETSIDFROMPROCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x15F62FC0)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETTOKENINFORMATION_OFFSET UNITYSDK_OFFSET(0x15F62CB0)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_LOCALFREE_OFFSET UNITYSDK_OFFSET(0x15F62EF0)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_OPENPROCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x15F62BE0)
-#define MIHOYO_SDK_PC_NATIVE_OS_WIN32__CTOR_OFFSET UNITYSDK_OFFSET(0x15F63B60)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_CLOSEHANDLE_OFFSET UNITYSDK_OFFSET(0x1740A770)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_CONVERTSIDTOSTRINGSID_OFFSET UNITYSDK_OFFSET(0x1740A7F0)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETCURRENTUSERSID_OFFSET UNITYSDK_OFFSET(0x1740B4B0)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETSIDFROMPROCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1740AAB0)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETTOKENINFORMATION_OFFSET UNITYSDK_OFFSET(0x1740A680)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_ISPROTOCOLREGISTERED_OFFSET UNITYSDK_OFFSET(0x1740B380)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_LAUNCHURI_OFFSET UNITYSDK_OFFSET(0x1740B7B0)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_LOCALFREE_OFFSET UNITYSDK_OFFSET(0x1740A8C0)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_OPENPROCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1740A5B0)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32_SHELLEXECUTE_OFFSET UNITYSDK_OFFSET(0x1740A990)
+#define MIHOYO_SDK_PC_NATIVE_OS_WIN32__CTOR_OFFSET UNITYSDK_OFFSET(0x1740BDC0)
 
 namespace MiHoYo::SDK::PC::Native::OS
 {
-	inline static constexpr unsigned int Win32_TypeDefinitionIndex = 7420;
+	inline static constexpr unsigned int Win32_TypeDefinitionIndex = 7496;
 
 	class Win32 : public ::System::Object
 	{
 	public:
 		// static const ::System::Int32 TOKEN_QUERY = 0x8; // 0x0
+		// static const ::System::Int32 SW_SHOWNORMAL = 0x1; // 0x0
 
 		::System::Void _ctor()
 		{
@@ -53,14 +57,29 @@ namespace MiHoYo::SDK::PC::Native::OS
 			return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_NATIVE_OS_WIN32_LOCALFREE_OFFSET))(hMem);
 		}
 
+		static ::System::IntPtr ShellExecute(::System::IntPtr hwnd, ::System::String* lpVerb, ::System::String* lpFile, ::System::String* lpParameters, ::System::String* lpDirectory, ::System::Int32 nShowCmd)
+		{
+			return ((::System::IntPtr(*)(::System::IntPtr, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_NATIVE_OS_WIN32_SHELLEXECUTE_OFFSET))(hwnd, lpVerb, lpFile, lpParameters, lpDirectory, nShowCmd);
+		}
+
 		static ::System::String* GetSidFromProcessToken(::System::IntPtr token)
 		{
 			return ((::System::String*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETSIDFROMPROCESSTOKEN_OFFSET))(token);
 		}
 
+		static ::System::Boolean IsProtocolRegistered(::System::String* protocol)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_NATIVE_OS_WIN32_ISPROTOCOLREGISTERED_OFFSET))(protocol);
+		}
+
 		static ::System::String* GetCurrentUserSid()
 		{
 			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_NATIVE_OS_WIN32_GETCURRENTUSERSID_OFFSET))();
+		}
+
+		static ::System::Boolean LaunchUri(::System::String* uri)
+		{
+			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_NATIVE_OS_WIN32_LAUNCHURI_OFFSET))(uri);
 		}
 	};
 }

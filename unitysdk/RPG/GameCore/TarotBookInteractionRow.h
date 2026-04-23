@@ -7,22 +7,22 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TarotBookConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TAROTBOOKINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x177EA5F0)
-#define RPG_GAMECORE_TAROTBOOKINTERACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x177EAD20)
+#define RPG_GAMECORE_TAROTBOOKINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x171384B0)
+#define RPG_GAMECORE_TAROTBOOKINTERACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17138BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookInteractionRow_TypeDefinitionIndex = 13974;
+	inline static constexpr unsigned int TarotBookInteractionRow_TypeDefinitionIndex = 14449;
 
 	class TarotBookInteractionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TarotBookConditionParam*>* StartConditionList; // 0x10
-		::System::String* JsonPath; // 0x18
-		::Il2CppArray<::RPG::GameCore::TarotBookConditionParam*>* FinishConditionList; // 0x20
+		::System::String* JsonPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::TarotBookConditionParam*>* FinishConditionList; // 0x18
+		::Il2CppArray<::RPG::GameCore::TarotBookConditionParam*>* StartConditionList; // 0x20
 		::RPG::Client::TextID Title; // 0x28
-		::System::UInt32 ID; // 0x38
-		::System::UInt32 Priority; // 0x3C
+		::System::UInt32 Priority; // 0x38
+		::System::UInt32 ID; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -4,17 +4,17 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_EC1575D89BE622C6_METHOD_1_1C77BEFB194FCFF1_OFFSET UNITYSDK_OFFSET(0x89EF630)
-#define CLASS_1_EC1575D89BE622C6__CTOR_OFFSET UNITYSDK_OFFSET(0x89EF990)
+#define CLASS_1_EC1575D89BE622C6_METHOD_1_1C77BEFB194FCFF1_OFFSET UNITYSDK_OFFSET(0xECDACA0)
+#define CLASS_1_EC1575D89BE622C6__CTOR_OFFSET UNITYSDK_OFFSET(0xECDB000)
 
-inline static constexpr unsigned int Class_1_EC1575D89BE622C6_TypeDefinitionIndex = 55409;
+inline static constexpr unsigned int Class_1_EC1575D89BE622C6_TypeDefinitionIndex = 62600;
 
 class Class_1_EC1575D89BE622C6 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EC1575D89BE622C6_TypeDefinitionIndex)->GetStaticField(0x3BDF0);
+		return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EC1575D89BE622C6_TypeDefinitionIndex)->GetStaticField(0x5B850);
 	}
 
 	::System::Void _ctor()

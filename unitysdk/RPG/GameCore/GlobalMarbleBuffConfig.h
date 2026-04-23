@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MarbleBuffConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG_METHOD_2_384AC304324C9232_OFFSET UNITYSDK_OFFSET(0x17243D10)
-#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1725CDD0)
+#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG_METHOD_2_384AC304324C9232_OFFSET UNITYSDK_OFFSET(0x1955C190)
+#define RPG_GAMECORE_GLOBALMARBLEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1955C2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMarbleBuffConfig_TypeDefinitionIndex = 15474;
+	inline static constexpr unsigned int GlobalMarbleBuffConfig_TypeDefinitionIndex = 15994;
 
 	class GlobalMarbleBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

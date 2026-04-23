@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x173965C0)
-#define RPG_GAMECORE_MAPSHORTCUTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17396D50)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18FE0AC0)
+#define RPG_GAMECORE_MAPSHORTCUTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE1210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapShortCutConfigRow_TypeDefinitionIndex = 11466;
+	inline static constexpr unsigned int MapShortCutConfigRow_TypeDefinitionIndex = 11868;
 
 	class MapShortCutConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* Params; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::UInt32 ID; // 0x20
-		::RPG::GameCore::MapShortCutType Type; // 0x24
-		::RPG::Client::TextID Name; // 0x28
-		::System::UInt32 EntranceID; // 0x38
-		::System::UInt32 MappingInfoID; // 0x3C
-		::System::UInt32 UnlockID; // 0x40
+		::System::UInt32 EntranceID; // 0x20
+		::System::UInt32 UnlockID; // 0x24
+		::System::UInt32 ID; // 0x28
+		::RPG::Client::TextID Name; // 0x30
+		::RPG::GameCore::MapShortCutType Type; // 0x40
+		::System::UInt32 MappingInfoID; // 0x44
 
 		::System::Void _ctor()
 		{

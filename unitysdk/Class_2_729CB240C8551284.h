@@ -6,18 +6,18 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameFlow; }
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameSession; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_729CB240C8551284_CLEAR_OFFSET UNITYSDK_OFFSET(0x1187F270)
-#define CLASS_2_729CB240C8551284__CTOR_OFFSET UNITYSDK_OFFSET(0x1187F300)
-#define CLASS_2_729CB240C8551284___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1187F310)
+#define CLASS_2_729CB240C8551284_CLEAR_OFFSET UNITYSDK_OFFSET(0xF0729C0)
+#define CLASS_2_729CB240C8551284__CTOR_OFFSET UNITYSDK_OFFSET(0xF072A50)
+#define CLASS_2_729CB240C8551284___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF072A60)
 
-inline static constexpr unsigned int Class_2_729CB240C8551284_TypeDefinitionIndex = 63255;
+inline static constexpr unsigned int Class_2_729CB240C8551284_TypeDefinitionIndex = 71295;
 
 class Class_2_729CB240C8551284 : public ::Class_1_75C90E178B164D38
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x28
-	::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow* Field_2_2; // 0x30
-	::RPG::Client::ChenLingBattle::ChenLingBattleGameSession* Field_2_1; // 0x38
+	::RPG::Client::ChenLingBattle::ChenLingBattleGameFlow* Field_2_2; // 0x28
+	::RPG::Client::ChenLingBattle::ChenLingBattleGameSession* Field_2_1; // 0x30
+	::UnityEngine::Transform* Field_2_0; // 0x38
 	::System::Int32 Field_2_3; // 0x40
 
 	::System::Void _ctor()

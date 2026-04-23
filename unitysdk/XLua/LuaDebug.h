@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define XLUA_LUADEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0xFF75B20)
+#define XLUA_LUADEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0xA28C7C0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaDebug_TypeDefinitionIndex = 40530;
+	inline static constexpr unsigned int LuaDebug_TypeDefinitionIndex = 46443;
 
 	class LuaDebug : public ::System::Object
 	{

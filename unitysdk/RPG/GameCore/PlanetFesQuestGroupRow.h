@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x174D3320)
-#define RPG_GAMECORE_PLANETFESQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x174D34C0)
+#define RPG_GAMECORE_PLANETFESQUESTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18B33E50)
+#define RPG_GAMECORE_PLANETFESQUESTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18B33FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesQuestGroupRow_TypeDefinitionIndex = 11153;
+	inline static constexpr unsigned int PlanetFesQuestGroupRow_TypeDefinitionIndex = 11556;
 
 	class PlanetFesQuestGroupRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::Il2CppArray<::System::UInt32>* RewardIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* RewardIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
 		::System::UInt32 GroupID; // 0x20
 
 		::System::Void _ctor()

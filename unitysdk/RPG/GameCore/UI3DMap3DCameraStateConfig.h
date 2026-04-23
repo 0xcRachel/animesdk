@@ -5,11 +5,11 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_UI3DMAP3DCAMERASTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB02080)
+#define RPG_GAMECORE_UI3DMAP3DCAMERASTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x155809D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DMap3DCameraStateConfig_TypeDefinitionIndex = 46370;
+	inline static constexpr unsigned int UI3DMap3DCameraStateConfig_TypeDefinitionIndex = 53045;
 
 	class UI3DMap3DCameraStateConfig : public ::System::Object
 	{

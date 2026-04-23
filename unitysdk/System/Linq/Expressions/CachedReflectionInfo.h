@@ -4,23 +4,23 @@
 
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_MATH_POW_DOUBLE_DOUBLE_OFFSET UNITYSDK_OFFSET(0x184A5180)
-#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_OP_EQUALITY_STRING_STRING_OFFSET UNITYSDK_OFFSET(0x184A4F70)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_MATH_POW_DOUBLE_DOUBLE_OFFSET UNITYSDK_OFFSET(0x1842C340)
+#define SYSTEM_LINQ_EXPRESSIONS_CACHEDREFLECTIONINFO_GET_STRING_OP_EQUALITY_STRING_STRING_OFFSET UNITYSDK_OFFSET(0x1842C130)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int CachedReflectionInfo_TypeDefinitionIndex = 3167;
+	inline static constexpr unsigned int CachedReflectionInfo_TypeDefinitionIndex = 3169;
 
 	class CachedReflectionInfo : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_s_Math_Pow_Double_Double()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x1AD40);
-		}
 		static ::System::Reflection::MethodInfo** StaticGet_s_String_op_Equality_String_String()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0x1AD48);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0xE150);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_s_Math_Pow_Double_Double()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(CachedReflectionInfo_TypeDefinitionIndex)->GetStaticField(0xE158);
 		}
 
 		static ::System::Reflection::MethodInfo* get_String_op_Equality_String_String()

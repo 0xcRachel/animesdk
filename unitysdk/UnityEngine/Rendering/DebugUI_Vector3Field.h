@@ -3,17 +3,17 @@
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR3FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x188F5250)
+#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR3FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x18B0FAD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Vector3Field_TypeDefinitionIndex = 27828;
+	inline static constexpr unsigned int DebugUI_Vector3Field_TypeDefinitionIndex = 33452;
 
 	class DebugUI_Vector3Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector3>
 	{
 	public:
-		::System::Single incStep; // 0x50
-		::System::Single incStepMult; // 0x54
+		::System::Single incStepMult; // 0x50
+		::System::Single incStep; // 0x54
 		::System::Int32 decimals; // 0x58
 
 		::System::Void _ctor()

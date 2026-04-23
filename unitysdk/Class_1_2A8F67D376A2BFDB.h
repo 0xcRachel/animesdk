@@ -9,22 +9,22 @@ namespace System { class Action; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CLASS_1_2A8F67D376A2BFDB_CLEAR_OFFSET UNITYSDK_OFFSET(0x89C9470)
-#define CLASS_1_2A8F67D376A2BFDB_GET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x89C9640)
-#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_3844928E9495F691_OFFSET UNITYSDK_OFFSET(0x89C95B0)
-#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x89C9550)
-#define CLASS_1_2A8F67D376A2BFDB_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x89C9650)
-#define CLASS_1_2A8F67D376A2BFDB__CTOR_OFFSET UNITYSDK_OFFSET(0x89C9660)
+#define CLASS_1_2A8F67D376A2BFDB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1050B4A0)
+#define CLASS_1_2A8F67D376A2BFDB_GET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x1050B670)
+#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_3844928E9495F691_OFFSET UNITYSDK_OFFSET(0x1050B5E0)
+#define CLASS_1_2A8F67D376A2BFDB_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1050B580)
+#define CLASS_1_2A8F67D376A2BFDB_SET_CAPTURETEXTURE_OFFSET UNITYSDK_OFFSET(0x1050B680)
+#define CLASS_1_2A8F67D376A2BFDB__CTOR_OFFSET UNITYSDK_OFFSET(0x1050B690)
 
-inline static constexpr unsigned int Class_1_2A8F67D376A2BFDB_TypeDefinitionIndex = 59661;
+inline static constexpr unsigned int Class_1_2A8F67D376A2BFDB_TypeDefinitionIndex = 67057;
 
 class Class_1_2A8F67D376A2BFDB : public ::System::Object
 {
 public:
-	::UnityEngine::RenderTexture* _CaptureTexture_k__BackingField; // 0x10
-	::UnityEngine::UI::RawImage* Field_1_4; // 0x18
-	::System::Action* Field_1_6; // 0x20
-	::RPG::Client::UIValueChangeAnimation* Field_1_3; // 0x28
+	::System::Action* Field_1_6; // 0x10
+	::RPG::Client::UIValueChangeAnimation* Field_1_3; // 0x18
+	::UnityEngine::UI::RawImage* Field_1_4; // 0x20
+	::UnityEngine::RenderTexture* _CaptureTexture_k__BackingField; // 0x28
 	::RPG::Client::UIMeta* Field_1_7; // 0x30
 	::System::Single Field_1_2; // 0x38
 	::RPG::GameCore::FrameCaptureFadeoutType Field_1_0; // 0x3C

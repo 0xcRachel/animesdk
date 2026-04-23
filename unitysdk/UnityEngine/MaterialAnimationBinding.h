@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_MATERIALANIMATIONBINDING_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x18A2A6F0)
-#define UNITYENGINE_MATERIALANIMATIONBINDING_SET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x18A2A6E0)
+#define UNITYENGINE_MATERIALANIMATIONBINDING_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1A471720)
+#define UNITYENGINE_MATERIALANIMATIONBINDING_SET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1A471710)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MaterialAnimationBinding_TypeDefinitionIndex = 4186;
+	inline static constexpr unsigned int MaterialAnimationBinding_TypeDefinitionIndex = 4188;
 
 	class MaterialAnimationBinding : public ::UnityEngine::Component
 	{

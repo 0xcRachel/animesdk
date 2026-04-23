@@ -5,15 +5,15 @@
 class Class_1_0574DA6BF5DF5E24;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_1_EA768D174D2C64D3__CTOR_OFFSET UNITYSDK_OFFSET(0x1696EEE0)
+#define CLASS_1_EA768D174D2C64D3__CTOR_OFFSET UNITYSDK_OFFSET(0x16E06130)
 
-inline static constexpr unsigned int Class_1_EA768D174D2C64D3_TypeDefinitionIndex = 32252;
+inline static constexpr unsigned int Class_1_EA768D174D2C64D3_TypeDefinitionIndex = 37972;
 
 class Class_1_EA768D174D2C64D3 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Queue_1<::Class_1_0574DA6BF5DF5E24*>* Field_1_1; // 0x10
-	::System::Collections::Generic::Queue_1<::Class_1_0574DA6BF5DF5E24*>* Field_1_0; // 0x18
+	::System::Collections::Generic::Queue_1<::Class_1_0574DA6BF5DF5E24*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Queue_1<::Class_1_0574DA6BF5DF5E24*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InfiniteWaveSkipTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_211AC962789A12FC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C6CE30)
-#define CLASS_3_211AC962789A12FC__CTOR_OFFSET UNITYSDK_OFFSET(0x10C6CE00)
+#define CLASS_3_211AC962789A12FC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF36B3A0)
+#define CLASS_3_211AC962789A12FC__CTOR_OFFSET UNITYSDK_OFFSET(0xF36B370)
 
-inline static constexpr unsigned int Class_3_211AC962789A12FC_TypeDefinitionIndex = 44109;
+inline static constexpr unsigned int Class_3_211AC962789A12FC_TypeDefinitionIndex = 50814;
 
 class Class_3_211AC962789A12FC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InfiniteWaveSkipTo*>
 {
